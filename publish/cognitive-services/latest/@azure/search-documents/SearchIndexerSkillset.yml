@@ -1,0 +1,76 @@
+### YamlMime:TSType
+name: SearchIndexerSkillset
+uid: '@azure/search-documents.SearchIndexerSkillset|latest'
+package: '@azure/search-documents'
+summary: A list of skills.
+fullName: SearchIndexerSkillset
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: cognitiveServicesAccount
+    uid: '@azure/search-documents.SearchIndexerSkillset.cognitiveServicesAccount|latest'
+    package: '@azure/search-documents'
+    summary: Details about cognitive services to be used when running skills.
+    fullName: cognitiveServicesAccount
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'cognitiveServicesAccount?: CognitiveServicesAccount'
+      return:
+        type: <xref uid="@azure/search-documents.CognitiveServicesAccount|latest" />
+        description: ''
+  - name: description
+    uid: '@azure/search-documents.SearchIndexerSkillset.description|latest'
+    package: '@azure/search-documents'
+    summary: The description of the skillset.
+    fullName: description
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'description?: string'
+      return:
+        type: string
+        description: ''
+  - name: etag
+    uid: '@azure/search-documents.SearchIndexerSkillset.etag|latest'
+    package: '@azure/search-documents'
+    summary: The ETag of the skillset.
+    fullName: etag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'etag?: string'
+      return:
+        type: string
+        description: ''
+  - name: name
+    uid: '@azure/search-documents.SearchIndexerSkillset.name|latest'
+    package: '@azure/search-documents'
+    summary: The name of the skillset.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        type: string
+        description: ''
+  - name: skills
+    uid: '@azure/search-documents.SearchIndexerSkillset.skills|latest'
+    package: '@azure/search-documents'
+    summary: A list of skills in the skillset.
+    fullName: skills
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'skills: SearchIndexerSkill[]'
+      return:
+        type: '<xref uid="@azure/search-documents.SearchIndexerSkill|latest" />[]'
+        description: ''

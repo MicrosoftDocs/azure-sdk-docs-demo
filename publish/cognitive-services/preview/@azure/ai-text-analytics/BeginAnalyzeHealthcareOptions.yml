@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: BeginAnalyzeHealthcareOptions
+uid: '@azure/ai-text-analytics.BeginAnalyzeHealthcareOptions|preview'
+package: '@azure/ai-text-analytics'
+summary: Options for the begin analyze healthcare operation.
+fullName: BeginAnalyzeHealthcareOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: health
+    uid: '@azure/ai-text-analytics.BeginAnalyzeHealthcareOptions.health|preview'
+    package: '@azure/ai-text-analytics'
+    summary: Options related to the healthcare job.
+    fullName: health
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'health?: HealthcareJobOptions'
+      return:
+        type: <xref uid="@azure/ai-text-analytics.HealthcareJobOptions|preview" />
+        description: ''
+  - name: polling
+    uid: '@azure/ai-text-analytics.BeginAnalyzeHealthcareOptions.polling|preview'
+    package: '@azure/ai-text-analytics'
+    summary: Options related to polling from the service.
+    fullName: polling
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'polling?: PollingOptions'
+      return:
+        type: <xref uid="@azure/ai-text-analytics.PollingOptions|preview" />
+        description: ''

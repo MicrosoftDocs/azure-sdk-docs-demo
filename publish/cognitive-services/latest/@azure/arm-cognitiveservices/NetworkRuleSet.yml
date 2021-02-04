@@ -1,0 +1,55 @@
+### YamlMime:TSType
+name: NetworkRuleSet
+uid: '@azure/arm-cognitiveservices.NetworkRuleSet|latest'
+package: '@azure/arm-cognitiveservices'
+summary: A set of rules governing the network accessibility.
+fullName: NetworkRuleSet
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: defaultAction
+    uid: '@azure/arm-cognitiveservices.NetworkRuleSet.defaultAction|latest'
+    package: '@azure/arm-cognitiveservices'
+    summary: >-
+      The default action when no rule from ipRules and from virtualNetworkRules
+      match. This is only
+
+      used after the bypass property has been evaluated. Possible values
+      include: 'Allow', 'Deny'
+    fullName: defaultAction
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'defaultAction?: NetworkRuleAction'
+      return:
+        type: <xref uid="@azure/arm-cognitiveservices.NetworkRuleAction|latest" />
+        description: ''
+  - name: ipRules
+    uid: '@azure/arm-cognitiveservices.NetworkRuleSet.ipRules|latest'
+    package: '@azure/arm-cognitiveservices'
+    summary: The list of IP address rules.
+    fullName: ipRules
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'ipRules?: IpRule[]'
+      return:
+        type: '<xref uid="@azure/arm-cognitiveservices.IpRule|latest" />[]'
+        description: ''
+  - name: virtualNetworkRules
+    uid: '@azure/arm-cognitiveservices.NetworkRuleSet.virtualNetworkRules|latest'
+    package: '@azure/arm-cognitiveservices'
+    summary: The list of virtual network rules.
+    fullName: virtualNetworkRules
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'virtualNetworkRules?: VirtualNetworkRule[]'
+      return:
+        type: '<xref uid="@azure/arm-cognitiveservices.VirtualNetworkRule|latest" />[]'
+        description: ''
