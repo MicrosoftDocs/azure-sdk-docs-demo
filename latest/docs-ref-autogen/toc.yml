@@ -14,6 +14,47 @@
     - uid: '@azure/abort-controller.AbortSignalLike'
       name: AbortSignalLike
       items: []
+- name: '@azure/ai-anomaly-detector'
+  items:
+    - name: Overview
+      uid: '@azure/ai-anomaly-detector'
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorClient'
+      name: AnomalyDetectorClient
+      items: []
+    - uid: >-
+        @azure/ai-anomaly-detector.AnomalyDetectorClientDetectChangePointResponse
+      name: AnomalyDetectorClientDetectChangePointResponse
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientDetectEntireResponse'
+      name: AnomalyDetectorClientDetectEntireResponse
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientDetectLastPointResponse'
+      name: AnomalyDetectorClientDetectLastPointResponse
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientOptions'
+      name: AnomalyDetectorClientOptions
+      items: []
+    - uid: '@azure/ai-anomaly-detector.DetectChangePointRequest'
+      name: DetectChangePointRequest
+      items: []
+    - uid: '@azure/ai-anomaly-detector.DetectChangePointResponse'
+      name: DetectChangePointResponse
+      items: []
+    - uid: '@azure/ai-anomaly-detector.DetectEntireResponse'
+      name: DetectEntireResponse
+      items: []
+    - uid: '@azure/ai-anomaly-detector.DetectLastPointResponse'
+      name: DetectLastPointResponse
+      items: []
+    - uid: '@azure/ai-anomaly-detector.DetectRequest'
+      name: DetectRequest
+      items: []
+    - uid: '@azure/ai-anomaly-detector.TimeGranularity'
+      name: TimeGranularity
+      items: []
+    - uid: '@azure/ai-anomaly-detector.TimeSeriesPoint'
+      name: TimeSeriesPoint
+      items: []
 - name: '@azure/ai-form-recognizer'
   items:
     - name: Overview
@@ -460,6 +501,220 @@
       items: []
     - uid: '@azure/app-configuration.SyncTokenHeaderField'
       name: SyncTokenHeaderField
+      items: []
+- name: '@azure/arm-appconfiguration'
+  items:
+    - name: Overview
+      uid: '@azure/arm-appconfiguration'
+    - uid: '@azure/arm-appconfiguration.ActionsRequired'
+      name: ActionsRequired
+      items: []
+    - uid: '@azure/arm-appconfiguration.ApiKey'
+      name: ApiKey
+      items: []
+    - uid: '@azure/arm-appconfiguration.ApiKeyListResult'
+      name: ApiKeyListResult
+      items: []
+    - uid: '@azure/arm-appconfiguration.AppConfigurationManagementClient'
+      name: AppConfigurationManagementClient
+      items: []
+    - uid: '@azure/arm-appconfiguration.AppConfigurationManagementClientContext'
+      name: AppConfigurationManagementClientContext
+      items: []
+    - uid: '@azure/arm-appconfiguration.AppConfigurationManagementClientOptions'
+      name: AppConfigurationManagementClientOptions
+      items: []
+    - uid: '@azure/arm-appconfiguration.CheckNameAvailabilityParameters'
+      name: CheckNameAvailabilityParameters
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConfigurationStore'
+      name: ConfigurationStore
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConfigurationStoreListResult'
+      name: ConfigurationStoreListResult
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConfigurationStores'
+      name: ConfigurationStores
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConfigurationStoresBeginCreateResponse'
+      name: ConfigurationStoresBeginCreateResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConfigurationStoresBeginUpdateResponse'
+      name: ConfigurationStoresBeginUpdateResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConfigurationStoresCreateResponse'
+      name: ConfigurationStoresCreateResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConfigurationStoresGetResponse'
+      name: ConfigurationStoresGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-appconfiguration.ConfigurationStoresListByResourceGroupNextResponse
+      name: ConfigurationStoresListByResourceGroupNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-appconfiguration.ConfigurationStoresListByResourceGroupOptionalParams
+      name: ConfigurationStoresListByResourceGroupOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-appconfiguration.ConfigurationStoresListByResourceGroupResponse
+      name: ConfigurationStoresListByResourceGroupResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConfigurationStoresListKeysNextResponse'
+      name: ConfigurationStoresListKeysNextResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConfigurationStoresListKeysOptionalParams'
+      name: ConfigurationStoresListKeysOptionalParams
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConfigurationStoresListKeysResponse'
+      name: ConfigurationStoresListKeysResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConfigurationStoresListKeyValueResponse'
+      name: ConfigurationStoresListKeyValueResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConfigurationStoresListNextResponse'
+      name: ConfigurationStoresListNextResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConfigurationStoresListOptionalParams'
+      name: ConfigurationStoresListOptionalParams
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConfigurationStoresListResponse'
+      name: ConfigurationStoresListResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConfigurationStoresRegenerateKeyResponse'
+      name: ConfigurationStoresRegenerateKeyResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConfigurationStoresUpdateResponse'
+      name: ConfigurationStoresUpdateResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConfigurationStoreUpdateParameters'
+      name: ConfigurationStoreUpdateParameters
+      items: []
+    - uid: '@azure/arm-appconfiguration.ConnectionStatus'
+      name: ConnectionStatus
+      items: []
+    - uid: '@azure/arm-appconfiguration.EncryptionProperties'
+      name: EncryptionProperties
+      items: []
+    - uid: '@azure/arm-appconfiguration.ErrorModel'
+      name: ErrorModel
+      items: []
+    - uid: '@azure/arm-appconfiguration.IdentityType'
+      name: IdentityType
+      items: []
+    - uid: '@azure/arm-appconfiguration.KeyValue'
+      name: KeyValue
+      items: []
+    - uid: '@azure/arm-appconfiguration.KeyVaultProperties'
+      name: KeyVaultProperties
+      items: []
+    - uid: '@azure/arm-appconfiguration.ListKeyValueParameters'
+      name: ListKeyValueParameters
+      items: []
+    - uid: '@azure/arm-appconfiguration.NameAvailabilityStatus'
+      name: NameAvailabilityStatus
+      items: []
+    - uid: '@azure/arm-appconfiguration.OperationDefinition'
+      name: OperationDefinition
+      items: []
+    - uid: '@azure/arm-appconfiguration.OperationDefinitionDisplay'
+      name: OperationDefinitionDisplay
+      items: []
+    - uid: '@azure/arm-appconfiguration.OperationDefinitionListResult'
+      name: OperationDefinitionListResult
+      items: []
+    - uid: '@azure/arm-appconfiguration.Operations'
+      name: Operations
+      items: []
+    - uid: '@azure/arm-appconfiguration.OperationsCheckNameAvailabilityResponse'
+      name: OperationsCheckNameAvailabilityResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.OperationsListNextResponse'
+      name: OperationsListNextResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.OperationsListOptionalParams'
+      name: OperationsListOptionalParams
+      items: []
+    - uid: '@azure/arm-appconfiguration.OperationsListResponse'
+      name: OperationsListResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.PrivateEndpoint'
+      name: PrivateEndpoint
+      items: []
+    - uid: '@azure/arm-appconfiguration.PrivateEndpointConnection'
+      name: PrivateEndpointConnection
+      items: []
+    - uid: '@azure/arm-appconfiguration.PrivateEndpointConnectionListResult'
+      name: PrivateEndpointConnectionListResult
+      items: []
+    - uid: '@azure/arm-appconfiguration.PrivateEndpointConnectionReference'
+      name: PrivateEndpointConnectionReference
+      items: []
+    - uid: '@azure/arm-appconfiguration.PrivateEndpointConnections'
+      name: PrivateEndpointConnections
+      items: []
+    - uid: >-
+        @azure/arm-appconfiguration.PrivateEndpointConnectionsBeginCreateOrUpdateResponse
+      name: PrivateEndpointConnectionsBeginCreateOrUpdateResponse
+      items: []
+    - uid: >-
+        @azure/arm-appconfiguration.PrivateEndpointConnectionsCreateOrUpdateResponse
+      name: PrivateEndpointConnectionsCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.PrivateEndpointConnectionsGetResponse'
+      name: PrivateEndpointConnectionsGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-appconfiguration.PrivateEndpointConnectionsListByConfigurationStoreNextResponse
+      name: PrivateEndpointConnectionsListByConfigurationStoreNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-appconfiguration.PrivateEndpointConnectionsListByConfigurationStoreResponse
+      name: PrivateEndpointConnectionsListByConfigurationStoreResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.PrivateLinkResource'
+      name: PrivateLinkResource
+      items: []
+    - uid: '@azure/arm-appconfiguration.PrivateLinkResourceListResult'
+      name: PrivateLinkResourceListResult
+      items: []
+    - uid: '@azure/arm-appconfiguration.PrivateLinkResources'
+      name: PrivateLinkResources
+      items: []
+    - uid: '@azure/arm-appconfiguration.PrivateLinkResourcesGetResponse'
+      name: PrivateLinkResourcesGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-appconfiguration.PrivateLinkResourcesListByConfigurationStoreNextResponse
+      name: PrivateLinkResourcesListByConfigurationStoreNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-appconfiguration.PrivateLinkResourcesListByConfigurationStoreResponse
+      name: PrivateLinkResourcesListByConfigurationStoreResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.PrivateLinkServiceConnectionState'
+      name: PrivateLinkServiceConnectionState
+      items: []
+    - uid: '@azure/arm-appconfiguration.ProvisioningState'
+      name: ProvisioningState
+      items: []
+    - uid: '@azure/arm-appconfiguration.PublicNetworkAccess'
+      name: PublicNetworkAccess
+      items: []
+    - uid: '@azure/arm-appconfiguration.RegenerateKeyParameters'
+      name: RegenerateKeyParameters
+      items: []
+    - uid: '@azure/arm-appconfiguration.Resource'
+      name: Resource
+      items: []
+    - uid: '@azure/arm-appconfiguration.ResourceIdentity'
+      name: ResourceIdentity
+      items: []
+    - uid: '@azure/arm-appconfiguration.Sku'
+      name: Sku
+      items: []
+    - uid: '@azure/arm-appconfiguration.UserIdentity'
+      name: UserIdentity
       items: []
 - name: '@azure/arm-cognitiveservices'
   items:
@@ -913,6 +1168,459 @@
       items: []
     - uid: '@azure/arm-keyvault.VirtualNetworkRule'
       name: VirtualNetworkRule
+      items: []
+- name: '@azure/arm-servicebus'
+  items:
+    - name: Overview
+      uid: '@azure/arm-servicebus'
+    - uid: '@azure/arm-servicebus.AccessKeys'
+      name: AccessKeys
+      items: []
+    - uid: '@azure/arm-servicebus.AccessRights'
+      name: AccessRights
+      items: []
+    - uid: '@azure/arm-servicebus.Action'
+      name: Action
+      items: []
+    - uid: '@azure/arm-servicebus.ArmDisasterRecovery'
+      name: ArmDisasterRecovery
+      items: []
+    - uid: '@azure/arm-servicebus.ArmDisasterRecoveryListResult'
+      name: ArmDisasterRecoveryListResult
+      items: []
+    - uid: '@azure/arm-servicebus.AuthorizationRuleProperties'
+      name: AuthorizationRuleProperties
+      items: []
+    - uid: '@azure/arm-servicebus.CaptureDescription'
+      name: CaptureDescription
+      items: []
+    - uid: '@azure/arm-servicebus.CheckNameAvailability'
+      name: CheckNameAvailability
+      items: []
+    - uid: '@azure/arm-servicebus.CheckNameAvailabilityResult'
+      name: CheckNameAvailabilityResult
+      items: []
+    - uid: '@azure/arm-servicebus.CorrelationFilter'
+      name: CorrelationFilter
+      items: []
+    - uid: '@azure/arm-servicebus.DefaultAction'
+      name: DefaultAction
+      items: []
+    - uid: '@azure/arm-servicebus.Destination'
+      name: Destination
+      items: []
+    - uid: '@azure/arm-servicebus.DisasterRecoveryConfigs'
+      name: DisasterRecoveryConfigs
+      items: []
+    - uid: >-
+        @azure/arm-servicebus.DisasterRecoveryConfigsCheckNameAvailabilityMethodResponse
+      name: DisasterRecoveryConfigsCheckNameAvailabilityMethodResponse
+      items: []
+    - uid: '@azure/arm-servicebus.DisasterRecoveryConfigsCreateOrUpdateResponse'
+      name: DisasterRecoveryConfigsCreateOrUpdateResponse
+      items: []
+    - uid: >-
+        @azure/arm-servicebus.DisasterRecoveryConfigsGetAuthorizationRuleResponse
+      name: DisasterRecoveryConfigsGetAuthorizationRuleResponse
+      items: []
+    - uid: '@azure/arm-servicebus.DisasterRecoveryConfigsGetResponse'
+      name: DisasterRecoveryConfigsGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-servicebus.DisasterRecoveryConfigsListAuthorizationRulesNextResponse
+      name: DisasterRecoveryConfigsListAuthorizationRulesNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-servicebus.DisasterRecoveryConfigsListAuthorizationRulesResponse
+      name: DisasterRecoveryConfigsListAuthorizationRulesResponse
+      items: []
+    - uid: '@azure/arm-servicebus.DisasterRecoveryConfigsListKeysResponse'
+      name: DisasterRecoveryConfigsListKeysResponse
+      items: []
+    - uid: '@azure/arm-servicebus.DisasterRecoveryConfigsListNextResponse'
+      name: DisasterRecoveryConfigsListNextResponse
+      items: []
+    - uid: '@azure/arm-servicebus.DisasterRecoveryConfigsListResponse'
+      name: DisasterRecoveryConfigsListResponse
+      items: []
+    - uid: '@azure/arm-servicebus.EncodingCaptureDescription'
+      name: EncodingCaptureDescription
+      items: []
+    - uid: '@azure/arm-servicebus.EntityStatus'
+      name: EntityStatus
+      items: []
+    - uid: '@azure/arm-servicebus.ErrorResponse'
+      name: ErrorResponse
+      items: []
+    - uid: '@azure/arm-servicebus.Eventhub'
+      name: Eventhub
+      items: []
+    - uid: '@azure/arm-servicebus.EventHubListResult'
+      name: EventHubListResult
+      items: []
+    - uid: '@azure/arm-servicebus.EventHubs'
+      name: EventHubs
+      items: []
+    - uid: '@azure/arm-servicebus.EventHubsListByNamespaceNextResponse'
+      name: EventHubsListByNamespaceNextResponse
+      items: []
+    - uid: '@azure/arm-servicebus.EventHubsListByNamespaceResponse'
+      name: EventHubsListByNamespaceResponse
+      items: []
+    - uid: '@azure/arm-servicebus.FilterType'
+      name: FilterType
+      items: []
+    - uid: '@azure/arm-servicebus.KeyType'
+      name: KeyType
+      items: []
+    - uid: '@azure/arm-servicebus.MessageCountDetails'
+      name: MessageCountDetails
+      items: []
+    - uid: '@azure/arm-servicebus.MigrationConfigListResult'
+      name: MigrationConfigListResult
+      items: []
+    - uid: '@azure/arm-servicebus.MigrationConfigProperties'
+      name: MigrationConfigProperties
+      items: []
+    - uid: '@azure/arm-servicebus.MigrationConfigs'
+      name: MigrationConfigs
+      items: []
+    - uid: >-
+        @azure/arm-servicebus.MigrationConfigsBeginCreateAndStartMigrationResponse
+      name: MigrationConfigsBeginCreateAndStartMigrationResponse
+      items: []
+    - uid: '@azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationResponse'
+      name: MigrationConfigsCreateAndStartMigrationResponse
+      items: []
+    - uid: '@azure/arm-servicebus.MigrationConfigsGetResponse'
+      name: MigrationConfigsGetResponse
+      items: []
+    - uid: '@azure/arm-servicebus.MigrationConfigsListNextResponse'
+      name: MigrationConfigsListNextResponse
+      items: []
+    - uid: '@azure/arm-servicebus.MigrationConfigsListResponse'
+      name: MigrationConfigsListResponse
+      items: []
+    - uid: '@azure/arm-servicebus.Namespaces'
+      name: Namespaces
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesBeginCreateOrUpdateResponse'
+      name: NamespacesBeginCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesCheckNameAvailabilityMethodResponse'
+      name: NamespacesCheckNameAvailabilityMethodResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesCreateOrUpdateAuthorizationRuleResponse'
+      name: NamespacesCreateOrUpdateAuthorizationRuleResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesCreateOrUpdateNetworkRuleSetResponse'
+      name: NamespacesCreateOrUpdateNetworkRuleSetResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesCreateOrUpdateResponse'
+      name: NamespacesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesGetAuthorizationRuleResponse'
+      name: NamespacesGetAuthorizationRuleResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesGetNetworkRuleSetResponse'
+      name: NamespacesGetNetworkRuleSetResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesGetResponse'
+      name: NamespacesGetResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesListAuthorizationRulesNextResponse'
+      name: NamespacesListAuthorizationRulesNextResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesListAuthorizationRulesResponse'
+      name: NamespacesListAuthorizationRulesResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesListByResourceGroupNextResponse'
+      name: NamespacesListByResourceGroupNextResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesListByResourceGroupResponse'
+      name: NamespacesListByResourceGroupResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesListKeysResponse'
+      name: NamespacesListKeysResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesListNetworkRuleSetsNextResponse'
+      name: NamespacesListNetworkRuleSetsNextResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesListNetworkRuleSetsResponse'
+      name: NamespacesListNetworkRuleSetsResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesListNextResponse'
+      name: NamespacesListNextResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesListResponse'
+      name: NamespacesListResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesRegenerateKeysResponse'
+      name: NamespacesRegenerateKeysResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NamespacesUpdateResponse'
+      name: NamespacesUpdateResponse
+      items: []
+    - uid: '@azure/arm-servicebus.NameSpaceType'
+      name: NameSpaceType
+      items: []
+    - uid: '@azure/arm-servicebus.NetworkRuleIPAction'
+      name: NetworkRuleIPAction
+      items: []
+    - uid: '@azure/arm-servicebus.NetworkRuleSet'
+      name: NetworkRuleSet
+      items: []
+    - uid: '@azure/arm-servicebus.NetworkRuleSetListResult'
+      name: NetworkRuleSetListResult
+      items: []
+    - uid: '@azure/arm-servicebus.NWRuleSetIpRules'
+      name: NWRuleSetIpRules
+      items: []
+    - uid: '@azure/arm-servicebus.NWRuleSetVirtualNetworkRules'
+      name: NWRuleSetVirtualNetworkRules
+      items: []
+    - uid: '@azure/arm-servicebus.Operation'
+      name: Operation
+      items: []
+    - uid: '@azure/arm-servicebus.OperationDisplay'
+      name: OperationDisplay
+      items: []
+    - uid: '@azure/arm-servicebus.OperationListResult'
+      name: OperationListResult
+      items: []
+    - uid: '@azure/arm-servicebus.Operations'
+      name: Operations
+      items: []
+    - uid: '@azure/arm-servicebus.OperationsListNextResponse'
+      name: OperationsListNextResponse
+      items: []
+    - uid: '@azure/arm-servicebus.OperationsListResponse'
+      name: OperationsListResponse
+      items: []
+    - uid: '@azure/arm-servicebus.PremiumMessagingRegions'
+      name: PremiumMessagingRegions
+      items: []
+    - uid: '@azure/arm-servicebus.PremiumMessagingRegionsListNextResponse'
+      name: PremiumMessagingRegionsListNextResponse
+      items: []
+    - uid: '@azure/arm-servicebus.PremiumMessagingRegionsListResponse'
+      name: PremiumMessagingRegionsListResponse
+      items: []
+    - uid: '@azure/arm-servicebus.PremiumMessagingRegionsListResult'
+      name: PremiumMessagingRegionsListResult
+      items: []
+    - uid: '@azure/arm-servicebus.PremiumMessagingRegionsOperations'
+      name: PremiumMessagingRegionsOperations
+      items: []
+    - uid: '@azure/arm-servicebus.PremiumMessagingRegionsProperties'
+      name: PremiumMessagingRegionsProperties
+      items: []
+    - uid: '@azure/arm-servicebus.ProvisioningStateDR'
+      name: ProvisioningStateDR
+      items: []
+    - uid: '@azure/arm-servicebus.Queues'
+      name: Queues
+      items: []
+    - uid: '@azure/arm-servicebus.QueuesCreateOrUpdateAuthorizationRuleResponse'
+      name: QueuesCreateOrUpdateAuthorizationRuleResponse
+      items: []
+    - uid: '@azure/arm-servicebus.QueuesCreateOrUpdateResponse'
+      name: QueuesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-servicebus.QueuesGetAuthorizationRuleResponse'
+      name: QueuesGetAuthorizationRuleResponse
+      items: []
+    - uid: '@azure/arm-servicebus.QueuesGetResponse'
+      name: QueuesGetResponse
+      items: []
+    - uid: '@azure/arm-servicebus.QueuesListAuthorizationRulesNextResponse'
+      name: QueuesListAuthorizationRulesNextResponse
+      items: []
+    - uid: '@azure/arm-servicebus.QueuesListAuthorizationRulesResponse'
+      name: QueuesListAuthorizationRulesResponse
+      items: []
+    - uid: '@azure/arm-servicebus.QueuesListByNamespaceNextResponse'
+      name: QueuesListByNamespaceNextResponse
+      items: []
+    - uid: '@azure/arm-servicebus.QueuesListByNamespaceOptionalParams'
+      name: QueuesListByNamespaceOptionalParams
+      items: []
+    - uid: '@azure/arm-servicebus.QueuesListByNamespaceResponse'
+      name: QueuesListByNamespaceResponse
+      items: []
+    - uid: '@azure/arm-servicebus.QueuesListKeysResponse'
+      name: QueuesListKeysResponse
+      items: []
+    - uid: '@azure/arm-servicebus.QueuesRegenerateKeysResponse'
+      name: QueuesRegenerateKeysResponse
+      items: []
+    - uid: '@azure/arm-servicebus.RegenerateAccessKeyParameters'
+      name: RegenerateAccessKeyParameters
+      items: []
+    - uid: '@azure/arm-servicebus.Regions'
+      name: Regions
+      items: []
+    - uid: '@azure/arm-servicebus.RegionsListBySkuNextResponse'
+      name: RegionsListBySkuNextResponse
+      items: []
+    - uid: '@azure/arm-servicebus.RegionsListBySkuResponse'
+      name: RegionsListBySkuResponse
+      items: []
+    - uid: '@azure/arm-servicebus.Resource'
+      name: Resource
+      items: []
+    - uid: '@azure/arm-servicebus.ResourceNamespacePatch'
+      name: ResourceNamespacePatch
+      items: []
+    - uid: '@azure/arm-servicebus.RoleDisasterRecovery'
+      name: RoleDisasterRecovery
+      items: []
+    - uid: '@azure/arm-servicebus.Rule'
+      name: Rule
+      items: []
+    - uid: '@azure/arm-servicebus.RuleListResult'
+      name: RuleListResult
+      items: []
+    - uid: '@azure/arm-servicebus.Rules'
+      name: Rules
+      items: []
+    - uid: '@azure/arm-servicebus.RulesCreateOrUpdateResponse'
+      name: RulesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-servicebus.RulesGetResponse'
+      name: RulesGetResponse
+      items: []
+    - uid: '@azure/arm-servicebus.RulesListBySubscriptionsNextResponse'
+      name: RulesListBySubscriptionsNextResponse
+      items: []
+    - uid: '@azure/arm-servicebus.RulesListBySubscriptionsOptionalParams'
+      name: RulesListBySubscriptionsOptionalParams
+      items: []
+    - uid: '@azure/arm-servicebus.RulesListBySubscriptionsResponse'
+      name: RulesListBySubscriptionsResponse
+      items: []
+    - uid: '@azure/arm-servicebus.SBAuthorizationRule'
+      name: SBAuthorizationRule
+      items: []
+    - uid: '@azure/arm-servicebus.SBAuthorizationRuleListResult'
+      name: SBAuthorizationRuleListResult
+      items: []
+    - uid: '@azure/arm-servicebus.SBNamespace'
+      name: SBNamespace
+      items: []
+    - uid: '@azure/arm-servicebus.SBNamespaceListResult'
+      name: SBNamespaceListResult
+      items: []
+    - uid: '@azure/arm-servicebus.SBNamespaceMigrate'
+      name: SBNamespaceMigrate
+      items: []
+    - uid: '@azure/arm-servicebus.SBNamespaceUpdateParameters'
+      name: SBNamespaceUpdateParameters
+      items: []
+    - uid: '@azure/arm-servicebus.SBQueue'
+      name: SBQueue
+      items: []
+    - uid: '@azure/arm-servicebus.SBQueueListResult'
+      name: SBQueueListResult
+      items: []
+    - uid: '@azure/arm-servicebus.SBSku'
+      name: SBSku
+      items: []
+    - uid: '@azure/arm-servicebus.SBSubscription'
+      name: SBSubscription
+      items: []
+    - uid: '@azure/arm-servicebus.SBSubscriptionListResult'
+      name: SBSubscriptionListResult
+      items: []
+    - uid: '@azure/arm-servicebus.SBTopic'
+      name: SBTopic
+      items: []
+    - uid: '@azure/arm-servicebus.SBTopicListResult'
+      name: SBTopicListResult
+      items: []
+    - uid: '@azure/arm-servicebus.ServiceBusManagementClient'
+      name: ServiceBusManagementClient
+      items: []
+    - uid: '@azure/arm-servicebus.ServiceBusManagementClientContext'
+      name: ServiceBusManagementClientContext
+      items: []
+    - uid: '@azure/arm-servicebus.ServiceBusManagementClientOptions'
+      name: ServiceBusManagementClientOptions
+      items: []
+    - uid: '@azure/arm-servicebus.SkuName'
+      name: SkuName
+      items: []
+    - uid: '@azure/arm-servicebus.SkuTier'
+      name: SkuTier
+      items: []
+    - uid: '@azure/arm-servicebus.SqlFilter'
+      name: SqlFilter
+      items: []
+    - uid: '@azure/arm-servicebus.SqlRuleAction'
+      name: SqlRuleAction
+      items: []
+    - uid: '@azure/arm-servicebus.Subnet'
+      name: Subnet
+      items: []
+    - uid: '@azure/arm-servicebus.Subscriptions'
+      name: Subscriptions
+      items: []
+    - uid: '@azure/arm-servicebus.SubscriptionsCreateOrUpdateResponse'
+      name: SubscriptionsCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-servicebus.SubscriptionsGetResponse'
+      name: SubscriptionsGetResponse
+      items: []
+    - uid: '@azure/arm-servicebus.SubscriptionsListByTopicNextResponse'
+      name: SubscriptionsListByTopicNextResponse
+      items: []
+    - uid: '@azure/arm-servicebus.SubscriptionsListByTopicOptionalParams'
+      name: SubscriptionsListByTopicOptionalParams
+      items: []
+    - uid: '@azure/arm-servicebus.SubscriptionsListByTopicResponse'
+      name: SubscriptionsListByTopicResponse
+      items: []
+    - uid: '@azure/arm-servicebus.Topics'
+      name: Topics
+      items: []
+    - uid: '@azure/arm-servicebus.TopicsCreateOrUpdateAuthorizationRuleResponse'
+      name: TopicsCreateOrUpdateAuthorizationRuleResponse
+      items: []
+    - uid: '@azure/arm-servicebus.TopicsCreateOrUpdateResponse'
+      name: TopicsCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-servicebus.TopicsGetAuthorizationRuleResponse'
+      name: TopicsGetAuthorizationRuleResponse
+      items: []
+    - uid: '@azure/arm-servicebus.TopicsGetResponse'
+      name: TopicsGetResponse
+      items: []
+    - uid: '@azure/arm-servicebus.TopicsListAuthorizationRulesNextResponse'
+      name: TopicsListAuthorizationRulesNextResponse
+      items: []
+    - uid: '@azure/arm-servicebus.TopicsListAuthorizationRulesResponse'
+      name: TopicsListAuthorizationRulesResponse
+      items: []
+    - uid: '@azure/arm-servicebus.TopicsListByNamespaceNextResponse'
+      name: TopicsListByNamespaceNextResponse
+      items: []
+    - uid: '@azure/arm-servicebus.TopicsListByNamespaceOptionalParams'
+      name: TopicsListByNamespaceOptionalParams
+      items: []
+    - uid: '@azure/arm-servicebus.TopicsListByNamespaceResponse'
+      name: TopicsListByNamespaceResponse
+      items: []
+    - uid: '@azure/arm-servicebus.TopicsListKeysResponse'
+      name: TopicsListKeysResponse
+      items: []
+    - uid: '@azure/arm-servicebus.TopicsRegenerateKeysResponse'
+      name: TopicsRegenerateKeysResponse
+      items: []
+    - uid: '@azure/arm-servicebus.TrackedResource'
+      name: TrackedResource
+      items: []
+    - uid: '@azure/arm-servicebus.UnavailableReason'
+      name: UnavailableReason
       items: []
 - name: '@azure/arm-storage'
   items:
@@ -1816,49 +2524,6 @@
       items: []
     - uid: '@azure/arm-storage.VirtualNetworkRule'
       name: VirtualNetworkRule
-      items: []
-- name: '@azure/cognitiveservices-anomalydetector'
-  items:
-    - name: Overview
-      uid: '@azure/cognitiveservices-anomalydetector'
-    - uid: '@azure/cognitiveservices-anomalydetector.AnomalyDetectorClient'
-      name: AnomalyDetectorClient
-      items: []
-    - uid: '@azure/cognitiveservices-anomalydetector.AnomalyDetectorClientContext'
-      name: AnomalyDetectorClientContext
-      items: []
-    - uid: '@azure/cognitiveservices-anomalydetector.APIError'
-      name: APIError
-      items: []
-    - uid: '@azure/cognitiveservices-anomalydetector.ChangePointDetectRequest'
-      name: ChangePointDetectRequest
-      items: []
-    - uid: '@azure/cognitiveservices-anomalydetector.ChangePointDetectResponse'
-      name: ChangePointDetectResponse
-      items: []
-    - uid: '@azure/cognitiveservices-anomalydetector.ChangePointDetectResponse2'
-      name: ChangePointDetectResponse2
-      items: []
-    - uid: '@azure/cognitiveservices-anomalydetector.EntireDetectResponse'
-      name: EntireDetectResponse
-      items: []
-    - uid: '@azure/cognitiveservices-anomalydetector.EntireDetectResponse2'
-      name: EntireDetectResponse2
-      items: []
-    - uid: '@azure/cognitiveservices-anomalydetector.Granularity'
-      name: Granularity
-      items: []
-    - uid: '@azure/cognitiveservices-anomalydetector.LastDetectResponse'
-      name: LastDetectResponse
-      items: []
-    - uid: '@azure/cognitiveservices-anomalydetector.LastDetectResponse2'
-      name: LastDetectResponse2
-      items: []
-    - uid: '@azure/cognitiveservices-anomalydetector.Point'
-      name: Point
-      items: []
-    - uid: '@azure/cognitiveservices-anomalydetector.Request'
-      name: Request
       items: []
 - name: '@azure/core-amqp'
   items:
