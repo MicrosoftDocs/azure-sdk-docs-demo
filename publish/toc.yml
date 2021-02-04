@@ -6,10 +6,10 @@ items:
   items:
   - name: Release
     items:
-    - name: App Configuration Client
+    - name: App Configuration Client (1.1.0)
       items:
       - name: User guide
-        href: ./app-configuration/latest/App-Configuration-Client.md
+        href: ./app-configuration/latest/App-Configuration-Client-(1.1.0).md
       - name: '@azure/app-configuration'
         items:
         - name: AddConfigurationSettingOptions
@@ -72,7 +72,7 @@ items:
           uid: '@azure/app-configuration.SetReadOnlyResponse|latest'
         - name: SyncTokenHeaderField
           uid: '@azure/app-configuration.SyncTokenHeaderField|latest'
-    - name: App Configuration Management
+    - name: App Configuration Management (1.3.0)
       items:
       - name: '@azure/arm-appconfiguration'
         items:
@@ -214,10 +214,10 @@ items:
   items:
   - name: Release
     items:
-    - name: Anomaly Detector
+    - name: Anomaly Detector (2.1.0)
       items:
       - name: User guide
-        href: ./cognitive-services/latest/Anomaly-Detector.md
+        href: ./cognitive-services/latest/Anomaly-Detector-(2.1.0).md
       - name: '@azure/ai-anomaly-detector'
         items:
         - name: AnomalyDetectorClient
@@ -244,7 +244,7 @@ items:
           uid: '@azure/ai-anomaly-detector.TimeGranularity|latest'
         - name: TimeSeriesPoint
           uid: '@azure/ai-anomaly-detector.TimeSeriesPoint|latest'
-    - name: Cognitive Search
+    - name: Cognitive Search (11.0.3)
       items:
       - name: '@azure/search-documents'
         items:
@@ -680,7 +680,7 @@ items:
           uid: '@azure/search-documents.WebApiSkill|latest'
         - name: WordDelimiterTokenFilter
           uid: '@azure/search-documents.WordDelimiterTokenFilter|latest'
-    - name: Form Recognizer
+    - name: Form Recognizer (3.0.0)
       items:
       - name: '@azure/ai-form-recognizer'
         items:
@@ -814,7 +814,7 @@ items:
           uid: '@azure/ai-form-recognizer.TrainingStatus|latest'
         - name: TrainResult
           uid: '@azure/ai-form-recognizer.TrainResult|latest'
-    - name: Text Analytics
+    - name: Text Analytics (5.0.1)
       items:
       - name: '@azure/ai-text-analytics'
         items:
@@ -918,7 +918,7 @@ items:
           uid: '@azure/ai-text-analytics.TextDocumentStatistics|latest'
         - name: WarningCode
           uid: '@azure/ai-text-analytics.WarningCode|latest'
-    - name: Cognitive Services Management
+    - name: Cognitive Services Management (5.2.0)
       items:
       - name: '@azure/arm-cognitiveservices'
         items:
@@ -1098,7 +1098,7 @@ items:
           uid: '@azure/arm-cognitiveservices.VirtualNetworkRule|latest'
   - name: Preview
     items:
-    - name: Cognitive Search
+    - name: Cognitive Search (11.1.0-beta.2)
       items:
       - name: '@azure/search-documents'
         items:
@@ -1562,7 +1562,7 @@ items:
           uid: '@azure/search-documents.WebApiSkill|preview'
         - name: WordDelimiterTokenFilter
           uid: '@azure/search-documents.WordDelimiterTokenFilter|preview'
-    - name: Form Recognizer
+    - name: Form Recognizer (3.1.0-beta.1)
       items:
       - name: '@azure/ai-form-recognizer'
         items:
@@ -1722,7 +1722,7 @@ items:
           uid: '@azure/ai-form-recognizer.TrainingStatus|preview'
         - name: TrainResult
           uid: '@azure/ai-form-recognizer.TrainResult|preview'
-    - name: Text Analytics
+    - name: Text Analytics (5.1.0-beta.3)
       items:
       - name: '@azure/ai-text-analytics'
         items:
@@ -1906,7 +1906,7 @@ items:
           uid: '@azure/ai-text-analytics.WarningCode|preview'
   - name: Legacy
     items:
-    - name: Anomaly Detector
+    - name: Anomaly Detector (2.1.0)
       items:
       - name: '@azure/cognitiveservices-anomalydetector'
         items:
@@ -1936,7 +1936,7 @@ items:
           uid: '@azure/cognitiveservices-anomalydetector.Point|legacy'
         - name: Request
           uid: '@azure/cognitiveservices-anomalydetector.Request|legacy'
-    - name: Form Recognizer
+    - name: Form Recognizer (2.0.1)
       items:
       - name: '@azure/cognitiveservices-formrecognizer'
         items:
@@ -2036,7 +2036,7 @@ items:
           uid: '@azure/cognitiveservices-formrecognizer.UnderstandingResult|legacy'
         - name: Word
           uid: '@azure/cognitiveservices-formrecognizer.Word|legacy'
-    - name: Text Analytics
+    - name: Text Analytics (4.0.0)
       items:
       - name: '@azure/cognitiveservices-textanalytics'
         items:
@@ -2104,10 +2104,10 @@ items:
   items:
   - name: Release
     items:
-    - name: AMQP
+    - name: AMQP (2.0.1)
       items:
       - name: User guide
-        href: ./core/latest/AMQP.md
+        href: ./core/latest/AMQP-(2.0.1).md
       - name: '@azure/core-amqp'
         items:
         - name: AmqpAnnotatedMessage
@@ -2158,7 +2158,7 @@ items:
           uid: '@azure/core-amqp.TokenType|latest'
         - name: WebSocketOptions
           uid: '@azure/core-amqp.WebSocketOptions|latest'
-    - name: Auth
+    - name: Auth (1.1.4)
       items:
       - name: '@azure/core-auth'
         items:
@@ -2176,10 +2176,10 @@ items:
           uid: '@azure/core-auth.SpanOptions|latest'
         - name: TokenCredential
           uid: '@azure/core-auth.TokenCredential|latest'
-    - name: HTTP
+    - name: HTTP (1.2.2)
       items:
       - name: User guide
-        href: ./core/latest/HTTP.md
+        href: ./core/latest/HTTP-(1.2.2).md
       - name: '@azure/core-http'
         items:
         - name: AccessTokenCache
@@ -2412,10 +2412,24 @@ items:
           uid: '@azure/core-http.WebResourceLike|latest'
         - name: XhrHttpClient
           uid: '@azure/core-http.XhrHttpClient|latest'
-    - name: LRO (Long Running Operations)
+    - name: Logger (1.0.1)
       items:
       - name: User guide
-        href: ./core/latest/LRO-(Long-Running-Operations).md
+        href: ./core/latest/Logger-(1.0.1).md
+      - name: '@azure/logger'
+        items:
+        - name: AzureClientLogger
+          uid: '@azure/logger.AzureClientLogger|latest'
+        - name: AzureLogger
+          uid: '@azure/logger.AzureLogger|latest'
+        - name: AzureLogLevel
+          uid: '@azure/logger.AzureLogLevel|latest'
+        - name: Debugger
+          uid: '@azure/logger.Debugger|latest'
+    - name: LRO (Long Running Operations) (1.0.3)
+      items:
+      - name: User guide
+        href: ./core/latest/LRO-(Long-Running-Operations)-(1.0.3).md
       - name: '@azure/core-lro'
         items:
         - name: CancelOnProgress
@@ -2438,7 +2452,7 @@ items:
   items:
   - name: Preview
     items:
-    - name: Communication Administration
+    - name: Communication Administration (1.0.0-beta.4)
       items:
       - name: '@azure/communication-administration'
         items:
@@ -2632,7 +2646,7 @@ items:
           uid: '@azure/communication-administration.VoidResponse|preview'
         - name: WithResponse
           uid: '@azure/communication-administration.WithResponse|preview'
-    - name: Communication Chat
+    - name: Communication Chat (1.0.0-beta.3)
       items:
       - name: '@azure/communication-chat'
         items:
@@ -2794,7 +2808,7 @@ items:
           uid: '@azure/communication-chat.UpdateThreadOptions|preview'
         - name: WithResponse
           uid: '@azure/communication-chat.WithResponse|preview'
-    - name: Communication SMS
+    - name: Communication SMS (1.0.0-beta.3)
       items:
       - name: '@azure/communication-sms'
         items:
@@ -2806,7 +2820,7 @@ items:
           uid: '@azure/communication-sms.SmsClient|preview'
         - name: SmsClientOptions
           uid: '@azure/communication-sms.SmsClientOptions|preview'
-    - name: Communication Common
+    - name: Communication Common (1.0.0-beta.4)
       items:
       - name: '@azure/communication-common'
         items:
@@ -2850,10 +2864,10 @@ items:
   items:
   - name: Release
     items:
-    - name: Identity
+    - name: Identity (1.2.2)
       items:
       - name: User guide
-        href: ./identity/latest/Identity.md
+        href: ./identity/latest/Identity-(1.2.2).md
       - name: '@azure/identity'
         items:
         - name: AggregateAuthenticationError
@@ -2914,10 +2928,10 @@ items:
     href: ./key-vault/overview.md
   - name: Release
     items:
-    - name: Key Vault Certificates
+    - name: Key Vault Certificates (4.1.0)
       items:
       - name: User guide
-        href: ./key-vault/latest/Key-Vault-Certificates.md
+        href: ./key-vault/latest/Key-Vault-Certificates-(4.1.0).md
       - name: '@azure/keyvault-certificates'
         items:
         - name: ActionType
@@ -3064,10 +3078,10 @@ items:
           uid: '@azure/keyvault-certificates.WellKnownIssuer|latest'
         - name: X509CertificateProperties
           uid: '@azure/keyvault-certificates.X509CertificateProperties|latest'
-    - name: Key Vault Keys
+    - name: Key Vault Keys (4.1.0)
       items:
       - name: User guide
-        href: ./key-vault/latest/Key-Vault-Keys.md
+        href: ./key-vault/latest/Key-Vault-Keys-(4.1.0).md
       - name: '@azure/keyvault-keys'
         items:
         - name: BackupKeyOptions
@@ -3158,10 +3172,10 @@ items:
           uid: '@azure/keyvault-keys.WrapKeyOptions|latest'
         - name: WrapResult
           uid: '@azure/keyvault-keys.WrapResult|latest'
-    - name: Key Vault Secrets
+    - name: Key Vault Secrets (4.1.0)
       items:
       - name: User guide
-        href: ./key-vault/latest/Key-Vault-Secrets.md
+        href: ./key-vault/latest/Key-Vault-Secrets-(4.1.0).md
       - name: '@azure/keyvault-secrets'
         items:
         - name: BackupSecretOptions
@@ -3202,7 +3216,7 @@ items:
           uid: '@azure/keyvault-secrets.SetSecretOptions|latest'
         - name: UpdateSecretPropertiesOptions
           uid: '@azure/keyvault-secrets.UpdateSecretPropertiesOptions|latest'
-    - name: Key Vault Management
+    - name: Key Vault Management (1.2.1)
       items:
       - name: '@azure/arm-keyvault'
         items:
@@ -3330,7 +3344,7 @@ items:
           uid: '@azure/arm-keyvault.VirtualNetworkRule|latest'
   - name: Preview
     items:
-    - name: Key Vault Certificates
+    - name: Key Vault Certificates (4.2.0-beta.1)
       items:
       - name: '@azure/keyvault-certificates'
         items:
@@ -3480,7 +3494,7 @@ items:
           uid: '@azure/keyvault-certificates.WellKnownIssuer|preview'
         - name: X509CertificateProperties
           uid: '@azure/keyvault-certificates.X509CertificateProperties|preview'
-    - name: Key Vault Keys
+    - name: Key Vault Keys (4.2.0-beta.2)
       items:
       - name: '@azure/keyvault-keys'
         items:
@@ -3580,7 +3594,7 @@ items:
           uid: '@azure/keyvault-keys.WrapKeyOptions|preview'
         - name: WrapResult
           uid: '@azure/keyvault-keys.WrapResult|preview'
-    - name: Key Vault Secrets
+    - name: Key Vault Secrets (4.2.0-beta.1)
       items:
       - name: '@azure/keyvault-secrets'
         items:
@@ -3624,7 +3638,7 @@ items:
           uid: '@azure/keyvault-secrets.SetSecretOptions|preview'
         - name: UpdateSecretPropertiesOptions
           uid: '@azure/keyvault-secrets.UpdateSecretPropertiesOptions|preview'
-    - name: Key Vault Admin
+    - name: Key Vault Admin (4.0.0-beta.1)
       items:
       - name: '@azure/keyvault-admin'
         items:
@@ -3678,29 +3692,11 @@ items:
           uid: '@azure/keyvault-admin.SelectiveRestoreOperationState|preview'
         - name: SUPPORTED_API_VERSIONS
           uid: '@azure/keyvault-admin.SUPPORTED_API_VERSIONS|preview'
-- name: Logger
-  items:
-  - name: Release
-    items:
-    - name: Logger
-      items:
-      - name: User guide
-        href: ./logger/latest/Logger.md
-      - name: '@azure/logger'
-        items:
-        - name: AzureClientLogger
-          uid: '@azure/logger.AzureClientLogger|latest'
-        - name: AzureLogger
-          uid: '@azure/logger.AzureLogger|latest'
-        - name: AzureLogLevel
-          uid: '@azure/logger.AzureLogLevel|latest'
-        - name: Debugger
-          uid: '@azure/logger.Debugger|latest'
 - name: Service Bus
   items:
   - name: Release
     items:
-    - name: Service Bus Client
+    - name: Service Bus Client (7.0.3)
       items:
       - name: '@azure/service-bus'
         items:
@@ -3790,7 +3786,7 @@ items:
           uid: '@azure/service-bus.TryAddOptions|latest'
         - name: WithResponse
           uid: '@azure/service-bus.WithResponse|latest'
-    - name: Service Bus Management
+    - name: Service Bus Management (4.0.0)
       items:
       - name: '@azure/arm-servicebus'
         items:
@@ -4092,7 +4088,7 @@ items:
           uid: '@azure/arm-servicebus.UnavailableReason|latest'
   - name: Legacy
     items:
-    - name: Service Bus Client
+    - name: Service Bus Client (1.1.10)
       items:
       - name: '@azure/service-bus'
         items:
@@ -4146,10 +4142,10 @@ items:
     href: ./storage/overview.md
   - name: Release
     items:
-    - name: Storage Blob
+    - name: Storage Blob (12.4.0)
       items:
       - name: User guide
-        href: ./storage/latest/Storage-Blob.md
+        href: ./storage/latest/Storage-Blob-(12.4.0).md
       - name: '@azure/storage-blob'
         items:
         - name: AccessPolicy
@@ -4792,10 +4788,10 @@ items:
           uid: '@azure/storage-blob.UserDelegationKey|latest'
         - name: UserDelegationKeyModel
           uid: '@azure/storage-blob.UserDelegationKeyModel|latest'
-    - name: Storage Queue
+    - name: Storage Queue (12.3.0)
       items:
       - name: User guide
-        href: ./storage/latest/Storage-Queue.md
+        href: ./storage/latest/Storage-Queue-(12.3.0).md
       - name: '@azure/storage-queue'
         items:
         - name: AccessPolicy
@@ -5014,10 +5010,10 @@ items:
           uid: '@azure/storage-queue.StorageSharedKeyCredential|latest'
         - name: StorageSharedKeyCredentialPolicy
           uid: '@azure/storage-queue.StorageSharedKeyCredentialPolicy|latest'
-    - name: Storage File Datalake
+    - name: Storage File Datalake (12.4.0)
       items:
       - name: User guide
-        href: ./storage/latest/Storage-File-Datalake.md
+        href: ./storage/latest/Storage-File-Datalake-(12.4.0).md
       - name: '@azure/storage-file-datalake'
         items:
         - name: AccessControlChangeCounters
@@ -5364,10 +5360,10 @@ items:
           uid: '@azure/storage-file-datalake.StorageSharedKeyCredentialPolicy|latest'
         - name: UserDelegationKey
           uid: '@azure/storage-file-datalake.UserDelegationKey|latest'
-    - name: Storage File Share
+    - name: Storage File Share (12.4.0)
       items:
       - name: User guide
-        href: ./storage/latest/Storage-File-Share.md
+        href: ./storage/latest/Storage-File-Share-(12.4.0).md
       - name: '@azure/storage-file-share'
         items:
         - name: AccessPolicy
@@ -5828,7 +5824,7 @@ items:
           uid: '@azure/storage-file-share.TimeNowType|latest'
         - name: TimePreserveType
           uid: '@azure/storage-file-share.TimePreserveType|latest'
-    - name: Storage Management
+    - name: Storage Management (15.2.0)
       items:
       - name: '@azure/arm-storage'
         items:
@@ -6432,7 +6428,7 @@ items:
           uid: '@azure/arm-storage.VirtualNetworkRule|latest'
   - name: Legacy
     items:
-    - name: Storage Blob
+    - name: Storage Blob (10.5.0)
       items:
       - name: '@azure/storage-blob'
         items:
@@ -7194,7 +7190,7 @@ items:
           uid: '@azure/storage-blob.UserDelegationKey|legacy'
         - name: UserDelegationKeyCredential
           uid: '@azure/storage-blob.UserDelegationKeyCredential|legacy'
-    - name: Storage Queue
+    - name: Storage Queue (10.3.0)
       items:
       - name: '@azure/storage-queue'
         items:
