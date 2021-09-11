@@ -32,7 +32,10 @@ properties:
   - name: blobHTTPHeaders
     uid: '@azure/storage-blob.BlockBlobParallelUploadOptions.blobHTTPHeaders'
     package: '@azure/storage-blob'
-    summary: Blob HTTP Headers.
+    summary: |-
+      Blob HTTP Headers. A common header to set is
+      `blobContentType`, enabling the browser to provide
+      functionality based on file type.
     fullName: blobHTTPHeaders
     remarks: ''
     isPreview: false
@@ -58,7 +61,7 @@ properties:
   - name: concurrency
     uid: '@azure/storage-blob.BlockBlobParallelUploadOptions.concurrency'
     package: '@azure/storage-blob'
-    summary: Concurrency of parallel uploading. Must be >= 0.
+    summary: Concurrency of parallel uploading. Must be greater than or equal to 0.
     fullName: concurrency
     remarks: ''
     isPreview: false

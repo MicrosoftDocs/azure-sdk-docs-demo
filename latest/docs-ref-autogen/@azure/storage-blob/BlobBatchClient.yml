@@ -11,7 +11,7 @@ isPreview: false
 isDeprecated: false
 type: class
 constructors:
-  - name: 'BlobBatchClient(string, Pipeline)'
+  - name: 'BlobBatchClient(string, PipelineLike)'
     uid: '@azure/storage-blob.BlobBatchClient.constructor_1'
     package: '@azure/storage-blob'
     summary: Creates an instance of BlobBatchClient.
@@ -19,7 +19,7 @@ constructors:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'new BlobBatchClient(url: string, pipeline: Pipeline)'
+      content: 'new BlobBatchClient(url: string, pipeline: PipelineLike)'
       parameters:
         - id: url
           type: string
@@ -28,8 +28,8 @@ constructors:
                                 "https://myaccount.blob.core.windows.net". You can append a SAS
                                 if using AnonymousCredential, such as "https://myaccount.blob.core.windows.net?sasString".
         - id: pipeline
-          type: <xref uid="@azure/storage-blob.Pipeline" />
-          description: |-
+          type: <xref uid="@azure/storage-blob.PipelineLike" />
+          description: |
             Call newPipeline() to create a default
                                        pipeline, or provide a customized pipeline.
   - name: >-
@@ -60,13 +60,14 @@ constructors:
             TokenCredential
           description: >-
             Such as AnonymousCredential, StorageSharedKeyCredential or any
-            credential from the @azure/identity package to authenticate requests
-            to the service. You can also provide an object that implements the
-            TokenCredential interface. If not specified, AnonymousCredential is
-            used.
+            credential from the `@azure/identity` package to authenticate
+            requests to the service. You can also provide an object that
+            implements the TokenCredential interface. If not specified,
+            AnonymousCredential is used.
         - id: options
           type: <xref uid="@azure/storage-blob.StoragePipelineOptions" />
-          description: ''
+          description: |
+            Options to configure the HTTP pipeline.
 methods:
   - name: createBatch()
     uid: '@azure/storage-blob.BlobBatchClient.createBatch'
@@ -112,7 +113,8 @@ methods:
           description: The BlobClients for the blobs to delete.
         - id: options
           type: <xref uid="@azure/storage-blob.BlobDeleteOptions" />
-          description: ''
+          description: |
+            -
       return:
         type: >-
           Promise&lt;<xref
@@ -156,13 +158,14 @@ methods:
             TokenCredential
           description: >-
             Such as AnonymousCredential, StorageSharedKeyCredential or any
-            credential from the @azure/identity package to authenticate requests
-            to the service. You can also provide an object that implements the
-            TokenCredential interface. If not specified, AnonymousCredential is
-            used.
+            credential from the `@azure/identity` package to authenticate
+            requests to the service. You can also provide an object that
+            implements the TokenCredential interface. If not specified,
+            AnonymousCredential is used.
         - id: options
           type: <xref uid="@azure/storage-blob.BlobDeleteOptions" />
-          description: ''
+          description: |
+            -
       return:
         type: >-
           Promise&lt;<xref
@@ -206,10 +209,11 @@ methods:
           description: The BlobClients for the blobs which should have a new tier set.
         - id: tier
           type: <xref uid="@azure/storage-blob.AccessTier" />
-          description: ''
+          description: '-'
         - id: options
           type: <xref uid="@azure/storage-blob.BlobSetTierOptions" />
-          description: ''
+          description: |
+            -
       return:
         type: >-
           Promise&lt;<xref
@@ -261,16 +265,17 @@ methods:
             TokenCredential
           description: >-
             Such as AnonymousCredential, StorageSharedKeyCredential or any
-            credential from the @azure/identity package to authenticate requests
-            to the service. You can also provide an object that implements the
-            TokenCredential interface. If not specified, AnonymousCredential is
-            used.
+            credential from the `@azure/identity` package to authenticate
+            requests to the service. You can also provide an object that
+            implements the TokenCredential interface. If not specified,
+            AnonymousCredential is used.
         - id: tier
           type: <xref uid="@azure/storage-blob.AccessTier" />
-          description: ''
+          description: '-'
         - id: options
           type: <xref uid="@azure/storage-blob.BlobSetTierOptions" />
-          description: ''
+          description: |
+            -
       return:
         type: >-
           Promise&lt;<xref
@@ -322,7 +327,8 @@ methods:
           type: >-
             <xref uid="@azure/storage-blob.BlobBatchSubmitBatchOptionalParams"
             />
-          description: ''
+          description: |
+            -
       return:
         type: >-
           Promise&lt;<xref

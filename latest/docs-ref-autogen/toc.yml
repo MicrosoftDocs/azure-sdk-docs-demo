@@ -18,21 +18,101 @@
   items:
     - name: Overview
       uid: '@azure/ai-anomaly-detector'
+    - uid: '@azure/ai-anomaly-detector.AlignMode'
+      name: AlignMode
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AlignPolicy'
+      name: AlignPolicy
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyContributor'
+      name: AnomalyContributor
+      items: []
     - uid: '@azure/ai-anomaly-detector.AnomalyDetectorClient'
       name: AnomalyDetectorClient
       items: []
-    - uid: >-
-        @azure/ai-anomaly-detector.AnomalyDetectorClientDetectChangePointResponse
-      name: AnomalyDetectorClientDetectChangePointResponse
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientErrorResponse'
+      name: AnomalyDetectorClientErrorResponse
       items: []
-    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientDetectEntireResponse'
-      name: AnomalyDetectorClientDetectEntireResponse
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientModel'
+      name: AnomalyDetectorClientModel
       items: []
-    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientDetectLastPointResponse'
-      name: AnomalyDetectorClientDetectLastPointResponse
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientModelInfo'
+      name: AnomalyDetectorClientModelInfo
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientModelList'
+      name: AnomalyDetectorClientModelList
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientModelSnapshot'
+      name: AnomalyDetectorClientModelSnapshot
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientModelState'
+      name: AnomalyDetectorClientModelState
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientModelStatus'
+      name: AnomalyDetectorClientModelStatus
       items: []
     - uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientOptions'
       name: AnomalyDetectorClientOptions
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientVariableState'
+      name: AnomalyDetectorClientVariableState
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorDetectAnomalyHeaders'
+      name: AnomalyDetectorDetectAnomalyHeaders
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorDetectAnomalyResponse'
+      name: AnomalyDetectorDetectAnomalyResponse
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorDetectChangePointResponse'
+      name: AnomalyDetectorDetectChangePointResponse
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorDetectEntireSeriesResponse'
+      name: AnomalyDetectorDetectEntireSeriesResponse
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorDetectLastPointResponse'
+      name: AnomalyDetectorDetectLastPointResponse
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorExportModelHeaders'
+      name: AnomalyDetectorExportModelHeaders
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorExportModelResponse'
+      name: AnomalyDetectorExportModelResponse
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorGetDetectionResultResponse'
+      name: AnomalyDetectorGetDetectionResultResponse
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorGetMultivariateModelResponse'
+      name: AnomalyDetectorGetMultivariateModelResponse
+      items: []
+    - uid: >-
+        @azure/ai-anomaly-detector.AnomalyDetectorListMultivariateModelNextOptionalParams
+      name: AnomalyDetectorListMultivariateModelNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/ai-anomaly-detector.AnomalyDetectorListMultivariateModelNextResponse
+      name: AnomalyDetectorListMultivariateModelNextResponse
+      items: []
+    - uid: >-
+        @azure/ai-anomaly-detector.AnomalyDetectorListMultivariateModelOptionalParams
+      name: AnomalyDetectorListMultivariateModelOptionalParams
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorListMultivariateModelResponse'
+      name: AnomalyDetectorListMultivariateModelResponse
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorOptionalParams'
+      name: AnomalyDetectorOptionalParams
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorTrainMultivariateModelHeaders'
+      name: AnomalyDetectorTrainMultivariateModelHeaders
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyDetectorTrainMultivariateModelResponse'
+      name: AnomalyDetectorTrainMultivariateModelResponse
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyState'
+      name: AnomalyState
+      items: []
+    - uid: '@azure/ai-anomaly-detector.AnomalyValue'
+      name: AnomalyValue
       items: []
     - uid: '@azure/ai-anomaly-detector.DetectChangePointRequest'
       name: DetectChangePointRequest
@@ -43,11 +123,32 @@
     - uid: '@azure/ai-anomaly-detector.DetectEntireResponse'
       name: DetectEntireResponse
       items: []
+    - uid: '@azure/ai-anomaly-detector.DetectionRequest'
+      name: DetectionRequest
+      items: []
+    - uid: '@azure/ai-anomaly-detector.DetectionResult'
+      name: DetectionResult
+      items: []
+    - uid: '@azure/ai-anomaly-detector.DetectionResultSummary'
+      name: DetectionResultSummary
+      items: []
+    - uid: '@azure/ai-anomaly-detector.DetectionStatus'
+      name: DetectionStatus
+      items: []
     - uid: '@azure/ai-anomaly-detector.DetectLastPointResponse'
       name: DetectLastPointResponse
       items: []
     - uid: '@azure/ai-anomaly-detector.DetectRequest'
       name: DetectRequest
+      items: []
+    - uid: '@azure/ai-anomaly-detector.DiagnosticsInfo'
+      name: DiagnosticsInfo
+      items: []
+    - uid: '@azure/ai-anomaly-detector.FillNAMethod'
+      name: FillNAMethod
+      items: []
+    - uid: '@azure/ai-anomaly-detector.KnownTimeGranularity'
+      name: KnownTimeGranularity
       items: []
     - uid: '@azure/ai-anomaly-detector.TimeGranularity'
       name: TimeGranularity
@@ -65,11 +166,29 @@
     - uid: '@azure/ai-form-recognizer.BeginCopyModelOptions'
       name: BeginCopyModelOptions
       items: []
+    - uid: '@azure/ai-form-recognizer.BeginCreateComposedModelOptions'
+      name: BeginCreateComposedModelOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.BeginRecognizeBusinessCardsOptions'
+      name: BeginRecognizeBusinessCardsOptions
+      items: []
     - uid: '@azure/ai-form-recognizer.BeginRecognizeContentOptions'
       name: BeginRecognizeContentOptions
       items: []
+    - uid: '@azure/ai-form-recognizer.BeginRecognizeCustomFormsOptions'
+      name: BeginRecognizeCustomFormsOptions
+      items: []
     - uid: '@azure/ai-form-recognizer.BeginRecognizeFormsOptions'
       name: BeginRecognizeFormsOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.BeginRecognizeIdentityDocumentsOptions'
+      name: BeginRecognizeIdentityDocumentsOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.BeginRecognizeInvoicesOptions'
+      name: BeginRecognizeInvoicesOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.BeginRecognizePrebuiltOptions'
+      name: BeginRecognizePrebuiltOptions
       items: []
     - uid: '@azure/ai-form-recognizer.BeginRecognizeReceiptsOptions'
       name: BeginRecognizeReceiptsOptions
@@ -101,6 +220,9 @@
     - uid: '@azure/ai-form-recognizer.CustomFormModelInfo'
       name: CustomFormModelInfo
       items: []
+    - uid: '@azure/ai-form-recognizer.CustomFormModelProperties'
+      name: CustomFormModelProperties
+      items: []
     - uid: '@azure/ai-form-recognizer.CustomFormSubmodel'
       name: CustomFormSubmodel
       items: []
@@ -110,8 +232,17 @@
     - uid: '@azure/ai-form-recognizer.FieldData'
       name: FieldData
       items: []
+    - uid: '@azure/ai-form-recognizer.FormArrayField'
+      name: FormArrayField
+      items: []
     - uid: '@azure/ai-form-recognizer.FormContentType'
       name: FormContentType
+      items: []
+    - uid: '@azure/ai-form-recognizer.FormCountryRegionField'
+      name: FormCountryRegionField
+      items: []
+    - uid: '@azure/ai-form-recognizer.FormDateField'
+      name: FormDateField
       items: []
     - uid: '@azure/ai-form-recognizer.FormElement'
       name: FormElement
@@ -122,14 +253,26 @@
     - uid: '@azure/ai-form-recognizer.FormField'
       name: FormField
       items: []
+    - uid: '@azure/ai-form-recognizer.FormFieldCommon'
+      name: FormFieldCommon
+      items: []
     - uid: '@azure/ai-form-recognizer.FormFieldsReport'
       name: FormFieldsReport
+      items: []
+    - uid: '@azure/ai-form-recognizer.FormIntegerField'
+      name: FormIntegerField
       items: []
     - uid: '@azure/ai-form-recognizer.FormLine'
       name: FormLine
       items: []
     - uid: '@azure/ai-form-recognizer.FormModelResponse'
       name: FormModelResponse
+      items: []
+    - uid: '@azure/ai-form-recognizer.FormNumberField'
+      name: FormNumberField
+      items: []
+    - uid: '@azure/ai-form-recognizer.FormObjectField'
+      name: FormObjectField
       items: []
     - uid: '@azure/ai-form-recognizer.FormPage'
       name: FormPage
@@ -140,8 +283,14 @@
     - uid: '@azure/ai-form-recognizer.FormPageRange'
       name: FormPageRange
       items: []
+    - uid: '@azure/ai-form-recognizer.FormPhoneNumberField'
+      name: FormPhoneNumberField
+      items: []
     - uid: '@azure/ai-form-recognizer.FormPollerLike'
       name: FormPollerLike
+      items: []
+    - uid: '@azure/ai-form-recognizer.FormReadingOrder'
+      name: FormReadingOrder
       items: []
     - uid: '@azure/ai-form-recognizer.FormRecognizerClient'
       name: FormRecognizerClient
@@ -158,14 +307,32 @@
     - uid: '@azure/ai-form-recognizer.FormRecognizerRequestBody'
       name: FormRecognizerRequestBody
       items: []
+    - uid: '@azure/ai-form-recognizer.FormSelectionMark'
+      name: FormSelectionMark
+      items: []
+    - uid: '@azure/ai-form-recognizer.FormSelectionMarkField'
+      name: FormSelectionMarkField
+      items: []
+    - uid: '@azure/ai-form-recognizer.FormStringField'
+      name: FormStringField
+      items: []
     - uid: '@azure/ai-form-recognizer.FormTable'
       name: FormTable
       items: []
     - uid: '@azure/ai-form-recognizer.FormTableCell'
       name: FormTableCell
       items: []
+    - uid: '@azure/ai-form-recognizer.FormTimeField'
+      name: FormTimeField
+      items: []
     - uid: '@azure/ai-form-recognizer.FormTrainingClient'
       name: FormTrainingClient
+      items: []
+    - uid: '@azure/ai-form-recognizer.FormTrainingPollOperationOptions'
+      name: FormTrainingPollOperationOptions
+      items: []
+    - uid: '@azure/ai-form-recognizer.FormUnknownField'
+      name: FormUnknownField
       items: []
     - uid: '@azure/ai-form-recognizer.FormWord'
       name: FormWord
@@ -191,8 +358,14 @@
     - uid: '@azure/ai-form-recognizer.KeyValuePairModel'
       name: KeyValuePairModel
       items: []
-    - uid: '@azure/ai-form-recognizer.Language'
-      name: Language
+    - uid: '@azure/ai-form-recognizer.KeyValueType'
+      name: KeyValueType
+      items: []
+    - uid: '@azure/ai-form-recognizer.KnownFormLanguage'
+      name: KnownFormLanguage
+      items: []
+    - uid: '@azure/ai-form-recognizer.KnownFormLocale'
+      name: KnownFormLocale
       items: []
     - uid: '@azure/ai-form-recognizer.LengthUnit'
       name: LengthUnit
@@ -239,6 +412,9 @@
     - uid: '@azure/ai-form-recognizer.RecognizeFormsOptions'
       name: RecognizeFormsOptions
       items: []
+    - uid: '@azure/ai-form-recognizer.TextAppearance'
+      name: TextAppearance
+      items: []
     - uid: '@azure/ai-form-recognizer.TrainingDocumentInfo'
       name: TrainingDocumentInfo
       items: []
@@ -258,6 +434,51 @@
   items:
     - name: Overview
       uid: '@azure/ai-text-analytics'
+    - uid: '@azure/ai-text-analytics.AnalysisPollOperationState'
+      name: AnalysisPollOperationState
+      items: []
+    - uid: '@azure/ai-text-analytics.AnalyzeActionsOperationMetadata'
+      name: AnalyzeActionsOperationMetadata
+      items: []
+    - uid: '@azure/ai-text-analytics.AnalyzeActionsOperationState'
+      name: AnalyzeActionsOperationState
+      items: []
+    - uid: '@azure/ai-text-analytics.AnalyzeActionsPollerLike'
+      name: AnalyzeActionsPollerLike
+      items: []
+    - uid: '@azure/ai-text-analytics.AnalyzeActionsResult'
+      name: AnalyzeActionsResult
+      items: []
+    - uid: '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesErrorResult'
+      name: AnalyzeHealthcareEntitiesErrorResult
+      items: []
+    - uid: '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesPollerLike'
+      name: AnalyzeHealthcareEntitiesPollerLike
+      items: []
+    - uid: '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult'
+      name: AnalyzeHealthcareEntitiesResult
+      items: []
+    - uid: '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResultArray'
+      name: AnalyzeHealthcareEntitiesResultArray
+      items: []
+    - uid: '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesSuccessResult'
+      name: AnalyzeHealthcareEntitiesSuccessResult
+      items: []
+    - uid: '@azure/ai-text-analytics.AnalyzeHealthcareOperationState'
+      name: AnalyzeHealthcareOperationState
+      items: []
+    - uid: '@azure/ai-text-analytics.AnalyzeSentimentAction'
+      name: AnalyzeSentimentAction
+      items: []
+    - uid: '@azure/ai-text-analytics.AnalyzeSentimentActionErrorResult'
+      name: AnalyzeSentimentActionErrorResult
+      items: []
+    - uid: '@azure/ai-text-analytics.AnalyzeSentimentActionResult'
+      name: AnalyzeSentimentActionResult
+      items: []
+    - uid: '@azure/ai-text-analytics.AnalyzeSentimentActionSuccessResult'
+      name: AnalyzeSentimentActionSuccessResult
+      items: []
     - uid: '@azure/ai-text-analytics.AnalyzeSentimentErrorResult'
       name: AnalyzeSentimentErrorResult
       items: []
@@ -272,6 +493,15 @@
       items: []
     - uid: '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult'
       name: AnalyzeSentimentSuccessResult
+      items: []
+    - uid: '@azure/ai-text-analytics.AssessmentSentiment'
+      name: AssessmentSentiment
+      items: []
+    - uid: '@azure/ai-text-analytics.BeginAnalyzeActionsOptions'
+      name: BeginAnalyzeActionsOptions
+      items: []
+    - uid: '@azure/ai-text-analytics.BeginAnalyzeHealthcareEntitiesOptions'
+      name: BeginAnalyzeHealthcareEntitiesOptions
       items: []
     - uid: '@azure/ai-text-analytics.CategorizedEntity'
       name: CategorizedEntity
@@ -303,11 +533,38 @@
     - uid: '@azure/ai-text-analytics.Entity'
       name: Entity
       items: []
+    - uid: '@azure/ai-text-analytics.EntityAssertion'
+      name: EntityAssertion
+      items: []
+    - uid: '@azure/ai-text-analytics.EntityAssociation'
+      name: EntityAssociation
+      items: []
+    - uid: '@azure/ai-text-analytics.EntityCertainty'
+      name: EntityCertainty
+      items: []
+    - uid: '@azure/ai-text-analytics.EntityConditionality'
+      name: EntityConditionality
+      items: []
+    - uid: '@azure/ai-text-analytics.EntityDataSource'
+      name: EntityDataSource
+      items: []
     - uid: '@azure/ai-text-analytics.ErrorCode'
       name: ErrorCode
       items: []
     - uid: '@azure/ai-text-analytics.ErrorCodeValue'
       name: ErrorCodeValue
+      items: []
+    - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesAction'
+      name: ExtractKeyPhrasesAction
+      items: []
+    - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesActionErrorResult'
+      name: ExtractKeyPhrasesActionErrorResult
+      items: []
+    - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesActionResult'
+      name: ExtractKeyPhrasesActionResult
+      items: []
+    - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesActionSuccessResult'
+      name: ExtractKeyPhrasesActionSuccessResult
       items: []
     - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesErrorResult'
       name: ExtractKeyPhrasesErrorResult
@@ -324,14 +581,81 @@
     - uid: '@azure/ai-text-analytics.ExtractKeyPhrasesSuccessResult'
       name: ExtractKeyPhrasesSuccessResult
       items: []
+    - uid: '@azure/ai-text-analytics.HealthcareEntity'
+      name: HealthcareEntity
+      items: []
+    - uid: '@azure/ai-text-analytics.HealthcareEntityCategory'
+      name: HealthcareEntityCategory
+      items: []
+    - uid: '@azure/ai-text-analytics.HealthcareEntityRelation'
+      name: HealthcareEntityRelation
+      items: []
+    - uid: '@azure/ai-text-analytics.HealthcareEntityRelationRole'
+      name: HealthcareEntityRelationRole
+      items: []
+    - uid: '@azure/ai-text-analytics.HealthcareEntityRelationRoleType'
+      name: HealthcareEntityRelationRoleType
+      items: []
+    - uid: '@azure/ai-text-analytics.HealthcareEntityRelationType'
+      name: HealthcareEntityRelationType
+      items: []
     - uid: '@azure/ai-text-analytics.InnerErrorCodeValue'
       name: InnerErrorCodeValue
+      items: []
+    - uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory'
+      name: KnownHealthcareEntityCategory
+      items: []
+    - uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue'
+      name: KnownInnerErrorCodeValue
+      items: []
+    - uid: '@azure/ai-text-analytics.KnownWarningCode'
+      name: KnownWarningCode
       items: []
     - uid: '@azure/ai-text-analytics.LinkedEntity'
       name: LinkedEntity
       items: []
     - uid: '@azure/ai-text-analytics.Match'
       name: Match
+      items: []
+    - uid: '@azure/ai-text-analytics.OperationMetadata'
+      name: OperationMetadata
+      items: []
+    - uid: '@azure/ai-text-analytics.Opinion'
+      name: Opinion
+      items: []
+    - uid: '@azure/ai-text-analytics.PagedAnalyzeActionsResult'
+      name: PagedAnalyzeActionsResult
+      items: []
+    - uid: '@azure/ai-text-analytics.PagedAnalyzeHealthcareEntitiesResult'
+      name: PagedAnalyzeHealthcareEntitiesResult
+      items: []
+    - uid: '@azure/ai-text-analytics.PagedAsyncIterableAnalyzeActionsResult'
+      name: PagedAsyncIterableAnalyzeActionsResult
+      items: []
+    - uid: >-
+        @azure/ai-text-analytics.PagedAsyncIterableAnalyzeHealthcareEntitiesResult
+      name: PagedAsyncIterableAnalyzeHealthcareEntitiesResult
+      items: []
+    - uid: '@azure/ai-text-analytics.PiiEntity'
+      name: PiiEntity
+      items: []
+    - uid: '@azure/ai-text-analytics.PiiEntityCategory'
+      name: PiiEntityCategory
+      items: []
+    - uid: '@azure/ai-text-analytics.PiiEntityDomain'
+      name: PiiEntityDomain
+      items: []
+    - uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesAction'
+      name: RecognizeCategorizedEntitiesAction
+      items: []
+    - uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesActionErrorResult'
+      name: RecognizeCategorizedEntitiesActionErrorResult
+      items: []
+    - uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesActionResult'
+      name: RecognizeCategorizedEntitiesActionResult
+      items: []
+    - uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesActionSuccessResult'
+      name: RecognizeCategorizedEntitiesActionSuccessResult
       items: []
     - uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesErrorResult'
       name: RecognizeCategorizedEntitiesErrorResult
@@ -348,6 +672,18 @@
     - uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesSuccessResult'
       name: RecognizeCategorizedEntitiesSuccessResult
       items: []
+    - uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesAction'
+      name: RecognizeLinkedEntitiesAction
+      items: []
+    - uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesActionErrorResult'
+      name: RecognizeLinkedEntitiesActionErrorResult
+      items: []
+    - uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesActionResult'
+      name: RecognizeLinkedEntitiesActionResult
+      items: []
+    - uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesActionSuccessResult'
+      name: RecognizeLinkedEntitiesActionSuccessResult
+      items: []
     - uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesErrorResult'
       name: RecognizeLinkedEntitiesErrorResult
       items: []
@@ -363,6 +699,36 @@
     - uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesSuccessResult'
       name: RecognizeLinkedEntitiesSuccessResult
       items: []
+    - uid: '@azure/ai-text-analytics.RecognizePiiEntitiesAction'
+      name: RecognizePiiEntitiesAction
+      items: []
+    - uid: '@azure/ai-text-analytics.RecognizePiiEntitiesActionErrorResult'
+      name: RecognizePiiEntitiesActionErrorResult
+      items: []
+    - uid: '@azure/ai-text-analytics.RecognizePiiEntitiesActionResult'
+      name: RecognizePiiEntitiesActionResult
+      items: []
+    - uid: '@azure/ai-text-analytics.RecognizePiiEntitiesActionSuccessResult'
+      name: RecognizePiiEntitiesActionSuccessResult
+      items: []
+    - uid: '@azure/ai-text-analytics.RecognizePiiEntitiesErrorResult'
+      name: RecognizePiiEntitiesErrorResult
+      items: []
+    - uid: '@azure/ai-text-analytics.RecognizePiiEntitiesOptions'
+      name: RecognizePiiEntitiesOptions
+      items: []
+    - uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResult'
+      name: RecognizePiiEntitiesResult
+      items: []
+    - uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray'
+      name: RecognizePiiEntitiesResultArray
+      items: []
+    - uid: '@azure/ai-text-analytics.RecognizePiiEntitiesSuccessResult'
+      name: RecognizePiiEntitiesSuccessResult
+      items: []
+    - uid: '@azure/ai-text-analytics.SentenceAssessment'
+      name: SentenceAssessment
+      items: []
     - uid: '@azure/ai-text-analytics.SentenceSentiment'
       name: SentenceSentiment
       items: []
@@ -371,6 +737,27 @@
       items: []
     - uid: '@azure/ai-text-analytics.SentimentConfidenceScores'
       name: SentimentConfidenceScores
+      items: []
+    - uid: '@azure/ai-text-analytics.StringIndexType'
+      name: StringIndexType
+      items: []
+    - uid: '@azure/ai-text-analytics.TargetConfidenceScoreLabel'
+      name: TargetConfidenceScoreLabel
+      items: []
+    - uid: '@azure/ai-text-analytics.TargetSentiment'
+      name: TargetSentiment
+      items: []
+    - uid: '@azure/ai-text-analytics.TextAnalyticsAction'
+      name: TextAnalyticsAction
+      items: []
+    - uid: '@azure/ai-text-analytics.TextAnalyticsActionErrorResult'
+      name: TextAnalyticsActionErrorResult
+      items: []
+    - uid: '@azure/ai-text-analytics.TextAnalyticsActions'
+      name: TextAnalyticsActions
+      items: []
+    - uid: '@azure/ai-text-analytics.TextAnalyticsActionSuccessState'
+      name: TextAnalyticsActionSuccessState
       items: []
     - uid: '@azure/ai-text-analytics.TextAnalyticsClient'
       name: TextAnalyticsClient
@@ -387,8 +774,8 @@
     - uid: '@azure/ai-text-analytics.TextAnalyticsOperationOptions'
       name: TextAnalyticsOperationOptions
       items: []
-    - uid: '@azure/ai-text-analytics.TextAnalyticsResult'
-      name: TextAnalyticsResult
+    - uid: '@azure/ai-text-analytics.TextAnalyticsOperationStatus'
+      name: TextAnalyticsOperationStatus
       items: []
     - uid: '@azure/ai-text-analytics.TextAnalyticsSuccessResult'
       name: TextAnalyticsSuccessResult
@@ -404,6 +791,9 @@
       items: []
     - uid: '@azure/ai-text-analytics.TextDocumentStatistics'
       name: TextDocumentStatistics
+      items: []
+    - uid: '@azure/ai-text-analytics.TokenSentimentValue'
+      name: TokenSentimentValue
       items: []
     - uid: '@azure/ai-text-analytics.WarningCode'
       name: WarningCode
@@ -445,6 +835,9 @@
     - uid: '@azure/app-configuration.DeleteConfigurationSettingResponse'
       name: DeleteConfigurationSettingResponse
       items: []
+    - uid: '@azure/app-configuration.FeatureFlagValue'
+      name: FeatureFlagValue
+      items: []
     - uid: '@azure/app-configuration.GetConfigurationHeaders'
       name: GetConfigurationHeaders
       items: []
@@ -483,6 +876,15 @@
       items: []
     - uid: '@azure/app-configuration.OptionalFields'
       name: OptionalFields
+      items: []
+    - uid: '@azure/app-configuration.PageSettings'
+      name: PageSettings
+      items: []
+    - uid: '@azure/app-configuration.RetryOptions'
+      name: RetryOptions
+      items: []
+    - uid: '@azure/app-configuration.SecretReferenceValue'
+      name: SecretReferenceValue
       items: []
     - uid: '@azure/app-configuration.SetConfigurationSettingOptions'
       name: SetConfigurationSettingOptions
@@ -524,6 +926,9 @@
     - uid: '@azure/arm-appconfiguration.AppConfigurationManagementClientOptions'
       name: AppConfigurationManagementClientOptions
       items: []
+    - uid: '@azure/arm-appconfiguration.AzureEntityResource'
+      name: AzureEntityResource
+      items: []
     - uid: '@azure/arm-appconfiguration.CheckNameAvailabilityParameters'
       name: CheckNameAvailabilityParameters
       items: []
@@ -549,6 +954,10 @@
       name: ConfigurationStoresGetResponse
       items: []
     - uid: >-
+        @azure/arm-appconfiguration.ConfigurationStoresListByResourceGroupNextOptionalParams
+      name: ConfigurationStoresListByResourceGroupNextOptionalParams
+      items: []
+    - uid: >-
         @azure/arm-appconfiguration.ConfigurationStoresListByResourceGroupNextResponse
       name: ConfigurationStoresListByResourceGroupNextResponse
       items: []
@@ -560,6 +969,10 @@
         @azure/arm-appconfiguration.ConfigurationStoresListByResourceGroupResponse
       name: ConfigurationStoresListByResourceGroupResponse
       items: []
+    - uid: >-
+        @azure/arm-appconfiguration.ConfigurationStoresListKeysNextOptionalParams
+      name: ConfigurationStoresListKeysNextOptionalParams
+      items: []
     - uid: '@azure/arm-appconfiguration.ConfigurationStoresListKeysNextResponse'
       name: ConfigurationStoresListKeysNextResponse
       items: []
@@ -569,8 +982,8 @@
     - uid: '@azure/arm-appconfiguration.ConfigurationStoresListKeysResponse'
       name: ConfigurationStoresListKeysResponse
       items: []
-    - uid: '@azure/arm-appconfiguration.ConfigurationStoresListKeyValueResponse'
-      name: ConfigurationStoresListKeyValueResponse
+    - uid: '@azure/arm-appconfiguration.ConfigurationStoresListNextOptionalParams'
+      name: ConfigurationStoresListNextOptionalParams
       items: []
     - uid: '@azure/arm-appconfiguration.ConfigurationStoresListNextResponse'
       name: ConfigurationStoresListNextResponse
@@ -593,11 +1006,20 @@
     - uid: '@azure/arm-appconfiguration.ConnectionStatus'
       name: ConnectionStatus
       items: []
+    - uid: '@azure/arm-appconfiguration.CreatedByType'
+      name: CreatedByType
+      items: []
     - uid: '@azure/arm-appconfiguration.EncryptionProperties'
       name: EncryptionProperties
       items: []
-    - uid: '@azure/arm-appconfiguration.ErrorModel'
-      name: ErrorModel
+    - uid: '@azure/arm-appconfiguration.ErrorAdditionalInfo'
+      name: ErrorAdditionalInfo
+      items: []
+    - uid: '@azure/arm-appconfiguration.ErrorDetails'
+      name: ErrorDetails
+      items: []
+    - uid: '@azure/arm-appconfiguration.ErrorResponse'
+      name: ErrorResponse
       items: []
     - uid: '@azure/arm-appconfiguration.IdentityType'
       name: IdentityType
@@ -605,11 +1027,47 @@
     - uid: '@azure/arm-appconfiguration.KeyValue'
       name: KeyValue
       items: []
+    - uid: '@azure/arm-appconfiguration.KeyValueListResult'
+      name: KeyValueListResult
+      items: []
+    - uid: '@azure/arm-appconfiguration.KeyValues'
+      name: KeyValues
+      items: []
+    - uid: '@azure/arm-appconfiguration.KeyValuesCreateOrUpdateOptionalParams'
+      name: KeyValuesCreateOrUpdateOptionalParams
+      items: []
+    - uid: '@azure/arm-appconfiguration.KeyValuesCreateOrUpdateResponse'
+      name: KeyValuesCreateOrUpdateResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.KeyValuesGetResponse'
+      name: KeyValuesGetResponse
+      items: []
+    - uid: >-
+        @azure/arm-appconfiguration.KeyValuesListByConfigurationStoreNextOptionalParams
+      name: KeyValuesListByConfigurationStoreNextOptionalParams
+      items: []
+    - uid: >-
+        @azure/arm-appconfiguration.KeyValuesListByConfigurationStoreNextResponse
+      name: KeyValuesListByConfigurationStoreNextResponse
+      items: []
+    - uid: >-
+        @azure/arm-appconfiguration.KeyValuesListByConfigurationStoreOptionalParams
+      name: KeyValuesListByConfigurationStoreOptionalParams
+      items: []
+    - uid: '@azure/arm-appconfiguration.KeyValuesListByConfigurationStoreResponse'
+      name: KeyValuesListByConfigurationStoreResponse
+      items: []
     - uid: '@azure/arm-appconfiguration.KeyVaultProperties'
       name: KeyVaultProperties
       items: []
-    - uid: '@azure/arm-appconfiguration.ListKeyValueParameters'
-      name: ListKeyValueParameters
+    - uid: '@azure/arm-appconfiguration.LogSpecification'
+      name: LogSpecification
+      items: []
+    - uid: '@azure/arm-appconfiguration.MetricDimension'
+      name: MetricDimension
+      items: []
+    - uid: '@azure/arm-appconfiguration.MetricSpecification'
+      name: MetricSpecification
       items: []
     - uid: '@azure/arm-appconfiguration.NameAvailabilityStatus'
       name: NameAvailabilityStatus
@@ -623,11 +1081,17 @@
     - uid: '@azure/arm-appconfiguration.OperationDefinitionListResult'
       name: OperationDefinitionListResult
       items: []
+    - uid: '@azure/arm-appconfiguration.OperationProperties'
+      name: OperationProperties
+      items: []
     - uid: '@azure/arm-appconfiguration.Operations'
       name: Operations
       items: []
     - uid: '@azure/arm-appconfiguration.OperationsCheckNameAvailabilityResponse'
       name: OperationsCheckNameAvailabilityResponse
+      items: []
+    - uid: '@azure/arm-appconfiguration.OperationsListNextOptionalParams'
+      name: OperationsListNextOptionalParams
       items: []
     - uid: '@azure/arm-appconfiguration.OperationsListNextResponse'
       name: OperationsListNextResponse
@@ -698,6 +1162,9 @@
     - uid: '@azure/arm-appconfiguration.ProvisioningState'
       name: ProvisioningState
       items: []
+    - uid: '@azure/arm-appconfiguration.ProxyResource'
+      name: ProxyResource
+      items: []
     - uid: '@azure/arm-appconfiguration.PublicNetworkAccess'
       name: PublicNetworkAccess
       items: []
@@ -710,8 +1177,17 @@
     - uid: '@azure/arm-appconfiguration.ResourceIdentity'
       name: ResourceIdentity
       items: []
+    - uid: '@azure/arm-appconfiguration.ServiceSpecification'
+      name: ServiceSpecification
+      items: []
     - uid: '@azure/arm-appconfiguration.Sku'
       name: Sku
+      items: []
+    - uid: '@azure/arm-appconfiguration.SystemData'
+      name: SystemData
+      items: []
+    - uid: '@azure/arm-appconfiguration.TrackedResource'
+      name: TrackedResource
       items: []
     - uid: '@azure/arm-appconfiguration.UserIdentity'
       name: UserIdentity
@@ -720,20 +1196,35 @@
   items:
     - name: Overview
       uid: '@azure/arm-cognitiveservices'
+    - uid: '@azure/arm-cognitiveservices.Account'
+      name: Account
+      items: []
+    - uid: '@azure/arm-cognitiveservices.AccountListResult'
+      name: AccountListResult
+      items: []
+    - uid: '@azure/arm-cognitiveservices.AccountProperties'
+      name: AccountProperties
+      items: []
     - uid: '@azure/arm-cognitiveservices.Accounts'
       name: Accounts
+      items: []
+    - uid: '@azure/arm-cognitiveservices.AccountsBeginCreateResponse'
+      name: AccountsBeginCreateResponse
+      items: []
+    - uid: '@azure/arm-cognitiveservices.AccountsBeginUpdateResponse'
+      name: AccountsBeginUpdateResponse
       items: []
     - uid: '@azure/arm-cognitiveservices.AccountsCreateResponse'
       name: AccountsCreateResponse
       items: []
-    - uid: '@azure/arm-cognitiveservices.AccountsGetPropertiesResponse'
-      name: AccountsGetPropertiesResponse
+    - uid: '@azure/arm-cognitiveservices.AccountsGetResponse'
+      name: AccountsGetResponse
       items: []
-    - uid: '@azure/arm-cognitiveservices.AccountsGetUsagesOptionalParams'
-      name: AccountsGetUsagesOptionalParams
+    - uid: '@azure/arm-cognitiveservices.AccountSku'
+      name: AccountSku
       items: []
-    - uid: '@azure/arm-cognitiveservices.AccountsGetUsagesResponse'
-      name: AccountsGetUsagesResponse
+    - uid: '@azure/arm-cognitiveservices.AccountSkuListResult'
+      name: AccountSkuListResult
       items: []
     - uid: '@azure/arm-cognitiveservices.AccountsListByResourceGroupNextResponse'
       name: AccountsListByResourceGroupNextResponse
@@ -753,14 +1244,32 @@
     - uid: '@azure/arm-cognitiveservices.AccountsListSkusResponse'
       name: AccountsListSkusResponse
       items: []
+    - uid: '@azure/arm-cognitiveservices.AccountsListUsagesOptionalParams'
+      name: AccountsListUsagesOptionalParams
+      items: []
+    - uid: '@azure/arm-cognitiveservices.AccountsListUsagesResponse'
+      name: AccountsListUsagesResponse
+      items: []
     - uid: '@azure/arm-cognitiveservices.AccountsRegenerateKeyResponse'
       name: AccountsRegenerateKeyResponse
       items: []
     - uid: '@azure/arm-cognitiveservices.AccountsUpdateResponse'
       name: AccountsUpdateResponse
       items: []
+    - uid: '@azure/arm-cognitiveservices.ActionType'
+      name: ActionType
+      items: []
+    - uid: '@azure/arm-cognitiveservices.ApiKeys'
+      name: ApiKeys
+      items: []
+    - uid: '@azure/arm-cognitiveservices.ApiProperties'
+      name: ApiProperties
+      items: []
     - uid: '@azure/arm-cognitiveservices.AzureEntityResource'
       name: AzureEntityResource
+      items: []
+    - uid: '@azure/arm-cognitiveservices.CallRateLimit'
+      name: CallRateLimit
       items: []
     - uid: '@azure/arm-cognitiveservices.CheckDomainAvailabilityParameter'
       name: CheckDomainAvailabilityParameter
@@ -768,38 +1277,11 @@
     - uid: '@azure/arm-cognitiveservices.CheckDomainAvailabilityResponse'
       name: CheckDomainAvailabilityResponse
       items: []
-    - uid: '@azure/arm-cognitiveservices.CheckDomainAvailabilityResult'
-      name: CheckDomainAvailabilityResult
-      items: []
     - uid: '@azure/arm-cognitiveservices.CheckSkuAvailabilityParameter'
       name: CheckSkuAvailabilityParameter
       items: []
     - uid: '@azure/arm-cognitiveservices.CheckSkuAvailabilityResponse'
       name: CheckSkuAvailabilityResponse
-      items: []
-    - uid: '@azure/arm-cognitiveservices.CheckSkuAvailabilityResult'
-      name: CheckSkuAvailabilityResult
-      items: []
-    - uid: '@azure/arm-cognitiveservices.CheckSkuAvailabilityResultList'
-      name: CheckSkuAvailabilityResultList
-      items: []
-    - uid: '@azure/arm-cognitiveservices.CognitiveServicesAccount'
-      name: CognitiveServicesAccount
-      items: []
-    - uid: '@azure/arm-cognitiveservices.CognitiveServicesAccountApiProperties'
-      name: CognitiveServicesAccountApiProperties
-      items: []
-    - uid: '@azure/arm-cognitiveservices.CognitiveServicesAccountEnumerateSkusResult'
-      name: CognitiveServicesAccountEnumerateSkusResult
-      items: []
-    - uid: '@azure/arm-cognitiveservices.CognitiveServicesAccountKeys'
-      name: CognitiveServicesAccountKeys
-      items: []
-    - uid: '@azure/arm-cognitiveservices.CognitiveServicesAccountListResult'
-      name: CognitiveServicesAccountListResult
-      items: []
-    - uid: '@azure/arm-cognitiveservices.CognitiveServicesAccountProperties'
-      name: CognitiveServicesAccountProperties
       items: []
     - uid: '@azure/arm-cognitiveservices.CognitiveServicesManagementClient'
       name: CognitiveServicesManagementClient
@@ -810,23 +1292,38 @@
     - uid: '@azure/arm-cognitiveservices.CognitiveServicesManagementClientOptions'
       name: CognitiveServicesManagementClientOptions
       items: []
-    - uid: '@azure/arm-cognitiveservices.CognitiveServicesResourceAndSku'
-      name: CognitiveServicesResourceAndSku
+    - uid: '@azure/arm-cognitiveservices.CreatedByType'
+      name: CreatedByType
+      items: []
+    - uid: '@azure/arm-cognitiveservices.DeletedAccounts'
+      name: DeletedAccounts
+      items: []
+    - uid: '@azure/arm-cognitiveservices.DeletedAccountsGetResponse'
+      name: DeletedAccountsGetResponse
+      items: []
+    - uid: '@azure/arm-cognitiveservices.DeletedAccountsListNextResponse'
+      name: DeletedAccountsListNextResponse
+      items: []
+    - uid: '@azure/arm-cognitiveservices.DeletedAccountsListResponse'
+      name: DeletedAccountsListResponse
+      items: []
+    - uid: '@azure/arm-cognitiveservices.DomainAvailability'
+      name: DomainAvailability
       items: []
     - uid: '@azure/arm-cognitiveservices.Encryption'
       name: Encryption
       items: []
-    - uid: '@azure/arm-cognitiveservices.ErrorBody'
-      name: ErrorBody
+    - uid: '@azure/arm-cognitiveservices.ErrorAdditionalInfo'
+      name: ErrorAdditionalInfo
       items: []
-    - uid: '@azure/arm-cognitiveservices.ErrorModel'
-      name: ErrorModel
+    - uid: '@azure/arm-cognitiveservices.ErrorDetail'
+      name: ErrorDetail
+      items: []
+    - uid: '@azure/arm-cognitiveservices.ErrorResponse'
+      name: ErrorResponse
       items: []
     - uid: '@azure/arm-cognitiveservices.Identity'
       name: Identity
-      items: []
-    - uid: '@azure/arm-cognitiveservices.IdentityType'
-      name: IdentityType
       items: []
     - uid: '@azure/arm-cognitiveservices.IpRule'
       name: IpRule
@@ -849,14 +1346,14 @@
     - uid: '@azure/arm-cognitiveservices.NetworkRuleSet'
       name: NetworkRuleSet
       items: []
-    - uid: '@azure/arm-cognitiveservices.OperationDisplayInfo'
-      name: OperationDisplayInfo
+    - uid: '@azure/arm-cognitiveservices.Operation'
+      name: Operation
       items: []
-    - uid: '@azure/arm-cognitiveservices.OperationEntity'
-      name: OperationEntity
+    - uid: '@azure/arm-cognitiveservices.OperationDisplay'
+      name: OperationDisplay
       items: []
-    - uid: '@azure/arm-cognitiveservices.OperationEntityListResult'
-      name: OperationEntityListResult
+    - uid: '@azure/arm-cognitiveservices.OperationListResult'
+      name: OperationListResult
       items: []
     - uid: '@azure/arm-cognitiveservices.Operations'
       name: Operations
@@ -867,17 +1364,30 @@
     - uid: '@azure/arm-cognitiveservices.OperationsListResponse'
       name: OperationsListResponse
       items: []
+    - uid: '@azure/arm-cognitiveservices.Origin'
+      name: Origin
+      items: []
     - uid: '@azure/arm-cognitiveservices.PrivateEndpoint'
       name: PrivateEndpoint
       items: []
     - uid: '@azure/arm-cognitiveservices.PrivateEndpointConnection'
       name: PrivateEndpointConnection
       items: []
+    - uid: '@azure/arm-cognitiveservices.PrivateEndpointConnectionListResult'
+      name: PrivateEndpointConnectionListResult
+      items: []
     - uid: '@azure/arm-cognitiveservices.PrivateEndpointConnectionProperties'
       name: PrivateEndpointConnectionProperties
       items: []
+    - uid: '@azure/arm-cognitiveservices.PrivateEndpointConnectionProvisioningState'
+      name: PrivateEndpointConnectionProvisioningState
+      items: []
     - uid: '@azure/arm-cognitiveservices.PrivateEndpointConnections'
       name: PrivateEndpointConnections
+      items: []
+    - uid: >-
+        @azure/arm-cognitiveservices.PrivateEndpointConnectionsBeginCreateOrUpdateResponse
+      name: PrivateEndpointConnectionsBeginCreateOrUpdateResponse
       items: []
     - uid: >-
         @azure/arm-cognitiveservices.PrivateEndpointConnectionsCreateOrUpdateResponse
@@ -885,6 +1395,9 @@
       items: []
     - uid: '@azure/arm-cognitiveservices.PrivateEndpointConnectionsGetResponse'
       name: PrivateEndpointConnectionsGetResponse
+      items: []
+    - uid: '@azure/arm-cognitiveservices.PrivateEndpointConnectionsListResponse'
+      name: PrivateEndpointConnectionsListResponse
       items: []
     - uid: '@azure/arm-cognitiveservices.PrivateEndpointServiceConnectionStatus'
       name: PrivateEndpointServiceConnectionStatus
@@ -916,17 +1429,29 @@
     - uid: '@azure/arm-cognitiveservices.PublicNetworkAccess'
       name: PublicNetworkAccess
       items: []
+    - uid: '@azure/arm-cognitiveservices.QuotaLimit'
+      name: QuotaLimit
+      items: []
     - uid: '@azure/arm-cognitiveservices.QuotaUsageStatus'
       name: QuotaUsageStatus
       items: []
     - uid: '@azure/arm-cognitiveservices.RegenerateKeyParameters'
       name: RegenerateKeyParameters
       items: []
+    - uid: '@azure/arm-cognitiveservices.RequestMatchPattern'
+      name: RequestMatchPattern
+      items: []
     - uid: '@azure/arm-cognitiveservices.Resource'
       name: Resource
       items: []
+    - uid: '@azure/arm-cognitiveservices.ResourceIdentityType'
+      name: ResourceIdentityType
+      items: []
     - uid: '@azure/arm-cognitiveservices.ResourceSku'
       name: ResourceSku
+      items: []
+    - uid: '@azure/arm-cognitiveservices.ResourceSkuListResult'
+      name: ResourceSkuListResult
       items: []
     - uid: '@azure/arm-cognitiveservices.ResourceSkuRestrictionInfo'
       name: ResourceSkuRestrictionInfo
@@ -949,17 +1474,29 @@
     - uid: '@azure/arm-cognitiveservices.ResourceSkusListResponse'
       name: ResourceSkusListResponse
       items: []
-    - uid: '@azure/arm-cognitiveservices.ResourceSkusResult'
-      name: ResourceSkusResult
-      items: []
     - uid: '@azure/arm-cognitiveservices.Sku'
       name: Sku
+      items: []
+    - uid: '@azure/arm-cognitiveservices.SkuAvailability'
+      name: SkuAvailability
+      items: []
+    - uid: '@azure/arm-cognitiveservices.SkuAvailabilityListResult'
+      name: SkuAvailabilityListResult
       items: []
     - uid: '@azure/arm-cognitiveservices.SkuCapability'
       name: SkuCapability
       items: []
+    - uid: '@azure/arm-cognitiveservices.SkuChangeInfo'
+      name: SkuChangeInfo
+      items: []
     - uid: '@azure/arm-cognitiveservices.SkuTier'
       name: SkuTier
+      items: []
+    - uid: '@azure/arm-cognitiveservices.SystemData'
+      name: SystemData
+      items: []
+    - uid: '@azure/arm-cognitiveservices.ThrottlingRule'
+      name: ThrottlingRule
       items: []
     - uid: '@azure/arm-cognitiveservices.TrackedResource'
       name: TrackedResource
@@ -970,8 +1507,8 @@
     - uid: '@azure/arm-cognitiveservices.Usage'
       name: Usage
       items: []
-    - uid: '@azure/arm-cognitiveservices.UsagesResult'
-      name: UsagesResult
+    - uid: '@azure/arm-cognitiveservices.UsageListResult'
+      name: UsageListResult
       items: []
     - uid: '@azure/arm-cognitiveservices.UserAssignedIdentity'
       name: UserAssignedIdentity
@@ -1856,6 +2393,9 @@
     - uid: '@azure/arm-storage.Encryption'
       name: Encryption
       items: []
+    - uid: '@azure/arm-storage.EncryptionIdentity'
+      name: EncryptionIdentity
+      items: []
     - uid: '@azure/arm-storage.EncryptionScope'
       name: EncryptionScope
       items: []
@@ -1985,6 +2525,9 @@
     - uid: '@azure/arm-storage.Identity'
       name: Identity
       items: []
+    - uid: '@azure/arm-storage.IdentityType'
+      name: IdentityType
+      items: []
     - uid: '@azure/arm-storage.ImmutabilityPolicy'
       name: ImmutabilityPolicy
       items: []
@@ -2000,8 +2543,14 @@
     - uid: '@azure/arm-storage.IPRule'
       name: IPRule
       items: []
+    - uid: '@azure/arm-storage.KeyCreationTime'
+      name: KeyCreationTime
+      items: []
     - uid: '@azure/arm-storage.KeyPermission'
       name: KeyPermission
+      items: []
+    - uid: '@azure/arm-storage.KeyPolicy'
+      name: KeyPolicy
       items: []
     - uid: '@azure/arm-storage.KeySource'
       name: KeySource
@@ -2113,6 +2662,9 @@
       items: []
     - uid: '@azure/arm-storage.ManagementPolicySnapShot'
       name: ManagementPolicySnapShot
+      items: []
+    - uid: '@azure/arm-storage.ManagementPolicyVersion'
+      name: ManagementPolicyVersion
       items: []
     - uid: '@azure/arm-storage.MetricSpecification'
       name: MetricSpecification
@@ -2302,6 +2854,9 @@
       items: []
     - uid: '@azure/arm-storage.RoutingPreference'
       name: RoutingPreference
+      items: []
+    - uid: '@azure/arm-storage.SasPolicy'
+      name: SasPolicy
       items: []
     - uid: '@azure/arm-storage.Services'
       name: Services
@@ -2522,6 +3077,9 @@
     - uid: '@azure/arm-storage.UsageUnit'
       name: UsageUnit
       items: []
+    - uid: '@azure/arm-storage.UserAssignedIdentity'
+      name: UserAssignedIdentity
+      items: []
     - uid: '@azure/arm-storage.VirtualNetworkRule'
       name: VirtualNetworkRule
       items: []
@@ -2529,6 +3087,9 @@
   items:
     - name: Overview
       uid: '@azure/core-amqp'
+    - uid: '@azure/core-amqp.AcquireLockProperties'
+      name: AcquireLockProperties
+      items: []
     - uid: '@azure/core-amqp.AmqpAnnotatedMessage'
       name: AmqpAnnotatedMessage
       items: []
@@ -2537,6 +3098,9 @@
       items: []
     - uid: '@azure/core-amqp.AmqpMessageProperties'
       name: AmqpMessageProperties
+      items: []
+    - uid: '@azure/core-amqp.CancellableAsyncLock'
+      name: CancellableAsyncLock
       items: []
     - uid: '@azure/core-amqp.CbsClient'
       name: CbsClient
@@ -2611,11 +3175,32 @@
     - uid: '@azure/core-auth.AzureKeyCredential'
       name: AzureKeyCredential
       items: []
+    - uid: '@azure/core-auth.AzureNamedKeyCredential'
+      name: AzureNamedKeyCredential
+      items: []
+    - uid: '@azure/core-auth.AzureSASCredential'
+      name: AzureSASCredential
+      items: []
+    - uid: '@azure/core-auth.Context'
+      name: Context
+      items: []
     - uid: '@azure/core-auth.GetTokenOptions'
       name: GetTokenOptions
       items: []
     - uid: '@azure/core-auth.KeyCredential'
       name: KeyCredential
+      items: []
+    - uid: '@azure/core-auth.NamedKeyCredential'
+      name: NamedKeyCredential
+      items: []
+    - uid: '@azure/core-auth.SASCredential'
+      name: SASCredential
+      items: []
+    - uid: '@azure/core-auth.SpanAttributes'
+      name: SpanAttributes
+      items: []
+    - uid: '@azure/core-auth.SpanAttributeValue'
+      name: SpanAttributeValue
       items: []
     - uid: '@azure/core-auth.SpanContext'
       name: SpanContext
@@ -2653,9 +3238,6 @@
       items: []
     - uid: '@azure/core-http.BasicAuthenticationCredentials'
       name: BasicAuthenticationCredentials
-      items: []
-    - uid: '@azure/core-http.BearerTokenAuthenticationPolicy'
-      name: BearerTokenAuthenticationPolicy
       items: []
     - uid: '@azure/core-http.BrowserFetchHttpClient'
       name: BrowserFetchHttpClient
@@ -2921,9 +3503,6 @@
     - uid: '@azure/core-http.SimpleMapperType'
       name: SimpleMapperType
       items: []
-    - uid: '@azure/core-http.SpanConfig'
-      name: SpanConfig
-      items: []
     - uid: '@azure/core-http.SystemErrorRetryPolicy'
       name: SystemErrorRetryPolicy
       items: []
@@ -2932,6 +3511,9 @@
       items: []
     - uid: '@azure/core-http.ThrottlingRetryPolicy'
       name: ThrottlingRetryPolicy
+      items: []
+    - uid: '@azure/core-http.TokenCyclerOptions'
+      name: TokenCyclerOptions
       items: []
     - uid: '@azure/core-http.TopicCredentials'
       name: TopicCredentials
@@ -2944,6 +3526,9 @@
       items: []
     - uid: '@azure/core-http.TransferProgressEvent'
       name: TransferProgressEvent
+      items: []
+    - uid: '@azure/core-http.UnknownObject'
+      name: UnknownObject
       items: []
     - uid: '@azure/core-http.URLBuilder'
       name: URLBuilder
@@ -2988,6 +3573,21 @@
     - uid: '@azure/core-lro.CancelOnProgress'
       name: CancelOnProgress
       items: []
+    - uid: '@azure/core-lro.LongRunningOperation'
+      name: LongRunningOperation
+      items: []
+    - uid: '@azure/core-lro.LroEngine'
+      name: LroEngine
+      items: []
+    - uid: '@azure/core-lro.LroEngineOptions'
+      name: LroEngineOptions
+      items: []
+    - uid: '@azure/core-lro.LroResourceLocationConfig'
+      name: LroResourceLocationConfig
+      items: []
+    - uid: '@azure/core-lro.LroResponse'
+      name: LroResponse
+      items: []
     - uid: '@azure/core-lro.Poller'
       name: Poller
       items: []
@@ -3009,12 +3609,18 @@
     - uid: '@azure/core-lro.PollProgressCallback'
       name: PollProgressCallback
       items: []
+    - uid: '@azure/core-lro.RawResponse'
+      name: RawResponse
+      items: []
 - name: '@azure/core-paging'
   items:
     - name: Overview
       uid: '@azure/core-paging'
     - uid: '@azure/core-paging.PagedAsyncIterableIterator'
       name: PagedAsyncIterableIterator
+      items: []
+    - uid: '@azure/core-paging.PagedResult'
+      name: PagedResult
       items: []
     - uid: '@azure/core-paging.PageSettings'
       name: PageSettings
@@ -3023,11 +3629,116 @@
   items:
     - name: Overview
       uid: '@azure/eventgrid'
+    - uid: '@azure/eventgrid.AcsChatEventBase'
+      name: AcsChatEventBase
+      items: []
+    - uid: '@azure/eventgrid.AcsChatEventInThreadBase'
+      name: AcsChatEventInThreadBase
+      items: []
+    - uid: '@azure/eventgrid.AcsChatMessageDeletedEventData'
+      name: AcsChatMessageDeletedEventData
+      items: []
+    - uid: '@azure/eventgrid.AcsChatMessageDeletedInThreadEventData'
+      name: AcsChatMessageDeletedInThreadEventData
+      items: []
+    - uid: '@azure/eventgrid.AcsChatMessageEditedEventData'
+      name: AcsChatMessageEditedEventData
+      items: []
+    - uid: '@azure/eventgrid.AcsChatMessageEditedInThreadEventData'
+      name: AcsChatMessageEditedInThreadEventData
+      items: []
+    - uid: '@azure/eventgrid.AcsChatMessageEventBase'
+      name: AcsChatMessageEventBase
+      items: []
+    - uid: '@azure/eventgrid.AcsChatMessageEventInThreadBase'
+      name: AcsChatMessageEventInThreadBase
+      items: []
+    - uid: '@azure/eventgrid.AcsChatMessageReceivedEventData'
+      name: AcsChatMessageReceivedEventData
+      items: []
+    - uid: '@azure/eventgrid.AcsChatMessageReceivedInThreadEventData'
+      name: AcsChatMessageReceivedInThreadEventData
+      items: []
+    - uid: '@azure/eventgrid.AcsChatParticipantAddedToThreadEventData'
+      name: AcsChatParticipantAddedToThreadEventData
+      items: []
+    - uid: '@azure/eventgrid.AcsChatParticipantAddedToThreadWithUserEventData'
+      name: AcsChatParticipantAddedToThreadWithUserEventData
+      items: []
+    - uid: '@azure/eventgrid.AcsChatParticipantRemovedFromThreadEventData'
+      name: AcsChatParticipantRemovedFromThreadEventData
+      items: []
+    - uid: '@azure/eventgrid.AcsChatParticipantRemovedFromThreadWithUserEventData'
+      name: AcsChatParticipantRemovedFromThreadWithUserEventData
+      items: []
+    - uid: '@azure/eventgrid.AcsChatThreadCreatedWithUserEventData'
+      name: AcsChatThreadCreatedWithUserEventData
+      items: []
+    - uid: '@azure/eventgrid.AcsChatThreadEventBase'
+      name: AcsChatThreadEventBase
+      items: []
+    - uid: '@azure/eventgrid.AcsChatThreadParticipant'
+      name: AcsChatThreadParticipant
+      items: []
+    - uid: '@azure/eventgrid.AcsChatThreadPropertiesUpdatedPerUserEventData'
+      name: AcsChatThreadPropertiesUpdatedPerUserEventData
+      items: []
+    - uid: '@azure/eventgrid.AcsChatThreadWithUserDeletedEventData'
+      name: AcsChatThreadWithUserDeletedEventData
+      items: []
+    - uid: '@azure/eventgrid.AcsRecordingChunkInfo'
+      name: AcsRecordingChunkInfo
+      items: []
+    - uid: '@azure/eventgrid.AcsRecordingFileStatusUpdatedEventData'
+      name: AcsRecordingFileStatusUpdatedEventData
+      items: []
+    - uid: '@azure/eventgrid.AcsRecordingStorageInfo'
+      name: AcsRecordingStorageInfo
+      items: []
+    - uid: '@azure/eventgrid.AcsSmsDeliveryAttempt'
+      name: AcsSmsDeliveryAttempt
+      items: []
+    - uid: '@azure/eventgrid.AcsSmsDeliveryReportReceivedEventData'
+      name: AcsSmsDeliveryReportReceivedEventData
+      items: []
+    - uid: '@azure/eventgrid.AcsSmsEventBase'
+      name: AcsSmsEventBase
+      items: []
+    - uid: '@azure/eventgrid.AcsSmsReceivedEventData'
+      name: AcsSmsReceivedEventData
+      items: []
+    - uid: '@azure/eventgrid.AppAction'
+      name: AppAction
+      items: []
     - uid: '@azure/eventgrid.AppConfigurationKeyValueDeletedEventData'
       name: AppConfigurationKeyValueDeletedEventData
       items: []
     - uid: '@azure/eventgrid.AppConfigurationKeyValueModifiedEventData'
       name: AppConfigurationKeyValueModifiedEventData
+      items: []
+    - uid: '@azure/eventgrid.AppEventTypeDetail'
+      name: AppEventTypeDetail
+      items: []
+    - uid: '@azure/eventgrid.AppServicePlanAction'
+      name: AppServicePlanAction
+      items: []
+    - uid: '@azure/eventgrid.AppServicePlanEventTypeDetail'
+      name: AppServicePlanEventTypeDetail
+      items: []
+    - uid: '@azure/eventgrid.AsyncStatus'
+      name: AsyncStatus
+      items: []
+    - uid: '@azure/eventgrid.CloudEvent'
+      name: CloudEvent
+      items: []
+    - uid: '@azure/eventgrid.CommunicationCloudEnvironmentModel'
+      name: CommunicationCloudEnvironmentModel
+      items: []
+    - uid: '@azure/eventgrid.CommunicationIdentifierModel'
+      name: CommunicationIdentifierModel
+      items: []
+    - uid: '@azure/eventgrid.CommunicationUserIdentifierModel'
+      name: CommunicationUserIdentifierModel
       items: []
     - uid: '@azure/eventgrid.ContainerRegistryArtifactEventData'
       name: ContainerRegistryArtifactEventData
@@ -3062,17 +3773,20 @@
     - uid: '@azure/eventgrid.ContainerRegistryImagePushedEventData'
       name: ContainerRegistryImagePushedEventData
       items: []
+    - uid: '@azure/eventgrid.DeviceConnectionStateEvent'
+      name: DeviceConnectionStateEvent
+      items: []
     - uid: '@azure/eventgrid.DeviceConnectionStateEventInfo'
       name: DeviceConnectionStateEventInfo
       items: []
-    - uid: '@azure/eventgrid.DeviceConnectionStateEventProperties'
-      name: DeviceConnectionStateEventProperties
+    - uid: '@azure/eventgrid.DeviceLifeCycleEvent'
+      name: DeviceLifeCycleEvent
       items: []
-    - uid: '@azure/eventgrid.DeviceLifeCycleEventProperties'
-      name: DeviceLifeCycleEventProperties
+    - uid: '@azure/eventgrid.DeviceTelemetryEvent'
+      name: DeviceTelemetryEvent
       items: []
-    - uid: '@azure/eventgrid.DeviceTelemetryEventProperties'
-      name: DeviceTelemetryEventProperties
+    - uid: '@azure/eventgrid.DeviceTwin'
+      name: DeviceTwin
       items: []
     - uid: '@azure/eventgrid.DeviceTwinInfo'
       name: DeviceTwinInfo
@@ -3086,20 +3800,29 @@
     - uid: '@azure/eventgrid.DeviceTwinMetadata'
       name: DeviceTwinMetadata
       items: []
-    - uid: '@azure/eventgrid.DeviceTwinProperties'
-      name: DeviceTwinProperties
-      items: []
-    - uid: '@azure/eventgrid.EventGridClient'
-      name: EventGridClient
-      items: []
-    - uid: '@azure/eventgrid.EventGridClientContext'
-      name: EventGridClientContext
+    - uid: '@azure/eventgrid.EventGridDeserializer'
+      name: EventGridDeserializer
       items: []
     - uid: '@azure/eventgrid.EventGridEvent'
       name: EventGridEvent
       items: []
+    - uid: '@azure/eventgrid.EventGridPublisherClient'
+      name: EventGridPublisherClient
+      items: []
+    - uid: '@azure/eventgrid.EventGridPublisherClientOptions'
+      name: EventGridPublisherClientOptions
+      items: []
     - uid: '@azure/eventgrid.EventHubCaptureFileCreatedEventData'
       name: EventHubCaptureFileCreatedEventData
+      items: []
+    - uid: '@azure/eventgrid.GenerateSharedAccessSignatureOptions'
+      name: GenerateSharedAccessSignatureOptions
+      items: []
+    - uid: '@azure/eventgrid.InputSchema'
+      name: InputSchema
+      items: []
+    - uid: '@azure/eventgrid.InputSchemaToInputTypeMap'
+      name: InputSchemaToInputTypeMap
       items: []
     - uid: '@azure/eventgrid.IotHubDeviceConnectedEventData'
       name: IotHubDeviceConnectedEventData
@@ -3115,6 +3838,9 @@
       items: []
     - uid: '@azure/eventgrid.IotHubDeviceTelemetryEventData'
       name: IotHubDeviceTelemetryEventData
+      items: []
+    - uid: '@azure/eventgrid.KeyVaultAccessPolicyChangedEventData'
+      name: KeyVaultAccessPolicyChangedEventData
       items: []
     - uid: '@azure/eventgrid.KeyVaultCertificateExpiredEventData'
       name: KeyVaultCertificateExpiredEventData
@@ -3143,6 +3869,21 @@
     - uid: '@azure/eventgrid.KeyVaultSecretNewVersionCreatedEventData'
       name: KeyVaultSecretNewVersionCreatedEventData
       items: []
+    - uid: '@azure/eventgrid.KnownAppAction'
+      name: KnownAppAction
+      items: []
+    - uid: '@azure/eventgrid.KnownAppServicePlanAction'
+      name: KnownAppServicePlanAction
+      items: []
+    - uid: '@azure/eventgrid.KnownAsyncStatus'
+      name: KnownAsyncStatus
+      items: []
+    - uid: '@azure/eventgrid.KnownStampKind'
+      name: KnownStampKind
+      items: []
+    - uid: '@azure/eventgrid.KnownSystemEventTypes'
+      name: KnownSystemEventTypes
+      items: []
     - uid: '@azure/eventgrid.MachineLearningServicesDatasetDriftDetectedEventData'
       name: MachineLearningServicesDatasetDriftDetectedEventData
       items: []
@@ -3155,11 +3896,14 @@
     - uid: '@azure/eventgrid.MachineLearningServicesRunCompletedEventData'
       name: MachineLearningServicesRunCompletedEventData
       items: []
+    - uid: '@azure/eventgrid.MachineLearningServicesRunStatusChangedEventData'
+      name: MachineLearningServicesRunStatusChangedEventData
+      items: []
     - uid: '@azure/eventgrid.MapsGeofenceEnteredEventData'
       name: MapsGeofenceEnteredEventData
       items: []
-    - uid: '@azure/eventgrid.MapsGeofenceEventProperties'
-      name: MapsGeofenceEventProperties
+    - uid: '@azure/eventgrid.MapsGeofenceEvent'
+      name: MapsGeofenceEvent
       items: []
     - uid: '@azure/eventgrid.MapsGeofenceExitedEventData'
       name: MapsGeofenceExitedEventData
@@ -3269,32 +4013,56 @@
     - uid: '@azure/eventgrid.MediaLiveEventTrackDiscontinuityDetectedEventData'
       name: MediaLiveEventTrackDiscontinuityDetectedEventData
       items: []
-    - uid: '@azure/eventgrid.ResourceActionCancelData'
-      name: ResourceActionCancelData
+    - uid: '@azure/eventgrid.MicrosoftTeamsUserIdentifierModel'
+      name: MicrosoftTeamsUserIdentifierModel
       items: []
-    - uid: '@azure/eventgrid.ResourceActionFailureData'
-      name: ResourceActionFailureData
+    - uid: '@azure/eventgrid.PhoneNumberIdentifierModel'
+      name: PhoneNumberIdentifierModel
       items: []
-    - uid: '@azure/eventgrid.ResourceActionSuccessData'
-      name: ResourceActionSuccessData
+    - uid: '@azure/eventgrid.PolicyInsightsPolicyStateChangedEventData'
+      name: PolicyInsightsPolicyStateChangedEventData
       items: []
-    - uid: '@azure/eventgrid.ResourceDeleteCancelData'
-      name: ResourceDeleteCancelData
+    - uid: '@azure/eventgrid.PolicyInsightsPolicyStateCreatedEventData'
+      name: PolicyInsightsPolicyStateCreatedEventData
       items: []
-    - uid: '@azure/eventgrid.ResourceDeleteFailureData'
-      name: ResourceDeleteFailureData
+    - uid: '@azure/eventgrid.PolicyInsightsPolicyStateDeletedEventData'
+      name: PolicyInsightsPolicyStateDeletedEventData
       items: []
-    - uid: '@azure/eventgrid.ResourceDeleteSuccessData'
-      name: ResourceDeleteSuccessData
+    - uid: '@azure/eventgrid.ResourceActionCancelEventData'
+      name: ResourceActionCancelEventData
       items: []
-    - uid: '@azure/eventgrid.ResourceWriteCancelData'
-      name: ResourceWriteCancelData
+    - uid: '@azure/eventgrid.ResourceActionFailureEventData'
+      name: ResourceActionFailureEventData
       items: []
-    - uid: '@azure/eventgrid.ResourceWriteFailureData'
-      name: ResourceWriteFailureData
+    - uid: '@azure/eventgrid.ResourceActionSuccessEventData'
+      name: ResourceActionSuccessEventData
       items: []
-    - uid: '@azure/eventgrid.ResourceWriteSuccessData'
-      name: ResourceWriteSuccessData
+    - uid: '@azure/eventgrid.ResourceDeleteCancelEventData'
+      name: ResourceDeleteCancelEventData
+      items: []
+    - uid: '@azure/eventgrid.ResourceDeleteFailureEventData'
+      name: ResourceDeleteFailureEventData
+      items: []
+    - uid: '@azure/eventgrid.ResourceDeleteSuccessEventData'
+      name: ResourceDeleteSuccessEventData
+      items: []
+    - uid: '@azure/eventgrid.ResourceWriteCancelEventData'
+      name: ResourceWriteCancelEventData
+      items: []
+    - uid: '@azure/eventgrid.ResourceWriteFailureEventData'
+      name: ResourceWriteFailureEventData
+      items: []
+    - uid: '@azure/eventgrid.ResourceWriteSuccessEventData'
+      name: ResourceWriteSuccessEventData
+      items: []
+    - uid: '@azure/eventgrid.SendCloudEventInput'
+      name: SendCloudEventInput
+      items: []
+    - uid: '@azure/eventgrid.SendEventGridEventInput'
+      name: SendEventGridEventInput
+      items: []
+    - uid: '@azure/eventgrid.SendOptions'
+      name: SendOptions
       items: []
     - uid: >-
         @azure/eventgrid.ServiceBusActiveMessagesAvailableWithNoListenersEventData
@@ -3304,11 +4072,11 @@
         @azure/eventgrid.ServiceBusDeadletterMessagesAvailableWithNoListenersEventData
       name: ServiceBusDeadletterMessagesAvailableWithNoListenersEventData
       items: []
-    - uid: '@azure/eventgrid.SignalRServiceClientConnectionConnectedEventData'
-      name: SignalRServiceClientConnectionConnectedEventData
+    - uid: '@azure/eventgrid.StampKind'
+      name: StampKind
       items: []
-    - uid: '@azure/eventgrid.SignalRServiceClientConnectionDisconnectedEventData'
-      name: SignalRServiceClientConnectionDisconnectedEventData
+    - uid: '@azure/eventgrid.StorageAsyncOperationInitiatedEventData'
+      name: StorageAsyncOperationInitiatedEventData
       items: []
     - uid: '@azure/eventgrid.StorageBlobCreatedEventData'
       name: StorageBlobCreatedEventData
@@ -3316,8 +4084,14 @@
     - uid: '@azure/eventgrid.StorageBlobDeletedEventData'
       name: StorageBlobDeletedEventData
       items: []
+    - uid: '@azure/eventgrid.StorageBlobInventoryPolicyCompletedEventData'
+      name: StorageBlobInventoryPolicyCompletedEventData
+      items: []
     - uid: '@azure/eventgrid.StorageBlobRenamedEventData'
       name: StorageBlobRenamedEventData
+      items: []
+    - uid: '@azure/eventgrid.StorageBlobTierChangedEventData'
+      name: StorageBlobTierChangedEventData
       items: []
     - uid: '@azure/eventgrid.StorageDirectoryCreatedEventData'
       name: StorageDirectoryCreatedEventData
@@ -3328,14 +4102,62 @@
     - uid: '@azure/eventgrid.StorageDirectoryRenamedEventData'
       name: StorageDirectoryRenamedEventData
       items: []
+    - uid: '@azure/eventgrid.StorageLifecyclePolicyActionSummaryDetail'
+      name: StorageLifecyclePolicyActionSummaryDetail
+      items: []
+    - uid: '@azure/eventgrid.StorageLifecyclePolicyCompletedEventData'
+      name: StorageLifecyclePolicyCompletedEventData
+      items: []
     - uid: '@azure/eventgrid.SubscriptionDeletedEventData'
       name: SubscriptionDeletedEventData
       items: []
     - uid: '@azure/eventgrid.SubscriptionValidationEventData'
       name: SubscriptionValidationEventData
       items: []
-    - uid: '@azure/eventgrid.SubscriptionValidationResponse'
-      name: SubscriptionValidationResponse
+    - uid: '@azure/eventgrid.SystemEventNameToEventData'
+      name: SystemEventNameToEventData
+      items: []
+    - uid: '@azure/eventgrid.WebAppServicePlanUpdatedEventData'
+      name: WebAppServicePlanUpdatedEventData
+      items: []
+    - uid: '@azure/eventgrid.WebAppServicePlanUpdatedEventDataSku'
+      name: WebAppServicePlanUpdatedEventDataSku
+      items: []
+    - uid: '@azure/eventgrid.WebAppUpdatedEventData'
+      name: WebAppUpdatedEventData
+      items: []
+    - uid: '@azure/eventgrid.WebBackupOperationCompletedEventData'
+      name: WebBackupOperationCompletedEventData
+      items: []
+    - uid: '@azure/eventgrid.WebBackupOperationFailedEventData'
+      name: WebBackupOperationFailedEventData
+      items: []
+    - uid: '@azure/eventgrid.WebBackupOperationStartedEventData'
+      name: WebBackupOperationStartedEventData
+      items: []
+    - uid: '@azure/eventgrid.WebRestoreOperationCompletedEventData'
+      name: WebRestoreOperationCompletedEventData
+      items: []
+    - uid: '@azure/eventgrid.WebRestoreOperationFailedEventData'
+      name: WebRestoreOperationFailedEventData
+      items: []
+    - uid: '@azure/eventgrid.WebRestoreOperationStartedEventData'
+      name: WebRestoreOperationStartedEventData
+      items: []
+    - uid: '@azure/eventgrid.WebSlotSwapCompletedEventData'
+      name: WebSlotSwapCompletedEventData
+      items: []
+    - uid: '@azure/eventgrid.WebSlotSwapFailedEventData'
+      name: WebSlotSwapFailedEventData
+      items: []
+    - uid: '@azure/eventgrid.WebSlotSwapStartedEventData'
+      name: WebSlotSwapStartedEventData
+      items: []
+    - uid: '@azure/eventgrid.WebSlotSwapWithPreviewCancelledEventData'
+      name: WebSlotSwapWithPreviewCancelledEventData
+      items: []
+    - uid: '@azure/eventgrid.WebSlotSwapWithPreviewStartedEventData'
+      name: WebSlotSwapWithPreviewStartedEventData
       items: []
 - name: '@azure/identity'
   items:
@@ -3446,6 +4268,9 @@
       items: []
     - uid: '@azure/keyvault-certificates.BeginRecoverDeletedCertificateOptions'
       name: BeginRecoverDeletedCertificateOptions
+      items: []
+    - uid: '@azure/keyvault-certificates.CancelCertificateOperationOptions'
+      name: CancelCertificateOperationOptions
       items: []
     - uid: '@azure/keyvault-certificates.CertificateClient'
       name: CertificateClient
@@ -3558,6 +4383,9 @@
     - uid: '@azure/keyvault-certificates.ImportCertificateOptions'
       name: ImportCertificateOptions
       items: []
+    - uid: '@azure/keyvault-certificates.ImportCertificatePolicy'
+      name: ImportCertificatePolicy
+      items: []
     - uid: '@azure/keyvault-certificates.IssuerAttributes'
       name: IssuerAttributes
       items: []
@@ -3576,8 +4404,26 @@
     - uid: '@azure/keyvault-certificates.KeyVaultCertificate'
       name: KeyVaultCertificate
       items: []
+    - uid: '@azure/keyvault-certificates.KeyVaultCertificateIdentifier'
+      name: KeyVaultCertificateIdentifier
+      items: []
+    - uid: '@azure/keyvault-certificates.KeyVaultCertificatePollOperationState'
+      name: KeyVaultCertificatePollOperationState
+      items: []
     - uid: '@azure/keyvault-certificates.KeyVaultCertificateWithPolicy'
       name: KeyVaultCertificateWithPolicy
+      items: []
+    - uid: '@azure/keyvault-certificates.KnownCertificateKeyCurveNames'
+      name: KnownCertificateKeyCurveNames
+      items: []
+    - uid: '@azure/keyvault-certificates.KnownCertificateKeyTypes'
+      name: KnownCertificateKeyTypes
+      items: []
+    - uid: '@azure/keyvault-certificates.KnownDeletionRecoveryLevels'
+      name: KnownDeletionRecoveryLevels
+      items: []
+    - uid: '@azure/keyvault-certificates.KnownKeyUsageTypes'
+      name: KnownKeyUsageTypes
       items: []
     - uid: '@azure/keyvault-certificates.KVPollerLike'
       name: KVPollerLike
@@ -3643,6 +4489,24 @@
   items:
     - name: Overview
       uid: '@azure/keyvault-keys'
+    - uid: '@azure/keyvault-keys.AesCbcDecryptParameters'
+      name: AesCbcDecryptParameters
+      items: []
+    - uid: '@azure/keyvault-keys.AesCbcEncryptionAlgorithm'
+      name: AesCbcEncryptionAlgorithm
+      items: []
+    - uid: '@azure/keyvault-keys.AesCbcEncryptParameters'
+      name: AesCbcEncryptParameters
+      items: []
+    - uid: '@azure/keyvault-keys.AesGcmDecryptParameters'
+      name: AesGcmDecryptParameters
+      items: []
+    - uid: '@azure/keyvault-keys.AesGcmEncryptionAlgorithm'
+      name: AesGcmEncryptionAlgorithm
+      items: []
+    - uid: '@azure/keyvault-keys.AesGcmEncryptParameters'
+      name: AesGcmEncryptParameters
+      items: []
     - uid: '@azure/keyvault-keys.BackupKeyOptions'
       name: BackupKeyOptions
       items: []
@@ -3657,6 +4521,9 @@
       items: []
     - uid: '@azure/keyvault-keys.CreateKeyOptions'
       name: CreateKeyOptions
+      items: []
+    - uid: '@azure/keyvault-keys.CreateOctKeyOptions'
+      name: CreateOctKeyOptions
       items: []
     - uid: '@azure/keyvault-keys.CreateRsaKeyOptions'
       name: CreateRsaKeyOptions
@@ -3673,6 +4540,9 @@
     - uid: '@azure/keyvault-keys.DecryptOptions'
       name: DecryptOptions
       items: []
+    - uid: '@azure/keyvault-keys.DecryptParameters'
+      name: DecryptParameters
+      items: []
     - uid: '@azure/keyvault-keys.DecryptResult'
       name: DecryptResult
       items: []
@@ -3687,6 +4557,9 @@
       items: []
     - uid: '@azure/keyvault-keys.EncryptOptions'
       name: EncryptOptions
+      items: []
+    - uid: '@azure/keyvault-keys.EncryptParameters'
+      name: EncryptParameters
       items: []
     - uid: '@azure/keyvault-keys.EncryptResult'
       name: EncryptResult
@@ -3727,8 +4600,29 @@
     - uid: '@azure/keyvault-keys.KeyVaultKey'
       name: KeyVaultKey
       items: []
+    - uid: '@azure/keyvault-keys.KeyVaultKeyIdentifier'
+      name: KeyVaultKeyIdentifier
+      items: []
     - uid: '@azure/keyvault-keys.KeyWrapAlgorithm'
       name: KeyWrapAlgorithm
+      items: []
+    - uid: '@azure/keyvault-keys.KnownDeletionRecoveryLevel'
+      name: KnownDeletionRecoveryLevel
+      items: []
+    - uid: '@azure/keyvault-keys.KnownEncryptionAlgorithms'
+      name: KnownEncryptionAlgorithms
+      items: []
+    - uid: '@azure/keyvault-keys.KnownKeyCurveNames'
+      name: KnownKeyCurveNames
+      items: []
+    - uid: '@azure/keyvault-keys.KnownKeyOperations'
+      name: KnownKeyOperations
+      items: []
+    - uid: '@azure/keyvault-keys.KnownKeyTypes'
+      name: KnownKeyTypes
+      items: []
+    - uid: '@azure/keyvault-keys.KnownSignatureAlgorithms'
+      name: KnownSignatureAlgorithms
       items: []
     - uid: '@azure/keyvault-keys.ListDeletedKeysOptions'
       name: ListDeletedKeysOptions
@@ -3744,6 +4638,15 @@
       items: []
     - uid: '@azure/keyvault-keys.RestoreKeyBackupOptions'
       name: RestoreKeyBackupOptions
+      items: []
+    - uid: '@azure/keyvault-keys.RsaDecryptParameters'
+      name: RsaDecryptParameters
+      items: []
+    - uid: '@azure/keyvault-keys.RsaEncryptionAlgorithm'
+      name: RsaEncryptionAlgorithm
+      items: []
+    - uid: '@azure/keyvault-keys.RsaEncryptParameters'
+      name: RsaEncryptParameters
       items: []
     - uid: '@azure/keyvault-keys.SignatureAlgorithm'
       name: SignatureAlgorithm
@@ -3762,6 +4665,9 @@
       items: []
     - uid: '@azure/keyvault-keys.UpdateKeyPropertiesOptions'
       name: UpdateKeyPropertiesOptions
+      items: []
+    - uid: '@azure/keyvault-keys.VerifyDataOptions'
+      name: VerifyDataOptions
       items: []
     - uid: '@azure/keyvault-keys.VerifyOptions'
       name: VerifyOptions
@@ -3802,6 +4708,12 @@
       items: []
     - uid: '@azure/keyvault-secrets.KeyVaultSecret'
       name: KeyVaultSecret
+      items: []
+    - uid: '@azure/keyvault-secrets.KeyVaultSecretIdentifier'
+      name: KeyVaultSecretIdentifier
+      items: []
+    - uid: '@azure/keyvault-secrets.KnownDeletionRecoveryLevel'
+      name: KnownDeletionRecoveryLevel
       items: []
     - uid: '@azure/keyvault-secrets.ListDeletedSecretsOptions'
       name: ListDeletedSecretsOptions
@@ -3889,11 +4801,53 @@
     - uid: '@azure/search-documents.AzureActiveDirectoryApplicationCredentials'
       name: AzureActiveDirectoryApplicationCredentials
       items: []
+    - uid: '@azure/search-documents.BaseCharFilter'
+      name: BaseCharFilter
+      items: []
+    - uid: '@azure/search-documents.BaseCognitiveServicesAccount'
+      name: BaseCognitiveServicesAccount
+      items: []
+    - uid: '@azure/search-documents.BaseDataChangeDetectionPolicy'
+      name: BaseDataChangeDetectionPolicy
+      items: []
+    - uid: '@azure/search-documents.BaseDataDeletionDetectionPolicy'
+      name: BaseDataDeletionDetectionPolicy
+      items: []
+    - uid: '@azure/search-documents.BaseLexicalAnalyzer'
+      name: BaseLexicalAnalyzer
+      items: []
+    - uid: '@azure/search-documents.BaseLexicalTokenizer'
+      name: BaseLexicalTokenizer
+      items: []
+    - uid: '@azure/search-documents.BaseScoringFunction'
+      name: BaseScoringFunction
+      items: []
+    - uid: '@azure/search-documents.BaseSearchIndexerSkill'
+      name: BaseSearchIndexerSkill
+      items: []
+    - uid: '@azure/search-documents.BaseTokenFilter'
+      name: BaseTokenFilter
+      items: []
+    - uid: '@azure/search-documents.BlobIndexerDataToExtract'
+      name: BlobIndexerDataToExtract
+      items: []
+    - uid: '@azure/search-documents.BlobIndexerImageAction'
+      name: BlobIndexerImageAction
+      items: []
+    - uid: '@azure/search-documents.BlobIndexerParsingMode'
+      name: BlobIndexerParsingMode
+      items: []
+    - uid: '@azure/search-documents.BlobIndexerPDFTextRotationAlgorithm'
+      name: BlobIndexerPDFTextRotationAlgorithm
+      items: []
     - uid: '@azure/search-documents.BM25Similarity'
       name: BM25Similarity
       items: []
     - uid: '@azure/search-documents.CharFilter'
       name: CharFilter
+      items: []
+    - uid: '@azure/search-documents.CharFilterName'
+      name: CharFilterName
       items: []
     - uid: '@azure/search-documents.CjkBigramTokenFilter'
       name: CjkBigramTokenFilter
@@ -3964,6 +4918,18 @@
     - uid: '@azure/search-documents.CustomAnalyzer'
       name: CustomAnalyzer
       items: []
+    - uid: '@azure/search-documents.CustomEntity'
+      name: CustomEntity
+      items: []
+    - uid: '@azure/search-documents.CustomEntityAlias'
+      name: CustomEntityAlias
+      items: []
+    - uid: '@azure/search-documents.CustomEntityLookupSkill'
+      name: CustomEntityLookupSkill
+      items: []
+    - uid: '@azure/search-documents.CustomEntityLookupSkillLanguage'
+      name: CustomEntityLookupSkillLanguage
+      items: []
     - uid: '@azure/search-documents.DataChangeDetectionPolicy'
       name: DataChangeDetectionPolicy
       items: []
@@ -3999,6 +4965,9 @@
       items: []
     - uid: '@azure/search-documents.DistanceScoringParameters'
       name: DistanceScoringParameters
+      items: []
+    - uid: '@azure/search-documents.DocumentExtractionSkill'
+      name: DocumentExtractionSkill
       items: []
     - uid: '@azure/search-documents.EdgeNGramTokenFilter'
       name: EdgeNGramTokenFilter
@@ -4087,11 +5056,17 @@
     - uid: '@azure/search-documents.IndexDocumentsBatch'
       name: IndexDocumentsBatch
       items: []
+    - uid: '@azure/search-documents.IndexDocumentsClient'
+      name: IndexDocumentsClient
+      items: []
     - uid: '@azure/search-documents.IndexDocumentsOptions'
       name: IndexDocumentsOptions
       items: []
     - uid: '@azure/search-documents.IndexDocumentsResult'
       name: IndexDocumentsResult
+      items: []
+    - uid: '@azure/search-documents.IndexerExecutionEnvironment'
+      name: IndexerExecutionEnvironment
       items: []
     - uid: '@azure/search-documents.IndexerExecutionResult'
       name: IndexerExecutionResult
@@ -4104,6 +5079,9 @@
       items: []
     - uid: '@azure/search-documents.IndexingParameters'
       name: IndexingParameters
+      items: []
+    - uid: '@azure/search-documents.IndexingParametersConfiguration'
+      name: IndexingParametersConfiguration
       items: []
     - uid: '@azure/search-documents.IndexingResult'
       name: IndexingResult
@@ -4138,14 +5116,77 @@
     - uid: '@azure/search-documents.KnownAnalyzerNames'
       name: KnownAnalyzerNames
       items: []
+    - uid: '@azure/search-documents.KnownBlobIndexerDataToExtract'
+      name: KnownBlobIndexerDataToExtract
+      items: []
+    - uid: '@azure/search-documents.KnownBlobIndexerImageAction'
+      name: KnownBlobIndexerImageAction
+      items: []
+    - uid: '@azure/search-documents.KnownBlobIndexerParsingMode'
+      name: KnownBlobIndexerParsingMode
+      items: []
+    - uid: '@azure/search-documents.KnownBlobIndexerPDFTextRotationAlgorithm'
+      name: KnownBlobIndexerPDFTextRotationAlgorithm
+      items: []
+    - uid: '@azure/search-documents.KnownCharFilterName'
+      name: KnownCharFilterName
+      items: []
     - uid: '@azure/search-documents.KnownCharFilterNames'
       name: KnownCharFilterNames
+      items: []
+    - uid: '@azure/search-documents.KnownCustomEntityLookupSkillLanguage'
+      name: KnownCustomEntityLookupSkillLanguage
+      items: []
+    - uid: '@azure/search-documents.KnownEntityCategory'
+      name: KnownEntityCategory
+      items: []
+    - uid: '@azure/search-documents.KnownEntityRecognitionSkillLanguage'
+      name: KnownEntityRecognitionSkillLanguage
+      items: []
+    - uid: '@azure/search-documents.KnownImageAnalysisSkillLanguage'
+      name: KnownImageAnalysisSkillLanguage
+      items: []
+    - uid: '@azure/search-documents.KnownImageDetail'
+      name: KnownImageDetail
+      items: []
+    - uid: '@azure/search-documents.KnownKeyPhraseExtractionSkillLanguage'
+      name: KnownKeyPhraseExtractionSkillLanguage
+      items: []
+    - uid: '@azure/search-documents.KnownLexicalAnalyzerName'
+      name: KnownLexicalAnalyzerName
+      items: []
+    - uid: '@azure/search-documents.KnownOcrSkillLanguage'
+      name: KnownOcrSkillLanguage
+      items: []
+    - uid: '@azure/search-documents.KnownRegexFlags'
+      name: KnownRegexFlags
+      items: []
+    - uid: '@azure/search-documents.KnownSearchIndexerDataSourceType'
+      name: KnownSearchIndexerDataSourceType
+      items: []
+    - uid: '@azure/search-documents.KnownSentimentSkillLanguage'
+      name: KnownSentimentSkillLanguage
+      items: []
+    - uid: '@azure/search-documents.KnownSplitSkillLanguage'
+      name: KnownSplitSkillLanguage
+      items: []
+    - uid: '@azure/search-documents.KnownTextSplitMode'
+      name: KnownTextSplitMode
+      items: []
+    - uid: '@azure/search-documents.KnownTextTranslationSkillLanguage'
+      name: KnownTextTranslationSkillLanguage
+      items: []
+    - uid: '@azure/search-documents.KnownTokenFilterName'
+      name: KnownTokenFilterName
       items: []
     - uid: '@azure/search-documents.KnownTokenFilterNames'
       name: KnownTokenFilterNames
       items: []
     - uid: '@azure/search-documents.KnownTokenizerNames'
       name: KnownTokenizerNames
+      items: []
+    - uid: '@azure/search-documents.KnownVisualFeature'
+      name: KnownVisualFeature
       items: []
     - uid: '@azure/search-documents.LanguageDetectionSkill'
       name: LanguageDetectionSkill
@@ -4285,6 +5326,9 @@
     - uid: '@azure/search-documents.ScoringProfile'
       name: ScoringProfile
       items: []
+    - uid: '@azure/search-documents.ScoringStatistics'
+      name: ScoringStatistics
+      items: []
     - uid: '@azure/search-documents.SearchClient'
       name: SearchClient
       items: []
@@ -4336,6 +5380,31 @@
     - uid: '@azure/search-documents.SearchIndexerError'
       name: SearchIndexerError
       items: []
+    - uid: '@azure/search-documents.SearchIndexerKnowledgeStore'
+      name: SearchIndexerKnowledgeStore
+      items: []
+    - uid: >-
+        @azure/search-documents.SearchIndexerKnowledgeStoreBlobProjectionSelector
+      name: SearchIndexerKnowledgeStoreBlobProjectionSelector
+      items: []
+    - uid: >-
+        @azure/search-documents.SearchIndexerKnowledgeStoreFileProjectionSelector
+      name: SearchIndexerKnowledgeStoreFileProjectionSelector
+      items: []
+    - uid: >-
+        @azure/search-documents.SearchIndexerKnowledgeStoreObjectProjectionSelector
+      name: SearchIndexerKnowledgeStoreObjectProjectionSelector
+      items: []
+    - uid: '@azure/search-documents.SearchIndexerKnowledgeStoreProjection'
+      name: SearchIndexerKnowledgeStoreProjection
+      items: []
+    - uid: '@azure/search-documents.SearchIndexerKnowledgeStoreProjectionSelector'
+      name: SearchIndexerKnowledgeStoreProjectionSelector
+      items: []
+    - uid: >-
+        @azure/search-documents.SearchIndexerKnowledgeStoreTableProjectionSelector
+      name: SearchIndexerKnowledgeStoreTableProjectionSelector
+      items: []
     - uid: '@azure/search-documents.SearchIndexerLimits'
       name: SearchIndexerLimits
       items: []
@@ -4350,6 +5419,32 @@
       items: []
     - uid: '@azure/search-documents.SearchIndexerWarning'
       name: SearchIndexerWarning
+      items: []
+    - uid: '@azure/search-documents.SearchIndexingBufferedSender'
+      name: SearchIndexingBufferedSender
+      items: []
+    - uid: >-
+        @azure/search-documents.SearchIndexingBufferedSenderDeleteDocumentsOptions
+      name: SearchIndexingBufferedSenderDeleteDocumentsOptions
+      items: []
+    - uid: >-
+        @azure/search-documents.SearchIndexingBufferedSenderFlushDocumentsOptions
+      name: SearchIndexingBufferedSenderFlushDocumentsOptions
+      items: []
+    - uid: >-
+        @azure/search-documents.SearchIndexingBufferedSenderMergeDocumentsOptions
+      name: SearchIndexingBufferedSenderMergeDocumentsOptions
+      items: []
+    - uid: >-
+        @azure/search-documents.SearchIndexingBufferedSenderMergeOrUploadDocumentsOptions
+      name: SearchIndexingBufferedSenderMergeOrUploadDocumentsOptions
+      items: []
+    - uid: '@azure/search-documents.SearchIndexingBufferedSenderOptions'
+      name: SearchIndexingBufferedSenderOptions
+      items: []
+    - uid: >-
+        @azure/search-documents.SearchIndexingBufferedSenderUploadDocumentsOptions
+      name: SearchIndexingBufferedSenderUploadDocumentsOptions
       items: []
     - uid: '@azure/search-documents.SearchIndexStatistics'
       name: SearchIndexStatistics
@@ -4398,6 +5493,9 @@
       items: []
     - uid: '@azure/search-documents.ShingleTokenFilter'
       name: ShingleTokenFilter
+      items: []
+    - uid: '@azure/search-documents.Similarity'
+      name: Similarity
       items: []
     - uid: '@azure/search-documents.SimilarityAlgorithm'
       name: SimilarityAlgorithm
@@ -4482,6 +5580,9 @@
       items: []
     - uid: '@azure/search-documents.TokenFilter'
       name: TokenFilter
+      items: []
+    - uid: '@azure/search-documents.TokenFilterName'
+      name: TokenFilterName
       items: []
     - uid: '@azure/search-documents.TruncateTokenFilter'
       name: TruncateTokenFilter
@@ -4794,6 +5895,15 @@
     - uid: '@azure/storage-blob.BlobDeleteIfExistsResponse'
       name: BlobDeleteIfExistsResponse
       items: []
+    - uid: '@azure/storage-blob.BlobDeleteImmutabilityPolicyHeaders'
+      name: BlobDeleteImmutabilityPolicyHeaders
+      items: []
+    - uid: '@azure/storage-blob.BlobDeleteImmutabilityPolicyOptions'
+      name: BlobDeleteImmutabilityPolicyOptions
+      items: []
+    - uid: '@azure/storage-blob.BlobDeleteImmutabilityPolicyResponse'
+      name: BlobDeleteImmutabilityPolicyResponse
+      items: []
     - uid: '@azure/storage-blob.BlobDeleteOptions'
       name: BlobDeleteOptions
       items: []
@@ -4860,6 +5970,12 @@
     - uid: '@azure/storage-blob.BlobHTTPHeaders'
       name: BlobHTTPHeaders
       items: []
+    - uid: '@azure/storage-blob.BlobImmutabilityPolicy'
+      name: BlobImmutabilityPolicy
+      items: []
+    - uid: '@azure/storage-blob.BlobImmutabilityPolicyMode'
+      name: BlobImmutabilityPolicyMode
+      items: []
     - uid: '@azure/storage-blob.BlobItem'
       name: BlobItem
       items: []
@@ -4895,6 +6011,9 @@
       items: []
     - uid: '@azure/storage-blob.BlobQueryJsonTextConfiguration'
       name: BlobQueryJsonTextConfiguration
+      items: []
+    - uid: '@azure/storage-blob.BlobQueryParquetConfiguration'
+      name: BlobQueryParquetConfiguration
       items: []
     - uid: '@azure/storage-blob.BlobQueryResponseModel'
       name: BlobQueryResponseModel
@@ -4934,6 +6053,24 @@
       items: []
     - uid: '@azure/storage-blob.BlobSetHTTPHeadersResponse'
       name: BlobSetHTTPHeadersResponse
+      items: []
+    - uid: '@azure/storage-blob.BlobSetImmutabilityPolicyHeaders'
+      name: BlobSetImmutabilityPolicyHeaders
+      items: []
+    - uid: '@azure/storage-blob.BlobSetImmutabilityPolicyOptions'
+      name: BlobSetImmutabilityPolicyOptions
+      items: []
+    - uid: '@azure/storage-blob.BlobSetImmutabilityPolicyResponse'
+      name: BlobSetImmutabilityPolicyResponse
+      items: []
+    - uid: '@azure/storage-blob.BlobSetLegalHoldHeaders'
+      name: BlobSetLegalHoldHeaders
+      items: []
+    - uid: '@azure/storage-blob.BlobSetLegalHoldOptions'
+      name: BlobSetLegalHoldOptions
+      items: []
+    - uid: '@azure/storage-blob.BlobSetLegalHoldResponse'
+      name: BlobSetLegalHoldResponse
       items: []
     - uid: '@azure/storage-blob.BlobSetMetadataHeaders'
       name: BlobSetMetadataHeaders
@@ -5172,6 +6309,12 @@
     - uid: '@azure/storage-blob.ContainerReleaseLeaseOptions'
       name: ContainerReleaseLeaseOptions
       items: []
+    - uid: '@azure/storage-blob.ContainerRenameHeaders'
+      name: ContainerRenameHeaders
+      items: []
+    - uid: '@azure/storage-blob.ContainerRenameResponse'
+      name: ContainerRenameResponse
+      items: []
     - uid: '@azure/storage-blob.ContainerRenewLeaseOptions'
       name: ContainerRenewLeaseOptions
       items: []
@@ -5252,6 +6395,9 @@
       items: []
     - uid: '@azure/storage-blob.GeoReplicationStatusType'
       name: GeoReplicationStatusType
+      items: []
+    - uid: '@azure/storage-blob.HttpAuthorization'
+      name: HttpAuthorization
       items: []
     - uid: '@azure/storage-blob.Lease'
       name: Lease
@@ -5427,6 +6573,9 @@
     - uid: '@azure/storage-blob.Pipeline'
       name: Pipeline
       items: []
+    - uid: '@azure/storage-blob.PipelineLike'
+      name: PipelineLike
+      items: []
     - uid: '@azure/storage-blob.PipelineOptions'
       name: PipelineOptions
       items: []
@@ -5520,6 +6669,9 @@
     - uid: '@azure/storage-blob.ServiceListContainersSegmentResponse'
       name: ServiceListContainersSegmentResponse
       items: []
+    - uid: '@azure/storage-blob.ServiceRenameContainerOptions'
+      name: ServiceRenameContainerOptions
+      items: []
     - uid: '@azure/storage-blob.ServiceSetPropertiesHeaders'
       name: ServiceSetPropertiesHeaders
       items: []
@@ -5564,6 +6716,9 @@
       items: []
     - uid: '@azure/storage-blob.StorageClientContext'
       name: StorageClientContext
+      items: []
+    - uid: '@azure/storage-blob.StorageClientOptionalParams'
+      name: StorageClientOptionalParams
       items: []
     - uid: '@azure/storage-blob.StoragePipelineOptions'
       name: StoragePipelineOptions
@@ -5638,6 +6793,18 @@
     - uid: '@azure/storage-file-datalake.AnonymousCredentialPolicy'
       name: AnonymousCredentialPolicy
       items: []
+    - uid: '@azure/storage-file-datalake.BlobHierarchyListSegment'
+      name: BlobHierarchyListSegment
+      items: []
+    - uid: '@azure/storage-file-datalake.BlobItemModel'
+      name: BlobItemModel
+      items: []
+    - uid: '@azure/storage-file-datalake.BlobPrefix'
+      name: BlobPrefix
+      items: []
+    - uid: '@azure/storage-file-datalake.BlobPropertiesModel'
+      name: BlobPropertiesModel
+      items: []
     - uid: '@azure/storage-file-datalake.CommonGenerateSasUrlOptions'
       name: CommonGenerateSasUrlOptions
       items: []
@@ -5685,6 +6852,12 @@
       items: []
     - uid: '@azure/storage-file-datalake.DataLakeServiceClient'
       name: DataLakeServiceClient
+      items: []
+    - uid: '@azure/storage-file-datalake.DeletedPath'
+      name: DeletedPath
+      items: []
+    - uid: '@azure/storage-file-datalake.DeletedPathList'
+      name: DeletedPathList
       items: []
     - uid: '@azure/storage-file-datalake.DirectoryCreateIfNotExistsOptions'
       name: DirectoryCreateIfNotExistsOptions
@@ -5748,6 +6921,9 @@
       items: []
     - uid: '@azure/storage-file-datalake.FileQueryOptions'
       name: FileQueryOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.FileQueryParquetConfiguration'
+      name: FileQueryParquetConfiguration
       items: []
     - uid: '@azure/storage-file-datalake.FileReadHeaders'
       name: FileReadHeaders
@@ -5821,6 +6997,12 @@
     - uid: '@azure/storage-file-datalake.FileSystemItem'
       name: FileSystemItem
       items: []
+    - uid: '@azure/storage-file-datalake.FileSystemListBlobHierarchySegmentHeaders'
+      name: FileSystemListBlobHierarchySegmentHeaders
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemListDeletedPathsResponse'
+      name: FileSystemListDeletedPathsResponse
+      items: []
     - uid: '@azure/storage-file-datalake.FileSystemListPathsHeaders'
       name: FileSystemListPathsHeaders
       items: []
@@ -5829,6 +7011,9 @@
       items: []
     - uid: '@azure/storage-file-datalake.FileSystemProperties'
       name: FileSystemProperties
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemRenameResponse'
+      name: FileSystemRenameResponse
       items: []
     - uid: '@azure/storage-file-datalake.FileSystemSASPermissions'
       name: FileSystemSASPermissions
@@ -5851,6 +7036,15 @@
     - uid: '@azure/storage-file-datalake.FileSystemSetMetadataResponse'
       name: FileSystemSetMetadataResponse
       items: []
+    - uid: '@azure/storage-file-datalake.FileSystemUndeletePathOption'
+      name: FileSystemUndeletePathOption
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemUndeletePathResponse'
+      name: FileSystemUndeletePathResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.FileSystemUndeleteResponse'
+      name: FileSystemUndeleteResponse
+      items: []
     - uid: '@azure/storage-file-datalake.LeaseDurationType'
       name: LeaseDurationType
       items: []
@@ -5859,6 +7053,15 @@
       items: []
     - uid: '@azure/storage-file-datalake.LeaseStatusType'
       name: LeaseStatusType
+      items: []
+    - uid: '@azure/storage-file-datalake.ListBlobsHierarchySegmentResponse'
+      name: ListBlobsHierarchySegmentResponse
+      items: []
+    - uid: '@azure/storage-file-datalake.ListDeletedPathsOptions'
+      name: ListDeletedPathsOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.ListDeletedPathsSegmentOptions'
+      name: ListDeletedPathsSegmentOptions
       items: []
     - uid: '@azure/storage-file-datalake.ListFileSystemsSegmentResponse'
       name: ListFileSystemsSegmentResponse
@@ -6028,6 +7231,9 @@
     - uid: '@azure/storage-file-datalake.PathSetPermissionsOptions'
       name: PathSetPermissionsOptions
       items: []
+    - uid: '@azure/storage-file-datalake.PathUndeleteHeaders'
+      name: PathUndeleteHeaders
+      items: []
     - uid: '@azure/storage-file-datalake.PathUpdateHeaders'
       name: PathUpdateHeaders
       items: []
@@ -6082,6 +7288,12 @@
     - uid: '@azure/storage-file-datalake.ServiceListFileSystemsSegmentResponse'
       name: ServiceListFileSystemsSegmentResponse
       items: []
+    - uid: '@azure/storage-file-datalake.ServiceRenameFileSystemOptions'
+      name: ServiceRenameFileSystemOptions
+      items: []
+    - uid: '@azure/storage-file-datalake.ServiceUndeleteFileSystemOptions'
+      name: ServiceUndeleteFileSystemOptions
+      items: []
     - uid: '@azure/storage-file-datalake.SignedIdentifier'
       name: SignedIdentifier
       items: []
@@ -6096,6 +7308,9 @@
       items: []
     - uid: '@azure/storage-file-datalake.StorageClientContext'
       name: StorageClientContext
+      items: []
+    - uid: '@azure/storage-file-datalake.StorageClientOptionalParams'
+      name: StorageClientOptionalParams
       items: []
     - uid: '@azure/storage-file-datalake.StoragePipelineOptions'
       name: StoragePipelineOptions
@@ -6477,6 +7692,9 @@
     - uid: '@azure/storage-file-share.HandleItem'
       name: HandleItem
       items: []
+    - uid: '@azure/storage-file-share.HttpAuthorization'
+      name: HttpAuthorization
+      items: []
     - uid: '@azure/storage-file-share.LeaseAccessConditions'
       name: LeaseAccessConditions
       items: []
@@ -6785,6 +8003,9 @@
       items: []
     - uid: '@azure/storage-file-share.StorageClientContext'
       name: StorageClientContext
+      items: []
+    - uid: '@azure/storage-file-share.StorageClientOptionalParams'
+      name: StorageClientOptionalParams
       items: []
     - uid: '@azure/storage-file-share.StoragePipelineOptions'
       name: StoragePipelineOptions
@@ -7119,6 +8340,9 @@
       items: []
     - uid: '@azure/storage-queue.StorageClientContext'
       name: StorageClientContext
+      items: []
+    - uid: '@azure/storage-queue.StorageClientOptionalParams'
+      name: StorageClientOptionalParams
       items: []
     - uid: '@azure/storage-queue.StoragePipelineOptions'
       name: StoragePipelineOptions
