@@ -15,7 +15,6 @@ classes:
   - '@azure/core-http.HttpHeaders'
   - '@azure/core-http.ConsoleHttpPipelineLogger'
   - '@azure/core-http.NodeFetchHttpClient'
-  - '@azure/core-http.BearerTokenAuthenticationPolicy'
   - '@azure/core-http.DeserializationPolicy'
   - '@azure/core-http.DisableResponseDecompressionPolicy'
   - '@azure/core-http.ExponentialRetryPolicy'
@@ -43,7 +42,6 @@ classes:
   - '@azure/core-http.WebResource'
   - '@azure/core-http.XhrHttpClient'
 interfaces:
-  - '@azure/core-http.SpanConfig'
   - '@azure/core-http.AccessTokenCache'
   - '@azure/core-http.ApiKeyCredentialOptions'
   - '@azure/core-http.ServiceClientCredentials'
@@ -64,6 +62,7 @@ interfaces:
   - '@azure/core-http.OperationSpec'
   - '@azure/core-http.InternalPipelineOptions'
   - '@azure/core-http.PipelineOptions'
+  - '@azure/core-http.TokenCyclerOptions'
   - '@azure/core-http.DeserializationContentTypes'
   - '@azure/core-http.DeserializationOptions'
   - '@azure/core-http.RetryOptions'
@@ -115,6 +114,7 @@ typeAliases:
   - '@azure/core-http.ProxyOptions'
   - '@azure/core-http.URLTokenType'
   - '@azure/core-http.URLTokenizerState'
+  - '@azure/core-http.UnknownObject'
   - '@azure/core-http.HttpMethods'
   - '@azure/core-http.HttpRequestBody'
   - '@azure/core-http.TransferProgressEvent'
@@ -217,26 +217,28 @@ functions:
       return:
         type: string
         description: ''
-  - name: isStreamOperation(OperationSpec)
-    uid: '@azure/core-http.isStreamOperation'
+  - name: getStreamResponseStatusCodes(OperationSpec)
+    uid: '@azure/core-http.getStreamResponseStatusCodes'
     package: '@azure/core-http'
-    summary: ''
+    summary: Gets the list of status codes for streaming responses.
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function isStreamOperation(operationSpec: OperationSpec)'
+      content: 'function getStreamResponseStatusCodes(operationSpec: OperationSpec)'
       parameters:
         - id: operationSpec
           type: <xref uid="@azure/core-http.OperationSpec" />
           description: ''
       return:
-        type: boolean
+        type: Set&lt;number&gt;
         description: ''
   - name: 'bearerTokenAuthenticationPolicy(TokenCredential, string | string[])'
     uid: '@azure/core-http.bearerTokenAuthenticationPolicy'
     package: '@azure/core-http'
-    summary: Creates a new BearerTokenAuthenticationPolicy factory.
+    summary: |-
+      Creates a new factory for a RequestPolicy that applies a bearer token to
+      the requests' `Authorization` headers.
     remarks: ''
     isPreview: false
     isDeprecated: false
@@ -448,21 +450,40 @@ functions:
       return:
         type: <xref uid="@azure/core-http.ProxySettings" /> | undefined
         description: ''
-  - name: proxyPolicy(ProxySettings)
+  - name: 'proxyPolicy(ProxySettings, Object)'
     uid: '@azure/core-http.proxyPolicy'
+    package: '@azure/core-http'
+    summary: |-
+      A policy that allows one to apply proxy settings to all requests.
+      If not passed static settings, they will be retrieved from the HTTPS_PROXY
+      or HTTP_PROXY environment variables.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function proxyPolicy(proxySettings?: ProxySettings, options?: Object)'
+      parameters:
+        - id: proxySettings
+          type: <xref uid="@azure/core-http.ProxySettings" />
+          description: ProxySettings to use on each request.
+        - id: options
+          type: Object
+          description: |
+            additional settings, for example, custom NO_PROXY patterns
+      return:
+        type: <xref uid="@azure/core-http.RequestPolicyFactory" />
+        description: ''
+  - name: loadNoProxy()
+    uid: '@azure/core-http.loadNoProxy'
     package: '@azure/core-http'
     summary: ''
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function proxyPolicy(proxySettings?: ProxySettings)'
-      parameters:
-        - id: proxySettings
-          type: <xref uid="@azure/core-http.ProxySettings" />
-          description: ''
+      content: function loadNoProxy()
       return:
-        type: <xref uid="@azure/core-http.RequestPolicyFactory" />
+        type: 'string[]'
         description: ''
   - name: redirectPolicy(number)
     uid: '@azure/core-http.redirectPolicy'
@@ -873,6 +894,33 @@ functions:
       return:
         type: string
         description: ''
+  - name: 'delay<T>(number, T, Object)'
+    uid: '@azure/core-http.delay'
+    package: '@azure/core-http'
+    summary: >-
+      A wrapper for setTimeout that resolves a promise after delayInMs
+      milliseconds.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function delay<T>(delayInMs: number, value?: T, options?: Object)'
+      parameters:
+        - id: delayInMs
+          type: number
+          description: The number of milliseconds to be delayed.
+        - id: value
+          type: T
+          description: The value to be resolved with after a timeout of t milliseconds.
+        - id: options
+          type: Object
+          description: |-
+            The options for delay - currently abort options
+              @param abortSignal - The abortSignal associated with containing operation.
+              @param abortErrorMsg - The abort error message associated with containing operation.
+      return:
+        type: Promise&lt;T | void&gt;
+        description: '- Resolved promise'
   - name: isNumber(unknown)
     uid: '@azure/core-http.isNumber'
     package: '@azure/core-http'
@@ -949,6 +997,22 @@ functions:
       return:
         type: <xref uid="@azure/core-http.RetryData" />
         description: ''
+  - name: isDefined<T>(T | undefined | null)
+    uid: '@azure/core-http.isDefined'
+    package: '@azure/core-http'
+    summary: Helper TypeGuard that checks if the value is not null or undefined.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isDefined<T>(thing: T | undefined | null)'
+      parameters:
+        - id: thing
+          type: T | undefined | null
+          description: Anything
+      return:
+        type: boolean
+        description: ''
   - name: 'applyMixins(unknown, any[])'
     uid: '@azure/core-http.applyMixins'
     package: '@azure/core-http'
@@ -969,25 +1033,6 @@ functions:
           description: >
             An array of source objects from which the properties need to be
             taken.
-  - name: 'delay<T>(number, T)'
-    uid: '@azure/core-http.delay'
-    package: '@azure/core-http'
-    summary: A wrapper for setTimeout that resolves a promise after t milliseconds.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function delay<T>(t: number, value?: T)'
-      parameters:
-        - id: t
-          type: number
-          description: The number of milliseconds to be delayed.
-        - id: value
-          type: T
-          description: The value to be resolved with after a timeout of t milliseconds.
-      return:
-        type: Promise&lt;T | void&gt;
-        description: Resolved promise
   - name: encodeUri(string)
     uid: '@azure/core-http.encodeUri'
     package: '@azure/core-http'
@@ -1078,6 +1123,24 @@ functions:
       return:
         type: boolean
         description: '`true` if valid, `false` otherwise.'
+  - name: isObject(unknown)
+    uid: '@azure/core-http.isObject'
+    package: '@azure/core-http'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isObject(input: unknown)'
+      parameters:
+        - id: input
+          type: unknown
+          description: ''
+      return:
+        type: boolean
+        description: >-
+          true when input is an object type that is not null, Array, RegExp, or
+          Date.
   - name: isPrimitiveType(unknown)
     uid: '@azure/core-http.isPrimitiveType'
     package: '@azure/core-http'

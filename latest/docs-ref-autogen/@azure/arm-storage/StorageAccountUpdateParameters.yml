@@ -45,6 +45,29 @@ properties:
       return:
         type: undefined | false | true
         description: ''
+  - name: allowSharedKeyAccess
+    uid: '@azure/arm-storage.StorageAccountUpdateParameters.allowSharedKeyAccess'
+    package: '@azure/arm-storage'
+    summary: >-
+      Indicates whether the storage account permits requests to be authorized
+      with the account
+
+      access key via Shared Key. If false, then all requests, including shared
+      access signatures,
+
+      must be authorized with Azure Active Directory (Azure AD). The default
+      value is null, which is
+
+      equivalent to true.
+    fullName: allowSharedKeyAccess
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'allowSharedKeyAccess?: undefined | false | true'
+      return:
+        type: undefined | false | true
+        description: ''
   - name: azureFilesIdentityBasedAuthentication
     uid: >-
       @azure/arm-storage.StorageAccountUpdateParameters.azureFilesIdentityBasedAuthentication
@@ -123,6 +146,19 @@ properties:
       content: 'identity?: Identity'
       return:
         type: <xref uid="@azure/arm-storage.Identity" />
+        description: ''
+  - name: keyPolicy
+    uid: '@azure/arm-storage.StorageAccountUpdateParameters.keyPolicy'
+    package: '@azure/arm-storage'
+    summary: KeyPolicy assigned to the storage account.
+    fullName: keyPolicy
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keyPolicy?: KeyPolicy'
+      return:
+        type: <xref uid="@azure/arm-storage.KeyPolicy" />
         description: ''
   - name: kind
     uid: '@azure/arm-storage.StorageAccountUpdateParameters.kind'
@@ -206,6 +242,19 @@ properties:
       content: 'routingPreference?: RoutingPreference'
       return:
         type: <xref uid="@azure/arm-storage.RoutingPreference" />
+        description: ''
+  - name: sasPolicy
+    uid: '@azure/arm-storage.StorageAccountUpdateParameters.sasPolicy'
+    package: '@azure/arm-storage'
+    summary: SasPolicy assigned to the storage account.
+    fullName: sasPolicy
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sasPolicy?: SasPolicy'
+      return:
+        type: <xref uid="@azure/arm-storage.SasPolicy" />
         description: ''
   - name: sku
     uid: '@azure/arm-storage.StorageAccountUpdateParameters.sku'

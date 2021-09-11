@@ -112,6 +112,7 @@ interfaces:
   - '@azure/storage-file-share.FileUploadStreamOptions'
   - '@azure/storage-file-share.FilesAndDirectoriesListSegment'
   - '@azure/storage-file-share.HandleItem'
+  - '@azure/storage-file-share.HttpAuthorization'
   - '@azure/storage-file-share.LeaseAccessConditions'
   - '@azure/storage-file-share.LeaseOperationOptions'
   - '@azure/storage-file-share.LeaseOperationResponseHeaders'
@@ -175,6 +176,7 @@ interfaces:
   - '@azure/storage-file-share.SignedIdentifierModel'
   - '@azure/storage-file-share.SmbMultichannel'
   - '@azure/storage-file-share.SourceModifiedAccessConditions'
+  - '@azure/storage-file-share.StorageClientOptionalParams'
   - '@azure/storage-file-share.StoragePipelineOptions'
   - '@azure/storage-file-share.StorageRetryOptions'
 typeAliases:
@@ -263,7 +265,8 @@ functions:
           description: ''
         - id: sharedKeyCredential
           type: <xref uid="@azure/storage-file-share.StorageSharedKeyCredential" />
-          description: ''
+          description: |
+            -
       return:
         type: <xref uid="@azure/storage-file-share.SASQueryParameters" />
         description: ''
@@ -302,10 +305,11 @@ functions:
       parameters:
         - id: fileSASSignatureValues
           type: <xref uid="@azure/storage-file-share.FileSASSignatureValues" />
-          description: ''
+          description: '-'
         - id: sharedKeyCredential
           type: <xref uid="@azure/storage-file-share.StorageSharedKeyCredential" />
-          description: ''
+          description: |
+            -
       return:
         type: <xref uid="@azure/storage-file-share.SASQueryParameters" />
         description: ''
@@ -326,7 +330,7 @@ functions:
           description: 'Such as AnonymousCredential, StorageSharedKeyCredential.'
         - id: pipelineOptions
           type: <xref uid="@azure/storage-file-share.StoragePipelineOptions" />
-          description: ''
+          description: Optional. Options.
       return:
         type: <xref uid="@azure/storage-file-share.Pipeline" />
         description: A new Pipeline object.

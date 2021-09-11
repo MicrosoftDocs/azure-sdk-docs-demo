@@ -40,12 +40,9 @@ properties:
     package: '@azure/storage-queue'
     summary: >-
       Optional. A nonzero integer value that specifies the number of messages to
-      retrieve from the
-
-      queue, up to a maximum of 32. If fewer are visible, the visible messages
-      are returned. By
-
-      default, a single message is retrieved from the queue with this operation.
+      retrieve from the queue, up to a maximum of 32. If fewer are visible, the
+      visible messages are returned. By default, a single message is retrieved
+      from the queue with this operation.
     fullName: numberOfMessages
     remarks: ''
     isPreview: false
@@ -86,9 +83,8 @@ properties:
     package: '@azure/storage-queue'
     summary: >-
       Provides a client-generated, opaque value with a 1 KB character limit that
-      is recorded in the
-
-      analytics logs when storage analytics logging is enabled.
+      is recorded in the analytics logs when storage analytics logging is
+      enabled.
     fullName: requestId
     remarks: ''
     isPreview: false
@@ -130,19 +126,6 @@ properties:
       return:
         type: 'boolean | (response: HttpOperationResponse) =&gt; boolean'
         description: ''
-  - name: spanOptions
-    uid: '@azure/storage-queue.QueuePeekMessagesOptions.spanOptions'
-    package: '@azure/storage-queue'
-    summary: Options used to create a span when tracing is enabled.
-    fullName: spanOptions
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'spanOptions?: SpanOptions'
-      return:
-        type: SpanOptions
-        description: ''
   - name: timeout
     uid: '@azure/storage-queue.QueuePeekMessagesOptions.timeout'
     package: '@azure/storage-queue'
@@ -166,9 +149,7 @@ properties:
     summary: >-
       The The timeout parameter is expressed in seconds. For more information,
       see <a
-
-      href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations>Setting
-
+      href="https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations">Setting
       Timeouts for Queue Service Operations.</a>
     fullName: timeoutInSeconds
     remarks: ''
@@ -178,6 +159,19 @@ properties:
       content: 'timeoutInSeconds?: number'
       return:
         type: number
+        description: ''
+  - name: tracingContext
+    uid: '@azure/storage-queue.QueuePeekMessagesOptions.tracingContext'
+    package: '@azure/storage-queue'
+    summary: 'Tracing: Context used when creating spans.'
+    fullName: tracingContext
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingContext?: Context'
+      return:
+        type: Context
         description: ''
   - name: tracingOptions
     uid: '@azure/storage-queue.QueuePeekMessagesOptions.tracingOptions'
