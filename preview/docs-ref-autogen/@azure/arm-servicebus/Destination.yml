@@ -14,12 +14,9 @@ properties:
     package: '@azure/arm-servicebus'
     summary: >-
       Blob naming convention for archive, e.g.
-
       {Namespace}/{EventHub}/{PartitionId}/{Year}/{Month}/{Day}/{Hour}/{Minute}/{Second}.
-      Here all
-
-      the parameters (Namespace,EventHub .. etc) are mandatory irrespective of
-      order
+      Here all the parameters (Namespace,EventHub .. etc) are mandatory
+      irrespective of order
     fullName: archiveNameFormat
     remarks: ''
     isPreview: false

@@ -2,11 +2,7 @@
 name: NameSpaceType
 uid: '@azure/arm-servicebus.NameSpaceType'
 package: '@azure/arm-servicebus'
-summary: >-
-  Defines values for NameSpaceType.
-
-  Possible values include: 'Messaging', 'NotificationHub', 'Mixed', 'EventHub',
-  'Relay'
+summary: Defines values for NameSpaceType.
 fullName: NameSpaceType
 remarks: ''
 isPreview: false

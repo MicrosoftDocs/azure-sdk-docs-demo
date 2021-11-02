@@ -12,11 +12,7 @@ properties:
   - name: targetNamespaceType
     uid: '@azure/arm-servicebus.SBNamespaceMigrate.targetNamespaceType'
     package: '@azure/arm-servicebus'
-    summary: >-
-      Type of namespaces. Possible values include: 'Messaging',
-      'NotificationHub', 'Mixed',
-
-      'EventHub', 'Relay'
+    summary: Type of namespaces
     fullName: targetNamespaceType
     remarks: ''
     isPreview: false

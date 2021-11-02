@@ -2,7 +2,7 @@
 name: PremiumMessagingRegionsProperties
 uid: '@azure/arm-servicebus.PremiumMessagingRegionsProperties'
 package: '@azure/arm-servicebus'
-summary: An interface representing PremiumMessagingRegionsProperties.
+summary: ''
 fullName: PremiumMessagingRegionsProperties
 remarks: ''
 isPreview: false
@@ -15,8 +15,8 @@ properties:
     summary: >-
       Region code
 
-      **NOTE: This property will not be serialized. It can only be populated by
-      the server.**
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
     fullName: code
     remarks: ''
     isPreview: false
@@ -32,8 +32,8 @@ properties:
     summary: >-
       Full name of the region
 
-      **NOTE: This property will not be serialized. It can only be populated by
-      the server.**
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
     fullName: fullName
     remarks: ''
     isPreview: false

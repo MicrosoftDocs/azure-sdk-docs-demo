@@ -2,33 +2,16 @@
 name: Namespaces
 uid: '@azure/arm-servicebus.Namespaces'
 package: '@azure/arm-servicebus'
-summary: Class representing a Namespaces.
+summary: Interface representing a Namespaces.
 fullName: Namespaces
 remarks: ''
 isPreview: false
 isDeprecated: false
-type: class
-constructors:
-  - name: Namespaces(ServiceBusManagementClientContext)
-    uid: '@azure/arm-servicebus.Namespaces.constructor'
-    package: '@azure/arm-servicebus'
-    summary: Create a Namespaces.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'new Namespaces(client: ServiceBusManagementClientContext)'
-      parameters:
-        - id: client
-          type: >-
-            <xref uid="@azure/arm-servicebus.ServiceBusManagementClientContext"
-            />
-          description: |
-            Reference to the service client.
+type: interface
 methods:
   - name: >-
       beginCreateOrUpdate(string, string, SBNamespace,
-      msRest.RequestOptionsBase)
+      NamespacesCreateOrUpdateOptionalParams)
     uid: '@azure/arm-servicebus.Namespaces.beginCreateOrUpdate'
     package: '@azure/arm-servicebus'
     summary: >-
@@ -42,7 +25,8 @@ methods:
     syntax:
       content: >-
         function beginCreateOrUpdate(resourceGroupName: string, namespaceName:
-        string, parameters: SBNamespace, options?: msRest.RequestOptionsBase)
+        string, parameters: SBNamespace, options?:
+        NamespacesCreateOrUpdateOptionalParams)
       parameters:
         - id: resourceGroupName
           type: string
@@ -54,116 +38,23 @@ methods:
           type: <xref uid="@azure/arm-servicebus.SBNamespace" />
           description: Parameters supplied to create a namespace resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
-      return:
-        type: Promise&lt;LROPoller&gt;
-        description: Promise<msRestAzure.LROPoller>
-  - name: 'beginDeleteMethod(string, string, msRest.RequestOptionsBase)'
-    uid: '@azure/arm-servicebus.Namespaces.beginDeleteMethod'
-    package: '@azure/arm-servicebus'
-    summary: >-
-      Deletes an existing namespace. This operation also removes all associated
-      resources under the
-
-      namespace.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function beginDeleteMethod(resourceGroupName: string, namespaceName:
-        string, options?: msRest.RequestOptionsBase)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
-      return:
-        type: Promise&lt;LROPoller&gt;
-        description: Promise<msRestAzure.LROPoller>
-  - name: >-
-      checkNameAvailabilityMethod(CheckNameAvailability,
-      msRest.RequestOptionsBase)
-    uid: '@azure/arm-servicebus.Namespaces.checkNameAvailabilityMethod'
-    package: '@azure/arm-servicebus'
-    summary: Check the give namespace name availability.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function checkNameAvailabilityMethod(parameters: CheckNameAvailability,
-        options?: msRest.RequestOptionsBase)
-      parameters:
-        - id: parameters
-          type: <xref uid="@azure/arm-servicebus.CheckNameAvailability" />
-          description: Parameters to check availability of the given namespace name
-        - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateOptionalParams"
+            />
+          description: |
+            The options parameters.
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.NamespacesCheckNameAvailabilityMethodResponse" />&gt;
-        description: Promise<Models.NamespacesCheckNameAvailabilityMethodResponse>
+          Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
+          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateResponse" />&gt;,
+          <xref uid="@azure/arm-servicebus.NamespacesCreateOrUpdateResponse"
+          />&gt;&gt;
+        description: ''
   - name: >-
-      checkNameAvailabilityMethod(CheckNameAvailability, RequestOptionsBase,
-      ServiceCallback<CheckNameAvailabilityResult>)
-    uid: '@azure/arm-servicebus.Namespaces.checkNameAvailabilityMethod_2'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function checkNameAvailabilityMethod(parameters: CheckNameAvailability,
-        options: RequestOptionsBase, callback:
-        ServiceCallback<CheckNameAvailabilityResult>)
-      parameters:
-        - id: parameters
-          type: <xref uid="@azure/arm-servicebus.CheckNameAvailability" />
-          description: Parameters to check availability of the given namespace name
-        - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.CheckNameAvailabilityResult" />&gt;
-          description: |
-            The callback
-  - name: >-
-      checkNameAvailabilityMethod(CheckNameAvailability,
-      ServiceCallback<CheckNameAvailabilityResult>)
-    uid: '@azure/arm-servicebus.Namespaces.checkNameAvailabilityMethod_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function checkNameAvailabilityMethod(parameters: CheckNameAvailability,
-        callback: ServiceCallback<CheckNameAvailabilityResult>)
-      parameters:
-        - id: parameters
-          type: <xref uid="@azure/arm-servicebus.CheckNameAvailability" />
-          description: Parameters to check availability of the given namespace name
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.CheckNameAvailabilityResult" />&gt;
-          description: |
-            The callback
-  - name: 'createOrUpdate(string, string, SBNamespace, msRest.RequestOptionsBase)'
-    uid: '@azure/arm-servicebus.Namespaces.createOrUpdate'
+      beginCreateOrUpdateAndWait(string, string, SBNamespace,
+      NamespacesCreateOrUpdateOptionalParams)
+    uid: '@azure/arm-servicebus.Namespaces.beginCreateOrUpdateAndWait'
     package: '@azure/arm-servicebus'
     summary: >-
       Creates or updates a service namespace. Once created, this namespace's
@@ -175,8 +66,9 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function createOrUpdate(resourceGroupName: string, namespaceName:
-        string, parameters: SBNamespace, options?: msRest.RequestOptionsBase)
+        function beginCreateOrUpdateAndWait(resourceGroupName: string,
+        namespaceName: string, parameters: SBNamespace, options?:
+        NamespacesCreateOrUpdateOptionalParams)
       parameters:
         - id: resourceGroupName
           type: string
@@ -188,299 +80,19 @@ methods:
           type: <xref uid="@azure/arm-servicebus.SBNamespace" />
           description: Parameters supplied to create a namespace resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
-      return:
-        type: Promise&lt;<xref uid="Models.NamespacesCreateOrUpdateResponse" />&gt;
-        description: Promise<Models.NamespacesCreateOrUpdateResponse>
-  - name: >-
-      createOrUpdateAuthorizationRule(string, string, string,
-      SBAuthorizationRule, msRest.RequestOptionsBase)
-    uid: '@azure/arm-servicebus.Namespaces.createOrUpdateAuthorizationRule'
-    package: '@azure/arm-servicebus'
-    summary: Creates or updates an authorization rule for a namespace.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function createOrUpdateAuthorizationRule(resourceGroupName: string,
-        namespaceName: string, authorizationRuleName: string, parameters:
-        SBAuthorizationRule, options?: msRest.RequestOptionsBase)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: authorizationRuleName
-          type: string
-          description: The authorization rule name.
-        - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBAuthorizationRule" />
-          description: The shared access authorization rule.
-        - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateOptionalParams"
+            />
+          description: |
+            The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.NamespacesCreateOrUpdateAuthorizationRuleResponse" />&gt;
-        description: Promise<Models.NamespacesCreateOrUpdateAuthorizationRuleResponse>
-  - name: >-
-      createOrUpdateAuthorizationRule(string, string, string,
-      SBAuthorizationRule, RequestOptionsBase,
-      ServiceCallback<SBAuthorizationRule>)
-    uid: '@azure/arm-servicebus.Namespaces.createOrUpdateAuthorizationRule_2'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function createOrUpdateAuthorizationRule(resourceGroupName: string,
-        namespaceName: string, authorizationRuleName: string, parameters:
-        SBAuthorizationRule, options: RequestOptionsBase, callback:
-        ServiceCallback<SBAuthorizationRule>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: authorizationRuleName
-          type: string
-          description: The authorization rule name.
-        - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBAuthorizationRule" />
-          description: The shared access authorization rule.
-        - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRule" />&gt;
-          description: |
-            The callback
-  - name: >-
-      createOrUpdateAuthorizationRule(string, string, string,
-      SBAuthorizationRule, ServiceCallback<SBAuthorizationRule>)
-    uid: '@azure/arm-servicebus.Namespaces.createOrUpdateAuthorizationRule_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function createOrUpdateAuthorizationRule(resourceGroupName: string,
-        namespaceName: string, authorizationRuleName: string, parameters:
-        SBAuthorizationRule, callback: ServiceCallback<SBAuthorizationRule>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: authorizationRuleName
-          type: string
-          description: The authorization rule name.
-        - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBAuthorizationRule" />
-          description: The shared access authorization rule.
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRule" />&gt;
-          description: |
-            The callback
-  - name: >-
-      createOrUpdateNetworkRuleSet(string, string, NetworkRuleSet,
-      msRest.RequestOptionsBase)
-    uid: '@azure/arm-servicebus.Namespaces.createOrUpdateNetworkRuleSet'
-    package: '@azure/arm-servicebus'
-    summary: Create or update NetworkRuleSet for a Namespace.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function createOrUpdateNetworkRuleSet(resourceGroupName: string,
-        namespaceName: string, parameters: NetworkRuleSet, options?:
-        msRest.RequestOptionsBase)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: parameters
-          type: <xref uid="@azure/arm-servicebus.NetworkRuleSet" />
-          description: The Namespace IpFilterRule.
-        - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
-      return:
-        type: >-
-          Promise&lt;<xref
-          uid="Models.NamespacesCreateOrUpdateNetworkRuleSetResponse" />&gt;
-        description: Promise<Models.NamespacesCreateOrUpdateNetworkRuleSetResponse>
-  - name: >-
-      createOrUpdateNetworkRuleSet(string, string, NetworkRuleSet,
-      RequestOptionsBase, ServiceCallback<NetworkRuleSet>)
-    uid: '@azure/arm-servicebus.Namespaces.createOrUpdateNetworkRuleSet_2'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function createOrUpdateNetworkRuleSet(resourceGroupName: string,
-        namespaceName: string, parameters: NetworkRuleSet, options:
-        RequestOptionsBase, callback: ServiceCallback<NetworkRuleSet>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: parameters
-          type: <xref uid="@azure/arm-servicebus.NetworkRuleSet" />
-          description: The Namespace IpFilterRule.
-        - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.NetworkRuleSet"
-            />&gt;
-          description: |
-            The callback
-  - name: >-
-      createOrUpdateNetworkRuleSet(string, string, NetworkRuleSet,
-      ServiceCallback<NetworkRuleSet>)
-    uid: '@azure/arm-servicebus.Namespaces.createOrUpdateNetworkRuleSet_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function createOrUpdateNetworkRuleSet(resourceGroupName: string,
-        namespaceName: string, parameters: NetworkRuleSet, callback:
-        ServiceCallback<NetworkRuleSet>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: parameters
-          type: <xref uid="@azure/arm-servicebus.NetworkRuleSet" />
-          description: The Namespace IpFilterRule.
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.NetworkRuleSet"
-            />&gt;
-          description: |
-            The callback
-  - name: 'deleteAuthorizationRule(string, string, string, msRest.RequestOptionsBase)'
-    uid: '@azure/arm-servicebus.Namespaces.deleteAuthorizationRule'
-    package: '@azure/arm-servicebus'
-    summary: Deletes a namespace authorization rule.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function deleteAuthorizationRule(resourceGroupName: string,
-        namespaceName: string, authorizationRuleName: string, options?:
-        msRest.RequestOptionsBase)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: authorizationRuleName
-          type: string
-          description: The authorization rule name.
-        - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
-      return:
-        type: Promise&lt;RestResponse&gt;
-        description: Promise<msRest.RestResponse>
-  - name: >-
-      deleteAuthorizationRule(string, string, string, RequestOptionsBase,
-      ServiceCallback<void>)
-    uid: '@azure/arm-servicebus.Namespaces.deleteAuthorizationRule_2'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function deleteAuthorizationRule(resourceGroupName: string,
-        namespaceName: string, authorizationRuleName: string, options:
-        RequestOptionsBase, callback: ServiceCallback<void>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: authorizationRuleName
-          type: string
-          description: The authorization rule name.
-        - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
-          type: ServiceCallback&lt;void&gt;
-          description: |
-            The callback
-  - name: 'deleteAuthorizationRule(string, string, string, ServiceCallback<void>)'
-    uid: '@azure/arm-servicebus.Namespaces.deleteAuthorizationRule_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function deleteAuthorizationRule(resourceGroupName: string,
-        namespaceName: string, authorizationRuleName: string, callback:
-        ServiceCallback<void>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: authorizationRuleName
-          type: string
-          description: The authorization rule name.
-        - id: callback
-          type: ServiceCallback&lt;void&gt;
-          description: |
-            The callback
-  - name: 'deleteMethod(string, string, msRest.RequestOptionsBase)'
-    uid: '@azure/arm-servicebus.Namespaces.deleteMethod'
+          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateResponse" />&gt;
+        description: ''
+  - name: 'beginDelete(string, string, NamespacesDeleteOptionalParams)'
+    uid: '@azure/arm-servicebus.Namespaces.beginDelete'
     package: '@azure/arm-servicebus'
     summary: >-
       Deletes an existing namespace. This operation also removes all associated
@@ -492,8 +104,8 @@ methods:
     isDeprecated: false
     syntax:
       content: >-
-        function deleteMethod(resourceGroupName: string, namespaceName: string,
-        options?: msRest.RequestOptionsBase)
+        function beginDelete(resourceGroupName: string, namespaceName: string,
+        options?: NamespacesDeleteOptionalParams)
       parameters:
         - id: resourceGroupName
           type: string
@@ -502,12 +114,336 @@ methods:
           type: string
           description: The namespace name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
+          type: <xref uid="@azure/arm-servicebus.NamespacesDeleteOptionalParams" />
+          description: |
+            The options parameters.
       return:
-        type: Promise&lt;RestResponse&gt;
-        description: Promise<msRest.RestResponse>
-  - name: 'get(string, string, msRest.RequestOptionsBase)'
+        type: 'Promise&lt;PollerLike&lt;PollOperationState&lt;void&gt;, void&gt;&gt;'
+        description: ''
+  - name: 'beginDeleteAndWait(string, string, NamespacesDeleteOptionalParams)'
+    uid: '@azure/arm-servicebus.Namespaces.beginDeleteAndWait'
+    package: '@azure/arm-servicebus'
+    summary: >-
+      Deletes an existing namespace. This operation also removes all associated
+      resources under the
+
+      namespace.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function beginDeleteAndWait(resourceGroupName: string, namespaceName:
+        string, options?: NamespacesDeleteOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: Name of the Resource group within the Azure subscription.
+        - id: namespaceName
+          type: string
+          description: The namespace name
+        - id: options
+          type: <xref uid="@azure/arm-servicebus.NamespacesDeleteOptionalParams" />
+          description: |
+            The options parameters.
+      return:
+        type: Promise&lt;void&gt;
+        description: ''
+  - name: >-
+      checkNameAvailability(CheckNameAvailability,
+      NamespacesCheckNameAvailabilityOptionalParams)
+    uid: '@azure/arm-servicebus.Namespaces.checkNameAvailability'
+    package: '@azure/arm-servicebus'
+    summary: Check the give namespace name availability.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function checkNameAvailability(parameters: CheckNameAvailability,
+        options?: NamespacesCheckNameAvailabilityOptionalParams)
+      parameters:
+        - id: parameters
+          type: <xref uid="@azure/arm-servicebus.CheckNameAvailability" />
+          description: Parameters to check availability of the given namespace name
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesCheckNameAvailabilityOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.NamespacesCheckNameAvailabilityResponse"
+          />&gt;
+        description: ''
+  - name: >-
+      createOrUpdateAuthorizationRule(string, string, string,
+      SBAuthorizationRule,
+      NamespacesCreateOrUpdateAuthorizationRuleOptionalParams)
+    uid: '@azure/arm-servicebus.Namespaces.createOrUpdateAuthorizationRule'
+    package: '@azure/arm-servicebus'
+    summary: Creates or updates an authorization rule for a namespace.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createOrUpdateAuthorizationRule(resourceGroupName: string,
+        namespaceName: string, authorizationRuleName: string, parameters:
+        SBAuthorizationRule, options?:
+        NamespacesCreateOrUpdateAuthorizationRuleOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: Name of the Resource group within the Azure subscription.
+        - id: namespaceName
+          type: string
+          description: The namespace name
+        - id: authorizationRuleName
+          type: string
+          description: The authorization rule name.
+        - id: parameters
+          type: <xref uid="@azure/arm-servicebus.SBAuthorizationRule" />
+          description: The shared access authorization rule.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateAuthorizationRuleOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateAuthorizationRuleResponse"
+          />&gt;
+        description: ''
+  - name: >-
+      createOrUpdateIpFilterRule(string, string, string, IpFilterRule,
+      NamespacesCreateOrUpdateIpFilterRuleOptionalParams)
+    uid: '@azure/arm-servicebus.Namespaces.createOrUpdateIpFilterRule'
+    package: '@azure/arm-servicebus'
+    summary: Creates or updates an IpFilterRule for a Namespace.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createOrUpdateIpFilterRule(resourceGroupName: string,
+        namespaceName: string, ipFilterRuleName: string, parameters:
+        IpFilterRule, options?:
+        NamespacesCreateOrUpdateIpFilterRuleOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: Name of the Resource group within the Azure subscription.
+        - id: namespaceName
+          type: string
+          description: The namespace name
+        - id: ipFilterRuleName
+          type: string
+          description: The IP Filter Rule name.
+        - id: parameters
+          type: <xref uid="@azure/arm-servicebus.IpFilterRule" />
+          description: The Namespace IpFilterRule.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateIpFilterRuleOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateIpFilterRuleResponse"
+          />&gt;
+        description: ''
+  - name: >-
+      createOrUpdateNetworkRuleSet(string, string, NetworkRuleSet,
+      NamespacesCreateOrUpdateNetworkRuleSetOptionalParams)
+    uid: '@azure/arm-servicebus.Namespaces.createOrUpdateNetworkRuleSet'
+    package: '@azure/arm-servicebus'
+    summary: Create or update NetworkRuleSet for a Namespace.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createOrUpdateNetworkRuleSet(resourceGroupName: string,
+        namespaceName: string, parameters: NetworkRuleSet, options?:
+        NamespacesCreateOrUpdateNetworkRuleSetOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: Name of the Resource group within the Azure subscription.
+        - id: namespaceName
+          type: string
+          description: The namespace name
+        - id: parameters
+          type: <xref uid="@azure/arm-servicebus.NetworkRuleSet" />
+          description: The Namespace IpFilterRule.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateNetworkRuleSetOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateNetworkRuleSetResponse"
+          />&gt;
+        description: ''
+  - name: >-
+      createOrUpdateVirtualNetworkRule(string, string, string,
+      VirtualNetworkRule,
+      NamespacesCreateOrUpdateVirtualNetworkRuleOptionalParams)
+    uid: '@azure/arm-servicebus.Namespaces.createOrUpdateVirtualNetworkRule'
+    package: '@azure/arm-servicebus'
+    summary: Creates or updates an VirtualNetworkRule for a Namespace.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createOrUpdateVirtualNetworkRule(resourceGroupName: string,
+        namespaceName: string, virtualNetworkRuleName: string, parameters:
+        VirtualNetworkRule, options?:
+        NamespacesCreateOrUpdateVirtualNetworkRuleOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: Name of the Resource group within the Azure subscription.
+        - id: namespaceName
+          type: string
+          description: The namespace name
+        - id: virtualNetworkRuleName
+          type: string
+          description: The Virtual Network Rule name.
+        - id: parameters
+          type: <xref uid="@azure/arm-servicebus.VirtualNetworkRule" />
+          description: The Namespace VirtualNetworkRule.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateVirtualNetworkRuleOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateVirtualNetworkRuleResponse"
+          />&gt;
+        description: ''
+  - name: >-
+      deleteAuthorizationRule(string, string, string,
+      NamespacesDeleteAuthorizationRuleOptionalParams)
+    uid: '@azure/arm-servicebus.Namespaces.deleteAuthorizationRule'
+    package: '@azure/arm-servicebus'
+    summary: Deletes a namespace authorization rule.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function deleteAuthorizationRule(resourceGroupName: string,
+        namespaceName: string, authorizationRuleName: string, options?:
+        NamespacesDeleteAuthorizationRuleOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: Name of the Resource group within the Azure subscription.
+        - id: namespaceName
+          type: string
+          description: The namespace name
+        - id: authorizationRuleName
+          type: string
+          description: The authorization rule name.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesDeleteAuthorizationRuleOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: Promise&lt;void&gt;
+        description: ''
+  - name: >-
+      deleteIpFilterRule(string, string, string,
+      NamespacesDeleteIpFilterRuleOptionalParams)
+    uid: '@azure/arm-servicebus.Namespaces.deleteIpFilterRule'
+    package: '@azure/arm-servicebus'
+    summary: Deletes an IpFilterRule for a Namespace.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function deleteIpFilterRule(resourceGroupName: string, namespaceName:
+        string, ipFilterRuleName: string, options?:
+        NamespacesDeleteIpFilterRuleOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: Name of the Resource group within the Azure subscription.
+        - id: namespaceName
+          type: string
+          description: The namespace name
+        - id: ipFilterRuleName
+          type: string
+          description: The IP Filter Rule name.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesDeleteIpFilterRuleOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: Promise&lt;void&gt;
+        description: ''
+  - name: >-
+      deleteVirtualNetworkRule(string, string, string,
+      NamespacesDeleteVirtualNetworkRuleOptionalParams)
+    uid: '@azure/arm-servicebus.Namespaces.deleteVirtualNetworkRule'
+    package: '@azure/arm-servicebus'
+    summary: Deletes an VirtualNetworkRule for a Namespace.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function deleteVirtualNetworkRule(resourceGroupName: string,
+        namespaceName: string, virtualNetworkRuleName: string, options?:
+        NamespacesDeleteVirtualNetworkRuleOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: Name of the Resource group within the Azure subscription.
+        - id: namespaceName
+          type: string
+          description: The namespace name
+        - id: virtualNetworkRuleName
+          type: string
+          description: The Virtual Network Rule name.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesDeleteVirtualNetworkRuleOptionalParams"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: Promise&lt;void&gt;
+        description: ''
+  - name: 'get(string, string, NamespacesGetOptionalParams)'
     uid: '@azure/arm-servicebus.Namespaces.get'
     package: '@azure/arm-servicebus'
     summary: Gets a description for the specified namespace.
@@ -517,7 +453,7 @@ methods:
     syntax:
       content: >-
         function get(resourceGroupName: string, namespaceName: string, options?:
-        msRest.RequestOptionsBase)
+        NamespacesGetOptionalParams)
       parameters:
         - id: resourceGroupName
           type: string
@@ -526,63 +462,17 @@ methods:
           type: string
           description: The namespace name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
+          type: <xref uid="@azure/arm-servicebus.NamespacesGetOptionalParams" />
+          description: |
+            The options parameters.
       return:
-        type: Promise&lt;<xref uid="Models.NamespacesGetResponse" />&gt;
-        description: Promise<Models.NamespacesGetResponse>
-  - name: 'get(string, string, RequestOptionsBase, ServiceCallback<SBNamespace>)'
-    uid: '@azure/arm-servicebus.Namespaces.get_2'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function get(resourceGroupName: string, namespaceName: string, options:
-        RequestOptionsBase, callback: ServiceCallback<SBNamespace>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.SBNamespace"
-            />&gt;
-          description: |
-            The callback
-  - name: 'get(string, string, ServiceCallback<SBNamespace>)'
-    uid: '@azure/arm-servicebus.Namespaces.get_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function get(resourceGroupName: string, namespaceName: string, callback:
-        ServiceCallback<SBNamespace>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.SBNamespace"
-            />&gt;
-          description: |
-            The callback
-  - name: 'getAuthorizationRule(string, string, string, msRest.RequestOptionsBase)'
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-servicebus.NamespacesGetResponse"
+          />&gt;
+        description: ''
+  - name: >-
+      getAuthorizationRule(string, string, string,
+      NamespacesGetAuthorizationRuleOptionalParams)
     uid: '@azure/arm-servicebus.Namespaces.getAuthorizationRule'
     package: '@azure/arm-servicebus'
     summary: Gets an authorization rule for a namespace by rule name.
@@ -593,7 +483,7 @@ methods:
       content: >-
         function getAuthorizationRule(resourceGroupName: string, namespaceName:
         string, authorizationRuleName: string, options?:
-        msRest.RequestOptionsBase)
+        NamespacesGetAuthorizationRuleOptionalParams)
       parameters:
         - id: resourceGroupName
           type: string
@@ -605,27 +495,32 @@ methods:
           type: string
           description: The authorization rule name.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesGetAuthorizationRuleOptionalParams"
+            />
+          description: |
+            The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="Models.NamespacesGetAuthorizationRuleResponse"
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.NamespacesGetAuthorizationRuleResponse"
           />&gt;
-        description: Promise<Models.NamespacesGetAuthorizationRuleResponse>
+        description: ''
   - name: >-
-      getAuthorizationRule(string, string, string, RequestOptionsBase,
-      ServiceCallback<SBAuthorizationRule>)
-    uid: '@azure/arm-servicebus.Namespaces.getAuthorizationRule_2'
+      getIpFilterRule(string, string, string,
+      NamespacesGetIpFilterRuleOptionalParams)
+    uid: '@azure/arm-servicebus.Namespaces.getIpFilterRule'
     package: '@azure/arm-servicebus'
-    summary: ''
+    summary: Gets an IpFilterRule for a Namespace by rule name.
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
       content: >-
-        function getAuthorizationRule(resourceGroupName: string, namespaceName:
-        string, authorizationRuleName: string, options: RequestOptionsBase,
-        callback: ServiceCallback<SBAuthorizationRule>)
+        function getIpFilterRule(resourceGroupName: string, namespaceName:
+        string, ipFilterRuleName: string, options?:
+        NamespacesGetIpFilterRuleOptionalParams)
       parameters:
         - id: resourceGroupName
           type: string
@@ -633,49 +528,24 @@ methods:
         - id: namespaceName
           type: string
           description: The namespace name
-        - id: authorizationRuleName
+        - id: ipFilterRuleName
           type: string
-          description: The authorization rule name.
+          description: The IP Filter Rule name.
         - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
           type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRule" />&gt;
+            <xref
+            uid="@azure/arm-servicebus.NamespacesGetIpFilterRuleOptionalParams"
+            />
           description: |
-            The callback
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.NamespacesGetIpFilterRuleResponse" />&gt;
+        description: ''
   - name: >-
-      getAuthorizationRule(string, string, string,
-      ServiceCallback<SBAuthorizationRule>)
-    uid: '@azure/arm-servicebus.Namespaces.getAuthorizationRule_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function getAuthorizationRule(resourceGroupName: string, namespaceName:
-        string, authorizationRuleName: string, callback:
-        ServiceCallback<SBAuthorizationRule>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: authorizationRuleName
-          type: string
-          description: The authorization rule name.
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRule" />&gt;
-          description: |
-            The callback
-  - name: 'getNetworkRuleSet(string, string, msRest.RequestOptionsBase)'
+      getNetworkRuleSet(string, string,
+      NamespacesGetNetworkRuleSetOptionalParams)
     uid: '@azure/arm-servicebus.Namespaces.getNetworkRuleSet'
     package: '@azure/arm-servicebus'
     summary: Gets NetworkRuleSet for a Namespace.
@@ -685,7 +555,7 @@ methods:
     syntax:
       content: >-
         function getNetworkRuleSet(resourceGroupName: string, namespaceName:
-        string, options?: msRest.RequestOptionsBase)
+        string, options?: NamespacesGetNetworkRuleSetOptionalParams)
       parameters:
         - id: resourceGroupName
           type: string
@@ -694,27 +564,31 @@ methods:
           type: string
           description: The namespace name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesGetNetworkRuleSetOptionalParams"
+            />
+          description: |
+            The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="Models.NamespacesGetNetworkRuleSetResponse"
-          />&gt;
-        description: Promise<Models.NamespacesGetNetworkRuleSetResponse>
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.NamespacesGetNetworkRuleSetResponse" />&gt;
+        description: ''
   - name: >-
-      getNetworkRuleSet(string, string, RequestOptionsBase,
-      ServiceCallback<NetworkRuleSet>)
-    uid: '@azure/arm-servicebus.Namespaces.getNetworkRuleSet_2'
+      getVirtualNetworkRule(string, string, string,
+      NamespacesGetVirtualNetworkRuleOptionalParams)
+    uid: '@azure/arm-servicebus.Namespaces.getVirtualNetworkRule'
     package: '@azure/arm-servicebus'
-    summary: ''
+    summary: Gets an VirtualNetworkRule for a Namespace by rule name.
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
       content: >-
-        function getNetworkRuleSet(resourceGroupName: string, namespaceName:
-        string, options: RequestOptionsBase, callback:
-        ServiceCallback<NetworkRuleSet>)
+        function getVirtualNetworkRule(resourceGroupName: string, namespaceName:
+        string, virtualNetworkRuleName: string, options?:
+        NamespacesGetVirtualNetworkRuleOptionalParams)
       parameters:
         - id: resourceGroupName
           type: string
@@ -722,40 +596,23 @@ methods:
         - id: namespaceName
           type: string
           description: The namespace name
+        - id: virtualNetworkRuleName
+          type: string
+          description: The Virtual Network Rule name.
         - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.NetworkRuleSet"
-            />&gt;
+            <xref
+            uid="@azure/arm-servicebus.NamespacesGetVirtualNetworkRuleOptionalParams"
+            />
           description: |
-            The callback
-  - name: 'getNetworkRuleSet(string, string, ServiceCallback<NetworkRuleSet>)'
-    uid: '@azure/arm-servicebus.Namespaces.getNetworkRuleSet_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function getNetworkRuleSet(resourceGroupName: string, namespaceName:
-        string, callback: ServiceCallback<NetworkRuleSet>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.NetworkRuleSet"
-            />&gt;
-          description: |
-            The callback
-  - name: list(msRest.RequestOptionsBase)
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.NamespacesGetVirtualNetworkRuleResponse"
+          />&gt;
+        description: ''
+  - name: list(NamespacesListOptionalParams)
     uid: '@azure/arm-servicebus.Namespaces.list'
     package: '@azure/arm-servicebus'
     summary: >-
@@ -765,52 +622,20 @@ methods:
     isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function list(options?: msRest.RequestOptionsBase)'
+      content: 'function list(options?: NamespacesListOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
+          type: <xref uid="@azure/arm-servicebus.NamespacesListOptionalParams" />
+          description: |
+            The options parameters.
       return:
-        type: Promise&lt;<xref uid="Models.NamespacesListResponse" />&gt;
-        description: Promise<Models.NamespacesListResponse>
-  - name: 'list(RequestOptionsBase, ServiceCallback<SBNamespaceListResult>)'
-    uid: '@azure/arm-servicebus.Namespaces.list_2'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function list(options: RequestOptionsBase, callback:
-        ServiceCallback<SBNamespaceListResult>)
-      parameters:
-        - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBNamespaceListResult" />&gt;
-          description: |
-            The callback
-  - name: list(ServiceCallback<SBNamespaceListResult>)
-    uid: '@azure/arm-servicebus.Namespaces.list_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function list(callback: ServiceCallback<SBNamespaceListResult>)'
-      parameters:
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBNamespaceListResult" />&gt;
-          description: |
-            The callback
-  - name: 'listAuthorizationRules(string, string, msRest.RequestOptionsBase)'
+        type: >-
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-servicebus.SBNamespace" />&gt;
+        description: ''
+  - name: >-
+      listAuthorizationRules(string, string,
+      NamespacesListAuthorizationRulesOptionalParams)
     uid: '@azure/arm-servicebus.Namespaces.listAuthorizationRules'
     package: '@azure/arm-servicebus'
     summary: Gets the authorization rules for a namespace.
@@ -820,7 +645,8 @@ methods:
     syntax:
       content: >-
         function listAuthorizationRules(resourceGroupName: string,
-        namespaceName: string, options?: msRest.RequestOptionsBase)
+        namespaceName: string, options?:
+        NamespacesListAuthorizationRulesOptionalParams)
       parameters:
         - id: resourceGroupName
           type: string
@@ -829,144 +655,18 @@ methods:
           type: string
           description: The namespace name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesListAuthorizationRulesOptionalParams"
+            />
+          description: |
+            The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="Models.NamespacesListAuthorizationRulesResponse"
-          />&gt;
-        description: Promise<Models.NamespacesListAuthorizationRulesResponse>
-  - name: >-
-      listAuthorizationRules(string, string, RequestOptionsBase,
-      ServiceCallback<SBAuthorizationRuleListResult>)
-    uid: '@azure/arm-servicebus.Namespaces.listAuthorizationRules_2'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listAuthorizationRules(resourceGroupName: string,
-        namespaceName: string, options: RequestOptionsBase, callback:
-        ServiceCallback<SBAuthorizationRuleListResult>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult" />&gt;
-          description: |
-            The callback
-  - name: >-
-      listAuthorizationRules(string, string,
-      ServiceCallback<SBAuthorizationRuleListResult>)
-    uid: '@azure/arm-servicebus.Namespaces.listAuthorizationRules_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listAuthorizationRules(resourceGroupName: string,
-        namespaceName: string, callback:
-        ServiceCallback<SBAuthorizationRuleListResult>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult" />&gt;
-          description: |
-            The callback
-  - name: 'listAuthorizationRulesNext(string, msRest.RequestOptionsBase)'
-    uid: '@azure/arm-servicebus.Namespaces.listAuthorizationRulesNext'
-    package: '@azure/arm-servicebus'
-    summary: Gets the authorization rules for a namespace.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listAuthorizationRulesNext(nextPageLink: string, options?:
-        msRest.RequestOptionsBase)
-      parameters:
-        - id: nextPageLink
-          type: string
-          description: The NextLink from the previous successful call to List operation.
-        - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
-      return:
-        type: >-
-          Promise&lt;<xref
-          uid="Models.NamespacesListAuthorizationRulesNextResponse" />&gt;
-        description: Promise<Models.NamespacesListAuthorizationRulesNextResponse>
-  - name: >-
-      listAuthorizationRulesNext(string, RequestOptionsBase,
-      ServiceCallback<SBAuthorizationRuleListResult>)
-    uid: '@azure/arm-servicebus.Namespaces.listAuthorizationRulesNext_2'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listAuthorizationRulesNext(nextPageLink: string, options:
-        RequestOptionsBase, callback:
-        ServiceCallback<SBAuthorizationRuleListResult>)
-      parameters:
-        - id: nextPageLink
-          type: string
-          description: The NextLink from the previous successful call to List operation.
-        - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult" />&gt;
-          description: |
-            The callback
-  - name: >-
-      listAuthorizationRulesNext(string,
-      ServiceCallback<SBAuthorizationRuleListResult>)
-    uid: '@azure/arm-servicebus.Namespaces.listAuthorizationRulesNext_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listAuthorizationRulesNext(nextPageLink: string, callback:
-        ServiceCallback<SBAuthorizationRuleListResult>)
-      parameters:
-        - id: nextPageLink
-          type: string
-          description: The NextLink from the previous successful call to List operation.
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult" />&gt;
-          description: |
-            The callback
-  - name: 'listByResourceGroup(string, msRest.RequestOptionsBase)'
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-servicebus.SBAuthorizationRule" />&gt;
+        description: ''
+  - name: 'listByResourceGroup(string, NamespacesListByResourceGroupOptionalParams)'
     uid: '@azure/arm-servicebus.Namespaces.listByResourceGroup'
     package: '@azure/arm-servicebus'
     summary: Gets the available namespaces within a resource group.
@@ -976,137 +676,56 @@ methods:
     syntax:
       content: >-
         function listByResourceGroup(resourceGroupName: string, options?:
-        msRest.RequestOptionsBase)
+        NamespacesListByResourceGroupOptionalParams)
       parameters:
         - id: resourceGroupName
           type: string
           description: Name of the Resource group within the Azure subscription.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesListByResourceGroupOptionalParams"
+            />
+          description: |
+            The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="Models.NamespacesListByResourceGroupResponse"
-          />&gt;
-        description: Promise<Models.NamespacesListByResourceGroupResponse>
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-servicebus.SBNamespace" />&gt;
+        description: ''
   - name: >-
-      listByResourceGroup(string, RequestOptionsBase,
-      ServiceCallback<SBNamespaceListResult>)
-    uid: '@azure/arm-servicebus.Namespaces.listByResourceGroup_2'
+      listIpFilterRules(string, string,
+      NamespacesListIpFilterRulesOptionalParams)
+    uid: '@azure/arm-servicebus.Namespaces.listIpFilterRules'
     package: '@azure/arm-servicebus'
-    summary: ''
+    summary: Gets a list of IP Filter rules for a Namespace.
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
       content: >-
-        function listByResourceGroup(resourceGroupName: string, options:
-        RequestOptionsBase, callback: ServiceCallback<SBNamespaceListResult>)
+        function listIpFilterRules(resourceGroupName: string, namespaceName:
+        string, options?: NamespacesListIpFilterRulesOptionalParams)
       parameters:
         - id: resourceGroupName
           type: string
           description: Name of the Resource group within the Azure subscription.
-        - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBNamespaceListResult" />&gt;
-          description: |
-            The callback
-  - name: 'listByResourceGroup(string, ServiceCallback<SBNamespaceListResult>)'
-    uid: '@azure/arm-servicebus.Namespaces.listByResourceGroup_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listByResourceGroup(resourceGroupName: string, callback:
-        ServiceCallback<SBNamespaceListResult>)
-      parameters:
-        - id: resourceGroupName
+        - id: namespaceName
           type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBNamespaceListResult" />&gt;
-          description: |
-            The callback
-  - name: 'listByResourceGroupNext(string, msRest.RequestOptionsBase)'
-    uid: '@azure/arm-servicebus.Namespaces.listByResourceGroupNext'
-    package: '@azure/arm-servicebus'
-    summary: Gets the available namespaces within a resource group.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listByResourceGroupNext(nextPageLink: string, options?:
-        msRest.RequestOptionsBase)
-      parameters:
-        - id: nextPageLink
-          type: string
-          description: The NextLink from the previous successful call to List operation.
+          description: The namespace name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesListIpFilterRulesOptionalParams"
+            />
+          description: |
+            The options parameters.
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.NamespacesListByResourceGroupNextResponse" />&gt;
-        description: Promise<Models.NamespacesListByResourceGroupNextResponse>
-  - name: >-
-      listByResourceGroupNext(string, RequestOptionsBase,
-      ServiceCallback<SBNamespaceListResult>)
-    uid: '@azure/arm-servicebus.Namespaces.listByResourceGroupNext_2'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listByResourceGroupNext(nextPageLink: string, options:
-        RequestOptionsBase, callback: ServiceCallback<SBNamespaceListResult>)
-      parameters:
-        - id: nextPageLink
-          type: string
-          description: The NextLink from the previous successful call to List operation.
-        - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBNamespaceListResult" />&gt;
-          description: |
-            The callback
-  - name: 'listByResourceGroupNext(string, ServiceCallback<SBNamespaceListResult>)'
-    uid: '@azure/arm-servicebus.Namespaces.listByResourceGroupNext_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listByResourceGroupNext(nextPageLink: string, callback:
-        ServiceCallback<SBNamespaceListResult>)
-      parameters:
-        - id: nextPageLink
-          type: string
-          description: The NextLink from the previous successful call to List operation.
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBNamespaceListResult" />&gt;
-          description: |
-            The callback
-  - name: 'listKeys(string, string, string, msRest.RequestOptionsBase)'
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-servicebus.IpFilterRule" />&gt;
+        description: ''
+  - name: 'listKeys(string, string, string, NamespacesListKeysOptionalParams)'
     uid: '@azure/arm-servicebus.Namespaces.listKeys'
     package: '@azure/arm-servicebus'
     summary: Gets the primary and secondary connection strings for the namespace.
@@ -1116,7 +735,8 @@ methods:
     syntax:
       content: >-
         function listKeys(resourceGroupName: string, namespaceName: string,
-        authorizationRuleName: string, options?: msRest.RequestOptionsBase)
+        authorizationRuleName: string, options?:
+        NamespacesListKeysOptionalParams)
       parameters:
         - id: resourceGroupName
           type: string
@@ -1128,72 +748,19 @@ methods:
           type: string
           description: The authorization rule name.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
+          type: >-
+            <xref uid="@azure/arm-servicebus.NamespacesListKeysOptionalParams"
+            />
+          description: |
+            The options parameters.
       return:
-        type: Promise&lt;<xref uid="Models.NamespacesListKeysResponse" />&gt;
-        description: Promise<Models.NamespacesListKeysResponse>
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.NamespacesListKeysResponse" />&gt;
+        description: ''
   - name: >-
-      listKeys(string, string, string, RequestOptionsBase,
-      ServiceCallback<AccessKeys>)
-    uid: '@azure/arm-servicebus.Namespaces.listKeys_2'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listKeys(resourceGroupName: string, namespaceName: string,
-        authorizationRuleName: string, options: RequestOptionsBase, callback:
-        ServiceCallback<AccessKeys>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: authorizationRuleName
-          type: string
-          description: The authorization rule name.
-        - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.AccessKeys"
-            />&gt;
-          description: |
-            The callback
-  - name: 'listKeys(string, string, string, ServiceCallback<AccessKeys>)'
-    uid: '@azure/arm-servicebus.Namespaces.listKeys_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listKeys(resourceGroupName: string, namespaceName: string,
-        authorizationRuleName: string, callback: ServiceCallback<AccessKeys>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: authorizationRuleName
-          type: string
-          description: The authorization rule name.
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.AccessKeys"
-            />&gt;
-          description: |
-            The callback
-  - name: 'listNetworkRuleSets(string, string, msRest.RequestOptionsBase)'
+      listNetworkRuleSets(string, string,
+      NamespacesListNetworkRuleSetsOptionalParams)
     uid: '@azure/arm-servicebus.Namespaces.listNetworkRuleSets'
     package: '@azure/arm-servicebus'
     summary: Gets list of NetworkRuleSet for a Namespace.
@@ -1203,7 +770,7 @@ methods:
     syntax:
       content: >-
         function listNetworkRuleSets(resourceGroupName: string, namespaceName:
-        string, options?: msRest.RequestOptionsBase)
+        string, options?: NamespacesListNetworkRuleSetsOptionalParams)
       parameters:
         - id: resourceGroupName
           type: string
@@ -1212,27 +779,31 @@ methods:
           type: string
           description: The namespace name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesListNetworkRuleSetsOptionalParams"
+            />
+          description: |
+            The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="Models.NamespacesListNetworkRuleSetsResponse"
-          />&gt;
-        description: Promise<Models.NamespacesListNetworkRuleSetsResponse>
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-servicebus.NetworkRuleSet" />&gt;
+        description: ''
   - name: >-
-      listNetworkRuleSets(string, string, RequestOptionsBase,
-      ServiceCallback<NetworkRuleSetListResult>)
-    uid: '@azure/arm-servicebus.Namespaces.listNetworkRuleSets_2'
+      listVirtualNetworkRules(string, string,
+      NamespacesListVirtualNetworkRulesOptionalParams)
+    uid: '@azure/arm-servicebus.Namespaces.listVirtualNetworkRules'
     package: '@azure/arm-servicebus'
-    summary: ''
+    summary: Gets a list of VirtualNetwork rules for a Namespace.
     remarks: ''
     isPreview: false
     isDeprecated: false
     syntax:
       content: >-
-        function listNetworkRuleSets(resourceGroupName: string, namespaceName:
-        string, options: RequestOptionsBase, callback:
-        ServiceCallback<NetworkRuleSetListResult>)
+        function listVirtualNetworkRules(resourceGroupName: string,
+        namespaceName: string, options?:
+        NamespacesListVirtualNetworkRulesOptionalParams)
       parameters:
         - id: resourceGroupName
           type: string
@@ -1241,181 +812,20 @@ methods:
           type: string
           description: The namespace name
         - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
           type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.NetworkRuleSetListResult" />&gt;
+            <xref
+            uid="@azure/arm-servicebus.NamespacesListVirtualNetworkRulesOptionalParams"
+            />
           description: |
-            The callback
-  - name: >-
-      listNetworkRuleSets(string, string,
-      ServiceCallback<NetworkRuleSetListResult>)
-    uid: '@azure/arm-servicebus.Namespaces.listNetworkRuleSets_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listNetworkRuleSets(resourceGroupName: string, namespaceName:
-        string, callback: ServiceCallback<NetworkRuleSetListResult>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.NetworkRuleSetListResult" />&gt;
-          description: |
-            The callback
-  - name: 'listNetworkRuleSetsNext(string, msRest.RequestOptionsBase)'
-    uid: '@azure/arm-servicebus.Namespaces.listNetworkRuleSetsNext'
-    package: '@azure/arm-servicebus'
-    summary: Gets list of NetworkRuleSet for a Namespace.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listNetworkRuleSetsNext(nextPageLink: string, options?:
-        msRest.RequestOptionsBase)
-      parameters:
-        - id: nextPageLink
-          type: string
-          description: The NextLink from the previous successful call to List operation.
-        - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
+            The options parameters.
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.NamespacesListNetworkRuleSetsNextResponse" />&gt;
-        description: Promise<Models.NamespacesListNetworkRuleSetsNextResponse>
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-servicebus.VirtualNetworkRule" />&gt;
+        description: ''
   - name: >-
-      listNetworkRuleSetsNext(string, RequestOptionsBase,
-      ServiceCallback<NetworkRuleSetListResult>)
-    uid: '@azure/arm-servicebus.Namespaces.listNetworkRuleSetsNext_2'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listNetworkRuleSetsNext(nextPageLink: string, options:
-        RequestOptionsBase, callback: ServiceCallback<NetworkRuleSetListResult>)
-      parameters:
-        - id: nextPageLink
-          type: string
-          description: The NextLink from the previous successful call to List operation.
-        - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.NetworkRuleSetListResult" />&gt;
-          description: |
-            The callback
-  - name: 'listNetworkRuleSetsNext(string, ServiceCallback<NetworkRuleSetListResult>)'
-    uid: '@azure/arm-servicebus.Namespaces.listNetworkRuleSetsNext_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listNetworkRuleSetsNext(nextPageLink: string, callback:
-        ServiceCallback<NetworkRuleSetListResult>)
-      parameters:
-        - id: nextPageLink
-          type: string
-          description: The NextLink from the previous successful call to List operation.
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.NetworkRuleSetListResult" />&gt;
-          description: |
-            The callback
-  - name: 'listNext(string, msRest.RequestOptionsBase)'
-    uid: '@azure/arm-servicebus.Namespaces.listNext'
-    package: '@azure/arm-servicebus'
-    summary: >-
-      Gets all the available namespaces within the subscription, irrespective of
-      the resource groups.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listNext(nextPageLink: string, options?:
-        msRest.RequestOptionsBase)
-      parameters:
-        - id: nextPageLink
-          type: string
-          description: The NextLink from the previous successful call to List operation.
-        - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
-      return:
-        type: Promise&lt;<xref uid="Models.NamespacesListNextResponse" />&gt;
-        description: Promise<Models.NamespacesListNextResponse>
-  - name: >-
-      listNext(string, RequestOptionsBase,
-      ServiceCallback<SBNamespaceListResult>)
-    uid: '@azure/arm-servicebus.Namespaces.listNext_2'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listNext(nextPageLink: string, options: RequestOptionsBase,
-        callback: ServiceCallback<SBNamespaceListResult>)
-      parameters:
-        - id: nextPageLink
-          type: string
-          description: The NextLink from the previous successful call to List operation.
-        - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBNamespaceListResult" />&gt;
-          description: |
-            The callback
-  - name: 'listNext(string, ServiceCallback<SBNamespaceListResult>)'
-    uid: '@azure/arm-servicebus.Namespaces.listNext_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function listNext(nextPageLink: string, callback:
-        ServiceCallback<SBNamespaceListResult>)
-      parameters:
-        - id: nextPageLink
-          type: string
-          description: The NextLink from the previous successful call to List operation.
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBNamespaceListResult" />&gt;
-          description: |
-            The callback
-  - name: 'migrate(string, string, SBNamespaceMigrate, msRest.RequestOptionsBase)'
+      migrate(string, string, SBNamespaceMigrate,
+      NamespacesMigrateOptionalParams)
     uid: '@azure/arm-servicebus.Namespaces.migrate'
     package: '@azure/arm-servicebus'
     summary: This operation Migrate the given namespace to provided name type
@@ -1425,7 +835,8 @@ methods:
     syntax:
       content: >-
         function migrate(resourceGroupName: string, namespaceName: string,
-        parameters: SBNamespaceMigrate, options?: msRest.RequestOptionsBase)
+        parameters: SBNamespaceMigrate, options?:
+        NamespacesMigrateOptionalParams)
       parameters:
         - id: resourceGroupName
           type: string
@@ -1437,70 +848,15 @@ methods:
           type: <xref uid="@azure/arm-servicebus.SBNamespaceMigrate" />
           description: Parameters supplied to migrate namespace type.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
+          type: <xref uid="@azure/arm-servicebus.NamespacesMigrateOptionalParams" />
+          description: |
+            The options parameters.
       return:
-        type: Promise&lt;RestResponse&gt;
-        description: Promise<msRest.RestResponse>
-  - name: >-
-      migrate(string, string, SBNamespaceMigrate, RequestOptionsBase,
-      ServiceCallback<void>)
-    uid: '@azure/arm-servicebus.Namespaces.migrate_2'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function migrate(resourceGroupName: string, namespaceName: string,
-        parameters: SBNamespaceMigrate, options: RequestOptionsBase, callback:
-        ServiceCallback<void>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBNamespaceMigrate" />
-          description: Parameters supplied to migrate namespace type.
-        - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
-          type: ServiceCallback&lt;void&gt;
-          description: |
-            The callback
-  - name: 'migrate(string, string, SBNamespaceMigrate, ServiceCallback<void>)'
-    uid: '@azure/arm-servicebus.Namespaces.migrate_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function migrate(resourceGroupName: string, namespaceName: string,
-        parameters: SBNamespaceMigrate, callback: ServiceCallback<void>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBNamespaceMigrate" />
-          description: Parameters supplied to migrate namespace type.
-        - id: callback
-          type: ServiceCallback&lt;void&gt;
-          description: |
-            The callback
+        type: Promise&lt;void&gt;
+        description: ''
   - name: >-
       regenerateKeys(string, string, string, RegenerateAccessKeyParameters,
-      msRest.RequestOptionsBase)
+      NamespacesRegenerateKeysOptionalParams)
     uid: '@azure/arm-servicebus.Namespaces.regenerateKeys'
     package: '@azure/arm-servicebus'
     summary: Regenerates the primary or secondary connection strings for the namespace.
@@ -1511,7 +867,8 @@ methods:
       content: >-
         function regenerateKeys(resourceGroupName: string, namespaceName:
         string, authorizationRuleName: string, parameters:
-        RegenerateAccessKeyParameters, options?: msRest.RequestOptionsBase)
+        RegenerateAccessKeyParameters, options?:
+        NamespacesRegenerateKeysOptionalParams)
       parameters:
         - id: resourceGroupName
           type: string
@@ -1526,84 +883,20 @@ methods:
           type: <xref uid="@azure/arm-servicebus.RegenerateAccessKeyParameters" />
           description: Parameters supplied to regenerate the authorization rule.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesRegenerateKeysOptionalParams"
+            />
+          description: |
+            The options parameters.
       return:
-        type: Promise&lt;<xref uid="Models.NamespacesRegenerateKeysResponse" />&gt;
-        description: Promise<Models.NamespacesRegenerateKeysResponse>
-  - name: >-
-      regenerateKeys(string, string, string, RegenerateAccessKeyParameters,
-      RequestOptionsBase, ServiceCallback<AccessKeys>)
-    uid: '@azure/arm-servicebus.Namespaces.regenerateKeys_2'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function regenerateKeys(resourceGroupName: string, namespaceName:
-        string, authorizationRuleName: string, parameters:
-        RegenerateAccessKeyParameters, options: RequestOptionsBase, callback:
-        ServiceCallback<AccessKeys>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: authorizationRuleName
-          type: string
-          description: The authorization rule name.
-        - id: parameters
-          type: <xref uid="@azure/arm-servicebus.RegenerateAccessKeyParameters" />
-          description: Parameters supplied to regenerate the authorization rule.
-        - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.AccessKeys"
-            />&gt;
-          description: |
-            The callback
-  - name: >-
-      regenerateKeys(string, string, string, RegenerateAccessKeyParameters,
-      ServiceCallback<AccessKeys>)
-    uid: '@azure/arm-servicebus.Namespaces.regenerateKeys_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function regenerateKeys(resourceGroupName: string, namespaceName:
-        string, authorizationRuleName: string, parameters:
-        RegenerateAccessKeyParameters, callback: ServiceCallback<AccessKeys>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: authorizationRuleName
-          type: string
-          description: The authorization rule name.
-        - id: parameters
-          type: <xref uid="@azure/arm-servicebus.RegenerateAccessKeyParameters" />
-          description: Parameters supplied to regenerate the authorization rule.
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.AccessKeys"
-            />&gt;
-          description: |
-            The callback
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.NamespacesRegenerateKeysResponse" />&gt;
+        description: ''
   - name: >-
       update(string, string, SBNamespaceUpdateParameters,
-      msRest.RequestOptionsBase)
+      NamespacesUpdateOptionalParams)
     uid: '@azure/arm-servicebus.Namespaces.update'
     package: '@azure/arm-servicebus'
     summary: >-
@@ -1618,7 +911,7 @@ methods:
       content: >-
         function update(resourceGroupName: string, namespaceName: string,
         parameters: SBNamespaceUpdateParameters, options?:
-        msRest.RequestOptionsBase)
+        NamespacesUpdateOptionalParams)
       parameters:
         - id: resourceGroupName
           type: string
@@ -1630,71 +923,11 @@ methods:
           type: <xref uid="@azure/arm-servicebus.SBNamespaceUpdateParameters" />
           description: Parameters supplied to update a namespace resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
-          description: ''
+          type: <xref uid="@azure/arm-servicebus.NamespacesUpdateOptionalParams" />
+          description: |
+            The options parameters.
       return:
-        type: Promise&lt;<xref uid="Models.NamespacesUpdateResponse" />&gt;
-        description: Promise<Models.NamespacesUpdateResponse>
-  - name: >-
-      update(string, string, SBNamespaceUpdateParameters, RequestOptionsBase,
-      ServiceCallback<SBNamespace>)
-    uid: '@azure/arm-servicebus.Namespaces.update_2'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function update(resourceGroupName: string, namespaceName: string,
-        parameters: SBNamespaceUpdateParameters, options: RequestOptionsBase,
-        callback: ServiceCallback<SBNamespace>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBNamespaceUpdateParameters" />
-          description: Parameters supplied to update a namespace resource.
-        - id: options
-          type: RequestOptionsBase
-          description: The optional parameters
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.SBNamespace"
-            />&gt;
-          description: |
-            The callback
-  - name: >-
-      update(string, string, SBNamespaceUpdateParameters,
-      ServiceCallback<SBNamespace>)
-    uid: '@azure/arm-servicebus.Namespaces.update_1'
-    package: '@azure/arm-servicebus'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function update(resourceGroupName: string, namespaceName: string,
-        parameters: SBNamespaceUpdateParameters, callback:
-        ServiceCallback<SBNamespace>)
-      parameters:
-        - id: resourceGroupName
-          type: string
-          description: Name of the Resource group within the Azure subscription.
-        - id: namespaceName
-          type: string
-          description: The namespace name
-        - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBNamespaceUpdateParameters" />
-          description: Parameters supplied to update a namespace resource.
-        - id: callback
-          type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.SBNamespace"
-            />&gt;
-          description: |
-            The callback
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-servicebus.NamespacesUpdateResponse"
+          />&gt;
+        description: ''
