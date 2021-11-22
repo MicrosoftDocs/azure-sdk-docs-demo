@@ -1,0 +1,44 @@
+name: KnownBlobIndexerParsingMode
+uid: '@azure/search-documents.KnownBlobIndexerParsingMode|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: >-
+  Known values of <xref:@azure/search-documents.BlobIndexerParsingMode> that the
+  service accepts.
+fullName: KnownBlobIndexerParsingMode
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Default
+    uid: '@azure/search-documents.KnownBlobIndexerParsingMode.Default|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Set to default for normal file processing.
+  - name: DelimitedText
+    uid: >-
+      @azure/search-documents.KnownBlobIndexerParsingMode.DelimitedText|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Set to delimitedText when blobs are plain CSV files.
+  - name: Json
+    uid: '@azure/search-documents.KnownBlobIndexerParsingMode.Json|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Set to json to extract structured content from JSON files.
+  - name: JsonArray
+    uid: >-
+      @azure/search-documents.KnownBlobIndexerParsingMode.JsonArray|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: >-
+      Set to jsonArray to extract individual elements of a JSON array as
+      separate documents in Azure Cognitive Search.
+  - name: JsonLines
+    uid: >-
+      @azure/search-documents.KnownBlobIndexerParsingMode.JsonLines|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: >-
+      Set to jsonLines to extract individual JSON entities, separated by a new
+      line, as separate documents in Azure Cognitive Search.
+  - name: Text
+    uid: '@azure/search-documents.KnownBlobIndexerParsingMode.Text|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: >-
+      Set to text to improve indexing performance on plain text files in blob
+      storage.

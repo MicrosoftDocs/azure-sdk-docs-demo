@@ -1,0 +1,21 @@
+name: KnownIndexingMode
+uid: '@azure/search-documents.KnownIndexingMode|preview'
+package: '@azure/search-documents|preview'
+summary: >-
+  Known values of <xref:@azure/search-documents.IndexingMode> that the service
+  accepts.
+fullName: KnownIndexingMode
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: IndexingAllDocs
+    uid: '@azure/search-documents.KnownIndexingMode.IndexingAllDocs|preview'
+    package: '@azure/search-documents|preview'
+    summary: The indexer is indexing all documents in the datasource.
+  - name: IndexingResetDocs
+    uid: '@azure/search-documents.KnownIndexingMode.IndexingResetDocs|preview'
+    package: '@azure/search-documents|preview'
+    summary: >-
+      The indexer is indexing selective, reset documents in the datasource. The
+      documents being indexed are defined on indexer status.

@@ -1,0 +1,11 @@
+name: EventType
+uid: '@azure/arm-eventgrid.EventType|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: Event Type for a subject under a topic
+fullName: EventType
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type EventType = Resource & { description: Object, displayName: Object,
+  isInDefaultSet: Object, schemaUrl: Object }

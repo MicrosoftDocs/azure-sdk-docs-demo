@@ -1,0 +1,9 @@
+name: AccountsBeginCreateResponse
+uid: '@azure/arm-cognitiveservices.AccountsBeginCreateResponse|latest-stable'
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: Contains response data for the beginCreate operation.
+fullName: AccountsBeginCreateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type AccountsBeginCreateResponse = Account & { _response: Object }'

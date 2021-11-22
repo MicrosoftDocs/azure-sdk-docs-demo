@@ -1,0 +1,11 @@
+name: ManagedServiceIdentityType
+uid: '@azure/arm-eventhub.ManagedServiceIdentityType|preview'
+package: '@azure/arm-eventhub|preview'
+summary: Defines values for ManagedServiceIdentityType.
+fullName: ManagedServiceIdentityType
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type ManagedServiceIdentityType = "SystemAssigned" | "UserAssigned" |
+  "SystemAssigned, UserAssigned" | "None"

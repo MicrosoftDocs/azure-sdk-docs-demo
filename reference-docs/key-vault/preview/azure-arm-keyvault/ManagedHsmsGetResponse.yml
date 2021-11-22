@@ -1,0 +1,9 @@
+name: ManagedHsmsGetResponse
+uid: '@azure/arm-keyvault.ManagedHsmsGetResponse|preview'
+package: '@azure/arm-keyvault|preview'
+summary: Contains response data for the get operation.
+fullName: ManagedHsmsGetResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type ManagedHsmsGetResponse = ManagedHsm

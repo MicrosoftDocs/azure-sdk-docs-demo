@@ -1,0 +1,49 @@
+name: SystemErrorConditionMapper
+uid: '@azure/core-amqp.SystemErrorConditionMapper|latest-stable'
+package: '@azure/core-amqp|latest-stable'
+summary: Maps some SystemErrors to amqp error conditions
+fullName: SystemErrorConditionMapper
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: EBUSY
+    uid: '@azure/core-amqp.SystemErrorConditionMapper.EBUSY|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+  - name: ECONNREFUSED
+    uid: '@azure/core-amqp.SystemErrorConditionMapper.ECONNREFUSED|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+  - name: ECONNRESET
+    uid: '@azure/core-amqp.SystemErrorConditionMapper.ECONNRESET|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+  - name: EHOSTDOWN
+    uid: '@azure/core-amqp.SystemErrorConditionMapper.EHOSTDOWN|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+  - name: ENETDOWN
+    uid: '@azure/core-amqp.SystemErrorConditionMapper.ENETDOWN|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+  - name: ENETRESET
+    uid: '@azure/core-amqp.SystemErrorConditionMapper.ENETRESET|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+  - name: ENETUNREACH
+    uid: '@azure/core-amqp.SystemErrorConditionMapper.ENETUNREACH|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+  - name: ENONET
+    uid: '@azure/core-amqp.SystemErrorConditionMapper.ENONET|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+  - name: ENOTFOUND
+    uid: '@azure/core-amqp.SystemErrorConditionMapper.ENOTFOUND|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+  - name: ETIMEDOUT
+    uid: '@azure/core-amqp.SystemErrorConditionMapper.ETIMEDOUT|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''

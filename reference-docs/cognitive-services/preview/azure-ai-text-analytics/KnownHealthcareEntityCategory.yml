@@ -1,0 +1,132 @@
+name: KnownHealthcareEntityCategory
+uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory|preview'
+package: '@azure/ai-text-analytics|preview'
+summary: >-
+  Known values of <xref:@azure/ai-text-analytics.HealthcareEntityCategory> that
+  the service accepts.
+fullName: KnownHealthcareEntityCategory
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: AGE
+    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.AGE|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: AdministrativeEvent
+    uid: >-
+      @azure/ai-text-analytics.KnownHealthcareEntityCategory.AdministrativeEvent|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: BodyStructure
+    uid: >-
+      @azure/ai-text-analytics.KnownHealthcareEntityCategory.BodyStructure|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: CareEnvironment
+    uid: >-
+      @azure/ai-text-analytics.KnownHealthcareEntityCategory.CareEnvironment|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: ConditionQualifier
+    uid: >-
+      @azure/ai-text-analytics.KnownHealthcareEntityCategory.ConditionQualifier|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: Date
+    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.Date|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: Diagnosis
+    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.Diagnosis|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: Direction
+    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.Direction|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: Dosage
+    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.Dosage|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: ExaminationName
+    uid: >-
+      @azure/ai-text-analytics.KnownHealthcareEntityCategory.ExaminationName|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: FamilyRelation
+    uid: >-
+      @azure/ai-text-analytics.KnownHealthcareEntityCategory.FamilyRelation|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: Frequency
+    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.Frequency|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: Gender
+    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.Gender|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: GeneORProtein
+    uid: >-
+      @azure/ai-text-analytics.KnownHealthcareEntityCategory.GeneORProtein|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: HealthcareProfession
+    uid: >-
+      @azure/ai-text-analytics.KnownHealthcareEntityCategory.HealthcareProfession|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: MeasurementUnit
+    uid: >-
+      @azure/ai-text-analytics.KnownHealthcareEntityCategory.MeasurementUnit|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: MeasurementValue
+    uid: >-
+      @azure/ai-text-analytics.KnownHealthcareEntityCategory.MeasurementValue|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: MedicationClass
+    uid: >-
+      @azure/ai-text-analytics.KnownHealthcareEntityCategory.MedicationClass|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: MedicationForm
+    uid: >-
+      @azure/ai-text-analytics.KnownHealthcareEntityCategory.MedicationForm|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: MedicationName
+    uid: >-
+      @azure/ai-text-analytics.KnownHealthcareEntityCategory.MedicationName|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: MedicationRoute
+    uid: >-
+      @azure/ai-text-analytics.KnownHealthcareEntityCategory.MedicationRoute|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: RelationalOperator
+    uid: >-
+      @azure/ai-text-analytics.KnownHealthcareEntityCategory.RelationalOperator|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: SymptomORSign
+    uid: >-
+      @azure/ai-text-analytics.KnownHealthcareEntityCategory.SymptomORSign|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: Time
+    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.Time|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: TreatmentName
+    uid: >-
+      @azure/ai-text-analytics.KnownHealthcareEntityCategory.TreatmentName|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: Variant
+    uid: '@azure/ai-text-analytics.KnownHealthcareEntityCategory.Variant|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''

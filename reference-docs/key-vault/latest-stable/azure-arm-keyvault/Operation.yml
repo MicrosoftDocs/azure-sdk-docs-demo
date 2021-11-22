@@ -1,0 +1,62 @@
+name: Operation
+uid: '@azure/arm-keyvault.Operation|latest-stable'
+package: '@azure/arm-keyvault|latest-stable'
+summary: Key Vault REST API operation definition.
+fullName: Operation
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: display
+    uid: '@azure/arm-keyvault.Operation.display|latest-stable'
+    package: '@azure/arm-keyvault|latest-stable'
+    summary: Display metadata associated with the operation.
+    fullName: display
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'display?: OperationDisplay'
+      return:
+        type: <xref uid="@azure/arm-keyvault.OperationDisplay" />
+        description: ''
+  - name: name
+    uid: '@azure/arm-keyvault.Operation.name|latest-stable'
+    package: '@azure/arm-keyvault|latest-stable'
+    summary: 'Operation name: {provider}/{resource}/{operation}'
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: origin
+    uid: '@azure/arm-keyvault.Operation.origin|latest-stable'
+    package: '@azure/arm-keyvault|latest-stable'
+    summary: The origin of operations.
+    fullName: origin
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'origin?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: serviceSpecification
+    uid: '@azure/arm-keyvault.Operation.serviceSpecification|latest-stable'
+    package: '@azure/arm-keyvault|latest-stable'
+    summary: One property of operation, include metric specifications.
+    fullName: serviceSpecification
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'serviceSpecification?: ServiceSpecification'
+      return:
+        type: <xref uid="@azure/arm-keyvault.ServiceSpecification" />
+        description: ''

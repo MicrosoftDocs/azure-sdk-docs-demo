@@ -1,0 +1,52 @@
+name: NumberLessThanOrEqualsAdvancedFilter
+uid: '@azure/arm-eventgrid.NumberLessThanOrEqualsAdvancedFilter|latest-stable'
+package: '@azure/arm-eventgrid|latest-stable'
+summary: NumberLessThanOrEquals Advanced Filter.
+fullName: NumberLessThanOrEqualsAdvancedFilter
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: key
+    uid: >-
+      @azure/arm-eventgrid.NumberLessThanOrEqualsAdvancedFilter.key|latest-stable
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: The field/property in the event based on which you want to filter.
+    fullName: key
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'key?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: operatorType
+    uid: >-
+      @azure/arm-eventgrid.NumberLessThanOrEqualsAdvancedFilter.operatorType|latest-stable
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: Polymorphic Discriminator
+    fullName: operatorType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'operatorType: "NumberLessThanOrEquals"'
+      return:
+        type: '"NumberLessThanOrEquals"'
+        description: ''
+  - name: value
+    uid: >-
+      @azure/arm-eventgrid.NumberLessThanOrEqualsAdvancedFilter.value|latest-stable
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: The filter value.
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value?: undefined | number'
+      return:
+        type: undefined | number
+        description: ''

@@ -1,0 +1,114 @@
+name: DocumentTableCell
+uid: '@azure/ai-form-recognizer.DocumentTableCell|preview'
+package: '@azure/ai-form-recognizer|preview'
+summary: An object representing the location and content of a table cell.
+fullName: DocumentTableCell
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: boundingRegions
+    uid: '@azure/ai-form-recognizer.DocumentTableCell.boundingRegions|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Bounding regions covering the table cell.
+    fullName: boundingRegions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'boundingRegions?: BoundingRegion[]'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.BoundingRegion" />[]
+        description: ''
+  - name: columnIndex
+    uid: '@azure/ai-form-recognizer.DocumentTableCell.columnIndex|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Column index of the cell.
+    fullName: columnIndex
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'columnIndex: number'
+      return:
+        type: number
+        description: ''
+  - name: columnSpan
+    uid: '@azure/ai-form-recognizer.DocumentTableCell.columnSpan|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Number of columns spanned by this cell.
+    fullName: columnSpan
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'columnSpan?: number'
+      return:
+        type: number
+        description: ''
+  - name: content
+    uid: '@azure/ai-form-recognizer.DocumentTableCell.content|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Concatenated content of the table cell in reading order.
+    fullName: content
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'content: string'
+      return:
+        type: string
+        description: ''
+  - name: kind
+    uid: '@azure/ai-form-recognizer.DocumentTableCell.kind|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Table cell kind.
+    fullName: kind
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'kind?: DocumentTableCellKind'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.DocumentTableCellKind" />
+        description: ''
+  - name: rowIndex
+    uid: '@azure/ai-form-recognizer.DocumentTableCell.rowIndex|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Row index of the cell.
+    fullName: rowIndex
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'rowIndex: number'
+      return:
+        type: number
+        description: ''
+  - name: rowSpan
+    uid: '@azure/ai-form-recognizer.DocumentTableCell.rowSpan|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Number of rows spanned by this cell.
+    fullName: rowSpan
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'rowSpan?: number'
+      return:
+        type: number
+        description: ''
+  - name: spans
+    uid: '@azure/ai-form-recognizer.DocumentTableCell.spans|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Location of the table cell in the reading order concatenated content.
+    fullName: spans
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spans: DocumentSpan[]'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.DocumentSpan" />[]
+        description: ''

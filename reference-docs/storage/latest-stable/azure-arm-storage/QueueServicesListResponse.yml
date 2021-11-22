@@ -1,0 +1,9 @@
+name: QueueServicesListResponse
+uid: '@azure/arm-storage.QueueServicesListResponse|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: Contains response data for the list operation.
+fullName: QueueServicesListResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type QueueServicesListResponse = ListQueueServices & { _response: Object }'

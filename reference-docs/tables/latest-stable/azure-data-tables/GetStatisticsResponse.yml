@@ -1,0 +1,9 @@
+name: GetStatisticsResponse
+uid: '@azure/data-tables.GetStatisticsResponse|latest-stable'
+package: '@azure/data-tables|latest-stable'
+summary: Contains response data for the getStatistics operation.
+fullName: GetStatisticsResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type GetStatisticsResponse = ServiceGetStatisticsHeaders & TableServiceStats

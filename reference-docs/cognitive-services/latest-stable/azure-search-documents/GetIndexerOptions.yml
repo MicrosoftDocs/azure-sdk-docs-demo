@@ -1,0 +1,9 @@
+name: GetIndexerOptions
+uid: '@azure/search-documents.GetIndexerOptions|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: Options for get indexer operation.
+fullName: GetIndexerOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type GetIndexerOptions = OperationOptions

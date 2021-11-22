@@ -1,0 +1,9 @@
+name: Metadata
+uid: '@azure/storage-blob.Metadata|preview'
+package: '@azure/storage-blob|preview'
+summary: A map of name-value pairs to associate with the resource.
+fullName: Metadata
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface

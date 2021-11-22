@@ -1,0 +1,11 @@
+name: ContainerGetPropertiesResponse
+uid: '@azure/storage-blob.ContainerGetPropertiesResponse|preview'
+package: '@azure/storage-blob|preview'
+summary: Contains response data for the getProperties operation.
+fullName: ContainerGetPropertiesResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type ContainerGetPropertiesResponse = ContainerGetPropertiesHeaders & {
+  _response: Object }

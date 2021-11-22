@@ -1,0 +1,53 @@
+name: VirtualNetworkRule
+uid: '@azure/arm-cognitiveservices.VirtualNetworkRule|latest-stable'
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: A rule governing the accessibility from a specific virtual network.
+fullName: VirtualNetworkRule
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: id
+    uid: '@azure/arm-cognitiveservices.VirtualNetworkRule.id|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: >-
+      Full resource id of a vnet subnet, such as
+
+      '/subscriptions/subid/resourceGroups/rg1/providers/Microsoft.Network/virtualNetworks/test-vnet/subnets/subnet1'.
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        type: string
+        description: ''
+  - name: ignoreMissingVnetServiceEndpoint
+    uid: >-
+      @azure/arm-cognitiveservices.VirtualNetworkRule.ignoreMissingVnetServiceEndpoint|latest-stable
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Ignore missing vnet service endpoint or not.
+    fullName: ignoreMissingVnetServiceEndpoint
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'ignoreMissingVnetServiceEndpoint?: undefined | false | true'
+      return:
+        type: undefined | false | true
+        description: ''
+  - name: state
+    uid: '@azure/arm-cognitiveservices.VirtualNetworkRule.state|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Gets the state of virtual network rule.
+    fullName: state
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'state?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

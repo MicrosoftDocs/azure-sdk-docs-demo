@@ -1,0 +1,36 @@
+name: LifetimeAction
+uid: '@azure/arm-keyvault.LifetimeAction|preview'
+package: '@azure/arm-keyvault|preview'
+summary: ''
+fullName: LifetimeAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: action
+    uid: '@azure/arm-keyvault.LifetimeAction.action|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: The action of key rotation policy lifetimeAction.
+    fullName: action
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'action?: Action'
+      return:
+        type: <xref uid="@azure/arm-keyvault.Action" />
+        description: ''
+  - name: trigger
+    uid: '@azure/arm-keyvault.LifetimeAction.trigger|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: The trigger of key rotation policy lifetimeAction.
+    fullName: trigger
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'trigger?: Trigger'
+      return:
+        type: <xref uid="@azure/arm-keyvault.Trigger" />
+        description: ''

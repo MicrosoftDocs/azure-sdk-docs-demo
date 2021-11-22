@@ -1,0 +1,36 @@
+name: ResourceListResult
+uid: '@azure/arm-keyvault.ResourceListResult|preview'
+package: '@azure/arm-keyvault|preview'
+summary: List of vault resources.
+fullName: ResourceListResult
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: nextLink
+    uid: '@azure/arm-keyvault.ResourceListResult.nextLink|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: The URL to get the next set of vault resources.
+    fullName: nextLink
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'nextLink?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: value
+    uid: '@azure/arm-keyvault.ResourceListResult.value|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: The list of vault resources.
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value?: Resource[]'
+      return:
+        type: <xref uid="@azure/arm-keyvault.Resource" />[]
+        description: ''

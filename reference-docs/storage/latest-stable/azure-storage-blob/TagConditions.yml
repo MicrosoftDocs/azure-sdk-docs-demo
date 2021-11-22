@@ -1,0 +1,23 @@
+name: TagConditions
+uid: '@azure/storage-blob.TagConditions|latest-stable'
+package: '@azure/storage-blob|latest-stable'
+summary: Specifies HTTP options for conditional requests based on blob tags.
+fullName: TagConditions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: tagConditions
+    uid: '@azure/storage-blob.TagConditions.tagConditions|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: Optional SQL statement to apply to the tags of the blob.
+    fullName: tagConditions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tagConditions?: string'
+      return:
+        type: string
+        description: ''

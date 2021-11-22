@@ -1,0 +1,9 @@
+name: RemoveOperation
+uid: '@azure/cosmos.RemoveOperation|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: ''
+fullName: RemoveOperation
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type RemoveOperation = { op: remove, path: string }'

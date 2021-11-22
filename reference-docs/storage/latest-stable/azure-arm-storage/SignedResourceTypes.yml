@@ -1,0 +1,11 @@
+name: SignedResourceTypes
+uid: '@azure/arm-storage.SignedResourceTypes|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: |-
+  Defines values for SignedResourceTypes.
+  Possible values include: 's', 'c', 'o'
+fullName: SignedResourceTypes
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type SignedResourceTypes = "s" | "c" | "o"

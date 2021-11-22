@@ -1,0 +1,12 @@
+name: NamespacesCreateOrUpdateAuthorizationRuleResponse
+uid: >-
+  @azure/arm-servicebus.NamespacesCreateOrUpdateAuthorizationRuleResponse|latest-stable
+package: '@azure/arm-servicebus|latest-stable'
+summary: Contains response data for the createOrUpdateAuthorizationRule operation.
+fullName: NamespacesCreateOrUpdateAuthorizationRuleResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type NamespacesCreateOrUpdateAuthorizationRuleResponse = SBAuthorizationRule &
+  { _response: Object }

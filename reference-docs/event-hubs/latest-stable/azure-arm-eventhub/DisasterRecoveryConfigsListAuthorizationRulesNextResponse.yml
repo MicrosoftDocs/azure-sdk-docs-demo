@@ -1,0 +1,12 @@
+name: DisasterRecoveryConfigsListAuthorizationRulesNextResponse
+uid: >-
+  @azure/arm-eventhub.DisasterRecoveryConfigsListAuthorizationRulesNextResponse|latest-stable
+package: '@azure/arm-eventhub|latest-stable'
+summary: Contains response data for the listAuthorizationRulesNext operation.
+fullName: DisasterRecoveryConfigsListAuthorizationRulesNextResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type DisasterRecoveryConfigsListAuthorizationRulesNextResponse =
+  AuthorizationRuleListResult & { _response: Object }

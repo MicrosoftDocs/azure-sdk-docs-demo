@@ -1,0 +1,11 @@
+name: FileExpiryMode
+uid: '@azure/storage-file-datalake.FileExpiryMode|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: Defines values for PathExpiryOptions.
+fullName: FileExpiryMode
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type FileExpiryMode = "NeverExpire" | "RelativeToCreation" | "RelativeToNow" |
+  "Absolute"

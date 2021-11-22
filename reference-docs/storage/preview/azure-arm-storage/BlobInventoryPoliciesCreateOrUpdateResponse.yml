@@ -1,0 +1,9 @@
+name: BlobInventoryPoliciesCreateOrUpdateResponse
+uid: '@azure/arm-storage.BlobInventoryPoliciesCreateOrUpdateResponse|preview'
+package: '@azure/arm-storage|preview'
+summary: Contains response data for the createOrUpdate operation.
+fullName: BlobInventoryPoliciesCreateOrUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type BlobInventoryPoliciesCreateOrUpdateResponse = BlobInventoryPolicy

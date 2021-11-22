@@ -1,0 +1,9 @@
+name: JSONObject
+uid: '@azure/cosmos.JSONObject|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: ''
+fullName: JSONObject
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface

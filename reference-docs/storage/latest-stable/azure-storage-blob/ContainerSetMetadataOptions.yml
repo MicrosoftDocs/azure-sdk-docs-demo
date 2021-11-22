@@ -1,0 +1,62 @@
+name: ContainerSetMetadataOptions
+uid: '@azure/storage-blob.ContainerSetMetadataOptions|latest-stable'
+package: '@azure/storage-blob|latest-stable'
+summary: >-
+  Options to configure <xref:@azure/storage-blob.ContainerClient.setMetadata>
+  operation.
+fullName: ContainerSetMetadataOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: '@azure/storage-blob.ContainerSetMetadataOptions.abortSignal|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: conditions
+    uid: '@azure/storage-blob.ContainerSetMetadataOptions.conditions|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: >-
+      If specified, contains the lease id that must be matched and lease with
+      this id
+
+      must be active in order for the operation to succeed.
+    fullName: conditions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'conditions?: ContainerRequestConditions'
+      return:
+        type: <xref uid="@azure/storage-blob.ContainerRequestConditions" />
+        description: ''
+  - name: tracingOptions
+    uid: >-
+      @azure/storage-blob.ContainerSetMetadataOptions.tracingOptions|latest-stable
+    package: '@azure/storage-blob|latest-stable'
+    summary: Options to configure spans created when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+extends: <xref uid="@azure/storage-blob.CommonOptions" />

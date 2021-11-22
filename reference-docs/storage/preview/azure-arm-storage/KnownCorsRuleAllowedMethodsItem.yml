@@ -1,0 +1,39 @@
+name: KnownCorsRuleAllowedMethodsItem
+uid: '@azure/arm-storage.KnownCorsRuleAllowedMethodsItem|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Known values of <xref:@azure/arm-storage.CorsRuleAllowedMethodsItem> that the
+  service accepts.
+fullName: KnownCorsRuleAllowedMethodsItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Delete
+    uid: '@azure/arm-storage.KnownCorsRuleAllowedMethodsItem.Delete|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: GET
+    uid: '@azure/arm-storage.KnownCorsRuleAllowedMethodsItem.GET|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Head
+    uid: '@azure/arm-storage.KnownCorsRuleAllowedMethodsItem.Head|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Merge
+    uid: '@azure/arm-storage.KnownCorsRuleAllowedMethodsItem.Merge|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Options
+    uid: '@azure/arm-storage.KnownCorsRuleAllowedMethodsItem.Options|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: PUT
+    uid: '@azure/arm-storage.KnownCorsRuleAllowedMethodsItem.PUT|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Post
+    uid: '@azure/arm-storage.KnownCorsRuleAllowedMethodsItem.Post|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

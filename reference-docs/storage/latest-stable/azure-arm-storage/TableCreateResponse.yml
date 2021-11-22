@@ -1,0 +1,9 @@
+name: TableCreateResponse
+uid: '@azure/arm-storage.TableCreateResponse|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: Contains response data for the create operation.
+fullName: TableCreateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type TableCreateResponse = Table & { _response: Object }'

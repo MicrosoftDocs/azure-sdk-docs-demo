@@ -1,0 +1,9 @@
+name: StorageAccountsListNextResponse
+uid: '@azure/arm-storage.StorageAccountsListNextResponse|preview'
+package: '@azure/arm-storage|preview'
+summary: Contains response data for the listNext operation.
+fullName: StorageAccountsListNextResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type StorageAccountsListNextResponse = StorageAccountListResult

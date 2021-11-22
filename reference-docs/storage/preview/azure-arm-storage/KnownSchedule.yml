@@ -1,0 +1,17 @@
+name: KnownSchedule
+uid: '@azure/arm-storage.KnownSchedule|preview'
+package: '@azure/arm-storage|preview'
+summary: Known values of <xref:@azure/arm-storage.Schedule> that the service accepts.
+fullName: KnownSchedule
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Daily
+    uid: '@azure/arm-storage.KnownSchedule.Daily|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Weekly
+    uid: '@azure/arm-storage.KnownSchedule.Weekly|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

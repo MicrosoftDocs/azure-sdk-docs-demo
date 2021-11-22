@@ -1,0 +1,11 @@
+name: NetworkRuleAction
+uid: '@azure/arm-keyvault.NetworkRuleAction|latest-stable'
+package: '@azure/arm-keyvault|latest-stable'
+summary: |-
+  Defines values for NetworkRuleAction.
+  Possible values include: 'Allow', 'Deny'
+fullName: NetworkRuleAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type NetworkRuleAction = "Allow" | "Deny"

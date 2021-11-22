@@ -1,0 +1,9 @@
+name: GetCopyAuthorizationOptions
+uid: '@azure/ai-form-recognizer.GetCopyAuthorizationOptions|latest-stable'
+package: '@azure/ai-form-recognizer|latest-stable'
+summary: Options for the generate copy model authorization operation.
+fullName: GetCopyAuthorizationOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type GetCopyAuthorizationOptions = FormRecognizerOperationOptions

@@ -1,0 +1,9 @@
+name: PurgeDeletedCertificateOptions
+uid: '@azure/keyvault-certificates.PurgeDeletedCertificateOptions|latest-stable'
+package: '@azure/keyvault-certificates|latest-stable'
+summary: Options for purgeDeletedCertificate.
+fullName: PurgeDeletedCertificateOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type PurgeDeletedCertificateOptions = OperationOptions

@@ -1,0 +1,154 @@
+uid: '@azure/data-tables|latest-stable'
+name: '@azure/data-tables'
+summary: ''
+type: package
+enums:
+  - '@azure/data-tables.KnownGeoReplicationStatusType|latest-stable'
+classes:
+  - '@azure/data-tables.TableClient|latest-stable'
+  - '@azure/data-tables.TableServiceClient|latest-stable'
+  - '@azure/data-tables.TableTransaction|latest-stable'
+interfaces:
+  - '@azure/data-tables.AccessPolicy|latest-stable'
+  - '@azure/data-tables.AccountSasOptions|latest-stable'
+  - '@azure/data-tables.AccountSasPermissions|latest-stable'
+  - '@azure/data-tables.AccountSasServices|latest-stable'
+  - '@azure/data-tables.CorsRule|latest-stable'
+  - '@azure/data-tables.Edm|latest-stable'
+  - '@azure/data-tables.GeoReplication|latest-stable'
+  - '@azure/data-tables.Logging|latest-stable'
+  - '@azure/data-tables.Metrics|latest-stable'
+  - '@azure/data-tables.RetentionPolicy|latest-stable'
+  - '@azure/data-tables.SasIPRange|latest-stable'
+  - '@azure/data-tables.ServiceGetPropertiesHeaders|latest-stable'
+  - '@azure/data-tables.ServiceGetStatisticsHeaders|latest-stable'
+  - '@azure/data-tables.ServiceProperties|latest-stable'
+  - '@azure/data-tables.ServiceSetPropertiesHeaders|latest-stable'
+  - '@azure/data-tables.SetPropertiesOptions|latest-stable'
+  - '@azure/data-tables.SignedIdentifier|latest-stable'
+  - '@azure/data-tables.TableCreateHeaders|latest-stable'
+  - '@azure/data-tables.TableDeleteEntityHeaders|latest-stable'
+  - '@azure/data-tables.TableDeleteHeaders|latest-stable'
+  - '@azure/data-tables.TableEntityQueryOptions|latest-stable'
+  - '@azure/data-tables.TableGetAccessPolicyHeaders|latest-stable'
+  - '@azure/data-tables.TableInsertEntityHeaders|latest-stable'
+  - '@azure/data-tables.TableItem|latest-stable'
+  - '@azure/data-tables.TableItemResultPage|latest-stable'
+  - '@azure/data-tables.TableMergeEntityHeaders|latest-stable'
+  - '@azure/data-tables.TableQueryOptions|latest-stable'
+  - '@azure/data-tables.TableQueryResponse|latest-stable'
+  - '@azure/data-tables.TableSasPermissions|latest-stable'
+  - '@azure/data-tables.TableSasSignatureValues|latest-stable'
+  - '@azure/data-tables.TableServiceStats|latest-stable'
+  - '@azure/data-tables.TableSetAccessPolicyHeaders|latest-stable'
+  - '@azure/data-tables.TableTransactionEntityResponse|latest-stable'
+  - '@azure/data-tables.TableTransactionResponse|latest-stable'
+  - '@azure/data-tables.TableUpdateEntityHeaders|latest-stable'
+typeAliases:
+  - '@azure/data-tables.CreateDeleteEntityAction|latest-stable'
+  - '@azure/data-tables.CreateTableEntityResponse|latest-stable'
+  - '@azure/data-tables.DeleteTableEntityOptions|latest-stable'
+  - '@azure/data-tables.DeleteTableEntityResponse|latest-stable'
+  - '@azure/data-tables.EdmTypes|latest-stable'
+  - '@azure/data-tables.GeoReplicationStatusType|latest-stable'
+  - '@azure/data-tables.GetAccessPolicyResponse|latest-stable'
+  - '@azure/data-tables.GetPropertiesResponse|latest-stable'
+  - '@azure/data-tables.GetStatisticsResponse|latest-stable'
+  - '@azure/data-tables.GetTableEntityOptions|latest-stable'
+  - '@azure/data-tables.GetTableEntityResponse|latest-stable'
+  - '@azure/data-tables.ListTableEntitiesOptions|latest-stable'
+  - '@azure/data-tables.ListTableItemsOptions|latest-stable'
+  - '@azure/data-tables.SasProtocol|latest-stable'
+  - '@azure/data-tables.SetAccessPolicyResponse|latest-stable'
+  - '@azure/data-tables.SetPropertiesResponse|latest-stable'
+  - '@azure/data-tables.TableEntity|latest-stable'
+  - '@azure/data-tables.TableEntityResult|latest-stable'
+  - '@azure/data-tables.TableEntityResultPage|latest-stable'
+  - '@azure/data-tables.TableServiceClientOptions|latest-stable'
+  - '@azure/data-tables.TransactionAction|latest-stable'
+  - '@azure/data-tables.UpdateEntityAction|latest-stable'
+  - '@azure/data-tables.UpdateEntityResponse|latest-stable'
+  - '@azure/data-tables.UpdateMode|latest-stable'
+  - '@azure/data-tables.UpdateTableEntityOptions|latest-stable'
+  - '@azure/data-tables.UpsertEntityResponse|latest-stable'
+functions:
+  - name: generateAccountSas(NamedKeyCredential, AccountSasOptions)
+    uid: '@azure/data-tables.generateAccountSas|latest-stable'
+    package: '@azure/data-tables|latest-stable'
+    summary: >-
+      Generates a Table Account Shared Access Signature (SAS) URI based on the
+      client properties
+
+      and parameters passed in. The SAS is signed by the shared key credential
+      of the client.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function generateAccountSas(credential: NamedKeyCredential, options?:
+        AccountSasOptions)
+      parameters:
+        - id: credential
+          type: NamedKeyCredential
+          description: ''
+        - id: options
+          type: <xref uid="@azure/data-tables.AccountSasOptions|latest-stable" />
+          description: Optional parameters.
+      return:
+        type: string
+        description: An account SAS token
+  - name: generateTableSas(string, NamedKeyCredential, TableSasSignatureValues)
+    uid: '@azure/data-tables.generateTableSas|latest-stable'
+    package: '@azure/data-tables|latest-stable'
+    summary: >-
+      Generates a Table Service Shared Access Signature (SAS) URI based on the
+      client properties
+
+      and parameters passed in. The SAS is signed by the shared key credential
+      of the client.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function generateTableSas(tableName: string, credential:
+        NamedKeyCredential, options?: TableSasSignatureValues)
+      parameters:
+        - id: tableName
+          type: string
+          description: ''
+        - id: credential
+          type: NamedKeyCredential
+          description: ''
+        - id: options
+          type: >-
+            <xref uid="@azure/data-tables.TableSasSignatureValues|latest-stable"
+            />
+          description: Optional parameters.
+      return:
+        type: string
+        description: >-
+          The SAS URI consisting of the URI to the resource represented by this
+          client, followed by the generated SAS token.
+  - name: odata(TemplateStringsArray, unknown[])
+    uid: '@azure/data-tables.odata|latest-stable'
+    package: '@azure/data-tables|latest-stable'
+    summary: >-
+      Escapes an odata filter expression to avoid errors with quoting string
+      literals.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function odata(strings: TemplateStringsArray, values: unknown[])'
+      parameters:
+        - id: strings
+          type: TemplateStringsArray
+          description: ''
+        - id: values
+          type: unknown[]
+          description: ''
+      return:
+        type: string
+        description: ''

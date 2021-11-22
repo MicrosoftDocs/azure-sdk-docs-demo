@@ -1,0 +1,9 @@
+name: GetModelOptions
+uid: '@azure/ai-form-recognizer.GetModelOptions|latest-stable'
+package: '@azure/ai-form-recognizer|latest-stable'
+summary: Options for the get model operation.
+fullName: GetModelOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type GetModelOptions = FormRecognizerOperationOptions

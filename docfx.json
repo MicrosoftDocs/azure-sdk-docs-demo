@@ -7,7 +7,7 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "publish",        
+        "src": "reference-docs",        
         "dest":"sdk-demo",
         "exclude": [
           "**/obj/**",

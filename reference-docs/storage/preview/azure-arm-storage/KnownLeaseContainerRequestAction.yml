@@ -1,0 +1,31 @@
+name: KnownLeaseContainerRequestAction
+uid: '@azure/arm-storage.KnownLeaseContainerRequestAction|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Known values of <xref:@azure/arm-storage.LeaseContainerRequestAction> that the
+  service accepts.
+fullName: KnownLeaseContainerRequestAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Acquire
+    uid: '@azure/arm-storage.KnownLeaseContainerRequestAction.Acquire|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Break
+    uid: '@azure/arm-storage.KnownLeaseContainerRequestAction.Break|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Change
+    uid: '@azure/arm-storage.KnownLeaseContainerRequestAction.Change|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Release
+    uid: '@azure/arm-storage.KnownLeaseContainerRequestAction.Release|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Renew
+    uid: '@azure/arm-storage.KnownLeaseContainerRequestAction.Renew|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

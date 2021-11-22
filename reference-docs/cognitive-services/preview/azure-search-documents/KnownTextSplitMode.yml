@@ -1,0 +1,19 @@
+name: KnownTextSplitMode
+uid: '@azure/search-documents.KnownTextSplitMode|preview'
+package: '@azure/search-documents|preview'
+summary: >-
+  Known values of <xref:@azure/search-documents.TextSplitMode> that the service
+  accepts.
+fullName: KnownTextSplitMode
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Pages
+    uid: '@azure/search-documents.KnownTextSplitMode.Pages|preview'
+    package: '@azure/search-documents|preview'
+    summary: Split the text into individual pages.
+  - name: Sentences
+    uid: '@azure/search-documents.KnownTextSplitMode.Sentences|preview'
+    package: '@azure/search-documents|preview'
+    summary: Split the text into individual sentences.

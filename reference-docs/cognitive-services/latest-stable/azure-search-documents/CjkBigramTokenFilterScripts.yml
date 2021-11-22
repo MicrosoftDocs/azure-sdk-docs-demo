@@ -1,0 +1,9 @@
+name: CjkBigramTokenFilterScripts
+uid: '@azure/search-documents.CjkBigramTokenFilterScripts|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: Defines values for CjkBigramTokenFilterScripts.
+fullName: CjkBigramTokenFilterScripts
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type CjkBigramTokenFilterScripts = "han" | "hiragana" | "katakana" | "hangul"

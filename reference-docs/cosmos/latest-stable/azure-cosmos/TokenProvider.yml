@@ -1,0 +1,9 @@
+name: TokenProvider
+uid: '@azure/cosmos.TokenProvider|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: ''
+fullName: TokenProvider
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type TokenProvider = (requestInfo: RequestInfo) => Promise<string>'

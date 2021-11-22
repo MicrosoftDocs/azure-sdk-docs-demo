@@ -1,0 +1,36 @@
+name: RetryPolicy
+uid: '@azure/arm-eventgrid.RetryPolicy|latest-stable'
+package: '@azure/arm-eventgrid|latest-stable'
+summary: Information about the retry policy for an event subscription.
+fullName: RetryPolicy
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: eventTimeToLiveInMinutes
+    uid: '@azure/arm-eventgrid.RetryPolicy.eventTimeToLiveInMinutes|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: 'Time To Live (in minutes) for events. Default value: 1440.'
+    fullName: eventTimeToLiveInMinutes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'eventTimeToLiveInMinutes?: undefined | number'
+      return:
+        type: undefined | number
+        description: ''
+  - name: maxDeliveryAttempts
+    uid: '@azure/arm-eventgrid.RetryPolicy.maxDeliveryAttempts|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: 'Maximum number of delivery retry attempts for events. Default value: 30.'
+    fullName: maxDeliveryAttempts
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'maxDeliveryAttempts?: undefined | number'
+      return:
+        type: undefined | number
+        description: ''

@@ -1,0 +1,9 @@
+name: VaultsCheckNameAvailabilityResponse
+uid: '@azure/arm-keyvault.VaultsCheckNameAvailabilityResponse|preview'
+package: '@azure/arm-keyvault|preview'
+summary: Contains response data for the checkNameAvailability operation.
+fullName: VaultsCheckNameAvailabilityResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type VaultsCheckNameAvailabilityResponse = CheckNameAvailabilityResult

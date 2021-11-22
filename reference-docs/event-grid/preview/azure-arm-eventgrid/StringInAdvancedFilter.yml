@@ -1,0 +1,11 @@
+name: StringInAdvancedFilter
+uid: '@azure/arm-eventgrid.StringInAdvancedFilter|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: StringIn Advanced Filter.
+fullName: StringInAdvancedFilter
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type StringInAdvancedFilter = AdvancedFilter & { operatorType: StringIn,
+  values: Object }

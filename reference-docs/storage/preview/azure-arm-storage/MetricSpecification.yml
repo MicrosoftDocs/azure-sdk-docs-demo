@@ -1,0 +1,128 @@
+name: MetricSpecification
+uid: '@azure/arm-storage.MetricSpecification|preview'
+package: '@azure/arm-storage|preview'
+summary: Metric specification of operation.
+fullName: MetricSpecification
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: aggregationType
+    uid: '@azure/arm-storage.MetricSpecification.aggregationType|preview'
+    package: '@azure/arm-storage|preview'
+    summary: Aggregation type could be Average.
+    fullName: aggregationType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'aggregationType?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: category
+    uid: '@azure/arm-storage.MetricSpecification.category|preview'
+    package: '@azure/arm-storage|preview'
+    summary: The category this metric specification belong to, could be Capacity.
+    fullName: category
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'category?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: dimensions
+    uid: '@azure/arm-storage.MetricSpecification.dimensions|preview'
+    package: '@azure/arm-storage|preview'
+    summary: Dimensions of blobs, including blob type and access tier.
+    fullName: dimensions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'dimensions?: Dimension[]'
+      return:
+        type: <xref uid="@azure/arm-storage.Dimension" />[]
+        description: ''
+  - name: displayDescription
+    uid: '@azure/arm-storage.MetricSpecification.displayDescription|preview'
+    package: '@azure/arm-storage|preview'
+    summary: Display description of metric specification.
+    fullName: displayDescription
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'displayDescription?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: displayName
+    uid: '@azure/arm-storage.MetricSpecification.displayName|preview'
+    package: '@azure/arm-storage|preview'
+    summary: Display name of metric specification.
+    fullName: displayName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'displayName?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: fillGapWithZero
+    uid: '@azure/arm-storage.MetricSpecification.fillGapWithZero|preview'
+    package: '@azure/arm-storage|preview'
+    summary: The property to decide fill gap with zero or not.
+    fullName: fillGapWithZero
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fillGapWithZero?: undefined | false | true'
+      return:
+        type: undefined | false | true
+        description: ''
+  - name: name
+    uid: '@azure/arm-storage.MetricSpecification.name|preview'
+    package: '@azure/arm-storage|preview'
+    summary: Name of metric specification.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: resourceIdDimensionNameOverride
+    uid: >-
+      @azure/arm-storage.MetricSpecification.resourceIdDimensionNameOverride|preview
+    package: '@azure/arm-storage|preview'
+    summary: Account Resource Id.
+    fullName: resourceIdDimensionNameOverride
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'resourceIdDimensionNameOverride?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: unit
+    uid: '@azure/arm-storage.MetricSpecification.unit|preview'
+    package: '@azure/arm-storage|preview'
+    summary: Unit could be Bytes or Count.
+    fullName: unit
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'unit?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

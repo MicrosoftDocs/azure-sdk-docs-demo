@@ -1,0 +1,38 @@
+name: BlobHierarchyListSegment
+uid: '@azure/storage-file-datalake.BlobHierarchyListSegment|latest-stable'
+package: '@azure/storage-file-datalake|latest-stable'
+summary: ''
+fullName: BlobHierarchyListSegment
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: blobItems
+    uid: >-
+      @azure/storage-file-datalake.BlobHierarchyListSegment.blobItems|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: blobItems
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'blobItems: BlobItemModel[]'
+      return:
+        type: <xref uid="@azure/storage-file-datalake.BlobItemModel" />[]
+        description: ''
+  - name: blobPrefixes
+    uid: >-
+      @azure/storage-file-datalake.BlobHierarchyListSegment.blobPrefixes|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: blobPrefixes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'blobPrefixes?: BlobPrefix[]'
+      return:
+        type: <xref uid="@azure/storage-file-datalake.BlobPrefix" />[]
+        description: ''

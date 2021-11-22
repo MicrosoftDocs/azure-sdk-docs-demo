@@ -1,0 +1,9 @@
+name: ContainerRenameResponse
+uid: '@azure/storage-blob.ContainerRenameResponse|preview'
+package: '@azure/storage-blob|preview'
+summary: Contains response data for the rename operation.
+fullName: ContainerRenameResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type ContainerRenameResponse = ContainerRenameHeaders & { _response: Object }'

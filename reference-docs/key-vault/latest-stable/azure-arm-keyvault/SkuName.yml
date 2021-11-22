@@ -1,0 +1,11 @@
+name: SkuName
+uid: '@azure/arm-keyvault.SkuName|latest-stable'
+package: '@azure/arm-keyvault|latest-stable'
+summary: |-
+  Defines values for SkuName.
+  Possible values include: 'standard', 'premium'
+fullName: SkuName
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type SkuName = "standard" | "premium"

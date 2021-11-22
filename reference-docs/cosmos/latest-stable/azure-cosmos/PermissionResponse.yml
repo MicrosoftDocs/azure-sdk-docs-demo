@@ -1,0 +1,155 @@
+name: PermissionResponse
+uid: '@azure/cosmos.PermissionResponse|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: ''
+fullName: PermissionResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: >-
+      PermissionResponse(PermissionDefinition & PermissionBody & Resource,
+      CosmosHeaders, number, Permission)
+    uid: '@azure/cosmos.PermissionResponse.constructor|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new PermissionResponse(resource: PermissionDefinition & PermissionBody &
+        Resource, headers: CosmosHeaders, statusCode: number, permission:
+        Permission)
+      parameters:
+        - id: resource
+          type: >-
+            <xref uid="@azure/cosmos.PermissionDefinition" /> & <xref
+            uid="@azure/cosmos.PermissionBody" /> & <xref
+            uid="@azure/cosmos.Resource" />
+          description: ''
+        - id: headers
+          type: <xref uid="@azure/cosmos.CosmosHeaders" />
+          description: ''
+        - id: statusCode
+          type: number
+          description: ''
+        - id: permission
+          type: <xref uid="@azure/cosmos.Permission" />
+          description: ''
+properties:
+  - name: activityId
+    uid: '@azure/cosmos.PermissionResponse.activityId|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    fullName: activityId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string activityId
+      return:
+        type: string
+        description: ''
+  - name: etag
+    uid: '@azure/cosmos.PermissionResponse.etag|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    fullName: etag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string etag
+      return:
+        type: string
+        description: ''
+  - name: headers
+    uid: '@azure/cosmos.PermissionResponse.headers|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    fullName: headers
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'headers: CosmosHeaders_2'
+      return:
+        type: <xref uid="@azure/cosmos.CosmosHeaders_2" />
+        description: ''
+  - name: permission
+    uid: '@azure/cosmos.PermissionResponse.permission|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: >-
+      A reference to the <xref:@azure/cosmos.Permission> corresponding to the
+      returned <xref:@azure/cosmos.PermissionDefinition>.
+    fullName: permission
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'permission: Permission'
+      return:
+        type: <xref uid="@azure/cosmos.Permission" />
+        description: ''
+  - name: requestCharge
+    uid: '@azure/cosmos.PermissionResponse.requestCharge|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    fullName: requestCharge
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: number requestCharge
+      return:
+        type: number
+        description: ''
+  - name: resource
+    uid: '@azure/cosmos.PermissionResponse.resource|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    fullName: resource
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'resource: PermissionDefinition & PermissionBody & Resource | undefined'
+      return:
+        type: >-
+          <xref uid="@azure/cosmos.PermissionDefinition" /> & <xref
+          uid="@azure/cosmos.PermissionBody" /> & <xref
+          uid="@azure/cosmos.Resource" /> | undefined
+        description: ''
+  - name: statusCode
+    uid: '@azure/cosmos.PermissionResponse.statusCode|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    fullName: statusCode
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'statusCode: StatusCode'
+      return:
+        type: StatusCode
+        description: ''
+  - name: substatus
+    uid: '@azure/cosmos.PermissionResponse.substatus|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    fullName: substatus
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'substatus?: SubStatusCode'
+      return:
+        type: SubStatusCode
+        description: ''
+extends: >-
+  <xref uid="@azure/cosmos.ResourceResponse" />&lt;<xref
+  uid="@azure/cosmos.PermissionDefinition" /> & <xref
+  uid="@azure/cosmos.PermissionBody" /> & <xref uid="@azure/cosmos.Resource"
+  />&gt;

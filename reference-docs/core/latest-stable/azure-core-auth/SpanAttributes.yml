@@ -1,0 +1,9 @@
+name: SpanAttributes
+uid: '@azure/core-auth.SpanAttributes|latest-stable'
+package: '@azure/core-auth|latest-stable'
+summary: Attributes for a Span.
+fullName: SpanAttributes
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface

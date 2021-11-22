@@ -1,0 +1,78 @@
+name: FileAppendOptions
+uid: '@azure/storage-file-datalake.FileAppendOptions|latest-stable'
+package: '@azure/storage-file-datalake|latest-stable'
+summary: ''
+fullName: FileAppendOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: '@azure/storage-file-datalake.FileAppendOptions.abortSignal|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: conditions
+    uid: '@azure/storage-file-datalake.FileAppendOptions.conditions|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: conditions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'conditions?: LeaseAccessConditions'
+      return:
+        type: LeaseAccessConditions
+        description: ''
+  - name: onProgress
+    uid: '@azure/storage-file-datalake.FileAppendOptions.onProgress|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: onProgress
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onProgress?: (progress: TransferProgressEvent) => void'
+      return:
+        type: '(progress: TransferProgressEvent) =&gt; void'
+        description: ''
+  - name: tracingOptions
+    uid: >-
+      @azure/storage-file-datalake.FileAppendOptions.tracingOptions|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: Options to configure spans created when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+  - name: transactionalContentMD5
+    uid: >-
+      @azure/storage-file-datalake.FileAppendOptions.transactionalContentMD5|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: transactionalContentMD5
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'transactionalContentMD5?: Uint8Array'
+      return:
+        type: Uint8Array
+        description: ''
+extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />

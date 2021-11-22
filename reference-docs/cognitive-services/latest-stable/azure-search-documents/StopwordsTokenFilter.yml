@@ -1,0 +1,15 @@
+name: StopwordsTokenFilter
+uid: '@azure/search-documents.StopwordsTokenFilter|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: >-
+  Removes stop words from a token stream. This token filter is implemented using
+  Apache Lucene.
+fullName: StopwordsTokenFilter
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type StopwordsTokenFilter = BaseTokenFilter & { ignoreCase: boolean,
+  odatatype: #Microsoft.Azure.Search.StopwordsTokenFilter,
+  removeTrailingStopWords: boolean, stopwords: Object, stopwordsList:
+  StopwordsList }

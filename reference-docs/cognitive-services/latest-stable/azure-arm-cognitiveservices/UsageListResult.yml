@@ -1,0 +1,23 @@
+name: UsageListResult
+uid: '@azure/arm-cognitiveservices.UsageListResult|latest-stable'
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: The response to a list usage request.
+fullName: UsageListResult
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: value
+    uid: '@azure/arm-cognitiveservices.UsageListResult.value|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: The list of usages for Cognitive Service account.
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value?: Usage[]'
+      return:
+        type: <xref uid="@azure/arm-cognitiveservices.Usage" />[]
+        description: ''

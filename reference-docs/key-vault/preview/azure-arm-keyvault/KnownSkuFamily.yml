@@ -1,0 +1,13 @@
+name: KnownSkuFamily
+uid: '@azure/arm-keyvault.KnownSkuFamily|preview'
+package: '@azure/arm-keyvault|preview'
+summary: Known values of <xref:@azure/arm-keyvault.SkuFamily> that the service accepts.
+fullName: KnownSkuFamily
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: A
+    uid: '@azure/arm-keyvault.KnownSkuFamily.A|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''

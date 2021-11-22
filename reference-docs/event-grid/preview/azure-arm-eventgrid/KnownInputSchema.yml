@@ -1,0 +1,23 @@
+name: KnownInputSchema
+uid: '@azure/arm-eventgrid.KnownInputSchema|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: >-
+  Known values of <xref:@azure/arm-eventgrid.InputSchema> that the service
+  accepts.
+fullName: KnownInputSchema
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: CloudEventSchemaV10
+    uid: '@azure/arm-eventgrid.KnownInputSchema.CloudEventSchemaV10|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: CustomEventSchema
+    uid: '@azure/arm-eventgrid.KnownInputSchema.CustomEventSchema|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: EventGridSchema
+    uid: '@azure/arm-eventgrid.KnownInputSchema.EventGridSchema|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''

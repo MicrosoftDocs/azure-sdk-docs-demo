@@ -1,0 +1,9 @@
+name: UploadDocumentsOptions
+uid: '@azure/search-documents.UploadDocumentsOptions|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: Options for the upload documents operation.
+fullName: UploadDocumentsOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type UploadDocumentsOptions = IndexDocumentsOptions

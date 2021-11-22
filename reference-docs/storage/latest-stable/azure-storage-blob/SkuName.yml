@@ -1,0 +1,11 @@
+name: SkuName
+uid: '@azure/storage-blob.SkuName|latest-stable'
+package: '@azure/storage-blob|latest-stable'
+summary: Defines values for SkuName.
+fullName: SkuName
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type SkuName = "Standard_LRS" | "Standard_GRS" | "Standard_RAGRS" |
+  "Standard_ZRS" | "Premium_LRS"

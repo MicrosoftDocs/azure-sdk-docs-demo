@@ -1,0 +1,11 @@
+name: QueuesGetAuthorizationRuleResponse
+uid: '@azure/arm-servicebus.QueuesGetAuthorizationRuleResponse|latest-stable'
+package: '@azure/arm-servicebus|latest-stable'
+summary: Contains response data for the getAuthorizationRule operation.
+fullName: QueuesGetAuthorizationRuleResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type QueuesGetAuthorizationRuleResponse = SBAuthorizationRule & { _response:
+  Object }

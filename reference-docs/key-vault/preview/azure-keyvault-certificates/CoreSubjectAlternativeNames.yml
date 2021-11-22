@@ -1,0 +1,49 @@
+name: CoreSubjectAlternativeNames
+uid: '@azure/keyvault-certificates.CoreSubjectAlternativeNames|preview'
+package: '@azure/keyvault-certificates|preview'
+summary: The subject alternate names of a X509 object.
+fullName: CoreSubjectAlternativeNames
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: dnsNames
+    uid: '@azure/keyvault-certificates.CoreSubjectAlternativeNames.dnsNames|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: Domain names.
+    fullName: dnsNames
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'dnsNames?: string[]'
+      return:
+        type: string[]
+        description: ''
+  - name: emails
+    uid: '@azure/keyvault-certificates.CoreSubjectAlternativeNames.emails|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: Email addresses.
+    fullName: emails
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'emails?: string[]'
+      return:
+        type: string[]
+        description: ''
+  - name: upns
+    uid: '@azure/keyvault-certificates.CoreSubjectAlternativeNames.upns|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: User principal names.
+    fullName: upns
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'upns?: string[]'
+      return:
+        type: string[]
+        description: ''

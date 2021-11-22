@@ -1,0 +1,84 @@
+name: KeyVaultProperties
+uid: '@azure/arm-storage.KeyVaultProperties|preview'
+package: '@azure/arm-storage|preview'
+summary: Properties of key vault.
+fullName: KeyVaultProperties
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: currentVersionedKeyIdentifier
+    uid: >-
+      @azure/arm-storage.KeyVaultProperties.currentVersionedKeyIdentifier|preview
+    package: '@azure/arm-storage|preview'
+    summary: >-
+      The object identifier of the current versioned Key Vault Key in use.
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: currentVersionedKeyIdentifier
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'currentVersionedKeyIdentifier?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: keyName
+    uid: '@azure/arm-storage.KeyVaultProperties.keyName|preview'
+    package: '@azure/arm-storage|preview'
+    summary: The name of KeyVault key.
+    fullName: keyName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keyName?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: keyVaultUri
+    uid: '@azure/arm-storage.KeyVaultProperties.keyVaultUri|preview'
+    package: '@azure/arm-storage|preview'
+    summary: The Uri of KeyVault.
+    fullName: keyVaultUri
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keyVaultUri?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: keyVersion
+    uid: '@azure/arm-storage.KeyVaultProperties.keyVersion|preview'
+    package: '@azure/arm-storage|preview'
+    summary: The version of KeyVault key.
+    fullName: keyVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keyVersion?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: lastKeyRotationTimestamp
+    uid: '@azure/arm-storage.KeyVaultProperties.lastKeyRotationTimestamp|preview'
+    package: '@azure/arm-storage|preview'
+    summary: >-
+      Timestamp of last rotation of the Key Vault Key.
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: lastKeyRotationTimestamp
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lastKeyRotationTimestamp?: Date'
+      return:
+        type: Date
+        description: ''

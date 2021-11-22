@@ -1,0 +1,51 @@
+name: OperationResponse
+uid: '@azure/core-http.OperationResponse|latest-stable'
+package: '@azure/core-http|latest-stable'
+summary: >-
+  An OperationResponse that can be returned from an operation request for a
+  single status code.
+fullName: OperationResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: bodyMapper
+    uid: '@azure/core-http.OperationResponse.bodyMapper|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: The mapper that will be used to deserialize the response body.
+    fullName: bodyMapper
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'bodyMapper?: Mapper'
+      return:
+        type: <xref uid="@azure/core-http.Mapper" />
+        description: ''
+  - name: headersMapper
+    uid: '@azure/core-http.OperationResponse.headersMapper|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: The mapper that will be used to deserialize the response headers.
+    fullName: headersMapper
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'headersMapper?: Mapper'
+      return:
+        type: <xref uid="@azure/core-http.Mapper" />
+        description: ''
+  - name: isError
+    uid: '@azure/core-http.OperationResponse.isError|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Indicates if this is an error response
+    fullName: isError
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isError?: boolean'
+      return:
+        type: boolean
+        description: ''

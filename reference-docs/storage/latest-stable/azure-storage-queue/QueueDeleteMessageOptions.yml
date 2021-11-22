@@ -1,0 +1,45 @@
+name: QueueDeleteMessageOptions
+uid: '@azure/storage-queue.QueueDeleteMessageOptions|latest-stable'
+package: '@azure/storage-queue|latest-stable'
+summary: >-
+  Options to configure the <xref:@azure/storage-queue.QueueClient.deleteMessage>
+  operation
+fullName: QueueDeleteMessageOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: '@azure/storage-queue.QueueDeleteMessageOptions.abortSignal|latest-stable'
+    package: '@azure/storage-queue|latest-stable'
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: tracingOptions
+    uid: >-
+      @azure/storage-queue.QueueDeleteMessageOptions.tracingOptions|latest-stable
+    package: '@azure/storage-queue|latest-stable'
+    summary: Options to configure spans created when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+extends: <xref uid="@azure/storage-queue.CommonOptions" />

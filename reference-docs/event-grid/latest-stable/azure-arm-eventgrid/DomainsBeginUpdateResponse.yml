@@ -1,0 +1,9 @@
+name: DomainsBeginUpdateResponse
+uid: '@azure/arm-eventgrid.DomainsBeginUpdateResponse|latest-stable'
+package: '@azure/arm-eventgrid|latest-stable'
+summary: Contains response data for the beginUpdate operation.
+fullName: DomainsBeginUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type DomainsBeginUpdateResponse = Domain & { _response: Object }'

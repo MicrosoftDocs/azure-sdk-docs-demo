@@ -1,0 +1,387 @@
+name: FileReadHeaders
+uid: '@azure/storage-file-datalake.FileReadHeaders|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: ''
+fullName: FileReadHeaders
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: acceptRanges
+    uid: '@azure/storage-file-datalake.FileReadHeaders.acceptRanges|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: acceptRanges
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'acceptRanges?: string'
+      return:
+        type: string
+        description: ''
+  - name: cacheControl
+    uid: '@azure/storage-file-datalake.FileReadHeaders.cacheControl|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: cacheControl
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'cacheControl?: string'
+      return:
+        type: string
+        description: ''
+  - name: clientRequestId
+    uid: '@azure/storage-file-datalake.FileReadHeaders.clientRequestId|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: clientRequestId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'clientRequestId?: string'
+      return:
+        type: string
+        description: ''
+  - name: contentCrc64
+    uid: '@azure/storage-file-datalake.FileReadHeaders.contentCrc64|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: contentCrc64
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'contentCrc64?: Uint8Array'
+      return:
+        type: Uint8Array
+        description: ''
+  - name: contentDisposition
+    uid: '@azure/storage-file-datalake.FileReadHeaders.contentDisposition|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: contentDisposition
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'contentDisposition?: string'
+      return:
+        type: string
+        description: ''
+  - name: contentEncoding
+    uid: '@azure/storage-file-datalake.FileReadHeaders.contentEncoding|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: contentEncoding
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'contentEncoding?: string'
+      return:
+        type: string
+        description: ''
+  - name: contentLanguage
+    uid: '@azure/storage-file-datalake.FileReadHeaders.contentLanguage|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: contentLanguage
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'contentLanguage?: string'
+      return:
+        type: string
+        description: ''
+  - name: contentLength
+    uid: '@azure/storage-file-datalake.FileReadHeaders.contentLength|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: contentLength
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'contentLength?: number'
+      return:
+        type: number
+        description: ''
+  - name: contentMD5
+    uid: '@azure/storage-file-datalake.FileReadHeaders.contentMD5|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: contentMD5
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'contentMD5?: Uint8Array'
+      return:
+        type: Uint8Array
+        description: ''
+  - name: contentRange
+    uid: '@azure/storage-file-datalake.FileReadHeaders.contentRange|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: contentRange
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'contentRange?: string'
+      return:
+        type: string
+        description: ''
+  - name: contentType
+    uid: '@azure/storage-file-datalake.FileReadHeaders.contentType|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: contentType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'contentType?: string'
+      return:
+        type: string
+        description: ''
+  - name: copyCompletedOn
+    uid: '@azure/storage-file-datalake.FileReadHeaders.copyCompletedOn|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: copyCompletedOn
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'copyCompletedOn?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: copyId
+    uid: '@azure/storage-file-datalake.FileReadHeaders.copyId|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: copyId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'copyId?: string'
+      return:
+        type: string
+        description: ''
+  - name: copyProgress
+    uid: '@azure/storage-file-datalake.FileReadHeaders.copyProgress|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: copyProgress
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'copyProgress?: string'
+      return:
+        type: string
+        description: ''
+  - name: copySource
+    uid: '@azure/storage-file-datalake.FileReadHeaders.copySource|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: copySource
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'copySource?: string'
+      return:
+        type: string
+        description: ''
+  - name: copyStatus
+    uid: '@azure/storage-file-datalake.FileReadHeaders.copyStatus|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: copyStatus
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'copyStatus?: CopyStatusType'
+      return:
+        type: <xref uid="@azure/storage-file-datalake.CopyStatusType" />
+        description: ''
+  - name: copyStatusDescription
+    uid: '@azure/storage-file-datalake.FileReadHeaders.copyStatusDescription|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: copyStatusDescription
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'copyStatusDescription?: string'
+      return:
+        type: string
+        description: ''
+  - name: date
+    uid: '@azure/storage-file-datalake.FileReadHeaders.date|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: date
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'date?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: encryptionKeySha256
+    uid: '@azure/storage-file-datalake.FileReadHeaders.encryptionKeySha256|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: encryptionKeySha256
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'encryptionKeySha256?: string'
+      return:
+        type: string
+        description: ''
+  - name: etag
+    uid: '@azure/storage-file-datalake.FileReadHeaders.etag|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: etag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'etag?: string'
+      return:
+        type: string
+        description: ''
+  - name: fileContentMD5
+    uid: '@azure/storage-file-datalake.FileReadHeaders.fileContentMD5|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: fileContentMD5
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fileContentMD5?: Uint8Array'
+      return:
+        type: Uint8Array
+        description: ''
+  - name: isServerEncrypted
+    uid: '@azure/storage-file-datalake.FileReadHeaders.isServerEncrypted|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: isServerEncrypted
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isServerEncrypted?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: lastModified
+    uid: '@azure/storage-file-datalake.FileReadHeaders.lastModified|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: lastModified
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lastModified?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: leaseDuration
+    uid: '@azure/storage-file-datalake.FileReadHeaders.leaseDuration|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: leaseDuration
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'leaseDuration?: LeaseDurationType'
+      return:
+        type: <xref uid="@azure/storage-file-datalake.LeaseDurationType" />
+        description: ''
+  - name: leaseState
+    uid: '@azure/storage-file-datalake.FileReadHeaders.leaseState|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: leaseState
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'leaseState?: LeaseStateType'
+      return:
+        type: <xref uid="@azure/storage-file-datalake.LeaseStateType" />
+        description: ''
+  - name: leaseStatus
+    uid: '@azure/storage-file-datalake.FileReadHeaders.leaseStatus|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: leaseStatus
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'leaseStatus?: LeaseStatusType'
+      return:
+        type: <xref uid="@azure/storage-file-datalake.LeaseStatusType" />
+        description: ''
+  - name: metadata
+    uid: '@azure/storage-file-datalake.FileReadHeaders.metadata|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: metadata
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'metadata?: Metadata'
+      return:
+        type: <xref uid="@azure/storage-file-datalake.Metadata" />
+        description: ''
+  - name: requestId
+    uid: '@azure/storage-file-datalake.FileReadHeaders.requestId|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: requestId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'requestId?: string'
+      return:
+        type: string
+        description: ''
+  - name: version
+    uid: '@azure/storage-file-datalake.FileReadHeaders.version|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: version
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'version?: string'
+      return:
+        type: string
+        description: ''

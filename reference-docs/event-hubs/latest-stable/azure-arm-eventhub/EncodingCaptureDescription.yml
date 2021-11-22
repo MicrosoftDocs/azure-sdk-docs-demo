@@ -1,0 +1,11 @@
+name: EncodingCaptureDescription
+uid: '@azure/arm-eventhub.EncodingCaptureDescription|latest-stable'
+package: '@azure/arm-eventhub|latest-stable'
+summary: |-
+  Defines values for EncodingCaptureDescription.
+  Possible values include: 'Avro', 'AvroDeflate'
+fullName: EncodingCaptureDescription
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type EncodingCaptureDescription = "Avro" | "AvroDeflate"

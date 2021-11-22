@@ -1,0 +1,9 @@
+name: TableUpdateResponse
+uid: '@azure/arm-storage.TableUpdateResponse|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: Contains response data for the update operation.
+fullName: TableUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type TableUpdateResponse = Table & { _response: Object }'

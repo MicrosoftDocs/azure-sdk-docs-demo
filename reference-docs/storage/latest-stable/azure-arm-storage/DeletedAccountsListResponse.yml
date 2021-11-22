@@ -1,0 +1,11 @@
+name: DeletedAccountsListResponse
+uid: '@azure/arm-storage.DeletedAccountsListResponse|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: Contains response data for the list operation.
+fullName: DeletedAccountsListResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type DeletedAccountsListResponse = DeletedAccountListResult & { _response:
+  Object }

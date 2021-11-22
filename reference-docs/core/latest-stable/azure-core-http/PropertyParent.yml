@@ -1,0 +1,9 @@
+name: PropertyParent
+uid: '@azure/core-http.PropertyParent|latest-stable'
+package: '@azure/core-http|latest-stable'
+summary: ''
+fullName: PropertyParent
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type PropertyParent = Object

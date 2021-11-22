@@ -1,0 +1,13 @@
+name: SqlIntegratedChangeTrackingPolicy
+uid: '@azure/search-documents.SqlIntegratedChangeTrackingPolicy|preview'
+package: '@azure/search-documents|preview'
+summary: >-
+  Defines a data change detection policy that captures changes using the
+  Integrated Change Tracking feature of Azure SQL Database.
+fullName: SqlIntegratedChangeTrackingPolicy
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type SqlIntegratedChangeTrackingPolicy = BaseDataChangeDetectionPolicy & {
+  odatatype: #Microsoft.Azure.Search.SqlIntegratedChangeTrackingPolicy }

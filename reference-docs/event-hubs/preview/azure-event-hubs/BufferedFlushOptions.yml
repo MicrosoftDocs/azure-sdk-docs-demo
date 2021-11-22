@@ -1,0 +1,39 @@
+name: BufferedFlushOptions
+uid: '@azure/event-hubs.BufferedFlushOptions|preview'
+package: '@azure/event-hubs|preview'
+summary: >-
+  Options to configure the `flush` method on the
+  `EventHubBufferedProducerClient`.
+fullName: BufferedFlushOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: '@azure/event-hubs.BufferedFlushOptions.abortSignal|preview'
+    package: '@azure/event-hubs|preview'
+    summary: The signal which can be used to abort requests.
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: tracingOptions
+    uid: '@azure/event-hubs.BufferedFlushOptions.tracingOptions|preview'
+    package: '@azure/event-hubs|preview'
+    summary: Options for configuring tracing.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+extends: <xref uid="@azure/event-hubs.OperationOptions" />

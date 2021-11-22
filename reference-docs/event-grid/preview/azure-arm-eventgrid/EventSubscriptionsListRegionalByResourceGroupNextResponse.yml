@@ -1,0 +1,12 @@
+name: EventSubscriptionsListRegionalByResourceGroupNextResponse
+uid: >-
+  @azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupNextResponse|preview
+package: '@azure/arm-eventgrid|preview'
+summary: Contains response data for the listRegionalByResourceGroupNext operation.
+fullName: EventSubscriptionsListRegionalByResourceGroupNextResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type EventSubscriptionsListRegionalByResourceGroupNextResponse =
+  EventSubscriptionsListResult

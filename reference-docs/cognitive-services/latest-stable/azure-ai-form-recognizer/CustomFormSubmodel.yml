@@ -1,0 +1,64 @@
+name: CustomFormSubmodel
+uid: '@azure/ai-form-recognizer.CustomFormSubmodel|latest-stable'
+package: '@azure/ai-form-recognizer|latest-stable'
+summary: Represents the model for a specific type of custom form from training.
+fullName: CustomFormSubmodel
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: accuracy
+    uid: '@azure/ai-form-recognizer.CustomFormSubmodel.accuracy|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: Estimated extraction accuracy for this model.
+    fullName: accuracy
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'accuracy?: number'
+      return:
+        type: number
+        description: ''
+  - name: fields
+    uid: '@azure/ai-form-recognizer.CustomFormSubmodel.fields|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: Form fields
+    fullName: fields
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fields: Record<string, CustomFormModelField>'
+      return:
+        type: >-
+          Record&lt;string, <xref
+          uid="@azure/ai-form-recognizer.CustomFormModelField" />&gt;
+        description: ''
+  - name: formType
+    uid: '@azure/ai-form-recognizer.CustomFormSubmodel.formType|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: The form type associated with this submodel.
+    fullName: formType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'formType: string'
+      return:
+        type: string
+        description: ''
+  - name: modelId
+    uid: '@azure/ai-form-recognizer.CustomFormSubmodel.modelId|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: The model ID associated with this submodel.
+    fullName: modelId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'modelId?: string'
+      return:
+        type: string
+        description: ''

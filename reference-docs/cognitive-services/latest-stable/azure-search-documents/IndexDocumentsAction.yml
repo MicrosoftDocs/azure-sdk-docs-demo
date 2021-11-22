@@ -1,0 +1,9 @@
+name: IndexDocumentsAction
+uid: '@azure/search-documents.IndexDocumentsAction|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: Represents an index action that operates on a document.
+fullName: IndexDocumentsAction<T>
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type IndexDocumentsAction<T> = { __actionType: IndexActionType } & Partial<T>'

@@ -1,0 +1,23 @@
+name: FileQueryParquetConfiguration
+uid: '@azure/storage-file-datalake.FileQueryParquetConfiguration|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: Options to query file with Parquet format.
+fullName: FileQueryParquetConfiguration
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: kind
+    uid: '@azure/storage-file-datalake.FileQueryParquetConfiguration.kind|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: Kind.
+    fullName: kind
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'kind: "parquet"'
+      return:
+        type: '"parquet"'
+        description: ''

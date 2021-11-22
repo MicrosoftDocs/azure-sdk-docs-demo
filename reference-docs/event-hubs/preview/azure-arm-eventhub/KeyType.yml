@@ -1,0 +1,9 @@
+name: KeyType
+uid: '@azure/arm-eventhub.KeyType|preview'
+package: '@azure/arm-eventhub|preview'
+summary: Defines values for KeyType.
+fullName: KeyType
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type KeyType = "PrimaryKey" | "SecondaryKey"

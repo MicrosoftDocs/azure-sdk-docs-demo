@@ -1,0 +1,36 @@
+name: ErrorBody
+uid: '@azure/cosmos.ErrorBody|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: ''
+fullName: ErrorBody
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: code
+    uid: '@azure/cosmos.ErrorBody.code|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    fullName: code
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'code: string'
+      return:
+        type: string
+        description: ''
+  - name: message
+    uid: '@azure/cosmos.ErrorBody.message|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    fullName: message
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'message: string'
+      return:
+        type: string
+        description: ''

@@ -1,0 +1,9 @@
+name: VaultsListBySubscriptionResponse
+uid: '@azure/arm-keyvault.VaultsListBySubscriptionResponse|preview'
+package: '@azure/arm-keyvault|preview'
+summary: Contains response data for the listBySubscription operation.
+fullName: VaultsListBySubscriptionResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type VaultsListBySubscriptionResponse = VaultListResult

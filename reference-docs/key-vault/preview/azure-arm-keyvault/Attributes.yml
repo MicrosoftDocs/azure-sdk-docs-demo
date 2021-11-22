@@ -1,0 +1,83 @@
+name: Attributes
+uid: '@azure/arm-keyvault.Attributes|preview'
+package: '@azure/arm-keyvault|preview'
+summary: The object attributes managed by the KeyVault service.
+fullName: Attributes
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: created
+    uid: '@azure/arm-keyvault.Attributes.created|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: >-
+      Creation time in seconds since 1970-01-01T00:00:00Z.
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: created
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'created?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: enabled
+    uid: '@azure/arm-keyvault.Attributes.enabled|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: Determines whether the object is enabled.
+    fullName: enabled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'enabled?: undefined | false | true'
+      return:
+        type: undefined | false | true
+        description: ''
+  - name: expires
+    uid: '@azure/arm-keyvault.Attributes.expires|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: Expiry date in seconds since 1970-01-01T00:00:00Z.
+    fullName: expires
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'expires?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: notBefore
+    uid: '@azure/arm-keyvault.Attributes.notBefore|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: Not before date in seconds since 1970-01-01T00:00:00Z.
+    fullName: notBefore
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'notBefore?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: updated
+    uid: '@azure/arm-keyvault.Attributes.updated|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: >-
+      Last updated time in seconds since 1970-01-01T00:00:00Z.
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: updated
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'updated?: Date'
+      return:
+        type: Date
+        description: ''

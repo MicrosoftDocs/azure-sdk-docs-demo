@@ -1,0 +1,10 @@
+name: SearchIndexingBufferedSenderDeleteDocumentsOptions
+uid: >-
+  @azure/search-documents.SearchIndexingBufferedSenderDeleteDocumentsOptions|latest-stable
+package: '@azure/search-documents|latest-stable'
+summary: Options for SearchIndexingBufferedSenderDeleteDocuments.
+fullName: SearchIndexingBufferedSenderDeleteDocumentsOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type SearchIndexingBufferedSenderDeleteDocumentsOptions = OperationOptions

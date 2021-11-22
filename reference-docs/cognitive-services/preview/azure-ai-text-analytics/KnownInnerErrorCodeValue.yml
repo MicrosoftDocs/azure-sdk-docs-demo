@@ -1,0 +1,54 @@
+name: KnownInnerErrorCodeValue
+uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue|preview'
+package: '@azure/ai-text-analytics|preview'
+summary: >-
+  Known values of <xref:@azure/ai-text-analytics.InnerErrorCodeValue> that the
+  service accepts.
+fullName: KnownInnerErrorCodeValue
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: EmptyRequest
+    uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue.EmptyRequest|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: InvalidCountryHint
+    uid: >-
+      @azure/ai-text-analytics.KnownInnerErrorCodeValue.InvalidCountryHint|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: InvalidDocument
+    uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue.InvalidDocument|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: InvalidDocumentBatch
+    uid: >-
+      @azure/ai-text-analytics.KnownInnerErrorCodeValue.InvalidDocumentBatch|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: InvalidParameterValue
+    uid: >-
+      @azure/ai-text-analytics.KnownInnerErrorCodeValue.InvalidParameterValue|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: InvalidRequestBodyFormat
+    uid: >-
+      @azure/ai-text-analytics.KnownInnerErrorCodeValue.InvalidRequestBodyFormat|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: MissingInputRecords
+    uid: >-
+      @azure/ai-text-analytics.KnownInnerErrorCodeValue.MissingInputRecords|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: ModelVersionIncorrect
+    uid: >-
+      @azure/ai-text-analytics.KnownInnerErrorCodeValue.ModelVersionIncorrect|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''
+  - name: UnsupportedLanguageCode
+    uid: >-
+      @azure/ai-text-analytics.KnownInnerErrorCodeValue.UnsupportedLanguageCode|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: ''

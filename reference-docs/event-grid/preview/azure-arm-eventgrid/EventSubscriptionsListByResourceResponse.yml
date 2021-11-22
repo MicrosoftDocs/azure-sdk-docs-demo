@@ -1,0 +1,9 @@
+name: EventSubscriptionsListByResourceResponse
+uid: '@azure/arm-eventgrid.EventSubscriptionsListByResourceResponse|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: Contains response data for the listByResource operation.
+fullName: EventSubscriptionsListByResourceResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type EventSubscriptionsListByResourceResponse = EventSubscriptionsListResult

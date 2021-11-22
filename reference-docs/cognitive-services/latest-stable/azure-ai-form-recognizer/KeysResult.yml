@@ -1,0 +1,23 @@
+name: KeysResult
+uid: '@azure/ai-form-recognizer.KeysResult|latest-stable'
+package: '@azure/ai-form-recognizer|latest-stable'
+summary: Keys extracted by the custom model.
+fullName: KeysResult
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: clusters
+    uid: '@azure/ai-form-recognizer.KeysResult.clusters|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: Object mapping clusterIds to a list of keys.
+    fullName: clusters
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'clusters: [key: string]: function'
+      return:
+        type: '[key: string]\: function'
+        description: ''

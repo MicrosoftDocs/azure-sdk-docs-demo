@@ -1,0 +1,11 @@
+name: TopicTypesListEventTypesResponse
+uid: '@azure/arm-eventgrid.TopicTypesListEventTypesResponse|latest-stable'
+package: '@azure/arm-eventgrid|latest-stable'
+summary: Contains response data for the listEventTypes operation.
+fullName: TopicTypesListEventTypesResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type TopicTypesListEventTypesResponse = EventTypesListResult & { _response:
+  Object }

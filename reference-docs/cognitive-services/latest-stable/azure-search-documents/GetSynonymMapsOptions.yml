@@ -1,0 +1,9 @@
+name: GetSynonymMapsOptions
+uid: '@azure/search-documents.GetSynonymMapsOptions|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: Options for get synonymmaps operation.
+fullName: GetSynonymMapsOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type GetSynonymMapsOptions = OperationOptions

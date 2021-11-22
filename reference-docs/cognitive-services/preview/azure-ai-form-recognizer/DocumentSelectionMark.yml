@@ -1,0 +1,64 @@
+name: DocumentSelectionMark
+uid: '@azure/ai-form-recognizer.DocumentSelectionMark|preview'
+package: '@azure/ai-form-recognizer|preview'
+summary: >-
+  A selection mark object representing check boxes, radio buttons, and other
+  elements indicating a selection.
+fullName: DocumentSelectionMark
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: boundingBox
+    uid: '@azure/ai-form-recognizer.DocumentSelectionMark.boundingBox|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Bounding box of the selection mark.
+    fullName: boundingBox
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'boundingBox?: number[]'
+      return:
+        type: number[]
+        description: ''
+  - name: confidence
+    uid: '@azure/ai-form-recognizer.DocumentSelectionMark.confidence|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Confidence of correctly extracting the selection mark.
+    fullName: confidence
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'confidence: number'
+      return:
+        type: number
+        description: ''
+  - name: span
+    uid: '@azure/ai-form-recognizer.DocumentSelectionMark.span|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Location of the selection mark in the reading order concatenated content.
+    fullName: span
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'span: DocumentSpan'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.DocumentSpan" />
+        description: ''
+  - name: state
+    uid: '@azure/ai-form-recognizer.DocumentSelectionMark.state|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: State of the selection mark.
+    fullName: state
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'state: SelectionMarkState'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.SelectionMarkState" />
+        description: ''

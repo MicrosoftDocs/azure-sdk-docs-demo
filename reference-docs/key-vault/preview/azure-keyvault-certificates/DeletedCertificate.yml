@@ -1,0 +1,162 @@
+name: DeletedCertificate
+uid: '@azure/keyvault-certificates.DeletedCertificate|preview'
+package: '@azure/keyvault-certificates|preview'
+summary: An interface representing a deleted certificate.
+fullName: DeletedCertificate
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: cer
+    uid: '@azure/keyvault-certificates.DeletedCertificate.cer|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: CER contents of x509 certificate.
+    fullName: cer
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'cer?: Uint8Array'
+      return:
+        type: Uint8Array
+        description: ''
+  - name: deletedOn
+    uid: '@azure/keyvault-certificates.DeletedCertificate.deletedOn|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: |-
+      The time when the certificate was deleted, in UTC
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: deletedOn
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'deletedOn?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: id
+    uid: '@azure/keyvault-certificates.DeletedCertificate.id|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: |-
+      Certificate identifier.
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        type: string
+        description: ''
+  - name: keyId
+    uid: '@azure/keyvault-certificates.DeletedCertificate.keyId|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: |-
+      The key id.
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: keyId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keyId?: string'
+      return:
+        type: string
+        description: ''
+  - name: name
+    uid: '@azure/keyvault-certificates.DeletedCertificate.name|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: The name of certificate.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        type: string
+        description: ''
+  - name: policy
+    uid: '@azure/keyvault-certificates.DeletedCertificate.policy|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: |-
+      The management policy.
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: policy
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'policy?: CertificatePolicy'
+      return:
+        type: <xref uid="@azure/keyvault-certificates.CertificatePolicy" />
+        description: ''
+  - name: properties
+    uid: '@azure/keyvault-certificates.DeletedCertificate.properties|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: The properties of the certificate
+    fullName: properties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'properties: CertificateProperties'
+      return:
+        type: <xref uid="@azure/keyvault-certificates.CertificateProperties" />
+        description: ''
+  - name: recoveryId
+    uid: '@azure/keyvault-certificates.DeletedCertificate.recoveryId|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: |-
+      The url of the recovery object, used to
+      identify and recover the deleted certificate.
+    fullName: recoveryId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'recoveryId?: string'
+      return:
+        type: string
+        description: ''
+  - name: scheduledPurgeDate
+    uid: '@azure/keyvault-certificates.DeletedCertificate.scheduledPurgeDate|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: |-
+      The time when the certificate is scheduled
+      to be purged, in UTC
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: scheduledPurgeDate
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'scheduledPurgeDate?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: secretId
+    uid: '@azure/keyvault-certificates.DeletedCertificate.secretId|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: |-
+      The secret id.
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: secretId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'secretId?: string'
+      return:
+        type: string
+        description: ''
+extends: <xref uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy" />

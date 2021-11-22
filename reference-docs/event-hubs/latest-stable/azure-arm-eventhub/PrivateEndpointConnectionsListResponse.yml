@@ -1,0 +1,11 @@
+name: PrivateEndpointConnectionsListResponse
+uid: '@azure/arm-eventhub.PrivateEndpointConnectionsListResponse|latest-stable'
+package: '@azure/arm-eventhub|latest-stable'
+summary: Contains response data for the list operation.
+fullName: PrivateEndpointConnectionsListResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type PrivateEndpointConnectionsListResponse =
+  PrivateEndpointConnectionListResult & { _response: Object }

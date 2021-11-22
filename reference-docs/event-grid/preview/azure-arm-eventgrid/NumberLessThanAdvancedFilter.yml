@@ -1,0 +1,11 @@
+name: NumberLessThanAdvancedFilter
+uid: '@azure/arm-eventgrid.NumberLessThanAdvancedFilter|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: NumberLessThan Advanced Filter.
+fullName: NumberLessThanAdvancedFilter
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type NumberLessThanAdvancedFilter = AdvancedFilter & { operatorType:
+  NumberLessThan, value: Object }

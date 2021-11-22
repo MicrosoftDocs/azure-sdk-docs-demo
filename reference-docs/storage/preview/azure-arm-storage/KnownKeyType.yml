@@ -1,0 +1,17 @@
+name: KnownKeyType
+uid: '@azure/arm-storage.KnownKeyType|preview'
+package: '@azure/arm-storage|preview'
+summary: Known values of <xref:@azure/arm-storage.KeyType> that the service accepts.
+fullName: KnownKeyType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Account
+    uid: '@azure/arm-storage.KnownKeyType.Account|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Service
+    uid: '@azure/arm-storage.KnownKeyType.Service|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

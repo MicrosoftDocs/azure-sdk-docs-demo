@@ -1,0 +1,11 @@
+name: NetworkRuleIPAction
+uid: '@azure/arm-eventhub.NetworkRuleIPAction|latest-stable'
+package: '@azure/arm-eventhub|latest-stable'
+summary: |-
+  Defines values for NetworkRuleIPAction.
+  Possible values include: 'Allow'
+fullName: NetworkRuleIPAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type NetworkRuleIPAction = Allow

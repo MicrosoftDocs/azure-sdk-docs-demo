@@ -1,0 +1,9 @@
+name: ConsumerGroupsCreateOrUpdateResponse
+uid: '@azure/arm-eventhub.ConsumerGroupsCreateOrUpdateResponse|preview'
+package: '@azure/arm-eventhub|preview'
+summary: Contains response data for the createOrUpdate operation.
+fullName: ConsumerGroupsCreateOrUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type ConsumerGroupsCreateOrUpdateResponse = ConsumerGroup

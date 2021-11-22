@@ -1,0 +1,56 @@
+name: KnownCustomEntityLookupSkillLanguage
+uid: '@azure/search-documents.KnownCustomEntityLookupSkillLanguage|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: >-
+  Known values of <xref:@azure/search-documents.CustomEntityLookupSkillLanguage>
+  that the service accepts.
+fullName: KnownCustomEntityLookupSkillLanguage
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Da
+    uid: >-
+      @azure/search-documents.KnownCustomEntityLookupSkillLanguage.Da|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Danish
+  - name: De
+    uid: >-
+      @azure/search-documents.KnownCustomEntityLookupSkillLanguage.De|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: German
+  - name: En
+    uid: >-
+      @azure/search-documents.KnownCustomEntityLookupSkillLanguage.En|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: English
+  - name: Es
+    uid: >-
+      @azure/search-documents.KnownCustomEntityLookupSkillLanguage.Es|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Spanish
+  - name: Fi
+    uid: >-
+      @azure/search-documents.KnownCustomEntityLookupSkillLanguage.Fi|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Finnish
+  - name: Fr
+    uid: >-
+      @azure/search-documents.KnownCustomEntityLookupSkillLanguage.Fr|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: French
+  - name: It
+    uid: >-
+      @azure/search-documents.KnownCustomEntityLookupSkillLanguage.It|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Italian
+  - name: Ko
+    uid: >-
+      @azure/search-documents.KnownCustomEntityLookupSkillLanguage.Ko|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Korean
+  - name: Pt
+    uid: >-
+      @azure/search-documents.KnownCustomEntityLookupSkillLanguage.Pt|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Portuguese

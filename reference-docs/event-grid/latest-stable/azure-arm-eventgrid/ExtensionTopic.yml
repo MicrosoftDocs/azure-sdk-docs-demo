@@ -1,0 +1,109 @@
+name: ExtensionTopic
+uid: '@azure/arm-eventgrid.ExtensionTopic|latest-stable'
+package: '@azure/arm-eventgrid|latest-stable'
+summary: >-
+  Event grid Extension Topic. This is used for getting Event Grid related
+  metrics for Azure
+
+  resources.
+fullName: ExtensionTopic
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: description
+    uid: '@azure/arm-eventgrid.ExtensionTopic.description|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: Description of the extension topic.
+    fullName: description
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'description?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: id
+    uid: '@azure/arm-eventgrid.ExtensionTopic.id|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: >-
+      Fully qualified identifier of the resource.
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: name
+    uid: '@azure/arm-eventgrid.ExtensionTopic.name|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: >-
+      Name of the resource.
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: systemData
+    uid: '@azure/arm-eventgrid.ExtensionTopic.systemData|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: >-
+      The system metadata relating to the Extension Topic resource.
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: systemData
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'systemData?: SystemData'
+      return:
+        type: <xref uid="@azure/arm-eventgrid.SystemData" />
+        description: ''
+  - name: systemTopic
+    uid: '@azure/arm-eventgrid.ExtensionTopic.systemTopic|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: System topic resource id which is mapped to the source.
+    fullName: systemTopic
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'systemTopic?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: type
+    uid: '@azure/arm-eventgrid.ExtensionTopic.type|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: >-
+      Type of the resource.
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+extends: <xref uid="@azure/arm-eventgrid.Resource" />

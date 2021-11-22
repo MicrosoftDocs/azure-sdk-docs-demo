@@ -1,0 +1,11 @@
+name: PageBlobClearPagesResponse
+uid: '@azure/storage-blob.PageBlobClearPagesResponse|preview'
+package: '@azure/storage-blob|preview'
+summary: Contains response data for the clearPages operation.
+fullName: PageBlobClearPagesResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type PageBlobClearPagesResponse = PageBlobClearPagesHeaders & { _response:
+  Object }

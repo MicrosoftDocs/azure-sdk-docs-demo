@@ -1,0 +1,19 @@
+name: KnownImmutabilityPolicyState
+uid: '@azure/arm-storage.KnownImmutabilityPolicyState|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Known values of <xref:@azure/arm-storage.ImmutabilityPolicyState> that the
+  service accepts.
+fullName: KnownImmutabilityPolicyState
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Locked
+    uid: '@azure/arm-storage.KnownImmutabilityPolicyState.Locked|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Unlocked
+    uid: '@azure/arm-storage.KnownImmutabilityPolicyState.Unlocked|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

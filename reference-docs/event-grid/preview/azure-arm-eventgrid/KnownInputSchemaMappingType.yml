@@ -1,0 +1,15 @@
+name: KnownInputSchemaMappingType
+uid: '@azure/arm-eventgrid.KnownInputSchemaMappingType|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: >-
+  Known values of <xref:@azure/arm-eventgrid.InputSchemaMappingType> that the
+  service accepts.
+fullName: KnownInputSchemaMappingType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Json
+    uid: '@azure/arm-eventgrid.KnownInputSchemaMappingType.Json|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''

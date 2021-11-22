@@ -1,0 +1,29 @@
+name: KnownKind
+uid: '@azure/arm-storage.KnownKind|preview'
+package: '@azure/arm-storage|preview'
+summary: Known values of <xref:@azure/arm-storage.Kind> that the service accepts.
+fullName: KnownKind
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: BlobStorage
+    uid: '@azure/arm-storage.KnownKind.BlobStorage|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: BlockBlobStorage
+    uid: '@azure/arm-storage.KnownKind.BlockBlobStorage|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: FileStorage
+    uid: '@azure/arm-storage.KnownKind.FileStorage|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Storage
+    uid: '@azure/arm-storage.KnownKind.Storage|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: StorageV2
+    uid: '@azure/arm-storage.KnownKind.StorageV2|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

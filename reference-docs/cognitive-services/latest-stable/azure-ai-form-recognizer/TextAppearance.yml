@@ -1,0 +1,39 @@
+name: TextAppearance
+uid: '@azure/ai-form-recognizer.TextAppearance|latest-stable'
+package: '@azure/ai-form-recognizer|latest-stable'
+summary: Represents the appearance of a line of text in a form.
+fullName: TextAppearance
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: styleConfidence
+    uid: '@azure/ai-form-recognizer.TextAppearance.styleConfidence|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: Confidence value.
+    fullName: styleConfidence
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'styleConfidence: number'
+      return:
+        type: number
+        description: ''
+  - name: styleName
+    uid: '@azure/ai-form-recognizer.TextAppearance.styleName|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: |-
+      The identified style of writing, can be one of:
+      - "handwriting"
+      - "other"
+    fullName: styleName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'styleName: "handwriting" | "other"'
+      return:
+        type: '"handwriting" | "other"'
+        description: ''

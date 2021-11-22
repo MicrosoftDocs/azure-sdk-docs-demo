@@ -1,0 +1,15 @@
+name: KnownBlobInventoryPolicyName
+uid: '@azure/arm-storage.KnownBlobInventoryPolicyName|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Known values of <xref:@azure/arm-storage.BlobInventoryPolicyName> that the
+  service accepts.
+fullName: KnownBlobInventoryPolicyName
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Default
+    uid: '@azure/arm-storage.KnownBlobInventoryPolicyName.Default|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

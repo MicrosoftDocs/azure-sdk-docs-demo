@@ -1,0 +1,45 @@
+name: KnownTimeGranularity
+uid: '@azure/ai-anomaly-detector.KnownTimeGranularity|preview'
+package: '@azure/ai-anomaly-detector|preview'
+summary: ''
+fullName: KnownTimeGranularity
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: daily
+    uid: '@azure/ai-anomaly-detector.KnownTimeGranularity.daily|preview'
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: Daily time granularity
+  - name: hourly
+    uid: '@azure/ai-anomaly-detector.KnownTimeGranularity.hourly|preview'
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: Hourly time granularity
+  - name: monthly
+    uid: '@azure/ai-anomaly-detector.KnownTimeGranularity.monthly|preview'
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: Monthly time granularity
+  - name: none
+    uid: '@azure/ai-anomaly-detector.KnownTimeGranularity.none|preview'
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: None
+  - name: perMicrosecond
+    uid: '@azure/ai-anomaly-detector.KnownTimeGranularity.perMicrosecond|preview'
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: Per microsecond time granularity
+  - name: perMinute
+    uid: '@azure/ai-anomaly-detector.KnownTimeGranularity.perMinute|preview'
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: Per minute time granularity
+  - name: perSecond
+    uid: '@azure/ai-anomaly-detector.KnownTimeGranularity.perSecond|preview'
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: Per second time granularity
+  - name: weekly
+    uid: '@azure/ai-anomaly-detector.KnownTimeGranularity.weekly|preview'
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: Weekly time granularity
+  - name: yearly
+    uid: '@azure/ai-anomaly-detector.KnownTimeGranularity.yearly|preview'
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: Yearly time granularity

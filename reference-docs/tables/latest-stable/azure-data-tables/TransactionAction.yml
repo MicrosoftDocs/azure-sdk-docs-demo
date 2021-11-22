@@ -1,0 +1,9 @@
+name: TransactionAction
+uid: '@azure/data-tables.TransactionAction|latest-stable'
+package: '@azure/data-tables|latest-stable'
+summary: Represents the union of all the available transactional actions
+fullName: TransactionAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type TransactionAction = CreateDeleteEntityAction | UpdateEntityAction

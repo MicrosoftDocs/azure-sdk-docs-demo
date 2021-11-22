@@ -1,0 +1,9 @@
+name: NamespacesGetResponse
+uid: '@azure/arm-servicebus.NamespacesGetResponse|latest-stable'
+package: '@azure/arm-servicebus|latest-stable'
+summary: Contains response data for the get operation.
+fullName: NamespacesGetResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type NamespacesGetResponse = SBNamespace & { _response: Object }'

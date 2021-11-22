@@ -1,0 +1,33 @@
+name: KnownKeyTypes
+uid: '@azure/keyvault-keys.KnownKeyTypes|preview'
+package: '@azure/keyvault-keys|preview'
+summary: Known values of JsonWebKeyType that the service accepts.
+fullName: KnownKeyTypes
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: EC
+    uid: '@azure/keyvault-keys.KnownKeyTypes.EC|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Elliptic Curve.
+  - name: ECHSM
+    uid: '@azure/keyvault-keys.KnownKeyTypes.ECHSM|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Elliptic Curve with a private key which is stored in the HSM.
+  - name: Oct
+    uid: '@azure/keyvault-keys.KnownKeyTypes.Oct|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Octet sequence (used to represent symmetric keys)
+  - name: OctHSM
+    uid: '@azure/keyvault-keys.KnownKeyTypes.OctHSM|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Octet sequence (used to represent symmetric keys) which is stored the HSM.
+  - name: RSA
+    uid: '@azure/keyvault-keys.KnownKeyTypes.RSA|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: RSA (https://tools.ietf.org/html/rfc3447)
+  - name: RSAHSM
+    uid: '@azure/keyvault-keys.KnownKeyTypes.RSAHSM|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: RSA with a private key which is stored in the HSM.

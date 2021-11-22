@@ -1,0 +1,9 @@
+name: FormModelResponse
+uid: '@azure/ai-form-recognizer.FormModelResponse|latest-stable'
+package: '@azure/ai-form-recognizer|latest-stable'
+summary: Contains the response data for retrieving a model from unlabeled training.
+fullName: FormModelResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type FormModelResponse = CustomFormModel & { _response: Object }'

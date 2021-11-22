@@ -1,0 +1,15 @@
+name: KnownMigrationConfigurationName
+uid: '@azure/arm-servicebus.KnownMigrationConfigurationName|preview'
+package: '@azure/arm-servicebus|preview'
+summary: >-
+  Known values of <xref:@azure/arm-servicebus.MigrationConfigurationName> that
+  the service accepts.
+fullName: KnownMigrationConfigurationName
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Default
+    uid: '@azure/arm-servicebus.KnownMigrationConfigurationName.Default|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''

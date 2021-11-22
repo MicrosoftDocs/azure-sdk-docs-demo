@@ -1,0 +1,11 @@
+name: RegionsListBySkuResponse
+uid: '@azure/arm-servicebus.RegionsListBySkuResponse|latest-stable'
+package: '@azure/arm-servicebus|latest-stable'
+summary: Contains response data for the listBySku operation.
+fullName: RegionsListBySkuResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type RegionsListBySkuResponse = PremiumMessagingRegionsListResult & {
+  _response: Object }

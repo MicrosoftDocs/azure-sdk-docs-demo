@@ -1,0 +1,11 @@
+name: ServiceGetPropertiesResponse
+uid: '@azure/storage-blob.ServiceGetPropertiesResponse|preview'
+package: '@azure/storage-blob|preview'
+summary: Contains response data for the getProperties operation.
+fullName: ServiceGetPropertiesResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type ServiceGetPropertiesResponse = ServiceGetPropertiesHeaders &
+  BlobServiceProperties & { _response: Object }

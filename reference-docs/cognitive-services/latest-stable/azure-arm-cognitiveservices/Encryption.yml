@@ -1,0 +1,41 @@
+name: Encryption
+uid: '@azure/arm-cognitiveservices.Encryption|latest-stable'
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: Properties to configure Encryption
+fullName: Encryption
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: keySource
+    uid: '@azure/arm-cognitiveservices.Encryption.keySource|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: >-
+      Enumerates the possible value of keySource for Encryption. Possible values
+      include:
+
+      'Microsoft.CognitiveServices', 'Microsoft.KeyVault'. Default value:
+      'Microsoft.KeyVault'.
+    fullName: keySource
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keySource?: KeySource'
+      return:
+        type: <xref uid="@azure/arm-cognitiveservices.KeySource" />
+        description: ''
+  - name: keyVaultProperties
+    uid: '@azure/arm-cognitiveservices.Encryption.keyVaultProperties|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Properties of KeyVault
+    fullName: keyVaultProperties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keyVaultProperties?: KeyVaultProperties'
+      return:
+        type: <xref uid="@azure/arm-cognitiveservices.KeyVaultProperties" />
+        description: ''

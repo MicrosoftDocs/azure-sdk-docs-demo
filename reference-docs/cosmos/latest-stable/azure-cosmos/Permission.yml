@@ -1,0 +1,106 @@
+name: Permission
+uid: '@azure/cosmos.Permission|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: Use to read, replace, or delete a given <xref:@azure/cosmos.Permission> by id.
+fullName: Permission
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: id
+    uid: '@azure/cosmos.Permission.id|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        type: string
+        description: ''
+  - name: url
+    uid: '@azure/cosmos.Permission.url|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: Returns a reference URL to the resource. Used for linking in Permissions.
+    fullName: url
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: string url
+      return:
+        type: string
+        description: ''
+  - name: user
+    uid: '@azure/cosmos.Permission.user|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    fullName: user
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'user: User'
+      return:
+        type: <xref uid="@azure/cosmos.User" />
+        description: ''
+methods:
+  - name: delete(RequestOptions)
+    uid: '@azure/cosmos.Permission.delete|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: Delete the given <xref:@azure/cosmos.Permission>.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function delete(options?: RequestOptions)'
+      parameters:
+        - id: options
+          type: <xref uid="@azure/cosmos.RequestOptions" />
+          description: ''
+      return:
+        type: Promise&lt;<xref uid="@azure/cosmos.PermissionResponse" />&gt;
+        description: ''
+  - name: read(RequestOptions)
+    uid: '@azure/cosmos.Permission.read|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: >-
+      Read the <xref:@azure/cosmos.PermissionDefinition> of the given
+      <xref:@azure/cosmos.Permission>.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function read(options?: RequestOptions)'
+      parameters:
+        - id: options
+          type: <xref uid="@azure/cosmos.RequestOptions" />
+          description: ''
+      return:
+        type: Promise&lt;<xref uid="@azure/cosmos.PermissionResponse" />&gt;
+        description: ''
+  - name: replace(PermissionDefinition, RequestOptions)
+    uid: '@azure/cosmos.Permission.replace|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: >-
+      Replace the given <xref:@azure/cosmos.Permission> with the specified
+      <xref:@azure/cosmos.PermissionDefinition>.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function replace(body: PermissionDefinition, options?: RequestOptions)'
+      parameters:
+        - id: body
+          type: <xref uid="@azure/cosmos.PermissionDefinition" />
+          description: |
+            The specified <xref:@azure/cosmos.PermissionDefinition>.
+        - id: options
+          type: <xref uid="@azure/cosmos.RequestOptions" />
+          description: ''
+      return:
+        type: Promise&lt;<xref uid="@azure/cosmos.PermissionResponse" />&gt;
+        description: ''

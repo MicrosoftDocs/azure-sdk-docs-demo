@@ -1,0 +1,15 @@
+name: ProvisioningState
+uid: '@azure/arm-appconfiguration.ProvisioningState|latest-stable'
+package: '@azure/arm-appconfiguration|latest-stable'
+summary: >-
+  Defines values for ProvisioningState.
+
+  Possible values include: 'Creating', 'Updating', 'Deleting', 'Succeeded',
+  'Failed', 'Canceled'
+fullName: ProvisioningState
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type ProvisioningState = "Creating" | "Updating" | "Deleting" | "Succeeded" |
+  "Failed" | "Canceled"

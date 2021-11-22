@@ -1,0 +1,9 @@
+name: CertificatePolicyAction
+uid: '@azure/keyvault-certificates.CertificatePolicyAction|preview'
+package: '@azure/keyvault-certificates|preview'
+summary: The action that will be executed.
+fullName: CertificatePolicyAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type CertificatePolicyAction = "EmailContacts" | "AutoRenew"

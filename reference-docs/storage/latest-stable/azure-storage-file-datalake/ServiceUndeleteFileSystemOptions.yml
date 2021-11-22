@@ -1,0 +1,65 @@
+name: ServiceUndeleteFileSystemOptions
+uid: '@azure/storage-file-datalake.ServiceUndeleteFileSystemOptions|latest-stable'
+package: '@azure/storage-file-datalake|latest-stable'
+summary: >-
+  Options to configure
+  <xref:@azure/storage-file-datalake.DataLakeServiceClient.undeleteFileSystem>.
+fullName: ServiceUndeleteFileSystemOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: >-
+      @azure/storage-file-datalake.ServiceUndeleteFileSystemOptions.abortSignal|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: destinationFileSystemName
+    uid: >-
+      @azure/storage-file-datalake.ServiceUndeleteFileSystemOptions.destinationFileSystemName|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: |-
+      Optional. Specifies the new name of the restored File System.
+      Will use its original name if this is not specified.
+    fullName: destinationFileSystemName
+    remarks: ''
+    isPreview: false
+    isDeprecated: true
+    customDeprecatedMessage: >-
+      Restore FileSystem to a different name is not supported by service
+      anymore.
+    syntax:
+      content: 'destinationFileSystemName?: string'
+      return:
+        type: string
+        description: ''
+  - name: tracingOptions
+    uid: >-
+      @azure/storage-file-datalake.ServiceUndeleteFileSystemOptions.tracingOptions|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: Options to configure spans created when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />

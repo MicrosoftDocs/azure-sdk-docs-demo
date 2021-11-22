@@ -1,0 +1,13 @@
+name: MultiCategoryClassifyResult
+uid: '@azure/ai-text-analytics.MultiCategoryClassifyResult|preview'
+package: '@azure/ai-text-analytics|preview'
+summary: >-
+  The result of the custom classify document multi categories operation on a
+  multi document.
+fullName: MultiCategoryClassifyResult
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type MultiCategoryClassifyResult = MultiCategoryClassifySuccessResult |
+  MultiCategoryClassifyErrorResult

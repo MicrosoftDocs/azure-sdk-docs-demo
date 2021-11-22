@@ -1,0 +1,9 @@
+name: EdgeNGramTokenFilterSide
+uid: '@azure/search-documents.EdgeNGramTokenFilterSide|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: Defines values for EdgeNGramTokenFilterSide.
+fullName: EdgeNGramTokenFilterSide
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type EdgeNGramTokenFilterSide = "front" | "back"

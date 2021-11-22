@@ -1,0 +1,9 @@
+name: DataDeletionDetectionPolicy
+uid: '@azure/search-documents.DataDeletionDetectionPolicy|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: Contains the possible cases for DataDeletionDetectionPolicy.
+fullName: DataDeletionDetectionPolicy
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type DataDeletionDetectionPolicy = SoftDeleteColumnDeletionDetectionPolicy

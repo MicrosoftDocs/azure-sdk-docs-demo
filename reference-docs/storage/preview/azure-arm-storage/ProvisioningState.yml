@@ -1,0 +1,9 @@
+name: ProvisioningState
+uid: '@azure/arm-storage.ProvisioningState|preview'
+package: '@azure/arm-storage|preview'
+summary: Defines values for ProvisioningState.
+fullName: ProvisioningState
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type ProvisioningState = "Creating" | "ResolvingDNS" | "Succeeded"

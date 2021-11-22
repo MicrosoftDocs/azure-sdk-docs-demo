@@ -1,0 +1,47 @@
+name: KnownCustomEntityLookupSkillLanguage
+uid: '@azure/search-documents.KnownCustomEntityLookupSkillLanguage|preview'
+package: '@azure/search-documents|preview'
+summary: >-
+  Known values of <xref:@azure/search-documents.CustomEntityLookupSkillLanguage>
+  that the service accepts.
+fullName: KnownCustomEntityLookupSkillLanguage
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Da
+    uid: '@azure/search-documents.KnownCustomEntityLookupSkillLanguage.Da|preview'
+    package: '@azure/search-documents|preview'
+    summary: Danish
+  - name: De
+    uid: '@azure/search-documents.KnownCustomEntityLookupSkillLanguage.De|preview'
+    package: '@azure/search-documents|preview'
+    summary: German
+  - name: En
+    uid: '@azure/search-documents.KnownCustomEntityLookupSkillLanguage.En|preview'
+    package: '@azure/search-documents|preview'
+    summary: English
+  - name: Es
+    uid: '@azure/search-documents.KnownCustomEntityLookupSkillLanguage.Es|preview'
+    package: '@azure/search-documents|preview'
+    summary: Spanish
+  - name: Fi
+    uid: '@azure/search-documents.KnownCustomEntityLookupSkillLanguage.Fi|preview'
+    package: '@azure/search-documents|preview'
+    summary: Finnish
+  - name: Fr
+    uid: '@azure/search-documents.KnownCustomEntityLookupSkillLanguage.Fr|preview'
+    package: '@azure/search-documents|preview'
+    summary: French
+  - name: It
+    uid: '@azure/search-documents.KnownCustomEntityLookupSkillLanguage.It|preview'
+    package: '@azure/search-documents|preview'
+    summary: Italian
+  - name: Ko
+    uid: '@azure/search-documents.KnownCustomEntityLookupSkillLanguage.Ko|preview'
+    package: '@azure/search-documents|preview'
+    summary: Korean
+  - name: Pt
+    uid: '@azure/search-documents.KnownCustomEntityLookupSkillLanguage.Pt|preview'
+    package: '@azure/search-documents|preview'
+    summary: Portuguese

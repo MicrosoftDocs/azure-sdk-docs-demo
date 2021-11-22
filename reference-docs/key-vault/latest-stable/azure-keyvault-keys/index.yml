@@ -1,0 +1,104 @@
+uid: '@azure/keyvault-keys|latest-stable'
+name: '@azure/keyvault-keys'
+summary: ''
+type: package
+enums:
+  - '@azure/keyvault-keys.KnownDeletionRecoveryLevel|latest-stable'
+  - '@azure/keyvault-keys.KnownEncryptionAlgorithms|latest-stable'
+  - '@azure/keyvault-keys.KnownKeyCurveNames|latest-stable'
+  - '@azure/keyvault-keys.KnownKeyOperations|latest-stable'
+  - '@azure/keyvault-keys.KnownKeyTypes|latest-stable'
+  - '@azure/keyvault-keys.KnownSignatureAlgorithms|latest-stable'
+classes:
+  - '@azure/keyvault-keys.CryptographyClient|latest-stable'
+  - '@azure/keyvault-keys.KeyClient|latest-stable'
+interfaces:
+  - '@azure/keyvault-keys.AesCbcDecryptParameters|latest-stable'
+  - '@azure/keyvault-keys.AesCbcEncryptParameters|latest-stable'
+  - '@azure/keyvault-keys.AesGcmDecryptParameters|latest-stable'
+  - '@azure/keyvault-keys.AesGcmEncryptParameters|latest-stable'
+  - '@azure/keyvault-keys.BackupKeyOptions|latest-stable'
+  - '@azure/keyvault-keys.BeginDeleteKeyOptions|latest-stable'
+  - '@azure/keyvault-keys.BeginRecoverDeletedKeyOptions|latest-stable'
+  - '@azure/keyvault-keys.CreateEcKeyOptions|latest-stable'
+  - '@azure/keyvault-keys.CreateKeyOptions|latest-stable'
+  - '@azure/keyvault-keys.CreateOctKeyOptions|latest-stable'
+  - '@azure/keyvault-keys.CreateRsaKeyOptions|latest-stable'
+  - '@azure/keyvault-keys.CryptographyClientOptions|latest-stable'
+  - '@azure/keyvault-keys.CryptographyOptions|latest-stable'
+  - '@azure/keyvault-keys.DecryptOptions|latest-stable'
+  - '@azure/keyvault-keys.DecryptResult|latest-stable'
+  - '@azure/keyvault-keys.DeletedKey|latest-stable'
+  - '@azure/keyvault-keys.EncryptOptions|latest-stable'
+  - '@azure/keyvault-keys.EncryptResult|latest-stable'
+  - '@azure/keyvault-keys.GetDeletedKeyOptions|latest-stable'
+  - '@azure/keyvault-keys.GetKeyOptions|latest-stable'
+  - '@azure/keyvault-keys.ImportKeyOptions|latest-stable'
+  - '@azure/keyvault-keys.JsonWebKey|latest-stable'
+  - '@azure/keyvault-keys.KeyClientOptions|latest-stable'
+  - '@azure/keyvault-keys.KeyPollerOptions|latest-stable'
+  - '@azure/keyvault-keys.KeyProperties|latest-stable'
+  - '@azure/keyvault-keys.KeyVaultKey|latest-stable'
+  - '@azure/keyvault-keys.KeyVaultKeyIdentifier|latest-stable'
+  - '@azure/keyvault-keys.ListDeletedKeysOptions|latest-stable'
+  - '@azure/keyvault-keys.ListPropertiesOfKeyVersionsOptions|latest-stable'
+  - '@azure/keyvault-keys.ListPropertiesOfKeysOptions|latest-stable'
+  - '@azure/keyvault-keys.PurgeDeletedKeyOptions|latest-stable'
+  - '@azure/keyvault-keys.RestoreKeyBackupOptions|latest-stable'
+  - '@azure/keyvault-keys.RsaDecryptParameters|latest-stable'
+  - '@azure/keyvault-keys.RsaEncryptParameters|latest-stable'
+  - '@azure/keyvault-keys.SignOptions|latest-stable'
+  - '@azure/keyvault-keys.SignResult|latest-stable'
+  - '@azure/keyvault-keys.UnwrapKeyOptions|latest-stable'
+  - '@azure/keyvault-keys.UnwrapResult|latest-stable'
+  - '@azure/keyvault-keys.UpdateKeyPropertiesOptions|latest-stable'
+  - '@azure/keyvault-keys.VerifyDataOptions|latest-stable'
+  - '@azure/keyvault-keys.VerifyOptions|latest-stable'
+  - '@azure/keyvault-keys.VerifyResult|latest-stable'
+  - '@azure/keyvault-keys.WrapKeyOptions|latest-stable'
+  - '@azure/keyvault-keys.WrapResult|latest-stable'
+typeAliases:
+  - '@azure/keyvault-keys.AesCbcEncryptionAlgorithm|latest-stable'
+  - '@azure/keyvault-keys.AesGcmEncryptionAlgorithm|latest-stable'
+  - '@azure/keyvault-keys.DecryptParameters|latest-stable'
+  - '@azure/keyvault-keys.DeletionRecoveryLevel|latest-stable'
+  - '@azure/keyvault-keys.EncryptParameters|latest-stable'
+  - '@azure/keyvault-keys.EncryptionAlgorithm|latest-stable'
+  - '@azure/keyvault-keys.KeyCurveName|latest-stable'
+  - '@azure/keyvault-keys.KeyOperation|latest-stable'
+  - '@azure/keyvault-keys.KeyType|latest-stable'
+  - '@azure/keyvault-keys.KeyWrapAlgorithm|latest-stable'
+  - '@azure/keyvault-keys.RsaEncryptionAlgorithm|latest-stable'
+  - '@azure/keyvault-keys.SignatureAlgorithm|latest-stable'
+functions:
+  - name: parseKeyVaultKeyIdentifier(string)
+    uid: '@azure/keyvault-keys.parseKeyVaultKeyIdentifier|latest-stable'
+    package: '@azure/keyvault-keys|latest-stable'
+    summary: |-
+      Parses the given Key Vault Key Id. An example is:
+        https://<keyvault-name>.vault.azure.net/keys/<key-name>/<unique-version-id>
+
+      On parsing the above Id, this function returns:
+      ```ts
+        {
+           sourceId: "https://<keyvault-name>.vault.azure.net/keys/<key-name>/<unique-version-id>",
+           vaultUrl: "https://<keyvault-name>.vault.azure.net",
+           version: "<unique-version-id>",
+           name: "<key-name>"
+        }
+      ```
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parseKeyVaultKeyIdentifier(id: string)'
+      parameters:
+        - id: id
+          type: string
+          description: |
+            The Id of the Key Vault Key.
+      return:
+        type: >-
+          <xref uid="@azure/keyvault-keys.KeyVaultKeyIdentifier|latest-stable"
+          />
+        description: ''

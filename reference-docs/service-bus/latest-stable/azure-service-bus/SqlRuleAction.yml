@@ -1,0 +1,9 @@
+name: SqlRuleAction
+uid: '@azure/service-bus.SqlRuleAction|latest-stable'
+package: '@azure/service-bus|latest-stable'
+summary: Represents all possible fields on SqlRuleAction
+fullName: SqlRuleAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type SqlRuleAction = { sqlExpression: string, sqlParameters: Object }'

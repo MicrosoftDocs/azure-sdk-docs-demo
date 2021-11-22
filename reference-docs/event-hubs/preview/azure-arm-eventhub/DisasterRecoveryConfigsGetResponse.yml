@@ -1,0 +1,9 @@
+name: DisasterRecoveryConfigsGetResponse
+uid: '@azure/arm-eventhub.DisasterRecoveryConfigsGetResponse|preview'
+package: '@azure/arm-eventhub|preview'
+summary: Contains response data for the get operation.
+fullName: DisasterRecoveryConfigsGetResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type DisasterRecoveryConfigsGetResponse = ArmDisasterRecovery

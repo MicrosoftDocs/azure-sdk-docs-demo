@@ -1,0 +1,15 @@
+name: CommonGramTokenFilter
+uid: '@azure/search-documents.CommonGramTokenFilter|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: >-
+  Construct bigrams for frequently occurring terms while indexing. Single terms
+  are still indexed too, with bigrams overlaid. This token filter is implemented
+  using Apache Lucene.
+fullName: CommonGramTokenFilter
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type CommonGramTokenFilter = BaseTokenFilter & { commonWords: Object,
+  ignoreCase: boolean, odatatype: #Microsoft.Azure.Search.CommonGramTokenFilter,
+  useQueryMode: boolean }

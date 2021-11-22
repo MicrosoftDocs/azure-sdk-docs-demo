@@ -1,0 +1,9 @@
+name: TopicTypesGetResponse
+uid: '@azure/arm-eventgrid.TopicTypesGetResponse|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: Contains response data for the get operation.
+fullName: TopicTypesGetResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type TopicTypesGetResponse = TopicTypeInfo

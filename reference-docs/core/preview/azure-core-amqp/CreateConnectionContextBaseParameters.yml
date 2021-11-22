@@ -1,0 +1,104 @@
+name: CreateConnectionContextBaseParameters
+uid: '@azure/core-amqp.CreateConnectionContextBaseParameters|preview'
+package: '@azure/core-amqp|preview'
+summary: >-
+  Describes the parameters that can be provided to create the base connection
+  context.
+fullName: CreateConnectionContextBaseParameters
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: config
+    uid: '@azure/core-amqp.CreateConnectionContextBaseParameters.config|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      {ConnectionConfig} config The connection config that is created by parsing
+      the
+
+      connection string.
+    fullName: config
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'config: ConnectionConfig'
+      return:
+        type: <xref uid="@azure/core-amqp.ConnectionConfig" />
+        description: ''
+  - name: connectionProperties
+    uid: >-
+      @azure/core-amqp.CreateConnectionContextBaseParameters.connectionProperties|preview
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      {ConnectionProperties} connectionProperties Properties to be provided
+      while creating
+
+      the AMQP connection.
+    fullName: connectionProperties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'connectionProperties: ConnectionProperties'
+      return:
+        type: <xref uid="@azure/core-amqp.ConnectionProperties" />
+        description: ''
+  - name: dataTransformer
+    uid: >-
+      @azure/core-amqp.CreateConnectionContextBaseParameters.dataTransformer|preview
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      {DataTransformer} [dataTransformer] The datatransformer to be used for
+      encoding and
+
+      decoding messages. Default value: DefaultDataTransformer
+    fullName: dataTransformer
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'dataTransformer?: DataTransformer'
+      return:
+        type: <xref uid="@azure/core-amqp.DataTransformer" />
+        description: ''
+  - name: isEntityPathRequired
+    uid: >-
+      @azure/core-amqp.CreateConnectionContextBaseParameters.isEntityPathRequired|preview
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      {boolean} [isEntityPathRequired] Determines whether entity path should be
+      a part of
+
+      the connection config. If `true` it must be present, `false` otherwise.
+      Default value false.
+    fullName: isEntityPathRequired
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isEntityPathRequired?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: operationTimeoutInMs
+    uid: >-
+      @azure/core-amqp.CreateConnectionContextBaseParameters.operationTimeoutInMs|preview
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      {number} [operationTimeoutInMs] - The duration in which the promise should
+
+      complete (resolve/reject). If it is not completed, then the Promise will
+      be rejected after
+
+      timeout occurs. Default: `60000 milliseconds`.
+    fullName: operationTimeoutInMs
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'operationTimeoutInMs?: number'
+      return:
+        type: number
+        description: ''

@@ -1,0 +1,9 @@
+name: EventHubsListKeysResponse
+uid: '@azure/arm-eventhub.EventHubsListKeysResponse|latest-stable'
+package: '@azure/arm-eventhub|latest-stable'
+summary: Contains response data for the listKeys operation.
+fullName: EventHubsListKeysResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type EventHubsListKeysResponse = AccessKeys & { _response: Object }'

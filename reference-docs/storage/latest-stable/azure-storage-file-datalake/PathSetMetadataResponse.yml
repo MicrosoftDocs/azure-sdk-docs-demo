@@ -1,0 +1,9 @@
+name: PathSetMetadataResponse
+uid: '@azure/storage-file-datalake.PathSetMetadataResponse|latest-stable'
+package: '@azure/storage-file-datalake|latest-stable'
+summary: ''
+fullName: PathSetMetadataResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type PathSetMetadataResponse = PathSetMetadataHeaders & { _response: Object }'

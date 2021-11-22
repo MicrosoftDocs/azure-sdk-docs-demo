@@ -1,0 +1,9 @@
+name: BlobDeleteResponse
+uid: '@azure/storage-blob.BlobDeleteResponse|preview'
+package: '@azure/storage-blob|preview'
+summary: Contains response data for the delete operation.
+fullName: BlobDeleteResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type BlobDeleteResponse = BlobDeleteHeaders & { _response: Object }'

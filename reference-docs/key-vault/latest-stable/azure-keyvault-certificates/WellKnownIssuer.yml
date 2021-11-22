@@ -1,0 +1,17 @@
+name: WellKnownIssuer
+uid: '@azure/keyvault-certificates.WellKnownIssuer|latest-stable'
+package: '@azure/keyvault-certificates|latest-stable'
+summary: Well known issuers for choosing a default
+fullName: WellKnownIssuer
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Self
+    uid: '@azure/keyvault-certificates.WellKnownIssuer.Self|latest-stable'
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: For self signed certificates
+  - name: Unknown
+    uid: '@azure/keyvault-certificates.WellKnownIssuer.Unknown|latest-stable'
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: For certificates whose issuer will be defined later

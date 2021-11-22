@@ -1,0 +1,61 @@
+uid: '@azure/keyvault-secrets|preview'
+name: '@azure/keyvault-secrets'
+summary: ''
+type: package
+enums:
+  - '@azure/keyvault-secrets.KnownDeletionRecoveryLevel|preview'
+classes:
+  - '@azure/keyvault-secrets.SecretClient|preview'
+interfaces:
+  - '@azure/keyvault-secrets.BackupSecretOptions|preview'
+  - '@azure/keyvault-secrets.BeginDeleteSecretOptions|preview'
+  - '@azure/keyvault-secrets.BeginRecoverDeletedSecretOptions|preview'
+  - '@azure/keyvault-secrets.DeletedSecret|preview'
+  - '@azure/keyvault-secrets.GetDeletedSecretOptions|preview'
+  - '@azure/keyvault-secrets.GetSecretOptions|preview'
+  - '@azure/keyvault-secrets.KeyVaultSecret|preview'
+  - '@azure/keyvault-secrets.KeyVaultSecretIdentifier|preview'
+  - '@azure/keyvault-secrets.ListDeletedSecretsOptions|preview'
+  - '@azure/keyvault-secrets.ListPropertiesOfSecretVersionsOptions|preview'
+  - '@azure/keyvault-secrets.ListPropertiesOfSecretsOptions|preview'
+  - '@azure/keyvault-secrets.PurgeDeletedSecretOptions|preview'
+  - '@azure/keyvault-secrets.RestoreSecretBackupOptions|preview'
+  - '@azure/keyvault-secrets.SecretClientOptions|preview'
+  - '@azure/keyvault-secrets.SecretPollerOptions|preview'
+  - '@azure/keyvault-secrets.SecretProperties|preview'
+  - '@azure/keyvault-secrets.SetSecretOptions|preview'
+  - '@azure/keyvault-secrets.UpdateSecretPropertiesOptions|preview'
+typeAliases:
+  - '@azure/keyvault-secrets.DeletionRecoveryLevel|preview'
+functions:
+  - name: parseKeyVaultSecretIdentifier(string)
+    uid: '@azure/keyvault-secrets.parseKeyVaultSecretIdentifier|preview'
+    package: '@azure/keyvault-secrets|preview'
+    summary: |-
+      Parses the given Key Vault Secret Id. An example is:
+        https://<keyvault-name>.vault.azure.net/secrets/<secret-name>/<unique-version-id>
+
+      On parsing the above Id, this function returns:
+      ```ts
+        {
+           sourceId: "https://<keyvault-name>.vault.azure.net/secrets/<secret-name>/<unique-version-id>",
+           vaultUrl: "https://<keyvault-name>.vault.azure.net",
+           version: "<unique-version-id>",
+           name: "<secret-name>"
+        }
+      ```
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parseKeyVaultSecretIdentifier(id: string)'
+      parameters:
+        - id: id
+          type: string
+          description: |
+            The Id of the Key Vault Secret.
+      return:
+        type: >-
+          <xref uid="@azure/keyvault-secrets.KeyVaultSecretIdentifier|preview"
+          />
+        description: ''

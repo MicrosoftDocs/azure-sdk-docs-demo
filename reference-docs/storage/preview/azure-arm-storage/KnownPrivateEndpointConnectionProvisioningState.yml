@@ -1,0 +1,32 @@
+name: KnownPrivateEndpointConnectionProvisioningState
+uid: '@azure/arm-storage.KnownPrivateEndpointConnectionProvisioningState|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Known values of
+  <xref:@azure/arm-storage.PrivateEndpointConnectionProvisioningState> that the
+  service accepts.
+fullName: KnownPrivateEndpointConnectionProvisioningState
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Creating
+    uid: >-
+      @azure/arm-storage.KnownPrivateEndpointConnectionProvisioningState.Creating|preview
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Deleting
+    uid: >-
+      @azure/arm-storage.KnownPrivateEndpointConnectionProvisioningState.Deleting|preview
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Failed
+    uid: >-
+      @azure/arm-storage.KnownPrivateEndpointConnectionProvisioningState.Failed|preview
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Succeeded
+    uid: >-
+      @azure/arm-storage.KnownPrivateEndpointConnectionProvisioningState.Succeeded|preview
+    package: '@azure/arm-storage|preview'
+    summary: ''

@@ -1,0 +1,23 @@
+name: Sku
+uid: '@azure/arm-appconfiguration.Sku|latest-stable'
+package: '@azure/arm-appconfiguration|latest-stable'
+summary: Describes a configuration store SKU.
+fullName: Sku
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: name
+    uid: '@azure/arm-appconfiguration.Sku.name|latest-stable'
+    package: '@azure/arm-appconfiguration|latest-stable'
+    summary: The SKU name of the configuration store.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        type: string
+        description: ''

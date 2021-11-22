@@ -1,0 +1,12 @@
+name: RestResponse
+uid: '@azure/core-http.RestResponse|latest-stable'
+package: '@azure/core-http|latest-stable'
+summary: |-
+  The flattened response to a REST call.
+  Contains the underlying HttpOperationResponse as well as
+  the merged properties of the parsedBody, parsedHeaders, etc.
+fullName: RestResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface

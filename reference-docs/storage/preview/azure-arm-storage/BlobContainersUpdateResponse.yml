@@ -1,0 +1,9 @@
+name: BlobContainersUpdateResponse
+uid: '@azure/arm-storage.BlobContainersUpdateResponse|preview'
+package: '@azure/arm-storage|preview'
+summary: Contains response data for the update operation.
+fullName: BlobContainersUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type BlobContainersUpdateResponse = BlobContainer

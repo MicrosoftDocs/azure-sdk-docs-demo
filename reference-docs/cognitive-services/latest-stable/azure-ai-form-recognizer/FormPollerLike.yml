@@ -1,0 +1,11 @@
+name: FormPollerLike
+uid: '@azure/ai-form-recognizer.FormPollerLike|latest-stable'
+package: '@azure/ai-form-recognizer|latest-stable'
+summary: Result type of the Recognize Form Long-Running-Operation (LRO)
+fullName: FormPollerLike
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type FormPollerLike =
+  PollerLike<RecognizeFormsOperationState,RecognizedFormArray>

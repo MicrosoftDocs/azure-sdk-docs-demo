@@ -1,0 +1,12 @@
+name: RecognizeCustomEntitiesActionResult
+uid: '@azure/ai-text-analytics.RecognizeCustomEntitiesActionResult|preview'
+package: '@azure/ai-text-analytics|preview'
+summary: The result of a custom recognize entities action.
+fullName: RecognizeCustomEntitiesActionResult
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type RecognizeCustomEntitiesActionResult =
+  RecongizeCustomEntitiesActionSuccessResult |
+  RecongizeCustomEntitiesActionErrorResult

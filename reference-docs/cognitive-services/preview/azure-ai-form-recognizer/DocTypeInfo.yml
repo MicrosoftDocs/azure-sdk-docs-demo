@@ -1,0 +1,53 @@
+name: DocTypeInfo
+uid: '@azure/ai-form-recognizer.DocTypeInfo|preview'
+package: '@azure/ai-form-recognizer|preview'
+summary: Document type info.
+fullName: DocTypeInfo
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: description
+    uid: '@azure/ai-form-recognizer.DocTypeInfo.description|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Model description.
+    fullName: description
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'description?: string'
+      return:
+        type: string
+        description: ''
+  - name: fieldConfidence
+    uid: '@azure/ai-form-recognizer.DocTypeInfo.fieldConfidence|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Estimated confidence for each field.
+    fullName: fieldConfidence
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fieldConfidence?: [key: string]: number'
+      return:
+        type: '[key: string]\: number'
+        description: ''
+  - name: fieldSchema
+    uid: '@azure/ai-form-recognizer.DocTypeInfo.fieldSchema|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: >-
+      Description of the document semantic schema using a JSON Schema style
+      syntax.
+    fullName: fieldSchema
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fieldSchema: [key: string]: DocumentFieldSchema'
+      return:
+        type: >-
+          [key: string]\: <xref
+          uid="@azure/ai-form-recognizer.DocumentFieldSchema" />
+        description: ''

@@ -1,0 +1,115 @@
+name: KnownOcrSkillLanguage
+uid: '@azure/search-documents.KnownOcrSkillLanguage|preview'
+package: '@azure/search-documents|preview'
+summary: >-
+  Known values of <xref:@azure/search-documents.OcrSkillLanguage> that the
+  service accepts.
+fullName: KnownOcrSkillLanguage
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Ar
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Ar|preview'
+    package: '@azure/search-documents|preview'
+    summary: Arabic
+  - name: Cs
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Cs|preview'
+    package: '@azure/search-documents|preview'
+    summary: Czech
+  - name: Da
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Da|preview'
+    package: '@azure/search-documents|preview'
+    summary: Danish
+  - name: De
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.De|preview'
+    package: '@azure/search-documents|preview'
+    summary: German
+  - name: El
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.El|preview'
+    package: '@azure/search-documents|preview'
+    summary: Greek
+  - name: En
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.En|preview'
+    package: '@azure/search-documents|preview'
+    summary: English
+  - name: Es
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Es|preview'
+    package: '@azure/search-documents|preview'
+    summary: Spanish
+  - name: Fi
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Fi|preview'
+    package: '@azure/search-documents|preview'
+    summary: Finnish
+  - name: Fr
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Fr|preview'
+    package: '@azure/search-documents|preview'
+    summary: French
+  - name: Hu
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Hu|preview'
+    package: '@azure/search-documents|preview'
+    summary: Hungarian
+  - name: It
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.It|preview'
+    package: '@azure/search-documents|preview'
+    summary: Italian
+  - name: Ja
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Ja|preview'
+    package: '@azure/search-documents|preview'
+    summary: Japanese
+  - name: Ko
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Ko|preview'
+    package: '@azure/search-documents|preview'
+    summary: Korean
+  - name: Nb
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Nb|preview'
+    package: '@azure/search-documents|preview'
+    summary: Norwegian (Bokmaal)
+  - name: Nl
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Nl|preview'
+    package: '@azure/search-documents|preview'
+    summary: Dutch
+  - name: Pl
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Pl|preview'
+    package: '@azure/search-documents|preview'
+    summary: Polish
+  - name: Pt
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Pt|preview'
+    package: '@azure/search-documents|preview'
+    summary: Portuguese
+  - name: Ro
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Ro|preview'
+    package: '@azure/search-documents|preview'
+    summary: Romanian
+  - name: Ru
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Ru|preview'
+    package: '@azure/search-documents|preview'
+    summary: Russian
+  - name: Sk
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Sk|preview'
+    package: '@azure/search-documents|preview'
+    summary: Slovak
+  - name: SrCyrl
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.SrCyrl|preview'
+    package: '@azure/search-documents|preview'
+    summary: Serbian (Cyrillic, Serbia)
+  - name: SrLatn
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.SrLatn|preview'
+    package: '@azure/search-documents|preview'
+    summary: Serbian (Latin, Serbia)
+  - name: Sv
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Sv|preview'
+    package: '@azure/search-documents|preview'
+    summary: Swedish
+  - name: Tr
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.Tr|preview'
+    package: '@azure/search-documents|preview'
+    summary: Turkish
+  - name: ZhHans
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.ZhHans|preview'
+    package: '@azure/search-documents|preview'
+    summary: Chinese-Simplified
+  - name: ZhHant
+    uid: '@azure/search-documents.KnownOcrSkillLanguage.ZhHant|preview'
+    package: '@azure/search-documents|preview'
+    summary: Chinese-Traditional

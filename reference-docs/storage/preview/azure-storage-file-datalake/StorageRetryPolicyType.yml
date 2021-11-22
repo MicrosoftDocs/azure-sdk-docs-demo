@@ -1,0 +1,19 @@
+name: StorageRetryPolicyType
+uid: '@azure/storage-file-datalake.StorageRetryPolicyType|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: RetryPolicy types.
+fullName: StorageRetryPolicyType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: EXPONENTIAL
+    uid: '@azure/storage-file-datalake.StorageRetryPolicyType.EXPONENTIAL|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: Exponential retry. Retry time delay grows exponentially.
+    numericValue: 0
+  - name: FIXED
+    uid: '@azure/storage-file-datalake.StorageRetryPolicyType.FIXED|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: Linear retry. Retry time delay grows linearly.
+    numericValue: 1

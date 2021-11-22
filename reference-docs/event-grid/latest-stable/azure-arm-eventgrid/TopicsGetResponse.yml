@@ -1,0 +1,9 @@
+name: TopicsGetResponse
+uid: '@azure/arm-eventgrid.TopicsGetResponse|latest-stable'
+package: '@azure/arm-eventgrid|latest-stable'
+summary: Contains response data for the get operation.
+fullName: TopicsGetResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type TopicsGetResponse = Topic & { _response: Object }'

@@ -1,0 +1,11 @@
+name: TableServicesSetServicePropertiesResponse
+uid: '@azure/arm-storage.TableServicesSetServicePropertiesResponse|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: Contains response data for the setServiceProperties operation.
+fullName: TableServicesSetServicePropertiesResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type TableServicesSetServicePropertiesResponse = TableServiceProperties & {
+  _response: Object }

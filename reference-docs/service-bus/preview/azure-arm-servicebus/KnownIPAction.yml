@@ -1,0 +1,19 @@
+name: KnownIPAction
+uid: '@azure/arm-servicebus.KnownIPAction|preview'
+package: '@azure/arm-servicebus|preview'
+summary: >-
+  Known values of <xref:@azure/arm-servicebus.IPAction> that the service
+  accepts.
+fullName: KnownIPAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Accept
+    uid: '@azure/arm-servicebus.KnownIPAction.Accept|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+  - name: Reject
+    uid: '@azure/arm-servicebus.KnownIPAction.Reject|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''

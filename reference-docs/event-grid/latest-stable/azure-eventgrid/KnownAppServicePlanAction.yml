@@ -1,0 +1,15 @@
+name: KnownAppServicePlanAction
+uid: '@azure/eventgrid.KnownAppServicePlanAction|latest-stable'
+package: '@azure/eventgrid|latest-stable'
+summary: >-
+  Known values of <xref:@azure/eventgrid.AppServicePlanAction> that the service
+  accepts.
+fullName: KnownAppServicePlanAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Updated
+    uid: '@azure/eventgrid.KnownAppServicePlanAction.Updated|latest-stable'
+    package: '@azure/eventgrid|latest-stable'
+    summary: App Service plan is being updated.

@@ -1,0 +1,9 @@
+name: CreateSkillsetOptions
+uid: '@azure/search-documents.CreateSkillsetOptions|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: Options for create skillset operation.
+fullName: CreateSkillsetOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type CreateSkillsetOptions = OperationOptions

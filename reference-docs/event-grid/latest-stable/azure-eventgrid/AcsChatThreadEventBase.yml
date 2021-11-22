@@ -1,0 +1,11 @@
+name: AcsChatThreadEventBase
+uid: '@azure/eventgrid.AcsChatThreadEventBase|latest-stable'
+package: '@azure/eventgrid|latest-stable'
+summary: Schema of common properties of all chat thread events
+fullName: AcsChatThreadEventBase
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type AcsChatThreadEventBase = AcsChatEventBase & { createTime: string,
+  version: number }

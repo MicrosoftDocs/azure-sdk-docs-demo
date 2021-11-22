@@ -1,0 +1,11 @@
+name: ServiceGetPropertiesResponse
+uid: '@azure/storage-queue.ServiceGetPropertiesResponse|preview'
+package: '@azure/storage-queue|preview'
+summary: Contains response data for the getProperties operation.
+fullName: ServiceGetPropertiesResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type ServiceGetPropertiesResponse = ServiceGetPropertiesHeaders &
+  QueueServiceProperties & { _response: Object }

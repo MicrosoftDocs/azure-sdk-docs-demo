@@ -1,0 +1,11 @@
+name: AnalyzeHealthcareEntitiesPollerLike
+uid: '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesPollerLike|preview'
+package: '@azure/ai-text-analytics|preview'
+summary: Result type of the Health Long-Running-Operation (LRO)
+fullName: AnalyzeHealthcareEntitiesPollerLike
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type AnalyzeHealthcareEntitiesPollerLike =
+  PollerLike<AnalyzeHealthcareOperationState,PagedAnalyzeHealthcareEntitiesResult>

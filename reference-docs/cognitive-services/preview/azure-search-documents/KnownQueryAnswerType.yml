@@ -1,0 +1,21 @@
+name: KnownQueryAnswerType
+uid: '@azure/search-documents.KnownQueryAnswerType|preview'
+package: '@azure/search-documents|preview'
+summary: >-
+  Known values of <xref:@azure/search-documents.QueryAnswerType> that the
+  service accepts.
+fullName: KnownQueryAnswerType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Extractive
+    uid: '@azure/search-documents.KnownQueryAnswerType.Extractive|preview'
+    package: '@azure/search-documents|preview'
+    summary: >-
+      Extracts answer candidates from the contents of the documents returned in
+      response to a query expressed as a question in natural language.
+  - name: None
+    uid: '@azure/search-documents.KnownQueryAnswerType.None|preview'
+    package: '@azure/search-documents|preview'
+    summary: Do not return answers for the query.

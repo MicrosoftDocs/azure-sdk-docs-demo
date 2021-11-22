@@ -1,0 +1,109 @@
+name: Usage
+uid: '@azure/arm-cognitiveservices.Usage|latest-stable'
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: The usage data for a usage request.
+fullName: Usage
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: currentValue
+    uid: '@azure/arm-cognitiveservices.Usage.currentValue|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Current value for this metric.
+    fullName: currentValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'currentValue?: undefined | number'
+      return:
+        type: undefined | number
+        description: ''
+  - name: limit
+    uid: '@azure/arm-cognitiveservices.Usage.limit|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Maximum value for this metric.
+    fullName: limit
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'limit?: undefined | number'
+      return:
+        type: undefined | number
+        description: ''
+  - name: name
+    uid: '@azure/arm-cognitiveservices.Usage.name|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: The name information for the metric.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name?: MetricName'
+      return:
+        type: <xref uid="@azure/arm-cognitiveservices.MetricName" />
+        description: ''
+  - name: nextResetTime
+    uid: '@azure/arm-cognitiveservices.Usage.nextResetTime|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Next reset time for current quota.
+    fullName: nextResetTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'nextResetTime?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: quotaPeriod
+    uid: '@azure/arm-cognitiveservices.Usage.quotaPeriod|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: The quota period used to summarize the usage values.
+    fullName: quotaPeriod
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'quotaPeriod?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: status
+    uid: '@azure/arm-cognitiveservices.Usage.status|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: >-
+      Cognitive Services account quota usage status. Possible values include:
+      'Included', 'Blocked',
+
+      'InOverage', 'Unknown'
+    fullName: status
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'status?: QuotaUsageStatus'
+      return:
+        type: <xref uid="@azure/arm-cognitiveservices.QuotaUsageStatus" />
+        description: ''
+  - name: unit
+    uid: '@azure/arm-cognitiveservices.Usage.unit|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: >-
+      The unit of the metric. Possible values include: 'Count', 'Bytes',
+      'Seconds', 'Percent',
+
+      'CountPerSecond', 'BytesPerSecond', 'Milliseconds'
+    fullName: unit
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'unit?: UnitType'
+      return:
+        type: <xref uid="@azure/arm-cognitiveservices.UnitType" />
+        description: ''

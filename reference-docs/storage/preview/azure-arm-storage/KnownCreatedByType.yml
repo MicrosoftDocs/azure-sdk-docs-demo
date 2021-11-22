@@ -1,0 +1,27 @@
+name: KnownCreatedByType
+uid: '@azure/arm-storage.KnownCreatedByType|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Known values of <xref:@azure/arm-storage.CreatedByType> that the service
+  accepts.
+fullName: KnownCreatedByType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Application
+    uid: '@azure/arm-storage.KnownCreatedByType.Application|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Key
+    uid: '@azure/arm-storage.KnownCreatedByType.Key|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: ManagedIdentity
+    uid: '@azure/arm-storage.KnownCreatedByType.ManagedIdentity|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: User
+    uid: '@azure/arm-storage.KnownCreatedByType.User|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

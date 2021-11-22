@@ -1,0 +1,44 @@
+name: AutocompleteItem
+uid: '@azure/search-documents.AutocompleteItem|preview'
+package: '@azure/search-documents|preview'
+summary: The result of Autocomplete requests.
+fullName: AutocompleteItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: queryPlusText
+    uid: '@azure/search-documents.AutocompleteItem.queryPlusText|preview'
+    package: '@azure/search-documents|preview'
+    summary: >-
+      The query along with the completed term.
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: queryPlusText
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'queryPlusText: string'
+      return:
+        type: string
+        description: ''
+  - name: text
+    uid: '@azure/search-documents.AutocompleteItem.text|preview'
+    package: '@azure/search-documents|preview'
+    summary: >-
+      The completed term.
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: text
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'text: string'
+      return:
+        type: string
+        description: ''

@@ -1,0 +1,11 @@
+name: DeploymentScaleType
+uid: '@azure/arm-cognitiveservices.DeploymentScaleType|latest-stable'
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: |-
+  Defines values for DeploymentScaleType.
+  Possible values include: 'Manual'
+fullName: DeploymentScaleType
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type DeploymentScaleType = Manual

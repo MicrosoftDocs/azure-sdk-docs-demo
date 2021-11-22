@@ -1,0 +1,21 @@
+name: KnownQuerySpellerType
+uid: '@azure/search-documents.KnownQuerySpellerType|preview'
+package: '@azure/search-documents|preview'
+summary: >-
+  Known values of <xref:@azure/search-documents.QuerySpellerType> that the
+  service accepts.
+fullName: KnownQuerySpellerType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Lexicon
+    uid: '@azure/search-documents.KnownQuerySpellerType.Lexicon|preview'
+    package: '@azure/search-documents|preview'
+    summary: >-
+      Speller corrects individual query terms using a static lexicon for the
+      language specified by the queryLanguage parameter.
+  - name: None
+    uid: '@azure/search-documents.KnownQuerySpellerType.None|preview'
+    package: '@azure/search-documents|preview'
+    summary: Speller not enabled.

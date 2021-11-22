@@ -1,0 +1,9 @@
+name: PrivateLinkResourcesGetResponse
+uid: '@azure/arm-servicebus.PrivateLinkResourcesGetResponse|preview'
+package: '@azure/arm-servicebus|preview'
+summary: Contains response data for the get operation.
+fullName: PrivateLinkResourcesGetResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type PrivateLinkResourcesGetResponse = PrivateLinkResourcesListResult

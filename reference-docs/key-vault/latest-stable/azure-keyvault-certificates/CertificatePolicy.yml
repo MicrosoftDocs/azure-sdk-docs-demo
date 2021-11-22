@@ -1,0 +1,13 @@
+name: CertificatePolicy
+uid: '@azure/keyvault-certificates.CertificatePolicy|latest-stable'
+package: '@azure/keyvault-certificates|latest-stable'
+summary: >-
+  An type representing a certificate's policy with at least one of the subject
+  properties.
+fullName: CertificatePolicy
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type CertificatePolicy = CertificatePolicyProperties &
+  RequireAtLeastOne<PolicySubjectProperties>

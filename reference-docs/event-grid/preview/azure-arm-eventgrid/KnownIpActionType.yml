@@ -1,0 +1,15 @@
+name: KnownIpActionType
+uid: '@azure/arm-eventgrid.KnownIpActionType|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: >-
+  Known values of <xref:@azure/arm-eventgrid.IpActionType> that the service
+  accepts.
+fullName: KnownIpActionType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Allow
+    uid: '@azure/arm-eventgrid.KnownIpActionType.Allow|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''

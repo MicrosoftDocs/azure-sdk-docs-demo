@@ -1,0 +1,49 @@
+name: NumberNotInAdvancedFilter
+uid: '@azure/arm-eventgrid.NumberNotInAdvancedFilter|latest-stable'
+package: '@azure/arm-eventgrid|latest-stable'
+summary: NumberNotIn Advanced Filter.
+fullName: NumberNotInAdvancedFilter
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: key
+    uid: '@azure/arm-eventgrid.NumberNotInAdvancedFilter.key|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: The field/property in the event based on which you want to filter.
+    fullName: key
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'key?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: operatorType
+    uid: '@azure/arm-eventgrid.NumberNotInAdvancedFilter.operatorType|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: Polymorphic Discriminator
+    fullName: operatorType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'operatorType: "NumberNotIn"'
+      return:
+        type: '"NumberNotIn"'
+        description: ''
+  - name: values
+    uid: '@azure/arm-eventgrid.NumberNotInAdvancedFilter.values|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: The set of filter values.
+    fullName: values
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'values?: number[]'
+      return:
+        type: number[]
+        description: ''

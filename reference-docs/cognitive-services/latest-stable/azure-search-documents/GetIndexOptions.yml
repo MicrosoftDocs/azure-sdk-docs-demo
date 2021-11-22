@@ -1,0 +1,9 @@
+name: GetIndexOptions
+uid: '@azure/search-documents.GetIndexOptions|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: Options for get index operation.
+fullName: GetIndexOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type GetIndexOptions = OperationOptions

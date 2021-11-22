@@ -1,0 +1,9 @@
+name: TableOperationsListNextResponse
+uid: '@azure/arm-storage.TableOperationsListNextResponse|preview'
+package: '@azure/arm-storage|preview'
+summary: Contains response data for the listNext operation.
+fullName: TableOperationsListNextResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type TableOperationsListNextResponse = ListTableResource

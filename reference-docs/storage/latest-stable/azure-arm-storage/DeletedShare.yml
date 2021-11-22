@@ -1,0 +1,36 @@
+name: DeletedShare
+uid: '@azure/arm-storage.DeletedShare|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: The deleted share to be restored.
+fullName: DeletedShare
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: deletedShareName
+    uid: '@azure/arm-storage.DeletedShare.deletedShareName|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: Required. Identify the name of the deleted share that will be restored.
+    fullName: deletedShareName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'deletedShareName: string'
+      return:
+        type: string
+        description: ''
+  - name: deletedShareVersion
+    uid: '@azure/arm-storage.DeletedShare.deletedShareVersion|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: Required. Identify the version of the deleted share that will be restored.
+    fullName: deletedShareVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'deletedShareVersion: string'
+      return:
+        type: string
+        description: ''

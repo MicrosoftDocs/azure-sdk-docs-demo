@@ -1,0 +1,9 @@
+name: PathGetPropertiesActionModel
+uid: '@azure/storage-file-datalake.PathGetPropertiesActionModel|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: Defines values for PathGetPropertiesAction.
+fullName: PathGetPropertiesActionModel
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type PathGetPropertiesActionModel = "getAccessControl" | "getStatus"

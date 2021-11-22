@@ -1,0 +1,23 @@
+name: IdentityType
+uid: '@azure/arm-storage.IdentityType|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Defines values for IdentityType. \
+
+  <xref:@azure/arm-storage.KnownIdentityType> can be used interchangeably with
+  IdentityType,
+   this enum contains the known values that the service supports.
+  ### Known values supported by the service
+
+  **None** \
+
+  **SystemAssigned** \
+
+  **UserAssigned** \
+
+  **SystemAssigned,UserAssigned**
+fullName: IdentityType
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type IdentityType = string

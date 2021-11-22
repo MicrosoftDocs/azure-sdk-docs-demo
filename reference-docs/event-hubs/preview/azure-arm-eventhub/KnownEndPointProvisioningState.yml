@@ -1,0 +1,35 @@
+name: KnownEndPointProvisioningState
+uid: '@azure/arm-eventhub.KnownEndPointProvisioningState|preview'
+package: '@azure/arm-eventhub|preview'
+summary: >-
+  Known values of <xref:@azure/arm-eventhub.EndPointProvisioningState> that the
+  service accepts.
+fullName: KnownEndPointProvisioningState
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Canceled
+    uid: '@azure/arm-eventhub.KnownEndPointProvisioningState.Canceled|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: ''
+  - name: Creating
+    uid: '@azure/arm-eventhub.KnownEndPointProvisioningState.Creating|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: ''
+  - name: Deleting
+    uid: '@azure/arm-eventhub.KnownEndPointProvisioningState.Deleting|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: ''
+  - name: Failed
+    uid: '@azure/arm-eventhub.KnownEndPointProvisioningState.Failed|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: ''
+  - name: Succeeded
+    uid: '@azure/arm-eventhub.KnownEndPointProvisioningState.Succeeded|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: ''
+  - name: Updating
+    uid: '@azure/arm-eventhub.KnownEndPointProvisioningState.Updating|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: ''

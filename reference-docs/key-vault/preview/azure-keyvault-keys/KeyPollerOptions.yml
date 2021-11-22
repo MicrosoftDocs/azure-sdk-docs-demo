@@ -1,0 +1,78 @@
+name: KeyPollerOptions
+uid: '@azure/keyvault-keys.KeyPollerOptions|preview'
+package: '@azure/keyvault-keys|preview'
+summary: |-
+  An interface representing the optional parameters that can be
+  passed to beginDeleteKey and beginRecoverDeletedKey
+fullName: KeyPollerOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: '@azure/keyvault-keys.KeyPollerOptions.abortSignal|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: The signal which can be used to abort requests.
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: intervalInMs
+    uid: '@azure/keyvault-keys.KeyPollerOptions.intervalInMs|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Time between each polling
+    fullName: intervalInMs
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'intervalInMs?: number'
+      return:
+        type: number
+        description: ''
+  - name: requestOptions
+    uid: '@azure/keyvault-keys.KeyPollerOptions.requestOptions|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Options used when creating and sending HTTP requests for this operation.
+    fullName: requestOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'requestOptions?: OperationRequestOptions'
+      return:
+        type: OperationRequestOptions
+        description: ''
+  - name: resumeFrom
+    uid: '@azure/keyvault-keys.KeyPollerOptions.resumeFrom|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: A serialized poller, used to resume an existing operation
+    fullName: resumeFrom
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'resumeFrom?: string'
+      return:
+        type: string
+        description: ''
+  - name: tracingOptions
+    uid: '@azure/keyvault-keys.KeyPollerOptions.tracingOptions|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Options used when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+extends: OperationOptions

@@ -1,0 +1,393 @@
+name: KnownAnalyzerNames
+uid: '@azure/search-documents.KnownAnalyzerNames|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: |-
+  Defines values for AnalyzerName.
+  See https://docs.microsoft.com/rest/api/searchservice/Language-support
+fullName: KnownAnalyzerNames
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: ArLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.ArLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Arabic
+  - name: ArMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.ArMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Arabic
+  - name: BgLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.BgLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Bulgarian
+  - name: BgMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.BgMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Bulgarian
+  - name: BnMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.BnMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Bangla
+  - name: CaLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.CaLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Catalan
+  - name: CaMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.CaMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Catalan
+  - name: CsLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.CsLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Czech
+  - name: CsMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.CsMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Czech
+  - name: DaLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.DaLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Danish
+  - name: DaMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.DaMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Danish
+  - name: DeLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.DeLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: German
+  - name: DeMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.DeMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: German
+  - name: ElLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.ElLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Greek
+  - name: ElMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.ElMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Greek
+  - name: EnLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.EnLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: English
+  - name: EnMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.EnMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: English
+  - name: EsLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.EsLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Spanish
+  - name: EsMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.EsMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Spanish
+  - name: EtMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.EtMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Estonian
+  - name: EuLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.EuLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Basque
+  - name: FaLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.FaLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Persian
+  - name: FiLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.FiLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Finnish
+  - name: FiMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.FiMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Finnish
+  - name: FrLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.FrLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: French
+  - name: FrMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.FrMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: French
+  - name: GaLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.GaLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Irish
+  - name: GlLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.GlLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Galician
+  - name: GuMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.GuMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Gujarati
+  - name: HeMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.HeMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Hebrew
+  - name: HiLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.HiLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Hindi
+  - name: HiMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.HiMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Hindi
+  - name: HrMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.HrMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Croatian
+  - name: HuLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.HuLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Hungarian
+  - name: HuMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.HuMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Hungarian
+  - name: HyLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.HyLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Armenian
+  - name: IdLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.IdLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Indonesian (Bahasa)
+  - name: IdMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.IdMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Indonesian (Bahasa)
+  - name: IsMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.IsMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Icelandic
+  - name: ItLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.ItLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Italian
+  - name: ItMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.ItMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Italian
+  - name: JaLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.JaLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Japanese
+  - name: JaMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.JaMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Japanese
+  - name: Keyword
+    uid: '@azure/search-documents.KnownAnalyzerNames.Keyword|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: >-
+      Treats the entire content of a field as a single token. This is useful for
+      data like zip codes, ids, and some product names.
+  - name: KnMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.KnMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Kannada
+  - name: KoLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.KoLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Korean
+  - name: KoMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.KoMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Korean
+  - name: LtMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.LtMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Lithuanian
+  - name: LvLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.LvLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Latvian
+  - name: LvMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.LvMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Latvian
+  - name: MlMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.MlMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Malayalam
+  - name: MrMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.MrMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Marathi
+  - name: MsMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.MsMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Malay (Latin)
+  - name: NbMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.NbMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Norwegian
+  - name: NlLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.NlLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Dutch
+  - name: NlMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.NlMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Dutch
+  - name: NoLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.NoLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Norwegian
+  - name: PaMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.PaMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Punjabi
+  - name: Pattern
+    uid: '@azure/search-documents.KnownAnalyzerNames.Pattern|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Flexibly separates text into terms via a regular expression pattern.
+  - name: PlLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.PlLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Polish
+  - name: PlMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.PlMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Polish
+  - name: PtBRLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.PtBRLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Portuguese (Brazil)
+  - name: PtBRMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.PtBRMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Portuguese (Brazil)
+  - name: PtPTLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.PtPTLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Portuguese (Portugal)
+  - name: PtPTMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.PtPTMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Portuguese (Portugal)
+  - name: RoLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.RoLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Romanian
+  - name: RoMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.RoMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Romanian
+  - name: RuLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.RuLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Russian
+  - name: RuMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.RuMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Russian
+  - name: Simple
+    uid: '@azure/search-documents.KnownAnalyzerNames.Simple|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Divides text at non-letters and converts them to lower case.
+  - name: SkMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.SkMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Slovak
+  - name: SlMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.SlMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Slovenian
+  - name: SrCyrillicMicrosoft
+    uid: >-
+      @azure/search-documents.KnownAnalyzerNames.SrCyrillicMicrosoft|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Serbian (Cyrillic)
+  - name: SrLatinMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.SrLatinMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Serbian (Latin)
+  - name: StandardAsciiFoldingLucene
+    uid: >-
+      @azure/search-documents.KnownAnalyzerNames.StandardAsciiFoldingLucene|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: >-
+      See
+      https://lucene.apache.org/core/6_6_1/analyzers-common/org/apache/lucene/analysis/miscellaneous/ASCIIFoldingFilter.html
+  - name: StandardLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.StandardLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: >-
+      See:
+      https://lucene.apache.org/core/6_6_1/core/org/apache/lucene/analysis/standard/StandardAnalyzer.html
+  - name: Stop
+    uid: '@azure/search-documents.KnownAnalyzerNames.Stop|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: >-
+      Divides text at non-letters; Applies the lowercase and stopword token
+      filters.
+  - name: SvLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.SvLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Swedish
+  - name: SvMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.SvMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Swedish
+  - name: TaMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.TaMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Tamil
+  - name: TeMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.TeMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Telugu
+  - name: ThLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.ThLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Thai
+  - name: ThMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.ThMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Thai
+  - name: TrLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.TrLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Turkish
+  - name: TrMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.TrMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Turkish
+  - name: UkMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.UkMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Ukrainian
+  - name: UrMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.UrMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Urdu
+  - name: ViMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.ViMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Vietnamese
+  - name: Whitespace
+    uid: '@azure/search-documents.KnownAnalyzerNames.Whitespace|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: An analyzer that uses the whitespace tokenizer.
+  - name: ZhHansLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.ZhHansLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Chinese Simplified
+  - name: ZhHansMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.ZhHansMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Chinese Simplified
+  - name: ZhHantLucene
+    uid: '@azure/search-documents.KnownAnalyzerNames.ZhHantLucene|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Chinese Traditional
+  - name: ZhHantMicrosoft
+    uid: '@azure/search-documents.KnownAnalyzerNames.ZhHantMicrosoft|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Chinese Traditional

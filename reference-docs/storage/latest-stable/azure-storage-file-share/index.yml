@@ -1,0 +1,362 @@
+uid: '@azure/storage-file-share|latest-stable'
+name: '@azure/storage-file-share'
+summary: ''
+type: package
+enums:
+  - '@azure/storage-file-share.SASProtocol|latest-stable'
+  - '@azure/storage-file-share.StorageRetryPolicyType|latest-stable'
+classes:
+  - '@azure/storage-file-share.AccountSASPermissions|latest-stable'
+  - '@azure/storage-file-share.AccountSASResourceTypes|latest-stable'
+  - '@azure/storage-file-share.AccountSASServices|latest-stable'
+  - '@azure/storage-file-share.AnonymousCredential|latest-stable'
+  - '@azure/storage-file-share.AnonymousCredentialPolicy|latest-stable'
+  - '@azure/storage-file-share.Credential|latest-stable'
+  - '@azure/storage-file-share.CredentialPolicy|latest-stable'
+  - '@azure/storage-file-share.FileSASPermissions|latest-stable'
+  - '@azure/storage-file-share.FileSystemAttributes|latest-stable'
+  - '@azure/storage-file-share.Pipeline|latest-stable'
+  - '@azure/storage-file-share.SASQueryParameters|latest-stable'
+  - '@azure/storage-file-share.ShareClient|latest-stable'
+  - '@azure/storage-file-share.ShareDirectoryClient|latest-stable'
+  - '@azure/storage-file-share.ShareFileClient|latest-stable'
+  - '@azure/storage-file-share.ShareLeaseClient|latest-stable'
+  - '@azure/storage-file-share.ShareSASPermissions|latest-stable'
+  - '@azure/storage-file-share.ShareServiceClient|latest-stable'
+  - '@azure/storage-file-share.StorageBrowserPolicy|latest-stable'
+  - '@azure/storage-file-share.StorageBrowserPolicyFactory|latest-stable'
+  - '@azure/storage-file-share.StorageClient|latest-stable'
+  - '@azure/storage-file-share.StorageClientContext|latest-stable'
+  - '@azure/storage-file-share.StorageRetryPolicy|latest-stable'
+  - '@azure/storage-file-share.StorageRetryPolicyFactory|latest-stable'
+  - '@azure/storage-file-share.StorageSharedKeyCredential|latest-stable'
+  - '@azure/storage-file-share.StorageSharedKeyCredentialPolicy|latest-stable'
+interfaces:
+  - '@azure/storage-file-share.AccessPolicy|latest-stable'
+  - '@azure/storage-file-share.AccountSASSignatureValues|latest-stable'
+  - '@azure/storage-file-share.ClearRange|latest-stable'
+  - '@azure/storage-file-share.CloseHandlesInfo|latest-stable'
+  - '@azure/storage-file-share.CommonGenerateSasUrlOptions|latest-stable'
+  - '@azure/storage-file-share.CommonOptions|latest-stable'
+  - '@azure/storage-file-share.CopyFileSmbInfo|latest-stable'
+  - '@azure/storage-file-share.CorsRule|latest-stable'
+  - '@azure/storage-file-share.DirectoryCloseHandlesHeaders|latest-stable'
+  - '@azure/storage-file-share.DirectoryCreateHeaders|latest-stable'
+  - '@azure/storage-file-share.DirectoryCreateIfNotExistsResponse|latest-stable'
+  - '@azure/storage-file-share.DirectoryCreateOptions|latest-stable'
+  - '@azure/storage-file-share.DirectoryDeleteHeaders|latest-stable'
+  - '@azure/storage-file-share.DirectoryDeleteIfExistsResponse|latest-stable'
+  - '@azure/storage-file-share.DirectoryDeleteOptions|latest-stable'
+  - '@azure/storage-file-share.DirectoryExistsOptions|latest-stable'
+  - '@azure/storage-file-share.DirectoryForceCloseHandlesHeaders|latest-stable'
+  - '@azure/storage-file-share.DirectoryForceCloseHandlesOptions|latest-stable'
+  - >-
+    @azure/storage-file-share.DirectoryForceCloseHandlesSegmentOptions|latest-stable
+  - '@azure/storage-file-share.DirectoryGetPropertiesHeaders|latest-stable'
+  - '@azure/storage-file-share.DirectoryGetPropertiesOptions|latest-stable'
+  - '@azure/storage-file-share.DirectoryItem|latest-stable'
+  - >-
+    @azure/storage-file-share.DirectoryListFilesAndDirectoriesOptions|latest-stable
+  - >-
+    @azure/storage-file-share.DirectoryListFilesAndDirectoriesSegmentHeaders|latest-stable
+  - '@azure/storage-file-share.DirectoryListHandlesHeaders|latest-stable'
+  - '@azure/storage-file-share.DirectoryListHandlesOptions|latest-stable'
+  - '@azure/storage-file-share.DirectoryListHandlesSegmentOptions|latest-stable'
+  - '@azure/storage-file-share.DirectoryProperties|latest-stable'
+  - '@azure/storage-file-share.DirectorySetMetadataHeaders|latest-stable'
+  - '@azure/storage-file-share.DirectorySetMetadataOptions|latest-stable'
+  - '@azure/storage-file-share.DirectorySetPropertiesHeaders|latest-stable'
+  - '@azure/storage-file-share.FileAbortCopyFromURLOptions|latest-stable'
+  - '@azure/storage-file-share.FileAbortCopyHeaders|latest-stable'
+  - '@azure/storage-file-share.FileAndDirectoryCreateCommonOptions|latest-stable'
+  - >-
+    @azure/storage-file-share.FileAndDirectorySetPropertiesCommonOptions|latest-stable
+  - '@azure/storage-file-share.FileClearRangeOptions|latest-stable'
+  - '@azure/storage-file-share.FileCloseHandlesHeaders|latest-stable'
+  - '@azure/storage-file-share.FileCreateHeaders|latest-stable'
+  - '@azure/storage-file-share.FileCreateOptions|latest-stable'
+  - '@azure/storage-file-share.FileDeleteHeaders|latest-stable'
+  - '@azure/storage-file-share.FileDeleteIfExistsResponse|latest-stable'
+  - '@azure/storage-file-share.FileDeleteOptions|latest-stable'
+  - '@azure/storage-file-share.FileDownloadHeaders|latest-stable'
+  - '@azure/storage-file-share.FileDownloadOptionalParams|latest-stable'
+  - '@azure/storage-file-share.FileDownloadOptions|latest-stable'
+  - '@azure/storage-file-share.FileDownloadToBufferOptions|latest-stable'
+  - '@azure/storage-file-share.FileExistsOptions|latest-stable'
+  - '@azure/storage-file-share.FileForceCloseHandlesHeaders|latest-stable'
+  - '@azure/storage-file-share.FileForceCloseHandlesOptions|latest-stable'
+  - '@azure/storage-file-share.FileGenerateSasUrlOptions|latest-stable'
+  - '@azure/storage-file-share.FileGetPropertiesHeaders|latest-stable'
+  - '@azure/storage-file-share.FileGetPropertiesOptions|latest-stable'
+  - '@azure/storage-file-share.FileGetRangeListHeaders|latest-stable'
+  - '@azure/storage-file-share.FileGetRangeListOptions|latest-stable'
+  - '@azure/storage-file-share.FileHttpHeaders|latest-stable'
+  - '@azure/storage-file-share.FileItem|latest-stable'
+  - '@azure/storage-file-share.FileListHandlesHeaders|latest-stable'
+  - '@azure/storage-file-share.FileListHandlesOptions|latest-stable'
+  - '@azure/storage-file-share.FileListHandlesSegmentOptions|latest-stable'
+  - '@azure/storage-file-share.FileParallelUploadOptions|latest-stable'
+  - '@azure/storage-file-share.FileProperties|latest-stable'
+  - '@azure/storage-file-share.FileProperty|latest-stable'
+  - '@azure/storage-file-share.FileResizeOptions|latest-stable'
+  - '@azure/storage-file-share.FileSASSignatureValues|latest-stable'
+  - '@azure/storage-file-share.FileServiceProperties|latest-stable'
+  - '@azure/storage-file-share.FileSetHTTPHeadersHeaders|latest-stable'
+  - '@azure/storage-file-share.FileSetHttpHeadersOptions|latest-stable'
+  - '@azure/storage-file-share.FileSetMetadataHeaders|latest-stable'
+  - '@azure/storage-file-share.FileSetMetadataOptions|latest-stable'
+  - '@azure/storage-file-share.FileStartCopyHeaders|latest-stable'
+  - '@azure/storage-file-share.FileStartCopyOptions|latest-stable'
+  - '@azure/storage-file-share.FileUploadRangeFromURLHeaders|latest-stable'
+  - '@azure/storage-file-share.FileUploadRangeFromURLOptionalParams|latest-stable'
+  - '@azure/storage-file-share.FileUploadRangeFromURLOptions|latest-stable'
+  - '@azure/storage-file-share.FileUploadRangeHeaders|latest-stable'
+  - '@azure/storage-file-share.FileUploadRangeOptions|latest-stable'
+  - '@azure/storage-file-share.FileUploadStreamOptions|latest-stable'
+  - '@azure/storage-file-share.FilesAndDirectoriesListSegment|latest-stable'
+  - '@azure/storage-file-share.HandleItem|latest-stable'
+  - '@azure/storage-file-share.HttpAuthorization|latest-stable'
+  - '@azure/storage-file-share.LeaseAccessConditions|latest-stable'
+  - '@azure/storage-file-share.LeaseOperationOptions|latest-stable'
+  - '@azure/storage-file-share.LeaseOperationResponseHeaders|latest-stable'
+  - >-
+    @azure/storage-file-share.ListFilesAndDirectoriesSegmentResponse|latest-stable
+  - '@azure/storage-file-share.ListHandlesResponse|latest-stable'
+  - '@azure/storage-file-share.ListSharesResponse|latest-stable'
+  - '@azure/storage-file-share.ListSharesResponseModel|latest-stable'
+  - '@azure/storage-file-share.Metadata|latest-stable'
+  - '@azure/storage-file-share.Metrics|latest-stable'
+  - '@azure/storage-file-share.PipelineOptions|latest-stable'
+  - '@azure/storage-file-share.Range|latest-stable'
+  - '@azure/storage-file-share.RangeModel|latest-stable'
+  - '@azure/storage-file-share.RetentionPolicy|latest-stable'
+  - '@azure/storage-file-share.SasIPRange|latest-stable'
+  - '@azure/storage-file-share.ServiceGenerateAccountSasUrlOptions|latest-stable'
+  - '@azure/storage-file-share.ServiceGetPropertiesHeaders|latest-stable'
+  - '@azure/storage-file-share.ServiceGetPropertiesOptions|latest-stable'
+  - '@azure/storage-file-share.ServiceListSharesOptions|latest-stable'
+  - '@azure/storage-file-share.ServiceListSharesSegmentHeaders|latest-stable'
+  - '@azure/storage-file-share.ServiceSetPropertiesHeaders|latest-stable'
+  - '@azure/storage-file-share.ServiceSetPropertiesOptions|latest-stable'
+  - '@azure/storage-file-share.ServiceUndeleteShareOptions|latest-stable'
+  - '@azure/storage-file-share.SetPropertiesResponse|latest-stable'
+  - '@azure/storage-file-share.ShareCreateHeaders|latest-stable'
+  - '@azure/storage-file-share.ShareCreateIfNotExistsResponse|latest-stable'
+  - '@azure/storage-file-share.ShareCreateOptions|latest-stable'
+  - '@azure/storage-file-share.ShareCreatePermissionHeaders|latest-stable'
+  - '@azure/storage-file-share.ShareCreatePermissionOptions|latest-stable'
+  - '@azure/storage-file-share.ShareCreateSnapshotHeaders|latest-stable'
+  - '@azure/storage-file-share.ShareCreateSnapshotOptions|latest-stable'
+  - '@azure/storage-file-share.ShareDeleteHeaders|latest-stable'
+  - '@azure/storage-file-share.ShareDeleteIfExistsResponse|latest-stable'
+  - '@azure/storage-file-share.ShareDeleteMethodOptions|latest-stable'
+  - '@azure/storage-file-share.ShareExistsOptions|latest-stable'
+  - '@azure/storage-file-share.ShareFileRangeList|latest-stable'
+  - '@azure/storage-file-share.ShareGenerateSasUrlOptions|latest-stable'
+  - '@azure/storage-file-share.ShareGetAccessPolicyHeaders|latest-stable'
+  - '@azure/storage-file-share.ShareGetAccessPolicyOptions|latest-stable'
+  - '@azure/storage-file-share.ShareGetPermissionHeaders|latest-stable'
+  - '@azure/storage-file-share.ShareGetPermissionOptions|latest-stable'
+  - '@azure/storage-file-share.ShareGetPropertiesHeaders|latest-stable'
+  - '@azure/storage-file-share.ShareGetPropertiesOptions|latest-stable'
+  - '@azure/storage-file-share.ShareGetStatisticsHeaders|latest-stable'
+  - '@azure/storage-file-share.ShareGetStatisticsOptions|latest-stable'
+  - '@azure/storage-file-share.ShareItem|latest-stable'
+  - '@azure/storage-file-share.ShareItemInternal|latest-stable'
+  - '@azure/storage-file-share.SharePermission|latest-stable'
+  - '@azure/storage-file-share.SharePropertiesInternal|latest-stable'
+  - '@azure/storage-file-share.ShareProtocolSettings|latest-stable'
+  - '@azure/storage-file-share.ShareProtocols|latest-stable'
+  - '@azure/storage-file-share.ShareSetAccessPolicyHeaders|latest-stable'
+  - '@azure/storage-file-share.ShareSetAccessPolicyOptions|latest-stable'
+  - '@azure/storage-file-share.ShareSetMetadataHeaders|latest-stable'
+  - '@azure/storage-file-share.ShareSetMetadataOptions|latest-stable'
+  - '@azure/storage-file-share.ShareSetPropertiesHeaders|latest-stable'
+  - '@azure/storage-file-share.ShareSetPropertiesOptions|latest-stable'
+  - '@azure/storage-file-share.ShareSetQuotaOptions|latest-stable'
+  - '@azure/storage-file-share.ShareSmbSettings|latest-stable'
+  - '@azure/storage-file-share.ShareStats|latest-stable'
+  - '@azure/storage-file-share.SignedIdentifier|latest-stable'
+  - '@azure/storage-file-share.SignedIdentifierModel|latest-stable'
+  - '@azure/storage-file-share.SmbMultichannel|latest-stable'
+  - '@azure/storage-file-share.SourceModifiedAccessConditions|latest-stable'
+  - '@azure/storage-file-share.StorageClientOptionalParams|latest-stable'
+  - '@azure/storage-file-share.StoragePipelineOptions|latest-stable'
+  - '@azure/storage-file-share.StorageRetryOptions|latest-stable'
+typeAliases:
+  - '@azure/storage-file-share.CopyStatusType|latest-stable'
+  - '@azure/storage-file-share.CredentialPolicyCreator|latest-stable'
+  - '@azure/storage-file-share.DeleteSnapshotsOptionType|latest-stable'
+  - '@azure/storage-file-share.DirectoryCreateResponse|latest-stable'
+  - '@azure/storage-file-share.DirectoryDeleteResponse|latest-stable'
+  - '@azure/storage-file-share.DirectoryForceCloseHandlesResponse|latest-stable'
+  - '@azure/storage-file-share.DirectoryGetPropertiesResponse|latest-stable'
+  - >-
+    @azure/storage-file-share.DirectoryListFilesAndDirectoriesSegmentResponse|latest-stable
+  - '@azure/storage-file-share.DirectoryListHandlesResponse|latest-stable'
+  - '@azure/storage-file-share.DirectorySetMetadataResponse|latest-stable'
+  - '@azure/storage-file-share.DirectorySetPropertiesResponse|latest-stable'
+  - '@azure/storage-file-share.FileAbortCopyResponse|latest-stable'
+  - '@azure/storage-file-share.FileAttributesPreserveType|latest-stable'
+  - '@azure/storage-file-share.FileCreateResponse|latest-stable'
+  - '@azure/storage-file-share.FileDeleteResponse|latest-stable'
+  - '@azure/storage-file-share.FileDownloadResponseModel|latest-stable'
+  - '@azure/storage-file-share.FileForceCloseHandlesResponse|latest-stable'
+  - '@azure/storage-file-share.FileGetPropertiesResponse|latest-stable'
+  - '@azure/storage-file-share.FileGetRangeListDiffResponse|latest-stable'
+  - '@azure/storage-file-share.FileGetRangeListResponse|latest-stable'
+  - '@azure/storage-file-share.FileListHandlesResponse|latest-stable'
+  - '@azure/storage-file-share.FilePermissionInheritType|latest-stable'
+  - '@azure/storage-file-share.FilePermissionPreserveType|latest-stable'
+  - '@azure/storage-file-share.FileSetHTTPHeadersResponse|latest-stable'
+  - '@azure/storage-file-share.FileSetMetadataResponse|latest-stable'
+  - '@azure/storage-file-share.FileStartCopyResponse|latest-stable'
+  - '@azure/storage-file-share.FileType|latest-stable'
+  - '@azure/storage-file-share.FileUploadRangeFromURLResponse|latest-stable'
+  - '@azure/storage-file-share.FileUploadRangeResponse|latest-stable'
+  - '@azure/storage-file-share.LeaseDurationType|latest-stable'
+  - '@azure/storage-file-share.LeaseOperationResponse|latest-stable'
+  - '@azure/storage-file-share.LeaseStateType|latest-stable'
+  - '@azure/storage-file-share.LeaseStatusType|latest-stable'
+  - '@azure/storage-file-share.ListSharesIncludeType|latest-stable'
+  - '@azure/storage-file-share.PermissionCopyModeType|latest-stable'
+  - '@azure/storage-file-share.ServiceGetPropertiesResponse|latest-stable'
+  - '@azure/storage-file-share.ServiceListSharesSegmentResponse|latest-stable'
+  - '@azure/storage-file-share.ServiceSetPropertiesResponse|latest-stable'
+  - '@azure/storage-file-share.ShareAccessTier|latest-stable'
+  - '@azure/storage-file-share.ShareCreatePermissionResponse|latest-stable'
+  - '@azure/storage-file-share.ShareCreateResponse|latest-stable'
+  - '@azure/storage-file-share.ShareCreateSnapshotResponse|latest-stable'
+  - '@azure/storage-file-share.ShareDeleteResponse|latest-stable'
+  - '@azure/storage-file-share.ShareGetAccessPolicyResponse|latest-stable'
+  - '@azure/storage-file-share.ShareGetPermissionResponse|latest-stable'
+  - '@azure/storage-file-share.ShareGetPropertiesResponse|latest-stable'
+  - '@azure/storage-file-share.ShareGetPropertiesResponseModel|latest-stable'
+  - '@azure/storage-file-share.ShareGetStatisticsResponse|latest-stable'
+  - '@azure/storage-file-share.ShareGetStatisticsResponseModel|latest-stable'
+  - '@azure/storage-file-share.ShareProperties|latest-stable'
+  - '@azure/storage-file-share.ShareRootSquash|latest-stable'
+  - '@azure/storage-file-share.ShareSetAccessPolicyResponse|latest-stable'
+  - '@azure/storage-file-share.ShareSetMetadataResponse|latest-stable'
+  - '@azure/storage-file-share.ShareSetPropertiesResponse|latest-stable'
+  - '@azure/storage-file-share.ShareSetQuotaHeaders|latest-stable'
+  - '@azure/storage-file-share.ShareSetQuotaResponse|latest-stable'
+  - '@azure/storage-file-share.TimeNowType|latest-stable'
+  - '@azure/storage-file-share.TimePreserveType|latest-stable'
+functions:
+  - name: >-
+      generateAccountSASQueryParameters(AccountSASSignatureValues,
+      StorageSharedKeyCredential)
+    uid: '@azure/storage-file-share.generateAccountSASQueryParameters|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: >
+      ONLY AVAILABLE IN NODE.JS RUNTIME.
+
+      Generates a <xref:@azure/storage-file-share.SASQueryParameters> object
+      which contains all SAS query parameters needed to make an actual
+
+      REST request.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function generateAccountSASQueryParameters(accountSASSignatureValues:
+        AccountSASSignatureValues, sharedKeyCredential:
+        StorageSharedKeyCredential)
+      parameters:
+        - id: accountSASSignatureValues
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.AccountSASSignatureValues|latest-stable"
+            />
+          description: ''
+        - id: sharedKeyCredential
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.StorageSharedKeyCredential|latest-stable"
+            />
+          description: |
+            -
+      return:
+        type: >-
+          <xref uid="@azure/storage-file-share.SASQueryParameters|latest-stable"
+          />
+        description: ''
+  - name: >-
+      generateFileSASQueryParameters(FileSASSignatureValues,
+      StorageSharedKeyCredential)
+    uid: '@azure/storage-file-share.generateFileSASQueryParameters|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: >
+      ONLY AVAILABLE IN NODE.JS RUNTIME.
+
+      Creates an instance of SASQueryParameters.
+
+
+      Only accepts required settings needed to create a SAS. For optional
+      settings please
+
+      set corresponding properties directly, such as permissions, startsOn and
+      identifier.
+
+
+      WARNING: When identifier is not provided, permissions and expiresOn are
+      required.
+
+      You MUST assign value to identifier or expiresOn & permissions manually if
+      you initial with
+
+      this constructor.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function generateFileSASQueryParameters(fileSASSignatureValues:
+        FileSASSignatureValues, sharedKeyCredential: StorageSharedKeyCredential)
+      parameters:
+        - id: fileSASSignatureValues
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileSASSignatureValues|latest-stable"
+            />
+          description: '-'
+        - id: sharedKeyCredential
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.StorageSharedKeyCredential|latest-stable"
+            />
+          description: |
+            -
+      return:
+        type: >-
+          <xref uid="@azure/storage-file-share.SASQueryParameters|latest-stable"
+          />
+        description: ''
+  - name: newPipeline(Credential, StoragePipelineOptions)
+    uid: '@azure/storage-file-share.newPipeline|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: >-
+      Creates a new <xref:@azure/storage-file-share.Pipeline> object with
+      <xref:@azure/storage-file-share.Credential> provided.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function newPipeline(credential?: Credential, pipelineOptions?:
+        StoragePipelineOptions)
+      parameters:
+        - id: credential
+          type: <xref uid="@azure/storage-file-share.Credential|latest-stable" />
+          description: Such as AnonymousCredential, StorageSharedKeyCredential.
+        - id: pipelineOptions
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.StoragePipelineOptions|latest-stable"
+            />
+          description: Optional. Options.
+      return:
+        type: <xref uid="@azure/storage-file-share.Pipeline|latest-stable" />
+        description: A new Pipeline object.

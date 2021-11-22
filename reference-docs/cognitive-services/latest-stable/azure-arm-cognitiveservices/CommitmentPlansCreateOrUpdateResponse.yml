@@ -1,0 +1,12 @@
+name: CommitmentPlansCreateOrUpdateResponse
+uid: >-
+  @azure/arm-cognitiveservices.CommitmentPlansCreateOrUpdateResponse|latest-stable
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: Contains response data for the createOrUpdate operation.
+fullName: CommitmentPlansCreateOrUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type CommitmentPlansCreateOrUpdateResponse = CommitmentPlan & { _response:
+  Object }

@@ -1,0 +1,69 @@
+name: RecognizePiiEntitiesActionSuccessResult
+uid: '@azure/ai-text-analytics.RecognizePiiEntitiesActionSuccessResult|preview'
+package: '@azure/ai-text-analytics|preview'
+summary: The results of a succeeded recognize pii entities action.
+fullName: RecognizePiiEntitiesActionSuccessResult
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: actionName
+    uid: >-
+      @azure/ai-text-analytics.RecognizePiiEntitiesActionSuccessResult.actionName|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: The name of the action.
+    fullName: actionName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'actionName?: string'
+      return:
+        type: string
+        description: ''
+  - name: completedOn
+    uid: >-
+      @azure/ai-text-analytics.RecognizePiiEntitiesActionSuccessResult.completedOn|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: When this action was completed by the service.
+    fullName: completedOn
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'completedOn: Date'
+      return:
+        type: Date
+        description: ''
+  - name: error
+    uid: >-
+      @azure/ai-text-analytics.RecognizePiiEntitiesActionSuccessResult.error|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: Discriminant to determine if that this is an error result.
+    fullName: error
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'error?: undefined'
+      return:
+        type: undefined
+        description: ''
+  - name: results
+    uid: >-
+      @azure/ai-text-analytics.RecognizePiiEntitiesActionSuccessResult.results|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: Array of the results for each pii entities recognition action.
+    fullName: results
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'results: RecognizePiiEntitiesResultArray'
+      return:
+        type: >-
+          <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResultArray"
+          />
+        description: ''
+extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsActionSuccessState" />

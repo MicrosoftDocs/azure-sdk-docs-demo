@@ -1,0 +1,16 @@
+name: OperationKind
+uid: '@azure/ai-form-recognizer.OperationKind|preview'
+package: '@azure/ai-form-recognizer|preview'
+summary: |-
+  Defines values for OperationKind. \
+  KnownOperationKind can be used interchangeably with OperationKind,
+   this enum contains the known values that the service supports.
+  ### Known values supported by the service
+  **documentModelBuild** \
+  **documentModelCompose** \
+  **documentModelCopyTo**
+fullName: OperationKind
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type OperationKind = string

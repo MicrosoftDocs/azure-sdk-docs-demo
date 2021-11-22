@@ -1,0 +1,13 @@
+name: QueuePeekMessagesResponse
+uid: '@azure/storage-queue.QueuePeekMessagesResponse|preview'
+package: '@azure/storage-queue|preview'
+summary: >-
+  Contains the response data for the
+  <xref:@azure/storage-queue.QueueClient.peekMessages> operation.
+fullName: QueuePeekMessagesResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type QueuePeekMessagesResponse = { peekedMessageItems: Object } &
+  MessagesPeekHeaders & { _response: Object }

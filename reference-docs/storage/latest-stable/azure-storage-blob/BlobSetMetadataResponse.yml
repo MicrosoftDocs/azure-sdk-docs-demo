@@ -1,0 +1,9 @@
+name: BlobSetMetadataResponse
+uid: '@azure/storage-blob.BlobSetMetadataResponse|latest-stable'
+package: '@azure/storage-blob|latest-stable'
+summary: Contains response data for the setMetadata operation.
+fullName: BlobSetMetadataResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type BlobSetMetadataResponse = BlobSetMetadataHeaders & { _response: Object }'

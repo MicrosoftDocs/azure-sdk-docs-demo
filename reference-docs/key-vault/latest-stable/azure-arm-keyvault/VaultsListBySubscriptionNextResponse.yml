@@ -1,0 +1,11 @@
+name: VaultsListBySubscriptionNextResponse
+uid: '@azure/arm-keyvault.VaultsListBySubscriptionNextResponse|latest-stable'
+package: '@azure/arm-keyvault|latest-stable'
+summary: Contains response data for the listBySubscriptionNext operation.
+fullName: VaultsListBySubscriptionNextResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type VaultsListBySubscriptionNextResponse = VaultListResult & { _response:
+  Object }

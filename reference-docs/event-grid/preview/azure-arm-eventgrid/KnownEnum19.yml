@@ -1,0 +1,17 @@
+name: KnownEnum19
+uid: '@azure/arm-eventgrid.KnownEnum19|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: Known values of <xref:@azure/arm-eventgrid.Enum19> that the service accepts.
+fullName: KnownEnum19
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Domains
+    uid: '@azure/arm-eventgrid.KnownEnum19.Domains|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: Topics
+    uid: '@azure/arm-eventgrid.KnownEnum19.Topics|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''

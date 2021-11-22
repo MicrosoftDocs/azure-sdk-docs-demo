@@ -1,0 +1,96 @@
+name: MachineLearningServicesRunCompletedEventData
+uid: '@azure/eventgrid.MachineLearningServicesRunCompletedEventData|latest-stable'
+package: '@azure/eventgrid|latest-stable'
+summary: >-
+  Schema of the Data property of an EventGridEvent for a
+  Microsoft.MachineLearningServices.RunCompleted event.
+fullName: MachineLearningServicesRunCompletedEventData
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: experimentId
+    uid: >-
+      @azure/eventgrid.MachineLearningServicesRunCompletedEventData.experimentId|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: The ID of the experiment that the run belongs to.
+    fullName: experimentId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'experimentId: string'
+      return:
+        type: string
+        description: ''
+  - name: experimentName
+    uid: >-
+      @azure/eventgrid.MachineLearningServicesRunCompletedEventData.experimentName|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: The name of the experiment that the run belongs to.
+    fullName: experimentName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'experimentName: string'
+      return:
+        type: string
+        description: ''
+  - name: runId
+    uid: >-
+      @azure/eventgrid.MachineLearningServicesRunCompletedEventData.runId|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: The ID of the Run that was completed.
+    fullName: runId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'runId: string'
+      return:
+        type: string
+        description: ''
+  - name: runProperties
+    uid: >-
+      @azure/eventgrid.MachineLearningServicesRunCompletedEventData.runProperties|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: The properties of the completed Run.
+    fullName: runProperties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'runProperties: any'
+      return:
+        type: any
+        description: ''
+  - name: runTags
+    uid: >-
+      @azure/eventgrid.MachineLearningServicesRunCompletedEventData.runTags|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: The tags of the completed Run.
+    fullName: runTags
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'runTags: any'
+      return:
+        type: any
+        description: ''
+  - name: runType
+    uid: >-
+      @azure/eventgrid.MachineLearningServicesRunCompletedEventData.runType|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: The Run Type of the completed Run.
+    fullName: runType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'runType: string'
+      return:
+        type: string
+        description: ''

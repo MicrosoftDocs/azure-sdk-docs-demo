@@ -1,0 +1,137 @@
+name: EventHubCaptureFileCreatedEventData
+uid: '@azure/eventgrid.EventHubCaptureFileCreatedEventData|latest-stable'
+package: '@azure/eventgrid|latest-stable'
+summary: >-
+  Schema of the Data property of an EventGridEvent for a
+  Microsoft.EventHub.CaptureFileCreated event.
+fullName: EventHubCaptureFileCreatedEventData
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: eventCount
+    uid: >-
+      @azure/eventgrid.EventHubCaptureFileCreatedEventData.eventCount|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: The number of events in the file.
+    fullName: eventCount
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'eventCount: number'
+      return:
+        type: number
+        description: ''
+  - name: fileType
+    uid: >-
+      @azure/eventgrid.EventHubCaptureFileCreatedEventData.fileType|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: The file type of the capture file.
+    fullName: fileType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fileType: string'
+      return:
+        type: string
+        description: ''
+  - name: fileurl
+    uid: '@azure/eventgrid.EventHubCaptureFileCreatedEventData.fileurl|latest-stable'
+    package: '@azure/eventgrid|latest-stable'
+    summary: The path to the capture file.
+    fullName: fileurl
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fileurl: string'
+      return:
+        type: string
+        description: ''
+  - name: firstEnqueueTime
+    uid: >-
+      @azure/eventgrid.EventHubCaptureFileCreatedEventData.firstEnqueueTime|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: The first time from the queue.
+    fullName: firstEnqueueTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'firstEnqueueTime: string'
+      return:
+        type: string
+        description: ''
+  - name: firstSequenceNumber
+    uid: >-
+      @azure/eventgrid.EventHubCaptureFileCreatedEventData.firstSequenceNumber|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: The smallest sequence number from the queue.
+    fullName: firstSequenceNumber
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'firstSequenceNumber: number'
+      return:
+        type: number
+        description: ''
+  - name: lastEnqueueTime
+    uid: >-
+      @azure/eventgrid.EventHubCaptureFileCreatedEventData.lastEnqueueTime|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: The last time from the queue.
+    fullName: lastEnqueueTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lastEnqueueTime: string'
+      return:
+        type: string
+        description: ''
+  - name: lastSequenceNumber
+    uid: >-
+      @azure/eventgrid.EventHubCaptureFileCreatedEventData.lastSequenceNumber|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: The last sequence number from the queue.
+    fullName: lastSequenceNumber
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lastSequenceNumber: number'
+      return:
+        type: number
+        description: ''
+  - name: partitionId
+    uid: >-
+      @azure/eventgrid.EventHubCaptureFileCreatedEventData.partitionId|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: The shard ID.
+    fullName: partitionId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'partitionId: string'
+      return:
+        type: string
+        description: ''
+  - name: sizeInBytes
+    uid: >-
+      @azure/eventgrid.EventHubCaptureFileCreatedEventData.sizeInBytes|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: The file size.
+    fullName: sizeInBytes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sizeInBytes: number'
+      return:
+        type: number
+        description: ''

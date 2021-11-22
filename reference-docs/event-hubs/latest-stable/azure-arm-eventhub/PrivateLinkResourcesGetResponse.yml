@@ -1,0 +1,11 @@
+name: PrivateLinkResourcesGetResponse
+uid: '@azure/arm-eventhub.PrivateLinkResourcesGetResponse|latest-stable'
+package: '@azure/arm-eventhub|latest-stable'
+summary: Contains response data for the get operation.
+fullName: PrivateLinkResourcesGetResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type PrivateLinkResourcesGetResponse = PrivateLinkResourcesListResult & {
+  _response: Object }

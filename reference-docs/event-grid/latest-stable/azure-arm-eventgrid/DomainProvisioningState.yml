@@ -1,0 +1,15 @@
+name: DomainProvisioningState
+uid: '@azure/arm-eventgrid.DomainProvisioningState|latest-stable'
+package: '@azure/arm-eventgrid|latest-stable'
+summary: >-
+  Defines values for DomainProvisioningState.
+
+  Possible values include: 'Creating', 'Updating', 'Deleting', 'Succeeded',
+  'Canceled', 'Failed'
+fullName: DomainProvisioningState
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type DomainProvisioningState = "Creating" | "Updating" | "Deleting" |
+  "Succeeded" | "Canceled" | "Failed"

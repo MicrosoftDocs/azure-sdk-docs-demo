@@ -1,0 +1,9 @@
+name: TopicsListAuthorizationRulesResponse
+uid: '@azure/arm-servicebus.TopicsListAuthorizationRulesResponse|preview'
+package: '@azure/arm-servicebus|preview'
+summary: Contains response data for the listAuthorizationRules operation.
+fullName: TopicsListAuthorizationRulesResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type TopicsListAuthorizationRulesResponse = SBAuthorizationRuleListResult

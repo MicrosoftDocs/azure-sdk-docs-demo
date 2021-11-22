@@ -1,0 +1,15 @@
+name: IndexNameIterator
+uid: '@azure/search-documents.IndexNameIterator|preview'
+package: '@azure/search-documents|preview'
+summary: >-
+  An iterator for listing the indexes that exist in the Search service. Will
+  make requests
+
+  as needed during iteration. Use .byPage() to make one request to the server
+
+  per iteration.
+fullName: IndexNameIterator
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type IndexNameIterator = PagedAsyncIterableIterator<string,,__type>

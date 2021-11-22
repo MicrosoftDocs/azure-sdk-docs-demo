@@ -1,0 +1,9 @@
+name: CreateSynonymMapOptions
+uid: '@azure/search-documents.CreateSynonymMapOptions|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: Options for create synonymmap operation.
+fullName: CreateSynonymMapOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type CreateSynonymMapOptions = OperationOptions

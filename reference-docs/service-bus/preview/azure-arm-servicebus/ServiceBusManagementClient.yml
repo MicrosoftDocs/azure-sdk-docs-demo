@@ -1,0 +1,311 @@
+name: ServiceBusManagementClient
+uid: '@azure/arm-servicebus.ServiceBusManagementClient|preview'
+package: '@azure/arm-servicebus|preview'
+summary: ''
+fullName: ServiceBusManagementClient
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: >-
+      ServiceBusManagementClient(TokenCredential, string,
+      ServiceBusManagementClientOptionalParams)
+    uid: '@azure/arm-servicebus.ServiceBusManagementClient.constructor|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: Initializes a new instance of the ServiceBusManagementClient class.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new ServiceBusManagementClient(credentials: TokenCredential,
+        subscriptionId: string, options?:
+        ServiceBusManagementClientOptionalParams)
+      parameters:
+        - id: credentials
+          type: TokenCredential
+          description: >-
+            Subscription credentials which uniquely identify client
+            subscription.
+        - id: subscriptionId
+          type: string
+          description: |-
+            Subscription credentials that uniquely identify a Microsoft Azure
+                                  subscription. The subscription ID forms part of the URI for every service call.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.ServiceBusManagementClientOptionalParams"
+            />
+          description: |
+            The parameter options
+properties:
+  - name: $host
+    uid: '@azure/arm-servicebus.ServiceBusManagementClient.$host|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+    fullName: $host
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: '$host: string'
+      return:
+        type: string
+        description: ''
+  - name: apiVersion
+    uid: '@azure/arm-servicebus.ServiceBusManagementClient.apiVersion|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+    fullName: apiVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'apiVersion: string'
+      return:
+        type: string
+        description: ''
+  - name: disasterRecoveryConfigs
+    uid: >-
+      @azure/arm-servicebus.ServiceBusManagementClient.disasterRecoveryConfigs|preview
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+    fullName: disasterRecoveryConfigs
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'disasterRecoveryConfigs: DisasterRecoveryConfigs'
+      return:
+        type: <xref uid="@azure/arm-servicebus.DisasterRecoveryConfigs" />
+        description: ''
+  - name: eventHubs
+    uid: '@azure/arm-servicebus.ServiceBusManagementClient.eventHubs|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+    fullName: eventHubs
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'eventHubs: EventHubs'
+      return:
+        type: <xref uid="@azure/arm-servicebus.EventHubs" />
+        description: ''
+  - name: migrationConfigs
+    uid: '@azure/arm-servicebus.ServiceBusManagementClient.migrationConfigs|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+    fullName: migrationConfigs
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'migrationConfigs: MigrationConfigs'
+      return:
+        type: <xref uid="@azure/arm-servicebus.MigrationConfigs" />
+        description: ''
+  - name: namespaces
+    uid: '@azure/arm-servicebus.ServiceBusManagementClient.namespaces|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+    fullName: namespaces
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'namespaces: Namespaces'
+      return:
+        type: <xref uid="@azure/arm-servicebus.Namespaces" />
+        description: ''
+  - name: operations
+    uid: '@azure/arm-servicebus.ServiceBusManagementClient.operations|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+    fullName: operations
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'operations: Operations'
+      return:
+        type: <xref uid="@azure/arm-servicebus.Operations" />
+        description: ''
+  - name: pipeline
+    uid: '@azure/arm-servicebus.ServiceBusManagementClient.pipeline|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: The pipeline used by this client to make requests
+    fullName: pipeline
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'pipeline: Pipeline'
+      return:
+        type: Pipeline
+        description: ''
+  - name: premiumMessagingRegionsOperations
+    uid: >-
+      @azure/arm-servicebus.ServiceBusManagementClient.premiumMessagingRegionsOperations|preview
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+    fullName: premiumMessagingRegionsOperations
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'premiumMessagingRegionsOperations: PremiumMessagingRegionsOperations'
+      return:
+        type: <xref uid="@azure/arm-servicebus.PremiumMessagingRegionsOperations" />
+        description: ''
+  - name: privateEndpointConnections
+    uid: >-
+      @azure/arm-servicebus.ServiceBusManagementClient.privateEndpointConnections|preview
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+    fullName: privateEndpointConnections
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'privateEndpointConnections: PrivateEndpointConnections'
+      return:
+        type: <xref uid="@azure/arm-servicebus.PrivateEndpointConnections" />
+        description: ''
+  - name: privateLinkResources
+    uid: >-
+      @azure/arm-servicebus.ServiceBusManagementClient.privateLinkResources|preview
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+    fullName: privateLinkResources
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'privateLinkResources: PrivateLinkResources'
+      return:
+        type: <xref uid="@azure/arm-servicebus.PrivateLinkResources" />
+        description: ''
+  - name: queues
+    uid: '@azure/arm-servicebus.ServiceBusManagementClient.queues|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+    fullName: queues
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'queues: Queues'
+      return:
+        type: <xref uid="@azure/arm-servicebus.Queues" />
+        description: ''
+  - name: regions
+    uid: '@azure/arm-servicebus.ServiceBusManagementClient.regions|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+    fullName: regions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'regions: Regions'
+      return:
+        type: <xref uid="@azure/arm-servicebus.Regions" />
+        description: ''
+  - name: rules
+    uid: '@azure/arm-servicebus.ServiceBusManagementClient.rules|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+    fullName: rules
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'rules: Rules'
+      return:
+        type: <xref uid="@azure/arm-servicebus.Rules" />
+        description: ''
+  - name: subscriptionId
+    uid: '@azure/arm-servicebus.ServiceBusManagementClient.subscriptionId|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+    fullName: subscriptionId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'subscriptionId: string'
+      return:
+        type: string
+        description: ''
+  - name: subscriptions
+    uid: '@azure/arm-servicebus.ServiceBusManagementClient.subscriptions|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+    fullName: subscriptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'subscriptions: Subscriptions'
+      return:
+        type: <xref uid="@azure/arm-servicebus.Subscriptions" />
+        description: ''
+  - name: topics
+    uid: '@azure/arm-servicebus.ServiceBusManagementClient.topics|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+    fullName: topics
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'topics: Topics'
+      return:
+        type: <xref uid="@azure/arm-servicebus.Topics" />
+        description: ''
+methods:
+  - name: sendOperationRequest<T>(OperationArguments, OperationSpec)
+    uid: >-
+      @azure/arm-servicebus.ServiceBusManagementClient.sendOperationRequest|preview
+    package: '@azure/arm-servicebus|preview'
+    summary: Send an HTTP request that is populated using the provided OperationSpec.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function sendOperationRequest<T>(operationArguments: OperationArguments,
+        operationSpec: OperationSpec)
+      parameters:
+        - id: operationArguments
+          type: OperationArguments
+          description: >-
+            The arguments that the HTTP request's templated values will be
+            populated from.
+        - id: operationSpec
+          type: OperationSpec
+          description: |
+            The OperationSpec to use to populate the httpRequest.
+      return:
+        type: Promise&lt;T&gt;
+        description: ''
+  - name: sendRequest(PipelineRequest)
+    uid: '@azure/arm-servicebus.ServiceBusManagementClient.sendRequest|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: Send the provided httpRequest.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function sendRequest(request: PipelineRequest)'
+      parameters:
+        - id: request
+          type: PipelineRequest
+          description: ''
+      return:
+        type: Promise&lt;PipelineResponse&gt;
+        description: ''
+extends: <xref uid="@azure/arm-servicebus.ServiceBusManagementClientContext" />

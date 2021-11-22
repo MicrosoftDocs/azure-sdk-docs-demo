@@ -1,0 +1,14 @@
+name: EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextResponse
+uid: >-
+  @azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextResponse|preview
+package: '@azure/arm-eventgrid|preview'
+summary: >-
+  Contains response data for the listGlobalByResourceGroupForTopicTypeNext
+  operation.
+fullName: EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextResponse =
+  EventSubscriptionsListResult

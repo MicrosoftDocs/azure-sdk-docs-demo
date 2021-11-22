@@ -1,0 +1,11 @@
+name: UpdateEntityAction
+uid: '@azure/data-tables.UpdateEntityAction|latest-stable'
+package: '@azure/data-tables|latest-stable'
+summary: >-
+  Represents the Update or Upsert Entity operation to be included in a
+  Transaction request
+fullName: UpdateEntityAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type UpdateEntityAction =  | '

@@ -1,0 +1,9 @@
+name: ServiceRenameFileSystemOptions
+uid: '@azure/storage-file-datalake.ServiceRenameFileSystemOptions|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: Options to configure DataLakeServiceClient.renameFileSystem.
+fullName: ServiceRenameFileSystemOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type ServiceRenameFileSystemOptions = ServiceRenameContainerOptions

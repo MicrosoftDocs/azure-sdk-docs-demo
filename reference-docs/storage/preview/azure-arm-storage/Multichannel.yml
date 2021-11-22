@@ -1,0 +1,23 @@
+name: Multichannel
+uid: '@azure/arm-storage.Multichannel|preview'
+package: '@azure/arm-storage|preview'
+summary: Multichannel setting. Applies to Premium FileStorage only.
+fullName: Multichannel
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: enabled
+    uid: '@azure/arm-storage.Multichannel.enabled|preview'
+    package: '@azure/arm-storage|preview'
+    summary: Indicates whether multichannel is enabled
+    fullName: enabled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'enabled?: undefined | false | true'
+      return:
+        type: undefined | false | true
+        description: ''

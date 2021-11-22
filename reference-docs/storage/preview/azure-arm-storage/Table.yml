@@ -1,0 +1,9 @@
+name: Table
+uid: '@azure/arm-storage.Table|preview'
+package: '@azure/arm-storage|preview'
+summary: Properties of the table, including Id, resource name, resource type.
+fullName: Table
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type Table = Resource & { tableName: Object }'

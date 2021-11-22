@@ -1,0 +1,9 @@
+name: ConsumerGroupsListByEventHubNextResponse
+uid: '@azure/arm-eventhub.ConsumerGroupsListByEventHubNextResponse|preview'
+package: '@azure/arm-eventhub|preview'
+summary: Contains response data for the listByEventHubNext operation.
+fullName: ConsumerGroupsListByEventHubNextResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type ConsumerGroupsListByEventHubNextResponse = ConsumerGroupListResult

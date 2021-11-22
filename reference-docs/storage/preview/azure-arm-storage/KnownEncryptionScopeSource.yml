@@ -1,0 +1,19 @@
+name: KnownEncryptionScopeSource
+uid: '@azure/arm-storage.KnownEncryptionScopeSource|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Known values of <xref:@azure/arm-storage.EncryptionScopeSource> that the
+  service accepts.
+fullName: KnownEncryptionScopeSource
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: MicrosoftKeyVault
+    uid: '@azure/arm-storage.KnownEncryptionScopeSource.MicrosoftKeyVault|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: MicrosoftStorage
+    uid: '@azure/arm-storage.KnownEncryptionScopeSource.MicrosoftStorage|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

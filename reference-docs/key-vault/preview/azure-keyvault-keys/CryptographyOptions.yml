@@ -1,0 +1,52 @@
+name: CryptographyOptions
+uid: '@azure/keyvault-keys.CryptographyOptions|preview'
+package: '@azure/keyvault-keys|preview'
+summary: >-
+  An interface representing the options of the cryptography API methods, go to
+  the <xref:@azure/keyvault-keys.CryptographyClient> for more information.
+fullName: CryptographyOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: '@azure/keyvault-keys.CryptographyOptions.abortSignal|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: The signal which can be used to abort requests.
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: requestOptions
+    uid: '@azure/keyvault-keys.CryptographyOptions.requestOptions|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Options used when creating and sending HTTP requests for this operation.
+    fullName: requestOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'requestOptions?: OperationRequestOptions'
+      return:
+        type: OperationRequestOptions
+        description: ''
+  - name: tracingOptions
+    uid: '@azure/keyvault-keys.CryptographyOptions.tracingOptions|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Options used when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+extends: OperationOptions

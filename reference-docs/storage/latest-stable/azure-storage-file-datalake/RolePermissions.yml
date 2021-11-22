@@ -1,0 +1,49 @@
+name: RolePermissions
+uid: '@azure/storage-file-datalake.RolePermissions|latest-stable'
+package: '@azure/storage-file-datalake|latest-stable'
+summary: ''
+fullName: RolePermissions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: execute
+    uid: '@azure/storage-file-datalake.RolePermissions.execute|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: execute
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'execute: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: read
+    uid: '@azure/storage-file-datalake.RolePermissions.read|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: read
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'read: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: write
+    uid: '@azure/storage-file-datalake.RolePermissions.write|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: write
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'write: boolean'
+      return:
+        type: boolean
+        description: ''

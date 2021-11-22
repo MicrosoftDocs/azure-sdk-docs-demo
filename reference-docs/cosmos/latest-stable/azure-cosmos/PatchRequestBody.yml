@@ -1,0 +1,11 @@
+name: PatchRequestBody
+uid: '@azure/cosmos.PatchRequestBody|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: ''
+fullName: PatchRequestBody
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type PatchRequestBody = { condition: string, operations: Object } |
+  PatchOperation[]

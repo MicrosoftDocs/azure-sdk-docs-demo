@@ -1,0 +1,9 @@
+name: PathFlushDataResponse
+uid: '@azure/storage-file-datalake.PathFlushDataResponse|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: Contains response data for the flushData operation.
+fullName: PathFlushDataResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type PathFlushDataResponse = PathFlushDataHeaders & { _response: Object }'

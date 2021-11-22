@@ -1,0 +1,11 @@
+name: AppendBlobAppendBlockFromUrlResponse
+uid: '@azure/storage-blob.AppendBlobAppendBlockFromUrlResponse|preview'
+package: '@azure/storage-blob|preview'
+summary: Contains response data for the appendBlockFromUrl operation.
+fullName: AppendBlobAppendBlockFromUrlResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type AppendBlobAppendBlockFromUrlResponse =
+  AppendBlobAppendBlockFromUrlHeaders & { _response: Object }

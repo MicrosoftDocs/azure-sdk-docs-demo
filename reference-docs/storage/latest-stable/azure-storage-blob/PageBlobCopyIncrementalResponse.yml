@@ -1,0 +1,11 @@
+name: PageBlobCopyIncrementalResponse
+uid: '@azure/storage-blob.PageBlobCopyIncrementalResponse|latest-stable'
+package: '@azure/storage-blob|latest-stable'
+summary: Contains response data for the copyIncremental operation.
+fullName: PageBlobCopyIncrementalResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type PageBlobCopyIncrementalResponse = PageBlobCopyIncrementalHeaders & {
+  _response: Object }

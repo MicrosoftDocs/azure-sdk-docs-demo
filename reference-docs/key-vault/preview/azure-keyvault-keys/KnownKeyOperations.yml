@@ -1,0 +1,39 @@
+name: KnownKeyOperations
+uid: '@azure/keyvault-keys.KnownKeyOperations|preview'
+package: '@azure/keyvault-keys|preview'
+summary: >-
+  Known values of <xref:@azure/keyvault-keys.KeyOperation> that the service
+  accepts.
+fullName: KnownKeyOperations
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Decrypt
+    uid: '@azure/keyvault-keys.KnownKeyOperations.Decrypt|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Key operation - decrypt
+  - name: Encrypt
+    uid: '@azure/keyvault-keys.KnownKeyOperations.Encrypt|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Key operation - encrypt
+  - name: Import
+    uid: '@azure/keyvault-keys.KnownKeyOperations.Import|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Key operation - import
+  - name: Sign
+    uid: '@azure/keyvault-keys.KnownKeyOperations.Sign|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Key operation - sign
+  - name: UnwrapKey
+    uid: '@azure/keyvault-keys.KnownKeyOperations.UnwrapKey|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Key operation - unwrapKey
+  - name: Verify
+    uid: '@azure/keyvault-keys.KnownKeyOperations.Verify|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Key operation - verify
+  - name: WrapKey
+    uid: '@azure/keyvault-keys.KnownKeyOperations.WrapKey|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Key operation - wrapKey

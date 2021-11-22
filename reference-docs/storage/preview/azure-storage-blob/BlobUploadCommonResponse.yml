@@ -1,0 +1,15 @@
+name: BlobUploadCommonResponse
+uid: '@azure/storage-blob.BlobUploadCommonResponse|preview'
+package: '@azure/storage-blob|preview'
+summary: >-
+  Response type for <xref:@azure/storage-blob.BlockBlobClient.uploadFile>,
+  <xref:@azure/storage-blob.BlockBlobClient.uploadStream>, and
+
+  BlockBlobClient.uploadBrowserDate.
+fullName: BlobUploadCommonResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type BlobUploadCommonResponse = BlockBlobUploadHeaders & { _response:
+  HttpResponse }

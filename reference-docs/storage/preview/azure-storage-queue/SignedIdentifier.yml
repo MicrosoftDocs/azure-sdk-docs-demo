@@ -1,0 +1,36 @@
+name: SignedIdentifier
+uid: '@azure/storage-queue.SignedIdentifier|preview'
+package: '@azure/storage-queue|preview'
+summary: Signed identifier.
+fullName: SignedIdentifier
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: accessPolicy
+    uid: '@azure/storage-queue.SignedIdentifier.accessPolicy|preview'
+    package: '@azure/storage-queue|preview'
+    summary: Access Policy
+    fullName: accessPolicy
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'accessPolicy: Object'
+      return:
+        type: Object
+        description: ''
+  - name: id
+    uid: '@azure/storage-queue.SignedIdentifier.id|preview'
+    package: '@azure/storage-queue|preview'
+    summary: a unique id
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        type: string
+        description: ''

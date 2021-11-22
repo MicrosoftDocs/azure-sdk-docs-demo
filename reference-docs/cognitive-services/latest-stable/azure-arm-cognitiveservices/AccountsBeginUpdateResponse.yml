@@ -1,0 +1,9 @@
+name: AccountsBeginUpdateResponse
+uid: '@azure/arm-cognitiveservices.AccountsBeginUpdateResponse|latest-stable'
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: Contains response data for the beginUpdate operation.
+fullName: AccountsBeginUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type AccountsBeginUpdateResponse = Account & { _response: Object }'

@@ -1,0 +1,9 @@
+name: QueueDeleteResponse
+uid: '@azure/storage-queue.QueueDeleteResponse|latest-stable'
+package: '@azure/storage-queue|latest-stable'
+summary: Contains response data for the delete operation.
+fullName: QueueDeleteResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type QueueDeleteResponse = QueueDeleteHeaders & { _response: Object }'

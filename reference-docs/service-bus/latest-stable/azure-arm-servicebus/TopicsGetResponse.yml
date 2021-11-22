@@ -1,0 +1,9 @@
+name: TopicsGetResponse
+uid: '@azure/arm-servicebus.TopicsGetResponse|latest-stable'
+package: '@azure/arm-servicebus|latest-stable'
+summary: Contains response data for the get operation.
+fullName: TopicsGetResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type TopicsGetResponse = SBTopic & { _response: Object }'

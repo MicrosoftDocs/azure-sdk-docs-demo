@@ -1,0 +1,82 @@
+name: PrivateEndpointConnectionItem
+uid: '@azure/arm-keyvault.PrivateEndpointConnectionItem|preview'
+package: '@azure/arm-keyvault|preview'
+summary: Private endpoint connection item.
+fullName: PrivateEndpointConnectionItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: etag
+    uid: '@azure/arm-keyvault.PrivateEndpointConnectionItem.etag|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: >-
+      Modified whenever there is a change in the state of private endpoint
+      connection.
+    fullName: etag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'etag?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: id
+    uid: '@azure/arm-keyvault.PrivateEndpointConnectionItem.id|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: Id of private endpoint connection.
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: privateEndpoint
+    uid: '@azure/arm-keyvault.PrivateEndpointConnectionItem.privateEndpoint|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: Properties of the private endpoint object.
+    fullName: privateEndpoint
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'privateEndpoint?: PrivateEndpoint'
+      return:
+        type: <xref uid="@azure/arm-keyvault.PrivateEndpoint" />
+        description: ''
+  - name: privateLinkServiceConnectionState
+    uid: >-
+      @azure/arm-keyvault.PrivateEndpointConnectionItem.privateLinkServiceConnectionState|preview
+    package: '@azure/arm-keyvault|preview'
+    summary: Approval state of the private link connection.
+    fullName: privateLinkServiceConnectionState
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'privateLinkServiceConnectionState?: PrivateLinkServiceConnectionState'
+      return:
+        type: <xref uid="@azure/arm-keyvault.PrivateLinkServiceConnectionState" />
+        description: ''
+  - name: provisioningState
+    uid: >-
+      @azure/arm-keyvault.PrivateEndpointConnectionItem.provisioningState|preview
+    package: '@azure/arm-keyvault|preview'
+    summary: Provisioning state of the private endpoint connection.
+    fullName: provisioningState
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'provisioningState?: PrivateEndpointConnectionProvisioningState'
+      return:
+        type: >-
+          <xref
+          uid="@azure/arm-keyvault.PrivateEndpointConnectionProvisioningState"
+          />
+        description: ''

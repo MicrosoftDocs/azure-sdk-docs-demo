@@ -1,0 +1,13 @@
+name: SnowballTokenFilterLanguage
+uid: '@azure/search-documents.SnowballTokenFilterLanguage|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: Defines values for SnowballTokenFilterLanguage.
+fullName: SnowballTokenFilterLanguage
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type SnowballTokenFilterLanguage = "armenian" | "basque" | "catalan" |
+  "danish" | "dutch" | "english" | "finnish" | "french" | "german" | "german2" |
+  "hungarian" | "italian" | "kp" | "lovins" | "norwegian" | "porter" |
+  "portuguese" | "romanian" | "russian" | "spanish" | "swedish" | "turkish"

@@ -1,0 +1,88 @@
+name: PrivateLinkResource
+uid: '@azure/arm-eventhub.PrivateLinkResource|preview'
+package: '@azure/arm-eventhub|preview'
+summary: Information of the private link resource.
+fullName: PrivateLinkResource
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: groupId
+    uid: '@azure/arm-eventhub.PrivateLinkResource.groupId|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: The private link resource group id.
+    fullName: groupId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'groupId?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: id
+    uid: '@azure/arm-eventhub.PrivateLinkResource.id|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: Fully qualified identifier of the resource.
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: name
+    uid: '@azure/arm-eventhub.PrivateLinkResource.name|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: Name of the resource
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: requiredMembers
+    uid: '@azure/arm-eventhub.PrivateLinkResource.requiredMembers|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: The private link resource required member names.
+    fullName: requiredMembers
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'requiredMembers?: string[]'
+      return:
+        type: string[]
+        description: ''
+  - name: requiredZoneNames
+    uid: '@azure/arm-eventhub.PrivateLinkResource.requiredZoneNames|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: The private link resource Private link DNS zone name.
+    fullName: requiredZoneNames
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'requiredZoneNames?: string[]'
+      return:
+        type: string[]
+        description: ''
+  - name: type
+    uid: '@azure/arm-eventhub.PrivateLinkResource.type|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: Type of the resource
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

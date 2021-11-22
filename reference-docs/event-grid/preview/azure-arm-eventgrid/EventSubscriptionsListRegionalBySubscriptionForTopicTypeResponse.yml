@@ -1,0 +1,14 @@
+name: EventSubscriptionsListRegionalBySubscriptionForTopicTypeResponse
+uid: >-
+  @azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionForTopicTypeResponse|preview
+package: '@azure/arm-eventgrid|preview'
+summary: >-
+  Contains response data for the listRegionalBySubscriptionForTopicType
+  operation.
+fullName: EventSubscriptionsListRegionalBySubscriptionForTopicTypeResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type EventSubscriptionsListRegionalBySubscriptionForTopicTypeResponse =
+  EventSubscriptionsListResult

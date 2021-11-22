@@ -1,0 +1,9 @@
+name: ShareProperties
+uid: '@azure/storage-file-share.ShareProperties|preview'
+package: '@azure/storage-file-share|preview'
+summary: Properties of a share.
+fullName: ShareProperties
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type ShareProperties = SharePropertiesInternal & { protocols: ShareProtocols }'

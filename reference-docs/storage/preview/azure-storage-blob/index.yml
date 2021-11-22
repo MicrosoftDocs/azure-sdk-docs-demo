@@ -1,0 +1,620 @@
+uid: '@azure/storage-blob|preview'
+name: '@azure/storage-blob'
+summary: ''
+type: package
+enums:
+  - '@azure/storage-blob.BlockBlobTier|preview'
+  - '@azure/storage-blob.PremiumPageBlobTier|preview'
+  - '@azure/storage-blob.SASProtocol|preview'
+  - '@azure/storage-blob.StorageRetryPolicyType|preview'
+classes:
+  - '@azure/storage-blob.AccountSASPermissions|preview'
+  - '@azure/storage-blob.AccountSASResourceTypes|preview'
+  - '@azure/storage-blob.AccountSASServices|preview'
+  - '@azure/storage-blob.AnonymousCredential|preview'
+  - '@azure/storage-blob.AnonymousCredentialPolicy|preview'
+  - '@azure/storage-blob.AppendBlobClient|preview'
+  - '@azure/storage-blob.BlobBatch|preview'
+  - '@azure/storage-blob.BlobBatchClient|preview'
+  - '@azure/storage-blob.BlobClient|preview'
+  - '@azure/storage-blob.BlobLeaseClient|preview'
+  - '@azure/storage-blob.BlobSASPermissions|preview'
+  - '@azure/storage-blob.BlobServiceClient|preview'
+  - '@azure/storage-blob.BlockBlobClient|preview'
+  - '@azure/storage-blob.ContainerClient|preview'
+  - '@azure/storage-blob.ContainerSASPermissions|preview'
+  - '@azure/storage-blob.CredentialPolicy|preview'
+  - '@azure/storage-blob.Credential_2|preview'
+  - '@azure/storage-blob.PageBlobClient|preview'
+  - '@azure/storage-blob.Pipeline|preview'
+  - '@azure/storage-blob.SASQueryParameters|preview'
+  - '@azure/storage-blob.StorageBrowserPolicy|preview'
+  - '@azure/storage-blob.StorageBrowserPolicyFactory|preview'
+  - '@azure/storage-blob.StorageClient|preview'
+  - '@azure/storage-blob.StorageClientContext|preview'
+  - '@azure/storage-blob.StorageRetryPolicy|preview'
+  - '@azure/storage-blob.StorageRetryPolicyFactory|preview'
+  - '@azure/storage-blob.StorageSharedKeyCredential|preview'
+  - '@azure/storage-blob.StorageSharedKeyCredentialPolicy|preview'
+interfaces:
+  - '@azure/storage-blob.AccessPolicy|preview'
+  - '@azure/storage-blob.AccountSASPermissionsLike|preview'
+  - '@azure/storage-blob.AccountSASSignatureValues|preview'
+  - '@azure/storage-blob.AppendBlobAppendBlockFromURLOptions|preview'
+  - '@azure/storage-blob.AppendBlobAppendBlockFromUrlHeaders|preview'
+  - '@azure/storage-blob.AppendBlobAppendBlockHeaders|preview'
+  - '@azure/storage-blob.AppendBlobAppendBlockOptions|preview'
+  - '@azure/storage-blob.AppendBlobCreateHeaders|preview'
+  - '@azure/storage-blob.AppendBlobCreateIfNotExistsOptions|preview'
+  - '@azure/storage-blob.AppendBlobCreateIfNotExistsResponse|preview'
+  - '@azure/storage-blob.AppendBlobCreateOptions|preview'
+  - '@azure/storage-blob.AppendBlobRequestConditions|preview'
+  - '@azure/storage-blob.AppendBlobSealOptions|preview'
+  - '@azure/storage-blob.AppendPositionAccessConditions|preview'
+  - '@azure/storage-blob.BatchSubRequest|preview'
+  - '@azure/storage-blob.BatchSubResponse|preview'
+  - '@azure/storage-blob.BlobAbortCopyFromURLHeaders|preview'
+  - '@azure/storage-blob.BlobAbortCopyFromURLOptions|preview'
+  - '@azure/storage-blob.BlobAcquireLeaseOptions|preview'
+  - '@azure/storage-blob.BlobBatchSubmitBatchOptionalParams|preview'
+  - '@azure/storage-blob.BlobBeginCopyFromURLOptions|preview'
+  - '@azure/storage-blob.BlobBeginCopyFromURLResponse|preview'
+  - '@azure/storage-blob.BlobBeginCopyFromUrlPollState|preview'
+  - '@azure/storage-blob.BlobBreakLeaseOptions|preview'
+  - '@azure/storage-blob.BlobChangeLeaseOptions|preview'
+  - '@azure/storage-blob.BlobCopyFromURLHeaders|preview'
+  - '@azure/storage-blob.BlobCreateSnapshotHeaders|preview'
+  - '@azure/storage-blob.BlobCreateSnapshotOptions|preview'
+  - '@azure/storage-blob.BlobDeleteHeaders|preview'
+  - '@azure/storage-blob.BlobDeleteIfExistsResponse|preview'
+  - '@azure/storage-blob.BlobDeleteImmutabilityPolicyHeaders|preview'
+  - '@azure/storage-blob.BlobDeleteImmutabilityPolicyOptions|preview'
+  - '@azure/storage-blob.BlobDeleteOptions|preview'
+  - '@azure/storage-blob.BlobDownloadHeaders|preview'
+  - '@azure/storage-blob.BlobDownloadOptionalParams|preview'
+  - '@azure/storage-blob.BlobDownloadOptions|preview'
+  - '@azure/storage-blob.BlobDownloadResponseParsed|preview'
+  - '@azure/storage-blob.BlobDownloadToBufferOptions|preview'
+  - '@azure/storage-blob.BlobExistsOptions|preview'
+  - '@azure/storage-blob.BlobFlatListSegment|preview'
+  - '@azure/storage-blob.BlobFlatListSegmentModel|preview'
+  - '@azure/storage-blob.BlobGenerateSasUrlOptions|preview'
+  - '@azure/storage-blob.BlobGetPropertiesHeaders|preview'
+  - '@azure/storage-blob.BlobGetPropertiesOptions|preview'
+  - '@azure/storage-blob.BlobGetPropertiesResponse|preview'
+  - '@azure/storage-blob.BlobGetTagsHeaders|preview'
+  - '@azure/storage-blob.BlobGetTagsOptions|preview'
+  - '@azure/storage-blob.BlobHTTPHeaders|preview'
+  - '@azure/storage-blob.BlobHierarchyListSegment|preview'
+  - '@azure/storage-blob.BlobHierarchyListSegmentModel|preview'
+  - '@azure/storage-blob.BlobImmutabilityPolicy|preview'
+  - '@azure/storage-blob.BlobItem|preview'
+  - '@azure/storage-blob.BlobItemInternal|preview'
+  - '@azure/storage-blob.BlobPrefix|preview'
+  - '@azure/storage-blob.BlobProperties|preview'
+  - '@azure/storage-blob.BlobQueryArrowConfiguration|preview'
+  - '@azure/storage-blob.BlobQueryArrowField|preview'
+  - '@azure/storage-blob.BlobQueryCsvTextConfiguration|preview'
+  - '@azure/storage-blob.BlobQueryError|preview'
+  - '@azure/storage-blob.BlobQueryHeaders|preview'
+  - '@azure/storage-blob.BlobQueryJsonTextConfiguration|preview'
+  - '@azure/storage-blob.BlobQueryParquetConfiguration|preview'
+  - '@azure/storage-blob.BlobReleaseLeaseOptions|preview'
+  - '@azure/storage-blob.BlobRenewLeaseOptions|preview'
+  - '@azure/storage-blob.BlobRequestConditions|preview'
+  - '@azure/storage-blob.BlobSASPermissionsLike|preview'
+  - '@azure/storage-blob.BlobSASSignatureValues|preview'
+  - '@azure/storage-blob.BlobServiceProperties|preview'
+  - '@azure/storage-blob.BlobServiceStatistics|preview'
+  - '@azure/storage-blob.BlobSetHTTPHeadersHeaders|preview'
+  - '@azure/storage-blob.BlobSetHTTPHeadersOptions|preview'
+  - '@azure/storage-blob.BlobSetImmutabilityPolicyHeaders|preview'
+  - '@azure/storage-blob.BlobSetImmutabilityPolicyOptions|preview'
+  - '@azure/storage-blob.BlobSetLegalHoldHeaders|preview'
+  - '@azure/storage-blob.BlobSetLegalHoldOptions|preview'
+  - '@azure/storage-blob.BlobSetMetadataHeaders|preview'
+  - '@azure/storage-blob.BlobSetMetadataOptions|preview'
+  - '@azure/storage-blob.BlobSetTagsHeaders|preview'
+  - '@azure/storage-blob.BlobSetTagsOptions|preview'
+  - '@azure/storage-blob.BlobSetTierHeaders|preview'
+  - '@azure/storage-blob.BlobSetTierOptions|preview'
+  - '@azure/storage-blob.BlobStartCopyFromURLHeaders|preview'
+  - '@azure/storage-blob.BlobStartCopyFromURLOptions|preview'
+  - '@azure/storage-blob.BlobSyncCopyFromURLOptions|preview'
+  - '@azure/storage-blob.BlobTag|preview'
+  - '@azure/storage-blob.BlobTags|preview'
+  - '@azure/storage-blob.BlobUndeleteHeaders|preview'
+  - '@azure/storage-blob.BlobUndeleteOptions|preview'
+  - '@azure/storage-blob.Block|preview'
+  - '@azure/storage-blob.BlockBlobCommitBlockListHeaders|preview'
+  - '@azure/storage-blob.BlockBlobCommitBlockListOptions|preview'
+  - '@azure/storage-blob.BlockBlobGetBlockListHeaders|preview'
+  - '@azure/storage-blob.BlockBlobGetBlockListOptions|preview'
+  - '@azure/storage-blob.BlockBlobParallelUploadOptions|preview'
+  - '@azure/storage-blob.BlockBlobPutBlobFromUrlHeaders|preview'
+  - '@azure/storage-blob.BlockBlobQueryOptions|preview'
+  - '@azure/storage-blob.BlockBlobStageBlockFromURLHeaders|preview'
+  - '@azure/storage-blob.BlockBlobStageBlockFromURLOptions|preview'
+  - '@azure/storage-blob.BlockBlobStageBlockHeaders|preview'
+  - '@azure/storage-blob.BlockBlobStageBlockOptions|preview'
+  - '@azure/storage-blob.BlockBlobSyncUploadFromURLOptions|preview'
+  - '@azure/storage-blob.BlockBlobUploadHeaders|preview'
+  - '@azure/storage-blob.BlockBlobUploadOptions|preview'
+  - '@azure/storage-blob.BlockBlobUploadStreamOptions|preview'
+  - '@azure/storage-blob.BlockList|preview'
+  - '@azure/storage-blob.CommonGenerateSasUrlOptions|preview'
+  - '@azure/storage-blob.CommonOptions|preview'
+  - '@azure/storage-blob.ContainerAcquireLeaseOptions|preview'
+  - '@azure/storage-blob.ContainerBreakLeaseOptionalParams|preview'
+  - '@azure/storage-blob.ContainerBreakLeaseOptions|preview'
+  - '@azure/storage-blob.ContainerChangeLeaseOptions|preview'
+  - '@azure/storage-blob.ContainerCreateHeaders|preview'
+  - '@azure/storage-blob.ContainerCreateIfNotExistsResponse|preview'
+  - '@azure/storage-blob.ContainerCreateOptions|preview'
+  - '@azure/storage-blob.ContainerDeleteBlobOptions|preview'
+  - '@azure/storage-blob.ContainerDeleteHeaders|preview'
+  - '@azure/storage-blob.ContainerDeleteIfExistsResponse|preview'
+  - '@azure/storage-blob.ContainerDeleteMethodOptions|preview'
+  - '@azure/storage-blob.ContainerEncryptionScope|preview'
+  - '@azure/storage-blob.ContainerExistsOptions|preview'
+  - '@azure/storage-blob.ContainerGenerateSasUrlOptions|preview'
+  - '@azure/storage-blob.ContainerGetAccessPolicyHeaders|preview'
+  - '@azure/storage-blob.ContainerGetAccessPolicyOptions|preview'
+  - '@azure/storage-blob.ContainerGetPropertiesHeaders|preview'
+  - '@azure/storage-blob.ContainerGetPropertiesOptions|preview'
+  - '@azure/storage-blob.ContainerItem|preview'
+  - '@azure/storage-blob.ContainerListBlobFlatSegmentHeaders|preview'
+  - '@azure/storage-blob.ContainerListBlobHierarchySegmentHeaders|preview'
+  - '@azure/storage-blob.ContainerListBlobsOptions|preview'
+  - '@azure/storage-blob.ContainerProperties|preview'
+  - '@azure/storage-blob.ContainerReleaseLeaseOptions|preview'
+  - '@azure/storage-blob.ContainerRenameHeaders|preview'
+  - '@azure/storage-blob.ContainerRenewLeaseOptions|preview'
+  - '@azure/storage-blob.ContainerRequestConditions|preview'
+  - '@azure/storage-blob.ContainerSASPermissionsLike|preview'
+  - '@azure/storage-blob.ContainerSetAccessPolicyHeaders|preview'
+  - '@azure/storage-blob.ContainerSetAccessPolicyOptions|preview'
+  - '@azure/storage-blob.ContainerSetMetadataHeaders|preview'
+  - '@azure/storage-blob.ContainerSetMetadataOptions|preview'
+  - '@azure/storage-blob.ContainerUndeleteHeaders|preview'
+  - '@azure/storage-blob.CorsRule|preview'
+  - '@azure/storage-blob.CpkInfo|preview'
+  - '@azure/storage-blob.FilterBlobItem|preview'
+  - '@azure/storage-blob.FilterBlobItemModel|preview'
+  - '@azure/storage-blob.FilterBlobSegment|preview'
+  - '@azure/storage-blob.FilterBlobSegmentModel|preview'
+  - '@azure/storage-blob.GeoReplication|preview'
+  - '@azure/storage-blob.HttpAuthorization|preview'
+  - '@azure/storage-blob.Lease|preview'
+  - '@azure/storage-blob.LeaseAccessConditions|preview'
+  - '@azure/storage-blob.LeaseOperationOptions|preview'
+  - '@azure/storage-blob.ListBlobsFlatSegmentResponse|preview'
+  - '@azure/storage-blob.ListBlobsFlatSegmentResponseModel|preview'
+  - '@azure/storage-blob.ListBlobsHierarchySegmentResponse|preview'
+  - '@azure/storage-blob.ListBlobsHierarchySegmentResponseModel|preview'
+  - '@azure/storage-blob.ListContainersSegmentResponse|preview'
+  - '@azure/storage-blob.Logging|preview'
+  - '@azure/storage-blob.MatchConditions|preview'
+  - '@azure/storage-blob.Metadata|preview'
+  - '@azure/storage-blob.Metrics|preview'
+  - '@azure/storage-blob.ModificationConditions|preview'
+  - '@azure/storage-blob.ModifiedAccessConditions|preview'
+  - '@azure/storage-blob.ModifiedAccessConditionsModel|preview'
+  - '@azure/storage-blob.ObjectReplicationPolicy|preview'
+  - '@azure/storage-blob.ObjectReplicationRule|preview'
+  - '@azure/storage-blob.PageBlobClearPagesHeaders|preview'
+  - '@azure/storage-blob.PageBlobClearPagesOptions|preview'
+  - '@azure/storage-blob.PageBlobCopyIncrementalHeaders|preview'
+  - '@azure/storage-blob.PageBlobCreateHeaders|preview'
+  - '@azure/storage-blob.PageBlobCreateIfNotExistsOptions|preview'
+  - '@azure/storage-blob.PageBlobCreateIfNotExistsResponse|preview'
+  - '@azure/storage-blob.PageBlobCreateOptions|preview'
+  - '@azure/storage-blob.PageBlobGetPageRangesDiffHeaders|preview'
+  - '@azure/storage-blob.PageBlobGetPageRangesDiffOptions|preview'
+  - '@azure/storage-blob.PageBlobGetPageRangesDiffResponse|preview'
+  - '@azure/storage-blob.PageBlobGetPageRangesHeaders|preview'
+  - '@azure/storage-blob.PageBlobGetPageRangesOptions|preview'
+  - '@azure/storage-blob.PageBlobGetPageRangesResponse|preview'
+  - '@azure/storage-blob.PageBlobRequestConditions|preview'
+  - '@azure/storage-blob.PageBlobResizeHeaders|preview'
+  - '@azure/storage-blob.PageBlobResizeOptions|preview'
+  - '@azure/storage-blob.PageBlobStartCopyIncrementalOptions|preview'
+  - '@azure/storage-blob.PageBlobUpdateSequenceNumberHeaders|preview'
+  - '@azure/storage-blob.PageBlobUpdateSequenceNumberOptions|preview'
+  - '@azure/storage-blob.PageBlobUploadPagesFromURLHeaders|preview'
+  - '@azure/storage-blob.PageBlobUploadPagesFromURLOptions|preview'
+  - '@azure/storage-blob.PageBlobUploadPagesHeaders|preview'
+  - '@azure/storage-blob.PageBlobUploadPagesOptions|preview'
+  - '@azure/storage-blob.PageList|preview'
+  - '@azure/storage-blob.ParsedBatchResponse|preview'
+  - '@azure/storage-blob.PipelineLike|preview'
+  - '@azure/storage-blob.PipelineOptions|preview'
+  - '@azure/storage-blob.Range_2|preview'
+  - '@azure/storage-blob.RetentionPolicy|preview'
+  - '@azure/storage-blob.SASQueryParametersOptions|preview'
+  - '@azure/storage-blob.SasIPRange|preview'
+  - '@azure/storage-blob.SequenceNumberAccessConditions|preview'
+  - '@azure/storage-blob.ServiceFilterBlobsHeaders|preview'
+  - '@azure/storage-blob.ServiceFindBlobByTagsOptions|preview'
+  - '@azure/storage-blob.ServiceGenerateAccountSasUrlOptions|preview'
+  - '@azure/storage-blob.ServiceGetAccountInfoHeaders|preview'
+  - '@azure/storage-blob.ServiceGetAccountInfoOptions|preview'
+  - '@azure/storage-blob.ServiceGetPropertiesHeaders|preview'
+  - '@azure/storage-blob.ServiceGetPropertiesOptions|preview'
+  - '@azure/storage-blob.ServiceGetStatisticsHeaders|preview'
+  - '@azure/storage-blob.ServiceGetStatisticsOptions|preview'
+  - '@azure/storage-blob.ServiceGetUserDelegationKeyHeaders|preview'
+  - '@azure/storage-blob.ServiceGetUserDelegationKeyOptions|preview'
+  - '@azure/storage-blob.ServiceListContainersOptions|preview'
+  - '@azure/storage-blob.ServiceListContainersSegmentHeaders|preview'
+  - '@azure/storage-blob.ServiceRenameContainerOptions|preview'
+  - '@azure/storage-blob.ServiceSetPropertiesHeaders|preview'
+  - '@azure/storage-blob.ServiceSetPropertiesOptions|preview'
+  - '@azure/storage-blob.ServiceSubmitBatchHeaders|preview'
+  - '@azure/storage-blob.ServiceSubmitBatchOptionalParamsModel|preview'
+  - '@azure/storage-blob.ServiceUndeleteContainerOptions|preview'
+  - '@azure/storage-blob.SignedIdentifier|preview'
+  - '@azure/storage-blob.SignedIdentifierModel|preview'
+  - '@azure/storage-blob.StaticWebsite|preview'
+  - '@azure/storage-blob.StorageClientOptionalParams|preview'
+  - '@azure/storage-blob.StoragePipelineOptions|preview'
+  - '@azure/storage-blob.StorageRetryOptions|preview'
+  - '@azure/storage-blob.TagConditions|preview'
+  - '@azure/storage-blob.UserDelegationKey|preview'
+  - '@azure/storage-blob.UserDelegationKeyModel|preview'
+typeAliases:
+  - '@azure/storage-blob.AccessTier|preview'
+  - '@azure/storage-blob.AccountKind|preview'
+  - '@azure/storage-blob.AppendBlobAppendBlockFromUrlResponse|preview'
+  - '@azure/storage-blob.AppendBlobAppendBlockResponse|preview'
+  - '@azure/storage-blob.AppendBlobCreateResponse|preview'
+  - '@azure/storage-blob.ArchiveStatus|preview'
+  - '@azure/storage-blob.BlobAbortCopyFromURLResponse|preview'
+  - '@azure/storage-blob.BlobBatchDeleteBlobsResponse|preview'
+  - '@azure/storage-blob.BlobBatchSetBlobsAccessTierResponse|preview'
+  - '@azure/storage-blob.BlobBatchSubmitBatchResponse|preview'
+  - '@azure/storage-blob.BlobCopyFromURLResponse|preview'
+  - '@azure/storage-blob.BlobCreateSnapshotResponse|preview'
+  - '@azure/storage-blob.BlobDeleteImmutabilityPolicyResponse|preview'
+  - '@azure/storage-blob.BlobDeleteResponse|preview'
+  - '@azure/storage-blob.BlobDownloadResponseModel|preview'
+  - '@azure/storage-blob.BlobGetPropertiesResponseModel|preview'
+  - '@azure/storage-blob.BlobGetTagsResponse|preview'
+  - '@azure/storage-blob.BlobImmutabilityPolicyMode|preview'
+  - '@azure/storage-blob.BlobQueryArrowFieldType|preview'
+  - '@azure/storage-blob.BlobQueryResponseModel|preview'
+  - '@azure/storage-blob.BlobSetHTTPHeadersResponse|preview'
+  - '@azure/storage-blob.BlobSetImmutabilityPolicyResponse|preview'
+  - '@azure/storage-blob.BlobSetLegalHoldResponse|preview'
+  - '@azure/storage-blob.BlobSetMetadataResponse|preview'
+  - '@azure/storage-blob.BlobSetTagsResponse|preview'
+  - '@azure/storage-blob.BlobSetTierResponse|preview'
+  - '@azure/storage-blob.BlobStartCopyFromURLResponse|preview'
+  - '@azure/storage-blob.BlobType|preview'
+  - '@azure/storage-blob.BlobUndeleteResponse|preview'
+  - '@azure/storage-blob.BlobUploadCommonResponse|preview'
+  - '@azure/storage-blob.BlockBlobCommitBlockListResponse|preview'
+  - '@azure/storage-blob.BlockBlobGetBlockListResponse|preview'
+  - '@azure/storage-blob.BlockBlobPutBlobFromUrlResponse|preview'
+  - '@azure/storage-blob.BlockBlobStageBlockFromURLResponse|preview'
+  - '@azure/storage-blob.BlockBlobStageBlockResponse|preview'
+  - '@azure/storage-blob.BlockBlobUploadResponse|preview'
+  - '@azure/storage-blob.BlockListType|preview'
+  - '@azure/storage-blob.ContainerCreateResponse|preview'
+  - '@azure/storage-blob.ContainerDeleteResponse|preview'
+  - '@azure/storage-blob.ContainerGetAccessPolicyResponse|preview'
+  - '@azure/storage-blob.ContainerGetPropertiesResponse|preview'
+  - '@azure/storage-blob.ContainerListBlobFlatSegmentResponse|preview'
+  - '@azure/storage-blob.ContainerListBlobHierarchySegmentResponse|preview'
+  - '@azure/storage-blob.ContainerRenameResponse|preview'
+  - '@azure/storage-blob.ContainerSetAccessPolicyResponse|preview'
+  - '@azure/storage-blob.ContainerSetMetadataResponse|preview'
+  - '@azure/storage-blob.ContainerUndeleteResponse|preview'
+  - '@azure/storage-blob.CopyPollerBlobClient|preview'
+  - '@azure/storage-blob.CopyStatusType|preview'
+  - '@azure/storage-blob.CredentialPolicyCreator|preview'
+  - '@azure/storage-blob.DeleteSnapshotsOptionType|preview'
+  - '@azure/storage-blob.EncryptionAlgorithmType|preview'
+  - '@azure/storage-blob.GeoReplicationStatusType|preview'
+  - '@azure/storage-blob.LeaseDurationType|preview'
+  - '@azure/storage-blob.LeaseOperationResponse|preview'
+  - '@azure/storage-blob.LeaseStateType|preview'
+  - '@azure/storage-blob.LeaseStatusType|preview'
+  - '@azure/storage-blob.ListBlobsIncludeItem|preview'
+  - '@azure/storage-blob.ListContainersIncludeType|preview'
+  - '@azure/storage-blob.ObjectReplicationStatus|preview'
+  - '@azure/storage-blob.PageBlobClearPagesResponse|preview'
+  - '@azure/storage-blob.PageBlobCopyIncrementalResponse|preview'
+  - '@azure/storage-blob.PageBlobCreateResponse|preview'
+  - '@azure/storage-blob.PageBlobResizeResponse|preview'
+  - '@azure/storage-blob.PageBlobUpdateSequenceNumberResponse|preview'
+  - '@azure/storage-blob.PageBlobUploadPagesFromURLResponse|preview'
+  - '@azure/storage-blob.PageBlobUploadPagesResponse|preview'
+  - '@azure/storage-blob.PublicAccessType|preview'
+  - '@azure/storage-blob.RehydratePriority|preview'
+  - '@azure/storage-blob.SequenceNumberActionType|preview'
+  - '@azure/storage-blob.ServiceFindBlobsByTagsSegmentResponse|preview'
+  - '@azure/storage-blob.ServiceGetAccountInfoResponse|preview'
+  - '@azure/storage-blob.ServiceGetPropertiesResponse|preview'
+  - '@azure/storage-blob.ServiceGetStatisticsResponse|preview'
+  - '@azure/storage-blob.ServiceGetUserDelegationKeyResponse|preview'
+  - '@azure/storage-blob.ServiceListContainersSegmentResponse|preview'
+  - '@azure/storage-blob.ServiceSetPropertiesResponse|preview'
+  - '@azure/storage-blob.ServiceSubmitBatchResponseModel|preview'
+  - '@azure/storage-blob.SkuName|preview'
+  - '@azure/storage-blob.SyncCopyStatusType|preview'
+  - '@azure/storage-blob.Tags|preview'
+functions:
+  - name: >-
+      generateAccountSASQueryParameters(AccountSASSignatureValues,
+      StorageSharedKeyCredential)
+    uid: '@azure/storage-blob.generateAccountSASQueryParameters|preview'
+    package: '@azure/storage-blob|preview'
+    summary: >
+      ONLY AVAILABLE IN NODE.JS RUNTIME.
+
+      Generates a <xref:@azure/storage-blob.SASQueryParameters> object which
+      contains all SAS query parameters needed to make an actual
+
+      REST request.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function generateAccountSASQueryParameters(accountSASSignatureValues:
+        AccountSASSignatureValues, sharedKeyCredential:
+        StorageSharedKeyCredential)
+      parameters:
+        - id: accountSASSignatureValues
+          type: <xref uid="@azure/storage-blob.AccountSASSignatureValues|preview" />
+          description: '-'
+        - id: sharedKeyCredential
+          type: >-
+            <xref uid="@azure/storage-blob.StorageSharedKeyCredential|preview"
+            />
+          description: |
+            -
+      return:
+        type: <xref uid="@azure/storage-blob.SASQueryParameters|preview" />
+        description: ''
+  - name: >-
+      generateBlobSASQueryParameters(BlobSASSignatureValues,
+      StorageSharedKeyCredential)
+    uid: '@azure/storage-blob.generateBlobSASQueryParameters|preview'
+    package: '@azure/storage-blob|preview'
+    summary: >
+      ONLY AVAILABLE IN NODE.JS RUNTIME.
+
+      Creates an instance of SASQueryParameters.
+
+
+      Only accepts required settings needed to create a SAS. For optional
+      settings please
+
+      set corresponding properties directly, such as permissions, startsOn and
+      identifier.
+
+
+      WARNING: When identifier is not provided, permissions and expiresOn are
+      required.
+
+      You MUST assign value to identifier or expiresOn & permissions manually if
+      you initial with
+
+      this constructor.
+
+
+      Fill in the required details before running the following snippets.
+
+
+      Example usage:
+
+
+      ```js
+
+      // Generate service level SAS for a container
+
+      const containerSAS = generateBlobSASQueryParameters({
+          containerName, // Required
+          permissions: ContainerSASPermissions.parse("racwdl"), // Required
+          startsOn: new Date(), // Optional
+          expiresOn: new Date(new Date().valueOf() + 86400), // Required. Date type
+          ipRange: { start: "0.0.0.0", end: "255.255.255.255" }, // Optional
+          protocol: SASProtocol.HttpsAndHttp, // Optional
+          version: "2016-05-31" // Optional
+        },
+        sharedKeyCredential // StorageSharedKeyCredential - `new StorageSharedKeyCredential(account, accountKey)`
+      ).toString();
+
+      ```
+
+
+      Example using an identifier:
+
+
+      ```js
+
+      // Generate service level SAS for a container with identifier
+
+      // startsOn & permissions are optional when identifier is provided
+
+      const identifier = "unique-id";
+
+      await containerClient.setAccessPolicy(undefined, [
+        {
+          accessPolicy: {
+            expiresOn: new Date(new Date().valueOf() + 86400), // Date type
+            permissions: ContainerSASPermissions.parse("racwdl").toString(),
+            startsOn: new Date() // Date type
+          },
+          id: identifier
+        }
+      ]);
+
+
+      const containerSAS = generateBlobSASQueryParameters(
+        {
+          containerName, // Required
+          identifier // Required
+        },
+        sharedKeyCredential // StorageSharedKeyCredential - `new StorageSharedKeyCredential(account, accountKey)`
+      ).toString();
+
+      ```
+
+
+      Example using a blob name:
+
+
+      ```js
+
+      // Generate service level SAS for a blob
+
+      const blobSAS = generateBlobSASQueryParameters({
+          containerName, // Required
+          blobName, // Required
+          permissions: BlobSASPermissions.parse("racwd"), // Required
+          startsOn: new Date(), // Optional
+          expiresOn: new Date(new Date().valueOf() + 86400), // Required. Date type
+          cacheControl: "cache-control-override", // Optional
+          contentDisposition: "content-disposition-override", // Optional
+          contentEncoding: "content-encoding-override", // Optional
+          contentLanguage: "content-language-override", // Optional
+          contentType: "content-type-override", // Optional
+          ipRange: { start: "0.0.0.0", end: "255.255.255.255" }, // Optional
+          protocol: SASProtocol.HttpsAndHttp, // Optional
+          version: "2016-05-31" // Optional
+        },
+        sharedKeyCredential // StorageSharedKeyCredential - `new StorageSharedKeyCredential(account, accountKey)`
+      ).toString();
+
+      ```
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function generateBlobSASQueryParameters(blobSASSignatureValues:
+        BlobSASSignatureValues, sharedKeyCredential: StorageSharedKeyCredential)
+      parameters:
+        - id: blobSASSignatureValues
+          type: <xref uid="@azure/storage-blob.BlobSASSignatureValues|preview" />
+          description: '-'
+        - id: sharedKeyCredential
+          type: >-
+            <xref uid="@azure/storage-blob.StorageSharedKeyCredential|preview"
+            />
+          description: |
+            -
+      return:
+        type: <xref uid="@azure/storage-blob.SASQueryParameters|preview" />
+        description: ''
+  - name: >-
+      generateBlobSASQueryParameters(BlobSASSignatureValues, UserDelegationKey,
+      string)
+    uid: '@azure/storage-blob.generateBlobSASQueryParameters_1|preview'
+    package: '@azure/storage-blob|preview'
+    summary: >
+      ONLY AVAILABLE IN NODE.JS RUNTIME.
+
+      Creates an instance of SASQueryParameters.
+
+      WARNING: identifier will be ignored when generating user delegation SAS,
+      permissions and expiresOn are required.
+
+
+      Example usage:
+
+
+      ```js
+
+      // Generate user delegation SAS for a container
+
+      const userDelegationKey = await
+      blobServiceClient.getUserDelegationKey(startsOn, expiresOn);
+
+      const containerSAS = generateBlobSASQueryParameters({
+          containerName, // Required
+          permissions: ContainerSASPermissions.parse("racwdl"), // Required
+          startsOn, // Optional. Date type
+          expiresOn, // Required. Date type
+          ipRange: { start: "0.0.0.0", end: "255.255.255.255" }, // Optional
+          protocol: SASProtocol.HttpsAndHttp, // Optional
+          version: "2018-11-09" // Must greater than or equal to 2018-11-09 to generate user delegation SAS
+        },
+        userDelegationKey, // UserDelegationKey
+        accountName
+      ).toString();
+
+      ```
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function generateBlobSASQueryParameters(blobSASSignatureValues:
+        BlobSASSignatureValues, userDelegationKey: UserDelegationKey,
+        accountName: string)
+      parameters:
+        - id: blobSASSignatureValues
+          type: <xref uid="@azure/storage-blob.BlobSASSignatureValues|preview" />
+          description: '-'
+        - id: userDelegationKey
+          type: <xref uid="@azure/storage-blob.UserDelegationKey|preview" />
+          description: Return value of `blobServiceClient.getUserDelegationKey()`
+        - id: accountName
+          type: string
+          description: |
+            -
+      return:
+        type: <xref uid="@azure/storage-blob.SASQueryParameters|preview" />
+        description: ''
+  - name: isPipelineLike(unknown)
+    uid: '@azure/storage-blob.isPipelineLike|preview'
+    package: '@azure/storage-blob|preview'
+    summary: A helper to decide if a given argument satisfies the Pipeline contract
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isPipelineLike(pipeline: unknown)'
+      parameters:
+        - id: pipeline
+          type: unknown
+          description: An argument that may be a Pipeline
+      return:
+        type: boolean
+        description: true when the argument satisfies the Pipeline contract
+  - name: >-
+      newPipeline(StorageSharedKeyCredential | AnonymousCredential |
+      TokenCredential, StoragePipelineOptions)
+    uid: '@azure/storage-blob.newPipeline|preview'
+    package: '@azure/storage-blob|preview'
+    summary: Creates a new Pipeline object with Credential provided.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function newPipeline(credential?: StorageSharedKeyCredential |
+        AnonymousCredential | TokenCredential, pipelineOptions?:
+        StoragePipelineOptions)
+      parameters:
+        - id: credential
+          type: >-
+            <xref uid="@azure/storage-blob.StorageSharedKeyCredential|preview"
+            /> | <xref uid="@azure/storage-blob.AnonymousCredential|preview" />
+            | TokenCredential
+          description: >-
+            Such as AnonymousCredential, StorageSharedKeyCredential or any
+            credential from the `@azure/identity` package to authenticate
+            requests to the service. You can also provide an object that
+            implements the TokenCredential interface. If not specified,
+            AnonymousCredential is used.
+        - id: pipelineOptions
+          type: <xref uid="@azure/storage-blob.StoragePipelineOptions|preview" />
+          description: Optional. Options.
+      return:
+        type: <xref uid="@azure/storage-blob.Pipeline|preview" />
+        description: A new Pipeline object.

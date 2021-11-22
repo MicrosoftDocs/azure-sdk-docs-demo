@@ -1,0 +1,38 @@
+name: SearchIndexerCache
+uid: '@azure/search-documents.SearchIndexerCache|preview'
+package: '@azure/search-documents|preview'
+summary: ''
+fullName: SearchIndexerCache
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: enableReprocessing
+    uid: '@azure/search-documents.SearchIndexerCache.enableReprocessing|preview'
+    package: '@azure/search-documents|preview'
+    summary: Specifies whether incremental reprocessing is enabled.
+    fullName: enableReprocessing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'enableReprocessing?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: storageConnectionString
+    uid: '@azure/search-documents.SearchIndexerCache.storageConnectionString|preview'
+    package: '@azure/search-documents|preview'
+    summary: >-
+      The connection string to the storage account where the cache data will be
+      persisted.
+    fullName: storageConnectionString
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'storageConnectionString?: string'
+      return:
+        type: string
+        description: ''

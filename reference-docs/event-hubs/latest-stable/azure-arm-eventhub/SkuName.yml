@@ -1,0 +1,11 @@
+name: SkuName
+uid: '@azure/arm-eventhub.SkuName|latest-stable'
+package: '@azure/arm-eventhub|latest-stable'
+summary: |-
+  Defines values for SkuName.
+  Possible values include: 'Basic', 'Standard', 'Premium'
+fullName: SkuName
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type SkuName = "Basic" | "Standard" | "Premium"

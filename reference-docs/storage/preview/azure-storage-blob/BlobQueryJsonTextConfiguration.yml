@@ -1,0 +1,36 @@
+name: BlobQueryJsonTextConfiguration
+uid: '@azure/storage-blob.BlobQueryJsonTextConfiguration|preview'
+package: '@azure/storage-blob|preview'
+summary: Options to query blob with JSON format.
+fullName: BlobQueryJsonTextConfiguration
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: kind
+    uid: '@azure/storage-blob.BlobQueryJsonTextConfiguration.kind|preview'
+    package: '@azure/storage-blob|preview'
+    summary: Query for a JSON format blob.
+    fullName: kind
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'kind: "json"'
+      return:
+        type: '"json"'
+        description: ''
+  - name: recordSeparator
+    uid: '@azure/storage-blob.BlobQueryJsonTextConfiguration.recordSeparator|preview'
+    package: '@azure/storage-blob|preview'
+    summary: Record separator.
+    fullName: recordSeparator
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'recordSeparator: string'
+      return:
+        type: string
+        description: ''

@@ -1,0 +1,11 @@
+name: NetworkRuleBypassOptions
+uid: '@azure/arm-keyvault.NetworkRuleBypassOptions|latest-stable'
+package: '@azure/arm-keyvault|latest-stable'
+summary: |-
+  Defines values for NetworkRuleBypassOptions.
+  Possible values include: 'AzureServices', 'None'
+fullName: NetworkRuleBypassOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type NetworkRuleBypassOptions = "AzureServices" | "None"

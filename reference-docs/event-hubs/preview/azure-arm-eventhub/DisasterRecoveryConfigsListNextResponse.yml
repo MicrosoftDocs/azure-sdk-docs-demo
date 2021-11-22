@@ -1,0 +1,9 @@
+name: DisasterRecoveryConfigsListNextResponse
+uid: '@azure/arm-eventhub.DisasterRecoveryConfigsListNextResponse|preview'
+package: '@azure/arm-eventhub|preview'
+summary: Contains response data for the listNext operation.
+fullName: DisasterRecoveryConfigsListNextResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type DisasterRecoveryConfigsListNextResponse = ArmDisasterRecoveryListResult

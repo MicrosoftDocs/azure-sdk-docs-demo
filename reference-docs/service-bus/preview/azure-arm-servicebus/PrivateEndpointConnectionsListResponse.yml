@@ -1,0 +1,11 @@
+name: PrivateEndpointConnectionsListResponse
+uid: '@azure/arm-servicebus.PrivateEndpointConnectionsListResponse|preview'
+package: '@azure/arm-servicebus|preview'
+summary: Contains response data for the list operation.
+fullName: PrivateEndpointConnectionsListResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type PrivateEndpointConnectionsListResponse =
+  PrivateEndpointConnectionListResult

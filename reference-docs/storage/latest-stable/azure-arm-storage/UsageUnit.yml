@@ -1,0 +1,17 @@
+name: UsageUnit
+uid: '@azure/arm-storage.UsageUnit|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: >-
+  Defines values for UsageUnit.
+
+  Possible values include: 'Count', 'Bytes', 'Seconds', 'Percent',
+  'CountsPerSecond',
+
+  'BytesPerSecond'
+fullName: UsageUnit
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type UsageUnit = "Count" | "Bytes" | "Seconds" | "Percent" | "CountsPerSecond"
+  | "BytesPerSecond"

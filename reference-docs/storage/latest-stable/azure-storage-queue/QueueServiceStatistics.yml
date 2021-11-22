@@ -1,0 +1,23 @@
+name: QueueServiceStatistics
+uid: '@azure/storage-queue.QueueServiceStatistics|latest-stable'
+package: '@azure/storage-queue|latest-stable'
+summary: Stats for the storage service.
+fullName: QueueServiceStatistics
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: geoReplication
+    uid: '@azure/storage-queue.QueueServiceStatistics.geoReplication|latest-stable'
+    package: '@azure/storage-queue|latest-stable'
+    summary: Geo-Replication information for the Secondary Storage Service
+    fullName: geoReplication
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'geoReplication?: GeoReplication'
+      return:
+        type: <xref uid="@azure/storage-queue.GeoReplication" />
+        description: ''

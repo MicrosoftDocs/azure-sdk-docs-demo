@@ -1,0 +1,9 @@
+name: KVPollerLike
+uid: '@azure/keyvault-certificates.KVPollerLike|latest-stable'
+package: '@azure/keyvault-certificates|latest-stable'
+summary: Deprecated KeyVault copy of core-lro's PollerLike.
+fullName: KVPollerLike<TState>
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type KVPollerLike<TState,TResult> = PollerLike<TState,TResult>

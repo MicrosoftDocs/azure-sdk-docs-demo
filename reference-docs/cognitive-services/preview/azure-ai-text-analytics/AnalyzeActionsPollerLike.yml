@@ -1,0 +1,11 @@
+name: AnalyzeActionsPollerLike
+uid: '@azure/ai-text-analytics.AnalyzeActionsPollerLike|preview'
+package: '@azure/ai-text-analytics|preview'
+summary: Result type of the Begin Analyze Actions Long-Running-Operation (LRO).
+fullName: AnalyzeActionsPollerLike
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type AnalyzeActionsPollerLike =
+  PollerLike<AnalyzeActionsOperationState,PagedAnalyzeActionsResult>

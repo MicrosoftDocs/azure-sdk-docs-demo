@@ -1,0 +1,11 @@
+name: BlobCreateSnapshotResponse
+uid: '@azure/storage-blob.BlobCreateSnapshotResponse|preview'
+package: '@azure/storage-blob|preview'
+summary: Contains response data for the createSnapshot operation.
+fullName: BlobCreateSnapshotResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type BlobCreateSnapshotResponse = BlobCreateSnapshotHeaders & { _response:
+  Object }

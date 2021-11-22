@@ -1,0 +1,49 @@
+name: DetectionResult
+uid: '@azure/ai-anomaly-detector.DetectionResult|preview'
+package: '@azure/ai-anomaly-detector|preview'
+summary: Anomaly Response of one detection corresponds to a resultId.
+fullName: DetectionResult
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: resultId
+    uid: '@azure/ai-anomaly-detector.DetectionResult.resultId|preview'
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: ''
+    fullName: resultId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'resultId: string'
+      return:
+        type: string
+        description: ''
+  - name: results
+    uid: '@azure/ai-anomaly-detector.DetectionResult.results|preview'
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: anomaly status of each timestamp
+    fullName: results
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'results: AnomalyState[]'
+      return:
+        type: <xref uid="@azure/ai-anomaly-detector.AnomalyState" />[]
+        description: ''
+  - name: summary
+    uid: '@azure/ai-anomaly-detector.DetectionResult.summary|preview'
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: Multivariate anomaly detection status
+    fullName: summary
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'summary: DetectionResultSummary'
+      return:
+        type: <xref uid="@azure/ai-anomaly-detector.DetectionResultSummary" />
+        description: ''

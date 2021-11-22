@@ -1,0 +1,73 @@
+name: ScoringProfile
+uid: '@azure/search-documents.ScoringProfile|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: >-
+  Defines parameters for a search index that influence scoring in search
+  queries.
+fullName: ScoringProfile
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: functionAggregation
+    uid: '@azure/search-documents.ScoringProfile.functionAggregation|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: >-
+      A value indicating how the results of individual scoring functions should
+      be combined.
+
+      Defaults to "Sum". Ignored if there are no scoring functions. Possible
+      values include: 'sum',
+
+      'average', 'minimum', 'maximum', 'firstMatching'
+    fullName: functionAggregation
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'functionAggregation?: ScoringFunctionAggregation'
+      return:
+        type: <xref uid="@azure/search-documents.ScoringFunctionAggregation" />
+        description: ''
+  - name: functions
+    uid: '@azure/search-documents.ScoringProfile.functions|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: The collection of functions that influence the scoring of documents.
+    fullName: functions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'functions?: ScoringFunction[]'
+      return:
+        type: <xref uid="@azure/search-documents.ScoringFunction" />[]
+        description: ''
+  - name: name
+    uid: '@azure/search-documents.ScoringProfile.name|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: The name of the scoring profile.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        type: string
+        description: ''
+  - name: textWeights
+    uid: '@azure/search-documents.ScoringProfile.textWeights|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: >-
+      Parameters that boost scoring based on text matches in certain index
+      fields.
+    fullName: textWeights
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'textWeights?: TextWeights'
+      return:
+        type: <xref uid="@azure/search-documents.TextWeights" />
+        description: ''

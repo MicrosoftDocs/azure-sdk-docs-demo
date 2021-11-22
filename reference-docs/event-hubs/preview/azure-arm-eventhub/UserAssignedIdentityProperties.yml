@@ -1,0 +1,24 @@
+name: UserAssignedIdentityProperties
+uid: '@azure/arm-eventhub.UserAssignedIdentityProperties|preview'
+package: '@azure/arm-eventhub|preview'
+summary: ''
+fullName: UserAssignedIdentityProperties
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: userAssignedIdentity
+    uid: >-
+      @azure/arm-eventhub.UserAssignedIdentityProperties.userAssignedIdentity|preview
+    package: '@azure/arm-eventhub|preview'
+    summary: ARM ID of user Identity selected for encryption
+    fullName: userAssignedIdentity
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'userAssignedIdentity?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

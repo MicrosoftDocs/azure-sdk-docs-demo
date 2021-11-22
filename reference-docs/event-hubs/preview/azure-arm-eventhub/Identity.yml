@@ -1,0 +1,72 @@
+name: Identity
+uid: '@azure/arm-eventhub.Identity|preview'
+package: '@azure/arm-eventhub|preview'
+summary: Properties to configure Identity for Bring your Own Keys
+fullName: Identity
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: principalId
+    uid: '@azure/arm-eventhub.Identity.principalId|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: >-
+      ObjectId from the KeyVault
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: principalId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'principalId?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: tenantId
+    uid: '@azure/arm-eventhub.Identity.tenantId|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: >-
+      TenantId from the KeyVault
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: tenantId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tenantId?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: type
+    uid: '@azure/arm-eventhub.Identity.type|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: Type of managed service identity.
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type?: ManagedServiceIdentityType'
+      return:
+        type: <xref uid="@azure/arm-eventhub.ManagedServiceIdentityType" />
+        description: ''
+  - name: userAssignedIdentities
+    uid: '@azure/arm-eventhub.Identity.userAssignedIdentities|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: Properties for User Assigned Identities
+    fullName: userAssignedIdentities
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'userAssignedIdentities?: undefined | [key: string]: UserAssignedIdentity'
+      return:
+        type: >-
+          undefined | [key: string]: <xref
+          uid="@azure/arm-eventhub.UserAssignedIdentity" />
+        description: ''

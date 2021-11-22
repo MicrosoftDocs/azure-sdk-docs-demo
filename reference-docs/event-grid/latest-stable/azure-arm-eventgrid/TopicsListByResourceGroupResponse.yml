@@ -1,0 +1,11 @@
+name: TopicsListByResourceGroupResponse
+uid: '@azure/arm-eventgrid.TopicsListByResourceGroupResponse|latest-stable'
+package: '@azure/arm-eventgrid|latest-stable'
+summary: Contains response data for the listByResourceGroup operation.
+fullName: TopicsListByResourceGroupResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type TopicsListByResourceGroupResponse = TopicsListResult & { _response:
+  Object }

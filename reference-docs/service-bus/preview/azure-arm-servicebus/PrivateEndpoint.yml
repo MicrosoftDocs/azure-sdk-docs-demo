@@ -1,0 +1,23 @@
+name: PrivateEndpoint
+uid: '@azure/arm-servicebus.PrivateEndpoint|preview'
+package: '@azure/arm-servicebus|preview'
+summary: PrivateEndpoint information.
+fullName: PrivateEndpoint
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: id
+    uid: '@azure/arm-servicebus.PrivateEndpoint.id|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: The ARM identifier for Private Endpoint.
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

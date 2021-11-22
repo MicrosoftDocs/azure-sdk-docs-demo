@@ -1,0 +1,15 @@
+name: ProcessCloseHandler
+uid: '@azure/event-hubs.ProcessCloseHandler|preview'
+package: '@azure/event-hubs|preview'
+summary: >-
+  Signature of the user provided function invoked by `EventHubConsumerClient`
+  just after stopping to receive
+
+  events from a partition.
+fullName: ProcessCloseHandler
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type ProcessCloseHandler = (reason: CloseReason, context: PartitionContext) =>
+  Promise<void>

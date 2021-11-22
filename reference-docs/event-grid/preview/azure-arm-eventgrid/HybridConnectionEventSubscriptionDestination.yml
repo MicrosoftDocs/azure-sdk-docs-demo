@@ -1,0 +1,12 @@
+name: HybridConnectionEventSubscriptionDestination
+uid: '@azure/arm-eventgrid.HybridConnectionEventSubscriptionDestination|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: Information about the HybridConnection destination for an event subscription.
+fullName: HybridConnectionEventSubscriptionDestination
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type HybridConnectionEventSubscriptionDestination =
+  EventSubscriptionDestination & { deliveryAttributeMappings: Object,
+  endpointType: HybridConnection, resourceId: Object }

@@ -1,0 +1,107 @@
+name: PatternAnalyzer
+uid: '@azure/search-documents.PatternAnalyzer|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: >-
+  Flexibly separates text into terms via a regular expression pattern. This
+  analyzer is
+
+  implemented using Apache Lucene.
+fullName: PatternAnalyzer
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: flags
+    uid: '@azure/search-documents.PatternAnalyzer.flags|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: >-
+      Regular expression flags. Possible values include: 'CANON_EQ',
+      'CASE_INSENSITIVE', 'COMMENTS',
+
+      'DOTALL', 'LITERAL', 'MULTILINE', 'UNICODE_CASE', 'UNIX_LINES'
+    fullName: flags
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'flags?: RegexFlags[]'
+      return:
+        type: <xref uid="@azure/search-documents.RegexFlags" />[]
+        description: ''
+  - name: lowerCaseTerms
+    uid: '@azure/search-documents.PatternAnalyzer.lowerCaseTerms|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: >-
+      A value indicating whether terms should be lower-cased. Default is true.
+      Default value: true.
+    fullName: lowerCaseTerms
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lowerCaseTerms?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: name
+    uid: '@azure/search-documents.PatternAnalyzer.name|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: >-
+      The name of the analyzer. It must only contain letters, digits, spaces,
+      dashes or underscores,
+
+      can only start and end with alphanumeric characters, and is limited to 128
+      characters.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        type: string
+        description: ''
+  - name: odatatype
+    uid: '@azure/search-documents.PatternAnalyzer.odatatype|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Polymorphic Discriminator
+    fullName: odatatype
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'odatatype: "#Microsoft.Azure.Search.PatternAnalyzer"'
+      return:
+        type: '"#<xref uid="Microsoft.Azure.Search.PatternAnalyzer" />"'
+        description: ''
+  - name: pattern
+    uid: '@azure/search-documents.PatternAnalyzer.pattern|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: >-
+      A regular expression pattern to match token separators. Default is an
+      expression that matches
+
+      one or more whitespace characters. Default value: `\W+`.
+    fullName: pattern
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'pattern?: string'
+      return:
+        type: string
+        description: ''
+  - name: stopwords
+    uid: '@azure/search-documents.PatternAnalyzer.stopwords|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: A list of stopwords.
+    fullName: stopwords
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'stopwords?: string[]'
+      return:
+        type: string[]
+        description: ''

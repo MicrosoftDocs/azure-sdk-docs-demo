@@ -1,0 +1,9 @@
+name: TopicsBeginUpdateResponse
+uid: '@azure/arm-eventgrid.TopicsBeginUpdateResponse|latest-stable'
+package: '@azure/arm-eventgrid|latest-stable'
+summary: Contains response data for the beginUpdate operation.
+fullName: TopicsBeginUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type TopicsBeginUpdateResponse = Topic & { _response: Object }'

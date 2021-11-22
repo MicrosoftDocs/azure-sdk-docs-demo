@@ -1,0 +1,49 @@
+name: DeploymentModel
+uid: '@azure/arm-cognitiveservices.DeploymentModel|latest-stable'
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: Properties of Cognitive Services account deployment model.
+fullName: DeploymentModel
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: format
+    uid: '@azure/arm-cognitiveservices.DeploymentModel.format|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Deployment model format.
+    fullName: format
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'format?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: name
+    uid: '@azure/arm-cognitiveservices.DeploymentModel.name|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Deployment model name.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: version
+    uid: '@azure/arm-cognitiveservices.DeploymentModel.version|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Deployment model version.
+    fullName: version
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'version?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

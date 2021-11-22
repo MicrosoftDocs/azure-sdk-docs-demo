@@ -1,0 +1,11 @@
+name: ClustersListAvailableClusterRegionResponse
+uid: '@azure/arm-eventhub.ClustersListAvailableClusterRegionResponse|latest-stable'
+package: '@azure/arm-eventhub|latest-stable'
+summary: Contains response data for the listAvailableClusterRegion operation.
+fullName: ClustersListAvailableClusterRegionResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type ClustersListAvailableClusterRegionResponse = AvailableClustersList & {
+  _response: Object }

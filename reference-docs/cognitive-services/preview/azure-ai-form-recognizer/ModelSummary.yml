@@ -1,0 +1,49 @@
+name: ModelSummary
+uid: '@azure/ai-form-recognizer.ModelSummary|preview'
+package: '@azure/ai-form-recognizer|preview'
+summary: Model summary.
+fullName: ModelSummary
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: createdDateTime
+    uid: '@azure/ai-form-recognizer.ModelSummary.createdDateTime|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Date and time (UTC) when the model was created.
+    fullName: createdDateTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'createdDateTime: Date'
+      return:
+        type: Date
+        description: ''
+  - name: description
+    uid: '@azure/ai-form-recognizer.ModelSummary.description|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Model description.
+    fullName: description
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'description?: string'
+      return:
+        type: string
+        description: ''
+  - name: modelId
+    uid: '@azure/ai-form-recognizer.ModelSummary.modelId|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Unique model name.
+    fullName: modelId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'modelId: string'
+      return:
+        type: string
+        description: ''

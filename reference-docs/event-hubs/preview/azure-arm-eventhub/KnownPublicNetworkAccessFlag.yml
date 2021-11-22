@@ -1,0 +1,19 @@
+name: KnownPublicNetworkAccessFlag
+uid: '@azure/arm-eventhub.KnownPublicNetworkAccessFlag|preview'
+package: '@azure/arm-eventhub|preview'
+summary: >-
+  Known values of <xref:@azure/arm-eventhub.PublicNetworkAccessFlag> that the
+  service accepts.
+fullName: KnownPublicNetworkAccessFlag
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Disabled
+    uid: '@azure/arm-eventhub.KnownPublicNetworkAccessFlag.Disabled|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: ''
+  - name: Enabled
+    uid: '@azure/arm-eventhub.KnownPublicNetworkAccessFlag.Enabled|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: ''

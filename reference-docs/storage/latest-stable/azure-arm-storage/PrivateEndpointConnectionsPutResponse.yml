@@ -1,0 +1,11 @@
+name: PrivateEndpointConnectionsPutResponse
+uid: '@azure/arm-storage.PrivateEndpointConnectionsPutResponse|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: Contains response data for the put operation.
+fullName: PrivateEndpointConnectionsPutResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type PrivateEndpointConnectionsPutResponse = PrivateEndpointConnection & {
+  _response: Object }

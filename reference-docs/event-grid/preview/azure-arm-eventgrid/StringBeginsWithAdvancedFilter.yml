@@ -1,0 +1,11 @@
+name: StringBeginsWithAdvancedFilter
+uid: '@azure/arm-eventgrid.StringBeginsWithAdvancedFilter|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: StringBeginsWith Advanced Filter.
+fullName: StringBeginsWithAdvancedFilter
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type StringBeginsWithAdvancedFilter = AdvancedFilter & { operatorType:
+  StringBeginsWith, values: Object }

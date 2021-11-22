@@ -1,0 +1,20 @@
+name: PathGetPropertiesAction
+uid: '@azure/storage-file-datalake.PathGetPropertiesAction|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: |-
+  Defines values for PathGetPropertiesAction.
+  Possible values include: 'getAccessControl', 'getStatus'
+fullName: PathGetPropertiesAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: GetAccessControl
+    uid: >-
+      @azure/storage-file-datalake.PathGetPropertiesAction.GetAccessControl|preview
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+  - name: GetStatus
+    uid: '@azure/storage-file-datalake.PathGetPropertiesAction.GetStatus|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''

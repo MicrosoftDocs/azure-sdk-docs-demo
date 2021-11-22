@@ -1,0 +1,9 @@
+name: DisasterRecoveryConfigsCreateOrUpdateResponse
+uid: '@azure/arm-eventhub.DisasterRecoveryConfigsCreateOrUpdateResponse|preview'
+package: '@azure/arm-eventhub|preview'
+summary: Contains response data for the createOrUpdate operation.
+fullName: DisasterRecoveryConfigsCreateOrUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type DisasterRecoveryConfigsCreateOrUpdateResponse = ArmDisasterRecovery

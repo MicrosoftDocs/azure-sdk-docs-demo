@@ -1,0 +1,11 @@
+name: FileSystemGetAccessPolicyResponse
+uid: '@azure/storage-file-datalake.FileSystemGetAccessPolicyResponse|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: ''
+fullName: FileSystemGetAccessPolicyResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type FileSystemGetAccessPolicyResponse = { signedIdentifiers: Object } &
+  FileSystemGetAccessPolicyHeaders & { _response: Object }

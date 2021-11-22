@@ -1,0 +1,9 @@
+name: EventSubscriptionsCreateOrUpdateResponse
+uid: '@azure/arm-eventgrid.EventSubscriptionsCreateOrUpdateResponse|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: Contains response data for the createOrUpdate operation.
+fullName: EventSubscriptionsCreateOrUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type EventSubscriptionsCreateOrUpdateResponse = EventSubscription

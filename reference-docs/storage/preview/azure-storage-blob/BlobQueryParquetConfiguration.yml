@@ -1,0 +1,25 @@
+name: BlobQueryParquetConfiguration
+uid: '@azure/storage-blob.BlobQueryParquetConfiguration|preview'
+package: '@azure/storage-blob|preview'
+summary: >-
+  Options to query blob with Parquet format. Only valid for
+  <xref:@azure/storage-blob.BlockBlobQueryOptions.inputTextConfiguration>.
+fullName: BlobQueryParquetConfiguration
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: kind
+    uid: '@azure/storage-blob.BlobQueryParquetConfiguration.kind|preview'
+    package: '@azure/storage-blob|preview'
+    summary: Kind.
+    fullName: kind
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'kind: "parquet"'
+      return:
+        type: '"parquet"'
+        description: ''

@@ -1,0 +1,361 @@
+uid: '@azure/arm-eventgrid|preview'
+name: '@azure/arm-eventgrid'
+summary: ''
+type: package
+enums:
+  - '@azure/arm-eventgrid.KnownAdvancedFilterOperatorType|preview'
+  - '@azure/arm-eventgrid.KnownCreatedByType|preview'
+  - '@azure/arm-eventgrid.KnownDeadLetterEndPointType|preview'
+  - '@azure/arm-eventgrid.KnownDeliveryAttributeMappingType|preview'
+  - '@azure/arm-eventgrid.KnownDomainProvisioningState|preview'
+  - '@azure/arm-eventgrid.KnownDomainTopicProvisioningState|preview'
+  - '@azure/arm-eventgrid.KnownEndpointType|preview'
+  - '@azure/arm-eventgrid.KnownEnum18|preview'
+  - '@azure/arm-eventgrid.KnownEnum19|preview'
+  - '@azure/arm-eventgrid.KnownEnum20|preview'
+  - '@azure/arm-eventgrid.KnownEnum21|preview'
+  - '@azure/arm-eventgrid.KnownEventDeliverySchema|preview'
+  - '@azure/arm-eventgrid.KnownEventSubscriptionIdentityType|preview'
+  - '@azure/arm-eventgrid.KnownEventSubscriptionProvisioningState|preview'
+  - '@azure/arm-eventgrid.KnownIdentityType|preview'
+  - '@azure/arm-eventgrid.KnownInputSchema|preview'
+  - '@azure/arm-eventgrid.KnownInputSchemaMappingType|preview'
+  - '@azure/arm-eventgrid.KnownIpActionType|preview'
+  - '@azure/arm-eventgrid.KnownPersistedConnectionStatus|preview'
+  - '@azure/arm-eventgrid.KnownPublicNetworkAccess|preview'
+  - '@azure/arm-eventgrid.KnownResourceProvisioningState|preview'
+  - '@azure/arm-eventgrid.KnownResourceRegionType|preview'
+  - '@azure/arm-eventgrid.KnownTopicProvisioningState|preview'
+  - >-
+    @azure/arm-eventgrid.KnownTopicTypePropertiesSupportedScopesForSourceItem|preview
+  - '@azure/arm-eventgrid.KnownTopicTypeProvisioningState|preview'
+classes:
+  - '@azure/arm-eventgrid.EventGridManagementClient|preview'
+  - '@azure/arm-eventgrid.EventGridManagementClientContext|preview'
+interfaces:
+  - '@azure/arm-eventgrid.AdvancedFilter|preview'
+  - '@azure/arm-eventgrid.ConnectionState|preview'
+  - '@azure/arm-eventgrid.DeadLetterDestination|preview'
+  - '@azure/arm-eventgrid.DeadLetterWithResourceIdentity|preview'
+  - '@azure/arm-eventgrid.DeliveryAttributeListResult|preview'
+  - '@azure/arm-eventgrid.DeliveryAttributeMapping|preview'
+  - '@azure/arm-eventgrid.DeliveryWithResourceIdentity|preview'
+  - '@azure/arm-eventgrid.DomainRegenerateKeyRequest|preview'
+  - '@azure/arm-eventgrid.DomainSharedAccessKeys|preview'
+  - '@azure/arm-eventgrid.DomainTopics|preview'
+  - '@azure/arm-eventgrid.DomainTopicsCreateOrUpdateOptionalParams|preview'
+  - '@azure/arm-eventgrid.DomainTopicsDeleteOptionalParams|preview'
+  - '@azure/arm-eventgrid.DomainTopicsGetOptionalParams|preview'
+  - '@azure/arm-eventgrid.DomainTopicsListByDomainNextOptionalParams|preview'
+  - '@azure/arm-eventgrid.DomainTopicsListByDomainOptionalParams|preview'
+  - '@azure/arm-eventgrid.DomainTopicsListResult|preview'
+  - '@azure/arm-eventgrid.DomainUpdateParameters|preview'
+  - '@azure/arm-eventgrid.Domains|preview'
+  - '@azure/arm-eventgrid.DomainsCreateOrUpdateOptionalParams|preview'
+  - '@azure/arm-eventgrid.DomainsDeleteOptionalParams|preview'
+  - '@azure/arm-eventgrid.DomainsGetOptionalParams|preview'
+  - '@azure/arm-eventgrid.DomainsListByResourceGroupNextOptionalParams|preview'
+  - '@azure/arm-eventgrid.DomainsListByResourceGroupOptionalParams|preview'
+  - '@azure/arm-eventgrid.DomainsListBySubscriptionNextOptionalParams|preview'
+  - '@azure/arm-eventgrid.DomainsListBySubscriptionOptionalParams|preview'
+  - '@azure/arm-eventgrid.DomainsListResult|preview'
+  - '@azure/arm-eventgrid.DomainsListSharedAccessKeysOptionalParams|preview'
+  - '@azure/arm-eventgrid.DomainsRegenerateKeyOptionalParams|preview'
+  - '@azure/arm-eventgrid.DomainsUpdateOptionalParams|preview'
+  - '@azure/arm-eventgrid.EventGridManagementClientOptionalParams|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionDestination|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionFilter|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionFullUrl|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionIdentity|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionUpdateParameters|preview'
+  - '@azure/arm-eventgrid.EventSubscriptions|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionsCreateOrUpdateOptionalParams|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionsDeleteOptionalParams|preview'
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsGetDeliveryAttributesOptionalParams|preview
+  - '@azure/arm-eventgrid.EventSubscriptionsGetFullUrlOptionalParams|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionsGetOptionalParams|preview'
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListByDomainTopicNextOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListByDomainTopicOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListByResourceNextOptionalParams|preview
+  - '@azure/arm-eventgrid.EventSubscriptionsListByResourceOptionalParams|preview'
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupForTopicTypeOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupNextOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionForTopicTypeNextOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionForTopicTypeOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionNextOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupForTopicTypeNextOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupForTopicTypeOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupNextOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionForTopicTypeNextOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionForTopicTypeOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionNextOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionOptionalParams|preview
+  - '@azure/arm-eventgrid.EventSubscriptionsListResult|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionsUpdateOptionalParams|preview'
+  - '@azure/arm-eventgrid.EventTypesListResult|preview'
+  - '@azure/arm-eventgrid.ExtensionTopics|preview'
+  - '@azure/arm-eventgrid.ExtensionTopicsGetOptionalParams|preview'
+  - '@azure/arm-eventgrid.IdentityInfo|preview'
+  - '@azure/arm-eventgrid.InboundIpRule|preview'
+  - '@azure/arm-eventgrid.InputSchemaMapping|preview'
+  - '@azure/arm-eventgrid.JsonField|preview'
+  - '@azure/arm-eventgrid.JsonFieldWithDefault|preview'
+  - '@azure/arm-eventgrid.Operation|preview'
+  - '@azure/arm-eventgrid.OperationInfo|preview'
+  - '@azure/arm-eventgrid.Operations|preview'
+  - '@azure/arm-eventgrid.OperationsListOptionalParams|preview'
+  - '@azure/arm-eventgrid.OperationsListResult|preview'
+  - '@azure/arm-eventgrid.PrivateEndpoint|preview'
+  - '@azure/arm-eventgrid.PrivateEndpointConnectionListResult|preview'
+  - '@azure/arm-eventgrid.PrivateEndpointConnections|preview'
+  - '@azure/arm-eventgrid.PrivateEndpointConnectionsDeleteOptionalParams|preview'
+  - '@azure/arm-eventgrid.PrivateEndpointConnectionsGetOptionalParams|preview'
+  - >-
+    @azure/arm-eventgrid.PrivateEndpointConnectionsListByResourceNextOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.PrivateEndpointConnectionsListByResourceOptionalParams|preview
+  - '@azure/arm-eventgrid.PrivateEndpointConnectionsUpdateOptionalParams|preview'
+  - '@azure/arm-eventgrid.PrivateLinkResource|preview'
+  - '@azure/arm-eventgrid.PrivateLinkResources|preview'
+  - '@azure/arm-eventgrid.PrivateLinkResourcesGetOptionalParams|preview'
+  - >-
+    @azure/arm-eventgrid.PrivateLinkResourcesListByResourceNextOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.PrivateLinkResourcesListByResourceOptionalParams|preview
+  - '@azure/arm-eventgrid.PrivateLinkResourcesListResult|preview'
+  - '@azure/arm-eventgrid.Resource|preview'
+  - '@azure/arm-eventgrid.RetryPolicy|preview'
+  - '@azure/arm-eventgrid.SystemData|preview'
+  - '@azure/arm-eventgrid.SystemTopicEventSubscriptions|preview'
+  - >-
+    @azure/arm-eventgrid.SystemTopicEventSubscriptionsCreateOrUpdateOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.SystemTopicEventSubscriptionsDeleteOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.SystemTopicEventSubscriptionsGetDeliveryAttributesOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.SystemTopicEventSubscriptionsGetFullUrlOptionalParams|preview
+  - '@azure/arm-eventgrid.SystemTopicEventSubscriptionsGetOptionalParams|preview'
+  - >-
+    @azure/arm-eventgrid.SystemTopicEventSubscriptionsListBySystemTopicNextOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.SystemTopicEventSubscriptionsListBySystemTopicOptionalParams|preview
+  - >-
+    @azure/arm-eventgrid.SystemTopicEventSubscriptionsUpdateOptionalParams|preview
+  - '@azure/arm-eventgrid.SystemTopicUpdateParameters|preview'
+  - '@azure/arm-eventgrid.SystemTopics|preview'
+  - '@azure/arm-eventgrid.SystemTopicsCreateOrUpdateOptionalParams|preview'
+  - '@azure/arm-eventgrid.SystemTopicsDeleteOptionalParams|preview'
+  - '@azure/arm-eventgrid.SystemTopicsGetOptionalParams|preview'
+  - >-
+    @azure/arm-eventgrid.SystemTopicsListByResourceGroupNextOptionalParams|preview
+  - '@azure/arm-eventgrid.SystemTopicsListByResourceGroupOptionalParams|preview'
+  - >-
+    @azure/arm-eventgrid.SystemTopicsListBySubscriptionNextOptionalParams|preview
+  - '@azure/arm-eventgrid.SystemTopicsListBySubscriptionOptionalParams|preview'
+  - '@azure/arm-eventgrid.SystemTopicsListResult|preview'
+  - '@azure/arm-eventgrid.SystemTopicsUpdateOptionalParams|preview'
+  - '@azure/arm-eventgrid.TopicRegenerateKeyRequest|preview'
+  - '@azure/arm-eventgrid.TopicSharedAccessKeys|preview'
+  - '@azure/arm-eventgrid.TopicTypes|preview'
+  - '@azure/arm-eventgrid.TopicTypesGetOptionalParams|preview'
+  - '@azure/arm-eventgrid.TopicTypesListEventTypesOptionalParams|preview'
+  - '@azure/arm-eventgrid.TopicTypesListOptionalParams|preview'
+  - '@azure/arm-eventgrid.TopicTypesListResult|preview'
+  - '@azure/arm-eventgrid.TopicUpdateParameters|preview'
+  - '@azure/arm-eventgrid.Topics|preview'
+  - '@azure/arm-eventgrid.TopicsCreateOrUpdateOptionalParams|preview'
+  - '@azure/arm-eventgrid.TopicsDeleteOptionalParams|preview'
+  - '@azure/arm-eventgrid.TopicsGetOptionalParams|preview'
+  - '@azure/arm-eventgrid.TopicsListByResourceGroupNextOptionalParams|preview'
+  - '@azure/arm-eventgrid.TopicsListByResourceGroupOptionalParams|preview'
+  - '@azure/arm-eventgrid.TopicsListBySubscriptionNextOptionalParams|preview'
+  - '@azure/arm-eventgrid.TopicsListBySubscriptionOptionalParams|preview'
+  - '@azure/arm-eventgrid.TopicsListEventTypesOptionalParams|preview'
+  - '@azure/arm-eventgrid.TopicsListResult|preview'
+  - '@azure/arm-eventgrid.TopicsListSharedAccessKeysOptionalParams|preview'
+  - '@azure/arm-eventgrid.TopicsRegenerateKeyOptionalParams|preview'
+  - '@azure/arm-eventgrid.TopicsUpdateOptionalParams|preview'
+  - '@azure/arm-eventgrid.UserIdentityProperties|preview'
+typeAliases:
+  - '@azure/arm-eventgrid.AdvancedFilterOperatorType|preview'
+  - '@azure/arm-eventgrid.AdvancedFilterUnion|preview'
+  - '@azure/arm-eventgrid.AzureFunctionEventSubscriptionDestination|preview'
+  - '@azure/arm-eventgrid.BoolEqualsAdvancedFilter|preview'
+  - '@azure/arm-eventgrid.CreatedByType|preview'
+  - '@azure/arm-eventgrid.DeadLetterDestinationUnion|preview'
+  - '@azure/arm-eventgrid.DeadLetterEndPointType|preview'
+  - '@azure/arm-eventgrid.DeliveryAttributeMappingType|preview'
+  - '@azure/arm-eventgrid.DeliveryAttributeMappingUnion|preview'
+  - '@azure/arm-eventgrid.Domain|preview'
+  - '@azure/arm-eventgrid.DomainProvisioningState|preview'
+  - '@azure/arm-eventgrid.DomainTopic|preview'
+  - '@azure/arm-eventgrid.DomainTopicProvisioningState|preview'
+  - '@azure/arm-eventgrid.DomainTopicsCreateOrUpdateResponse|preview'
+  - '@azure/arm-eventgrid.DomainTopicsGetResponse|preview'
+  - '@azure/arm-eventgrid.DomainTopicsListByDomainNextResponse|preview'
+  - '@azure/arm-eventgrid.DomainTopicsListByDomainResponse|preview'
+  - '@azure/arm-eventgrid.DomainsCreateOrUpdateResponse|preview'
+  - '@azure/arm-eventgrid.DomainsGetResponse|preview'
+  - '@azure/arm-eventgrid.DomainsListByResourceGroupNextResponse|preview'
+  - '@azure/arm-eventgrid.DomainsListByResourceGroupResponse|preview'
+  - '@azure/arm-eventgrid.DomainsListBySubscriptionNextResponse|preview'
+  - '@azure/arm-eventgrid.DomainsListBySubscriptionResponse|preview'
+  - '@azure/arm-eventgrid.DomainsListSharedAccessKeysResponse|preview'
+  - '@azure/arm-eventgrid.DomainsRegenerateKeyResponse|preview'
+  - '@azure/arm-eventgrid.DynamicDeliveryAttributeMapping|preview'
+  - '@azure/arm-eventgrid.EndpointType|preview'
+  - '@azure/arm-eventgrid.Enum18|preview'
+  - '@azure/arm-eventgrid.Enum19|preview'
+  - '@azure/arm-eventgrid.Enum20|preview'
+  - '@azure/arm-eventgrid.Enum21|preview'
+  - '@azure/arm-eventgrid.EventDeliverySchema|preview'
+  - '@azure/arm-eventgrid.EventHubEventSubscriptionDestination|preview'
+  - '@azure/arm-eventgrid.EventSubscription|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionDestinationUnion|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionIdentityType|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionProvisioningState|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionsCreateOrUpdateResponse|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionsGetDeliveryAttributesResponse|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionsGetFullUrlResponse|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionsGetResponse|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionsListByDomainTopicNextResponse|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionsListByDomainTopicResponse|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionsListByResourceNextResponse|preview'
+  - '@azure/arm-eventgrid.EventSubscriptionsListByResourceResponse|preview'
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextResponse|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupForTopicTypeResponse|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupNextResponse|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupResponse|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionForTopicTypeNextResponse|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionForTopicTypeResponse|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionNextResponse|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionResponse|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupForTopicTypeNextResponse|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupForTopicTypeResponse|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupNextResponse|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupResponse|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionForTopicTypeNextResponse|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionForTopicTypeResponse|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionNextResponse|preview
+  - >-
+    @azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionResponse|preview
+  - '@azure/arm-eventgrid.EventSubscriptionsUpdateResponse|preview'
+  - '@azure/arm-eventgrid.EventType|preview'
+  - '@azure/arm-eventgrid.ExtensionTopic|preview'
+  - '@azure/arm-eventgrid.ExtensionTopicsGetResponse|preview'
+  - '@azure/arm-eventgrid.HybridConnectionEventSubscriptionDestination|preview'
+  - '@azure/arm-eventgrid.IdentityType|preview'
+  - '@azure/arm-eventgrid.InputSchema|preview'
+  - '@azure/arm-eventgrid.InputSchemaMappingType|preview'
+  - '@azure/arm-eventgrid.InputSchemaMappingUnion|preview'
+  - '@azure/arm-eventgrid.IpActionType|preview'
+  - '@azure/arm-eventgrid.JsonInputSchemaMapping|preview'
+  - '@azure/arm-eventgrid.NumberGreaterThanAdvancedFilter|preview'
+  - '@azure/arm-eventgrid.NumberGreaterThanOrEqualsAdvancedFilter|preview'
+  - '@azure/arm-eventgrid.NumberInAdvancedFilter|preview'
+  - '@azure/arm-eventgrid.NumberLessThanAdvancedFilter|preview'
+  - '@azure/arm-eventgrid.NumberLessThanOrEqualsAdvancedFilter|preview'
+  - '@azure/arm-eventgrid.NumberNotInAdvancedFilter|preview'
+  - '@azure/arm-eventgrid.OperationsListResponse|preview'
+  - '@azure/arm-eventgrid.PersistedConnectionStatus|preview'
+  - '@azure/arm-eventgrid.PrivateEndpointConnection|preview'
+  - '@azure/arm-eventgrid.PrivateEndpointConnectionsGetResponse|preview'
+  - >-
+    @azure/arm-eventgrid.PrivateEndpointConnectionsListByResourceNextResponse|preview
+  - >-
+    @azure/arm-eventgrid.PrivateEndpointConnectionsListByResourceResponse|preview
+  - '@azure/arm-eventgrid.PrivateEndpointConnectionsUpdateResponse|preview'
+  - '@azure/arm-eventgrid.PrivateLinkResourcesGetResponse|preview'
+  - '@azure/arm-eventgrid.PrivateLinkResourcesListByResourceNextResponse|preview'
+  - '@azure/arm-eventgrid.PrivateLinkResourcesListByResourceResponse|preview'
+  - '@azure/arm-eventgrid.PublicNetworkAccess|preview'
+  - '@azure/arm-eventgrid.ResourceProvisioningState|preview'
+  - '@azure/arm-eventgrid.ResourceRegionType|preview'
+  - '@azure/arm-eventgrid.ServiceBusQueueEventSubscriptionDestination|preview'
+  - '@azure/arm-eventgrid.ServiceBusTopicEventSubscriptionDestination|preview'
+  - '@azure/arm-eventgrid.StaticDeliveryAttributeMapping|preview'
+  - '@azure/arm-eventgrid.StorageBlobDeadLetterDestination|preview'
+  - '@azure/arm-eventgrid.StorageQueueEventSubscriptionDestination|preview'
+  - '@azure/arm-eventgrid.StringBeginsWithAdvancedFilter|preview'
+  - '@azure/arm-eventgrid.StringContainsAdvancedFilter|preview'
+  - '@azure/arm-eventgrid.StringEndsWithAdvancedFilter|preview'
+  - '@azure/arm-eventgrid.StringInAdvancedFilter|preview'
+  - '@azure/arm-eventgrid.StringNotInAdvancedFilter|preview'
+  - '@azure/arm-eventgrid.SystemTopic|preview'
+  - >-
+    @azure/arm-eventgrid.SystemTopicEventSubscriptionsCreateOrUpdateResponse|preview
+  - >-
+    @azure/arm-eventgrid.SystemTopicEventSubscriptionsGetDeliveryAttributesResponse|preview
+  - '@azure/arm-eventgrid.SystemTopicEventSubscriptionsGetFullUrlResponse|preview'
+  - '@azure/arm-eventgrid.SystemTopicEventSubscriptionsGetResponse|preview'
+  - >-
+    @azure/arm-eventgrid.SystemTopicEventSubscriptionsListBySystemTopicNextResponse|preview
+  - >-
+    @azure/arm-eventgrid.SystemTopicEventSubscriptionsListBySystemTopicResponse|preview
+  - '@azure/arm-eventgrid.SystemTopicEventSubscriptionsUpdateResponse|preview'
+  - '@azure/arm-eventgrid.SystemTopicsCreateOrUpdateResponse|preview'
+  - '@azure/arm-eventgrid.SystemTopicsGetResponse|preview'
+  - '@azure/arm-eventgrid.SystemTopicsListByResourceGroupNextResponse|preview'
+  - '@azure/arm-eventgrid.SystemTopicsListByResourceGroupResponse|preview'
+  - '@azure/arm-eventgrid.SystemTopicsListBySubscriptionNextResponse|preview'
+  - '@azure/arm-eventgrid.SystemTopicsListBySubscriptionResponse|preview'
+  - '@azure/arm-eventgrid.SystemTopicsUpdateResponse|preview'
+  - '@azure/arm-eventgrid.Topic|preview'
+  - '@azure/arm-eventgrid.TopicProvisioningState|preview'
+  - '@azure/arm-eventgrid.TopicTypeInfo|preview'
+  - '@azure/arm-eventgrid.TopicTypePropertiesSupportedScopesForSourceItem|preview'
+  - '@azure/arm-eventgrid.TopicTypeProvisioningState|preview'
+  - '@azure/arm-eventgrid.TopicTypesGetResponse|preview'
+  - '@azure/arm-eventgrid.TopicTypesListEventTypesResponse|preview'
+  - '@azure/arm-eventgrid.TopicTypesListResponse|preview'
+  - '@azure/arm-eventgrid.TopicsCreateOrUpdateResponse|preview'
+  - '@azure/arm-eventgrid.TopicsGetResponse|preview'
+  - '@azure/arm-eventgrid.TopicsListByResourceGroupNextResponse|preview'
+  - '@azure/arm-eventgrid.TopicsListByResourceGroupResponse|preview'
+  - '@azure/arm-eventgrid.TopicsListBySubscriptionNextResponse|preview'
+  - '@azure/arm-eventgrid.TopicsListBySubscriptionResponse|preview'
+  - '@azure/arm-eventgrid.TopicsListEventTypesResponse|preview'
+  - '@azure/arm-eventgrid.TopicsListSharedAccessKeysResponse|preview'
+  - '@azure/arm-eventgrid.TopicsRegenerateKeyResponse|preview'
+  - '@azure/arm-eventgrid.TrackedResource|preview'
+  - '@azure/arm-eventgrid.WebHookEventSubscriptionDestination|preview'

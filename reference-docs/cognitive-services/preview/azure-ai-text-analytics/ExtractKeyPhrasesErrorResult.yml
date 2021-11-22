@@ -1,0 +1,9 @@
+name: ExtractKeyPhrasesErrorResult
+uid: '@azure/ai-text-analytics.ExtractKeyPhrasesErrorResult|preview'
+package: '@azure/ai-text-analytics|preview'
+summary: An error result from the extract key phrases operation on a single document.
+fullName: ExtractKeyPhrasesErrorResult
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type ExtractKeyPhrasesErrorResult = TextAnalyticsErrorResult

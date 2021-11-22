@@ -1,0 +1,11 @@
+name: EventSubscriptionsUpdateResponse
+uid: '@azure/arm-eventgrid.EventSubscriptionsUpdateResponse|latest-stable'
+package: '@azure/arm-eventgrid|latest-stable'
+summary: Contains response data for the update operation.
+fullName: EventSubscriptionsUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type EventSubscriptionsUpdateResponse = EventSubscription & { _response:
+  Object }

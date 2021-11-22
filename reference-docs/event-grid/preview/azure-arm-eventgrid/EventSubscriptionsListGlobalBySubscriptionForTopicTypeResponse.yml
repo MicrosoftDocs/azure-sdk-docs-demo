@@ -1,0 +1,12 @@
+name: EventSubscriptionsListGlobalBySubscriptionForTopicTypeResponse
+uid: >-
+  @azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionForTopicTypeResponse|preview
+package: '@azure/arm-eventgrid|preview'
+summary: Contains response data for the listGlobalBySubscriptionForTopicType operation.
+fullName: EventSubscriptionsListGlobalBySubscriptionForTopicTypeResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type EventSubscriptionsListGlobalBySubscriptionForTopicTypeResponse =
+  EventSubscriptionsListResult

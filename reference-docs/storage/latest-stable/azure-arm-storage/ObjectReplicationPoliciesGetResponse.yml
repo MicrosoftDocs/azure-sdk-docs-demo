@@ -1,0 +1,11 @@
+name: ObjectReplicationPoliciesGetResponse
+uid: '@azure/arm-storage.ObjectReplicationPoliciesGetResponse|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: Contains response data for the get operation.
+fullName: ObjectReplicationPoliciesGetResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type ObjectReplicationPoliciesGetResponse = ObjectReplicationPolicy & {
+  _response: Object }

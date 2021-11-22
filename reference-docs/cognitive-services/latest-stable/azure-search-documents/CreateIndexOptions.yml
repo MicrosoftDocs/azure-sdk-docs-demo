@@ -1,0 +1,9 @@
+name: CreateIndexOptions
+uid: '@azure/search-documents.CreateIndexOptions|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: Options for create index operation.
+fullName: CreateIndexOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type CreateIndexOptions = OperationOptions

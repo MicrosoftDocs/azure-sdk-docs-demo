@@ -1,0 +1,9 @@
+name: Authenticator
+uid: '@azure/core-http.Authenticator|latest-stable'
+package: '@azure/core-http|latest-stable'
+summary: ''
+fullName: Authenticator
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type Authenticator = (challenge: unknown) => Promise<string>'

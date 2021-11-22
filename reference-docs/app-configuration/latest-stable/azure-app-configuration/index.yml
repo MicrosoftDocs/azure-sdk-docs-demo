@@ -1,0 +1,135 @@
+uid: '@azure/app-configuration|latest-stable'
+name: '@azure/app-configuration'
+summary: ''
+type: package
+classes:
+  - '@azure/app-configuration.AppConfigurationClient|latest-stable'
+interfaces:
+  - '@azure/app-configuration.AddConfigurationSettingOptions|latest-stable'
+  - '@azure/app-configuration.AddConfigurationSettingResponse|latest-stable'
+  - '@azure/app-configuration.AppConfigurationClientOptions|latest-stable'
+  - '@azure/app-configuration.ConfigurationSettingId|latest-stable'
+  - '@azure/app-configuration.DeleteConfigurationSettingOptions|latest-stable'
+  - '@azure/app-configuration.DeleteConfigurationSettingResponse|latest-stable'
+  - '@azure/app-configuration.FeatureFlagValue|latest-stable'
+  - '@azure/app-configuration.GetConfigurationHeaders|latest-stable'
+  - '@azure/app-configuration.GetConfigurationSettingOptions|latest-stable'
+  - '@azure/app-configuration.GetConfigurationSettingResponse|latest-stable'
+  - '@azure/app-configuration.HttpOnlyIfChangedField|latest-stable'
+  - '@azure/app-configuration.HttpOnlyIfUnchangedField|latest-stable'
+  - '@azure/app-configuration.HttpResponseField|latest-stable'
+  - '@azure/app-configuration.HttpResponseFields|latest-stable'
+  - '@azure/app-configuration.ListConfigurationSettingPage|latest-stable'
+  - '@azure/app-configuration.ListConfigurationSettingsOptions|latest-stable'
+  - '@azure/app-configuration.ListRevisionsOptions|latest-stable'
+  - '@azure/app-configuration.ListRevisionsPage|latest-stable'
+  - '@azure/app-configuration.ListSettingsOptions|latest-stable'
+  - '@azure/app-configuration.OptionalFields|latest-stable'
+  - '@azure/app-configuration.PageSettings|latest-stable'
+  - '@azure/app-configuration.RetryOptions|latest-stable'
+  - '@azure/app-configuration.SecretReferenceValue|latest-stable'
+  - '@azure/app-configuration.SetConfigurationSettingOptions|latest-stable'
+  - '@azure/app-configuration.SetConfigurationSettingResponse|latest-stable'
+  - '@azure/app-configuration.SetReadOnlyOptions|latest-stable'
+  - '@azure/app-configuration.SetReadOnlyResponse|latest-stable'
+  - '@azure/app-configuration.SyncTokenHeaderField|latest-stable'
+typeAliases:
+  - '@azure/app-configuration.AddConfigurationSettingParam|latest-stable'
+  - '@azure/app-configuration.ConfigurationSetting|latest-stable'
+  - '@azure/app-configuration.ConfigurationSettingParam|latest-stable'
+  - '@azure/app-configuration.ConfigurationSettingResponse|latest-stable'
+  - '@azure/app-configuration.SetConfigurationSettingParam|latest-stable'
+functions:
+  - name: isFeatureFlag(ConfigurationSetting)
+    uid: '@azure/app-configuration.isFeatureFlag|latest-stable'
+    package: '@azure/app-configuration|latest-stable'
+    summary: >
+      Lets you know if the ConfigurationSetting is a feature flag.
+
+      [Checks if the content type is featureFlagContentType
+      `"application/vnd.microsoft.appconfig.ff+json;charset=utf-8"`]
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isFeatureFlag(setting: ConfigurationSetting)'
+      parameters:
+        - id: setting
+          type: >-
+            <xref
+            uid="@azure/app-configuration.ConfigurationSetting|latest-stable" />
+          description: ''
+      return:
+        type: boolean
+        description: ''
+  - name: isSecretReference(ConfigurationSetting)
+    uid: '@azure/app-configuration.isSecretReference|latest-stable'
+    package: '@azure/app-configuration|latest-stable'
+    summary: >
+      Lets you know if the ConfigurationSetting is a secret reference.
+
+      [Checks if the content type is secretReferenceContentType
+      `"application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8"`]
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isSecretReference(setting: ConfigurationSetting)'
+      parameters:
+        - id: setting
+          type: >-
+            <xref
+            uid="@azure/app-configuration.ConfigurationSetting|latest-stable" />
+          description: ''
+      return:
+        type: boolean
+        description: ''
+  - name: parseFeatureFlag(ConfigurationSetting)
+    uid: '@azure/app-configuration.parseFeatureFlag|latest-stable'
+    package: '@azure/app-configuration|latest-stable'
+    summary: >-
+      Takes the ConfigurationSetting as input and returns the
+      ConfigurationSetting<FeatureFlagValue> by parsing the value string.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parseFeatureFlag(setting: ConfigurationSetting)'
+      parameters:
+        - id: setting
+          type: >-
+            <xref
+            uid="@azure/app-configuration.ConfigurationSetting|latest-stable" />
+          description: ''
+      return:
+        type: >-
+          <xref
+          uid="@azure/app-configuration.ConfigurationSetting|latest-stable"
+          />&lt;<xref
+          uid="@azure/app-configuration.FeatureFlagValue|latest-stable" />&gt;
+        description: ''
+  - name: parseSecretReference(ConfigurationSetting)
+    uid: '@azure/app-configuration.parseSecretReference|latest-stable'
+    package: '@azure/app-configuration|latest-stable'
+    summary: >-
+      Takes the ConfigurationSetting as input and returns the
+      ConfigurationSetting<SecretReferenceValue> by parsing the value string.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parseSecretReference(setting: ConfigurationSetting)'
+      parameters:
+        - id: setting
+          type: >-
+            <xref
+            uid="@azure/app-configuration.ConfigurationSetting|latest-stable" />
+          description: ''
+      return:
+        type: >-
+          <xref
+          uid="@azure/app-configuration.ConfigurationSetting|latest-stable"
+          />&lt;<xref
+          uid="@azure/app-configuration.SecretReferenceValue|latest-stable"
+          />&gt;
+        description: ''

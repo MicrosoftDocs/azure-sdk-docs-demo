@@ -1,0 +1,9 @@
+name: QueueServicesGetServicePropertiesResponse
+uid: '@azure/arm-storage.QueueServicesGetServicePropertiesResponse|preview'
+package: '@azure/arm-storage|preview'
+summary: Contains response data for the getServiceProperties operation.
+fullName: QueueServicesGetServicePropertiesResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type QueueServicesGetServicePropertiesResponse = QueueServiceProperties

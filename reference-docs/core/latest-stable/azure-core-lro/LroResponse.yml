@@ -1,0 +1,36 @@
+name: LroResponse
+uid: '@azure/core-lro.LroResponse|latest-stable'
+package: '@azure/core-lro|latest-stable'
+summary: The type of the response of a LRO.
+fullName: LroResponse<T>
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: flatResponse
+    uid: '@azure/core-lro.LroResponse.flatResponse|latest-stable'
+    package: '@azure/core-lro|latest-stable'
+    summary: The flattened response
+    fullName: flatResponse
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'flatResponse: T'
+      return:
+        type: T
+        description: ''
+  - name: rawResponse
+    uid: '@azure/core-lro.LroResponse.rawResponse|latest-stable'
+    package: '@azure/core-lro|latest-stable'
+    summary: The raw response
+    fullName: rawResponse
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'rawResponse: RawResponse'
+      return:
+        type: <xref uid="@azure/core-lro.RawResponse" />
+        description: ''

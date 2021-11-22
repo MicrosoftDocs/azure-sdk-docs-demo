@@ -1,0 +1,39 @@
+name: KnownEndpointType
+uid: '@azure/arm-eventgrid.KnownEndpointType|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: >-
+  Known values of <xref:@azure/arm-eventgrid.EndpointType> that the service
+  accepts.
+fullName: KnownEndpointType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: AzureFunction
+    uid: '@azure/arm-eventgrid.KnownEndpointType.AzureFunction|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: EventHub
+    uid: '@azure/arm-eventgrid.KnownEndpointType.EventHub|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: HybridConnection
+    uid: '@azure/arm-eventgrid.KnownEndpointType.HybridConnection|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: ServiceBusQueue
+    uid: '@azure/arm-eventgrid.KnownEndpointType.ServiceBusQueue|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: ServiceBusTopic
+    uid: '@azure/arm-eventgrid.KnownEndpointType.ServiceBusTopic|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: StorageQueue
+    uid: '@azure/arm-eventgrid.KnownEndpointType.StorageQueue|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: WebHook
+    uid: '@azure/arm-eventgrid.KnownEndpointType.WebHook|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''

@@ -1,0 +1,49 @@
+name: PartitionKeyRangePropertiesNames
+uid: '@azure/cosmos.PartitionKeyRangePropertiesNames|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: ''
+fullName: PartitionKeyRangePropertiesNames
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: Id
+    uid: '@azure/cosmos.PartitionKeyRangePropertiesNames.Id|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    fullName: Id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'Id: "id"'
+      return:
+        type: '"id"'
+        description: ''
+  - name: MaxExclusive
+    uid: '@azure/cosmos.PartitionKeyRangePropertiesNames.MaxExclusive|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    fullName: MaxExclusive
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'MaxExclusive: "maxExclusive"'
+      return:
+        type: '"maxExclusive"'
+        description: ''
+  - name: MinInclusive
+    uid: '@azure/cosmos.PartitionKeyRangePropertiesNames.MinInclusive|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    fullName: MinInclusive
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'MinInclusive: "minInclusive"'
+      return:
+        type: '"minInclusive"'
+        description: ''

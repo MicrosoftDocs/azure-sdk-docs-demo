@@ -1,0 +1,13 @@
+name: ServiceFindBlobsByTagsSegmentResponse
+uid: '@azure/storage-blob.ServiceFindBlobsByTagsSegmentResponse|preview'
+package: '@azure/storage-blob|preview'
+summary: >-
+  The response of <xref:@azure/storage-blob.BlobServiceClient.findBlobsByTags>
+  operation.
+fullName: ServiceFindBlobsByTagsSegmentResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type ServiceFindBlobsByTagsSegmentResponse = FilterBlobSegment &
+  ServiceFilterBlobsHeaders & { _response: Object }

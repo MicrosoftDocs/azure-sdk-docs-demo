@@ -1,0 +1,13 @@
+name: ConditionalSkill
+uid: '@azure/search-documents.ConditionalSkill|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: >-
+  A skill that enables scenarios that require a Boolean operation to determine
+  the data to assign to an output.
+fullName: ConditionalSkill
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type ConditionalSkill = BaseSearchIndexerSkill & { odatatype:
+  #Microsoft.Skills.Util.ConditionalSkill }

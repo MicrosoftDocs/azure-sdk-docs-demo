@@ -1,0 +1,9 @@
+name: StorageAccountsListByResourceGroupResponse
+uid: '@azure/arm-storage.StorageAccountsListByResourceGroupResponse|preview'
+package: '@azure/arm-storage|preview'
+summary: Contains response data for the listByResourceGroup operation.
+fullName: StorageAccountsListByResourceGroupResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type StorageAccountsListByResourceGroupResponse = StorageAccountListResult

@@ -1,0 +1,11 @@
+name: PrivateLinkResourcesListByStorageAccountResponse
+uid: '@azure/arm-storage.PrivateLinkResourcesListByStorageAccountResponse|preview'
+package: '@azure/arm-storage|preview'
+summary: Contains response data for the listByStorageAccount operation.
+fullName: PrivateLinkResourcesListByStorageAccountResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type PrivateLinkResourcesListByStorageAccountResponse =
+  PrivateLinkResourceListResult

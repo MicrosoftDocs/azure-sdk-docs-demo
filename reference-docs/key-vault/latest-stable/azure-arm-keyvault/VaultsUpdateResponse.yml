@@ -1,0 +1,9 @@
+name: VaultsUpdateResponse
+uid: '@azure/arm-keyvault.VaultsUpdateResponse|latest-stable'
+package: '@azure/arm-keyvault|latest-stable'
+summary: Contains response data for the update operation.
+fullName: VaultsUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type VaultsUpdateResponse = Vault & { _response: Object }'

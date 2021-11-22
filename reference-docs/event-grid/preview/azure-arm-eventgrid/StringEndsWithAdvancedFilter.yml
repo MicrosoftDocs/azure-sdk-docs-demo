@@ -1,0 +1,11 @@
+name: StringEndsWithAdvancedFilter
+uid: '@azure/arm-eventgrid.StringEndsWithAdvancedFilter|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: StringEndsWith Advanced Filter.
+fullName: StringEndsWithAdvancedFilter
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type StringEndsWithAdvancedFilter = AdvancedFilter & { operatorType:
+  StringEndsWith, values: Object }

@@ -1,0 +1,10 @@
+name: ConfigurationStoresRegenerateKeyResponse
+uid: >-
+  @azure/arm-appconfiguration.ConfigurationStoresRegenerateKeyResponse|latest-stable
+package: '@azure/arm-appconfiguration|latest-stable'
+summary: Contains response data for the regenerateKey operation.
+fullName: ConfigurationStoresRegenerateKeyResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type ConfigurationStoresRegenerateKeyResponse = ApiKey & { _response: Object }'

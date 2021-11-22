@@ -1,0 +1,50 @@
+name: AuthenticationRequiredErrorOptions
+uid: '@azure/identity.AuthenticationRequiredErrorOptions|latest-stable'
+package: '@azure/identity|latest-stable'
+summary: Optional parameters to the <xref:@azure/identity.AuthenticationRequiredError>
+fullName: AuthenticationRequiredErrorOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: getTokenOptions
+    uid: >-
+      @azure/identity.AuthenticationRequiredErrorOptions.getTokenOptions|latest-stable
+    package: '@azure/identity|latest-stable'
+    summary: The options passed to the getToken request.
+    fullName: getTokenOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'getTokenOptions?: GetTokenOptions'
+      return:
+        type: GetTokenOptions
+        description: ''
+  - name: message
+    uid: '@azure/identity.AuthenticationRequiredErrorOptions.message|latest-stable'
+    package: '@azure/identity|latest-stable'
+    summary: The message of the error.
+    fullName: message
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'message?: string'
+      return:
+        type: string
+        description: ''
+  - name: scopes
+    uid: '@azure/identity.AuthenticationRequiredErrorOptions.scopes|latest-stable'
+    package: '@azure/identity|latest-stable'
+    summary: The list of scopes for which the token will have access.
+    fullName: scopes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'scopes: string[]'
+      return:
+        type: string[]
+        description: ''

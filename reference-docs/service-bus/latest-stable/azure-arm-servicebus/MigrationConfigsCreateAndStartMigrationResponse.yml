@@ -1,0 +1,12 @@
+name: MigrationConfigsCreateAndStartMigrationResponse
+uid: >-
+  @azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationResponse|latest-stable
+package: '@azure/arm-servicebus|latest-stable'
+summary: Contains response data for the createAndStartMigration operation.
+fullName: MigrationConfigsCreateAndStartMigrationResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type MigrationConfigsCreateAndStartMigrationResponse =
+  MigrationConfigProperties & { _response: Object }

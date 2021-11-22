@@ -1,0 +1,9 @@
+name: GetDeletedCertificateOptions
+uid: '@azure/keyvault-certificates.GetDeletedCertificateOptions|latest-stable'
+package: '@azure/keyvault-certificates|latest-stable'
+summary: Options for getDeletedCertificate.
+fullName: GetDeletedCertificateOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type GetDeletedCertificateOptions = OperationOptions

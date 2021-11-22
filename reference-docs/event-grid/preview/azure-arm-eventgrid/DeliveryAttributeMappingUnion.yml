@@ -1,0 +1,11 @@
+name: DeliveryAttributeMappingUnion
+uid: '@azure/arm-eventgrid.DeliveryAttributeMappingUnion|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: ''
+fullName: DeliveryAttributeMappingUnion
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type DeliveryAttributeMappingUnion = DeliveryAttributeMapping |
+  StaticDeliveryAttributeMapping | DynamicDeliveryAttributeMapping

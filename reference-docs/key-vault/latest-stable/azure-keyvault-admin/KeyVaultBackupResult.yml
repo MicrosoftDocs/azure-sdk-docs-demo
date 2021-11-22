@@ -1,0 +1,49 @@
+name: KeyVaultBackupResult
+uid: '@azure/keyvault-admin.KeyVaultBackupResult|latest-stable'
+package: '@azure/keyvault-admin|latest-stable'
+summary: An interface representing the result of a backup operation.
+fullName: KeyVaultBackupResult
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: endTime
+    uid: '@azure/keyvault-admin.KeyVaultBackupResult.endTime|latest-stable'
+    package: '@azure/keyvault-admin|latest-stable'
+    summary: The end time of the backup operation.
+    fullName: endTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'endTime?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: folderUri
+    uid: '@azure/keyvault-admin.KeyVaultBackupResult.folderUri|latest-stable'
+    package: '@azure/keyvault-admin|latest-stable'
+    summary: The location of the full backup.
+    fullName: folderUri
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'folderUri?: string'
+      return:
+        type: string
+        description: ''
+  - name: startTime
+    uid: '@azure/keyvault-admin.KeyVaultBackupResult.startTime|latest-stable'
+    package: '@azure/keyvault-admin|latest-stable'
+    summary: The start time of the backup operation.
+    fullName: startTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'startTime: Date'
+      return:
+        type: Date
+        description: ''

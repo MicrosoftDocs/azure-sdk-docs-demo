@@ -1,0 +1,23 @@
+name: KnownAccessRights
+uid: '@azure/arm-eventhub.KnownAccessRights|preview'
+package: '@azure/arm-eventhub|preview'
+summary: >-
+  Known values of <xref:@azure/arm-eventhub.AccessRights> that the service
+  accepts.
+fullName: KnownAccessRights
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Listen
+    uid: '@azure/arm-eventhub.KnownAccessRights.Listen|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: ''
+  - name: Manage
+    uid: '@azure/arm-eventhub.KnownAccessRights.Manage|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: ''
+  - name: Send
+    uid: '@azure/arm-eventhub.KnownAccessRights.Send|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: ''

@@ -1,0 +1,11 @@
+name: RecognizeCustomEntitiesErrorResult
+uid: '@azure/ai-text-analytics.RecognizeCustomEntitiesErrorResult|preview'
+package: '@azure/ai-text-analytics|preview'
+summary: >-
+  An error result from the recognize custom entities operation on a single
+  document.
+fullName: RecognizeCustomEntitiesErrorResult
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type RecognizeCustomEntitiesErrorResult = TextAnalyticsErrorResult

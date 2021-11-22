@@ -1,0 +1,75 @@
+name: DirectoryItem
+uid: '@azure/storage-file-share.DirectoryItem|preview'
+package: '@azure/storage-file-share|preview'
+summary: A listed directory item.
+fullName: DirectoryItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: attributes
+    uid: '@azure/storage-file-share.DirectoryItem.attributes|preview'
+    package: '@azure/storage-file-share|preview'
+    summary: ''
+    fullName: attributes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'attributes?: string'
+      return:
+        type: string
+        description: ''
+  - name: fileId
+    uid: '@azure/storage-file-share.DirectoryItem.fileId|preview'
+    package: '@azure/storage-file-share|preview'
+    summary: ''
+    fullName: fileId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fileId?: string'
+      return:
+        type: string
+        description: ''
+  - name: name
+    uid: '@azure/storage-file-share.DirectoryItem.name|preview'
+    package: '@azure/storage-file-share|preview'
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        type: string
+        description: ''
+  - name: permissionKey
+    uid: '@azure/storage-file-share.DirectoryItem.permissionKey|preview'
+    package: '@azure/storage-file-share|preview'
+    summary: ''
+    fullName: permissionKey
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'permissionKey?: string'
+      return:
+        type: string
+        description: ''
+  - name: properties
+    uid: '@azure/storage-file-share.DirectoryItem.properties|preview'
+    package: '@azure/storage-file-share|preview'
+    summary: File properties.
+    fullName: properties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'properties?: FileProperty'
+      return:
+        type: <xref uid="@azure/storage-file-share.FileProperty" />
+        description: ''

@@ -1,0 +1,12 @@
+name: AnomalyDetectorListMultivariateModelNextResponse
+uid: >-
+  @azure/ai-anomaly-detector.AnomalyDetectorListMultivariateModelNextResponse|preview
+package: '@azure/ai-anomaly-detector|preview'
+summary: Contains response data for the listMultivariateModelNext operation.
+fullName: AnomalyDetectorListMultivariateModelNextResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type AnomalyDetectorListMultivariateModelNextResponse =
+  AnomalyDetectorClientModelList & { _response: Object }

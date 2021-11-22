@@ -1,0 +1,53 @@
+name: SqlFilter
+uid: '@azure/arm-servicebus.SqlFilter|preview'
+package: '@azure/arm-servicebus|preview'
+summary: >-
+  Represents a filter which is a composition of an expression and an action that
+  is executed in the pub/sub pipeline.
+fullName: SqlFilter
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: compatibilityLevel
+    uid: '@azure/arm-servicebus.SqlFilter.compatibilityLevel|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: >-
+      This property is reserved for future use. An integer value showing the
+      compatibility level, currently hard-coded to 20.
+    fullName: compatibilityLevel
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'compatibilityLevel?: undefined | number'
+      return:
+        type: undefined | number
+        description: ''
+  - name: requiresPreprocessing
+    uid: '@azure/arm-servicebus.SqlFilter.requiresPreprocessing|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: Value that indicates whether the rule action requires preprocessing.
+    fullName: requiresPreprocessing
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'requiresPreprocessing?: undefined | false | true'
+      return:
+        type: undefined | false | true
+        description: ''
+  - name: sqlExpression
+    uid: '@azure/arm-servicebus.SqlFilter.sqlExpression|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: The SQL expression. e.g. MyProperty='ABC'
+    fullName: sqlExpression
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sqlExpression?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

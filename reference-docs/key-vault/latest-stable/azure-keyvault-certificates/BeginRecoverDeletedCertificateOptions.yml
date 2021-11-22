@@ -1,0 +1,12 @@
+name: BeginRecoverDeletedCertificateOptions
+uid: >-
+  @azure/keyvault-certificates.BeginRecoverDeletedCertificateOptions|latest-stable
+package: '@azure/keyvault-certificates|latest-stable'
+summary: |-
+  An interface representing the optional parameters that can be
+  passed to beginRecoverDeletedCertificate
+fullName: BeginRecoverDeletedCertificateOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type BeginRecoverDeletedCertificateOptions = CertificatePollerOptions

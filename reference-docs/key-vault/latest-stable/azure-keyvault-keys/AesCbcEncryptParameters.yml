@@ -1,0 +1,54 @@
+name: AesCbcEncryptParameters
+uid: '@azure/keyvault-keys.AesCbcEncryptParameters|latest-stable'
+package: '@azure/keyvault-keys|latest-stable'
+summary: Encryption parameters for AES-CBC encryption algorithms.
+fullName: AesCbcEncryptParameters
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: algorithm
+    uid: '@azure/keyvault-keys.AesCbcEncryptParameters.algorithm|latest-stable'
+    package: '@azure/keyvault-keys|latest-stable'
+    summary: The encryption algorithm to use.
+    fullName: algorithm
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'algorithm: AesCbcEncryptionAlgorithm'
+      return:
+        type: <xref uid="@azure/keyvault-keys.AesCbcEncryptionAlgorithm" />
+        description: ''
+  - name: iv
+    uid: '@azure/keyvault-keys.AesCbcEncryptParameters.iv|latest-stable'
+    package: '@azure/keyvault-keys|latest-stable'
+    summary: >-
+      The initialization vector used for encryption. If omitted we will attempt
+      to generate an IV using crypto's `randomBytes` functionality.
+
+      An error will be thrown if creating an IV fails, and you may recover by
+      passing in your own cryptographically secure IV.
+    fullName: iv
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'iv?: Uint8Array'
+      return:
+        type: Uint8Array
+        description: ''
+  - name: plaintext
+    uid: '@azure/keyvault-keys.AesCbcEncryptParameters.plaintext|latest-stable'
+    package: '@azure/keyvault-keys|latest-stable'
+    summary: The plain text to encrypt.
+    fullName: plaintext
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'plaintext: Uint8Array'
+      return:
+        type: Uint8Array
+        description: ''

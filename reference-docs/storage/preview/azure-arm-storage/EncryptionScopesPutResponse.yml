@@ -1,0 +1,9 @@
+name: EncryptionScopesPutResponse
+uid: '@azure/arm-storage.EncryptionScopesPutResponse|preview'
+package: '@azure/arm-storage|preview'
+summary: Contains response data for the put operation.
+fullName: EncryptionScopesPutResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type EncryptionScopesPutResponse = EncryptionScope

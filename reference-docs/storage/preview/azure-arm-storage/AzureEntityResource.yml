@@ -1,0 +1,11 @@
+name: AzureEntityResource
+uid: '@azure/arm-storage.AzureEntityResource|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  The resource model definition for an Azure Resource Manager resource with an
+  etag.
+fullName: AzureEntityResource
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type AzureEntityResource = Resource & { etag: Object }'

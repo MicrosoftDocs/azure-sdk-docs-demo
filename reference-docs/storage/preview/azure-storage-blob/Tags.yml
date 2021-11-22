@@ -1,0 +1,9 @@
+name: Tags
+uid: '@azure/storage-blob.Tags|preview'
+package: '@azure/storage-blob|preview'
+summary: Blob tags.
+fullName: Tags
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type Tags = Record<string,string>

@@ -1,0 +1,9 @@
+name: OperationsListNextResponse
+uid: '@azure/arm-eventhub.OperationsListNextResponse|preview'
+package: '@azure/arm-eventhub|preview'
+summary: Contains response data for the listNext operation.
+fullName: OperationsListNextResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type OperationsListNextResponse = OperationListResult

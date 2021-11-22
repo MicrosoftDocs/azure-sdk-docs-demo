@@ -1,0 +1,17 @@
+name: ConflictResolutionMode
+uid: '@azure/cosmos.ConflictResolutionMode|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: ''
+fullName: ConflictResolutionMode
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Custom
+    uid: '@azure/cosmos.ConflictResolutionMode.Custom|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+  - name: LastWriterWins
+    uid: '@azure/cosmos.ConflictResolutionMode.LastWriterWins|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''

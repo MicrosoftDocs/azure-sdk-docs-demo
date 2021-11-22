@@ -1,0 +1,25 @@
+name: KeepAliveOptions
+uid: '@azure/core-http.KeepAliveOptions|latest-stable'
+package: '@azure/core-http|latest-stable'
+summary: |-
+  Options for how HTTP connections should be maintained for future
+  requests.
+fullName: KeepAliveOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: enable
+    uid: '@azure/core-http.KeepAliveOptions.enable|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    fullName: enable
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'enable: boolean'
+      return:
+        type: boolean
+        description: ''

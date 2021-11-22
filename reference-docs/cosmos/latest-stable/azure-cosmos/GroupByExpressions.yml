@@ -1,0 +1,9 @@
+name: GroupByExpressions
+uid: '@azure/cosmos.GroupByExpressions|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: ''
+fullName: GroupByExpressions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type GroupByExpressions = Object

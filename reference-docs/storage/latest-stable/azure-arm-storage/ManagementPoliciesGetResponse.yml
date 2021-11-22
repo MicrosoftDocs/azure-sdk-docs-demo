@@ -1,0 +1,9 @@
+name: ManagementPoliciesGetResponse
+uid: '@azure/arm-storage.ManagementPoliciesGetResponse|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: Contains response data for the get operation.
+fullName: ManagementPoliciesGetResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type ManagementPoliciesGetResponse = ManagementPolicy & { _response: Object }'

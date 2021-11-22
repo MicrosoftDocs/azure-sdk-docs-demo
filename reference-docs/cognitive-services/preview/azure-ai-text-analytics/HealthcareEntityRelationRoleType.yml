@@ -1,0 +1,9 @@
+name: HealthcareEntityRelationRoleType
+uid: '@azure/ai-text-analytics.HealthcareEntityRelationRoleType|preview'
+package: '@azure/ai-text-analytics|preview'
+summary: The type of different roles a healthcare entity can play in a relation.
+fullName: HealthcareEntityRelationRoleType
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type HealthcareEntityRelationRoleType = string

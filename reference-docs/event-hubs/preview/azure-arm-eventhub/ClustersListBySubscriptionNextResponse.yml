@@ -1,0 +1,9 @@
+name: ClustersListBySubscriptionNextResponse
+uid: '@azure/arm-eventhub.ClustersListBySubscriptionNextResponse|preview'
+package: '@azure/arm-eventhub|preview'
+summary: Contains response data for the listBySubscriptionNext operation.
+fullName: ClustersListBySubscriptionNextResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type ClustersListBySubscriptionNextResponse = ClusterListResult

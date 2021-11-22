@@ -1,0 +1,41 @@
+name: RetryOperationType
+uid: '@azure/core-amqp.RetryOperationType|preview'
+package: '@azure/core-amqp|preview'
+summary: Describes the retry operation type.
+fullName: RetryOperationType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: cbsAuth
+    uid: '@azure/core-amqp.RetryOperationType.cbsAuth|preview'
+    package: '@azure/core-amqp|preview'
+    summary: ''
+  - name: connection
+    uid: '@azure/core-amqp.RetryOperationType.connection|preview'
+    package: '@azure/core-amqp|preview'
+    summary: ''
+  - name: management
+    uid: '@azure/core-amqp.RetryOperationType.management|preview'
+    package: '@azure/core-amqp|preview'
+    summary: ''
+  - name: receiveMessage
+    uid: '@azure/core-amqp.RetryOperationType.receiveMessage|preview'
+    package: '@azure/core-amqp|preview'
+    summary: ''
+  - name: receiverLink
+    uid: '@azure/core-amqp.RetryOperationType.receiverLink|preview'
+    package: '@azure/core-amqp|preview'
+    summary: ''
+  - name: sendMessage
+    uid: '@azure/core-amqp.RetryOperationType.sendMessage|preview'
+    package: '@azure/core-amqp|preview'
+    summary: ''
+  - name: senderLink
+    uid: '@azure/core-amqp.RetryOperationType.senderLink|preview'
+    package: '@azure/core-amqp|preview'
+    summary: ''
+  - name: session
+    uid: '@azure/core-amqp.RetryOperationType.session|preview'
+    package: '@azure/core-amqp|preview'
+    summary: ''

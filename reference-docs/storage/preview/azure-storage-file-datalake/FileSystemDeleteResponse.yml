@@ -1,0 +1,11 @@
+name: FileSystemDeleteResponse
+uid: '@azure/storage-file-datalake.FileSystemDeleteResponse|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: ''
+fullName: FileSystemDeleteResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type FileSystemDeleteResponse = FileSystemDeleteHeaders & { _response: Object
+  }

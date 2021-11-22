@@ -1,0 +1,9 @@
+name: Reason
+uid: '@azure/arm-storage.Reason|preview'
+package: '@azure/arm-storage|preview'
+summary: Defines values for Reason.
+fullName: Reason
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type Reason = "AccountNameInvalid" | "AlreadyExists"

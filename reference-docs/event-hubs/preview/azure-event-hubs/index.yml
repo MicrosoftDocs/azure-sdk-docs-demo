@@ -1,0 +1,76 @@
+uid: '@azure/event-hubs|preview'
+name: '@azure/event-hubs'
+summary: ''
+type: package
+enums:
+  - '@azure/event-hubs.CloseReason|preview'
+classes:
+  - '@azure/event-hubs.EventHubBufferedProducerClient|preview'
+  - '@azure/event-hubs.EventHubConsumerClient|preview'
+  - '@azure/event-hubs.EventHubProducerClient|preview'
+interfaces:
+  - '@azure/event-hubs.BufferedCloseOptions|preview'
+  - '@azure/event-hubs.BufferedFlushOptions|preview'
+  - '@azure/event-hubs.Checkpoint|preview'
+  - '@azure/event-hubs.CheckpointStore|preview'
+  - '@azure/event-hubs.CreateBatchOptions|preview'
+  - '@azure/event-hubs.EnqueueEventOptions|preview'
+  - '@azure/event-hubs.EventData|preview'
+  - '@azure/event-hubs.EventDataBatch|preview'
+  - '@azure/event-hubs.EventHubBufferedProducerClientOptions|preview'
+  - '@azure/event-hubs.EventHubClientOptions|preview'
+  - '@azure/event-hubs.EventHubConnectionStringProperties|preview'
+  - '@azure/event-hubs.EventHubConsumerClientOptions|preview'
+  - '@azure/event-hubs.EventHubProperties|preview'
+  - '@azure/event-hubs.EventPosition|preview'
+  - '@azure/event-hubs.GetEventHubPropertiesOptions|preview'
+  - '@azure/event-hubs.GetPartitionIdsOptions|preview'
+  - '@azure/event-hubs.GetPartitionPropertiesOptions|preview'
+  - '@azure/event-hubs.LastEnqueuedEventProperties|preview'
+  - '@azure/event-hubs.LoadBalancingOptions|preview'
+  - '@azure/event-hubs.OnSendEventsErrorContext|preview'
+  - '@azure/event-hubs.OnSendEventsSuccessContext|preview'
+  - '@azure/event-hubs.OperationOptions|preview'
+  - '@azure/event-hubs.PartitionContext|preview'
+  - '@azure/event-hubs.PartitionOwnership|preview'
+  - '@azure/event-hubs.PartitionProperties|preview'
+  - '@azure/event-hubs.ReceivedEventData|preview'
+  - '@azure/event-hubs.SendBatchOptions|preview'
+  - '@azure/event-hubs.SubscribeOptions|preview'
+  - '@azure/event-hubs.Subscription|preview'
+  - '@azure/event-hubs.SubscriptionEventHandlers|preview'
+  - '@azure/event-hubs.TryAddOptions|preview'
+typeAliases:
+  - '@azure/event-hubs.ProcessCloseHandler|preview'
+  - '@azure/event-hubs.ProcessErrorHandler|preview'
+  - '@azure/event-hubs.ProcessEventsHandler|preview'
+  - '@azure/event-hubs.ProcessInitializeHandler|preview'
+functions:
+  - name: parseEventHubConnectionString(string)
+    uid: '@azure/event-hubs.parseEventHubConnectionString|preview'
+    package: '@azure/event-hubs|preview'
+    summary: >-
+      Parses given connection string into the different properties applicable to
+      Azure Event Hubs.
+
+      The properties are useful to then construct an EventHubProducerClient or
+      an EventHubConsumerClient.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parseEventHubConnectionString(connectionString: string)'
+      parameters:
+        - id: connectionString
+          type: string
+          description: >
+            The connection string associated with the Shared Access Policy
+            created
+
+            for the Event Hubs namespace.
+      return:
+        type: >-
+          Readonly&lt;<xref
+          uid="@azure/event-hubs.EventHubConnectionStringProperties|preview"
+          />&gt;
+        description: ''

@@ -1,0 +1,9 @@
+name: MessageIdUpdateResponse
+uid: '@azure/storage-queue.MessageIdUpdateResponse|preview'
+package: '@azure/storage-queue|preview'
+summary: Contains response data for the update operation.
+fullName: MessageIdUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type MessageIdUpdateResponse = MessageIdUpdateHeaders & { _response: Object }'

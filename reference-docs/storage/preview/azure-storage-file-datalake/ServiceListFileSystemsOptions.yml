@@ -1,0 +1,82 @@
+name: ServiceListFileSystemsOptions
+uid: '@azure/storage-file-datalake.ServiceListFileSystemsOptions|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: ''
+fullName: ServiceListFileSystemsOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: >-
+      @azure/storage-file-datalake.ServiceListFileSystemsOptions.abortSignal|preview
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: includeDeleted
+    uid: >-
+      @azure/storage-file-datalake.ServiceListFileSystemsOptions.includeDeleted|preview
+    package: '@azure/storage-file-datalake|preview'
+    summary: >-
+      Specifies whether soft deleted File System should be included in the
+      response.
+    fullName: includeDeleted
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'includeDeleted?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: includeMetadata
+    uid: >-
+      @azure/storage-file-datalake.ServiceListFileSystemsOptions.includeMetadata|preview
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: includeMetadata
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'includeMetadata?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: prefix
+    uid: '@azure/storage-file-datalake.ServiceListFileSystemsOptions.prefix|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: prefix
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'prefix?: string'
+      return:
+        type: string
+        description: ''
+  - name: tracingOptions
+    uid: >-
+      @azure/storage-file-datalake.ServiceListFileSystemsOptions.tracingOptions|preview
+    package: '@azure/storage-file-datalake|preview'
+    summary: Options to configure spans created when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />

@@ -1,0 +1,10 @@
+name: SystemTopicEventSubscriptionsCreateOrUpdateResponse
+uid: >-
+  @azure/arm-eventgrid.SystemTopicEventSubscriptionsCreateOrUpdateResponse|preview
+package: '@azure/arm-eventgrid|preview'
+summary: Contains response data for the createOrUpdate operation.
+fullName: SystemTopicEventSubscriptionsCreateOrUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type SystemTopicEventSubscriptionsCreateOrUpdateResponse = EventSubscription

@@ -1,0 +1,91 @@
+name: FileFlushOptions
+uid: '@azure/storage-file-datalake.FileFlushOptions|latest-stable'
+package: '@azure/storage-file-datalake|latest-stable'
+summary: ''
+fullName: FileFlushOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: '@azure/storage-file-datalake.FileFlushOptions.abortSignal|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: close
+    uid: '@azure/storage-file-datalake.FileFlushOptions.close|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: close
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'close?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: conditions
+    uid: '@azure/storage-file-datalake.FileFlushOptions.conditions|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: conditions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'conditions?: DataLakeRequestConditions'
+      return:
+        type: <xref uid="@azure/storage-file-datalake.DataLakeRequestConditions" />
+        description: ''
+  - name: pathHttpHeaders
+    uid: >-
+      @azure/storage-file-datalake.FileFlushOptions.pathHttpHeaders|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: pathHttpHeaders
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'pathHttpHeaders?: PathHttpHeaders'
+      return:
+        type: <xref uid="@azure/storage-file-datalake.PathHttpHeaders" />
+        description: ''
+  - name: retainUncommittedData
+    uid: >-
+      @azure/storage-file-datalake.FileFlushOptions.retainUncommittedData|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: retainUncommittedData
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'retainUncommittedData?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: tracingOptions
+    uid: '@azure/storage-file-datalake.FileFlushOptions.tracingOptions|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: Options to configure spans created when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />

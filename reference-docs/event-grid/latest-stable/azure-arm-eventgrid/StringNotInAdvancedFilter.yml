@@ -1,0 +1,49 @@
+name: StringNotInAdvancedFilter
+uid: '@azure/arm-eventgrid.StringNotInAdvancedFilter|latest-stable'
+package: '@azure/arm-eventgrid|latest-stable'
+summary: StringNotIn Advanced Filter.
+fullName: StringNotInAdvancedFilter
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: key
+    uid: '@azure/arm-eventgrid.StringNotInAdvancedFilter.key|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: The field/property in the event based on which you want to filter.
+    fullName: key
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'key?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: operatorType
+    uid: '@azure/arm-eventgrid.StringNotInAdvancedFilter.operatorType|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: Polymorphic Discriminator
+    fullName: operatorType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'operatorType: "StringNotIn"'
+      return:
+        type: '"StringNotIn"'
+        description: ''
+  - name: values
+    uid: '@azure/arm-eventgrid.StringNotInAdvancedFilter.values|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: The set of filter values.
+    fullName: values
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'values?: string[]'
+      return:
+        type: string[]
+        description: ''

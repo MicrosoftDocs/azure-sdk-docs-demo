@@ -1,0 +1,273 @@
+name: KnownTextTranslationSkillLanguage
+uid: '@azure/search-documents.KnownTextTranslationSkillLanguage|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: >-
+  Known values of <xref:@azure/search-documents.TextTranslationSkillLanguage>
+  that the service accepts.
+fullName: KnownTextTranslationSkillLanguage
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Af
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Af|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Afrikaans
+  - name: Ar
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Ar|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Arabic
+  - name: Bg
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Bg|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Bulgarian
+  - name: Bn
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Bn|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Bangla
+  - name: Bs
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Bs|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Bosnian (Latin)
+  - name: Ca
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Ca|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Catalan
+  - name: Cs
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Cs|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Czech
+  - name: Cy
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Cy|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Welsh
+  - name: Da
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Da|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Danish
+  - name: De
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.De|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: German
+  - name: El
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.El|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Greek
+  - name: En
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.En|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: English
+  - name: Es
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Es|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Spanish
+  - name: Et
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Et|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Estonian
+  - name: Fa
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Fa|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Persian
+  - name: Fi
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Fi|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Finnish
+  - name: Fil
+    uid: >-
+      @azure/search-documents.KnownTextTranslationSkillLanguage.Fil|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Filipino
+  - name: Fj
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Fj|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Fijian
+  - name: Fr
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Fr|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: French
+  - name: He
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.He|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Hebrew
+  - name: Hi
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Hi|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Hindi
+  - name: Hr
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Hr|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Croatian
+  - name: Ht
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Ht|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Haitian Creole
+  - name: Hu
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Hu|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Hungarian
+  - name: Id
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Id|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Indonesian
+  - name: Is
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Is|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Icelandic
+  - name: It
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.It|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Italian
+  - name: Ja
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Ja|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Japanese
+  - name: Ko
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Ko|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Korean
+  - name: Lt
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Lt|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Lithuanian
+  - name: Lv
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Lv|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Latvian
+  - name: Mg
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Mg|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Malagasy
+  - name: Ms
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Ms|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Malay
+  - name: Mt
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Mt|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Maltese
+  - name: Mww
+    uid: >-
+      @azure/search-documents.KnownTextTranslationSkillLanguage.Mww|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Hmong Daw
+  - name: Nb
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Nb|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Norwegian
+  - name: Nl
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Nl|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Dutch
+  - name: Otq
+    uid: >-
+      @azure/search-documents.KnownTextTranslationSkillLanguage.Otq|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Queretaro Otomi
+  - name: Pl
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Pl|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Polish
+  - name: Pt
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Pt|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Portuguese
+  - name: Ro
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Ro|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Romanian
+  - name: Ru
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Ru|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Russian
+  - name: Sk
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Sk|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Slovak
+  - name: Sl
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Sl|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Slovenian
+  - name: Sm
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Sm|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Samoan
+  - name: SrCyrl
+    uid: >-
+      @azure/search-documents.KnownTextTranslationSkillLanguage.SrCyrl|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Serbian (Cyrillic)
+  - name: SrLatn
+    uid: >-
+      @azure/search-documents.KnownTextTranslationSkillLanguage.SrLatn|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Serbian (Latin)
+  - name: Sv
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Sv|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Swedish
+  - name: Sw
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Sw|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Kiswahili
+  - name: Ta
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Ta|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Tamil
+  - name: Te
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Te|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Telugu
+  - name: Th
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Th|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Thai
+  - name: Tlh
+    uid: >-
+      @azure/search-documents.KnownTextTranslationSkillLanguage.Tlh|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Klingon
+  - name: To
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.To|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Tongan
+  - name: Tr
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Tr|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Turkish
+  - name: Ty
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Ty|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Tahitian
+  - name: Uk
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Uk|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Ukrainian
+  - name: Ur
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Ur|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Urdu
+  - name: Vi
+    uid: '@azure/search-documents.KnownTextTranslationSkillLanguage.Vi|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Vietnamese
+  - name: Yua
+    uid: >-
+      @azure/search-documents.KnownTextTranslationSkillLanguage.Yua|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Yucatec Maya
+  - name: Yue
+    uid: >-
+      @azure/search-documents.KnownTextTranslationSkillLanguage.Yue|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Cantonese (Traditional)
+  - name: ZhHans
+    uid: >-
+      @azure/search-documents.KnownTextTranslationSkillLanguage.ZhHans|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Chinese Simplified
+  - name: ZhHant
+    uid: >-
+      @azure/search-documents.KnownTextTranslationSkillLanguage.ZhHant|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: Chinese Traditional

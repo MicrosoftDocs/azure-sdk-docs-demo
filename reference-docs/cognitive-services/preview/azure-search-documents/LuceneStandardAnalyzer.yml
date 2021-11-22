@@ -1,0 +1,13 @@
+name: LuceneStandardAnalyzer
+uid: '@azure/search-documents.LuceneStandardAnalyzer|preview'
+package: '@azure/search-documents|preview'
+summary: >-
+  Standard Apache Lucene analyzer; Composed of the standard tokenizer, lowercase
+  filter and stop filter.
+fullName: LuceneStandardAnalyzer
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type LuceneStandardAnalyzer = BaseLexicalAnalyzer & { maxTokenLength: number,
+  odatatype: #Microsoft.Azure.Search.StandardAnalyzer, stopwords: Object }

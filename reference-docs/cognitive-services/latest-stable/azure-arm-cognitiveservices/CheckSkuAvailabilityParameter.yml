@@ -1,0 +1,52 @@
+name: CheckSkuAvailabilityParameter
+uid: '@azure/arm-cognitiveservices.CheckSkuAvailabilityParameter|latest-stable'
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: Check SKU availability parameter.
+fullName: CheckSkuAvailabilityParameter
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: kind
+    uid: >-
+      @azure/arm-cognitiveservices.CheckSkuAvailabilityParameter.kind|latest-stable
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: The Kind of the resource.
+    fullName: kind
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'kind: string'
+      return:
+        type: string
+        description: ''
+  - name: skus
+    uid: >-
+      @azure/arm-cognitiveservices.CheckSkuAvailabilityParameter.skus|latest-stable
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: The SKU of the resource.
+    fullName: skus
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'skus: string[]'
+      return:
+        type: string[]
+        description: ''
+  - name: type
+    uid: >-
+      @azure/arm-cognitiveservices.CheckSkuAvailabilityParameter.type|latest-stable
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: The Type of the resource.
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: string'
+      return:
+        type: string
+        description: ''

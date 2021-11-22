@@ -1,0 +1,11 @@
+name: PathGetAccessControlResponse
+uid: '@azure/storage-file-datalake.PathGetAccessControlResponse|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: ''
+fullName: PathGetAccessControlResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type PathGetAccessControlResponse = PathAccessControl &
+  PathGetAccessControlHeaders & { _response: Object }

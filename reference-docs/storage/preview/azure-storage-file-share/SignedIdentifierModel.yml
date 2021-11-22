@@ -1,0 +1,36 @@
+name: SignedIdentifierModel
+uid: '@azure/storage-file-share.SignedIdentifierModel|preview'
+package: '@azure/storage-file-share|preview'
+summary: Signed identifier.
+fullName: SignedIdentifierModel
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: accessPolicy
+    uid: '@azure/storage-file-share.SignedIdentifierModel.accessPolicy|preview'
+    package: '@azure/storage-file-share|preview'
+    summary: The access policy.
+    fullName: accessPolicy
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'accessPolicy?: AccessPolicy'
+      return:
+        type: <xref uid="@azure/storage-file-share.AccessPolicy" />
+        description: ''
+  - name: id
+    uid: '@azure/storage-file-share.SignedIdentifierModel.id|preview'
+    package: '@azure/storage-file-share|preview'
+    summary: A unique id.
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        type: string
+        description: ''

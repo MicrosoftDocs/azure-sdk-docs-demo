@@ -1,0 +1,141 @@
+name: BlobItem
+uid: '@azure/storage-blob.BlobItem|latest-stable'
+package: '@azure/storage-blob|latest-stable'
+summary: An Azure Storage blob
+fullName: BlobItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: deleted
+    uid: '@azure/storage-blob.BlobItem.deleted|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: deleted
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'deleted: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: hasVersionsOnly
+    uid: '@azure/storage-blob.BlobItem.hasVersionsOnly|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: hasVersionsOnly
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'hasVersionsOnly?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: isCurrentVersion
+    uid: '@azure/storage-blob.BlobItem.isCurrentVersion|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: isCurrentVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isCurrentVersion?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: metadata
+    uid: '@azure/storage-blob.BlobItem.metadata|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: metadata
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'metadata?: [key: string]: string'
+      return:
+        type: '[key: string]\: string'
+        description: ''
+  - name: name
+    uid: '@azure/storage-blob.BlobItem.name|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        type: string
+        description: ''
+  - name: objectReplicationSourceProperties
+    uid: >-
+      @azure/storage-blob.BlobItem.objectReplicationSourceProperties|latest-stable
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: objectReplicationSourceProperties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'objectReplicationSourceProperties?: ObjectReplicationPolicy[]'
+      return:
+        type: <xref uid="@azure/storage-blob.ObjectReplicationPolicy" />[]
+        description: ''
+  - name: properties
+    uid: '@azure/storage-blob.BlobItem.properties|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: properties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'properties: BlobProperties'
+      return:
+        type: <xref uid="@azure/storage-blob.BlobProperties" />
+        description: ''
+  - name: snapshot
+    uid: '@azure/storage-blob.BlobItem.snapshot|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: snapshot
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'snapshot: string'
+      return:
+        type: string
+        description: ''
+  - name: tags
+    uid: '@azure/storage-blob.BlobItem.tags|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: tags
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tags?: Tags'
+      return:
+        type: <xref uid="@azure/storage-blob.Tags" />
+        description: ''
+  - name: versionId
+    uid: '@azure/storage-blob.BlobItem.versionId|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: versionId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'versionId?: string'
+      return:
+        type: string
+        description: ''

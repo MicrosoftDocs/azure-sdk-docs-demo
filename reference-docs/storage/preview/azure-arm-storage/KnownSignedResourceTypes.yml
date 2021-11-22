@@ -1,0 +1,23 @@
+name: KnownSignedResourceTypes
+uid: '@azure/arm-storage.KnownSignedResourceTypes|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Known values of <xref:@azure/arm-storage.SignedResourceTypes> that the service
+  accepts.
+fullName: KnownSignedResourceTypes
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: C
+    uid: '@azure/arm-storage.KnownSignedResourceTypes.C|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: O
+    uid: '@azure/arm-storage.KnownSignedResourceTypes.O|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: S
+    uid: '@azure/arm-storage.KnownSignedResourceTypes.S|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

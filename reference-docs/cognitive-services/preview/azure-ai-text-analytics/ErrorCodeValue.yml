@@ -1,0 +1,18 @@
+name: ErrorCodeValue
+uid: '@azure/ai-text-analytics.ErrorCodeValue|preview'
+package: '@azure/ai-text-analytics|preview'
+summary: |-
+  Defines values for ErrorCodeValue. \
+  KnownErrorCodeValue can be used interchangeably with ErrorCodeValue,
+   this enum contains the known values that the service supports.
+  ### Known values supported by the service
+  **InvalidRequest** \
+  **InvalidArgument** \
+  **InternalServerError** \
+  **ServiceUnavailable** \
+  **NotFound**
+fullName: ErrorCodeValue
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type ErrorCodeValue = string

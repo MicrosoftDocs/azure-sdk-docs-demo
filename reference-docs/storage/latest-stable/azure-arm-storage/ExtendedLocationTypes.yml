@@ -1,0 +1,11 @@
+name: ExtendedLocationTypes
+uid: '@azure/arm-storage.ExtendedLocationTypes|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: |-
+  Defines values for ExtendedLocationTypes.
+  Possible values include: 'EdgeZone'
+fullName: ExtendedLocationTypes
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type ExtendedLocationTypes = EdgeZone

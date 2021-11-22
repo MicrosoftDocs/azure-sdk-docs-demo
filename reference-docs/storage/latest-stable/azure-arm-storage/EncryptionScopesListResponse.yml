@@ -1,0 +1,11 @@
+name: EncryptionScopesListResponse
+uid: '@azure/arm-storage.EncryptionScopesListResponse|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: Contains response data for the list operation.
+fullName: EncryptionScopesListResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type EncryptionScopesListResponse = EncryptionScopeListResult & { _response:
+  Object }

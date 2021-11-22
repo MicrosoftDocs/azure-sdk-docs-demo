@@ -1,0 +1,11 @@
+name: BlobDownloadResponseModel
+uid: '@azure/storage-blob.BlobDownloadResponseModel|preview'
+package: '@azure/storage-blob|preview'
+summary: Contains response data for the download operation.
+fullName: BlobDownloadResponseModel
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type BlobDownloadResponseModel = BlobDownloadHeaders & { _response: Object,
+  blobBody: Promise<Blob>, readableStreamBody: ReadableStream }

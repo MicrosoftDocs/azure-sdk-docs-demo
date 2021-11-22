@@ -1,0 +1,9 @@
+name: CreateOperation
+uid: '@azure/cosmos.CreateOperation|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: ''
+fullName: CreateOperation
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type CreateOperation = OperationWithItem & { operationType: Create }'

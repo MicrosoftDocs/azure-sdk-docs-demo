@@ -1,0 +1,15 @@
+name: KnownInventoryRuleType
+uid: '@azure/arm-storage.KnownInventoryRuleType|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Known values of <xref:@azure/arm-storage.InventoryRuleType> that the service
+  accepts.
+fullName: KnownInventoryRuleType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Inventory
+    uid: '@azure/arm-storage.KnownInventoryRuleType.Inventory|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

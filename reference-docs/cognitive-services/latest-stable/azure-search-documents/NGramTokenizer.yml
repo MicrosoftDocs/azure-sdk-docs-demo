@@ -1,0 +1,14 @@
+name: NGramTokenizer
+uid: '@azure/search-documents.NGramTokenizer|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: >-
+  Tokenizes the input into n-grams of the given size(s). This tokenizer is
+  implemented using Apache Lucene.
+fullName: NGramTokenizer
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type NGramTokenizer = BaseLexicalTokenizer & { maxGram: number, minGram:
+  number, odatatype: #Microsoft.Azure.Search.NGramTokenizer, tokenChars: Object
+  }

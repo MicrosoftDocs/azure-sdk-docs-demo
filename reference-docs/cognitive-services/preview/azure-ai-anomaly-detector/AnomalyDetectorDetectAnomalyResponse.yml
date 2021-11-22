@@ -1,0 +1,11 @@
+name: AnomalyDetectorDetectAnomalyResponse
+uid: '@azure/ai-anomaly-detector.AnomalyDetectorDetectAnomalyResponse|preview'
+package: '@azure/ai-anomaly-detector|preview'
+summary: Contains response data for the detectAnomaly operation.
+fullName: AnomalyDetectorDetectAnomalyResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type AnomalyDetectorDetectAnomalyResponse =
+  AnomalyDetectorDetectAnomalyHeaders & { _response: Object }

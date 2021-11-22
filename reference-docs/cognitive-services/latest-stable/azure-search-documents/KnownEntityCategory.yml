@@ -1,0 +1,39 @@
+name: KnownEntityCategory
+uid: '@azure/search-documents.KnownEntityCategory|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: >-
+  Known values of <xref:@azure/search-documents.EntityCategory> that the service
+  accepts.
+fullName: KnownEntityCategory
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Datetime
+    uid: '@azure/search-documents.KnownEntityCategory.Datetime|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Entities describing a date and time.
+  - name: Email
+    uid: '@azure/search-documents.KnownEntityCategory.Email|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Entities describing an email address.
+  - name: Location
+    uid: '@azure/search-documents.KnownEntityCategory.Location|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Entities describing a physical location.
+  - name: Organization
+    uid: '@azure/search-documents.KnownEntityCategory.Organization|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Entities describing an organization.
+  - name: Person
+    uid: '@azure/search-documents.KnownEntityCategory.Person|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Entities describing a person.
+  - name: Quantity
+    uid: '@azure/search-documents.KnownEntityCategory.Quantity|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Entities describing a quantity.
+  - name: Url
+    uid: '@azure/search-documents.KnownEntityCategory.Url|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Entities describing a URL.

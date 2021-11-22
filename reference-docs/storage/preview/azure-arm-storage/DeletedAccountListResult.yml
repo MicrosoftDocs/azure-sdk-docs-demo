@@ -1,0 +1,46 @@
+name: DeletedAccountListResult
+uid: '@azure/arm-storage.DeletedAccountListResult|preview'
+package: '@azure/arm-storage|preview'
+summary: The response from the List Deleted Accounts operation.
+fullName: DeletedAccountListResult
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: nextLink
+    uid: '@azure/arm-storage.DeletedAccountListResult.nextLink|preview'
+    package: '@azure/arm-storage|preview'
+    summary: >-
+      Request URL that can be used to query next page of deleted accounts.
+      Returned when total number of requested deleted accounts exceed maximum
+      page size.
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: nextLink
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'nextLink?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: value
+    uid: '@azure/arm-storage.DeletedAccountListResult.value|preview'
+    package: '@azure/arm-storage|preview'
+    summary: >-
+      Gets the list of deleted accounts and their properties.
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value?: DeletedAccount[]'
+      return:
+        type: <xref uid="@azure/arm-storage.DeletedAccount" />[]
+        description: ''

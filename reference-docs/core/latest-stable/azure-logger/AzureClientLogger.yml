@@ -1,0 +1,11 @@
+name: AzureClientLogger
+uid: '@azure/logger.AzureClientLogger|latest-stable'
+package: '@azure/logger|latest-stable'
+summary: >-
+  An AzureClientLogger is a function that can log to an appropriate severity
+  level.
+fullName: AzureClientLogger
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type AzureClientLogger = Debugger

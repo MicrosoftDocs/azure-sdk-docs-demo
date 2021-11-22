@@ -1,0 +1,12 @@
+name: EventSubscriptionsListRegionalBySubscriptionNextResponse
+uid: >-
+  @azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionNextResponse|latest-stable
+package: '@azure/arm-eventgrid|latest-stable'
+summary: Contains response data for the listRegionalBySubscriptionNext operation.
+fullName: EventSubscriptionsListRegionalBySubscriptionNextResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type EventSubscriptionsListRegionalBySubscriptionNextResponse =
+  EventSubscriptionsListResult & { _response: Object }

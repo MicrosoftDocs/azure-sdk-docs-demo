@@ -1,0 +1,13 @@
+name: TagScoringFunction
+uid: '@azure/search-documents.TagScoringFunction|preview'
+package: '@azure/search-documents|preview'
+summary: >-
+  Defines a function that boosts scores of documents with string values matching
+  a given list of tags.
+fullName: TagScoringFunction
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type TagScoringFunction = BaseScoringFunction & { parameters:
+  TagScoringParameters, type: tag }

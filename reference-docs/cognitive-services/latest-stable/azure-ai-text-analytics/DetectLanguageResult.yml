@@ -1,0 +1,11 @@
+name: DetectLanguageResult
+uid: '@azure/ai-text-analytics.DetectLanguageResult|latest-stable'
+package: '@azure/ai-text-analytics|latest-stable'
+summary: The result of the detect language operation on a single document.
+fullName: DetectLanguageResult
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type DetectLanguageResult = DetectLanguageSuccessResult |
+  DetectLanguageErrorResult

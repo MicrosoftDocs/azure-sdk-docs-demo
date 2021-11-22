@@ -1,0 +1,12 @@
+name: DisasterRecoveryConfigsGetAuthorizationRuleResponse
+uid: >-
+  @azure/arm-servicebus.DisasterRecoveryConfigsGetAuthorizationRuleResponse|latest-stable
+package: '@azure/arm-servicebus|latest-stable'
+summary: Contains response data for the getAuthorizationRule operation.
+fullName: DisasterRecoveryConfigsGetAuthorizationRuleResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type DisasterRecoveryConfigsGetAuthorizationRuleResponse = SBAuthorizationRule
+  & { _response: Object }

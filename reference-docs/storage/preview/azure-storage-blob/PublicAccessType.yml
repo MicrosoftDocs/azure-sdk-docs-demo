@@ -1,0 +1,9 @@
+name: PublicAccessType
+uid: '@azure/storage-blob.PublicAccessType|preview'
+package: '@azure/storage-blob|preview'
+summary: Defines values for PublicAccessType.
+fullName: PublicAccessType
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type PublicAccessType = "container" | "blob"

@@ -1,0 +1,40 @@
+name: RegenerateAccessKeyParameters
+uid: '@azure/arm-servicebus.RegenerateAccessKeyParameters|preview'
+package: '@azure/arm-servicebus|preview'
+summary: >-
+  Parameters supplied to the Regenerate Authorization Rule operation, specifies
+  which key needs to be reset.
+fullName: RegenerateAccessKeyParameters
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: key
+    uid: '@azure/arm-servicebus.RegenerateAccessKeyParameters.key|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: >-
+      Optional, if the key value provided, is reset for KeyType value or
+      autogenerate Key value set for keyType
+    fullName: key
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'key?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: keyType
+    uid: '@azure/arm-servicebus.RegenerateAccessKeyParameters.keyType|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: The access key to regenerate.
+    fullName: keyType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keyType: KeyType_2'
+      return:
+        type: <xref uid="@azure/arm-servicebus.KeyType_2" />
+        description: ''

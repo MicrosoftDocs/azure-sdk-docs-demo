@@ -1,0 +1,9 @@
+name: SetPropertiesResponse
+uid: '@azure/data-tables.SetPropertiesResponse|latest-stable'
+package: '@azure/data-tables|latest-stable'
+summary: Contains response data for the setProperties operation.
+fullName: SetPropertiesResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type SetPropertiesResponse = ServiceSetPropertiesHeaders

@@ -1,0 +1,19 @@
+name: KnownVaultProvisioningState
+uid: '@azure/arm-keyvault.KnownVaultProvisioningState|preview'
+package: '@azure/arm-keyvault|preview'
+summary: >-
+  Known values of <xref:@azure/arm-keyvault.VaultProvisioningState> that the
+  service accepts.
+fullName: KnownVaultProvisioningState
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: RegisteringDns
+    uid: '@azure/arm-keyvault.KnownVaultProvisioningState.RegisteringDns|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Succeeded
+    uid: '@azure/arm-keyvault.KnownVaultProvisioningState.Succeeded|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
