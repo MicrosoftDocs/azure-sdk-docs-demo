@@ -255,7 +255,7 @@ fields:
     summary: >-
       Error is thrown when a low level system error is thrown by node.js.
 
-      <xref:https%3A%2F%2Fnodejs.org%2Fapi%2Ferrors.html%23errors_class_systemerror>
+      [https%3A%2F%2Fnodejs.org%2Fapi%2Ferrors.html%23errors_class_systemerror](https%3A%2F%2Fnodejs.org%2Fapi%2Ferrors.html%23errors_class_systemerror)
   - name: TransferLimitExceededError
     uid: >-
       @azure/core-amqp.ErrorNameConditionMapper.TransferLimitExceededError|preview

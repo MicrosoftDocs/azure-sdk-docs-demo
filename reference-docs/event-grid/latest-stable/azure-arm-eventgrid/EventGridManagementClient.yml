@@ -34,7 +34,7 @@ constructors:
 
             more information about these credentials, see
 
-            <xref:https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40azure%2Fidentity>.
+            [https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40azure%2Fidentity](https%3A%2F%2Fwww.npmjs.com%2Fpackage%2F%40azure%2Fidentity).
             Credentials implementing the
 
             ServiceClientCredentials interface from the older packages

@@ -120,7 +120,7 @@ summary: >
   StoreLockLostError: the store lock is lost.
 
   SystemError: a low level system error is thrown by node.js. See
-  <xref:https%3A%2F%2Fnodejs.org%2Fapi%2Ferrors.html%23errors_class_systemerror>.
+  [https%3A%2F%2Fnodejs.org%2Fapi%2Ferrors.html%23errors_class_systemerror](https%3A%2F%2Fnodejs.org%2Fapi%2Ferrors.html%23errors_class_systemerror).
 
   TransferLimitExceededError: the peer sent more message transfers than
   currently allowed on the link.

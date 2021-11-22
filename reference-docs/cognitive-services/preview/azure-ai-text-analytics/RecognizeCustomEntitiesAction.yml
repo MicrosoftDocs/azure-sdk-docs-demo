@@ -7,7 +7,7 @@ summary: >-
   refer
 
   to the service documentation:
-  <xref:https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomentityrecognition>
+  [https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomentityrecognition](https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomentityrecognition)
 fullName: RecognizeCustomEntitiesAction
 remarks: ''
 isPreview: false

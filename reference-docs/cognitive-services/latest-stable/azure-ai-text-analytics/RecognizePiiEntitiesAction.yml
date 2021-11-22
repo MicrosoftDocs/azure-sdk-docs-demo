@@ -69,8 +69,9 @@ properties:
 
       set to 'PHI', entities in the Protected Healthcare Information domain will
 
-      only be returned). @see <xref:https%3A%2F%2Faka.ms%2Ftanerpii> for more
-      information.
+      only be returned). @see
+      [https%3A%2F%2Faka.ms%2Ftanerpii](https%3A%2F%2Faka.ms%2Ftanerpii) for
+      more information.
     fullName: domainFilter
     remarks: ''
     isPreview: false

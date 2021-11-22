@@ -62,7 +62,7 @@ properties:
       more information, please refer
 
       to the service documentation:
-      <xref:https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomfunctionalities>
+      [https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomfunctionalities](https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomfunctionalities)
     fullName: multiCategoryClassifyActions
     remarks: ''
     isPreview: false
@@ -81,7 +81,7 @@ properties:
       more information, please refer
 
       to the service documentation:
-      <xref:https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomentityrecognition>
+      [https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomentityrecognition](https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomentityrecognition)
     fullName: recognizeCustomEntitiesActions
     remarks: ''
     isPreview: false
@@ -148,7 +148,7 @@ properties:
       more information, please refer
 
       to the service documentation:
-      <xref:https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomfunctionalities>
+      [https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomfunctionalities](https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomfunctionalities)
     fullName: singleCategoryClassifyActions
     remarks: ''
     isPreview: false
