@@ -2,10 +2,12 @@
 title: Azure SDK for JavaScript - Core packages
 description: 
 ms.topic: reference
-ms.date: 2021-11-22
+ms.date: 11/21/2021
 ms.service: core
 ms.role: developer
 ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
 ROBOTS: NOINDEX
 ---
 
@@ -13,7 +15,7 @@ ROBOTS: NOINDEX
 
 ## Client Packages
 
-### Latest stable
+#### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -27,7 +29,7 @@ ROBOTS: NOINDEX
 
  
 
-### Preview
+#### Preview
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|

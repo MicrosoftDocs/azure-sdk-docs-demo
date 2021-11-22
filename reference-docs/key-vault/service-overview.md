@@ -2,10 +2,12 @@
 title: Azure SDK for JavaScript - Key Vault packages
 description: 
 ms.topic: reference
-ms.date: 2021-11-22
+ms.date: 11/21/2021
 ms.service: key-vault
 ms.role: developer
 ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
 ROBOTS: NOINDEX
 ---
 
@@ -13,7 +15,7 @@ ROBOTS: NOINDEX
 
 ## Client Packages
 
-### Latest stable
+#### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -24,7 +26,7 @@ ROBOTS: NOINDEX
 
  
 
-### Preview
+#### Preview
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -45,7 +47,7 @@ ROBOTS: NOINDEX
 
 ## Management Packages
 
-### Latest stable
+#### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -56,7 +58,7 @@ Users of prior versions of  packages should update to the latest stable version 
  
 
 
-### Preview
+#### Preview
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|

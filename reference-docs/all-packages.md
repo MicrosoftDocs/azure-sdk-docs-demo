@@ -6,6 +6,8 @@ ms.date: 11/21/2021
 ms.prod: azure
 ms.role: developer
 ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
 ROBOTS: NOINDEX
 ---
 
@@ -14,9 +16,9 @@ ROBOTS: NOINDEX
 
 ## App Configuration
 
-### Client Packages
+#### Client Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -29,9 +31,9 @@ ROBOTS: NOINDEX
  
 
 
-### Management Packages
+#### Management Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -47,9 +49,9 @@ ROBOTS: NOINDEX
 
 ## Cognitive Services
 
-### Client Packages
+#### Client Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -58,7 +60,7 @@ ROBOTS: NOINDEX
 | @azure/ai-text-analytics  | 5.1.0 | [User guide](/javascript/sdk-demo/cognitive-services/latest-stable/azure-ai-text-analytics/readme.md)  | [Package index](/javascript/sdk-demo/cognitive-services/latest-stable/azure-ai-text-analytics)  | [npm](https://www.npmjs.com/package/@azure/ai-text-analytics) |
  
 
-#### Preview
+##### Preview
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -72,9 +74,9 @@ ROBOTS: NOINDEX
  
 
 
-### Management Packages
+#### Management Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -90,9 +92,9 @@ ROBOTS: NOINDEX
 
 ## Core
 
-### Client Packages
+#### Client Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -105,7 +107,7 @@ ROBOTS: NOINDEX
 | @azure/core-paging  | 1.2.0 | [User guide](/javascript/sdk-demo/core/latest-stable/azure-core-paging/readme.md)  | [Package index](/javascript/sdk-demo/core/latest-stable/azure-core-paging)  | [npm](https://www.npmjs.com/package/@azure/core-paging) |
  
 
-#### Preview
+##### Preview
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -116,7 +118,7 @@ ROBOTS: NOINDEX
  
 
 
-### Management Packages
+#### Management Packages
 
  
 
@@ -129,9 +131,9 @@ ROBOTS: NOINDEX
 
 ## Cosmos DB
 
-### Client Packages
+#### Client Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -144,7 +146,7 @@ ROBOTS: NOINDEX
  
 
 
-### Management Packages
+#### Management Packages
 
  
 
@@ -157,9 +159,9 @@ ROBOTS: NOINDEX
 
 ## Event Grid
 
-### Client Packages
+#### Client Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -172,16 +174,16 @@ ROBOTS: NOINDEX
  
 
 
-### Management Packages
+#### Management Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
 | @azure/arm-eventgrid  | 12.0.0 | [User guide](/javascript/sdk-demo/event-grid/latest-stable/azure-arm-eventgrid/readme.md)  | [Package index](/javascript/sdk-demo/event-grid/latest-stable/azure-arm-eventgrid)  | [npm](https://www.npmjs.com/package/@azure/arm-eventgrid) |
  
 
-#### Preview
+##### Preview
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -195,9 +197,9 @@ ROBOTS: NOINDEX
 
 ## Event Hubs
 
-### Client Packages
+#### Client Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -205,7 +207,7 @@ ROBOTS: NOINDEX
 | @azure/arm-eventhub  | 4.0.0 | [User guide](/javascript/sdk-demo/event-hubs/latest-stable/azure-arm-eventhub/readme.md)  | [Package index](/javascript/sdk-demo/event-hubs/latest-stable/azure-arm-eventhub)  | [npm](https://www.npmjs.com/package/@azure/arm-eventhub) |
  
 
-#### Preview
+##### Preview
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -217,9 +219,9 @@ ROBOTS: NOINDEX
  
 
 
-### Management Packages
+#### Management Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -235,9 +237,9 @@ ROBOTS: NOINDEX
 
 ## Identity
 
-### Client Packages
+#### Client Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -250,7 +252,7 @@ ROBOTS: NOINDEX
  
 
 
-### Management Packages
+#### Management Packages
 
  
 
@@ -263,9 +265,9 @@ ROBOTS: NOINDEX
 
 ## Key Vault
 
-### Client Packages
+#### Client Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -275,7 +277,7 @@ ROBOTS: NOINDEX
 | @azure/keyvault-secrets  | 4.3.0 | [User guide](/javascript/sdk-demo/key-vault/latest-stable/azure-keyvault-secrets/readme.md)  | [Package index](/javascript/sdk-demo/key-vault/latest-stable/azure-keyvault-secrets)  | [npm](https://www.npmjs.com/package/@azure/keyvault-secrets) |
  
 
-#### Preview
+##### Preview
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -289,16 +291,16 @@ ROBOTS: NOINDEX
  
 
 
-### Management Packages
+#### Management Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
 | @azure/arm-keyvault  | 1.3.2 | [User guide](/javascript/sdk-demo/key-vault/latest-stable/azure-arm-keyvault/readme.md)  | [Package index](/javascript/sdk-demo/key-vault/latest-stable/azure-arm-keyvault)  | [npm](https://www.npmjs.com/package/@azure/arm-keyvault) |
  
 
-#### Preview
+##### Preview
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -312,9 +314,9 @@ ROBOTS: NOINDEX
 
 ## Service Bus
 
-### Client Packages
+#### Client Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -327,16 +329,16 @@ ROBOTS: NOINDEX
  
 
 
-### Management Packages
+#### Management Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
 | @azure/arm-servicebus  | 4.1.1 | [User guide](/javascript/sdk-demo/service-bus/latest-stable/azure-arm-servicebus/readme.md)  | [Package index](/javascript/sdk-demo/service-bus/latest-stable/azure-arm-servicebus)  | [npm](https://www.npmjs.com/package/@azure/arm-servicebus) |
  
 
-#### Preview
+##### Preview
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -350,9 +352,9 @@ ROBOTS: NOINDEX
 
 ## Storage
 
-### Client Packages
+#### Client Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -362,7 +364,7 @@ ROBOTS: NOINDEX
 | @azure/storage-file-datalake  | 12.7.0 | [User guide](/javascript/sdk-demo/storage/latest-stable/azure-storage-file-datalake/readme.md)  | [Package index](/javascript/sdk-demo/storage/latest-stable/azure-storage-file-datalake)  | [npm](https://www.npmjs.com/package/@azure/storage-file-datalake) |
  
 
-#### Preview
+##### Preview
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -376,16 +378,16 @@ ROBOTS: NOINDEX
  
 
 
-### Management Packages
+#### Management Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
 | @azure/arm-storage  | 16.1.2 | [User guide](/javascript/sdk-demo/storage/latest-stable/azure-arm-storage/readme.md)  | [Package index](/javascript/sdk-demo/storage/latest-stable/azure-arm-storage)  | [npm](https://www.npmjs.com/package/@azure/arm-storage) |
  
 
-#### Preview
+##### Preview
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -399,9 +401,9 @@ ROBOTS: NOINDEX
 
 ## Tables
 
-### Client Packages
+#### Client Packages
 
-#### Latest stable
+##### Latest stable
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -414,7 +416,7 @@ ROBOTS: NOINDEX
  
 
 
-### Management Packages
+#### Management Packages
 
  
 
@@ -425,3 +427,4 @@ ROBOTS: NOINDEX
  
 
  
+<hr>
