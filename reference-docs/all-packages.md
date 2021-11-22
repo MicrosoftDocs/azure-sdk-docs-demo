@@ -16,42 +16,29 @@ ROBOTS: NOINDEX
 
 ## App Configuration
 
-#### Client Packages
+<h4 class="heading-anchor" style="margin-top: 6px">Client Packages</h4>
 
-##### Latest stable
+***Latest stable***
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
 | @azure/app-configuration  | 1.3.0 | [User guide](/javascript/sdk-demo/app-configuration/latest-stable/azure-app-configuration/readme.md)  | [Package index](/javascript/sdk-demo/app-configuration/latest-stable/azure-app-configuration)  | [npm](https://www.npmjs.com/package/@azure/app-configuration) |
  
+<h4 class="heading-anchor" style="margin-top: 6px">Management Packages</h4>
 
- 
-
- 
- 
-
-
-#### Management Packages
-
-##### Latest stable
+***Latest stable***
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
 | @azure/arm-appconfiguration  | 2.0.0 | [User guide](/javascript/sdk-demo/app-configuration/latest-stable/azure-arm-appconfiguration/readme.md)  | [Package index](/javascript/sdk-demo/app-configuration/latest-stable/azure-arm-appconfiguration)  | [npm](https://www.npmjs.com/package/@azure/arm-appconfiguration) |
  
-
- 
-
-
- 
- 
-
+<hr>
 
 ## Cognitive Services
 
-#### Client Packages
+<h4 class="heading-anchor" style="margin-top: 6px">Client Packages</h4>
 
-##### Latest stable
+***Latest stable***
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -60,7 +47,7 @@ ROBOTS: NOINDEX
 | @azure/ai-text-analytics  | 5.1.0 | [User guide](/javascript/sdk-demo/cognitive-services/latest-stable/azure-ai-text-analytics/readme.md)  | [Package index](/javascript/sdk-demo/cognitive-services/latest-stable/azure-ai-text-analytics)  | [npm](https://www.npmjs.com/package/@azure/ai-text-analytics) |
  
 
-##### Preview
+***Preview***
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
@@ -70,25 +57,14 @@ ROBOTS: NOINDEX
 | @azure/ai-text-analytics  | 5.2.0-beta.2 | [User guide](/javascript/sdk-demo/cognitive-services/preview/azure-ai-text-analytics/readme.md)  | [Package index](/javascript/sdk-demo/cognitive-services/preview/azure-ai-text-analytics)  | [npm](https://www.npmjs.com/package/@azure/ai-text-analytics) |
  
 
- 
- 
+<h4 class="heading-anchor" style="margin-top: 6px">Management Packages</h4>
 
-
-#### Management Packages
-
-##### Latest stable
+***Latest stable***
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
 | @azure/arm-cognitiveservices  | 6.1.0 | [User guide](/javascript/sdk-demo/cognitive-services/latest-stable/azure-arm-cognitiveservices/readme.md)  | [Package index](/javascript/sdk-demo/cognitive-services/latest-stable/azure-arm-cognitiveservices)  | [npm](https://www.npmjs.com/package/@azure/arm-cognitiveservices) |
  
-
- 
-
-
- 
- 
-
 
 ## Core
 
