@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccessControlChanges
 uid: '@azure/storage-file-datalake.AccessControlChanges|preview'
 package: '@azure/storage-file-datalake|preview'

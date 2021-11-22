@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: VaultPatchProperties
 uid: '@azure/arm-keyvault.VaultPatchProperties|preview'
 package: '@azure/arm-keyvault|preview'

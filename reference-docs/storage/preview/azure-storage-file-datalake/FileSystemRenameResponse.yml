@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileSystemRenameResponse
 uid: '@azure/storage-file-datalake.FileSystemRenameResponse|preview'
 package: '@azure/storage-file-datalake|preview'

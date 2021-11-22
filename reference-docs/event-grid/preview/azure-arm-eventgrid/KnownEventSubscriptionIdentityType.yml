@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownEventSubscriptionIdentityType
 uid: '@azure/arm-eventgrid.KnownEventSubscriptionIdentityType|preview'
 package: '@azure/arm-eventgrid|preview'

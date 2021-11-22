@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventSubscriptionsGetFullUrlOptionalParams
 uid: '@azure/arm-eventgrid.EventSubscriptionsGetFullUrlOptionalParams|preview'
 package: '@azure/arm-eventgrid|preview'

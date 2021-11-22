@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Subnet
 uid: '@azure/arm-servicebus.Subnet|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

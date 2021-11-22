@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobDownloadResponseParsed
 uid: '@azure/storage-blob.BlobDownloadResponseParsed|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerBreakLeaseOptions
 uid: '@azure/storage-blob.ContainerBreakLeaseOptions|preview'
 package: '@azure/storage-blob|preview'

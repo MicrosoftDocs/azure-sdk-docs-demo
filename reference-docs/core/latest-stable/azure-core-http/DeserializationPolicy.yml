@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeserializationPolicy
 uid: '@azure/core-http.DeserializationPolicy|latest-stable'
 package: '@azure/core-http|latest-stable'

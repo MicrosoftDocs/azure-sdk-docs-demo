@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PageBlobGetPageRangesHeaders
 uid: '@azure/storage-blob.PageBlobGetPageRangesHeaders|preview'
 package: '@azure/storage-blob|preview'

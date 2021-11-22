@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AnomalyDetectorDetectEntireSeriesResponse
 uid: '@azure/ai-anomaly-detector.AnomalyDetectorDetectEntireSeriesResponse|preview'
 package: '@azure/ai-anomaly-detector|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AutocompleteOptions
 uid: '@azure/search-documents.AutocompleteOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

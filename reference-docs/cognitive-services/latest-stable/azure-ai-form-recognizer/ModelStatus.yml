@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ModelStatus
 uid: '@azure/ai-form-recognizer.ModelStatus|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

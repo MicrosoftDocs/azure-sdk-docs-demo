@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: GetCertificatePolicyOptions
 uid: '@azure/keyvault-certificates.GetCertificatePolicyOptions|latest-stable'
 package: '@azure/keyvault-certificates|latest-stable'

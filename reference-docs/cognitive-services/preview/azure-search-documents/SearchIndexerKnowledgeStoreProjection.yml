@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SearchIndexerKnowledgeStoreProjection
 uid: '@azure/search-documents.SearchIndexerKnowledgeStoreProjection|preview'
 package: '@azure/search-documents|preview'

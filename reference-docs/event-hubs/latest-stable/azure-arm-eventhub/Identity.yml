@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Identity
 uid: '@azure/arm-eventhub.Identity|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

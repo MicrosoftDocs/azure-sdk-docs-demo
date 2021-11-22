@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DeletionRecoveryLevel
 uid: '@azure/keyvault-certificates.DeletionRecoveryLevel|latest-stable'
 package: '@azure/keyvault-certificates|latest-stable'

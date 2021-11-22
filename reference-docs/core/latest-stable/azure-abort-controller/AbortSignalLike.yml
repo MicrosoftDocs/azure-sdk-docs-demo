@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AbortSignalLike
 uid: '@azure/abort-controller.AbortSignalLike|latest-stable'
 package: '@azure/abort-controller|latest-stable'

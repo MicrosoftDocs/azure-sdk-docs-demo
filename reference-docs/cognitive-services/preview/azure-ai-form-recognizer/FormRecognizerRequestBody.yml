@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FormRecognizerRequestBody
 uid: '@azure/ai-form-recognizer.FormRecognizerRequestBody|preview'
 package: '@azure/ai-form-recognizer|preview'

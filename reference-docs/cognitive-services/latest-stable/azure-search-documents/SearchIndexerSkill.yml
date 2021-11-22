@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SearchIndexerSkill
 uid: '@azure/search-documents.SearchIndexerSkill|latest-stable'
 package: '@azure/search-documents|latest-stable'

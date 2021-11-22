@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PatternTokenizer
 uid: '@azure/search-documents.PatternTokenizer|latest-stable'
 package: '@azure/search-documents|latest-stable'

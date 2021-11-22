@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SetRoleDefinitionOptions
 uid: '@azure/keyvault-admin.SetRoleDefinitionOptions|latest-stable'
 package: '@azure/keyvault-admin|latest-stable'

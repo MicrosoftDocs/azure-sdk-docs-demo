@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MhsmipRule
 uid: '@azure/arm-keyvault.MhsmipRule|preview'
 package: '@azure/arm-keyvault|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NamespacesRegenerateKeysResponse
 uid: '@azure/arm-eventhub.NamespacesRegenerateKeysResponse|preview'
 package: '@azure/arm-eventhub|preview'

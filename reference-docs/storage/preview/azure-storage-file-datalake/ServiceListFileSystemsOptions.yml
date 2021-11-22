@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceListFileSystemsOptions
 uid: '@azure/storage-file-datalake.ServiceListFileSystemsOptions|preview'
 package: '@azure/storage-file-datalake|preview'

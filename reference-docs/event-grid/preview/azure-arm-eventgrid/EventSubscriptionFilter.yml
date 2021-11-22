@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventSubscriptionFilter
 uid: '@azure/arm-eventgrid.EventSubscriptionFilter|preview'
 package: '@azure/arm-eventgrid|preview'

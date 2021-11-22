@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CorrelationFilter
 uid: '@azure/arm-servicebus.CorrelationFilter|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

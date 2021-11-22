@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MigrationConfigsListNextResponse
 uid: '@azure/arm-servicebus.MigrationConfigsListNextResponse|preview'
 package: '@azure/arm-servicebus|preview'

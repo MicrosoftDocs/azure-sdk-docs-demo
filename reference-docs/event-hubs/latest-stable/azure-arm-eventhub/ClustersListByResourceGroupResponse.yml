@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ClustersListByResourceGroupResponse
 uid: '@azure/arm-eventhub.ClustersListByResourceGroupResponse|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

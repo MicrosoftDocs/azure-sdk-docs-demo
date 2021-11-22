@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: UsagesListByLocationOptionalParams
 uid: '@azure/arm-storage.UsagesListByLocationOptionalParams|preview'
 package: '@azure/arm-storage|preview'

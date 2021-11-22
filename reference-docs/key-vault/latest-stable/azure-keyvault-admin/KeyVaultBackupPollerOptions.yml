@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultBackupPollerOptions
 uid: '@azure/keyvault-admin.KeyVaultBackupPollerOptions|latest-stable'
 package: '@azure/keyvault-admin|latest-stable'

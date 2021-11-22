@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ProcessErrorArgs
 uid: '@azure/service-bus.ProcessErrorArgs|latest-stable'
 package: '@azure/service-bus|latest-stable'

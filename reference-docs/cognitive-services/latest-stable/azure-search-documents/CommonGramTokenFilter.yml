@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CommonGramTokenFilter
 uid: '@azure/search-documents.CommonGramTokenFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

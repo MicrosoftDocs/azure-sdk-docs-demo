@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StringIndexType
 uid: '@azure/ai-text-analytics.StringIndexType|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'

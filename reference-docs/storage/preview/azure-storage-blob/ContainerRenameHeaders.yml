@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerRenameHeaders
 uid: '@azure/storage-blob.ContainerRenameHeaders|preview'
 package: '@azure/storage-blob|preview'

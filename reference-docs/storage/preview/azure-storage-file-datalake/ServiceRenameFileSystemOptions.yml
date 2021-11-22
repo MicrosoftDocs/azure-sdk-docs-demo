@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ServiceRenameFileSystemOptions
 uid: '@azure/storage-file-datalake.ServiceRenameFileSystemOptions|preview'
 package: '@azure/storage-file-datalake|preview'

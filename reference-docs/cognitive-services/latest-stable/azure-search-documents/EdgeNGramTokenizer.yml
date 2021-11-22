@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EdgeNGramTokenizer
 uid: '@azure/search-documents.EdgeNGramTokenizer|latest-stable'
 package: '@azure/search-documents|latest-stable'

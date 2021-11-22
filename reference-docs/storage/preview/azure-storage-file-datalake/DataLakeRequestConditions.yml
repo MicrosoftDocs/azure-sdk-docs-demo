@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DataLakeRequestConditions
 uid: '@azure/storage-file-datalake.DataLakeRequestConditions|preview'
 package: '@azure/storage-file-datalake|preview'

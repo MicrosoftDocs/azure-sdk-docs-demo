@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SingleCategoryClassifyActionErrorResult
 uid: '@azure/ai-text-analytics.SingleCategoryClassifyActionErrorResult|preview'
 package: '@azure/ai-text-analytics|preview'

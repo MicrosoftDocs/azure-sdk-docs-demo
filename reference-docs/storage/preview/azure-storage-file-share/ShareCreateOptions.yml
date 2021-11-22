@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ShareCreateOptions
 uid: '@azure/storage-file-share.ShareCreateOptions|preview'
 package: '@azure/storage-file-share|preview'

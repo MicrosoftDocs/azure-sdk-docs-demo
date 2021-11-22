@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BM25Similarity
 uid: '@azure/search-documents.BM25Similarity|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateEndpoint
 uid: '@azure/arm-storage.PrivateEndpoint|latest-stable'
 package: '@azure/arm-storage|latest-stable'

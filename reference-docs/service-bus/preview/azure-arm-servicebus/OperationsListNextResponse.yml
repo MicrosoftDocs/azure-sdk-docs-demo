@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: OperationsListNextResponse
 uid: '@azure/arm-servicebus.OperationsListNextResponse|preview'
 package: '@azure/arm-servicebus|preview'

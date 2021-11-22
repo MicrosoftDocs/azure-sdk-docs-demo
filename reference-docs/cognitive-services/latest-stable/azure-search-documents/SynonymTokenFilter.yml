@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SynonymTokenFilter
 uid: '@azure/search-documents.SynonymTokenFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

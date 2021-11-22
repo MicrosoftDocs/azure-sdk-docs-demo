@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: IndexerExecutionEnvironment
 uid: '@azure/search-documents.IndexerExecutionEnvironment|latest-stable'
 package: '@azure/search-documents|latest-stable'

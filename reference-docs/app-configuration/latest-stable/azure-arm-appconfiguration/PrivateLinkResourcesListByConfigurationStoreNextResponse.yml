@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateLinkResourcesListByConfigurationStoreNextResponse
 uid: >-
   @azure/arm-appconfiguration.PrivateLinkResourcesListByConfigurationStoreNextResponse|latest-stable

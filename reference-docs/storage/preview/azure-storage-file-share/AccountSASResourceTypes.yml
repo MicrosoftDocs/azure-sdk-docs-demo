@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccountSASResourceTypes
 uid: '@azure/storage-file-share.AccountSASResourceTypes|preview'
 package: '@azure/storage-file-share|preview'

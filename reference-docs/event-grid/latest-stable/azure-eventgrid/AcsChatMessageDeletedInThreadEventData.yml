@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AcsChatMessageDeletedInThreadEventData
 uid: '@azure/eventgrid.AcsChatMessageDeletedInThreadEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

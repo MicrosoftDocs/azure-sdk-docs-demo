@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileListHandlesSegmentOptions
 uid: '@azure/storage-file-share.FileListHandlesSegmentOptions|preview'
 package: '@azure/storage-file-share|preview'

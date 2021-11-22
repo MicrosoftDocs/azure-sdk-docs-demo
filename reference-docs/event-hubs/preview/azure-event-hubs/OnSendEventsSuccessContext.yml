@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: OnSendEventsSuccessContext
 uid: '@azure/event-hubs.OnSendEventsSuccessContext|preview'
 package: '@azure/event-hubs|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: VerifyDataOptions
 uid: '@azure/keyvault-keys.VerifyDataOptions|preview'
 package: '@azure/keyvault-keys|preview'

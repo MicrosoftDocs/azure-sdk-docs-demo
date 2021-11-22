@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: Kind
 uid: '@azure/arm-storage.Kind|latest-stable'
 package: '@azure/arm-storage|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobContainersExtendImmutabilityPolicyResponse
 uid: '@azure/arm-storage.BlobContainersExtendImmutabilityPolicyResponse|preview'
 package: '@azure/arm-storage|preview'

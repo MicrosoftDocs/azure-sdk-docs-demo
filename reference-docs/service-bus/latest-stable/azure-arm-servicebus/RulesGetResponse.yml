@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RulesGetResponse
 uid: '@azure/arm-servicebus.RulesGetResponse|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TableOperationsDeleteOptionalParams
 uid: '@azure/arm-storage.TableOperationsDeleteOptionalParams|preview'
 package: '@azure/arm-storage|preview'

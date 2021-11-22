@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileReadOptions
 uid: '@azure/storage-file-datalake.FileReadOptions|preview'
 package: '@azure/storage-file-datalake|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DeploymentProvisioningState
 uid: '@azure/arm-cognitiveservices.DeploymentProvisioningState|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

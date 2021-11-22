@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultRoleDefinition
 uid: '@azure/keyvault-admin.KeyVaultRoleDefinition|preview'
 package: '@azure/keyvault-admin|preview'

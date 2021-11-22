@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DefaultDataTransformer
 uid: '@azure/core-amqp.DefaultDataTransformer|preview'
 package: '@azure/core-amqp|preview'

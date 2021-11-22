@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateEndpointConnectionsDeleteOptionalParams
 uid: '@azure/arm-keyvault.PrivateEndpointConnectionsDeleteOptionalParams|preview'
 package: '@azure/arm-keyvault|preview'

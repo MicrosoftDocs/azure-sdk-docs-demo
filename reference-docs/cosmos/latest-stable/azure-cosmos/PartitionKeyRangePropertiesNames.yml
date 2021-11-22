@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PartitionKeyRangePropertiesNames
 uid: '@azure/cosmos.PartitionKeyRangePropertiesNames|latest-stable'
 package: '@azure/cosmos|latest-stable'

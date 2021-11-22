@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RecognizeCategorizedEntitiesActionErrorResult
 uid: >-
   @azure/ai-text-analytics.RecognizeCategorizedEntitiesActionErrorResult|latest-stable

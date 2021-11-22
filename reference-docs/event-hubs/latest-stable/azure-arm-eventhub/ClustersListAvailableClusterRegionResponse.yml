@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ClustersListAvailableClusterRegionResponse
 uid: '@azure/arm-eventhub.ClustersListAvailableClusterRegionResponse|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileCreateResponse
 uid: '@azure/storage-file-datalake.FileCreateResponse|latest-stable'
 package: '@azure/storage-file-datalake|latest-stable'

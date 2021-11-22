@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LegalHold
 uid: '@azure/arm-storage.LegalHold|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RoleDisasterRecovery
 uid: '@azure/arm-servicebus.RoleDisasterRecovery|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

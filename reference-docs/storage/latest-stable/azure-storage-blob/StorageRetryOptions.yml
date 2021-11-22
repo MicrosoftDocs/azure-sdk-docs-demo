@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageRetryOptions
 uid: '@azure/storage-blob.StorageRetryOptions|latest-stable'
 package: '@azure/storage-blob|latest-stable'

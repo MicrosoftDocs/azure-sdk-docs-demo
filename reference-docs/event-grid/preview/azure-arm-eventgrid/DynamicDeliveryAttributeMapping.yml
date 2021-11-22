@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DynamicDeliveryAttributeMapping
 uid: '@azure/arm-eventgrid.DynamicDeliveryAttributeMapping|preview'
 package: '@azure/arm-eventgrid|preview'

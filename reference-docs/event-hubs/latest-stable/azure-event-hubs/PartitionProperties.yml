@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PartitionProperties
 uid: '@azure/event-hubs.PartitionProperties|latest-stable'
 package: '@azure/event-hubs|latest-stable'

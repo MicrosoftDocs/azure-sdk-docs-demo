@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: GetEventHubPropertiesOptions
 uid: '@azure/event-hubs.GetEventHubPropertiesOptions|latest-stable'
 package: '@azure/event-hubs|latest-stable'

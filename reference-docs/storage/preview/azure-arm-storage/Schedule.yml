@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: Schedule
 uid: '@azure/arm-storage.Schedule|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EntityCertainty
 uid: '@azure/ai-text-analytics.EntityCertainty|preview'
 package: '@azure/ai-text-analytics|preview'

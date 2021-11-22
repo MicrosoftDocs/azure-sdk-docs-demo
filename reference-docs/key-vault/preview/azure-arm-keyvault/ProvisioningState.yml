@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ProvisioningState
 uid: '@azure/arm-keyvault.ProvisioningState|preview'
 package: '@azure/arm-keyvault|preview'

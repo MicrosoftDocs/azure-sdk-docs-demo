@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MediaLiveEventIncomingStreamReceivedEventData
 uid: '@azure/eventgrid.MediaLiveEventIncomingStreamReceivedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

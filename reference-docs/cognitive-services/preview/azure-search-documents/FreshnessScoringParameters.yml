@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FreshnessScoringParameters
 uid: '@azure/search-documents.FreshnessScoringParameters|preview'
 package: '@azure/search-documents|preview'

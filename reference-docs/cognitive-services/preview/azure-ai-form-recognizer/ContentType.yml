@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ContentType
 uid: '@azure/ai-form-recognizer.ContentType|preview'
 package: '@azure/ai-form-recognizer|preview'

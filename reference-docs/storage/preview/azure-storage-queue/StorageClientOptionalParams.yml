@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageClientOptionalParams
 uid: '@azure/storage-queue.StorageClientOptionalParams|preview'
 package: '@azure/storage-queue|preview'

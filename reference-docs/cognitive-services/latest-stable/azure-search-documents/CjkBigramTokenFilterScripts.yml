@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CjkBigramTokenFilterScripts
 uid: '@azure/search-documents.CjkBigramTokenFilterScripts|latest-stable'
 package: '@azure/search-documents|latest-stable'

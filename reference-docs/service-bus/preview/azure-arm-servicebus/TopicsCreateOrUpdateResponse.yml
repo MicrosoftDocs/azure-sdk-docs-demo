@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TopicsCreateOrUpdateResponse
 uid: '@azure/arm-servicebus.TopicsCreateOrUpdateResponse|preview'
 package: '@azure/arm-servicebus|preview'

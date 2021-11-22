@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: GetConfigurationHeaders
 uid: '@azure/app-configuration.GetConfigurationHeaders|latest-stable'
 package: '@azure/app-configuration|latest-stable'

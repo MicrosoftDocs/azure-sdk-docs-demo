@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerGetPropertiesOptions
 uid: '@azure/storage-blob.ContainerGetPropertiesOptions|preview'
 package: '@azure/storage-blob|preview'

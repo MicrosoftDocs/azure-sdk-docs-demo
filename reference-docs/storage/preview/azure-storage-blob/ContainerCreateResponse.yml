@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ContainerCreateResponse
 uid: '@azure/storage-blob.ContainerCreateResponse|preview'
 package: '@azure/storage-blob|preview'

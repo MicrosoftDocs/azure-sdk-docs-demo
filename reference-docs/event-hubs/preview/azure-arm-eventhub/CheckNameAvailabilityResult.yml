@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CheckNameAvailabilityResult
 uid: '@azure/arm-eventhub.CheckNameAvailabilityResult|preview'
 package: '@azure/arm-eventhub|preview'

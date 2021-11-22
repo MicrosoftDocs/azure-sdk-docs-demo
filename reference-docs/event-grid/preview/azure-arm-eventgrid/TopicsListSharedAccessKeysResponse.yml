@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TopicsListSharedAccessKeysResponse
 uid: '@azure/arm-eventgrid.TopicsListSharedAccessKeysResponse|preview'
 package: '@azure/arm-eventgrid|preview'

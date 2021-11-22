@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PathCreateResponse
 uid: '@azure/storage-file-datalake.PathCreateResponse|preview'
 package: '@azure/storage-file-datalake|preview'

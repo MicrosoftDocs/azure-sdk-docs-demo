@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EntityDataSource
 uid: '@azure/ai-text-analytics.EntityDataSource|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'

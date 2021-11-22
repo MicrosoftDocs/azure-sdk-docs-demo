@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownQuerySpellerType
 uid: '@azure/search-documents.KnownQuerySpellerType|preview'
 package: '@azure/search-documents|preview'

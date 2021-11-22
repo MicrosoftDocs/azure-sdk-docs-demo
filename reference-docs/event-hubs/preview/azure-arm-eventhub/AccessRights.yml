@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AccessRights
 uid: '@azure/arm-eventhub.AccessRights|preview'
 package: '@azure/arm-eventhub|preview'

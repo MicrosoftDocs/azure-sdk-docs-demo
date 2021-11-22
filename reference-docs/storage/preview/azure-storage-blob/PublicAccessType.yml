@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PublicAccessType
 uid: '@azure/storage-blob.PublicAccessType|preview'
 package: '@azure/storage-blob|preview'

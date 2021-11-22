@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceSpecification
 uid: '@azure/arm-keyvault.ServiceSpecification|latest-stable'
 package: '@azure/arm-keyvault|latest-stable'

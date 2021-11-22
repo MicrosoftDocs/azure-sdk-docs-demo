@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ListQueuesIncludeType
 uid: '@azure/storage-queue.ListQueuesIncludeType|preview'
 package: '@azure/storage-queue|preview'

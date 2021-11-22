@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NWRuleSetIpRules
 uid: '@azure/arm-servicebus.NWRuleSetIpRules|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

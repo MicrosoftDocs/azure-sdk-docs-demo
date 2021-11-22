@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Pipeline
 uid: '@azure/storage-file-datalake.Pipeline|preview'
 package: '@azure/storage-file-datalake|preview'

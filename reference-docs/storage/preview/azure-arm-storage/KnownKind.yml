@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownKind
 uid: '@azure/arm-storage.KnownKind|preview'
 package: '@azure/arm-storage|preview'

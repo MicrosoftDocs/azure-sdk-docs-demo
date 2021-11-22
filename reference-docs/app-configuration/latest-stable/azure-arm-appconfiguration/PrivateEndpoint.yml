@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateEndpoint
 uid: '@azure/arm-appconfiguration.PrivateEndpoint|latest-stable'
 package: '@azure/arm-appconfiguration|latest-stable'

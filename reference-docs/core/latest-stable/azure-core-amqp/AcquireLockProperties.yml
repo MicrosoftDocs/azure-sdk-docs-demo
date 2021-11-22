@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AcquireLockProperties
 uid: '@azure/core-amqp.AcquireLockProperties|latest-stable'
 package: '@azure/core-amqp|latest-stable'

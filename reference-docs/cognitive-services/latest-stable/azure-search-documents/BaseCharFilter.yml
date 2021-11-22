@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BaseCharFilter
 uid: '@azure/search-documents.BaseCharFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

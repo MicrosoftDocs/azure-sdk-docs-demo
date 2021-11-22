@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TopicTypeInfo
 uid: '@azure/arm-eventgrid.TopicTypeInfo|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

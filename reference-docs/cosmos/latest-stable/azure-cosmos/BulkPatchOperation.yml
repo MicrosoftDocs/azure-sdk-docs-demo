@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BulkPatchOperation
 uid: '@azure/cosmos.BulkPatchOperation|latest-stable'
 package: '@azure/cosmos|latest-stable'

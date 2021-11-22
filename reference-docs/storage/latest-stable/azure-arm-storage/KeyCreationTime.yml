@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyCreationTime
 uid: '@azure/arm-storage.KeyCreationTime|latest-stable'
 package: '@azure/arm-storage|latest-stable'

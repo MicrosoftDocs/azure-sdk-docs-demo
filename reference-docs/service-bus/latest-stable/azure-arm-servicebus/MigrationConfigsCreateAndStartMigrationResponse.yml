@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MigrationConfigsCreateAndStartMigrationResponse
 uid: >-
   @azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationResponse|latest-stable

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlockBlobGetBlockListHeaders
 uid: '@azure/storage-blob.BlockBlobGetBlockListHeaders|latest-stable'
 package: '@azure/storage-blob|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: UserDelegationKey
 uid: '@azure/storage-blob.UserDelegationKey|latest-stable'
 package: '@azure/storage-blob|latest-stable'

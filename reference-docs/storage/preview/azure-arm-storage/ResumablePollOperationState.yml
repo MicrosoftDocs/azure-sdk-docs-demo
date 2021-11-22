@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ResumablePollOperationState
 uid: '@azure/arm-storage.ResumablePollOperationState|preview'
 package: '@azure/arm-storage|preview'

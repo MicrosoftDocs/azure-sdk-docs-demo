@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SkuName
 uid: '@azure/storage-blob.SkuName|preview'
 package: '@azure/storage-blob|preview'

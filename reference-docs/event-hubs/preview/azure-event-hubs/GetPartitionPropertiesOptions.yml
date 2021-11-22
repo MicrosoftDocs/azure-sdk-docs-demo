@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: GetPartitionPropertiesOptions
 uid: '@azure/event-hubs.GetPartitionPropertiesOptions|preview'
 package: '@azure/event-hubs|preview'

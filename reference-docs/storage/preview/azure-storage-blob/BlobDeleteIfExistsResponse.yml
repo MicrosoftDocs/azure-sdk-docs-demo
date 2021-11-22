@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobDeleteIfExistsResponse
 uid: '@azure/storage-blob.BlobDeleteIfExistsResponse|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BeginRecoverDeletedKeyOptions
 uid: '@azure/keyvault-keys.BeginRecoverDeletedKeyOptions|preview'
 package: '@azure/keyvault-keys|preview'

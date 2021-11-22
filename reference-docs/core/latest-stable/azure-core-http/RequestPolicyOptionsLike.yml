@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RequestPolicyOptionsLike
 uid: '@azure/core-http.RequestPolicyOptionsLike|latest-stable'
 package: '@azure/core-http|latest-stable'

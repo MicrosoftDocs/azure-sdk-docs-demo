@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LastEnqueuedEventProperties
 uid: '@azure/event-hubs.LastEnqueuedEventProperties|preview'
 package: '@azure/event-hubs|preview'

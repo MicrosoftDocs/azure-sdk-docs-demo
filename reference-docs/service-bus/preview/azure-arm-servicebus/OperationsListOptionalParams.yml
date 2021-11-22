@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: OperationsListOptionalParams
 uid: '@azure/arm-servicebus.OperationsListOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

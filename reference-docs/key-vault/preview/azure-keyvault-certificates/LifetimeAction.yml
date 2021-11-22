@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LifetimeAction
 uid: '@azure/keyvault-certificates.LifetimeAction|preview'
 package: '@azure/keyvault-certificates|preview'

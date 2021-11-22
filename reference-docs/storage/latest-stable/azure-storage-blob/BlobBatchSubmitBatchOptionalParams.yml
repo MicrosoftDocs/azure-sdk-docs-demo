@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobBatchSubmitBatchOptionalParams
 uid: '@azure/storage-blob.BlobBatchSubmitBatchOptionalParams|latest-stable'
 package: '@azure/storage-blob|latest-stable'

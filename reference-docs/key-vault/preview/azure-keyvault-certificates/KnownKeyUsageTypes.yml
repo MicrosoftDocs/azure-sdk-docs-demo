@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownKeyUsageTypes
 uid: '@azure/keyvault-certificates.KnownKeyUsageTypes|preview'
 package: '@azure/keyvault-certificates|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeviceTelemetryEvent
 uid: '@azure/eventgrid.DeviceTelemetryEvent|latest-stable'
 package: '@azure/eventgrid|latest-stable'

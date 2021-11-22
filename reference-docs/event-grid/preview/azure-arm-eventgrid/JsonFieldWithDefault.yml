@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: JsonFieldWithDefault
 uid: '@azure/arm-eventgrid.JsonFieldWithDefault|preview'
 package: '@azure/arm-eventgrid|preview'

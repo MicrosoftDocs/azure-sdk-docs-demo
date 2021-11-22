@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobContainersGetOptionalParams
 uid: '@azure/arm-storage.BlobContainersGetOptionalParams|preview'
 package: '@azure/arm-storage|preview'

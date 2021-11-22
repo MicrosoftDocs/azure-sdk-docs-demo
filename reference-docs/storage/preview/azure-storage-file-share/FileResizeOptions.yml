@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileResizeOptions
 uid: '@azure/storage-file-share.FileResizeOptions|preview'
 package: '@azure/storage-file-share|preview'

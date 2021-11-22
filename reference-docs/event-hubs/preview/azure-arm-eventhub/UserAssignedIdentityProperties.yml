@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: UserAssignedIdentityProperties
 uid: '@azure/arm-eventhub.UserAssignedIdentityProperties|preview'
 package: '@azure/arm-eventhub|preview'

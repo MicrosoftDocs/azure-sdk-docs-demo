@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeviceTwinMetadata
 uid: '@azure/eventgrid.DeviceTwinMetadata|latest-stable'
 package: '@azure/eventgrid|latest-stable'

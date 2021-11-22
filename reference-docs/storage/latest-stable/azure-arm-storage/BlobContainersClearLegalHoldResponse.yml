@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobContainersClearLegalHoldResponse
 uid: '@azure/arm-storage.BlobContainersClearLegalHoldResponse|latest-stable'
 package: '@azure/arm-storage|latest-stable'

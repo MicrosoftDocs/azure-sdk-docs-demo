@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CancelOnProgress
 uid: '@azure/core-lro.CancelOnProgress|latest-stable'
 package: '@azure/core-lro|latest-stable'

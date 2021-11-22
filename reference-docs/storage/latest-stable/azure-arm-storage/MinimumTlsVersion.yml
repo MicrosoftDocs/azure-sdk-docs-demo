@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MinimumTlsVersion
 uid: '@azure/arm-storage.MinimumTlsVersion|latest-stable'
 package: '@azure/arm-storage|latest-stable'

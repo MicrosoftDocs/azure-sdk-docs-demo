@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CertificateOperationError
 uid: '@azure/keyvault-certificates.CertificateOperationError|latest-stable'
 package: '@azure/keyvault-certificates|latest-stable'

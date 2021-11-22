@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DirectoryListFilesAndDirectoriesSegmentResponse
 uid: >-
   @azure/storage-file-share.DirectoryListFilesAndDirectoriesSegmentResponse|latest-stable

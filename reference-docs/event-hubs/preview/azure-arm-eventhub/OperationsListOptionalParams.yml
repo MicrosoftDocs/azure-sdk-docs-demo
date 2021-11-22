@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: OperationsListOptionalParams
 uid: '@azure/arm-eventhub.OperationsListOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

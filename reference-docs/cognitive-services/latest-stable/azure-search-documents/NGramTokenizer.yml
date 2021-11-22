@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NGramTokenizer
 uid: '@azure/search-documents.NGramTokenizer|latest-stable'
 package: '@azure/search-documents|latest-stable'

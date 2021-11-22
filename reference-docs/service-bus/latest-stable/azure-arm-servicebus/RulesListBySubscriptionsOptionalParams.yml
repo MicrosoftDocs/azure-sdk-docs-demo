@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RulesListBySubscriptionsOptionalParams
 uid: '@azure/arm-servicebus.RulesListBySubscriptionsOptionalParams|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

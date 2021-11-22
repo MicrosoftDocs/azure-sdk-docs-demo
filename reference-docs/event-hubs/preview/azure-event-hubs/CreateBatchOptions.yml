@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CreateBatchOptions
 uid: '@azure/event-hubs.CreateBatchOptions|preview'
 package: '@azure/event-hubs|preview'

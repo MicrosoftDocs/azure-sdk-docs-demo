@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AzureEntityResource
 uid: '@azure/arm-storage.AzureEntityResource|latest-stable'
 package: '@azure/arm-storage|latest-stable'

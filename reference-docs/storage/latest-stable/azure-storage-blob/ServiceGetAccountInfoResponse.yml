@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ServiceGetAccountInfoResponse
 uid: '@azure/storage-blob.ServiceGetAccountInfoResponse|latest-stable'
 package: '@azure/storage-blob|latest-stable'

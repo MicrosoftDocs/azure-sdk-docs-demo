@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueryMetrics
 uid: '@azure/cosmos.QueryMetrics|latest-stable'
 package: '@azure/cosmos|latest-stable'

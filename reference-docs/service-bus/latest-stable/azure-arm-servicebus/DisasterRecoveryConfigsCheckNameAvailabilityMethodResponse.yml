@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DisasterRecoveryConfigsCheckNameAvailabilityMethodResponse
 uid: >-
   @azure/arm-servicebus.DisasterRecoveryConfigsCheckNameAvailabilityMethodResponse|latest-stable

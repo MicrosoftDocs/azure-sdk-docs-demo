@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NamespacesGetOptionalParams
 uid: '@azure/arm-eventhub.NamespacesGetOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

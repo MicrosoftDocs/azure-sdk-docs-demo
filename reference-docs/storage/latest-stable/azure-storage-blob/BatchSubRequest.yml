@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BatchSubRequest
 uid: '@azure/storage-blob.BatchSubRequest|latest-stable'
 package: '@azure/storage-blob|latest-stable'

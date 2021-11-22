@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EnqueueEventOptions
 uid: '@azure/event-hubs.EnqueueEventOptions|preview'
 package: '@azure/event-hubs|preview'

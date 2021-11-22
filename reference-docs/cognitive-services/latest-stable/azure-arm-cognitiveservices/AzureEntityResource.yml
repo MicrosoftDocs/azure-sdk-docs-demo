@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AzureEntityResource
 uid: '@azure/arm-cognitiveservices.AzureEntityResource|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

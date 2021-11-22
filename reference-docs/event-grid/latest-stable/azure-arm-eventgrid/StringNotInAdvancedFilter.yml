@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StringNotInAdvancedFilter
 uid: '@azure/arm-eventgrid.StringNotInAdvancedFilter|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AppendBlobAppendBlockOptions
 uid: '@azure/storage-blob.AppendBlobAppendBlockOptions|latest-stable'
 package: '@azure/storage-blob|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: IotHubDeviceDeletedEventData
 uid: '@azure/eventgrid.IotHubDeviceDeletedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

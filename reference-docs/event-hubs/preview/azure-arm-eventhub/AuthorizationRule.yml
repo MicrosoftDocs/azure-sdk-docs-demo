@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AuthorizationRule
 uid: '@azure/arm-eventhub.AuthorizationRule|preview'
 package: '@azure/arm-eventhub|preview'

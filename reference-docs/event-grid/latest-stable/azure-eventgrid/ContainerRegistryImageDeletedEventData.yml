@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ContainerRegistryImageDeletedEventData
 uid: '@azure/eventgrid.ContainerRegistryImageDeletedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

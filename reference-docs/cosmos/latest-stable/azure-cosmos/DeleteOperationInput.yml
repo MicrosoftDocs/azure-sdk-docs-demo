@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeleteOperationInput
 uid: '@azure/cosmos.DeleteOperationInput|latest-stable'
 package: '@azure/cosmos|latest-stable'

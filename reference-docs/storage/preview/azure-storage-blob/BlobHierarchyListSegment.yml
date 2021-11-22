@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobHierarchyListSegment
 uid: '@azure/storage-blob.BlobHierarchyListSegment|preview'
 package: '@azure/storage-blob|preview'

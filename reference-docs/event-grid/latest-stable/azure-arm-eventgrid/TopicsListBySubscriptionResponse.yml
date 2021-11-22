@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TopicsListBySubscriptionResponse
 uid: '@azure/arm-eventgrid.TopicsListBySubscriptionResponse|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

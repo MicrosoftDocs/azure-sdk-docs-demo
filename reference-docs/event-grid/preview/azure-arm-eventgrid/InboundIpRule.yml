@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: InboundIpRule
 uid: '@azure/arm-eventgrid.InboundIpRule|preview'
 package: '@azure/arm-eventgrid|preview'

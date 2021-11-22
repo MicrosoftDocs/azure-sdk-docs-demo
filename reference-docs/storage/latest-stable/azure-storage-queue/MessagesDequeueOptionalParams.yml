@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MessagesDequeueOptionalParams
 uid: '@azure/storage-queue.MessagesDequeueOptionalParams|latest-stable'
 package: '@azure/storage-queue|latest-stable'

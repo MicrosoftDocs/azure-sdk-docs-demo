@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownInventoryRuleType
 uid: '@azure/arm-storage.KnownInventoryRuleType|preview'
 package: '@azure/arm-storage|preview'

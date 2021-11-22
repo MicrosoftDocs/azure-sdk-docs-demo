@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DeploymentsBeginCreateOrUpdateResponse
 uid: >-
   @azure/arm-cognitiveservices.DeploymentsBeginCreateOrUpdateResponse|latest-stable

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RsaEncryptParameters
 uid: '@azure/keyvault-keys.RsaEncryptParameters|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

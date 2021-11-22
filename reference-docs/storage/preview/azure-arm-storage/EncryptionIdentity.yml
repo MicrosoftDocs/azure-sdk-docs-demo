@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EncryptionIdentity
 uid: '@azure/arm-storage.EncryptionIdentity|preview'
 package: '@azure/arm-storage|preview'

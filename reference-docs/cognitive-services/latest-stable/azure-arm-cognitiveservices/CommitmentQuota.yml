@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CommitmentQuota
 uid: '@azure/arm-cognitiveservices.CommitmentQuota|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

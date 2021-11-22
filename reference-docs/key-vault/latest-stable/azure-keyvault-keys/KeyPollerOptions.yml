@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyPollerOptions
 uid: '@azure/keyvault-keys.KeyPollerOptions|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

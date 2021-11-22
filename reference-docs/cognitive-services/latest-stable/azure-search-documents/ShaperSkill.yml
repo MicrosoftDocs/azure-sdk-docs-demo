@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ShaperSkill
 uid: '@azure/search-documents.ShaperSkill|latest-stable'
 package: '@azure/search-documents|latest-stable'

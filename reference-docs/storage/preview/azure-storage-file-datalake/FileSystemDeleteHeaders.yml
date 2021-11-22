@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSystemDeleteHeaders
 uid: '@azure/storage-file-datalake.FileSystemDeleteHeaders|preview'
 package: '@azure/storage-file-datalake|preview'

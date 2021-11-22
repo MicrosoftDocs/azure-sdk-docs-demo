@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageManagementClientOptions
 uid: '@azure/arm-storage.StorageManagementClientOptions|latest-stable'
 package: '@azure/arm-storage|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NamespacesCreateOrUpdateAuthorizationRuleResponse
 uid: >-
   @azure/arm-servicebus.NamespacesCreateOrUpdateAuthorizationRuleResponse|preview

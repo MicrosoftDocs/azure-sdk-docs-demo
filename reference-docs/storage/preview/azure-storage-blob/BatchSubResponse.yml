@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BatchSubResponse
 uid: '@azure/storage-blob.BatchSubResponse|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileUploadStreamOptions
 uid: '@azure/storage-file-share.FileUploadStreamOptions|preview'
 package: '@azure/storage-file-share|preview'

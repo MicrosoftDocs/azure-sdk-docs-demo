@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ResourceIdentity
 uid: '@azure/arm-appconfiguration.ResourceIdentity|latest-stable'
 package: '@azure/arm-appconfiguration|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ClustersGetOptionalParams
 uid: '@azure/arm-eventhub.ClustersGetOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

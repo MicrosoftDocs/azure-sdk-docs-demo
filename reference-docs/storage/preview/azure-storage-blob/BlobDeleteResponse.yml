@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobDeleteResponse
 uid: '@azure/storage-blob.BlobDeleteResponse|preview'
 package: '@azure/storage-blob|preview'

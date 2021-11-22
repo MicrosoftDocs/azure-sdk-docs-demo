@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FilterBlobItem
 uid: '@azure/storage-blob.FilterBlobItem|preview'
 package: '@azure/storage-blob|preview'

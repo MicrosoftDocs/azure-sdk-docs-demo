@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateLinkResourcesImpl
 uid: '@azure/arm-storage.PrivateLinkResourcesImpl|preview'
 package: '@azure/arm-storage|preview'

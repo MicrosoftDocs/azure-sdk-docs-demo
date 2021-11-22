@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AppendBlobSealOptions
 uid: '@azure/storage-blob.AppendBlobSealOptions|preview'
 package: '@azure/storage-blob|preview'

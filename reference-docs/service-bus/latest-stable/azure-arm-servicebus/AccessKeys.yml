@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccessKeys
 uid: '@azure/arm-servicebus.AccessKeys|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

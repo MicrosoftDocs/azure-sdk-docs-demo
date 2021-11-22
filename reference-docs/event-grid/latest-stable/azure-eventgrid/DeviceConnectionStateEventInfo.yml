@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeviceConnectionStateEventInfo
 uid: '@azure/eventgrid.DeviceConnectionStateEventInfo|latest-stable'
 package: '@azure/eventgrid|latest-stable'

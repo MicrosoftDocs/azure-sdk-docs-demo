@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SigningPolicy
 uid: '@azure/core-http.SigningPolicy|latest-stable'
 package: '@azure/core-http|latest-stable'

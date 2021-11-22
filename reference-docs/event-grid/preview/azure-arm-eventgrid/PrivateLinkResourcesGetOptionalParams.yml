@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateLinkResourcesGetOptionalParams
 uid: '@azure/arm-eventgrid.PrivateLinkResourcesGetOptionalParams|preview'
 package: '@azure/arm-eventgrid|preview'

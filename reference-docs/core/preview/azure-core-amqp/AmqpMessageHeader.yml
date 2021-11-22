@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AmqpMessageHeader
 uid: '@azure/core-amqp.AmqpMessageHeader|preview'
 package: '@azure/core-amqp|preview'

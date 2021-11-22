@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ConfigurationStore
 uid: '@azure/arm-appconfiguration.ConfigurationStore|latest-stable'
 package: '@azure/arm-appconfiguration|latest-stable'

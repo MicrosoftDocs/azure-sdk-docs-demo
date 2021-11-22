@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: IndexIterator
 uid: '@azure/search-documents.IndexIterator|latest-stable'
 package: '@azure/search-documents|latest-stable'

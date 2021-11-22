@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FieldMappingFunction
 uid: '@azure/search-documents.FieldMappingFunction|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CertificatePermissions
 uid: '@azure/arm-keyvault.CertificatePermissions|preview'
 package: '@azure/arm-keyvault|preview'

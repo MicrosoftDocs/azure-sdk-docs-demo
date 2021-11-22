@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobContainers
 uid: '@azure/arm-storage.BlobContainers|preview'
 package: '@azure/arm-storage|preview'

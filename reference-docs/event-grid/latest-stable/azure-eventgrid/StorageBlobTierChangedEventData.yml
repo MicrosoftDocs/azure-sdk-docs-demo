@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageBlobTierChangedEventData
 uid: '@azure/eventgrid.StorageBlobTierChangedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

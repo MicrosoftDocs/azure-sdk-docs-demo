@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ServiceSetPropertiesResponse
 uid: '@azure/storage-blob.ServiceSetPropertiesResponse|preview'
 package: '@azure/storage-blob|preview'

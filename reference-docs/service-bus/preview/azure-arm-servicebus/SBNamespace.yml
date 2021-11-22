@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SBNamespace
 uid: '@azure/arm-servicebus.SBNamespace|preview'
 package: '@azure/arm-servicebus|preview'

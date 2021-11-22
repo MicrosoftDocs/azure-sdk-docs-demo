@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LeaseOperationResponseHeaders
 uid: '@azure/storage-file-share.LeaseOperationResponseHeaders|preview'
 package: '@azure/storage-file-share|preview'

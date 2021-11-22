@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SkuTier
 uid: '@azure/arm-storage.SkuTier|latest-stable'
 package: '@azure/arm-storage|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerClient
 uid: '@azure/storage-blob.ContainerClient|latest-stable'
 package: '@azure/storage-blob|latest-stable'

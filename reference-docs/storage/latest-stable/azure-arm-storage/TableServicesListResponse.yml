@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TableServicesListResponse
 uid: '@azure/arm-storage.TableServicesListResponse|latest-stable'
 package: '@azure/arm-storage|latest-stable'

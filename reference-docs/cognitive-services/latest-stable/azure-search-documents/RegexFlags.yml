@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RegexFlags
 uid: '@azure/search-documents.RegexFlags|latest-stable'
 package: '@azure/search-documents|latest-stable'

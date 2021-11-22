@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NamespacesDeleteAuthorizationRuleOptionalParams
 uid: '@azure/arm-servicebus.NamespacesDeleteAuthorizationRuleOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

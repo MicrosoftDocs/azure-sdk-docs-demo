@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FormReadingOrder
 uid: '@azure/ai-form-recognizer.FormReadingOrder|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

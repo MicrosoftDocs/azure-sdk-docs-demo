@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: QueueSendMessageResponse
 uid: '@azure/storage-queue.QueueSendMessageResponse|preview'
 package: '@azure/storage-queue|preview'

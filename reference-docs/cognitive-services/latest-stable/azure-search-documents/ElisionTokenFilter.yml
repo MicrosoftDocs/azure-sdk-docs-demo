@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ElisionTokenFilter
 uid: '@azure/search-documents.ElisionTokenFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

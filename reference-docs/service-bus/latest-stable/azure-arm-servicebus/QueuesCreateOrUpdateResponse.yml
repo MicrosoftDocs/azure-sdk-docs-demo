@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: QueuesCreateOrUpdateResponse
 uid: '@azure/arm-servicebus.QueuesCreateOrUpdateResponse|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

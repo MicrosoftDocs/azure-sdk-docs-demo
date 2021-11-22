@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AnalyzeHealthcareOperationState
 uid: '@azure/ai-text-analytics.AnalyzeHealthcareOperationState|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'

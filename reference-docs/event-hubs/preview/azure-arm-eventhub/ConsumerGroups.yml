@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ConsumerGroups
 uid: '@azure/arm-eventhub.ConsumerGroups|preview'
 package: '@azure/arm-eventhub|preview'

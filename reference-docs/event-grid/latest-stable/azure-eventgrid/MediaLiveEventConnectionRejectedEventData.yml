@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MediaLiveEventConnectionRejectedEventData
 uid: '@azure/eventgrid.MediaLiveEventConnectionRejectedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

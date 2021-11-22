@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DateAfterCreation
 uid: '@azure/arm-storage.DateAfterCreation|preview'
 package: '@azure/arm-storage|preview'

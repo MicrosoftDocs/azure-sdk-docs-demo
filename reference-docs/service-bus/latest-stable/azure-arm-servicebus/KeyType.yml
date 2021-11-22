@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyType
 uid: '@azure/arm-servicebus.KeyType|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

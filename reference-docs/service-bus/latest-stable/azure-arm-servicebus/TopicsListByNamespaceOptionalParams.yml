@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TopicsListByNamespaceOptionalParams
 uid: '@azure/arm-servicebus.TopicsListByNamespaceOptionalParams|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

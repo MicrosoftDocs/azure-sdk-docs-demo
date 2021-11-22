@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeadLetterWithResourceIdentity
 uid: '@azure/arm-eventgrid.DeadLetterWithResourceIdentity|preview'
 package: '@azure/arm-eventgrid|preview'

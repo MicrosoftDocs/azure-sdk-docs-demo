@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EncryptionAlgorithmType
 uid: '@azure/storage-blob.EncryptionAlgorithmType|preview'
 package: '@azure/storage-blob|preview'

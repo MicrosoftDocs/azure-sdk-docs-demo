@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PageBlobClearPagesOptions
 uid: '@azure/storage-blob.PageBlobClearPagesOptions|preview'
 package: '@azure/storage-blob|preview'

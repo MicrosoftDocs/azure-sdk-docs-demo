@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ConnectionPolicy
 uid: '@azure/cosmos.ConnectionPolicy|latest-stable'
 package: '@azure/cosmos|latest-stable'

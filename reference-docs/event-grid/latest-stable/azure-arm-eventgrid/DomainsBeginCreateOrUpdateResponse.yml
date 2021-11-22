@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DomainsBeginCreateOrUpdateResponse
 uid: '@azure/arm-eventgrid.DomainsBeginCreateOrUpdateResponse|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

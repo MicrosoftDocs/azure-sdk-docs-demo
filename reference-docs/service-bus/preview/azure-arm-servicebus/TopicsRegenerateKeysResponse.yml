@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TopicsRegenerateKeysResponse
 uid: '@azure/arm-servicebus.TopicsRegenerateKeysResponse|preview'
 package: '@azure/arm-servicebus|preview'

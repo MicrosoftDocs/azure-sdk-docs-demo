@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SkuAvailabilityListResult
 uid: '@azure/arm-cognitiveservices.SkuAvailabilityListResult|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

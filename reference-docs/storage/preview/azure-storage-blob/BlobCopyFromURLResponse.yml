@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobCopyFromURLResponse
 uid: '@azure/storage-blob.BlobCopyFromURLResponse|preview'
 package: '@azure/storage-blob|preview'

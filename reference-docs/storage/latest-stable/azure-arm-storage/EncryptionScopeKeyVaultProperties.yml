@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EncryptionScopeKeyVaultProperties
 uid: '@azure/arm-storage.EncryptionScopeKeyVaultProperties|latest-stable'
 package: '@azure/arm-storage|latest-stable'

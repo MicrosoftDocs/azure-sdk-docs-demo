@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NamespacesCreateOrUpdateResponse
 uid: '@azure/arm-eventhub.NamespacesCreateOrUpdateResponse|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

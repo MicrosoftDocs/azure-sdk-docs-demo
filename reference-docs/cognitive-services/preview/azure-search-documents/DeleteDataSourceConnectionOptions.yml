@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeleteDataSourceConnectionOptions
 uid: '@azure/search-documents.DeleteDataSourceConnectionOptions|preview'
 package: '@azure/search-documents|preview'

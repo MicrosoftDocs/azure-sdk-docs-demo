@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ImageDetail
 uid: '@azure/search-documents.ImageDetail|latest-stable'
 package: '@azure/search-documents|latest-stable'

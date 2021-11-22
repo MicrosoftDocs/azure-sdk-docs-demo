@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: OperationRequestOptions
 uid: '@azure/core-http.OperationRequestOptions|latest-stable'
 package: '@azure/core-http|latest-stable'

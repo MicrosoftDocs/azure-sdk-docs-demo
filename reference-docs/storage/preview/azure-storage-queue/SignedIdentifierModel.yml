@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SignedIdentifierModel
 uid: '@azure/storage-queue.SignedIdentifierModel|preview'
 package: '@azure/storage-queue|preview'

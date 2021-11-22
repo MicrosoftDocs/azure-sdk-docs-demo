@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SBNamespace
 uid: '@azure/arm-servicebus.SBNamespace|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

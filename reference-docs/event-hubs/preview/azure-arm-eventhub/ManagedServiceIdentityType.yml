@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ManagedServiceIdentityType
 uid: '@azure/arm-eventhub.ManagedServiceIdentityType|preview'
 package: '@azure/arm-eventhub|preview'

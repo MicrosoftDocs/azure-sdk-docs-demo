@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TopicRegenerateKeyRequest
 uid: '@azure/arm-eventgrid.TopicRegenerateKeyRequest|preview'
 package: '@azure/arm-eventgrid|preview'

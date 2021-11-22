@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownQueryCaptionType
 uid: '@azure/search-documents.KnownQueryCaptionType|preview'
 package: '@azure/search-documents|preview'

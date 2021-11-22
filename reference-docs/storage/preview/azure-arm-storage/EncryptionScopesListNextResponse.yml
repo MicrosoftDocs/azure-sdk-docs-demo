@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EncryptionScopesListNextResponse
 uid: '@azure/arm-storage.EncryptionScopesListNextResponse|preview'
 package: '@azure/arm-storage|preview'

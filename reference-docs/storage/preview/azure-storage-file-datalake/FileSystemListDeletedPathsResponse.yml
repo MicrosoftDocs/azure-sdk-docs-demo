@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileSystemListDeletedPathsResponse
 uid: '@azure/storage-file-datalake.FileSystemListDeletedPathsResponse|preview'
 package: '@azure/storage-file-datalake|preview'

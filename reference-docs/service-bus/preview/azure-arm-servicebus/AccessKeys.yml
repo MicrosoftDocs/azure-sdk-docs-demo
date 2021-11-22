@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccessKeys
 uid: '@azure/arm-servicebus.AccessKeys|preview'
 package: '@azure/arm-servicebus|preview'

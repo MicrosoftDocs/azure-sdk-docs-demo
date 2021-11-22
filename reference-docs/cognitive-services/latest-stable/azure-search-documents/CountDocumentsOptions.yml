@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CountDocumentsOptions
 uid: '@azure/search-documents.CountDocumentsOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

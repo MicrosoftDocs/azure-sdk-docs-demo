@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ServiceGetPropertiesResponse
 uid: '@azure/storage-queue.ServiceGetPropertiesResponse|preview'
 package: '@azure/storage-queue|preview'

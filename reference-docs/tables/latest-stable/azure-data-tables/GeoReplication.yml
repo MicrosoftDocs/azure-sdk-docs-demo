@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: GeoReplication
 uid: '@azure/data-tables.GeoReplication|latest-stable'
 package: '@azure/data-tables|latest-stable'

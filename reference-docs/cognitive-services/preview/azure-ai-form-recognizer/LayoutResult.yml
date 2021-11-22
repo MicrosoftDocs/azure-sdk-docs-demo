@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LayoutResult
 uid: '@azure/ai-form-recognizer.LayoutResult|preview'
 package: '@azure/ai-form-recognizer|preview'

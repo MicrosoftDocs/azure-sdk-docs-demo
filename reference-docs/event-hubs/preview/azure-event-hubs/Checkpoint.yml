@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Checkpoint
 uid: '@azure/event-hubs.Checkpoint|preview'
 package: '@azure/event-hubs|preview'

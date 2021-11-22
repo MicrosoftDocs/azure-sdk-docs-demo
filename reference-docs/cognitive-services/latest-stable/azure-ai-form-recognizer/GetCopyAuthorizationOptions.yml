@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: GetCopyAuthorizationOptions
 uid: '@azure/ai-form-recognizer.GetCopyAuthorizationOptions|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

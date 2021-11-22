@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobDownloadOptionalParams
 uid: '@azure/storage-blob.BlobDownloadOptionalParams|preview'
 package: '@azure/storage-blob|preview'

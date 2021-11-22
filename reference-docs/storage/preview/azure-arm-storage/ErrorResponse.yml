@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ErrorResponse
 uid: '@azure/arm-storage.ErrorResponse|preview'
 package: '@azure/arm-storage|preview'

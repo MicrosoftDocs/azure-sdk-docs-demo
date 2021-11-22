@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ErrorResponseBody
 uid: '@azure/arm-storage.ErrorResponseBody|latest-stable'
 package: '@azure/arm-storage|latest-stable'

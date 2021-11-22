@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TargetConfidenceScoreLabel
 uid: '@azure/ai-text-analytics.TargetConfidenceScoreLabel|preview'
 package: '@azure/ai-text-analytics|preview'

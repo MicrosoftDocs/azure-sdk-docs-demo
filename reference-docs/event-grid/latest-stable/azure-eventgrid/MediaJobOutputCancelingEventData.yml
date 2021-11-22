@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MediaJobOutputCancelingEventData
 uid: '@azure/eventgrid.MediaJobOutputCancelingEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

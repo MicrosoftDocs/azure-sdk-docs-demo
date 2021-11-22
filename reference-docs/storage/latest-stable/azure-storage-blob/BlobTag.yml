@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobTag
 uid: '@azure/storage-blob.BlobTag|latest-stable'
 package: '@azure/storage-blob|latest-stable'

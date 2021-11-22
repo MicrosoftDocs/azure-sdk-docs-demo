@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EncryptionScope
 uid: '@azure/arm-storage.EncryptionScope|latest-stable'
 package: '@azure/arm-storage|latest-stable'

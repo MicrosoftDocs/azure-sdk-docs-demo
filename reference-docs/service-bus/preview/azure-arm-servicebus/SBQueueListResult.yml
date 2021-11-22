@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SBQueueListResult
 uid: '@azure/arm-servicebus.SBQueueListResult|preview'
 package: '@azure/arm-servicebus|preview'

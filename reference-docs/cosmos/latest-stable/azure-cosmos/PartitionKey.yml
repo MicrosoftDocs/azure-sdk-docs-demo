@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PartitionKey
 uid: '@azure/cosmos.PartitionKey|latest-stable'
 package: '@azure/cosmos|latest-stable'

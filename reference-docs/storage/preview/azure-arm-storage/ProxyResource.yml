@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ProxyResource
 uid: '@azure/arm-storage.ProxyResource|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DeleteSnapshotsOptionType
 uid: '@azure/storage-file-share.DeleteSnapshotsOptionType|preview'
 package: '@azure/storage-file-share|preview'

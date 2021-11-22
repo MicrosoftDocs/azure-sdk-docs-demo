@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ConnectionConfigOptions
 uid: '@azure/core-amqp.ConnectionConfigOptions|preview'
 package: '@azure/core-amqp|preview'

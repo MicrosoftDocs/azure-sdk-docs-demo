@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PersistedConnectionStatus
 uid: '@azure/arm-eventgrid.PersistedConnectionStatus|preview'
 package: '@azure/arm-eventgrid|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EntityCategory
 uid: '@azure/search-documents.EntityCategory|latest-stable'
 package: '@azure/search-documents|latest-stable'

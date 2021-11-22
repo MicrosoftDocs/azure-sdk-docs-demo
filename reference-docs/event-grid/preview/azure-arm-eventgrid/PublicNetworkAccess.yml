@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PublicNetworkAccess
 uid: '@azure/arm-eventgrid.PublicNetworkAccess|preview'
 package: '@azure/arm-eventgrid|preview'

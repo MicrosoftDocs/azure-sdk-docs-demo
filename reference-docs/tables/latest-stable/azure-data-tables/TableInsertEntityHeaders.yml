@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TableInsertEntityHeaders
 uid: '@azure/data-tables.TableInsertEntityHeaders|latest-stable'
 package: '@azure/data-tables|latest-stable'

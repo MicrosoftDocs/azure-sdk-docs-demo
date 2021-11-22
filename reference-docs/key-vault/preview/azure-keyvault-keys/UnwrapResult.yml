@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: UnwrapResult
 uid: '@azure/keyvault-keys.UnwrapResult|preview'
 package: '@azure/keyvault-keys|preview'

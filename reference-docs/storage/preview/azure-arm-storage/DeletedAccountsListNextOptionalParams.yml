@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeletedAccountsListNextOptionalParams
 uid: '@azure/arm-storage.DeletedAccountsListNextOptionalParams|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DomainUpdateParameters
 uid: '@azure/arm-eventgrid.DomainUpdateParameters|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

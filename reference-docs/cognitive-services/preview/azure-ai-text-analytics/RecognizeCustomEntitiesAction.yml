@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RecognizeCustomEntitiesAction
 uid: '@azure/ai-text-analytics.RecognizeCustomEntitiesAction|preview'
 package: '@azure/ai-text-analytics|preview'

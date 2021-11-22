@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RegionsListBySkuNextResponse
 uid: '@azure/arm-servicebus.RegionsListBySkuNextResponse|preview'
 package: '@azure/arm-servicebus|preview'

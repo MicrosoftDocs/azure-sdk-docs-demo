@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: InputSchema
 uid: '@azure/eventgrid.InputSchema|latest-stable'
 package: '@azure/eventgrid|latest-stable'

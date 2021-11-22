@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: OperationInfo
 uid: '@azure/ai-form-recognizer.OperationInfo|preview'
 package: '@azure/ai-form-recognizer|preview'

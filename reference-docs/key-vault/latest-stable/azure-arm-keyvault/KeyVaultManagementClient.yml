@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultManagementClient
 uid: '@azure/arm-keyvault.KeyVaultManagementClient|latest-stable'
 package: '@azure/arm-keyvault|latest-stable'

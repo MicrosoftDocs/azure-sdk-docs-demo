@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KVPollerLike
 uid: '@azure/keyvault-certificates.KVPollerLike|preview'
 package: '@azure/keyvault-certificates|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ChangeFeedIterator
 uid: '@azure/cosmos.ChangeFeedIterator|latest-stable'
 package: '@azure/cosmos|latest-stable'

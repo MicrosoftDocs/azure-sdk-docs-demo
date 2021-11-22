@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DirectoryCreateOptions
 uid: '@azure/storage-file-share.DirectoryCreateOptions|preview'
 package: '@azure/storage-file-share|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SkuName
 uid: '@azure/arm-keyvault.SkuName|latest-stable'
 package: '@azure/arm-keyvault|latest-stable'

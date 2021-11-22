@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KnownSystemEventTypes
 uid: '@azure/eventgrid.KnownSystemEventTypes|latest-stable'
 package: '@azure/eventgrid|latest-stable'

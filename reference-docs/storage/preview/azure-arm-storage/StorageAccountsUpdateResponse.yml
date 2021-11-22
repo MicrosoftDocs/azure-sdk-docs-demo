@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StorageAccountsUpdateResponse
 uid: '@azure/arm-storage.StorageAccountsUpdateResponse|preview'
 package: '@azure/arm-storage|preview'

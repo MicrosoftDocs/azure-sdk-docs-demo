@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeysListVersionsNextOptionalParams
 uid: '@azure/arm-keyvault.KeysListVersionsNextOptionalParams|preview'
 package: '@azure/arm-keyvault|preview'

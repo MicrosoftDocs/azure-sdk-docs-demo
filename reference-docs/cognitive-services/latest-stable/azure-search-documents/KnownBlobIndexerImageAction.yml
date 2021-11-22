@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownBlobIndexerImageAction
 uid: '@azure/search-documents.KnownBlobIndexerImageAction|latest-stable'
 package: '@azure/search-documents|latest-stable'

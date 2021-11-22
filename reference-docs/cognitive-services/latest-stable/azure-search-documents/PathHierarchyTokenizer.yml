@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PathHierarchyTokenizer
 uid: '@azure/search-documents.PathHierarchyTokenizer|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageAsyncOperationInitiatedEventData
 uid: '@azure/eventgrid.StorageAsyncOperationInitiatedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

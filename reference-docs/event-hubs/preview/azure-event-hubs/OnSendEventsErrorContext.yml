@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: OnSendEventsErrorContext
 uid: '@azure/event-hubs.OnSendEventsErrorContext|preview'
 package: '@azure/event-hubs|preview'

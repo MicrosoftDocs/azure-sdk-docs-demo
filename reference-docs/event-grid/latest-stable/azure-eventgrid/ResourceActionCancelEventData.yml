@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ResourceActionCancelEventData
 uid: '@azure/eventgrid.ResourceActionCancelEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

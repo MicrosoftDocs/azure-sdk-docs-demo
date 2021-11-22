@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateEndpointConnectionsUpdateOptionalParams
 uid: '@azure/arm-eventgrid.PrivateEndpointConnectionsUpdateOptionalParams|preview'
 package: '@azure/arm-eventgrid|preview'

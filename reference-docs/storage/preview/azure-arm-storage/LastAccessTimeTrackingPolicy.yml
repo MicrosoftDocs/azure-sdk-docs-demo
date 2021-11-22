@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LastAccessTimeTrackingPolicy
 uid: '@azure/arm-storage.LastAccessTimeTrackingPolicy|preview'
 package: '@azure/arm-storage|preview'

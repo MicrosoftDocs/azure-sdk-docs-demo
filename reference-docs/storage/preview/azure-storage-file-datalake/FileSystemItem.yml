@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSystemItem
 uid: '@azure/storage-file-datalake.FileSystemItem|preview'
 package: '@azure/storage-file-datalake|preview'

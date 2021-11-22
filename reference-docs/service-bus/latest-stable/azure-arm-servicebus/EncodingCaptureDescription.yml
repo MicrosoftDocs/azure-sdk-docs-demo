@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EncodingCaptureDescription
 uid: '@azure/arm-servicebus.EncodingCaptureDescription|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

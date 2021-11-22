@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobCreateSnapshotOptions
 uid: '@azure/storage-blob.BlobCreateSnapshotOptions|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MapsGeofenceEvent
 uid: '@azure/eventgrid.MapsGeofenceEvent|latest-stable'
 package: '@azure/eventgrid|latest-stable'

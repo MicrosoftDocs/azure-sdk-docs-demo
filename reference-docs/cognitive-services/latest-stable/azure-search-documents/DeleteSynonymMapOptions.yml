@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeleteSynonymMapOptions
 uid: '@azure/search-documents.DeleteSynonymMapOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

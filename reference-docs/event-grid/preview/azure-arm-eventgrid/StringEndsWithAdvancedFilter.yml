@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StringEndsWithAdvancedFilter
 uid: '@azure/arm-eventgrid.StringEndsWithAdvancedFilter|preview'
 package: '@azure/arm-eventgrid|preview'

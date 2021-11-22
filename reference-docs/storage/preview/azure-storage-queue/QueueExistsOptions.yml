@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueExistsOptions
 uid: '@azure/storage-queue.QueueExistsOptions|preview'
 package: '@azure/storage-queue|preview'

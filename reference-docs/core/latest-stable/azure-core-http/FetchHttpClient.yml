@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FetchHttpClient
 uid: '@azure/core-http.FetchHttpClient|latest-stable'
 package: '@azure/core-http|latest-stable'

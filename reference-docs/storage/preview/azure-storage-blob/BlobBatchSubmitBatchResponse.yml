@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobBatchSubmitBatchResponse
 uid: '@azure/storage-blob.BlobBatchSubmitBatchResponse|preview'
 package: '@azure/storage-blob|preview'

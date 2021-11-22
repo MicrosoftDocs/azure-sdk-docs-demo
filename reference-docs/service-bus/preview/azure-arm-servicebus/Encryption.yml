@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Encryption
 uid: '@azure/arm-servicebus.Encryption|preview'
 package: '@azure/arm-servicebus|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DomainTopics
 uid: '@azure/arm-eventgrid.DomainTopics|preview'
 package: '@azure/arm-eventgrid|preview'

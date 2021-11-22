@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerGetPropertiesHeaders
 uid: '@azure/storage-blob.ContainerGetPropertiesHeaders|preview'
 package: '@azure/storage-blob|preview'

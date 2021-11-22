@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListPropertiesOfKeyVersionsOptions
 uid: '@azure/keyvault-keys.ListPropertiesOfKeyVersionsOptions|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

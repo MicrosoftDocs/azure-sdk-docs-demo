@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateLinkResourcesListResult
 uid: '@azure/arm-eventhub.PrivateLinkResourcesListResult|preview'
 package: '@azure/arm-eventhub|preview'

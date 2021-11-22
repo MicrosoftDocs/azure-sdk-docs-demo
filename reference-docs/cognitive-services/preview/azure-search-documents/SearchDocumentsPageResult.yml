@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SearchDocumentsPageResult
 uid: '@azure/search-documents.SearchDocumentsPageResult|preview'
 package: '@azure/search-documents|preview'

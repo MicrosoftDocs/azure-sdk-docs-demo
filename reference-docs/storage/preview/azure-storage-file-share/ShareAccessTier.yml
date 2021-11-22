@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ShareAccessTier
 uid: '@azure/storage-file-share.ShareAccessTier|preview'
 package: '@azure/storage-file-share|preview'

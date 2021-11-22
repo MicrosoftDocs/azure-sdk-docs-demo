@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ConflictResponse
 uid: '@azure/cosmos.ConflictResponse|latest-stable'
 package: '@azure/cosmos|latest-stable'

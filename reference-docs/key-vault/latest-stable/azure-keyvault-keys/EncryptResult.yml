@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EncryptResult
 uid: '@azure/keyvault-keys.EncryptResult|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

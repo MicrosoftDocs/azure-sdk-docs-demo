@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: GetShareExpand
 uid: '@azure/arm-storage.GetShareExpand|latest-stable'
 package: '@azure/arm-storage|latest-stable'

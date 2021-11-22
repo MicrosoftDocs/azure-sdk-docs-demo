@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccessPolicy
 uid: '@azure/storage-file-datalake.AccessPolicy|preview'
 package: '@azure/storage-file-datalake|preview'

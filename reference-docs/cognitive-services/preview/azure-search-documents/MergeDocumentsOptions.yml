@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MergeDocumentsOptions
 uid: '@azure/search-documents.MergeDocumentsOptions|preview'
 package: '@azure/search-documents|preview'

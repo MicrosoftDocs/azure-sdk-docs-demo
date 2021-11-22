@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: OutputFieldMappingEntry
 uid: '@azure/search-documents.OutputFieldMappingEntry|preview'
 package: '@azure/search-documents|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: OperationDisplay
 uid: '@azure/arm-keyvault.OperationDisplay|latest-stable'
 package: '@azure/arm-keyvault|latest-stable'

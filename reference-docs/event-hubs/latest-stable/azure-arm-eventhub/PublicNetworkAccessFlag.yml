@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PublicNetworkAccessFlag
 uid: '@azure/arm-eventhub.PublicNetworkAccessFlag|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

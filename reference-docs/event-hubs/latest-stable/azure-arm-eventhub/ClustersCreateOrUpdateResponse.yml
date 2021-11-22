@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ClustersCreateOrUpdateResponse
 uid: '@azure/arm-eventhub.ClustersCreateOrUpdateResponse|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

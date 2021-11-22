@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PatchOperation
 uid: '@azure/cosmos.PatchOperation|latest-stable'
 package: '@azure/cosmos|latest-stable'

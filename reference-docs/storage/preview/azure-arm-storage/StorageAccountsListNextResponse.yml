@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StorageAccountsListNextResponse
 uid: '@azure/arm-storage.StorageAccountsListNextResponse|preview'
 package: '@azure/arm-storage|preview'

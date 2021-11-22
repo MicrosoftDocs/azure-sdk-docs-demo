@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SBQueue
 uid: '@azure/arm-servicebus.SBQueue|preview'
 package: '@azure/arm-servicebus|preview'

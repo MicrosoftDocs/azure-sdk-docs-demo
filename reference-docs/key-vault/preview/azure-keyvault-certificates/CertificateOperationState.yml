@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CertificateOperationState
 uid: '@azure/keyvault-certificates.CertificateOperationState|preview'
 package: '@azure/keyvault-certificates|preview'

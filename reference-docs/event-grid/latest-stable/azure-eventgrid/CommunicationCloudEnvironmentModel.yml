@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CommunicationCloudEnvironmentModel
 uid: '@azure/eventgrid.CommunicationCloudEnvironmentModel|latest-stable'
 package: '@azure/eventgrid|latest-stable'

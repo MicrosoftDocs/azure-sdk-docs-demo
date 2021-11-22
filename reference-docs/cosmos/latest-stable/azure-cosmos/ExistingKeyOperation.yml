@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ExistingKeyOperation
 uid: '@azure/cosmos.ExistingKeyOperation|latest-stable'
 package: '@azure/cosmos|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownEncryptionScopeState
 uid: '@azure/arm-storage.KnownEncryptionScopeState|preview'
 package: '@azure/arm-storage|preview'

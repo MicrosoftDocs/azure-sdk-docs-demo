@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RotateKeyOptions
 uid: '@azure/keyvault-keys.RotateKeyOptions|preview'
 package: '@azure/keyvault-keys|preview'

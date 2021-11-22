@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobInventoryPolicyFilter
 uid: '@azure/arm-storage.BlobInventoryPolicyFilter|preview'
 package: '@azure/arm-storage|preview'

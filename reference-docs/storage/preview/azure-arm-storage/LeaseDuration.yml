@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: LeaseDuration
 uid: '@azure/arm-storage.LeaseDuration|preview'
 package: '@azure/arm-storage|preview'

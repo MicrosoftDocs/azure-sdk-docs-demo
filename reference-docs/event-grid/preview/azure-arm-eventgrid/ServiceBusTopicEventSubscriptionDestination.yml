@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ServiceBusTopicEventSubscriptionDestination
 uid: '@azure/arm-eventgrid.ServiceBusTopicEventSubscriptionDestination|preview'
 package: '@azure/arm-eventgrid|preview'

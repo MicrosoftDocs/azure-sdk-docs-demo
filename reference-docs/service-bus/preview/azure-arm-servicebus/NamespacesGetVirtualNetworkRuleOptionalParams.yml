@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NamespacesGetVirtualNetworkRuleOptionalParams
 uid: '@azure/arm-servicebus.NamespacesGetVirtualNetworkRuleOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

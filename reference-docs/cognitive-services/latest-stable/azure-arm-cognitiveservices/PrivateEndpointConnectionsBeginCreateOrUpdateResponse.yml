@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateEndpointConnectionsBeginCreateOrUpdateResponse
 uid: >-
   @azure/arm-cognitiveservices.PrivateEndpointConnectionsBeginCreateOrUpdateResponse|latest-stable

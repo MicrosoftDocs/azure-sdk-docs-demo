@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListPathsOptions
 uid: '@azure/storage-file-datalake.ListPathsOptions|preview'
 package: '@azure/storage-file-datalake|preview'

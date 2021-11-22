@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSystemUndeletePathOption
 uid: '@azure/storage-file-datalake.FileSystemUndeletePathOption|preview'
 package: '@azure/storage-file-datalake|preview'

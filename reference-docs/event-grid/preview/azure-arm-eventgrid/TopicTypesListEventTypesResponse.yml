@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TopicTypesListEventTypesResponse
 uid: '@azure/arm-eventgrid.TopicTypesListEventTypesResponse|preview'
 package: '@azure/arm-eventgrid|preview'

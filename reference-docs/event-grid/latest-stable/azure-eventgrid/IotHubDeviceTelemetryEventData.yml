@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: IotHubDeviceTelemetryEventData
 uid: '@azure/eventgrid.IotHubDeviceTelemetryEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

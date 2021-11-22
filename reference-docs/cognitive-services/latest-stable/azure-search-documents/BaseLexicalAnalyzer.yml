@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BaseLexicalAnalyzer
 uid: '@azure/search-documents.BaseLexicalAnalyzer|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EventHubsListByNamespaceNextResponse
 uid: '@azure/arm-servicebus.EventHubsListByNamespaceNextResponse|preview'
 package: '@azure/arm-servicebus|preview'

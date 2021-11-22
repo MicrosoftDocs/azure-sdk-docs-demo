@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListPathsSegmentOptions
 uid: '@azure/storage-file-datalake.ListPathsSegmentOptions|preview'
 package: '@azure/storage-file-datalake|preview'

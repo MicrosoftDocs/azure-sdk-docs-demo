@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DeliveryAttributeMappingUnion
 uid: '@azure/arm-eventgrid.DeliveryAttributeMappingUnion|preview'
 package: '@azure/arm-eventgrid|preview'

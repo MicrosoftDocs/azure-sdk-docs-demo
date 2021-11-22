@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: IdentityInfo
 uid: '@azure/arm-eventgrid.IdentityInfo|preview'
 package: '@azure/arm-eventgrid|preview'

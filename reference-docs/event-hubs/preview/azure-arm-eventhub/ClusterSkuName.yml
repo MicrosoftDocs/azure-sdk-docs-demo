@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ClusterSkuName
 uid: '@azure/arm-eventhub.ClusterSkuName|preview'
 package: '@azure/arm-eventhub|preview'

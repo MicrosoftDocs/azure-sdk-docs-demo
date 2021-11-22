@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AuthorizationRuleProperties
 uid: '@azure/arm-servicebus.AuthorizationRuleProperties|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

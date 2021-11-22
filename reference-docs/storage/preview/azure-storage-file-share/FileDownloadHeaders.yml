@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileDownloadHeaders
 uid: '@azure/storage-file-share.FileDownloadHeaders|preview'
 package: '@azure/storage-file-share|preview'

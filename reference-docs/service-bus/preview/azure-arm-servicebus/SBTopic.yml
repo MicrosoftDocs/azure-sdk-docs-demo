@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SBTopic
 uid: '@azure/arm-servicebus.SBTopic|preview'
 package: '@azure/arm-servicebus|preview'

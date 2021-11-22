@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ConfigurationGetResponse
 uid: '@azure/arm-eventhub.ConfigurationGetResponse|preview'
 package: '@azure/arm-eventhub|preview'

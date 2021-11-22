@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: IndexerExecutionStatus
 uid: '@azure/search-documents.IndexerExecutionStatus|latest-stable'
 package: '@azure/search-documents|latest-stable'

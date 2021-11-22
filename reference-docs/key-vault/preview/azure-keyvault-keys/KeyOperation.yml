@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyOperation
 uid: '@azure/keyvault-keys.KeyOperation|preview'
 package: '@azure/keyvault-keys|preview'

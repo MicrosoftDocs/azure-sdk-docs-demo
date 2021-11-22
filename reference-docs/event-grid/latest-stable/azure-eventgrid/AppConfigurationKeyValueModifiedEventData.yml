@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AppConfigurationKeyValueModifiedEventData
 uid: '@azure/eventgrid.AppConfigurationKeyValueModifiedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

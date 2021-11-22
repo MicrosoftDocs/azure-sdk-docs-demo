@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobStartCopyFromURLHeaders
 uid: '@azure/storage-blob.BlobStartCopyFromURLHeaders|preview'
 package: '@azure/storage-blob|preview'

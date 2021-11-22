@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SendEventGridEventInput
 uid: '@azure/eventgrid.SendEventGridEventInput|latest-stable'
 package: '@azure/eventgrid|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AnalyzeSentimentActionErrorResult
 uid: '@azure/ai-text-analytics.AnalyzeSentimentActionErrorResult|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'

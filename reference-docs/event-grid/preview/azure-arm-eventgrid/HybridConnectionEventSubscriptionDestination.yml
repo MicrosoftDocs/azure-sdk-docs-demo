@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: HybridConnectionEventSubscriptionDestination
 uid: '@azure/arm-eventgrid.HybridConnectionEventSubscriptionDestination|preview'
 package: '@azure/arm-eventgrid|preview'

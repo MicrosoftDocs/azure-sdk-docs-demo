@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownRootSquashType
 uid: '@azure/arm-storage.KnownRootSquashType|preview'
 package: '@azure/arm-storage|preview'

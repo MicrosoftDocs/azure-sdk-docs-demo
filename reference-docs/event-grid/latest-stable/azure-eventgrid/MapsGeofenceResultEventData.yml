@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MapsGeofenceResultEventData
 uid: '@azure/eventgrid.MapsGeofenceResultEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

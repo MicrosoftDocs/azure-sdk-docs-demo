@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DeletionRecoveryLevel
 uid: '@azure/keyvault-keys.DeletionRecoveryLevel|preview'
 package: '@azure/keyvault-keys|preview'

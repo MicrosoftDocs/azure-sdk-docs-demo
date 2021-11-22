@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: HttpAuthorization
 uid: '@azure/storage-file-share.HttpAuthorization|preview'
 package: '@azure/storage-file-share|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: OperationsListNextResponse
 uid: '@azure/arm-cognitiveservices.OperationsListNextResponse|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

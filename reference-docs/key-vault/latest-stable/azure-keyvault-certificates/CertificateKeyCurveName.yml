@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CertificateKeyCurveName
 uid: '@azure/keyvault-certificates.CertificateKeyCurveName|latest-stable'
 package: '@azure/keyvault-certificates|latest-stable'

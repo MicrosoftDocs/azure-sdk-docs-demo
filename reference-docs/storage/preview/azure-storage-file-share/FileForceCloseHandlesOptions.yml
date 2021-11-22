@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileForceCloseHandlesOptions
 uid: '@azure/storage-file-share.FileForceCloseHandlesOptions|preview'
 package: '@azure/storage-file-share|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: QuotaUsageStatus
 uid: '@azure/arm-cognitiveservices.QuotaUsageStatus|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FormStringField
 uid: '@azure/ai-form-recognizer.FormStringField|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

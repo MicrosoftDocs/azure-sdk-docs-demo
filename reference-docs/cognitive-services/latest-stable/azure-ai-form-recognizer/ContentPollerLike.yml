@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ContentPollerLike
 uid: '@azure/ai-form-recognizer.ContentPollerLike|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

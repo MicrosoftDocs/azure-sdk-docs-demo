@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultCertificateIdentifier
 uid: '@azure/keyvault-certificates.KeyVaultCertificateIdentifier|preview'
 package: '@azure/keyvault-certificates|preview'

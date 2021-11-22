@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ConsumerGroupsDeleteOptionalParams
 uid: '@azure/arm-eventhub.ConsumerGroupsDeleteOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

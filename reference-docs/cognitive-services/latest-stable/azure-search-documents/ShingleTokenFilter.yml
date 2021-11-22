@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ShingleTokenFilter
 uid: '@azure/search-documents.ShingleTokenFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

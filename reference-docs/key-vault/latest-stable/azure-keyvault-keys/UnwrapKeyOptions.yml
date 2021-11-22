@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: UnwrapKeyOptions
 uid: '@azure/keyvault-keys.UnwrapKeyOptions|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

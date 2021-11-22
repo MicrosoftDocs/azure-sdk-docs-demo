@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSystemGetPropertiesHeaders
 uid: '@azure/storage-file-datalake.FileSystemGetPropertiesHeaders|latest-stable'
 package: '@azure/storage-file-datalake|latest-stable'

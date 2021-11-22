@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PageList
 uid: '@azure/storage-blob.PageList|preview'
 package: '@azure/storage-blob|preview'

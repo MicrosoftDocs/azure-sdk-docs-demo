@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobBeginCopyFromUrlPollState
 uid: '@azure/storage-blob.BlobBeginCopyFromUrlPollState|preview'
 package: '@azure/storage-blob|preview'

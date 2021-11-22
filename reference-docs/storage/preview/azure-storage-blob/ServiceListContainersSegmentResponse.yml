@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ServiceListContainersSegmentResponse
 uid: '@azure/storage-blob.ServiceListContainersSegmentResponse|preview'
 package: '@azure/storage-blob|preview'

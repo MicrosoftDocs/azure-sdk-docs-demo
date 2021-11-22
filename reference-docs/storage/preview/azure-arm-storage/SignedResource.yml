@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SignedResource
 uid: '@azure/arm-storage.SignedResource|preview'
 package: '@azure/arm-storage|preview'

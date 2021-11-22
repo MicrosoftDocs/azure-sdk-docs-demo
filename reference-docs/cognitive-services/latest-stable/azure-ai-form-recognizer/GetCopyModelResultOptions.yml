@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: GetCopyModelResultOptions
 uid: '@azure/ai-form-recognizer.GetCopyModelResultOptions|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

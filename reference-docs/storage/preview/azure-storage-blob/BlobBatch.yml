@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobBatch
 uid: '@azure/storage-blob.BlobBatch|preview'
 package: '@azure/storage-blob|preview'

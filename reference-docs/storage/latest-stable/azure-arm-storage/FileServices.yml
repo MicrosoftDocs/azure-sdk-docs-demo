@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileServices
 uid: '@azure/arm-storage.FileServices|latest-stable'
 package: '@azure/arm-storage|latest-stable'

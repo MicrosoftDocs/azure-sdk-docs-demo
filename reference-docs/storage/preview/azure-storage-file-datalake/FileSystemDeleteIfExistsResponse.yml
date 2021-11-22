@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSystemDeleteIfExistsResponse
 uid: '@azure/storage-file-datalake.FileSystemDeleteIfExistsResponse|preview'
 package: '@azure/storage-file-datalake|preview'

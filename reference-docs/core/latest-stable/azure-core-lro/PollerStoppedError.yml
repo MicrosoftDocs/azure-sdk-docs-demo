@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PollerStoppedError
 uid: '@azure/core-lro.PollerStoppedError|latest-stable'
 package: '@azure/core-lro|latest-stable'

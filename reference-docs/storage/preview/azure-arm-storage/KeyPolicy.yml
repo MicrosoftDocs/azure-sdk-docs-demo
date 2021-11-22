@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyPolicy
 uid: '@azure/arm-storage.KeyPolicy|preview'
 package: '@azure/arm-storage|preview'

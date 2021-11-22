@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListQueueResource
 uid: '@azure/arm-storage.ListQueueResource|latest-stable'
 package: '@azure/arm-storage|latest-stable'

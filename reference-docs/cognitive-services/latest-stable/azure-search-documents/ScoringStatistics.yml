@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ScoringStatistics
 uid: '@azure/search-documents.ScoringStatistics|latest-stable'
 package: '@azure/search-documents|latest-stable'

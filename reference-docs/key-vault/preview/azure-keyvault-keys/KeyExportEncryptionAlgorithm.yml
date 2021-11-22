@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyExportEncryptionAlgorithm
 uid: '@azure/keyvault-keys.KeyExportEncryptionAlgorithm|preview'
 package: '@azure/keyvault-keys|preview'

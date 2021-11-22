@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ShareGenerateSasUrlOptions
 uid: '@azure/storage-file-share.ShareGenerateSasUrlOptions|preview'
 package: '@azure/storage-file-share|preview'

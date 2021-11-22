@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateLinkServiceConnectionState
 uid: '@azure/arm-appconfiguration.PrivateLinkServiceConnectionState|latest-stable'
 package: '@azure/arm-appconfiguration|latest-stable'

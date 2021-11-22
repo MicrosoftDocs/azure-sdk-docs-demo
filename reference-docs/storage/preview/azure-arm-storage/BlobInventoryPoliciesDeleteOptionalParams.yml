@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobInventoryPoliciesDeleteOptionalParams
 uid: '@azure/arm-storage.BlobInventoryPoliciesDeleteOptionalParams|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueGetOptionalParams
 uid: '@azure/arm-storage.QueueGetOptionalParams|preview'
 package: '@azure/arm-storage|preview'

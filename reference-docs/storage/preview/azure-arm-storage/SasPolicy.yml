@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SasPolicy
 uid: '@azure/arm-storage.SasPolicy|preview'
 package: '@azure/arm-storage|preview'

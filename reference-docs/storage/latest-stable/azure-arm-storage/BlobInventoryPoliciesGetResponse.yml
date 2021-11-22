@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobInventoryPoliciesGetResponse
 uid: '@azure/arm-storage.BlobInventoryPoliciesGetResponse|latest-stable'
 package: '@azure/arm-storage|latest-stable'

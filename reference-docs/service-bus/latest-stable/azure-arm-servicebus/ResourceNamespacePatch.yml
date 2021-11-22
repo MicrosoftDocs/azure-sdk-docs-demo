@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ResourceNamespacePatch
 uid: '@azure/arm-servicebus.ResourceNamespacePatch|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

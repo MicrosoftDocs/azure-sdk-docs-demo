@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CustomEntity
 uid: '@azure/search-documents.CustomEntity|preview'
 package: '@azure/search-documents|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SpanAttributeValue
 uid: '@azure/core-auth.SpanAttributeValue|latest-stable'
 package: '@azure/core-auth|latest-stable'

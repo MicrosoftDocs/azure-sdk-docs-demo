@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SubscriptionsCreateOrUpdateResponse
 uid: '@azure/arm-servicebus.SubscriptionsCreateOrUpdateResponse|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

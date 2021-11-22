@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DisasterRecoveryConfigsBreakPairingOptionalParams
 uid: '@azure/arm-eventhub.DisasterRecoveryConfigsBreakPairingOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

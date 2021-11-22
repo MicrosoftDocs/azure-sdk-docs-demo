@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ObjectReplicationPoliciesCreateOrUpdateResponse
 uid: >-
   @azure/arm-storage.ObjectReplicationPoliciesCreateOrUpdateResponse|latest-stable

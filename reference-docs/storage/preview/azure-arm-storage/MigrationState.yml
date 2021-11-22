@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MigrationState
 uid: '@azure/arm-storage.MigrationState|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ContainerUndeleteResponse
 uid: '@azure/storage-blob.ContainerUndeleteResponse|preview'
 package: '@azure/storage-blob|preview'

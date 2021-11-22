@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileCreateOptions
 uid: '@azure/storage-file-share.FileCreateOptions|latest-stable'
 package: '@azure/storage-file-share|latest-stable'

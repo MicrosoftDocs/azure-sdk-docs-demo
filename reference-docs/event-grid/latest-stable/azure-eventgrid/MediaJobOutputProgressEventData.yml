@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MediaJobOutputProgressEventData
 uid: '@azure/eventgrid.MediaJobOutputProgressEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

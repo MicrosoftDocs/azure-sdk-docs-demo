@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ListSkillsetsOptions
 uid: '@azure/search-documents.ListSkillsetsOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

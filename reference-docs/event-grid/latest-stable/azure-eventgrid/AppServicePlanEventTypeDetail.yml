@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AppServicePlanEventTypeDetail
 uid: '@azure/eventgrid.AppServicePlanEventTypeDetail|latest-stable'
 package: '@azure/eventgrid|latest-stable'

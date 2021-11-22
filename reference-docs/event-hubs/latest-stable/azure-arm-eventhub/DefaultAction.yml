@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DefaultAction
 uid: '@azure/arm-eventhub.DefaultAction|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

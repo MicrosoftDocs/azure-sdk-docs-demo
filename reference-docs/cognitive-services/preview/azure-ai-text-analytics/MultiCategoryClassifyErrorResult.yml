@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MultiCategoryClassifyErrorResult
 uid: '@azure/ai-text-analytics.MultiCategoryClassifyErrorResult|preview'
 package: '@azure/ai-text-analytics|preview'

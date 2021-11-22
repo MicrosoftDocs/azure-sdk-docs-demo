@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SBNamespaceMigrate
 uid: '@azure/arm-servicebus.SBNamespaceMigrate|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

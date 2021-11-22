@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EventHubsListByNamespaceNextResponse
 uid: '@azure/arm-eventhub.EventHubsListByNamespaceNextResponse|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

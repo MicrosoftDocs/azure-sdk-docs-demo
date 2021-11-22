@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileAbortCopyResponse
 uid: '@azure/storage-file-share.FileAbortCopyResponse|preview'
 package: '@azure/storage-file-share|preview'

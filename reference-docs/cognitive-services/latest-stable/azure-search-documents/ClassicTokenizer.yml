@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ClassicTokenizer
 uid: '@azure/search-documents.ClassicTokenizer|latest-stable'
 package: '@azure/search-documents|latest-stable'

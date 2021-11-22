@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NamespacesListAuthorizationRulesNextOptionalParams
 uid: '@azure/arm-eventhub.NamespacesListAuthorizationRulesNextOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

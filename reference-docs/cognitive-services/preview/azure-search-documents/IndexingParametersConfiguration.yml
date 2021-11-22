@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: IndexingParametersConfiguration
 uid: '@azure/search-documents.IndexingParametersConfiguration|preview'
 package: '@azure/search-documents|preview'

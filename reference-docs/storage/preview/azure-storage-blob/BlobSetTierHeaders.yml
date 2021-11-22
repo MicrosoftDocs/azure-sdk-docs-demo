@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobSetTierHeaders
 uid: '@azure/storage-blob.BlobSetTierHeaders|preview'
 package: '@azure/storage-blob|preview'

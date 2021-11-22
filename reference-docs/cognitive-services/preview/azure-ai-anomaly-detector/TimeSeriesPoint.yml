@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TimeSeriesPoint
 uid: '@azure/ai-anomaly-detector.TimeSeriesPoint|preview'
 package: '@azure/ai-anomaly-detector|preview'

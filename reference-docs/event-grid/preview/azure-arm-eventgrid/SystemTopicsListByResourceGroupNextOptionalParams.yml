@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SystemTopicsListByResourceGroupNextOptionalParams
 uid: '@azure/arm-eventgrid.SystemTopicsListByResourceGroupNextOptionalParams|preview'
 package: '@azure/arm-eventgrid|preview'

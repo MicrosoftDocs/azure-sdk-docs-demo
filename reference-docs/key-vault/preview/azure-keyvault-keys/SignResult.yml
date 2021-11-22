@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SignResult
 uid: '@azure/keyvault-keys.SignResult|preview'
 package: '@azure/keyvault-keys|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SearchIndexerKnowledgeStoreFileProjectionSelector
 uid: >-
   @azure/search-documents.SearchIndexerKnowledgeStoreFileProjectionSelector|latest-stable

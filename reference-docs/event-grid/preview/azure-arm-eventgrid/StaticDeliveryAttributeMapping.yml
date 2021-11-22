@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StaticDeliveryAttributeMapping
 uid: '@azure/arm-eventgrid.StaticDeliveryAttributeMapping|preview'
 package: '@azure/arm-eventgrid|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RecognizeLinkedEntitiesAction
 uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesAction|preview'
 package: '@azure/ai-text-analytics|preview'

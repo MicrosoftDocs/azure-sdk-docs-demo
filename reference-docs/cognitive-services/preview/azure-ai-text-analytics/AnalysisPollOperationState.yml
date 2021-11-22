@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AnalysisPollOperationState
 uid: '@azure/ai-text-analytics.AnalysisPollOperationState|preview'
 package: '@azure/ai-text-analytics|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: IdentityType
 uid: '@azure/arm-appconfiguration.IdentityType|latest-stable'
 package: '@azure/arm-appconfiguration|latest-stable'

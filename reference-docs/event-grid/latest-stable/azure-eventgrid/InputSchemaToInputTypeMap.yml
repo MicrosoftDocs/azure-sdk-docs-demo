@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: InputSchemaToInputTypeMap
 uid: '@azure/eventgrid.InputSchemaToInputTypeMap|latest-stable'
 package: '@azure/eventgrid|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TopicsCreateOrUpdateAuthorizationRuleResponse
 uid: >-
   @azure/arm-servicebus.TopicsCreateOrUpdateAuthorizationRuleResponse|latest-stable

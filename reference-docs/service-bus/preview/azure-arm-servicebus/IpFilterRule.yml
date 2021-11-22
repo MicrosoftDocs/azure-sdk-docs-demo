@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: IpFilterRule
 uid: '@azure/arm-servicebus.IpFilterRule|preview'
 package: '@azure/arm-servicebus|preview'

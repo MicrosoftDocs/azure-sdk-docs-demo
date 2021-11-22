@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RequestResponseLink
 uid: '@azure/core-amqp.RequestResponseLink|latest-stable'
 package: '@azure/core-amqp|latest-stable'

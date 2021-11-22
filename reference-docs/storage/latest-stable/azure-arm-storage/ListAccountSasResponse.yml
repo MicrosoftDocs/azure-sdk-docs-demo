@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListAccountSasResponse
 uid: '@azure/arm-storage.ListAccountSasResponse|latest-stable'
 package: '@azure/arm-storage|latest-stable'

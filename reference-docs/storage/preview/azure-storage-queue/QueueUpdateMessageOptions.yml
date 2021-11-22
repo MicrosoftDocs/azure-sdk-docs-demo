@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueUpdateMessageOptions
 uid: '@azure/storage-queue.QueueUpdateMessageOptions|preview'
 package: '@azure/storage-queue|preview'

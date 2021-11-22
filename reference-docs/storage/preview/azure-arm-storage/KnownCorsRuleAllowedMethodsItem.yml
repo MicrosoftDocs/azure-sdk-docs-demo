@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownCorsRuleAllowedMethodsItem
 uid: '@azure/arm-storage.KnownCorsRuleAllowedMethodsItem|preview'
 package: '@azure/arm-storage|preview'

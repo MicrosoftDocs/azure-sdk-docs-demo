@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RsaDecryptParameters
 uid: '@azure/keyvault-keys.RsaDecryptParameters|preview'
 package: '@azure/keyvault-keys|preview'

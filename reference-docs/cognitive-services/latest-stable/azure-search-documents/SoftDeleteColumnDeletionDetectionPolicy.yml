@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SoftDeleteColumnDeletionDetectionPolicy
 uid: '@azure/search-documents.SoftDeleteColumnDeletionDetectionPolicy|latest-stable'
 package: '@azure/search-documents|latest-stable'

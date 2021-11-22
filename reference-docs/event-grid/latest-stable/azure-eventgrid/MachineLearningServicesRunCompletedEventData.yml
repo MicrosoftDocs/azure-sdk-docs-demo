@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MachineLearningServicesRunCompletedEventData
 uid: '@azure/eventgrid.MachineLearningServicesRunCompletedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

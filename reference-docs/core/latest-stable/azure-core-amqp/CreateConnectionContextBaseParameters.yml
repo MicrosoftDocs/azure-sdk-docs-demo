@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CreateConnectionContextBaseParameters
 uid: '@azure/core-amqp.CreateConnectionContextBaseParameters|latest-stable'
 package: '@azure/core-amqp|latest-stable'

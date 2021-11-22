@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSystemCreateHeaders
 uid: '@azure/storage-file-datalake.FileSystemCreateHeaders|latest-stable'
 package: '@azure/storage-file-datalake|latest-stable'

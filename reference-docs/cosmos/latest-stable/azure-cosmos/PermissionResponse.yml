@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PermissionResponse
 uid: '@azure/cosmos.PermissionResponse|latest-stable'
 package: '@azure/cosmos|latest-stable'

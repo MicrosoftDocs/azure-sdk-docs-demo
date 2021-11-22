@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TableServicesGetServicePropertiesResponse
 uid: '@azure/arm-storage.TableServicesGetServicePropertiesResponse|preview'
 package: '@azure/arm-storage|preview'

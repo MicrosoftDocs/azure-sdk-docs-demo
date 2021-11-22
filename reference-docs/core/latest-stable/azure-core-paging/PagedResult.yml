@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PagedResult
 uid: '@azure/core-paging.PagedResult|latest-stable'
 package: '@azure/core-paging|latest-stable'

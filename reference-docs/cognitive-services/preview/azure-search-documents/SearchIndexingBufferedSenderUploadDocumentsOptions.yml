@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SearchIndexingBufferedSenderUploadDocumentsOptions
 uid: >-
   @azure/search-documents.SearchIndexingBufferedSenderUploadDocumentsOptions|preview

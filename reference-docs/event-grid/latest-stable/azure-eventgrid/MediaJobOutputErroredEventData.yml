@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MediaJobOutputErroredEventData
 uid: '@azure/eventgrid.MediaJobOutputErroredEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

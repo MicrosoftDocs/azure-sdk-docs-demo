@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SnowballTokenFilterLanguage
 uid: '@azure/search-documents.SnowballTokenFilterLanguage|latest-stable'
 package: '@azure/search-documents|latest-stable'

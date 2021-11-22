@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TextAnalyticsSuccessResult
 uid: '@azure/ai-text-analytics.TextAnalyticsSuccessResult|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'

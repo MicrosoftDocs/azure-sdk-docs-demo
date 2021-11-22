@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobContainersUpdateResponse
 uid: '@azure/arm-storage.BlobContainersUpdateResponse|latest-stable'
 package: '@azure/arm-storage|latest-stable'

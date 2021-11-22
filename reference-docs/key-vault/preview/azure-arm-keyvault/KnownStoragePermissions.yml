@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownStoragePermissions
 uid: '@azure/arm-keyvault.KnownStoragePermissions|preview'
 package: '@azure/arm-keyvault|preview'

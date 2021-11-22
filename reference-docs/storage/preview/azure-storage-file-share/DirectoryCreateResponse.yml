@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DirectoryCreateResponse
 uid: '@azure/storage-file-share.DirectoryCreateResponse|preview'
 package: '@azure/storage-file-share|preview'

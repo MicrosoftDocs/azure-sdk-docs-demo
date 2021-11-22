@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MergeCertificateOptions
 uid: '@azure/keyvault-certificates.MergeCertificateOptions|preview'
 package: '@azure/keyvault-certificates|preview'

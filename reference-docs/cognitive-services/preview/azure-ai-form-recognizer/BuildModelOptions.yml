@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BuildModelOptions
 uid: '@azure/ai-form-recognizer.BuildModelOptions|preview'
 package: '@azure/ai-form-recognizer|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AppendBlobAppendBlockFromUrlHeaders
 uid: '@azure/storage-blob.AppendBlobAppendBlockFromUrlHeaders|preview'
 package: '@azure/storage-blob|preview'

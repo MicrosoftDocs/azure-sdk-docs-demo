@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ProxyResource
 uid: '@azure/arm-appconfiguration.ProxyResource|latest-stable'
 package: '@azure/arm-appconfiguration|latest-stable'

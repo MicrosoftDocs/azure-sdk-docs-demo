@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownLargeFileSharesState
 uid: '@azure/arm-storage.KnownLargeFileSharesState|preview'
 package: '@azure/arm-storage|preview'

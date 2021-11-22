@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TextTranslationSkill
 uid: '@azure/search-documents.TextTranslationSkill|latest-stable'
 package: '@azure/search-documents|latest-stable'

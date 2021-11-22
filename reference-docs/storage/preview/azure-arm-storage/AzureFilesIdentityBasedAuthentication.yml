@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AzureFilesIdentityBasedAuthentication
 uid: '@azure/arm-storage.AzureFilesIdentityBasedAuthentication|preview'
 package: '@azure/arm-storage|preview'

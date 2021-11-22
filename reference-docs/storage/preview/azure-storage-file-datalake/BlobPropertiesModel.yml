@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobPropertiesModel
 uid: '@azure/storage-file-datalake.BlobPropertiesModel|preview'
 package: '@azure/storage-file-datalake|preview'

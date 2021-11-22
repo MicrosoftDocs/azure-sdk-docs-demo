@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NameAvailabilityStatus
 uid: '@azure/arm-appconfiguration.NameAvailabilityStatus|latest-stable'
 package: '@azure/arm-appconfiguration|latest-stable'

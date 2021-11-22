@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CreateEcKeyOptions
 uid: '@azure/keyvault-keys.CreateEcKeyOptions|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

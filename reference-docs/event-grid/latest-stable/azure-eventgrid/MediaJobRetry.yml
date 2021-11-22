@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MediaJobRetry
 uid: '@azure/eventgrid.MediaJobRetry|latest-stable'
 package: '@azure/eventgrid|latest-stable'

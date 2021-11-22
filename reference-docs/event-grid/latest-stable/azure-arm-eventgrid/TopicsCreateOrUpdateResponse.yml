@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TopicsCreateOrUpdateResponse
 uid: '@azure/arm-eventgrid.TopicsCreateOrUpdateResponse|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

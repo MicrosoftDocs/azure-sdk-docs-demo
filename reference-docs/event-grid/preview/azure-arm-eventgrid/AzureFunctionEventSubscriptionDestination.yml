@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AzureFunctionEventSubscriptionDestination
 uid: '@azure/arm-eventgrid.AzureFunctionEventSubscriptionDestination|preview'
 package: '@azure/arm-eventgrid|preview'

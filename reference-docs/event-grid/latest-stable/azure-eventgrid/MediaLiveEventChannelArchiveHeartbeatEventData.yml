@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MediaLiveEventChannelArchiveHeartbeatEventData
 uid: '@azure/eventgrid.MediaLiveEventChannelArchiveHeartbeatEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

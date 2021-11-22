@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccessPolicy
 uid: '@azure/storage-blob.AccessPolicy|preview'
 package: '@azure/storage-blob|preview'

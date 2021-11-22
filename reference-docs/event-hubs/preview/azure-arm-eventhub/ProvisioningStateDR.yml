@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ProvisioningStateDR
 uid: '@azure/arm-eventhub.ProvisioningStateDR|preview'
 package: '@azure/arm-eventhub|preview'

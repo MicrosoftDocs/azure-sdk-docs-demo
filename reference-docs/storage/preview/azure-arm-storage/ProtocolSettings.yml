@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ProtocolSettings
 uid: '@azure/arm-storage.ProtocolSettings|preview'
 package: '@azure/arm-storage|preview'

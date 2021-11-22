@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EventSubscriptionsListRegionalByResourceGroupNextResponse
 uid: >-
   @azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupNextResponse|preview

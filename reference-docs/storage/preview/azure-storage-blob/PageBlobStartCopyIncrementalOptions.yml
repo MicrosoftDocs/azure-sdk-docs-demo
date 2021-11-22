@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PageBlobStartCopyIncrementalOptions
 uid: '@azure/storage-blob.PageBlobStartCopyIncrementalOptions|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: WebSocketOptions
 uid: '@azure/core-amqp.WebSocketOptions|preview'
 package: '@azure/core-amqp|preview'

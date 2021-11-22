@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSASSignatureValues
 uid: '@azure/storage-file-share.FileSASSignatureValues|latest-stable'
 package: '@azure/storage-file-share|latest-stable'

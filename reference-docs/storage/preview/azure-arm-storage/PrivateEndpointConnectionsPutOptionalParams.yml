@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateEndpointConnectionsPutOptionalParams
 uid: '@azure/arm-storage.PrivateEndpointConnectionsPutOptionalParams|preview'
 package: '@azure/arm-storage|preview'

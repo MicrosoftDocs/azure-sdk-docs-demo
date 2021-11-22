@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RetryOptions
 uid: '@azure/app-configuration.RetryOptions|latest-stable'
 package: '@azure/app-configuration|latest-stable'

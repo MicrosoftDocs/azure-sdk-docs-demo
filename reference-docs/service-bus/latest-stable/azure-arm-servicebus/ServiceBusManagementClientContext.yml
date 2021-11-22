@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceBusManagementClientContext
 uid: '@azure/arm-servicebus.ServiceBusManagementClientContext|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

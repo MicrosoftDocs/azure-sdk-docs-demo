@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventSubscriptionsListByDomainTopicOptionalParams
 uid: >-
   @azure/arm-eventgrid.EventSubscriptionsListByDomainTopicOptionalParams|latest-stable

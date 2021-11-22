@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageSkuListResult
 uid: '@azure/arm-storage.StorageSkuListResult|preview'
 package: '@azure/arm-storage|preview'

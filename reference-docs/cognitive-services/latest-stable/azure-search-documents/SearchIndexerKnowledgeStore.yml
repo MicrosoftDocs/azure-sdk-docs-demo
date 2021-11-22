@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SearchIndexerKnowledgeStore
 uid: '@azure/search-documents.SearchIndexerKnowledgeStore|latest-stable'
 package: '@azure/search-documents|latest-stable'

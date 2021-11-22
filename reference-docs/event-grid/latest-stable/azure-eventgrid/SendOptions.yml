@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SendOptions
 uid: '@azure/eventgrid.SendOptions|latest-stable'
 package: '@azure/eventgrid|latest-stable'

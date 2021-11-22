@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SearchIndexingBufferedSenderFlushDocumentsOptions
 uid: >-
   @azure/search-documents.SearchIndexingBufferedSenderFlushDocumentsOptions|preview

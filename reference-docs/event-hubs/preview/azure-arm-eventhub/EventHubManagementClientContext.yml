@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventHubManagementClientContext
 uid: '@azure/arm-eventhub.EventHubManagementClientContext|preview'
 package: '@azure/arm-eventhub|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DisasterRecoveryConfigsListAuthorizationRulesResponse
 uid: >-
   @azure/arm-eventhub.DisasterRecoveryConfigsListAuthorizationRulesResponse|preview

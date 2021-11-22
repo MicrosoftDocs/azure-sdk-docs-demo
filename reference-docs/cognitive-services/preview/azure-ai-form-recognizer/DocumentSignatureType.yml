@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DocumentSignatureType
 uid: '@azure/ai-form-recognizer.DocumentSignatureType|preview'
 package: '@azure/ai-form-recognizer|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AbortError
 uid: '@azure/abort-controller.AbortError|latest-stable'
 package: '@azure/abort-controller|latest-stable'

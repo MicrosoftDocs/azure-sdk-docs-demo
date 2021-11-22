@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TableOperationsListNextOptionalParams
 uid: '@azure/arm-storage.TableOperationsListNextOptionalParams|preview'
 package: '@azure/arm-storage|preview'

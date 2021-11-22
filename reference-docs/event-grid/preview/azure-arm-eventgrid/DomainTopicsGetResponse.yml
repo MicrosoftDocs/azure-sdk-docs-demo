@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DomainTopicsGetResponse
 uid: '@azure/arm-eventgrid.DomainTopicsGetResponse|preview'
 package: '@azure/arm-eventgrid|preview'

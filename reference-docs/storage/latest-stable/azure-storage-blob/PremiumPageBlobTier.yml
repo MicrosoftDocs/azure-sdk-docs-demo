@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: PremiumPageBlobTier
 uid: '@azure/storage-blob.PremiumPageBlobTier|latest-stable'
 package: '@azure/storage-blob|latest-stable'

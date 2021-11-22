@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ErrorCode
 uid: '@azure/ai-text-analytics.ErrorCode|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Configuration
 uid: '@azure/arm-eventhub.Configuration|preview'
 package: '@azure/arm-eventhub|preview'

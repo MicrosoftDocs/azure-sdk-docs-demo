@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PathSetMetadataOptions
 uid: '@azure/storage-file-datalake.PathSetMetadataOptions|preview'
 package: '@azure/storage-file-datalake|preview'

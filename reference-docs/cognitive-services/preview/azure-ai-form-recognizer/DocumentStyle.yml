@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DocumentStyle
 uid: '@azure/ai-form-recognizer.DocumentStyle|preview'
 package: '@azure/ai-form-recognizer|preview'

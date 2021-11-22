@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ShareCreateIfNotExistsResponse
 uid: '@azure/storage-file-share.ShareCreateIfNotExistsResponse|latest-stable'
 package: '@azure/storage-file-share|latest-stable'

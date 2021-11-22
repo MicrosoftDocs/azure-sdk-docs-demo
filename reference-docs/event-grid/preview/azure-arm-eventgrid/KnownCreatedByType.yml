@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownCreatedByType
 uid: '@azure/arm-eventgrid.KnownCreatedByType|preview'
 package: '@azure/arm-eventgrid|preview'

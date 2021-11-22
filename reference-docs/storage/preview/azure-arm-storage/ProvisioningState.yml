@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ProvisioningState
 uid: '@azure/arm-storage.ProvisioningState|preview'
 package: '@azure/arm-storage|preview'

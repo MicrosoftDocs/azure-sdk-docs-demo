@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CreatedByType
 uid: '@azure/arm-eventhub.CreatedByType|preview'
 package: '@azure/arm-eventhub|preview'

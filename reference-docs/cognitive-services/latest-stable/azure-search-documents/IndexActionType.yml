@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: IndexActionType
 uid: '@azure/search-documents.IndexActionType|latest-stable'
 package: '@azure/search-documents|latest-stable'

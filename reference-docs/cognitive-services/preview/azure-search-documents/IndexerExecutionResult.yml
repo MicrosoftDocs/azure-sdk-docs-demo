@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: IndexerExecutionResult
 uid: '@azure/search-documents.IndexerExecutionResult|preview'
 package: '@azure/search-documents|preview'

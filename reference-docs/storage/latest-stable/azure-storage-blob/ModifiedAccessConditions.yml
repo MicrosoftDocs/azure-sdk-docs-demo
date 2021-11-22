@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ModifiedAccessConditions
 uid: '@azure/storage-blob.ModifiedAccessConditions|latest-stable'
 package: '@azure/storage-blob|latest-stable'

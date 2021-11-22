@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EventSubscriptionsListGlobalBySubscriptionResponse
 uid: >-
   @azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionResponse|latest-stable

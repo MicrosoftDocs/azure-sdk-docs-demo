@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: Table
 uid: '@azure/arm-storage.Table|preview'
 package: '@azure/arm-storage|preview'

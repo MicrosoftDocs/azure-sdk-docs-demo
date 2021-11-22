@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PartitionOwnership
 uid: '@azure/event-hubs.PartitionOwnership|preview'
 package: '@azure/event-hubs|preview'

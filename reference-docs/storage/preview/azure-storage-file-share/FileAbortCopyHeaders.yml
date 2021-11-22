@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileAbortCopyHeaders
 uid: '@azure/storage-file-share.FileAbortCopyHeaders|preview'
 package: '@azure/storage-file-share|preview'

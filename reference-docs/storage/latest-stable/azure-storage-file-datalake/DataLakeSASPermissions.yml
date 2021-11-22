@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DataLakeSASPermissions
 uid: '@azure/storage-file-datalake.DataLakeSASPermissions|latest-stable'
 package: '@azure/storage-file-datalake|latest-stable'

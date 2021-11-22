@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ConsumerGroup
 uid: '@azure/arm-eventhub.ConsumerGroup|preview'
 package: '@azure/arm-eventhub|preview'

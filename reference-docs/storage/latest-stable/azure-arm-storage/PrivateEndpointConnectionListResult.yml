@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateEndpointConnectionListResult
 uid: '@azure/arm-storage.PrivateEndpointConnectionListResult|latest-stable'
 package: '@azure/arm-storage|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BeginRecognizeContentOptions
 uid: '@azure/ai-form-recognizer.BeginRecognizeContentOptions|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

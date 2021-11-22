@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceFilterBlobsHeaders
 uid: '@azure/storage-blob.ServiceFilterBlobsHeaders|preview'
 package: '@azure/storage-blob|preview'

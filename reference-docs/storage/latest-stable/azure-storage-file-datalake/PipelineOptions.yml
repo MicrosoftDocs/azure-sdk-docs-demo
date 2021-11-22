@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PipelineOptions
 uid: '@azure/storage-file-datalake.PipelineOptions|latest-stable'
 package: '@azure/storage-file-datalake|latest-stable'

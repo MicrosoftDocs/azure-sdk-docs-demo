@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueGetAccessPolicyOptions
 uid: '@azure/storage-queue.QueueGetAccessPolicyOptions|latest-stable'
 package: '@azure/storage-queue|latest-stable'

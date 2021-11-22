@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TextSplitMode
 uid: '@azure/search-documents.TextSplitMode|latest-stable'
 package: '@azure/search-documents|latest-stable'

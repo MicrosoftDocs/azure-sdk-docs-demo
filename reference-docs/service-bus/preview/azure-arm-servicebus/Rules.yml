@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Rules
 uid: '@azure/arm-servicebus.Rules|preview'
 package: '@azure/arm-servicebus|preview'

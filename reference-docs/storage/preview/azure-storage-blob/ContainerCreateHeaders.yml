@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerCreateHeaders
 uid: '@azure/storage-blob.ContainerCreateHeaders|preview'
 package: '@azure/storage-blob|preview'

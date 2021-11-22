@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AnomalyDetectorExportModelResponse
 uid: '@azure/ai-anomaly-detector.AnomalyDetectorExportModelResponse|preview'
 package: '@azure/ai-anomaly-detector|preview'

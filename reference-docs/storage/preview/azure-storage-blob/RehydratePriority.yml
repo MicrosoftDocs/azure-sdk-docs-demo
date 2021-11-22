@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RehydratePriority
 uid: '@azure/storage-blob.RehydratePriority|preview'
 package: '@azure/storage-blob|preview'

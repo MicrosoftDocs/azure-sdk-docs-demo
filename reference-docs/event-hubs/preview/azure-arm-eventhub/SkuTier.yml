@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SkuTier
 uid: '@azure/arm-eventhub.SkuTier|preview'
 package: '@azure/arm-eventhub|preview'

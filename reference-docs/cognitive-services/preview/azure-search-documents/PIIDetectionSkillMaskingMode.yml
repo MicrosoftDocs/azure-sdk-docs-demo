@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PIIDetectionSkillMaskingMode
 uid: '@azure/search-documents.PIIDetectionSkillMaskingMode|preview'
 package: '@azure/search-documents|preview'

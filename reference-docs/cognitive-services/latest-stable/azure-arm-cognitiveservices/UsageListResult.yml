@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: UsageListResult
 uid: '@azure/arm-cognitiveservices.UsageListResult|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

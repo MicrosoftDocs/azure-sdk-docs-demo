@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ConfigurationStoresBeginCreateResponse
 uid: >-
   @azure/arm-appconfiguration.ConfigurationStoresBeginCreateResponse|latest-stable

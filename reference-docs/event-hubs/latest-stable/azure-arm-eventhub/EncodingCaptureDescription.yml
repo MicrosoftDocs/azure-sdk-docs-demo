@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EncodingCaptureDescription
 uid: '@azure/arm-eventhub.EncodingCaptureDescription|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

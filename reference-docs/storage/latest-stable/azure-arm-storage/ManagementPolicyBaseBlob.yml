@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ManagementPolicyBaseBlob
 uid: '@azure/arm-storage.ManagementPolicyBaseBlob|latest-stable'
 package: '@azure/arm-storage|latest-stable'

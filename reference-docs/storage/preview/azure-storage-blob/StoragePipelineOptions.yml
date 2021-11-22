@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StoragePipelineOptions
 uid: '@azure/storage-blob.StoragePipelineOptions|preview'
 package: '@azure/storage-blob|preview'

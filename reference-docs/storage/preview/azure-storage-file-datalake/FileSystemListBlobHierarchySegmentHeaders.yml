@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSystemListBlobHierarchySegmentHeaders
 uid: '@azure/storage-file-datalake.FileSystemListBlobHierarchySegmentHeaders|preview'
 package: '@azure/storage-file-datalake|preview'

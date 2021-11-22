@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: GetModelOptions
 uid: '@azure/ai-form-recognizer.GetModelOptions|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

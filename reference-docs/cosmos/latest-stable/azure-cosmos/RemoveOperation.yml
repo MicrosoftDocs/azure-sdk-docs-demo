@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RemoveOperation
 uid: '@azure/cosmos.RemoveOperation|latest-stable'
 package: '@azure/cosmos|latest-stable'

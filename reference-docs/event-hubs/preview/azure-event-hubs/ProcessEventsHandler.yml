@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ProcessEventsHandler
 uid: '@azure/event-hubs.ProcessEventsHandler|preview'
 package: '@azure/event-hubs|preview'

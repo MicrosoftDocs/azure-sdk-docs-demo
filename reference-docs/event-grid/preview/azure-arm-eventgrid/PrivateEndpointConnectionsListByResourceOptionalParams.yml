@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateEndpointConnectionsListByResourceOptionalParams
 uid: >-
   @azure/arm-eventgrid.PrivateEndpointConnectionsListByResourceOptionalParams|preview

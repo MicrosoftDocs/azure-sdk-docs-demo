@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobIndexerPDFTextRotationAlgorithm
 uid: '@azure/search-documents.BlobIndexerPDFTextRotationAlgorithm|latest-stable'
 package: '@azure/search-documents|latest-stable'

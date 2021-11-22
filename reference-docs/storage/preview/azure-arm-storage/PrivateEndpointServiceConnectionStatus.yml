@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateEndpointServiceConnectionStatus
 uid: '@azure/arm-storage.PrivateEndpointServiceConnectionStatus|preview'
 package: '@azure/arm-storage|preview'

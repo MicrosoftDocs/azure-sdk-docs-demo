@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ShareGetPropertiesResponse
 uid: '@azure/storage-file-share.ShareGetPropertiesResponse|latest-stable'
 package: '@azure/storage-file-share|latest-stable'

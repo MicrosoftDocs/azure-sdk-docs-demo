@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: Bypass
 uid: '@azure/arm-storage.Bypass|preview'
 package: '@azure/arm-storage|preview'

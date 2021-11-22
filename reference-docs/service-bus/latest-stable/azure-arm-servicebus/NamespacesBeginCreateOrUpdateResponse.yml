@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NamespacesBeginCreateOrUpdateResponse
 uid: '@azure/arm-servicebus.NamespacesBeginCreateOrUpdateResponse|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

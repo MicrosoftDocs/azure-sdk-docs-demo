@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ResourceSkuRestrictionInfo
 uid: '@azure/arm-cognitiveservices.ResourceSkuRestrictionInfo|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

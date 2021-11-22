@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AnalyzeHealthcareEntitiesSuccessResult
 uid: '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesSuccessResult|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'

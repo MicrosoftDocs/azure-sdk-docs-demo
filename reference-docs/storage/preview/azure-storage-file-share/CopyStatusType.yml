@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CopyStatusType
 uid: '@azure/storage-file-share.CopyStatusType|preview'
 package: '@azure/storage-file-share|preview'

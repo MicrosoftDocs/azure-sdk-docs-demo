@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceListSharesOptions
 uid: '@azure/storage-file-share.ServiceListSharesOptions|preview'
 package: '@azure/storage-file-share|preview'

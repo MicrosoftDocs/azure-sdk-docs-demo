@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: HttpAuthorization
 uid: '@azure/storage-blob.HttpAuthorization|preview'
 package: '@azure/storage-blob|preview'

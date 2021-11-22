@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NamespacesGetResponse
 uid: '@azure/arm-servicebus.NamespacesGetResponse|preview'
 package: '@azure/arm-servicebus|preview'

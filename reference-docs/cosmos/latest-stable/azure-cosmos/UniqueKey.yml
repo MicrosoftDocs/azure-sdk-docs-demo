@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: UniqueKey
 uid: '@azure/cosmos.UniqueKey|latest-stable'
 package: '@azure/cosmos|latest-stable'

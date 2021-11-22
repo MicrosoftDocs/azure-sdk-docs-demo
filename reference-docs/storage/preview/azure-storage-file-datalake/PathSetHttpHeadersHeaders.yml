@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PathSetHttpHeadersHeaders
 uid: '@azure/storage-file-datalake.PathSetHttpHeadersHeaders|preview'
 package: '@azure/storage-file-datalake|preview'

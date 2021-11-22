@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TargetSentiment
 uid: '@azure/ai-text-analytics.TargetSentiment|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'

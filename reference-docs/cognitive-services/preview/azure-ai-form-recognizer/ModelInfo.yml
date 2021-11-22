@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ModelInfo
 uid: '@azure/ai-form-recognizer.ModelInfo|preview'
 package: '@azure/ai-form-recognizer|preview'

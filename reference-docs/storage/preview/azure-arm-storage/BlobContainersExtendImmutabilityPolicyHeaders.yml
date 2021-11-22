@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobContainersExtendImmutabilityPolicyHeaders
 uid: '@azure/arm-storage.BlobContainersExtendImmutabilityPolicyHeaders|preview'
 package: '@azure/arm-storage|preview'

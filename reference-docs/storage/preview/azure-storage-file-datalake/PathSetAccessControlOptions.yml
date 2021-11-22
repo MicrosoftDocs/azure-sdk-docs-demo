@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PathSetAccessControlOptions
 uid: '@azure/storage-file-datalake.PathSetAccessControlOptions|preview'
 package: '@azure/storage-file-datalake|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ShareDeleteResponse
 uid: '@azure/storage-file-share.ShareDeleteResponse|preview'
 package: '@azure/storage-file-share|preview'

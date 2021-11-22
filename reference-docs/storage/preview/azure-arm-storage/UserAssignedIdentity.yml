@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: UserAssignedIdentity
 uid: '@azure/arm-storage.UserAssignedIdentity|preview'
 package: '@azure/arm-storage|preview'

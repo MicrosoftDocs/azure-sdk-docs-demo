@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerReleaseLeaseOptions
 uid: '@azure/storage-blob.ContainerReleaseLeaseOptions|latest-stable'
 package: '@azure/storage-blob|latest-stable'

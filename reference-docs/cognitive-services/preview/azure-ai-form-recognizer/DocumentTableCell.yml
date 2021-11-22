@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DocumentTableCell
 uid: '@azure/ai-form-recognizer.DocumentTableCell|preview'
 package: '@azure/ai-form-recognizer|preview'

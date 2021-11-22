@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ShareSetQuotaOptions
 uid: '@azure/storage-file-share.ShareSetQuotaOptions|preview'
 package: '@azure/storage-file-share|preview'

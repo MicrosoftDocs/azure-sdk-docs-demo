@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueSetMetadataHeaders
 uid: '@azure/storage-queue.QueueSetMetadataHeaders|latest-stable'
 package: '@azure/storage-queue|latest-stable'

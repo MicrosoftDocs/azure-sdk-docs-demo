@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ParentType3
 uid: '@azure/arm-eventgrid.ParentType3|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobQueryError
 uid: '@azure/storage-blob.BlobQueryError|preview'
 package: '@azure/storage-blob|preview'

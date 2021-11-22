@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueDeleteOptionalParams
 uid: '@azure/arm-storage.QueueDeleteOptionalParams|preview'
 package: '@azure/arm-storage|preview'

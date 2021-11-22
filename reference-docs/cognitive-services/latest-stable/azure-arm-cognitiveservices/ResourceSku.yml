@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ResourceSku
 uid: '@azure/arm-cognitiveservices.ResourceSku|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

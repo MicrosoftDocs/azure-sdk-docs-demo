@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: QueuesListByNamespaceResponse
 uid: '@azure/arm-servicebus.QueuesListByNamespaceResponse|preview'
 package: '@azure/arm-servicebus|preview'

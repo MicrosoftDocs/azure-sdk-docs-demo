@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobDeleteImmutabilityPolicyResponse
 uid: '@azure/storage-blob.BlobDeleteImmutabilityPolicyResponse|preview'
 package: '@azure/storage-blob|preview'

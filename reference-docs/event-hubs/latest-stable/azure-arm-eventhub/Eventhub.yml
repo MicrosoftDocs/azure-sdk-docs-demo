@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Eventhub
 uid: '@azure/arm-eventhub.Eventhub|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

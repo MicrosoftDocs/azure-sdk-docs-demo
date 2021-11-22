@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FeatureFlagValue
 uid: '@azure/app-configuration.FeatureFlagValue|latest-stable'
 package: '@azure/app-configuration|latest-stable'

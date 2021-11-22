@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StorageAccountsCreateResponse
 uid: '@azure/arm-storage.StorageAccountsCreateResponse|latest-stable'
 package: '@azure/arm-storage|latest-stable'

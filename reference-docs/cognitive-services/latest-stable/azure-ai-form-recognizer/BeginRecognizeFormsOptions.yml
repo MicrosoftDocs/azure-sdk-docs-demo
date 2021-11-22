@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BeginRecognizeFormsOptions
 uid: '@azure/ai-form-recognizer.BeginRecognizeFormsOptions|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

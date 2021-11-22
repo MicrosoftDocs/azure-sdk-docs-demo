@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListBlobInventoryPolicy
 uid: '@azure/arm-storage.ListBlobInventoryPolicy|latest-stable'
 package: '@azure/arm-storage|latest-stable'

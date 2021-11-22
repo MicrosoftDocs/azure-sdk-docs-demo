@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MessageHandlers
 uid: '@azure/service-bus.MessageHandlers|latest-stable'
 package: '@azure/service-bus|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AnalyzeResultOperationStatus
 uid: '@azure/ai-form-recognizer.AnalyzeResultOperationStatus|preview'
 package: '@azure/ai-form-recognizer|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: GeoReplicationStatusType
 uid: '@azure/storage-blob.GeoReplicationStatusType|preview'
 package: '@azure/storage-blob|preview'

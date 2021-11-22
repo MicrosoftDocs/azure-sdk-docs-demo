@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AcsRecordingFileStatusUpdatedEventData
 uid: '@azure/eventgrid.AcsRecordingFileStatusUpdatedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

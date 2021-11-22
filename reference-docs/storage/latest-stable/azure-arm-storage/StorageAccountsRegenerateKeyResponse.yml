@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StorageAccountsRegenerateKeyResponse
 uid: '@azure/arm-storage.StorageAccountsRegenerateKeyResponse|latest-stable'
 package: '@azure/arm-storage|latest-stable'

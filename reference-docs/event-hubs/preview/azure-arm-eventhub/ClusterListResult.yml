@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ClusterListResult
 uid: '@azure/arm-eventhub.ClusterListResult|preview'
 package: '@azure/arm-eventhub|preview'

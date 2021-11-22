@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: UniqueTokenFilter
 uid: '@azure/search-documents.UniqueTokenFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

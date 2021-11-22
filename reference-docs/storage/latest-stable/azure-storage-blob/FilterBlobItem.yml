@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FilterBlobItem
 uid: '@azure/storage-blob.FilterBlobItem|latest-stable'
 package: '@azure/storage-blob|latest-stable'

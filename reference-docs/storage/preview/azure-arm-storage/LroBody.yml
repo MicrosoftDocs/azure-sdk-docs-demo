@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LroBody
 uid: '@azure/arm-storage.LroBody|preview'
 package: '@azure/arm-storage|preview'

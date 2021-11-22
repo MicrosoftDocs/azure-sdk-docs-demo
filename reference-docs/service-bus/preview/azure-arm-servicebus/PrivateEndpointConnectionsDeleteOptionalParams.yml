@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateEndpointConnectionsDeleteOptionalParams
 uid: '@azure/arm-servicebus.PrivateEndpointConnectionsDeleteOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

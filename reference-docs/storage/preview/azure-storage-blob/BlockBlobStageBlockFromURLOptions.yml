@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlockBlobStageBlockFromURLOptions
 uid: '@azure/storage-blob.BlockBlobStageBlockFromURLOptions|preview'
 package: '@azure/storage-blob|preview'

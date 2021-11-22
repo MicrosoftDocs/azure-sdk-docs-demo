@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ShareGetStatisticsOptions
 uid: '@azure/storage-file-share.ShareGetStatisticsOptions|preview'
 package: '@azure/storage-file-share|preview'

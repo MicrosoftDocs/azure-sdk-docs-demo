@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: VaultsDeleteOptionalParams
 uid: '@azure/arm-keyvault.VaultsDeleteOptionalParams|preview'
 package: '@azure/arm-keyvault|preview'

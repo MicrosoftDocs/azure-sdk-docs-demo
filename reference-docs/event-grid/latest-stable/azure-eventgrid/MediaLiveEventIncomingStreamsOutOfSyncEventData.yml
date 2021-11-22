@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MediaLiveEventIncomingStreamsOutOfSyncEventData
 uid: '@azure/eventgrid.MediaLiveEventIncomingStreamsOutOfSyncEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

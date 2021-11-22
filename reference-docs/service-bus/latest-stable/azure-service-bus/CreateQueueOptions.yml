@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CreateQueueOptions
 uid: '@azure/service-bus.CreateQueueOptions|latest-stable'
 package: '@azure/service-bus|latest-stable'

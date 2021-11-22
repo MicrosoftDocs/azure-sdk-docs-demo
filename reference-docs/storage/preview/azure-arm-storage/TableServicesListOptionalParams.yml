@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TableServicesListOptionalParams
 uid: '@azure/arm-storage.TableServicesListOptionalParams|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EventHubsListAuthorizationRulesResponse
 uid: '@azure/arm-eventhub.EventHubsListAuthorizationRulesResponse|preview'
 package: '@azure/arm-eventhub|preview'

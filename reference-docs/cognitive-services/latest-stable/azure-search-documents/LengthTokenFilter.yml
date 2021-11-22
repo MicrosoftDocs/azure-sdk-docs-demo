@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: LengthTokenFilter
 uid: '@azure/search-documents.LengthTokenFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

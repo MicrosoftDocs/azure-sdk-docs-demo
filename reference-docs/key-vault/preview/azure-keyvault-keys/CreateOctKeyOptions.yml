@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CreateOctKeyOptions
 uid: '@azure/keyvault-keys.CreateOctKeyOptions|preview'
 package: '@azure/keyvault-keys|preview'

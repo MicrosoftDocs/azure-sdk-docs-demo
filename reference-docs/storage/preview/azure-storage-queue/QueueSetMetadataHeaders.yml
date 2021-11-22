@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueSetMetadataHeaders
 uid: '@azure/storage-queue.QueueSetMetadataHeaders|preview'
 package: '@azure/storage-queue|preview'

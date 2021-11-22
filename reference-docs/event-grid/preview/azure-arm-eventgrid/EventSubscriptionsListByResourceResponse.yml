@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EventSubscriptionsListByResourceResponse
 uid: '@azure/arm-eventgrid.EventSubscriptionsListByResourceResponse|preview'
 package: '@azure/arm-eventgrid|preview'

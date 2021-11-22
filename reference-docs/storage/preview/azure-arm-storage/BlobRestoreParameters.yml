@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobRestoreParameters
 uid: '@azure/arm-storage.BlobRestoreParameters|preview'
 package: '@azure/arm-storage|preview'

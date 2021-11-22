@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageRetryPolicyFactory
 uid: '@azure/storage-file-share.StorageRetryPolicyFactory|preview'
 package: '@azure/storage-file-share|preview'

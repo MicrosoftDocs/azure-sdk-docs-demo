@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PageBlobCreateIfNotExistsResponse
 uid: '@azure/storage-blob.PageBlobCreateIfNotExistsResponse|preview'
 package: '@azure/storage-blob|preview'

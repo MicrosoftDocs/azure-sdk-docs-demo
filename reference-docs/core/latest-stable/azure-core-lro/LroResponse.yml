@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LroResponse
 uid: '@azure/core-lro.LroResponse|latest-stable'
 package: '@azure/core-lro|latest-stable'

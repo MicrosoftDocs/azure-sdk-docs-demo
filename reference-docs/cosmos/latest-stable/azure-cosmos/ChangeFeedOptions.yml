@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ChangeFeedOptions
 uid: '@azure/cosmos.ChangeFeedOptions|latest-stable'
 package: '@azure/cosmos|latest-stable'

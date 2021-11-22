@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SubscriptionsListByTopicResponse
 uid: '@azure/arm-servicebus.SubscriptionsListByTopicResponse|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DocumentField
 uid: '@azure/ai-form-recognizer.DocumentField|preview'
 package: '@azure/ai-form-recognizer|preview'

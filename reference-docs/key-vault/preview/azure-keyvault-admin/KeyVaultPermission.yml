@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultPermission
 uid: '@azure/keyvault-admin.KeyVaultPermission|preview'
 package: '@azure/keyvault-admin|preview'

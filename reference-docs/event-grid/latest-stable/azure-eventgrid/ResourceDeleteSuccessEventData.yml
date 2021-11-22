@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ResourceDeleteSuccessEventData
 uid: '@azure/eventgrid.ResourceDeleteSuccessEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

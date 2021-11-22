@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobServicesSetServicePropertiesOptionalParams
 uid: '@azure/arm-storage.BlobServicesSetServicePropertiesOptionalParams|preview'
 package: '@azure/arm-storage|preview'

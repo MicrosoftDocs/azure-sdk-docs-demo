@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PathDeleteResponse
 uid: '@azure/storage-file-datalake.PathDeleteResponse|preview'
 package: '@azure/storage-file-datalake|preview'

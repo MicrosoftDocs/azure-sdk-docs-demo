@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobType
 uid: '@azure/storage-blob.BlobType|latest-stable'
 package: '@azure/storage-blob|latest-stable'

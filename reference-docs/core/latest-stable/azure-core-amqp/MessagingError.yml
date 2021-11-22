@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MessagingError
 uid: '@azure/core-amqp.MessagingError|latest-stable'
 package: '@azure/core-amqp|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: VaultsUpdateAccessPolicyResponse
 uid: '@azure/arm-keyvault.VaultsUpdateAccessPolicyResponse|latest-stable'
 package: '@azure/arm-keyvault|latest-stable'

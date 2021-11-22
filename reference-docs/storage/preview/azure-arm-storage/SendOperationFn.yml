@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SendOperationFn
 uid: '@azure/arm-storage.SendOperationFn|preview'
 package: '@azure/arm-storage|preview'

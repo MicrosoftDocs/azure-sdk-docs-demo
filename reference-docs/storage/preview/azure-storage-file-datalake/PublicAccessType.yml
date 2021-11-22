@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PublicAccessType
 uid: '@azure/storage-file-datalake.PublicAccessType|preview'
 package: '@azure/storage-file-datalake|preview'

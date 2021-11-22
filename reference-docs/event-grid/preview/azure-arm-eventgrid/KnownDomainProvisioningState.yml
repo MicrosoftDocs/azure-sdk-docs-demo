@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownDomainProvisioningState
 uid: '@azure/arm-eventgrid.KnownDomainProvisioningState|preview'
 package: '@azure/arm-eventgrid|preview'

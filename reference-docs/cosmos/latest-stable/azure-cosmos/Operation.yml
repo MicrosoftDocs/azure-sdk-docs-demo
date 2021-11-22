@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: Operation
 uid: '@azure/cosmos.Operation|latest-stable'
 package: '@azure/cosmos|latest-stable'

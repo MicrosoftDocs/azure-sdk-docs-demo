@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListContainersSegmentResponse
 uid: '@azure/storage-blob.ListContainersSegmentResponse|latest-stable'
 package: '@azure/storage-blob|latest-stable'

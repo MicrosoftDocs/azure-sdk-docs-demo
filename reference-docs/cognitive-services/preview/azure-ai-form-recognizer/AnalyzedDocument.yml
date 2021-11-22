@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AnalyzedDocument
 uid: '@azure/ai-form-recognizer.AnalyzedDocument|preview'
 package: '@azure/ai-form-recognizer|preview'

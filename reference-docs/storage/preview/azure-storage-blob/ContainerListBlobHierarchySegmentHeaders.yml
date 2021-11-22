@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerListBlobHierarchySegmentHeaders
 uid: '@azure/storage-blob.ContainerListBlobHierarchySegmentHeaders|preview'
 package: '@azure/storage-blob|preview'

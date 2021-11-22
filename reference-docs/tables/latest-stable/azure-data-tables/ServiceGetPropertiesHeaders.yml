@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceGetPropertiesHeaders
 uid: '@azure/data-tables.ServiceGetPropertiesHeaders|latest-stable'
 package: '@azure/data-tables|latest-stable'

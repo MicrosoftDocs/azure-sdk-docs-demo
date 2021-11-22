@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AzureFunctionEventSubscriptionDestination
 uid: '@azure/arm-eventgrid.AzureFunctionEventSubscriptionDestination|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

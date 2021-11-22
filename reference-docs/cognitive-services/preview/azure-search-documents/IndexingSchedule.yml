@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: IndexingSchedule
 uid: '@azure/search-documents.IndexingSchedule|preview'
 package: '@azure/search-documents|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: UploadDocumentsOptions
 uid: '@azure/search-documents.UploadDocumentsOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

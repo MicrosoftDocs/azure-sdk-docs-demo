@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RunIndexerOptions
 uid: '@azure/search-documents.RunIndexerOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

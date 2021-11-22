@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FilePermissionInheritType
 uid: '@azure/storage-file-share.FilePermissionInheritType|latest-stable'
 package: '@azure/storage-file-share|latest-stable'

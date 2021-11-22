@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: QueuesListKeysResponse
 uid: '@azure/arm-servicebus.QueuesListKeysResponse|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

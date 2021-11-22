@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: UserOwnedStorage
 uid: '@azure/arm-cognitiveservices.UserOwnedStorage|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

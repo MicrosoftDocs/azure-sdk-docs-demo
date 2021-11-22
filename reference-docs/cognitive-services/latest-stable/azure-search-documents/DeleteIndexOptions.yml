@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeleteIndexOptions
 uid: '@azure/search-documents.DeleteIndexOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

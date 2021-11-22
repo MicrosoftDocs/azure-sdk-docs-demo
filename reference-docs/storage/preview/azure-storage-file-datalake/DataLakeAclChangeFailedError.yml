@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DataLakeAclChangeFailedError
 uid: '@azure/storage-file-datalake.DataLakeAclChangeFailedError|preview'
 package: '@azure/storage-file-datalake|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SimilarityAlgorithm
 uid: '@azure/search-documents.SimilarityAlgorithm|latest-stable'
 package: '@azure/search-documents|latest-stable'

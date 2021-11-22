@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PathChangeAccessControlRecursiveResponse
 uid: '@azure/storage-file-datalake.PathChangeAccessControlRecursiveResponse|preview'
 package: '@azure/storage-file-datalake|preview'

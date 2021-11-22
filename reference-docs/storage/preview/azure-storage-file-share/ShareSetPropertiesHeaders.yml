@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ShareSetPropertiesHeaders
 uid: '@azure/storage-file-share.ShareSetPropertiesHeaders|preview'
 package: '@azure/storage-file-share|preview'

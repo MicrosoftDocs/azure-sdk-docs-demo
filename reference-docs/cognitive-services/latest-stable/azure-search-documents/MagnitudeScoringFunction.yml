@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MagnitudeScoringFunction
 uid: '@azure/search-documents.MagnitudeScoringFunction|latest-stable'
 package: '@azure/search-documents|latest-stable'

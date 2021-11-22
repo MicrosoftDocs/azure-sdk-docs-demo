@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobImmutabilityPolicyMode
 uid: '@azure/storage-blob.BlobImmutabilityPolicyMode|preview'
 package: '@azure/storage-blob|preview'

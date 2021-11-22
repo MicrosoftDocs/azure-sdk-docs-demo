@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: VaultsListOptionalParams
 uid: '@azure/arm-keyvault.VaultsListOptionalParams|latest-stable'
 package: '@azure/arm-keyvault|latest-stable'

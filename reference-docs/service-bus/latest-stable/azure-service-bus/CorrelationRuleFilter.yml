@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CorrelationRuleFilter
 uid: '@azure/service-bus.CorrelationRuleFilter|latest-stable'
 package: '@azure/service-bus|latest-stable'

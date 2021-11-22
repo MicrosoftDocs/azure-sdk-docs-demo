@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PageBlobRequestConditions
 uid: '@azure/storage-blob.PageBlobRequestConditions|preview'
 package: '@azure/storage-blob|preview'

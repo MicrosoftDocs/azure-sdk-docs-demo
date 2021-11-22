@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: VaultProperties
 uid: '@azure/arm-keyvault.VaultProperties|latest-stable'
 package: '@azure/arm-keyvault|latest-stable'

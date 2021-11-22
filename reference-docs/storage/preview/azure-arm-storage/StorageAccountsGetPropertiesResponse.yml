@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StorageAccountsGetPropertiesResponse
 uid: '@azure/arm-storage.StorageAccountsGetPropertiesResponse|preview'
 package: '@azure/arm-storage|preview'

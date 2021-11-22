@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SearchIndexerKnowledgeStoreTableProjectionSelector
 uid: >-
   @azure/search-documents.SearchIndexerKnowledgeStoreTableProjectionSelector|preview

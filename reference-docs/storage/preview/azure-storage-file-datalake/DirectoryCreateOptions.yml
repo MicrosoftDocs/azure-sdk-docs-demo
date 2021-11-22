@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DirectoryCreateOptions
 uid: '@azure/storage-file-datalake.DirectoryCreateOptions|preview'
 package: '@azure/storage-file-datalake|preview'

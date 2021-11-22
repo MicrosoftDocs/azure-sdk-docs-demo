@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NamespacesDeleteOptionalParams
 uid: '@azure/arm-eventhub.NamespacesDeleteOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

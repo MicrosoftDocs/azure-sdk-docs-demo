@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventHubsRegenerateKeysOptionalParams
 uid: '@azure/arm-eventhub.EventHubsRegenerateKeysOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: GenerateSharedAccessSignatureOptions
 uid: '@azure/eventgrid.GenerateSharedAccessSignatureOptions|latest-stable'
 package: '@azure/eventgrid|latest-stable'

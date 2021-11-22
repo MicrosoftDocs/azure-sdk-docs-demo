@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: LexicalNormalizer
 uid: '@azure/search-documents.LexicalNormalizer|preview'
 package: '@azure/search-documents|preview'

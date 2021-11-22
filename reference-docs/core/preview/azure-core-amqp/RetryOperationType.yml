@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: RetryOperationType
 uid: '@azure/core-amqp.RetryOperationType|preview'
 package: '@azure/core-amqp|preview'

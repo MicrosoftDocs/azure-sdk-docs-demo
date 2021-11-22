@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PathGetPropertiesResponse
 uid: '@azure/storage-file-datalake.PathGetPropertiesResponse|preview'
 package: '@azure/storage-file-datalake|preview'

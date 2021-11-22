@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSystemSetMetadataHeaders
 uid: '@azure/storage-file-datalake.FileSystemSetMetadataHeaders|preview'
 package: '@azure/storage-file-datalake|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RulesGetOptionalParams
 uid: '@azure/arm-servicebus.RulesGetOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

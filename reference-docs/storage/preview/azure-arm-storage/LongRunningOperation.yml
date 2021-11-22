@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LongRunningOperation
 uid: '@azure/arm-storage.LongRunningOperation|preview'
 package: '@azure/arm-storage|preview'

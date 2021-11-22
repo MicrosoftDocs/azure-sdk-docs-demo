@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RecoverDeletedCertificateState
 uid: '@azure/keyvault-certificates.RecoverDeletedCertificateState|latest-stable'
 package: '@azure/keyvault-certificates|latest-stable'

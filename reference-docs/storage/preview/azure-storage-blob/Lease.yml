@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Lease
 uid: '@azure/storage-blob.Lease|preview'
 package: '@azure/storage-blob|preview'

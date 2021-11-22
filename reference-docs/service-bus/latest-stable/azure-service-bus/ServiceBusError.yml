@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceBusError
 uid: '@azure/service-bus.ServiceBusError|latest-stable'
 package: '@azure/service-bus|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceBusConnectionStringProperties
 uid: '@azure/service-bus.ServiceBusConnectionStringProperties|latest-stable'
 package: '@azure/service-bus|latest-stable'

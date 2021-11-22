@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AppConfigurationKeyValueDeletedEventData
 uid: '@azure/eventgrid.AppConfigurationKeyValueDeletedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

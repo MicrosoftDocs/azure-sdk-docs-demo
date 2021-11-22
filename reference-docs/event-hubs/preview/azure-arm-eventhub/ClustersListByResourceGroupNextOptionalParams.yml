@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ClustersListByResourceGroupNextOptionalParams
 uid: '@azure/arm-eventhub.ClustersListByResourceGroupNextOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

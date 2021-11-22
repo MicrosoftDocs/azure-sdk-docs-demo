@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeywordTokenizer
 uid: '@azure/search-documents.KeywordTokenizer|latest-stable'
 package: '@azure/search-documents|latest-stable'

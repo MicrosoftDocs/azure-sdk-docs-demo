@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ShareDeleteHeaders
 uid: '@azure/storage-file-share.ShareDeleteHeaders|preview'
 package: '@azure/storage-file-share|preview'

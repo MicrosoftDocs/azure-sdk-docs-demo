@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CommonGenerateSasUrlOptions
 uid: '@azure/storage-blob.CommonGenerateSasUrlOptions|preview'
 package: '@azure/storage-blob|preview'

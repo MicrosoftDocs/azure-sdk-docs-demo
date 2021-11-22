@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileServiceProperties
 uid: '@azure/storage-file-share.FileServiceProperties|preview'
 package: '@azure/storage-file-share|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RecognizePiiEntitiesActionErrorResult
 uid: '@azure/ai-text-analytics.RecognizePiiEntitiesActionErrorResult|preview'
 package: '@azure/ai-text-analytics|preview'

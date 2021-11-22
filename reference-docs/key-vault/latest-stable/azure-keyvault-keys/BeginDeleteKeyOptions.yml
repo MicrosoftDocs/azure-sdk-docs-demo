@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BeginDeleteKeyOptions
 uid: '@azure/keyvault-keys.BeginDeleteKeyOptions|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

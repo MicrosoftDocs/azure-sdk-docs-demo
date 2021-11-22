@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileAndDirectorySetPropertiesCommonOptions
 uid: '@azure/storage-file-share.FileAndDirectorySetPropertiesCommonOptions|preview'
 package: '@azure/storage-file-share|preview'

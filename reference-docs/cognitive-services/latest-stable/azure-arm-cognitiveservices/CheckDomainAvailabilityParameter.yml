@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CheckDomainAvailabilityParameter
 uid: '@azure/arm-cognitiveservices.CheckDomainAvailabilityParameter|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

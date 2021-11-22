@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileSystemSetMetadataResponse
 uid: '@azure/storage-file-datalake.FileSystemSetMetadataResponse|preview'
 package: '@azure/storage-file-datalake|preview'

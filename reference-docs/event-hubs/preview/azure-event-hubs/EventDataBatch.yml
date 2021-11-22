@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventDataBatch
 uid: '@azure/event-hubs.EventDataBatch|preview'
 package: '@azure/event-hubs|preview'

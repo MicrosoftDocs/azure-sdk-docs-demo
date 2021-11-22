@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ApiManagementApiReleaseCreatedEventData
 uid: '@azure/eventgrid.ApiManagementApiReleaseCreatedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

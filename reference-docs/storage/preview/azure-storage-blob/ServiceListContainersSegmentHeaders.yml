@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceListContainersSegmentHeaders
 uid: '@azure/storage-blob.ServiceListContainersSegmentHeaders|preview'
 package: '@azure/storage-blob|preview'

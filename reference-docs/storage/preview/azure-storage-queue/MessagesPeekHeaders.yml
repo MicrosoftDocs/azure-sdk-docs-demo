@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MessagesPeekHeaders
 uid: '@azure/storage-queue.MessagesPeekHeaders|preview'
 package: '@azure/storage-queue|preview'

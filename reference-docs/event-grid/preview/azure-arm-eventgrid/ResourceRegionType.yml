@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ResourceRegionType
 uid: '@azure/arm-eventgrid.ResourceRegionType|preview'
 package: '@azure/arm-eventgrid|preview'

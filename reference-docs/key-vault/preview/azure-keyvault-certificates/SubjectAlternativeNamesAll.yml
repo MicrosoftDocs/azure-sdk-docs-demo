@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SubjectAlternativeNamesAll
 uid: '@azure/keyvault-certificates.SubjectAlternativeNamesAll|preview'
 package: '@azure/keyvault-certificates|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SplitSkillLanguage
 uid: '@azure/search-documents.SplitSkillLanguage|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SBNamespaceUpdateParameters
 uid: '@azure/arm-servicebus.SBNamespaceUpdateParameters|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

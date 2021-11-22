@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobItemInternal
 uid: '@azure/storage-blob.BlobItemInternal|latest-stable'
 package: '@azure/storage-blob|latest-stable'

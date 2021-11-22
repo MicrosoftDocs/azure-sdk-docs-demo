@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FacetResult
 uid: '@azure/search-documents.FacetResult|preview'
 package: '@azure/search-documents|preview'

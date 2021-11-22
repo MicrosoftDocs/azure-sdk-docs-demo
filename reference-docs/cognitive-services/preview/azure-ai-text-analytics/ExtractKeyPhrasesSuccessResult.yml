@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ExtractKeyPhrasesSuccessResult
 uid: '@azure/ai-text-analytics.ExtractKeyPhrasesSuccessResult|preview'
 package: '@azure/ai-text-analytics|preview'

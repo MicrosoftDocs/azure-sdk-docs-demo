@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: JsonInputSchemaMapping
 uid: '@azure/arm-eventgrid.JsonInputSchemaMapping|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

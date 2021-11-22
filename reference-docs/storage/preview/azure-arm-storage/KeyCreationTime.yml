@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyCreationTime
 uid: '@azure/arm-storage.KeyCreationTime|preview'
 package: '@azure/arm-storage|preview'

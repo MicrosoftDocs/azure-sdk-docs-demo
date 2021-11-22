@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SasIPRange
 uid: '@azure/storage-file-share.SasIPRange|preview'
 package: '@azure/storage-file-share|preview'

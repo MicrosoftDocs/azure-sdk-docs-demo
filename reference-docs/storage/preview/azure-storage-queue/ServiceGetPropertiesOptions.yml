@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceGetPropertiesOptions
 uid: '@azure/storage-queue.ServiceGetPropertiesOptions|preview'
 package: '@azure/storage-queue|preview'

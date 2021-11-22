@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BeginAnalyzeHealthcareEntitiesOptions
 uid: '@azure/ai-text-analytics.BeginAnalyzeHealthcareEntitiesOptions|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'

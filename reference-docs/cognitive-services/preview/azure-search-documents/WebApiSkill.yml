@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: WebApiSkill
 uid: '@azure/search-documents.WebApiSkill|preview'
 package: '@azure/search-documents|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultCertificateNearExpiryEventData
 uid: '@azure/eventgrid.KeyVaultCertificateNearExpiryEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

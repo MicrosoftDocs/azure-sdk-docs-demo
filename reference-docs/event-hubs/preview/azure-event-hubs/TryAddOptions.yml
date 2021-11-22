@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TryAddOptions
 uid: '@azure/event-hubs.TryAddOptions|preview'
 package: '@azure/event-hubs|preview'

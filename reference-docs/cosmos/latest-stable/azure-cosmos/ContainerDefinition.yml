@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerDefinition
 uid: '@azure/cosmos.ContainerDefinition|latest-stable'
 package: '@azure/cosmos|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobAbortCopyFromURLHeaders
 uid: '@azure/storage-blob.BlobAbortCopyFromURLHeaders|preview'
 package: '@azure/storage-blob|preview'

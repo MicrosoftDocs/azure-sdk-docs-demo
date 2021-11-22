@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EntityRecognitionSkillV3
 uid: '@azure/search-documents.EntityRecognitionSkillV3|preview'
 package: '@azure/search-documents|preview'

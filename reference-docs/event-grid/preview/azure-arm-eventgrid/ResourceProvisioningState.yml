@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ResourceProvisioningState
 uid: '@azure/arm-eventgrid.ResourceProvisioningState|preview'
 package: '@azure/arm-eventgrid|preview'

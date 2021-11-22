@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateLinkResourcesListResponse
 uid: '@azure/arm-cognitiveservices.PrivateLinkResourcesListResponse|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

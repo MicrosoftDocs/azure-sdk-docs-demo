@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownKeyVaultRoleScope
 uid: '@azure/keyvault-admin.KnownKeyVaultRoleScope|preview'
 package: '@azure/keyvault-admin|preview'

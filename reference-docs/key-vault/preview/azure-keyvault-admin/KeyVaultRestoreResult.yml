@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultRestoreResult
 uid: '@azure/keyvault-admin.KeyVaultRestoreResult|preview'
 package: '@azure/keyvault-admin|preview'

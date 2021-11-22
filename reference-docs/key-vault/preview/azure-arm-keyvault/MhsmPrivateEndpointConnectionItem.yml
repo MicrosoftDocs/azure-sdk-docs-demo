@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MhsmPrivateEndpointConnectionItem
 uid: '@azure/arm-keyvault.MhsmPrivateEndpointConnectionItem|preview'
 package: '@azure/arm-keyvault|preview'

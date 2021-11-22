@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SearchClient
 uid: '@azure/search-documents.SearchClient|preview'
 package: '@azure/search-documents|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ShareCreateHeaders
 uid: '@azure/storage-file-share.ShareCreateHeaders|preview'
 package: '@azure/storage-file-share|preview'

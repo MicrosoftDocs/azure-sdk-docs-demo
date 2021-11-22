@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListPropertiesOfKeysOptions
 uid: '@azure/keyvault-keys.ListPropertiesOfKeysOptions|preview'
 package: '@azure/keyvault-keys|preview'

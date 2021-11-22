@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateLinkResourcesListByResourceNextResponse
 uid: >-
   @azure/arm-eventgrid.PrivateLinkResourcesListByResourceNextResponse|latest-stable

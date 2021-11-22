@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CommitmentPlansCreateOrUpdateResponse
 uid: >-
   @azure/arm-cognitiveservices.CommitmentPlansCreateOrUpdateResponse|latest-stable

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateLinkResourcesListByStorageAccountResponse
 uid: '@azure/arm-storage.PrivateLinkResourcesListByStorageAccountResponse|preview'
 package: '@azure/arm-storage|preview'

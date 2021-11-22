@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventHubsDeleteAuthorizationRuleOptionalParams
 uid: '@azure/arm-eventhub.EventHubsDeleteAuthorizationRuleOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

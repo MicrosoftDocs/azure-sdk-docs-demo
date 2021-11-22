@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: Permissions
 uid: '@azure/arm-storage.Permissions|preview'
 package: '@azure/arm-storage|preview'

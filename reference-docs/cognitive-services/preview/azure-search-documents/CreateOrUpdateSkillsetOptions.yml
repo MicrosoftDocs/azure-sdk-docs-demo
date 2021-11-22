@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CreateOrUpdateSkillsetOptions
 uid: '@azure/search-documents.CreateOrUpdateSkillsetOptions|preview'
 package: '@azure/search-documents|preview'

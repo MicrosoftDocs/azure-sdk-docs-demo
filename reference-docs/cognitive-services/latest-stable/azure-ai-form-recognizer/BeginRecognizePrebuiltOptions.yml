@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BeginRecognizePrebuiltOptions
 uid: '@azure/ai-form-recognizer.BeginRecognizePrebuiltOptions|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

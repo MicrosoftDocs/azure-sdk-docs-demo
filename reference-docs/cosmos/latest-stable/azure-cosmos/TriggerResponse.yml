@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TriggerResponse
 uid: '@azure/cosmos.TriggerResponse|latest-stable'
 package: '@azure/cosmos|latest-stable'

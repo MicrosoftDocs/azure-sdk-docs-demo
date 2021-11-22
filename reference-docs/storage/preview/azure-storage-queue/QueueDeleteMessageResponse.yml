@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: QueueDeleteMessageResponse
 uid: '@azure/storage-queue.QueueDeleteMessageResponse|preview'
 package: '@azure/storage-queue|preview'

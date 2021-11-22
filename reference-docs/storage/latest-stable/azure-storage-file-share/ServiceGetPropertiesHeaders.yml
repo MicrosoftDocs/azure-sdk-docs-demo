@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceGetPropertiesHeaders
 uid: '@azure/storage-file-share.ServiceGetPropertiesHeaders|latest-stable'
 package: '@azure/storage-file-share|latest-stable'

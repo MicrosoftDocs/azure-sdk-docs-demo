@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MediaJobError
 uid: '@azure/eventgrid.MediaJobError|latest-stable'
 package: '@azure/eventgrid|latest-stable'

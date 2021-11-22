@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RetryConfig
 uid: '@azure/core-amqp.RetryConfig|latest-stable'
 package: '@azure/core-amqp|latest-stable'

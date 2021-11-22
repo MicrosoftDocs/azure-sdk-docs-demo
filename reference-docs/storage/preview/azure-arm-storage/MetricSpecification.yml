@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MetricSpecification
 uid: '@azure/arm-storage.MetricSpecification|preview'
 package: '@azure/arm-storage|preview'

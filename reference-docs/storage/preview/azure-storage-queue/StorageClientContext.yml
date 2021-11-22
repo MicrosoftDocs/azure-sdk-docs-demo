@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageClientContext
 uid: '@azure/storage-queue.StorageClientContext|preview'
 package: '@azure/storage-queue|preview'

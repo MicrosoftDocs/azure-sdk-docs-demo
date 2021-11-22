@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BaseScoringFunction
 uid: '@azure/search-documents.BaseScoringFunction|preview'
 package: '@azure/search-documents|preview'

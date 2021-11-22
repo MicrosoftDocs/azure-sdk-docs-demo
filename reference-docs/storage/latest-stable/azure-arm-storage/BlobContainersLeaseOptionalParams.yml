@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobContainersLeaseOptionalParams
 uid: '@azure/arm-storage.BlobContainersLeaseOptionalParams|latest-stable'
 package: '@azure/arm-storage|latest-stable'

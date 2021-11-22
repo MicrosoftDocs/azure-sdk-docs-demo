@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventHubManagementClientOptionalParams
 uid: '@azure/arm-eventhub.EventHubManagementClientOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

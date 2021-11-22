@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SelectionMarkState
 uid: '@azure/ai-form-recognizer.SelectionMarkState|preview'
 package: '@azure/ai-form-recognizer|preview'

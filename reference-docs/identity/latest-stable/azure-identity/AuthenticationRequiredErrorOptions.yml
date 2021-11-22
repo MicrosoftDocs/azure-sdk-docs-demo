@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AuthenticationRequiredErrorOptions
 uid: '@azure/identity.AuthenticationRequiredErrorOptions|latest-stable'
 package: '@azure/identity|latest-stable'

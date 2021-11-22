@@ -11,6 +11,7 @@ ROBOTS: NOINDEX
 
 # Azure SDK for JavaScript - Package list
 
+
 ## App Configuration
 
 ### Client Packages
@@ -20,6 +21,13 @@ ROBOTS: NOINDEX
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
 | @azure/app-configuration  | 1.3.0 | [User guide](/javascript/sdk-demo/app-configuration/latest-stable/azure-app-configuration/readme.md)  | [Package index](/javascript/sdk-demo/app-configuration/latest-stable/azure-app-configuration)  | [npm](https://www.npmjs.com/package/@azure/app-configuration) |
+ 
+
+ 
+
+ 
+ 
+
 
 ### Management Packages
 

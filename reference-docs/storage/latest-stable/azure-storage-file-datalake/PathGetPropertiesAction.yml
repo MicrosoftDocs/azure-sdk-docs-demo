@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: PathGetPropertiesAction
 uid: '@azure/storage-file-datalake.PathGetPropertiesAction|latest-stable'
 package: '@azure/storage-file-datalake|latest-stable'

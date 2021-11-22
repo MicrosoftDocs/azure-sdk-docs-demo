@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeleteRoleAssignmentOptions
 uid: '@azure/keyvault-admin.DeleteRoleAssignmentOptions|latest-stable'
 package: '@azure/keyvault-admin|latest-stable'

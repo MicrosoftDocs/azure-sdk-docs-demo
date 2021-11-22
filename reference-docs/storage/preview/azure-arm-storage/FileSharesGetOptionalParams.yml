@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSharesGetOptionalParams
 uid: '@azure/arm-storage.FileSharesGetOptionalParams|preview'
 package: '@azure/arm-storage|preview'

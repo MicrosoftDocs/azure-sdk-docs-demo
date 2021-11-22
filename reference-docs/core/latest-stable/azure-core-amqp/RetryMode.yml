@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: RetryMode
 uid: '@azure/core-amqp.RetryMode|latest-stable'
 package: '@azure/core-amqp|latest-stable'

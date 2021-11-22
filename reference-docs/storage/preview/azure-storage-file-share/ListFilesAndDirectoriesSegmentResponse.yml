@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListFilesAndDirectoriesSegmentResponse
 uid: '@azure/storage-file-share.ListFilesAndDirectoriesSegmentResponse|preview'
 package: '@azure/storage-file-share|preview'

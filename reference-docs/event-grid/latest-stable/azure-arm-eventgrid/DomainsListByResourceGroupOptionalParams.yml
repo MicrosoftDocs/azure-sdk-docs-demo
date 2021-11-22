@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DomainsListByResourceGroupOptionalParams
 uid: '@azure/arm-eventgrid.DomainsListByResourceGroupOptionalParams|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

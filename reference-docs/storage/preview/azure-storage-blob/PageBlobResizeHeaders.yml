@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PageBlobResizeHeaders
 uid: '@azure/storage-blob.PageBlobResizeHeaders|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AppendBlobAppendBlockResponse
 uid: '@azure/storage-blob.AppendBlobAppendBlockResponse|preview'
 package: '@azure/storage-blob|preview'

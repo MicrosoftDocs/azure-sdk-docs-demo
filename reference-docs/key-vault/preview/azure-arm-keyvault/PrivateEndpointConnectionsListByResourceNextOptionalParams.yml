@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateEndpointConnectionsListByResourceNextOptionalParams
 uid: >-
   @azure/arm-keyvault.PrivateEndpointConnectionsListByResourceNextOptionalParams|preview

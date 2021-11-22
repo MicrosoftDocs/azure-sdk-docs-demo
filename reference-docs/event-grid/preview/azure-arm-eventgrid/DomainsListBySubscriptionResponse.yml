@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DomainsListBySubscriptionResponse
 uid: '@azure/arm-eventgrid.DomainsListBySubscriptionResponse|preview'
 package: '@azure/arm-eventgrid|preview'

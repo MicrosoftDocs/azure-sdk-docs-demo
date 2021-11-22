@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: UsageUnit
 uid: '@azure/arm-storage.UsageUnit|latest-stable'
 package: '@azure/arm-storage|latest-stable'

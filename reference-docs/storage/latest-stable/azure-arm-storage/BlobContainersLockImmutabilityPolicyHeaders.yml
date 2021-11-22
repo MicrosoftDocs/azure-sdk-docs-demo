@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobContainersLockImmutabilityPolicyHeaders
 uid: '@azure/arm-storage.BlobContainersLockImmutabilityPolicyHeaders|latest-stable'
 package: '@azure/arm-storage|latest-stable'

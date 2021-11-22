@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: SASProtocol
 uid: '@azure/storage-blob.SASProtocol|preview'
 package: '@azure/storage-blob|preview'

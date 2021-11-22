@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NumberInAdvancedFilter
 uid: '@azure/arm-eventgrid.NumberInAdvancedFilter|preview'
 package: '@azure/arm-eventgrid|preview'

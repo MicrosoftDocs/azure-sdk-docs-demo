@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FacetResult
 uid: '@azure/search-documents.FacetResult|latest-stable'
 package: '@azure/search-documents|latest-stable'

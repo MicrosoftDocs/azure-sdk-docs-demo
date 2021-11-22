@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DocumentStringField
 uid: '@azure/ai-form-recognizer.DocumentStringField|preview'
 package: '@azure/ai-form-recognizer|preview'

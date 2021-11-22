@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BaseSearchIndexerSkill
 uid: '@azure/search-documents.BaseSearchIndexerSkill|latest-stable'
 package: '@azure/search-documents|latest-stable'

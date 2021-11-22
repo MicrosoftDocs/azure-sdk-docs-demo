@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceBusSender
 uid: '@azure/service-bus.ServiceBusSender|latest-stable'
 package: '@azure/service-bus|latest-stable'

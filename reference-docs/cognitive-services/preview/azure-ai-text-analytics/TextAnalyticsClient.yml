@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TextAnalyticsClient
 uid: '@azure/ai-text-analytics.TextAnalyticsClient|preview'
 package: '@azure/ai-text-analytics|preview'

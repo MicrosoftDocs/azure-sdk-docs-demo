@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MicrosoftStemmingTokenizerLanguage
 uid: '@azure/search-documents.MicrosoftStemmingTokenizerLanguage|latest-stable'
 package: '@azure/search-documents|latest-stable'

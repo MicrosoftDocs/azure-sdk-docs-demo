@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileReadHeaders
 uid: '@azure/storage-file-datalake.FileReadHeaders|preview'
 package: '@azure/storage-file-datalake|preview'

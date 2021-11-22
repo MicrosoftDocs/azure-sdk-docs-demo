@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownEncryptionAlgorithms
 uid: '@azure/keyvault-keys.KnownEncryptionAlgorithms|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

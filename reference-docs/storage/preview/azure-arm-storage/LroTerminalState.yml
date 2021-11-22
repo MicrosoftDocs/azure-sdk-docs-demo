@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LroTerminalState
 uid: '@azure/arm-storage.LroTerminalState|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DataLakeSASSignatureValues
 uid: '@azure/storage-file-datalake.DataLakeSASSignatureValues|preview'
 package: '@azure/storage-file-datalake|preview'

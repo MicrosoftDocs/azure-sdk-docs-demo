@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RuleListResult
 uid: '@azure/arm-servicebus.RuleListResult|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

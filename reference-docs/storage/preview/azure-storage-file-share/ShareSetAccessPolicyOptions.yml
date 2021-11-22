@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ShareSetAccessPolicyOptions
 uid: '@azure/storage-file-share.ShareSetAccessPolicyOptions|preview'
 package: '@azure/storage-file-share|preview'

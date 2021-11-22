@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobContainersLockImmutabilityPolicyOptionalParams
 uid: '@azure/arm-storage.BlobContainersLockImmutabilityPolicyOptionalParams|preview'
 package: '@azure/arm-storage|preview'

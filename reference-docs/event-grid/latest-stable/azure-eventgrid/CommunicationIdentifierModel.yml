@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CommunicationIdentifierModel
 uid: '@azure/eventgrid.CommunicationIdentifierModel|latest-stable'
 package: '@azure/eventgrid|latest-stable'

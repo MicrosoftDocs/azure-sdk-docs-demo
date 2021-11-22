@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeletedCertificate
 uid: '@azure/keyvault-certificates.DeletedCertificate|latest-stable'
 package: '@azure/keyvault-certificates|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Regions
 uid: '@azure/arm-servicebus.Regions|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: QueueServicesGetServicePropertiesResponse
 uid: '@azure/arm-storage.QueueServicesGetServicePropertiesResponse|latest-stable'
 package: '@azure/arm-storage|latest-stable'

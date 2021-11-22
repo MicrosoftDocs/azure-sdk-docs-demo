@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventHubProperties
 uid: '@azure/event-hubs.EventHubProperties|preview'
 package: '@azure/event-hubs|preview'

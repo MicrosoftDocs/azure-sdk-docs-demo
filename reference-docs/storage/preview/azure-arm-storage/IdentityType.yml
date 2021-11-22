@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: IdentityType
 uid: '@azure/arm-storage.IdentityType|preview'
 package: '@azure/arm-storage|preview'

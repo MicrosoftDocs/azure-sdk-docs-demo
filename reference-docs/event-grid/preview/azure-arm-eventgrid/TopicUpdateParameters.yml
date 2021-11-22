@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TopicUpdateParameters
 uid: '@azure/arm-eventgrid.TopicUpdateParameters|preview'
 package: '@azure/arm-eventgrid|preview'

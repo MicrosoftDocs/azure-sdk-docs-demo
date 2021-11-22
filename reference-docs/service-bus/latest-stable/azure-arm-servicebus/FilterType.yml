@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FilterType
 uid: '@azure/arm-servicebus.FilterType|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

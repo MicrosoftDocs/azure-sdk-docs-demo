@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateEndpointConnectionsGetResponse
 uid: '@azure/arm-eventgrid.PrivateEndpointConnectionsGetResponse|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RecongizeCustomEntitiesActionSuccessResult
 uid: '@azure/ai-text-analytics.RecongizeCustomEntitiesActionSuccessResult|preview'
 package: '@azure/ai-text-analytics|preview'

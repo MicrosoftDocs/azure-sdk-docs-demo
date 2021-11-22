@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: WebRestoreOperationStartedEventData
 uid: '@azure/eventgrid.WebRestoreOperationStartedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PageBlobCopyIncrementalHeaders
 uid: '@azure/storage-blob.PageBlobCopyIncrementalHeaders|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DomainTopicsListByDomainOptionalParams
 uid: '@azure/arm-eventgrid.DomainTopicsListByDomainOptionalParams|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

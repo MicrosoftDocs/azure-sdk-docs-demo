@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobCreateSnapshotHeaders
 uid: '@azure/storage-blob.BlobCreateSnapshotHeaders|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EncryptionScopeListResult
 uid: '@azure/arm-storage.EncryptionScopeListResult|preview'
 package: '@azure/arm-storage|preview'

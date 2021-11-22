@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: IndexDocumentsAction
 uid: '@azure/search-documents.IndexDocumentsAction|preview'
 package: '@azure/search-documents|preview'

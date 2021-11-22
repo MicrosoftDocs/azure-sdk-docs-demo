@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BeginDeleteCertificateOptions
 uid: '@azure/keyvault-certificates.BeginDeleteCertificateOptions|preview'
 package: '@azure/keyvault-certificates|preview'

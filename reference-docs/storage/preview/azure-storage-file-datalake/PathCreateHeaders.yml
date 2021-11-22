@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PathCreateHeaders
 uid: '@azure/storage-file-datalake.PathCreateHeaders|preview'
 package: '@azure/storage-file-datalake|preview'

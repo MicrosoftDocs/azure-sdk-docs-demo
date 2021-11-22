@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultAccessPolicyChangedEventData
 uid: '@azure/eventgrid.KeyVaultAccessPolicyChangedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

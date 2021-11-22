@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TableServiceStats
 uid: '@azure/data-tables.TableServiceStats|latest-stable'
 package: '@azure/data-tables|latest-stable'

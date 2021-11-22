@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: UsageListResult
 uid: '@azure/arm-storage.UsageListResult|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultKeyNewVersionCreatedEventData
 uid: '@azure/eventgrid.KeyVaultKeyNewVersionCreatedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

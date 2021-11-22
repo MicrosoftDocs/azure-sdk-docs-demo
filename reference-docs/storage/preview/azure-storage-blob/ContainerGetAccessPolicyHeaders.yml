@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerGetAccessPolicyHeaders
 uid: '@azure/storage-blob.ContainerGetAccessPolicyHeaders|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateLinkResourceListResult
 uid: '@azure/arm-appconfiguration.PrivateLinkResourceListResult|latest-stable'
 package: '@azure/arm-appconfiguration|latest-stable'

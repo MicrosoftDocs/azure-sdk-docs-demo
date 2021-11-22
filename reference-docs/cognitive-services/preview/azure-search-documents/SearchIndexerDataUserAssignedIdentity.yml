@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SearchIndexerDataUserAssignedIdentity
 uid: '@azure/search-documents.SearchIndexerDataUserAssignedIdentity|preview'
 package: '@azure/search-documents|preview'

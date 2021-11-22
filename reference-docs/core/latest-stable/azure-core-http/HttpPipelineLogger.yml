@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: HttpPipelineLogger
 uid: '@azure/core-http.HttpPipelineLogger|latest-stable'
 package: '@azure/core-http|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: JSONObject
 uid: '@azure/cosmos.JSONObject|latest-stable'
 package: '@azure/cosmos|latest-stable'

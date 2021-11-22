@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: LeaseDurationType
 uid: '@azure/storage-blob.LeaseDurationType|latest-stable'
 package: '@azure/storage-blob|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobDeleteOptions
 uid: '@azure/storage-blob.BlobDeleteOptions|preview'
 package: '@azure/storage-blob|preview'

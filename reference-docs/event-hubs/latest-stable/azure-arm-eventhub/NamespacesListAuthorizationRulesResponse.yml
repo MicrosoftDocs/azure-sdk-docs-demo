@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NamespacesListAuthorizationRulesResponse
 uid: '@azure/arm-eventhub.NamespacesListAuthorizationRulesResponse|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccessPolicy
 uid: '@azure/storage-file-share.AccessPolicy|preview'
 package: '@azure/storage-file-share|preview'

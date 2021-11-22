@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AppendBlobCreateIfNotExistsResponse
 uid: '@azure/storage-blob.AppendBlobCreateIfNotExistsResponse|preview'
 package: '@azure/storage-blob|preview'

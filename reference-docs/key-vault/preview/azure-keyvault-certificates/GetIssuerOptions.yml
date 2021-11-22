@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: GetIssuerOptions
 uid: '@azure/keyvault-certificates.GetIssuerOptions|preview'
 package: '@azure/keyvault-certificates|preview'

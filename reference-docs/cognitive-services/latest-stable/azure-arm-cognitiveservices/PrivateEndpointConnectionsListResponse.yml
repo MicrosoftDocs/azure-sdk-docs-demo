@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateEndpointConnectionsListResponse
 uid: >-
   @azure/arm-cognitiveservices.PrivateEndpointConnectionsListResponse|latest-stable

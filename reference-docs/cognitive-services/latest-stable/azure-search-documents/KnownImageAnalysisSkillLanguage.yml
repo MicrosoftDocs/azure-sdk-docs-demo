@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownImageAnalysisSkillLanguage
 uid: '@azure/search-documents.KnownImageAnalysisSkillLanguage|latest-stable'
 package: '@azure/search-documents|latest-stable'

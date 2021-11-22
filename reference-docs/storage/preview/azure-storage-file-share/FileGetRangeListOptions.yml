@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileGetRangeListOptions
 uid: '@azure/storage-file-share.FileGetRangeListOptions|preview'
 package: '@azure/storage-file-share|preview'

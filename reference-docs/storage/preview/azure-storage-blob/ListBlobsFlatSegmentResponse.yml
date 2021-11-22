@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListBlobsFlatSegmentResponse
 uid: '@azure/storage-blob.ListBlobsFlatSegmentResponse|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ConnectionState
 uid: '@azure/arm-servicebus.ConnectionState|preview'
 package: '@azure/arm-servicebus|preview'

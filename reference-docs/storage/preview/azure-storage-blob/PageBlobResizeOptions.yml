@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PageBlobResizeOptions
 uid: '@azure/storage-blob.PageBlobResizeOptions|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AcsChatThreadEventBase
 uid: '@azure/eventgrid.AcsChatThreadEventBase|latest-stable'
 package: '@azure/eventgrid|latest-stable'

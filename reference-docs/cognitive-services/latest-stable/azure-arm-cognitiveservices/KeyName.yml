@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyName
 uid: '@azure/arm-cognitiveservices.KeyName|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

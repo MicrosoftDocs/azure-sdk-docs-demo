@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueServiceProperties
 uid: '@azure/storage-queue.QueueServiceProperties|preview'
 package: '@azure/storage-queue|preview'

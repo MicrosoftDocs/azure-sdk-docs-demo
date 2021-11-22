@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageBlobInventoryPolicyCompletedEventData
 uid: '@azure/eventgrid.StorageBlobInventoryPolicyCompletedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

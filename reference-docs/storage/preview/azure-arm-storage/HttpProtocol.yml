@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: HttpProtocol
 uid: '@azure/arm-storage.HttpProtocol|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultProperties
 uid: '@azure/arm-eventhub.KeyVaultProperties|preview'
 package: '@azure/arm-eventhub|preview'

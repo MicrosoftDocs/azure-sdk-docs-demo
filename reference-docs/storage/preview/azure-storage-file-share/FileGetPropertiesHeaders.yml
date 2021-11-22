@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileGetPropertiesHeaders
 uid: '@azure/storage-file-share.FileGetPropertiesHeaders|preview'
 package: '@azure/storage-file-share|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CorsRuleAllowedMethodsItem
 uid: '@azure/arm-storage.CorsRuleAllowedMethodsItem|preview'
 package: '@azure/arm-storage|preview'

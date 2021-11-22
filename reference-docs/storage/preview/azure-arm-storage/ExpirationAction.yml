@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ExpirationAction
 uid: '@azure/arm-storage.ExpirationAction|preview'
 package: '@azure/arm-storage|preview'

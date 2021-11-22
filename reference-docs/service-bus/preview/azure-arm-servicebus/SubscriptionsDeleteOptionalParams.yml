@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SubscriptionsDeleteOptionalParams
 uid: '@azure/arm-servicebus.SubscriptionsDeleteOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

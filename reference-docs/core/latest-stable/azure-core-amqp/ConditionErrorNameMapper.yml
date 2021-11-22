@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: ConditionErrorNameMapper
 uid: '@azure/core-amqp.ConditionErrorNameMapper|latest-stable'
 package: '@azure/core-amqp|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DefaultSharePermission
 uid: '@azure/arm-storage.DefaultSharePermission|preview'
 package: '@azure/arm-storage|preview'

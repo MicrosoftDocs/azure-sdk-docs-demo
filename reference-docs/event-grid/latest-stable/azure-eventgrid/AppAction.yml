@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AppAction
 uid: '@azure/eventgrid.AppAction|latest-stable'
 package: '@azure/eventgrid|latest-stable'

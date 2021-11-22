@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyType_2
 uid: '@azure/arm-storage.KeyType_2|preview'
 package: '@azure/arm-storage|preview'

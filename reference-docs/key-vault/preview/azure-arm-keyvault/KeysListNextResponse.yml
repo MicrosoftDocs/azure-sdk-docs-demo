@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeysListNextResponse
 uid: '@azure/arm-keyvault.KeysListNextResponse|preview'
 package: '@azure/arm-keyvault|preview'

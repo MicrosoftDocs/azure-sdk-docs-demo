@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BeginRecognizeIdentityDocumentsOptions
 uid: '@azure/ai-form-recognizer.BeginRecognizeIdentityDocumentsOptions|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

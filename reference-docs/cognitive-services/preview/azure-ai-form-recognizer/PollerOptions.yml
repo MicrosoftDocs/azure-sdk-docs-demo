@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PollerOptions
 uid: '@azure/ai-form-recognizer.PollerOptions|preview'
 package: '@azure/ai-form-recognizer|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobContainersListNextResponse
 uid: '@azure/arm-storage.BlobContainersListNextResponse|preview'
 package: '@azure/arm-storage|preview'

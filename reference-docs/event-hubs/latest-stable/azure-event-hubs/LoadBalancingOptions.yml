@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LoadBalancingOptions
 uid: '@azure/event-hubs.LoadBalancingOptions|latest-stable'
 package: '@azure/event-hubs|latest-stable'

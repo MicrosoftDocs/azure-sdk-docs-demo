@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AdvancedFilter
 uid: '@azure/arm-eventgrid.AdvancedFilter|preview'
 package: '@azure/arm-eventgrid|preview'

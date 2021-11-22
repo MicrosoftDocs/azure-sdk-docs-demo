@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: OperationDisplay
 uid: '@azure/arm-eventhub.OperationDisplay|preview'
 package: '@azure/arm-eventhub|preview'

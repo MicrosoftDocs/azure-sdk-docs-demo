@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: WebBackupOperationFailedEventData
 uid: '@azure/eventgrid.WebBackupOperationFailedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: OperationsListNextResponse
 uid: '@azure/arm-eventhub.OperationsListNextResponse|preview'
 package: '@azure/arm-eventhub|preview'

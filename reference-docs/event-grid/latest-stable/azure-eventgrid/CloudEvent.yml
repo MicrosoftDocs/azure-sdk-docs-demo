@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CloudEvent
 uid: '@azure/eventgrid.CloudEvent|latest-stable'
 package: '@azure/eventgrid|latest-stable'

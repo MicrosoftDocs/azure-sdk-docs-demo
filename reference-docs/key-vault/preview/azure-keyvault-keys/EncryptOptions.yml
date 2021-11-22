@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EncryptOptions
 uid: '@azure/keyvault-keys.EncryptOptions|preview'
 package: '@azure/keyvault-keys|preview'

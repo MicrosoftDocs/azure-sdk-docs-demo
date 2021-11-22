@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ResourceActionFailureEventData
 uid: '@azure/eventgrid.ResourceActionFailureEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventHubConsumerClientOptions
 uid: '@azure/event-hubs.EventHubConsumerClientOptions|latest-stable'
 package: '@azure/event-hubs|latest-stable'

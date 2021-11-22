@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EHNamespaceIdListResult
 uid: '@azure/arm-eventhub.EHNamespaceIdListResult|preview'
 package: '@azure/arm-eventhub|preview'

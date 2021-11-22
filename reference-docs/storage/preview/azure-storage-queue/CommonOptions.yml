@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CommonOptions
 uid: '@azure/storage-queue.CommonOptions|preview'
 package: '@azure/storage-queue|preview'

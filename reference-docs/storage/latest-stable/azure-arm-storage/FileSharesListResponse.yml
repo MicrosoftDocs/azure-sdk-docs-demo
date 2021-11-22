@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileSharesListResponse
 uid: '@azure/arm-storage.FileSharesListResponse|latest-stable'
 package: '@azure/arm-storage|latest-stable'

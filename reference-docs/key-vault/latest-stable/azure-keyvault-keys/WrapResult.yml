@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: WrapResult
 uid: '@azure/keyvault-keys.WrapResult|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

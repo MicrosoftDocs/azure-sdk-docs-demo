@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ResourceSkuRestrictionsReasonCode
 uid: '@azure/arm-cognitiveservices.ResourceSkuRestrictionsReasonCode|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

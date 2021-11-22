@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PhoneticEncoder
 uid: '@azure/search-documents.PhoneticEncoder|latest-stable'
 package: '@azure/search-documents|latest-stable'

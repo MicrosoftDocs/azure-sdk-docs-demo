@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ShareSASPermissions
 uid: '@azure/storage-file-share.ShareSASPermissions|preview'
 package: '@azure/storage-file-share|preview'

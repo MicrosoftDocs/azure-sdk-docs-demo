@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: LeaseOperationResponse
 uid: '@azure/storage-file-share.LeaseOperationResponse|preview'
 package: '@azure/storage-file-share|preview'

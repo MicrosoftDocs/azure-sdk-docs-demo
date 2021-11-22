@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: GetRoleAssignmentOptions
 uid: '@azure/keyvault-admin.GetRoleAssignmentOptions|preview'
 package: '@azure/keyvault-admin|preview'

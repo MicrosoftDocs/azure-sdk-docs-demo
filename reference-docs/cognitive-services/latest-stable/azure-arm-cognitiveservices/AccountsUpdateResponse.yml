@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AccountsUpdateResponse
 uid: '@azure/arm-cognitiveservices.AccountsUpdateResponse|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

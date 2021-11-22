@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: VaultsListBySubscriptionNextOptionalParams
 uid: '@azure/arm-keyvault.VaultsListBySubscriptionNextOptionalParams|preview'
 package: '@azure/arm-keyvault|preview'

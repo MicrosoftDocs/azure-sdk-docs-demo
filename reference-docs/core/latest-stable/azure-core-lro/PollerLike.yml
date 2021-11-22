@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PollerLike
 uid: '@azure/core-lro.PollerLike|latest-stable'
 package: '@azure/core-lro|latest-stable'

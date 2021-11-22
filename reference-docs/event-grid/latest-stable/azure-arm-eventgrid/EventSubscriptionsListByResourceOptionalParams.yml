@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventSubscriptionsListByResourceOptionalParams
 uid: >-
   @azure/arm-eventgrid.EventSubscriptionsListByResourceOptionalParams|latest-stable

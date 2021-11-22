@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownImageDetail
 uid: '@azure/search-documents.KnownImageDetail|preview'
 package: '@azure/search-documents|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceFindBlobByTagsOptions
 uid: '@azure/storage-blob.ServiceFindBlobByTagsOptions|preview'
 package: '@azure/storage-blob|preview'

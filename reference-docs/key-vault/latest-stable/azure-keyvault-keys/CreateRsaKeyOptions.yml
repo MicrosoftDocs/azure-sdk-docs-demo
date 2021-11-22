@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CreateRsaKeyOptions
 uid: '@azure/keyvault-keys.CreateRsaKeyOptions|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

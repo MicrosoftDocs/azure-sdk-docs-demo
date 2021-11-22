@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: WarningCode
 uid: '@azure/ai-text-analytics.WarningCode|preview'
 package: '@azure/ai-text-analytics|preview'

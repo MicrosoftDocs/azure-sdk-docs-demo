@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SmbSetting
 uid: '@azure/arm-storage.SmbSetting|latest-stable'
 package: '@azure/arm-storage|latest-stable'

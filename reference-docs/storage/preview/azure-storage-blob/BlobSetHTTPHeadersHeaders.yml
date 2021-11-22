@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobSetHTTPHeadersHeaders
 uid: '@azure/storage-blob.BlobSetHTTPHeadersHeaders|preview'
 package: '@azure/storage-blob|preview'

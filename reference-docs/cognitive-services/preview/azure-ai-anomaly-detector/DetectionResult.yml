@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DetectionResult
 uid: '@azure/ai-anomaly-detector.DetectionResult|preview'
 package: '@azure/ai-anomaly-detector|preview'

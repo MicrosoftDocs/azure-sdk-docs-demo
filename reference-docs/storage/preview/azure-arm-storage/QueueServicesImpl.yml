@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueServicesImpl
 uid: '@azure/arm-storage.QueueServicesImpl|preview'
 package: '@azure/arm-storage|preview'

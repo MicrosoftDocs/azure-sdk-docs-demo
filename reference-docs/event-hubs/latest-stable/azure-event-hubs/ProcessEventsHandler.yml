@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ProcessEventsHandler
 uid: '@azure/event-hubs.ProcessEventsHandler|latest-stable'
 package: '@azure/event-hubs|latest-stable'

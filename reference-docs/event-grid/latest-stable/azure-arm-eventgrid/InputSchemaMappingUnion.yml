@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: InputSchemaMappingUnion
 uid: '@azure/arm-eventgrid.InputSchemaMappingUnion|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

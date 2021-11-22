@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RecognizeCategorizedEntitiesResultArray
 uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray|preview'
 package: '@azure/ai-text-analytics|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DetectLastPointResponse
 uid: '@azure/ai-anomaly-detector.DetectLastPointResponse|preview'
 package: '@azure/ai-anomaly-detector|preview'

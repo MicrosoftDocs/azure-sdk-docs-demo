@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: GetMessageIteratorOptions
 uid: '@azure/service-bus.GetMessageIteratorOptions|latest-stable'
 package: '@azure/service-bus|latest-stable'

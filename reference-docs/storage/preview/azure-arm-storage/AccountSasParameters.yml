@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccountSasParameters
 uid: '@azure/arm-storage.AccountSasParameters|preview'
 package: '@azure/arm-storage|preview'

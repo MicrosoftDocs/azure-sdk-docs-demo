@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AlignMode
 uid: '@azure/ai-anomaly-detector.AlignMode|preview'
 package: '@azure/ai-anomaly-detector|preview'

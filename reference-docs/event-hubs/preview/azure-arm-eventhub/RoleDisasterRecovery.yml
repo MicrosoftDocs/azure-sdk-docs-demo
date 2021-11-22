@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RoleDisasterRecovery
 uid: '@azure/arm-eventhub.RoleDisasterRecovery|preview'
 package: '@azure/arm-eventhub|preview'

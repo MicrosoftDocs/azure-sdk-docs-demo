@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: IndexerExecutionResult
 uid: '@azure/search-documents.IndexerExecutionResult|latest-stable'
 package: '@azure/search-documents|latest-stable'

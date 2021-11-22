@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobType
 uid: '@azure/storage-blob.BlobType|preview'
 package: '@azure/storage-blob|preview'

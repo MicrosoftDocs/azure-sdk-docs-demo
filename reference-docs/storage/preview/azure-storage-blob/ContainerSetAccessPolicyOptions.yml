@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerSetAccessPolicyOptions
 uid: '@azure/storage-blob.ContainerSetAccessPolicyOptions|preview'
 package: '@azure/storage-blob|preview'

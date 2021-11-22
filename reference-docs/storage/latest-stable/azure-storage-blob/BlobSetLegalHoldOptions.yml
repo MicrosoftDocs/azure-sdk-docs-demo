@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobSetLegalHoldOptions
 uid: '@azure/storage-blob.BlobSetLegalHoldOptions|latest-stable'
 package: '@azure/storage-blob|latest-stable'

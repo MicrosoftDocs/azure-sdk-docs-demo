@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DataDeletionDetectionPolicy
 uid: '@azure/search-documents.DataDeletionDetectionPolicy|latest-stable'
 package: '@azure/search-documents|latest-stable'

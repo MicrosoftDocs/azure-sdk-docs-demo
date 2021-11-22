@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSystemDeleteOptions
 uid: '@azure/storage-file-datalake.FileSystemDeleteOptions|preview'
 package: '@azure/storage-file-datalake|preview'

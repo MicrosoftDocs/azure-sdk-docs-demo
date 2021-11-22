@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: VaultsGetDeletedResponse
 uid: '@azure/arm-keyvault.VaultsGetDeletedResponse|preview'
 package: '@azure/arm-keyvault|preview'

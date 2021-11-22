@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceCounters
 uid: '@azure/search-documents.ServiceCounters|latest-stable'
 package: '@azure/search-documents|latest-stable'

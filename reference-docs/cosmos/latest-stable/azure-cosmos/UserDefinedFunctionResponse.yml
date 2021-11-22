@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: UserDefinedFunctionResponse
 uid: '@azure/cosmos.UserDefinedFunctionResponse|latest-stable'
 package: '@azure/cosmos|latest-stable'

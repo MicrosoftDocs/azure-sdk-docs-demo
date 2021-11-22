@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: UpdateHistoryProperty
 uid: '@azure/arm-storage.UpdateHistoryProperty|preview'
 package: '@azure/arm-storage|preview'

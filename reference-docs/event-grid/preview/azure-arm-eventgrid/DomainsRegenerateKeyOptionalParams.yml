@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DomainsRegenerateKeyOptionalParams
 uid: '@azure/arm-eventgrid.DomainsRegenerateKeyOptionalParams|preview'
 package: '@azure/arm-eventgrid|preview'

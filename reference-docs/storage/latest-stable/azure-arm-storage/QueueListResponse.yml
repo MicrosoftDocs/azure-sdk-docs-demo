@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: QueueListResponse
 uid: '@azure/arm-storage.QueueListResponse|latest-stable'
 package: '@azure/arm-storage|latest-stable'

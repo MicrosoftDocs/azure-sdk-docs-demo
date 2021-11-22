@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: UserAssignedIdentity
 uid: '@azure/arm-cognitiveservices.UserAssignedIdentity|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

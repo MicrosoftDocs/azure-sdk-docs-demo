@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: IndexDocumentsBatch
 uid: '@azure/search-documents.IndexDocumentsBatch|latest-stable'
 package: '@azure/search-documents|latest-stable'

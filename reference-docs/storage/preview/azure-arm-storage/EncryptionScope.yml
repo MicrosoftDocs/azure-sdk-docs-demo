@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EncryptionScope
 uid: '@azure/arm-storage.EncryptionScope|preview'
 package: '@azure/arm-storage|preview'

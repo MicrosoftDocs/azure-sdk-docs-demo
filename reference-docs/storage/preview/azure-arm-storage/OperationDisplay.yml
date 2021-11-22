@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: OperationDisplay
 uid: '@azure/arm-storage.OperationDisplay|preview'
 package: '@azure/arm-storage|preview'

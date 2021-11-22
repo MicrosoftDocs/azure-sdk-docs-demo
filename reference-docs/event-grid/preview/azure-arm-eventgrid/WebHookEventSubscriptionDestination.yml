@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: WebHookEventSubscriptionDestination
 uid: '@azure/arm-eventgrid.WebHookEventSubscriptionDestination|preview'
 package: '@azure/arm-eventgrid|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Metrics
 uid: '@azure/storage-file-share.Metrics|preview'
 package: '@azure/storage-file-share|preview'

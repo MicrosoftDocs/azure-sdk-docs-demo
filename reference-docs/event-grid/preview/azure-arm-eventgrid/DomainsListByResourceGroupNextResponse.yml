@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DomainsListByResourceGroupNextResponse
 uid: '@azure/arm-eventgrid.DomainsListByResourceGroupNextResponse|preview'
 package: '@azure/arm-eventgrid|preview'

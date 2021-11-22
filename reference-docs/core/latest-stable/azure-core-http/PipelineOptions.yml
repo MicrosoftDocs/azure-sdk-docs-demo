@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PipelineOptions
 uid: '@azure/core-http.PipelineOptions|latest-stable'
 package: '@azure/core-http|latest-stable'

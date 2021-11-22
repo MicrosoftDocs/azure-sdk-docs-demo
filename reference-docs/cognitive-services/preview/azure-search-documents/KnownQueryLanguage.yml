@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownQueryLanguage
 uid: '@azure/search-documents.KnownQueryLanguage|preview'
 package: '@azure/search-documents|preview'

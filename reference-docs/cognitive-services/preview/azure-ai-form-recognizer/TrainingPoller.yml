@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TrainingPoller
 uid: '@azure/ai-form-recognizer.TrainingPoller|preview'
 package: '@azure/ai-form-recognizer|preview'

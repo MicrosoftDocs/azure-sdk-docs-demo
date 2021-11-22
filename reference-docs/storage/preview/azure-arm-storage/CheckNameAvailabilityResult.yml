@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CheckNameAvailabilityResult
 uid: '@azure/arm-storage.CheckNameAvailabilityResult|preview'
 package: '@azure/arm-storage|preview'

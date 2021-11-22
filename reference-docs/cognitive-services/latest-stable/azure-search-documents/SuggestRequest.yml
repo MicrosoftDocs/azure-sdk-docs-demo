@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SuggestRequest
 uid: '@azure/search-documents.SuggestRequest|latest-stable'
 package: '@azure/search-documents|latest-stable'

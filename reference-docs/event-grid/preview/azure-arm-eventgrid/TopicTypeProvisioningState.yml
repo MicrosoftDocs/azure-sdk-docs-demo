@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TopicTypeProvisioningState
 uid: '@azure/arm-eventgrid.TopicTypeProvisioningState|preview'
 package: '@azure/arm-eventgrid|preview'

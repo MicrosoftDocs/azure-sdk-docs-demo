@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ObjectReplicationPolicy
 uid: '@azure/arm-storage.ObjectReplicationPolicy|preview'
 package: '@azure/arm-storage|preview'

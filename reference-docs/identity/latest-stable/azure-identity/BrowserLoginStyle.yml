@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BrowserLoginStyle
 uid: '@azure/identity.BrowserLoginStyle|latest-stable'
 package: '@azure/identity|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageBlobDeletedEventData
 uid: '@azure/eventgrid.StorageBlobDeletedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

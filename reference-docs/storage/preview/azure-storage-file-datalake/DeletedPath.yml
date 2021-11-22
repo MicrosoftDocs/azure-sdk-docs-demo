@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeletedPath
 uid: '@azure/storage-file-datalake.DeletedPath|preview'
 package: '@azure/storage-file-datalake|preview'

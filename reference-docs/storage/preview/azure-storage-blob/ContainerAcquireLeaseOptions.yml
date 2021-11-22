@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerAcquireLeaseOptions
 uid: '@azure/storage-blob.ContainerAcquireLeaseOptions|preview'
 package: '@azure/storage-blob|preview'

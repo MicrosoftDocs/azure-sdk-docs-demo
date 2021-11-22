@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DomainsListBySubscriptionOptionalParams
 uid: '@azure/arm-eventgrid.DomainsListBySubscriptionOptionalParams|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

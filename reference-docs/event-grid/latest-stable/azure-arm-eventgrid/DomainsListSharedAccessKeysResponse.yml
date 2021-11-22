@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DomainsListSharedAccessKeysResponse
 uid: '@azure/arm-eventgrid.DomainsListSharedAccessKeysResponse|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

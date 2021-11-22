@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PollOperation
 uid: '@azure/core-lro.PollOperation|latest-stable'
 package: '@azure/core-lro|latest-stable'

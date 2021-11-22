@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: IdentityPlugin
 uid: '@azure/identity.IdentityPlugin|latest-stable'
 package: '@azure/identity|latest-stable'

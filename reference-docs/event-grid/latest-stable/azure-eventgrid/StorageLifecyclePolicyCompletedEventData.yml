@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageLifecyclePolicyCompletedEventData
 uid: '@azure/eventgrid.StorageLifecyclePolicyCompletedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

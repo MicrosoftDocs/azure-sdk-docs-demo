@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AnalyzeHealthcareEntitiesResult
 uid: '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'

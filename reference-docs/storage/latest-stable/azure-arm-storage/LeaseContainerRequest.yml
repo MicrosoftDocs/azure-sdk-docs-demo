@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LeaseContainerRequest
 uid: '@azure/arm-storage.LeaseContainerRequest|latest-stable'
 package: '@azure/arm-storage|latest-stable'

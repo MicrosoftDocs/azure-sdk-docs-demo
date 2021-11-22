@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ListDataSourceConnectionsOptions
 uid: '@azure/search-documents.ListDataSourceConnectionsOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

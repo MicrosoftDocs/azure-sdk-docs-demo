@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultPermission
 uid: '@azure/keyvault-admin.KeyVaultPermission|latest-stable'
 package: '@azure/keyvault-admin|latest-stable'

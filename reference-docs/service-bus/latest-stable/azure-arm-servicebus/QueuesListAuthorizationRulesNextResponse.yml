@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: QueuesListAuthorizationRulesNextResponse
 uid: '@azure/arm-servicebus.QueuesListAuthorizationRulesNextResponse|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

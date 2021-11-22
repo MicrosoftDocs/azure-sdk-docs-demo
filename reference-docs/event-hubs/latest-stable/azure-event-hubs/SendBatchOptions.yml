@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SendBatchOptions
 uid: '@azure/event-hubs.SendBatchOptions|latest-stable'
 package: '@azure/event-hubs|latest-stable'

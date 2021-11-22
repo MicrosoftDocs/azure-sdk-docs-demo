@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BeginRecognizeInvoicesOptions
 uid: '@azure/ai-form-recognizer.BeginRecognizeInvoicesOptions|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AdvancedFilterUnion
 uid: '@azure/arm-eventgrid.AdvancedFilterUnion|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

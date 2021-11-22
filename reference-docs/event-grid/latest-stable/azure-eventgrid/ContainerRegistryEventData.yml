@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerRegistryEventData
 uid: '@azure/eventgrid.ContainerRegistryEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventSubscriptionsListGlobalByResourceGroupForTopicTypeOptionalParams
 uid: >-
   @azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupForTopicTypeOptionalParams|preview

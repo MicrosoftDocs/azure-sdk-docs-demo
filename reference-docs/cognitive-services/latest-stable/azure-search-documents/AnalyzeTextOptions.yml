@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AnalyzeTextOptions
 uid: '@azure/search-documents.AnalyzeTextOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NamespacesGetNetworkRuleSetOptionalParams
 uid: '@azure/arm-eventhub.NamespacesGetNetworkRuleSetOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

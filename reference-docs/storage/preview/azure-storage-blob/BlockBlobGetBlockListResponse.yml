@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlockBlobGetBlockListResponse
 uid: '@azure/storage-blob.BlockBlobGetBlockListResponse|preview'
 package: '@azure/storage-blob|preview'

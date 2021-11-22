@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyValue
 uid: '@azure/arm-appconfiguration.KeyValue|latest-stable'
 package: '@azure/arm-appconfiguration|latest-stable'

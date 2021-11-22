@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ConsumerGroupsGetOptionalParams
 uid: '@azure/arm-eventhub.ConsumerGroupsGetOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

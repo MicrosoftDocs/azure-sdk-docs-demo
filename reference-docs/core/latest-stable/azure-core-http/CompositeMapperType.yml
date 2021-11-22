@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CompositeMapperType
 uid: '@azure/core-http.CompositeMapperType|latest-stable'
 package: '@azure/core-http|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: UniqueKeyPolicy
 uid: '@azure/cosmos.UniqueKeyPolicy|latest-stable'
 package: '@azure/cosmos|latest-stable'

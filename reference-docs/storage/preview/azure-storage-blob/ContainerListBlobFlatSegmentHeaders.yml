@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerListBlobFlatSegmentHeaders
 uid: '@azure/storage-blob.ContainerListBlobFlatSegmentHeaders|preview'
 package: '@azure/storage-blob|preview'

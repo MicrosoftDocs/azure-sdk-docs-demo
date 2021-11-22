@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AnalyzeActionsOperationState
 uid: '@azure/ai-text-analytics.AnalyzeActionsOperationState|preview'
 package: '@azure/ai-text-analytics|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StorageAccountsBeginRestoreBlobRangesResponse
 uid: '@azure/arm-storage.StorageAccountsBeginRestoreBlobRangesResponse|latest-stable'
 package: '@azure/arm-storage|latest-stable'

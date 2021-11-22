@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AnalyzeSentimentResultArray
 uid: '@azure/ai-text-analytics.AnalyzeSentimentResultArray|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'

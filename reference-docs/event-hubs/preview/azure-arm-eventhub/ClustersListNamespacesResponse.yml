@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ClustersListNamespacesResponse
 uid: '@azure/arm-eventhub.ClustersListNamespacesResponse|preview'
 package: '@azure/arm-eventhub|preview'

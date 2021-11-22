@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SignedResourceTypes
 uid: '@azure/arm-storage.SignedResourceTypes|latest-stable'
 package: '@azure/arm-storage|latest-stable'

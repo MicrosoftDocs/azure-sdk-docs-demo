@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PageBlobResizeResponse
 uid: '@azure/storage-blob.PageBlobResizeResponse|preview'
 package: '@azure/storage-blob|preview'

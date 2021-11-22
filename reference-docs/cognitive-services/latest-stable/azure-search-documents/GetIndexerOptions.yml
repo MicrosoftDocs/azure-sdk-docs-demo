@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: GetIndexerOptions
 uid: '@azure/search-documents.GetIndexerOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RoutingChoice
 uid: '@azure/arm-storage.RoutingChoice|preview'
 package: '@azure/arm-storage|preview'

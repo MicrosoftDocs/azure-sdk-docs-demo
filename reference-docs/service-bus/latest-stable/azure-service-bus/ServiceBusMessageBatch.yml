@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceBusMessageBatch
 uid: '@azure/service-bus.ServiceBusMessageBatch|latest-stable'
 package: '@azure/service-bus|latest-stable'

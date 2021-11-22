@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BaseDataDeletionDetectionPolicy
 uid: '@azure/search-documents.BaseDataDeletionDetectionPolicy|latest-stable'
 package: '@azure/search-documents|latest-stable'

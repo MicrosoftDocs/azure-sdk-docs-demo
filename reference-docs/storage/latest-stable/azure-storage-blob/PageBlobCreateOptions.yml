@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PageBlobCreateOptions
 uid: '@azure/storage-blob.PageBlobCreateOptions|latest-stable'
 package: '@azure/storage-blob|latest-stable'

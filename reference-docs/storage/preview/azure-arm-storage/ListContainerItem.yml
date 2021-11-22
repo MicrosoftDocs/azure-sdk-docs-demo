@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ListContainerItem
 uid: '@azure/arm-storage.ListContainerItem|preview'
 package: '@azure/arm-storage|preview'

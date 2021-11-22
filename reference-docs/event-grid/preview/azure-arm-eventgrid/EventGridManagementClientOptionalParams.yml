@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventGridManagementClientOptionalParams
 uid: '@azure/arm-eventgrid.EventGridManagementClientOptionalParams|preview'
 package: '@azure/arm-eventgrid|preview'

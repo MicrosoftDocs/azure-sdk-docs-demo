@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SASQueryParameters
 uid: '@azure/storage-file-share.SASQueryParameters|preview'
 package: '@azure/storage-file-share|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DeadLetterDestinationUnion
 uid: '@azure/arm-eventgrid.DeadLetterDestinationUnion|preview'
 package: '@azure/arm-eventgrid|preview'

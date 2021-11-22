@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageBlobDeadLetterDestination
 uid: '@azure/arm-eventgrid.StorageBlobDeadLetterDestination|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

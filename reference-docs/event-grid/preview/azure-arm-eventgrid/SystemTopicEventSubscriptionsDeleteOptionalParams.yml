@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SystemTopicEventSubscriptionsDeleteOptionalParams
 uid: '@azure/arm-eventgrid.SystemTopicEventSubscriptionsDeleteOptionalParams|preview'
 package: '@azure/arm-eventgrid|preview'

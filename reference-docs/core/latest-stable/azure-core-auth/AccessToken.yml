@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccessToken
 uid: '@azure/core-auth.AccessToken|latest-stable'
 package: '@azure/core-auth|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: SASProtocol
 uid: '@azure/storage-file-share.SASProtocol|latest-stable'
 package: '@azure/storage-file-share|latest-stable'

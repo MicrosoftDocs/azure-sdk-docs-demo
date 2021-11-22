@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AcsChatParticipantRemovedFromThreadEventData
 uid: '@azure/eventgrid.AcsChatParticipantRemovedFromThreadEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

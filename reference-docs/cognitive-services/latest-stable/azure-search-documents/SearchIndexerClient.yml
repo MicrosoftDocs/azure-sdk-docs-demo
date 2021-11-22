@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SearchIndexerClient
 uid: '@azure/search-documents.SearchIndexerClient|latest-stable'
 package: '@azure/search-documents|latest-stable'

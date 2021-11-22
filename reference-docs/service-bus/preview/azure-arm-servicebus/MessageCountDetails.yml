@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MessageCountDetails
 uid: '@azure/arm-servicebus.MessageCountDetails|preview'
 package: '@azure/arm-servicebus|preview'

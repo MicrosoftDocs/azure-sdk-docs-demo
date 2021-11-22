@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DisasterRecoveryConfigsDeleteOptionalParams
 uid: '@azure/arm-eventhub.DisasterRecoveryConfigsDeleteOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

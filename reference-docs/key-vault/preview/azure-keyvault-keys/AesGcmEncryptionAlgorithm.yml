@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AesGcmEncryptionAlgorithm
 uid: '@azure/keyvault-keys.AesGcmEncryptionAlgorithm|preview'
 package: '@azure/keyvault-keys|preview'

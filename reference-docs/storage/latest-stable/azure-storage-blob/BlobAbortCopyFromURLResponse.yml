@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobAbortCopyFromURLResponse
 uid: '@azure/storage-blob.BlobAbortCopyFromURLResponse|latest-stable'
 package: '@azure/storage-blob|latest-stable'

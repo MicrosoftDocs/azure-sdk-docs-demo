@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ManagementPoliciesDeleteOptionalParams
 uid: '@azure/arm-storage.ManagementPoliciesDeleteOptionalParams|preview'
 package: '@azure/arm-storage|preview'

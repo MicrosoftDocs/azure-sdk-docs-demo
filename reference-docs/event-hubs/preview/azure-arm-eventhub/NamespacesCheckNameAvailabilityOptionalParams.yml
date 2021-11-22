@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NamespacesCheckNameAvailabilityOptionalParams
 uid: '@azure/arm-eventhub.NamespacesCheckNameAvailabilityOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

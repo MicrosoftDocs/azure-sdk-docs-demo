@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StaticWebsite
 uid: '@azure/storage-blob.StaticWebsite|latest-stable'
 package: '@azure/storage-blob|latest-stable'

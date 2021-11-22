@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AsyncStatus
 uid: '@azure/eventgrid.AsyncStatus|latest-stable'
 package: '@azure/eventgrid|latest-stable'

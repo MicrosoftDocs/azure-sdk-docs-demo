@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventHubBufferedProducerClientOptions
 uid: '@azure/event-hubs.EventHubBufferedProducerClientOptions|preview'
 package: '@azure/event-hubs|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AcsUserDisconnectedEventData
 uid: '@azure/eventgrid.AcsUserDisconnectedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

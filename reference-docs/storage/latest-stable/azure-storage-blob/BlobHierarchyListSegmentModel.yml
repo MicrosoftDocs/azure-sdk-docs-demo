@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobHierarchyListSegmentModel
 uid: '@azure/storage-blob.BlobHierarchyListSegmentModel|latest-stable'
 package: '@azure/storage-blob|latest-stable'

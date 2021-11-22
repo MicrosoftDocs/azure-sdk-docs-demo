@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ListTableItemsOptions
 uid: '@azure/data-tables.ListTableItemsOptions|latest-stable'
 package: '@azure/data-tables|latest-stable'

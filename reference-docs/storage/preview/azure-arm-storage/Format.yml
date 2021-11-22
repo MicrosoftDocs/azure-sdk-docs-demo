@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: Format
 uid: '@azure/arm-storage.Format|preview'
 package: '@azure/arm-storage|preview'

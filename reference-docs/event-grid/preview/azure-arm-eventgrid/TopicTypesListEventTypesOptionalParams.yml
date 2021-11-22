@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TopicTypesListEventTypesOptionalParams
 uid: '@azure/arm-eventgrid.TopicTypesListEventTypesOptionalParams|preview'
 package: '@azure/arm-eventgrid|preview'

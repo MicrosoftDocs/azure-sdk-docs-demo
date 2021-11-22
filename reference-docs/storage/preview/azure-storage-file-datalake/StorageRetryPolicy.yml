@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageRetryPolicy
 uid: '@azure/storage-file-datalake.StorageRetryPolicy|preview'
 package: '@azure/storage-file-datalake|preview'

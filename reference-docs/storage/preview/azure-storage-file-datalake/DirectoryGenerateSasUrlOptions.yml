@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DirectoryGenerateSasUrlOptions
 uid: '@azure/storage-file-datalake.DirectoryGenerateSasUrlOptions|preview'
 package: '@azure/storage-file-datalake|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SUPPORTED_API_VERSIONS
 uid: '@azure/keyvault-admin.SUPPORTED_API_VERSIONS|latest-stable'
 package: '@azure/keyvault-admin|latest-stable'

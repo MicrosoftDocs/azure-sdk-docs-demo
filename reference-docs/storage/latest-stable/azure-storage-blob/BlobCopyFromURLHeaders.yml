@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobCopyFromURLHeaders
 uid: '@azure/storage-blob.BlobCopyFromURLHeaders|latest-stable'
 package: '@azure/storage-blob|latest-stable'

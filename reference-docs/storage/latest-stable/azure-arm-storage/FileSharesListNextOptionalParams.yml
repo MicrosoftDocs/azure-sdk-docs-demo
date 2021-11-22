@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSharesListNextOptionalParams
 uid: '@azure/arm-storage.FileSharesListNextOptionalParams|latest-stable'
 package: '@azure/arm-storage|latest-stable'

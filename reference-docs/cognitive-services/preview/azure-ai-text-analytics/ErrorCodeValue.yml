@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ErrorCodeValue
 uid: '@azure/ai-text-analytics.ErrorCodeValue|preview'
 package: '@azure/ai-text-analytics|preview'

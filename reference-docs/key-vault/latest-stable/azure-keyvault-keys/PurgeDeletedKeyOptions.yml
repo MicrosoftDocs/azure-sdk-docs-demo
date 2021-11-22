@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PurgeDeletedKeyOptions
 uid: '@azure/keyvault-keys.PurgeDeletedKeyOptions|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: QueueGetAccessPolicyResponse
 uid: '@azure/storage-queue.QueueGetAccessPolicyResponse|preview'
 package: '@azure/storage-queue|preview'

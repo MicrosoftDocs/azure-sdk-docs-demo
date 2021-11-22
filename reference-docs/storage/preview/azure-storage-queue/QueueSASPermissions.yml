@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueSASPermissions
 uid: '@azure/storage-queue.QueueSASPermissions|preview'
 package: '@azure/storage-queue|preview'

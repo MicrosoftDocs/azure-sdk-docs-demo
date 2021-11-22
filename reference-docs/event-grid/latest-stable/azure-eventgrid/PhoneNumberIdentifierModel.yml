@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PhoneNumberIdentifierModel
 uid: '@azure/eventgrid.PhoneNumberIdentifierModel|latest-stable'
 package: '@azure/eventgrid|latest-stable'

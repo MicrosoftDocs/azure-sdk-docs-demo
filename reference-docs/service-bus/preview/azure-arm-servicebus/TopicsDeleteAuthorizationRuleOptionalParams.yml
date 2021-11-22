@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TopicsDeleteAuthorizationRuleOptionalParams
 uid: '@azure/arm-servicebus.TopicsDeleteAuthorizationRuleOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

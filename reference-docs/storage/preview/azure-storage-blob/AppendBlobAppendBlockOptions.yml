@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AppendBlobAppendBlockOptions
 uid: '@azure/storage-blob.AppendBlobAppendBlockOptions|preview'
 package: '@azure/storage-blob|preview'

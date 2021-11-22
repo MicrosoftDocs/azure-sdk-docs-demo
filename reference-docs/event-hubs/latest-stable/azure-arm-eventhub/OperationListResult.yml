@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: OperationListResult
 uid: '@azure/arm-eventhub.OperationListResult|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

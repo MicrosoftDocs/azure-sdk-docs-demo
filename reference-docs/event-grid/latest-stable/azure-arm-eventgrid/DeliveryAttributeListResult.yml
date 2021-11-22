@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeliveryAttributeListResult
 uid: '@azure/arm-eventgrid.DeliveryAttributeListResult|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: OcrSkillLanguage
 uid: '@azure/search-documents.OcrSkillLanguage|latest-stable'
 package: '@azure/search-documents|latest-stable'

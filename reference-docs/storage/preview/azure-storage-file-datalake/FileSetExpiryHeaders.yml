@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSetExpiryHeaders
 uid: '@azure/storage-file-datalake.FileSetExpiryHeaders|preview'
 package: '@azure/storage-file-datalake|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AcsChatParticipantAddedToThreadWithUserEventData
 uid: >-
   @azure/eventgrid.AcsChatParticipantAddedToThreadWithUserEventData|latest-stable

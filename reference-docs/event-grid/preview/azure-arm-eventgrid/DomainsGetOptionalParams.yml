@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DomainsGetOptionalParams
 uid: '@azure/arm-eventgrid.DomainsGetOptionalParams|preview'
 package: '@azure/arm-eventgrid|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSharesLeaseOptionalParams
 uid: '@azure/arm-storage.FileSharesLeaseOptionalParams|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PageBlobCreateIfNotExistsOptions
 uid: '@azure/storage-blob.PageBlobCreateIfNotExistsOptions|latest-stable'
 package: '@azure/storage-blob|latest-stable'

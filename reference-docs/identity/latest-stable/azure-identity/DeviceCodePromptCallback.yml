@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DeviceCodePromptCallback
 uid: '@azure/identity.DeviceCodePromptCallback|latest-stable'
 package: '@azure/identity|latest-stable'

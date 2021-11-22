@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: OperationsCheckNameAvailabilityResponse
 uid: >-
   @azure/arm-appconfiguration.OperationsCheckNameAvailabilityResponse|latest-stable

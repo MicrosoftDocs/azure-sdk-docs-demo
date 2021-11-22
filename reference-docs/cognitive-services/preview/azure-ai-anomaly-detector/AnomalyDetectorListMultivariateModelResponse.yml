@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AnomalyDetectorListMultivariateModelResponse
 uid: >-
   @azure/ai-anomaly-detector.AnomalyDetectorListMultivariateModelResponse|preview

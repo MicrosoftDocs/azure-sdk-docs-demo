@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PathMoveResponse
 uid: '@azure/storage-file-datalake.PathMoveResponse|latest-stable'
 package: '@azure/storage-file-datalake|latest-stable'

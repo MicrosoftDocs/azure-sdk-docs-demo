@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AcsSmsReceivedEventData
 uid: '@azure/eventgrid.AcsSmsReceivedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

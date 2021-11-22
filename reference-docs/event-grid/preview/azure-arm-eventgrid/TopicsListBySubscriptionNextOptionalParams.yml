@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TopicsListBySubscriptionNextOptionalParams
 uid: '@azure/arm-eventgrid.TopicsListBySubscriptionNextOptionalParams|preview'
 package: '@azure/arm-eventgrid|preview'

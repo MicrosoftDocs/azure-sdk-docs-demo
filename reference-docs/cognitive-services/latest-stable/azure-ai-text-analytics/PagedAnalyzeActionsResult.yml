@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PagedAnalyzeActionsResult
 uid: '@azure/ai-text-analytics.PagedAnalyzeActionsResult|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'

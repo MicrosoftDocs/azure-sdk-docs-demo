@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PatternAnalyzer
 uid: '@azure/search-documents.PatternAnalyzer|preview'
 package: '@azure/search-documents|preview'

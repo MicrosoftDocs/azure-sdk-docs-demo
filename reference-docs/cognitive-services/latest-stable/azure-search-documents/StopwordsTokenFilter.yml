@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StopwordsTokenFilter
 uid: '@azure/search-documents.StopwordsTokenFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

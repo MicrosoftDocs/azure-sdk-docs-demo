@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccountSasParameters
 uid: '@azure/arm-storage.AccountSasParameters|latest-stable'
 package: '@azure/arm-storage|latest-stable'

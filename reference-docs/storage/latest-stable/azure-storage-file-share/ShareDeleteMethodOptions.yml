@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ShareDeleteMethodOptions
 uid: '@azure/storage-file-share.ShareDeleteMethodOptions|latest-stable'
 package: '@azure/storage-file-share|latest-stable'

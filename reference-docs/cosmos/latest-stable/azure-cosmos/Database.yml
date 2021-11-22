@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Database
 uid: '@azure/cosmos.Database|latest-stable'
 package: '@azure/cosmos|latest-stable'

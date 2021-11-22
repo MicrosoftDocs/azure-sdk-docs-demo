@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SplitSkill
 uid: '@azure/search-documents.SplitSkill|preview'
 package: '@azure/search-documents|preview'

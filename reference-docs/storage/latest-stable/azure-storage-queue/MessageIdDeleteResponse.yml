@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MessageIdDeleteResponse
 uid: '@azure/storage-queue.MessageIdDeleteResponse|latest-stable'
 package: '@azure/storage-queue|latest-stable'

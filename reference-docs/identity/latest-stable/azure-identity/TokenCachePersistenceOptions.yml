@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TokenCachePersistenceOptions
 uid: '@azure/identity.TokenCachePersistenceOptions|latest-stable'
 package: '@azure/identity|latest-stable'

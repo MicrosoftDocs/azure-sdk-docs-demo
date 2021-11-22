@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SystemTopicsListBySubscriptionNextResponse
 uid: '@azure/arm-eventgrid.SystemTopicsListBySubscriptionNextResponse|preview'
 package: '@azure/arm-eventgrid|preview'

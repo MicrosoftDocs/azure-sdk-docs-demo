@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MediaLiveEventEncoderConnectedEventData
 uid: '@azure/eventgrid.MediaLiveEventEncoderConnectedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

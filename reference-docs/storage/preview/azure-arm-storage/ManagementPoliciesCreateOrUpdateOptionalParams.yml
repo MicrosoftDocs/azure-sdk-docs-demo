@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ManagementPoliciesCreateOrUpdateOptionalParams
 uid: '@azure/arm-storage.ManagementPoliciesCreateOrUpdateOptionalParams|preview'
 package: '@azure/arm-storage|preview'

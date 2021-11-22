@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateEndpointConnection
 uid: '@azure/arm-cognitiveservices.PrivateEndpointConnection|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

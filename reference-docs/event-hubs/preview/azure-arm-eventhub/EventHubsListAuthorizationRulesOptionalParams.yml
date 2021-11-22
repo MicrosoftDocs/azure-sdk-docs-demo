@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventHubsListAuthorizationRulesOptionalParams
 uid: '@azure/arm-eventhub.EventHubsListAuthorizationRulesOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

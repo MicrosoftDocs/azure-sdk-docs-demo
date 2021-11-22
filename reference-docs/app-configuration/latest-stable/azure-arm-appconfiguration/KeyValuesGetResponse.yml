@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyValuesGetResponse
 uid: '@azure/arm-appconfiguration.KeyValuesGetResponse|latest-stable'
 package: '@azure/arm-appconfiguration|latest-stable'

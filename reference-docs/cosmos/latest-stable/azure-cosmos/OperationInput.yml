@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: OperationInput
 uid: '@azure/cosmos.OperationInput|latest-stable'
 package: '@azure/cosmos|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownTextSplitMode
 uid: '@azure/search-documents.KnownTextSplitMode|latest-stable'
 package: '@azure/search-documents|latest-stable'

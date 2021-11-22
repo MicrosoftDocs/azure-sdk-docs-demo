@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileUploadRangeFromURLOptionalParams
 uid: '@azure/storage-file-share.FileUploadRangeFromURLOptionalParams|preview'
 package: '@azure/storage-file-share|preview'

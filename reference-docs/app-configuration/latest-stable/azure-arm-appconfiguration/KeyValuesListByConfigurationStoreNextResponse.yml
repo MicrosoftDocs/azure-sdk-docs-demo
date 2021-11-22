@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyValuesListByConfigurationStoreNextResponse
 uid: >-
   @azure/arm-appconfiguration.KeyValuesListByConfigurationStoreNextResponse|latest-stable

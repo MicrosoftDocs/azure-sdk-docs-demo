@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DirectoryListFilesAndDirectoriesOptions
 uid: '@azure/storage-file-share.DirectoryListFilesAndDirectoriesOptions|preview'
 package: '@azure/storage-file-share|preview'

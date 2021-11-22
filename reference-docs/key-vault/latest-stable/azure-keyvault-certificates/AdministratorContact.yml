@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AdministratorContact
 uid: '@azure/keyvault-certificates.AdministratorContact|latest-stable'
 package: '@azure/keyvault-certificates|latest-stable'

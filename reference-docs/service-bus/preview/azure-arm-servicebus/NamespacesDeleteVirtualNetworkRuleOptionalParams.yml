@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NamespacesDeleteVirtualNetworkRuleOptionalParams
 uid: '@azure/arm-servicebus.NamespacesDeleteVirtualNetworkRuleOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

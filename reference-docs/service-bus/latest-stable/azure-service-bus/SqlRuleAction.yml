@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SqlRuleAction
 uid: '@azure/service-bus.SqlRuleAction|latest-stable'
 package: '@azure/service-bus|latest-stable'

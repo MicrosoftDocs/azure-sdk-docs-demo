@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DomainAvailability
 uid: '@azure/arm-cognitiveservices.DomainAvailability|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

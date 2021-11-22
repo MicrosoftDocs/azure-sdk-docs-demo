@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SearchIndexStatistics
 uid: '@azure/search-documents.SearchIndexStatistics|latest-stable'
 package: '@azure/search-documents|latest-stable'

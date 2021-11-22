@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: OfferResponse
 uid: '@azure/cosmos.OfferResponse|latest-stable'
 package: '@azure/cosmos|latest-stable'

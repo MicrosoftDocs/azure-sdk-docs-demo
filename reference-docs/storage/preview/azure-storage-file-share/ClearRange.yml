@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ClearRange
 uid: '@azure/storage-file-share.ClearRange|preview'
 package: '@azure/storage-file-share|preview'

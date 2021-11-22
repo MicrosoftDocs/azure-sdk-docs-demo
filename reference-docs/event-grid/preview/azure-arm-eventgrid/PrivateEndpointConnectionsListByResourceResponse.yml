@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateEndpointConnectionsListByResourceResponse
 uid: '@azure/arm-eventgrid.PrivateEndpointConnectionsListByResourceResponse|preview'
 package: '@azure/arm-eventgrid|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSystemSetAccessPolicyHeaders
 uid: '@azure/storage-file-datalake.FileSystemSetAccessPolicyHeaders|latest-stable'
 package: '@azure/storage-file-datalake|latest-stable'

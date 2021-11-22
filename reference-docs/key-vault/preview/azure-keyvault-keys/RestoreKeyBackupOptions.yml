@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RestoreKeyBackupOptions
 uid: '@azure/keyvault-keys.RestoreKeyBackupOptions|preview'
 package: '@azure/keyvault-keys|preview'

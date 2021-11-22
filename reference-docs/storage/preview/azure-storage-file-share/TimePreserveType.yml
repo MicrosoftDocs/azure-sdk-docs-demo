@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TimePreserveType
 uid: '@azure/storage-file-share.TimePreserveType|preview'
 package: '@azure/storage-file-share|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LogPolicyOptions
 uid: '@azure/core-http.LogPolicyOptions|latest-stable'
 package: '@azure/core-http|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccountSASResourceTypes
 uid: '@azure/storage-file-datalake.AccountSASResourceTypes|preview'
 package: '@azure/storage-file-datalake|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PathRemoveHeaders
 uid: '@azure/storage-file-datalake.PathRemoveHeaders|preview'
 package: '@azure/storage-file-datalake|preview'

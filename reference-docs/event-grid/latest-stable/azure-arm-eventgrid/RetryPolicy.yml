@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RetryPolicy
 uid: '@azure/arm-eventgrid.RetryPolicy|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SearchIndexingBufferedSenderMergeDocumentsOptions
 uid: >-
   @azure/search-documents.SearchIndexingBufferedSenderMergeDocumentsOptions|latest-stable

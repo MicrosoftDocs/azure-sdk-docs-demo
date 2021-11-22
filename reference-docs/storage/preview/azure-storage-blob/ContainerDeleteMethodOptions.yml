@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerDeleteMethodOptions
 uid: '@azure/storage-blob.ContainerDeleteMethodOptions|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FilterBlobSegmentModel
 uid: '@azure/storage-blob.FilterBlobSegmentModel|preview'
 package: '@azure/storage-blob|preview'

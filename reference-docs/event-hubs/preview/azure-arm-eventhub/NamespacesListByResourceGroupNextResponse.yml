@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NamespacesListByResourceGroupNextResponse
 uid: '@azure/arm-eventhub.NamespacesListByResourceGroupNextResponse|preview'
 package: '@azure/arm-eventhub|preview'

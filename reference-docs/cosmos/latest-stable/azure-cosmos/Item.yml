@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Item
 uid: '@azure/cosmos.Item|latest-stable'
 package: '@azure/cosmos|latest-stable'

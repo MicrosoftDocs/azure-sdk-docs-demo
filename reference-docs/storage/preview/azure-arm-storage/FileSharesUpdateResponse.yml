@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileSharesUpdateResponse
 uid: '@azure/arm-storage.FileSharesUpdateResponse|preview'
 package: '@azure/arm-storage|preview'

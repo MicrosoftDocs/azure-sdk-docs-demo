@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SubscribeOptions
 uid: '@azure/event-hubs.SubscribeOptions|latest-stable'
 package: '@azure/event-hubs|latest-stable'

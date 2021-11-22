@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MessagesEnqueueHeaders
 uid: '@azure/storage-queue.MessagesEnqueueHeaders|preview'
 package: '@azure/storage-queue|preview'

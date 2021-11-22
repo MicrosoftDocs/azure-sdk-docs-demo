@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CheckSkuAvailabilityParameter
 uid: '@azure/arm-cognitiveservices.CheckSkuAvailabilityParameter|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

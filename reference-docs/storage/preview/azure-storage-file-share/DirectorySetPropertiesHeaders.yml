@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DirectorySetPropertiesHeaders
 uid: '@azure/storage-file-share.DirectorySetPropertiesHeaders|preview'
 package: '@azure/storage-file-share|preview'

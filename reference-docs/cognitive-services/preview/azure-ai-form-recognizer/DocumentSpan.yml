@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DocumentSpan
 uid: '@azure/ai-form-recognizer.DocumentSpan|preview'
 package: '@azure/ai-form-recognizer|preview'

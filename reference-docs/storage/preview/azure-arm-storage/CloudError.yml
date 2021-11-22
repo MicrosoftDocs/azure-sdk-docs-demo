@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CloudError
 uid: '@azure/arm-storage.CloudError|preview'
 package: '@azure/arm-storage|preview'

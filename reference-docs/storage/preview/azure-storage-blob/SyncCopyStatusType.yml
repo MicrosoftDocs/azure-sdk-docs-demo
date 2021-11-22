@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SyncCopyStatusType
 uid: '@azure/storage-blob.SyncCopyStatusType|preview'
 package: '@azure/storage-blob|preview'

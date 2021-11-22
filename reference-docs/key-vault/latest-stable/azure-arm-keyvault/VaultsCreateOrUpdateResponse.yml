@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: VaultsCreateOrUpdateResponse
 uid: '@azure/arm-keyvault.VaultsCreateOrUpdateResponse|latest-stable'
 package: '@azure/arm-keyvault|latest-stable'

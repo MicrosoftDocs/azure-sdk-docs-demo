@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NGramTokenFilter
 uid: '@azure/search-documents.NGramTokenFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

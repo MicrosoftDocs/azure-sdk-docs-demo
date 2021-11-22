@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EventHubsListKeysResponse
 uid: '@azure/arm-eventhub.EventHubsListKeysResponse|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

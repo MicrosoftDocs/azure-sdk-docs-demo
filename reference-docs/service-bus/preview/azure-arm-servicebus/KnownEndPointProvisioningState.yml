@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownEndPointProvisioningState
 uid: '@azure/arm-servicebus.KnownEndPointProvisioningState|preview'
 package: '@azure/arm-servicebus|preview'

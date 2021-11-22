@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SqlParameter
 uid: '@azure/cosmos.SqlParameter|latest-stable'
 package: '@azure/cosmos|latest-stable'

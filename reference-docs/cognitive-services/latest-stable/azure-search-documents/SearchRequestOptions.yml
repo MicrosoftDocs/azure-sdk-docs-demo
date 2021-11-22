@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SearchRequestOptions
 uid: '@azure/search-documents.SearchRequestOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

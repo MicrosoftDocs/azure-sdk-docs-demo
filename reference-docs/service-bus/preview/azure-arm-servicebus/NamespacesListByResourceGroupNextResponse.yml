@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NamespacesListByResourceGroupNextResponse
 uid: '@azure/arm-servicebus.NamespacesListByResourceGroupNextResponse|preview'
 package: '@azure/arm-servicebus|preview'

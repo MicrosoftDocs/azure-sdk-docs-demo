@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueRuntimeProperties
 uid: '@azure/service-bus.QueueRuntimeProperties|latest-stable'
 package: '@azure/service-bus|latest-stable'

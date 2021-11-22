@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: InputFieldMappingEntry
 uid: '@azure/search-documents.InputFieldMappingEntry|preview'
 package: '@azure/search-documents|preview'

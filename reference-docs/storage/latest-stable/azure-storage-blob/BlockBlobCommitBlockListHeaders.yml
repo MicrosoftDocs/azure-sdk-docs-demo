@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlockBlobCommitBlockListHeaders
 uid: '@azure/storage-blob.BlockBlobCommitBlockListHeaders|latest-stable'
 package: '@azure/storage-blob|latest-stable'

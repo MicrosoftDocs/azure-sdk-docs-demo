@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ModificationConditions
 uid: '@azure/storage-blob.ModificationConditions|preview'
 package: '@azure/storage-blob|preview'

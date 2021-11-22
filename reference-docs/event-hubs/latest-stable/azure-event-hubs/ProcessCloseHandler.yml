@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ProcessCloseHandler
 uid: '@azure/event-hubs.ProcessCloseHandler|latest-stable'
 package: '@azure/event-hubs|latest-stable'

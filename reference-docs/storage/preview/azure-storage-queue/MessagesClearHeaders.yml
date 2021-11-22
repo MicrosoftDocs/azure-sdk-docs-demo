@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MessagesClearHeaders
 uid: '@azure/storage-queue.MessagesClearHeaders|preview'
 package: '@azure/storage-queue|preview'

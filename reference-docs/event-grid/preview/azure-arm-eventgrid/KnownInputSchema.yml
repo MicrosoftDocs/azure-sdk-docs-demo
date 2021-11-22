@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownInputSchema
 uid: '@azure/arm-eventgrid.KnownInputSchema|preview'
 package: '@azure/arm-eventgrid|preview'

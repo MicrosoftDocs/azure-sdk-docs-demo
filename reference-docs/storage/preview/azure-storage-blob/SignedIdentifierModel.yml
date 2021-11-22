@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SignedIdentifierModel
 uid: '@azure/storage-blob.SignedIdentifierModel|preview'
 package: '@azure/storage-blob|preview'

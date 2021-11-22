@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: HttpOnlyIfUnchangedField
 uid: '@azure/app-configuration.HttpOnlyIfUnchangedField|latest-stable'
 package: '@azure/app-configuration|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: IdentityType
 uid: '@azure/arm-storage.IdentityType|latest-stable'
 package: '@azure/arm-storage|latest-stable'

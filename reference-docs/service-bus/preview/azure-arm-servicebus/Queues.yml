@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Queues
 uid: '@azure/arm-servicebus.Queues|preview'
 package: '@azure/arm-servicebus|preview'

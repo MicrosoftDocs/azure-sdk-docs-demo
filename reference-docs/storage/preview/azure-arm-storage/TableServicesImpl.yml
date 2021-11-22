@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TableServicesImpl
 uid: '@azure/arm-storage.TableServicesImpl|preview'
 package: '@azure/arm-storage|preview'

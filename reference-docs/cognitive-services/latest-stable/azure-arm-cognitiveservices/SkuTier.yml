@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SkuTier
 uid: '@azure/arm-cognitiveservices.SkuTier|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

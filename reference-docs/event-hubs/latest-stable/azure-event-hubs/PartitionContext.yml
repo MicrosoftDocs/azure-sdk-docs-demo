@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PartitionContext
 uid: '@azure/event-hubs.PartitionContext|latest-stable'
 package: '@azure/event-hubs|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RangeModel
 uid: '@azure/storage-file-share.RangeModel|preview'
 package: '@azure/storage-file-share|preview'

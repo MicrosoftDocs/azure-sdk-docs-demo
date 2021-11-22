@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TopicsGetResponse
 uid: '@azure/arm-servicebus.TopicsGetResponse|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

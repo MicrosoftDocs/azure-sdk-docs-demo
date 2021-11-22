@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AnalyzeHealthcareEntitiesPollerLike
 uid: '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesPollerLike|preview'
 package: '@azure/ai-text-analytics|preview'

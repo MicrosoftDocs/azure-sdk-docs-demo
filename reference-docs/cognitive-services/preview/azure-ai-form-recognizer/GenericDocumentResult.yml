@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: GenericDocumentResult
 uid: '@azure/ai-form-recognizer.GenericDocumentResult|preview'
 package: '@azure/ai-form-recognizer|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MessageErrorCodes
 uid: '@azure/core-amqp.MessageErrorCodes|preview'
 package: '@azure/core-amqp|preview'

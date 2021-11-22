@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AccountsRegenerateKeyResponse
 uid: '@azure/arm-cognitiveservices.AccountsRegenerateKeyResponse|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

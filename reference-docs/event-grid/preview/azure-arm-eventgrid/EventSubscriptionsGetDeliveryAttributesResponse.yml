@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EventSubscriptionsGetDeliveryAttributesResponse
 uid: '@azure/arm-eventgrid.EventSubscriptionsGetDeliveryAttributesResponse|preview'
 package: '@azure/arm-eventgrid|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: GeoReplicationStats
 uid: '@azure/arm-storage.GeoReplicationStats|preview'
 package: '@azure/arm-storage|preview'

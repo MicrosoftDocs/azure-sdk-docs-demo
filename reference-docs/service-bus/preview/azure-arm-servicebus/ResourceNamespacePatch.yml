@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ResourceNamespacePatch
 uid: '@azure/arm-servicebus.ResourceNamespacePatch|preview'
 package: '@azure/arm-servicebus|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateEndpointConnectionsListByConfigurationStoreResponse
 uid: >-
   @azure/arm-appconfiguration.PrivateEndpointConnectionsListByConfigurationStoreResponse|latest-stable

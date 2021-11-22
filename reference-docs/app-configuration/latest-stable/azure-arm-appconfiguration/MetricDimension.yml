@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MetricDimension
 uid: '@azure/arm-appconfiguration.MetricDimension|latest-stable'
 package: '@azure/arm-appconfiguration|latest-stable'

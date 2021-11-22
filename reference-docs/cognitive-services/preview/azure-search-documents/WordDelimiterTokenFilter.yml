@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: WordDelimiterTokenFilter
 uid: '@azure/search-documents.WordDelimiterTokenFilter|preview'
 package: '@azure/search-documents|preview'

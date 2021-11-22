@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ResourceWriteFailureEventData
 uid: '@azure/eventgrid.ResourceWriteFailureEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

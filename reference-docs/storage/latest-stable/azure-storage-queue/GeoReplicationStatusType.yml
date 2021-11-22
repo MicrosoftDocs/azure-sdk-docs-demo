@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: GeoReplicationStatusType
 uid: '@azure/storage-queue.GeoReplicationStatusType|latest-stable'
 package: '@azure/storage-queue|latest-stable'

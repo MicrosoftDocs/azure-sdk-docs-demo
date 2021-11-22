@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: WebApiSkill
 uid: '@azure/search-documents.WebApiSkill|latest-stable'
 package: '@azure/search-documents|latest-stable'

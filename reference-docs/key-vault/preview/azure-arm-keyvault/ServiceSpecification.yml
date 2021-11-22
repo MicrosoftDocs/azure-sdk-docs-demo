@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceSpecification
 uid: '@azure/arm-keyvault.ServiceSpecification|preview'
 package: '@azure/arm-keyvault|preview'

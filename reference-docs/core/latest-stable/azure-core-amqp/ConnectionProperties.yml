@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ConnectionProperties
 uid: '@azure/core-amqp.ConnectionProperties|latest-stable'
 package: '@azure/core-amqp|latest-stable'

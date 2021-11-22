@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateLinkResourcesListByStorageAccountResponse
 uid: >-
   @azure/arm-storage.PrivateLinkResourcesListByStorageAccountResponse|latest-stable

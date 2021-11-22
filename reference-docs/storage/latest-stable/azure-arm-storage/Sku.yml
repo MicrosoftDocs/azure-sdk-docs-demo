@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Sku
 uid: '@azure/arm-storage.Sku|latest-stable'
 package: '@azure/arm-storage|latest-stable'

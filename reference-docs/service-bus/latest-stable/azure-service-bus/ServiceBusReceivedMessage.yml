@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceBusReceivedMessage
 uid: '@azure/service-bus.ServiceBusReceivedMessage|latest-stable'
 package: '@azure/service-bus|latest-stable'

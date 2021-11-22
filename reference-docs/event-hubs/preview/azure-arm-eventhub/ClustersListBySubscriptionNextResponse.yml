@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ClustersListBySubscriptionNextResponse
 uid: '@azure/arm-eventhub.ClustersListBySubscriptionNextResponse|preview'
 package: '@azure/arm-eventhub|preview'

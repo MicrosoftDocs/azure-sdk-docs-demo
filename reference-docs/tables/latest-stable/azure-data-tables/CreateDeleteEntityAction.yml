@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CreateDeleteEntityAction
 uid: '@azure/data-tables.CreateDeleteEntityAction|latest-stable'
 package: '@azure/data-tables|latest-stable'

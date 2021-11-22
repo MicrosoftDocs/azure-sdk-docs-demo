@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: VaultAccessPolicyParameters
 uid: '@azure/arm-keyvault.VaultAccessPolicyParameters|latest-stable'
 package: '@azure/arm-keyvault|latest-stable'

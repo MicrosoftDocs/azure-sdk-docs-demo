@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownPublicNetworkAccess
 uid: '@azure/arm-keyvault.KnownPublicNetworkAccess|preview'
 package: '@azure/arm-keyvault|preview'

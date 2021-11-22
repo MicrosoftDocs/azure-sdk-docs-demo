@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DeadLetterEndPointType
 uid: '@azure/arm-eventgrid.DeadLetterEndPointType|preview'
 package: '@azure/arm-eventgrid|preview'

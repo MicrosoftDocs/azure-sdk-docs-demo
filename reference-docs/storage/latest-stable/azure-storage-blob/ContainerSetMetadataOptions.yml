@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerSetMetadataOptions
 uid: '@azure/storage-blob.ContainerSetMetadataOptions|latest-stable'
 package: '@azure/storage-blob|latest-stable'

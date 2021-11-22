@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccessControlChangeError
 uid: '@azure/storage-file-datalake.AccessControlChangeError|preview'
 package: '@azure/storage-file-datalake|preview'

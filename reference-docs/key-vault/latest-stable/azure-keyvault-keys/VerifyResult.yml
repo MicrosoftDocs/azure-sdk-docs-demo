@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: VerifyResult
 uid: '@azure/keyvault-keys.VerifyResult|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

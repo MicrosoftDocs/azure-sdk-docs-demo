@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ListSynonymMapsOptions
 uid: '@azure/search-documents.ListSynonymMapsOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

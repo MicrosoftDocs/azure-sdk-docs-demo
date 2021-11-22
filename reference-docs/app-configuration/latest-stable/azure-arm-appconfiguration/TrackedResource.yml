@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TrackedResource
 uid: '@azure/arm-appconfiguration.TrackedResource|latest-stable'
 package: '@azure/arm-appconfiguration|latest-stable'

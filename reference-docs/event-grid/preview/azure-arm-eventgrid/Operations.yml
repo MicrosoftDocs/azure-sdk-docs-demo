@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Operations
 uid: '@azure/arm-eventgrid.Operations|preview'
 package: '@azure/arm-eventgrid|preview'

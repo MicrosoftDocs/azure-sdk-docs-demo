@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageManagementClientContext
 uid: '@azure/arm-storage.StorageManagementClientContext|preview'
 package: '@azure/arm-storage|preview'

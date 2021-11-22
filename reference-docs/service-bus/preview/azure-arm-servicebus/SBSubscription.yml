@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SBSubscription
 uid: '@azure/arm-servicebus.SBSubscription|preview'
 package: '@azure/arm-servicebus|preview'

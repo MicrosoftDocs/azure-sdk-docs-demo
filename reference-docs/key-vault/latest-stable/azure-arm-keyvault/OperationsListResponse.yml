@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: OperationsListResponse
 uid: '@azure/arm-keyvault.OperationsListResponse|latest-stable'
 package: '@azure/arm-keyvault|latest-stable'

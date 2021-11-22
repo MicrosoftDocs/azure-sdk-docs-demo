@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerRenewLeaseOptions
 uid: '@azure/storage-blob.ContainerRenewLeaseOptions|preview'
 package: '@azure/storage-blob|preview'

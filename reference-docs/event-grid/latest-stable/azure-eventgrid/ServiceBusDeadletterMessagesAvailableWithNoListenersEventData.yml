@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceBusDeadletterMessagesAvailableWithNoListenersEventData
 uid: >-
   @azure/eventgrid.ServiceBusDeadletterMessagesAvailableWithNoListenersEventData|latest-stable

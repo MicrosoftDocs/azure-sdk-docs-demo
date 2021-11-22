@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobQueryJsonTextConfiguration
 uid: '@azure/storage-blob.BlobQueryJsonTextConfiguration|latest-stable'
 package: '@azure/storage-blob|latest-stable'

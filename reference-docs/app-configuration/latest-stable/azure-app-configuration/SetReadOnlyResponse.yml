@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SetReadOnlyResponse
 uid: '@azure/app-configuration.SetReadOnlyResponse|latest-stable'
 package: '@azure/app-configuration|latest-stable'

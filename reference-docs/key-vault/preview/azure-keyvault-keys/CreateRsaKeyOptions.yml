@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CreateRsaKeyOptions
 uid: '@azure/keyvault-keys.CreateRsaKeyOptions|preview'
 package: '@azure/keyvault-keys|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlockBlobPutBlobFromUrlHeaders
 uid: '@azure/storage-blob.BlockBlobPutBlobFromUrlHeaders|preview'
 package: '@azure/storage-blob|preview'

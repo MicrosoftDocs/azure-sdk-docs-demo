@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SystemData
 uid: '@azure/arm-eventgrid.SystemData|preview'
 package: '@azure/arm-eventgrid|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ClustersDeleteOptionalParams
 uid: '@azure/arm-eventhub.ClustersDeleteOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

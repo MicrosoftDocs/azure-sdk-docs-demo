@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSharesRestoreOptionalParams
 uid: '@azure/arm-storage.FileSharesRestoreOptionalParams|preview'
 package: '@azure/arm-storage|preview'

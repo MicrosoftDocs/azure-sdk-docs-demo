@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PathGetPropertiesHeaders
 uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders|preview'
 package: '@azure/storage-file-datalake|preview'

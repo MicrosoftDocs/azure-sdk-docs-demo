@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ScoringFunctionInterpolation
 uid: '@azure/search-documents.ScoringFunctionInterpolation|latest-stable'
 package: '@azure/search-documents|latest-stable'

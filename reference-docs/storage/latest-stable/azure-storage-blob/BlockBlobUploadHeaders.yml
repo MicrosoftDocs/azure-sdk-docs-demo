@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlockBlobUploadHeaders
 uid: '@azure/storage-blob.BlockBlobUploadHeaders|latest-stable'
 package: '@azure/storage-blob|latest-stable'

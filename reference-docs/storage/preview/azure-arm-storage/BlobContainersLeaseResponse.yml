@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobContainersLeaseResponse
 uid: '@azure/arm-storage.BlobContainersLeaseResponse|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlockBlobCommitBlockListOptions
 uid: '@azure/storage-blob.BlockBlobCommitBlockListOptions|latest-stable'
 package: '@azure/storage-blob|latest-stable'

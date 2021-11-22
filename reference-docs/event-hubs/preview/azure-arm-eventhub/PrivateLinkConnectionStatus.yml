@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateLinkConnectionStatus
 uid: '@azure/arm-eventhub.PrivateLinkConnectionStatus|preview'
 package: '@azure/arm-eventhub|preview'

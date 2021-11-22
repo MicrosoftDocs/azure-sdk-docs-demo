@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ManagedHsmsGetOptionalParams
 uid: '@azure/arm-keyvault.ManagedHsmsGetOptionalParams|preview'
 package: '@azure/arm-keyvault|preview'

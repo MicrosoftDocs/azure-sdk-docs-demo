@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSystemCreateOptions
 uid: '@azure/storage-file-datalake.FileSystemCreateOptions|preview'
 package: '@azure/storage-file-datalake|preview'

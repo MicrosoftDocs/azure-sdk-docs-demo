@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AsciiFoldingTokenFilter
 uid: '@azure/search-documents.AsciiFoldingTokenFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

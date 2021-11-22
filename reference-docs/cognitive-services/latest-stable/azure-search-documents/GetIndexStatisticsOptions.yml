@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: GetIndexStatisticsOptions
 uid: '@azure/search-documents.GetIndexStatisticsOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

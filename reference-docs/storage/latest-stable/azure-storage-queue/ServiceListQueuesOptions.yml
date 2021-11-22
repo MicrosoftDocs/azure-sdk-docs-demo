@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceListQueuesOptions
 uid: '@azure/storage-queue.ServiceListQueuesOptions|latest-stable'
 package: '@azure/storage-queue|latest-stable'

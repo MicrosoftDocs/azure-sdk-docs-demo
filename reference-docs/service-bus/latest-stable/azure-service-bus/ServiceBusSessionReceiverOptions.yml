@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceBusSessionReceiverOptions
 uid: '@azure/service-bus.ServiceBusSessionReceiverOptions|latest-stable'
 package: '@azure/service-bus|latest-stable'

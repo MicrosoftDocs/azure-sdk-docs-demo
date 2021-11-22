@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeliveryWithResourceIdentity
 uid: '@azure/arm-eventgrid.DeliveryWithResourceIdentity|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

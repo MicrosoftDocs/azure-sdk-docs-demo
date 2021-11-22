@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CertificateTags
 uid: '@azure/keyvault-certificates.CertificateTags|preview'
 package: '@azure/keyvault-certificates|preview'

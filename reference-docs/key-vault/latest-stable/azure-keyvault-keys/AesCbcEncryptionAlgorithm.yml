@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AesCbcEncryptionAlgorithm
 uid: '@azure/keyvault-keys.AesCbcEncryptionAlgorithm|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

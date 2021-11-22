@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ContainerGetAccessPolicyResponse
 uid: '@azure/storage-blob.ContainerGetAccessPolicyResponse|preview'
 package: '@azure/storage-blob|preview'

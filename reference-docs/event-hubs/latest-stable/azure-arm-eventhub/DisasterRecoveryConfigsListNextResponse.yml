@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DisasterRecoveryConfigsListNextResponse
 uid: '@azure/arm-eventhub.DisasterRecoveryConfigsListNextResponse|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

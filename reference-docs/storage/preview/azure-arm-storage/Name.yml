@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: Name
 uid: '@azure/arm-storage.Name|preview'
 package: '@azure/arm-storage|preview'

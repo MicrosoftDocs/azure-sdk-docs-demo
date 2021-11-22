@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: WellKnownIssuer
 uid: '@azure/keyvault-certificates.WellKnownIssuer|preview'
 package: '@azure/keyvault-certificates|preview'

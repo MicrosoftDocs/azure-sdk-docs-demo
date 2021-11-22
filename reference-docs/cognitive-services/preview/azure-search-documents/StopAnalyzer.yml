@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StopAnalyzer
 uid: '@azure/search-documents.StopAnalyzer|preview'
 package: '@azure/search-documents|preview'

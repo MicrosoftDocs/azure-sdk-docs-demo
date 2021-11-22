@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownKeyVaultDataAction
 uid: '@azure/keyvault-admin.KnownKeyVaultDataAction|preview'
 package: '@azure/keyvault-admin|preview'

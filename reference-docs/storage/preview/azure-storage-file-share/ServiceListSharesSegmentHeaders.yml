@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceListSharesSegmentHeaders
 uid: '@azure/storage-file-share.ServiceListSharesSegmentHeaders|preview'
 package: '@azure/storage-file-share|preview'

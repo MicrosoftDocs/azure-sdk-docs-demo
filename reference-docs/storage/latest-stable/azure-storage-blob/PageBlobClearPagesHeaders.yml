@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PageBlobClearPagesHeaders
 uid: '@azure/storage-blob.PageBlobClearPagesHeaders|latest-stable'
 package: '@azure/storage-blob|latest-stable'

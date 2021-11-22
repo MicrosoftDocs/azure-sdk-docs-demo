@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ReadOperation
 uid: '@azure/cosmos.ReadOperation|latest-stable'
 package: '@azure/cosmos|latest-stable'

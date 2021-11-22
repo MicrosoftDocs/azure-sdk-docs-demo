@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AcsSmsDeliveryAttempt
 uid: '@azure/eventgrid.AcsSmsDeliveryAttempt|latest-stable'
 package: '@azure/eventgrid|latest-stable'

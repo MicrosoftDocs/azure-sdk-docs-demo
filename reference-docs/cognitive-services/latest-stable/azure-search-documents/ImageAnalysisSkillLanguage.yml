@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ImageAnalysisSkillLanguage
 uid: '@azure/search-documents.ImageAnalysisSkillLanguage|latest-stable'
 package: '@azure/search-documents|latest-stable'

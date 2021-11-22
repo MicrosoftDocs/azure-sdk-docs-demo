@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileDownloadResponseModel
 uid: '@azure/storage-file-share.FileDownloadResponseModel|preview'
 package: '@azure/storage-file-share|preview'

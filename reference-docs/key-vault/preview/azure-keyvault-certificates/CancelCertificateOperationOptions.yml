@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CancelCertificateOperationOptions
 uid: '@azure/keyvault-certificates.CancelCertificateOperationOptions|preview'
 package: '@azure/keyvault-certificates|preview'

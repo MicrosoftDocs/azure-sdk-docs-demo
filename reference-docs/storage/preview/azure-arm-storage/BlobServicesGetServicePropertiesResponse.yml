@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobServicesGetServicePropertiesResponse
 uid: '@azure/arm-storage.BlobServicesGetServicePropertiesResponse|preview'
 package: '@azure/arm-storage|preview'

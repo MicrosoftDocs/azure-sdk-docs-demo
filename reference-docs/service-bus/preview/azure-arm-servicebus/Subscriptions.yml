@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Subscriptions
 uid: '@azure/arm-servicebus.Subscriptions|preview'
 package: '@azure/arm-servicebus|preview'

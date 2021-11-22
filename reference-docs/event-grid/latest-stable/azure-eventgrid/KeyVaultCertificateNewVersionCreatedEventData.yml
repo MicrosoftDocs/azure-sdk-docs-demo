@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultCertificateNewVersionCreatedEventData
 uid: '@azure/eventgrid.KeyVaultCertificateNewVersionCreatedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

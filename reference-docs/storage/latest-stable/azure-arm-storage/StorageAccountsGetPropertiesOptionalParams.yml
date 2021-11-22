@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageAccountsGetPropertiesOptionalParams
 uid: '@azure/arm-storage.StorageAccountsGetPropertiesOptionalParams|latest-stable'
 package: '@azure/arm-storage|latest-stable'

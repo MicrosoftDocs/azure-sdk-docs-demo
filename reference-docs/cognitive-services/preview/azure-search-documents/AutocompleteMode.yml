@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AutocompleteMode
 uid: '@azure/search-documents.AutocompleteMode|preview'
 package: '@azure/search-documents|preview'

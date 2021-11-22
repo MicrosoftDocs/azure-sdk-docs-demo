@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageAccounts
 uid: '@azure/arm-storage.StorageAccounts|latest-stable'
 package: '@azure/arm-storage|latest-stable'

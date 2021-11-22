@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SearchIndexerLimits
 uid: '@azure/search-documents.SearchIndexerLimits|latest-stable'
 package: '@azure/search-documents|latest-stable'

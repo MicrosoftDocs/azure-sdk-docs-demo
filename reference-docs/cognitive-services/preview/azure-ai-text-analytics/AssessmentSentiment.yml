@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AssessmentSentiment
 uid: '@azure/ai-text-analytics.AssessmentSentiment|preview'
 package: '@azure/ai-text-analytics|preview'

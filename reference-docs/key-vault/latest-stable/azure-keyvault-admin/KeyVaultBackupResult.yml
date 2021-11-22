@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultBackupResult
 uid: '@azure/keyvault-admin.KeyVaultBackupResult|latest-stable'
 package: '@azure/keyvault-admin|latest-stable'

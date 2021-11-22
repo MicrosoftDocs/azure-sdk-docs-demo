@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateEndpointServiceConnectionStatus
 uid: >-
   @azure/arm-cognitiveservices.PrivateEndpointServiceConnectionStatus|latest-stable

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RetentionPolicy
 uid: '@azure/storage-blob.RetentionPolicy|preview'
 package: '@azure/storage-blob|preview'

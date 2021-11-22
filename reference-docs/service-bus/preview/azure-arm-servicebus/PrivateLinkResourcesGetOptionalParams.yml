@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateLinkResourcesGetOptionalParams
 uid: '@azure/arm-servicebus.PrivateLinkResourcesGetOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

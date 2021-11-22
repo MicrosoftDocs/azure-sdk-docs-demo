@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownAdvancedFilterOperatorType
 uid: '@azure/arm-eventgrid.KnownAdvancedFilterOperatorType|preview'
 package: '@azure/arm-eventgrid|preview'

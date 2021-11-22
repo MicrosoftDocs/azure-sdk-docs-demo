@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventPosition
 uid: '@azure/event-hubs.EventPosition|latest-stable'
 package: '@azure/event-hubs|latest-stable'

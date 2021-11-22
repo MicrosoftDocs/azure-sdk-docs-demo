@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ListQueue
 uid: '@azure/arm-storage.ListQueue|preview'
 package: '@azure/arm-storage|preview'

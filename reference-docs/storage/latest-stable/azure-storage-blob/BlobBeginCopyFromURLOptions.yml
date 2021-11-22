@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobBeginCopyFromURLOptions
 uid: '@azure/storage-blob.BlobBeginCopyFromURLOptions|latest-stable'
 package: '@azure/storage-blob|latest-stable'

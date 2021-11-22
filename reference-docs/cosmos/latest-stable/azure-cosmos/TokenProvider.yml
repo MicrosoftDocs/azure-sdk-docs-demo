@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TokenProvider
 uid: '@azure/cosmos.TokenProvider|latest-stable'
 package: '@azure/cosmos|latest-stable'

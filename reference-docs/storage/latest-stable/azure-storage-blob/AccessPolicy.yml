@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccessPolicy
 uid: '@azure/storage-blob.AccessPolicy|latest-stable'
 package: '@azure/storage-blob|latest-stable'

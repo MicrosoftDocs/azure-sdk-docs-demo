@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StorageQueueEventSubscriptionDestination
 uid: '@azure/arm-eventgrid.StorageQueueEventSubscriptionDestination|preview'
 package: '@azure/arm-eventgrid|preview'

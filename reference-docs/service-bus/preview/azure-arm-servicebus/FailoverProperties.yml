@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FailoverProperties
 uid: '@azure/arm-servicebus.FailoverProperties|preview'
 package: '@azure/arm-servicebus|preview'

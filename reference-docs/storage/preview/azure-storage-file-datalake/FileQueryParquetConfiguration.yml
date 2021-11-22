@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileQueryParquetConfiguration
 uid: '@azure/storage-file-datalake.FileQueryParquetConfiguration|preview'
 package: '@azure/storage-file-datalake|preview'

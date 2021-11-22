@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SearchIndexerError
 uid: '@azure/search-documents.SearchIndexerError|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SemanticSettings
 uid: '@azure/search-documents.SemanticSettings|preview'
 package: '@azure/search-documents|preview'

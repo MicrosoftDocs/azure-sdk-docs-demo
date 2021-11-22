@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownTokenFilterName
 uid: '@azure/search-documents.KnownTokenFilterName|preview'
 package: '@azure/search-documents|preview'

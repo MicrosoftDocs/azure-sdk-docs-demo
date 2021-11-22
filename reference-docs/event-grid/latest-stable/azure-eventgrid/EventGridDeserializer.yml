@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventGridDeserializer
 uid: '@azure/eventgrid.EventGridDeserializer|latest-stable'
 package: '@azure/eventgrid|latest-stable'

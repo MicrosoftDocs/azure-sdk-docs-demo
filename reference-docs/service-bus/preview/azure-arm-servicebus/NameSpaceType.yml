@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NameSpaceType
 uid: '@azure/arm-servicebus.NameSpaceType|preview'
 package: '@azure/arm-servicebus|preview'

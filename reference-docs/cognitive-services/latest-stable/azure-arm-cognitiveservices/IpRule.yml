@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: IpRule
 uid: '@azure/arm-cognitiveservices.IpRule|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

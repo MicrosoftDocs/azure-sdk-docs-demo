@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ErrorResponseError
 uid: '@azure/arm-servicebus.ErrorResponseError|preview'
 package: '@azure/arm-servicebus|preview'

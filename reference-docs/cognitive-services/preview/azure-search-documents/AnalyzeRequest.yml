@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AnalyzeRequest
 uid: '@azure/search-documents.AnalyzeRequest|preview'
 package: '@azure/search-documents|preview'

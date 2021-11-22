@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeleteRetentionPolicy
 uid: '@azure/arm-storage.DeleteRetentionPolicy|preview'
 package: '@azure/arm-storage|preview'

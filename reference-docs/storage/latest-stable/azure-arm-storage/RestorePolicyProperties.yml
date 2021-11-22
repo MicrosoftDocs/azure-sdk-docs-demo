@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RestorePolicyProperties
 uid: '@azure/arm-storage.RestorePolicyProperties|latest-stable'
 package: '@azure/arm-storage|latest-stable'

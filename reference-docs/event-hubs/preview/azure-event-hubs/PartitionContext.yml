@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PartitionContext
 uid: '@azure/event-hubs.PartitionContext|preview'
 package: '@azure/event-hubs|preview'

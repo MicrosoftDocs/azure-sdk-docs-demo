@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ObjectReplicationStatus
 uid: '@azure/storage-blob.ObjectReplicationStatus|preview'
 package: '@azure/storage-blob|preview'

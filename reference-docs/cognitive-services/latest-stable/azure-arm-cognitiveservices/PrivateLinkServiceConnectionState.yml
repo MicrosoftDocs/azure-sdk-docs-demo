@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateLinkServiceConnectionState
 uid: '@azure/arm-cognitiveservices.PrivateLinkServiceConnectionState|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownPrivateLinkConnectionStatus
 uid: '@azure/arm-servicebus.KnownPrivateLinkConnectionStatus|preview'
 package: '@azure/arm-servicebus|preview'

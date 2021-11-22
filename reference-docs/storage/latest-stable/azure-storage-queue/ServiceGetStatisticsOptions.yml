@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceGetStatisticsOptions
 uid: '@azure/storage-queue.ServiceGetStatisticsOptions|latest-stable'
 package: '@azure/storage-queue|latest-stable'

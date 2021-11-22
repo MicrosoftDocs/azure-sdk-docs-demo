@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FillNAMethod
 uid: '@azure/ai-anomaly-detector.FillNAMethod|preview'
 package: '@azure/ai-anomaly-detector|preview'

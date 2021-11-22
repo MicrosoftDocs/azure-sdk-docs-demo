@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CommitmentPlansListNextResponse
 uid: '@azure/arm-cognitiveservices.CommitmentPlansListNextResponse|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlockBlobSyncUploadFromURLOptions
 uid: '@azure/storage-blob.BlockBlobSyncUploadFromURLOptions|preview'
 package: '@azure/storage-blob|preview'

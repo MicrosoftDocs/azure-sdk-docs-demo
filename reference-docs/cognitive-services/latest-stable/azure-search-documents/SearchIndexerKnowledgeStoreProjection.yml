@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SearchIndexerKnowledgeStoreProjection
 uid: '@azure/search-documents.SearchIndexerKnowledgeStoreProjection|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DirectoryDeleteIfExistsResponse
 uid: '@azure/storage-file-share.DirectoryDeleteIfExistsResponse|latest-stable'
 package: '@azure/storage-file-share|latest-stable'

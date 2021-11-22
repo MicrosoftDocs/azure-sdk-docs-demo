@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NetworkRuleIPAction
 uid: '@azure/arm-servicebus.NetworkRuleIPAction|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

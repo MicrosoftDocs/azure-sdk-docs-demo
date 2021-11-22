@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyVaultDataAction
 uid: '@azure/keyvault-admin.KeyVaultDataAction|preview'
 package: '@azure/keyvault-admin|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: GeoReplicationStatus
 uid: '@azure/arm-storage.GeoReplicationStatus|latest-stable'
 package: '@azure/arm-storage|latest-stable'

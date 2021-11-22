@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CheckDomainAvailabilityResponse
 uid: '@azure/arm-cognitiveservices.CheckDomainAvailabilityResponse|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PageBlobUpdateSequenceNumberResponse
 uid: '@azure/storage-blob.PageBlobUpdateSequenceNumberResponse|preview'
 package: '@azure/storage-blob|preview'

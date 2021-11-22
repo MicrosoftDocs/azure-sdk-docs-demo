@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: JSONArray
 uid: '@azure/cosmos.JSONArray|latest-stable'
 package: '@azure/cosmos|latest-stable'

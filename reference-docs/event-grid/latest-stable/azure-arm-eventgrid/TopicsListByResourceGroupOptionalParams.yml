@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TopicsListByResourceGroupOptionalParams
 uid: '@azure/arm-eventgrid.TopicsListByResourceGroupOptionalParams|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PageBlobClient
 uid: '@azure/storage-blob.PageBlobClient|preview'
 package: '@azure/storage-blob|preview'

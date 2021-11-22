@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobQueryCsvTextConfiguration
 uid: '@azure/storage-blob.BlobQueryCsvTextConfiguration|preview'
 package: '@azure/storage-blob|preview'

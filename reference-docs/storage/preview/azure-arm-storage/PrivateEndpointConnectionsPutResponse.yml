@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateEndpointConnectionsPutResponse
 uid: '@azure/arm-storage.PrivateEndpointConnectionsPutResponse|preview'
 package: '@azure/arm-storage|preview'

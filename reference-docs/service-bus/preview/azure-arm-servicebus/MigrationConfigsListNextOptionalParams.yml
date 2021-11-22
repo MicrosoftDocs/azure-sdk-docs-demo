@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MigrationConfigsListNextOptionalParams
 uid: '@azure/arm-servicebus.MigrationConfigsListNextOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

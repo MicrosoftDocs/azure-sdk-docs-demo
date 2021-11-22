@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TextDocumentBatchStatistics
 uid: '@azure/ai-text-analytics.TextDocumentBatchStatistics|preview'
 package: '@azure/ai-text-analytics|preview'

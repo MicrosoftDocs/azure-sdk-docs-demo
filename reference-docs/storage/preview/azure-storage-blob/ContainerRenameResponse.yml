@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ContainerRenameResponse
 uid: '@azure/storage-blob.ContainerRenameResponse|preview'
 package: '@azure/storage-blob|preview'

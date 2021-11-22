@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PageBlobUpdateSequenceNumberHeaders
 uid: '@azure/storage-blob.PageBlobUpdateSequenceNumberHeaders|preview'
 package: '@azure/storage-blob|preview'

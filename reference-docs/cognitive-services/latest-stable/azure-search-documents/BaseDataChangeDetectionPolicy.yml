@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BaseDataChangeDetectionPolicy
 uid: '@azure/search-documents.BaseDataChangeDetectionPolicy|latest-stable'
 package: '@azure/search-documents|latest-stable'

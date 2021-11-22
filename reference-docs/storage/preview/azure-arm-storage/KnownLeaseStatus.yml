@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownLeaseStatus
 uid: '@azure/arm-storage.KnownLeaseStatus|preview'
 package: '@azure/arm-storage|preview'

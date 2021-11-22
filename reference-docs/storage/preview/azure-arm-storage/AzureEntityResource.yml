@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AzureEntityResource
 uid: '@azure/arm-storage.AzureEntityResource|preview'
 package: '@azure/arm-storage|preview'

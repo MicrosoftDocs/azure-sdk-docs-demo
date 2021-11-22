@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DisasterRecoveryConfigsCreateOrUpdateResponse
 uid: >-
   @azure/arm-eventhub.DisasterRecoveryConfigsCreateOrUpdateResponse|latest-stable

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListOperationsOptions
 uid: '@azure/ai-form-recognizer.ListOperationsOptions|preview'
 package: '@azure/ai-form-recognizer|preview'

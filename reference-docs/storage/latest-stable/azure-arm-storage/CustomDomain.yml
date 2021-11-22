@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CustomDomain
 uid: '@azure/arm-storage.CustomDomain|latest-stable'
 package: '@azure/arm-storage|latest-stable'

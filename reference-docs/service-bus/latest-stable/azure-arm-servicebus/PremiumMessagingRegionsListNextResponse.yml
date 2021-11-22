@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PremiumMessagingRegionsListNextResponse
 uid: '@azure/arm-servicebus.PremiumMessagingRegionsListNextResponse|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

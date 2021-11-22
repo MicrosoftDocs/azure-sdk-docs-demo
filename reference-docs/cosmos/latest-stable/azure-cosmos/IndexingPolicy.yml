@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: IndexingPolicy
 uid: '@azure/cosmos.IndexingPolicy|latest-stable'
 package: '@azure/cosmos|latest-stable'

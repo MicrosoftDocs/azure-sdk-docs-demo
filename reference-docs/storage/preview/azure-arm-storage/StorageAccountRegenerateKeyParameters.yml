@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageAccountRegenerateKeyParameters
 uid: '@azure/arm-storage.StorageAccountRegenerateKeyParameters|preview'
 package: '@azure/arm-storage|preview'

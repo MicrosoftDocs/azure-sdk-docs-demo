@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SourceModifiedAccessConditions
 uid: '@azure/storage-file-share.SourceModifiedAccessConditions|preview'
 package: '@azure/storage-file-share|preview'

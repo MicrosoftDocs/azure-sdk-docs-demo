@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SentimentSkill
 uid: '@azure/search-documents.SentimentSkill|latest-stable'
 package: '@azure/search-documents|latest-stable'

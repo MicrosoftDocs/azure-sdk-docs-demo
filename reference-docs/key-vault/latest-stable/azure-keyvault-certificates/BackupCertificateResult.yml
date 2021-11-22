@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BackupCertificateResult
 uid: '@azure/keyvault-certificates.BackupCertificateResult|latest-stable'
 package: '@azure/keyvault-certificates|latest-stable'

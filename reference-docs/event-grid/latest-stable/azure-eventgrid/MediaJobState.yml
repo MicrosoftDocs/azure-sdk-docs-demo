@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MediaJobState
 uid: '@azure/eventgrid.MediaJobState|latest-stable'
 package: '@azure/eventgrid|latest-stable'

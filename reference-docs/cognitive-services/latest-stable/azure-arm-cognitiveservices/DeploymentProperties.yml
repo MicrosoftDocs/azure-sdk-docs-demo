@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeploymentProperties
 uid: '@azure/arm-cognitiveservices.DeploymentProperties|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

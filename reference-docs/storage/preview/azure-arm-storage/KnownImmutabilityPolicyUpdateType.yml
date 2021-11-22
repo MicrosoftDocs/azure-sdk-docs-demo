@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownImmutabilityPolicyUpdateType
 uid: '@azure/arm-storage.KnownImmutabilityPolicyUpdateType|preview'
 package: '@azure/arm-storage|preview'

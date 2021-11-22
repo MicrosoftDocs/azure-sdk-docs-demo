@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: HighWaterMarkChangeDetectionPolicy
 uid: '@azure/search-documents.HighWaterMarkChangeDetectionPolicy|preview'
 package: '@azure/search-documents|preview'

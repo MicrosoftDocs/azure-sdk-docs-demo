@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: GetInfoResponse
 uid: '@azure/ai-form-recognizer.GetInfoResponse|preview'
 package: '@azure/ai-form-recognizer|preview'

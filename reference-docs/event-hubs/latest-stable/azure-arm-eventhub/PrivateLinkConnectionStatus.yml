@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateLinkConnectionStatus
 uid: '@azure/arm-eventhub.PrivateLinkConnectionStatus|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

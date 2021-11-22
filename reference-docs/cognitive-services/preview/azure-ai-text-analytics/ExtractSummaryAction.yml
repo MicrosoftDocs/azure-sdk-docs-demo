@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ExtractSummaryAction
 uid: '@azure/ai-text-analytics.ExtractSummaryAction|preview'
 package: '@azure/ai-text-analytics|preview'

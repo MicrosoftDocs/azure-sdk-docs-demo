@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SearchIndexerError
 uid: '@azure/search-documents.SearchIndexerError|preview'
 package: '@azure/search-documents|preview'

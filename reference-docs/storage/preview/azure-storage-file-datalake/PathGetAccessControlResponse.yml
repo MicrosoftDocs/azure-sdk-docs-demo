@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PathGetAccessControlResponse
 uid: '@azure/storage-file-datalake.PathGetAccessControlResponse|preview'
 package: '@azure/storage-file-datalake|preview'

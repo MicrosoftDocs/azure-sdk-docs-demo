@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateLinkConnectionStatus
 uid: '@azure/arm-servicebus.PrivateLinkConnectionStatus|preview'
 package: '@azure/arm-servicebus|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SystemTopicEventSubscriptionsListBySystemTopicOptionalParams
 uid: >-
   @azure/arm-eventgrid.SystemTopicEventSubscriptionsListBySystemTopicOptionalParams|latest-stable

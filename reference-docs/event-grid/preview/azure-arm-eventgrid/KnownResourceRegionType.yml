@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownResourceRegionType
 uid: '@azure/arm-eventgrid.KnownResourceRegionType|preview'
 package: '@azure/arm-eventgrid|preview'

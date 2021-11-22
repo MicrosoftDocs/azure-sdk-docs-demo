@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageClientOptionalParams
 uid: '@azure/storage-file-share.StorageClientOptionalParams|preview'
 package: '@azure/storage-file-share|preview'

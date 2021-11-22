@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileQueryError
 uid: '@azure/storage-file-datalake.FileQueryError|latest-stable'
 package: '@azure/storage-file-datalake|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: WithResponse
 uid: '@azure/service-bus.WithResponse|latest-stable'
 package: '@azure/service-bus|latest-stable'

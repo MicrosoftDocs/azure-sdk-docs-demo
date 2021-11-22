@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: GetDocumentOptions
 uid: '@azure/search-documents.GetDocumentOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

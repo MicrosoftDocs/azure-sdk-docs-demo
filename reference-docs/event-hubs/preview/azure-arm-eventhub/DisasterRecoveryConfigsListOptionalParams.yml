@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DisasterRecoveryConfigsListOptionalParams
 uid: '@azure/arm-eventhub.DisasterRecoveryConfigsListOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

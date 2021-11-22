@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: LroResourceLocationConfig
 uid: '@azure/core-lro.LroResourceLocationConfig|latest-stable'
 package: '@azure/core-lro|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueuesListKeysOptionalParams
 uid: '@azure/arm-servicebus.QueuesListKeysOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

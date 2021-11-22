@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: Captions
 uid: '@azure/search-documents.Captions|preview'
 package: '@azure/search-documents|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileReadResponse
 uid: '@azure/storage-file-datalake.FileReadResponse|preview'
 package: '@azure/storage-file-datalake|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EncryptionProperties
 uid: '@azure/arm-appconfiguration.EncryptionProperties|latest-stable'
 package: '@azure/arm-appconfiguration|latest-stable'

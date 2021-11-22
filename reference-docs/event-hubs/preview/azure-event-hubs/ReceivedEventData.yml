@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ReceivedEventData
 uid: '@azure/event-hubs.ReceivedEventData|preview'
 package: '@azure/event-hubs|preview'

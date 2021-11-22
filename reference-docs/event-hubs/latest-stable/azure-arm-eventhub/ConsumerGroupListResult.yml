@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ConsumerGroupListResult
 uid: '@azure/arm-eventhub.ConsumerGroupListResult|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

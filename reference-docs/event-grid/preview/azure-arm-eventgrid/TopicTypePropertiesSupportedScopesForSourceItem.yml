@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TopicTypePropertiesSupportedScopesForSourceItem
 uid: '@azure/arm-eventgrid.TopicTypePropertiesSupportedScopesForSourceItem|preview'
 package: '@azure/arm-eventgrid|preview'

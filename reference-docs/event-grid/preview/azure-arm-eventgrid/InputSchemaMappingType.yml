@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: InputSchemaMappingType
 uid: '@azure/arm-eventgrid.InputSchemaMappingType|preview'
 package: '@azure/arm-eventgrid|preview'

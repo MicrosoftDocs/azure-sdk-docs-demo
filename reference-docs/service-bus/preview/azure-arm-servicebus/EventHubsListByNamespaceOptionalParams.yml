@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventHubsListByNamespaceOptionalParams
 uid: '@azure/arm-servicebus.EventHubsListByNamespaceOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

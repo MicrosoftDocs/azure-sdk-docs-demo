@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AdvancedFilterOperatorType
 uid: '@azure/arm-eventgrid.AdvancedFilterOperatorType|preview'
 package: '@azure/arm-eventgrid|preview'

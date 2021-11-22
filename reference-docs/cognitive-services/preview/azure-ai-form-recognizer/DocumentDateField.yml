@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DocumentDateField
 uid: '@azure/ai-form-recognizer.DocumentDateField|preview'
 package: '@azure/ai-form-recognizer|preview'

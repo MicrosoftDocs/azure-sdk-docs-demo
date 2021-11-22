@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ListPropertiesOfCertificateVersionsOptions
 uid: >-
   @azure/keyvault-certificates.ListPropertiesOfCertificateVersionsOptions|latest-stable

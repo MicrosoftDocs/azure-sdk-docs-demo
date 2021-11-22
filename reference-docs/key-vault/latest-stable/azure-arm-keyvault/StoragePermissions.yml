@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StoragePermissions
 uid: '@azure/arm-keyvault.StoragePermissions|latest-stable'
 package: '@azure/arm-keyvault|latest-stable'

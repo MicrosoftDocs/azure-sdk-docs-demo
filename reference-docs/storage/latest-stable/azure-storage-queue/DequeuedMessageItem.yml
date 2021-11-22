@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DequeuedMessageItem
 uid: '@azure/storage-queue.DequeuedMessageItem|latest-stable'
 package: '@azure/storage-queue|latest-stable'

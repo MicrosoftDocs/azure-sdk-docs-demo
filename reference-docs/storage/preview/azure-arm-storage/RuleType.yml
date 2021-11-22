@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RuleType
 uid: '@azure/arm-storage.RuleType|preview'
 package: '@azure/arm-storage|preview'

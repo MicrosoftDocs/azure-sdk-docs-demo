@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ImmutabilityPolicyUpdateType
 uid: '@azure/arm-storage.ImmutabilityPolicyUpdateType|preview'
 package: '@azure/arm-storage|preview'

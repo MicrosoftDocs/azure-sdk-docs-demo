@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: VaultsListByResourceGroupNextResponse
 uid: '@azure/arm-keyvault.VaultsListByResourceGroupNextResponse|latest-stable'
 package: '@azure/arm-keyvault|latest-stable'

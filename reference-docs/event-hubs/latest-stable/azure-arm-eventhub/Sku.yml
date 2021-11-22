@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Sku
 uid: '@azure/arm-eventhub.Sku|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

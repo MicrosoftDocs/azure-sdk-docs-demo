@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AppendBlobCreateOptions
 uid: '@azure/storage-blob.AppendBlobCreateOptions|latest-stable'
 package: '@azure/storage-blob|latest-stable'

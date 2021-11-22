@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TagScoringParameters
 uid: '@azure/search-documents.TagScoringParameters|latest-stable'
 package: '@azure/search-documents|latest-stable'

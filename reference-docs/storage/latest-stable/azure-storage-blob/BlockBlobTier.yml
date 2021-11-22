@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: BlockBlobTier
 uid: '@azure/storage-blob.BlockBlobTier|latest-stable'
 package: '@azure/storage-blob|latest-stable'

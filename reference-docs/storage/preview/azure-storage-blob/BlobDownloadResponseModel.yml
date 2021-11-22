@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobDownloadResponseModel
 uid: '@azure/storage-blob.BlobDownloadResponseModel|preview'
 package: '@azure/storage-blob|preview'

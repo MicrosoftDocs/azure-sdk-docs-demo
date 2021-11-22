@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueuesRegenerateKeysOptionalParams
 uid: '@azure/arm-servicebus.QueuesRegenerateKeysOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

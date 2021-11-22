@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PathFlushDataResponse
 uid: '@azure/storage-file-datalake.PathFlushDataResponse|preview'
 package: '@azure/storage-file-datalake|preview'

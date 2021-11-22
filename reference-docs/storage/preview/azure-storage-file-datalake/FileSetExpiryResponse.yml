@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileSetExpiryResponse
 uid: '@azure/storage-file-datalake.FileSetExpiryResponse|preview'
 package: '@azure/storage-file-datalake|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: HealthcareEntityRelation
 uid: '@azure/ai-text-analytics.HealthcareEntityRelation|preview'
 package: '@azure/ai-text-analytics|preview'

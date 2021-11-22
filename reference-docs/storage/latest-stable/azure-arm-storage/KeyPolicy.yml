@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyPolicy
 uid: '@azure/arm-storage.KeyPolicy|latest-stable'
 package: '@azure/arm-storage|latest-stable'

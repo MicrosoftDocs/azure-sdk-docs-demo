@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeletedVaultListResult
 uid: '@azure/arm-keyvault.DeletedVaultListResult|latest-stable'
 package: '@azure/arm-keyvault|latest-stable'

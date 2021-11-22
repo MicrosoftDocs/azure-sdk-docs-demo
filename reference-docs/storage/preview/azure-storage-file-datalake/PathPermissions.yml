@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PathPermissions
 uid: '@azure/storage-file-datalake.PathPermissions|preview'
 package: '@azure/storage-file-datalake|preview'

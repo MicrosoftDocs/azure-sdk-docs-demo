@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CheckpointStore
 uid: '@azure/event-hubs.CheckpointStore|latest-stable'
 package: '@azure/event-hubs|latest-stable'

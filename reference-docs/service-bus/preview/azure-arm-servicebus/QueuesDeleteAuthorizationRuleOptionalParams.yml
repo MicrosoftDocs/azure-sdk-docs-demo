@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueuesDeleteAuthorizationRuleOptionalParams
 uid: '@azure/arm-servicebus.QueuesDeleteAuthorizationRuleOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

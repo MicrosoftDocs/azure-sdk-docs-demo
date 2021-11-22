@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EncryptionScopesListOptionalParams
 uid: '@azure/arm-storage.EncryptionScopesListOptionalParams|preview'
 package: '@azure/arm-storage|preview'

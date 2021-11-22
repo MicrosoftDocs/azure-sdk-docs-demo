@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EdgeNGramTokenFilterSide
 uid: '@azure/search-documents.EdgeNGramTokenFilterSide|preview'
 package: '@azure/search-documents|preview'

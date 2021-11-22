@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PurgeDeletedKeyOptions
 uid: '@azure/keyvault-keys.PurgeDeletedKeyOptions|preview'
 package: '@azure/keyvault-keys|preview'

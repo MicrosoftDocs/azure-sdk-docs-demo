@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DeletedAccountsListResponse
 uid: '@azure/arm-storage.DeletedAccountsListResponse|latest-stable'
 package: '@azure/arm-storage|latest-stable'

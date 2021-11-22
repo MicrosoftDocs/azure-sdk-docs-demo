@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PeekMessagesOptions
 uid: '@azure/service-bus.PeekMessagesOptions|latest-stable'
 package: '@azure/service-bus|latest-stable'

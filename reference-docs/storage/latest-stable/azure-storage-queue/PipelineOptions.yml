@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PipelineOptions
 uid: '@azure/storage-queue.PipelineOptions|latest-stable'
 package: '@azure/storage-queue|latest-stable'

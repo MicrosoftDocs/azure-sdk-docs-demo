@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PathRenameModeModel
 uid: '@azure/storage-file-datalake.PathRenameModeModel|latest-stable'
 package: '@azure/storage-file-datalake|latest-stable'

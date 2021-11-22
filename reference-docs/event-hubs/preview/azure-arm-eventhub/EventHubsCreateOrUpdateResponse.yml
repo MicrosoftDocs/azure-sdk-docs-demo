@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EventHubsCreateOrUpdateResponse
 uid: '@azure/arm-eventhub.EventHubsCreateOrUpdateResponse|preview'
 package: '@azure/arm-eventhub|preview'

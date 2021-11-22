@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventHubsListByNamespaceOptionalParams
 uid: '@azure/arm-eventhub.EventHubsListByNamespaceOptionalParams|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

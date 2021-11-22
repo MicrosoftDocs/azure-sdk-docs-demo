@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageAccountsUpdateOptionalParams
 uid: '@azure/arm-storage.StorageAccountsUpdateOptionalParams|preview'
 package: '@azure/arm-storage|preview'

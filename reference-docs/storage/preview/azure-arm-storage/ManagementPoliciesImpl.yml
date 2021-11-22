@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ManagementPoliciesImpl
 uid: '@azure/arm-storage.ManagementPoliciesImpl|preview'
 package: '@azure/arm-storage|preview'

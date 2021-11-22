@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TableListNextResponse
 uid: '@azure/arm-storage.TableListNextResponse|latest-stable'
 package: '@azure/arm-storage|latest-stable'

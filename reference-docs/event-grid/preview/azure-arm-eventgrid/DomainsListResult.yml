@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DomainsListResult
 uid: '@azure/arm-eventgrid.DomainsListResult|preview'
 package: '@azure/arm-eventgrid|preview'

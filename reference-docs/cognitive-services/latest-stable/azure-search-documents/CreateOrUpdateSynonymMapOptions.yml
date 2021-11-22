@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CreateOrUpdateSynonymMapOptions
 uid: '@azure/search-documents.CreateOrUpdateSynonymMapOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SkuInformation
 uid: '@azure/arm-storage.SkuInformation|preview'
 package: '@azure/arm-storage|preview'

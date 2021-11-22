@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ResourceSkusListResponse
 uid: '@azure/arm-cognitiveservices.ResourceSkusListResponse|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

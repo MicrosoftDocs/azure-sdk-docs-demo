@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AccountsListByResourceGroupNextResponse
 uid: >-
   @azure/arm-cognitiveservices.AccountsListByResourceGroupNextResponse|latest-stable

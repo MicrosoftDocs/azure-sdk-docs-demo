@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ArchiveStatus
 uid: '@azure/storage-blob.ArchiveStatus|preview'
 package: '@azure/storage-blob|preview'

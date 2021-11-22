@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: GetDeletedCertificateOptions
 uid: '@azure/keyvault-certificates.GetDeletedCertificateOptions|preview'
 package: '@azure/keyvault-certificates|preview'

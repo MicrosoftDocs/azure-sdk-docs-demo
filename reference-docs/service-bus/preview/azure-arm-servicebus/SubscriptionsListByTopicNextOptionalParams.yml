@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SubscriptionsListByTopicNextOptionalParams
 uid: '@azure/arm-servicebus.SubscriptionsListByTopicNextOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DocumentModelAdministrationClientOptions
 uid: '@azure/ai-form-recognizer.DocumentModelAdministrationClientOptions|preview'
 package: '@azure/ai-form-recognizer|preview'

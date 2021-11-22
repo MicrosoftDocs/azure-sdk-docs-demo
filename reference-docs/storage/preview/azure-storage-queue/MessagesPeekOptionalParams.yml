@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MessagesPeekOptionalParams
 uid: '@azure/storage-queue.MessagesPeekOptionalParams|preview'
 package: '@azure/storage-queue|preview'

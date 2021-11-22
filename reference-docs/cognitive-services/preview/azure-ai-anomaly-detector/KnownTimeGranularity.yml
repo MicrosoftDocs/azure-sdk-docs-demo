@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownTimeGranularity
 uid: '@azure/ai-anomaly-detector.KnownTimeGranularity|preview'
 package: '@azure/ai-anomaly-detector|preview'

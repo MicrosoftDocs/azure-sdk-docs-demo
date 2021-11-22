@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BoolEqualsAdvancedFilter
 uid: '@azure/arm-eventgrid.BoolEqualsAdvancedFilter|preview'
 package: '@azure/arm-eventgrid|preview'

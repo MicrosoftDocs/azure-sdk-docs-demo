@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PageBlobCopyIncrementalResponse
 uid: '@azure/storage-blob.PageBlobCopyIncrementalResponse|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileSetMetadataResponse
 uid: '@azure/storage-file-share.FileSetMetadataResponse|preview'
 package: '@azure/storage-file-share|preview'

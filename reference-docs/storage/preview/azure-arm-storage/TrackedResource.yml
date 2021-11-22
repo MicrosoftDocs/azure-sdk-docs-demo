@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TrackedResource
 uid: '@azure/arm-storage.TrackedResource|preview'
 package: '@azure/arm-storage|preview'

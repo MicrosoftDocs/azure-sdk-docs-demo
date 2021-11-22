@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StampKind
 uid: '@azure/eventgrid.StampKind|latest-stable'
 package: '@azure/eventgrid|latest-stable'

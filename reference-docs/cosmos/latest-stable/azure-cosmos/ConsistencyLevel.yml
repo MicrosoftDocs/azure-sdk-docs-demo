@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: ConsistencyLevel
 uid: '@azure/cosmos.ConsistencyLevel|latest-stable'
 package: '@azure/cosmos|latest-stable'

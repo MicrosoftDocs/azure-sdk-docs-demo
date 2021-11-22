@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DetectLanguageSuccessResult
 uid: '@azure/ai-text-analytics.DetectLanguageSuccessResult|preview'
 package: '@azure/ai-text-analytics|preview'

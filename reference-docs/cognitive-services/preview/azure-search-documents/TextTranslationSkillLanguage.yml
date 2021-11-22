@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TextTranslationSkillLanguage
 uid: '@azure/search-documents.TextTranslationSkillLanguage|preview'
 package: '@azure/search-documents|preview'

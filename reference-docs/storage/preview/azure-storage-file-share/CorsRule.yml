@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CorsRule
 uid: '@azure/storage-file-share.CorsRule|preview'
 package: '@azure/storage-file-share|preview'

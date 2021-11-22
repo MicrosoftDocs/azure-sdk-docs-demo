@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SubscriptionsCreateOrUpdateOptionalParams
 uid: '@azure/arm-servicebus.SubscriptionsCreateOrUpdateOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

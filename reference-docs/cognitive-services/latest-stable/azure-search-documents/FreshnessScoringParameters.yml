@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FreshnessScoringParameters
 uid: '@azure/search-documents.FreshnessScoringParameters|latest-stable'
 package: '@azure/search-documents|latest-stable'

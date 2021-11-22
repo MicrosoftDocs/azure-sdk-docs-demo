@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: LanguageDetectionSkill
 uid: '@azure/search-documents.LanguageDetectionSkill|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TopicsBeginRegenerateKeyResponse
 uid: '@azure/arm-eventgrid.TopicsBeginRegenerateKeyResponse|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

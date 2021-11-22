@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ClustersListBySubscriptionOptionalParams
 uid: '@azure/arm-eventhub.ClustersListBySubscriptionOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

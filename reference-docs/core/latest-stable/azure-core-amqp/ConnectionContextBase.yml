@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ConnectionContextBase
 uid: '@azure/core-amqp.ConnectionContextBase|latest-stable'
 package: '@azure/core-amqp|latest-stable'

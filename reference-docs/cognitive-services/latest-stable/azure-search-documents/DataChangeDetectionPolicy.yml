@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DataChangeDetectionPolicy
 uid: '@azure/search-documents.DataChangeDetectionPolicy|latest-stable'
 package: '@azure/search-documents|latest-stable'

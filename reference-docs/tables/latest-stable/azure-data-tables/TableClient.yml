@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TableClient
 uid: '@azure/data-tables.TableClient|latest-stable'
 package: '@azure/data-tables|latest-stable'

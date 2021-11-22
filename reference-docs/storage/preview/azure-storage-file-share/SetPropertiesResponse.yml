@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SetPropertiesResponse
 uid: '@azure/storage-file-share.SetPropertiesResponse|preview'
 package: '@azure/storage-file-share|preview'

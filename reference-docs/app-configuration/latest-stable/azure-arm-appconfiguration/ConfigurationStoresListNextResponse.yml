@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ConfigurationStoresListNextResponse
 uid: '@azure/arm-appconfiguration.ConfigurationStoresListNextResponse|latest-stable'
 package: '@azure/arm-appconfiguration|latest-stable'

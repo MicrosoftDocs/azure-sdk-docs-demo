@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RestoreCertificateBackupOptions
 uid: '@azure/keyvault-certificates.RestoreCertificateBackupOptions|latest-stable'
 package: '@azure/keyvault-certificates|latest-stable'

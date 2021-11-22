@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobContainersGetImmutabilityPolicyOptionalParams
 uid: >-
   @azure/arm-storage.BlobContainersGetImmutabilityPolicyOptionalParams|latest-stable

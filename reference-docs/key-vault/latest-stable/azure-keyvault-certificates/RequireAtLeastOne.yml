@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RequireAtLeastOne
 uid: '@azure/keyvault-certificates.RequireAtLeastOne|latest-stable'
 package: '@azure/keyvault-certificates|latest-stable'

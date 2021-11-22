@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PIIDetectionSkill
 uid: '@azure/search-documents.PIIDetectionSkill|preview'
 package: '@azure/search-documents|preview'

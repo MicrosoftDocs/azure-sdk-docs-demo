@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownOcrSkillLanguage
 uid: '@azure/search-documents.KnownOcrSkillLanguage|latest-stable'
 package: '@azure/search-documents|latest-stable'

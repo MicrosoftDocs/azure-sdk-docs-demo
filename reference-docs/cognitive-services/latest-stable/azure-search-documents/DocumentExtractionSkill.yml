@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DocumentExtractionSkill
 uid: '@azure/search-documents.DocumentExtractionSkill|latest-stable'
 package: '@azure/search-documents|latest-stable'

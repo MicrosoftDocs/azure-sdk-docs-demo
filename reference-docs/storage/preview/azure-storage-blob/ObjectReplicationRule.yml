@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ObjectReplicationRule
 uid: '@azure/storage-blob.ObjectReplicationRule|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyReleasePolicy
 uid: '@azure/keyvault-keys.KeyReleasePolicy|preview'
 package: '@azure/keyvault-keys|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ChangeFeed
 uid: '@azure/arm-storage.ChangeFeed|preview'
 package: '@azure/arm-storage|preview'

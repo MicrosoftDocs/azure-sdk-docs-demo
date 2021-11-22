@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: QueueServicesSetServicePropertiesResponse
 uid: '@azure/arm-storage.QueueServicesSetServicePropertiesResponse|preview'
 package: '@azure/arm-storage|preview'

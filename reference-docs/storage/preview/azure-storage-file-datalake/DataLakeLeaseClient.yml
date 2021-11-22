@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DataLakeLeaseClient
 uid: '@azure/storage-file-datalake.DataLakeLeaseClient|preview'
 package: '@azure/storage-file-datalake|preview'

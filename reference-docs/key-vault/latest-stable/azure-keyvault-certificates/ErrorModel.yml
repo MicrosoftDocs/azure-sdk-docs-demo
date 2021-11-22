@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ErrorModel
 uid: '@azure/keyvault-certificates.ErrorModel|latest-stable'
 package: '@azure/keyvault-certificates|latest-stable'

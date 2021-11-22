@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceSpecification
 uid: '@azure/arm-storage.ServiceSpecification|preview'
 package: '@azure/arm-storage|preview'

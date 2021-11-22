@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobIndexerDataToExtract
 uid: '@azure/search-documents.BlobIndexerDataToExtract|preview'
 package: '@azure/search-documents|preview'

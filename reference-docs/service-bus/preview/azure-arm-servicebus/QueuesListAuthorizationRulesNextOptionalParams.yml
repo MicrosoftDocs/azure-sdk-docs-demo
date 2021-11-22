@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueuesListAuthorizationRulesNextOptionalParams
 uid: '@azure/arm-servicebus.QueuesListAuthorizationRulesNextOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

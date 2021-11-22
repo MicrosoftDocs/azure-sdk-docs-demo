@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateEndpointConnectionListResult
 uid: '@azure/arm-storage.PrivateEndpointConnectionListResult|preview'
 package: '@azure/arm-storage|preview'

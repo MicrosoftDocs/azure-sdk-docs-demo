@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeleteSkillsetOptions
 uid: '@azure/search-documents.DeleteSkillsetOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

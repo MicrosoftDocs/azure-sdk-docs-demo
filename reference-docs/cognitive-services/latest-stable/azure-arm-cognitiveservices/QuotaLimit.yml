@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QuotaLimit
 uid: '@azure/arm-cognitiveservices.QuotaLimit|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

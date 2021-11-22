@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PremiumMessagingRegionsOperations
 uid: '@azure/arm-servicebus.PremiumMessagingRegionsOperations|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

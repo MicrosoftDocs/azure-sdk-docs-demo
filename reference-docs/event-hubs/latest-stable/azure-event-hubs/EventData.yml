@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventData
 uid: '@azure/event-hubs.EventData|latest-stable'
 package: '@azure/event-hubs|latest-stable'

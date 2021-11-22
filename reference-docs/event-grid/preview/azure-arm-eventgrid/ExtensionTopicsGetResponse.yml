@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ExtensionTopicsGetResponse
 uid: '@azure/arm-eventgrid.ExtensionTopicsGetResponse|preview'
 package: '@azure/arm-eventgrid|preview'

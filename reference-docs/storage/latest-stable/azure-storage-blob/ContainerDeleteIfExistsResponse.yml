@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerDeleteIfExistsResponse
 uid: '@azure/storage-blob.ContainerDeleteIfExistsResponse|latest-stable'
 package: '@azure/storage-blob|latest-stable'

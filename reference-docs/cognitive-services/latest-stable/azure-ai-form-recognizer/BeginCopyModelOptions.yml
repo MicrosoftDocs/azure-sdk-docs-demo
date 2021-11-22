@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BeginCopyModelOptions
 uid: '@azure/ai-form-recognizer.BeginCopyModelOptions|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StopwordsList
 uid: '@azure/search-documents.StopwordsList|latest-stable'
 package: '@azure/search-documents|latest-stable'

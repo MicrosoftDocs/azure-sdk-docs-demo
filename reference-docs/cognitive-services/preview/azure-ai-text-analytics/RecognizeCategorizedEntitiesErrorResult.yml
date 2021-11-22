@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RecognizeCategorizedEntitiesErrorResult
 uid: '@azure/ai-text-analytics.RecognizeCategorizedEntitiesErrorResult|preview'
 package: '@azure/ai-text-analytics|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: PermissionMode
 uid: '@azure/cosmos.PermissionMode|latest-stable'
 package: '@azure/cosmos|latest-stable'

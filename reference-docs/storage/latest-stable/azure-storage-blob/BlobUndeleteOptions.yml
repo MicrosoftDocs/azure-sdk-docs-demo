@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobUndeleteOptions
 uid: '@azure/storage-blob.BlobUndeleteOptions|latest-stable'
 package: '@azure/storage-blob|latest-stable'

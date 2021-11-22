@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SearchResourceEncryptionKey
 uid: '@azure/search-documents.SearchResourceEncryptionKey|latest-stable'
 package: '@azure/search-documents|latest-stable'

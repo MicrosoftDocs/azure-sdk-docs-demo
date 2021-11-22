@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NetworkRuleSet
 uid: '@azure/arm-storage.NetworkRuleSet|preview'
 package: '@azure/arm-storage|preview'

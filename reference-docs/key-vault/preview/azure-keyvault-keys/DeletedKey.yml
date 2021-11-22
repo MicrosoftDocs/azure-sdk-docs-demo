@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeletedKey
 uid: '@azure/keyvault-keys.DeletedKey|preview'
 package: '@azure/keyvault-keys|preview'

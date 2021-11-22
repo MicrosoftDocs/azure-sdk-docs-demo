@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeleteRoleDefinitionOptions
 uid: '@azure/keyvault-admin.DeleteRoleDefinitionOptions|preview'
 package: '@azure/keyvault-admin|preview'

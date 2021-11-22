@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LroInProgressState
 uid: '@azure/arm-storage.LroInProgressState|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StemmerOverrideTokenFilter
 uid: '@azure/search-documents.StemmerOverrideTokenFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

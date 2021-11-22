@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultAdminPollOperationState
 uid: '@azure/keyvault-admin.KeyVaultAdminPollOperationState|latest-stable'
 package: '@azure/keyvault-admin|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PathSetHttpHeadersResponse
 uid: '@azure/storage-file-datalake.PathSetHttpHeadersResponse|latest-stable'
 package: '@azure/storage-file-datalake|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageAccountsFailoverOptionalParams
 uid: '@azure/arm-storage.StorageAccountsFailoverOptionalParams|preview'
 package: '@azure/arm-storage|preview'

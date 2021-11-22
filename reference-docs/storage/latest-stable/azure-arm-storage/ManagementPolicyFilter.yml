@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ManagementPolicyFilter
 uid: '@azure/arm-storage.ManagementPolicyFilter|latest-stable'
 package: '@azure/arm-storage|latest-stable'

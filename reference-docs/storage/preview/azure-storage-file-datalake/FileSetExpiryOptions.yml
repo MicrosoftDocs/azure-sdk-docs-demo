@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSetExpiryOptions
 uid: '@azure/storage-file-datalake.FileSetExpiryOptions|preview'
 package: '@azure/storage-file-datalake|preview'

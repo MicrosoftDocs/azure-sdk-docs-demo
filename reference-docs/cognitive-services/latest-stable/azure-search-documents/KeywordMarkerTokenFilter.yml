@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeywordMarkerTokenFilter
 uid: '@azure/search-documents.KeywordMarkerTokenFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageBrowserPolicy
 uid: '@azure/storage-file-datalake.StorageBrowserPolicy|latest-stable'
 package: '@azure/storage-file-datalake|latest-stable'

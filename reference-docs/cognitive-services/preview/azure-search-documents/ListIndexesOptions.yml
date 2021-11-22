@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ListIndexesOptions
 uid: '@azure/search-documents.ListIndexesOptions|preview'
 package: '@azure/search-documents|preview'

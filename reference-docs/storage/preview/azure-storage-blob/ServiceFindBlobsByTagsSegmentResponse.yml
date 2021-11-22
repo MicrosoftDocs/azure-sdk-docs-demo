@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ServiceFindBlobsByTagsSegmentResponse
 uid: '@azure/storage-blob.ServiceFindBlobsByTagsSegmentResponse|preview'
 package: '@azure/storage-blob|preview'

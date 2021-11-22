@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: IdentityDocument
 uid: '@azure/ai-form-recognizer.IdentityDocument|preview'
 package: '@azure/ai-form-recognizer|preview'

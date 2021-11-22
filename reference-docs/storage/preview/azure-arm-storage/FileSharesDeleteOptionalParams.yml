@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSharesDeleteOptionalParams
 uid: '@azure/arm-storage.FileSharesDeleteOptionalParams|preview'
 package: '@azure/arm-storage|preview'

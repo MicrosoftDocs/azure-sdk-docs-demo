@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CorsRule
 uid: '@azure/storage-blob.CorsRule|preview'
 package: '@azure/storage-blob|preview'

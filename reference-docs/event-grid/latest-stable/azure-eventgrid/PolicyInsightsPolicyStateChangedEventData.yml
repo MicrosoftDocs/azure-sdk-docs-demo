@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PolicyInsightsPolicyStateChangedEventData
 uid: '@azure/eventgrid.PolicyInsightsPolicyStateChangedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

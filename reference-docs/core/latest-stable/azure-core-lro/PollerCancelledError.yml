@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PollerCancelledError
 uid: '@azure/core-lro.PollerCancelledError|latest-stable'
 package: '@azure/core-lro|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobGetTagsResponse
 uid: '@azure/storage-blob.BlobGetTagsResponse|preview'
 package: '@azure/storage-blob|preview'

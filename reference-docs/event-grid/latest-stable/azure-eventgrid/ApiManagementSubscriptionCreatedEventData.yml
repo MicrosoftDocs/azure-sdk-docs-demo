@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ApiManagementSubscriptionCreatedEventData
 uid: '@azure/eventgrid.ApiManagementSubscriptionCreatedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

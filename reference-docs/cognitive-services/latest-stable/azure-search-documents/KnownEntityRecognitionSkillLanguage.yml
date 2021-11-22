@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownEntityRecognitionSkillLanguage
 uid: '@azure/search-documents.KnownEntityRecognitionSkillLanguage|latest-stable'
 package: '@azure/search-documents|latest-stable'

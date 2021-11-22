@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EdgeNGramTokenFilterSide
 uid: '@azure/search-documents.EdgeNGramTokenFilterSide|latest-stable'
 package: '@azure/search-documents|latest-stable'

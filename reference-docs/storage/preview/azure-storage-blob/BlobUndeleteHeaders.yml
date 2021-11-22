@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobUndeleteHeaders
 uid: '@azure/storage-blob.BlobUndeleteHeaders|preview'
 package: '@azure/storage-blob|preview'

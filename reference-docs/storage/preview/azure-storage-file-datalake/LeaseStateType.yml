@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: LeaseStateType
 uid: '@azure/storage-file-datalake.LeaseStateType|preview'
 package: '@azure/storage-file-datalake|preview'

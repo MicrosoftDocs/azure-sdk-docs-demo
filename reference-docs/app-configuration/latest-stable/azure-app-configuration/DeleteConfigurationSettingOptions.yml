@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeleteConfigurationSettingOptions
 uid: '@azure/app-configuration.DeleteConfigurationSettingOptions|latest-stable'
 package: '@azure/app-configuration|latest-stable'

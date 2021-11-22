@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SetAccessPolicyResponse
 uid: '@azure/data-tables.SetAccessPolicyResponse|latest-stable'
 package: '@azure/data-tables|latest-stable'

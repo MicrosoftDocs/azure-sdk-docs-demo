@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MachineLearningServicesDatasetDriftDetectedEventData
 uid: >-
   @azure/eventgrid.MachineLearningServicesDatasetDriftDetectedEventData|latest-stable

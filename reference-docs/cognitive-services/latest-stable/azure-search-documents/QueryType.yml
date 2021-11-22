@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: QueryType
 uid: '@azure/search-documents.QueryType|latest-stable'
 package: '@azure/search-documents|latest-stable'

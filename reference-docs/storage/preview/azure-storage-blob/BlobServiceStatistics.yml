@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobServiceStatistics
 uid: '@azure/storage-blob.BlobServiceStatistics|preview'
 package: '@azure/storage-blob|preview'

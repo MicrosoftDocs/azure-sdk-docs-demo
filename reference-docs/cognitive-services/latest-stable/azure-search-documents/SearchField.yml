@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SearchField
 uid: '@azure/search-documents.SearchField|latest-stable'
 package: '@azure/search-documents|latest-stable'

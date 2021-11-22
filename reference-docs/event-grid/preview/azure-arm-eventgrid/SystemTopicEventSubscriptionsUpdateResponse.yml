@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SystemTopicEventSubscriptionsUpdateResponse
 uid: '@azure/arm-eventgrid.SystemTopicEventSubscriptionsUpdateResponse|preview'
 package: '@azure/arm-eventgrid|preview'

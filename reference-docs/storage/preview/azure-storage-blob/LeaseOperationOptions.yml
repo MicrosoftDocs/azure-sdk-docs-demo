@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LeaseOperationOptions
 uid: '@azure/storage-blob.LeaseOperationOptions|preview'
 package: '@azure/storage-blob|preview'

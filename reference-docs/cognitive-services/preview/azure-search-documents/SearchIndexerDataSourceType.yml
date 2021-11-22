@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SearchIndexerDataSourceType
 uid: '@azure/search-documents.SearchIndexerDataSourceType|preview'
 package: '@azure/search-documents|preview'

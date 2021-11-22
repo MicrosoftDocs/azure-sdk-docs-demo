@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: WebSlotSwapFailedEventData
 uid: '@azure/eventgrid.WebSlotSwapFailedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

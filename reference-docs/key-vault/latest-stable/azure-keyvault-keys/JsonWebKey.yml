@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: JsonWebKey
 uid: '@azure/keyvault-keys.JsonWebKey|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultKeyExpiredEventData
 uid: '@azure/eventgrid.KeyVaultKeyExpiredEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

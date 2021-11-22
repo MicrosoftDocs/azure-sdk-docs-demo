@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EntityRecognitionSkill
 uid: '@azure/search-documents.EntityRecognitionSkill|latest-stable'
 package: '@azure/search-documents|latest-stable'

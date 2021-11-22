@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: WebAppServicePlanUpdatedEventDataSku
 uid: '@azure/eventgrid.WebAppServicePlanUpdatedEventDataSku|latest-stable'
 package: '@azure/eventgrid|latest-stable'

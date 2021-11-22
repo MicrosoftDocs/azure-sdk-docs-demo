@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AccountKind
 uid: '@azure/storage-blob.AccountKind|preview'
 package: '@azure/storage-blob|preview'

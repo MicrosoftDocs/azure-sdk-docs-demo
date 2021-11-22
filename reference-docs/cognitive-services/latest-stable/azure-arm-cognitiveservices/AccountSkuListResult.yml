@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccountSkuListResult
 uid: '@azure/arm-cognitiveservices.AccountSkuListResult|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

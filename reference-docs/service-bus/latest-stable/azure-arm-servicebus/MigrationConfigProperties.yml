@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MigrationConfigProperties
 uid: '@azure/arm-servicebus.MigrationConfigProperties|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

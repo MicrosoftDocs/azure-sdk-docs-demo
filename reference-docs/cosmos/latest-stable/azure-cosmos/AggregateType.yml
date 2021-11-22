@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AggregateType
 uid: '@azure/cosmos.AggregateType|latest-stable'
 package: '@azure/cosmos|latest-stable'

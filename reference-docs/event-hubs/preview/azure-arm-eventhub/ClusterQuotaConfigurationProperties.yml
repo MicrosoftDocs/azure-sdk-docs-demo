@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ClusterQuotaConfigurationProperties
 uid: '@azure/arm-eventhub.ClusterQuotaConfigurationProperties|preview'
 package: '@azure/arm-eventhub|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: GeographyPoint
 uid: '@azure/search-documents.GeographyPoint|latest-stable'
 package: '@azure/search-documents|latest-stable'

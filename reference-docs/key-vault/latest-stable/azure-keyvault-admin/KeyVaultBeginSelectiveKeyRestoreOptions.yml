@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultBeginSelectiveKeyRestoreOptions
 uid: '@azure/keyvault-admin.KeyVaultBeginSelectiveKeyRestoreOptions|latest-stable'
 package: '@azure/keyvault-admin|latest-stable'

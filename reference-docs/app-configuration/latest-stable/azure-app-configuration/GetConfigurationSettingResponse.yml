@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: GetConfigurationSettingResponse
 uid: '@azure/app-configuration.GetConfigurationSettingResponse|latest-stable'
 package: '@azure/app-configuration|latest-stable'

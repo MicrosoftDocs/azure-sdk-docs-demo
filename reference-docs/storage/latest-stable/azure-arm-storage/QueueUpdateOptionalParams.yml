@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueUpdateOptionalParams
 uid: '@azure/arm-storage.QueueUpdateOptionalParams|latest-stable'
 package: '@azure/arm-storage|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DisasterRecoveryConfigsListAuthorizationRulesNextResponse
 uid: >-
   @azure/arm-servicebus.DisasterRecoveryConfigsListAuthorizationRulesNextResponse|preview

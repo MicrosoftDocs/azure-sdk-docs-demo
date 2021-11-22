@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileQueryOptions
 uid: '@azure/storage-file-datalake.FileQueryOptions|latest-stable'
 package: '@azure/storage-file-datalake|latest-stable'

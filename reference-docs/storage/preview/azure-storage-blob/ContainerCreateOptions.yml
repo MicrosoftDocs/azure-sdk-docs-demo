@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerCreateOptions
 uid: '@azure/storage-blob.ContainerCreateOptions|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PagedAsyncIterableIterator
 uid: '@azure/core-paging.PagedAsyncIterableIterator|latest-stable'
 package: '@azure/core-paging|latest-stable'

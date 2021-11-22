@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SearchClient
 uid: '@azure/search-documents.SearchClient|latest-stable'
 package: '@azure/search-documents|latest-stable'

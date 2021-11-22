@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownDeletionRecoveryLevel
 uid: '@azure/keyvault-keys.KnownDeletionRecoveryLevel|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

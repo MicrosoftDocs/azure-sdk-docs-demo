@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: IPRule
 uid: '@azure/arm-keyvault.IPRule|preview'
 package: '@azure/arm-keyvault|preview'

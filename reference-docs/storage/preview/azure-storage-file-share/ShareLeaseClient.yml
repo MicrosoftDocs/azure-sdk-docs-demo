@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ShareLeaseClient
 uid: '@azure/storage-file-share.ShareLeaseClient|preview'
 package: '@azure/storage-file-share|preview'

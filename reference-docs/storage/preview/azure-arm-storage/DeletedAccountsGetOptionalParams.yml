@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeletedAccountsGetOptionalParams
 uid: '@azure/arm-storage.DeletedAccountsGetOptionalParams|preview'
 package: '@azure/arm-storage|preview'

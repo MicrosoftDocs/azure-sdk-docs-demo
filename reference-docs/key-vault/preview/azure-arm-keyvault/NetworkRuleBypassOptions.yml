@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NetworkRuleBypassOptions
 uid: '@azure/arm-keyvault.NetworkRuleBypassOptions|preview'
 package: '@azure/arm-keyvault|preview'

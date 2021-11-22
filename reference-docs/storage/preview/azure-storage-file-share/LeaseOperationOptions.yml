@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LeaseOperationOptions
 uid: '@azure/storage-file-share.LeaseOperationOptions|preview'
 package: '@azure/storage-file-share|preview'

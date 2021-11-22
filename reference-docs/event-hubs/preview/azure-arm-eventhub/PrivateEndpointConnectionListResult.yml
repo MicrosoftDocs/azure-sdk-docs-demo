@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateEndpointConnectionListResult
 uid: '@azure/arm-eventhub.PrivateEndpointConnectionListResult|preview'
 package: '@azure/arm-eventhub|preview'

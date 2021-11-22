@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AuthenticationRecord
 uid: '@azure/identity.AuthenticationRecord|latest-stable'
 package: '@azure/identity|latest-stable'

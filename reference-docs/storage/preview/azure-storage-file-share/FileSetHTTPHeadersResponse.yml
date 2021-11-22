@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileSetHTTPHeadersResponse
 uid: '@azure/storage-file-share.FileSetHTTPHeadersResponse|preview'
 package: '@azure/storage-file-share|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DocumentSelectionMark
 uid: '@azure/ai-form-recognizer.DocumentSelectionMark|preview'
 package: '@azure/ai-form-recognizer|preview'

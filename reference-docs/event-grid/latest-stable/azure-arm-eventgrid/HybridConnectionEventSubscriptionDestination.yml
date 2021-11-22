@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: HybridConnectionEventSubscriptionDestination
 uid: >-
   @azure/arm-eventgrid.HybridConnectionEventSubscriptionDestination|latest-stable

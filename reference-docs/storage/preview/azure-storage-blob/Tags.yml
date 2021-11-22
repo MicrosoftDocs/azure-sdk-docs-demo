@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: Tags
 uid: '@azure/storage-blob.Tags|preview'
 package: '@azure/storage-blob|preview'

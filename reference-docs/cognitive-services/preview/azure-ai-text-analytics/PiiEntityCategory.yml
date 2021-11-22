@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PiiEntityCategory
 uid: '@azure/ai-text-analytics.PiiEntityCategory|preview'
 package: '@azure/ai-text-analytics|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileParallelUploadOptions
 uid: '@azure/storage-file-share.FileParallelUploadOptions|preview'
 package: '@azure/storage-file-share|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NamespacesCreateOrUpdateNetworkRuleSetResponse
 uid: '@azure/arm-eventhub.NamespacesCreateOrUpdateNetworkRuleSetResponse|preview'
 package: '@azure/arm-eventhub|preview'

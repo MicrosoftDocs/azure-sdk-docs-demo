@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StaticDeliveryAttributeMapping
 uid: '@azure/arm-eventgrid.StaticDeliveryAttributeMapping|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

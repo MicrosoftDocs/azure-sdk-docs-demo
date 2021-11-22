@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TableGetAccessPolicyHeaders
 uid: '@azure/data-tables.TableGetAccessPolicyHeaders|latest-stable'
 package: '@azure/data-tables|latest-stable'

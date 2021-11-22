@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ConfigurationSettingParam
 uid: '@azure/app-configuration.ConfigurationSettingParam|latest-stable'
 package: '@azure/app-configuration|latest-stable'

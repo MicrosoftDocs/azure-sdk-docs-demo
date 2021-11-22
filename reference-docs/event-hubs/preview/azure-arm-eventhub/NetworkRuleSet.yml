@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NetworkRuleSet
 uid: '@azure/arm-eventhub.NetworkRuleSet|preview'
 package: '@azure/arm-eventhub|preview'

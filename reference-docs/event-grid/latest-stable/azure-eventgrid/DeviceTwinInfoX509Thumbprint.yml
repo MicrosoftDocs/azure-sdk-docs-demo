@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeviceTwinInfoX509Thumbprint
 uid: '@azure/eventgrid.DeviceTwinInfoX509Thumbprint|latest-stable'
 package: '@azure/eventgrid|latest-stable'

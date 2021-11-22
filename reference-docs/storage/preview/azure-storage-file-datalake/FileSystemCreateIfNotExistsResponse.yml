@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSystemCreateIfNotExistsResponse
 uid: '@azure/storage-file-datalake.FileSystemCreateIfNotExistsResponse|preview'
 package: '@azure/storage-file-datalake|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Similarity
 uid: '@azure/search-documents.Similarity|preview'
 package: '@azure/search-documents|preview'

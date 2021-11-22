@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NamespacesListNetworkRuleSetsNextOptionalParams
 uid: '@azure/arm-servicebus.NamespacesListNetworkRuleSetsNextOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

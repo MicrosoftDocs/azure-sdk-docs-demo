@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PremiumMessagingRegionsOperationsListNextResponse
 uid: >-
   @azure/arm-servicebus.PremiumMessagingRegionsOperationsListNextResponse|preview

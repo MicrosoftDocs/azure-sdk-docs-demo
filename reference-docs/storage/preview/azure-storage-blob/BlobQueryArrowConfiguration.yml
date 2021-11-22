@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobQueryArrowConfiguration
 uid: '@azure/storage-blob.BlobQueryArrowConfiguration|preview'
 package: '@azure/storage-blob|preview'

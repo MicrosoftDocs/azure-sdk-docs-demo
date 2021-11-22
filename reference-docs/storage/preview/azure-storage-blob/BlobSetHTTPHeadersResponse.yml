@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobSetHTTPHeadersResponse
 uid: '@azure/storage-blob.BlobSetHTTPHeadersResponse|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TagConditions
 uid: '@azure/storage-blob.TagConditions|preview'
 package: '@azure/storage-blob|preview'

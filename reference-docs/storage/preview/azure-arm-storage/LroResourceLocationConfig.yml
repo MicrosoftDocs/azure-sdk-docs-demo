@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: LroResourceLocationConfig
 uid: '@azure/arm-storage.LroResourceLocationConfig|preview'
 package: '@azure/arm-storage|preview'

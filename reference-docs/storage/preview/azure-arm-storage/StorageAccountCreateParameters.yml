@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageAccountCreateParameters
 uid: '@azure/arm-storage.StorageAccountCreateParameters|preview'
 package: '@azure/arm-storage|preview'

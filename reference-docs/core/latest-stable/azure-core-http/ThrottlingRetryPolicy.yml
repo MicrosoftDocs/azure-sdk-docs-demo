@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ThrottlingRetryPolicy
 uid: '@azure/core-http.ThrottlingRetryPolicy|latest-stable'
 package: '@azure/core-http|latest-stable'

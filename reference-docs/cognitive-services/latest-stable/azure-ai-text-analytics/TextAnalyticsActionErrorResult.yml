@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TextAnalyticsActionErrorResult
 uid: '@azure/ai-text-analytics.TextAnalyticsActionErrorResult|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'

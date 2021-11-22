@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SendRequestOptions
 uid: '@azure/core-amqp.SendRequestOptions|preview'
 package: '@azure/core-amqp|preview'

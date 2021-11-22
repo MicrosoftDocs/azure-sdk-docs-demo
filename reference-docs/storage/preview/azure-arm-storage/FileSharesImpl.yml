@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSharesImpl
 uid: '@azure/arm-storage.FileSharesImpl|preview'
 package: '@azure/arm-storage|preview'

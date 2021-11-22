@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: SASProtocol
 uid: '@azure/storage-blob.SASProtocol|latest-stable'
 package: '@azure/storage-blob|latest-stable'

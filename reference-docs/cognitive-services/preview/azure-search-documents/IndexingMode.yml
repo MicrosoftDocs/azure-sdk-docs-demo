@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: IndexingMode
 uid: '@azure/search-documents.IndexingMode|preview'
 package: '@azure/search-documents|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SignatureAlgorithm
 uid: '@azure/keyvault-keys.SignatureAlgorithm|preview'
 package: '@azure/keyvault-keys|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AppendBlobRequestConditions
 uid: '@azure/storage-blob.AppendBlobRequestConditions|preview'
 package: '@azure/storage-blob|preview'

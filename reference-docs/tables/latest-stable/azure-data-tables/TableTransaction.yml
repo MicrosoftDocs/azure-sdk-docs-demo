@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TableTransaction
 uid: '@azure/data-tables.TableTransaction|latest-stable'
 package: '@azure/data-tables|latest-stable'

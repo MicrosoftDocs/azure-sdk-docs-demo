@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileParallelUploadOptions
 uid: '@azure/storage-file-datalake.FileParallelUploadOptions|preview'
 package: '@azure/storage-file-datalake|preview'

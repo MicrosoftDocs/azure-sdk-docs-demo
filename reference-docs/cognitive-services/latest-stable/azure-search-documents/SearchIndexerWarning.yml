@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SearchIndexerWarning
 uid: '@azure/search-documents.SearchIndexerWarning|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileServicesSetServicePropertiesResponse
 uid: '@azure/arm-storage.FileServicesSetServicePropertiesResponse|latest-stable'
 package: '@azure/arm-storage|latest-stable'

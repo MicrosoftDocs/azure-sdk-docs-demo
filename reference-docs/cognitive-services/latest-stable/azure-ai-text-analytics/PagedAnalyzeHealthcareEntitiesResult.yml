@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PagedAnalyzeHealthcareEntitiesResult
 uid: '@azure/ai-text-analytics.PagedAnalyzeHealthcareEntitiesResult|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'

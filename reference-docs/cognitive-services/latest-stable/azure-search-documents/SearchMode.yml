@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SearchMode
 uid: '@azure/search-documents.SearchMode|latest-stable'
 package: '@azure/search-documents|latest-stable'

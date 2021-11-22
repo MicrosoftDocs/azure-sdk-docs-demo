@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DeleteContactsOptions
 uid: '@azure/keyvault-certificates.DeleteContactsOptions|preview'
 package: '@azure/keyvault-certificates|preview'

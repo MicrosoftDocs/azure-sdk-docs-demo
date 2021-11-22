@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: OperationsListResponse
 uid: '@azure/arm-eventgrid.OperationsListResponse|preview'
 package: '@azure/arm-eventgrid|preview'

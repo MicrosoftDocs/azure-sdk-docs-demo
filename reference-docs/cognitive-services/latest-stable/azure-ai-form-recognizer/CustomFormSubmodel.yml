@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CustomFormSubmodel
 uid: '@azure/ai-form-recognizer.CustomFormSubmodel|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

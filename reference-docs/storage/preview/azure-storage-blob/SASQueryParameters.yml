@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SASQueryParameters
 uid: '@azure/storage-blob.SASQueryParameters|preview'
 package: '@azure/storage-blob|preview'

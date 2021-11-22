@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: InventoryRuleType
 uid: '@azure/arm-storage.InventoryRuleType|preview'
 package: '@azure/arm-storage|preview'

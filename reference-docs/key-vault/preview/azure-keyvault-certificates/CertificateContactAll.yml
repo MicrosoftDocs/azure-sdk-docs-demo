@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CertificateContactAll
 uid: '@azure/keyvault-certificates.CertificateContactAll|preview'
 package: '@azure/keyvault-certificates|preview'

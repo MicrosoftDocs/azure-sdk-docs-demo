@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ManagementPoliciesGetResponse
 uid: '@azure/arm-storage.ManagementPoliciesGetResponse|latest-stable'
 package: '@azure/arm-storage|latest-stable'

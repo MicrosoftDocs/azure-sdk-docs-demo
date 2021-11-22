@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EventDeliverySchema
 uid: '@azure/arm-eventgrid.EventDeliverySchema|preview'
 package: '@azure/arm-eventgrid|preview'

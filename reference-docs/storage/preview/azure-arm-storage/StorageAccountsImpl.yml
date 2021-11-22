@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageAccountsImpl
 uid: '@azure/arm-storage.StorageAccountsImpl|preview'
 package: '@azure/arm-storage|preview'

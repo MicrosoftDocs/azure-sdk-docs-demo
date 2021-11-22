@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccessControlClientOptions
 uid: '@azure/keyvault-admin.AccessControlClientOptions|preview'
 package: '@azure/keyvault-admin|preview'

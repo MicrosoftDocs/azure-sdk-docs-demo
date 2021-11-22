@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SqlQuerySpec
 uid: '@azure/cosmos.SqlQuerySpec|latest-stable'
 package: '@azure/cosmos|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ParsedBatchResponse
 uid: '@azure/storage-blob.ParsedBatchResponse|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SearchIterator
 uid: '@azure/search-documents.SearchIterator|preview'
 package: '@azure/search-documents|preview'

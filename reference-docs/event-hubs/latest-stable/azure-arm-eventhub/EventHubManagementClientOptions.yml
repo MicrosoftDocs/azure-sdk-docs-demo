@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventHubManagementClientOptions
 uid: '@azure/arm-eventhub.EventHubManagementClientOptions|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

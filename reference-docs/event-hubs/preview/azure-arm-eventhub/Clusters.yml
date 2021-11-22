@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Clusters
 uid: '@azure/arm-eventhub.Clusters|preview'
 package: '@azure/arm-eventhub|preview'

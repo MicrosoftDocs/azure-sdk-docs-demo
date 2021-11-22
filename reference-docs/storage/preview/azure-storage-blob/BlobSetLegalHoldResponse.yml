@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobSetLegalHoldResponse
 uid: '@azure/storage-blob.BlobSetLegalHoldResponse|preview'
 package: '@azure/storage-blob|preview'

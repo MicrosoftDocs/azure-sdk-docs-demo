@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TableOperationsGetResponse
 uid: '@azure/arm-storage.TableOperationsGetResponse|preview'
 package: '@azure/arm-storage|preview'

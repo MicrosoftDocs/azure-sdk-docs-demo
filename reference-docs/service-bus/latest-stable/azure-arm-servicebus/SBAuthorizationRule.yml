@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SBAuthorizationRule
 uid: '@azure/arm-servicebus.SBAuthorizationRule|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ClientSideMetrics
 uid: '@azure/cosmos.ClientSideMetrics|latest-stable'
 package: '@azure/cosmos|latest-stable'

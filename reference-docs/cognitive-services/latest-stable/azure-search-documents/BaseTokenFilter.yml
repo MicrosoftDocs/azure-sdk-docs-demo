@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BaseTokenFilter
 uid: '@azure/search-documents.BaseTokenFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

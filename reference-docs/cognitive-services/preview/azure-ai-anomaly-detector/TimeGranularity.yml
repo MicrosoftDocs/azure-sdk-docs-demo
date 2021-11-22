@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TimeGranularity
 uid: '@azure/ai-anomaly-detector.TimeGranularity|preview'
 package: '@azure/ai-anomaly-detector|preview'

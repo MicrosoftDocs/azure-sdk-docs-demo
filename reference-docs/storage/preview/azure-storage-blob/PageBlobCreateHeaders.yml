@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PageBlobCreateHeaders
 uid: '@azure/storage-blob.PageBlobCreateHeaders|preview'
 package: '@azure/storage-blob|preview'

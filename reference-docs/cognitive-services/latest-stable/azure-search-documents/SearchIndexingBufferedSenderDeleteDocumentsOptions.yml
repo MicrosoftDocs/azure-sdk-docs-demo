@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SearchIndexingBufferedSenderDeleteDocumentsOptions
 uid: >-
   @azure/search-documents.SearchIndexingBufferedSenderDeleteDocumentsOptions|latest-stable

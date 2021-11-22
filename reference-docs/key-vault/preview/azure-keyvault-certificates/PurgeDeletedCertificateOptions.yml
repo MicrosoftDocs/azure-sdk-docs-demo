@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PurgeDeletedCertificateOptions
 uid: '@azure/keyvault-certificates.PurgeDeletedCertificateOptions|preview'
 package: '@azure/keyvault-certificates|preview'

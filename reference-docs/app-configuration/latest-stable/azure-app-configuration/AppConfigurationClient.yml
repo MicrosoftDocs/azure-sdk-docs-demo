@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AppConfigurationClient
 uid: '@azure/app-configuration.AppConfigurationClient|latest-stable'
 package: '@azure/app-configuration|latest-stable'

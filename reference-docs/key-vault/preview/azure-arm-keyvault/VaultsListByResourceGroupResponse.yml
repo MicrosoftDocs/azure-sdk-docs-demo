@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: VaultsListByResourceGroupResponse
 uid: '@azure/arm-keyvault.VaultsListByResourceGroupResponse|preview'
 package: '@azure/arm-keyvault|preview'

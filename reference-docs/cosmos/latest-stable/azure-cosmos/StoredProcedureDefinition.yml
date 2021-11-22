@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StoredProcedureDefinition
 uid: '@azure/cosmos.StoredProcedureDefinition|latest-stable'
 package: '@azure/cosmos|latest-stable'

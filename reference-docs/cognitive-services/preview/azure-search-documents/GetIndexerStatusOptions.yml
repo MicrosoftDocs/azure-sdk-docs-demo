@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: GetIndexerStatusOptions
 uid: '@azure/search-documents.GetIndexerStatusOptions|preview'
 package: '@azure/search-documents|preview'

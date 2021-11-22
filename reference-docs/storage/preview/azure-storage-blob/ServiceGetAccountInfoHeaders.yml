@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceGetAccountInfoHeaders
 uid: '@azure/storage-blob.ServiceGetAccountInfoHeaders|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: IPAction
 uid: '@azure/arm-servicebus.IPAction|preview'
 package: '@azure/arm-servicebus|preview'

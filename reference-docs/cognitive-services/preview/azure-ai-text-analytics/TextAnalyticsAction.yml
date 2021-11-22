@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TextAnalyticsAction
 uid: '@azure/ai-text-analytics.TextAnalyticsAction|preview'
 package: '@azure/ai-text-analytics|preview'

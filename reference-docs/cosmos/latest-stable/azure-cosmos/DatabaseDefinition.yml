@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DatabaseDefinition
 uid: '@azure/cosmos.DatabaseDefinition|latest-stable'
 package: '@azure/cosmos|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DisasterRecoveryConfigsListResponse
 uid: '@azure/arm-eventhub.DisasterRecoveryConfigsListResponse|preview'
 package: '@azure/arm-eventhub|preview'

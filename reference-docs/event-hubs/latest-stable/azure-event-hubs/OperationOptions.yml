@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: OperationOptions
 uid: '@azure/event-hubs.OperationOptions|latest-stable'
 package: '@azure/event-hubs|latest-stable'

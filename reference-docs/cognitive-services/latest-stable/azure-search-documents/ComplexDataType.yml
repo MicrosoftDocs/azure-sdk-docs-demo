@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ComplexDataType
 uid: '@azure/search-documents.ComplexDataType|latest-stable'
 package: '@azure/search-documents|latest-stable'

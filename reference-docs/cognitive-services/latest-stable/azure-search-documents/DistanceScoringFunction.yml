@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DistanceScoringFunction
 uid: '@azure/search-documents.DistanceScoringFunction|latest-stable'
 package: '@azure/search-documents|latest-stable'

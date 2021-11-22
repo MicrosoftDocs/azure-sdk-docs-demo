@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PatchRequestBody
 uid: '@azure/cosmos.PatchRequestBody|latest-stable'
 package: '@azure/cosmos|latest-stable'

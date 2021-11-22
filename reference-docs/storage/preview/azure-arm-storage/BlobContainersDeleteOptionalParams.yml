@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobContainersDeleteOptionalParams
 uid: '@azure/arm-storage.BlobContainersDeleteOptionalParams|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CreateTableEntityResponse
 uid: '@azure/data-tables.CreateTableEntityResponse|latest-stable'
 package: '@azure/data-tables|latest-stable'

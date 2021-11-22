@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SubscriptionProperties
 uid: '@azure/service-bus.SubscriptionProperties|latest-stable'
 package: '@azure/service-bus|latest-stable'

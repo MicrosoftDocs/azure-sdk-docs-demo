@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CosmosClientOptions
 uid: '@azure/cosmos.CosmosClientOptions|latest-stable'
 package: '@azure/cosmos|latest-stable'

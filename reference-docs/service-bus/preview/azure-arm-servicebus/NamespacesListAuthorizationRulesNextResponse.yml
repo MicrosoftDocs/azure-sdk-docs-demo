@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NamespacesListAuthorizationRulesNextResponse
 uid: '@azure/arm-servicebus.NamespacesListAuthorizationRulesNextResponse|preview'
 package: '@azure/arm-servicebus|preview'

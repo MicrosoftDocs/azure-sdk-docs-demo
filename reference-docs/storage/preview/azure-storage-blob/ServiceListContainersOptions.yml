@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceListContainersOptions
 uid: '@azure/storage-blob.ServiceListContainersOptions|preview'
 package: '@azure/storage-blob|preview'

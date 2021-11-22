@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DecryptResult
 uid: '@azure/keyvault-keys.DecryptResult|preview'
 package: '@azure/keyvault-keys|preview'

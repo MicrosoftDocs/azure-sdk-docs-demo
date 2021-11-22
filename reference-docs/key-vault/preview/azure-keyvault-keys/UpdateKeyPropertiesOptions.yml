@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: UpdateKeyPropertiesOptions
 uid: '@azure/keyvault-keys.UpdateKeyPropertiesOptions|preview'
 package: '@azure/keyvault-keys|preview'

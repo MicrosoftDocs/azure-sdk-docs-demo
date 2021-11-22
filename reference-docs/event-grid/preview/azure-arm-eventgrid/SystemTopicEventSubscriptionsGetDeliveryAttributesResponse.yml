@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SystemTopicEventSubscriptionsGetDeliveryAttributesResponse
 uid: >-
   @azure/arm-eventgrid.SystemTopicEventSubscriptionsGetDeliveryAttributesResponse|preview

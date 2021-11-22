@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyCurveName
 uid: '@azure/keyvault-keys.KeyCurveName|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

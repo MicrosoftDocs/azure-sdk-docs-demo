@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SBAuthorizationRuleListResult
 uid: '@azure/arm-servicebus.SBAuthorizationRuleListResult|preview'
 package: '@azure/arm-servicebus|preview'

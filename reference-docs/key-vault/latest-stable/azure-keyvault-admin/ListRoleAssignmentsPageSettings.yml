@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListRoleAssignmentsPageSettings
 uid: '@azure/keyvault-admin.ListRoleAssignmentsPageSettings|latest-stable'
 package: '@azure/keyvault-admin|latest-stable'

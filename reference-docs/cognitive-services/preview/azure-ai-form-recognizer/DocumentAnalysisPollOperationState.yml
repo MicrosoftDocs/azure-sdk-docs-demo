@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DocumentAnalysisPollOperationState
 uid: '@azure/ai-form-recognizer.DocumentAnalysisPollOperationState|preview'
 package: '@azure/ai-form-recognizer|preview'

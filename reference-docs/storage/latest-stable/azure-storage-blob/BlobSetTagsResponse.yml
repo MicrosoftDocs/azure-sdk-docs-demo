@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobSetTagsResponse
 uid: '@azure/storage-blob.BlobSetTagsResponse|latest-stable'
 package: '@azure/storage-blob|latest-stable'

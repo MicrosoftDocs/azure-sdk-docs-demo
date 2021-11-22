@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyPhraseExtractionSkill
 uid: '@azure/search-documents.KeyPhraseExtractionSkill|latest-stable'
 package: '@azure/search-documents|latest-stable'

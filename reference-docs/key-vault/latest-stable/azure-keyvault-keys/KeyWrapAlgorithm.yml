@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyWrapAlgorithm
 uid: '@azure/keyvault-keys.KeyWrapAlgorithm|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlockList
 uid: '@azure/storage-blob.BlockList|latest-stable'
 package: '@azure/storage-blob|latest-stable'

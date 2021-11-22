@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ReplaceOperationInput
 uid: '@azure/cosmos.ReplaceOperationInput|latest-stable'
 package: '@azure/cosmos|latest-stable'

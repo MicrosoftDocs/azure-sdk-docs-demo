@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LuceneStandardTokenizer
 uid: '@azure/search-documents.LuceneStandardTokenizer|preview'
 package: '@azure/search-documents|preview'

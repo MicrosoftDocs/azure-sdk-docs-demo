@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ClassicSimilarity
 uid: '@azure/search-documents.ClassicSimilarity|latest-stable'
 package: '@azure/search-documents|latest-stable'

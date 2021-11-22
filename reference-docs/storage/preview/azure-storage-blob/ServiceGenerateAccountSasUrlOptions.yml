@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceGenerateAccountSasUrlOptions
 uid: '@azure/storage-blob.ServiceGenerateAccountSasUrlOptions|preview'
 package: '@azure/storage-blob|preview'

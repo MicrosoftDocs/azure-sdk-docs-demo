@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PatternCaptureTokenFilter
 uid: '@azure/search-documents.PatternCaptureTokenFilter|preview'
 package: '@azure/search-documents|preview'

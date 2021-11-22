@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AccessTier
 uid: '@azure/arm-storage.AccessTier|preview'
 package: '@azure/arm-storage|preview'

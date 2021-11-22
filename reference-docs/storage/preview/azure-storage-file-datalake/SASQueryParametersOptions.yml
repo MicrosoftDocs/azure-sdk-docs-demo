@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SASQueryParametersOptions
 uid: '@azure/storage-file-datalake.SASQueryParametersOptions|preview'
 package: '@azure/storage-file-datalake|preview'

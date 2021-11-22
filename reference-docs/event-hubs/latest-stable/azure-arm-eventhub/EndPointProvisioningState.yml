@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EndPointProvisioningState
 uid: '@azure/arm-eventhub.EndPointProvisioningState|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

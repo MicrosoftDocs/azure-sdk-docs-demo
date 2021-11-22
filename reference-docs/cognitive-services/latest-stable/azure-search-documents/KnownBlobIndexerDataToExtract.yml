@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownBlobIndexerDataToExtract
 uid: '@azure/search-documents.KnownBlobIndexerDataToExtract|latest-stable'
 package: '@azure/search-documents|latest-stable'

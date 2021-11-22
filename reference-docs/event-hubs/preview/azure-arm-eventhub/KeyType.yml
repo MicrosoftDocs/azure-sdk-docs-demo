@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyType
 uid: '@azure/arm-eventhub.KeyType|preview'
 package: '@azure/arm-eventhub|preview'

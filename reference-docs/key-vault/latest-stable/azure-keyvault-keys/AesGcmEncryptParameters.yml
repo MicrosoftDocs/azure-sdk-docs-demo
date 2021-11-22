@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AesGcmEncryptParameters
 uid: '@azure/keyvault-keys.AesGcmEncryptParameters|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MessagesDequeueHeaders
 uid: '@azure/storage-queue.MessagesDequeueHeaders|latest-stable'
 package: '@azure/storage-queue|latest-stable'

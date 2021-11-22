@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SystemTopicsCreateOrUpdateOptionalParams
 uid: '@azure/arm-eventgrid.SystemTopicsCreateOrUpdateOptionalParams|preview'
 package: '@azure/arm-eventgrid|preview'

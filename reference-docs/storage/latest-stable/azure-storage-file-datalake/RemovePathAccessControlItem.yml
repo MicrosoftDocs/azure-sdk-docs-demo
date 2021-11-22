@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RemovePathAccessControlItem
 uid: '@azure/storage-file-datalake.RemovePathAccessControlItem|latest-stable'
 package: '@azure/storage-file-datalake|latest-stable'

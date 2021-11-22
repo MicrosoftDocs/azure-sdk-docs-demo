@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: StorageRetryPolicyType
 uid: '@azure/storage-blob.StorageRetryPolicyType|preview'
 package: '@azure/storage-blob|preview'

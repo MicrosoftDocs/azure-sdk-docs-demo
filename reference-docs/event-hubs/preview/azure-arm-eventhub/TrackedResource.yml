@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TrackedResource
 uid: '@azure/arm-eventhub.TrackedResource|preview'
 package: '@azure/arm-eventhub|preview'

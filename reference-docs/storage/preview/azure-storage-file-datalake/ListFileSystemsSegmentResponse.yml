@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListFileSystemsSegmentResponse
 uid: '@azure/storage-file-datalake.ListFileSystemsSegmentResponse|preview'
 package: '@azure/storage-file-datalake|preview'

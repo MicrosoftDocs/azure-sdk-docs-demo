@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceRenameContainerOptions
 uid: '@azure/storage-blob.ServiceRenameContainerOptions|preview'
 package: '@azure/storage-blob|preview'

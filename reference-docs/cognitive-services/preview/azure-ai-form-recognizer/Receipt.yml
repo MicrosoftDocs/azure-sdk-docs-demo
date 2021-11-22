@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: Receipt
 uid: '@azure/ai-form-recognizer.Receipt|preview'
 package: '@azure/ai-form-recognizer|preview'

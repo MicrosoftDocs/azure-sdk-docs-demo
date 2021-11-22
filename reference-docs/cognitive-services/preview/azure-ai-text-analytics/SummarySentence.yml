@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SummarySentence
 uid: '@azure/ai-text-analytics.SummarySentence|preview'
 package: '@azure/ai-text-analytics|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ResetIndexerOptions
 uid: '@azure/search-documents.ResetIndexerOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

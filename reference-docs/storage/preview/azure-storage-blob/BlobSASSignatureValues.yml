@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobSASSignatureValues
 uid: '@azure/storage-blob.BlobSASSignatureValues|preview'
 package: '@azure/storage-blob|preview'

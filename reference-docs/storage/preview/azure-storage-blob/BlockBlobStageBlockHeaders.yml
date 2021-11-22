@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlockBlobStageBlockHeaders
 uid: '@azure/storage-blob.BlockBlobStageBlockHeaders|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultSelectiveKeyRestoreResult
 uid: '@azure/keyvault-admin.KeyVaultSelectiveKeyRestoreResult|latest-stable'
 package: '@azure/keyvault-admin|latest-stable'

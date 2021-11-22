@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ResourceAccessRule
 uid: '@azure/arm-storage.ResourceAccessRule|preview'
 package: '@azure/arm-storage|preview'

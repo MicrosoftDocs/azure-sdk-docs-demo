@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NamespacesGetAuthorizationRuleOptionalParams
 uid: '@azure/arm-eventhub.NamespacesGetAuthorizationRuleOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

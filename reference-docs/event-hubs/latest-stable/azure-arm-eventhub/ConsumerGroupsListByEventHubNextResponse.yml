@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ConsumerGroupsListByEventHubNextResponse
 uid: '@azure/arm-eventhub.ConsumerGroupsListByEventHubNextResponse|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

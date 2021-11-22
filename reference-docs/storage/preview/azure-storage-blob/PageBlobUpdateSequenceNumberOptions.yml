@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PageBlobUpdateSequenceNumberOptions
 uid: '@azure/storage-blob.PageBlobUpdateSequenceNumberOptions|preview'
 package: '@azure/storage-blob|preview'

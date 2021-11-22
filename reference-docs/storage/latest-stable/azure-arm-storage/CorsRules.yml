@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CorsRules
 uid: '@azure/arm-storage.CorsRules|latest-stable'
 package: '@azure/arm-storage|latest-stable'

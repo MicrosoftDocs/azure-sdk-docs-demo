@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MicrosoftTeamsUserIdentifierModel
 uid: '@azure/eventgrid.MicrosoftTeamsUserIdentifierModel|latest-stable'
 package: '@azure/eventgrid|latest-stable'

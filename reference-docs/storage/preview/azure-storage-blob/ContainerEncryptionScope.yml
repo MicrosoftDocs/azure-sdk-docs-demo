@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerEncryptionScope
 uid: '@azure/storage-blob.ContainerEncryptionScope|preview'
 package: '@azure/storage-blob|preview'

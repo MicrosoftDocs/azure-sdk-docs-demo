@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyType
 uid: '@azure/arm-storage.KeyType|latest-stable'
 package: '@azure/arm-storage|latest-stable'

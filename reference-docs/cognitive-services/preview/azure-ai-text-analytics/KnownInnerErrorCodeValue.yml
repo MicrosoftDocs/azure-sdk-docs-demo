@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownInnerErrorCodeValue
 uid: '@azure/ai-text-analytics.KnownInnerErrorCodeValue|preview'
 package: '@azure/ai-text-analytics|preview'

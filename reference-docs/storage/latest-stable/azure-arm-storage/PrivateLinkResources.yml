@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateLinkResources
 uid: '@azure/arm-storage.PrivateLinkResources|latest-stable'
 package: '@azure/arm-storage|latest-stable'

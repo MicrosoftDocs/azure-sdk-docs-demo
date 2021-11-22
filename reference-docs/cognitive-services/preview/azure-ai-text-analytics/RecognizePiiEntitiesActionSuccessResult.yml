@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RecognizePiiEntitiesActionSuccessResult
 uid: '@azure/ai-text-analytics.RecognizePiiEntitiesActionSuccessResult|preview'
 package: '@azure/ai-text-analytics|preview'

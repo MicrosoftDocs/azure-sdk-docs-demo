@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NumberLessThanOrEqualsAdvancedFilter
 uid: '@azure/arm-eventgrid.NumberLessThanOrEqualsAdvancedFilter|preview'
 package: '@azure/arm-eventgrid|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DirectorySetMetadataOptions
 uid: '@azure/storage-file-share.DirectorySetMetadataOptions|preview'
 package: '@azure/storage-file-share|preview'

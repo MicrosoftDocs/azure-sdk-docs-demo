@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SubscriptionValidationEventData
 uid: '@azure/eventgrid.SubscriptionValidationEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DatabaseResponse
 uid: '@azure/cosmos.DatabaseResponse|latest-stable'
 package: '@azure/cosmos|latest-stable'

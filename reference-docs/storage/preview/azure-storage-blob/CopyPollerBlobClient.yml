@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CopyPollerBlobClient
 uid: '@azure/storage-blob.CopyPollerBlobClient|preview'
 package: '@azure/storage-blob|preview'

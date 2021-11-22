@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: OperationKind
 uid: '@azure/ai-form-recognizer.OperationKind|preview'
 package: '@azure/ai-form-recognizer|preview'

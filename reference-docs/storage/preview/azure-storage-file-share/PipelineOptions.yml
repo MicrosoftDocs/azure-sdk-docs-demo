@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PipelineOptions
 uid: '@azure/storage-file-share.PipelineOptions|preview'
 package: '@azure/storage-file-share|preview'

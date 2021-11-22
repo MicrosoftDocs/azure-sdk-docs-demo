@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: OperationOptions
 uid: '@azure/event-hubs.OperationOptions|preview'
 package: '@azure/event-hubs|preview'

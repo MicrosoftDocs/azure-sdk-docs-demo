@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobDownloadHeaders
 uid: '@azure/storage-blob.BlobDownloadHeaders|preview'
 package: '@azure/storage-blob|preview'

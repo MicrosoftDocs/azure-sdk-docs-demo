@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileQueryError
 uid: '@azure/storage-file-datalake.FileQueryError|preview'
 package: '@azure/storage-file-datalake|preview'

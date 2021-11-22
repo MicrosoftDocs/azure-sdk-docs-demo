@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StorageAccountsRestoreBlobRangesResponse
 uid: '@azure/arm-storage.StorageAccountsRestoreBlobRangesResponse|preview'
 package: '@azure/arm-storage|preview'

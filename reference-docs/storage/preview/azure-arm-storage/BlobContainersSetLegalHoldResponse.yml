@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobContainersSetLegalHoldResponse
 uid: '@azure/arm-storage.BlobContainersSetLegalHoldResponse|preview'
 package: '@azure/arm-storage|preview'

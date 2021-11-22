@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MediaJobOutputFinishedEventData
 uid: '@azure/eventgrid.MediaJobOutputFinishedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

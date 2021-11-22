@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: GetTokenOptions
 uid: '@azure/core-auth.GetTokenOptions|latest-stable'
 package: '@azure/core-auth|latest-stable'

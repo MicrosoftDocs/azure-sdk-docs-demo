@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DictionaryDecompounderTokenFilter
 uid: '@azure/search-documents.DictionaryDecompounderTokenFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BufferedCloseOptions
 uid: '@azure/event-hubs.BufferedCloseOptions|preview'
 package: '@azure/event-hubs|preview'

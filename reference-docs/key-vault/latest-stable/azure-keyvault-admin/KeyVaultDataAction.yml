@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyVaultDataAction
 uid: '@azure/keyvault-admin.KeyVaultDataAction|latest-stable'
 package: '@azure/keyvault-admin|latest-stable'

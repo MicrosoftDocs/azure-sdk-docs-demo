@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ClustersUpdateOptionalParams
 uid: '@azure/arm-eventhub.ClustersUpdateOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

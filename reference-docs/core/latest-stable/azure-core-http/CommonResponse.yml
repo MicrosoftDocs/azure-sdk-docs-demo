@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CommonResponse
 uid: '@azure/core-http.CommonResponse|latest-stable'
 package: '@azure/core-http|latest-stable'

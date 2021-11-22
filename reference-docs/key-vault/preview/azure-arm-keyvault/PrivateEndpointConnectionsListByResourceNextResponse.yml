@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateEndpointConnectionsListByResourceNextResponse
 uid: >-
   @azure/arm-keyvault.PrivateEndpointConnectionsListByResourceNextResponse|preview

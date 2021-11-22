@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DocumentCountryRegionField
 uid: '@azure/ai-form-recognizer.DocumentCountryRegionField|preview'
 package: '@azure/ai-form-recognizer|preview'

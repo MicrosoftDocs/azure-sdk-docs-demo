@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlockBlobParallelUploadOptions
 uid: '@azure/storage-blob.BlockBlobParallelUploadOptions|latest-stable'
 package: '@azure/storage-blob|latest-stable'

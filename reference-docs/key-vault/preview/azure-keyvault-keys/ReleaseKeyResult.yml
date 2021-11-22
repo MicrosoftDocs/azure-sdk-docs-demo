@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ReleaseKeyResult
 uid: '@azure/keyvault-keys.ReleaseKeyResult|preview'
 package: '@azure/keyvault-keys|preview'

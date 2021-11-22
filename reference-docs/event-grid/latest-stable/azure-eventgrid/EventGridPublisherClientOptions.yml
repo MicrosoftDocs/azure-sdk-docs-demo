@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EventGridPublisherClientOptions
 uid: '@azure/eventgrid.EventGridPublisherClientOptions|latest-stable'
 package: '@azure/eventgrid|latest-stable'

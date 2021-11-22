@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MicrosoftTokenizerLanguage
 uid: '@azure/search-documents.MicrosoftTokenizerLanguage|latest-stable'
 package: '@azure/search-documents|latest-stable'

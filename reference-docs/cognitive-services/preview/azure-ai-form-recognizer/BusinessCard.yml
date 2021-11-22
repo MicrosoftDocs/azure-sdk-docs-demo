@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BusinessCard
 uid: '@azure/ai-form-recognizer.BusinessCard|preview'
 package: '@azure/ai-form-recognizer|preview'

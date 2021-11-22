@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListSettingsOptions
 uid: '@azure/app-configuration.ListSettingsOptions|latest-stable'
 package: '@azure/app-configuration|latest-stable'

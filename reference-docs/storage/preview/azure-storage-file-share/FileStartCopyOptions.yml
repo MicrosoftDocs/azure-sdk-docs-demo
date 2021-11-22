@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileStartCopyOptions
 uid: '@azure/storage-file-share.FileStartCopyOptions|preview'
 package: '@azure/storage-file-share|preview'

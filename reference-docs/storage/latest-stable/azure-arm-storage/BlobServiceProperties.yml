@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobServiceProperties
 uid: '@azure/arm-storage.BlobServiceProperties|latest-stable'
 package: '@azure/arm-storage|latest-stable'

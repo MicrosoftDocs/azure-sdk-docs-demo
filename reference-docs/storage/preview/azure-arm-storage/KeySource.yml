@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeySource
 uid: '@azure/arm-storage.KeySource|preview'
 package: '@azure/arm-storage|preview'

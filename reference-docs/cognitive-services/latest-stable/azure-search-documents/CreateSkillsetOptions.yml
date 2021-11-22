@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CreateSkillsetOptions
 uid: '@azure/search-documents.CreateSkillsetOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobInventoryPolicy
 uid: '@azure/arm-storage.BlobInventoryPolicy|preview'
 package: '@azure/arm-storage|preview'

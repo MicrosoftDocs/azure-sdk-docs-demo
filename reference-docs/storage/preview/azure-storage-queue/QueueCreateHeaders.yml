@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueCreateHeaders
 uid: '@azure/storage-queue.QueueCreateHeaders|preview'
 package: '@azure/storage-queue|preview'

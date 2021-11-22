@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventHubs
 uid: '@azure/arm-servicebus.EventHubs|preview'
 package: '@azure/arm-servicebus|preview'

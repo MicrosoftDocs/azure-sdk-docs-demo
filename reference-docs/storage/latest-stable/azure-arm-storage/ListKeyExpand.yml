@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ListKeyExpand
 uid: '@azure/arm-storage.ListKeyExpand|latest-stable'
 package: '@azure/arm-storage|latest-stable'

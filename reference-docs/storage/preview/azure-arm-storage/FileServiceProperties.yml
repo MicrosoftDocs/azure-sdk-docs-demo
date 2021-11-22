@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileServiceProperties
 uid: '@azure/arm-storage.FileServiceProperties|preview'
 package: '@azure/arm-storage|preview'

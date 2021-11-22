@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TopicsListKeysResponse
 uid: '@azure/arm-servicebus.TopicsListKeysResponse|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

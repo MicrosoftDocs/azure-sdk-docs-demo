@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: URLTokenizer
 uid: '@azure/core-http.URLTokenizer|latest-stable'
 package: '@azure/core-http|latest-stable'

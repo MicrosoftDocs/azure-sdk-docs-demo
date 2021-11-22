@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DeleteCertificateState
 uid: '@azure/keyvault-certificates.DeleteCertificateState|latest-stable'
 package: '@azure/keyvault-certificates|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceSubmitBatchHeaders
 uid: '@azure/storage-blob.ServiceSubmitBatchHeaders|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: OperationDefinitionDisplay
 uid: '@azure/arm-appconfiguration.OperationDefinitionDisplay|latest-stable'
 package: '@azure/arm-appconfiguration|latest-stable'

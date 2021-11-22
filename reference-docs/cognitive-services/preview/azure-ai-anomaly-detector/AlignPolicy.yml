@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AlignPolicy
 uid: '@azure/ai-anomaly-detector.AlignPolicy|preview'
 package: '@azure/ai-anomaly-detector|preview'

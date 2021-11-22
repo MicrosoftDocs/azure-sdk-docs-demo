@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileExpiryMode
 uid: '@azure/storage-file-datalake.FileExpiryMode|preview'
 package: '@azure/storage-file-datalake|preview'

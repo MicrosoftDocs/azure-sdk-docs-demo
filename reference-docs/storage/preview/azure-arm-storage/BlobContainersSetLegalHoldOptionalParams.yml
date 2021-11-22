@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobContainersSetLegalHoldOptionalParams
 uid: '@azure/arm-storage.BlobContainersSetLegalHoldOptionalParams|preview'
 package: '@azure/arm-storage|preview'

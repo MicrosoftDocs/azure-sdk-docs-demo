@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PathDeleteOptions
 uid: '@azure/storage-file-datalake.PathDeleteOptions|preview'
 package: '@azure/storage-file-datalake|preview'

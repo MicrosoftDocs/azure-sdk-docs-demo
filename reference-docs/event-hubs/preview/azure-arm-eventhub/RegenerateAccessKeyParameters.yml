@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RegenerateAccessKeyParameters
 uid: '@azure/arm-eventhub.RegenerateAccessKeyParameters|preview'
 package: '@azure/arm-eventhub|preview'

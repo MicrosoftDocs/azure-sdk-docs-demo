@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SemanticField
 uid: '@azure/search-documents.SemanticField|preview'
 package: '@azure/search-documents|preview'

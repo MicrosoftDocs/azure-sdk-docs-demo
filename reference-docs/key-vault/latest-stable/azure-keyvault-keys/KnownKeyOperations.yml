@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownKeyOperations
 uid: '@azure/keyvault-keys.KnownKeyOperations|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BeginCreateCertificateOptions
 uid: '@azure/keyvault-certificates.BeginCreateCertificateOptions|preview'
 package: '@azure/keyvault-certificates|preview'

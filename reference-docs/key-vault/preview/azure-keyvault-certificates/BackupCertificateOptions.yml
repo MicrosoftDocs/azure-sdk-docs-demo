@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BackupCertificateOptions
 uid: '@azure/keyvault-certificates.BackupCertificateOptions|preview'
 package: '@azure/keyvault-certificates|preview'

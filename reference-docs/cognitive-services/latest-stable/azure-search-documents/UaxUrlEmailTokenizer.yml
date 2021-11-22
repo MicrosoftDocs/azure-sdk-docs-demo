@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: UaxUrlEmailTokenizer
 uid: '@azure/search-documents.UaxUrlEmailTokenizer|latest-stable'
 package: '@azure/search-documents|latest-stable'

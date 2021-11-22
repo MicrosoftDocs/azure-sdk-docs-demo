@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DirectoryDeleteOptions
 uid: '@azure/storage-file-share.DirectoryDeleteOptions|latest-stable'
 package: '@azure/storage-file-share|latest-stable'

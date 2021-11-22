@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownBlobInventoryPolicyName
 uid: '@azure/arm-storage.KnownBlobInventoryPolicyName|preview'
 package: '@azure/arm-storage|preview'

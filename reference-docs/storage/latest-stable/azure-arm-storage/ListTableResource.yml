@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListTableResource
 uid: '@azure/arm-storage.ListTableResource|latest-stable'
 package: '@azure/arm-storage|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownKeyPermissions
 uid: '@azure/arm-keyvault.KnownKeyPermissions|preview'
 package: '@azure/arm-keyvault|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownEnum21
 uid: '@azure/arm-eventgrid.KnownEnum21|preview'
 package: '@azure/arm-eventgrid|preview'

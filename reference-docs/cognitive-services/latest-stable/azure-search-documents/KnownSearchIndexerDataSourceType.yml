@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownSearchIndexerDataSourceType
 uid: '@azure/search-documents.KnownSearchIndexerDataSourceType|latest-stable'
 package: '@azure/search-documents|latest-stable'

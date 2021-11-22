@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SqlRuleFilter
 uid: '@azure/service-bus.SqlRuleFilter|latest-stable'
 package: '@azure/service-bus|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ClustersListAvailableClusterRegionOptionalParams
 uid: '@azure/arm-eventhub.ClustersListAvailableClusterRegionOptionalParams|preview'
 package: '@azure/arm-eventhub|preview'

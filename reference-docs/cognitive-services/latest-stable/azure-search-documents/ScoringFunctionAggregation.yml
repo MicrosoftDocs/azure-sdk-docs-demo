@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ScoringFunctionAggregation
 uid: '@azure/search-documents.ScoringFunctionAggregation|latest-stable'
 package: '@azure/search-documents|latest-stable'

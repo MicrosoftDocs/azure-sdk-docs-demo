@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: QueuesCreateOrUpdateAuthorizationRuleResponse
 uid: '@azure/arm-servicebus.QueuesCreateOrUpdateAuthorizationRuleResponse|preview'
 package: '@azure/arm-servicebus|preview'

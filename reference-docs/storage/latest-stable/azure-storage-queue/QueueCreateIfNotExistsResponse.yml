@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueCreateIfNotExistsResponse
 uid: '@azure/storage-queue.QueueCreateIfNotExistsResponse|latest-stable'
 package: '@azure/storage-queue|latest-stable'

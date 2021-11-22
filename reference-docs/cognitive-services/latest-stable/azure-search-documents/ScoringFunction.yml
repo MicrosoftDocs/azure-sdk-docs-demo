@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ScoringFunction
 uid: '@azure/search-documents.ScoringFunction|latest-stable'
 package: '@azure/search-documents|latest-stable'

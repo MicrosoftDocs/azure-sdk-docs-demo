@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ShareGetAccessPolicyHeaders
 uid: '@azure/storage-file-share.ShareGetAccessPolicyHeaders|latest-stable'
 package: '@azure/storage-file-share|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ContainerRegistryImagePushedEventData
 uid: '@azure/eventgrid.ContainerRegistryImagePushedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

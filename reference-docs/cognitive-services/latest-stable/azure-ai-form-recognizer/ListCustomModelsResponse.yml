@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ListCustomModelsResponse
 uid: '@azure/ai-form-recognizer.ListCustomModelsResponse|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListContainerItem
 uid: '@azure/arm-storage.ListContainerItem|latest-stable'
 package: '@azure/arm-storage|latest-stable'

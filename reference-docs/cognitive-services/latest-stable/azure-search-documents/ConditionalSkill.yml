@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ConditionalSkill
 uid: '@azure/search-documents.ConditionalSkill|latest-stable'
 package: '@azure/search-documents|latest-stable'

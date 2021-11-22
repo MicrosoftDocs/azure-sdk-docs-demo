@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LroConfig
 uid: '@azure/arm-storage.LroConfig|preview'
 package: '@azure/arm-storage|preview'

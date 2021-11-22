@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: LeaseStatus
 uid: '@azure/arm-storage.LeaseStatus|latest-stable'
 package: '@azure/arm-storage|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ReceivedMessageItem
 uid: '@azure/storage-queue.ReceivedMessageItem|latest-stable'
 package: '@azure/storage-queue|latest-stable'

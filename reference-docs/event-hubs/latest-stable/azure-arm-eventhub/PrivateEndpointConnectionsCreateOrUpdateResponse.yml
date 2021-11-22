@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateEndpointConnectionsCreateOrUpdateResponse
 uid: >-
   @azure/arm-eventhub.PrivateEndpointConnectionsCreateOrUpdateResponse|latest-stable

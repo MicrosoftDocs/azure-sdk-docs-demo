@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateEndpointConnectionsDeleteOptionalParams
 uid: '@azure/arm-eventgrid.PrivateEndpointConnectionsDeleteOptionalParams|preview'
 package: '@azure/arm-eventgrid|preview'

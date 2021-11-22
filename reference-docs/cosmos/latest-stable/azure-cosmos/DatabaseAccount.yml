@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DatabaseAccount
 uid: '@azure/cosmos.DatabaseAccount|latest-stable'
 package: '@azure/cosmos|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: IssuerAttributes
 uid: '@azure/keyvault-certificates.IssuerAttributes|preview'
 package: '@azure/keyvault-certificates|preview'

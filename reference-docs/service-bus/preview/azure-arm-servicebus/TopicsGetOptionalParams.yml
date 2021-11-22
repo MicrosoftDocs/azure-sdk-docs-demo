@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TopicsGetOptionalParams
 uid: '@azure/arm-servicebus.TopicsGetOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MediaLiveEventTrackDiscontinuityDetectedEventData
 uid: >-
   @azure/eventgrid.MediaLiveEventTrackDiscontinuityDetectedEventData|latest-stable

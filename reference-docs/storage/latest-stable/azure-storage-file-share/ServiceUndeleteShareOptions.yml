@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceUndeleteShareOptions
 uid: '@azure/storage-file-share.ServiceUndeleteShareOptions|latest-stable'
 package: '@azure/storage-file-share|latest-stable'

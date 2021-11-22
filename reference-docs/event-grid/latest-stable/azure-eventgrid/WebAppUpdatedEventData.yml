@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: WebAppUpdatedEventData
 uid: '@azure/eventgrid.WebAppUpdatedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

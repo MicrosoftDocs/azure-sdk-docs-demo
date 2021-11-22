@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileStartCopyHeaders
 uid: '@azure/storage-file-share.FileStartCopyHeaders|latest-stable'
 package: '@azure/storage-file-share|latest-stable'

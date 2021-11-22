@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SystemTopic
 uid: '@azure/arm-eventgrid.SystemTopic|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

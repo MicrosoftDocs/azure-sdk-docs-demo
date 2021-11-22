@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EventHubsGetAuthorizationRuleResponse
 uid: '@azure/arm-eventhub.EventHubsGetAuthorizationRuleResponse|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

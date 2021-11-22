@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PhoneticTokenFilter
 uid: '@azure/search-documents.PhoneticTokenFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

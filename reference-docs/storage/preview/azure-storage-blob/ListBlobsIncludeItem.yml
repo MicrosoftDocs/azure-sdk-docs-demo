@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ListBlobsIncludeItem
 uid: '@azure/storage-blob.ListBlobsIncludeItem|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TopicsGetAuthorizationRuleOptionalParams
 uid: '@azure/arm-servicebus.TopicsGetAuthorizationRuleOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

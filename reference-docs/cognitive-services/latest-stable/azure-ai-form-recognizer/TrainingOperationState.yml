@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TrainingOperationState
 uid: '@azure/ai-form-recognizer.TrainingOperationState|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

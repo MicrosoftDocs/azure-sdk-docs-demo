@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Endpoints
 uid: '@azure/arm-storage.Endpoints|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AppendPositionAccessConditions
 uid: '@azure/storage-blob.AppendPositionAccessConditions|preview'
 package: '@azure/storage-blob|preview'

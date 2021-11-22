@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SqlIntegratedChangeTrackingPolicy
 uid: '@azure/search-documents.SqlIntegratedChangeTrackingPolicy|latest-stable'
 package: '@azure/search-documents|latest-stable'

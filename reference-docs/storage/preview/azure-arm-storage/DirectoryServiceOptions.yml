@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DirectoryServiceOptions
 uid: '@azure/arm-storage.DirectoryServiceOptions|preview'
 package: '@azure/arm-storage|preview'

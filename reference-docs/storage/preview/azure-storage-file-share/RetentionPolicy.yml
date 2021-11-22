@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RetentionPolicy
 uid: '@azure/storage-file-share.RetentionPolicy|preview'
 package: '@azure/storage-file-share|preview'

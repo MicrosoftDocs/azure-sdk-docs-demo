@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LeaseShareResponse
 uid: '@azure/arm-storage.LeaseShareResponse|preview'
 package: '@azure/arm-storage|preview'

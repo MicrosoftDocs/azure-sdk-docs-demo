@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AuthenticationError
 uid: '@azure/identity.AuthenticationError|latest-stable'
 package: '@azure/identity|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StemmerTokenFilter
 uid: '@azure/search-documents.StemmerTokenFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

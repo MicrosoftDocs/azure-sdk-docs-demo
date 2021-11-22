@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: JsonField
 uid: '@azure/arm-eventgrid.JsonField|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

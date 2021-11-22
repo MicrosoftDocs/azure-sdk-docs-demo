@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PagedAsyncIterableAnalyzeHealthcareEntitiesResult
 uid: >-
   @azure/ai-text-analytics.PagedAsyncIterableAnalyzeHealthcareEntitiesResult|latest-stable

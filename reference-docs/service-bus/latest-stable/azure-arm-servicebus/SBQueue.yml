@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SBQueue
 uid: '@azure/arm-servicebus.SBQueue|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CorsOptions
 uid: '@azure/search-documents.CorsOptions|preview'
 package: '@azure/search-documents|preview'

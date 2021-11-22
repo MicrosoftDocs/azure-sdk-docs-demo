@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: IndexingMode
 uid: '@azure/cosmos.IndexingMode|latest-stable'
 package: '@azure/cosmos|latest-stable'

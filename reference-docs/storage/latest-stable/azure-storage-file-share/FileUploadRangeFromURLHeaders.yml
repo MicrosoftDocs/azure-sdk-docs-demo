@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileUploadRangeFromURLHeaders
 uid: '@azure/storage-file-share.FileUploadRangeFromURLHeaders|latest-stable'
 package: '@azure/storage-file-share|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: IpActionType
 uid: '@azure/arm-eventgrid.IpActionType|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

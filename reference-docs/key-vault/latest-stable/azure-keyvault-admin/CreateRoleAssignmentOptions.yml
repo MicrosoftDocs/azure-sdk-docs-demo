@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CreateRoleAssignmentOptions
 uid: '@azure/keyvault-admin.CreateRoleAssignmentOptions|latest-stable'
 package: '@azure/keyvault-admin|latest-stable'

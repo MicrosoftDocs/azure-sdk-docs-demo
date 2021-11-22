@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownSplitSkillLanguage
 uid: '@azure/search-documents.KnownSplitSkillLanguage|preview'
 package: '@azure/search-documents|preview'

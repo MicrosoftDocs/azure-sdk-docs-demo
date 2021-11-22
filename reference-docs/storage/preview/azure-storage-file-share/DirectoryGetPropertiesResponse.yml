@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DirectoryGetPropertiesResponse
 uid: '@azure/storage-file-share.DirectoryGetPropertiesResponse|preview'
 package: '@azure/storage-file-share|preview'

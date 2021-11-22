@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyClient
 uid: '@azure/keyvault-keys.KeyClient|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

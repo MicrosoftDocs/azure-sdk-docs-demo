@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DirectoryCloseHandlesHeaders
 uid: '@azure/storage-file-share.DirectoryCloseHandlesHeaders|preview'
 package: '@azure/storage-file-share|preview'

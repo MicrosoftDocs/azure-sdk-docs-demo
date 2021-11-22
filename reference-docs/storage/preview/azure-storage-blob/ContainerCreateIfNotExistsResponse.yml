@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerCreateIfNotExistsResponse
 uid: '@azure/storage-blob.ContainerCreateIfNotExistsResponse|preview'
 package: '@azure/storage-blob|preview'

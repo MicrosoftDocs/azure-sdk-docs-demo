@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ExtensionTopic
 uid: '@azure/arm-eventgrid.ExtensionTopic|preview'
 package: '@azure/arm-eventgrid|preview'

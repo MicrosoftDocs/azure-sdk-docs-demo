@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ImportCertificatePolicy
 uid: '@azure/keyvault-certificates.ImportCertificatePolicy|preview'
 package: '@azure/keyvault-certificates|preview'

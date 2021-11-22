@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EndpointType
 uid: '@azure/arm-eventgrid.EndpointType|preview'
 package: '@azure/arm-eventgrid|preview'

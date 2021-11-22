@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DetectChangePointRequest
 uid: '@azure/ai-anomaly-detector.DetectChangePointRequest|preview'
 package: '@azure/ai-anomaly-detector|preview'

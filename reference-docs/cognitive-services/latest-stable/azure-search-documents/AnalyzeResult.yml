@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AnalyzeResult
 uid: '@azure/search-documents.AnalyzeResult|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ProcessErrorHandler
 uid: '@azure/event-hubs.ProcessErrorHandler|preview'
 package: '@azure/event-hubs|preview'

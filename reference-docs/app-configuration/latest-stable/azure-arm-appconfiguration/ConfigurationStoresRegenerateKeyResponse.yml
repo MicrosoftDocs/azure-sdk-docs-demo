@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ConfigurationStoresRegenerateKeyResponse
 uid: >-
   @azure/arm-appconfiguration.ConfigurationStoresRegenerateKeyResponse|latest-stable

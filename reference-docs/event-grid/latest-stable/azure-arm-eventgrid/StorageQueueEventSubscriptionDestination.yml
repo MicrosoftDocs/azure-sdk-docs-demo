@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageQueueEventSubscriptionDestination
 uid: '@azure/arm-eventgrid.StorageQueueEventSubscriptionDestination|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

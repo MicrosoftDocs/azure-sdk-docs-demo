@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileUploadRangeFromURLResponse
 uid: '@azure/storage-file-share.FileUploadRangeFromURLResponse|preview'
 package: '@azure/storage-file-share|preview'

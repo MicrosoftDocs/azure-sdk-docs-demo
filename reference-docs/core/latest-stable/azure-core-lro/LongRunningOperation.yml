@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: LongRunningOperation
 uid: '@azure/core-lro.LongRunningOperation|latest-stable'
 package: '@azure/core-lro|latest-stable'

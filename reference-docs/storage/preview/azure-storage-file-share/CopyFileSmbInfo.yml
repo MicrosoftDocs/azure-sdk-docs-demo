@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CopyFileSmbInfo
 uid: '@azure/storage-file-share.CopyFileSmbInfo|preview'
 package: '@azure/storage-file-share|preview'

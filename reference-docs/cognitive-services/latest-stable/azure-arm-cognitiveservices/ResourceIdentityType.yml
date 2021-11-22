@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ResourceIdentityType
 uid: '@azure/arm-cognitiveservices.ResourceIdentityType|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

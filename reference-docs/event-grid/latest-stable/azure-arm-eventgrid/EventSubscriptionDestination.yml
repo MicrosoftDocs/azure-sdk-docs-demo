@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventSubscriptionDestination
 uid: '@azure/arm-eventgrid.EventSubscriptionDestination|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

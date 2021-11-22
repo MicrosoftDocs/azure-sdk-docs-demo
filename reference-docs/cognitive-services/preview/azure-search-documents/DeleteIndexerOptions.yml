@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeleteIndexerOptions
 uid: '@azure/search-documents.DeleteIndexerOptions|preview'
 package: '@azure/search-documents|preview'

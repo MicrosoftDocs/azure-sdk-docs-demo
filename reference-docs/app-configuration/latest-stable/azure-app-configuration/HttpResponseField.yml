@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: HttpResponseField
 uid: '@azure/app-configuration.HttpResponseField|latest-stable'
 package: '@azure/app-configuration|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DistanceScoringParameters
 uid: '@azure/search-documents.DistanceScoringParameters|latest-stable'
 package: '@azure/search-documents|latest-stable'

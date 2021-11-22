@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Subnet
 uid: '@azure/arm-eventhub.Subnet|preview'
 package: '@azure/arm-eventhub|preview'

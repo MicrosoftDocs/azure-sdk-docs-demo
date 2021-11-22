@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DeleteModelOptions
 uid: '@azure/ai-form-recognizer.DeleteModelOptions|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

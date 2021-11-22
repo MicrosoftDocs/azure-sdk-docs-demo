@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AccessTier
 uid: '@azure/storage-blob.AccessTier|latest-stable'
 package: '@azure/storage-blob|latest-stable'

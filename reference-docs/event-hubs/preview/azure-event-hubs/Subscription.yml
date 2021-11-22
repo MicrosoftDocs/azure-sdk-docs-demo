@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Subscription
 uid: '@azure/event-hubs.Subscription|preview'
 package: '@azure/event-hubs|preview'

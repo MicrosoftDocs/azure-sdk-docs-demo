@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EntityStatus
 uid: '@azure/service-bus.EntityStatus|latest-stable'
 package: '@azure/service-bus|latest-stable'

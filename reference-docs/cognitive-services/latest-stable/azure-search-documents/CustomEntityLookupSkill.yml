@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CustomEntityLookupSkill
 uid: '@azure/search-documents.CustomEntityLookupSkill|latest-stable'
 package: '@azure/search-documents|latest-stable'

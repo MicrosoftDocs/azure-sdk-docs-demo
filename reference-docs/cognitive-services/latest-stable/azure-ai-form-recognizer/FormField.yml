@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FormField
 uid: '@azure/ai-form-recognizer.FormField|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

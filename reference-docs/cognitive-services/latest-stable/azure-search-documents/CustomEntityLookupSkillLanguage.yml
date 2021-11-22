@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CustomEntityLookupSkillLanguage
 uid: '@azure/search-documents.CustomEntityLookupSkillLanguage|latest-stable'
 package: '@azure/search-documents|latest-stable'

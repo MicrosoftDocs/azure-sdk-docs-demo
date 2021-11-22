@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListDeletedKeysOptions
 uid: '@azure/keyvault-keys.ListDeletedKeysOptions|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

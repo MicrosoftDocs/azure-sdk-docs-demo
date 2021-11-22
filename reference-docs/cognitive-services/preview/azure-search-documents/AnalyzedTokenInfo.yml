@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AnalyzedTokenInfo
 uid: '@azure/search-documents.AnalyzedTokenInfo|preview'
 package: '@azure/search-documents|preview'

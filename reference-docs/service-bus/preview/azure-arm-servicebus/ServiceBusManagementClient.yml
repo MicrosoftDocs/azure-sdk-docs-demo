@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceBusManagementClient
 uid: '@azure/arm-servicebus.ServiceBusManagementClient|preview'
 package: '@azure/arm-servicebus|preview'

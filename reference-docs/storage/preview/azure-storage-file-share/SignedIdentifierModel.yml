@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SignedIdentifierModel
 uid: '@azure/storage-file-share.SignedIdentifierModel|preview'
 package: '@azure/storage-file-share|preview'

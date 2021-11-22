@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ErrorModel
 uid: '@azure/arm-keyvault.ErrorModel|preview'
 package: '@azure/arm-keyvault|preview'

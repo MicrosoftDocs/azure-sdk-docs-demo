@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: LimitTokenFilter
 uid: '@azure/search-documents.LimitTokenFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

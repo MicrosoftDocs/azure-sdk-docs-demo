@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PatternReplaceTokenFilter
 uid: '@azure/search-documents.PatternReplaceTokenFilter|preview'
 package: '@azure/search-documents|preview'

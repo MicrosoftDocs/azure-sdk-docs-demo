@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: LroMode
 uid: '@azure/arm-storage.LroMode|preview'
 package: '@azure/arm-storage|preview'

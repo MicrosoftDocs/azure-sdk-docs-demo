@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobSetMetadataResponse
 uid: '@azure/storage-blob.BlobSetMetadataResponse|latest-stable'
 package: '@azure/storage-blob|latest-stable'

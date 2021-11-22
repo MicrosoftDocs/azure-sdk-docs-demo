@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TopicsRegenerateKeysOptionalParams
 uid: '@azure/arm-servicebus.TopicsRegenerateKeysOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

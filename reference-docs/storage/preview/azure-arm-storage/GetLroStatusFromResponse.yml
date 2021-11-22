@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: GetLroStatusFromResponse
 uid: '@azure/arm-storage.GetLroStatusFromResponse|preview'
 package: '@azure/arm-storage|preview'

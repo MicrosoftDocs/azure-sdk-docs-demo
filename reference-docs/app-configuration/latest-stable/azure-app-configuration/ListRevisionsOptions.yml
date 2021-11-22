@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListRevisionsOptions
 uid: '@azure/app-configuration.ListRevisionsOptions|latest-stable'
 package: '@azure/app-configuration|latest-stable'

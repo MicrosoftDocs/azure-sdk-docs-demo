@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownVisualFeature
 uid: '@azure/search-documents.KnownVisualFeature|preview'
 package: '@azure/search-documents|preview'

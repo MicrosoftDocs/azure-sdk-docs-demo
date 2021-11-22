@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ServiceGetUserDelegationKeyResponse
 uid: '@azure/storage-blob.ServiceGetUserDelegationKeyResponse|preview'
 package: '@azure/storage-blob|preview'

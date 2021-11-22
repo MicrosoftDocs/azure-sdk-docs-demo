@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CreateEcKeyOptions
 uid: '@azure/keyvault-keys.CreateEcKeyOptions|preview'
 package: '@azure/keyvault-keys|preview'

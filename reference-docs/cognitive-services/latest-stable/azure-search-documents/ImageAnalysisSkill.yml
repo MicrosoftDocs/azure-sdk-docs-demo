@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ImageAnalysisSkill
 uid: '@azure/search-documents.ImageAnalysisSkill|latest-stable'
 package: '@azure/search-documents|latest-stable'

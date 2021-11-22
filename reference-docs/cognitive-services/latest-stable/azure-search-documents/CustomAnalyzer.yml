@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CustomAnalyzer
 uid: '@azure/search-documents.CustomAnalyzer|latest-stable'
 package: '@azure/search-documents|latest-stable'

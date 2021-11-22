@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TableSasPermissions
 uid: '@azure/data-tables.TableSasPermissions|latest-stable'
 package: '@azure/data-tables|latest-stable'

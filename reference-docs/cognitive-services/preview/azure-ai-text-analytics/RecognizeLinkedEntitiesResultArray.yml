@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RecognizeLinkedEntitiesResultArray
 uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesResultArray|preview'
 package: '@azure/ai-text-analytics|preview'

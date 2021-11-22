@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceGetUserDelegationKeyOptions
 uid: '@azure/storage-blob.ServiceGetUserDelegationKeyOptions|preview'
 package: '@azure/storage-blob|preview'

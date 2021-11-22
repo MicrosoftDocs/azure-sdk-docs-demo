@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListPropertiesOfCertificatesOptions
 uid: '@azure/keyvault-certificates.ListPropertiesOfCertificatesOptions|preview'
 package: '@azure/keyvault-certificates|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TextAnalyticsWarning
 uid: '@azure/ai-text-analytics.TextAnalyticsWarning|preview'
 package: '@azure/ai-text-analytics|preview'

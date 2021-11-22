@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerDeleteHeaders
 uid: '@azure/storage-blob.ContainerDeleteHeaders|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobBatchDeleteBlobsResponse
 uid: '@azure/storage-blob.BlobBatchDeleteBlobsResponse|latest-stable'
 package: '@azure/storage-blob|latest-stable'

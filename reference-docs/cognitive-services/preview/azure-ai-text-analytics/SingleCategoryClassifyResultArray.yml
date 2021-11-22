@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SingleCategoryClassifyResultArray
 uid: '@azure/ai-text-analytics.SingleCategoryClassifyResultArray|preview'
 package: '@azure/ai-text-analytics|preview'

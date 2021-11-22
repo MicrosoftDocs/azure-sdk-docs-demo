@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: UserDefinedFunctionType
 uid: '@azure/cosmos.UserDefinedFunctionType|latest-stable'
 package: '@azure/cosmos|latest-stable'

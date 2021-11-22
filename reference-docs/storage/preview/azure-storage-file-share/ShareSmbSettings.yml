@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ShareSmbSettings
 uid: '@azure/storage-file-share.ShareSmbSettings|preview'
 package: '@azure/storage-file-share|preview'

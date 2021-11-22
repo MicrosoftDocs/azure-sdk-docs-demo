@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobQueryHeaders
 uid: '@azure/storage-blob.BlobQueryHeaders|latest-stable'
 package: '@azure/storage-blob|latest-stable'

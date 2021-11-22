@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageAccountsCheckNameAvailabilityOptionalParams
 uid: '@azure/arm-storage.StorageAccountsCheckNameAvailabilityOptionalParams|preview'
 package: '@azure/arm-storage|preview'

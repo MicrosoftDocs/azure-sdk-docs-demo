@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NWRuleSetVirtualNetworkRules
 uid: '@azure/arm-servicebus.NWRuleSetVirtualNetworkRules|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DomainRegenerateKeyRequest
 uid: '@azure/arm-eventgrid.DomainRegenerateKeyRequest|preview'
 package: '@azure/arm-eventgrid|preview'

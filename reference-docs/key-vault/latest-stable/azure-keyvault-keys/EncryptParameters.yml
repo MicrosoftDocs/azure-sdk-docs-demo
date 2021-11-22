@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EncryptParameters
 uid: '@azure/keyvault-keys.EncryptParameters|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

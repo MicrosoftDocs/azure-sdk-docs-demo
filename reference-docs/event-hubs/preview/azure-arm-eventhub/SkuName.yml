@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SkuName
 uid: '@azure/arm-eventhub.SkuName|preview'
 package: '@azure/arm-eventhub|preview'

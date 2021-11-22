@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FeedResponse
 uid: '@azure/cosmos.FeedResponse|latest-stable'
 package: '@azure/cosmos|latest-stable'

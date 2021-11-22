@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageAccountsRestoreBlobRangesOptionalParams
 uid: '@azure/arm-storage.StorageAccountsRestoreBlobRangesOptionalParams|preview'
 package: '@azure/arm-storage|preview'

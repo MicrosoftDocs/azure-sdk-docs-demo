@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RsaEncryptionAlgorithm
 uid: '@azure/keyvault-keys.RsaEncryptionAlgorithm|preview'
 package: '@azure/keyvault-keys|preview'

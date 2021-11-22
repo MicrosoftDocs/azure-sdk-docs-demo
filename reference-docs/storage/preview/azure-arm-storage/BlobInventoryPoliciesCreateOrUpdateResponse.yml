@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobInventoryPoliciesCreateOrUpdateResponse
 uid: '@azure/arm-storage.BlobInventoryPoliciesCreateOrUpdateResponse|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobSetMetadataHeaders
 uid: '@azure/storage-blob.BlobSetMetadataHeaders|latest-stable'
 package: '@azure/storage-blob|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AccountStatus
 uid: '@azure/arm-storage.AccountStatus|latest-stable'
 package: '@azure/arm-storage|latest-stable'

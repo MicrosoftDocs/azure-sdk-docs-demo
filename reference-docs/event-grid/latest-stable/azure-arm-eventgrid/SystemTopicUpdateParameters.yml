@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SystemTopicUpdateParameters
 uid: '@azure/arm-eventgrid.SystemTopicUpdateParameters|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

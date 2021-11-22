@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownDeliveryAttributeMappingType
 uid: '@azure/arm-eventgrid.KnownDeliveryAttributeMappingType|preview'
 package: '@azure/arm-eventgrid|preview'

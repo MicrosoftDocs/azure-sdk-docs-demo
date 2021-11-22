@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: StorageAccountExpand
 uid: '@azure/arm-storage.StorageAccountExpand|preview'
 package: '@azure/arm-storage|preview'

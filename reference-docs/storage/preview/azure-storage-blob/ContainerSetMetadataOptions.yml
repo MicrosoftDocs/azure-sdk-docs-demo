@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerSetMetadataOptions
 uid: '@azure/storage-blob.ContainerSetMetadataOptions|preview'
 package: '@azure/storage-blob|preview'

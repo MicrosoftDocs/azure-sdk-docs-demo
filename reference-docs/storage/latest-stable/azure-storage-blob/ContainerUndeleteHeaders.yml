@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerUndeleteHeaders
 uid: '@azure/storage-blob.ContainerUndeleteHeaders|latest-stable'
 package: '@azure/storage-blob|latest-stable'

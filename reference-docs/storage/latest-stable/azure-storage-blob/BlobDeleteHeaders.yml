@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobDeleteHeaders
 uid: '@azure/storage-blob.BlobDeleteHeaders|latest-stable'
 package: '@azure/storage-blob|latest-stable'

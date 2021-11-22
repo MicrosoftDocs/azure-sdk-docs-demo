@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CaptureDescription
 uid: '@azure/arm-eventhub.CaptureDescription|preview'
 package: '@azure/arm-eventhub|preview'

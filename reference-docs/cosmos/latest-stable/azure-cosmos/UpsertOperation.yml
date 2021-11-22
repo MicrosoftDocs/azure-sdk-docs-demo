@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: UpsertOperation
 uid: '@azure/cosmos.UpsertOperation|latest-stable'
 package: '@azure/cosmos|latest-stable'

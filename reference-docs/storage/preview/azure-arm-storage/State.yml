@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: State
 uid: '@azure/arm-storage.State|preview'
 package: '@azure/arm-storage|preview'

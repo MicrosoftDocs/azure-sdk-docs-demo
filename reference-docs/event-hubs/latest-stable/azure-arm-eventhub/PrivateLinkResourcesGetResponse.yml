@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateLinkResourcesGetResponse
 uid: '@azure/arm-eventhub.PrivateLinkResourcesGetResponse|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

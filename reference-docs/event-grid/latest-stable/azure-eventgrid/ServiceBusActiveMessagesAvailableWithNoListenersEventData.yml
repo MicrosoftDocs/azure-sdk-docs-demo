@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceBusActiveMessagesAvailableWithNoListenersEventData
 uid: >-
   @azure/eventgrid.ServiceBusActiveMessagesAvailableWithNoListenersEventData|latest-stable

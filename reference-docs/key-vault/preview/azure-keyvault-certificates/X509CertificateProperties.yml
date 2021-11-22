@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: X509CertificateProperties
 uid: '@azure/keyvault-certificates.X509CertificateProperties|preview'
 package: '@azure/keyvault-certificates|preview'

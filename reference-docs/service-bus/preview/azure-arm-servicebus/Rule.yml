@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: Rule
 uid: '@azure/arm-servicebus.Rule|preview'
 package: '@azure/arm-servicebus|preview'

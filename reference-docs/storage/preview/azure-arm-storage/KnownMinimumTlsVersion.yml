@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownMinimumTlsVersion
 uid: '@azure/arm-storage.KnownMinimumTlsVersion|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CharFilter
 uid: '@azure/search-documents.CharFilter|preview'
 package: '@azure/search-documents|preview'

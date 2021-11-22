@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: IssuerProperties
 uid: '@azure/keyvault-certificates.IssuerProperties|latest-stable'
 package: '@azure/keyvault-certificates|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TruncateTokenFilter
 uid: '@azure/search-documents.TruncateTokenFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

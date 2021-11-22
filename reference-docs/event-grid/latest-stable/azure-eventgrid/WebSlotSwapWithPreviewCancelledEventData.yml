@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: WebSlotSwapWithPreviewCancelledEventData
 uid: '@azure/eventgrid.WebSlotSwapWithPreviewCancelledEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

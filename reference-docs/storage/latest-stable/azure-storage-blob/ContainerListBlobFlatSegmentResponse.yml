@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ContainerListBlobFlatSegmentResponse
 uid: '@azure/storage-blob.ContainerListBlobFlatSegmentResponse|latest-stable'
 package: '@azure/storage-blob|latest-stable'

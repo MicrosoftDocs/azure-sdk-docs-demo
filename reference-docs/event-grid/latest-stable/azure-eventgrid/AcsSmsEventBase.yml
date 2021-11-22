@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AcsSmsEventBase
 uid: '@azure/eventgrid.AcsSmsEventBase|latest-stable'
 package: '@azure/eventgrid|latest-stable'

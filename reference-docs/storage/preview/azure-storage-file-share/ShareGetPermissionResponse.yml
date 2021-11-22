@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ShareGetPermissionResponse
 uid: '@azure/storage-file-share.ShareGetPermissionResponse|preview'
 package: '@azure/storage-file-share|preview'

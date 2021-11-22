@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CallRateLimit
 uid: '@azure/arm-cognitiveservices.CallRateLimit|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

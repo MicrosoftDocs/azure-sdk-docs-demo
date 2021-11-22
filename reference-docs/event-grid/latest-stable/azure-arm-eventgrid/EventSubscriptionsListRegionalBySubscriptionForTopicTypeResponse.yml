@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EventSubscriptionsListRegionalBySubscriptionForTopicTypeResponse
 uid: >-
   @azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionForTopicTypeResponse|latest-stable

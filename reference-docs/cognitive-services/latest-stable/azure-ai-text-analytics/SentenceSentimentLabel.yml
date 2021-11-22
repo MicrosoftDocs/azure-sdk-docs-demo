@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SentenceSentimentLabel
 uid: '@azure/ai-text-analytics.SentenceSentimentLabel|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'

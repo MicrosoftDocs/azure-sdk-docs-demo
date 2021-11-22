@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: GetPartitionIdsOptions
 uid: '@azure/event-hubs.GetPartitionIdsOptions|latest-stable'
 package: '@azure/event-hubs|latest-stable'

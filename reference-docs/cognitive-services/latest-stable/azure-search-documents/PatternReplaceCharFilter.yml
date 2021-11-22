@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PatternReplaceCharFilter
 uid: '@azure/search-documents.PatternReplaceCharFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

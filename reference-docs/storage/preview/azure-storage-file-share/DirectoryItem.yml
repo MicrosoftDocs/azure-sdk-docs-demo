@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DirectoryItem
 uid: '@azure/storage-file-share.DirectoryItem|preview'
 package: '@azure/storage-file-share|preview'

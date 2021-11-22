@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PathModel
 uid: '@azure/storage-file-datalake.PathModel|preview'
 package: '@azure/storage-file-datalake|preview'

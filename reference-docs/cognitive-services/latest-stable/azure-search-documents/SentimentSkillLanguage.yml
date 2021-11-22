@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SentimentSkillLanguage
 uid: '@azure/search-documents.SentimentSkillLanguage|latest-stable'
 package: '@azure/search-documents|latest-stable'

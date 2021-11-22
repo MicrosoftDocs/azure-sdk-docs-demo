@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TopicsGetAuthorizationRuleResponse
 uid: '@azure/arm-servicebus.TopicsGetAuthorizationRuleResponse|preview'
 package: '@azure/arm-servicebus|preview'

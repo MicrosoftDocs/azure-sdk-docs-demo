@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FormRecognizerError
 uid: '@azure/ai-form-recognizer.FormRecognizerError|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

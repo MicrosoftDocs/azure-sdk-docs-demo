@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageAccountsDeleteOptionalParams
 uid: '@azure/arm-storage.StorageAccountsDeleteOptionalParams|preview'
 package: '@azure/arm-storage|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TracingPolicyOptions
 uid: '@azure/core-http.TracingPolicyOptions|latest-stable'
 package: '@azure/core-http|latest-stable'

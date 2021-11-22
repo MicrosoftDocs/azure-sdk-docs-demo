@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventHubCaptureFileCreatedEventData
 uid: '@azure/eventgrid.EventHubCaptureFileCreatedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

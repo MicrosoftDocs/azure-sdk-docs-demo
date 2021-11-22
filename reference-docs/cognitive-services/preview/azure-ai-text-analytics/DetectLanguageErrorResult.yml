@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DetectLanguageErrorResult
 uid: '@azure/ai-text-analytics.DetectLanguageErrorResult|preview'
 package: '@azure/ai-text-analytics|preview'

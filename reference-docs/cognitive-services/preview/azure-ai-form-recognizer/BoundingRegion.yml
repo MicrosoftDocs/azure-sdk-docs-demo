@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BoundingRegion
 uid: '@azure/ai-form-recognizer.BoundingRegion|preview'
 package: '@azure/ai-form-recognizer|preview'

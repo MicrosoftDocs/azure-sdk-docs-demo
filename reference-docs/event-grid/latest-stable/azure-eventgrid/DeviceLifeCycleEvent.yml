@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeviceLifeCycleEvent
 uid: '@azure/eventgrid.DeviceLifeCycleEvent|latest-stable'
 package: '@azure/eventgrid|latest-stable'

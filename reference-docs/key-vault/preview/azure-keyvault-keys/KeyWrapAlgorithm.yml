@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyWrapAlgorithm
 uid: '@azure/keyvault-keys.KeyWrapAlgorithm|preview'
 package: '@azure/keyvault-keys|preview'

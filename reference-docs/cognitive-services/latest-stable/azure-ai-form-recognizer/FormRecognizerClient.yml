@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FormRecognizerClient
 uid: '@azure/ai-form-recognizer.FormRecognizerClient|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MediaJobOutputUnion
 uid: '@azure/eventgrid.MediaJobOutputUnion|latest-stable'
 package: '@azure/eventgrid|latest-stable'

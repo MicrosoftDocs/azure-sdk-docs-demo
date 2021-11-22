@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NWRuleSetIpRules
 uid: '@azure/arm-eventhub.NWRuleSetIpRules|latest-stable'
 package: '@azure/arm-eventhub|latest-stable'

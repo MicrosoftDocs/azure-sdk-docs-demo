@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateEndpoint
 uid: '@azure/arm-eventhub.PrivateEndpoint|preview'
 package: '@azure/arm-eventhub|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ShareGetStatisticsResponse
 uid: '@azure/storage-file-share.ShareGetStatisticsResponse|preview'
 package: '@azure/storage-file-share|preview'

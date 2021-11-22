@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateEndpointConnectionsListNextResponse
 uid: '@azure/arm-eventhub.PrivateEndpointConnectionsListNextResponse|preview'
 package: '@azure/arm-eventhub|preview'

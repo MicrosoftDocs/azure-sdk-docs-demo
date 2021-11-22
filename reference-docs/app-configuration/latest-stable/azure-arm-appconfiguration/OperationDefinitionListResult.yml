@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: OperationDefinitionListResult
 uid: '@azure/arm-appconfiguration.OperationDefinitionListResult|latest-stable'
 package: '@azure/arm-appconfiguration|latest-stable'

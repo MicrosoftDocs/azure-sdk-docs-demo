@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobItem
 uid: '@azure/storage-blob.BlobItem|preview'
 package: '@azure/storage-blob|preview'

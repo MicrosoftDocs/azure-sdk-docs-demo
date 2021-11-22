@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NamespacesMigrateOptionalParams
 uid: '@azure/arm-servicebus.NamespacesMigrateOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

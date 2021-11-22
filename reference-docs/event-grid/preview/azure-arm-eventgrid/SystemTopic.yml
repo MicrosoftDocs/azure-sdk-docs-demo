@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SystemTopic
 uid: '@azure/arm-eventgrid.SystemTopic|preview'
 package: '@azure/arm-eventgrid|preview'

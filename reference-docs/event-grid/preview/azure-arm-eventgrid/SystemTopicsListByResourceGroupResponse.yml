@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SystemTopicsListByResourceGroupResponse
 uid: '@azure/arm-eventgrid.SystemTopicsListByResourceGroupResponse|preview'
 package: '@azure/arm-eventgrid|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PathFlushDataHeaders
 uid: '@azure/storage-file-datalake.PathFlushDataHeaders|latest-stable'
 package: '@azure/storage-file-datalake|latest-stable'

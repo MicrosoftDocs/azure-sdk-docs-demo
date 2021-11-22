@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownFormLocale
 uid: '@azure/ai-form-recognizer.KnownFormLocale|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

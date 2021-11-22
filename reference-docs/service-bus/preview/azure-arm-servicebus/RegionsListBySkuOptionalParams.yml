@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RegionsListBySkuOptionalParams
 uid: '@azure/arm-servicebus.RegionsListBySkuOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

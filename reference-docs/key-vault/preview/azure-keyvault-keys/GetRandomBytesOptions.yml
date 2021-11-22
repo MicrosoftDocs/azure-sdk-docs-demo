@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: GetRandomBytesOptions
 uid: '@azure/keyvault-keys.GetRandomBytesOptions|preview'
 package: '@azure/keyvault-keys|preview'

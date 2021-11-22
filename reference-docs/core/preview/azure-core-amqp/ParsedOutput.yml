@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ParsedOutput
 uid: '@azure/core-amqp.ParsedOutput|preview'
 package: '@azure/core-amqp|preview'

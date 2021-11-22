@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CreateOrUpdateIndexOptions
 uid: '@azure/search-documents.CreateOrUpdateIndexOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobIndexerDataToExtract
 uid: '@azure/search-documents.BlobIndexerDataToExtract|latest-stable'
 package: '@azure/search-documents|latest-stable'

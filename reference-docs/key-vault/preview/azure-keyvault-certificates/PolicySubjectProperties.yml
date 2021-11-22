@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PolicySubjectProperties
 uid: '@azure/keyvault-certificates.PolicySubjectProperties|preview'
 package: '@azure/keyvault-certificates|preview'

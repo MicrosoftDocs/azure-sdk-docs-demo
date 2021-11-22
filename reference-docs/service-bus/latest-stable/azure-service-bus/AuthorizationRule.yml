@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AuthorizationRule
 uid: '@azure/service-bus.AuthorizationRule|latest-stable'
 package: '@azure/service-bus|latest-stable'

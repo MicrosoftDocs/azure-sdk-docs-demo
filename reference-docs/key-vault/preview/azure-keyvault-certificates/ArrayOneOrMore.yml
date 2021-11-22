@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ArrayOneOrMore
 uid: '@azure/keyvault-certificates.ArrayOneOrMore|preview'
 package: '@azure/keyvault-certificates|preview'

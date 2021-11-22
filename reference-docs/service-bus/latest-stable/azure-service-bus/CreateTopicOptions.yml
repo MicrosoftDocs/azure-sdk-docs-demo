@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CreateTopicOptions
 uid: '@azure/service-bus.CreateTopicOptions|latest-stable'
 package: '@azure/service-bus|latest-stable'

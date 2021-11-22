@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ShareRootSquash
 uid: '@azure/storage-file-share.ShareRootSquash|preview'
 package: '@azure/storage-file-share|preview'

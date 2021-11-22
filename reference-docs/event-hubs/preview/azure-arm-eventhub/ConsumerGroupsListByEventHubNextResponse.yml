@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ConsumerGroupsListByEventHubNextResponse
 uid: '@azure/arm-eventhub.ConsumerGroupsListByEventHubNextResponse|preview'
 package: '@azure/arm-eventhub|preview'

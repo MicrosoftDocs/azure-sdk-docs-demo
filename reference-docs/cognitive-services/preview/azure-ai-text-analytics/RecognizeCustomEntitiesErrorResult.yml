@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: RecognizeCustomEntitiesErrorResult
 uid: '@azure/ai-text-analytics.RecognizeCustomEntitiesErrorResult|preview'
 package: '@azure/ai-text-analytics|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CloudError
 uid: '@azure/arm-keyvault.CloudError|preview'
 package: '@azure/arm-keyvault|preview'

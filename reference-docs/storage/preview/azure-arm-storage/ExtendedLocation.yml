@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ExtendedLocation
 uid: '@azure/arm-storage.ExtendedLocation|preview'
 package: '@azure/arm-storage|preview'

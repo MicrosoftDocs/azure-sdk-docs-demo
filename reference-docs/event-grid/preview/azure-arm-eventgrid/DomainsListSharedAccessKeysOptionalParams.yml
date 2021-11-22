@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DomainsListSharedAccessKeysOptionalParams
 uid: '@azure/arm-eventgrid.DomainsListSharedAccessKeysOptionalParams|preview'
 package: '@azure/arm-eventgrid|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobBatchSubmitBatchOptionalParams
 uid: '@azure/storage-blob.BlobBatchSubmitBatchOptionalParams|preview'
 package: '@azure/storage-blob|preview'

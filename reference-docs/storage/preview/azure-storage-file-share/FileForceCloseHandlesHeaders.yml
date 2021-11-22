@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileForceCloseHandlesHeaders
 uid: '@azure/storage-file-share.FileForceCloseHandlesHeaders|preview'
 package: '@azure/storage-file-share|preview'

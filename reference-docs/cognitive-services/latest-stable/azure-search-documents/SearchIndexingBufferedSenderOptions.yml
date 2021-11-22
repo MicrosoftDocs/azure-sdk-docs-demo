@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SearchIndexingBufferedSenderOptions
 uid: '@azure/search-documents.SearchIndexingBufferedSenderOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

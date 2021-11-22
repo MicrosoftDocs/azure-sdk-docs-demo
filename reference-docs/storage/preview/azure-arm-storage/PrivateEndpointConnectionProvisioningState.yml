@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateEndpointConnectionProvisioningState
 uid: '@azure/arm-storage.PrivateEndpointConnectionProvisioningState|preview'
 package: '@azure/arm-storage|preview'

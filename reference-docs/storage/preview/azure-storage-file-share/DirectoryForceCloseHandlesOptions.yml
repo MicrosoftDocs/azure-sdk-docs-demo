@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DirectoryForceCloseHandlesOptions
 uid: '@azure/storage-file-share.DirectoryForceCloseHandlesOptions|preview'
 package: '@azure/storage-file-share|preview'

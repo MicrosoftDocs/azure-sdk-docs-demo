@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PageBlobClearPagesResponse
 uid: '@azure/storage-blob.PageBlobClearPagesResponse|latest-stable'
 package: '@azure/storage-blob|latest-stable'

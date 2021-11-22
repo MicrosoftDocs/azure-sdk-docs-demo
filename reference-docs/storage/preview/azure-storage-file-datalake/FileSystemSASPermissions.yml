@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileSystemSASPermissions
 uid: '@azure/storage-file-datalake.FileSystemSASPermissions|preview'
 package: '@azure/storage-file-datalake|preview'

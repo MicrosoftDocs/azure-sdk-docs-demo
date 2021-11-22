@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileListHandlesHeaders
 uid: '@azure/storage-file-share.FileListHandlesHeaders|preview'
 package: '@azure/storage-file-share|preview'

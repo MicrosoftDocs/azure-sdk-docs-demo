@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueSASSignatureValues
 uid: '@azure/storage-queue.QueueSASSignatureValues|latest-stable'
 package: '@azure/storage-queue|latest-stable'

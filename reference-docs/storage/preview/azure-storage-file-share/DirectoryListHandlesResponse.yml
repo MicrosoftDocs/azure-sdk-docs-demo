@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DirectoryListHandlesResponse
 uid: '@azure/storage-file-share.DirectoryListHandlesResponse|preview'
 package: '@azure/storage-file-share|preview'

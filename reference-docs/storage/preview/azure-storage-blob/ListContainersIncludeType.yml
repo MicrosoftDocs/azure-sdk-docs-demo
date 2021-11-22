@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ListContainersIncludeType
 uid: '@azure/storage-blob.ListContainersIncludeType|preview'
 package: '@azure/storage-blob|preview'

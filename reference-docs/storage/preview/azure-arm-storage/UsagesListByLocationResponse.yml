@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: UsagesListByLocationResponse
 uid: '@azure/arm-storage.UsagesListByLocationResponse|preview'
 package: '@azure/arm-storage|preview'

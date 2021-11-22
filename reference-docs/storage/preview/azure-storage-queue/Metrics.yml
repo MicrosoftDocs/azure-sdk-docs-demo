@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Metrics
 uid: '@azure/storage-queue.Metrics|preview'
 package: '@azure/storage-queue|preview'

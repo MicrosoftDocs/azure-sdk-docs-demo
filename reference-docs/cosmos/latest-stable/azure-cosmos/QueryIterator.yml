@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueryIterator
 uid: '@azure/cosmos.QueryIterator|latest-stable'
 package: '@azure/cosmos|latest-stable'

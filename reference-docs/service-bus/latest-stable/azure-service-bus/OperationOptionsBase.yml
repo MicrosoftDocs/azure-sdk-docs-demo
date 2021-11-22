@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: OperationOptionsBase
 uid: '@azure/service-bus.OperationOptionsBase|latest-stable'
 package: '@azure/service-bus|latest-stable'

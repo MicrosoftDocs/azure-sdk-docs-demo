@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceGetStatisticsHeaders
 uid: '@azure/storage-blob.ServiceGetStatisticsHeaders|preview'
 package: '@azure/storage-blob|preview'

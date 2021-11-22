@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SystemTopicEventSubscriptionsGetFullUrlResponse
 uid: >-
   @azure/arm-eventgrid.SystemTopicEventSubscriptionsGetFullUrlResponse|latest-stable

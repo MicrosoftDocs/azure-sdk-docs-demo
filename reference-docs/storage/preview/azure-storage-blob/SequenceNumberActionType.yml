@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SequenceNumberActionType
 uid: '@azure/storage-blob.SequenceNumberActionType|preview'
 package: '@azure/storage-blob|preview'

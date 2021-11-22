@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SignOptions
 uid: '@azure/keyvault-keys.SignOptions|preview'
 package: '@azure/keyvault-keys|preview'

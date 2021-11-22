@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NamespacesCheckNameAvailabilityMethodResponse
 uid: >-
   @azure/arm-servicebus.NamespacesCheckNameAvailabilityMethodResponse|latest-stable

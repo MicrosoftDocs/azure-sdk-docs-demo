@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ConsumerGroupsCreateOrUpdateResponse
 uid: '@azure/arm-eventhub.ConsumerGroupsCreateOrUpdateResponse|preview'
 package: '@azure/arm-eventhub|preview'

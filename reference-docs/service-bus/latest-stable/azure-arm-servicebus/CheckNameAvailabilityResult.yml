@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CheckNameAvailabilityResult
 uid: '@azure/arm-servicebus.CheckNameAvailabilityResult|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

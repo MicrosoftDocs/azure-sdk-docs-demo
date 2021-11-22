@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AcsRecordingChunkInfo
 uid: '@azure/eventgrid.AcsRecordingChunkInfo|latest-stable'
 package: '@azure/eventgrid|latest-stable'

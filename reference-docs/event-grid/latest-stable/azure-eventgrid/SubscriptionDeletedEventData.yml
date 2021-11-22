@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SubscriptionDeletedEventData
 uid: '@azure/eventgrid.SubscriptionDeletedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

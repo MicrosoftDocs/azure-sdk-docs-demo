@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SBSubscriptionListResult
 uid: '@azure/arm-servicebus.SBSubscriptionListResult|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

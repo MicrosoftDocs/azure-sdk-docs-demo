@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceUndeleteFileSystemOptions
 uid: '@azure/storage-file-datalake.ServiceUndeleteFileSystemOptions|preview'
 package: '@azure/storage-file-datalake|preview'

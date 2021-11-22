@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: IndexDocumentsBatch
 uid: '@azure/search-documents.IndexDocumentsBatch|preview'
 package: '@azure/search-documents|preview'

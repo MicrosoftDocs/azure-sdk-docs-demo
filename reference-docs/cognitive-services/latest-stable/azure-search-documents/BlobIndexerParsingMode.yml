@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobIndexerParsingMode
 uid: '@azure/search-documents.BlobIndexerParsingMode|latest-stable'
 package: '@azure/search-documents|latest-stable'

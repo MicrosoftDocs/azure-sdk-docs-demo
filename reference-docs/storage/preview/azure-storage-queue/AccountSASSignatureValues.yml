@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccountSASSignatureValues
 uid: '@azure/storage-queue.AccountSASSignatureValues|preview'
 package: '@azure/storage-queue|preview'

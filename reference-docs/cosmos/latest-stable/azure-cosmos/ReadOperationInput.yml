@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ReadOperationInput
 uid: '@azure/cosmos.ReadOperationInput|latest-stable'
 package: '@azure/cosmos|latest-stable'

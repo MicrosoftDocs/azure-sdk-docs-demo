@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: VaultCheckNameAvailabilityParameters
 uid: '@azure/arm-keyvault.VaultCheckNameAvailabilityParameters|latest-stable'
 package: '@azure/arm-keyvault|latest-stable'

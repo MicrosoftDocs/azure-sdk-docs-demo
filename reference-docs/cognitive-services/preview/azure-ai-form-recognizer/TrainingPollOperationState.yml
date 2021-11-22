@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TrainingPollOperationState
 uid: '@azure/ai-form-recognizer.TrainingPollOperationState|preview'
 package: '@azure/ai-form-recognizer|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TextDocumentStatistics
 uid: '@azure/ai-text-analytics.TextDocumentStatistics|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'

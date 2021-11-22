@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SBTopic
 uid: '@azure/arm-servicebus.SBTopic|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AcsRecordingStorageInfo
 uid: '@azure/eventgrid.AcsRecordingStorageInfo|latest-stable'
 package: '@azure/eventgrid|latest-stable'

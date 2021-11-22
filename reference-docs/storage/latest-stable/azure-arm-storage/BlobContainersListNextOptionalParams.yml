@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobContainersListNextOptionalParams
 uid: '@azure/arm-storage.BlobContainersListNextOptionalParams|latest-stable'
 package: '@azure/arm-storage|latest-stable'

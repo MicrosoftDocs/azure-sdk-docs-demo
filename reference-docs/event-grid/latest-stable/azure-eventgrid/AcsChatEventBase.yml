@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AcsChatEventBase
 uid: '@azure/eventgrid.AcsChatEventBase|latest-stable'
 package: '@azure/eventgrid|latest-stable'

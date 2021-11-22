@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ContainerServiceNewKubernetesVersionAvailableEventData
 uid: >-
   @azure/eventgrid.ContainerServiceNewKubernetesVersionAvailableEventData|latest-stable

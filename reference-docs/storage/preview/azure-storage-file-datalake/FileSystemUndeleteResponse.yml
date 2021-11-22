@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileSystemUndeleteResponse
 uid: '@azure/storage-file-datalake.FileSystemUndeleteResponse|preview'
 package: '@azure/storage-file-datalake|preview'

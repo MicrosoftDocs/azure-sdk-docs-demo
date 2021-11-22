@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccessControlChangeCounters
 uid: '@azure/storage-file-datalake.AccessControlChangeCounters|preview'
 package: '@azure/storage-file-datalake|preview'

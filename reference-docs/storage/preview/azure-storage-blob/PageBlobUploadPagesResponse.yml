@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PageBlobUploadPagesResponse
 uid: '@azure/storage-blob.PageBlobUploadPagesResponse|preview'
 package: '@azure/storage-blob|preview'

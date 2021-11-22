@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueDeleteHeaders
 uid: '@azure/storage-queue.QueueDeleteHeaders|latest-stable'
 package: '@azure/storage-queue|latest-stable'

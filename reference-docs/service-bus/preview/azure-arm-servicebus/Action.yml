@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Action
 uid: '@azure/arm-servicebus.Action|preview'
 package: '@azure/arm-servicebus|preview'

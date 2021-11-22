@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TopicsListByNamespaceNextResponse
 uid: '@azure/arm-servicebus.TopicsListByNamespaceNextResponse|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

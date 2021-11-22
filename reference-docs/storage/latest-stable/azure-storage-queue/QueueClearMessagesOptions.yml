@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueClearMessagesOptions
 uid: '@azure/storage-queue.QueueClearMessagesOptions|latest-stable'
 package: '@azure/storage-queue|latest-stable'

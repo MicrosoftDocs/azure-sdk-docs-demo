@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageDirectoryDeletedEventData
 uid: '@azure/eventgrid.StorageDirectoryDeletedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

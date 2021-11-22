@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NamespacesListIpFilterRulesOptionalParams
 uid: '@azure/arm-servicebus.NamespacesListIpFilterRulesOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

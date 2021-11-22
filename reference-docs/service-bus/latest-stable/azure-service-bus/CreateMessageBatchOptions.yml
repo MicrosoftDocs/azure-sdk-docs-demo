@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CreateMessageBatchOptions
 uid: '@azure/service-bus.CreateMessageBatchOptions|latest-stable'
 package: '@azure/service-bus|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CommitmentPlansGetResponse
 uid: '@azure/arm-cognitiveservices.CommitmentPlansGetResponse|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

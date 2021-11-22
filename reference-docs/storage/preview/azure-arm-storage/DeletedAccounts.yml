@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeletedAccounts
 uid: '@azure/arm-storage.DeletedAccounts|preview'
 package: '@azure/arm-storage|preview'

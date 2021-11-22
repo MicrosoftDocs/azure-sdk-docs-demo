@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DomainTopicsCreateOrUpdateResponse
 uid: '@azure/arm-eventgrid.DomainTopicsCreateOrUpdateResponse|preview'
 package: '@azure/arm-eventgrid|preview'

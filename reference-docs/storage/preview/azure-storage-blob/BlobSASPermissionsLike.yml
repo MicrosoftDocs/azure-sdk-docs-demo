@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobSASPermissionsLike
 uid: '@azure/storage-blob.BlobSASPermissionsLike|preview'
 package: '@azure/storage-blob|preview'

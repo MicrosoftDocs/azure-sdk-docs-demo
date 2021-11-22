@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ObjectReplicationPoliciesOperationsGetResponse
 uid: '@azure/arm-storage.ObjectReplicationPoliciesOperationsGetResponse|preview'
 package: '@azure/arm-storage|preview'

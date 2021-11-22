@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AcsChatThreadPropertiesUpdatedPerUserEventData
 uid: '@azure/eventgrid.AcsChatThreadPropertiesUpdatedPerUserEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

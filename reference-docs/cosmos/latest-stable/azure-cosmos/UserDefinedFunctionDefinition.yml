@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: UserDefinedFunctionDefinition
 uid: '@azure/cosmos.UserDefinedFunctionDefinition|latest-stable'
 package: '@azure/cosmos|latest-stable'

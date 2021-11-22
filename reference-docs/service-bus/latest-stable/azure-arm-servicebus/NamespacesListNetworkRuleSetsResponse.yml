@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NamespacesListNetworkRuleSetsResponse
 uid: '@azure/arm-servicebus.NamespacesListNetworkRuleSetsResponse|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: DeletedManagedHsm
 uid: '@azure/arm-keyvault.DeletedManagedHsm|preview'
 package: '@azure/arm-keyvault|preview'

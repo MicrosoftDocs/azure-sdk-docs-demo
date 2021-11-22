@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlockBlobQueryOptions
 uid: '@azure/storage-blob.BlockBlobQueryOptions|preview'
 package: '@azure/storage-blob|preview'

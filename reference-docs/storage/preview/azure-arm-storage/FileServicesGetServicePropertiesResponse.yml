@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileServicesGetServicePropertiesResponse
 uid: '@azure/arm-storage.FileServicesGetServicePropertiesResponse|preview'
 package: '@azure/arm-storage|preview'

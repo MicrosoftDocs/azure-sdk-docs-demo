@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: IpActionType
 uid: '@azure/arm-eventgrid.IpActionType|preview'
 package: '@azure/arm-eventgrid|preview'

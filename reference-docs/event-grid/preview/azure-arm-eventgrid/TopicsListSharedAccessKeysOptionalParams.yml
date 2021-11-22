@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: TopicsListSharedAccessKeysOptionalParams
 uid: '@azure/arm-eventgrid.TopicsListSharedAccessKeysOptionalParams|preview'
 package: '@azure/arm-eventgrid|preview'

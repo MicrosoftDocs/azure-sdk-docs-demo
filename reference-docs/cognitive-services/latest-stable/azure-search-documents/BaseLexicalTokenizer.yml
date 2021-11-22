@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BaseLexicalTokenizer
 uid: '@azure/search-documents.BaseLexicalTokenizer|latest-stable'
 package: '@azure/search-documents|latest-stable'

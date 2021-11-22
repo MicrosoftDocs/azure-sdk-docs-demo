@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: IndexDocumentsClient
 uid: '@azure/search-documents.IndexDocumentsClient|latest-stable'
 package: '@azure/search-documents|latest-stable'

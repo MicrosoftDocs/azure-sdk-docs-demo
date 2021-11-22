@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: QueueSetAccessPolicyHeaders
 uid: '@azure/storage-queue.QueueSetAccessPolicyHeaders|preview'
 package: '@azure/storage-queue|preview'

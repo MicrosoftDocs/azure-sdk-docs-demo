@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DomainsRegenerateKeyResponse
 uid: '@azure/arm-eventgrid.DomainsRegenerateKeyResponse|preview'
 package: '@azure/arm-eventgrid|preview'

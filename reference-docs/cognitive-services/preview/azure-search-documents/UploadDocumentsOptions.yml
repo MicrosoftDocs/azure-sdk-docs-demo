@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: UploadDocumentsOptions
 uid: '@azure/search-documents.UploadDocumentsOptions|preview'
 package: '@azure/search-documents|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageAccountsListNextOptionalParams
 uid: '@azure/arm-storage.StorageAccountsListNextOptionalParams|preview'
 package: '@azure/arm-storage|preview'

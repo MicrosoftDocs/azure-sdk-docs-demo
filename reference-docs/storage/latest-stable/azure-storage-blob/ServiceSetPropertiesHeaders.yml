@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceSetPropertiesHeaders
 uid: '@azure/storage-blob.ServiceSetPropertiesHeaders|latest-stable'
 package: '@azure/storage-blob|latest-stable'

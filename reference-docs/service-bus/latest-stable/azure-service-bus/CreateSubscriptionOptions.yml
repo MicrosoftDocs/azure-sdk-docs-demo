@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CreateSubscriptionOptions
 uid: '@azure/service-bus.CreateSubscriptionOptions|latest-stable'
 package: '@azure/service-bus|latest-stable'

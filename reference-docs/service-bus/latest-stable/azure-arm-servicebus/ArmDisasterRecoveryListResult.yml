@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ArmDisasterRecoveryListResult
 uid: '@azure/arm-servicebus.ArmDisasterRecoveryListResult|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

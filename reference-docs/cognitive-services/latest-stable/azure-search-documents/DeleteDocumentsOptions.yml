@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DeleteDocumentsOptions
 uid: '@azure/search-documents.DeleteDocumentsOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

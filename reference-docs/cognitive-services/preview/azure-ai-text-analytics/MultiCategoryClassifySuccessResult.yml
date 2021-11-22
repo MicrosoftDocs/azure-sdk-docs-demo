@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: MultiCategoryClassifySuccessResult
 uid: '@azure/ai-text-analytics.MultiCategoryClassifySuccessResult|preview'
 package: '@azure/ai-text-analytics|preview'

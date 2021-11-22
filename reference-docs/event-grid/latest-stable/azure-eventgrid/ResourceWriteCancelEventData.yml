@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ResourceWriteCancelEventData
 uid: '@azure/eventgrid.ResourceWriteCancelEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

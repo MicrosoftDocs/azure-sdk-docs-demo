@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TableOperationsListResponse
 uid: '@azure/arm-storage.TableOperationsListResponse|preview'
 package: '@azure/arm-storage|preview'

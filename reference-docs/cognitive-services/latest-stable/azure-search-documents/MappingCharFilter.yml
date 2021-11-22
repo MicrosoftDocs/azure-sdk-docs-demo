@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MappingCharFilter
 uid: '@azure/search-documents.MappingCharFilter|latest-stable'
 package: '@azure/search-documents|latest-stable'

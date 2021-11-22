@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobContainersDeleteImmutabilityPolicyHeaders
 uid: '@azure/arm-storage.BlobContainersDeleteImmutabilityPolicyHeaders|latest-stable'
 package: '@azure/arm-storage|latest-stable'

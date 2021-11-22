@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FreshnessScoringFunction
 uid: '@azure/search-documents.FreshnessScoringFunction|latest-stable'
 package: '@azure/search-documents|latest-stable'

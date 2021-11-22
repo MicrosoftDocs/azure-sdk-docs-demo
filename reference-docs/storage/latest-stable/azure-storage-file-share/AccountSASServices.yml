@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AccountSASServices
 uid: '@azure/storage-file-share.AccountSASServices|latest-stable'
 package: '@azure/storage-file-share|latest-stable'

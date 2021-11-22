@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ShareCreateResponse
 uid: '@azure/storage-file-share.ShareCreateResponse|preview'
 package: '@azure/storage-file-share|preview'

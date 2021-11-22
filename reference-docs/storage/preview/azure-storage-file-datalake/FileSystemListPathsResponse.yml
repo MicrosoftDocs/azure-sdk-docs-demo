@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: FileSystemListPathsResponse
 uid: '@azure/storage-file-datalake.FileSystemListPathsResponse|preview'
 package: '@azure/storage-file-datalake|preview'

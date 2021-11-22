@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownProvisioningState
 uid: '@azure/arm-keyvault.KnownProvisioningState|preview'
 package: '@azure/arm-keyvault|preview'

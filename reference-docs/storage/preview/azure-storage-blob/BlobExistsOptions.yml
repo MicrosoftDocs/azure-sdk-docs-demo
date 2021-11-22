@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobExistsOptions
 uid: '@azure/storage-blob.BlobExistsOptions|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CryptographyClientOptions
 uid: '@azure/keyvault-keys.CryptographyClientOptions|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

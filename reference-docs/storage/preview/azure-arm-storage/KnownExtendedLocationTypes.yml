@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownExtendedLocationTypes
 uid: '@azure/arm-storage.KnownExtendedLocationTypes|preview'
 package: '@azure/arm-storage|preview'

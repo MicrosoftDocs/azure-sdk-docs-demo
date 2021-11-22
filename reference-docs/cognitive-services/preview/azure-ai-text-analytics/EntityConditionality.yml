@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EntityConditionality
 uid: '@azure/ai-text-analytics.EntityConditionality|preview'
 package: '@azure/ai-text-analytics|preview'

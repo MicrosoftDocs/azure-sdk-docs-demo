@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobSetImmutabilityPolicyHeaders
 uid: '@azure/storage-blob.BlobSetImmutabilityPolicyHeaders|preview'
 package: '@azure/storage-blob|preview'

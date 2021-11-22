@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: AzureLogLevel
 uid: '@azure/logger.AzureLogLevel|latest-stable'
 package: '@azure/logger|latest-stable'

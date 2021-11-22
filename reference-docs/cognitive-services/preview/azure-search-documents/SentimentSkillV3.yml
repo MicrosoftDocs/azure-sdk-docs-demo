@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SentimentSkillV3
 uid: '@azure/search-documents.SentimentSkillV3|preview'
 package: '@azure/search-documents|preview'

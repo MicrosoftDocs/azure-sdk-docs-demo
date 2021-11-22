@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListTableServices
 uid: '@azure/arm-storage.ListTableServices|preview'
 package: '@azure/arm-storage|preview'

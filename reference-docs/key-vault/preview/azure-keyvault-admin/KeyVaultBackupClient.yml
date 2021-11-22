@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultBackupClient
 uid: '@azure/keyvault-admin.KeyVaultBackupClient|preview'
 package: '@azure/keyvault-admin|preview'

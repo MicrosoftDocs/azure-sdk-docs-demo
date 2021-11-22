@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PrivateLinkResource
 uid: '@azure/arm-keyvault.PrivateLinkResource|preview'
 package: '@azure/arm-keyvault|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobSetLegalHoldHeaders
 uid: '@azure/storage-blob.BlobSetLegalHoldHeaders|preview'
 package: '@azure/storage-blob|preview'

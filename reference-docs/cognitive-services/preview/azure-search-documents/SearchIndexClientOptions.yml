@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SearchIndexClientOptions
 uid: '@azure/search-documents.SearchIndexClientOptions|preview'
 package: '@azure/search-documents|preview'

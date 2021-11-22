@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: WebSlotSwapCompletedEventData
 uid: '@azure/eventgrid.WebSlotSwapCompletedEventData|latest-stable'
 package: '@azure/eventgrid|latest-stable'

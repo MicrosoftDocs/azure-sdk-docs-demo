@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: PollProgressCallback
 uid: '@azure/core-lro.PollProgressCallback|latest-stable'
 package: '@azure/core-lro|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: EventSubscriptionsUpdateResponse
 uid: '@azure/arm-eventgrid.EventSubscriptionsUpdateResponse|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

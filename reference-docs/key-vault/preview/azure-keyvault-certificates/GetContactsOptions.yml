@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: GetContactsOptions
 uid: '@azure/keyvault-certificates.GetContactsOptions|preview'
 package: '@azure/keyvault-certificates|preview'

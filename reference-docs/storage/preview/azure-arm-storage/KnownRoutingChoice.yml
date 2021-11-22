@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownRoutingChoice
 uid: '@azure/arm-storage.KnownRoutingChoice|preview'
 package: '@azure/arm-storage|preview'

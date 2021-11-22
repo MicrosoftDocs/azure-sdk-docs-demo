@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CancellableAsyncLock
 uid: '@azure/core-amqp.CancellableAsyncLock|latest-stable'
 package: '@azure/core-amqp|latest-stable'

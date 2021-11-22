@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageBrowserPolicy
 uid: '@azure/storage-blob.StorageBrowserPolicy|preview'
 package: '@azure/storage-blob|preview'

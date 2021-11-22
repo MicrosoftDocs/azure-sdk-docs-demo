@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PrivateEndpointConnectionsGetOptionalParams
 uid: '@azure/arm-servicebus.PrivateEndpointConnectionsGetOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

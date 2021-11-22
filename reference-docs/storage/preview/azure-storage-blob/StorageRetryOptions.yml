@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageRetryOptions
 uid: '@azure/storage-blob.StorageRetryOptions|preview'
 package: '@azure/storage-blob|preview'

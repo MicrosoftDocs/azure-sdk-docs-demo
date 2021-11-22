@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: SystemTopicEventSubscriptionsListBySystemTopicResponse
 uid: >-
   @azure/arm-eventgrid.SystemTopicEventSubscriptionsListBySystemTopicResponse|latest-stable

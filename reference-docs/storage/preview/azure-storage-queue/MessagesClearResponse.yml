@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MessagesClearResponse
 uid: '@azure/storage-queue.MessagesClearResponse|preview'
 package: '@azure/storage-queue|preview'

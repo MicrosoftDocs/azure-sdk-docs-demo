@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: UnavailableReason
 uid: '@azure/arm-eventhub.UnavailableReason|preview'
 package: '@azure/arm-eventhub|preview'

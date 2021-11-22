@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AutocompleteResult
 uid: '@azure/search-documents.AutocompleteResult|preview'
 package: '@azure/search-documents|preview'

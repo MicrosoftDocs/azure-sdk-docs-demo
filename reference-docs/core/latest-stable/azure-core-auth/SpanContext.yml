@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SpanContext
 uid: '@azure/core-auth.SpanContext|latest-stable'
 package: '@azure/core-auth|latest-stable'

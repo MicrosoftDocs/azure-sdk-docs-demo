@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: NamespacesListOptionalParams
 uid: '@azure/arm-servicebus.NamespacesListOptionalParams|preview'
 package: '@azure/arm-servicebus|preview'

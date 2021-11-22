@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileClearRangeOptions
 uid: '@azure/storage-file-share.FileClearRangeOptions|preview'
 package: '@azure/storage-file-share|preview'

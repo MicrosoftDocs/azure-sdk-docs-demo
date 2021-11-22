@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileAppendOptions
 uid: '@azure/storage-file-datalake.FileAppendOptions|latest-stable'
 package: '@azure/storage-file-datalake|latest-stable'

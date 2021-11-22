@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: MergeSkill
 uid: '@azure/search-documents.MergeSkill|latest-stable'
 package: '@azure/search-documents|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventGridManagementClient
 uid: '@azure/arm-eventgrid.EventGridManagementClient|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

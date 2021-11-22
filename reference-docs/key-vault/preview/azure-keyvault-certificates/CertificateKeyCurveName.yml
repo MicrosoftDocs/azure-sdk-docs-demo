@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: CertificateKeyCurveName
 uid: '@azure/keyvault-certificates.CertificateKeyCurveName|preview'
 package: '@azure/keyvault-certificates|preview'

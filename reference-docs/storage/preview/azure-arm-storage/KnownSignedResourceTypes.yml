@@ -1,3 +1,4 @@
+### YamlMime:TSEnum
 name: KnownSignedResourceTypes
 uid: '@azure/arm-storage.KnownSignedResourceTypes|preview'
 package: '@azure/arm-storage|preview'

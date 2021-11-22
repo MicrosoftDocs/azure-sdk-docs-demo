@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListBlobsHierarchySegmentResponse
 uid: '@azure/storage-blob.ListBlobsHierarchySegmentResponse|preview'
 package: '@azure/storage-blob|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobBatchSetBlobsAccessTierResponse
 uid: '@azure/storage-blob.BlobBatchSetBlobsAccessTierResponse|latest-stable'
 package: '@azure/storage-blob|latest-stable'

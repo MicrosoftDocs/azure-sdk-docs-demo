@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CommitmentTierListResult
 uid: '@azure/arm-cognitiveservices.CommitmentTierListResult|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

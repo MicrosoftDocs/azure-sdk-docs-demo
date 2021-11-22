@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyOperation
 uid: '@azure/keyvault-keys.KeyOperation|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SmbMultichannel
 uid: '@azure/storage-file-share.SmbMultichannel|preview'
 package: '@azure/storage-file-share|preview'

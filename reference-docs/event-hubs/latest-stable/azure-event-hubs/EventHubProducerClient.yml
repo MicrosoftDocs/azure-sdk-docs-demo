@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventHubProducerClient
 uid: '@azure/event-hubs.EventHubProducerClient|latest-stable'
 package: '@azure/event-hubs|latest-stable'

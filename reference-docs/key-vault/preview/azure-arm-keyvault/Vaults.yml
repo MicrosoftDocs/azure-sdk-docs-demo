@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Vaults
 uid: '@azure/arm-keyvault.Vaults|preview'
 package: '@azure/arm-keyvault|preview'

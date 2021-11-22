@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ServiceGetUserDelegationKeyHeaders
 uid: '@azure/storage-file-datalake.ServiceGetUserDelegationKeyHeaders|preview'
 package: '@azure/storage-file-datalake|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: RedirectOptions
 uid: '@azure/core-http.RedirectOptions|latest-stable'
 package: '@azure/core-http|latest-stable'

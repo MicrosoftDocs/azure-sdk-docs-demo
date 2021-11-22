@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BlobPrefix
 uid: '@azure/storage-file-datalake.BlobPrefix|preview'
 package: '@azure/storage-file-datalake|preview'

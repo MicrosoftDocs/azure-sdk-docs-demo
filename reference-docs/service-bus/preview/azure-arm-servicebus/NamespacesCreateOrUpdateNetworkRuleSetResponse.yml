@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NamespacesCreateOrUpdateNetworkRuleSetResponse
 uid: '@azure/arm-servicebus.NamespacesCreateOrUpdateNetworkRuleSetResponse|preview'
 package: '@azure/arm-servicebus|preview'

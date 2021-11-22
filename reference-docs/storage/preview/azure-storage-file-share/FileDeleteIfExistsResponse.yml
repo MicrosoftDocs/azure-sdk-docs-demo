@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileDeleteIfExistsResponse
 uid: '@azure/storage-file-share.FileDeleteIfExistsResponse|preview'
 package: '@azure/storage-file-share|preview'

@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventGridEvent
 uid: '@azure/eventgrid.EventGridEvent|latest-stable'
 package: '@azure/eventgrid|latest-stable'

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TopicsListByResourceGroupResponse
 uid: '@azure/arm-eventgrid.TopicsListByResourceGroupResponse|latest-stable'
 package: '@azure/arm-eventgrid|latest-stable'

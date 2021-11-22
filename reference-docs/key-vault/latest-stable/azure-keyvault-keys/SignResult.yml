@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SignResult
 uid: '@azure/keyvault-keys.SignResult|latest-stable'
 package: '@azure/keyvault-keys|latest-stable'

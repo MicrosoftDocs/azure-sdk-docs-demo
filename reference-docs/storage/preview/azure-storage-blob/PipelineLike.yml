@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: PipelineLike
 uid: '@azure/storage-blob.PipelineLike|preview'
 package: '@azure/storage-blob|preview'

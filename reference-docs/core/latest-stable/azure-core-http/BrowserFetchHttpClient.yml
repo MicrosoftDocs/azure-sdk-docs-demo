@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: BrowserFetchHttpClient
 uid: '@azure/core-http.BrowserFetchHttpClient|latest-stable'
 package: '@azure/core-http|latest-stable'

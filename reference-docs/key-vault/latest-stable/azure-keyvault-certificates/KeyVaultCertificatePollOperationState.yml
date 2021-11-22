@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: KeyVaultCertificatePollOperationState
 uid: >-
   @azure/keyvault-certificates.KeyVaultCertificatePollOperationState|latest-stable

@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: NamespacesListAuthorizationRulesNextResponse
 uid: >-
   @azure/arm-servicebus.NamespacesListAuthorizationRulesNextResponse|latest-stable

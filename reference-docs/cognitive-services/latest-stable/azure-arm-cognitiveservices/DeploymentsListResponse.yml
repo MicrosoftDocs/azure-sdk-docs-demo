@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DeploymentsListResponse
 uid: '@azure/arm-cognitiveservices.DeploymentsListResponse|latest-stable'
 package: '@azure/arm-cognitiveservices|latest-stable'

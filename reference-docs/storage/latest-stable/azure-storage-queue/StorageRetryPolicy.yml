@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: StorageRetryPolicy
 uid: '@azure/storage-queue.StorageRetryPolicy|latest-stable'
 package: '@azure/storage-queue|latest-stable'

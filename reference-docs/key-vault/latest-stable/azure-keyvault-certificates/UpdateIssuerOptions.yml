@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: UpdateIssuerOptions
 uid: '@azure/keyvault-certificates.UpdateIssuerOptions|latest-stable'
 package: '@azure/keyvault-certificates|latest-stable'

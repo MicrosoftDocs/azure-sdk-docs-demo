@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: DeleteIssuerOptions
 uid: '@azure/keyvault-certificates.DeleteIssuerOptions|preview'
 package: '@azure/keyvault-certificates|preview'

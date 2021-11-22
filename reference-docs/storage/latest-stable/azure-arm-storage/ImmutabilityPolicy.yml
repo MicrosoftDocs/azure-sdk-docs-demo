@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ImmutabilityPolicy
 uid: '@azure/arm-storage.ImmutabilityPolicy|latest-stable'
 package: '@azure/arm-storage|latest-stable'

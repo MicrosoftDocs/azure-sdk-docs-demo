@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: SearchIndexClientOptions
 uid: '@azure/search-documents.SearchIndexClientOptions|latest-stable'
 package: '@azure/search-documents|latest-stable'

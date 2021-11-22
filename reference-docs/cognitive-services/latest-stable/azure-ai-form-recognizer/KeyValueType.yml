@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyValueType
 uid: '@azure/ai-form-recognizer.KeyValueType|latest-stable'
 package: '@azure/ai-form-recognizer|latest-stable'

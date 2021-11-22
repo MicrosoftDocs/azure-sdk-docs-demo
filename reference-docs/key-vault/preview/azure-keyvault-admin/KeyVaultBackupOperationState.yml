@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: KeyVaultBackupOperationState
 uid: '@azure/keyvault-admin.KeyVaultBackupOperationState|preview'
 package: '@azure/keyvault-admin|preview'

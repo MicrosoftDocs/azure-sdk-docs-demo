@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: Rule
 uid: '@azure/arm-servicebus.Rule|latest-stable'
 package: '@azure/arm-servicebus|latest-stable'

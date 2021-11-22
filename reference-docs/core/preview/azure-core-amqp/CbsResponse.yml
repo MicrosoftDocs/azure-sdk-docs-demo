@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: CbsResponse
 uid: '@azure/core-amqp.CbsResponse|preview'
 package: '@azure/core-amqp|preview'

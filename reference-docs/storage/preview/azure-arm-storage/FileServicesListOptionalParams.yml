@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: FileServicesListOptionalParams
 uid: '@azure/arm-storage.FileServicesListOptionalParams|preview'
 package: '@azure/arm-storage|preview'

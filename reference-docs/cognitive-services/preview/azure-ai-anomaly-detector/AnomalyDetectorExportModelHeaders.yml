@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: AnomalyDetectorExportModelHeaders
 uid: '@azure/ai-anomaly-detector.AnomalyDetectorExportModelHeaders|preview'
 package: '@azure/ai-anomaly-detector|preview'

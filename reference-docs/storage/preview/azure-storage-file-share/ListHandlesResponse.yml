@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ListHandlesResponse
 uid: '@azure/storage-file-share.ListHandlesResponse|preview'
 package: '@azure/storage-file-share|preview'

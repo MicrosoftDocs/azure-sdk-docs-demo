@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: EventSubscriptionIdentity
 uid: '@azure/arm-eventgrid.EventSubscriptionIdentity|preview'
 package: '@azure/arm-eventgrid|preview'

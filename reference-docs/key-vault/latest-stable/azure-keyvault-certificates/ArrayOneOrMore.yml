@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: ArrayOneOrMore
 uid: '@azure/keyvault-certificates.ArrayOneOrMore|latest-stable'
 package: '@azure/keyvault-certificates|latest-stable'

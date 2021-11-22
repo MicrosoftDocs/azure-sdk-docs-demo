@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ShareFileClient
 uid: '@azure/storage-file-share.ShareFileClient|preview'
 package: '@azure/storage-file-share|preview'

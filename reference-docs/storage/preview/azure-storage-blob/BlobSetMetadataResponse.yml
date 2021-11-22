@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: BlobSetMetadataResponse
 uid: '@azure/storage-blob.BlobSetMetadataResponse|preview'
 package: '@azure/storage-blob|preview'

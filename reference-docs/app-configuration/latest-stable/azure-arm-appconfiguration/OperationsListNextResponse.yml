@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: OperationsListNextResponse
 uid: '@azure/arm-appconfiguration.OperationsListNextResponse|latest-stable'
 package: '@azure/arm-appconfiguration|latest-stable'

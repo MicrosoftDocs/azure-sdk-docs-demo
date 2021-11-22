@@ -1,3 +1,4 @@
+### YamlMime:TSType
 name: ExtractKeyPhrasesAction
 uid: '@azure/ai-text-analytics.ExtractKeyPhrasesAction|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'

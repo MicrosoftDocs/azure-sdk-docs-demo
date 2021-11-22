@@ -1,3 +1,4 @@
+### YamlMime:TSTypeAlias
 name: TokenSentimentValue
 uid: '@azure/ai-text-analytics.TokenSentimentValue|latest-stable'
 package: '@azure/ai-text-analytics|latest-stable'
