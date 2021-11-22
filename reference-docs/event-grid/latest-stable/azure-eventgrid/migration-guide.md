@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Event Grid Migration Guide
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: event-grid
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Guide for migrating to `@azure/eventgrid@4` from `@azure/eventgrid@2`
 
 This guide is intended to assist in the migration to `@azure/eventgrid@4` from `@azure/eventgrid@2`. It will focus on side-by-side comparisons for similar operations between the two packages.

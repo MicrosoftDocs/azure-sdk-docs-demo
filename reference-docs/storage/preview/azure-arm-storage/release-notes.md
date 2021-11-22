@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Storage Release Notes
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: storage
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Release History
 
 ## 17.0.0-beta.2 (Unreleased)

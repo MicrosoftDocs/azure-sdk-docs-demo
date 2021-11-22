@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Event Grid User Guide
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: event-grid
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Azure EventGridManagement client library for JavaScript
 
 This package contains an isomorphic SDK (runs both in Node.js and in browsers) for Azure EventGridManagement client.

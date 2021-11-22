@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Key Vault Migration Guide
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: key-vault
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Guide for migrating to @azure/keyvault-certificates from azure-keyvault
 
 This guide is intended to assist in the migration to `@azure/keyvault-certificates` from `azure-keyvault`. It will focus on side-by-side comparisons for similar operations between the two packages.

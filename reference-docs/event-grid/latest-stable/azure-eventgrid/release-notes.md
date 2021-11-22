@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Event Grid Release Notes
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: event-grid
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Release History
 
 ## 4.5.1 (Unreleased)

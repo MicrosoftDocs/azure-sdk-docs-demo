@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Cosmos DB Release Notes
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: cosmos-db
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Release History
 
 ## 3.14.2 (Unreleased)

@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Key Vault User Guide
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: key-vault
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Azure Key Vault Administration client library for JavaScript
 
 Azure Key Vault Managed HSM is a fully-managed, highly-available, single-tenant, standards-compliant cloud service that enables you to safeguard cryptographic keys for your cloud applications using FIPS 140-2 Level 3 validated HSMs. If you would like to know more about Azure Key Vault Managed HSM, you may want to review: [What is Azure Key Vault Managed HSM?][managedhsm]

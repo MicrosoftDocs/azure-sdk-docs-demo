@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Tables Release Notes
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: tables
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Release History
 
 ## 13.0.1 (Unreleased)

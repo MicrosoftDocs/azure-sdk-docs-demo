@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Storage User Guide
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: storage
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Azure Storage Blob client library for JavaScript
 
 Azure Storage Blob is Microsoft's object storage solution for the cloud. Blob storage is optimized for storing massive amounts of unstructured data. Unstructured data is data that does not adhere to a particular data model or definition, such as text or binary data.

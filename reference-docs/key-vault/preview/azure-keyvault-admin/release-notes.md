@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Key Vault Release Notes
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: key-vault
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Release History
 
 ## 4.2.0-beta.2 (2021-11-09)

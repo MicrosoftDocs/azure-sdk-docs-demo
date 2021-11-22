@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Tables Migration Guide
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: tables
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Guide for migrating to `@azure/data-tables` from `azure-storage`
 
 This guide is intended to assist in the migration to `@azure/data-tables` from the legacy `azure-storage` package. It will focus on side-by-side comparisons for similar operations between the two packages.

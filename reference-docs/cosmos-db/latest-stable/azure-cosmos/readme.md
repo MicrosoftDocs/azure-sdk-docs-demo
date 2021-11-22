@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Cosmos DB User Guide
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: cosmos-db
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Azure Cosmos DB client library for JavaScript/TypeScript
 
 [![latest npm badge](https://img.shields.io/npm/v/%40azure%2Fcosmos/latest.svg)][npm]

@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Core User Guide
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: core
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Azure Abort Controller client library for JavaScript
 
 The `@azure/abort-controller` package provides `AbortController` and `AbortSignal` classes. These classes are compatible

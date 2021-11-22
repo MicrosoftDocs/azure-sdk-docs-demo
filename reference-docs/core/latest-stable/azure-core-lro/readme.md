@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Core User Guide
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: core
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Azure Core LRO client library for JavaScript
 
 `@azure/core-lro` is a JavaScript library that manages long running operations (LROs) against Azure services. Until completion, such operations require consecutive calls to Azure services to update a local representation of the remote operation status.

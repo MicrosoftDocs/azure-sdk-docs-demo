@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Core Release Notes
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: core
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Release History
 
 ## 3.1.0 (Unreleased)

@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Event Hubs Migration Guide
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: event-hubs
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Guide to migrate from @azure/event-hubs v2 to v5
 
 This guide is intended to assist in the migration from version 2 of the Event Hubs client library `@azure/event-hubs` and version 2 of the Event Processor Host library `@azure/event-processor-host` to version 5 of the `@azure/event-hubs` library.

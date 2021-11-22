@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Event Grid User Guide
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: event-grid
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Azure Event Grid client library for JavaScript
 
 [Azure Event Grid](https://azure.microsoft.com/services/event-grid/) is a cloud-based service that provides reliable event delivery at massive scale.

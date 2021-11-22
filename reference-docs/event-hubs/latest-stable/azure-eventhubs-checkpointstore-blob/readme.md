@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Event Hubs User Guide
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: event-hubs
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Azure Event Hubs Checkpoint Store client library for JavaScript
 
 An Azure Blob storage based solution to store checkpoints and to aid in load balancing when using `EventHubConsumerClient` from the [@azure/event-hubs](https://www.npmjs.com/package/@azure/event-hubs) library

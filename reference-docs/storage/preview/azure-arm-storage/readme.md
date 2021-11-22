@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Storage User Guide
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: storage
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Azure StorageManagement client library for JavaScript
 
 This package contains an isomorphic SDK (runs both in Node.js and in browsers) for Azure StorageManagement client.

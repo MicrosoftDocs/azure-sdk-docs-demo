@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Storage User Guide
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: storage
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Azure Storage File Share client library for JavaScript
 
 Azure Files offers fully managed file shares in the cloud that are accessible via the industry standard Server Message Block (SMB) protocol. Azure file shares can be mounted concurrently by cloud or on-premises deployments of Windows, Linux, and macOS. Additionally, Azure file shares can be cached on Windows Servers with Azure File Sync for fast access near where the data is being used.

@@ -1,3 +1,15 @@
+---
+title: Azure SDK for JavaScript - Storage User Guide
+description: 
+ms.topic: reference
+ms.date: 11/21/2021
+ms.service: storage
+ms.role: developer
+ms.devlang: javascript
+author: DavidCBerry13
+ms.author: daberry
+ROBOTS: NOINDEX
+---
 # Azure Storage Queue client library for JavaScript
 
 Azure Storage Queue provides cloud messaging between application components. In designing applications for scale, application components are often decoupled, so that they can scale independently. Queue storage delivers asynchronous messaging for communication between application components, whether they are running in the cloud, on the desktop, on an on-premises server, or on a mobile device. Queue storage also supports managing asynchronous tasks and building process work flows.
