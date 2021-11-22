@@ -19,7 +19,7 @@ ROBOTS: NOINDEX
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
-| @azure/data-tables  | 13.0.0 | [User guide](/javascript/sdk-demo/tables/latest-stable/azure-data-tables/readme.md)  | [Package index](/javascript/sdk-demo/tables/latest-stable/azure-data-tables)  | [npm](https://www.npmjs.com/package/@azure/data-tables) |
+| @azure/data-tables  | 13.0.0 | [User guide](/javascript/sdk-demo/tables/latest-stable/azure-data-tables/readme)  | [Package index](/javascript/sdk-demo/tables/latest-stable/azure-data-tables)  | [npm](https://www.npmjs.com/package/@azure/data-tables) |
 
  
 

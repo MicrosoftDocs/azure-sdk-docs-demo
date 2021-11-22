@@ -19,7 +19,7 @@ ROBOTS: NOINDEX
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
-| @azure/identity  | 2.0.1 | [User guide](/javascript/sdk-demo/identity/latest-stable/azure-identity/readme.md)  | [Package index](/javascript/sdk-demo/identity/latest-stable/azure-identity)  | [npm](https://www.npmjs.com/package/@azure/identity) |
+| @azure/identity  | 2.0.1 | [User guide](/javascript/sdk-demo/identity/latest-stable/azure-identity/readme)  | [Package index](/javascript/sdk-demo/identity/latest-stable/azure-identity)  | [npm](https://www.npmjs.com/package/@azure/identity) |
 
  
 

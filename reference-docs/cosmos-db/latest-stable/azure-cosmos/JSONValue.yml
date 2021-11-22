@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: JSONValue
+uid: '@azure/cosmos.JSONValue|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: ''
+fullName: JSONValue
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type JSONValue = boolean | number | string | null | JSONArray | JSONObject

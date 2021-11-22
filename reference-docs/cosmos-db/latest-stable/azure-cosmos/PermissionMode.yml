@@ -1,0 +1,22 @@
+### YamlMime:TSEnum
+name: PermissionMode
+uid: '@azure/cosmos.PermissionMode|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: Enum for permission mode values.
+fullName: PermissionMode
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: All
+    uid: '@azure/cosmos.PermissionMode.All|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: Permission applicable for all operations.
+  - name: None
+    uid: '@azure/cosmos.PermissionMode.None|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: Permission not valid.
+  - name: Read
+    uid: '@azure/cosmos.PermissionMode.Read|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: Permission applicable for read operations only.

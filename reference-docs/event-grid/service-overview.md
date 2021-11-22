@@ -19,7 +19,7 @@ ROBOTS: NOINDEX
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
-| @azure/eventgrid  | 4.5.0 | [User guide](/javascript/sdk-demo/event-grid/latest-stable/azure-eventgrid/readme.md)  | [Package index](/javascript/sdk-demo/event-grid/latest-stable/azure-eventgrid)  | [npm](https://www.npmjs.com/package/@azure/eventgrid) |
+| @azure/eventgrid  | 4.5.0 | [User guide](/javascript/sdk-demo/event-grid/latest-stable/azure-eventgrid/readme)  | [Package index](/javascript/sdk-demo/event-grid/latest-stable/azure-eventgrid)  | [npm](https://www.npmjs.com/package/@azure/eventgrid) |
 
  
 
@@ -39,7 +39,7 @@ ROBOTS: NOINDEX
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
-| @azure/arm-eventgrid  | 12.0.0 | [User guide](/javascript/sdk-demo/event-grid/latest-stable/azure-arm-eventgrid/readme.md)  | [Package index](/javascript/sdk-demo/event-grid/latest-stable/azure-arm-eventgrid)  | [npm](https://www.npmjs.com/package/@azure/arm-eventgrid) |
+| @azure/arm-eventgrid  | 12.0.0 | [User guide](/javascript/sdk-demo/event-grid/latest-stable/azure-arm-eventgrid/readme)  | [Package index](/javascript/sdk-demo/event-grid/latest-stable/azure-arm-eventgrid)  | [npm](https://www.npmjs.com/package/@azure/arm-eventgrid) |
 
 Users of prior versions of  packages should update to the latest stable version listed above.  Packages are guaranteed to be backwards compatible within the same major version.
 
@@ -50,7 +50,7 @@ Users of prior versions of  packages should update to the latest stable version 
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
-| @azure/arm-eventgrid  | 13.0.0-beta.1 | [User guide](/javascript/sdk-demo/event-grid/preview/azure-arm-eventgrid/readme.md)  | [Package index](/javascript/sdk-demo/event-grid/preview/azure-arm-eventgrid)  | [npm](https://www.npmjs.com/package/@azure/arm-eventgrid) |
+| @azure/arm-eventgrid  | 13.0.0-beta.1 | [User guide](/javascript/sdk-demo/event-grid/preview/azure-arm-eventgrid/readme)  | [Package index](/javascript/sdk-demo/event-grid/preview/azure-arm-eventgrid)  | [npm](https://www.npmjs.com/package/@azure/arm-eventgrid) |
 
  
 

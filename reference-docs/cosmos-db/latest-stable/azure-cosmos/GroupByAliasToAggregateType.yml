@@ -1,0 +1,10 @@
+### YamlMime:TSType
+name: GroupByAliasToAggregateType
+uid: '@azure/cosmos.GroupByAliasToAggregateType|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: ''
+fullName: GroupByAliasToAggregateType
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface

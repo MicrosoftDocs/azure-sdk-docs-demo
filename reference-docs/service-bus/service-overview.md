@@ -19,7 +19,7 @@ ROBOTS: NOINDEX
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
-| @azure/service-bus  | 7.4.0 | [User guide](/javascript/sdk-demo/service-bus/latest-stable/azure-service-bus/readme.md)  | [Package index](/javascript/sdk-demo/service-bus/latest-stable/azure-service-bus)  | [npm](https://www.npmjs.com/package/@azure/service-bus) |
+| @azure/service-bus  | 7.4.0 | [User guide](/javascript/sdk-demo/service-bus/latest-stable/azure-service-bus/readme)  | [Package index](/javascript/sdk-demo/service-bus/latest-stable/azure-service-bus)  | [npm](https://www.npmjs.com/package/@azure/service-bus) |
 
  
 
@@ -39,7 +39,7 @@ ROBOTS: NOINDEX
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
-| @azure/arm-servicebus  | 4.1.1 | [User guide](/javascript/sdk-demo/service-bus/latest-stable/azure-arm-servicebus/readme.md)  | [Package index](/javascript/sdk-demo/service-bus/latest-stable/azure-arm-servicebus)  | [npm](https://www.npmjs.com/package/@azure/arm-servicebus) |
+| @azure/arm-servicebus  | 4.1.1 | [User guide](/javascript/sdk-demo/service-bus/latest-stable/azure-arm-servicebus/readme)  | [Package index](/javascript/sdk-demo/service-bus/latest-stable/azure-arm-servicebus)  | [npm](https://www.npmjs.com/package/@azure/arm-servicebus) |
 
 Users of prior versions of  packages should update to the latest stable version listed above.  Packages are guaranteed to be backwards compatible within the same major version.
 
@@ -50,7 +50,7 @@ Users of prior versions of  packages should update to the latest stable version 
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
-| @azure/arm-servicebus  | 5.0.0-beta.1 | [User guide](/javascript/sdk-demo/service-bus/preview/azure-arm-servicebus/readme.md)  | [Package index](/javascript/sdk-demo/service-bus/preview/azure-arm-servicebus)  | [npm](https://www.npmjs.com/package/@azure/arm-servicebus) |
+| @azure/arm-servicebus  | 5.0.0-beta.1 | [User guide](/javascript/sdk-demo/service-bus/preview/azure-arm-servicebus/readme)  | [Package index](/javascript/sdk-demo/service-bus/preview/azure-arm-servicebus)  | [npm](https://www.npmjs.com/package/@azure/arm-servicebus) |
 
  
 

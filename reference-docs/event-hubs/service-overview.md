@@ -19,8 +19,8 @@ ROBOTS: NOINDEX
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
-| @azure/event-hubs  | 5.6.0 | [User guide](/javascript/sdk-demo/event-hubs/latest-stable/azure-event-hubs/readme.md)  | [Package index](/javascript/sdk-demo/event-hubs/latest-stable/azure-event-hubs)  | [npm](https://www.npmjs.com/package/@azure/event-hubs) |
-| @azure/arm-eventhub  | 4.0.0 | [User guide](/javascript/sdk-demo/event-hubs/latest-stable/azure-arm-eventhub/readme.md)  | [Package index](/javascript/sdk-demo/event-hubs/latest-stable/azure-arm-eventhub)  | [npm](https://www.npmjs.com/package/@azure/arm-eventhub) |
+| @azure/event-hubs  | 5.6.0 | [User guide](/javascript/sdk-demo/event-hubs/latest-stable/azure-event-hubs/readme)  | [Package index](/javascript/sdk-demo/event-hubs/latest-stable/azure-event-hubs)  | [npm](https://www.npmjs.com/package/@azure/event-hubs) |
+| @azure/arm-eventhub  | 4.0.0 | [User guide](/javascript/sdk-demo/event-hubs/latest-stable/azure-arm-eventhub/readme)  | [Package index](/javascript/sdk-demo/event-hubs/latest-stable/azure-arm-eventhub)  | [npm](https://www.npmjs.com/package/@azure/arm-eventhub) |
 
  
 
@@ -28,8 +28,8 @@ ROBOTS: NOINDEX
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
-| @azure/event-hubs  | 5.7.0-beta.1 | [User guide](/javascript/sdk-demo/event-hubs/preview/azure-event-hubs/readme.md)  | [Package index](/javascript/sdk-demo/event-hubs/preview/azure-event-hubs)  | [npm](https://www.npmjs.com/package/@azure/event-hubs) |
-| @azure/arm-eventhub  | 5.0.0-beta.1 | [User guide](/javascript/sdk-demo/event-hubs/preview/azure-arm-eventhub/readme.md)  | [Package index](/javascript/sdk-demo/event-hubs/preview/azure-arm-eventhub)  | [npm](https://www.npmjs.com/package/@azure/arm-eventhub) |
+| @azure/event-hubs  | 5.7.0-beta.1 | [User guide](/javascript/sdk-demo/event-hubs/preview/azure-event-hubs/readme)  | [Package index](/javascript/sdk-demo/event-hubs/preview/azure-event-hubs)  | [npm](https://www.npmjs.com/package/@azure/event-hubs) |
+| @azure/arm-eventhub  | 5.0.0-beta.1 | [User guide](/javascript/sdk-demo/event-hubs/preview/azure-arm-eventhub/readme)  | [Package index](/javascript/sdk-demo/event-hubs/preview/azure-arm-eventhub)  | [npm](https://www.npmjs.com/package/@azure/arm-eventhub) |
 
  
 
@@ -47,7 +47,7 @@ ROBOTS: NOINDEX
 
 | Package               | Version          | User guide                           | Reference Docs                             | Package Manager                |
 |-----------------------|------------------|--------------------------------------|--------------------------------------------|--------------------------------|
-| @azure/eventhubs-checkpointstore-blob  | 1.0.1 | [User guide](/javascript/sdk-demo/event-hubs/latest-stable/azure-eventhubs-checkpointstore-blob/readme.md)  | [Package index](/javascript/sdk-demo/event-hubs/latest-stable/azure-eventhubs-checkpointstore-blob)  | [npm](https://www.npmjs.com/package/@azure/eventhubs-checkpointstore-blob) |
+| @azure/eventhubs-checkpointstore-blob  | 1.0.1 | [User guide](/javascript/sdk-demo/event-hubs/latest-stable/azure-eventhubs-checkpointstore-blob/readme)  | [Package index](/javascript/sdk-demo/event-hubs/latest-stable/azure-eventhubs-checkpointstore-blob)  | [npm](https://www.npmjs.com/package/@azure/eventhubs-checkpointstore-blob) |
 
 Users of prior versions of  packages should update to the latest stable version listed above.  Packages are guaranteed to be backwards compatible within the same major version.
 
