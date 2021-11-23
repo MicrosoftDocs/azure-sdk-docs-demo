@@ -46,7 +46,7 @@ methods:
           type: string
           description: The Namespace name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-

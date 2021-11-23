@@ -83,7 +83,7 @@ methods:
             Event subscription properties containing the destination and filter
             information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -126,7 +126,7 @@ methods:
           type: string
           description: Name of the event subscription.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -178,7 +178,7 @@ methods:
             />
           description: Updated event subscription information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -239,7 +239,7 @@ methods:
             Event subscription properties containing the destination and filter
             information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -285,7 +285,7 @@ methods:
           type: string
           description: Name of the event subscription.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -328,7 +328,7 @@ methods:
           type: string
           description: Name of the event subscription.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -466,7 +466,7 @@ methods:
           type: string
           description: Name of the event subscription.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -610,7 +610,7 @@ methods:
           type: string
           description: Name of the event subscription.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -2672,7 +2672,7 @@ methods:
             />
           description: Updated event subscription information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-

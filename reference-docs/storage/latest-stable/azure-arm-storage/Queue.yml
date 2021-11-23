@@ -230,7 +230,7 @@ methods:
 
             characters.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -378,7 +378,7 @@ methods:
 
             characters.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-

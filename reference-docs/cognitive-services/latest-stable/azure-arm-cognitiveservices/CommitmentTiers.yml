@@ -41,7 +41,7 @@ methods:
           type: string
           description: Resource location.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -114,7 +114,7 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-

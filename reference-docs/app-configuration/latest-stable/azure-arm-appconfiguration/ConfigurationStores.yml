@@ -55,7 +55,7 @@ methods:
             />
           description: The parameters for creating a configuration store.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -82,7 +82,7 @@ methods:
           type: string
           description: The name of the configuration store.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -117,7 +117,7 @@ methods:
             />
           description: The parameters for updating a configuration store.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -150,7 +150,7 @@ methods:
             />
           description: The parameters for creating a configuration store.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -179,7 +179,7 @@ methods:
           type: string
           description: The name of the configuration store.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -205,7 +205,7 @@ methods:
           type: string
           description: The name of the configuration store.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -807,7 +807,7 @@ methods:
             />
           description: The parameters for regenerating an access key.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -920,7 +920,7 @@ methods:
             />
           description: The parameters for updating a configuration store.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-

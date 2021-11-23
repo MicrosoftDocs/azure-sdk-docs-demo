@@ -59,7 +59,7 @@ methods:
           type: string
           description: The name of private link resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-

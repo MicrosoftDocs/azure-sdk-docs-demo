@@ -64,7 +64,7 @@ methods:
           type: string
           description: The name of the private endpoint connection connection.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -112,7 +112,7 @@ methods:
             />
           description: The private endpoint connection object to update.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -153,7 +153,7 @@ methods:
           type: string
           description: The name of the private endpoint connection connection.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -192,7 +192,7 @@ methods:
           type: string
           description: The name of the private endpoint connection connection.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -552,7 +552,7 @@ methods:
             />
           description: The private endpoint connection object to update.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-

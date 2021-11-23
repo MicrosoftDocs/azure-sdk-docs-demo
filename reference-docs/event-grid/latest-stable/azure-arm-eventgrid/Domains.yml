@@ -51,7 +51,7 @@ methods:
           type: <xref uid="@azure/arm-eventgrid.Domain|latest-stable" />
           description: Domain information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -75,7 +75,7 @@ methods:
           type: string
           description: Name of the domain.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -107,7 +107,7 @@ methods:
             uid="@azure/arm-eventgrid.DomainUpdateParameters|latest-stable" />
           description: Domain update information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -136,7 +136,7 @@ methods:
           type: <xref uid="@azure/arm-eventgrid.Domain|latest-stable" />
           description: Domain information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -163,7 +163,7 @@ methods:
           type: string
           description: Name of the domain.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -187,7 +187,7 @@ methods:
           type: string
           description: Name of the domain.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -575,7 +575,7 @@ methods:
           type: string
           description: Name of the domain.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -669,7 +669,7 @@ methods:
             />
           description: Request body to regenerate key.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -773,7 +773,7 @@ methods:
             uid="@azure/arm-eventgrid.DomainUpdateParameters|latest-stable" />
           description: Domain update information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-

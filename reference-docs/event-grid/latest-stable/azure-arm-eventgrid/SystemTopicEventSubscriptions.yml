@@ -69,7 +69,7 @@ methods:
             Event subscription properties containing the destination and filter
             information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -102,7 +102,7 @@ methods:
             names must be between 3 and 100 characters in length and use
             alphanumeric letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -143,7 +143,7 @@ methods:
             />
           description: Updated event subscription information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -187,7 +187,7 @@ methods:
             Event subscription properties containing the destination and filter
             information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -223,7 +223,7 @@ methods:
             names must be between 3 and 100 characters in length and use
             alphanumeric letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -254,7 +254,7 @@ methods:
             names must be between 3 and 100 characters in length and use
             alphanumeric letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -359,7 +359,7 @@ methods:
             names must be between 3 and 100 characters in length and use
             alphanumeric letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -471,7 +471,7 @@ methods:
             names must be between 3 and 100 characters in length and use
             alphanumeric letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -777,7 +777,7 @@ methods:
             />
           description: Updated event subscription information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-

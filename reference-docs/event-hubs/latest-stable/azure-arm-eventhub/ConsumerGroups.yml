@@ -60,7 +60,7 @@ methods:
           type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />
           description: Parameters supplied to create or update a consumer group resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -170,7 +170,7 @@ methods:
           type: string
           description: The consumer group name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -264,7 +264,7 @@ methods:
           type: string
           description: The consumer group name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-

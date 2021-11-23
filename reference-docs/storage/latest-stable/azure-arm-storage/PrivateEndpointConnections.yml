@@ -65,7 +65,7 @@ methods:
             The name of the private endpoint connection associated with
             the Azure resource
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -190,7 +190,7 @@ methods:
             The name of the private endpoint connection associated with
             the Azure resource
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -319,7 +319,7 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -450,7 +450,7 @@ methods:
             uid="@azure/arm-storage.PrivateEndpointConnection|latest-stable" />
           description: The private endpoint connection properties.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-

@@ -420,7 +420,7 @@ methods:
           type: string
           description: The Type of the resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-

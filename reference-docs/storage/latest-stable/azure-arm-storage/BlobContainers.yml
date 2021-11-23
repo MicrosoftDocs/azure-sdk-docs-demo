@@ -85,7 +85,7 @@ methods:
 
             at SRP.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -266,7 +266,7 @@ methods:
           type: <xref uid="@azure/arm-storage.BlobContainer|latest-stable" />
           description: Properties of the blob container to create.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -624,7 +624,7 @@ methods:
 
             omitted, this operation will always be applied.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -800,7 +800,7 @@ methods:
 
             a letter or number.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -1150,7 +1150,7 @@ methods:
 
             a letter or number.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -1863,7 +1863,7 @@ methods:
 
             omitted, this operation will always be applied.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -2054,7 +2054,7 @@ methods:
 
             at SRP.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -2231,7 +2231,7 @@ methods:
           type: <xref uid="@azure/arm-storage.BlobContainer|latest-stable" />
           description: Properties to update for the blob container.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-

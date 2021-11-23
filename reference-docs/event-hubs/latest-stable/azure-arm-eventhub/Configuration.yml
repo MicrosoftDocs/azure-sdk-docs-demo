@@ -50,7 +50,7 @@ methods:
           type: string
           description: The name of the Event Hubs Cluster.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
@@ -146,7 +146,7 @@ methods:
             />
           description: Parameters for creating an Event Hubs Cluster resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-

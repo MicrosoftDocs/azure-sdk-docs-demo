@@ -770,7 +770,7 @@ methods:
             Required. Identify the version of the deleted share that will be
             restored.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -946,7 +946,7 @@ methods:
           type: <xref uid="@azure/arm-storage.FileShare|latest-stable" />
           description: Properties to update for the file share.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-

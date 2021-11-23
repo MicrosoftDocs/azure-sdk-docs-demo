@@ -50,7 +50,7 @@ methods:
             The object containing information for the availability
             request.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
+          type: msRest.RequestOptionsBase
           description: ''
       return:
         type: >-
