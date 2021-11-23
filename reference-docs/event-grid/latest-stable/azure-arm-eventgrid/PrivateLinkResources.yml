@@ -63,8 +63,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.PrivateLinkResourcesGetResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="PrivateLinkResourcesGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateLinkResourcesGetResponse>
   - name: >-
       get(string, string, string, string, RequestOptionsBase,
@@ -178,14 +178,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.PrivateLinkResourcesListByResourceOptionalParams|latest-stable"
+            uid="PrivateLinkResourcesListByResourceOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateLinkResourcesListByResourceResponse|latest-stable"
-          />&gt;
+          uid="PrivateLinkResourcesListByResourceResponse|latest-stable" />&gt;
         description: Promise<Models.PrivateLinkResourcesListByResourceResponse>
   - name: >-
       listByResource(string, string, string,
@@ -289,13 +288,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.PrivateLinkResourcesListByResourceNextOptionalParams|latest-stable"
+            uid="PrivateLinkResourcesListByResourceNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateLinkResourcesListByResourceNextResponse|latest-stable"
+          uid="PrivateLinkResourcesListByResourceNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateLinkResourcesListByResourceNextResponse>
   - name: >-

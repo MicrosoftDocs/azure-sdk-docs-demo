@@ -143,12 +143,10 @@ methods:
           type: <xref uid="@azure/arm-storage.FileShare|latest-stable" />
           description: Properties of the file share to create.
         - id: options
-          type: <xref uid="Models.FileSharesCreateOptionalParams|latest-stable" />
+          type: <xref uid="FileSharesCreateOptionalParams|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.FileSharesCreateResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="FileSharesCreateResponse|latest-stable" />&gt;
         description: Promise<Models.FileSharesCreateResponse>
   - name: create(string, string, string, FileShare, ServiceCallback<FileShare>)
     uid: '@azure/arm-storage.FileShares.create_1|latest-stable'
@@ -303,9 +301,7 @@ methods:
 
             number.
         - id: options
-          type: >-
-            <xref
-            uid="Models.FileSharesDeleteMethodOptionalParams|latest-stable" />
+          type: <xref uid="FileSharesDeleteMethodOptionalParams|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -456,12 +452,10 @@ methods:
 
             number.
         - id: options
-          type: <xref uid="Models.FileSharesGetOptionalParams|latest-stable" />
+          type: <xref uid="FileSharesGetOptionalParams|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.FileSharesGetResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="FileSharesGetResponse|latest-stable" />&gt;
         description: Promise<Models.FileSharesGetResponse>
   - name: get(string, string, string, ServiceCallback<FileShare>)
     uid: '@azure/arm-storage.FileShares.get_1|latest-stable'
@@ -584,12 +578,10 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="Models.FileSharesListOptionalParams|latest-stable" />
+          type: <xref uid="FileSharesListOptionalParams|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.FileSharesListResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="FileSharesListResponse|latest-stable" />&gt;
         description: Promise<Models.FileSharesListResponse>
   - name: list(string, string, ServiceCallback<FileShareItems>)
     uid: '@azure/arm-storage.FileShares.list_1|latest-stable'
@@ -672,12 +664,10 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="Models.FileSharesListNextOptionalParams|latest-stable" />
+          type: <xref uid="FileSharesListNextOptionalParams|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.FileSharesListNextResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="FileSharesListNextResponse|latest-stable" />&gt;
         description: Promise<Models.FileSharesListNextResponse>
   - name: listNext(string, ServiceCallback<FileShareItems>)
     uid: '@azure/arm-storage.FileShares.listNext_1|latest-stable'
@@ -935,9 +925,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.FileSharesUpdateResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="FileSharesUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.FileSharesUpdateResponse>
   - name: >-
       update(string, string, string, FileShare, RequestOptionsBase,

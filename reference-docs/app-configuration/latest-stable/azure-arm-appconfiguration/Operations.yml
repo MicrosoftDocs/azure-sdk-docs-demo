@@ -55,8 +55,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.OperationsCheckNameAvailabilityResponse|latest-stable"
-          />&gt;
+          uid="OperationsCheckNameAvailabilityResponse|latest-stable" />&gt;
         description: Promise<Models.OperationsCheckNameAvailabilityResponse>
   - name: >-
       checkNameAvailability(CheckNameAvailabilityParameters, RequestOptionsBase,
@@ -134,12 +133,10 @@ methods:
       content: 'function list(options?: Models.OperationsListOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.OperationsListOptionalParams|latest-stable" />
+          type: <xref uid="OperationsListOptionalParams|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.OperationsListResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="OperationsListResponse|latest-stable" />&gt;
         description: Promise<Models.OperationsListResponse>
   - name: >-
       list(OperationsListOptionalParams,
@@ -201,12 +198,10 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="Models.OperationsListNextOptionalParams|latest-stable" />
+          type: <xref uid="OperationsListNextOptionalParams|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.OperationsListNextResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="OperationsListNextResponse|latest-stable" />&gt;
         description: Promise<Models.OperationsListNextResponse>
   - name: >-
       listNext(string, OperationsListNextOptionalParams,

@@ -50,8 +50,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.PrivateLinkResourcesGetResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="PrivateLinkResourcesGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateLinkResourcesGetResponse>
   - name: >-
       get(string, string, RequestOptionsBase,

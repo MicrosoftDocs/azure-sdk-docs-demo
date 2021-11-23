@@ -66,8 +66,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.TableServicesGetServicePropertiesResponse|latest-stable"
-          />&gt;
+          uid="TableServicesGetServicePropertiesResponse|latest-stable" />&gt;
         description: Promise<Models.TableServicesGetServicePropertiesResponse>
   - name: >-
       getServiceProperties(string, string, RequestOptionsBase,
@@ -180,9 +179,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.TableServicesListResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="TableServicesListResponse|latest-stable" />&gt;
         description: Promise<Models.TableServicesListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -298,14 +295,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.TableServicesSetServicePropertiesOptionalParams|latest-stable"
+            uid="TableServicesSetServicePropertiesOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.TableServicesSetServicePropertiesResponse|latest-stable"
-          />&gt;
+          uid="TableServicesSetServicePropertiesResponse|latest-stable" />&gt;
         description: Promise<Models.TableServicesSetServicePropertiesResponse>
   - name: >-
       setServiceProperties(string, string,

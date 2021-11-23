@@ -59,9 +59,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.ExtensionTopicsGetResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="ExtensionTopicsGetResponse|latest-stable" />&gt;
         description: Promise<Models.ExtensionTopicsGetResponse>
   - name: get(string, RequestOptionsBase, ServiceCallback<ExtensionTopic>)
     uid: '@azure/arm-eventgrid.ExtensionTopics.get_2|latest-stable'

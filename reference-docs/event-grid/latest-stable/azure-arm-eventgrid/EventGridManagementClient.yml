@@ -47,7 +47,7 @@ constructors:
             subscription. The subscription ID forms part of the URI for every
             service call.
         - id: options
-          type: <xref uid="Models.EventGridManagementClientOptions|latest-stable" />
+          type: <xref uid="EventGridManagementClientOptions|latest-stable" />
           description: ''
 properties:
   - name: acceptLanguage

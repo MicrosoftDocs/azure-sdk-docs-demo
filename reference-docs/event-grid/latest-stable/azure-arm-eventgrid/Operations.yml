@@ -43,9 +43,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.OperationsListResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="OperationsListResponse|latest-stable" />&gt;
         description: Promise<Models.OperationsListResponse>
   - name: list(RequestOptionsBase, ServiceCallback<OperationsListResult>)
     uid: '@azure/arm-eventgrid.Operations.list_2|latest-stable'

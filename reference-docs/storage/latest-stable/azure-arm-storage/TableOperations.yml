@@ -72,7 +72,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TableCreateResponse|latest-stable" />&gt;
+        type: Promise&lt;<xref uid="TableCreateResponse|latest-stable" />&gt;
         description: Promise<Models.TableCreateResponse>
   - name: create(string, string, string, RequestOptionsBase, ServiceCallback<Table>)
     uid: '@azure/arm-storage.TableOperations.create_2|latest-stable'
@@ -352,7 +352,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TableGetResponse|latest-stable" />&gt;
+        type: Promise&lt;<xref uid="TableGetResponse|latest-stable" />&gt;
         description: Promise<Models.TableGetResponse>
   - name: get(string, string, string, RequestOptionsBase, ServiceCallback<Table>)
     uid: '@azure/arm-storage.TableOperations.get_2|latest-stable'
@@ -480,7 +480,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TableListResponse|latest-stable" />&gt;
+        type: Promise&lt;<xref uid="TableListResponse|latest-stable" />&gt;
         description: Promise<Models.TableListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -576,9 +576,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.TableListNextResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="TableListNextResponse|latest-stable" />&gt;
         description: Promise<Models.TableListNextResponse>
   - name: listNext(string, RequestOptionsBase, ServiceCallback<ListTableResource>)
     uid: '@azure/arm-storage.TableOperations.listNext_2|latest-stable'
@@ -670,7 +668,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TableUpdateResponse|latest-stable" />&gt;
+        type: Promise&lt;<xref uid="TableUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.TableUpdateResponse>
   - name: update(string, string, string, RequestOptionsBase, ServiceCallback<Table>)
     uid: '@azure/arm-storage.TableOperations.update_2|latest-stable'

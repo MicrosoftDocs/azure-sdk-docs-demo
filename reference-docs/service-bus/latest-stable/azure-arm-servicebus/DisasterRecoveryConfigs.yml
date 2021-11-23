@@ -147,7 +147,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.DisasterRecoveryConfigsCheckNameAvailabilityMethodResponse|latest-stable"
+          uid="DisasterRecoveryConfigsCheckNameAvailabilityMethodResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.DisasterRecoveryConfigsCheckNameAvailabilityMethodResponse>
@@ -260,7 +260,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.DisasterRecoveryConfigsCreateOrUpdateResponse|latest-stable"
+          uid="DisasterRecoveryConfigsCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.DisasterRecoveryConfigsCreateOrUpdateResponse>
   - name: >-
@@ -539,7 +539,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.DisasterRecoveryConfigsGetResponse|latest-stable" />&gt;
+          uid="DisasterRecoveryConfigsGetResponse|latest-stable" />&gt;
         description: Promise<Models.DisasterRecoveryConfigsGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -635,7 +635,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.DisasterRecoveryConfigsGetAuthorizationRuleResponse|latest-stable"
+          uid="DisasterRecoveryConfigsGetAuthorizationRuleResponse|latest-stable"
           />&gt;
         description: Promise<Models.DisasterRecoveryConfigsGetAuthorizationRuleResponse>
   - name: >-
@@ -733,7 +733,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.DisasterRecoveryConfigsListResponse|latest-stable" />&gt;
+          uid="DisasterRecoveryConfigsListResponse|latest-stable" />&gt;
         description: Promise<Models.DisasterRecoveryConfigsListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -820,7 +820,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.DisasterRecoveryConfigsListAuthorizationRulesResponse|latest-stable"
+          uid="DisasterRecoveryConfigsListAuthorizationRulesResponse|latest-stable"
           />&gt;
         description: Promise<Models.DisasterRecoveryConfigsListAuthorizationRulesResponse>
   - name: >-
@@ -912,7 +912,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.DisasterRecoveryConfigsListAuthorizationRulesNextResponse|latest-stable"
+          uid="DisasterRecoveryConfigsListAuthorizationRulesNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.DisasterRecoveryConfigsListAuthorizationRulesNextResponse>
@@ -1001,8 +1001,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.DisasterRecoveryConfigsListKeysResponse|latest-stable"
-          />&gt;
+          uid="DisasterRecoveryConfigsListKeysResponse|latest-stable" />&gt;
         description: Promise<Models.DisasterRecoveryConfigsListKeysResponse>
   - name: >-
       listKeys(string, string, string, string, RequestOptionsBase,
@@ -1092,8 +1091,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.DisasterRecoveryConfigsListNextResponse|latest-stable"
-          />&gt;
+          uid="DisasterRecoveryConfigsListNextResponse|latest-stable" />&gt;
         description: Promise<Models.DisasterRecoveryConfigsListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,

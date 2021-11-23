@@ -47,9 +47,7 @@ constructors:
             subscription. The subscription ID forms part of the URI for every
             service call.
         - id: options
-          type: >-
-            <xref uid="Models.ServiceBusManagementClientOptions|latest-stable"
-            />
+          type: <xref uid="ServiceBusManagementClientOptions|latest-stable" />
           description: ''
 properties:
   - name: acceptLanguage

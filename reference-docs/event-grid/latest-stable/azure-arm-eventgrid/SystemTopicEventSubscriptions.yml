@@ -192,7 +192,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicEventSubscriptionsCreateOrUpdateResponse|latest-stable"
+          uid="SystemTopicEventSubscriptionsCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.SystemTopicEventSubscriptionsCreateOrUpdateResponse>
   - name: deleteMethod(string, string, string, msRest.RequestOptionsBase)
@@ -259,8 +259,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicEventSubscriptionsGetResponse|latest-stable"
-          />&gt;
+          uid="SystemTopicEventSubscriptionsGetResponse|latest-stable" />&gt;
         description: Promise<Models.SystemTopicEventSubscriptionsGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -364,7 +363,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicEventSubscriptionsGetDeliveryAttributesResponse|latest-stable"
+          uid="SystemTopicEventSubscriptionsGetDeliveryAttributesResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.SystemTopicEventSubscriptionsGetDeliveryAttributesResponse>
@@ -476,7 +475,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicEventSubscriptionsGetFullUrlResponse|latest-stable"
+          uid="SystemTopicEventSubscriptionsGetFullUrlResponse|latest-stable"
           />&gt;
         description: Promise<Models.SystemTopicEventSubscriptionsGetFullUrlResponse>
   - name: >-
@@ -579,13 +578,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.SystemTopicEventSubscriptionsListBySystemTopicOptionalParams|latest-stable"
+            uid="SystemTopicEventSubscriptionsListBySystemTopicOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicEventSubscriptionsListBySystemTopicResponse|latest-stable"
+          uid="SystemTopicEventSubscriptionsListBySystemTopicResponse|latest-stable"
           />&gt;
         description: Promise<Models.SystemTopicEventSubscriptionsListBySystemTopicResponse>
   - name: >-
@@ -674,13 +673,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.SystemTopicEventSubscriptionsListBySystemTopicNextOptionalParams|latest-stable"
+            uid="SystemTopicEventSubscriptionsListBySystemTopicNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicEventSubscriptionsListBySystemTopicNextResponse|latest-stable"
+          uid="SystemTopicEventSubscriptionsListBySystemTopicNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.SystemTopicEventSubscriptionsListBySystemTopicNextResponse>
@@ -782,6 +781,5 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicEventSubscriptionsUpdateResponse|latest-stable"
-          />&gt;
+          uid="SystemTopicEventSubscriptionsUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.SystemTopicEventSubscriptionsUpdateResponse>

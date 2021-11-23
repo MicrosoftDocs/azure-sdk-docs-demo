@@ -66,8 +66,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.QueueServicesGetServicePropertiesResponse|latest-stable"
-          />&gt;
+          uid="QueueServicesGetServicePropertiesResponse|latest-stable" />&gt;
         description: Promise<Models.QueueServicesGetServicePropertiesResponse>
   - name: >-
       getServiceProperties(string, string, RequestOptionsBase,
@@ -180,9 +179,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.QueueServicesListResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="QueueServicesListResponse|latest-stable" />&gt;
         description: Promise<Models.QueueServicesListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -298,14 +295,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.QueueServicesSetServicePropertiesOptionalParams|latest-stable"
+            uid="QueueServicesSetServicePropertiesOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.QueueServicesSetServicePropertiesResponse|latest-stable"
-          />&gt;
+          uid="QueueServicesSetServicePropertiesResponse|latest-stable" />&gt;
         description: Promise<Models.QueueServicesSetServicePropertiesResponse>
   - name: >-
       setServiceProperties(string, string,

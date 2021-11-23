@@ -64,7 +64,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateLinkResourcesListByStorageAccountResponse|latest-stable"
+          uid="PrivateLinkResourcesListByStorageAccountResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateLinkResourcesListByStorageAccountResponse>
   - name: >-

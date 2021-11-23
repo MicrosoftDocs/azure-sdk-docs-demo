@@ -59,8 +59,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.PrivateLinkResourcesGetResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="PrivateLinkResourcesGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateLinkResourcesGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -157,7 +157,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateLinkResourcesListByConfigurationStoreResponse|latest-stable"
+          uid="PrivateLinkResourcesListByConfigurationStoreResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateLinkResourcesListByConfigurationStoreResponse>
   - name: >-
@@ -249,7 +249,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateLinkResourcesListByConfigurationStoreNextResponse|latest-stable"
+          uid="PrivateLinkResourcesListByConfigurationStoreNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.PrivateLinkResourcesListByConfigurationStoreNextResponse>

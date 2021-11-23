@@ -49,9 +49,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.DeletedAccountsGetResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="DeletedAccountsGetResponse|latest-stable" />&gt;
         description: Promise<Models.DeletedAccountsGetResponse>
   - name: get(string, string, RequestOptionsBase, ServiceCallback<DeletedAccount>)
     uid: '@azure/arm-storage.DeletedAccounts.get_2|latest-stable'
@@ -119,8 +117,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.DeletedAccountsListResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="DeletedAccountsListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DeletedAccountsListResponse>
   - name: list(RequestOptionsBase, ServiceCallback<DeletedAccountListResult>)
     uid: '@azure/arm-storage.DeletedAccounts.list_2|latest-stable'
@@ -181,8 +179,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.DeletedAccountsListNextResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="DeletedAccountsListNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DeletedAccountsListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,

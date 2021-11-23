@@ -112,7 +112,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.DomainTopicsCreateOrUpdateResponse|latest-stable" />&gt;
+          uid="DomainTopicsCreateOrUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.DomainTopicsCreateOrUpdateResponse>
   - name: deleteMethod(string, string, string, msRest.RequestOptionsBase)
     uid: '@azure/arm-eventgrid.DomainTopics.deleteMethod|latest-stable'
@@ -166,9 +166,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.DomainTopicsGetResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="DomainTopicsGetResponse|latest-stable" />&gt;
         description: Promise<Models.DomainTopicsGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -285,14 +283,12 @@ methods:
           type: string
           description: Domain name.
         - id: options
-          type: >-
-            <xref
-            uid="Models.DomainTopicsListByDomainOptionalParams|latest-stable" />
+          type: <xref uid="DomainTopicsListByDomainOptionalParams|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.DomainTopicsListByDomainResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="DomainTopicsListByDomainResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DomainTopicsListByDomainResponse>
   - name: listByDomain(string, string, ServiceCallback<DomainTopicsListResult>)
     uid: '@azure/arm-eventgrid.DomainTopics.listByDomain_1|latest-stable'
@@ -369,14 +365,13 @@ methods:
           description: The NextLink from the previous successful call to List operation.
         - id: options
           type: >-
-            <xref
-            uid="Models.DomainTopicsListByDomainNextOptionalParams|latest-stable"
+            <xref uid="DomainTopicsListByDomainNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.DomainTopicsListByDomainNextResponse|latest-stable" />&gt;
+          uid="DomainTopicsListByDomainNextResponse|latest-stable" />&gt;
         description: Promise<Models.DomainTopicsListByDomainNextResponse>
   - name: listByDomainNext(string, ServiceCallback<DomainTopicsListResult>)
     uid: '@azure/arm-eventgrid.DomainTopics.listByDomainNext_1|latest-stable'

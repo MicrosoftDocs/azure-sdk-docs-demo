@@ -151,7 +151,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateEndpointConnectionsCreateOrUpdateResponse|latest-stable"
+          uid="PrivateEndpointConnectionsCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateEndpointConnectionsCreateOrUpdateResponse>
   - name: deleteMethod(string, string, string, msRest.RequestOptionsBase)
@@ -221,8 +221,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateEndpointConnectionsGetResponse|latest-stable"
-          />&gt;
+          uid="PrivateEndpointConnectionsGetResponse|latest-stable" />&gt;
         description: Promise<Models.PrivateEndpointConnectionsGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -319,8 +318,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateEndpointConnectionsListResponse|latest-stable"
-          />&gt;
+          uid="PrivateEndpointConnectionsListResponse|latest-stable" />&gt;
         description: Promise<Models.PrivateEndpointConnectionsListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,

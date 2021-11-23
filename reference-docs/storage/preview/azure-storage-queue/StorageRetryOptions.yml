@@ -90,7 +90,7 @@ properties:
 
       reading stale and potentially-inconsistent data at
 
-      <xref:https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fstorage%2Fcommon%2Fstorage-designing-ha-apps-with-ragrs>
+      [https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fstorage%2Fcommon%2Fstorage-designing-ha-apps-with-ragrs](https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fstorage%2Fcommon%2Fstorage-designing-ha-apps-with-ragrs)
     fullName: secondaryHost
     remarks: ''
     isPreview: false

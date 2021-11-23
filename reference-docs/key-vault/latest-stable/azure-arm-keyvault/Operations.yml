@@ -41,9 +41,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.OperationsListResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="OperationsListResponse|latest-stable" />&gt;
         description: Promise<Models.OperationsListResponse>
   - name: list(RequestOptionsBase, ServiceCallback<OperationListResult>)
     uid: '@azure/arm-keyvault.Operations.list_2|latest-stable'
@@ -101,9 +99,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.OperationsListNextResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="OperationsListNextResponse|latest-stable" />&gt;
         description: Promise<Models.OperationsListNextResponse>
   - name: listNext(string, RequestOptionsBase, ServiceCallback<OperationListResult>)
     uid: '@azure/arm-keyvault.Operations.listNext_2|latest-stable'

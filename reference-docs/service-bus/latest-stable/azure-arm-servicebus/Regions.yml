@@ -44,9 +44,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.RegionsListBySkuResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="RegionsListBySkuResponse|latest-stable" />&gt;
         description: Promise<Models.RegionsListBySkuResponse>
   - name: >-
       listBySku(string, RequestOptionsBase,
@@ -117,8 +115,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.RegionsListBySkuNextResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="RegionsListBySkuNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.RegionsListBySkuNextResponse>
   - name: >-
       listBySkuNext(string, RequestOptionsBase,

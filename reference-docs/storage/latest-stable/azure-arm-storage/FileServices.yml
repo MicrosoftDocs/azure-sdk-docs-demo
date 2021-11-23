@@ -66,8 +66,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.FileServicesGetServicePropertiesResponse|latest-stable"
-          />&gt;
+          uid="FileServicesGetServicePropertiesResponse|latest-stable" />&gt;
         description: Promise<Models.FileServicesGetServicePropertiesResponse>
   - name: >-
       getServiceProperties(string, string, RequestOptionsBase,
@@ -180,9 +179,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.FileServicesListResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="FileServicesListResponse|latest-stable" />&gt;
         description: Promise<Models.FileServicesListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -308,8 +305,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.FileServicesSetServicePropertiesResponse|latest-stable"
-          />&gt;
+          uid="FileServicesSetServicePropertiesResponse|latest-stable" />&gt;
         description: Promise<Models.FileServicesSetServicePropertiesResponse>
   - name: >-
       setServiceProperties(string, string, FileServiceProperties,

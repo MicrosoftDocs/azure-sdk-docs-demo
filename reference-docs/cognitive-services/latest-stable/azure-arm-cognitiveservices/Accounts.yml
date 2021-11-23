@@ -140,9 +140,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.AccountsCreateResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="AccountsCreateResponse|latest-stable" />&gt;
         description: Promise<Models.AccountsCreateResponse>
   - name: deleteMethod(string, string, msRest.RequestOptionsBase)
     uid: '@azure/arm-cognitiveservices.Accounts.deleteMethod|latest-stable'
@@ -190,7 +188,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.AccountsGetResponse|latest-stable" />&gt;
+        type: Promise&lt;<xref uid="AccountsGetResponse|latest-stable" />&gt;
         description: Promise<Models.AccountsGetResponse>
   - name: get(string, string, RequestOptionsBase, ServiceCallback<Account>)
     uid: '@azure/arm-cognitiveservices.Accounts.get_2|latest-stable'
@@ -259,9 +257,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.AccountsListResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="AccountsListResponse|latest-stable" />&gt;
         description: Promise<Models.AccountsListResponse>
   - name: list(RequestOptionsBase, ServiceCallback<AccountListResult>)
     uid: '@azure/arm-cognitiveservices.Accounts.list_2|latest-stable'
@@ -325,7 +321,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.AccountsListByResourceGroupResponse|latest-stable" />&gt;
+          uid="AccountsListByResourceGroupResponse|latest-stable" />&gt;
         description: Promise<Models.AccountsListByResourceGroupResponse>
   - name: >-
       listByResourceGroup(string, RequestOptionsBase,
@@ -400,8 +396,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.AccountsListByResourceGroupNextResponse|latest-stable"
-          />&gt;
+          uid="AccountsListByResourceGroupNextResponse|latest-stable" />&gt;
         description: Promise<Models.AccountsListByResourceGroupNextResponse>
   - name: >-
       listByResourceGroupNext(string, RequestOptionsBase,
@@ -476,9 +471,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.AccountsListKeysResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="AccountsListKeysResponse|latest-stable" />&gt;
         description: Promise<Models.AccountsListKeysResponse>
   - name: listKeys(string, string, RequestOptionsBase, ServiceCallback<ApiKeys>)
     uid: '@azure/arm-cognitiveservices.Accounts.listKeys_2|latest-stable'
@@ -552,9 +545,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.AccountsListNextResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="AccountsListNextResponse|latest-stable" />&gt;
         description: Promise<Models.AccountsListNextResponse>
   - name: listNext(string, RequestOptionsBase, ServiceCallback<AccountListResult>)
     uid: '@azure/arm-cognitiveservices.Accounts.listNext_2|latest-stable'
@@ -625,9 +616,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.AccountsListSkusResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="AccountsListSkusResponse|latest-stable" />&gt;
         description: Promise<Models.AccountsListSkusResponse>
   - name: >-
       listSkus(string, string, RequestOptionsBase,
@@ -738,12 +727,10 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: options
-          type: <xref uid="Models.AccountsListUsagesOptionalParams|latest-stable" />
+          type: <xref uid="AccountsListUsagesOptionalParams|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.AccountsListUsagesResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="AccountsListUsagesResponse|latest-stable" />&gt;
         description: Promise<Models.AccountsListUsagesResponse>
   - name: listUsages(string, string, ServiceCallback<UsageListResult>)
     uid: '@azure/arm-cognitiveservices.Accounts.listUsages_1|latest-stable'
@@ -791,7 +778,7 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: keyName
-          type: <xref uid="Models.KeyName|latest-stable" />
+          type: <xref uid="KeyName|latest-stable" />
           description: >-
             key name to generate (Key1|Key2). Possible values include: 'Key1',
             'Key2'
@@ -800,8 +787,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.AccountsRegenerateKeyResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="AccountsRegenerateKeyResponse|latest-stable"
+          />&gt;
         description: Promise<Models.AccountsRegenerateKeyResponse>
   - name: >-
       regenerateKey(string, string, Models.KeyName, RequestOptionsBase,
@@ -825,7 +812,7 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: keyName
-          type: <xref uid="Models.KeyName|latest-stable" />
+          type: <xref uid="KeyName|latest-stable" />
           description: >-
             key name to generate (Key1|Key2). Possible values include: 'Key1',
             'Key2'
@@ -857,7 +844,7 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: keyName
-          type: <xref uid="Models.KeyName|latest-stable" />
+          type: <xref uid="KeyName|latest-stable" />
           description: >-
             key name to generate (Key1|Key2). Possible values include: 'Key1',
             'Key2'
@@ -892,7 +879,5 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.AccountsUpdateResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="AccountsUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.AccountsUpdateResponse>

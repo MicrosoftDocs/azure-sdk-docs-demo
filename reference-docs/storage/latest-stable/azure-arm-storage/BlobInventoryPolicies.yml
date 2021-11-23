@@ -122,14 +122,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.BlobInventoryPoliciesCreateOrUpdateOptionalParams|latest-stable"
+            uid="BlobInventoryPoliciesCreateOrUpdateOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.BlobInventoryPoliciesCreateOrUpdateResponse|latest-stable"
-          />&gt;
+          uid="BlobInventoryPoliciesCreateOrUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.BlobInventoryPoliciesCreateOrUpdateResponse>
   - name: >-
       createOrUpdate(string, string, BlobInventoryPolicySchema,
@@ -318,8 +317,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.BlobInventoryPoliciesGetResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="BlobInventoryPoliciesGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.BlobInventoryPoliciesGetResponse>
   - name: >-
       get(string, string, RequestOptionsBase,
@@ -432,8 +431,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.BlobInventoryPoliciesListResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="BlobInventoryPoliciesListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.BlobInventoryPoliciesListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,

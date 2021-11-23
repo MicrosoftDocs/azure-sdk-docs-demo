@@ -73,8 +73,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.EncryptionScopesGetResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="EncryptionScopesGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EncryptionScopesGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -212,8 +212,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.EncryptionScopesListResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="EncryptionScopesListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EncryptionScopesListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -315,8 +315,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.EncryptionScopesListNextResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="EncryptionScopesListNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EncryptionScopesListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,
@@ -421,8 +421,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.EncryptionScopesPatchResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="EncryptionScopesPatchResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EncryptionScopesPatchResponse>
   - name: >-
       patch(string, string, string, EncryptionScope, RequestOptionsBase,
@@ -591,8 +591,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.EncryptionScopesPutResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="EncryptionScopesPutResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EncryptionScopesPutResponse>
   - name: >-
       put(string, string, string, EncryptionScope, RequestOptionsBase,

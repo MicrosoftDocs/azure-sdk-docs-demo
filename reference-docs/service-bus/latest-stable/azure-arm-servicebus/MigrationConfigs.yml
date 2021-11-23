@@ -184,7 +184,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.MigrationConfigsCreateAndStartMigrationResponse|latest-stable"
+          uid="MigrationConfigsCreateAndStartMigrationResponse|latest-stable"
           />&gt;
         description: Promise<Models.MigrationConfigsCreateAndStartMigrationResponse>
   - name: deleteMethod(string, string, msRest.RequestOptionsBase)
@@ -281,8 +281,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.MigrationConfigsGetResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="MigrationConfigsGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.MigrationConfigsGetResponse>
   - name: >-
       get(string, string, RequestOptionsBase,
@@ -363,8 +363,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.MigrationConfigsListResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="MigrationConfigsListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.MigrationConfigsListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -442,8 +442,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.MigrationConfigsListNextResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="MigrationConfigsListNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.MigrationConfigsListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,

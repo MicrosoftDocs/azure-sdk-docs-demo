@@ -66,8 +66,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.BlobServicesGetServicePropertiesResponse|latest-stable"
-          />&gt;
+          uid="BlobServicesGetServicePropertiesResponse|latest-stable" />&gt;
         description: Promise<Models.BlobServicesGetServicePropertiesResponse>
   - name: >-
       getServiceProperties(string, string, RequestOptionsBase,
@@ -182,9 +181,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.BlobServicesListResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="BlobServicesListResponse|latest-stable" />&gt;
         description: Promise<Models.BlobServicesListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -312,8 +309,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.BlobServicesSetServicePropertiesResponse|latest-stable"
-          />&gt;
+          uid="BlobServicesSetServicePropertiesResponse|latest-stable" />&gt;
         description: Promise<Models.BlobServicesSetServicePropertiesResponse>
   - name: >-
       setServiceProperties(string, string, BlobServiceProperties,

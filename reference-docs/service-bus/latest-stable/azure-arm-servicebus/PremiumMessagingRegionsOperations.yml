@@ -46,7 +46,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PremiumMessagingRegionsListResponse|latest-stable" />&gt;
+          uid="PremiumMessagingRegionsListResponse|latest-stable" />&gt;
         description: Promise<Models.PremiumMessagingRegionsListResponse>
   - name: >-
       list(RequestOptionsBase,
@@ -115,8 +115,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PremiumMessagingRegionsListNextResponse|latest-stable"
-          />&gt;
+          uid="PremiumMessagingRegionsListNextResponse|latest-stable" />&gt;
         description: Promise<Models.PremiumMessagingRegionsListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,

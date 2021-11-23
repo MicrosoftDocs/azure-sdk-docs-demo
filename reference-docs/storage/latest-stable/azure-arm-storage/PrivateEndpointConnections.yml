@@ -195,8 +195,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateEndpointConnectionsGetResponse|latest-stable"
-          />&gt;
+          uid="PrivateEndpointConnectionsGetResponse|latest-stable" />&gt;
         description: Promise<Models.PrivateEndpointConnectionsGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -324,8 +323,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateEndpointConnectionsListResponse|latest-stable"
-          />&gt;
+          uid="PrivateEndpointConnectionsListResponse|latest-stable" />&gt;
         description: Promise<Models.PrivateEndpointConnectionsListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -455,8 +453,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateEndpointConnectionsPutResponse|latest-stable"
-          />&gt;
+          uid="PrivateEndpointConnectionsPutResponse|latest-stable" />&gt;
         description: Promise<Models.PrivateEndpointConnectionsPutResponse>
   - name: >-
       put(string, string, string, PrivateEndpointConnection, RequestOptionsBase,

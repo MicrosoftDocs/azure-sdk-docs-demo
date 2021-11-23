@@ -45,8 +45,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.CommitmentTiersListResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="CommitmentTiersListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.CommitmentTiersListResponse>
   - name: >-
       list(string, RequestOptionsBase,
@@ -117,8 +117,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.CommitmentTiersListNextResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="CommitmentTiersListNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.CommitmentTiersListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,

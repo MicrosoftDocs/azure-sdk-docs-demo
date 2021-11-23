@@ -51,8 +51,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.UsagesListByLocationResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="UsagesListByLocationResponse|latest-stable"
+          />&gt;
         description: Promise<Models.UsagesListByLocationResponse>
   - name: >-
       listByLocation(string, RequestOptionsBase,

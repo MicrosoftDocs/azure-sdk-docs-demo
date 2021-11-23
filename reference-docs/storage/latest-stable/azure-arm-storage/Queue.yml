@@ -72,10 +72,10 @@ methods:
 
             characters.
         - id: options
-          type: <xref uid="Models.QueueCreateOptionalParams|latest-stable" />
+          type: <xref uid="QueueCreateOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueCreateResponse|latest-stable" />&gt;
+        type: Promise&lt;<xref uid="QueueCreateResponse|latest-stable" />&gt;
         description: Promise<Models.QueueCreateResponse>
   - name: >-
       create(string, string, string, QueueCreateOptionalParams,
@@ -377,7 +377,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueGetResponse|latest-stable" />&gt;
+        type: Promise&lt;<xref uid="QueueGetResponse|latest-stable" />&gt;
         description: Promise<Models.QueueGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -511,10 +511,10 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="Models.QueueListOptionalParams|latest-stable" />
+          type: <xref uid="QueueListOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueListResponse|latest-stable" />&gt;
+        type: Promise&lt;<xref uid="QueueListResponse|latest-stable" />&gt;
         description: Promise<Models.QueueListResponse>
   - name: >-
       list(string, string, QueueListOptionalParams,
@@ -609,12 +609,10 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="Models.QueueListNextOptionalParams|latest-stable" />
+          type: <xref uid="QueueListNextOptionalParams|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.QueueListNextResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="QueueListNextResponse|latest-stable" />&gt;
         description: Promise<Models.QueueListNextResponse>
   - name: >-
       listNext(string, QueueListNextOptionalParams,
@@ -712,10 +710,10 @@ methods:
 
             characters.
         - id: options
-          type: <xref uid="Models.QueueUpdateOptionalParams|latest-stable" />
+          type: <xref uid="QueueUpdateOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueUpdateResponse|latest-stable" />&gt;
+        type: Promise&lt;<xref uid="QueueUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.QueueUpdateResponse>
   - name: >-
       update(string, string, string, QueueUpdateOptionalParams,

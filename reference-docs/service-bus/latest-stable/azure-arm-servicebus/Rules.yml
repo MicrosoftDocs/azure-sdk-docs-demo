@@ -65,8 +65,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.RulesCreateOrUpdateResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="RulesCreateOrUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.RulesCreateOrUpdateResponse>
   - name: >-
       createOrUpdate(string, string, string, string, string, Rule,
@@ -289,7 +289,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.RulesGetResponse|latest-stable" />&gt;
+        type: Promise&lt;<xref uid="RulesGetResponse|latest-stable" />&gt;
         description: Promise<Models.RulesGetResponse>
   - name: >-
       get(string, string, string, string, string, RequestOptionsBase,
@@ -392,14 +392,12 @@ methods:
           type: string
           description: The subscription name.
         - id: options
-          type: >-
-            <xref
-            uid="Models.RulesListBySubscriptionsOptionalParams|latest-stable" />
+          type: <xref uid="RulesListBySubscriptionsOptionalParams|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.RulesListBySubscriptionsResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="RulesListBySubscriptionsResponse|latest-stable"
+          />&gt;
         description: Promise<Models.RulesListBySubscriptionsResponse>
   - name: >-
       listBySubscriptions(string, string, string, string,
@@ -495,7 +493,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.RulesListBySubscriptionsNextResponse|latest-stable" />&gt;
+          uid="RulesListBySubscriptionsNextResponse|latest-stable" />&gt;
         description: Promise<Models.RulesListBySubscriptionsNextResponse>
   - name: >-
       listBySubscriptionsNext(string, RequestOptionsBase,

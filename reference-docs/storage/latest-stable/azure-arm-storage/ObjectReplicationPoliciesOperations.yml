@@ -83,7 +83,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.ObjectReplicationPoliciesCreateOrUpdateResponse|latest-stable"
+          uid="ObjectReplicationPoliciesCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.ObjectReplicationPoliciesCreateOrUpdateResponse>
   - name: >-
@@ -365,7 +365,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.ObjectReplicationPoliciesGetResponse|latest-stable" />&gt;
+          uid="ObjectReplicationPoliciesGetResponse|latest-stable" />&gt;
         description: Promise<Models.ObjectReplicationPoliciesGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -491,8 +491,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.ObjectReplicationPoliciesListResponse|latest-stable"
-          />&gt;
+          uid="ObjectReplicationPoliciesListResponse|latest-stable" />&gt;
         description: Promise<Models.ObjectReplicationPoliciesListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,

@@ -50,8 +50,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.EventHubsListByNamespaceResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="EventHubsListByNamespaceResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EventHubsListByNamespaceResponse>
   - name: >-
       listByNamespace(string, string, RequestOptionsBase,
@@ -128,7 +128,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventHubsListByNamespaceNextResponse|latest-stable" />&gt;
+          uid="EventHubsListByNamespaceNextResponse|latest-stable" />&gt;
         description: Promise<Models.EventHubsListByNamespaceNextResponse>
   - name: >-
       listByNamespaceNext(string, RequestOptionsBase,

@@ -55,8 +55,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.PrivateLinkResourcesListResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="PrivateLinkResourcesListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateLinkResourcesListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,

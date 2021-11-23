@@ -63,7 +63,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SubscriptionsCreateOrUpdateResponse|latest-stable" />&gt;
+          uid="SubscriptionsCreateOrUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.SubscriptionsCreateOrUpdateResponse>
   - name: >-
       createOrUpdate(string, string, string, string, SBSubscription,
@@ -264,9 +264,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.SubscriptionsGetResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="SubscriptionsGetResponse|latest-stable" />&gt;
         description: Promise<Models.SubscriptionsGetResponse>
   - name: >-
       get(string, string, string, string, RequestOptionsBase,
@@ -360,14 +358,12 @@ methods:
           type: string
           description: The topic name.
         - id: options
-          type: >-
-            <xref
-            uid="Models.SubscriptionsListByTopicOptionalParams|latest-stable" />
+          type: <xref uid="SubscriptionsListByTopicOptionalParams|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.SubscriptionsListByTopicResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="SubscriptionsListByTopicResponse|latest-stable"
+          />&gt;
         description: Promise<Models.SubscriptionsListByTopicResponse>
   - name: >-
       listByTopic(string, string, string,
@@ -458,7 +454,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SubscriptionsListByTopicNextResponse|latest-stable" />&gt;
+          uid="SubscriptionsListByTopicNextResponse|latest-stable" />&gt;
         description: Promise<Models.SubscriptionsListByTopicNextResponse>
   - name: >-
       listByTopicNext(string, RequestOptionsBase,

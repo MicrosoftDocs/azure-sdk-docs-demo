@@ -113,7 +113,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.VaultsCheckNameAvailabilityResponse|latest-stable" />&gt;
+          uid="VaultsCheckNameAvailabilityResponse|latest-stable" />&gt;
         description: Promise<Models.VaultsCheckNameAvailabilityResponse>
   - name: >-
       checkNameAvailability(VaultCheckNameAvailabilityParameters,
@@ -206,8 +206,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.VaultsCreateOrUpdateResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="VaultsCreateOrUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.VaultsCreateOrUpdateResponse>
   - name: deleteMethod(string, string, msRest.RequestOptionsBase)
     uid: '@azure/arm-keyvault.Vaults.deleteMethod|latest-stable'
@@ -302,7 +302,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.VaultsGetResponse|latest-stable" />&gt;
+        type: Promise&lt;<xref uid="VaultsGetResponse|latest-stable" />&gt;
         description: Promise<Models.VaultsGetResponse>
   - name: get(string, string, RequestOptionsBase, ServiceCallback<Vault>)
     uid: '@azure/arm-keyvault.Vaults.get_2|latest-stable'
@@ -377,9 +377,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.VaultsGetDeletedResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="VaultsGetDeletedResponse|latest-stable" />&gt;
         description: Promise<Models.VaultsGetDeletedResponse>
   - name: >-
       getDeleted(string, string, RequestOptionsBase,
@@ -447,10 +445,10 @@ methods:
       content: 'function list(options?: Models.VaultsListOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.VaultsListOptionalParams|latest-stable" />
+          type: <xref uid="VaultsListOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.VaultsListResponse|latest-stable" />&gt;
+        type: Promise&lt;<xref uid="VaultsListResponse|latest-stable" />&gt;
         description: Promise<Models.VaultsListResponse>
   - name: list(ServiceCallback<ResourceListResult>)
     uid: '@azure/arm-keyvault.Vaults.list_1|latest-stable'
@@ -513,15 +511,12 @@ methods:
           type: string
           description: The name of the Resource Group to which the vault belongs.
         - id: options
-          type: >-
-            <xref
-            uid="Models.VaultsListByResourceGroupOptionalParams|latest-stable"
-            />
+          type: <xref uid="VaultsListByResourceGroupOptionalParams|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.VaultsListByResourceGroupResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="VaultsListByResourceGroupResponse|latest-stable"
+          />&gt;
         description: Promise<Models.VaultsListByResourceGroupResponse>
   - name: listByResourceGroup(string, ServiceCallback<VaultListResult>)
     uid: '@azure/arm-keyvault.Vaults.listByResourceGroup_1|latest-stable'
@@ -599,8 +594,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.VaultsListByResourceGroupNextResponse|latest-stable"
-          />&gt;
+          uid="VaultsListByResourceGroupNextResponse|latest-stable" />&gt;
         description: Promise<Models.VaultsListByResourceGroupNextResponse>
   - name: >-
       listByResourceGroupNext(string, RequestOptionsBase,
@@ -664,14 +658,12 @@ methods:
         Models.VaultsListBySubscriptionOptionalParams)
       parameters:
         - id: options
-          type: >-
-            <xref
-            uid="Models.VaultsListBySubscriptionOptionalParams|latest-stable" />
+          type: <xref uid="VaultsListBySubscriptionOptionalParams|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.VaultsListBySubscriptionResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="VaultsListBySubscriptionResponse|latest-stable"
+          />&gt;
         description: Promise<Models.VaultsListBySubscriptionResponse>
   - name: listBySubscription(ServiceCallback<VaultListResult>)
     uid: '@azure/arm-keyvault.Vaults.listBySubscription_1|latest-stable'
@@ -739,7 +731,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.VaultsListBySubscriptionNextResponse|latest-stable" />&gt;
+          uid="VaultsListBySubscriptionNextResponse|latest-stable" />&gt;
         description: Promise<Models.VaultsListBySubscriptionNextResponse>
   - name: >-
       listBySubscriptionNext(string, RequestOptionsBase,
@@ -802,9 +794,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.VaultsListDeletedResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="VaultsListDeletedResponse|latest-stable" />&gt;
         description: Promise<Models.VaultsListDeletedResponse>
   - name: listDeleted(RequestOptionsBase, ServiceCallback<DeletedVaultListResult>)
     uid: '@azure/arm-keyvault.Vaults.listDeleted_2|latest-stable'
@@ -865,8 +855,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.VaultsListDeletedNextResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="VaultsListDeletedNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.VaultsListDeletedNextResponse>
   - name: >-
       listDeletedNext(string, RequestOptionsBase,
@@ -938,9 +928,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.VaultsListNextResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="VaultsListNextResponse|latest-stable" />&gt;
         description: Promise<Models.VaultsListNextResponse>
   - name: listNext(string, RequestOptionsBase, ServiceCallback<ResourceListResult>)
     uid: '@azure/arm-keyvault.Vaults.listNext_2|latest-stable'
@@ -1040,9 +1028,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.VaultsUpdateResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="VaultsUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.VaultsUpdateResponse>
   - name: >-
       update(string, string, VaultPatchParameters, RequestOptionsBase,
@@ -1130,7 +1116,7 @@ methods:
           type: string
           description: Name of the vault
         - id: operationKind
-          type: <xref uid="Models.AccessPolicyUpdateKind|latest-stable" />
+          type: <xref uid="AccessPolicyUpdateKind|latest-stable" />
           description: >-
             Name of the operation. Possible values include: 'add', 'replace',
             'remove'
@@ -1145,8 +1131,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.VaultsUpdateAccessPolicyResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="VaultsUpdateAccessPolicyResponse|latest-stable"
+          />&gt;
         description: Promise<Models.VaultsUpdateAccessPolicyResponse>
   - name: >-
       updateAccessPolicy(string, string, Models.AccessPolicyUpdateKind,
@@ -1172,7 +1158,7 @@ methods:
           type: string
           description: Name of the vault
         - id: operationKind
-          type: <xref uid="Models.AccessPolicyUpdateKind|latest-stable" />
+          type: <xref uid="AccessPolicyUpdateKind|latest-stable" />
           description: >-
             Name of the operation. Possible values include: 'add', 'replace',
             'remove'
@@ -1215,7 +1201,7 @@ methods:
           type: string
           description: Name of the vault
         - id: operationKind
-          type: <xref uid="Models.AccessPolicyUpdateKind|latest-stable" />
+          type: <xref uid="AccessPolicyUpdateKind|latest-stable" />
           description: >-
             Name of the operation. Possible values include: 'add', 'replace',
             'remove'

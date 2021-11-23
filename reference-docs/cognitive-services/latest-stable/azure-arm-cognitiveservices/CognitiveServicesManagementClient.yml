@@ -45,8 +45,7 @@ constructors:
           description: The ID of the target subscription.
         - id: options
           type: >-
-            <xref
-            uid="Models.CognitiveServicesManagementClientOptions|latest-stable"
+            <xref uid="CognitiveServicesManagementClientOptions|latest-stable"
             />
           description: ''
 properties:
@@ -355,13 +354,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.CognitiveServicesManagementClientCheckDomainAvailabilityOptionalParams|latest-stable"
+            uid="CognitiveServicesManagementClientCheckDomainAvailabilityOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.CheckDomainAvailabilityResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="CheckDomainAvailabilityResponse|latest-stable"
+          />&gt;
         description: Promise<Models.CheckDomainAvailabilityResponse>
   - name: >-
       checkDomainAvailability(string, string,
@@ -423,8 +422,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.CheckSkuAvailabilityResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="CheckSkuAvailabilityResponse|latest-stable"
+          />&gt;
         description: Promise<Models.CheckSkuAvailabilityResponse>
   - name: >-
       checkSkuAvailability(string, string[], string, string, RequestOptionsBase,

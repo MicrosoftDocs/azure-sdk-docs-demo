@@ -57,8 +57,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.QueuesCreateOrUpdateResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="QueuesCreateOrUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.QueuesCreateOrUpdateResponse>
   - name: >-
       createOrUpdate(string, string, string, SBQueue, RequestOptionsBase,
@@ -165,7 +165,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.QueuesCreateOrUpdateAuthorizationRuleResponse|latest-stable"
+          uid="QueuesCreateOrUpdateAuthorizationRuleResponse|latest-stable"
           />&gt;
         description: Promise<Models.QueuesCreateOrUpdateAuthorizationRuleResponse>
   - name: >-
@@ -458,7 +458,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueuesGetResponse|latest-stable" />&gt;
+        type: Promise&lt;<xref uid="QueuesGetResponse|latest-stable" />&gt;
         description: Promise<Models.QueuesGetResponse>
   - name: get(string, string, string, RequestOptionsBase, ServiceCallback<SBQueue>)
     uid: '@azure/arm-servicebus.Queues.get_2|latest-stable'
@@ -551,7 +551,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.QueuesGetAuthorizationRuleResponse|latest-stable" />&gt;
+          uid="QueuesGetAuthorizationRuleResponse|latest-stable" />&gt;
         description: Promise<Models.QueuesGetAuthorizationRuleResponse>
   - name: >-
       getAuthorizationRule(string, string, string, string, RequestOptionsBase,
@@ -650,7 +650,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.QueuesListAuthorizationRulesResponse|latest-stable" />&gt;
+          uid="QueuesListAuthorizationRulesResponse|latest-stable" />&gt;
         description: Promise<Models.QueuesListAuthorizationRulesResponse>
   - name: >-
       listAuthorizationRules(string, string, string, RequestOptionsBase,
@@ -738,8 +738,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.QueuesListAuthorizationRulesNextResponse|latest-stable"
-          />&gt;
+          uid="QueuesListAuthorizationRulesNextResponse|latest-stable" />&gt;
         description: Promise<Models.QueuesListAuthorizationRulesNextResponse>
   - name: >-
       listAuthorizationRulesNext(string, RequestOptionsBase,
@@ -814,14 +813,12 @@ methods:
           type: string
           description: The namespace name
         - id: options
-          type: >-
-            <xref uid="Models.QueuesListByNamespaceOptionalParams|latest-stable"
-            />
+          type: <xref uid="QueuesListByNamespaceOptionalParams|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.QueuesListByNamespaceResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="QueuesListByNamespaceResponse|latest-stable"
+          />&gt;
         description: Promise<Models.QueuesListByNamespaceResponse>
   - name: >-
       listByNamespace(string, string, QueuesListByNamespaceOptionalParams,
@@ -900,8 +897,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.QueuesListByNamespaceNextResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="QueuesListByNamespaceNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.QueuesListByNamespaceNextResponse>
   - name: >-
       listByNamespaceNext(string, RequestOptionsBase,
@@ -979,9 +976,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.QueuesListKeysResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="QueuesListKeysResponse|latest-stable" />&gt;
         description: Promise<Models.QueuesListKeysResponse>
   - name: >-
       listKeys(string, string, string, string, RequestOptionsBase,
@@ -1088,8 +1083,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.QueuesRegenerateKeysResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="QueuesRegenerateKeysResponse|latest-stable"
+          />&gt;
         description: Promise<Models.QueuesRegenerateKeysResponse>
   - name: >-
       regenerateKeys(string, string, string, string,

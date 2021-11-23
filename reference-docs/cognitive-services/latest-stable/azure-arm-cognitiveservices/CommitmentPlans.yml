@@ -102,8 +102,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.CommitmentPlansCreateOrUpdateResponse|latest-stable"
-          />&gt;
+          uid="CommitmentPlansCreateOrUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.CommitmentPlansCreateOrUpdateResponse>
   - name: >-
       createOrUpdate(string, string, string, CommitmentPlan, RequestOptionsBase,
@@ -254,9 +253,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.CommitmentPlansGetResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="CommitmentPlansGetResponse|latest-stable" />&gt;
         description: Promise<Models.CommitmentPlansGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -351,8 +348,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.CommitmentPlansListResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="CommitmentPlansListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.CommitmentPlansListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -429,8 +426,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.CommitmentPlansListNextResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="CommitmentPlansListNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.CommitmentPlansListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,

@@ -142,7 +142,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicsCreateOrUpdateResponse|latest-stable" />&gt;
+          uid="SystemTopicsCreateOrUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.SystemTopicsCreateOrUpdateResponse>
   - name: deleteMethod(string, string, msRest.RequestOptionsBase)
     uid: '@azure/arm-eventgrid.SystemTopics.deleteMethod|latest-stable'
@@ -190,9 +190,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.SystemTopicsGetResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="SystemTopicsGetResponse|latest-stable" />&gt;
         description: Promise<Models.SystemTopicsGetResponse>
   - name: get(string, string, RequestOptionsBase, ServiceCallback<SystemTopic>)
     uid: '@azure/arm-eventgrid.SystemTopics.get_2|latest-stable'
@@ -265,14 +263,12 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.SystemTopicsListByResourceGroupOptionalParams|latest-stable"
-            />
+            uid="SystemTopicsListByResourceGroupOptionalParams|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicsListByResourceGroupResponse|latest-stable"
-          />&gt;
+          uid="SystemTopicsListByResourceGroupResponse|latest-stable" />&gt;
         description: Promise<Models.SystemTopicsListByResourceGroupResponse>
   - name: listByResourceGroup(string, ServiceCallback<SystemTopicsListResult>)
     uid: '@azure/arm-eventgrid.SystemTopics.listByResourceGroup_1|latest-stable'
@@ -347,14 +343,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.SystemTopicsListByResourceGroupNextOptionalParams|latest-stable"
+            uid="SystemTopicsListByResourceGroupNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicsListByResourceGroupNextResponse|latest-stable"
-          />&gt;
+          uid="SystemTopicsListByResourceGroupNextResponse|latest-stable" />&gt;
         description: Promise<Models.SystemTopicsListByResourceGroupNextResponse>
   - name: listByResourceGroupNext(string, ServiceCallback<SystemTopicsListResult>)
     uid: '@azure/arm-eventgrid.SystemTopics.listByResourceGroupNext_1|latest-stable'
@@ -425,14 +420,12 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.SystemTopicsListBySubscriptionOptionalParams|latest-stable"
-            />
+            uid="SystemTopicsListBySubscriptionOptionalParams|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicsListBySubscriptionResponse|latest-stable"
-          />&gt;
+          uid="SystemTopicsListBySubscriptionResponse|latest-stable" />&gt;
         description: Promise<Models.SystemTopicsListBySubscriptionResponse>
   - name: listBySubscription(ServiceCallback<SystemTopicsListResult>)
     uid: '@azure/arm-eventgrid.SystemTopics.listBySubscription_1|latest-stable'
@@ -501,14 +494,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.SystemTopicsListBySubscriptionNextOptionalParams|latest-stable"
+            uid="SystemTopicsListBySubscriptionNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicsListBySubscriptionNextResponse|latest-stable"
-          />&gt;
+          uid="SystemTopicsListBySubscriptionNextResponse|latest-stable" />&gt;
         description: Promise<Models.SystemTopicsListBySubscriptionNextResponse>
   - name: listBySubscriptionNext(string, ServiceCallback<SystemTopicsListResult>)
     uid: '@azure/arm-eventgrid.SystemTopics.listBySubscriptionNext_1|latest-stable'
@@ -595,7 +587,5 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.SystemTopicsUpdateResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="SystemTopicsUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.SystemTopicsUpdateResponse>

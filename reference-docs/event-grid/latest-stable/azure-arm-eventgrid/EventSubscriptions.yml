@@ -244,8 +244,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsCreateOrUpdateResponse|latest-stable"
-          />&gt;
+          uid="EventSubscriptionsCreateOrUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.EventSubscriptionsCreateOrUpdateResponse>
   - name: deleteMethod(string, string, msRest.RequestOptionsBase)
     uid: '@azure/arm-eventgrid.EventSubscriptions.deleteMethod|latest-stable'
@@ -332,8 +331,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.EventSubscriptionsGetResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="EventSubscriptionsGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EventSubscriptionsGetResponse>
   - name: >-
       get(string, string, RequestOptionsBase,
@@ -470,7 +469,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsGetDeliveryAttributesResponse|latest-stable"
+          uid="EventSubscriptionsGetDeliveryAttributesResponse|latest-stable"
           />&gt;
         description: Promise<Models.EventSubscriptionsGetDeliveryAttributesResponse>
   - name: >-
@@ -614,7 +613,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsGetFullUrlResponse|latest-stable" />&gt;
+          uid="EventSubscriptionsGetFullUrlResponse|latest-stable" />&gt;
         description: Promise<Models.EventSubscriptionsGetFullUrlResponse>
   - name: >-
       getFullUrl(string, string, RequestOptionsBase,
@@ -778,14 +777,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListByDomainTopicOptionalParams|latest-stable"
+            uid="EventSubscriptionsListByDomainTopicOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListByDomainTopicResponse|latest-stable"
-          />&gt;
+          uid="EventSubscriptionsListByDomainTopicResponse|latest-stable" />&gt;
         description: Promise<Models.EventSubscriptionsListByDomainTopicResponse>
   - name: >-
       listByDomainTopic(string, string, string,
@@ -874,13 +872,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListByDomainTopicNextOptionalParams|latest-stable"
+            uid="EventSubscriptionsListByDomainTopicNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListByDomainTopicNextResponse|latest-stable"
+          uid="EventSubscriptionsListByDomainTopicNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.EventSubscriptionsListByDomainTopicNextResponse>
   - name: >-
@@ -980,14 +978,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListByResourceOptionalParams|latest-stable"
+            uid="EventSubscriptionsListByResourceOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListByResourceResponse|latest-stable"
-          />&gt;
+          uid="EventSubscriptionsListByResourceResponse|latest-stable" />&gt;
         description: Promise<Models.EventSubscriptionsListByResourceResponse>
   - name: >-
       listByResource(string, string, string, string,
@@ -1075,13 +1072,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListByResourceNextOptionalParams|latest-stable"
+            uid="EventSubscriptionsListByResourceNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListByResourceNextResponse|latest-stable"
+          uid="EventSubscriptionsListByResourceNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.EventSubscriptionsListByResourceNextResponse>
   - name: listByResourceNext(string, ServiceCallback<EventSubscriptionsListResult>)
@@ -1162,13 +1159,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListGlobalByResourceGroupOptionalParams|latest-stable"
+            uid="EventSubscriptionsListGlobalByResourceGroupOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListGlobalByResourceGroupResponse|latest-stable"
+          uid="EventSubscriptionsListGlobalByResourceGroupResponse|latest-stable"
           />&gt;
         description: Promise<Models.EventSubscriptionsListGlobalByResourceGroupResponse>
   - name: >-
@@ -1260,13 +1257,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListGlobalByResourceGroupForTopicTypeOptionalParams|latest-stable"
+            uid="EventSubscriptionsListGlobalByResourceGroupForTopicTypeOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListGlobalByResourceGroupForTopicTypeResponse|latest-stable"
+          uid="EventSubscriptionsListGlobalByResourceGroupForTopicTypeResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListGlobalByResourceGroupForTopicTypeResponse>
@@ -1357,13 +1354,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextOptionalParams|latest-stable"
+            uid="EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextResponse|latest-stable"
+          uid="EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextResponse>
@@ -1448,13 +1445,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListGlobalByResourceGroupNextOptionalParams|latest-stable"
+            uid="EventSubscriptionsListGlobalByResourceGroupNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListGlobalByResourceGroupNextResponse|latest-stable"
+          uid="EventSubscriptionsListGlobalByResourceGroupNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListGlobalByResourceGroupNextResponse>
@@ -1531,13 +1528,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListGlobalBySubscriptionOptionalParams|latest-stable"
+            uid="EventSubscriptionsListGlobalBySubscriptionOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListGlobalBySubscriptionResponse|latest-stable"
+          uid="EventSubscriptionsListGlobalBySubscriptionResponse|latest-stable"
           />&gt;
         description: Promise<Models.EventSubscriptionsListGlobalBySubscriptionResponse>
   - name: listGlobalBySubscription(ServiceCallback<EventSubscriptionsListResult>)
@@ -1618,13 +1615,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListGlobalBySubscriptionForTopicTypeOptionalParams|latest-stable"
+            uid="EventSubscriptionsListGlobalBySubscriptionForTopicTypeOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListGlobalBySubscriptionForTopicTypeResponse|latest-stable"
+          uid="EventSubscriptionsListGlobalBySubscriptionForTopicTypeResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListGlobalBySubscriptionForTopicTypeResponse>
@@ -1711,13 +1708,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListGlobalBySubscriptionForTopicTypeNextOptionalParams|latest-stable"
+            uid="EventSubscriptionsListGlobalBySubscriptionForTopicTypeNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListGlobalBySubscriptionForTopicTypeNextResponse|latest-stable"
+          uid="EventSubscriptionsListGlobalBySubscriptionForTopicTypeNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListGlobalBySubscriptionForTopicTypeNextResponse>
@@ -1802,13 +1799,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListGlobalBySubscriptionNextOptionalParams|latest-stable"
+            uid="EventSubscriptionsListGlobalBySubscriptionNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListGlobalBySubscriptionNextResponse|latest-stable"
+          uid="EventSubscriptionsListGlobalBySubscriptionNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.EventSubscriptionsListGlobalBySubscriptionNextResponse>
   - name: >-
@@ -1902,13 +1899,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListRegionalByResourceGroupOptionalParams|latest-stable"
+            uid="EventSubscriptionsListRegionalByResourceGroupOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListRegionalByResourceGroupResponse|latest-stable"
+          uid="EventSubscriptionsListRegionalByResourceGroupResponse|latest-stable"
           />&gt;
         description: Promise<Models.EventSubscriptionsListRegionalByResourceGroupResponse>
   - name: >-
@@ -2012,13 +2009,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListRegionalByResourceGroupForTopicTypeOptionalParams|latest-stable"
+            uid="EventSubscriptionsListRegionalByResourceGroupForTopicTypeOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListRegionalByResourceGroupForTopicTypeResponse|latest-stable"
+          uid="EventSubscriptionsListRegionalByResourceGroupForTopicTypeResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListRegionalByResourceGroupForTopicTypeResponse>
@@ -2114,13 +2111,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListRegionalByResourceGroupForTopicTypeNextOptionalParams|latest-stable"
+            uid="EventSubscriptionsListRegionalByResourceGroupForTopicTypeNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListRegionalByResourceGroupForTopicTypeNextResponse|latest-stable"
+          uid="EventSubscriptionsListRegionalByResourceGroupForTopicTypeNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListRegionalByResourceGroupForTopicTypeNextResponse>
@@ -2207,13 +2204,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListRegionalByResourceGroupNextOptionalParams|latest-stable"
+            uid="EventSubscriptionsListRegionalByResourceGroupNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListRegionalByResourceGroupNextResponse|latest-stable"
+          uid="EventSubscriptionsListRegionalByResourceGroupNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListRegionalByResourceGroupNextResponse>
@@ -2298,13 +2295,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListRegionalBySubscriptionOptionalParams|latest-stable"
+            uid="EventSubscriptionsListRegionalBySubscriptionOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListRegionalBySubscriptionResponse|latest-stable"
+          uid="EventSubscriptionsListRegionalBySubscriptionResponse|latest-stable"
           />&gt;
         description: Promise<Models.EventSubscriptionsListRegionalBySubscriptionResponse>
   - name: >-
@@ -2398,13 +2395,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListRegionalBySubscriptionForTopicTypeOptionalParams|latest-stable"
+            uid="EventSubscriptionsListRegionalBySubscriptionForTopicTypeOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListRegionalBySubscriptionForTopicTypeResponse|latest-stable"
+          uid="EventSubscriptionsListRegionalBySubscriptionForTopicTypeResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListRegionalBySubscriptionForTopicTypeResponse>
@@ -2497,13 +2494,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListRegionalBySubscriptionForTopicTypeNextOptionalParams|latest-stable"
+            uid="EventSubscriptionsListRegionalBySubscriptionForTopicTypeNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListRegionalBySubscriptionForTopicTypeNextResponse|latest-stable"
+          uid="EventSubscriptionsListRegionalBySubscriptionForTopicTypeNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListRegionalBySubscriptionForTopicTypeNextResponse>
@@ -2588,13 +2585,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListRegionalBySubscriptionNextOptionalParams|latest-stable"
+            uid="EventSubscriptionsListRegionalBySubscriptionNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListRegionalBySubscriptionNextResponse|latest-stable"
+          uid="EventSubscriptionsListRegionalBySubscriptionNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListRegionalBySubscriptionNextResponse>
@@ -2674,6 +2671,6 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.EventSubscriptionsUpdateResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="EventSubscriptionsUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EventSubscriptionsUpdateResponse>

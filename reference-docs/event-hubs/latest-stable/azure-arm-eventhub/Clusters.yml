@@ -133,8 +133,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.ClustersCreateOrUpdateResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="ClustersCreateOrUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ClustersCreateOrUpdateResponse>
   - name: deleteMethod(string, string, msRest.RequestOptionsBase)
     uid: '@azure/arm-eventhub.Clusters.deleteMethod|latest-stable'
@@ -182,7 +182,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ClustersGetResponse|latest-stable" />&gt;
+        type: Promise&lt;<xref uid="ClustersGetResponse|latest-stable" />&gt;
         description: Promise<Models.ClustersGetResponse>
   - name: get(string, string, RequestOptionsBase, ServiceCallback<Cluster>)
     uid: '@azure/arm-eventhub.Clusters.get_2|latest-stable'
@@ -253,8 +253,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.ClustersListAvailableClusterRegionResponse|latest-stable"
-          />&gt;
+          uid="ClustersListAvailableClusterRegionResponse|latest-stable" />&gt;
         description: Promise<Models.ClustersListAvailableClusterRegionResponse>
   - name: >-
       listAvailableClusterRegion(RequestOptionsBase,
@@ -318,7 +317,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.ClustersListByResourceGroupResponse|latest-stable" />&gt;
+          uid="ClustersListByResourceGroupResponse|latest-stable" />&gt;
         description: Promise<Models.ClustersListByResourceGroupResponse>
   - name: >-
       listByResourceGroup(string, RequestOptionsBase,
@@ -388,8 +387,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.ClustersListByResourceGroupNextResponse|latest-stable"
-          />&gt;
+          uid="ClustersListByResourceGroupNextResponse|latest-stable" />&gt;
         description: Promise<Models.ClustersListByResourceGroupNextResponse>
   - name: >-
       listByResourceGroupNext(string, RequestOptionsBase,
@@ -454,7 +452,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.ClustersListBySubscriptionResponse|latest-stable" />&gt;
+          uid="ClustersListBySubscriptionResponse|latest-stable" />&gt;
         description: Promise<Models.ClustersListBySubscriptionResponse>
   - name: listBySubscription(RequestOptionsBase, ServiceCallback<ClusterListResult>)
     uid: '@azure/arm-eventhub.Clusters.listBySubscription_2|latest-stable'
@@ -516,8 +514,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.ClustersListBySubscriptionNextResponse|latest-stable"
-          />&gt;
+          uid="ClustersListBySubscriptionNextResponse|latest-stable" />&gt;
         description: Promise<Models.ClustersListBySubscriptionNextResponse>
   - name: >-
       listBySubscriptionNext(string, RequestOptionsBase,
@@ -589,8 +586,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref
-          uid="Models.ClustersListNamespacesResponse|latest-stable" />&gt;
+          Promise&lt;<xref uid="ClustersListNamespacesResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ClustersListNamespacesResponse>
   - name: >-
       listNamespaces(string, string, RequestOptionsBase,
@@ -675,7 +672,5 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: >-
-          Promise&lt;<xref uid="Models.ClustersUpdateResponse|latest-stable"
-          />&gt;
+        type: Promise&lt;<xref uid="ClustersUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.ClustersUpdateResponse>
