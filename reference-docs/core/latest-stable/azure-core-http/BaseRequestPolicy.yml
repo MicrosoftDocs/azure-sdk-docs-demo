@@ -25,7 +25,7 @@ methods:
       content: 'function log(logLevel: HttpPipelineLogLevel, message: string)'
       parameters:
         - id: logLevel
-          type: <xref uid="@azure/core-http.HttpPipelineLogLevel" />
+          type: <xref uid="@azure/core-http.HttpPipelineLogLevel|latest-stable" />
           description: The log level of this log.
         - id: message
           type: string
@@ -42,10 +42,12 @@ methods:
       content: 'function sendRequest(webResource: WebResourceLike)'
       parameters:
         - id: webResource
-          type: <xref uid="@azure/core-http.WebResourceLike" />
+          type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/core-http.HttpOperationResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/core-http.HttpOperationResponse|latest-stable" />&gt;
         description: ''
   - name: shouldLog(HttpPipelineLogLevel)
     uid: '@azure/core-http.BaseRequestPolicy.shouldLog|latest-stable'
@@ -58,7 +60,7 @@ methods:
       content: 'function shouldLog(logLevel: HttpPipelineLogLevel)'
       parameters:
         - id: logLevel
-          type: <xref uid="@azure/core-http.HttpPipelineLogLevel" />
+          type: <xref uid="@azure/core-http.HttpPipelineLogLevel|latest-stable" />
           description: The log level of the log that will be logged.
       return:
         type: boolean

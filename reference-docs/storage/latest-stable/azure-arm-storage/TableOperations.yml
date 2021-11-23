@@ -20,7 +20,10 @@ constructors:
       content: 'new TableOperations(client: StorageManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -66,10 +69,10 @@ methods:
 
             numeric character.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TableCreateResponse" />&gt;
+        type: Promise&lt;<xref uid="Models.TableCreateResponse|latest-stable" />&gt;
         description: Promise<Models.TableCreateResponse>
   - name: create(string, string, string, RequestOptionsBase, ServiceCallback<Table>)
     uid: '@azure/arm-storage.TableOperations.create_2|latest-stable'
@@ -115,7 +118,9 @@ methods:
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-storage.Table" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.Table|latest-stable" />&gt;
           description: |
             The callback
   - name: create(string, string, string, ServiceCallback<Table>)
@@ -158,7 +163,9 @@ methods:
 
             numeric character.
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-storage.Table" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.Table|latest-stable" />&gt;
           description: |
             The callback
   - name: deleteMethod(string, string, string, msRest.RequestOptionsBase)
@@ -203,7 +210,7 @@ methods:
 
             numeric character.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -342,10 +349,10 @@ methods:
 
             numeric character.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TableGetResponse" />&gt;
+        type: Promise&lt;<xref uid="Models.TableGetResponse|latest-stable" />&gt;
         description: Promise<Models.TableGetResponse>
   - name: get(string, string, string, RequestOptionsBase, ServiceCallback<Table>)
     uid: '@azure/arm-storage.TableOperations.get_2|latest-stable'
@@ -390,7 +397,9 @@ methods:
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-storage.Table" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.Table|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, string, ServiceCallback<Table>)
@@ -433,7 +442,9 @@ methods:
 
             numeric character.
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-storage.Table" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.Table|latest-stable" />&gt;
           description: |
             The callback
   - name: list(string, string, msRest.RequestOptionsBase)
@@ -466,10 +477,10 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TableListResponse" />&gt;
+        type: Promise&lt;<xref uid="Models.TableListResponse|latest-stable" />&gt;
         description: Promise<Models.TableListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -507,8 +518,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ListTableResource"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ListTableResource|latest-stable" />&gt;
           description: |
             The callback
   - name: list(string, string, ServiceCallback<ListTableResource>)
@@ -542,8 +553,8 @@ methods:
             letters only.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ListTableResource"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ListTableResource|latest-stable" />&gt;
           description: |
             The callback
   - name: listNext(string, msRest.RequestOptionsBase)
@@ -562,10 +573,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TableListNextResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.TableListNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.TableListNextResponse>
   - name: listNext(string, RequestOptionsBase, ServiceCallback<ListTableResource>)
     uid: '@azure/arm-storage.TableOperations.listNext_2|latest-stable'
@@ -587,8 +600,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ListTableResource"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ListTableResource|latest-stable" />&gt;
           description: |
             The callback
   - name: listNext(string, ServiceCallback<ListTableResource>)
@@ -608,8 +621,8 @@ methods:
           description: The NextLink from the previous successful call to List operation.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ListTableResource"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ListTableResource|latest-stable" />&gt;
           description: |
             The callback
   - name: update(string, string, string, msRest.RequestOptionsBase)
@@ -654,10 +667,10 @@ methods:
 
             numeric character.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TableUpdateResponse" />&gt;
+        type: Promise&lt;<xref uid="Models.TableUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.TableUpdateResponse>
   - name: update(string, string, string, RequestOptionsBase, ServiceCallback<Table>)
     uid: '@azure/arm-storage.TableOperations.update_2|latest-stable'
@@ -703,7 +716,9 @@ methods:
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-storage.Table" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.Table|latest-stable" />&gt;
           description: |
             The callback
   - name: update(string, string, string, ServiceCallback<Table>)
@@ -746,6 +761,8 @@ methods:
 
             numeric character.
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-storage.Table" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.Table|latest-stable" />&gt;
           description: |
             The callback

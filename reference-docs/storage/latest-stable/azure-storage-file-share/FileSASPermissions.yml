@@ -98,7 +98,9 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-file-share.FileSASPermissions" />
+        type: >-
+          <xref uid="@azure/storage-file-share.FileSASPermissions|latest-stable"
+          />
         description: ''
   - name: toString()
     uid: '@azure/storage-file-share.FileSASPermissions.toString|latest-stable'

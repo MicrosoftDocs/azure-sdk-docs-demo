@@ -35,7 +35,10 @@ properties:
     syntax:
       content: 'encryption?: EncryptionProperties'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.EncryptionProperties" />
+        type: >-
+          <xref
+          uid="@azure/arm-appconfiguration.EncryptionProperties|latest-stable"
+          />
         description: ''
   - name: identity
     uid: >-
@@ -49,7 +52,9 @@ properties:
     syntax:
       content: 'identity?: ResourceIdentity'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ResourceIdentity" />
+        type: >-
+          <xref uid="@azure/arm-appconfiguration.ResourceIdentity|latest-stable"
+          />
         description: ''
   - name: publicNetworkAccess
     uid: >-
@@ -67,7 +72,9 @@ properties:
     syntax:
       content: 'publicNetworkAccess?: PublicNetworkAccess'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.PublicNetworkAccess" />
+        type: >-
+          <xref
+          uid="@azure/arm-appconfiguration.PublicNetworkAccess|latest-stable" />
         description: ''
   - name: sku
     uid: >-
@@ -81,7 +88,7 @@ properties:
     syntax:
       content: 'sku?: Sku'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.Sku" />
+        type: <xref uid="@azure/arm-appconfiguration.Sku|latest-stable" />
         description: ''
   - name: tags
     uid: >-

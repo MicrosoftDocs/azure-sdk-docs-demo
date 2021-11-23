@@ -130,7 +130,7 @@ properties:
     syntax:
       content: 'identity?: IdentityInfo'
       return:
-        type: <xref uid="@azure/arm-eventgrid.IdentityInfo" />
+        type: <xref uid="@azure/arm-eventgrid.IdentityInfo|latest-stable" />
         description: ''
   - name: inboundIpRules
     uid: '@azure/arm-eventgrid.DomainUpdateParameters.inboundIpRules|latest-stable'
@@ -147,7 +147,7 @@ properties:
     syntax:
       content: 'inboundIpRules?: InboundIpRule[]'
       return:
-        type: <xref uid="@azure/arm-eventgrid.InboundIpRule" />[]
+        type: <xref uid="@azure/arm-eventgrid.InboundIpRule|latest-stable" />[]
         description: ''
   - name: publicNetworkAccess
     uid: >-
@@ -170,7 +170,7 @@ properties:
     syntax:
       content: 'publicNetworkAccess?: PublicNetworkAccess'
       return:
-        type: <xref uid="@azure/arm-eventgrid.PublicNetworkAccess" />
+        type: <xref uid="@azure/arm-eventgrid.PublicNetworkAccess|latest-stable" />
         description: ''
   - name: tags
     uid: '@azure/arm-eventgrid.DomainUpdateParameters.tags|latest-stable'

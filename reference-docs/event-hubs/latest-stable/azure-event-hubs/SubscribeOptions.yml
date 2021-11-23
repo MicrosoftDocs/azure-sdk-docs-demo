@@ -76,8 +76,8 @@ properties:
       content: 'startPosition?: EventPosition | [key: string]: EventPosition'
       return:
         type: >-
-          <xref uid="@azure/event-hubs.EventPosition" /> | [key: string]: <xref
-          uid="@azure/event-hubs.EventPosition" />
+          <xref uid="@azure/event-hubs.EventPosition|latest-stable" /> | [key:
+          string]: <xref uid="@azure/event-hubs.EventPosition|latest-stable" />
         description: ''
   - name: tracingOptions
     uid: '@azure/event-hubs.SubscribeOptions.tracingOptions|latest-stable'

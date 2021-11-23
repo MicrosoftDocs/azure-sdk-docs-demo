@@ -72,7 +72,7 @@ properties:
     syntax:
       content: 'queueItems?: QueueItem[]'
       return:
-        type: <xref uid="@azure/storage-queue.QueueItem" />[]
+        type: <xref uid="@azure/storage-queue.QueueItem|preview" />[]
         description: ''
   - name: serviceEndpoint
     uid: '@azure/storage-queue.ListQueuesSegmentResponse.serviceEndpoint|preview'

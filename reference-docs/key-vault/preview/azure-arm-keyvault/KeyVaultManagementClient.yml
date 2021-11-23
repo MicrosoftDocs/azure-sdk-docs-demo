@@ -38,7 +38,8 @@ constructors:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-keyvault.KeyVaultManagementClientOptionalParams" />
+            uid="@azure/arm-keyvault.KeyVaultManagementClientOptionalParams|preview"
+            />
           description: |
             The parameter options
 properties:
@@ -79,7 +80,7 @@ properties:
     syntax:
       content: 'keys: Keys'
       return:
-        type: <xref uid="@azure/arm-keyvault.Keys" />
+        type: <xref uid="@azure/arm-keyvault.Keys|preview" />
         description: ''
   - name: managedHsms
     uid: '@azure/arm-keyvault.KeyVaultManagementClient.managedHsms|preview'
@@ -92,7 +93,7 @@ properties:
     syntax:
       content: 'managedHsms: ManagedHsms'
       return:
-        type: <xref uid="@azure/arm-keyvault.ManagedHsms" />
+        type: <xref uid="@azure/arm-keyvault.ManagedHsms|preview" />
         description: ''
   - name: mhsmPrivateEndpointConnections
     uid: >-
@@ -106,7 +107,9 @@ properties:
     syntax:
       content: 'mhsmPrivateEndpointConnections: MhsmPrivateEndpointConnections'
       return:
-        type: <xref uid="@azure/arm-keyvault.MhsmPrivateEndpointConnections" />
+        type: >-
+          <xref uid="@azure/arm-keyvault.MhsmPrivateEndpointConnections|preview"
+          />
         description: ''
   - name: mhsmPrivateLinkResources
     uid: >-
@@ -120,7 +123,7 @@ properties:
     syntax:
       content: 'mhsmPrivateLinkResources: MhsmPrivateLinkResources'
       return:
-        type: <xref uid="@azure/arm-keyvault.MhsmPrivateLinkResources" />
+        type: <xref uid="@azure/arm-keyvault.MhsmPrivateLinkResources|preview" />
         description: ''
   - name: operations
     uid: '@azure/arm-keyvault.KeyVaultManagementClient.operations|preview'
@@ -133,7 +136,7 @@ properties:
     syntax:
       content: 'operations: Operations'
       return:
-        type: <xref uid="@azure/arm-keyvault.Operations" />
+        type: <xref uid="@azure/arm-keyvault.Operations|preview" />
         description: ''
   - name: pipeline
     uid: '@azure/arm-keyvault.KeyVaultManagementClient.pipeline|preview'
@@ -160,7 +163,7 @@ properties:
     syntax:
       content: 'privateEndpointConnections: PrivateEndpointConnections'
       return:
-        type: <xref uid="@azure/arm-keyvault.PrivateEndpointConnections" />
+        type: <xref uid="@azure/arm-keyvault.PrivateEndpointConnections|preview" />
         description: ''
   - name: privateLinkResources
     uid: '@azure/arm-keyvault.KeyVaultManagementClient.privateLinkResources|preview'
@@ -173,7 +176,7 @@ properties:
     syntax:
       content: 'privateLinkResources: PrivateLinkResources'
       return:
-        type: <xref uid="@azure/arm-keyvault.PrivateLinkResources" />
+        type: <xref uid="@azure/arm-keyvault.PrivateLinkResources|preview" />
         description: ''
   - name: secrets
     uid: '@azure/arm-keyvault.KeyVaultManagementClient.secrets|preview'
@@ -186,7 +189,7 @@ properties:
     syntax:
       content: 'secrets: Secrets'
       return:
-        type: <xref uid="@azure/arm-keyvault.Secrets" />
+        type: <xref uid="@azure/arm-keyvault.Secrets|preview" />
         description: ''
   - name: subscriptionId
     uid: '@azure/arm-keyvault.KeyVaultManagementClient.subscriptionId|preview'
@@ -212,7 +215,7 @@ properties:
     syntax:
       content: 'vaults: Vaults'
       return:
-        type: <xref uid="@azure/arm-keyvault.Vaults" />
+        type: <xref uid="@azure/arm-keyvault.Vaults|preview" />
         description: ''
 methods:
   - name: sendOperationRequest<T>(OperationArguments, OperationSpec)
@@ -255,4 +258,4 @@ methods:
       return:
         type: Promise&lt;PipelineResponse&gt;
         description: ''
-extends: <xref uid="@azure/arm-keyvault.KeyVaultManagementClientContext" />
+extends: <xref uid="@azure/arm-keyvault.KeyVaultManagementClientContext|preview" />

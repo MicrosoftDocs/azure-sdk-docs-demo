@@ -33,7 +33,9 @@ properties:
     syntax:
       content: 'errors?: FormRecognizerError[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormRecognizerError" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-form-recognizer.FormRecognizerError|latest-stable" />[]
         description: ''
   - name: fields
     uid: '@azure/ai-form-recognizer.TrainResult.fields|latest-stable'
@@ -48,7 +50,9 @@ properties:
     syntax:
       content: 'fields?: FormFieldsReport[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormFieldsReport" />[]
+        type: >-
+          <xref uid="@azure/ai-form-recognizer.FormFieldsReport|latest-stable"
+          />[]
         description: ''
   - name: trainingDocuments
     uid: '@azure/ai-form-recognizer.TrainResult.trainingDocuments|latest-stable'
@@ -63,5 +67,8 @@ properties:
     syntax:
       content: 'trainingDocuments: TrainingDocumentInfo[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.TrainingDocumentInfo" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-form-recognizer.TrainingDocumentInfo|latest-stable"
+          />[]
         description: ''

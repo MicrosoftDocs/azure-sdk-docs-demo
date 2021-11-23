@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'keyUsage?: KeyUsageType[]'
       return:
-        type: <xref uid="@azure/keyvault-certificates.KeyUsageType" />[]
+        type: <xref uid="@azure/keyvault-certificates.KeyUsageType|preview" />[]
         description: ''
   - name: subject
     uid: '@azure/keyvault-certificates.X509CertificateProperties.subject|preview'
@@ -61,7 +61,8 @@ properties:
       content: 'subjectAlternativeNames?: CoreSubjectAlternativeNames'
       return:
         type: >-
-          <xref uid="@azure/keyvault-certificates.CoreSubjectAlternativeNames"
+          <xref
+          uid="@azure/keyvault-certificates.CoreSubjectAlternativeNames|preview"
           />
         description: ''
   - name: validityInMonths

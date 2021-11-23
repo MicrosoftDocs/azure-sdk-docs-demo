@@ -25,7 +25,7 @@ properties:
     syntax:
       content: 'currentState?: IndexerState'
       return:
-        type: <xref uid="@azure/search-documents.IndexerState" />
+        type: <xref uid="@azure/search-documents.IndexerState|preview" />
         description: ''
   - name: endTime
     uid: '@azure/search-documents.IndexerExecutionResult.endTime|preview'
@@ -77,7 +77,7 @@ properties:
     syntax:
       content: 'errors: SearchIndexerError[]'
       return:
-        type: <xref uid="@azure/search-documents.SearchIndexerError" />[]
+        type: <xref uid="@azure/search-documents.SearchIndexerError|preview" />[]
         description: ''
   - name: failedItemCount
     uid: '@azure/search-documents.IndexerExecutionResult.failedItemCount|preview'
@@ -183,7 +183,7 @@ properties:
     syntax:
       content: 'status: IndexerExecutionStatus'
       return:
-        type: <xref uid="@azure/search-documents.IndexerExecutionStatus" />
+        type: <xref uid="@azure/search-documents.IndexerExecutionStatus|preview" />
         description: ''
   - name: statusDetail
     uid: '@azure/search-documents.IndexerExecutionResult.statusDetail|preview'
@@ -200,7 +200,9 @@ properties:
     syntax:
       content: 'statusDetail?: IndexerExecutionStatusDetail'
       return:
-        type: <xref uid="@azure/search-documents.IndexerExecutionStatusDetail" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.IndexerExecutionStatusDetail|preview" />
         description: ''
   - name: warnings
     uid: '@azure/search-documents.IndexerExecutionResult.warnings|preview'
@@ -217,5 +219,5 @@ properties:
     syntax:
       content: 'warnings: SearchIndexerWarning[]'
       return:
-        type: <xref uid="@azure/search-documents.SearchIndexerWarning" />[]
+        type: <xref uid="@azure/search-documents.SearchIndexerWarning|preview" />[]
         description: ''

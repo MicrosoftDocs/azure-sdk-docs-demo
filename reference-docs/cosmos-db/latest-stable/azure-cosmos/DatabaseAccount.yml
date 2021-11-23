@@ -23,7 +23,7 @@ constructors:
           type: '[key: string]\: any'
           description: ''
         - id: headers
-          type: <xref uid="@azure/cosmos.CosmosHeaders" />
+          type: <xref uid="@azure/cosmos.CosmosHeaders|latest-stable" />
           description: ''
 properties:
   - name: consistencyPolicy
@@ -37,7 +37,7 @@ properties:
     syntax:
       content: 'consistencyPolicy: ConsistencyLevel'
       return:
-        type: <xref uid="@azure/cosmos.ConsistencyLevel" />
+        type: <xref uid="@azure/cosmos.ConsistencyLevel|latest-stable" />
         description: ''
   - name: ConsistencyPolicy
     uid: '@azure/cosmos.DatabaseAccount.ConsistencyPolicy|latest-stable'
@@ -51,7 +51,7 @@ properties:
     syntax:
       content: ConsistencyLevel ConsistencyPolicy
       return:
-        type: <xref uid="@azure/cosmos.ConsistencyLevel" />
+        type: <xref uid="@azure/cosmos.ConsistencyLevel|latest-stable" />
         description: ''
   - name: currentMediaStorageUsageInMB
     uid: '@azure/cosmos.DatabaseAccount.currentMediaStorageUsageInMB|latest-stable'
@@ -202,7 +202,7 @@ properties:
     syntax:
       content: 'readableLocations: Location[]'
       return:
-        type: <xref uid="@azure/cosmos.Location" />[]
+        type: <xref uid="@azure/cosmos.Location|latest-stable" />[]
         description: ''
   - name: writableLocations
     uid: '@azure/cosmos.DatabaseAccount.writableLocations|latest-stable'
@@ -215,5 +215,5 @@ properties:
     syntax:
       content: 'writableLocations: Location[]'
       return:
-        type: <xref uid="@azure/cosmos.Location" />[]
+        type: <xref uid="@azure/cosmos.Location|latest-stable" />[]
         description: ''

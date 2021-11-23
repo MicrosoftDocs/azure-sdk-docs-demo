@@ -135,7 +135,7 @@ properties:
     syntax:
       content: 'ipRange?: SasIPRange'
       return:
-        type: <xref uid="@azure/storage-blob.SasIPRange" />
+        type: <xref uid="@azure/storage-blob.SasIPRange|latest-stable" />
         description: ''
   - name: permissions
     uid: '@azure/storage-blob.SASQueryParametersOptions.permissions|latest-stable'
@@ -195,7 +195,7 @@ properties:
     syntax:
       content: 'protocol?: SASProtocol'
       return:
-        type: <xref uid="@azure/storage-blob.SASProtocol" />
+        type: <xref uid="@azure/storage-blob.SASProtocol|latest-stable" />
         description: ''
   - name: resource
     uid: '@azure/storage-blob.SASQueryParametersOptions.resource|latest-stable'
@@ -271,5 +271,5 @@ properties:
     syntax:
       content: 'userDelegationKey?: UserDelegationKey'
       return:
-        type: <xref uid="@azure/storage-blob.UserDelegationKey" />
+        type: <xref uid="@azure/storage-blob.UserDelegationKey|latest-stable" />
         description: ''

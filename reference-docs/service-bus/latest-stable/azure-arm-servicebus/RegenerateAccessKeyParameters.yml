@@ -43,5 +43,5 @@ properties:
     syntax:
       content: 'keyType: KeyType'
       return:
-        type: <xref uid="@azure/arm-servicebus.KeyType" />
+        type: <xref uid="@azure/arm-servicebus.KeyType|latest-stable" />
         description: ''

@@ -77,7 +77,10 @@ properties:
     syntax:
       content: 'retryPolicyType?: StorageRetryPolicyType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.StorageRetryPolicyType" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.StorageRetryPolicyType|latest-stable"
+          />
         description: ''
   - name: secondaryHost
     uid: >-

@@ -20,7 +20,9 @@ properties:
     syntax:
       content: 'model?: DeploymentModel'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.DeploymentModel" />
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.DeploymentModel|latest-stable"
+          />
         description: ''
   - name: provisioningState
     uid: >-
@@ -42,7 +44,8 @@ properties:
       content: 'provisioningState?: DeploymentProvisioningState'
       return:
         type: >-
-          <xref uid="@azure/arm-cognitiveservices.DeploymentProvisioningState"
+          <xref
+          uid="@azure/arm-cognitiveservices.DeploymentProvisioningState|latest-stable"
           />
         description: ''
   - name: scaleSettings
@@ -57,5 +60,8 @@ properties:
     syntax:
       content: 'scaleSettings?: DeploymentScaleSettings'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.DeploymentScaleSettings" />
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.DeploymentScaleSettings|latest-stable"
+          />
         description: ''

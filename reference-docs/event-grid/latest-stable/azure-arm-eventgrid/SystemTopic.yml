@@ -37,7 +37,7 @@ properties:
     syntax:
       content: 'identity?: IdentityInfo'
       return:
-        type: <xref uid="@azure/arm-eventgrid.IdentityInfo" />
+        type: <xref uid="@azure/arm-eventgrid.IdentityInfo|latest-stable" />
         description: ''
   - name: location
     uid: '@azure/arm-eventgrid.SystemTopic.location|latest-stable'
@@ -104,7 +104,9 @@ properties:
     syntax:
       content: 'provisioningState?: ResourceProvisioningState'
       return:
-        type: <xref uid="@azure/arm-eventgrid.ResourceProvisioningState" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.ResourceProvisioningState|latest-stable" />
         description: ''
   - name: source
     uid: '@azure/arm-eventgrid.SystemTopic.source|latest-stable'
@@ -134,7 +136,7 @@ properties:
     syntax:
       content: 'systemData?: SystemData'
       return:
-        type: <xref uid="@azure/arm-eventgrid.SystemData" />
+        type: <xref uid="@azure/arm-eventgrid.SystemData|latest-stable" />
         description: ''
   - name: tags
     uid: '@azure/arm-eventgrid.SystemTopic.tags|latest-stable'
@@ -179,4 +181,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-eventgrid.TrackedResource" />
+extends: <xref uid="@azure/arm-eventgrid.TrackedResource|latest-stable" />

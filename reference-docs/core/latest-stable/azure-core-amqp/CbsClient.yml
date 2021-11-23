@@ -197,7 +197,7 @@ methods:
           type: string
           description: The token that needs to be sent in the put-token request.
         - id: tokenType
-          type: <xref uid="@azure/core-amqp.TokenType" />
+          type: <xref uid="@azure/core-amqp.TokenType|latest-stable" />
           description: >-
             The type of token being used. For example, 'jwt' or
             'servicebus.windows.net:sastoken'.
@@ -208,7 +208,9 @@ methods:
             behavior.
                For example, `abortSignal` can be passed to allow cancelling an in-progress `negotiateClaim` invocation.
       return:
-        type: Promise&lt;<xref uid="@azure/core-amqp.CbsResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/core-amqp.CbsResponse|latest-stable"
+          />&gt;
         description: |-
           A Promise that resolves when $cbs authentication is successful
           and rejects when an error occurs during $cbs authentication.

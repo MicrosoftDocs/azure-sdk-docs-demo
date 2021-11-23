@@ -74,7 +74,9 @@ properties:
     syntax:
       content: 'retryPolicyType?: StorageRetryPolicyType'
       return:
-        type: <xref uid="@azure/storage-blob.StorageRetryPolicyType" />
+        type: >-
+          <xref uid="@azure/storage-blob.StorageRetryPolicyType|latest-stable"
+          />
         description: ''
   - name: secondaryHost
     uid: '@azure/storage-blob.StorageRetryOptions.secondaryHost|latest-stable'

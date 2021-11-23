@@ -43,5 +43,5 @@ properties:
     syntax:
       content: 'results: AutocompleteItem[]'
       return:
-        type: <xref uid="@azure/search-documents.AutocompleteItem" />[]
+        type: <xref uid="@azure/search-documents.AutocompleteItem|preview" />[]
         description: ''

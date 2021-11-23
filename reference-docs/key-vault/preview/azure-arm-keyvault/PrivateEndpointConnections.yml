@@ -40,16 +40,16 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-keyvault.PrivateEndpointConnectionsDeleteOptionalParams"
+            uid="@azure/arm-keyvault.PrivateEndpointConnectionsDeleteOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-keyvault.PrivateEndpointConnectionsDeleteResponse"
+          uid="@azure/arm-keyvault.PrivateEndpointConnectionsDeleteResponse|preview"
           />&gt;, <xref
-          uid="@azure/arm-keyvault.PrivateEndpointConnectionsDeleteResponse"
+          uid="@azure/arm-keyvault.PrivateEndpointConnectionsDeleteResponse|preview"
           />&gt;&gt;
         description: ''
   - name: >-
@@ -83,14 +83,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-keyvault.PrivateEndpointConnectionsDeleteOptionalParams"
+            uid="@azure/arm-keyvault.PrivateEndpointConnectionsDeleteOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-keyvault.PrivateEndpointConnectionsDeleteResponse"
+          uid="@azure/arm-keyvault.PrivateEndpointConnectionsDeleteResponse|preview"
           />&gt;
         description: ''
   - name: get(string, string, string, PrivateEndpointConnectionsGetOptionalParams)
@@ -122,14 +122,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-keyvault.PrivateEndpointConnectionsGetOptionalParams"
+            uid="@azure/arm-keyvault.PrivateEndpointConnectionsGetOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-keyvault.PrivateEndpointConnectionsGetResponse" />&gt;
+          uid="@azure/arm-keyvault.PrivateEndpointConnectionsGetResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       listByResource(string, string,
@@ -158,14 +159,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-keyvault.PrivateEndpointConnectionsListByResourceOptionalParams"
+            uid="@azure/arm-keyvault.PrivateEndpointConnectionsListByResourceOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-keyvault.PrivateEndpointConnection" />&gt;
+          uid="@azure/arm-keyvault.PrivateEndpointConnection|preview" />&gt;
         description: ''
   - name: >-
       put(string, string, string, PrivateEndpointConnection,
@@ -197,17 +198,18 @@ methods:
             Name of the private endpoint connection associated with the key
                                                  vault.
         - id: properties
-          type: <xref uid="@azure/arm-keyvault.PrivateEndpointConnection" />
+          type: <xref uid="@azure/arm-keyvault.PrivateEndpointConnection|preview" />
           description: The intended state of private endpoint connection.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-keyvault.PrivateEndpointConnectionsPutOptionalParams"
+            uid="@azure/arm-keyvault.PrivateEndpointConnectionsPutOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-keyvault.PrivateEndpointConnectionsPutResponse" />&gt;
+          uid="@azure/arm-keyvault.PrivateEndpointConnectionsPutResponse|preview"
+          />&gt;
         description: ''

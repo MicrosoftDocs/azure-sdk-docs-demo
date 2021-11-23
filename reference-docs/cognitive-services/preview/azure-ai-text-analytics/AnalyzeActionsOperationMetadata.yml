@@ -130,6 +130,8 @@ properties:
     syntax:
       content: 'status: TextAnalyticsOperationStatus'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsOperationStatus" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TextAnalyticsOperationStatus|preview" />
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.OperationMetadata" />
+extends: <xref uid="@azure/ai-text-analytics.OperationMetadata|preview" />

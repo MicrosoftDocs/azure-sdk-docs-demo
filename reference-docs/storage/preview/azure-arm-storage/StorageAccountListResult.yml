@@ -43,5 +43,5 @@ properties:
     syntax:
       content: 'value?: StorageAccount[]'
       return:
-        type: <xref uid="@azure/arm-storage.StorageAccount" />[]
+        type: <xref uid="@azure/arm-storage.StorageAccount|preview" />[]
         description: ''

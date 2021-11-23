@@ -182,7 +182,9 @@ methods:
           description: |
             The value of header x-ms-file-attributes.
       return:
-        type: <xref uid="@azure/storage-file-share.FileSystemAttributes" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-share.FileSystemAttributes|latest-stable" />
         description: ''
   - name: toString()
     uid: '@azure/storage-file-share.FileSystemAttributes.toString|latest-stable'

@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'error: TextAnalyticsError'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsError" />
+        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsError|preview" />
         description: ''
   - name: failedOn
     uid: '@azure/ai-text-analytics.TextAnalyticsActionErrorResult.failedOn|preview'
@@ -48,4 +48,4 @@ properties:
       return:
         type: Date
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsActionState" />
+extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsActionState|preview" />

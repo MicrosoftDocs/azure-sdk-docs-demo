@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'boundingBox: Point2D[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.Point2D" />[]
+        type: <xref uid="@azure/ai-form-recognizer.Point2D|latest-stable" />[]
         description: ''
   - name: confidence
     uid: '@azure/ai-form-recognizer.FormSelectionMark.confidence|latest-stable'
@@ -92,4 +92,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/ai-form-recognizer.FormElementCommon" />
+extends: <xref uid="@azure/ai-form-recognizer.FormElementCommon|latest-stable" />

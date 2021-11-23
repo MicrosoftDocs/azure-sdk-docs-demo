@@ -20,5 +20,5 @@ properties:
     syntax:
       content: 'paths?: PathModel[]'
       return:
-        type: <xref uid="@azure/storage-file-datalake.PathModel" />[]
+        type: <xref uid="@azure/storage-file-datalake.PathModel|preview" />[]
         description: ''

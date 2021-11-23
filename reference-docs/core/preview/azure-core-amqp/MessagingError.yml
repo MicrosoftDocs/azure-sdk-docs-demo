@@ -58,7 +58,7 @@ properties:
     syntax:
       content: 'code?: MessageErrorCodes | string'
       return:
-        type: <xref uid="@azure/core-amqp.MessageErrorCodes" /> | string
+        type: <xref uid="@azure/core-amqp.MessageErrorCodes|preview" /> | string
         description: ''
   - name: errno
     uid: '@azure/core-amqp.MessagingError.errno|preview'

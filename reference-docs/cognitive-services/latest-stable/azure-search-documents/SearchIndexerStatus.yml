@@ -25,7 +25,10 @@ properties:
     syntax:
       content: 'executionHistory: IndexerExecutionResult[]'
       return:
-        type: <xref uid="@azure/search-documents.IndexerExecutionResult" />[]
+        type: >-
+          <xref
+          uid="@azure/search-documents.IndexerExecutionResult|latest-stable"
+          />[]
         description: ''
   - name: lastResult
     uid: '@azure/search-documents.SearchIndexerStatus.lastResult|latest-stable'
@@ -42,7 +45,9 @@ properties:
     syntax:
       content: 'lastResult?: IndexerExecutionResult'
       return:
-        type: <xref uid="@azure/search-documents.IndexerExecutionResult" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.IndexerExecutionResult|latest-stable" />
         description: ''
   - name: limits
     uid: '@azure/search-documents.SearchIndexerStatus.limits|latest-stable'
@@ -59,7 +64,9 @@ properties:
     syntax:
       content: 'limits: SearchIndexerLimits'
       return:
-        type: <xref uid="@azure/search-documents.SearchIndexerLimits" />
+        type: >-
+          <xref uid="@azure/search-documents.SearchIndexerLimits|latest-stable"
+          />
         description: ''
   - name: status
     uid: '@azure/search-documents.SearchIndexerStatus.status|latest-stable'
@@ -76,5 +83,5 @@ properties:
     syntax:
       content: 'status: IndexerStatus'
       return:
-        type: <xref uid="@azure/search-documents.IndexerStatus" />
+        type: <xref uid="@azure/search-documents.IndexerStatus|latest-stable" />
         description: ''

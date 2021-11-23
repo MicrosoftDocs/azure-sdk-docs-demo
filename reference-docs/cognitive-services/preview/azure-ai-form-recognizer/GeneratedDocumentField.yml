@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'boundingRegions?: BoundingRegion[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.BoundingRegion" />[]
+        type: <xref uid="@azure/ai-form-recognizer.BoundingRegion|preview" />[]
         description: ''
   - name: confidence
     uid: '@azure/ai-form-recognizer.GeneratedDocumentField.confidence|preview'
@@ -59,7 +59,7 @@ properties:
     syntax:
       content: 'spans?: DocumentSpan[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentSpan" />[]
+        type: <xref uid="@azure/ai-form-recognizer.DocumentSpan|preview" />[]
         description: ''
   - name: type
     uid: '@azure/ai-form-recognizer.GeneratedDocumentField.type|preview'
@@ -72,7 +72,7 @@ properties:
     syntax:
       content: 'type: DocumentFieldType'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentFieldType" />
+        type: <xref uid="@azure/ai-form-recognizer.DocumentFieldType|preview" />
         description: ''
   - name: valueArray
     uid: '@azure/ai-form-recognizer.GeneratedDocumentField.valueArray|preview'
@@ -85,7 +85,9 @@ properties:
     syntax:
       content: 'valueArray?: GeneratedDocumentField[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.GeneratedDocumentField" />[]
+        type: >-
+          <xref uid="@azure/ai-form-recognizer.GeneratedDocumentField|preview"
+          />[]
         description: ''
   - name: valueCountryRegion
     uid: >-
@@ -153,7 +155,7 @@ properties:
       return:
         type: >-
           [key: string]\: <xref
-          uid="@azure/ai-form-recognizer.GeneratedDocumentField" />
+          uid="@azure/ai-form-recognizer.GeneratedDocumentField|preview" />
         description: ''
   - name: valuePhoneNumber
     uid: '@azure/ai-form-recognizer.GeneratedDocumentField.valuePhoneNumber|preview'
@@ -180,7 +182,7 @@ properties:
     syntax:
       content: 'valueSelectionMark?: SelectionMarkState'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.SelectionMarkState" />
+        type: <xref uid="@azure/ai-form-recognizer.SelectionMarkState|preview" />
         description: ''
   - name: valueSignature
     uid: '@azure/ai-form-recognizer.GeneratedDocumentField.valueSignature|preview'
@@ -193,7 +195,7 @@ properties:
     syntax:
       content: 'valueSignature?: DocumentSignatureType'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentSignatureType" />
+        type: <xref uid="@azure/ai-form-recognizer.DocumentSignatureType|preview" />
         description: ''
   - name: valueString
     uid: '@azure/ai-form-recognizer.GeneratedDocumentField.valueString|preview'

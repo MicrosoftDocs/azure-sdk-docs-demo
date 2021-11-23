@@ -38,7 +38,7 @@ properties:
     syntax:
       content: 'deserializationOptions?: DeserializationOptions'
       return:
-        type: <xref uid="@azure/core-http.DeserializationOptions" />
+        type: <xref uid="@azure/core-http.DeserializationOptions|latest-stable" />
         description: ''
   - name: httpClient
     uid: '@azure/core-http.InternalPipelineOptions.httpClient|latest-stable'
@@ -53,7 +53,7 @@ properties:
     syntax:
       content: 'httpClient?: HttpClient'
       return:
-        type: <xref uid="@azure/core-http.HttpClient" />
+        type: <xref uid="@azure/core-http.HttpClient|latest-stable" />
         description: ''
   - name: keepAliveOptions
     uid: '@azure/core-http.InternalPipelineOptions.keepAliveOptions|latest-stable'
@@ -66,7 +66,7 @@ properties:
     syntax:
       content: 'keepAliveOptions?: KeepAliveOptions'
       return:
-        type: <xref uid="@azure/core-http.KeepAliveOptions" />
+        type: <xref uid="@azure/core-http.KeepAliveOptions|latest-stable" />
         description: ''
   - name: loggingOptions
     uid: '@azure/core-http.InternalPipelineOptions.loggingOptions|latest-stable'
@@ -79,7 +79,7 @@ properties:
     syntax:
       content: 'loggingOptions?: LogPolicyOptions'
       return:
-        type: <xref uid="@azure/core-http.LogPolicyOptions" />
+        type: <xref uid="@azure/core-http.LogPolicyOptions|latest-stable" />
         description: ''
   - name: proxyOptions
     uid: '@azure/core-http.InternalPipelineOptions.proxyOptions|latest-stable'
@@ -92,7 +92,7 @@ properties:
     syntax:
       content: 'proxyOptions?: ProxyOptions'
       return:
-        type: <xref uid="@azure/core-http.ProxyOptions" />
+        type: <xref uid="@azure/core-http.ProxyOptions|latest-stable" />
         description: ''
   - name: redirectOptions
     uid: '@azure/core-http.InternalPipelineOptions.redirectOptions|latest-stable'
@@ -105,7 +105,7 @@ properties:
     syntax:
       content: 'redirectOptions?: RedirectOptions'
       return:
-        type: <xref uid="@azure/core-http.RedirectOptions" />
+        type: <xref uid="@azure/core-http.RedirectOptions|latest-stable" />
         description: ''
   - name: retryOptions
     uid: '@azure/core-http.InternalPipelineOptions.retryOptions|latest-stable'
@@ -118,7 +118,7 @@ properties:
     syntax:
       content: 'retryOptions?: RetryOptions'
       return:
-        type: <xref uid="@azure/core-http.RetryOptions" />
+        type: <xref uid="@azure/core-http.RetryOptions|latest-stable" />
         description: ''
   - name: sendStreamingJson
     uid: '@azure/core-http.InternalPipelineOptions.sendStreamingJson|latest-stable'
@@ -144,6 +144,6 @@ properties:
     syntax:
       content: 'userAgentOptions?: UserAgentOptions'
       return:
-        type: <xref uid="@azure/core-http.UserAgentOptions" />
+        type: <xref uid="@azure/core-http.UserAgentOptions|latest-stable" />
         description: ''
-extends: <xref uid="@azure/core-http.PipelineOptions" />
+extends: <xref uid="@azure/core-http.PipelineOptions|latest-stable" />

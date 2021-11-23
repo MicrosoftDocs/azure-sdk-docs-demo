@@ -120,7 +120,7 @@ properties:
     syntax:
       content: 'ipRange?: SasIPRange'
       return:
-        type: <xref uid="@azure/storage-file-share.SasIPRange" />
+        type: <xref uid="@azure/storage-file-share.SasIPRange|preview" />
         description: ''
   - name: permissions
     uid: '@azure/storage-file-share.ShareGenerateSasUrlOptions.permissions|preview'
@@ -135,7 +135,7 @@ properties:
     syntax:
       content: 'permissions?: ShareSASPermissions'
       return:
-        type: <xref uid="@azure/storage-file-share.ShareSASPermissions" />
+        type: <xref uid="@azure/storage-file-share.ShareSASPermissions|preview" />
         description: ''
   - name: protocol
     uid: '@azure/storage-file-share.ShareGenerateSasUrlOptions.protocol|preview'
@@ -148,7 +148,7 @@ properties:
     syntax:
       content: 'protocol?: SASProtocol'
       return:
-        type: <xref uid="@azure/storage-file-share.SASProtocol" />
+        type: <xref uid="@azure/storage-file-share.SASProtocol|preview" />
         description: ''
   - name: startsOn
     uid: '@azure/storage-file-share.ShareGenerateSasUrlOptions.startsOn|preview'
@@ -180,4 +180,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-file-share.CommonGenerateSasUrlOptions" />
+extends: <xref uid="@azure/storage-file-share.CommonGenerateSasUrlOptions|preview" />

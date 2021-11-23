@@ -35,5 +35,5 @@ properties:
     syntax:
       content: 'value?: SBNamespace[]'
       return:
-        type: <xref uid="@azure/arm-servicebus.SBNamespace" />[]
+        type: <xref uid="@azure/arm-servicebus.SBNamespace|preview" />[]
         description: ''

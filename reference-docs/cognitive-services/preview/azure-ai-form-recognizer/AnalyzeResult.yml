@@ -26,7 +26,9 @@ properties:
     syntax:
       content: 'apiVersion: FormRecognizerApiVersion'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormRecognizerApiVersion" />
+        type: >-
+          <xref uid="@azure/ai-form-recognizer.FormRecognizerApiVersion|preview"
+          />
         description: ''
   - name: content
     uid: '@azure/ai-form-recognizer.AnalyzeResult.content|preview'
@@ -72,7 +74,7 @@ properties:
     syntax:
       content: 'entities: DocumentEntity[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentEntity" />[]
+        type: <xref uid="@azure/ai-form-recognizer.DocumentEntity|preview" />[]
         description: ''
   - name: keyValuePairs
     uid: '@azure/ai-form-recognizer.AnalyzeResult.keyValuePairs|preview'
@@ -85,7 +87,9 @@ properties:
     syntax:
       content: 'keyValuePairs: DocumentKeyValuePair[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentKeyValuePair" />[]
+        type: >-
+          <xref uid="@azure/ai-form-recognizer.DocumentKeyValuePair|preview"
+          />[]
         description: ''
   - name: modelId
     uid: '@azure/ai-form-recognizer.AnalyzeResult.modelId|preview'
@@ -111,7 +115,7 @@ properties:
     syntax:
       content: 'pages: DocumentPage[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentPage" />[]
+        type: <xref uid="@azure/ai-form-recognizer.DocumentPage|preview" />[]
         description: ''
   - name: styles
     uid: '@azure/ai-form-recognizer.AnalyzeResult.styles|preview'
@@ -124,7 +128,7 @@ properties:
     syntax:
       content: 'styles: DocumentStyle[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentStyle" />[]
+        type: <xref uid="@azure/ai-form-recognizer.DocumentStyle|preview" />[]
         description: ''
   - name: tables
     uid: '@azure/ai-form-recognizer.AnalyzeResult.tables|preview'
@@ -137,5 +141,5 @@ properties:
     syntax:
       content: 'tables: DocumentTable[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentTable" />[]
+        type: <xref uid="@azure/ai-form-recognizer.DocumentTable|preview" />[]
         description: ''

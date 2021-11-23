@@ -36,7 +36,7 @@ properties:
     syntax:
       content: 'algorithm: EncryptionAlgorithm'
       return:
-        type: <xref uid="@azure/keyvault-keys.EncryptionAlgorithm" />
+        type: <xref uid="@azure/keyvault-keys.EncryptionAlgorithm|latest-stable" />
         description: ''
   - name: authenticationTag
     uid: '@azure/keyvault-keys.EncryptResult.authenticationTag|latest-stable'

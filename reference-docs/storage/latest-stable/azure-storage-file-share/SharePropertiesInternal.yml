@@ -119,7 +119,9 @@ properties:
     syntax:
       content: 'leaseDuration?: LeaseDurationType'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseDurationType" />
+        type: >-
+          <xref uid="@azure/storage-file-share.LeaseDurationType|latest-stable"
+          />
         description: ''
   - name: leaseState
     uid: '@azure/storage-file-share.SharePropertiesInternal.leaseState|latest-stable'
@@ -132,7 +134,7 @@ properties:
     syntax:
       content: 'leaseState?: LeaseStateType'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseStateType" />
+        type: <xref uid="@azure/storage-file-share.LeaseStateType|latest-stable" />
         description: ''
   - name: leaseStatus
     uid: >-
@@ -146,7 +148,7 @@ properties:
     syntax:
       content: 'leaseStatus?: LeaseStatusType'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseStatusType" />
+        type: <xref uid="@azure/storage-file-share.LeaseStatusType|latest-stable" />
         description: ''
   - name: nextAllowedQuotaDowngradeTime
     uid: >-
@@ -242,5 +244,5 @@ properties:
     syntax:
       content: 'rootSquash?: ShareRootSquash'
       return:
-        type: <xref uid="@azure/storage-file-share.ShareRootSquash" />
+        type: <xref uid="@azure/storage-file-share.ShareRootSquash|latest-stable" />
         description: ''

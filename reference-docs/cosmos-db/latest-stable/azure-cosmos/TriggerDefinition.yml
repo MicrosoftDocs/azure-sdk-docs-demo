@@ -48,7 +48,7 @@ properties:
     syntax:
       content: 'triggerOperation: TriggerOperation'
       return:
-        type: <xref uid="@azure/cosmos.TriggerOperation" />
+        type: <xref uid="@azure/cosmos.TriggerOperation|latest-stable" />
         description: ''
   - name: triggerType
     uid: '@azure/cosmos.TriggerDefinition.triggerType|latest-stable'
@@ -63,5 +63,5 @@ properties:
     syntax:
       content: 'triggerType: TriggerType'
       return:
-        type: <xref uid="@azure/cosmos.TriggerType" />
+        type: <xref uid="@azure/cosmos.TriggerType|latest-stable" />
         description: ''

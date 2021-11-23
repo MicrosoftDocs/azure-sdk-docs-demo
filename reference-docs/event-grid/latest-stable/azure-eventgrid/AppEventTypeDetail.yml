@@ -20,5 +20,5 @@ properties:
     syntax:
       content: 'action: AppAction'
       return:
-        type: <xref uid="@azure/eventgrid.AppAction" />
+        type: <xref uid="@azure/eventgrid.AppAction|latest-stable" />
         description: ''

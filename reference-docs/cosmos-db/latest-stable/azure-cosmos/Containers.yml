@@ -20,7 +20,7 @@ constructors:
       content: 'new Containers(database: Database, clientContext: ClientContext)'
       parameters:
         - id: database
-          type: <xref uid="@azure/cosmos.Database" />
+          type: <xref uid="@azure/cosmos.Database|latest-stable" />
           description: ''
         - id: clientContext
           type: ClientContext
@@ -37,7 +37,7 @@ properties:
     syntax:
       content: 'database: Database'
       return:
-        type: <xref uid="@azure/cosmos.Database" />
+        type: <xref uid="@azure/cosmos.Database|latest-stable" />
         description: ''
 methods:
   - name: create(ContainerRequest, RequestOptions)
@@ -71,15 +71,17 @@ methods:
       content: 'function create(body: ContainerRequest, options?: RequestOptions)'
       parameters:
         - id: body
-          type: <xref uid="@azure/cosmos.ContainerRequest" />
+          type: <xref uid="@azure/cosmos.ContainerRequest|latest-stable" />
           description: Represents the body of the container.
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: >
             Use to set options like response page size, continuation tokens,
             etc.
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.ContainerResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.ContainerResponse|latest-stable"
+          />&gt;
         description: ''
   - name: createIfNotExists(ContainerRequest, RequestOptions)
     uid: '@azure/cosmos.Containers.createIfNotExists|latest-stable'
@@ -120,15 +122,17 @@ methods:
         RequestOptions)
       parameters:
         - id: body
-          type: <xref uid="@azure/cosmos.ContainerRequest" />
+          type: <xref uid="@azure/cosmos.ContainerRequest|latest-stable" />
           description: Represents the body of the container.
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: >
             Use to set options like response page size, continuation tokens,
             etc.
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.ContainerResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.ContainerResponse|latest-stable"
+          />&gt;
         description: ''
   - name: query(SqlQuerySpec, FeedOptions)
     uid: '@azure/cosmos.Containers.query|latest-stable'
@@ -141,18 +145,18 @@ methods:
       content: 'function query(query: SqlQuerySpec, options?: FeedOptions)'
       parameters:
         - id: query
-          type: <xref uid="@azure/cosmos.SqlQuerySpec" />
+          type: <xref uid="@azure/cosmos.SqlQuerySpec|latest-stable" />
           description: >-
             Query configuration for the operation. See
             <xref:@azure/cosmos.SqlQuerySpec> for more info on how to configure
             a query.
         - id: options
-          type: <xref uid="@azure/cosmos.FeedOptions" />
+          type: <xref uid="@azure/cosmos.FeedOptions|latest-stable" />
           description: >-
             Use to set options like response page size, continuation tokens,
             etc.
       return:
-        type: <xref uid="@azure/cosmos.QueryIterator" />&lt;any&gt;
+        type: <xref uid="@azure/cosmos.QueryIterator|latest-stable" />&lt;any&gt;
         description: >-
           Allows you to return specific containers in an array or iterate over
           them one at a time.
@@ -167,18 +171,18 @@ methods:
       content: 'function query<T>(query: SqlQuerySpec, options?: FeedOptions)'
       parameters:
         - id: query
-          type: <xref uid="@azure/cosmos.SqlQuerySpec" />
+          type: <xref uid="@azure/cosmos.SqlQuerySpec|latest-stable" />
           description: >-
             Query configuration for the operation. See
             <xref:@azure/cosmos.SqlQuerySpec> for more info on how to configure
             a query.
         - id: options
-          type: <xref uid="@azure/cosmos.FeedOptions" />
+          type: <xref uid="@azure/cosmos.FeedOptions|latest-stable" />
           description: >-
             Use to set options like response page size, continuation tokens,
             etc.
       return:
-        type: <xref uid="@azure/cosmos.QueryIterator" />&lt;T&gt;
+        type: <xref uid="@azure/cosmos.QueryIterator|latest-stable" />&lt;T&gt;
         description: >-
           Allows you to return specific containers in an array or iterate over
           them one at a time.
@@ -193,15 +197,15 @@ methods:
       content: 'function readAll(options?: FeedOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.FeedOptions" />
+          type: <xref uid="@azure/cosmos.FeedOptions|latest-stable" />
           description: >-
             Use to set options like response page size, continuation tokens,
             etc.
       return:
         type: >-
-          <xref uid="@azure/cosmos.QueryIterator" />&lt;<xref
-          uid="@azure/cosmos.ContainerDefinition" /> & <xref
-          uid="@azure/cosmos.Resource" />&gt;
+          <xref uid="@azure/cosmos.QueryIterator|latest-stable" />&lt;<xref
+          uid="@azure/cosmos.ContainerDefinition|latest-stable" /> & <xref
+          uid="@azure/cosmos.Resource|latest-stable" />&gt;
         description: >-
           Allows you to return all containers in an array or iterate over them
           one at a time.

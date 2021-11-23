@@ -37,5 +37,5 @@ properties:
     syntax:
       content: 'keyType: KeyType_2'
       return:
-        type: <xref uid="@azure/arm-servicebus.KeyType_2" />
+        type: <xref uid="@azure/arm-servicebus.KeyType_2|preview" />
         description: ''

@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'assignableScopes?: KeyVaultRoleScope[]'
       return:
-        type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope" />[]
+        type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope|preview" />[]
         description: ''
   - name: description
     uid: '@azure/keyvault-admin.SetRoleDefinitionOptions.description|preview'
@@ -75,7 +75,7 @@ properties:
     syntax:
       content: 'permissions?: KeyVaultPermission[]'
       return:
-        type: <xref uid="@azure/keyvault-admin.KeyVaultPermission" />[]
+        type: <xref uid="@azure/keyvault-admin.KeyVaultPermission|preview" />[]
         description: ''
   - name: requestOptions
     uid: '@azure/keyvault-admin.SetRoleDefinitionOptions.requestOptions|preview'

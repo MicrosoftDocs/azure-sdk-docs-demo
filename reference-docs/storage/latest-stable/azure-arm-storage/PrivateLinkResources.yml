@@ -20,7 +20,10 @@ constructors:
       content: 'new PrivateLinkResources(client: StorageManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -56,12 +59,13 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateLinkResourcesListByStorageAccountResponse" />&gt;
+          uid="Models.PrivateLinkResourcesListByStorageAccountResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateLinkResourcesListByStorageAccountResponse>
   - name: >-
       listByStorageAccount(string, string, RequestOptionsBase,
@@ -102,7 +106,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.PrivateLinkResourceListResult" />&gt;
+            uid="@azure/arm-storage.PrivateLinkResourceListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -140,6 +145,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.PrivateLinkResourceListResult" />&gt;
+            uid="@azure/arm-storage.PrivateLinkResourceListResult|latest-stable"
+            />&gt;
           description: |
             The callback

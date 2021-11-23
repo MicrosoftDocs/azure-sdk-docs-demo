@@ -25,8 +25,8 @@ constructors:
       parameters:
         - id: client
           type: >-
-            <xref uid="@azure/storage-blob.ContainerClient" /> | <xref
-            uid="@azure/storage-blob.BlobClient" />
+            <xref uid="@azure/storage-blob.ContainerClient|latest-stable" /> |
+            <xref uid="@azure/storage-blob.BlobClient|latest-stable" />
           description: The client to make the lease operation requests.
         - id: leaseId
           type: string
@@ -80,12 +80,14 @@ methods:
           type: number
           description: Must be between 15 to 60 seconds, or infinite (-1)
         - id: options
-          type: <xref uid="@azure/storage-blob.LeaseOperationOptions" />
+          type: >-
+            <xref uid="@azure/storage-blob.LeaseOperationOptions|latest-stable"
+            />
           description: option to configure lease management operations.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-blob.LeaseOperationResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/storage-blob.LeaseOperationResponse|latest-stable" />&gt;
         description: Response data for acquire lease operation.
   - name: breakLease(number, LeaseOperationOptions)
     uid: '@azure/storage-blob.BlobLeaseClient.breakLease|latest-stable'
@@ -105,12 +107,14 @@ methods:
           type: number
           description: Break period
         - id: options
-          type: <xref uid="@azure/storage-blob.LeaseOperationOptions" />
+          type: >-
+            <xref uid="@azure/storage-blob.LeaseOperationOptions|latest-stable"
+            />
           description: Optional options to configure lease management operations.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-blob.LeaseOperationResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/storage-blob.LeaseOperationResponse|latest-stable" />&gt;
         description: Response data for break lease operation.
   - name: changeLease(string, LeaseOperationOptions)
     uid: '@azure/storage-blob.BlobLeaseClient.changeLease|latest-stable'
@@ -128,12 +132,14 @@ methods:
           type: string
           description: the proposed new lease Id.
         - id: options
-          type: <xref uid="@azure/storage-blob.LeaseOperationOptions" />
+          type: >-
+            <xref uid="@azure/storage-blob.LeaseOperationOptions|latest-stable"
+            />
           description: option to configure lease management operations.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-blob.LeaseOperationResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/storage-blob.LeaseOperationResponse|latest-stable" />&gt;
         description: Response data for change lease operation.
   - name: releaseLease(LeaseOperationOptions)
     uid: '@azure/storage-blob.BlobLeaseClient.releaseLease|latest-stable'
@@ -148,12 +154,14 @@ methods:
       content: 'function releaseLease(options?: LeaseOperationOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-blob.LeaseOperationOptions" />
+          type: >-
+            <xref uid="@azure/storage-blob.LeaseOperationOptions|latest-stable"
+            />
           description: option to configure lease management operations.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-blob.LeaseOperationResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/storage-blob.LeaseOperationResponse|latest-stable" />&gt;
         description: Response data for release lease operation.
   - name: renewLease(LeaseOperationOptions)
     uid: '@azure/storage-blob.BlobLeaseClient.renewLease|latest-stable'
@@ -166,8 +174,10 @@ methods:
       content: 'function renewLease(options?: LeaseOperationOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-blob.LeaseOperationOptions" />
+          type: >-
+            <xref uid="@azure/storage-blob.LeaseOperationOptions|latest-stable"
+            />
           description: Optional option to configure lease management operations.
       return:
-        type: Promise&lt;<xref uid="@azure/storage-blob.Lease" />&gt;
+        type: Promise&lt;<xref uid="@azure/storage-blob.Lease|latest-stable" />&gt;
         description: Response data for renew lease operation.

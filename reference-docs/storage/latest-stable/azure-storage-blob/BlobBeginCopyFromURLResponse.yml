@@ -54,7 +54,7 @@ properties:
     syntax:
       content: 'copyStatus?: CopyStatusType'
       return:
-        type: <xref uid="@azure/storage-blob.CopyStatusType" />
+        type: <xref uid="@azure/storage-blob.CopyStatusType|latest-stable" />
         description: ''
   - name: date
     uid: '@azure/storage-blob.BlobBeginCopyFromURLResponse.date|latest-stable'
@@ -164,4 +164,6 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-blob.BlobStartCopyFromURLHeaders" /> & Object
+extends: >-
+  <xref uid="@azure/storage-blob.BlobStartCopyFromURLHeaders|latest-stable" /> &
+  Object

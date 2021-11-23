@@ -20,7 +20,10 @@ constructors:
       content: 'new FileServices(client: StorageManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -58,11 +61,12 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.FileServicesGetServicePropertiesResponse"
+          Promise&lt;<xref
+          uid="Models.FileServicesGetServicePropertiesResponse|latest-stable"
           />&gt;
         description: Promise<Models.FileServicesGetServicePropertiesResponse>
   - name: >-
@@ -103,7 +107,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.FileServiceProperties" />&gt;
+            uid="@azure/arm-storage.FileServiceProperties|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -140,7 +144,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.FileServiceProperties" />&gt;
+            uid="@azure/arm-storage.FileServiceProperties|latest-stable" />&gt;
           description: |
             The callback
   - name: list(string, string, msRest.RequestOptionsBase)
@@ -173,10 +177,12 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.FileServicesListResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.FileServicesListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.FileServicesListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -214,8 +220,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.FileServiceItems"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.FileServiceItems|latest-stable" />&gt;
           description: |
             The callback
   - name: list(string, string, ServiceCallback<FileServiceItems>)
@@ -249,8 +255,8 @@ methods:
             letters only.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.FileServiceItems"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.FileServiceItems|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -290,16 +296,19 @@ methods:
 
             letters only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.FileServiceProperties" />
+          type: >-
+            <xref uid="@azure/arm-storage.FileServiceProperties|latest-stable"
+            />
           description: |-
             The properties of file services in storage accounts, including CORS
             (Cross-Origin Resource Sharing) rules.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.FileServicesSetServicePropertiesResponse"
+          Promise&lt;<xref
+          uid="Models.FileServicesSetServicePropertiesResponse|latest-stable"
           />&gt;
         description: Promise<Models.FileServicesSetServicePropertiesResponse>
   - name: >-
@@ -335,7 +344,9 @@ methods:
 
             letters only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.FileServiceProperties" />
+          type: >-
+            <xref uid="@azure/arm-storage.FileServiceProperties|latest-stable"
+            />
           description: |-
             The properties of file services in storage accounts, including CORS
             (Cross-Origin Resource Sharing) rules.
@@ -345,7 +356,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.FileServiceProperties" />&gt;
+            uid="@azure/arm-storage.FileServiceProperties|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -381,13 +392,15 @@ methods:
 
             letters only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.FileServiceProperties" />
+          type: >-
+            <xref uid="@azure/arm-storage.FileServiceProperties|latest-stable"
+            />
           description: |-
             The properties of file services in storage accounts, including CORS
             (Cross-Origin Resource Sharing) rules.
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.FileServiceProperties" />&gt;
+            uid="@azure/arm-storage.FileServiceProperties|latest-stable" />&gt;
           description: |
             The callback

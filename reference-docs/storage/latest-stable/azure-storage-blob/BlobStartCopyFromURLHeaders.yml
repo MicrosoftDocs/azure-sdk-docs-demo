@@ -52,7 +52,7 @@ properties:
     syntax:
       content: 'copyStatus?: CopyStatusType'
       return:
-        type: <xref uid="@azure/storage-blob.CopyStatusType" />
+        type: <xref uid="@azure/storage-blob.CopyStatusType|latest-stable" />
         description: ''
   - name: date
     uid: '@azure/storage-blob.BlobStartCopyFromURLHeaders.date|latest-stable'

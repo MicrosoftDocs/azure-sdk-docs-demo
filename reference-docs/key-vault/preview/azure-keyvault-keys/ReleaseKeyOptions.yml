@@ -35,7 +35,9 @@ properties:
     syntax:
       content: 'algorithm?: KeyExportEncryptionAlgorithm'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyExportEncryptionAlgorithm" />
+        type: >-
+          <xref uid="@azure/keyvault-keys.KeyExportEncryptionAlgorithm|preview"
+          />
         description: ''
   - name: nonce
     uid: '@azure/keyvault-keys.ReleaseKeyOptions.nonce|preview'

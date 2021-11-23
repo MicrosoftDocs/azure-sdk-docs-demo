@@ -97,7 +97,9 @@ properties:
     syntax:
       content: 'provisioningState?: TopicTypeProvisioningState'
       return:
-        type: <xref uid="@azure/arm-eventgrid.TopicTypeProvisioningState" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.TopicTypeProvisioningState|latest-stable" />
         description: ''
   - name: resourceRegionType
     uid: '@azure/arm-eventgrid.TopicTypeInfo.resourceRegionType|latest-stable'
@@ -112,7 +114,7 @@ properties:
     syntax:
       content: 'resourceRegionType?: ResourceRegionType'
       return:
-        type: <xref uid="@azure/arm-eventgrid.ResourceRegionType" />
+        type: <xref uid="@azure/arm-eventgrid.ResourceRegionType|latest-stable" />
         description: ''
   - name: sourceResourceFormat
     uid: '@azure/arm-eventgrid.TopicTypeInfo.sourceResourceFormat|latest-stable'
@@ -170,4 +172,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-eventgrid.Resource" />
+extends: <xref uid="@azure/arm-eventgrid.Resource|latest-stable" />

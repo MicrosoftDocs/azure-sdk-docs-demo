@@ -20,5 +20,7 @@ properties:
     syntax:
       content: 'value?: SkuAvailability[]'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.SkuAvailability" />[]
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.SkuAvailability|latest-stable"
+          />[]
         description: ''

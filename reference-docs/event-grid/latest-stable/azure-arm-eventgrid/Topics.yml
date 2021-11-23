@@ -20,7 +20,10 @@ constructors:
       content: 'new Topics(client: EventGridManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-eventgrid.EventGridManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.EventGridManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -43,10 +46,10 @@ methods:
           type: string
           description: Name of the topic.
         - id: topicInfo
-          type: <xref uid="@azure/arm-eventgrid.Topic" />
+          type: <xref uid="@azure/arm-eventgrid.Topic|latest-stable" />
           description: Topic information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -70,7 +73,7 @@ methods:
           type: string
           description: Name of the topic.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -97,10 +100,13 @@ methods:
           type: string
           description: Name of the topic.
         - id: regenerateKeyRequest
-          type: <xref uid="@azure/arm-eventgrid.TopicRegenerateKeyRequest" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.TopicRegenerateKeyRequest|latest-stable"
+            />
           description: Request body to regenerate key.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -127,10 +133,12 @@ methods:
           type: string
           description: Name of the topic.
         - id: topicUpdateParameters
-          type: <xref uid="@azure/arm-eventgrid.TopicUpdateParameters" />
+          type: >-
+            <xref uid="@azure/arm-eventgrid.TopicUpdateParameters|latest-stable"
+            />
           description: Topic update information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -154,13 +162,15 @@ methods:
           type: string
           description: Name of the topic.
         - id: topicInfo
-          type: <xref uid="@azure/arm-eventgrid.Topic" />
+          type: <xref uid="@azure/arm-eventgrid.Topic|latest-stable" />
           description: Topic information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TopicsCreateOrUpdateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.TopicsCreateOrUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.TopicsCreateOrUpdateResponse>
   - name: deleteMethod(string, string, msRest.RequestOptionsBase)
     uid: '@azure/arm-eventgrid.Topics.deleteMethod|latest-stable'
@@ -181,7 +191,7 @@ methods:
           type: string
           description: Name of the topic.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -205,10 +215,10 @@ methods:
           type: string
           description: Name of the topic.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TopicsGetResponse" />&gt;
+        type: Promise&lt;<xref uid="Models.TopicsGetResponse|latest-stable" />&gt;
         description: Promise<Models.TopicsGetResponse>
   - name: get(string, string, RequestOptionsBase, ServiceCallback<Topic>)
     uid: '@azure/arm-eventgrid.Topics.get_2|latest-stable'
@@ -232,7 +242,9 @@ methods:
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-eventgrid.Topic" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventgrid.Topic|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, ServiceCallback<Topic>)
@@ -254,7 +266,9 @@ methods:
           type: string
           description: Name of the topic.
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-eventgrid.Topic" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventgrid.Topic|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -275,10 +289,15 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: options
-          type: <xref uid="Models.TopicsListByResourceGroupOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.TopicsListByResourceGroupOptionalParams|latest-stable"
+            />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TopicsListByResourceGroupResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.TopicsListByResourceGroupResponse|latest-stable" />&gt;
         description: Promise<Models.TopicsListByResourceGroupResponse>
   - name: listByResourceGroup(string, ServiceCallback<TopicsListResult>)
     uid: '@azure/arm-eventgrid.Topics.listByResourceGroup_1|latest-stable'
@@ -297,8 +316,8 @@ methods:
           description: The name of the resource group within the user's subscription.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventgrid.TopicsListResult"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventgrid.TopicsListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -322,13 +341,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.TopicsListByResourceGroupOptionalParams"
+            uid="@azure/arm-eventgrid.TopicsListByResourceGroupOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventgrid.TopicsListResult"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventgrid.TopicsListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -349,11 +368,15 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="Models.TopicsListByResourceGroupNextOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.TopicsListByResourceGroupNextOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.TopicsListByResourceGroupNextResponse"
+          Promise&lt;<xref
+          uid="Models.TopicsListByResourceGroupNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.TopicsListByResourceGroupNextResponse>
   - name: listByResourceGroupNext(string, ServiceCallback<TopicsListResult>)
@@ -373,8 +396,8 @@ methods:
           description: The NextLink from the previous successful call to List operation.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventgrid.TopicsListResult"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventgrid.TopicsListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -399,13 +422,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.TopicsListByResourceGroupNextOptionalParams"
+            uid="@azure/arm-eventgrid.TopicsListByResourceGroupNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventgrid.TopicsListResult"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventgrid.TopicsListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listBySubscription(Models.TopicsListBySubscriptionOptionalParams)
@@ -421,10 +444,14 @@ methods:
         Models.TopicsListBySubscriptionOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.TopicsListBySubscriptionOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.TopicsListBySubscriptionOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TopicsListBySubscriptionResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.TopicsListBySubscriptionResponse|latest-stable" />&gt;
         description: Promise<Models.TopicsListBySubscriptionResponse>
   - name: listBySubscription(ServiceCallback<TopicsListResult>)
     uid: '@azure/arm-eventgrid.Topics.listBySubscription_1|latest-stable'
@@ -438,8 +465,8 @@ methods:
       parameters:
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventgrid.TopicsListResult"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventgrid.TopicsListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -460,12 +487,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.TopicsListBySubscriptionOptionalParams" />
+            uid="@azure/arm-eventgrid.TopicsListBySubscriptionOptionalParams|latest-stable"
+            />
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventgrid.TopicsListResult"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventgrid.TopicsListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -486,12 +514,15 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="Models.TopicsListBySubscriptionNextOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.TopicsListBySubscriptionNextOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.TopicsListBySubscriptionNextResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.TopicsListBySubscriptionNextResponse|latest-stable" />&gt;
         description: Promise<Models.TopicsListBySubscriptionNextResponse>
   - name: listBySubscriptionNext(string, ServiceCallback<TopicsListResult>)
     uid: '@azure/arm-eventgrid.Topics.listBySubscriptionNext_1|latest-stable'
@@ -510,8 +541,8 @@ methods:
           description: The NextLink from the previous successful call to List operation.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventgrid.TopicsListResult"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventgrid.TopicsListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -535,13 +566,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.TopicsListBySubscriptionNextOptionalParams"
+            uid="@azure/arm-eventgrid.TopicsListBySubscriptionNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventgrid.TopicsListResult"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventgrid.TopicsListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listEventTypes(string, string, string, string, msRest.RequestOptionsBase)
@@ -570,10 +601,12 @@ methods:
           type: string
           description: Name of the topic.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TopicsListEventTypesResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.TopicsListEventTypesResponse|latest-stable" />&gt;
         description: Promise<Models.TopicsListEventTypesResponse>
   - name: >-
       listEventTypes(string, string, string, string, RequestOptionsBase,
@@ -608,7 +641,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventTypesListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventTypesListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -641,7 +674,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventTypesListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventTypesListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listSharedAccessKeys(string, string, msRest.RequestOptionsBase)
@@ -663,12 +696,12 @@ methods:
           type: string
           description: Name of the topic.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.TopicsListSharedAccessKeysResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.TopicsListSharedAccessKeysResponse|latest-stable" />&gt;
         description: Promise<Models.TopicsListSharedAccessKeysResponse>
   - name: >-
       listSharedAccessKeys(string, string, RequestOptionsBase,
@@ -697,7 +730,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.TopicSharedAccessKeys" />&gt;
+            uid="@azure/arm-eventgrid.TopicSharedAccessKeys|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -723,7 +757,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.TopicSharedAccessKeys" />&gt;
+            uid="@azure/arm-eventgrid.TopicSharedAccessKeys|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -748,13 +783,18 @@ methods:
           type: string
           description: Name of the topic.
         - id: regenerateKeyRequest
-          type: <xref uid="@azure/arm-eventgrid.TopicRegenerateKeyRequest" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.TopicRegenerateKeyRequest|latest-stable"
+            />
           description: Request body to regenerate key.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TopicsRegenerateKeyResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.TopicsRegenerateKeyResponse|latest-stable" />&gt;
         description: Promise<Models.TopicsRegenerateKeyResponse>
   - name: update(string, string, TopicUpdateParameters, msRest.RequestOptionsBase)
     uid: '@azure/arm-eventgrid.Topics.update|latest-stable'
@@ -776,11 +816,15 @@ methods:
           type: string
           description: Name of the topic.
         - id: topicUpdateParameters
-          type: <xref uid="@azure/arm-eventgrid.TopicUpdateParameters" />
+          type: >-
+            <xref uid="@azure/arm-eventgrid.TopicUpdateParameters|latest-stable"
+            />
           description: Topic update information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TopicsUpdateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.TopicsUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.TopicsUpdateResponse>

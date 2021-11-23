@@ -46,6 +46,6 @@ properties:
     syntax:
       content: 'rawResponse: RawResponse'
       return:
-        type: <xref uid="@azure/arm-storage.RawResponse" />
+        type: <xref uid="@azure/arm-storage.RawResponse|preview" />
         description: ''
-extends: <xref uid="@azure/arm-storage.LroResponse" />&lt;T&gt;
+extends: <xref uid="@azure/arm-storage.LroResponse|preview" />&lt;T&gt;

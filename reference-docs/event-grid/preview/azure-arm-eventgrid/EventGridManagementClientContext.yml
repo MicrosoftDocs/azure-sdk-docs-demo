@@ -37,7 +37,7 @@ constructors:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventGridManagementClientOptionalParams"
+            uid="@azure/arm-eventgrid.EventGridManagementClientOptionalParams|preview"
             />
           description: |
             The parameter options

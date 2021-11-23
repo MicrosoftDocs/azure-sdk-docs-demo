@@ -77,7 +77,7 @@ properties:
     syntax:
       content: 'lastEnqueuedEventProperties?: LastEnqueuedEventProperties'
       return:
-        type: <xref uid="@azure/event-hubs.LastEnqueuedEventProperties" />
+        type: <xref uid="@azure/event-hubs.LastEnqueuedEventProperties|preview" />
         description: ''
   - name: partitionId
     uid: '@azure/event-hubs.PartitionContext.partitionId|preview'
@@ -110,7 +110,7 @@ methods:
       content: 'function updateCheckpoint(eventData: ReceivedEventData)'
       parameters:
         - id: eventData
-          type: <xref uid="@azure/event-hubs.ReceivedEventData" />
+          type: <xref uid="@azure/event-hubs.ReceivedEventData|preview" />
           description: |
             The event that you want to update the checkpoint with.
       return:

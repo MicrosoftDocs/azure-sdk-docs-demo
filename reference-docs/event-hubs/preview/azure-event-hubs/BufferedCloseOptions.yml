@@ -56,4 +56,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/event-hubs.OperationOptions" />
+extends: <xref uid="@azure/event-hubs.OperationOptions|preview" />

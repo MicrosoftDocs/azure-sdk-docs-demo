@@ -21,7 +21,10 @@ properties:
     syntax:
       content: 'analyzeSentimentResults: AnalyzeSentimentActionResult[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.AnalyzeSentimentActionResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.AnalyzeSentimentActionResult|latest-stable"
+          />[]
         description: ''
   - name: extractKeyPhrasesResults
     uid: >-
@@ -36,7 +39,8 @@ properties:
       content: 'extractKeyPhrasesResults: ExtractKeyPhrasesActionResult[]'
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesActionResult"
+          <xref
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesActionResult|latest-stable"
           />[]
         description: ''
   - name: recognizeEntitiesResults
@@ -53,7 +57,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesActionResult"
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesActionResult|latest-stable"
           />[]
         description: ''
   - name: recognizeLinkedEntitiesResults
@@ -70,7 +74,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesActionResult"
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesActionResult|latest-stable"
           />[]
         description: ''
   - name: recognizePiiEntitiesResults
@@ -86,6 +90,7 @@ properties:
       content: 'recognizePiiEntitiesResults: RecognizePiiEntitiesActionResult[]'
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesActionResult"
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesActionResult|latest-stable"
           />[]
         description: ''

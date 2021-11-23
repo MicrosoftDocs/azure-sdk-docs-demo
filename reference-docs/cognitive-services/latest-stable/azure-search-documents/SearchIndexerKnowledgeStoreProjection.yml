@@ -23,7 +23,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/search-documents.SearchIndexerKnowledgeStoreFileProjectionSelector"
+          uid="@azure/search-documents.SearchIndexerKnowledgeStoreFileProjectionSelector|latest-stable"
           />[]
         description: ''
   - name: objects
@@ -40,7 +40,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/search-documents.SearchIndexerKnowledgeStoreObjectProjectionSelector"
+          uid="@azure/search-documents.SearchIndexerKnowledgeStoreObjectProjectionSelector|latest-stable"
           />[]
         description: ''
   - name: tables
@@ -57,6 +57,6 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/search-documents.SearchIndexerKnowledgeStoreTableProjectionSelector"
+          uid="@azure/search-documents.SearchIndexerKnowledgeStoreTableProjectionSelector|latest-stable"
           />[]
         description: ''

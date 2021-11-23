@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'name: SkuName'
       return:
-        type: <xref uid="@azure/arm-storage.SkuName" />
+        type: <xref uid="@azure/arm-storage.SkuName|latest-stable" />
         description: ''
   - name: tier
     uid: '@azure/arm-storage.Sku.tier|latest-stable'
@@ -37,5 +37,5 @@ properties:
     syntax:
       content: 'tier?: SkuTier'
       return:
-        type: <xref uid="@azure/arm-storage.SkuTier" />
+        type: <xref uid="@azure/arm-storage.SkuTier|latest-stable" />
         description: ''

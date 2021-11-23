@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'action?: Action'
       return:
-        type: <xref uid="@azure/arm-storage.Action" />
+        type: <xref uid="@azure/arm-storage.Action|latest-stable" />
         description: ''
   - name: iPAddressOrRange
     uid: '@azure/arm-storage.IPRule.iPAddressOrRange|latest-stable'

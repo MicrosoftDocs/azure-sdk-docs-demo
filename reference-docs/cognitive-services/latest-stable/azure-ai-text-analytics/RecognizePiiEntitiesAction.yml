@@ -37,7 +37,9 @@ properties:
     syntax:
       content: 'categoriesFilter?: PiiEntityCategory[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.PiiEntityCategory" />[]
+        type: >-
+          <xref uid="@azure/ai-text-analytics.PiiEntityCategory|latest-stable"
+          />[]
         description: ''
   - name: disableServiceLogs
     uid: >-
@@ -79,7 +81,7 @@ properties:
     syntax:
       content: 'domainFilter?: PiiEntityDomain'
       return:
-        type: <xref uid="@azure/ai-text-analytics.PiiEntityDomain" />
+        type: <xref uid="@azure/ai-text-analytics.PiiEntityDomain|latest-stable" />
         description: ''
   - name: modelVersion
     uid: >-
@@ -116,6 +118,6 @@ properties:
     syntax:
       content: 'stringIndexType?: StringIndexType'
       return:
-        type: <xref uid="@azure/ai-text-analytics.StringIndexType" />
+        type: <xref uid="@azure/ai-text-analytics.StringIndexType|latest-stable" />
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsAction" />
+extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsAction|latest-stable" />

@@ -59,7 +59,7 @@ properties:
     syntax:
       content: 'properties: ShareProperties'
       return:
-        type: <xref uid="@azure/storage-file-share.ShareProperties" />
+        type: <xref uid="@azure/storage-file-share.ShareProperties|preview" />
         description: ''
   - name: snapshot
     uid: '@azure/storage-file-share.ShareItem.snapshot|preview'

@@ -112,4 +112,6 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.FileSystemCreateHeaders" /> & Object
+extends: >-
+  <xref uid="@azure/storage-file-datalake.FileSystemCreateHeaders|preview" /> &
+  Object

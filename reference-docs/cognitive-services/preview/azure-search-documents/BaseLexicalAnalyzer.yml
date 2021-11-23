@@ -43,8 +43,8 @@ properties:
         "#Microsoft.Azure.Search.StopAnalyzer"
       return:
         type: >-
-          "#<xref uid="Microsoft.Azure.Search.CustomAnalyzer" />" | "#<xref
-          uid="Microsoft.Azure.Search.PatternAnalyzer" />" | "#<xref
-          uid="Microsoft.Azure.Search.StandardAnalyzer" />" | "#<xref
-          uid="Microsoft.Azure.Search.StopAnalyzer" />"
+          "#<xref uid="Microsoft.Azure.Search.CustomAnalyzer|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.PatternAnalyzer|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.StandardAnalyzer|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.StopAnalyzer|preview" />"
         description: ''

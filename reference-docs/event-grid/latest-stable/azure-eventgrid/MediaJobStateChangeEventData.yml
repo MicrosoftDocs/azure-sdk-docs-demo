@@ -40,7 +40,7 @@ properties:
     syntax:
       content: 'previousState: MediaJobState'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobState" />
+        type: <xref uid="@azure/eventgrid.MediaJobState|latest-stable" />
         description: ''
   - name: state
     uid: '@azure/eventgrid.MediaJobStateChangeEventData.state|latest-stable'
@@ -57,5 +57,5 @@ properties:
     syntax:
       content: 'state: MediaJobState'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobState" />
+        type: <xref uid="@azure/eventgrid.MediaJobState|latest-stable" />
         description: ''

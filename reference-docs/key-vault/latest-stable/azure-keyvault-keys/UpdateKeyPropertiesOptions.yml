@@ -61,7 +61,7 @@ properties:
     syntax:
       content: 'keyOps?: KeyOperation[]'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyOperation" />[]
+        type: <xref uid="@azure/keyvault-keys.KeyOperation|latest-stable" />[]
         description: ''
   - name: notBefore
     uid: '@azure/keyvault-keys.UpdateKeyPropertiesOptions.notBefore|latest-stable'

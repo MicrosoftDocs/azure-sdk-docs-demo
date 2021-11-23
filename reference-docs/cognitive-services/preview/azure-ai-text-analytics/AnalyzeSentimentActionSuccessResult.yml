@@ -62,6 +62,10 @@ properties:
     syntax:
       content: 'results: AnalyzeSentimentResultArray'
       return:
-        type: <xref uid="@azure/ai-text-analytics.AnalyzeSentimentResultArray" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.AnalyzeSentimentResultArray|preview" />
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsActionSuccessState" />
+extends: >-
+  <xref uid="@azure/ai-text-analytics.TextAnalyticsActionSuccessState|preview"
+  />

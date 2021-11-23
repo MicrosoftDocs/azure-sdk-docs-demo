@@ -26,5 +26,5 @@ properties:
     syntax:
       content: 'results: IndexingResult[]'
       return:
-        type: <xref uid="@azure/search-documents.IndexingResult" />[]
+        type: <xref uid="@azure/search-documents.IndexingResult|preview" />[]
         description: ''

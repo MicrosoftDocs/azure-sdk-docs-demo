@@ -27,7 +27,7 @@ properties:
     syntax:
       content: 'answers?: AnswerResult[]'
       return:
-        type: <xref uid="@azure/search-documents.AnswerResult" />[]
+        type: <xref uid="@azure/search-documents.AnswerResult|preview" />[]
         description: ''
   - name: count
     uid: '@azure/search-documents.SearchDocumentsResultBase.count|preview'

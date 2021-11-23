@@ -45,8 +45,8 @@ properties:
       content: 'conditions?: LeaseAccessConditions & TagConditions'
       return:
         type: >-
-          <xref uid="@azure/storage-blob.LeaseAccessConditions" /> & <xref
-          uid="@azure/storage-blob.TagConditions" />
+          <xref uid="@azure/storage-blob.LeaseAccessConditions|preview" /> &
+          <xref uid="@azure/storage-blob.TagConditions|preview" />
         description: ''
   - name: tracingOptions
     uid: '@azure/storage-blob.BlockBlobGetBlockListOptions.tracingOptions|preview'
@@ -61,4 +61,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|preview" />

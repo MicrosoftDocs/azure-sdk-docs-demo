@@ -35,7 +35,8 @@ properties:
       return:
         type: >-
           Record&lt;string, <xref
-          uid="@azure/ai-form-recognizer.CustomFormModelField" />&gt;
+          uid="@azure/ai-form-recognizer.CustomFormModelField|latest-stable"
+          />&gt;
         description: ''
   - name: formType
     uid: '@azure/ai-form-recognizer.CustomFormSubmodel.formType|latest-stable'

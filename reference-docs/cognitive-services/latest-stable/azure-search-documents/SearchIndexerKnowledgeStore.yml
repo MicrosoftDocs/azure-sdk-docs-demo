@@ -25,7 +25,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/search-documents.SearchIndexerKnowledgeStoreProjection"
+          uid="@azure/search-documents.SearchIndexerKnowledgeStoreProjection|latest-stable"
           />[]
         description: ''
   - name: storageConnectionString

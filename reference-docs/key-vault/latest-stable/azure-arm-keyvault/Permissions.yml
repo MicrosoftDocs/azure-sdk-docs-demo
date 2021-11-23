@@ -20,7 +20,9 @@ properties:
     syntax:
       content: 'certificates?: CertificatePermissions[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.CertificatePermissions" />[]
+        type: >-
+          <xref uid="@azure/arm-keyvault.CertificatePermissions|latest-stable"
+          />[]
         description: ''
   - name: keys
     uid: '@azure/arm-keyvault.Permissions.keys|latest-stable'
@@ -33,7 +35,7 @@ properties:
     syntax:
       content: 'keys?: KeyPermissions[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.KeyPermissions" />[]
+        type: <xref uid="@azure/arm-keyvault.KeyPermissions|latest-stable" />[]
         description: ''
   - name: secrets
     uid: '@azure/arm-keyvault.Permissions.secrets|latest-stable'
@@ -46,7 +48,7 @@ properties:
     syntax:
       content: 'secrets?: SecretPermissions[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.SecretPermissions" />[]
+        type: <xref uid="@azure/arm-keyvault.SecretPermissions|latest-stable" />[]
         description: ''
   - name: storage
     uid: '@azure/arm-keyvault.Permissions.storage|latest-stable'
@@ -59,5 +61,5 @@ properties:
     syntax:
       content: 'storage?: StoragePermissions[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.StoragePermissions" />[]
+        type: <xref uid="@azure/arm-keyvault.StoragePermissions|latest-stable" />[]
         description: ''

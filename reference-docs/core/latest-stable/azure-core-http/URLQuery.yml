@@ -67,7 +67,7 @@ methods:
           type: string
           description: ''
       return:
-        type: <xref uid="@azure/core-http.URLQuery" />
+        type: <xref uid="@azure/core-http.URLQuery|latest-stable" />
         description: ''
   - name: set(string, unknown)
     uid: '@azure/core-http.URLQuery.set|latest-stable'

@@ -22,7 +22,7 @@ constructors:
         - id: client
           type: >-
             <xref
-            uid="@azure/arm-cognitiveservices.CognitiveServicesManagementClientContext"
+            uid="@azure/arm-cognitiveservices.CognitiveServicesManagementClientContext|latest-stable"
             />
           description: |
             Reference to the service client.
@@ -56,10 +56,10 @@ methods:
             The name of the deployment associated with the Cognitive Services
             Account
         - id: deployment
-          type: <xref uid="@azure/arm-cognitiveservices.Deployment" />
+          type: <xref uid="@azure/arm-cognitiveservices.Deployment|latest-stable" />
           description: The deployment properties.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -90,7 +90,7 @@ methods:
             The name of the deployment associated with the Cognitive Services
             Account
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -124,13 +124,15 @@ methods:
             The name of the deployment associated with the Cognitive Services
             Account
         - id: deployment
-          type: <xref uid="@azure/arm-cognitiveservices.Deployment" />
+          type: <xref uid="@azure/arm-cognitiveservices.Deployment|latest-stable" />
           description: The deployment properties.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.DeploymentsCreateOrUpdateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.DeploymentsCreateOrUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.DeploymentsCreateOrUpdateResponse>
   - name: deleteMethod(string, string, string, msRest.RequestOptionsBase)
     uid: '@azure/arm-cognitiveservices.Deployments.deleteMethod|latest-stable'
@@ -158,7 +160,7 @@ methods:
             The name of the deployment associated with the Cognitive Services
             Account
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -189,10 +191,12 @@ methods:
             The name of the deployment associated with the Cognitive Services
             Account
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.DeploymentsGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.DeploymentsGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DeploymentsGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -226,7 +230,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.Deployment" />&gt;
+            uid="@azure/arm-cognitiveservices.Deployment|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, string, ServiceCallback<Deployment>)
@@ -255,7 +259,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.Deployment" />&gt;
+            uid="@azure/arm-cognitiveservices.Deployment|latest-stable" />&gt;
           description: |
             The callback
   - name: list(string, string, msRest.RequestOptionsBase)
@@ -277,10 +281,12 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.DeploymentsListResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.DeploymentsListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DeploymentsListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -308,7 +314,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.DeploymentListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.DeploymentListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: list(string, string, ServiceCallback<DeploymentListResult>)
@@ -332,7 +339,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.DeploymentListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.DeploymentListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, msRest.RequestOptionsBase)
@@ -351,10 +359,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.DeploymentsListNextResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.DeploymentsListNextResponse|latest-stable" />&gt;
         description: Promise<Models.DeploymentsListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,
@@ -379,7 +389,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.DeploymentListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.DeploymentListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, ServiceCallback<DeploymentListResult>)
@@ -400,6 +411,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.DeploymentListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.DeploymentListResult|latest-stable"
+            />&gt;
           description: |
             The callback

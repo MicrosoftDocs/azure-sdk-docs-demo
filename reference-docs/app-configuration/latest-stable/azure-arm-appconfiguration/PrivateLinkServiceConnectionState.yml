@@ -28,7 +28,9 @@ properties:
     syntax:
       content: 'actionsRequired?: ActionsRequired'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ActionsRequired" />
+        type: >-
+          <xref uid="@azure/arm-appconfiguration.ActionsRequired|latest-stable"
+          />
         description: ''
   - name: description
     uid: >-
@@ -60,5 +62,7 @@ properties:
     syntax:
       content: 'status?: ConnectionStatus'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ConnectionStatus" />
+        type: >-
+          <xref uid="@azure/arm-appconfiguration.ConnectionStatus|latest-stable"
+          />
         description: ''

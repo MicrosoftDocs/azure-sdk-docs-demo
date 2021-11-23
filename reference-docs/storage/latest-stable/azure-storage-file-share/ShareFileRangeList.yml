@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'clearRanges?: ClearRange[]'
       return:
-        type: <xref uid="@azure/storage-file-share.ClearRange" />[]
+        type: <xref uid="@azure/storage-file-share.ClearRange|latest-stable" />[]
         description: ''
   - name: ranges
     uid: '@azure/storage-file-share.ShareFileRangeList.ranges|latest-stable'
@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'ranges?: RangeModel[]'
       return:
-        type: <xref uid="@azure/storage-file-share.RangeModel" />[]
+        type: <xref uid="@azure/storage-file-share.RangeModel|latest-stable" />[]
         description: ''

@@ -95,7 +95,9 @@ properties:
     syntax:
       content: 'statistics?: TextDocumentBatchStatistics'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextDocumentBatchStatistics" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TextDocumentBatchStatistics|preview" />
         description: ''
 methods:
   - name: at(number)
@@ -116,8 +118,9 @@ methods:
           description: ''
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" /> |
-          undefined
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview" />
+          | undefined
         description: ''
   - name: concat(ConcatArray<SingleCategoryClassifyResult>[])
     uid: '@azure/ai-text-analytics.SingleCategoryClassifyResultArray.concat|preview'
@@ -132,11 +135,15 @@ methods:
         - id: items
           type: >-
             ConcatArray&lt;<xref
-            uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />&gt;[]
+            uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
+            />&gt;[]
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
+          />[]
         description: ''
   - name: concat(T | ConcatArray<T>[])
     uid: >-
@@ -154,7 +161,10 @@ methods:
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
+          />[]
         description: ''
   - name: copyWithin(number, number, number)
     uid: >-
@@ -252,7 +262,10 @@ methods:
         number)
       parameters:
         - id: value
-          type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
+            />
           description: value to fill array section with
         - id: start
           type: number
@@ -304,7 +317,10 @@ methods:
             function. If thisArg is omitted, undefined is used as the this
             value.
       return:
-        type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
+          />[]
         description: ''
   - name: >-
       filter<S>((value: SingleCategoryClassifyResult, index: number, array:
@@ -364,8 +380,9 @@ methods:
           description: ''
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" /> |
-          undefined
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview" />
+          | undefined
         description: ''
   - name: >-
       find<S>((this: void, value: SingleCategoryClassifyResult, index: number,
@@ -752,7 +769,10 @@ methods:
         fromIndex?: number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
+            />
           description: The element to search for.
         - id: fromIndex
           type: number
@@ -775,7 +795,10 @@ methods:
         fromIndex?: number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
+            />
           description: The value to locate in the array.
         - id: fromIndex
           type: number
@@ -832,7 +855,10 @@ methods:
         fromIndex?: number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
+            />
           description: The value to locate in the array.
         - id: fromIndex
           type: number
@@ -885,8 +911,9 @@ methods:
       content: function pop()
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" /> |
-          undefined
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview" />
+          | undefined
         description: ''
   - name: push(SingleCategoryClassifyResult[])
     uid: '@azure/ai-text-analytics.SingleCategoryClassifyResultArray.push|preview'
@@ -900,7 +927,8 @@ methods:
       parameters:
         - id: items
           type: >-
-            <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult"
+            <xref
+            uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
             />[]
           description: |
             New elements of the Array.
@@ -937,7 +965,9 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview" />
         description: ''
   - name: >-
       reduce((previousValue: SingleCategoryClassifyResult, currentValue:
@@ -966,10 +996,15 @@ methods:
             SingleCategoryClassifyResult[]) =&gt; SingleCategoryClassifyResult
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
+            />
           description: ''
       return:
-        type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview" />
         description: ''
   - name: >-
       reduce<U>((previousValue: U, currentValue: SingleCategoryClassifyResult,
@@ -1039,7 +1074,9 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview" />
         description: ''
   - name: >-
       reduceRight((previousValue: SingleCategoryClassifyResult, currentValue:
@@ -1068,10 +1105,15 @@ methods:
             SingleCategoryClassifyResult[]) =&gt; SingleCategoryClassifyResult
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
+            />
           description: ''
       return:
-        type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview" />
         description: ''
   - name: >-
       reduceRight<U>((previousValue: U, currentValue:
@@ -1121,7 +1163,10 @@ methods:
     syntax:
       content: function reverse()
       return:
-        type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
+          />[]
         description: ''
   - name: shift()
     uid: '@azure/ai-text-analytics.SingleCategoryClassifyResultArray.shift|preview'
@@ -1134,8 +1179,9 @@ methods:
       content: function shift()
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" /> |
-          undefined
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview" />
+          | undefined
         description: ''
   - name: slice(number, number)
     uid: '@azure/ai-text-analytics.SingleCategoryClassifyResultArray.slice|preview'
@@ -1155,7 +1201,10 @@ methods:
           description: |
             The end of the specified portion of the array.
       return:
-        type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
+          />[]
         description: ''
   - name: >-
       some((value: SingleCategoryClassifyResult, index: number, array:
@@ -1238,7 +1287,10 @@ methods:
           description: |
             The number of elements to remove.
       return:
-        type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
+          />[]
         description: ''
   - name: splice(number, number, SingleCategoryClassifyResult[])
     uid: >-
@@ -1265,12 +1317,16 @@ methods:
           description: The number of elements to remove.
         - id: items
           type: >-
-            <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult"
+            <xref
+            uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
             />[]
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
-        type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
+          />[]
         description: ''
   - name: toLocaleString()
     uid: >-
@@ -1312,7 +1368,8 @@ methods:
       parameters:
         - id: items
           type: >-
-            <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult"
+            <xref
+            uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
             />[]
           description: |
             Elements to insert at the start of the Array.
@@ -1331,8 +1388,9 @@ methods:
       return:
         type: >-
           IterableIterator&lt;<xref
-          uid="@azure/ai-text-analytics.SingleCategoryClassifyResult" />&gt;
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview"
+          />&gt;
         description: ''
 extends: >-
-  Array&lt;<xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResult"
-  />&gt;
+  Array&lt;<xref
+  uid="@azure/ai-text-analytics.SingleCategoryClassifyResult|preview" />&gt;

@@ -40,7 +40,7 @@ properties:
     syntax:
       content: 'conditions?: BlobRequestConditions'
       return:
-        type: <xref uid="@azure/storage-blob.BlobRequestConditions" />
+        type: <xref uid="@azure/storage-blob.BlobRequestConditions|latest-stable" />
         description: ''
   - name: customerProvidedKey
     uid: >-
@@ -54,7 +54,7 @@ properties:
     syntax:
       content: 'customerProvidedKey?: CpkInfo'
       return:
-        type: <xref uid="@azure/storage-blob.CpkInfo" />
+        type: <xref uid="@azure/storage-blob.CpkInfo|latest-stable" />
         description: ''
   - name: inputTextConfiguration
     uid: >-
@@ -71,9 +71,13 @@ properties:
         BlobQueryCsvTextConfiguration | BlobQueryParquetConfiguration
       return:
         type: >-
-          <xref uid="@azure/storage-blob.BlobQueryJsonTextConfiguration" /> |
-          <xref uid="@azure/storage-blob.BlobQueryCsvTextConfiguration" /> |
-          <xref uid="@azure/storage-blob.BlobQueryParquetConfiguration" />
+          <xref
+          uid="@azure/storage-blob.BlobQueryJsonTextConfiguration|latest-stable"
+          /> | <xref
+          uid="@azure/storage-blob.BlobQueryCsvTextConfiguration|latest-stable"
+          /> | <xref
+          uid="@azure/storage-blob.BlobQueryParquetConfiguration|latest-stable"
+          />
         description: ''
   - name: onError
     uid: '@azure/storage-blob.BlockBlobQueryOptions.onError|latest-stable'
@@ -116,9 +120,12 @@ properties:
         BlobQueryCsvTextConfiguration | BlobQueryArrowConfiguration
       return:
         type: >-
-          <xref uid="@azure/storage-blob.BlobQueryJsonTextConfiguration" /> |
-          <xref uid="@azure/storage-blob.BlobQueryCsvTextConfiguration" /> |
-          <xref uid="@azure/storage-blob.BlobQueryArrowConfiguration" />
+          <xref
+          uid="@azure/storage-blob.BlobQueryJsonTextConfiguration|latest-stable"
+          /> | <xref
+          uid="@azure/storage-blob.BlobQueryCsvTextConfiguration|latest-stable"
+          /> | <xref
+          uid="@azure/storage-blob.BlobQueryArrowConfiguration|latest-stable" />
         description: ''
   - name: tracingOptions
     uid: '@azure/storage-blob.BlockBlobQueryOptions.tracingOptions|latest-stable'
@@ -133,4 +140,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|latest-stable" />

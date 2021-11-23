@@ -19,7 +19,7 @@ methods:
     syntax:
       content: function clone()
       return:
-        type: <xref uid="@azure/core-http.HttpHeadersLike" />
+        type: <xref uid="@azure/core-http.HttpHeadersLike|latest-stable" />
         description: ''
   - name: contains(string)
     uid: '@azure/core-http.HttpHeadersLike.contains|latest-stable'
@@ -82,7 +82,7 @@ methods:
     syntax:
       content: function headersArray()
       return:
-        type: <xref uid="@azure/core-http.HttpHeader" />[]
+        type: <xref uid="@azure/core-http.HttpHeader|latest-stable" />[]
         description: ''
   - name: headerValues()
     uid: '@azure/core-http.HttpHeadersLike.headerValues|latest-stable'
@@ -106,7 +106,7 @@ methods:
     syntax:
       content: function rawHeaders()
       return:
-        type: <xref uid="@azure/core-http.RawHttpHeaders" />
+        type: <xref uid="@azure/core-http.RawHttpHeaders|latest-stable" />
         description: ''
   - name: remove(string)
     uid: '@azure/core-http.HttpHeadersLike.remove|latest-stable'
@@ -162,5 +162,5 @@ methods:
     syntax:
       content: function toJson()
       return:
-        type: <xref uid="@azure/core-http.RawHttpHeaders" />
+        type: <xref uid="@azure/core-http.RawHttpHeaders|latest-stable" />
         description: ''

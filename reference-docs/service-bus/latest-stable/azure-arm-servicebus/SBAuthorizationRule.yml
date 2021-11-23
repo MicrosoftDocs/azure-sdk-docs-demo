@@ -54,7 +54,7 @@ properties:
     syntax:
       content: 'rights: AccessRights[]'
       return:
-        type: <xref uid="@azure/arm-servicebus.AccessRights" />[]
+        type: <xref uid="@azure/arm-servicebus.AccessRights|latest-stable" />[]
         description: ''
   - name: type
     uid: '@azure/arm-servicebus.SBAuthorizationRule.type|latest-stable'
@@ -73,4 +73,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-servicebus.Resource" />
+extends: <xref uid="@azure/arm-servicebus.Resource|latest-stable" />

@@ -22,5 +22,7 @@ properties:
     syntax:
       content: 'filters: BlobInventoryPolicyFilter'
       return:
-        type: <xref uid="@azure/arm-storage.BlobInventoryPolicyFilter" />
+        type: >-
+          <xref uid="@azure/arm-storage.BlobInventoryPolicyFilter|latest-stable"
+          />
         description: ''

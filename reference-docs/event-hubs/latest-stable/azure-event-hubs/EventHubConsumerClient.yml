@@ -73,7 +73,7 @@ constructors:
             e.g.
             'Endpoint=sb://my-servicebus-namespace.servicebus.windows.net/;SharedAccessKeyName=my-SA-name;SharedAccessKey=my-SA-key;EntityPath=my-event-hub-name'.
         - id: checkpointStore
-          type: <xref uid="@azure/event-hubs.CheckpointStore" />
+          type: <xref uid="@azure/event-hubs.CheckpointStore|latest-stable" />
           description: >-
             A checkpoint store that is used by the client to read checkpoints to
             determine
@@ -84,7 +84,10 @@ constructors:
             It is also used by the client to load balance multiple instances of
             your application.
         - id: options
-          type: <xref uid="@azure/event-hubs.EventHubConsumerClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/event-hubs.EventHubConsumerClientOptions|latest-stable"
+            />
           description: >
             A set of options to apply when configuring the client.
 
@@ -132,7 +135,10 @@ constructors:
             e.g.
             'Endpoint=sb://my-servicebus-namespace.servicebus.windows.net/;SharedAccessKeyName=my-SA-name;SharedAccessKey=my-SA-key;EntityPath=my-event-hub-name'.
         - id: options
-          type: <xref uid="@azure/event-hubs.EventHubConsumerClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/event-hubs.EventHubConsumerClientOptions|latest-stable"
+            />
           description: >
             A set of options to apply when configuring the client.
 
@@ -186,7 +192,7 @@ constructors:
           type: string
           description: The name of the specific Event Hub to connect the client to.
         - id: checkpointStore
-          type: <xref uid="@azure/event-hubs.CheckpointStore" />
+          type: <xref uid="@azure/event-hubs.CheckpointStore|latest-stable" />
           description: >-
             A checkpoint store that is used by the client to read checkpoints to
             determine
@@ -197,7 +203,10 @@ constructors:
             It is also used by the client to load balance multiple instances of
             your application.
         - id: options
-          type: <xref uid="@azure/event-hubs.EventHubConsumerClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/event-hubs.EventHubConsumerClientOptions|latest-stable"
+            />
           description: >
             A set of options to apply when configuring the client.
 
@@ -250,7 +259,10 @@ constructors:
           type: string
           description: The name of the specific Event Hub to connect the client to.
         - id: options
-          type: <xref uid="@azure/event-hubs.EventHubConsumerClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/event-hubs.EventHubConsumerClientOptions|latest-stable"
+            />
           description: >
             A set of options to apply when configuring the client.
 
@@ -324,7 +336,7 @@ constructors:
             without using a connection string. This field maps to `signature` in
             `AzureSASCredential`.
         - id: checkpointStore
-          type: <xref uid="@azure/event-hubs.CheckpointStore" />
+          type: <xref uid="@azure/event-hubs.CheckpointStore|latest-stable" />
           description: >-
             A checkpoint store that is used by the client to read checkpoints to
             determine
@@ -335,7 +347,10 @@ constructors:
             It is also used by the client to load balance multiple instances of
             your application.
         - id: options
-          type: <xref uid="@azure/event-hubs.EventHubConsumerClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/event-hubs.EventHubConsumerClientOptions|latest-stable"
+            />
           description: >
             A set of options to apply when configuring the client.
 
@@ -408,7 +423,10 @@ constructors:
             without using a connection string. This field maps to `signature` in
             `AzureSASCredential`.
         - id: options
-          type: <xref uid="@azure/event-hubs.EventHubConsumerClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/event-hubs.EventHubConsumerClientOptions|latest-stable"
+            />
           description: >
             A set of options to apply when configuring the client.
 
@@ -492,10 +510,15 @@ methods:
       content: 'function getEventHubProperties(options?: GetEventHubPropertiesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/event-hubs.GetEventHubPropertiesOptions" />
+          type: >-
+            <xref
+            uid="@azure/event-hubs.GetEventHubPropertiesOptions|latest-stable"
+            />
           description: The set of options to apply to the operation call.
       return:
-        type: Promise&lt;<xref uid="@azure/event-hubs.EventHubProperties" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/event-hubs.EventHubProperties|latest-stable" />&gt;
         description: A promise that resolves with information about the Event Hub instance.
   - name: getPartitionIds(GetPartitionIdsOptions)
     uid: '@azure/event-hubs.EventHubConsumerClient.getPartitionIds|latest-stable'
@@ -508,7 +531,9 @@ methods:
       content: 'function getPartitionIds(options?: GetPartitionIdsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/event-hubs.GetPartitionIdsOptions" />
+          type: >-
+            <xref uid="@azure/event-hubs.GetPartitionIdsOptions|latest-stable"
+            />
           description: The set of options to apply to the operation call.
       return:
         type: Promise&lt;Array&lt;string&gt;&gt;
@@ -534,10 +559,15 @@ methods:
           type: string
           description: The id of the partition for which information is required.
         - id: options
-          type: <xref uid="@azure/event-hubs.GetPartitionPropertiesOptions" />
+          type: >-
+            <xref
+            uid="@azure/event-hubs.GetPartitionPropertiesOptions|latest-stable"
+            />
           description: The set of options to apply to the operation call.
       return:
-        type: Promise&lt;<xref uid="@azure/event-hubs.PartitionProperties" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/event-hubs.PartitionProperties|latest-stable" />&gt;
         description: >-
           A promise that resolves with information about the state of the
           partition .
@@ -578,14 +608,16 @@ methods:
           type: string
           description: The id of the partition to subscribe to.
         - id: handlers
-          type: <xref uid="@azure/event-hubs.SubscriptionEventHandlers" />
+          type: >-
+            <xref
+            uid="@azure/event-hubs.SubscriptionEventHandlers|latest-stable" />
           description: >-
             Handlers for the lifecycle of the subscription - subscription
             initialization
                             of the partition, receiving events, handling errors and the closing
                             of a subscription to the partition.
         - id: options
-          type: <xref uid="@azure/event-hubs.SubscribeOptions" />
+          type: <xref uid="@azure/event-hubs.SubscribeOptions|latest-stable" />
           description: >
             Configures the way events are received.
 
@@ -598,7 +630,7 @@ methods:
             `{ maxBatchSize: 20, maxWaitTimeInSeconds: 120, startPosition: {
             sequenceNumber: 123 } }`
       return:
-        type: <xref uid="@azure/event-hubs.Subscription" />
+        type: <xref uid="@azure/event-hubs.Subscription|latest-stable" />
         description: ''
   - name: subscribe(SubscriptionEventHandlers, SubscribeOptions)
     uid: '@azure/event-hubs.EventHubConsumerClient.subscribe|latest-stable'
@@ -643,14 +675,16 @@ methods:
         SubscribeOptions)
       parameters:
         - id: handlers
-          type: <xref uid="@azure/event-hubs.SubscriptionEventHandlers" />
+          type: >-
+            <xref
+            uid="@azure/event-hubs.SubscriptionEventHandlers|latest-stable" />
           description: >-
             Handlers for the lifecycle of the subscription - subscription
             initialization
                             per partition, receiving events, handling errors and the closing
                             of a subscription per partition.
         - id: options
-          type: <xref uid="@azure/event-hubs.SubscribeOptions" />
+          type: <xref uid="@azure/event-hubs.SubscribeOptions|latest-stable" />
           description: >
             Configures the way events are received.
 
@@ -663,5 +697,5 @@ methods:
             `{ maxBatchSize: 20, maxWaitTimeInSeconds: 120, startPosition: {
             sequenceNumber: 123 } }`
       return:
-        type: <xref uid="@azure/event-hubs.Subscription" />
+        type: <xref uid="@azure/event-hubs.Subscription|latest-stable" />
         description: ''

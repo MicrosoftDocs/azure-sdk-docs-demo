@@ -38,5 +38,5 @@ properties:
     syntax:
       content: 'value?: ArmDisasterRecovery[]'
       return:
-        type: <xref uid="@azure/arm-servicebus.ArmDisasterRecovery" />[]
+        type: <xref uid="@azure/arm-servicebus.ArmDisasterRecovery|preview" />[]
         description: ''

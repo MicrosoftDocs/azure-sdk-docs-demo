@@ -30,7 +30,7 @@ constructors:
                                 "https://myaccount.blob.core.windows.net". You can append a SAS
                                 if using AnonymousCredential, such as "https://myaccount.blob.core.windows.net?sasString".
         - id: pipeline
-          type: <xref uid="@azure/storage-blob.PipelineLike" />
+          type: <xref uid="@azure/storage-blob.PipelineLike|preview" />
           description: |
             Call newPipeline() to create a default
                                        pipeline, or provide a customized pipeline.
@@ -57,9 +57,9 @@ constructors:
                                 if using AnonymousCredential, such as "https://myaccount.blob.core.windows.net?sasString".
         - id: credential
           type: >-
-            <xref uid="@azure/storage-blob.StorageSharedKeyCredential" /> |
-            <xref uid="@azure/storage-blob.AnonymousCredential" /> |
-            TokenCredential
+            <xref uid="@azure/storage-blob.StorageSharedKeyCredential|preview"
+            /> | <xref uid="@azure/storage-blob.AnonymousCredential|preview" />
+            | TokenCredential
           description: >-
             Such as AnonymousCredential, StorageSharedKeyCredential or any
             credential from the `@azure/identity` package to authenticate
@@ -67,7 +67,7 @@ constructors:
             implements the TokenCredential interface. If not specified,
             AnonymousCredential is used.
         - id: options
-          type: <xref uid="@azure/storage-blob.StoragePipelineOptions" />
+          type: <xref uid="@azure/storage-blob.StoragePipelineOptions|preview" />
           description: >
             Optional. Options to configure the HTTP pipeline.
 
@@ -140,8 +140,9 @@ properties:
         TokenCredential
       return:
         type: >-
-          <xref uid="@azure/storage-blob.StorageSharedKeyCredential" /> | <xref
-          uid="@azure/storage-blob.AnonymousCredential" /> | TokenCredential
+          <xref uid="@azure/storage-blob.StorageSharedKeyCredential|preview" />
+          | <xref uid="@azure/storage-blob.AnonymousCredential|preview" /> |
+          TokenCredential
         description: ''
   - name: url
     uid: '@azure/storage-blob.BlobServiceClient.url|preview'
@@ -173,7 +174,7 @@ methods:
           type: string
           description: Name of the container to create.
         - id: options
-          type: <xref uid="@azure/storage-blob.ContainerCreateOptions" />
+          type: <xref uid="@azure/storage-blob.ContainerCreateOptions|preview" />
           description: Options to configure Container Create operation.
       return:
         type: Promise&lt;Object&gt;
@@ -194,12 +195,14 @@ methods:
           type: string
           description: Name of the container to delete.
         - id: options
-          type: <xref uid="@azure/storage-blob.ContainerDeleteMethodOptions" />
+          type: >-
+            <xref uid="@azure/storage-blob.ContainerDeleteMethodOptions|preview"
+            />
           description: Options to configure Container Delete operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-blob.ContainerDeleteResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/storage-blob.ContainerDeleteResponse|preview" />&gt;
         description: Container deletion response.
   - name: findBlobsByTags(string, ServiceFindBlobByTagsOptions)
     uid: '@azure/storage-blob.BlobServiceClient.findBlobsByTags|preview'
@@ -225,14 +228,17 @@ methods:
                                                     The[OData - ABNF] filter syntax rule defines the formal grammar for the value of the where query parameter;
                                                     however, only a subset of the OData filter syntax is supported in the Blob service.
         - id: options
-          type: <xref uid="@azure/storage-blob.ServiceFindBlobByTagsOptions" />
+          type: >-
+            <xref uid="@azure/storage-blob.ServiceFindBlobByTagsOptions|preview"
+            />
           description: |
             Options to find blobs by tags.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/storage-blob.FilterBlobItem" />, <xref
-          uid="@azure/storage-blob.ServiceFindBlobsByTagsSegmentResponse" />&gt;
+          uid="@azure/storage-blob.FilterBlobItem|preview" />, <xref
+          uid="@azure/storage-blob.ServiceFindBlobsByTagsSegmentResponse|preview"
+          />&gt;
         description: ''
   - name: fromConnectionString(string, StoragePipelineOptions)
     uid: '@azure/storage-blob.BlobServiceClient.fromConnectionString|preview'
@@ -257,11 +263,11 @@ methods:
                                              SAS connection string example -
                                              `BlobEndpoint=https://myaccount.blob.core.windows.net/;QueueEndpoint=https://myaccount.queue.core.windows.net/;FileEndpoint=https://myaccount.file.core.windows.net/;TableEndpoint=https://myaccount.table.core.windows.net/;SharedAccessSignature=sasString`
         - id: options
-          type: <xref uid="@azure/storage-blob.StoragePipelineOptions" />
+          type: <xref uid="@azure/storage-blob.StoragePipelineOptions|preview" />
           description: |
             Optional. Options to configure the HTTP pipeline.
       return:
-        type: <xref uid="@azure/storage-blob.BlobServiceClient" />
+        type: <xref uid="@azure/storage-blob.BlobServiceClient|preview" />
         description: ''
   - name: >-
       generateAccountSasUrl(Date, AccountSASPermissions, string,
@@ -292,7 +298,7 @@ methods:
             Optional. The time at which the shared access signature becomes
             invalid. Default to an hour later if not provided.
         - id: permissions
-          type: <xref uid="@azure/storage-blob.AccountSASPermissions" />
+          type: <xref uid="@azure/storage-blob.AccountSASPermissions|preview" />
           description: Specifies the list of permissions to be associated with the SAS.
         - id: resourceTypes
           type: string
@@ -301,7 +307,8 @@ methods:
             signature.
         - id: options
           type: >-
-            <xref uid="@azure/storage-blob.ServiceGenerateAccountSasUrlOptions"
+            <xref
+            uid="@azure/storage-blob.ServiceGenerateAccountSasUrlOptions|preview"
             />
           description: Optional parameters.
       return:
@@ -329,12 +336,14 @@ methods:
       content: 'function getAccountInfo(options?: ServiceGetAccountInfoOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-blob.ServiceGetAccountInfoOptions" />
+          type: >-
+            <xref uid="@azure/storage-blob.ServiceGetAccountInfoOptions|preview"
+            />
           description: Options to the Service Get Account Info operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-blob.ServiceGetAccountInfoResponse" />&gt;
+          uid="@azure/storage-blob.ServiceGetAccountInfoResponse|preview" />&gt;
         description: Response data for the Service Get Account Info operation.
   - name: getBlobBatchClient()
     uid: '@azure/storage-blob.BlobServiceClient.getBlobBatchClient|preview'
@@ -346,7 +355,7 @@ methods:
     syntax:
       content: function getBlobBatchClient()
       return:
-        type: <xref uid="@azure/storage-blob.BlobBatchClient" />
+        type: <xref uid="@azure/storage-blob.BlobBatchClient|preview" />
         description: A new BlobBatchClient object for this service.
   - name: getContainerClient(string)
     uid: '@azure/storage-blob.BlobServiceClient.getContainerClient|preview'
@@ -362,7 +371,7 @@ methods:
           type: string
           description: A container name
       return:
-        type: <xref uid="@azure/storage-blob.ContainerClient" />
+        type: <xref uid="@azure/storage-blob.ContainerClient|preview" />
         description: >-
           A new ContainerClient object for the given container name.
 
@@ -391,12 +400,14 @@ methods:
       content: 'function getProperties(options?: ServiceGetPropertiesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-blob.ServiceGetPropertiesOptions" />
+          type: >-
+            <xref uid="@azure/storage-blob.ServiceGetPropertiesOptions|preview"
+            />
           description: Options to the Service Get Properties operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-blob.ServiceGetPropertiesResponse" />&gt;
+          uid="@azure/storage-blob.ServiceGetPropertiesResponse|preview" />&gt;
         description: Response data for the Service Get Properties operation.
   - name: getStatistics(ServiceGetStatisticsOptions)
     uid: '@azure/storage-blob.BlobServiceClient.getStatistics|preview'
@@ -416,12 +427,14 @@ methods:
       content: 'function getStatistics(options?: ServiceGetStatisticsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-blob.ServiceGetStatisticsOptions" />
+          type: >-
+            <xref uid="@azure/storage-blob.ServiceGetStatisticsOptions|preview"
+            />
           description: Options to the Service Get Statistics operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-blob.ServiceGetStatisticsResponse" />&gt;
+          uid="@azure/storage-blob.ServiceGetStatisticsResponse|preview" />&gt;
         description: Response data for the Service Get Statistics operation.
   - name: getUserDelegationKey(Date, Date, ServiceGetUserDelegationKeyOptions)
     uid: '@azure/storage-blob.BlobServiceClient.getUserDelegationKey|preview'
@@ -453,13 +466,15 @@ methods:
             the current time
         - id: options
           type: >-
-            <xref uid="@azure/storage-blob.ServiceGetUserDelegationKeyOptions"
+            <xref
+            uid="@azure/storage-blob.ServiceGetUserDelegationKeyOptions|preview"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-blob.ServiceGetUserDelegationKeyResponse" />&gt;
+          uid="@azure/storage-blob.ServiceGetUserDelegationKeyResponse|preview"
+          />&gt;
         description: ''
   - name: listContainers(ServiceListContainersOptions)
     uid: '@azure/storage-blob.BlobServiceClient.listContainers|preview'
@@ -577,13 +592,16 @@ methods:
       content: 'function listContainers(options?: ServiceListContainersOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-blob.ServiceListContainersOptions" />
+          type: >-
+            <xref uid="@azure/storage-blob.ServiceListContainersOptions|preview"
+            />
           description: Options to list containers.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/storage-blob.ContainerItem" />, <xref
-          uid="@azure/storage-blob.ServiceListContainersSegmentResponse" />&gt;
+          uid="@azure/storage-blob.ContainerItem|preview" />, <xref
+          uid="@azure/storage-blob.ServiceListContainersSegmentResponse|preview"
+          />&gt;
         description: An asyncIterableIterator that supports paging.
   - name: setProperties(BlobServiceProperties, ServiceSetPropertiesOptions)
     uid: '@azure/storage-blob.BlobServiceClient.setProperties|preview'
@@ -603,15 +621,17 @@ methods:
         ServiceSetPropertiesOptions)
       parameters:
         - id: properties
-          type: <xref uid="@azure/storage-blob.BlobServiceProperties" />
+          type: <xref uid="@azure/storage-blob.BlobServiceProperties|preview" />
           description: '-'
         - id: options
-          type: <xref uid="@azure/storage-blob.ServiceSetPropertiesOptions" />
+          type: >-
+            <xref uid="@azure/storage-blob.ServiceSetPropertiesOptions|preview"
+            />
           description: Options to the Service Set Properties operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-blob.ServiceSetPropertiesResponse" />&gt;
+          uid="@azure/storage-blob.ServiceSetPropertiesResponse|preview" />&gt;
         description: Response data for the Service Set Properties operation.
   - name: undeleteContainer(string, string, ServiceUndeleteContainerOptions)
     uid: '@azure/storage-blob.BlobServiceClient.undeleteContainer|preview'
@@ -639,9 +659,11 @@ methods:
             Version of the previously deleted container, used to uniquely
             identify the deleted container.
         - id: options
-          type: <xref uid="@azure/storage-blob.ServiceUndeleteContainerOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-blob.ServiceUndeleteContainerOptions|preview" />
           description: Options to configure Container Restore operation.
       return:
         type: Promise&lt;Object&gt;
         description: Container deletion response.
-extends: <xref uid="@azure/storage-blob.StorageClient" />
+extends: <xref uid="@azure/storage-blob.StorageClient|preview" />

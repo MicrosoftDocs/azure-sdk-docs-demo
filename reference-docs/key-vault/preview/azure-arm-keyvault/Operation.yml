@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'display?: OperationDisplay'
       return:
-        type: <xref uid="@azure/arm-keyvault.OperationDisplay" />
+        type: <xref uid="@azure/arm-keyvault.OperationDisplay|preview" />
         description: ''
   - name: isDataAction
     uid: '@azure/arm-keyvault.Operation.isDataAction|preview'
@@ -72,5 +72,5 @@ properties:
     syntax:
       content: 'serviceSpecification?: ServiceSpecification'
       return:
-        type: <xref uid="@azure/arm-keyvault.ServiceSpecification" />
+        type: <xref uid="@azure/arm-keyvault.ServiceSpecification|preview" />
         description: ''

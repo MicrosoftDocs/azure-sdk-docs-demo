@@ -72,7 +72,10 @@ properties:
     syntax:
       content: 'properties: BlobPropertiesModel'
       return:
-        type: <xref uid="@azure/storage-file-datalake.BlobPropertiesModel" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.BlobPropertiesModel|latest-stable"
+          />
         description: ''
   - name: snapshot
     uid: '@azure/storage-file-datalake.BlobItemModel.snapshot|latest-stable'

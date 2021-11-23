@@ -64,4 +64,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.ListDeletedPathsOptions" />
+extends: <xref uid="@azure/storage-file-datalake.ListDeletedPathsOptions|preview" />

@@ -40,7 +40,7 @@ properties:
     syntax:
       content: 'conditions?: BlobRequestConditions'
       return:
-        type: <xref uid="@azure/storage-blob.BlobRequestConditions" />
+        type: <xref uid="@azure/storage-blob.BlobRequestConditions|latest-stable" />
         description: ''
   - name: customerProvidedKey
     uid: >-
@@ -54,7 +54,7 @@ properties:
     syntax:
       content: 'customerProvidedKey?: CpkInfo'
       return:
-        type: <xref uid="@azure/storage-blob.CpkInfo" />
+        type: <xref uid="@azure/storage-blob.CpkInfo|latest-stable" />
         description: ''
   - name: deleteSnapshots
     uid: >-
@@ -71,7 +71,9 @@ properties:
     syntax:
       content: 'deleteSnapshots?: DeleteSnapshotsOptionType'
       return:
-        type: <xref uid="@azure/storage-blob.DeleteSnapshotsOptionType" />
+        type: >-
+          <xref
+          uid="@azure/storage-blob.DeleteSnapshotsOptionType|latest-stable" />
         description: ''
   - name: tracingOptions
     uid: >-
@@ -102,4 +104,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-blob.BlobDeleteOptions" />
+extends: <xref uid="@azure/storage-blob.BlobDeleteOptions|latest-stable" />

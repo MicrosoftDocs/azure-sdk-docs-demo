@@ -49,4 +49,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />
+extends: <xref uid="@azure/storage-file-datalake.CommonOptions|preview" />

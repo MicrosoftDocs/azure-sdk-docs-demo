@@ -53,7 +53,7 @@ properties:
     syntax:
       content: 'processClose?: ProcessCloseHandler'
       return:
-        type: <xref uid="@azure/event-hubs.ProcessCloseHandler" />
+        type: <xref uid="@azure/event-hubs.ProcessCloseHandler|preview" />
         description: ''
   - name: processError
     uid: '@azure/event-hubs.SubscriptionEventHandlers.processError|preview'
@@ -84,7 +84,7 @@ properties:
     syntax:
       content: 'processError: ProcessErrorHandler'
       return:
-        type: <xref uid="@azure/event-hubs.ProcessErrorHandler" />
+        type: <xref uid="@azure/event-hubs.ProcessErrorHandler|preview" />
         description: ''
   - name: processEvents
     uid: '@azure/event-hubs.SubscriptionEventHandlers.processEvents|preview'
@@ -122,7 +122,7 @@ properties:
     syntax:
       content: 'processEvents: ProcessEventsHandler'
       return:
-        type: <xref uid="@azure/event-hubs.ProcessEventsHandler" />
+        type: <xref uid="@azure/event-hubs.ProcessEventsHandler|preview" />
         description: ''
   - name: processInitialize
     uid: '@azure/event-hubs.SubscriptionEventHandlers.processInitialize|preview'
@@ -150,5 +150,5 @@ properties:
     syntax:
       content: 'processInitialize?: ProcessInitializeHandler'
       return:
-        type: <xref uid="@azure/event-hubs.ProcessInitializeHandler" />
+        type: <xref uid="@azure/event-hubs.ProcessInitializeHandler|preview" />
         description: ''

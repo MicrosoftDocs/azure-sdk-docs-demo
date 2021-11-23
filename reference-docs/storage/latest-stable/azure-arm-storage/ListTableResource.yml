@@ -72,7 +72,7 @@ methods:
           type: number
           description: ''
       return:
-        type: <xref uid="@azure/arm-storage.Table" /> | undefined
+        type: <xref uid="@azure/arm-storage.Table|latest-stable" /> | undefined
         description: ''
   - name: concat(ConcatArray<Table>[])
     uid: '@azure/arm-storage.ListTableResource.concat|latest-stable'
@@ -85,11 +85,13 @@ methods:
       content: 'function concat(items: ConcatArray<Table>[])'
       parameters:
         - id: items
-          type: ConcatArray&lt;<xref uid="@azure/arm-storage.Table" />&gt;[]
+          type: >-
+            ConcatArray&lt;<xref uid="@azure/arm-storage.Table|latest-stable"
+            />&gt;[]
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/arm-storage.Table" />[]
+        type: <xref uid="@azure/arm-storage.Table|latest-stable" />[]
         description: ''
   - name: concat(T | ConcatArray<T>[])
     uid: '@azure/arm-storage.ListTableResource.concat_1|latest-stable'
@@ -106,7 +108,7 @@ methods:
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/arm-storage.Table" />[]
+        type: <xref uid="@azure/arm-storage.Table|latest-stable" />[]
         description: ''
   - name: copyWithin(number, number, undefined | number)
     uid: '@azure/arm-storage.ListTableResource.copyWithin|latest-stable'
@@ -200,7 +202,7 @@ methods:
         | number)
       parameters:
         - id: value
-          type: <xref uid="@azure/arm-storage.Table" />
+          type: <xref uid="@azure/arm-storage.Table|latest-stable" />
           description: value to fill array section with
         - id: start
           type: undefined | number
@@ -246,7 +248,7 @@ methods:
             function. If thisArg is omitted, undefined is used as the this
             value.
       return:
-        type: <xref uid="@azure/arm-storage.Table" />[]
+        type: <xref uid="@azure/arm-storage.Table|latest-stable" />[]
         description: ''
   - name: 'filter<S>((value: Table, index: number, array: Table[]) => boolean, any)'
     uid: '@azure/arm-storage.ListTableResource.filter|latest-stable'
@@ -296,7 +298,7 @@ methods:
           type: any
           description: ''
       return:
-        type: <xref uid="@azure/arm-storage.Table" /> | undefined
+        type: <xref uid="@azure/arm-storage.Table|latest-stable" /> | undefined
         description: ''
   - name: >-
       find<S>((this: void, value: Table, index: number, obj: Table[]) =>
@@ -665,7 +667,7 @@ methods:
       content: 'function includes(searchElement: Table, fromIndex?: undefined | number)'
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-storage.Table" />
+          type: <xref uid="@azure/arm-storage.Table|latest-stable" />
           description: The element to search for.
         - id: fromIndex
           type: undefined | number
@@ -686,7 +688,7 @@ methods:
       content: 'function indexOf(searchElement: Table, fromIndex?: undefined | number)'
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-storage.Table" />
+          type: <xref uid="@azure/arm-storage.Table|latest-stable" />
           description: The value to locate in the array.
         - id: fromIndex
           type: undefined | number
@@ -742,7 +744,7 @@ methods:
         number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-storage.Table" />
+          type: <xref uid="@azure/arm-storage.Table|latest-stable" />
           description: The value to locate in the array.
         - id: fromIndex
           type: undefined | number
@@ -790,7 +792,7 @@ methods:
     syntax:
       content: function pop()
       return:
-        type: <xref uid="@azure/arm-storage.Table" /> | undefined
+        type: <xref uid="@azure/arm-storage.Table|latest-stable" /> | undefined
         description: ''
   - name: push(Table[])
     uid: '@azure/arm-storage.ListTableResource.push|latest-stable'
@@ -803,7 +805,7 @@ methods:
       content: 'function push(items: Table[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/arm-storage.Table" />[]
+          type: <xref uid="@azure/arm-storage.Table|latest-stable" />[]
           description: |
             New elements of the Array.
       return:
@@ -835,7 +837,7 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/arm-storage.Table" />
+        type: <xref uid="@azure/arm-storage.Table|latest-stable" />
         description: ''
   - name: >-
       reduce((previousValue: Table, currentValue: Table, currentIndex: number,
@@ -857,10 +859,10 @@ methods:
             array: Table[]) =&gt; Table
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/arm-storage.Table" />
+          type: <xref uid="@azure/arm-storage.Table|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/arm-storage.Table" />
+        type: <xref uid="@azure/arm-storage.Table|latest-stable" />
         description: ''
   - name: >-
       reduce<U>((previousValue: U, currentValue: Table, currentIndex: number,
@@ -923,7 +925,7 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/arm-storage.Table" />
+        type: <xref uid="@azure/arm-storage.Table|latest-stable" />
         description: ''
   - name: >-
       reduceRight((previousValue: Table, currentValue: Table, currentIndex:
@@ -946,10 +948,10 @@ methods:
             array: Table[]) =&gt; Table
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/arm-storage.Table" />
+          type: <xref uid="@azure/arm-storage.Table|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/arm-storage.Table" />
+        type: <xref uid="@azure/arm-storage.Table|latest-stable" />
         description: ''
   - name: >-
       reduceRight<U>((previousValue: U, currentValue: Table, currentIndex:
@@ -996,7 +998,7 @@ methods:
     syntax:
       content: function reverse()
       return:
-        type: <xref uid="@azure/arm-storage.Table" />[]
+        type: <xref uid="@azure/arm-storage.Table|latest-stable" />[]
         description: ''
   - name: shift()
     uid: '@azure/arm-storage.ListTableResource.shift|latest-stable'
@@ -1008,7 +1010,7 @@ methods:
     syntax:
       content: function shift()
       return:
-        type: <xref uid="@azure/arm-storage.Table" /> | undefined
+        type: <xref uid="@azure/arm-storage.Table|latest-stable" /> | undefined
         description: ''
   - name: slice(undefined | number, undefined | number)
     uid: '@azure/arm-storage.ListTableResource.slice|latest-stable'
@@ -1028,7 +1030,7 @@ methods:
           description: |
             The end of the specified portion of the array.
       return:
-        type: <xref uid="@azure/arm-storage.Table" />[]
+        type: <xref uid="@azure/arm-storage.Table|latest-stable" />[]
         description: ''
   - name: 'some((value: Table, index: number, array: Table[]) => unknown, any)'
     uid: '@azure/arm-storage.ListTableResource.some|latest-stable'
@@ -1099,11 +1101,11 @@ methods:
           type: number
           description: The number of elements to remove.
         - id: items
-          type: <xref uid="@azure/arm-storage.Table" />[]
+          type: <xref uid="@azure/arm-storage.Table|latest-stable" />[]
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
-        type: <xref uid="@azure/arm-storage.Table" />[]
+        type: <xref uid="@azure/arm-storage.Table|latest-stable" />[]
         description: ''
   - name: splice(number, undefined | number)
     uid: '@azure/arm-storage.ListTableResource.splice|latest-stable'
@@ -1127,7 +1129,7 @@ methods:
           description: |
             The number of elements to remove.
       return:
-        type: <xref uid="@azure/arm-storage.Table" />[]
+        type: <xref uid="@azure/arm-storage.Table|latest-stable" />[]
         description: ''
   - name: toLocaleString()
     uid: '@azure/arm-storage.ListTableResource.toLocaleString|latest-stable'
@@ -1166,7 +1168,7 @@ methods:
       content: 'function unshift(items: Table[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/arm-storage.Table" />[]
+          type: <xref uid="@azure/arm-storage.Table|latest-stable" />[]
           description: |
             Elements to insert at the start of the Array.
       return:
@@ -1182,6 +1184,8 @@ methods:
     syntax:
       content: function values()
       return:
-        type: IterableIterator&lt;<xref uid="@azure/arm-storage.Table" />&gt;
+        type: >-
+          IterableIterator&lt;<xref uid="@azure/arm-storage.Table|latest-stable"
+          />&gt;
         description: ''
-extends: Array&lt;<xref uid="@azure/arm-storage.Table" />&gt;
+extends: Array&lt;<xref uid="@azure/arm-storage.Table|latest-stable" />&gt;

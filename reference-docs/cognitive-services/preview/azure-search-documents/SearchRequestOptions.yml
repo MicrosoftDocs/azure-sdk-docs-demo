@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'answers?: Answers'
       return:
-        type: <xref uid="@azure/search-documents.Answers" />
+        type: <xref uid="@azure/search-documents.Answers|preview" />
         description: ''
   - name: captions
     uid: '@azure/search-documents.SearchRequestOptions.captions|preview'
@@ -57,7 +57,7 @@ properties:
     syntax:
       content: 'captions?: Captions'
       return:
-        type: <xref uid="@azure/search-documents.Captions" />
+        type: <xref uid="@azure/search-documents.Captions|preview" />
         description: ''
   - name: facets
     uid: '@azure/search-documents.SearchRequestOptions.facets|preview'
@@ -221,7 +221,7 @@ properties:
     syntax:
       content: 'queryLanguage?: QueryLanguage'
       return:
-        type: <xref uid="@azure/search-documents.QueryLanguage" />
+        type: <xref uid="@azure/search-documents.QueryLanguage|preview" />
         description: ''
   - name: queryType
     uid: '@azure/search-documents.SearchRequestOptions.queryType|preview'
@@ -239,7 +239,7 @@ properties:
     syntax:
       content: 'queryType?: QueryType'
       return:
-        type: <xref uid="@azure/search-documents.QueryType" />
+        type: <xref uid="@azure/search-documents.QueryType|preview" />
         description: ''
   - name: scoringParameters
     uid: '@azure/search-documents.SearchRequestOptions.scoringParameters|preview'
@@ -298,7 +298,7 @@ properties:
     syntax:
       content: 'scoringStatistics?: ScoringStatistics'
       return:
-        type: <xref uid="@azure/search-documents.ScoringStatistics" />
+        type: <xref uid="@azure/search-documents.ScoringStatistics|preview" />
         description: ''
   - name: searchFields
     uid: '@azure/search-documents.SearchRequestOptions.searchFields|preview'
@@ -336,7 +336,7 @@ properties:
     syntax:
       content: 'searchMode?: SearchMode'
       return:
-        type: <xref uid="@azure/search-documents.SearchMode" />
+        type: <xref uid="@azure/search-documents.SearchMode|preview" />
         description: ''
   - name: select
     uid: '@azure/search-documents.SearchRequestOptions.select|preview'
@@ -424,7 +424,7 @@ properties:
     syntax:
       content: 'speller?: Speller'
       return:
-        type: <xref uid="@azure/search-documents.Speller" />
+        type: <xref uid="@azure/search-documents.Speller|preview" />
         description: ''
   - name: top
     uid: '@azure/search-documents.SearchRequestOptions.top|preview'

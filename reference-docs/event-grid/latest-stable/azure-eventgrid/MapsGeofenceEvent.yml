@@ -39,7 +39,7 @@ properties:
     syntax:
       content: 'geometries: MapsGeofenceGeometry[]'
       return:
-        type: <xref uid="@azure/eventgrid.MapsGeofenceGeometry" />[]
+        type: <xref uid="@azure/eventgrid.MapsGeofenceGeometry|latest-stable" />[]
         description: ''
   - name: invalidPeriodGeofenceGeometryId
     uid: >-

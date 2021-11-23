@@ -61,7 +61,10 @@ properties:
     syntax:
       content: 'provisioningState?: DomainTopicProvisioningState'
       return:
-        type: <xref uid="@azure/arm-eventgrid.DomainTopicProvisioningState" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.DomainTopicProvisioningState|latest-stable"
+          />
         description: ''
   - name: systemData
     uid: '@azure/arm-eventgrid.DomainTopic.systemData|latest-stable'
@@ -78,7 +81,7 @@ properties:
     syntax:
       content: 'systemData?: SystemData'
       return:
-        type: <xref uid="@azure/arm-eventgrid.SystemData" />
+        type: <xref uid="@azure/arm-eventgrid.SystemData|latest-stable" />
         description: ''
   - name: type
     uid: '@azure/arm-eventgrid.DomainTopic.type|latest-stable'
@@ -97,4 +100,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-eventgrid.Resource" />
+extends: <xref uid="@azure/arm-eventgrid.Resource|latest-stable" />

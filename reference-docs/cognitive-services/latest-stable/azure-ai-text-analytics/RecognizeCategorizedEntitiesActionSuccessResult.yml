@@ -52,7 +52,10 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray"
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray|latest-stable"
           />
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsActionSuccessState" />
+extends: >-
+  <xref
+  uid="@azure/ai-text-analytics.TextAnalyticsActionSuccessState|latest-stable"
+  />

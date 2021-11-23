@@ -207,4 +207,4 @@ properties:
       return:
         type: number
         description: ''
-extends: <xref uid="@azure/storage-queue.MessagesDequeueOptionalParams" />
+extends: <xref uid="@azure/storage-queue.MessagesDequeueOptionalParams|preview" />

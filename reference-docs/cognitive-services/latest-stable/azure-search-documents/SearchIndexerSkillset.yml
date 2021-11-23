@@ -21,7 +21,10 @@ properties:
     syntax:
       content: 'cognitiveServicesAccount?: CognitiveServicesAccount'
       return:
-        type: <xref uid="@azure/search-documents.CognitiveServicesAccount" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.CognitiveServicesAccount|latest-stable"
+          />
         description: ''
   - name: description
     uid: '@azure/search-documents.SearchIndexerSkillset.description|latest-stable'
@@ -71,8 +74,9 @@ properties:
       content: 'encryptionKey?: SearchResourceEncryptionKey | null'
       return:
         type: >-
-          <xref uid="@azure/search-documents.SearchResourceEncryptionKey" /> |
-          null
+          <xref
+          uid="@azure/search-documents.SearchResourceEncryptionKey|latest-stable"
+          /> | null
         description: ''
   - name: etag
     uid: '@azure/search-documents.SearchIndexerSkillset.etag|latest-stable'
@@ -100,7 +104,10 @@ properties:
     syntax:
       content: 'knowledgeStore?: SearchIndexerKnowledgeStore'
       return:
-        type: <xref uid="@azure/search-documents.SearchIndexerKnowledgeStore" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.SearchIndexerKnowledgeStore|latest-stable"
+          />
         description: ''
   - name: name
     uid: '@azure/search-documents.SearchIndexerSkillset.name|latest-stable'
@@ -126,5 +133,7 @@ properties:
     syntax:
       content: 'skills: SearchIndexerSkill[]'
       return:
-        type: <xref uid="@azure/search-documents.SearchIndexerSkill" />[]
+        type: >-
+          <xref uid="@azure/search-documents.SearchIndexerSkill|latest-stable"
+          />[]
         description: ''

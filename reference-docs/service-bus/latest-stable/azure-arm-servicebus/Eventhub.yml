@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'captureDescription?: CaptureDescription'
       return:
-        type: <xref uid="@azure/arm-servicebus.CaptureDescription" />
+        type: <xref uid="@azure/arm-servicebus.CaptureDescription|latest-stable" />
         description: ''
   - name: createdAt
     uid: '@azure/arm-servicebus.Eventhub.createdAt|latest-stable'
@@ -138,7 +138,7 @@ properties:
     syntax:
       content: 'status?: EntityStatus'
       return:
-        type: <xref uid="@azure/arm-servicebus.EntityStatus" />
+        type: <xref uid="@azure/arm-servicebus.EntityStatus|latest-stable" />
         description: ''
   - name: type
     uid: '@azure/arm-servicebus.Eventhub.type|latest-stable'
@@ -174,4 +174,4 @@ properties:
       return:
         type: Date
         description: ''
-extends: <xref uid="@azure/arm-servicebus.Resource" />
+extends: <xref uid="@azure/arm-servicebus.Resource|latest-stable" />

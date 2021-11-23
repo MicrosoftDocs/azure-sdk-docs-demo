@@ -60,7 +60,10 @@ properties:
     syntax:
       content: 'statistics?: TextDocumentBatchStatistics'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextDocumentBatchStatistics" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TextDocumentBatchStatistics|latest-stable"
+          />
         description: ''
 methods:
   - name: next()

@@ -54,7 +54,9 @@ properties:
     syntax:
       content: 'properties?: DeletedVaultProperties'
       return:
-        type: <xref uid="@azure/arm-keyvault.DeletedVaultProperties" />
+        type: >-
+          <xref uid="@azure/arm-keyvault.DeletedVaultProperties|latest-stable"
+          />
         description: ''
   - name: type
     uid: '@azure/arm-keyvault.DeletedVault.type|latest-stable'

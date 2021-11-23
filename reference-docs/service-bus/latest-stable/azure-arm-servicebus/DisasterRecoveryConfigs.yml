@@ -21,7 +21,8 @@ constructors:
       parameters:
         - id: client
           type: >-
-            <xref uid="@azure/arm-servicebus.ServiceBusManagementClientContext"
+            <xref
+            uid="@azure/arm-servicebus.ServiceBusManagementClientContext|latest-stable"
             />
           description: |
             Reference to the service client.
@@ -52,7 +53,7 @@ methods:
           type: string
           description: The Disaster Recovery configuration name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -136,15 +137,17 @@ methods:
           type: string
           description: The namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.CheckNameAvailability" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.CheckNameAvailability|latest-stable" />
           description: Parameters to check availability of the given namespace name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.DisasterRecoveryConfigsCheckNameAvailabilityMethodResponse"
+          uid="Models.DisasterRecoveryConfigsCheckNameAvailabilityMethodResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.DisasterRecoveryConfigsCheckNameAvailabilityMethodResponse>
@@ -172,7 +175,9 @@ methods:
           type: string
           description: The namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.CheckNameAvailability" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.CheckNameAvailability|latest-stable" />
           description: Parameters to check availability of the given namespace name
         - id: options
           type: RequestOptionsBase
@@ -180,7 +185,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.CheckNameAvailabilityResult" />&gt;
+            uid="@azure/arm-servicebus.CheckNameAvailabilityResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -206,12 +212,15 @@ methods:
           type: string
           description: The namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.CheckNameAvailability" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.CheckNameAvailability|latest-stable" />
           description: Parameters to check availability of the given namespace name
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.CheckNameAvailabilityResult" />&gt;
+            uid="@azure/arm-servicebus.CheckNameAvailabilityResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -239,17 +248,20 @@ methods:
           type: string
           description: The Disaster Recovery configuration name
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.ArmDisasterRecovery" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.ArmDisasterRecovery|latest-stable"
+            />
           description: >-
             Parameters required to create an Alias(Disaster Recovery
             configuration)
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.DisasterRecoveryConfigsCreateOrUpdateResponse" />&gt;
+          uid="Models.DisasterRecoveryConfigsCreateOrUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DisasterRecoveryConfigsCreateOrUpdateResponse>
   - name: >-
       createOrUpdate(string, string, string, ArmDisasterRecovery,
@@ -277,7 +289,9 @@ methods:
           type: string
           description: The Disaster Recovery configuration name
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.ArmDisasterRecovery" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.ArmDisasterRecovery|latest-stable"
+            />
           description: >-
             Parameters required to create an Alias(Disaster Recovery
             configuration)
@@ -287,7 +301,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.ArmDisasterRecovery" />&gt;
+            uid="@azure/arm-servicebus.ArmDisasterRecovery|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -316,14 +330,16 @@ methods:
           type: string
           description: The Disaster Recovery configuration name
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.ArmDisasterRecovery" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.ArmDisasterRecovery|latest-stable"
+            />
           description: >-
             Parameters required to create an Alias(Disaster Recovery
             configuration)
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.ArmDisasterRecovery" />&gt;
+            uid="@azure/arm-servicebus.ArmDisasterRecovery|latest-stable" />&gt;
           description: |
             The callback
   - name: deleteMethod(string, string, string, msRest.RequestOptionsBase)
@@ -348,7 +364,7 @@ methods:
           type: string
           description: The Disaster Recovery configuration name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -433,7 +449,7 @@ methods:
           type: string
           description: The Disaster Recovery configuration name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -518,12 +534,12 @@ methods:
           type: string
           description: The Disaster Recovery configuration name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.DisasterRecoveryConfigsGetResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.DisasterRecoveryConfigsGetResponse|latest-stable" />&gt;
         description: Promise<Models.DisasterRecoveryConfigsGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -555,7 +571,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.ArmDisasterRecovery" />&gt;
+            uid="@azure/arm-servicebus.ArmDisasterRecovery|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, string, ServiceCallback<ArmDisasterRecovery>)
@@ -582,7 +598,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.ArmDisasterRecovery" />&gt;
+            uid="@azure/arm-servicebus.ArmDisasterRecovery|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -614,12 +630,12 @@ methods:
           type: string
           description: The authorization rule name.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.DisasterRecoveryConfigsGetAuthorizationRuleResponse"
+          uid="Models.DisasterRecoveryConfigsGetAuthorizationRuleResponse|latest-stable"
           />&gt;
         description: Promise<Models.DisasterRecoveryConfigsGetAuthorizationRuleResponse>
   - name: >-
@@ -656,7 +672,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRule" />&gt;
+            uid="@azure/arm-servicebus.SBAuthorizationRule|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -690,7 +706,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRule" />&gt;
+            uid="@azure/arm-servicebus.SBAuthorizationRule|latest-stable" />&gt;
           description: |
             The callback
   - name: list(string, string, msRest.RequestOptionsBase)
@@ -712,12 +728,12 @@ methods:
           type: string
           description: The namespace name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.DisasterRecoveryConfigsListResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.DisasterRecoveryConfigsListResponse|latest-stable" />&gt;
         description: Promise<Models.DisasterRecoveryConfigsListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -746,7 +762,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.ArmDisasterRecoveryListResult" />&gt;
+            uid="@azure/arm-servicebus.ArmDisasterRecoveryListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: list(string, string, ServiceCallback<ArmDisasterRecoveryListResult>)
@@ -770,7 +787,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.ArmDisasterRecoveryListResult" />&gt;
+            uid="@azure/arm-servicebus.ArmDisasterRecoveryListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listAuthorizationRules(string, string, string, msRest.RequestOptionsBase)
@@ -797,12 +815,12 @@ methods:
           type: string
           description: The Disaster Recovery configuration name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.DisasterRecoveryConfigsListAuthorizationRulesResponse"
+          uid="Models.DisasterRecoveryConfigsListAuthorizationRulesResponse|latest-stable"
           />&gt;
         description: Promise<Models.DisasterRecoveryConfigsListAuthorizationRulesResponse>
   - name: >-
@@ -836,7 +854,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult" />&gt;
+            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -867,7 +886,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult" />&gt;
+            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listAuthorizationRulesNext(string, msRest.RequestOptionsBase)
@@ -887,12 +907,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.DisasterRecoveryConfigsListAuthorizationRulesNextResponse"
+          uid="Models.DisasterRecoveryConfigsListAuthorizationRulesNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.DisasterRecoveryConfigsListAuthorizationRulesNextResponse>
@@ -921,7 +941,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult" />&gt;
+            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -945,7 +966,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult" />&gt;
+            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listKeys(string, string, string, string, msRest.RequestOptionsBase)
@@ -974,11 +996,12 @@ methods:
           type: string
           description: The authorization rule name.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.DisasterRecoveryConfigsListKeysResponse"
+          Promise&lt;<xref
+          uid="Models.DisasterRecoveryConfigsListKeysResponse|latest-stable"
           />&gt;
         description: Promise<Models.DisasterRecoveryConfigsListKeysResponse>
   - name: >-
@@ -1013,8 +1036,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.AccessKeys"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-servicebus.AccessKeys|latest-stable" />&gt;
           description: |
             The callback
   - name: listKeys(string, string, string, string, ServiceCallback<AccessKeys>)
@@ -1044,8 +1067,8 @@ methods:
           description: The authorization rule name.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.AccessKeys"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-servicebus.AccessKeys|latest-stable" />&gt;
           description: |
             The callback
   - name: listNext(string, msRest.RequestOptionsBase)
@@ -1064,11 +1087,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.DisasterRecoveryConfigsListNextResponse"
+          Promise&lt;<xref
+          uid="Models.DisasterRecoveryConfigsListNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.DisasterRecoveryConfigsListNextResponse>
   - name: >-
@@ -1094,7 +1118,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.ArmDisasterRecoveryListResult" />&gt;
+            uid="@azure/arm-servicebus.ArmDisasterRecoveryListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, ServiceCallback<ArmDisasterRecoveryListResult>)
@@ -1115,6 +1140,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.ArmDisasterRecoveryListResult" />&gt;
+            uid="@azure/arm-servicebus.ArmDisasterRecoveryListResult|latest-stable"
+            />&gt;
           description: |
             The callback

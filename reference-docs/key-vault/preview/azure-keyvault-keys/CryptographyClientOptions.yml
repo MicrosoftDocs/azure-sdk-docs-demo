@@ -102,4 +102,4 @@ properties:
       return:
         type: UserAgentOptions
         description: ''
-extends: <xref uid="@azure/keyvault-keys.KeyClientOptions" />
+extends: <xref uid="@azure/keyvault-keys.KeyClientOptions|preview" />

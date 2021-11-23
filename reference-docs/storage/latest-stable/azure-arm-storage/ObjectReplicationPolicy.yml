@@ -108,7 +108,10 @@ properties:
     syntax:
       content: 'rules?: ObjectReplicationPolicyRule[]'
       return:
-        type: <xref uid="@azure/arm-storage.ObjectReplicationPolicyRule" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-storage.ObjectReplicationPolicyRule|latest-stable"
+          />[]
         description: ''
   - name: sourceAccount
     uid: '@azure/arm-storage.ObjectReplicationPolicy.sourceAccount|latest-stable'
@@ -142,4 +145,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-storage.Resource" />
+extends: <xref uid="@azure/arm-storage.Resource|latest-stable" />

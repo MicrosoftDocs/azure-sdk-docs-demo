@@ -41,7 +41,10 @@ properties:
     syntax:
       content: 'conditions?: DataLakeRequestConditions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.DataLakeRequestConditions" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.DataLakeRequestConditions|preview"
+          />
         description: ''
   - name: inputTextConfiguration
     uid: >-
@@ -59,10 +62,12 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/storage-file-datalake.FileQueryJsonTextConfiguration" /> |
-          <xref uid="@azure/storage-file-datalake.FileQueryCsvTextConfiguration"
+          uid="@azure/storage-file-datalake.FileQueryJsonTextConfiguration|preview"
           /> | <xref
-          uid="@azure/storage-file-datalake.FileQueryParquetConfiguration" />
+          uid="@azure/storage-file-datalake.FileQueryCsvTextConfiguration|preview"
+          /> | <xref
+          uid="@azure/storage-file-datalake.FileQueryParquetConfiguration|preview"
+          />
         description: ''
   - name: onError
     uid: '@azure/storage-file-datalake.FileQueryOptions.onError|preview'
@@ -106,10 +111,12 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/storage-file-datalake.FileQueryJsonTextConfiguration" /> |
-          <xref uid="@azure/storage-file-datalake.FileQueryCsvTextConfiguration"
+          uid="@azure/storage-file-datalake.FileQueryJsonTextConfiguration|preview"
           /> | <xref
-          uid="@azure/storage-file-datalake.FileQueryArrowConfiguration" />
+          uid="@azure/storage-file-datalake.FileQueryCsvTextConfiguration|preview"
+          /> | <xref
+          uid="@azure/storage-file-datalake.FileQueryArrowConfiguration|preview"
+          />
         description: ''
   - name: tracingOptions
     uid: '@azure/storage-file-datalake.FileQueryOptions.tracingOptions|preview'
@@ -124,4 +131,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />
+extends: <xref uid="@azure/storage-file-datalake.CommonOptions|preview" />

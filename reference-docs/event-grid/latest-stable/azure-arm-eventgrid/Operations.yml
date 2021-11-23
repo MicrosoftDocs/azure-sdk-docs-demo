@@ -20,7 +20,10 @@ constructors:
       content: 'new Operations(client: EventGridManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-eventgrid.EventGridManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.EventGridManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -37,10 +40,12 @@ methods:
       content: 'function list(options?: msRest.RequestOptionsBase)'
       parameters:
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.OperationsListResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.OperationsListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.OperationsListResponse>
   - name: list(RequestOptionsBase, ServiceCallback<OperationsListResult>)
     uid: '@azure/arm-eventgrid.Operations.list_2|latest-stable'
@@ -60,7 +65,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.OperationsListResult" />&gt;
+            uid="@azure/arm-eventgrid.OperationsListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: list(ServiceCallback<OperationsListResult>)
@@ -76,6 +81,6 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.OperationsListResult" />&gt;
+            uid="@azure/arm-eventgrid.OperationsListResult|latest-stable" />&gt;
           description: |
             The callback

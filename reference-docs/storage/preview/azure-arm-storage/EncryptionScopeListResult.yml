@@ -45,5 +45,5 @@ properties:
     syntax:
       content: 'value?: EncryptionScope[]'
       return:
-        type: <xref uid="@azure/arm-storage.EncryptionScope" />[]
+        type: <xref uid="@azure/arm-storage.EncryptionScope|preview" />[]
         description: ''

@@ -41,7 +41,9 @@ constructors:
             NOTE: this connection string can contain an EntityPath, which is
             ignored.
         - id: options
-          type: <xref uid="@azure/service-bus.ServiceBusClientOptions" />
+          type: >-
+            <xref uid="@azure/service-bus.ServiceBusClientOptions|latest-stable"
+            />
           description: |
             Options for the service bus client.
   - name: >-
@@ -101,7 +103,9 @@ constructors:
             without using a connection string. This field maps to `signature` in
             `AzureSASCredential`.
         - id: options
-          type: <xref uid="@azure/service-bus.ServiceBusClientOptions" />
+          type: >-
+            <xref uid="@azure/service-bus.ServiceBusClientOptions|latest-stable"
+            />
           description: |
             Options for the service bus client.
 properties:
@@ -163,13 +167,17 @@ methods:
           type: string
           description: The name of the queue to receive from.
         - id: options
-          type: <xref uid="@azure/service-bus.ServiceBusSessionReceiverOptions" />
+          type: >-
+            <xref
+            uid="@azure/service-bus.ServiceBusSessionReceiverOptions|latest-stable"
+            />
           description: >-
             Options include receiveMode(defaulted to peekLock), options to
             create session receiver.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/service-bus.ServiceBusSessionReceiver"
+          Promise&lt;<xref
+          uid="@azure/service-bus.ServiceBusSessionReceiver|latest-stable"
           />&gt;
         description: A receiver that can be used to receive, peek and settle messages.
   - name: acceptNextSession(string, string, ServiceBusSessionReceiverOptions)
@@ -217,13 +225,17 @@ methods:
             Name of the subscription (under the `topic`) that we want to receive
             from.
         - id: options
-          type: <xref uid="@azure/service-bus.ServiceBusSessionReceiverOptions" />
+          type: >-
+            <xref
+            uid="@azure/service-bus.ServiceBusSessionReceiverOptions|latest-stable"
+            />
           description: >-
             Options include receiveMode(defaulted to peekLock), options to
             create session receiver.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/service-bus.ServiceBusSessionReceiver"
+          Promise&lt;<xref
+          uid="@azure/service-bus.ServiceBusSessionReceiver|latest-stable"
           />&gt;
         description: A receiver that can be used to receive, peek and settle messages.
   - name: acceptSession(string, string, ServiceBusSessionReceiverOptions)
@@ -268,13 +280,17 @@ methods:
           type: string
           description: The id of the session from which messages need to be received
         - id: options
-          type: <xref uid="@azure/service-bus.ServiceBusSessionReceiverOptions" />
+          type: >-
+            <xref
+            uid="@azure/service-bus.ServiceBusSessionReceiverOptions|latest-stable"
+            />
           description: >-
             Options include receiveMode(defaulted to peekLock), options to
             create session receiver.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/service-bus.ServiceBusSessionReceiver"
+          Promise&lt;<xref
+          uid="@azure/service-bus.ServiceBusSessionReceiver|latest-stable"
           />&gt;
         description: A receiver that can be used to receive, peek and settle messages.
   - name: acceptSession(string, string, string, ServiceBusSessionReceiverOptions)
@@ -324,13 +340,17 @@ methods:
           type: string
           description: The id of the session from which messages need to be received
         - id: options
-          type: <xref uid="@azure/service-bus.ServiceBusSessionReceiverOptions" />
+          type: >-
+            <xref
+            uid="@azure/service-bus.ServiceBusSessionReceiverOptions|latest-stable"
+            />
           description: >-
             Options include receiveMode(defaulted to peekLock), options to
             create session receiver.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/service-bus.ServiceBusSessionReceiver"
+          Promise&lt;<xref
+          uid="@azure/service-bus.ServiceBusSessionReceiver|latest-stable"
           />&gt;
         description: A receiver that can be used to receive, peek and settle messages.
   - name: close()
@@ -409,10 +429,12 @@ methods:
           type: string
           description: The name of the queue to receive from.
         - id: options
-          type: <xref uid="@azure/service-bus.ServiceBusReceiverOptions" />
+          type: >-
+            <xref
+            uid="@azure/service-bus.ServiceBusReceiverOptions|latest-stable" />
           description: Options to pass the receiveMode, defaulted to peekLock.
       return:
-        type: <xref uid="@azure/service-bus.ServiceBusReceiver" />
+        type: <xref uid="@azure/service-bus.ServiceBusReceiver|latest-stable" />
         description: A receiver that can be used to receive, peek and settle messages.
   - name: createReceiver(string, string, ServiceBusReceiverOptions)
     uid: '@azure/service-bus.ServiceBusClient.createReceiver_1|latest-stable'
@@ -478,10 +500,12 @@ methods:
             Name of the subscription (under the `topic`) that we want to receive
             from.
         - id: options
-          type: <xref uid="@azure/service-bus.ServiceBusReceiverOptions" />
+          type: >-
+            <xref
+            uid="@azure/service-bus.ServiceBusReceiverOptions|latest-stable" />
           description: Options to pass the receiveMode, defaulted to peekLock.
       return:
-        type: <xref uid="@azure/service-bus.ServiceBusReceiver" />
+        type: <xref uid="@azure/service-bus.ServiceBusReceiver|latest-stable" />
         description: A receiver that can be used to receive, peek and settle messages.
   - name: createSender(string)
     uid: '@azure/service-bus.ServiceBusClient.createSender|latest-stable'
@@ -505,5 +529,5 @@ methods:
           description: |
             The name of a queue or topic to send messages to.
       return:
-        type: <xref uid="@azure/service-bus.ServiceBusSender" />
+        type: <xref uid="@azure/service-bus.ServiceBusSender|latest-stable" />
         description: ''

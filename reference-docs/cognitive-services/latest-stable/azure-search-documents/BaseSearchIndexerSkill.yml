@@ -53,7 +53,10 @@ properties:
     syntax:
       content: 'inputs: InputFieldMappingEntry[]'
       return:
-        type: <xref uid="@azure/search-documents.InputFieldMappingEntry" />[]
+        type: >-
+          <xref
+          uid="@azure/search-documents.InputFieldMappingEntry|latest-stable"
+          />[]
         description: ''
   - name: name
     uid: '@azure/search-documents.BaseSearchIndexerSkill.name|latest-stable'
@@ -99,20 +102,25 @@ properties:
         "#Microsoft.Skills.Custom.WebApiSkill"
       return:
         type: >-
-          "#<xref uid="Microsoft.Skills.Util.ConditionalSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.KeyPhraseExtractionSkill" />" | "#<xref
-          uid="Microsoft.Skills.Vision.OcrSkill" />" | "#<xref
-          uid="Microsoft.Skills.Vision.ImageAnalysisSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.LanguageDetectionSkill" />" | "#<xref
-          uid="Microsoft.Skills.Util.ShaperSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.MergeSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.EntityRecognitionSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.SentimentSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.SplitSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.CustomEntityLookupSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.TranslationSkill" />" | "#<xref
-          uid="Microsoft.Skills.Util.DocumentExtractionSkill" />" | "#<xref
-          uid="Microsoft.Skills.Custom.WebApiSkill" />"
+          "#<xref uid="Microsoft.Skills.Util.ConditionalSkill|latest-stable" />"
+          | "#<xref
+          uid="Microsoft.Skills.Text.KeyPhraseExtractionSkill|latest-stable" />"
+          | "#<xref uid="Microsoft.Skills.Vision.OcrSkill|latest-stable" />" |
+          "#<xref uid="Microsoft.Skills.Vision.ImageAnalysisSkill|latest-stable"
+          />" | "#<xref
+          uid="Microsoft.Skills.Text.LanguageDetectionSkill|latest-stable" />" |
+          "#<xref uid="Microsoft.Skills.Util.ShaperSkill|latest-stable" />" |
+          "#<xref uid="Microsoft.Skills.Text.MergeSkill|latest-stable" />" |
+          "#<xref
+          uid="Microsoft.Skills.Text.EntityRecognitionSkill|latest-stable" />" |
+          "#<xref uid="Microsoft.Skills.Text.SentimentSkill|latest-stable" />" |
+          "#<xref uid="Microsoft.Skills.Text.SplitSkill|latest-stable" />" |
+          "#<xref
+          uid="Microsoft.Skills.Text.CustomEntityLookupSkill|latest-stable" />"
+          | "#<xref uid="Microsoft.Skills.Text.TranslationSkill|latest-stable"
+          />" | "#<xref
+          uid="Microsoft.Skills.Util.DocumentExtractionSkill|latest-stable" />"
+          | "#<xref uid="Microsoft.Skills.Custom.WebApiSkill|latest-stable" />"
         description: ''
   - name: outputs
     uid: '@azure/search-documents.BaseSearchIndexerSkill.outputs|latest-stable'
@@ -127,5 +135,8 @@ properties:
     syntax:
       content: 'outputs: OutputFieldMappingEntry[]'
       return:
-        type: <xref uid="@azure/search-documents.OutputFieldMappingEntry" />[]
+        type: >-
+          <xref
+          uid="@azure/search-documents.OutputFieldMappingEntry|latest-stable"
+          />[]
         description: ''

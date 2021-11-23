@@ -20,7 +20,10 @@ properties:
     syntax:
       content: 'identity?: UserAssignedIdentityProperties'
       return:
-        type: <xref uid="@azure/arm-eventhub.UserAssignedIdentityProperties" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventhub.UserAssignedIdentityProperties|latest-stable"
+          />
         description: ''
   - name: keyName
     uid: '@azure/arm-eventhub.KeyVaultProperties.keyName|latest-stable'

@@ -20,13 +20,15 @@ methods:
       content: 'function fetch(input: CommonRequestInfo, init?: CommonRequestInit)'
       parameters:
         - id: input
-          type: <xref uid="@azure/core-http.CommonRequestInfo" />
+          type: <xref uid="@azure/core-http.CommonRequestInfo|latest-stable" />
           description: ''
         - id: init
-          type: <xref uid="@azure/core-http.CommonRequestInit" />
+          type: <xref uid="@azure/core-http.CommonRequestInit|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/core-http.CommonResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/core-http.CommonResponse|latest-stable"
+          />&gt;
         description: ''
   - name: prepareRequest(WebResourceLike)
     uid: '@azure/core-http.NodeFetchHttpClient.prepareRequest|latest-stable'
@@ -39,7 +41,7 @@ methods:
       content: 'function prepareRequest(httpRequest: WebResourceLike)'
       parameters:
         - id: httpRequest
-          type: <xref uid="@azure/core-http.WebResourceLike" />
+          type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
           description: ''
       return:
         type: Promise&lt;Partial&lt;RequestInit&gt;&gt;
@@ -55,7 +57,7 @@ methods:
       content: 'function processRequest(operationResponse: HttpOperationResponse)'
       parameters:
         - id: operationResponse
-          type: <xref uid="@azure/core-http.HttpOperationResponse" />
+          type: <xref uid="@azure/core-http.HttpOperationResponse|latest-stable" />
           description: ''
       return:
         type: Promise&lt;void&gt;
@@ -71,9 +73,11 @@ methods:
       content: 'function sendRequest(httpRequest: WebResourceLike)'
       parameters:
         - id: httpRequest
-          type: <xref uid="@azure/core-http.WebResourceLike" />
+          type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/core-http.HttpOperationResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/core-http.HttpOperationResponse|latest-stable" />&gt;
         description: ''
-extends: <xref uid="@azure/core-http.FetchHttpClient" />
+extends: <xref uid="@azure/core-http.FetchHttpClient|latest-stable" />

@@ -26,7 +26,7 @@ properties:
     syntax:
       content: 'cbsSession: CbsClient'
       return:
-        type: <xref uid="@azure/core-amqp.CbsClient" />
+        type: <xref uid="@azure/core-amqp.CbsClient|latest-stable" />
         description: ''
   - name: config
     uid: '@azure/core-amqp.ConnectionContextBase.config|latest-stable'
@@ -41,7 +41,7 @@ properties:
     syntax:
       content: 'config: ConnectionConfig'
       return:
-        type: <xref uid="@azure/core-amqp.ConnectionConfig" />
+        type: <xref uid="@azure/core-amqp.ConnectionConfig|latest-stable" />
         description: ''
   - name: connection
     uid: '@azure/core-amqp.ConnectionContextBase.connection|latest-stable'

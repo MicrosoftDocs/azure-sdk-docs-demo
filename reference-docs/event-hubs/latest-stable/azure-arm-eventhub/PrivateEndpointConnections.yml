@@ -20,7 +20,10 @@ constructors:
       content: 'new PrivateEndpointConnections(client: EventHubManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-eventhub.EventHubManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.EventHubManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -52,7 +55,7 @@ methods:
           type: string
           description: The PrivateEndpointConnection name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -83,19 +86,22 @@ methods:
           type: string
           description: The PrivateEndpointConnection name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.PrivateEndpointConnection" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.PrivateEndpointConnection|latest-stable" />
           description: >-
             Parameters supplied to update Status of PrivateEndPoint Connection
             to
 
             namespace resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateEndpointConnectionsCreateOrUpdateResponse" />&gt;
+          uid="Models.PrivateEndpointConnectionsCreateOrUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateEndpointConnectionsCreateOrUpdateResponse>
   - name: >-
       createOrUpdate(string, string, string, PrivateEndpointConnection,
@@ -124,7 +130,9 @@ methods:
           type: string
           description: The PrivateEndpointConnection name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.PrivateEndpointConnection" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.PrivateEndpointConnection|latest-stable" />
           description: >-
             Parameters supplied to update Status of PrivateEndPoint Connection
             to
@@ -136,7 +144,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.PrivateEndpointConnection" />&gt;
+            uid="@azure/arm-eventhub.PrivateEndpointConnection|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -166,7 +175,9 @@ methods:
           type: string
           description: The PrivateEndpointConnection name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.PrivateEndpointConnection" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.PrivateEndpointConnection|latest-stable" />
           description: >-
             Parameters supplied to update Status of PrivateEndPoint Connection
             to
@@ -175,7 +186,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.PrivateEndpointConnection" />&gt;
+            uid="@azure/arm-eventhub.PrivateEndpointConnection|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: deleteMethod(string, string, string, msRest.RequestOptionsBase)
@@ -205,7 +217,7 @@ methods:
           type: string
           description: The PrivateEndpointConnection name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -233,11 +245,12 @@ methods:
           type: string
           description: The PrivateEndpointConnection name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.PrivateEndpointConnectionsGetResponse"
+          Promise&lt;<xref
+          uid="Models.PrivateEndpointConnectionsGetResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateEndpointConnectionsGetResponse>
   - name: >-
@@ -270,7 +283,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.PrivateEndpointConnection" />&gt;
+            uid="@azure/arm-eventhub.PrivateEndpointConnection|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: get(string, string, string, ServiceCallback<PrivateEndpointConnection>)
@@ -298,7 +312,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.PrivateEndpointConnection" />&gt;
+            uid="@azure/arm-eventhub.PrivateEndpointConnection|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: list(string, string, msRest.RequestOptionsBase)
@@ -320,11 +335,12 @@ methods:
           type: string
           description: The Namespace name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.PrivateEndpointConnectionsListResponse"
+          Promise&lt;<xref
+          uid="Models.PrivateEndpointConnectionsListResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateEndpointConnectionsListResponse>
   - name: >-
@@ -354,7 +370,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.PrivateEndpointConnectionListResult" />&gt;
+            uid="@azure/arm-eventhub.PrivateEndpointConnectionListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: list(string, string, ServiceCallback<PrivateEndpointConnectionListResult>)
@@ -378,7 +395,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.PrivateEndpointConnectionListResult" />&gt;
+            uid="@azure/arm-eventhub.PrivateEndpointConnectionListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, msRest.RequestOptionsBase)
@@ -397,12 +415,13 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateEndpointConnectionsListNextResponse" />&gt;
+          uid="Models.PrivateEndpointConnectionsListNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateEndpointConnectionsListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,
@@ -427,7 +446,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.PrivateEndpointConnectionListResult" />&gt;
+            uid="@azure/arm-eventhub.PrivateEndpointConnectionListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, ServiceCallback<PrivateEndpointConnectionListResult>)
@@ -448,6 +468,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.PrivateEndpointConnectionListResult" />&gt;
+            uid="@azure/arm-eventhub.PrivateEndpointConnectionListResult|latest-stable"
+            />&gt;
           description: |
             The callback

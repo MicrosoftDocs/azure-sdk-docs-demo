@@ -30,8 +30,8 @@ properties:
       content: 'creationTime?: Date | TimeNowType | TimePreserveType'
       return:
         type: >-
-          Date | <xref uid="@azure/storage-file-share.TimeNowType" /> | <xref
-          uid="@azure/storage-file-share.TimePreserveType" />
+          Date | <xref uid="@azure/storage-file-share.TimeNowType|preview" /> |
+          <xref uid="@azure/storage-file-share.TimePreserveType|preview" />
         description: ''
   - name: fileAttributes
     uid: >-
@@ -46,8 +46,9 @@ properties:
       content: 'fileAttributes?: FileSystemAttributes | FileAttributesPreserveType'
       return:
         type: >-
-          <xref uid="@azure/storage-file-share.FileSystemAttributes" /> | <xref
-          uid="@azure/storage-file-share.FileAttributesPreserveType" />
+          <xref uid="@azure/storage-file-share.FileSystemAttributes|preview" />
+          | <xref
+          uid="@azure/storage-file-share.FileAttributesPreserveType|preview" />
         description: ''
   - name: filePermission
     uid: >-
@@ -80,8 +81,9 @@ properties:
       return:
         type: >-
           string | <xref
-          uid="@azure/storage-file-share.FilePermissionInheritType" /> | <xref
-          uid="@azure/storage-file-share.FilePermissionPreserveType" />
+          uid="@azure/storage-file-share.FilePermissionInheritType|preview" /> |
+          <xref
+          uid="@azure/storage-file-share.FilePermissionPreserveType|preview" />
         description: ''
   - name: filePermissionKey
     uid: >-
@@ -123,6 +125,6 @@ properties:
       content: 'lastWriteTime?: Date | TimeNowType | TimePreserveType'
       return:
         type: >-
-          Date | <xref uid="@azure/storage-file-share.TimeNowType" /> | <xref
-          uid="@azure/storage-file-share.TimePreserveType" />
+          Date | <xref uid="@azure/storage-file-share.TimeNowType|preview" /> |
+          <xref uid="@azure/storage-file-share.TimePreserveType|preview" />
         description: ''

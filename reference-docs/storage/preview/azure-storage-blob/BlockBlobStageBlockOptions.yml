@@ -44,7 +44,7 @@ properties:
     syntax:
       content: 'conditions?: LeaseAccessConditions'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseAccessConditions" />
+        type: <xref uid="@azure/storage-blob.LeaseAccessConditions|preview" />
         description: ''
   - name: customerProvidedKey
     uid: '@azure/storage-blob.BlockBlobStageBlockOptions.customerProvidedKey|preview'
@@ -57,7 +57,7 @@ properties:
     syntax:
       content: 'customerProvidedKey?: CpkInfo'
       return:
-        type: <xref uid="@azure/storage-blob.CpkInfo" />
+        type: <xref uid="@azure/storage-blob.CpkInfo|preview" />
         description: ''
   - name: encryptionScope
     uid: '@azure/storage-blob.BlockBlobStageBlockOptions.encryptionScope|preview'
@@ -152,4 +152,4 @@ properties:
       return:
         type: Uint8Array
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|preview" />

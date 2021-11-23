@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'error?: RetryError'
       return:
-        type: <xref uid="@azure/core-http.RetryError" />
+        type: <xref uid="@azure/core-http.RetryError|latest-stable" />
         description: ''
   - name: retryCount
     uid: '@azure/core-http.RetryData.retryCount|latest-stable'

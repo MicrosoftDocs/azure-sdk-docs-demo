@@ -34,7 +34,7 @@ properties:
     syntax:
       content: 'changeFeed?: ChangeFeed'
       return:
-        type: <xref uid="@azure/arm-storage.ChangeFeed" />
+        type: <xref uid="@azure/arm-storage.ChangeFeed|latest-stable" />
         description: ''
   - name: containerDeleteRetentionPolicy
     uid: >-
@@ -48,7 +48,7 @@ properties:
     syntax:
       content: 'containerDeleteRetentionPolicy?: DeleteRetentionPolicy'
       return:
-        type: <xref uid="@azure/arm-storage.DeleteRetentionPolicy" />
+        type: <xref uid="@azure/arm-storage.DeleteRetentionPolicy|latest-stable" />
         description: ''
   - name: cors
     uid: '@azure/arm-storage.BlobServiceProperties.cors|latest-stable'
@@ -68,7 +68,7 @@ properties:
     syntax:
       content: 'cors?: CorsRules'
       return:
-        type: <xref uid="@azure/arm-storage.CorsRules" />
+        type: <xref uid="@azure/arm-storage.CorsRules|latest-stable" />
         description: ''
   - name: defaultServiceVersion
     uid: >-
@@ -103,7 +103,7 @@ properties:
     syntax:
       content: 'deleteRetentionPolicy?: DeleteRetentionPolicy'
       return:
-        type: <xref uid="@azure/arm-storage.DeleteRetentionPolicy" />
+        type: <xref uid="@azure/arm-storage.DeleteRetentionPolicy|latest-stable" />
         description: ''
   - name: id
     uid: '@azure/arm-storage.BlobServiceProperties.id|latest-stable'
@@ -151,7 +151,9 @@ properties:
     syntax:
       content: 'lastAccessTimeTrackingPolicy?: LastAccessTimeTrackingPolicy'
       return:
-        type: <xref uid="@azure/arm-storage.LastAccessTimeTrackingPolicy" />
+        type: >-
+          <xref
+          uid="@azure/arm-storage.LastAccessTimeTrackingPolicy|latest-stable" />
         description: ''
   - name: name
     uid: '@azure/arm-storage.BlobServiceProperties.name|latest-stable'
@@ -181,7 +183,9 @@ properties:
     syntax:
       content: 'restorePolicy?: RestorePolicyProperties'
       return:
-        type: <xref uid="@azure/arm-storage.RestorePolicyProperties" />
+        type: >-
+          <xref uid="@azure/arm-storage.RestorePolicyProperties|latest-stable"
+          />
         description: ''
   - name: sku
     uid: '@azure/arm-storage.BlobServiceProperties.sku|latest-stable'
@@ -198,7 +202,7 @@ properties:
     syntax:
       content: 'sku?: Sku'
       return:
-        type: <xref uid="@azure/arm-storage.Sku" />
+        type: <xref uid="@azure/arm-storage.Sku|latest-stable" />
         description: ''
   - name: type
     uid: '@azure/arm-storage.BlobServiceProperties.type|latest-stable'
@@ -219,4 +223,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-storage.Resource" />
+extends: <xref uid="@azure/arm-storage.Resource|latest-stable" />

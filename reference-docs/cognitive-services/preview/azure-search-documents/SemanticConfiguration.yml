@@ -39,5 +39,5 @@ properties:
     syntax:
       content: 'prioritizedFields: PrioritizedFields'
       return:
-        type: <xref uid="@azure/search-documents.PrioritizedFields" />
+        type: <xref uid="@azure/search-documents.PrioritizedFields|preview" />
         description: ''

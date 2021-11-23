@@ -35,5 +35,5 @@ properties:
     syntax:
       content: 'value?: IpFilterRule[]'
       return:
-        type: <xref uid="@azure/arm-servicebus.IpFilterRule" />[]
+        type: <xref uid="@azure/arm-servicebus.IpFilterRule|preview" />[]
         description: ''

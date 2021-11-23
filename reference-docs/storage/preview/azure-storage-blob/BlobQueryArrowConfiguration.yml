@@ -37,5 +37,5 @@ properties:
     syntax:
       content: 'schema: BlobQueryArrowField[]'
       return:
-        type: <xref uid="@azure/storage-blob.BlobQueryArrowField" />[]
+        type: <xref uid="@azure/storage-blob.BlobQueryArrowField|preview" />[]
         description: ''

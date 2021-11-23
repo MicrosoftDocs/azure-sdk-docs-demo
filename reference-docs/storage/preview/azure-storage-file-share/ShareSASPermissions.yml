@@ -109,7 +109,7 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-file-share.ShareSASPermissions" />
+        type: <xref uid="@azure/storage-file-share.ShareSASPermissions|preview" />
         description: ''
   - name: toString()
     uid: '@azure/storage-file-share.ShareSASPermissions.toString|preview'

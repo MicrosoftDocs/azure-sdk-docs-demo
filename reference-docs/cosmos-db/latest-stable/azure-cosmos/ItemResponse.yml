@@ -22,10 +22,10 @@ constructors:
         statusCode: number, subsstatusCode: number, item: Item)
       parameters:
         - id: resource
-          type: T & <xref uid="@azure/cosmos.Resource" />
+          type: T & <xref uid="@azure/cosmos.Resource|latest-stable" />
           description: ''
         - id: headers
-          type: <xref uid="@azure/cosmos.CosmosHeaders" />
+          type: <xref uid="@azure/cosmos.CosmosHeaders|latest-stable" />
           description: ''
         - id: statusCode
           type: number
@@ -34,7 +34,7 @@ constructors:
           type: number
           description: ''
         - id: item
-          type: <xref uid="@azure/cosmos.Item" />
+          type: <xref uid="@azure/cosmos.Item|latest-stable" />
           description: ''
 properties:
   - name: activityId
@@ -74,7 +74,7 @@ properties:
     syntax:
       content: 'headers: CosmosHeaders_2'
       return:
-        type: <xref uid="@azure/cosmos.CosmosHeaders_2" />
+        type: <xref uid="@azure/cosmos.CosmosHeaders_2|latest-stable" />
         description: ''
   - name: item
     uid: '@azure/cosmos.ItemResponse.item|latest-stable'
@@ -87,7 +87,7 @@ properties:
     syntax:
       content: 'item: Item'
       return:
-        type: <xref uid="@azure/cosmos.Item" />
+        type: <xref uid="@azure/cosmos.Item|latest-stable" />
         description: ''
   - name: requestCharge
     uid: '@azure/cosmos.ItemResponse.requestCharge|latest-stable'
@@ -113,7 +113,7 @@ properties:
     syntax:
       content: 'resource: T & Resource | undefined'
       return:
-        type: T & <xref uid="@azure/cosmos.Resource" /> | undefined
+        type: T & <xref uid="@azure/cosmos.Resource|latest-stable" /> | undefined
         description: ''
   - name: statusCode
     uid: '@azure/cosmos.ItemResponse.statusCode|latest-stable'
@@ -142,5 +142,5 @@ properties:
         type: SubStatusCode
         description: ''
 extends: >-
-  <xref uid="@azure/cosmos.ResourceResponse" />&lt;T & <xref
-  uid="@azure/cosmos.Resource" />&gt;
+  <xref uid="@azure/cosmos.ResourceResponse|latest-stable" />&lt;T & <xref
+  uid="@azure/cosmos.Resource|latest-stable" />&gt;

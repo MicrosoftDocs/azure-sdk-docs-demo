@@ -21,8 +21,8 @@ properties:
       content: 'fields: Record<string, FormField>'
       return:
         type: >-
-          Record&lt;string, <xref uid="@azure/ai-form-recognizer.FormField"
-          />&gt;
+          Record&lt;string, <xref
+          uid="@azure/ai-form-recognizer.FormField|latest-stable" />&gt;
         description: ''
   - name: formType
     uid: '@azure/ai-form-recognizer.RecognizedForm.formType|latest-stable'
@@ -76,7 +76,7 @@ properties:
     syntax:
       content: 'pageRange: FormPageRange'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormPageRange" />
+        type: <xref uid="@azure/ai-form-recognizer.FormPageRange|latest-stable" />
         description: ''
   - name: pages
     uid: '@azure/ai-form-recognizer.RecognizedForm.pages|latest-stable'
@@ -89,5 +89,5 @@ properties:
     syntax:
       content: 'pages: FormPage[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormPage" />[]
+        type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />[]
         description: ''

@@ -40,7 +40,7 @@ properties:
     syntax:
       content: 'conditions?: PageBlobRequestConditions'
       return:
-        type: <xref uid="@azure/storage-blob.PageBlobRequestConditions" />
+        type: <xref uid="@azure/storage-blob.PageBlobRequestConditions|preview" />
         description: ''
   - name: customerProvidedKey
     uid: >-
@@ -54,7 +54,7 @@ properties:
     syntax:
       content: 'customerProvidedKey?: CpkInfo'
       return:
-        type: <xref uid="@azure/storage-blob.CpkInfo" />
+        type: <xref uid="@azure/storage-blob.CpkInfo|preview" />
         description: ''
   - name: encryptionScope
     uid: >-
@@ -94,7 +94,7 @@ properties:
     syntax:
       content: 'sourceAuthorization?: HttpAuthorization'
       return:
-        type: <xref uid="@azure/storage-blob.HttpAuthorization" />
+        type: <xref uid="@azure/storage-blob.HttpAuthorization|preview" />
         description: ''
   - name: sourceConditions
     uid: >-
@@ -111,8 +111,8 @@ properties:
       content: 'sourceConditions?: MatchConditions & ModificationConditions'
       return:
         type: >-
-          <xref uid="@azure/storage-blob.MatchConditions" /> & <xref
-          uid="@azure/storage-blob.ModificationConditions" />
+          <xref uid="@azure/storage-blob.MatchConditions|preview" /> & <xref
+          uid="@azure/storage-blob.ModificationConditions|preview" />
         description: ''
   - name: sourceContentCrc64
     uid: >-
@@ -174,4 +174,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|preview" />

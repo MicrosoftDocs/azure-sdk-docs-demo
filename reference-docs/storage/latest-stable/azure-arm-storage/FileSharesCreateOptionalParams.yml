@@ -50,7 +50,7 @@ properties:
     syntax:
       content: 'expand?: PutSharesExpand'
       return:
-        type: <xref uid="@azure/arm-storage.PutSharesExpand" />
+        type: <xref uid="@azure/arm-storage.PutSharesExpand|latest-stable" />
         description: ''
   - name: onDownloadProgress
     uid: >-

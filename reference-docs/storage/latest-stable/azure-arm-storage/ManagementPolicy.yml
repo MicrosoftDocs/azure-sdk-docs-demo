@@ -76,7 +76,7 @@ properties:
     syntax:
       content: 'policy: ManagementPolicySchema'
       return:
-        type: <xref uid="@azure/arm-storage.ManagementPolicySchema" />
+        type: <xref uid="@azure/arm-storage.ManagementPolicySchema|latest-stable" />
         description: ''
   - name: type
     uid: '@azure/arm-storage.ManagementPolicy.type|latest-stable'
@@ -97,4 +97,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-storage.Resource" />
+extends: <xref uid="@azure/arm-storage.Resource|latest-stable" />

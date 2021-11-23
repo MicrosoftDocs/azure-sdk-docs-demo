@@ -33,7 +33,10 @@ properties:
     syntax:
       content: 'conditions?: DataLakeRequestConditions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.DataLakeRequestConditions" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.DataLakeRequestConditions|preview"
+          />
         description: ''
   - name: destinationConditions
     uid: '@azure/storage-file-datalake.PathMoveOptions.destinationConditions|preview'
@@ -46,7 +49,10 @@ properties:
     syntax:
       content: 'destinationConditions?: DataLakeRequestConditions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.DataLakeRequestConditions" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.DataLakeRequestConditions|preview"
+          />
         description: ''
   - name: tracingOptions
     uid: '@azure/storage-file-datalake.PathMoveOptions.tracingOptions|preview'
@@ -61,4 +67,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />
+extends: <xref uid="@azure/storage-file-datalake.CommonOptions|preview" />

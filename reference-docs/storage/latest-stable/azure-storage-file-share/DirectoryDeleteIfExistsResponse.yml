@@ -85,4 +85,6 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-file-share.DirectoryDeleteHeaders" /> & Object
+extends: >-
+  <xref uid="@azure/storage-file-share.DirectoryDeleteHeaders|latest-stable" />
+  & Object

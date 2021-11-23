@@ -45,7 +45,10 @@ constructors:
           type: string
           description: The ID of the target subscription.
         - id: options
-          type: <xref uid="Models.CognitiveServicesManagementClientOptions" />
+          type: >-
+            <xref
+            uid="Models.CognitiveServicesManagementClientOptions|latest-stable"
+            />
           description: ''
 properties:
   - name: acceptLanguage

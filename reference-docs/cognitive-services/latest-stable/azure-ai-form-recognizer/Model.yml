@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'keys?: KeysResult'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.KeysResult" />
+        type: <xref uid="@azure/ai-form-recognizer.KeysResult|latest-stable" />
         description: ''
   - name: modelInfo
     uid: '@azure/ai-form-recognizer.Model.modelInfo|latest-stable'
@@ -33,7 +33,9 @@ properties:
     syntax:
       content: 'modelInfo: CustomFormModelInfo'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.CustomFormModelInfo" />
+        type: >-
+          <xref
+          uid="@azure/ai-form-recognizer.CustomFormModelInfo|latest-stable" />
         description: ''
   - name: trainResult
     uid: '@azure/ai-form-recognizer.Model.trainResult|latest-stable'
@@ -46,5 +48,5 @@ properties:
     syntax:
       content: 'trainResult?: TrainResult'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.TrainResult" />
+        type: <xref uid="@azure/ai-form-recognizer.TrainResult|latest-stable" />
         description: ''

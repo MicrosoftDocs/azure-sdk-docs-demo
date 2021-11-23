@@ -81,7 +81,7 @@ properties:
     syntax:
       content: 'loadBalancingOptions?: LoadBalancingOptions'
       return:
-        type: <xref uid="@azure/event-hubs.LoadBalancingOptions" />
+        type: <xref uid="@azure/event-hubs.LoadBalancingOptions|preview" />
         description: ''
   - name: retryOptions
     uid: '@azure/event-hubs.EventHubConsumerClientOptions.retryOptions|preview'
@@ -131,4 +131,4 @@ properties:
       return:
         type: WebSocketOptions
         description: ''
-extends: <xref uid="@azure/event-hubs.EventHubClientOptions" />
+extends: <xref uid="@azure/event-hubs.EventHubClientOptions|preview" />

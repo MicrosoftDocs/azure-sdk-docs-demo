@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'bypass?: NetworkRuleBypassOptions'
       return:
-        type: <xref uid="@azure/arm-keyvault.NetworkRuleBypassOptions" />
+        type: <xref uid="@azure/arm-keyvault.NetworkRuleBypassOptions|preview" />
         description: ''
   - name: defaultAction
     uid: '@azure/arm-keyvault.MhsmNetworkRuleSet.defaultAction|preview'
@@ -37,7 +37,7 @@ properties:
     syntax:
       content: 'defaultAction?: NetworkRuleAction'
       return:
-        type: <xref uid="@azure/arm-keyvault.NetworkRuleAction" />
+        type: <xref uid="@azure/arm-keyvault.NetworkRuleAction|preview" />
         description: ''
   - name: ipRules
     uid: '@azure/arm-keyvault.MhsmNetworkRuleSet.ipRules|preview'
@@ -50,7 +50,7 @@ properties:
     syntax:
       content: 'ipRules?: MhsmipRule[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.MhsmipRule" />[]
+        type: <xref uid="@azure/arm-keyvault.MhsmipRule|preview" />[]
         description: ''
   - name: virtualNetworkRules
     uid: '@azure/arm-keyvault.MhsmNetworkRuleSet.virtualNetworkRules|preview'
@@ -63,5 +63,5 @@ properties:
     syntax:
       content: 'virtualNetworkRules?: MhsmVirtualNetworkRule[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.MhsmVirtualNetworkRule" />[]
+        type: <xref uid="@azure/arm-keyvault.MhsmVirtualNetworkRule|preview" />[]
         description: ''

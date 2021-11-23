@@ -21,7 +21,10 @@ properties:
     syntax:
       content: 'relationType: HealthcareEntityRelationType'
       return:
-        type: <xref uid="@azure/ai-text-analytics.HealthcareEntityRelationType" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.HealthcareEntityRelationType|latest-stable"
+          />
         description: ''
   - name: roles
     uid: '@azure/ai-text-analytics.HealthcareEntityRelation.roles|latest-stable'
@@ -36,5 +39,8 @@ properties:
     syntax:
       content: 'roles: HealthcareEntityRelationRole[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.HealthcareEntityRelationRole" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.HealthcareEntityRelationRole|latest-stable"
+          />[]
         description: ''

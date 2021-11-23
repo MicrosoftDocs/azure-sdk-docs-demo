@@ -27,7 +27,10 @@ properties:
     syntax:
       content: 'type?: EventSubscriptionIdentityType'
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscriptionIdentityType" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.EventSubscriptionIdentityType|latest-stable"
+          />
         description: ''
   - name: userAssignedIdentity
     uid: >-

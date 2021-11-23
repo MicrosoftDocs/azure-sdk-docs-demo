@@ -55,7 +55,9 @@ methods:
           type: number
           description: ''
       return:
-        type: <xref uid="@azure/arm-storage.BlobServiceProperties" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable" />
+          | undefined
         description: ''
   - name: concat(ConcatArray<BlobServiceProperties>[])
     uid: '@azure/arm-storage.BlobServiceItems.concat|latest-stable'
@@ -69,12 +71,15 @@ methods:
       parameters:
         - id: items
           type: >-
-            ConcatArray&lt;<xref uid="@azure/arm-storage.BlobServiceProperties"
+            ConcatArray&lt;<xref
+            uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
             />&gt;[]
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/arm-storage.BlobServiceProperties" />[]
+        type: >-
+          <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
+          />[]
         description: ''
   - name: concat(T | ConcatArray<T>[])
     uid: '@azure/arm-storage.BlobServiceItems.concat_1|latest-stable'
@@ -91,7 +96,9 @@ methods:
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/arm-storage.BlobServiceProperties" />[]
+        type: >-
+          <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
+          />[]
         description: ''
   - name: copyWithin(number, number, undefined | number)
     uid: '@azure/arm-storage.BlobServiceItems.copyWithin|latest-stable'
@@ -189,7 +196,9 @@ methods:
         end?: undefined | number)
       parameters:
         - id: value
-          type: <xref uid="@azure/arm-storage.BlobServiceProperties" />
+          type: >-
+            <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
+            />
           description: value to fill array section with
         - id: start
           type: undefined | number
@@ -239,7 +248,9 @@ methods:
             function. If thisArg is omitted, undefined is used as the this
             value.
       return:
-        type: <xref uid="@azure/arm-storage.BlobServiceProperties" />[]
+        type: >-
+          <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
+          />[]
         description: ''
   - name: >-
       filter<S>((value: BlobServiceProperties, index: number, array:
@@ -297,7 +308,9 @@ methods:
           type: any
           description: ''
       return:
-        type: <xref uid="@azure/arm-storage.BlobServiceProperties" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable" />
+          | undefined
         description: ''
   - name: >-
       find<S>((this: void, value: BlobServiceProperties, index: number, obj:
@@ -677,7 +690,9 @@ methods:
         undefined | number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-storage.BlobServiceProperties" />
+          type: >-
+            <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
+            />
           description: The element to search for.
         - id: fromIndex
           type: undefined | number
@@ -700,7 +715,9 @@ methods:
         undefined | number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-storage.BlobServiceProperties" />
+          type: >-
+            <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
+            />
           description: The value to locate in the array.
         - id: fromIndex
           type: undefined | number
@@ -756,7 +773,9 @@ methods:
         undefined | number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-storage.BlobServiceProperties" />
+          type: >-
+            <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
+            />
           description: The value to locate in the array.
         - id: fromIndex
           type: undefined | number
@@ -808,7 +827,9 @@ methods:
     syntax:
       content: function pop()
       return:
-        type: <xref uid="@azure/arm-storage.BlobServiceProperties" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable" />
+          | undefined
         description: ''
   - name: push(BlobServiceProperties[])
     uid: '@azure/arm-storage.BlobServiceItems.push|latest-stable'
@@ -821,7 +842,9 @@ methods:
       content: 'function push(items: BlobServiceProperties[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/arm-storage.BlobServiceProperties" />[]
+          type: >-
+            <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
+            />[]
           description: |
             New elements of the Array.
       return:
@@ -856,7 +879,7 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/arm-storage.BlobServiceProperties" />
+        type: <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable" />
         description: ''
   - name: >-
       reduce((previousValue: BlobServiceProperties, currentValue:
@@ -882,10 +905,12 @@ methods:
             BlobServiceProperties[]) =&gt; BlobServiceProperties
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/arm-storage.BlobServiceProperties" />
+          type: >-
+            <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
+            />
           description: ''
       return:
-        type: <xref uid="@azure/arm-storage.BlobServiceProperties" />
+        type: <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable" />
         description: ''
   - name: >-
       reduce<U>((previousValue: U, currentValue: BlobServiceProperties,
@@ -952,7 +977,7 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/arm-storage.BlobServiceProperties" />
+        type: <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable" />
         description: ''
   - name: >-
       reduceRight((previousValue: BlobServiceProperties, currentValue:
@@ -978,10 +1003,12 @@ methods:
             BlobServiceProperties[]) =&gt; BlobServiceProperties
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/arm-storage.BlobServiceProperties" />
+          type: >-
+            <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
+            />
           description: ''
       return:
-        type: <xref uid="@azure/arm-storage.BlobServiceProperties" />
+        type: <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable" />
         description: ''
   - name: >-
       reduceRight<U>((previousValue: U, currentValue: BlobServiceProperties,
@@ -1029,7 +1056,9 @@ methods:
     syntax:
       content: function reverse()
       return:
-        type: <xref uid="@azure/arm-storage.BlobServiceProperties" />[]
+        type: >-
+          <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
+          />[]
         description: ''
   - name: shift()
     uid: '@azure/arm-storage.BlobServiceItems.shift|latest-stable'
@@ -1041,7 +1070,9 @@ methods:
     syntax:
       content: function shift()
       return:
-        type: <xref uid="@azure/arm-storage.BlobServiceProperties" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable" />
+          | undefined
         description: ''
   - name: slice(undefined | number, undefined | number)
     uid: '@azure/arm-storage.BlobServiceItems.slice|latest-stable'
@@ -1061,7 +1092,9 @@ methods:
           description: |
             The end of the specified portion of the array.
       return:
-        type: <xref uid="@azure/arm-storage.BlobServiceProperties" />[]
+        type: >-
+          <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
+          />[]
         description: ''
   - name: >-
       some((value: BlobServiceProperties, index: number, array:
@@ -1144,11 +1177,15 @@ methods:
           type: number
           description: The number of elements to remove.
         - id: items
-          type: <xref uid="@azure/arm-storage.BlobServiceProperties" />[]
+          type: >-
+            <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
+            />[]
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
-        type: <xref uid="@azure/arm-storage.BlobServiceProperties" />[]
+        type: >-
+          <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
+          />[]
         description: ''
   - name: splice(number, undefined | number)
     uid: '@azure/arm-storage.BlobServiceItems.splice|latest-stable'
@@ -1172,7 +1209,9 @@ methods:
           description: |
             The number of elements to remove.
       return:
-        type: <xref uid="@azure/arm-storage.BlobServiceProperties" />[]
+        type: >-
+          <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
+          />[]
         description: ''
   - name: toLocaleString()
     uid: '@azure/arm-storage.BlobServiceItems.toLocaleString|latest-stable'
@@ -1211,7 +1250,9 @@ methods:
       content: 'function unshift(items: BlobServiceProperties[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/arm-storage.BlobServiceProperties" />[]
+          type: >-
+            <xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
+            />[]
           description: |
             Elements to insert at the start of the Array.
       return:
@@ -1229,6 +1270,8 @@ methods:
       return:
         type: >-
           IterableIterator&lt;<xref
-          uid="@azure/arm-storage.BlobServiceProperties" />&gt;
+          uid="@azure/arm-storage.BlobServiceProperties|latest-stable" />&gt;
         description: ''
-extends: Array&lt;<xref uid="@azure/arm-storage.BlobServiceProperties" />&gt;
+extends: >-
+  Array&lt;<xref uid="@azure/arm-storage.BlobServiceProperties|latest-stable"
+  />&gt;

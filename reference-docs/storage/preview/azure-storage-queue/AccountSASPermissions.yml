@@ -145,7 +145,7 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-queue.AccountSASPermissions" />
+        type: <xref uid="@azure/storage-queue.AccountSASPermissions|preview" />
         description: ''
   - name: toString()
     uid: '@azure/storage-queue.AccountSASPermissions.toString|preview'

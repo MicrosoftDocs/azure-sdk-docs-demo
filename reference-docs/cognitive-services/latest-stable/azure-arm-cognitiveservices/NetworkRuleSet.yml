@@ -25,7 +25,9 @@ properties:
     syntax:
       content: 'defaultAction?: NetworkRuleAction'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.NetworkRuleAction" />
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.NetworkRuleAction|latest-stable" />
         description: ''
   - name: ipRules
     uid: '@azure/arm-cognitiveservices.NetworkRuleSet.ipRules|latest-stable'
@@ -38,7 +40,7 @@ properties:
     syntax:
       content: 'ipRules?: IpRule[]'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.IpRule" />[]
+        type: <xref uid="@azure/arm-cognitiveservices.IpRule|latest-stable" />[]
         description: ''
   - name: virtualNetworkRules
     uid: >-
@@ -52,5 +54,8 @@ properties:
     syntax:
       content: 'virtualNetworkRules?: VirtualNetworkRule[]'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.VirtualNetworkRule" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.VirtualNetworkRule|latest-stable"
+          />[]
         description: ''

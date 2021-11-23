@@ -34,18 +34,20 @@ methods:
           type: string
           description: The queue name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBQueue" />
+          type: <xref uid="@azure/arm-servicebus.SBQueue|preview" />
           description: Parameters supplied to create or update a queue resource.
         - id: options
           type: >-
-            <xref uid="@azure/arm-servicebus.QueuesCreateOrUpdateOptionalParams"
+            <xref
+            uid="@azure/arm-servicebus.QueuesCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.QueuesCreateOrUpdateResponse" />&gt;
+          uid="@azure/arm-servicebus.QueuesCreateOrUpdateResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       createOrUpdateAuthorizationRule(string, string, string, string,
@@ -76,19 +78,19 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBAuthorizationRule" />
+          type: <xref uid="@azure/arm-servicebus.SBAuthorizationRule|preview" />
           description: The shared access authorization rule.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.QueuesCreateOrUpdateAuthorizationRuleOptionalParams"
+            uid="@azure/arm-servicebus.QueuesCreateOrUpdateAuthorizationRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.QueuesCreateOrUpdateAuthorizationRuleResponse"
+          uid="@azure/arm-servicebus.QueuesCreateOrUpdateAuthorizationRuleResponse|preview"
           />&gt;
         description: ''
   - name: delete(string, string, string, QueuesDeleteOptionalParams)
@@ -113,7 +115,9 @@ methods:
           type: string
           description: The queue name.
         - id: options
-          type: <xref uid="@azure/arm-servicebus.QueuesDeleteOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.QueuesDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -149,7 +153,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.QueuesDeleteAuthorizationRuleOptionalParams"
+            uid="@azure/arm-servicebus.QueuesDeleteAuthorizationRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -178,11 +182,13 @@ methods:
           type: string
           description: The queue name.
         - id: options
-          type: <xref uid="@azure/arm-servicebus.QueuesGetOptionalParams" />
+          type: <xref uid="@azure/arm-servicebus.QueuesGetOptionalParams|preview" />
           description: |
             The options parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/arm-servicebus.QueuesGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-servicebus.QueuesGetResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       getAuthorizationRule(string, string, string, string,
@@ -214,14 +220,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.QueuesGetAuthorizationRuleOptionalParams"
+            uid="@azure/arm-servicebus.QueuesGetAuthorizationRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.QueuesGetAuthorizationRuleResponse" />&gt;
+          uid="@azure/arm-servicebus.QueuesGetAuthorizationRuleResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       listAuthorizationRules(string, string, string,
@@ -250,14 +257,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.QueuesListAuthorizationRulesOptionalParams"
+            uid="@azure/arm-servicebus.QueuesListAuthorizationRulesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-servicebus.SBAuthorizationRule" />&gt;
+          uid="@azure/arm-servicebus.SBAuthorizationRule|preview" />&gt;
         description: ''
   - name: listByNamespace(string, string, QueuesListByNamespaceOptionalParams)
     uid: '@azure/arm-servicebus.Queues.listByNamespace|preview'
@@ -280,13 +287,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.QueuesListByNamespaceOptionalParams" />
+            uid="@azure/arm-servicebus.QueuesListByNamespaceOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-servicebus.SBQueue" />&gt;
+          uid="@azure/arm-servicebus.SBQueue|preview" />&gt;
         description: ''
   - name: listKeys(string, string, string, string, QueuesListKeysOptionalParams)
     uid: '@azure/arm-servicebus.Queues.listKeys|preview'
@@ -314,13 +322,15 @@ methods:
           type: string
           description: The authorization rule name.
         - id: options
-          type: <xref uid="@azure/arm-servicebus.QueuesListKeysOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.QueuesListKeysOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-servicebus.QueuesListKeysResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.QueuesListKeysResponse|preview" />&gt;
         description: ''
   - name: >-
       regenerateKeys(string, string, string, string,
@@ -351,16 +361,20 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.RegenerateAccessKeyParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.RegenerateAccessKeyParameters|preview" />
           description: Parameters supplied to regenerate the authorization rule.
         - id: options
           type: >-
-            <xref uid="@azure/arm-servicebus.QueuesRegenerateKeysOptionalParams"
+            <xref
+            uid="@azure/arm-servicebus.QueuesRegenerateKeysOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.QueuesRegenerateKeysResponse" />&gt;
+          uid="@azure/arm-servicebus.QueuesRegenerateKeysResponse|preview"
+          />&gt;
         description: ''

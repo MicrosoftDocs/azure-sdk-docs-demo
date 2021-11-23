@@ -89,7 +89,9 @@ properties:
     syntax:
       content: 'segment: BlobFlatListSegmentModel'
       return:
-        type: <xref uid="@azure/storage-blob.BlobFlatListSegmentModel" />
+        type: >-
+          <xref uid="@azure/storage-blob.BlobFlatListSegmentModel|latest-stable"
+          />
         description: ''
   - name: serviceEndpoint
     uid: >-

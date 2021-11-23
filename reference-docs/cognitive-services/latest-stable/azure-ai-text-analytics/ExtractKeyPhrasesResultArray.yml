@@ -75,7 +75,10 @@ properties:
     syntax:
       content: 'statistics?: TextDocumentBatchStatistics'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextDocumentBatchStatistics" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TextDocumentBatchStatistics|latest-stable"
+          />
         description: ''
 methods:
   - name: at(number)
@@ -96,8 +99,9 @@ methods:
           description: ''
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" /> |
-          undefined
+          <xref
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+          /> | undefined
         description: ''
   - name: concat(ConcatArray<ExtractKeyPhrasesResult>[])
     uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.concat|latest-stable'
@@ -112,11 +116,15 @@ methods:
         - id: items
           type: >-
             ConcatArray&lt;<xref
-            uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />&gt;[]
+            uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+            />&gt;[]
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+          />[]
         description: ''
   - name: concat(T | ConcatArray<T>[])
     uid: >-
@@ -134,7 +142,10 @@ methods:
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+          />[]
         description: ''
   - name: copyWithin(number, number, number)
     uid: >-
@@ -232,7 +243,10 @@ methods:
         number)
       parameters:
         - id: value
-          type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+            />
           description: value to fill array section with
         - id: start
           type: number
@@ -283,7 +297,10 @@ methods:
             function. If thisArg is omitted, undefined is used as the this
             value.
       return:
-        type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+          />[]
         description: ''
   - name: >-
       filter<S>((value: ExtractKeyPhrasesResult, index: number, array:
@@ -342,8 +359,9 @@ methods:
           description: ''
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" /> |
-          undefined
+          <xref
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+          /> | undefined
         description: ''
   - name: >-
       find<S>((this: void, value: ExtractKeyPhrasesResult, index: number, obj:
@@ -728,7 +746,10 @@ methods:
         number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+            />
           description: The element to search for.
         - id: fromIndex
           type: number
@@ -752,7 +773,10 @@ methods:
         number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+            />
           description: The value to locate in the array.
         - id: fromIndex
           type: number
@@ -809,7 +833,10 @@ methods:
         number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+            />
           description: The value to locate in the array.
         - id: fromIndex
           type: number
@@ -862,8 +889,9 @@ methods:
       content: function pop()
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" /> |
-          undefined
+          <xref
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+          /> | undefined
         description: ''
   - name: push(ExtractKeyPhrasesResult[])
     uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.push|latest-stable'
@@ -876,7 +904,10 @@ methods:
       content: 'function push(items: ExtractKeyPhrasesResult[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+            />[]
           description: |
             New elements of the Array.
       return:
@@ -911,7 +942,10 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+          />
         description: ''
   - name: >-
       reduce((previousValue: ExtractKeyPhrasesResult, currentValue:
@@ -939,10 +973,16 @@ methods:
             ExtractKeyPhrasesResult[]) =&gt; ExtractKeyPhrasesResult
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+            />
           description: ''
       return:
-        type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+          />
         description: ''
   - name: >-
       reduce<U>((previousValue: U, currentValue: ExtractKeyPhrasesResult,
@@ -1012,7 +1052,10 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+          />
         description: ''
   - name: >-
       reduceRight((previousValue: ExtractKeyPhrasesResult, currentValue:
@@ -1040,10 +1083,16 @@ methods:
             ExtractKeyPhrasesResult[]) =&gt; ExtractKeyPhrasesResult
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+            />
           description: ''
       return:
-        type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+          />
         description: ''
   - name: >-
       reduceRight<U>((previousValue: U, currentValue: ExtractKeyPhrasesResult,
@@ -1093,7 +1142,10 @@ methods:
     syntax:
       content: function reverse()
       return:
-        type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+          />[]
         description: ''
   - name: shift()
     uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.shift|latest-stable'
@@ -1106,8 +1158,9 @@ methods:
       content: function shift()
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" /> |
-          undefined
+          <xref
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+          /> | undefined
         description: ''
   - name: slice(number, number)
     uid: '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray.slice|latest-stable'
@@ -1127,7 +1180,10 @@ methods:
           description: |
             The end of the specified portion of the array.
       return:
-        type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+          />[]
         description: ''
   - name: >-
       some((value: ExtractKeyPhrasesResult, index: number, array:
@@ -1207,7 +1263,10 @@ methods:
           description: |
             The number of elements to remove.
       return:
-        type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+          />[]
         description: ''
   - name: splice(number, number, ExtractKeyPhrasesResult[])
     uid: >-
@@ -1233,11 +1292,17 @@ methods:
           type: number
           description: The number of elements to remove.
         - id: items
-          type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+            />[]
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
-        type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+          />[]
         description: ''
   - name: toLocaleString()
     uid: >-
@@ -1279,7 +1344,10 @@ methods:
       content: 'function unshift(items: ExtractKeyPhrasesResult[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />[]
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+            />[]
           description: |
             Elements to insert at the start of the Array.
       return:
@@ -1297,6 +1365,9 @@ methods:
       return:
         type: >-
           IterableIterator&lt;<xref
-          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />&gt;
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable"
+          />&gt;
         description: ''
-extends: Array&lt;<xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult" />&gt;
+extends: >-
+  Array&lt;<xref
+  uid="@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable" />&gt;

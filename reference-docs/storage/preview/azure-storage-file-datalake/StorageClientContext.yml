@@ -29,7 +29,8 @@ constructors:
                        operation.
         - id: options
           type: >-
-            <xref uid="@azure/storage-file-datalake.StorageClientOptionalParams"
+            <xref
+            uid="@azure/storage-file-datalake.StorageClientOptionalParams|preview"
             />
           description: |
             The parameter options

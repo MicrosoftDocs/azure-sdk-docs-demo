@@ -194,4 +194,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-queue.MessagesPeekOptionalParams" />
+extends: <xref uid="@azure/storage-queue.MessagesPeekOptionalParams|latest-stable" />

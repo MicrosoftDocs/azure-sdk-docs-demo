@@ -44,7 +44,7 @@ properties:
     syntax:
       content: 'conditions?: LeaseAccessConditions'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseAccessConditions" />
+        type: <xref uid="@azure/storage-blob.LeaseAccessConditions|preview" />
         description: ''
   - name: customerProvidedKey
     uid: >-
@@ -58,7 +58,7 @@ properties:
     syntax:
       content: 'customerProvidedKey?: CpkInfo'
       return:
-        type: <xref uid="@azure/storage-blob.CpkInfo" />
+        type: <xref uid="@azure/storage-blob.CpkInfo|preview" />
         description: ''
   - name: encryptionScope
     uid: >-
@@ -97,7 +97,7 @@ properties:
     syntax:
       content: 'range?: Range_2'
       return:
-        type: <xref uid="@azure/storage-blob.Range_2" />
+        type: <xref uid="@azure/storage-blob.Range_2|preview" />
         description: ''
   - name: sourceAuthorization
     uid: >-
@@ -113,7 +113,7 @@ properties:
     syntax:
       content: 'sourceAuthorization?: HttpAuthorization'
       return:
-        type: <xref uid="@azure/storage-blob.HttpAuthorization" />
+        type: <xref uid="@azure/storage-blob.HttpAuthorization|preview" />
         description: ''
   - name: sourceContentCrc64
     uid: >-
@@ -175,4 +175,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|preview" />

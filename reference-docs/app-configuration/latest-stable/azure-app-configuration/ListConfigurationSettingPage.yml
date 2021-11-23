@@ -34,8 +34,11 @@ properties:
     syntax:
       content: 'items: ConfigurationSetting[]'
       return:
-        type: <xref uid="@azure/app-configuration.ConfigurationSetting" />[]
+        type: >-
+          <xref
+          uid="@azure/app-configuration.ConfigurationSetting|latest-stable" />[]
         description: ''
 extends: >-
-  <xref uid="@azure/app-configuration.HttpResponseField" />&lt;<xref
-  uid="@azure/app-configuration.SyncTokenHeaderField" />&gt;
+  <xref uid="@azure/app-configuration.HttpResponseField|latest-stable"
+  />&lt;<xref uid="@azure/app-configuration.SyncTokenHeaderField|latest-stable"
+  />&gt;

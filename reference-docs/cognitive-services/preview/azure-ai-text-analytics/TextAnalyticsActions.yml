@@ -23,7 +23,9 @@ properties:
     syntax:
       content: 'analyzeSentimentActions?: AnalyzeSentimentAction[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.AnalyzeSentimentAction" />[]
+        type: >-
+          <xref uid="@azure/ai-text-analytics.AnalyzeSentimentAction|preview"
+          />[]
         description: ''
   - name: extractKeyPhrasesActions
     uid: >-
@@ -37,7 +39,9 @@ properties:
     syntax:
       content: 'extractKeyPhrasesActions?: ExtractKeyPhrasesAction[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesAction" />[]
+        type: >-
+          <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesAction|preview"
+          />[]
         description: ''
   - name: extractSummaryActions
     uid: >-
@@ -51,7 +55,7 @@ properties:
     syntax:
       content: 'extractSummaryActions?: ExtractSummaryAction[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.ExtractSummaryAction" />[]
+        type: <xref uid="@azure/ai-text-analytics.ExtractSummaryAction|preview" />[]
         description: ''
   - name: multiCategoryClassifyActions
     uid: >-
@@ -70,7 +74,10 @@ properties:
     syntax:
       content: 'multiCategoryClassifyActions?: MultiCategoryClassifyAction[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.MultiCategoryClassifyAction" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.MultiCategoryClassifyAction|preview"
+          />[]
         description: ''
   - name: recognizeCustomEntitiesActions
     uid: >-
@@ -90,7 +97,8 @@ properties:
       content: 'recognizeCustomEntitiesActions?: RecognizeCustomEntitiesAction[]'
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizeCustomEntitiesAction"
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeCustomEntitiesAction|preview"
           />[]
         description: ''
   - name: recognizeEntitiesActions
@@ -107,7 +115,8 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesAction" />[]
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesAction|preview"
+          />[]
         description: ''
   - name: recognizeLinkedEntitiesActions
     uid: >-
@@ -122,7 +131,8 @@ properties:
       content: 'recognizeLinkedEntitiesActions?: RecognizeLinkedEntitiesAction[]'
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesAction"
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesAction|preview"
           />[]
         description: ''
   - name: recognizePiiEntitiesActions
@@ -137,7 +147,9 @@ properties:
     syntax:
       content: 'recognizePiiEntitiesActions?: RecognizePiiEntitiesAction[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesAction" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesAction|preview" />[]
         description: ''
   - name: singleCategoryClassifyActions
     uid: >-
@@ -156,5 +168,8 @@ properties:
     syntax:
       content: 'singleCategoryClassifyActions?: SingleCategoryClassifyAction[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyAction" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyAction|preview"
+          />[]
         description: ''

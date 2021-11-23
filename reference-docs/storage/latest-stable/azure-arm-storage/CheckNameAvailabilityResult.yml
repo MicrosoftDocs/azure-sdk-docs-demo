@@ -68,5 +68,5 @@ properties:
     syntax:
       content: 'reason?: Reason'
       return:
-        type: <xref uid="@azure/arm-storage.Reason" />
+        type: <xref uid="@azure/arm-storage.Reason|latest-stable" />
         description: ''

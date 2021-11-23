@@ -91,8 +91,8 @@ properties:
       content: 'serviceVersion?: "7.0" | "7.1" | "7.2" | "7.3-preview"'
       return:
         type: >-
-          "<xref uid="7.0" />" | "<xref uid="7.1" />" | "<xref uid="7.2" />" |
-          "<xref uid="7.3-preview" />"
+          "<xref uid="7.0|preview" />" | "<xref uid="7.1|preview" />" | "<xref
+          uid="7.2|preview" />" | "<xref uid="7.3-preview|preview" />"
         description: ''
   - name: userAgentOptions
     uid: >-

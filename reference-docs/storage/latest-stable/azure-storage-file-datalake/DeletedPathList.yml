@@ -20,5 +20,7 @@ properties:
     syntax:
       content: 'pathItems?: DeletedPath[]'
       return:
-        type: <xref uid="@azure/storage-file-datalake.DeletedPath" />[]
+        type: >-
+          <xref uid="@azure/storage-file-datalake.DeletedPath|latest-stable"
+          />[]
         description: ''

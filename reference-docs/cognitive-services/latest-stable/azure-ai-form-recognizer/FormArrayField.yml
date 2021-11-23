@@ -37,7 +37,7 @@ properties:
     syntax:
       content: 'labelData?: FieldData'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FieldData" />
+        type: <xref uid="@azure/ai-form-recognizer.FieldData|latest-stable" />
         description: ''
   - name: name
     uid: '@azure/ai-form-recognizer.FormArrayField.name|latest-stable'
@@ -65,7 +65,7 @@ properties:
     syntax:
       content: 'value?: FormField[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormField" />[]
+        type: <xref uid="@azure/ai-form-recognizer.FormField|latest-stable" />[]
         description: ''
   - name: valueData
     uid: '@azure/ai-form-recognizer.FormArrayField.valueData|latest-stable'
@@ -80,7 +80,7 @@ properties:
     syntax:
       content: 'valueData?: FieldData'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FieldData" />
+        type: <xref uid="@azure/ai-form-recognizer.FieldData|latest-stable" />
         description: ''
   - name: valueType
     uid: '@azure/ai-form-recognizer.FormArrayField.valueType|latest-stable'
@@ -95,4 +95,4 @@ properties:
       return:
         type: '"array"'
         description: ''
-extends: <xref uid="@azure/ai-form-recognizer.FormFieldCommon" />
+extends: <xref uid="@azure/ai-form-recognizer.FormFieldCommon|latest-stable" />

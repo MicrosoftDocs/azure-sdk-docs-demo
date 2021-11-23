@@ -135,7 +135,7 @@ properties:
     syntax:
       content: 'sku?: SBSku'
       return:
-        type: <xref uid="@azure/arm-servicebus.SBSku" />
+        type: <xref uid="@azure/arm-servicebus.SBSku|latest-stable" />
         description: ''
   - name: tags
     uid: '@azure/arm-servicebus.SBNamespace.tags|latest-stable'
@@ -184,4 +184,4 @@ properties:
       return:
         type: Date
         description: ''
-extends: <xref uid="@azure/arm-servicebus.TrackedResource" />
+extends: <xref uid="@azure/arm-servicebus.TrackedResource|latest-stable" />

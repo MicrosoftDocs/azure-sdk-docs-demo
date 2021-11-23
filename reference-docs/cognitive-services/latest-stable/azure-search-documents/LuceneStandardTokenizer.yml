@@ -66,6 +66,7 @@ properties:
         "#Microsoft.Azure.Search.StandardTokenizer"
       return:
         type: >-
-          "#<xref uid="Microsoft.Azure.Search.StandardTokenizerV2" />" | "#<xref
-          uid="Microsoft.Azure.Search.StandardTokenizer" />"
+          "#<xref uid="Microsoft.Azure.Search.StandardTokenizerV2|latest-stable"
+          />" | "#<xref
+          uid="Microsoft.Azure.Search.StandardTokenizer|latest-stable" />"
         description: ''

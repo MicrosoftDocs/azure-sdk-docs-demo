@@ -56,4 +56,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-file-share.CommonOptions" />
+extends: <xref uid="@azure/storage-file-share.CommonOptions|preview" />

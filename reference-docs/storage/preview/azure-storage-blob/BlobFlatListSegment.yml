@@ -20,5 +20,5 @@ properties:
     syntax:
       content: 'blobItems: BlobItem[]'
       return:
-        type: <xref uid="@azure/storage-blob.BlobItem" />[]
+        type: <xref uid="@azure/storage-blob.BlobItem|preview" />[]
         description: ''

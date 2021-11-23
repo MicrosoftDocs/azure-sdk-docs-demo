@@ -33,5 +33,7 @@ properties:
     syntax:
       content: 'value?: PrivateEndpointConnection[]'
       return:
-        type: <xref uid="@azure/arm-servicebus.PrivateEndpointConnection" />[]
+        type: >-
+          <xref uid="@azure/arm-servicebus.PrivateEndpointConnection|preview"
+          />[]
         description: ''

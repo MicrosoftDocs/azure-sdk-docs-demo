@@ -20,7 +20,9 @@ constructors:
       content: 'new ManagementPoliciesImpl(client: StorageManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|preview" />
           description: |
             Reference to the service client
 methods:
@@ -54,25 +56,25 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: managementPolicyName
-          type: <xref uid="@azure/arm-storage.ManagementPolicyName" />
+          type: <xref uid="@azure/arm-storage.ManagementPolicyName|preview" />
           description: >-
             The name of the Storage Account Management Policy. It should always
             be
                                         'default'
         - id: properties
-          type: <xref uid="@azure/arm-storage.ManagementPolicy" />
+          type: <xref uid="@azure/arm-storage.ManagementPolicy|preview" />
           description: The ManagementPolicy set to a storage account.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.ManagementPoliciesCreateOrUpdateOptionalParams"
+            uid="@azure/arm-storage.ManagementPoliciesCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.ManagementPoliciesCreateOrUpdateResponse"
+          uid="@azure/arm-storage.ManagementPoliciesCreateOrUpdateResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -106,7 +108,7 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: managementPolicyName
-          type: <xref uid="@azure/arm-storage.ManagementPolicyName" />
+          type: <xref uid="@azure/arm-storage.ManagementPolicyName|preview" />
           description: >-
             The name of the Storage Account Management Policy. It should always
             be
@@ -114,7 +116,8 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.ManagementPoliciesDeleteOptionalParams" />
+            uid="@azure/arm-storage.ManagementPoliciesDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -149,19 +152,20 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: managementPolicyName
-          type: <xref uid="@azure/arm-storage.ManagementPolicyName" />
+          type: <xref uid="@azure/arm-storage.ManagementPolicyName|preview" />
           description: >-
             The name of the Storage Account Management Policy. It should always
             be
                                         'default'
         - id: options
           type: >-
-            <xref uid="@azure/arm-storage.ManagementPoliciesGetOptionalParams"
+            <xref
+            uid="@azure/arm-storage.ManagementPoliciesGetOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.ManagementPoliciesGetResponse" />&gt;
+          uid="@azure/arm-storage.ManagementPoliciesGetResponse|preview" />&gt;
         description: ''

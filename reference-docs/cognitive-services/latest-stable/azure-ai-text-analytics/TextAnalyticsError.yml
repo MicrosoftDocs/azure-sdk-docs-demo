@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'code: ErrorCode'
       return:
-        type: <xref uid="@azure/ai-text-analytics.ErrorCode" />
+        type: <xref uid="@azure/ai-text-analytics.ErrorCode|latest-stable" />
         description: ''
   - name: message
     uid: '@azure/ai-text-analytics.TextAnalyticsError.message|latest-stable'

@@ -59,7 +59,9 @@ properties:
     syntax:
       content: 'errors: SearchIndexerError[]'
       return:
-        type: <xref uid="@azure/search-documents.SearchIndexerError" />[]
+        type: >-
+          <xref uid="@azure/search-documents.SearchIndexerError|latest-stable"
+          />[]
         description: ''
   - name: failedItemCount
     uid: >-
@@ -167,7 +169,9 @@ properties:
     syntax:
       content: 'status: IndexerExecutionStatus'
       return:
-        type: <xref uid="@azure/search-documents.IndexerExecutionStatus" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.IndexerExecutionStatus|latest-stable" />
         description: ''
   - name: warnings
     uid: '@azure/search-documents.IndexerExecutionResult.warnings|latest-stable'
@@ -184,5 +188,7 @@ properties:
     syntax:
       content: 'warnings: SearchIndexerWarning[]'
       return:
-        type: <xref uid="@azure/search-documents.SearchIndexerWarning" />[]
+        type: >-
+          <xref uid="@azure/search-documents.SearchIndexerWarning|latest-stable"
+          />[]
         description: ''

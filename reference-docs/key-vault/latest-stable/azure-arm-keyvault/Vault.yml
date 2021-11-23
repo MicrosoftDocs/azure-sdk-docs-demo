@@ -67,7 +67,7 @@ properties:
     syntax:
       content: 'properties: VaultProperties'
       return:
-        type: <xref uid="@azure/arm-keyvault.VaultProperties" />
+        type: <xref uid="@azure/arm-keyvault.VaultProperties|latest-stable" />
         description: ''
   - name: tags
     uid: '@azure/arm-keyvault.Vault.tags|latest-stable'
@@ -99,4 +99,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-keyvault.Resource" />
+extends: <xref uid="@azure/arm-keyvault.Resource|latest-stable" />

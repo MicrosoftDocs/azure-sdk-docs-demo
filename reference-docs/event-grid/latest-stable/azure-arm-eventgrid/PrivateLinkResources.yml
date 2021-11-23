@@ -20,7 +20,10 @@ constructors:
       content: 'new PrivateLinkResources(client: EventGridManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-eventgrid.EventGridManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.EventGridManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -56,10 +59,12 @@ methods:
           type: string
           description: The name of private link resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.PrivateLinkResourcesGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.PrivateLinkResourcesGetResponse|latest-stable" />&gt;
         description: Promise<Models.PrivateLinkResourcesGetResponse>
   - name: >-
       get(string, string, string, string, RequestOptionsBase,
@@ -100,7 +105,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.PrivateLinkResource" />&gt;
+            uid="@azure/arm-eventgrid.PrivateLinkResource|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, string, string, ServiceCallback<PrivateLinkResource>)
@@ -137,7 +142,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.PrivateLinkResource" />&gt;
+            uid="@azure/arm-eventgrid.PrivateLinkResource|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -172,13 +177,15 @@ methods:
             name).
         - id: options
           type: >-
-            <xref uid="Models.PrivateLinkResourcesListByResourceOptionalParams"
+            <xref
+            uid="Models.PrivateLinkResourcesListByResourceOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateLinkResourcesListByResourceResponse" />&gt;
+          uid="Models.PrivateLinkResourcesListByResourceResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateLinkResourcesListByResourceResponse>
   - name: >-
       listByResource(string, string, string,
@@ -215,13 +222,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.PrivateLinkResourcesListByResourceOptionalParams"
+            uid="@azure/arm-eventgrid.PrivateLinkResourcesListByResourceOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.PrivateLinkResourcesListResult" />&gt;
+            uid="@azure/arm-eventgrid.PrivateLinkResourcesListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -257,7 +265,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.PrivateLinkResourcesListResult" />&gt;
+            uid="@azure/arm-eventgrid.PrivateLinkResourcesListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -280,12 +289,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.PrivateLinkResourcesListByResourceNextOptionalParams" />
+            uid="Models.PrivateLinkResourcesListByResourceNextOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateLinkResourcesListByResourceNextResponse" />&gt;
+          uid="Models.PrivateLinkResourcesListByResourceNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateLinkResourcesListByResourceNextResponse>
   - name: >-
       listByResourceNext(string,
@@ -310,13 +321,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.PrivateLinkResourcesListByResourceNextOptionalParams"
+            uid="@azure/arm-eventgrid.PrivateLinkResourcesListByResourceNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.PrivateLinkResourcesListResult" />&gt;
+            uid="@azure/arm-eventgrid.PrivateLinkResourcesListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -340,6 +352,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.PrivateLinkResourcesListResult" />&gt;
+            uid="@azure/arm-eventgrid.PrivateLinkResourcesListResult|latest-stable"
+            />&gt;
           description: |
             The callback

@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'desired?: DeviceTwin'
       return:
-        type: <xref uid="@azure/eventgrid.DeviceTwin" />
+        type: <xref uid="@azure/eventgrid.DeviceTwin|latest-stable" />
         description: ''
   - name: reported
     uid: '@azure/eventgrid.DeviceTwinInfoProperties.reported|latest-stable'
@@ -37,5 +37,5 @@ properties:
     syntax:
       content: 'reported?: DeviceTwin'
       return:
-        type: <xref uid="@azure/eventgrid.DeviceTwin" />
+        type: <xref uid="@azure/eventgrid.DeviceTwin|latest-stable" />
         description: ''

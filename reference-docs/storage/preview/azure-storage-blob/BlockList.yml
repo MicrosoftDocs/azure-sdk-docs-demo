@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'committedBlocks?: Block[]'
       return:
-        type: <xref uid="@azure/storage-blob.Block" />[]
+        type: <xref uid="@azure/storage-blob.Block|preview" />[]
         description: ''
   - name: uncommittedBlocks
     uid: '@azure/storage-blob.BlockList.uncommittedBlocks|preview'
@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'uncommittedBlocks?: Block[]'
       return:
-        type: <xref uid="@azure/storage-blob.Block" />[]
+        type: <xref uid="@azure/storage-blob.Block|preview" />[]
         description: ''

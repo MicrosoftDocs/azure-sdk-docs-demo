@@ -187,7 +187,9 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-file-datalake.DirectorySASPermissions" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.DirectorySASPermissions|preview" />
         description: ''
   - name: toString()
     uid: '@azure/storage-file-datalake.DirectorySASPermissions.toString|preview'

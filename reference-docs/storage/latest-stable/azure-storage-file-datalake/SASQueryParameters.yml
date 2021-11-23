@@ -46,7 +46,8 @@ constructors:
           description: Representing the signature for the SAS token
         - id: options
           type: >-
-            <xref uid="@azure/storage-file-datalake.SASQueryParametersOptions"
+            <xref
+            uid="@azure/storage-file-datalake.SASQueryParametersOptions|latest-stable"
             />
           description: |
             Optional. Options to construct the SASQueryParameters.
@@ -91,7 +92,9 @@ constructors:
             Representing the storage resource types being accessed (only for
             Account SAS)
         - id: protocol
-          type: <xref uid="@azure/storage-file-datalake.SASProtocol" />
+          type: >-
+            <xref uid="@azure/storage-file-datalake.SASProtocol|latest-stable"
+            />
           description: Representing the allowed HTTP protocol(s)
         - id: startsOn
           type: Date
@@ -100,7 +103,7 @@ constructors:
           type: Date
           description: Representing the expiry time for this SAS token
         - id: ipRange
-          type: <xref uid="@azure/storage-file-datalake.SasIPRange" />
+          type: <xref uid="@azure/storage-file-datalake.SasIPRange|latest-stable" />
           description: Representing the range of valid IP addresses for this SAS token
         - id: identifier
           type: string
@@ -134,7 +137,10 @@ constructors:
             Representing the content-type header (only for Blob/File Service
             SAS)
         - id: userDelegationKey
-          type: <xref uid="@azure/storage-file-datalake.UserDelegationKey" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-datalake.UserDelegationKey|latest-stable"
+            />
           description: Representing the user delegation key properties
         - id: directoryDepth
           type: number
@@ -322,7 +328,9 @@ properties:
     syntax:
       content: SasIPRange | undefined ipRange
       return:
-        type: <xref uid="@azure/storage-file-datalake.SasIPRange" /> | undefined
+        type: >-
+          <xref uid="@azure/storage-file-datalake.SasIPRange|latest-stable" /> |
+          undefined
         description: ''
   - name: permissions
     uid: '@azure/storage-file-datalake.SASQueryParameters.permissions|latest-stable'
@@ -381,7 +389,7 @@ properties:
     syntax:
       content: 'protocol?: SASProtocol'
       return:
-        type: <xref uid="@azure/storage-file-datalake.SASProtocol" />
+        type: <xref uid="@azure/storage-file-datalake.SASProtocol|latest-stable" />
         description: ''
   - name: resource
     uid: '@azure/storage-file-datalake.SASQueryParameters.resource|latest-stable'

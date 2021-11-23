@@ -76,7 +76,10 @@ properties:
     syntax:
       content: 'retryPolicyType?: StorageRetryPolicyType'
       return:
-        type: <xref uid="@azure/storage-file-share.StorageRetryPolicyType" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-share.StorageRetryPolicyType|latest-stable"
+          />
         description: ''
   - name: tryTimeoutInMs
     uid: '@azure/storage-file-share.StorageRetryOptions.tryTimeoutInMs|latest-stable'

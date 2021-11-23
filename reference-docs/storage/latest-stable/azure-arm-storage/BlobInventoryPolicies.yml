@@ -20,7 +20,10 @@ constructors:
       content: 'new BlobInventoryPolicies(client: StorageManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -59,20 +62,22 @@ methods:
 
             letters only.
         - id: policy
-          type: <xref uid="@azure/arm-storage.BlobInventoryPolicySchema" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.BlobInventoryPolicySchema|latest-stable" />
           description: >-
             The storage account blob inventory policy object. It is composed of
             policy rules.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobInventoryPoliciesCreateOrUpdateOptionalParams"
+            uid="@azure/arm-storage.BlobInventoryPoliciesCreateOrUpdateOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.BlobInventoryPolicy" />&gt;
+            uid="@azure/arm-storage.BlobInventoryPolicy|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -108,19 +113,23 @@ methods:
 
             letters only.
         - id: policy
-          type: <xref uid="@azure/arm-storage.BlobInventoryPolicySchema" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.BlobInventoryPolicySchema|latest-stable" />
           description: >-
             The storage account blob inventory policy object. It is composed of
             policy rules.
         - id: options
           type: >-
-            <xref uid="Models.BlobInventoryPoliciesCreateOrUpdateOptionalParams"
+            <xref
+            uid="Models.BlobInventoryPoliciesCreateOrUpdateOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.BlobInventoryPoliciesCreateOrUpdateResponse" />&gt;
+          uid="Models.BlobInventoryPoliciesCreateOrUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.BlobInventoryPoliciesCreateOrUpdateResponse>
   - name: >-
       createOrUpdate(string, string, BlobInventoryPolicySchema,
@@ -155,14 +164,16 @@ methods:
 
             letters only.
         - id: policy
-          type: <xref uid="@azure/arm-storage.BlobInventoryPolicySchema" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.BlobInventoryPolicySchema|latest-stable" />
           description: >-
             The storage account blob inventory policy object. It is composed of
             policy rules.
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.BlobInventoryPolicy" />&gt;
+            uid="@azure/arm-storage.BlobInventoryPolicy|latest-stable" />&gt;
           description: |
             The callback
   - name: deleteMethod(string, string, msRest.RequestOptionsBase)
@@ -197,7 +208,7 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -303,10 +314,12 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobInventoryPoliciesGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.BlobInventoryPoliciesGetResponse|latest-stable" />&gt;
         description: Promise<Models.BlobInventoryPoliciesGetResponse>
   - name: >-
       get(string, string, RequestOptionsBase,
@@ -345,7 +358,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.BlobInventoryPolicy" />&gt;
+            uid="@azure/arm-storage.BlobInventoryPolicy|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, ServiceCallback<BlobInventoryPolicy>)
@@ -380,7 +393,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.BlobInventoryPolicy" />&gt;
+            uid="@azure/arm-storage.BlobInventoryPolicy|latest-stable" />&gt;
           description: |
             The callback
   - name: list(string, string, msRest.RequestOptionsBase)
@@ -415,10 +428,12 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobInventoryPoliciesListResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.BlobInventoryPoliciesListResponse|latest-stable" />&gt;
         description: Promise<Models.BlobInventoryPoliciesListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -457,7 +472,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.ListBlobInventoryPolicy" />&gt;
+            uid="@azure/arm-storage.ListBlobInventoryPolicy|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: list(string, string, ServiceCallback<ListBlobInventoryPolicy>)
@@ -492,6 +508,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.ListBlobInventoryPolicy" />&gt;
+            uid="@azure/arm-storage.ListBlobInventoryPolicy|latest-stable"
+            />&gt;
           description: |
             The callback

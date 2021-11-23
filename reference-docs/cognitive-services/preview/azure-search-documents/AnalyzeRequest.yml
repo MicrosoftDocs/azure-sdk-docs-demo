@@ -62,7 +62,7 @@ properties:
     syntax:
       content: 'normalizerName?: LexicalNormalizerName'
       return:
-        type: <xref uid="@azure/search-documents.LexicalNormalizerName" />
+        type: <xref uid="@azure/search-documents.LexicalNormalizerName|preview" />
         description: ''
   - name: text
     uid: '@azure/search-documents.AnalyzeRequest.text|preview'

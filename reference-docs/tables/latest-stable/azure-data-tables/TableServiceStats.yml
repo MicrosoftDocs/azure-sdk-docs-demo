@@ -20,5 +20,5 @@ properties:
     syntax:
       content: 'geoReplication?: GeoReplication'
       return:
-        type: <xref uid="@azure/data-tables.GeoReplication" />
+        type: <xref uid="@azure/data-tables.GeoReplication|latest-stable" />
         description: ''

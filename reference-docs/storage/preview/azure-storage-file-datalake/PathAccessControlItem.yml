@@ -21,7 +21,7 @@ properties:
     syntax:
       content: 'accessControlType: AccessControlType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.AccessControlType" />
+        type: <xref uid="@azure/storage-file-datalake.AccessControlType|preview" />
         description: ''
   - name: defaultScope
     uid: '@azure/storage-file-datalake.PathAccessControlItem.defaultScope|preview'
@@ -60,5 +60,5 @@ properties:
     syntax:
       content: 'permissions: RolePermissions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.RolePermissions" />
+        type: <xref uid="@azure/storage-file-datalake.RolePermissions|preview" />
         description: ''

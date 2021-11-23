@@ -55,7 +55,7 @@ constructors:
             authenticate requests to the service. Use the \@azure/identity
             package to create a credential that suits your needs.
         - id: pipelineOptions
-          type: <xref uid="@azure/keyvault-keys.KeyClientOptions" />
+          type: <xref uid="@azure/keyvault-keys.KeyClientOptions|latest-stable" />
           description: >
             Pipeline options used to configure Key Vault API requests. Omit this
             parameter to use the default pipeline configuration.
@@ -105,7 +105,7 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.BackupKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.BackupKeyOptions|latest-stable" />
           description: |
             The optional parameters.
       return:
@@ -166,14 +166,16 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.BeginDeleteKeyOptions" />
+          type: >-
+            <xref uid="@azure/keyvault-keys.BeginDeleteKeyOptions|latest-stable"
+            />
           description: |
             The optional parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/keyvault-keys.DeletedKey" />&gt;, <xref
-          uid="@azure/keyvault-keys.DeletedKey" />&gt;&gt;
+          uid="@azure/keyvault-keys.DeletedKey|latest-stable" />&gt;, <xref
+          uid="@azure/keyvault-keys.DeletedKey|latest-stable" />&gt;&gt;
         description: ''
   - name: beginRecoverDeletedKey(string, BeginRecoverDeletedKeyOptions)
     uid: '@azure/keyvault-keys.KeyClient.beginRecoverDeletedKey|latest-stable'
@@ -237,14 +239,17 @@ methods:
           type: string
           description: The name of the deleted key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.BeginRecoverDeletedKeyOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-keys.BeginRecoverDeletedKeyOptions|latest-stable"
+            />
           description: |
             The optional parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/keyvault-keys.DeletedKey" />&gt;, <xref
-          uid="@azure/keyvault-keys.DeletedKey" />&gt;&gt;
+          uid="@azure/keyvault-keys.DeletedKey|latest-stable" />&gt;, <xref
+          uid="@azure/keyvault-keys.DeletedKey|latest-stable" />&gt;&gt;
         description: ''
   - name: createEcKey(string, CreateEcKeyOptions)
     uid: '@azure/keyvault-keys.KeyClient.createEcKey|latest-stable'
@@ -280,11 +285,13 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.CreateEcKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.CreateEcKeyOptions|latest-stable" />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|latest-stable"
+          />&gt;
         description: ''
   - name: createKey(string, KeyType, CreateKeyOptions)
     uid: '@azure/keyvault-keys.KeyClient.createKey|latest-stable'
@@ -324,16 +331,18 @@ methods:
           type: string
           description: The name of the key.
         - id: keyType
-          type: <xref uid="@azure/keyvault-keys.KeyType" />
+          type: <xref uid="@azure/keyvault-keys.KeyType|latest-stable" />
           description: >-
             The type of the key. One of the following: 'EC', 'EC-HSM', 'RSA',
             'RSA-HSM', 'oct'.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.CreateKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.CreateKeyOptions|latest-stable" />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|latest-stable"
+          />&gt;
         description: ''
   - name: createOctKey(string, CreateOctKeyOptions)
     uid: '@azure/keyvault-keys.KeyClient.createOctKey|latest-stable'
@@ -369,11 +378,15 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.CreateOctKeyOptions" />
+          type: >-
+            <xref uid="@azure/keyvault-keys.CreateOctKeyOptions|latest-stable"
+            />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|latest-stable"
+          />&gt;
         description: ''
   - name: createRsaKey(string, CreateRsaKeyOptions)
     uid: '@azure/keyvault-keys.KeyClient.createRsaKey|latest-stable'
@@ -409,11 +422,15 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.CreateRsaKeyOptions" />
+          type: >-
+            <xref uid="@azure/keyvault-keys.CreateRsaKeyOptions|latest-stable"
+            />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|latest-stable"
+          />&gt;
         description: ''
   - name: getDeletedKey(string, GetDeletedKeyOptions)
     uid: '@azure/keyvault-keys.KeyClient.getDeletedKey|latest-stable'
@@ -445,11 +462,15 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.GetDeletedKeyOptions" />
+          type: >-
+            <xref uid="@azure/keyvault-keys.GetDeletedKeyOptions|latest-stable"
+            />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.DeletedKey" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.DeletedKey|latest-stable"
+          />&gt;
         description: ''
   - name: getKey(string, GetKeyOptions)
     uid: '@azure/keyvault-keys.KeyClient.getKey|latest-stable'
@@ -481,11 +502,13 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.GetKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.GetKeyOptions|latest-stable" />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|latest-stable"
+          />&gt;
         description: ''
   - name: importKey(string, JsonWebKey, ImportKeyOptions)
     uid: '@azure/keyvault-keys.KeyClient.importKey|latest-stable'
@@ -527,14 +550,16 @@ methods:
           type: string
           description: Name for the imported key.
         - id: key
-          type: <xref uid="@azure/keyvault-keys.JsonWebKey" />
+          type: <xref uid="@azure/keyvault-keys.JsonWebKey|latest-stable" />
           description: The JSON web key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.ImportKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.ImportKeyOptions|latest-stable" />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|latest-stable"
+          />&gt;
         description: ''
   - name: listDeletedKeys(ListDeletedKeysOptions)
     uid: '@azure/keyvault-keys.KeyClient.listDeletedKeys|latest-stable'
@@ -566,13 +591,15 @@ methods:
       content: 'function listDeletedKeys(options?: ListDeletedKeysOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/keyvault-keys.ListDeletedKeysOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-keys.ListDeletedKeysOptions|latest-stable" />
           description: |
             The optional parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/keyvault-keys.DeletedKey" />&gt;
+          uid="@azure/keyvault-keys.DeletedKey|latest-stable" />&gt;
         description: ''
   - name: listPropertiesOfKeys(ListPropertiesOfKeysOptions)
     uid: '@azure/keyvault-keys.KeyClient.listPropertiesOfKeys|latest-stable'
@@ -605,13 +632,16 @@ methods:
       content: 'function listPropertiesOfKeys(options?: ListPropertiesOfKeysOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/keyvault-keys.ListPropertiesOfKeysOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-keys.ListPropertiesOfKeysOptions|latest-stable"
+            />
           description: |
             The optional parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/keyvault-keys.KeyProperties" />&gt;
+          uid="@azure/keyvault-keys.KeyProperties|latest-stable" />&gt;
         description: ''
   - name: listPropertiesOfKeyVersions(string, ListPropertiesOfKeyVersionsOptions)
     uid: '@azure/keyvault-keys.KeyClient.listPropertiesOfKeyVersions|latest-stable'
@@ -648,14 +678,15 @@ methods:
           description: Name of the key to fetch versions for
         - id: options
           type: >-
-            <xref uid="@azure/keyvault-keys.ListPropertiesOfKeyVersionsOptions"
+            <xref
+            uid="@azure/keyvault-keys.ListPropertiesOfKeyVersionsOptions|latest-stable"
             />
           description: |
             The optional parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/keyvault-keys.KeyProperties" />&gt;
+          uid="@azure/keyvault-keys.KeyProperties|latest-stable" />&gt;
         description: ''
   - name: purgeDeletedKey(string, PurgeDeletedKeyOptions)
     uid: '@azure/keyvault-keys.KeyClient.purgeDeletedKey|latest-stable'
@@ -694,7 +725,9 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.PurgeDeletedKeyOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-keys.PurgeDeletedKeyOptions|latest-stable" />
           description: |
             The optional parameters.
       return:
@@ -736,11 +769,15 @@ methods:
           type: Uint8Array
           description: The backup blob associated with a key bundle.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.RestoreKeyBackupOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-keys.RestoreKeyBackupOptions|latest-stable" />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|latest-stable"
+          />&gt;
         description: ''
   - name: updateKeyProperties(string, string, UpdateKeyPropertiesOptions)
     uid: '@azure/keyvault-keys.KeyClient.updateKeyProperties|latest-stable'
@@ -786,9 +823,14 @@ methods:
           type: string
           description: The version of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.UpdateKeyPropertiesOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-keys.UpdateKeyPropertiesOptions|latest-stable"
+            />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|latest-stable"
+          />&gt;
         description: ''

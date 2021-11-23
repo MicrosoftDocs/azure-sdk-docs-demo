@@ -40,7 +40,7 @@ properties:
     syntax:
       content: 'conditions?: AppendBlobRequestConditions'
       return:
-        type: <xref uid="@azure/storage-blob.AppendBlobRequestConditions" />
+        type: <xref uid="@azure/storage-blob.AppendBlobRequestConditions|preview" />
         description: ''
   - name: tracingOptions
     uid: '@azure/storage-blob.AppendBlobSealOptions.tracingOptions|preview'
@@ -55,4 +55,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|preview" />

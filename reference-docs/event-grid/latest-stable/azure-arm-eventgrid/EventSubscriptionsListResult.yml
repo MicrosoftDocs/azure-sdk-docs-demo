@@ -68,7 +68,9 @@ methods:
           type: number
           description: ''
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscription" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" /> |
+          undefined
         description: ''
   - name: concat(ConcatArray<EventSubscription>[])
     uid: '@azure/arm-eventgrid.EventSubscriptionsListResult.concat|latest-stable'
@@ -82,12 +84,12 @@ methods:
       parameters:
         - id: items
           type: >-
-            ConcatArray&lt;<xref uid="@azure/arm-eventgrid.EventSubscription"
-            />&gt;[]
+            ConcatArray&lt;<xref
+            uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />&gt;[]
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscription" />[]
+        type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />[]
         description: ''
   - name: concat(T | ConcatArray<T>[])
     uid: '@azure/arm-eventgrid.EventSubscriptionsListResult.concat_1|latest-stable'
@@ -104,7 +106,7 @@ methods:
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscription" />[]
+        type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />[]
         description: ''
   - name: copyWithin(number, number, undefined | number)
     uid: '@azure/arm-eventgrid.EventSubscriptionsListResult.copyWithin|latest-stable'
@@ -202,7 +204,7 @@ methods:
         end?: undefined | number)
       parameters:
         - id: value
-          type: <xref uid="@azure/arm-eventgrid.EventSubscription" />
+          type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />
           description: value to fill array section with
         - id: start
           type: undefined | number
@@ -252,7 +254,7 @@ methods:
             function. If thisArg is omitted, undefined is used as the this
             value.
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscription" />[]
+        type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />[]
         description: ''
   - name: >-
       filter<S>((value: EventSubscription, index: number, array:
@@ -310,7 +312,9 @@ methods:
           type: any
           description: ''
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscription" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" /> |
+          undefined
         description: ''
   - name: >-
       find<S>((this: void, value: EventSubscription, index: number, obj:
@@ -690,7 +694,7 @@ methods:
         undefined | number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-eventgrid.EventSubscription" />
+          type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />
           description: The element to search for.
         - id: fromIndex
           type: undefined | number
@@ -713,7 +717,7 @@ methods:
         | number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-eventgrid.EventSubscription" />
+          type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />
           description: The value to locate in the array.
         - id: fromIndex
           type: undefined | number
@@ -770,7 +774,7 @@ methods:
         undefined | number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-eventgrid.EventSubscription" />
+          type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />
           description: The value to locate in the array.
         - id: fromIndex
           type: undefined | number
@@ -822,7 +826,9 @@ methods:
     syntax:
       content: function pop()
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscription" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" /> |
+          undefined
         description: ''
   - name: push(EventSubscription[])
     uid: '@azure/arm-eventgrid.EventSubscriptionsListResult.push|latest-stable'
@@ -835,7 +841,9 @@ methods:
       content: 'function push(items: EventSubscription[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/arm-eventgrid.EventSubscription" />[]
+          type: >-
+            <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable"
+            />[]
           description: |
             New elements of the Array.
       return:
@@ -869,7 +877,7 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscription" />
+        type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />
         description: ''
   - name: >-
       reduce((previousValue: EventSubscription, currentValue: EventSubscription,
@@ -895,10 +903,10 @@ methods:
             EventSubscription
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/arm-eventgrid.EventSubscription" />
+          type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscription" />
+        type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />
         description: ''
   - name: >-
       reduce<U>((previousValue: U, currentValue: EventSubscription,
@@ -966,7 +974,7 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscription" />
+        type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />
         description: ''
   - name: >-
       reduceRight((previousValue: EventSubscription, currentValue:
@@ -993,10 +1001,10 @@ methods:
             EventSubscription
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/arm-eventgrid.EventSubscription" />
+          type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscription" />
+        type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />
         description: ''
   - name: >-
       reduceRight<U>((previousValue: U, currentValue: EventSubscription,
@@ -1045,7 +1053,7 @@ methods:
     syntax:
       content: function reverse()
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscription" />[]
+        type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />[]
         description: ''
   - name: shift()
     uid: '@azure/arm-eventgrid.EventSubscriptionsListResult.shift|latest-stable'
@@ -1057,7 +1065,9 @@ methods:
     syntax:
       content: function shift()
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscription" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" /> |
+          undefined
         description: ''
   - name: slice(undefined | number, undefined | number)
     uid: '@azure/arm-eventgrid.EventSubscriptionsListResult.slice|latest-stable'
@@ -1077,7 +1087,7 @@ methods:
           description: |
             The end of the specified portion of the array.
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscription" />[]
+        type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />[]
         description: ''
   - name: >-
       some((value: EventSubscription, index: number, array: EventSubscription[])
@@ -1158,11 +1168,13 @@ methods:
           type: number
           description: The number of elements to remove.
         - id: items
-          type: <xref uid="@azure/arm-eventgrid.EventSubscription" />[]
+          type: >-
+            <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable"
+            />[]
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscription" />[]
+        type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />[]
         description: ''
   - name: splice(number, undefined | number)
     uid: '@azure/arm-eventgrid.EventSubscriptionsListResult.splice|latest-stable'
@@ -1186,7 +1198,7 @@ methods:
           description: |
             The number of elements to remove.
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscription" />[]
+        type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />[]
         description: ''
   - name: toLocaleString()
     uid: >-
@@ -1226,7 +1238,9 @@ methods:
       content: 'function unshift(items: EventSubscription[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/arm-eventgrid.EventSubscription" />[]
+          type: >-
+            <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable"
+            />[]
           description: |
             Elements to insert at the start of the Array.
       return:
@@ -1243,7 +1257,9 @@ methods:
       content: function values()
       return:
         type: >-
-          IterableIterator&lt;<xref uid="@azure/arm-eventgrid.EventSubscription"
-          />&gt;
+          IterableIterator&lt;<xref
+          uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />&gt;
         description: ''
-extends: Array&lt;<xref uid="@azure/arm-eventgrid.EventSubscription" />&gt;
+extends: >-
+  Array&lt;<xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable"
+  />&gt;

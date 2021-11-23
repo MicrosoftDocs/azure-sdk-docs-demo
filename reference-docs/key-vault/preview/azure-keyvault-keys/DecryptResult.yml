@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'algorithm: EncryptionAlgorithm'
       return:
-        type: <xref uid="@azure/keyvault-keys.EncryptionAlgorithm" />
+        type: <xref uid="@azure/keyvault-keys.EncryptionAlgorithm|preview" />
         description: ''
   - name: keyID
     uid: '@azure/keyvault-keys.DecryptResult.keyID|preview'

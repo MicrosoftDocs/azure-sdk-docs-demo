@@ -40,7 +40,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.PrivateEndpointConnectionsDeleteOptionalParams"
+            uid="@azure/arm-eventhub.PrivateEndpointConnectionsDeleteOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -78,7 +78,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.PrivateEndpointConnectionsDeleteOptionalParams"
+            uid="@azure/arm-eventhub.PrivateEndpointConnectionsDeleteOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -111,7 +111,7 @@ methods:
           type: string
           description: The PrivateEndpointConnection name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.PrivateEndpointConnection" />
+          type: <xref uid="@azure/arm-eventhub.PrivateEndpointConnection|preview" />
           description: >-
             Parameters supplied to update Status of PrivateEndPoint Connection
             to namespace
@@ -119,14 +119,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.PrivateEndpointConnectionsCreateOrUpdateOptionalParams"
+            uid="@azure/arm-eventhub.PrivateEndpointConnectionsCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.PrivateEndpointConnectionsCreateOrUpdateResponse"
+          uid="@azure/arm-eventhub.PrivateEndpointConnectionsCreateOrUpdateResponse|preview"
           />&gt;
         description: ''
   - name: get(string, string, string, PrivateEndpointConnectionsGetOptionalParams)
@@ -154,14 +154,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.PrivateEndpointConnectionsGetOptionalParams"
+            uid="@azure/arm-eventhub.PrivateEndpointConnectionsGetOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.PrivateEndpointConnectionsGetResponse" />&gt;
+          uid="@azure/arm-eventhub.PrivateEndpointConnectionsGetResponse|preview"
+          />&gt;
         description: ''
   - name: list(string, string, PrivateEndpointConnectionsListOptionalParams)
     uid: '@azure/arm-eventhub.PrivateEndpointConnections.list|preview'
@@ -184,12 +185,12 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.PrivateEndpointConnectionsListOptionalParams"
+            uid="@azure/arm-eventhub.PrivateEndpointConnectionsListOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventhub.PrivateEndpointConnection" />&gt;
+          uid="@azure/arm-eventhub.PrivateEndpointConnection|preview" />&gt;
         description: ''

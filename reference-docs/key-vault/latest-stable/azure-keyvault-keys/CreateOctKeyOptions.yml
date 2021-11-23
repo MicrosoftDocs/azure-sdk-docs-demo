@@ -37,7 +37,7 @@ properties:
     syntax:
       content: 'curve?: KeyCurveName'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyCurveName" />
+        type: <xref uid="@azure/keyvault-keys.KeyCurveName|latest-stable" />
         description: ''
   - name: enabled
     uid: '@azure/keyvault-keys.CreateOctKeyOptions.enabled|latest-stable'
@@ -91,7 +91,7 @@ properties:
     syntax:
       content: 'keyOps?: KeyOperation[]'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyOperation" />[]
+        type: <xref uid="@azure/keyvault-keys.KeyOperation|latest-stable" />[]
         description: ''
   - name: keySize
     uid: '@azure/keyvault-keys.CreateOctKeyOptions.keySize|latest-stable'
@@ -158,4 +158,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/keyvault-keys.CreateKeyOptions" />
+extends: <xref uid="@azure/keyvault-keys.CreateKeyOptions|latest-stable" />

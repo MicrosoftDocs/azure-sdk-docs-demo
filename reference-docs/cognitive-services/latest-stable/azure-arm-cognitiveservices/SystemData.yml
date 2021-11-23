@@ -50,7 +50,9 @@ properties:
     syntax:
       content: 'createdByType?: CreatedByType'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.CreatedByType" />
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.CreatedByType|latest-stable"
+          />
         description: ''
   - name: lastModifiedAt
     uid: '@azure/arm-cognitiveservices.SystemData.lastModifiedAt|latest-stable'
@@ -93,5 +95,7 @@ properties:
     syntax:
       content: 'lastModifiedByType?: CreatedByType'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.CreatedByType" />
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.CreatedByType|latest-stable"
+          />
         description: ''

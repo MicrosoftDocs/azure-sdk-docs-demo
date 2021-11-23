@@ -20,7 +20,9 @@ properties:
     syntax:
       content: 'algorithm: AesCbcEncryptionAlgorithm'
       return:
-        type: <xref uid="@azure/keyvault-keys.AesCbcEncryptionAlgorithm" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-keys.AesCbcEncryptionAlgorithm|latest-stable" />
         description: ''
   - name: ciphertext
     uid: '@azure/keyvault-keys.AesCbcDecryptParameters.ciphertext|latest-stable'

@@ -148,4 +148,4 @@ properties:
       return:
         type: WebSocketOptions
         description: ''
-extends: <xref uid="@azure/event-hubs.EventHubClientOptions" />
+extends: <xref uid="@azure/event-hubs.EventHubClientOptions|preview" />

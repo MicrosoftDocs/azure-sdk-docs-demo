@@ -104,7 +104,7 @@ properties:
     syntax:
       content: 'ipRange?: SasIPRange'
       return:
-        type: <xref uid="@azure/data-tables.SasIPRange" />
+        type: <xref uid="@azure/data-tables.SasIPRange|latest-stable" />
         description: ''
   - name: permissions
     uid: '@azure/data-tables.TableSasSignatureValues.permissions|latest-stable'
@@ -123,7 +123,7 @@ properties:
     syntax:
       content: 'permissions?: TableSasPermissions'
       return:
-        type: <xref uid="@azure/data-tables.TableSasPermissions" />
+        type: <xref uid="@azure/data-tables.TableSasPermissions|latest-stable" />
         description: ''
   - name: protocol
     uid: '@azure/data-tables.TableSasSignatureValues.protocol|latest-stable'
@@ -136,7 +136,7 @@ properties:
     syntax:
       content: 'protocol?: SasProtocol'
       return:
-        type: <xref uid="@azure/data-tables.SasProtocol" />
+        type: <xref uid="@azure/data-tables.SasProtocol|latest-stable" />
         description: ''
   - name: startPartitionKey
     uid: '@azure/data-tables.TableSasSignatureValues.startPartitionKey|latest-stable'

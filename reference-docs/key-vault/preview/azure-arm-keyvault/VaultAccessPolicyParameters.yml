@@ -71,7 +71,7 @@ properties:
     syntax:
       content: 'properties: VaultAccessPolicyProperties'
       return:
-        type: <xref uid="@azure/arm-keyvault.VaultAccessPolicyProperties" />
+        type: <xref uid="@azure/arm-keyvault.VaultAccessPolicyProperties|preview" />
         description: ''
   - name: type
     uid: '@azure/arm-keyvault.VaultAccessPolicyParameters.type|preview'

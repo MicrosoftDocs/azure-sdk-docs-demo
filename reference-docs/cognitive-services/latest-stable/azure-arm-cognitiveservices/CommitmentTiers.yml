@@ -22,7 +22,7 @@ constructors:
         - id: client
           type: >-
             <xref
-            uid="@azure/arm-cognitiveservices.CognitiveServicesManagementClientContext"
+            uid="@azure/arm-cognitiveservices.CognitiveServicesManagementClientContext|latest-stable"
             />
           description: |
             Reference to the service client.
@@ -41,10 +41,12 @@ methods:
           type: string
           description: Resource location.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.CommitmentTiersListResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.CommitmentTiersListResponse|latest-stable" />&gt;
         description: Promise<Models.CommitmentTiersListResponse>
   - name: >-
       list(string, RequestOptionsBase,
@@ -69,7 +71,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.CommitmentTierListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.CommitmentTierListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: list(string, ServiceCallback<CommitmentTierListResult>)
@@ -90,7 +93,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.CommitmentTierListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.CommitmentTierListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, msRest.RequestOptionsBase)
@@ -109,10 +113,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.CommitmentTiersListNextResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.CommitmentTiersListNextResponse|latest-stable" />&gt;
         description: Promise<Models.CommitmentTiersListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,
@@ -137,7 +143,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.CommitmentTierListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.CommitmentTierListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, ServiceCallback<CommitmentTierListResult>)
@@ -158,6 +165,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.CommitmentTierListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.CommitmentTierListResult|latest-stable"
+            />&gt;
           description: |
             The callback

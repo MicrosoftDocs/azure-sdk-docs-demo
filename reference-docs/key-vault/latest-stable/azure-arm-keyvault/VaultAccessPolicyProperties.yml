@@ -25,5 +25,5 @@ properties:
     syntax:
       content: 'accessPolicies: AccessPolicyEntry[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.AccessPolicyEntry" />[]
+        type: <xref uid="@azure/arm-keyvault.AccessPolicyEntry|latest-stable" />[]
         description: ''

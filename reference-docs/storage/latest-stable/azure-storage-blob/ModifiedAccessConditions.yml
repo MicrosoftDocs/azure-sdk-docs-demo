@@ -83,4 +83,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-blob.MatchConditions" />
+extends: <xref uid="@azure/storage-blob.MatchConditions|latest-stable" />

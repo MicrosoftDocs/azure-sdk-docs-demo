@@ -48,7 +48,7 @@ properties:
     syntax:
       content: 'createdByType?: IdentityType'
       return:
-        type: <xref uid="@azure/arm-keyvault.IdentityType" />
+        type: <xref uid="@azure/arm-keyvault.IdentityType|preview" />
         description: ''
   - name: lastModifiedAt
     uid: '@azure/arm-keyvault.SystemData.lastModifiedAt|preview'
@@ -87,5 +87,5 @@ properties:
     syntax:
       content: 'lastModifiedByType?: IdentityType'
       return:
-        type: <xref uid="@azure/arm-keyvault.IdentityType" />
+        type: <xref uid="@azure/arm-keyvault.IdentityType|preview" />
         description: ''

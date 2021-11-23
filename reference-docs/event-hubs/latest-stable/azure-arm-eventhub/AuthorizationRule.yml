@@ -54,7 +54,7 @@ properties:
     syntax:
       content: 'rights: AccessRights[]'
       return:
-        type: <xref uid="@azure/arm-eventhub.AccessRights" />[]
+        type: <xref uid="@azure/arm-eventhub.AccessRights|latest-stable" />[]
         description: ''
   - name: systemData
     uid: '@azure/arm-eventhub.AuthorizationRule.systemData|latest-stable'
@@ -71,7 +71,7 @@ properties:
     syntax:
       content: 'systemData?: SystemData'
       return:
-        type: <xref uid="@azure/arm-eventhub.SystemData" />
+        type: <xref uid="@azure/arm-eventhub.SystemData|latest-stable" />
         description: ''
   - name: type
     uid: '@azure/arm-eventhub.AuthorizationRule.type|latest-stable'
@@ -90,4 +90,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-eventhub.Resource" />
+extends: <xref uid="@azure/arm-eventhub.Resource|latest-stable" />

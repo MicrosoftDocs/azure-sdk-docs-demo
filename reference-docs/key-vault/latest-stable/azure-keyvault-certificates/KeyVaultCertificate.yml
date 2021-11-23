@@ -78,7 +78,10 @@ properties:
     syntax:
       content: 'properties: CertificateProperties'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificateProperties" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-certificates.CertificateProperties|latest-stable"
+          />
         description: ''
   - name: secretId
     uid: '@azure/keyvault-certificates.KeyVaultCertificate.secretId|latest-stable'

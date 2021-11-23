@@ -160,7 +160,7 @@ properties:
     syntax:
       content: 'stringIndexType?: StringIndexType'
       return:
-        type: <xref uid="@azure/ai-text-analytics.StringIndexType" />
+        type: <xref uid="@azure/ai-text-analytics.StringIndexType|latest-stable" />
         description: ''
   - name: tracingOptions
     uid: >-
@@ -190,4 +190,6 @@ properties:
       return:
         type: number
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsOperationOptions" />
+extends: >-
+  <xref
+  uid="@azure/ai-text-analytics.TextAnalyticsOperationOptions|latest-stable" />

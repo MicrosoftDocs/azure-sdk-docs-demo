@@ -25,7 +25,10 @@ properties:
     syntax:
       content: 'confidenceScores: SentimentConfidenceScores'
       return:
-        type: <xref uid="@azure/ai-text-analytics.SentimentConfidenceScores" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.SentimentConfidenceScores|latest-stable"
+          />
         description: ''
   - name: length
     uid: '@azure/ai-text-analytics.SentenceSentiment.length|latest-stable'
@@ -68,7 +71,7 @@ properties:
     syntax:
       content: 'opinions: Opinion[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.Opinion" />[]
+        type: <xref uid="@azure/ai-text-analytics.Opinion|latest-stable" />[]
         description: ''
   - name: sentiment
     uid: '@azure/ai-text-analytics.SentenceSentiment.sentiment|latest-stable'
@@ -81,7 +84,9 @@ properties:
     syntax:
       content: 'sentiment: SentenceSentimentLabel'
       return:
-        type: <xref uid="@azure/ai-text-analytics.SentenceSentimentLabel" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.SentenceSentimentLabel|latest-stable" />
         description: ''
   - name: text
     uid: '@azure/ai-text-analytics.SentenceSentiment.text|latest-stable'

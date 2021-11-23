@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'error: Debugger'
       return:
-        type: <xref uid="@azure/logger.Debugger" />
+        type: <xref uid="@azure/logger.Debugger|latest-stable" />
         description: ''
   - name: info
     uid: '@azure/logger.AzureLogger.info|latest-stable'
@@ -35,7 +35,7 @@ properties:
     syntax:
       content: 'info: Debugger'
       return:
-        type: <xref uid="@azure/logger.Debugger" />
+        type: <xref uid="@azure/logger.Debugger|latest-stable" />
         description: ''
   - name: verbose
     uid: '@azure/logger.AzureLogger.verbose|latest-stable'
@@ -51,7 +51,7 @@ properties:
     syntax:
       content: 'verbose: Debugger'
       return:
-        type: <xref uid="@azure/logger.Debugger" />
+        type: <xref uid="@azure/logger.Debugger|latest-stable" />
         description: ''
   - name: warning
     uid: '@azure/logger.AzureLogger.warning|latest-stable'
@@ -67,5 +67,5 @@ properties:
     syntax:
       content: 'warning: Debugger'
       return:
-        type: <xref uid="@azure/logger.Debugger" />
+        type: <xref uid="@azure/logger.Debugger|latest-stable" />
         description: ''

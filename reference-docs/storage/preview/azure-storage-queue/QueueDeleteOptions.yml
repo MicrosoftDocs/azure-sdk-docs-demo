@@ -40,4 +40,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-queue.CommonOptions" />
+extends: <xref uid="@azure/storage-queue.CommonOptions|preview" />

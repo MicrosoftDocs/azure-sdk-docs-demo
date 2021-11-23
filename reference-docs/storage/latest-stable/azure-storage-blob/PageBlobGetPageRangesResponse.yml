@@ -36,7 +36,7 @@ properties:
     syntax:
       content: 'clearRange?: Range[]'
       return:
-        type: <xref uid="@azure/storage-blob.Range" />[]
+        type: <xref uid="@azure/storage-blob.Range|latest-stable" />[]
         description: ''
   - name: clientRequestId
     uid: >-
@@ -126,7 +126,7 @@ properties:
     syntax:
       content: 'pageRange?: Range[]'
       return:
-        type: <xref uid="@azure/storage-blob.Range" />[]
+        type: <xref uid="@azure/storage-blob.Range|latest-stable" />[]
         description: ''
   - name: requestId
     uid: '@azure/storage-blob.PageBlobGetPageRangesResponse.requestId|latest-stable'
@@ -159,4 +159,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-blob.PageList" />
+extends: <xref uid="@azure/storage-blob.PageList|latest-stable" />

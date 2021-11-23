@@ -74,7 +74,7 @@ properties:
     syntax:
       content: 'serializerOptions?: SerializerOptions'
       return:
-        type: <xref uid="@azure/core-http.SerializerOptions" />
+        type: <xref uid="@azure/core-http.SerializerOptions|latest-stable" />
         description: ''
   - name: shouldDeserialize
     uid: '@azure/core-http.RequestOptionsBase.shouldDeserialize|latest-stable'

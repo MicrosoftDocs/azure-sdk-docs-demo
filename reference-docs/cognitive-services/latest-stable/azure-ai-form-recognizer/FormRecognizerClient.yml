@@ -46,7 +46,10 @@ constructors:
           type: TokenCredential | KeyCredential
           description: Used to authenticate requests to the service.
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.FormRecognizerClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-form-recognizer.FormRecognizerClientOptions|latest-stable"
+            />
           description: |
             Used to configure the Form Recognizer client.
 properties:
@@ -128,17 +131,22 @@ methods:
         FormRecognizerRequestBody, options?: BeginRecognizeBusinessCardsOptions)
       parameters:
         - id: businessCard
-          type: <xref uid="@azure/ai-form-recognizer.FormRecognizerRequestBody" />
+          type: >-
+            <xref
+            uid="@azure/ai-form-recognizer.FormRecognizerRequestBody|latest-stable"
+            />
           description: Input document
         - id: options
           type: >-
             <xref
-            uid="@azure/ai-form-recognizer.BeginRecognizeBusinessCardsOptions"
+            uid="@azure/ai-form-recognizer.BeginRecognizeBusinessCardsOptions|latest-stable"
             />
           description: |
             Options for the recognition operation
       return:
-        type: Promise&lt;<xref uid="@azure/ai-form-recognizer.FormPollerLike" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.FormPollerLike|latest-stable" />&gt;
         description: ''
   - name: >-
       beginRecognizeBusinessCardsFromUrl(string,
@@ -210,12 +218,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/ai-form-recognizer.BeginRecognizeBusinessCardsOptions"
+            uid="@azure/ai-form-recognizer.BeginRecognizeBusinessCardsOptions|latest-stable"
             />
           description: |
             Options for the recognition operation
       return:
-        type: Promise&lt;<xref uid="@azure/ai-form-recognizer.FormPollerLike" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.FormPollerLike|latest-stable" />&gt;
         description: ''
   - name: >-
       beginRecognizeContent(FormRecognizerRequestBody,
@@ -271,18 +281,22 @@ methods:
         options?: BeginRecognizeContentOptions)
       parameters:
         - id: form
-          type: <xref uid="@azure/ai-form-recognizer.FormRecognizerRequestBody" />
+          type: >-
+            <xref
+            uid="@azure/ai-form-recognizer.FormRecognizerRequestBody|latest-stable"
+            />
           description: Input document
         - id: options
           type: >-
-            <xref uid="@azure/ai-form-recognizer.BeginRecognizeContentOptions"
+            <xref
+            uid="@azure/ai-form-recognizer.BeginRecognizeContentOptions|latest-stable"
             />
           description: |
             Options to start content recognition operation
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/ai-form-recognizer.ContentPollerLike"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.ContentPollerLike|latest-stable" />&gt;
         description: ''
   - name: beginRecognizeContentFromUrl(string, BeginRecognizeContentOptions)
     uid: >-
@@ -340,14 +354,15 @@ methods:
             valid, encoded URL to a document of a supported content type.
         - id: options
           type: >-
-            <xref uid="@azure/ai-form-recognizer.BeginRecognizeContentOptions"
+            <xref
+            uid="@azure/ai-form-recognizer.BeginRecognizeContentOptions|latest-stable"
             />
           description: |
             Options for the content recognition operation
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/ai-form-recognizer.ContentPollerLike"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.ContentPollerLike|latest-stable" />&gt;
         description: ''
   - name: >-
       beginRecognizeCustomForms(string, FormRecognizerRequestBody,
@@ -407,16 +422,22 @@ methods:
           type: string
           description: Id of the custom form model to use
         - id: form
-          type: <xref uid="@azure/ai-form-recognizer.FormRecognizerRequestBody" />
+          type: >-
+            <xref
+            uid="@azure/ai-form-recognizer.FormRecognizerRequestBody|latest-stable"
+            />
           description: Input form document
         - id: options
           type: >-
             <xref
-            uid="@azure/ai-form-recognizer.BeginRecognizeCustomFormsOptions" />
+            uid="@azure/ai-form-recognizer.BeginRecognizeCustomFormsOptions|latest-stable"
+            />
           description: |
             Options to start the form recognition operation
       return:
-        type: Promise&lt;<xref uid="@azure/ai-form-recognizer.FormPollerLike" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.FormPollerLike|latest-stable" />&gt;
         description: ''
   - name: >-
       beginRecognizeCustomFormsFromUrl(string, string,
@@ -482,11 +503,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/ai-form-recognizer.BeginRecognizeCustomFormsOptions" />
+            uid="@azure/ai-form-recognizer.BeginRecognizeCustomFormsOptions|latest-stable"
+            />
           description: |
             Options for the recognition operation
       return:
-        type: Promise&lt;<xref uid="@azure/ai-form-recognizer.FormPollerLike" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.FormPollerLike|latest-stable" />&gt;
         description: ''
   - name: >-
       beginRecognizeIdentityDocuments(FormRecognizerRequestBody,
@@ -551,17 +575,22 @@ methods:
         BeginRecognizeIdentityDocumentsOptions)
       parameters:
         - id: identityDocument
-          type: <xref uid="@azure/ai-form-recognizer.FormRecognizerRequestBody" />
+          type: >-
+            <xref
+            uid="@azure/ai-form-recognizer.FormRecognizerRequestBody|latest-stable"
+            />
           description: Input document
         - id: options
           type: >-
             <xref
-            uid="@azure/ai-form-recognizer.BeginRecognizeIdentityDocumentsOptions"
+            uid="@azure/ai-form-recognizer.BeginRecognizeIdentityDocumentsOptions|latest-stable"
             />
           description: |
             Options for the recognition operation
       return:
-        type: Promise&lt;<xref uid="@azure/ai-form-recognizer.FormPollerLike" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.FormPollerLike|latest-stable" />&gt;
         description: ''
   - name: >-
       beginRecognizeIdentityDocumentsFromUrl(string,
@@ -636,12 +665,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/ai-form-recognizer.BeginRecognizeIdentityDocumentsOptions"
+            uid="@azure/ai-form-recognizer.BeginRecognizeIdentityDocumentsOptions|latest-stable"
             />
           description: |
             Options for the recognition operation
       return:
-        type: Promise&lt;<xref uid="@azure/ai-form-recognizer.FormPollerLike" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.FormPollerLike|latest-stable" />&gt;
         description: ''
   - name: >-
       beginRecognizeInvoices(FormRecognizerRequestBody,
@@ -707,16 +738,22 @@ methods:
         options?: BeginRecognizeInvoicesOptions)
       parameters:
         - id: invoice
-          type: <xref uid="@azure/ai-form-recognizer.FormRecognizerRequestBody" />
+          type: >-
+            <xref
+            uid="@azure/ai-form-recognizer.FormRecognizerRequestBody|latest-stable"
+            />
           description: Input document
         - id: options
           type: >-
-            <xref uid="@azure/ai-form-recognizer.BeginRecognizeInvoicesOptions"
+            <xref
+            uid="@azure/ai-form-recognizer.BeginRecognizeInvoicesOptions|latest-stable"
             />
           description: |
             Options for the recognition operation
       return:
-        type: Promise&lt;<xref uid="@azure/ai-form-recognizer.FormPollerLike" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.FormPollerLike|latest-stable" />&gt;
         description: ''
   - name: beginRecognizeInvoicesFromUrl(string, BeginRecognizeInvoicesOptions)
     uid: >-
@@ -784,12 +821,15 @@ methods:
             be a valid, encoded URL to a document of a supported content type.
         - id: options
           type: >-
-            <xref uid="@azure/ai-form-recognizer.BeginRecognizeInvoicesOptions"
+            <xref
+            uid="@azure/ai-form-recognizer.BeginRecognizeInvoicesOptions|latest-stable"
             />
           description: |
             Options for the recognition operation
       return:
-        type: Promise&lt;<xref uid="@azure/ai-form-recognizer.FormPollerLike" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.FormPollerLike|latest-stable" />&gt;
         description: ''
   - name: >-
       beginRecognizeReceipts(FormRecognizerRequestBody,
@@ -855,16 +895,22 @@ methods:
         options?: BeginRecognizeReceiptsOptions)
       parameters:
         - id: receipt
-          type: <xref uid="@azure/ai-form-recognizer.FormRecognizerRequestBody" />
+          type: >-
+            <xref
+            uid="@azure/ai-form-recognizer.FormRecognizerRequestBody|latest-stable"
+            />
           description: Input document
         - id: options
           type: >-
-            <xref uid="@azure/ai-form-recognizer.BeginRecognizeReceiptsOptions"
+            <xref
+            uid="@azure/ai-form-recognizer.BeginRecognizeReceiptsOptions|latest-stable"
             />
           description: |
             Options for the recognition operation
       return:
-        type: Promise&lt;<xref uid="@azure/ai-form-recognizer.FormPollerLike" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.FormPollerLike|latest-stable" />&gt;
         description: ''
   - name: beginRecognizeReceiptsFromUrl(string, BeginRecognizeReceiptsOptions)
     uid: >-
@@ -933,10 +979,13 @@ methods:
             be a valid, encoded URL to a document of a supported content type.
         - id: options
           type: >-
-            <xref uid="@azure/ai-form-recognizer.BeginRecognizeReceiptsOptions"
+            <xref
+            uid="@azure/ai-form-recognizer.BeginRecognizeReceiptsOptions|latest-stable"
             />
           description: |
             Options for the recognition operation
       return:
-        type: Promise&lt;<xref uid="@azure/ai-form-recognizer.FormPollerLike" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.FormPollerLike|latest-stable" />&gt;
         description: ''

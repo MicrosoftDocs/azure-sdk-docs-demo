@@ -40,7 +40,7 @@ properties:
     syntax:
       content: 'conditions?: AppendBlobRequestConditions'
       return:
-        type: <xref uid="@azure/storage-blob.AppendBlobRequestConditions" />
+        type: <xref uid="@azure/storage-blob.AppendBlobRequestConditions|preview" />
         description: ''
   - name: customerProvidedKey
     uid: >-
@@ -54,7 +54,7 @@ properties:
     syntax:
       content: 'customerProvidedKey?: CpkInfo'
       return:
-        type: <xref uid="@azure/storage-blob.CpkInfo" />
+        type: <xref uid="@azure/storage-blob.CpkInfo|preview" />
         description: ''
   - name: encryptionScope
     uid: '@azure/storage-blob.AppendBlobAppendBlockOptions.encryptionScope|preview'
@@ -149,4 +149,4 @@ properties:
       return:
         type: Uint8Array
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|preview" />

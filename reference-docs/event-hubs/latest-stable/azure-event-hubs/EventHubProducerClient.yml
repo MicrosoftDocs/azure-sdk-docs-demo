@@ -54,7 +54,7 @@ constructors:
             e.g.
             'Endpoint=sb://my-servicebus-namespace.servicebus.windows.net/;SharedAccessKeyName=my-SA-name;SharedAccessKey=my-SA-key;EntityPath=my-event-hub-name'.
         - id: options
-          type: <xref uid="@azure/event-hubs.EventHubClientOptions" />
+          type: <xref uid="@azure/event-hubs.EventHubClientOptions|latest-stable" />
           description: >
             A set of options to apply when configuring the client.
 
@@ -98,7 +98,7 @@ constructors:
           type: string
           description: The name of the specific Event Hub to connect the client to.
         - id: options
-          type: <xref uid="@azure/event-hubs.EventHubClientOptions" />
+          type: <xref uid="@azure/event-hubs.EventHubClientOptions|latest-stable" />
           description: >
             A set of options to apply when configuring the client.
 
@@ -163,7 +163,7 @@ constructors:
             without using a connection string. This field maps to `signature` in
             `AzureSASCredential`.
         - id: options
-          type: <xref uid="@azure/event-hubs.EventHubClientOptions" />
+          type: <xref uid="@azure/event-hubs.EventHubClientOptions|latest-stable" />
           description: >
             A set of options to apply when configuring the client.
 
@@ -261,7 +261,7 @@ methods:
       content: 'function createBatch(options?: CreateBatchOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/event-hubs.CreateBatchOptions" />
+          type: <xref uid="@azure/event-hubs.CreateBatchOptions|latest-stable" />
           description: >-
             Configures the behavior of the batch.
 
@@ -278,7 +278,9 @@ methods:
 
             - `abortSignal`   : A signal the request to cancel the operation.
       return:
-        type: Promise&lt;<xref uid="@azure/event-hubs.EventDataBatch" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/event-hubs.EventDataBatch|latest-stable"
+          />&gt;
         description: Promise<EventDataBatch>
   - name: getEventHubProperties(GetEventHubPropertiesOptions)
     uid: >-
@@ -292,10 +294,15 @@ methods:
       content: 'function getEventHubProperties(options?: GetEventHubPropertiesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/event-hubs.GetEventHubPropertiesOptions" />
+          type: >-
+            <xref
+            uid="@azure/event-hubs.GetEventHubPropertiesOptions|latest-stable"
+            />
           description: The set of options to apply to the operation call.
       return:
-        type: Promise&lt;<xref uid="@azure/event-hubs.EventHubProperties" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/event-hubs.EventHubProperties|latest-stable" />&gt;
         description: A promise that resolves with information about the Event Hub instance.
   - name: getPartitionIds(GetPartitionIdsOptions)
     uid: '@azure/event-hubs.EventHubProducerClient.getPartitionIds|latest-stable'
@@ -308,7 +315,9 @@ methods:
       content: 'function getPartitionIds(options?: GetPartitionIdsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/event-hubs.GetPartitionIdsOptions" />
+          type: >-
+            <xref uid="@azure/event-hubs.GetPartitionIdsOptions|latest-stable"
+            />
           description: The set of options to apply to the operation call.
       return:
         type: Promise&lt;Array&lt;string&gt;&gt;
@@ -334,10 +343,15 @@ methods:
           type: string
           description: The id of the partition for which information is required.
         - id: options
-          type: <xref uid="@azure/event-hubs.GetPartitionPropertiesOptions" />
+          type: >-
+            <xref
+            uid="@azure/event-hubs.GetPartitionPropertiesOptions|latest-stable"
+            />
           description: The set of options to apply to the operation call.
       return:
-        type: Promise&lt;<xref uid="@azure/event-hubs.PartitionProperties" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/event-hubs.PartitionProperties|latest-stable" />&gt;
         description: >-
           A promise that resolves with information about the state of the
           partition .
@@ -370,12 +384,12 @@ methods:
       content: 'function sendBatch(batch: EventDataBatch, options?: OperationOptions)'
       parameters:
         - id: batch
-          type: <xref uid="@azure/event-hubs.EventDataBatch" />
+          type: <xref uid="@azure/event-hubs.EventDataBatch|latest-stable" />
           description: >-
             A batch of events that you can create using the
             <xref:@azure/event-hubs.EventHubProducerClient.createBatch> method.
         - id: options
-          type: <xref uid="@azure/event-hubs.OperationOptions" />
+          type: <xref uid="@azure/event-hubs.OperationOptions|latest-stable" />
           description: >
             A set of options that can be specified to influence the way in which
 
@@ -406,13 +420,13 @@ methods:
       parameters:
         - id: batch
           type: >-
-            <xref uid="@azure/event-hubs.EventData" />[] |
+            <xref uid="@azure/event-hubs.EventData|latest-stable" />[] |
             AmqpAnnotatedMessage[]
           description: >-
             An array of <xref:@azure/event-hubs.EventData> or
             `AmqpAnnotatedMessage`.
         - id: options
-          type: <xref uid="@azure/event-hubs.SendBatchOptions" />
+          type: <xref uid="@azure/event-hubs.SendBatchOptions|latest-stable" />
           description: >
             A set of options that can be specified to influence the way in which
 

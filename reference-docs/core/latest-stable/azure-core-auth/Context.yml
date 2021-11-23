@@ -26,7 +26,7 @@ methods:
           description: |
             context key for which to clear a value
       return:
-        type: <xref uid="@azure/core-auth.Context" />
+        type: <xref uid="@azure/core-auth.Context|latest-stable" />
         description: ''
   - name: getValue(symbol)
     uid: '@azure/core-auth.Context.getValue|latest-stable'
@@ -65,5 +65,5 @@ methods:
           description: |
             value to set for the given key
       return:
-        type: <xref uid="@azure/core-auth.Context" />
+        type: <xref uid="@azure/core-auth.Context|latest-stable" />
         description: ''

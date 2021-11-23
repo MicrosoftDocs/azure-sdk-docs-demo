@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'authorizationRules?: AuthorizationRule[]'
       return:
-        type: <xref uid="@azure/service-bus.AuthorizationRule" />[]
+        type: <xref uid="@azure/service-bus.AuthorizationRule|latest-stable" />[]
         description: ''
   - name: autoDeleteOnIdle
     uid: '@azure/service-bus.TopicProperties.autoDeleteOnIdle|latest-stable'
@@ -54,7 +54,9 @@ properties:
     syntax:
       content: 'availabilityStatus: EntityAvailabilityStatus'
       return:
-        type: <xref uid="@azure/service-bus.EntityAvailabilityStatus" />
+        type: >-
+          <xref uid="@azure/service-bus.EntityAvailabilityStatus|latest-stable"
+          />
         description: ''
   - name: defaultMessageTimeToLive
     uid: '@azure/service-bus.TopicProperties.defaultMessageTimeToLive|latest-stable'
@@ -237,7 +239,7 @@ properties:
     syntax:
       content: 'status: EntityStatus'
       return:
-        type: <xref uid="@azure/service-bus.EntityStatus" />
+        type: <xref uid="@azure/service-bus.EntityStatus|latest-stable" />
         description: ''
   - name: supportOrdering
     uid: '@azure/service-bus.TopicProperties.supportOrdering|latest-stable'

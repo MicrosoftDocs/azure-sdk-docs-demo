@@ -38,7 +38,7 @@ properties:
     syntax:
       content: 'expand?: StorageAccountExpand'
       return:
-        type: <xref uid="@azure/arm-storage.StorageAccountExpand" />
+        type: <xref uid="@azure/arm-storage.StorageAccountExpand|preview" />
         description: ''
   - name: onResponse
     uid: >-

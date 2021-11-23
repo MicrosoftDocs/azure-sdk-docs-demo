@@ -55,7 +55,7 @@ properties:
     syntax:
       content: 'expand?: ListKeyExpand'
       return:
-        type: <xref uid="@azure/arm-storage.ListKeyExpand" />
+        type: <xref uid="@azure/arm-storage.ListKeyExpand|latest-stable" />
         description: ''
   - name: onDownloadProgress
     uid: >-

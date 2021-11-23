@@ -50,4 +50,4 @@ properties:
       return:
         type: undefined
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsActionState" />
+extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsActionState|preview" />

@@ -41,7 +41,9 @@ properties:
     syntax:
       content: 'availabilityStatus?: EntityAvailabilityStatus'
       return:
-        type: <xref uid="@azure/service-bus.EntityAvailabilityStatus" />
+        type: >-
+          <xref uid="@azure/service-bus.EntityAvailabilityStatus|latest-stable"
+          />
         description: ''
   - name: deadLetteringOnFilterEvaluationExceptions
     uid: >-
@@ -250,7 +252,7 @@ properties:
     syntax:
       content: 'status: EntityStatus'
       return:
-        type: <xref uid="@azure/service-bus.EntityStatus" />
+        type: <xref uid="@azure/service-bus.EntityStatus|latest-stable" />
         description: ''
   - name: subscriptionName
     uid: '@azure/service-bus.SubscriptionProperties.subscriptionName|latest-stable'

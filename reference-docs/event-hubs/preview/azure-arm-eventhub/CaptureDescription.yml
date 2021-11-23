@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'destination?: Destination'
       return:
-        type: <xref uid="@azure/arm-eventhub.Destination" />
+        type: <xref uid="@azure/arm-eventhub.Destination|preview" />
         description: ''
   - name: enabled
     uid: '@azure/arm-eventhub.CaptureDescription.enabled|preview'
@@ -50,7 +50,7 @@ properties:
     syntax:
       content: 'encoding?: EncodingCaptureDescription'
       return:
-        type: <xref uid="@azure/arm-eventhub.EncodingCaptureDescription" />
+        type: <xref uid="@azure/arm-eventhub.EncodingCaptureDescription|preview" />
         description: ''
   - name: intervalInSeconds
     uid: '@azure/arm-eventhub.CaptureDescription.intervalInSeconds|preview'

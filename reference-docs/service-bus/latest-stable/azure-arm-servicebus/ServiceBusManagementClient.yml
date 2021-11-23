@@ -47,7 +47,9 @@ constructors:
             subscription. The subscription ID forms part of the URI for every
             service call.
         - id: options
-          type: <xref uid="Models.ServiceBusManagementClientOptions" />
+          type: >-
+            <xref uid="Models.ServiceBusManagementClientOptions|latest-stable"
+            />
           description: ''
 properties:
   - name: acceptLanguage
@@ -102,7 +104,9 @@ properties:
     syntax:
       content: 'disasterRecoveryConfigs: DisasterRecoveryConfigs'
       return:
-        type: <xref uid="@azure/arm-servicebus.DisasterRecoveryConfigs" />
+        type: >-
+          <xref
+          uid="@azure/arm-servicebus.DisasterRecoveryConfigs|latest-stable" />
         description: ''
   - name: eventHubs
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.eventHubs|latest-stable'
@@ -115,7 +119,7 @@ properties:
     syntax:
       content: 'eventHubs: EventHubs'
       return:
-        type: <xref uid="@azure/arm-servicebus.EventHubs" />
+        type: <xref uid="@azure/arm-servicebus.EventHubs|latest-stable" />
         description: ''
   - name: longRunningOperationRetryTimeout
     uid: >-
@@ -145,7 +149,7 @@ properties:
     syntax:
       content: 'migrationConfigs: MigrationConfigs'
       return:
-        type: <xref uid="@azure/arm-servicebus.MigrationConfigs" />
+        type: <xref uid="@azure/arm-servicebus.MigrationConfigs|latest-stable" />
         description: ''
   - name: namespaces
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.namespaces|latest-stable'
@@ -158,7 +162,7 @@ properties:
     syntax:
       content: 'namespaces: Namespaces'
       return:
-        type: <xref uid="@azure/arm-servicebus.Namespaces" />
+        type: <xref uid="@azure/arm-servicebus.Namespaces|latest-stable" />
         description: ''
   - name: operations
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.operations|latest-stable'
@@ -171,7 +175,7 @@ properties:
     syntax:
       content: 'operations: Operations'
       return:
-        type: <xref uid="@azure/arm-servicebus.Operations" />
+        type: <xref uid="@azure/arm-servicebus.Operations|latest-stable" />
         description: ''
   - name: premiumMessagingRegions
     uid: >-
@@ -185,7 +189,10 @@ properties:
     syntax:
       content: 'premiumMessagingRegions: PremiumMessagingRegionsOperations'
       return:
-        type: <xref uid="@azure/arm-servicebus.PremiumMessagingRegionsOperations" />
+        type: >-
+          <xref
+          uid="@azure/arm-servicebus.PremiumMessagingRegionsOperations|latest-stable"
+          />
         description: ''
   - name: queues
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.queues|latest-stable'
@@ -198,7 +205,7 @@ properties:
     syntax:
       content: 'queues: Queues'
       return:
-        type: <xref uid="@azure/arm-servicebus.Queues" />
+        type: <xref uid="@azure/arm-servicebus.Queues|latest-stable" />
         description: ''
   - name: regions
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.regions|latest-stable'
@@ -211,7 +218,7 @@ properties:
     syntax:
       content: 'regions: Regions'
       return:
-        type: <xref uid="@azure/arm-servicebus.Regions" />
+        type: <xref uid="@azure/arm-servicebus.Regions|latest-stable" />
         description: ''
   - name: rules
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.rules|latest-stable'
@@ -224,7 +231,7 @@ properties:
     syntax:
       content: 'rules: Rules'
       return:
-        type: <xref uid="@azure/arm-servicebus.Rules" />
+        type: <xref uid="@azure/arm-servicebus.Rules|latest-stable" />
         description: ''
   - name: subscriptionId
     uid: >-
@@ -252,7 +259,7 @@ properties:
     syntax:
       content: 'subscriptions: Subscriptions'
       return:
-        type: <xref uid="@azure/arm-servicebus.Subscriptions" />
+        type: <xref uid="@azure/arm-servicebus.Subscriptions|latest-stable" />
         description: ''
   - name: topics
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.topics|latest-stable'
@@ -265,7 +272,7 @@ properties:
     syntax:
       content: 'topics: Topics'
       return:
-        type: <xref uid="@azure/arm-servicebus.Topics" />
+        type: <xref uid="@azure/arm-servicebus.Topics|latest-stable" />
         description: ''
 methods:
   - name: >-
@@ -426,4 +433,6 @@ methods:
       return:
         type: Promise&lt;HttpOperationResponse&gt;
         description: ''
-extends: <xref uid="@azure/arm-servicebus.ServiceBusManagementClientContext" />
+extends: >-
+  <xref
+  uid="@azure/arm-servicebus.ServiceBusManagementClientContext|latest-stable" />

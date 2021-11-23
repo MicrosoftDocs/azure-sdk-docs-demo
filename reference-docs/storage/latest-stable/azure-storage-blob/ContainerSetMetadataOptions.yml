@@ -44,7 +44,9 @@ properties:
     syntax:
       content: 'conditions?: ContainerRequestConditions'
       return:
-        type: <xref uid="@azure/storage-blob.ContainerRequestConditions" />
+        type: >-
+          <xref
+          uid="@azure/storage-blob.ContainerRequestConditions|latest-stable" />
         description: ''
   - name: tracingOptions
     uid: >-
@@ -60,4 +62,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|latest-stable" />

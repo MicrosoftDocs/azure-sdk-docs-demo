@@ -61,5 +61,5 @@ properties:
     syntax:
       content: 'reason?: Reason'
       return:
-        type: <xref uid="@azure/arm-keyvault.Reason" />
+        type: <xref uid="@azure/arm-keyvault.Reason|preview" />
         description: ''

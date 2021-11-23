@@ -35,7 +35,10 @@ properties:
     syntax:
       content: 'container: SearchIndexerDataContainer'
       return:
-        type: <xref uid="@azure/search-documents.SearchIndexerDataContainer" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.SearchIndexerDataContainer|latest-stable"
+          />
         description: ''
   - name: dataChangeDetectionPolicy
     uid: >-
@@ -50,8 +53,9 @@ properties:
       content: 'dataChangeDetectionPolicy?: DataChangeDetectionPolicy | null'
       return:
         type: >-
-          <xref uid="@azure/search-documents.DataChangeDetectionPolicy" /> |
-          null
+          <xref
+          uid="@azure/search-documents.DataChangeDetectionPolicy|latest-stable"
+          /> | null
         description: ''
   - name: dataDeletionDetectionPolicy
     uid: >-
@@ -66,8 +70,9 @@ properties:
       content: 'dataDeletionDetectionPolicy?: DataDeletionDetectionPolicy | null'
       return:
         type: >-
-          <xref uid="@azure/search-documents.DataDeletionDetectionPolicy" /> |
-          null
+          <xref
+          uid="@azure/search-documents.DataDeletionDetectionPolicy|latest-stable"
+          /> | null
         description: ''
   - name: description
     uid: >-
@@ -121,8 +126,9 @@ properties:
       content: 'encryptionKey?: SearchResourceEncryptionKey | null'
       return:
         type: >-
-          <xref uid="@azure/search-documents.SearchResourceEncryptionKey" /> |
-          null
+          <xref
+          uid="@azure/search-documents.SearchResourceEncryptionKey|latest-stable"
+          /> | null
         description: ''
   - name: etag
     uid: >-
@@ -168,5 +174,8 @@ properties:
     syntax:
       content: 'type: SearchIndexerDataSourceType'
       return:
-        type: <xref uid="@azure/search-documents.SearchIndexerDataSourceType" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.SearchIndexerDataSourceType|latest-stable"
+          />
         description: ''

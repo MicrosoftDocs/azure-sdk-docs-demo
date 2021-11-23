@@ -41,7 +41,7 @@ properties:
     syntax:
       content: 'parameters?: BlobRestoreParameters'
       return:
-        type: <xref uid="@azure/arm-storage.BlobRestoreParameters" />
+        type: <xref uid="@azure/arm-storage.BlobRestoreParameters|latest-stable" />
         description: ''
   - name: restoreId
     uid: '@azure/arm-storage.BlobRestoreStatus.restoreId|latest-stable'
@@ -84,5 +84,7 @@ properties:
     syntax:
       content: 'status?: BlobRestoreProgressStatus'
       return:
-        type: <xref uid="@azure/arm-storage.BlobRestoreProgressStatus" />
+        type: >-
+          <xref uid="@azure/arm-storage.BlobRestoreProgressStatus|latest-stable"
+          />
         description: ''

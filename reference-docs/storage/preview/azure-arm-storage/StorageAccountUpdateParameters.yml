@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'accessTier?: AccessTier'
       return:
-        type: <xref uid="@azure/arm-storage.AccessTier" />
+        type: <xref uid="@azure/arm-storage.AccessTier|preview" />
         description: ''
   - name: allowBlobPublicAccess
     uid: >-
@@ -92,7 +92,8 @@ properties:
         AzureFilesIdentityBasedAuthentication
       return:
         type: >-
-          <xref uid="@azure/arm-storage.AzureFilesIdentityBasedAuthentication"
+          <xref
+          uid="@azure/arm-storage.AzureFilesIdentityBasedAuthentication|preview"
           />
         description: ''
   - name: customDomain
@@ -110,7 +111,7 @@ properties:
     syntax:
       content: 'customDomain?: CustomDomain'
       return:
-        type: <xref uid="@azure/arm-storage.CustomDomain" />
+        type: <xref uid="@azure/arm-storage.CustomDomain|preview" />
         description: ''
   - name: enableHttpsTrafficOnly
     uid: >-
@@ -139,7 +140,7 @@ properties:
     syntax:
       content: 'encryption?: Encryption'
       return:
-        type: <xref uid="@azure/arm-storage.Encryption" />
+        type: <xref uid="@azure/arm-storage.Encryption|preview" />
         description: ''
   - name: identity
     uid: '@azure/arm-storage.StorageAccountUpdateParameters.identity|preview'
@@ -152,7 +153,7 @@ properties:
     syntax:
       content: 'identity?: Identity'
       return:
-        type: <xref uid="@azure/arm-storage.Identity" />
+        type: <xref uid="@azure/arm-storage.Identity|preview" />
         description: ''
   - name: keyPolicy
     uid: '@azure/arm-storage.StorageAccountUpdateParameters.keyPolicy|preview'
@@ -165,7 +166,7 @@ properties:
     syntax:
       content: 'keyPolicy?: KeyPolicy'
       return:
-        type: <xref uid="@azure/arm-storage.KeyPolicy" />
+        type: <xref uid="@azure/arm-storage.KeyPolicy|preview" />
         description: ''
   - name: kind
     uid: '@azure/arm-storage.StorageAccountUpdateParameters.kind|preview'
@@ -180,7 +181,7 @@ properties:
     syntax:
       content: 'kind?: Kind'
       return:
-        type: <xref uid="@azure/arm-storage.Kind" />
+        type: <xref uid="@azure/arm-storage.Kind|preview" />
         description: ''
   - name: largeFileSharesState
     uid: >-
@@ -196,7 +197,7 @@ properties:
     syntax:
       content: 'largeFileSharesState?: LargeFileSharesState'
       return:
-        type: <xref uid="@azure/arm-storage.LargeFileSharesState" />
+        type: <xref uid="@azure/arm-storage.LargeFileSharesState|preview" />
         description: ''
   - name: minimumTlsVersion
     uid: >-
@@ -212,7 +213,7 @@ properties:
     syntax:
       content: 'minimumTlsVersion?: MinimumTlsVersion'
       return:
-        type: <xref uid="@azure/arm-storage.MinimumTlsVersion" />
+        type: <xref uid="@azure/arm-storage.MinimumTlsVersion|preview" />
         description: ''
   - name: networkRuleSet
     uid: '@azure/arm-storage.StorageAccountUpdateParameters.networkRuleSet|preview'
@@ -225,7 +226,7 @@ properties:
     syntax:
       content: 'networkRuleSet?: NetworkRuleSet'
       return:
-        type: <xref uid="@azure/arm-storage.NetworkRuleSet" />
+        type: <xref uid="@azure/arm-storage.NetworkRuleSet|preview" />
         description: ''
   - name: routingPreference
     uid: >-
@@ -241,7 +242,7 @@ properties:
     syntax:
       content: 'routingPreference?: RoutingPreference'
       return:
-        type: <xref uid="@azure/arm-storage.RoutingPreference" />
+        type: <xref uid="@azure/arm-storage.RoutingPreference|preview" />
         description: ''
   - name: sasPolicy
     uid: '@azure/arm-storage.StorageAccountUpdateParameters.sasPolicy|preview'
@@ -254,7 +255,7 @@ properties:
     syntax:
       content: 'sasPolicy?: SasPolicy'
       return:
-        type: <xref uid="@azure/arm-storage.SasPolicy" />
+        type: <xref uid="@azure/arm-storage.SasPolicy|preview" />
         description: ''
   - name: sku
     uid: '@azure/arm-storage.StorageAccountUpdateParameters.sku|preview'
@@ -270,7 +271,7 @@ properties:
     syntax:
       content: 'sku?: Sku'
       return:
-        type: <xref uid="@azure/arm-storage.Sku" />
+        type: <xref uid="@azure/arm-storage.Sku|preview" />
         description: ''
   - name: tags
     uid: '@azure/arm-storage.StorageAccountUpdateParameters.tags|preview'

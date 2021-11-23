@@ -86,4 +86,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-eventgrid.Resource" />
+extends: <xref uid="@azure/arm-eventgrid.Resource|latest-stable" />

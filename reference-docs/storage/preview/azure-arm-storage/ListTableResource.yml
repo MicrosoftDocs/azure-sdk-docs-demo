@@ -41,5 +41,5 @@ properties:
     syntax:
       content: 'value?: Table[]'
       return:
-        type: <xref uid="@azure/arm-storage.Table" />[]
+        type: <xref uid="@azure/arm-storage.Table|preview" />[]
         description: ''

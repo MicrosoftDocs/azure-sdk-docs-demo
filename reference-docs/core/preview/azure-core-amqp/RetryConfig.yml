@@ -89,7 +89,7 @@ properties:
     syntax:
       content: 'operationType: RetryOperationType'
       return:
-        type: <xref uid="@azure/core-amqp.RetryOperationType" />
+        type: <xref uid="@azure/core-amqp.RetryOperationType|preview" />
         description: ''
   - name: retryOptions
     uid: '@azure/core-amqp.RetryConfig.retryOptions|preview'
@@ -104,5 +104,5 @@ properties:
     syntax:
       content: 'retryOptions?: RetryOptions'
       return:
-        type: <xref uid="@azure/core-amqp.RetryOptions" />
+        type: <xref uid="@azure/core-amqp.RetryOptions|preview" />
         description: ''

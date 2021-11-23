@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'blobRanges: BlobRestoreRange[]'
       return:
-        type: <xref uid="@azure/arm-storage.BlobRestoreRange" />[]
+        type: <xref uid="@azure/arm-storage.BlobRestoreRange|latest-stable" />[]
         description: ''
   - name: timeToRestore
     uid: '@azure/arm-storage.BlobRestoreParameters.timeToRestore|latest-stable'

@@ -47,7 +47,7 @@ constructors:
             subscription. The subscription ID forms part of the URI for every
             service call.
         - id: options
-          type: <xref uid="Models.EventHubManagementClientOptions" />
+          type: <xref uid="Models.EventHubManagementClientOptions|latest-stable" />
           description: ''
 properties:
   - name: acceptLanguage
@@ -87,7 +87,7 @@ properties:
     syntax:
       content: 'clusters: Clusters'
       return:
-        type: <xref uid="@azure/arm-eventhub.Clusters" />
+        type: <xref uid="@azure/arm-eventhub.Clusters|latest-stable" />
         description: ''
   - name: configuration
     uid: '@azure/arm-eventhub.EventHubManagementClient.configuration|latest-stable'
@@ -100,7 +100,7 @@ properties:
     syntax:
       content: 'configuration: Configuration'
       return:
-        type: <xref uid="@azure/arm-eventhub.Configuration" />
+        type: <xref uid="@azure/arm-eventhub.Configuration|latest-stable" />
         description: ''
   - name: consumerGroups
     uid: '@azure/arm-eventhub.EventHubManagementClient.consumerGroups|latest-stable'
@@ -113,7 +113,7 @@ properties:
     syntax:
       content: 'consumerGroups: ConsumerGroups'
       return:
-        type: <xref uid="@azure/arm-eventhub.ConsumerGroups" />
+        type: <xref uid="@azure/arm-eventhub.ConsumerGroups|latest-stable" />
         description: ''
   - name: credentials
     uid: '@azure/arm-eventhub.EventHubManagementClient.credentials|latest-stable'
@@ -140,7 +140,9 @@ properties:
     syntax:
       content: 'disasterRecoveryConfigs: DisasterRecoveryConfigs'
       return:
-        type: <xref uid="@azure/arm-eventhub.DisasterRecoveryConfigs" />
+        type: >-
+          <xref uid="@azure/arm-eventhub.DisasterRecoveryConfigs|latest-stable"
+          />
         description: ''
   - name: eventHubs
     uid: '@azure/arm-eventhub.EventHubManagementClient.eventHubs|latest-stable'
@@ -153,7 +155,7 @@ properties:
     syntax:
       content: 'eventHubs: EventHubs'
       return:
-        type: <xref uid="@azure/arm-eventhub.EventHubs" />
+        type: <xref uid="@azure/arm-eventhub.EventHubs|latest-stable" />
         description: ''
   - name: longRunningOperationRetryTimeout
     uid: >-
@@ -182,7 +184,7 @@ properties:
     syntax:
       content: 'namespaces: Namespaces'
       return:
-        type: <xref uid="@azure/arm-eventhub.Namespaces" />
+        type: <xref uid="@azure/arm-eventhub.Namespaces|latest-stable" />
         description: ''
   - name: operations
     uid: '@azure/arm-eventhub.EventHubManagementClient.operations|latest-stable'
@@ -195,7 +197,7 @@ properties:
     syntax:
       content: 'operations: Operations'
       return:
-        type: <xref uid="@azure/arm-eventhub.Operations" />
+        type: <xref uid="@azure/arm-eventhub.Operations|latest-stable" />
         description: ''
   - name: privateEndpointConnections
     uid: >-
@@ -209,7 +211,9 @@ properties:
     syntax:
       content: 'privateEndpointConnections: PrivateEndpointConnections'
       return:
-        type: <xref uid="@azure/arm-eventhub.PrivateEndpointConnections" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventhub.PrivateEndpointConnections|latest-stable" />
         description: ''
   - name: privateLinkResources
     uid: >-
@@ -223,7 +227,7 @@ properties:
     syntax:
       content: 'privateLinkResources: PrivateLinkResources'
       return:
-        type: <xref uid="@azure/arm-eventhub.PrivateLinkResources" />
+        type: <xref uid="@azure/arm-eventhub.PrivateLinkResources|latest-stable" />
         description: ''
   - name: subscriptionId
     uid: '@azure/arm-eventhub.EventHubManagementClient.subscriptionId|latest-stable'
@@ -396,4 +400,6 @@ methods:
       return:
         type: Promise&lt;HttpOperationResponse&gt;
         description: ''
-extends: <xref uid="@azure/arm-eventhub.EventHubManagementClientContext" />
+extends: >-
+  <xref uid="@azure/arm-eventhub.EventHubManagementClientContext|latest-stable"
+  />

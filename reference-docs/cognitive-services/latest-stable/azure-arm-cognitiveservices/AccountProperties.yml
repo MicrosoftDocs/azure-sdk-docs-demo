@@ -34,7 +34,9 @@ properties:
     syntax:
       content: 'apiProperties?: ApiProperties'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.ApiProperties" />
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.ApiProperties|latest-stable"
+          />
         description: ''
   - name: callRateLimit
     uid: '@azure/arm-cognitiveservices.AccountProperties.callRateLimit|latest-stable'
@@ -49,7 +51,9 @@ properties:
     syntax:
       content: 'callRateLimit?: CallRateLimit'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.CallRateLimit" />
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.CallRateLimit|latest-stable"
+          />
         description: ''
   - name: capabilities
     uid: '@azure/arm-cognitiveservices.AccountProperties.capabilities|latest-stable'
@@ -69,7 +73,9 @@ properties:
     syntax:
       content: 'capabilities?: SkuCapability[]'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.SkuCapability" />[]
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.SkuCapability|latest-stable"
+          />[]
         description: ''
   - name: customSubDomainName
     uid: >-
@@ -127,7 +133,7 @@ properties:
     syntax:
       content: 'encryption?: Encryption'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.Encryption" />
+        type: <xref uid="@azure/arm-cognitiveservices.Encryption|latest-stable" />
         description: ''
   - name: endpoint
     uid: '@azure/arm-cognitiveservices.AccountProperties.endpoint|latest-stable'
@@ -222,7 +228,9 @@ properties:
     syntax:
       content: 'networkAcls?: NetworkRuleSet'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.NetworkRuleSet" />
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.NetworkRuleSet|latest-stable"
+          />
         description: ''
   - name: privateEndpointConnections
     uid: >-
@@ -242,7 +250,8 @@ properties:
       content: 'privateEndpointConnections?: PrivateEndpointConnection[]'
       return:
         type: >-
-          <xref uid="@azure/arm-cognitiveservices.PrivateEndpointConnection"
+          <xref
+          uid="@azure/arm-cognitiveservices.PrivateEndpointConnection|latest-stable"
           />[]
         description: ''
   - name: provisioningState
@@ -267,7 +276,9 @@ properties:
     syntax:
       content: 'provisioningState?: ProvisioningState'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.ProvisioningState" />
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.ProvisioningState|latest-stable" />
         description: ''
   - name: publicNetworkAccess
     uid: >-
@@ -286,7 +297,10 @@ properties:
     syntax:
       content: 'publicNetworkAccess?: PublicNetworkAccess'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.PublicNetworkAccess" />
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.PublicNetworkAccess|latest-stable"
+          />
         description: ''
   - name: quotaLimit
     uid: '@azure/arm-cognitiveservices.AccountProperties.quotaLimit|latest-stable'
@@ -301,7 +315,7 @@ properties:
     syntax:
       content: 'quotaLimit?: QuotaLimit'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.QuotaLimit" />
+        type: <xref uid="@azure/arm-cognitiveservices.QuotaLimit|latest-stable" />
         description: ''
   - name: restore
     uid: '@azure/arm-cognitiveservices.AccountProperties.restore|latest-stable'
@@ -345,7 +359,9 @@ properties:
     syntax:
       content: 'skuChangeInfo?: SkuChangeInfo'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.SkuChangeInfo" />
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.SkuChangeInfo|latest-stable"
+          />
         description: ''
   - name: userOwnedStorage
     uid: >-
@@ -359,5 +375,7 @@ properties:
     syntax:
       content: 'userOwnedStorage?: UserOwnedStorage[]'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.UserOwnedStorage" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.UserOwnedStorage|latest-stable" />[]
         description: ''

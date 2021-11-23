@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'assertion?: EntityAssertion'
       return:
-        type: <xref uid="@azure/ai-text-analytics.EntityAssertion" />
+        type: <xref uid="@azure/ai-text-analytics.EntityAssertion|latest-stable" />
         description: ''
   - name: category
     uid: '@azure/ai-text-analytics.HealthcareEntity.category|latest-stable'
@@ -95,7 +95,10 @@ properties:
     syntax:
       content: 'category: HealthcareEntityCategory'
       return:
-        type: <xref uid="@azure/ai-text-analytics.HealthcareEntityCategory" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.HealthcareEntityCategory|latest-stable"
+          />
         description: ''
   - name: confidenceScore
     uid: '@azure/ai-text-analytics.HealthcareEntity.confidenceScore|latest-stable'
@@ -121,7 +124,9 @@ properties:
     syntax:
       content: 'dataSources: EntityDataSource[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.EntityDataSource" />[]
+        type: >-
+          <xref uid="@azure/ai-text-analytics.EntityDataSource|latest-stable"
+          />[]
         description: ''
   - name: length
     uid: '@azure/ai-text-analytics.HealthcareEntity.length|latest-stable'
@@ -194,4 +199,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.Entity" />
+extends: <xref uid="@azure/ai-text-analytics.Entity|latest-stable" />

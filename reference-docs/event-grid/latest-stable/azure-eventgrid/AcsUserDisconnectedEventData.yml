@@ -23,5 +23,7 @@ properties:
     syntax:
       content: 'userCommunicationIdentifier: CommunicationIdentifierModel'
       return:
-        type: <xref uid="@azure/eventgrid.CommunicationIdentifierModel" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.CommunicationIdentifierModel|latest-stable" />
         description: ''

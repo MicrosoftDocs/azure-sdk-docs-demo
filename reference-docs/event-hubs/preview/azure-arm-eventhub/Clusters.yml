@@ -31,19 +31,22 @@ methods:
           type: string
           description: The name of the Event Hubs Cluster.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.Cluster" />
+          type: <xref uid="@azure/arm-eventhub.Cluster|preview" />
           description: Parameters for creating a eventhub cluster resource.
         - id: options
           type: >-
-            <xref uid="@azure/arm-eventhub.ClustersCreateOrUpdateOptionalParams"
+            <xref
+            uid="@azure/arm-eventhub.ClustersCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-eventhub.ClustersCreateOrUpdateResponse" />&gt;, <xref
-          uid="@azure/arm-eventhub.ClustersCreateOrUpdateResponse" />&gt;&gt;
+          uid="@azure/arm-eventhub.ClustersCreateOrUpdateResponse|preview"
+          />&gt;, <xref
+          uid="@azure/arm-eventhub.ClustersCreateOrUpdateResponse|preview"
+          />&gt;&gt;
         description: ''
   - name: >-
       beginCreateOrUpdateAndWait(string, string, Cluster,
@@ -67,18 +70,20 @@ methods:
           type: string
           description: The name of the Event Hubs Cluster.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.Cluster" />
+          type: <xref uid="@azure/arm-eventhub.Cluster|preview" />
           description: Parameters for creating a eventhub cluster resource.
         - id: options
           type: >-
-            <xref uid="@azure/arm-eventhub.ClustersCreateOrUpdateOptionalParams"
+            <xref
+            uid="@azure/arm-eventhub.ClustersCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.ClustersCreateOrUpdateResponse" />&gt;
+          uid="@azure/arm-eventhub.ClustersCreateOrUpdateResponse|preview"
+          />&gt;
         description: ''
   - name: beginDelete(string, string, ClustersDeleteOptionalParams)
     uid: '@azure/arm-eventhub.Clusters.beginDelete|preview'
@@ -99,7 +104,9 @@ methods:
           type: string
           description: The name of the Event Hubs Cluster.
         - id: options
-          type: <xref uid="@azure/arm-eventhub.ClustersDeleteOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-eventhub.ClustersDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -124,7 +131,9 @@ methods:
           type: string
           description: The name of the Event Hubs Cluster.
         - id: options
-          type: <xref uid="@azure/arm-eventhub.ClustersDeleteOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-eventhub.ClustersDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -151,17 +160,19 @@ methods:
           type: string
           description: The name of the Event Hubs Cluster.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.Cluster" />
+          type: <xref uid="@azure/arm-eventhub.Cluster|preview" />
           description: The properties of the Event Hubs Cluster which should be updated.
         - id: options
-          type: <xref uid="@azure/arm-eventhub.ClustersUpdateOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-eventhub.ClustersUpdateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-eventhub.ClustersUpdateResponse" />&gt;, <xref
-          uid="@azure/arm-eventhub.ClustersUpdateResponse" />&gt;&gt;
+          uid="@azure/arm-eventhub.ClustersUpdateResponse|preview" />&gt;, <xref
+          uid="@azure/arm-eventhub.ClustersUpdateResponse|preview" />&gt;&gt;
         description: ''
   - name: beginUpdateAndWait(string, string, Cluster, ClustersUpdateOptionalParams)
     uid: '@azure/arm-eventhub.Clusters.beginUpdateAndWait|preview'
@@ -184,16 +195,18 @@ methods:
           type: string
           description: The name of the Event Hubs Cluster.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.Cluster" />
+          type: <xref uid="@azure/arm-eventhub.Cluster|preview" />
           description: The properties of the Event Hubs Cluster which should be updated.
         - id: options
-          type: <xref uid="@azure/arm-eventhub.ClustersUpdateOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-eventhub.ClustersUpdateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-eventhub.ClustersUpdateResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.ClustersUpdateResponse|preview" />&gt;
         description: ''
   - name: get(string, string, ClustersGetOptionalParams)
     uid: '@azure/arm-eventhub.Clusters.get|preview'
@@ -214,11 +227,13 @@ methods:
           type: string
           description: The name of the Event Hubs Cluster.
         - id: options
-          type: <xref uid="@azure/arm-eventhub.ClustersGetOptionalParams" />
+          type: <xref uid="@azure/arm-eventhub.ClustersGetOptionalParams|preview" />
           description: |
             The options parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/arm-eventhub.ClustersGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-eventhub.ClustersGetResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       listAvailableClusterRegion(ClustersListAvailableClusterRegionOptionalParams)
@@ -238,14 +253,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.ClustersListAvailableClusterRegionOptionalParams"
+            uid="@azure/arm-eventhub.ClustersListAvailableClusterRegionOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.ClustersListAvailableClusterRegionResponse"
+          uid="@azure/arm-eventhub.ClustersListAvailableClusterRegionResponse|preview"
           />&gt;
         description: ''
   - name: listByResourceGroup(string, ClustersListByResourceGroupOptionalParams)
@@ -266,14 +281,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.ClustersListByResourceGroupOptionalParams"
+            uid="@azure/arm-eventhub.ClustersListByResourceGroupOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
-          PagedAsyncIterableIterator&lt;<xref uid="@azure/arm-eventhub.Cluster"
-          />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-eventhub.Cluster|preview" />&gt;
         description: ''
   - name: listBySubscription(ClustersListBySubscriptionOptionalParams)
     uid: '@azure/arm-eventhub.Clusters.listBySubscription|preview'
@@ -290,14 +305,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.ClustersListBySubscriptionOptionalParams"
+            uid="@azure/arm-eventhub.ClustersListBySubscriptionOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
-          PagedAsyncIterableIterator&lt;<xref uid="@azure/arm-eventhub.Cluster"
-          />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-eventhub.Cluster|preview" />&gt;
         description: ''
   - name: listNamespaces(string, string, ClustersListNamespacesOptionalParams)
     uid: '@azure/arm-eventhub.Clusters.listNamespaces|preview'
@@ -319,12 +334,14 @@ methods:
           description: The name of the Event Hubs Cluster.
         - id: options
           type: >-
-            <xref uid="@azure/arm-eventhub.ClustersListNamespacesOptionalParams"
+            <xref
+            uid="@azure/arm-eventhub.ClustersListNamespacesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.ClustersListNamespacesResponse" />&gt;
+          uid="@azure/arm-eventhub.ClustersListNamespacesResponse|preview"
+          />&gt;
         description: ''

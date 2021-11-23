@@ -134,4 +134,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-blob.ContainerCreateHeaders" /> & Object
+extends: <xref uid="@azure/storage-blob.ContainerCreateHeaders|preview" /> & Object

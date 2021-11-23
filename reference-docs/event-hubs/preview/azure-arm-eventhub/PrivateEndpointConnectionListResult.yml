@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'value?: PrivateEndpointConnection[]'
       return:
-        type: <xref uid="@azure/arm-eventhub.PrivateEndpointConnection" />[]
+        type: <xref uid="@azure/arm-eventhub.PrivateEndpointConnection|preview" />[]
         description: ''

@@ -126,7 +126,7 @@ properties:
     syntax:
       content: 'ipRange?: SasIPRange'
       return:
-        type: <xref uid="@azure/storage-file-datalake.SasIPRange" />
+        type: <xref uid="@azure/storage-file-datalake.SasIPRange|preview" />
         description: ''
   - name: permissions
     uid: >-
@@ -142,7 +142,9 @@ properties:
     syntax:
       content: 'permissions?: FileSystemSASPermissions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.FileSystemSASPermissions" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.FileSystemSASPermissions|preview" />
         description: ''
   - name: protocol
     uid: >-
@@ -156,7 +158,7 @@ properties:
     syntax:
       content: 'protocol?: SASProtocol'
       return:
-        type: <xref uid="@azure/storage-file-datalake.SASProtocol" />
+        type: <xref uid="@azure/storage-file-datalake.SASProtocol|preview" />
         description: ''
   - name: startsOn
     uid: >-
@@ -190,4 +192,6 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.CommonGenerateSasUrlOptions" />
+extends: >-
+  <xref uid="@azure/storage-file-datalake.CommonGenerateSasUrlOptions|preview"
+  />

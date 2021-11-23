@@ -41,5 +41,5 @@ properties:
     syntax:
       content: 'value?: ListQueue[]'
       return:
-        type: <xref uid="@azure/arm-storage.ListQueue" />[]
+        type: <xref uid="@azure/arm-storage.ListQueue|preview" />[]
         description: ''

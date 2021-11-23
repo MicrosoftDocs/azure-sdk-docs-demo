@@ -25,7 +25,10 @@ properties:
     syntax:
       content: 'confidenceScores: SentimentConfidenceScores'
       return:
-        type: <xref uid="@azure/ai-text-analytics.SentimentConfidenceScores" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.SentimentConfidenceScores|latest-stable"
+          />
         description: ''
   - name: error
     uid: '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.error|latest-stable'
@@ -65,7 +68,9 @@ properties:
     syntax:
       content: 'sentences: SentenceSentiment[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.SentenceSentiment" />[]
+        type: >-
+          <xref uid="@azure/ai-text-analytics.SentenceSentiment|latest-stable"
+          />[]
         description: ''
   - name: sentiment
     uid: >-
@@ -81,7 +86,9 @@ properties:
     syntax:
       content: 'sentiment: DocumentSentimentLabel'
       return:
-        type: <xref uid="@azure/ai-text-analytics.DocumentSentimentLabel" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.DocumentSentimentLabel|latest-stable" />
         description: ''
   - name: statistics
     uid: >-
@@ -101,7 +108,9 @@ properties:
     syntax:
       content: 'statistics?: TextDocumentStatistics'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextDocumentStatistics" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TextDocumentStatistics|latest-stable" />
         description: ''
   - name: warnings
     uid: >-
@@ -117,6 +126,10 @@ properties:
     syntax:
       content: 'warnings: TextAnalyticsWarning[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsWarning" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TextAnalyticsWarning|latest-stable" />[]
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsSuccessResult" />
+extends: >-
+  <xref uid="@azure/ai-text-analytics.TextAnalyticsSuccessResult|latest-stable"
+  />

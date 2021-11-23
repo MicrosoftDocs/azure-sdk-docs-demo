@@ -111,4 +111,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-storage.Resource" />
+extends: <xref uid="@azure/arm-storage.Resource|latest-stable" />

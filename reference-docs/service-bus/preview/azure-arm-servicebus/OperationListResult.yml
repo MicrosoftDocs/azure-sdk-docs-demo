@@ -44,5 +44,5 @@ properties:
     syntax:
       content: 'value?: Operation[]'
       return:
-        type: <xref uid="@azure/arm-servicebus.Operation" />[]
+        type: <xref uid="@azure/arm-servicebus.Operation|preview" />[]
         description: ''

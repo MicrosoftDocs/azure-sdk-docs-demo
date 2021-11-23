@@ -132,7 +132,7 @@ properties:
     syntax:
       content: 'ipRange?: SasIPRange'
       return:
-        type: <xref uid="@azure/storage-blob.SasIPRange" />
+        type: <xref uid="@azure/storage-blob.SasIPRange|preview" />
         description: ''
   - name: protocol
     uid: '@azure/storage-blob.CommonGenerateSasUrlOptions.protocol|preview'
@@ -145,7 +145,7 @@ properties:
     syntax:
       content: 'protocol?: SASProtocol'
       return:
-        type: <xref uid="@azure/storage-blob.SASProtocol" />
+        type: <xref uid="@azure/storage-blob.SASProtocol|preview" />
         description: ''
   - name: startsOn
     uid: '@azure/storage-blob.CommonGenerateSasUrlOptions.startsOn|preview'

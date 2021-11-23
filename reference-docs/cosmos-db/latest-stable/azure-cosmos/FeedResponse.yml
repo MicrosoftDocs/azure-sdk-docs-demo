@@ -25,7 +25,7 @@ constructors:
           type: TResource[]
           description: ''
         - id: headers
-          type: <xref uid="@azure/cosmos.CosmosHeaders" />
+          type: <xref uid="@azure/cosmos.CosmosHeaders|latest-stable" />
           description: ''
         - id: hasMoreResults
           type: boolean

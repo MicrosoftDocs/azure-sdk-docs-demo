@@ -50,16 +50,18 @@ methods:
                              must be between 3 and 63 characters in length and use numbers, lower-case letters and dash (-) only.
                              Every dash (-) character must be immediately preceded and followed by a letter or number.
         - id: fileShare
-          type: <xref uid="@azure/arm-storage.FileShare" />
+          type: <xref uid="@azure/arm-storage.FileShare|preview" />
           description: Properties of the file share to create.
         - id: options
-          type: <xref uid="@azure/arm-storage.FileSharesCreateOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.FileSharesCreateOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-storage.FileSharesCreateResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-storage.FileSharesCreateResponse|preview" />&gt;
         description: ''
   - name: delete(string, string, string, FileSharesDeleteOptionalParams)
     uid: '@azure/arm-storage.FileShares.delete|preview'
@@ -94,7 +96,9 @@ methods:
                              must be between 3 and 63 characters in length and use numbers, lower-case letters and dash (-) only.
                              Every dash (-) character must be immediately preceded and followed by a letter or number.
         - id: options
-          type: <xref uid="@azure/arm-storage.FileSharesDeleteOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.FileSharesDeleteOptionalParams|preview" />
           description: |
             The options parameters.
       return:
@@ -133,11 +137,15 @@ methods:
                              must be between 3 and 63 characters in length and use numbers, lower-case letters and dash (-) only.
                              Every dash (-) character must be immediately preceded and followed by a letter or number.
         - id: options
-          type: <xref uid="@azure/arm-storage.FileSharesGetOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-storage.FileSharesGetOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/arm-storage.FileSharesGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-storage.FileSharesGetResponse|preview" />&gt;
         description: ''
   - name: lease(string, string, string, FileSharesLeaseOptionalParams)
     uid: '@azure/arm-storage.FileShares.lease|preview'
@@ -176,13 +184,15 @@ methods:
                              must be between 3 and 63 characters in length and use numbers, lower-case letters and dash (-) only.
                              Every dash (-) character must be immediately preceded and followed by a letter or number.
         - id: options
-          type: <xref uid="@azure/arm-storage.FileSharesLeaseOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-storage.FileSharesLeaseOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-storage.FileSharesLeaseResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-storage.FileSharesLeaseResponse|preview" />&gt;
         description: ''
   - name: list(string, string, FileSharesListOptionalParams)
     uid: '@azure/arm-storage.FileShares.list|preview'
@@ -210,13 +220,15 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: options
-          type: <xref uid="@azure/arm-storage.FileSharesListOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-storage.FileSharesListOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-storage.FileShareItem" />&gt;
+          uid="@azure/arm-storage.FileShareItem|preview" />&gt;
         description: ''
   - name: >-
       restore(string, string, string, DeletedShare,
@@ -256,10 +268,12 @@ methods:
                              must be between 3 and 63 characters in length and use numbers, lower-case letters and dash (-) only.
                              Every dash (-) character must be immediately preceded and followed by a letter or number.
         - id: deletedShare
-          type: <xref uid="@azure/arm-storage.DeletedShare" />
+          type: <xref uid="@azure/arm-storage.DeletedShare|preview" />
           description: The deleted share to be restored.
         - id: options
-          type: <xref uid="@azure/arm-storage.FileSharesRestoreOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.FileSharesRestoreOptionalParams|preview" />
           description: |
             The options parameters.
       return:
@@ -304,14 +318,16 @@ methods:
                              must be between 3 and 63 characters in length and use numbers, lower-case letters and dash (-) only.
                              Every dash (-) character must be immediately preceded and followed by a letter or number.
         - id: fileShare
-          type: <xref uid="@azure/arm-storage.FileShare" />
+          type: <xref uid="@azure/arm-storage.FileShare|preview" />
           description: Properties to update for the file share.
         - id: options
-          type: <xref uid="@azure/arm-storage.FileSharesUpdateOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.FileSharesUpdateOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-storage.FileSharesUpdateResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-storage.FileSharesUpdateResponse|preview" />&gt;
         description: ''

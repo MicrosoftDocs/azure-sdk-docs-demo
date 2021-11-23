@@ -25,7 +25,7 @@ properties:
     syntax:
       content: 'keySource?: KeySource'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.KeySource" />
+        type: <xref uid="@azure/arm-cognitiveservices.KeySource|latest-stable" />
         description: ''
   - name: keyVaultProperties
     uid: '@azure/arm-cognitiveservices.Encryption.keyVaultProperties|latest-stable'
@@ -38,5 +38,7 @@ properties:
     syntax:
       content: 'keyVaultProperties?: KeyVaultProperties'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.KeyVaultProperties" />
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.KeyVaultProperties|latest-stable" />
         description: ''

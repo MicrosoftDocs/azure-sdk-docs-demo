@@ -125,4 +125,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.PathCreateHeaders" /> & Object
+extends: <xref uid="@azure/storage-file-datalake.PathCreateHeaders|preview" /> & Object

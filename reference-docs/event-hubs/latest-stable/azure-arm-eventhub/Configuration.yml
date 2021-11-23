@@ -20,7 +20,10 @@ constructors:
       content: 'new Configuration(client: EventHubManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-eventhub.EventHubManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.EventHubManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -47,10 +50,12 @@ methods:
           type: string
           description: The name of the Event Hubs Cluster.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ConfigurationGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.ConfigurationGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ConfigurationGetResponse>
   - name: >-
       get(string, string, RequestOptionsBase,
@@ -79,7 +84,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.ClusterQuotaConfigurationProperties" />&gt;
+            uid="@azure/arm-eventhub.ClusterQuotaConfigurationProperties|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: get(string, string, ServiceCallback<ClusterQuotaConfigurationProperties>)
@@ -103,7 +109,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.ClusterQuotaConfigurationProperties" />&gt;
+            uid="@azure/arm-eventhub.ClusterQuotaConfigurationProperties|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -133,14 +140,17 @@ methods:
           description: The name of the Event Hubs Cluster.
         - id: parameters
           type: >-
-            <xref uid="@azure/arm-eventhub.ClusterQuotaConfigurationProperties"
+            <xref
+            uid="@azure/arm-eventhub.ClusterQuotaConfigurationProperties|latest-stable"
             />
           description: Parameters for creating an Event Hubs Cluster resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ConfigurationPatchResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.ConfigurationPatchResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ConfigurationPatchResponse>
   - name: >-
       patch(string, string, ClusterQuotaConfigurationProperties,
@@ -166,7 +176,8 @@ methods:
           description: The name of the Event Hubs Cluster.
         - id: parameters
           type: >-
-            <xref uid="@azure/arm-eventhub.ClusterQuotaConfigurationProperties"
+            <xref
+            uid="@azure/arm-eventhub.ClusterQuotaConfigurationProperties|latest-stable"
             />
           description: Parameters for creating an Event Hubs Cluster resource.
         - id: options
@@ -175,7 +186,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.ClusterQuotaConfigurationProperties" />&gt;
+            uid="@azure/arm-eventhub.ClusterQuotaConfigurationProperties|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -201,12 +213,14 @@ methods:
           description: The name of the Event Hubs Cluster.
         - id: parameters
           type: >-
-            <xref uid="@azure/arm-eventhub.ClusterQuotaConfigurationProperties"
+            <xref
+            uid="@azure/arm-eventhub.ClusterQuotaConfigurationProperties|latest-stable"
             />
           description: Parameters for creating an Event Hubs Cluster resource.
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.ClusterQuotaConfigurationProperties" />&gt;
+            uid="@azure/arm-eventhub.ClusterQuotaConfigurationProperties|latest-stable"
+            />&gt;
           description: |
             The callback

@@ -51,16 +51,25 @@ properties:
         "#Microsoft.Azure.Search.UaxUrlEmailTokenizer"
       return:
         type: >-
-          "#<xref uid="Microsoft.Azure.Search.ClassicTokenizer" />" | "#<xref
-          uid="Microsoft.Azure.Search.EdgeNGramTokenizer" />" | "#<xref
-          uid="Microsoft.Azure.Search.KeywordTokenizer" />" | "#<xref
-          uid="Microsoft.Azure.Search.KeywordTokenizerV2" />" | "#<xref
-          uid="Microsoft.Azure.Search.MicrosoftLanguageTokenizer" />" | "#<xref
-          uid="Microsoft.Azure.Search.MicrosoftLanguageStemmingTokenizer" />" |
-          "#<xref uid="Microsoft.Azure.Search.NGramTokenizer" />" | "#<xref
-          uid="Microsoft.Azure.Search.PathHierarchyTokenizerV2" />" | "#<xref
-          uid="Microsoft.Azure.Search.PatternTokenizer" />" | "#<xref
-          uid="Microsoft.Azure.Search.StandardTokenizer" />" | "#<xref
-          uid="Microsoft.Azure.Search.StandardTokenizerV2" />" | "#<xref
-          uid="Microsoft.Azure.Search.UaxUrlEmailTokenizer" />"
+          "#<xref uid="Microsoft.Azure.Search.ClassicTokenizer|latest-stable"
+          />" | "#<xref
+          uid="Microsoft.Azure.Search.EdgeNGramTokenizer|latest-stable" />" |
+          "#<xref uid="Microsoft.Azure.Search.KeywordTokenizer|latest-stable"
+          />" | "#<xref
+          uid="Microsoft.Azure.Search.KeywordTokenizerV2|latest-stable" />" |
+          "#<xref
+          uid="Microsoft.Azure.Search.MicrosoftLanguageTokenizer|latest-stable"
+          />" | "#<xref
+          uid="Microsoft.Azure.Search.MicrosoftLanguageStemmingTokenizer|latest-stable"
+          />" | "#<xref
+          uid="Microsoft.Azure.Search.NGramTokenizer|latest-stable" />" |
+          "#<xref
+          uid="Microsoft.Azure.Search.PathHierarchyTokenizerV2|latest-stable"
+          />" | "#<xref
+          uid="Microsoft.Azure.Search.PatternTokenizer|latest-stable" />" |
+          "#<xref uid="Microsoft.Azure.Search.StandardTokenizer|latest-stable"
+          />" | "#<xref
+          uid="Microsoft.Azure.Search.StandardTokenizerV2|latest-stable" />" |
+          "#<xref
+          uid="Microsoft.Azure.Search.UaxUrlEmailTokenizer|latest-stable" />"
         description: ''

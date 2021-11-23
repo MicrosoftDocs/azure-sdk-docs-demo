@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'value?: EventSubscription[]'
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscription" />[]
+        type: <xref uid="@azure/arm-eventgrid.EventSubscription|preview" />[]
         description: ''

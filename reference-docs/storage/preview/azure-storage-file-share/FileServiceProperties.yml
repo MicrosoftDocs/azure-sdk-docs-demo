@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'cors?: CorsRule[]'
       return:
-        type: <xref uid="@azure/storage-file-share.CorsRule" />[]
+        type: <xref uid="@azure/storage-file-share.CorsRule|preview" />[]
         description: ''
   - name: hourMetrics
     uid: '@azure/storage-file-share.FileServiceProperties.hourMetrics|preview'
@@ -35,7 +35,7 @@ properties:
     syntax:
       content: 'hourMetrics?: Metrics'
       return:
-        type: <xref uid="@azure/storage-file-share.Metrics" />
+        type: <xref uid="@azure/storage-file-share.Metrics|preview" />
         description: ''
   - name: minuteMetrics
     uid: '@azure/storage-file-share.FileServiceProperties.minuteMetrics|preview'
@@ -50,7 +50,7 @@ properties:
     syntax:
       content: 'minuteMetrics?: Metrics'
       return:
-        type: <xref uid="@azure/storage-file-share.Metrics" />
+        type: <xref uid="@azure/storage-file-share.Metrics|preview" />
         description: ''
   - name: protocol
     uid: '@azure/storage-file-share.FileServiceProperties.protocol|preview'
@@ -63,5 +63,5 @@ properties:
     syntax:
       content: 'protocol?: ShareProtocolSettings'
       return:
-        type: <xref uid="@azure/storage-file-share.ShareProtocolSettings" />
+        type: <xref uid="@azure/storage-file-share.ShareProtocolSettings|preview" />
         description: ''

@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'kind: OperationKind'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.OperationKind" />
+        type: <xref uid="@azure/ai-form-recognizer.OperationKind|preview" />
         description: ''
   - name: lastUpdatedDateTime
     uid: '@azure/ai-form-recognizer.OperationInfo.lastUpdatedDateTime|preview'
@@ -98,5 +98,5 @@ properties:
     syntax:
       content: 'status: OperationStatus'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.OperationStatus" />
+        type: <xref uid="@azure/ai-form-recognizer.OperationStatus|preview" />
         description: ''

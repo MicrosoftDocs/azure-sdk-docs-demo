@@ -30,7 +30,7 @@ properties:
     syntax:
       content: 'bypass?: Bypass'
       return:
-        type: <xref uid="@azure/arm-storage.Bypass" />
+        type: <xref uid="@azure/arm-storage.Bypass|latest-stable" />
         description: ''
   - name: defaultAction
     uid: '@azure/arm-storage.NetworkRuleSet.defaultAction|latest-stable'
@@ -47,7 +47,7 @@ properties:
     syntax:
       content: 'defaultAction: DefaultAction'
       return:
-        type: <xref uid="@azure/arm-storage.DefaultAction" />
+        type: <xref uid="@azure/arm-storage.DefaultAction|latest-stable" />
         description: ''
   - name: ipRules
     uid: '@azure/arm-storage.NetworkRuleSet.ipRules|latest-stable'
@@ -60,7 +60,7 @@ properties:
     syntax:
       content: 'ipRules?: IPRule[]'
       return:
-        type: <xref uid="@azure/arm-storage.IPRule" />[]
+        type: <xref uid="@azure/arm-storage.IPRule|latest-stable" />[]
         description: ''
   - name: resourceAccessRules
     uid: '@azure/arm-storage.NetworkRuleSet.resourceAccessRules|latest-stable'
@@ -73,7 +73,7 @@ properties:
     syntax:
       content: 'resourceAccessRules?: ResourceAccessRule[]'
       return:
-        type: <xref uid="@azure/arm-storage.ResourceAccessRule" />[]
+        type: <xref uid="@azure/arm-storage.ResourceAccessRule|latest-stable" />[]
         description: ''
   - name: virtualNetworkRules
     uid: '@azure/arm-storage.NetworkRuleSet.virtualNetworkRules|latest-stable'
@@ -86,5 +86,5 @@ properties:
     syntax:
       content: 'virtualNetworkRules?: VirtualNetworkRule[]'
       return:
-        type: <xref uid="@azure/arm-storage.VirtualNetworkRule" />[]
+        type: <xref uid="@azure/arm-storage.VirtualNetworkRule|latest-stable" />[]
         description: ''

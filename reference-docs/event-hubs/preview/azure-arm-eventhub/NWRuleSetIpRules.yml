@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'action?: NetworkRuleIPAction'
       return:
-        type: <xref uid="@azure/arm-eventhub.NetworkRuleIPAction" />
+        type: <xref uid="@azure/arm-eventhub.NetworkRuleIPAction|preview" />
         description: ''
   - name: ipMask
     uid: '@azure/arm-eventhub.NWRuleSetIpRules.ipMask|preview'

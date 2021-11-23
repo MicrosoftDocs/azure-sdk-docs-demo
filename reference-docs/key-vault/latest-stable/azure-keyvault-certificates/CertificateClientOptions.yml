@@ -93,7 +93,9 @@ properties:
     syntax:
       content: 'serviceVersion?: "7.0" | "7.1" | "7.2"'
       return:
-        type: '"<xref uid="7.0" />" | "<xref uid="7.1" />" | "<xref uid="7.2" />"'
+        type: >-
+          "<xref uid="7.0|latest-stable" />" | "<xref uid="7.1|latest-stable"
+          />" | "<xref uid="7.2|latest-stable" />"
         description: ''
   - name: userAgentOptions
     uid: >-

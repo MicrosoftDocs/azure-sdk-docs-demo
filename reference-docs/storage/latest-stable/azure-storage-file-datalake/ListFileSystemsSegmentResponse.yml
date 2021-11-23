@@ -35,7 +35,9 @@ properties:
     syntax:
       content: 'fileSystemItems: FileSystemItem[]'
       return:
-        type: <xref uid="@azure/storage-file-datalake.FileSystemItem" />[]
+        type: >-
+          <xref uid="@azure/storage-file-datalake.FileSystemItem|latest-stable"
+          />[]
         description: ''
   - name: marker
     uid: >-

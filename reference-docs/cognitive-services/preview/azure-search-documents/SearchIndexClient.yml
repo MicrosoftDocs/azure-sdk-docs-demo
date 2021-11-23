@@ -49,7 +49,9 @@ constructors:
           type: KeyCredential | TokenCredential
           description: Used to authenticate requests to the service.
         - id: options
-          type: <xref uid="@azure/search-documents.SearchIndexClientOptions" />
+          type: >-
+            <xref uid="@azure/search-documents.SearchIndexClientOptions|preview"
+            />
           description: |
             Used to configure the Search Index client.
 properties:
@@ -94,11 +96,13 @@ methods:
           type: string
           description: The name of the index that contains the field to analyze
         - id: options
-          type: <xref uid="@azure/search-documents.AnalyzeTextOptions" />
+          type: <xref uid="@azure/search-documents.AnalyzeTextOptions|preview" />
           description: |
             Additional arguments
       return:
-        type: Promise&lt;<xref uid="@azure/search-documents.AnalyzeResult" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/search-documents.AnalyzeResult|preview"
+          />&gt;
         description: ''
   - name: createIndex(SearchIndex, CreateIndexOptions)
     uid: '@azure/search-documents.SearchIndexClient.createIndex|preview'
@@ -111,14 +115,16 @@ methods:
       content: 'function createIndex(index: SearchIndex, options?: CreateIndexOptions)'
       parameters:
         - id: index
-          type: <xref uid="@azure/search-documents.SearchIndex" />
+          type: <xref uid="@azure/search-documents.SearchIndex|preview" />
           description: The information describing the index to be created.
         - id: options
-          type: <xref uid="@azure/search-documents.CreateIndexOptions" />
+          type: <xref uid="@azure/search-documents.CreateIndexOptions|preview" />
           description: |
             Additional optional arguments.
       return:
-        type: Promise&lt;<xref uid="@azure/search-documents.SearchIndex" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/search-documents.SearchIndex|preview"
+          />&gt;
         description: ''
   - name: createOrUpdateIndex(SearchIndex, CreateOrUpdateIndexOptions)
     uid: '@azure/search-documents.SearchIndexClient.createOrUpdateIndex|preview'
@@ -133,14 +139,18 @@ methods:
         CreateOrUpdateIndexOptions)
       parameters:
         - id: index
-          type: <xref uid="@azure/search-documents.SearchIndex" />
+          type: <xref uid="@azure/search-documents.SearchIndex|preview" />
           description: The information describing the index to be created.
         - id: options
-          type: <xref uid="@azure/search-documents.CreateOrUpdateIndexOptions" />
+          type: >-
+            <xref
+            uid="@azure/search-documents.CreateOrUpdateIndexOptions|preview" />
           description: |
             Additional optional arguments.
       return:
-        type: Promise&lt;<xref uid="@azure/search-documents.SearchIndex" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/search-documents.SearchIndex|preview"
+          />&gt;
         description: ''
   - name: createOrUpdateSynonymMap(SynonymMap, CreateOrUpdateSynonymMapOptions)
     uid: '@azure/search-documents.SearchIndexClient.createOrUpdateSynonymMap|preview'
@@ -155,16 +165,19 @@ methods:
         CreateOrUpdateSynonymMapOptions)
       parameters:
         - id: synonymMap
-          type: <xref uid="@azure/search-documents.SynonymMap" />
+          type: <xref uid="@azure/search-documents.SynonymMap|preview" />
           description: The information describing the SynonymMap to be created.
         - id: options
           type: >-
-            <xref uid="@azure/search-documents.CreateOrUpdateSynonymMapOptions"
+            <xref
+            uid="@azure/search-documents.CreateOrUpdateSynonymMapOptions|preview"
             />
           description: |
             Additional optional arguments.
       return:
-        type: Promise&lt;<xref uid="@azure/search-documents.SynonymMap" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/search-documents.SynonymMap|preview"
+          />&gt;
         description: ''
   - name: createSynonymMap(SynonymMap, CreateSynonymMapOptions)
     uid: '@azure/search-documents.SearchIndexClient.createSynonymMap|preview'
@@ -179,14 +192,18 @@ methods:
         CreateSynonymMapOptions)
       parameters:
         - id: synonymMap
-          type: <xref uid="@azure/search-documents.SynonymMap" />
+          type: <xref uid="@azure/search-documents.SynonymMap|preview" />
           description: The synonymMap definition to create in a search service.
         - id: options
-          type: <xref uid="@azure/search-documents.CreateSynonymMapOptions" />
+          type: >-
+            <xref uid="@azure/search-documents.CreateSynonymMapOptions|preview"
+            />
           description: |
             Additional optional arguments.
       return:
-        type: Promise&lt;<xref uid="@azure/search-documents.SynonymMap" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/search-documents.SynonymMap|preview"
+          />&gt;
         description: ''
   - name: deleteIndex(string | SearchIndex, DeleteIndexOptions)
     uid: '@azure/search-documents.SearchIndexClient.deleteIndex|preview'
@@ -201,10 +218,10 @@ methods:
         DeleteIndexOptions)
       parameters:
         - id: index
-          type: string | <xref uid="@azure/search-documents.SearchIndex" />
+          type: string | <xref uid="@azure/search-documents.SearchIndex|preview" />
           description: ''
         - id: options
-          type: <xref uid="@azure/search-documents.DeleteIndexOptions" />
+          type: <xref uid="@azure/search-documents.DeleteIndexOptions|preview" />
           description: |
             Additional optional arguments.
       return:
@@ -223,10 +240,12 @@ methods:
         DeleteSynonymMapOptions)
       parameters:
         - id: synonymMap
-          type: string | <xref uid="@azure/search-documents.SynonymMap" />
+          type: string | <xref uid="@azure/search-documents.SynonymMap|preview" />
           description: ''
         - id: options
-          type: <xref uid="@azure/search-documents.DeleteSynonymMapOptions" />
+          type: >-
+            <xref uid="@azure/search-documents.DeleteSynonymMapOptions|preview"
+            />
           description: |
             Additional optional arguments.
       return:
@@ -246,11 +265,13 @@ methods:
           type: string
           description: The name of the index.
         - id: options
-          type: <xref uid="@azure/search-documents.GetIndexOptions" />
+          type: <xref uid="@azure/search-documents.GetIndexOptions|preview" />
           description: |
             Additional optional arguments.
       return:
-        type: Promise&lt;<xref uid="@azure/search-documents.SearchIndex" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/search-documents.SearchIndex|preview"
+          />&gt;
         description: ''
   - name: getIndexStatistics(string, GetIndexStatisticsOptions)
     uid: '@azure/search-documents.SearchIndexClient.getIndexStatistics|preview'
@@ -272,13 +293,15 @@ methods:
           type: string
           description: The name of the index.
         - id: options
-          type: <xref uid="@azure/search-documents.GetIndexStatisticsOptions" />
+          type: >-
+            <xref
+            uid="@azure/search-documents.GetIndexStatisticsOptions|preview" />
           description: |
             Additional optional arguments.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/search-documents.SearchIndexStatistics"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/search-documents.SearchIndexStatistics|preview" />&gt;
         description: ''
   - name: getSearchClient<T>(string, SearchClientOptions)
     uid: '@azure/search-documents.SearchIndexClient.getSearchClient|preview'
@@ -296,11 +319,11 @@ methods:
           type: string
           description: Name of the index
         - id: options
-          type: <xref uid="@azure/search-documents.SearchClientOptions" />
+          type: <xref uid="@azure/search-documents.SearchClientOptions|preview" />
           description: |
             SearchClient Options
       return:
-        type: <xref uid="@azure/search-documents.SearchClient" />&lt;T&gt;
+        type: <xref uid="@azure/search-documents.SearchClient|preview" />&lt;T&gt;
         description: ''
   - name: getServiceStatistics(GetServiceStatisticsOptions)
     uid: '@azure/search-documents.SearchIndexClient.getServiceStatistics|preview'
@@ -315,13 +338,15 @@ methods:
       content: 'function getServiceStatistics(options?: GetServiceStatisticsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/search-documents.GetServiceStatisticsOptions" />
+          type: >-
+            <xref
+            uid="@azure/search-documents.GetServiceStatisticsOptions|preview" />
           description: |
             Additional optional arguments.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/search-documents.SearchServiceStatistics"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/search-documents.SearchServiceStatistics|preview" />&gt;
         description: ''
   - name: getSynonymMap(string, GetSynonymMapsOptions)
     uid: '@azure/search-documents.SearchIndexClient.getSynonymMap|preview'
@@ -339,11 +364,13 @@ methods:
           type: string
           description: The name of the SynonymMap.
         - id: options
-          type: <xref uid="@azure/search-documents.GetSynonymMapsOptions" />
+          type: <xref uid="@azure/search-documents.GetSynonymMapsOptions|preview" />
           description: |
             Additional optional arguments.
       return:
-        type: Promise&lt;<xref uid="@azure/search-documents.SynonymMap" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/search-documents.SynonymMap|preview"
+          />&gt;
         description: ''
   - name: listIndexes(ListIndexesOptions)
     uid: '@azure/search-documents.SearchIndexClient.listIndexes|preview'
@@ -356,11 +383,11 @@ methods:
       content: 'function listIndexes(options?: ListIndexesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/search-documents.ListIndexesOptions" />
+          type: <xref uid="@azure/search-documents.ListIndexesOptions|preview" />
           description: |
             Options to the list index operation.
       return:
-        type: <xref uid="@azure/search-documents.IndexIterator" />
+        type: <xref uid="@azure/search-documents.IndexIterator|preview" />
         description: ''
   - name: listIndexesNames(ListIndexesOptions)
     uid: '@azure/search-documents.SearchIndexClient.listIndexesNames|preview'
@@ -373,11 +400,11 @@ methods:
       content: 'function listIndexesNames(options?: ListIndexesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/search-documents.ListIndexesOptions" />
+          type: <xref uid="@azure/search-documents.ListIndexesOptions|preview" />
           description: |
             Options to the list index operation.
       return:
-        type: <xref uid="@azure/search-documents.IndexNameIterator" />
+        type: <xref uid="@azure/search-documents.IndexNameIterator|preview" />
         description: ''
   - name: listSynonymMaps(ListSynonymMapsOptions)
     uid: '@azure/search-documents.SearchIndexClient.listSynonymMaps|preview'
@@ -390,13 +417,15 @@ methods:
       content: 'function listSynonymMaps(options?: ListSynonymMapsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/search-documents.ListSynonymMapsOptions" />
+          type: >-
+            <xref uid="@azure/search-documents.ListSynonymMapsOptions|preview"
+            />
           description: |
             Options to the list SynonymMaps operation.
       return:
         type: >-
-          Promise&lt;Array&lt;<xref uid="@azure/search-documents.SynonymMap"
-          />&gt;&gt;
+          Promise&lt;Array&lt;<xref
+          uid="@azure/search-documents.SynonymMap|preview" />&gt;&gt;
         description: ''
   - name: listSynonymMapsNames(ListSynonymMapsOptions)
     uid: '@azure/search-documents.SearchIndexClient.listSynonymMapsNames|preview'
@@ -409,7 +438,9 @@ methods:
       content: 'function listSynonymMapsNames(options?: ListSynonymMapsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/search-documents.ListSynonymMapsOptions" />
+          type: >-
+            <xref uid="@azure/search-documents.ListSynonymMapsOptions|preview"
+            />
           description: |
             Options to the list SynonymMaps operation.
       return:

@@ -102,7 +102,7 @@ properties:
     syntax:
       content: 'releasePolicy?: KeyReleasePolicy'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyReleasePolicy" />
+        type: <xref uid="@azure/keyvault-keys.KeyReleasePolicy|preview" />
         description: ''
   - name: requestOptions
     uid: '@azure/keyvault-keys.ImportKeyOptions.requestOptions|preview'

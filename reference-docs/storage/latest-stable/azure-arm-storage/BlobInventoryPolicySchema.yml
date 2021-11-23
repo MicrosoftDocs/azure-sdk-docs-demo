@@ -48,5 +48,7 @@ properties:
     syntax:
       content: 'rules: BlobInventoryPolicyRule[]'
       return:
-        type: <xref uid="@azure/arm-storage.BlobInventoryPolicyRule" />[]
+        type: >-
+          <xref uid="@azure/arm-storage.BlobInventoryPolicyRule|latest-stable"
+          />[]
         description: ''

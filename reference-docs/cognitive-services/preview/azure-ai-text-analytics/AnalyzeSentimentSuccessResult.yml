@@ -25,7 +25,9 @@ properties:
     syntax:
       content: 'confidenceScores: SentimentConfidenceScores'
       return:
-        type: <xref uid="@azure/ai-text-analytics.SentimentConfidenceScores" />
+        type: >-
+          <xref uid="@azure/ai-text-analytics.SentimentConfidenceScores|preview"
+          />
         description: ''
   - name: error
     uid: '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.error|preview'
@@ -64,7 +66,7 @@ properties:
     syntax:
       content: 'sentences: SentenceSentiment[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.SentenceSentiment" />[]
+        type: <xref uid="@azure/ai-text-analytics.SentenceSentiment|preview" />[]
         description: ''
   - name: sentiment
     uid: '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.sentiment|preview'
@@ -79,7 +81,7 @@ properties:
     syntax:
       content: 'sentiment: DocumentSentimentLabel'
       return:
-        type: <xref uid="@azure/ai-text-analytics.DocumentSentimentLabel" />
+        type: <xref uid="@azure/ai-text-analytics.DocumentSentimentLabel|preview" />
         description: ''
   - name: statistics
     uid: '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.statistics|preview'
@@ -98,7 +100,7 @@ properties:
     syntax:
       content: 'statistics?: TextDocumentStatistics'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextDocumentStatistics" />
+        type: <xref uid="@azure/ai-text-analytics.TextDocumentStatistics|preview" />
         description: ''
   - name: warnings
     uid: '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult.warnings|preview'
@@ -113,6 +115,6 @@ properties:
     syntax:
       content: 'warnings: TextAnalyticsWarning[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsWarning" />[]
+        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsWarning|preview" />[]
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsSuccessResult" />
+extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsSuccessResult|preview" />

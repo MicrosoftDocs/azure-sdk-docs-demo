@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'state?: State'
       return:
-        type: <xref uid="@azure/arm-storage.State" />
+        type: <xref uid="@azure/arm-storage.State|preview" />
         description: ''
   - name: virtualNetworkResourceId
     uid: '@azure/arm-storage.VirtualNetworkRule.virtualNetworkResourceId|preview'

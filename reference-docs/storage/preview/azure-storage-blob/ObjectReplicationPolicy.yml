@@ -45,5 +45,5 @@ properties:
     syntax:
       content: 'rules: ObjectReplicationRule[]'
       return:
-        type: <xref uid="@azure/storage-blob.ObjectReplicationRule" />[]
+        type: <xref uid="@azure/storage-blob.ObjectReplicationRule|preview" />[]
         description: ''

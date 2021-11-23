@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'keySource?: KeySource'
       return:
-        type: <xref uid="@azure/arm-eventhub.KeySource" />
+        type: <xref uid="@azure/arm-eventhub.KeySource|latest-stable" />
         description: ''
   - name: keyVaultProperties
     uid: '@azure/arm-eventhub.Encryption.keyVaultProperties|latest-stable'
@@ -37,7 +37,7 @@ properties:
     syntax:
       content: 'keyVaultProperties?: KeyVaultProperties[]'
       return:
-        type: <xref uid="@azure/arm-eventhub.KeyVaultProperties" />[]
+        type: <xref uid="@azure/arm-eventhub.KeyVaultProperties|latest-stable" />[]
         description: ''
   - name: requireInfrastructureEncryption
     uid: >-

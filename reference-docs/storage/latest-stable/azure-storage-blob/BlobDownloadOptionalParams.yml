@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'cpkInfo?: CpkInfo'
       return:
-        type: <xref uid="@azure/storage-blob.CpkInfo" />
+        type: <xref uid="@azure/storage-blob.CpkInfo|latest-stable" />
         description: ''
   - name: leaseAccessConditions
     uid: >-
@@ -47,7 +47,7 @@ properties:
     syntax:
       content: 'leaseAccessConditions?: LeaseAccessConditions'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseAccessConditions" />
+        type: <xref uid="@azure/storage-blob.LeaseAccessConditions|latest-stable" />
         description: ''
   - name: modifiedAccessConditions
     uid: >-
@@ -61,7 +61,10 @@ properties:
     syntax:
       content: 'modifiedAccessConditions?: ModifiedAccessConditionsModel'
       return:
-        type: <xref uid="@azure/storage-blob.ModifiedAccessConditionsModel" />
+        type: >-
+          <xref
+          uid="@azure/storage-blob.ModifiedAccessConditionsModel|latest-stable"
+          />
         description: ''
   - name: range
     uid: '@azure/storage-blob.BlobDownloadOptionalParams.range|latest-stable'

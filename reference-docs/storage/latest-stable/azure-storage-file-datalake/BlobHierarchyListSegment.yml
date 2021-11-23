@@ -21,7 +21,9 @@ properties:
     syntax:
       content: 'blobItems: BlobItemModel[]'
       return:
-        type: <xref uid="@azure/storage-file-datalake.BlobItemModel" />[]
+        type: >-
+          <xref uid="@azure/storage-file-datalake.BlobItemModel|latest-stable"
+          />[]
         description: ''
   - name: blobPrefixes
     uid: >-
@@ -35,5 +37,5 @@ properties:
     syntax:
       content: 'blobPrefixes?: BlobPrefix[]'
       return:
-        type: <xref uid="@azure/storage-file-datalake.BlobPrefix" />[]
+        type: <xref uid="@azure/storage-file-datalake.BlobPrefix|latest-stable" />[]
         description: ''

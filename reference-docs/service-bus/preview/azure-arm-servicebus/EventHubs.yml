@@ -30,12 +30,12 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.EventHubsListByNamespaceOptionalParams"
+            uid="@azure/arm-servicebus.EventHubsListByNamespaceOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-servicebus.Eventhub" />&gt;
+          uid="@azure/arm-servicebus.Eventhub|preview" />&gt;
         description: ''

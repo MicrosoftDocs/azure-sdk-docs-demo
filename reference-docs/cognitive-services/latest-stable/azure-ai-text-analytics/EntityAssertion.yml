@@ -22,7 +22,9 @@ properties:
     syntax:
       content: 'association?: EntityAssociation'
       return:
-        type: <xref uid="@azure/ai-text-analytics.EntityAssociation" />
+        type: >-
+          <xref uid="@azure/ai-text-analytics.EntityAssociation|latest-stable"
+          />
         description: ''
   - name: certainty
     uid: '@azure/ai-text-analytics.EntityAssertion.certainty|latest-stable'
@@ -35,7 +37,7 @@ properties:
     syntax:
       content: 'certainty?: EntityCertainty'
       return:
-        type: <xref uid="@azure/ai-text-analytics.EntityCertainty" />
+        type: <xref uid="@azure/ai-text-analytics.EntityCertainty|latest-stable" />
         description: ''
   - name: conditionality
     uid: '@azure/ai-text-analytics.EntityAssertion.conditionality|latest-stable'
@@ -48,5 +50,7 @@ properties:
     syntax:
       content: 'conditionality?: EntityConditionality'
       return:
-        type: <xref uid="@azure/ai-text-analytics.EntityConditionality" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.EntityConditionality|latest-stable" />
         description: ''

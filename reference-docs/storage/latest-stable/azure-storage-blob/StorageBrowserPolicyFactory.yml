@@ -31,5 +31,5 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-blob.StorageBrowserPolicy" />
+        type: <xref uid="@azure/storage-blob.StorageBrowserPolicy|latest-stable" />
         description: ''

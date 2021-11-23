@@ -51,7 +51,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/ai-anomaly-detector.AnomalyDetectorClientErrorResponse"
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorClientErrorResponse|preview"
           />[]
         description: ''
   - name: filledNARatio

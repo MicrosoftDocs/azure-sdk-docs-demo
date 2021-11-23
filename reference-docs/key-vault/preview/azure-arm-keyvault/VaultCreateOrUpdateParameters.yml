@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'properties: VaultProperties'
       return:
-        type: <xref uid="@azure/arm-keyvault.VaultProperties" />
+        type: <xref uid="@azure/arm-keyvault.VaultProperties|preview" />
         description: ''
   - name: tags
     uid: '@azure/arm-keyvault.VaultCreateOrUpdateParameters.tags|preview'

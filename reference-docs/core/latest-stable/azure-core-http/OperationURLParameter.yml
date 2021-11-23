@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'mapper: Mapper'
       return:
-        type: <xref uid="@azure/core-http.Mapper" />
+        type: <xref uid="@azure/core-http.Mapper|latest-stable" />
         description: ''
   - name: parameterPath
     uid: '@azure/core-http.OperationURLParameter.parameterPath|latest-stable'
@@ -41,7 +41,7 @@ properties:
     syntax:
       content: 'parameterPath: ParameterPath'
       return:
-        type: <xref uid="@azure/core-http.ParameterPath" />
+        type: <xref uid="@azure/core-http.ParameterPath|latest-stable" />
         description: ''
   - name: skipEncoding
     uid: '@azure/core-http.OperationURLParameter.skipEncoding|latest-stable'
@@ -58,4 +58,4 @@ properties:
       return:
         type: boolean
         description: ''
-extends: <xref uid="@azure/core-http.OperationParameter" />
+extends: <xref uid="@azure/core-http.OperationParameter|latest-stable" />

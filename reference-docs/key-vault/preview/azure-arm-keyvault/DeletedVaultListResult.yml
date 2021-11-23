@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'value?: DeletedVault[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.DeletedVault" />[]
+        type: <xref uid="@azure/arm-keyvault.DeletedVault|preview" />[]
         description: ''

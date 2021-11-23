@@ -138,7 +138,10 @@ properties:
     syntax:
       content: 'recoveryLevel?: DeletionRecoveryLevel'
       return:
-        type: <xref uid="@azure/keyvault-certificates.DeletionRecoveryLevel" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-certificates.DeletionRecoveryLevel|latest-stable"
+          />
         description: ''
   - name: tags
     uid: '@azure/keyvault-certificates.CertificateProperties.tags|latest-stable'
@@ -153,7 +156,9 @@ properties:
     syntax:
       content: 'tags?: CertificateTags'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificateTags" />
+        type: >-
+          <xref uid="@azure/keyvault-certificates.CertificateTags|latest-stable"
+          />
         description: ''
   - name: updatedOn
     uid: '@azure/keyvault-certificates.CertificateProperties.updatedOn|latest-stable'

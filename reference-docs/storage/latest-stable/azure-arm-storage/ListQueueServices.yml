@@ -24,5 +24,7 @@ properties:
     syntax:
       content: 'value?: QueueServiceProperties[]'
       return:
-        type: <xref uid="@azure/arm-storage.QueueServiceProperties" />[]
+        type: >-
+          <xref uid="@azure/arm-storage.QueueServiceProperties|latest-stable"
+          />[]
         description: ''

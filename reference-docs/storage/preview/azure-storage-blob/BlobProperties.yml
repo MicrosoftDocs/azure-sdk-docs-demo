@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'accessTier?: AccessTier'
       return:
-        type: <xref uid="@azure/storage-blob.AccessTier" />
+        type: <xref uid="@azure/storage-blob.AccessTier|preview" />
         description: ''
   - name: accessTierChangedOn
     uid: '@azure/storage-blob.BlobProperties.accessTierChangedOn|preview'
@@ -59,7 +59,7 @@ properties:
     syntax:
       content: 'archiveStatus?: ArchiveStatus'
       return:
-        type: <xref uid="@azure/storage-blob.ArchiveStatus" />
+        type: <xref uid="@azure/storage-blob.ArchiveStatus|preview" />
         description: ''
   - name: blobSequenceNumber
     uid: '@azure/storage-blob.BlobProperties.blobSequenceNumber|preview'
@@ -85,7 +85,7 @@ properties:
     syntax:
       content: 'blobType?: BlobType'
       return:
-        type: <xref uid="@azure/storage-blob.BlobType" />
+        type: <xref uid="@azure/storage-blob.BlobType|preview" />
         description: ''
   - name: cacheControl
     uid: '@azure/storage-blob.BlobProperties.cacheControl|preview'
@@ -241,7 +241,7 @@ properties:
     syntax:
       content: 'copyStatus?: CopyStatusType'
       return:
-        type: <xref uid="@azure/storage-blob.CopyStatusType" />
+        type: <xref uid="@azure/storage-blob.CopyStatusType|preview" />
         description: ''
   - name: copyStatusDescription
     uid: '@azure/storage-blob.BlobProperties.copyStatusDescription|preview'
@@ -373,7 +373,7 @@ properties:
     syntax:
       content: 'immutabilityPolicyMode?: BlobImmutabilityPolicyMode'
       return:
-        type: <xref uid="@azure/storage-blob.BlobImmutabilityPolicyMode" />
+        type: <xref uid="@azure/storage-blob.BlobImmutabilityPolicyMode|preview" />
         description: ''
   - name: incrementalCopy
     uid: '@azure/storage-blob.BlobProperties.incrementalCopy|preview'
@@ -438,7 +438,7 @@ properties:
     syntax:
       content: 'leaseDuration?: LeaseDurationType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseDurationType" />
+        type: <xref uid="@azure/storage-blob.LeaseDurationType|preview" />
         description: ''
   - name: leaseState
     uid: '@azure/storage-blob.BlobProperties.leaseState|preview'
@@ -451,7 +451,7 @@ properties:
     syntax:
       content: 'leaseState?: LeaseStateType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseStateType" />
+        type: <xref uid="@azure/storage-blob.LeaseStateType|preview" />
         description: ''
   - name: leaseStatus
     uid: '@azure/storage-blob.BlobProperties.leaseStatus|preview'
@@ -464,7 +464,7 @@ properties:
     syntax:
       content: 'leaseStatus?: LeaseStatusType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseStatusType" />
+        type: <xref uid="@azure/storage-blob.LeaseStatusType|preview" />
         description: ''
   - name: legalHold
     uid: '@azure/storage-blob.BlobProperties.legalHold|preview'
@@ -492,7 +492,7 @@ properties:
     syntax:
       content: 'rehydratePriority?: RehydratePriority'
       return:
-        type: <xref uid="@azure/storage-blob.RehydratePriority" />
+        type: <xref uid="@azure/storage-blob.RehydratePriority|preview" />
         description: ''
   - name: remainingRetentionDays
     uid: '@azure/storage-blob.BlobProperties.remainingRetentionDays|preview'

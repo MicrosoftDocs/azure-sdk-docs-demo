@@ -25,17 +25,17 @@ constructors:
       parameters:
         - id: resource
           type: >-
-            <xref uid="@azure/cosmos.TriggerDefinition" /> & <xref
-            uid="@azure/cosmos.Resource" />
+            <xref uid="@azure/cosmos.TriggerDefinition|latest-stable" /> & <xref
+            uid="@azure/cosmos.Resource|latest-stable" />
           description: ''
         - id: headers
-          type: <xref uid="@azure/cosmos.CosmosHeaders" />
+          type: <xref uid="@azure/cosmos.CosmosHeaders|latest-stable" />
           description: ''
         - id: statusCode
           type: number
           description: ''
         - id: trigger
-          type: <xref uid="@azure/cosmos.Trigger" />
+          type: <xref uid="@azure/cosmos.Trigger|latest-stable" />
           description: ''
 properties:
   - name: activityId
@@ -75,7 +75,7 @@ properties:
     syntax:
       content: 'headers: CosmosHeaders_2'
       return:
-        type: <xref uid="@azure/cosmos.CosmosHeaders_2" />
+        type: <xref uid="@azure/cosmos.CosmosHeaders_2|latest-stable" />
         description: ''
   - name: requestCharge
     uid: '@azure/cosmos.TriggerResponse.requestCharge|latest-stable'
@@ -102,8 +102,8 @@ properties:
       content: 'resource: TriggerDefinition & Resource | undefined'
       return:
         type: >-
-          <xref uid="@azure/cosmos.TriggerDefinition" /> & <xref
-          uid="@azure/cosmos.Resource" /> | undefined
+          <xref uid="@azure/cosmos.TriggerDefinition|latest-stable" /> & <xref
+          uid="@azure/cosmos.Resource|latest-stable" /> | undefined
         description: ''
   - name: statusCode
     uid: '@azure/cosmos.TriggerResponse.statusCode|latest-stable'
@@ -144,9 +144,9 @@ properties:
     syntax:
       content: 'trigger: Trigger'
       return:
-        type: <xref uid="@azure/cosmos.Trigger" />
+        type: <xref uid="@azure/cosmos.Trigger|latest-stable" />
         description: ''
 extends: >-
-  <xref uid="@azure/cosmos.ResourceResponse" />&lt;<xref
-  uid="@azure/cosmos.TriggerDefinition" /> & <xref uid="@azure/cosmos.Resource"
-  />&gt;
+  <xref uid="@azure/cosmos.ResourceResponse|latest-stable" />&lt;<xref
+  uid="@azure/cosmos.TriggerDefinition|latest-stable" /> & <xref
+  uid="@azure/cosmos.Resource|latest-stable" />&gt;

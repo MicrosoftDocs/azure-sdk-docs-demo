@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'value: Mapper'
       return:
-        type: <xref uid="@azure/core-http.Mapper" />
+        type: <xref uid="@azure/core-http.Mapper|latest-stable" />
         description: ''

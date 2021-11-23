@@ -39,7 +39,9 @@ properties:
     syntax:
       content: 'aliases?: CustomEntityAlias[] | null'
       return:
-        type: <xref uid="@azure/search-documents.CustomEntityAlias" />[] | null
+        type: >-
+          <xref uid="@azure/search-documents.CustomEntityAlias|latest-stable"
+          />[] | null
         description: ''
   - name: caseSensitive
     uid: '@azure/search-documents.CustomEntity.caseSensitive|latest-stable'

@@ -22,7 +22,7 @@ constructors:
         - id: client
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.AppConfigurationManagementClientContext"
+            uid="@azure/arm-appconfiguration.AppConfigurationManagementClientContext|latest-stable"
             />
           description: |
             Reference to the service client.
@@ -44,16 +44,18 @@ methods:
         - id: checkNameAvailabilityParameters
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.CheckNameAvailabilityParameters" />
+            uid="@azure/arm-appconfiguration.CheckNameAvailabilityParameters|latest-stable"
+            />
           description: |-
             The object containing information for the availability
             request.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.OperationsCheckNameAvailabilityResponse"
+          Promise&lt;<xref
+          uid="Models.OperationsCheckNameAvailabilityResponse|latest-stable"
           />&gt;
         description: Promise<Models.OperationsCheckNameAvailabilityResponse>
   - name: >-
@@ -75,7 +77,8 @@ methods:
         - id: checkNameAvailabilityParameters
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.CheckNameAvailabilityParameters" />
+            uid="@azure/arm-appconfiguration.CheckNameAvailabilityParameters|latest-stable"
+            />
           description: |-
             The object containing information for the availability
             request.
@@ -85,7 +88,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.NameAvailabilityStatus" />&gt;
+            uid="@azure/arm-appconfiguration.NameAvailabilityStatus|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -107,14 +111,16 @@ methods:
         - id: checkNameAvailabilityParameters
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.CheckNameAvailabilityParameters" />
+            uid="@azure/arm-appconfiguration.CheckNameAvailabilityParameters|latest-stable"
+            />
           description: |-
             The object containing information for the availability
             request.
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.NameAvailabilityStatus" />&gt;
+            uid="@azure/arm-appconfiguration.NameAvailabilityStatus|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: list(Models.OperationsListOptionalParams)
@@ -128,10 +134,12 @@ methods:
       content: 'function list(options?: Models.OperationsListOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.OperationsListOptionalParams" />
+          type: <xref uid="Models.OperationsListOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.OperationsListResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.OperationsListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.OperationsListResponse>
   - name: >-
       list(OperationsListOptionalParams,
@@ -149,13 +157,14 @@ methods:
       parameters:
         - id: options
           type: >-
-            <xref uid="@azure/arm-appconfiguration.OperationsListOptionalParams"
+            <xref
+            uid="@azure/arm-appconfiguration.OperationsListOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.OperationDefinitionListResult"
+            uid="@azure/arm-appconfiguration.OperationDefinitionListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -172,7 +181,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.OperationDefinitionListResult"
+            uid="@azure/arm-appconfiguration.OperationDefinitionListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -192,10 +201,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="Models.OperationsListNextOptionalParams" />
+          type: <xref uid="Models.OperationsListNextOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.OperationsListNextResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.OperationsListNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.OperationsListNextResponse>
   - name: >-
       listNext(string, OperationsListNextOptionalParams,
@@ -218,13 +229,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.OperationsListNextOptionalParams"
+            uid="@azure/arm-appconfiguration.OperationsListNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.OperationDefinitionListResult"
+            uid="@azure/arm-appconfiguration.OperationDefinitionListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -246,7 +257,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.OperationDefinitionListResult"
+            uid="@azure/arm-appconfiguration.OperationDefinitionListResult|latest-stable"
             />&gt;
           description: |
             The callback

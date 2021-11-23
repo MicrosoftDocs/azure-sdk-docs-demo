@@ -50,7 +50,7 @@ properties:
     syntax:
       content: 'mode?: RetryMode'
       return:
-        type: <xref uid="@azure/core-http.RetryMode" />
+        type: <xref uid="@azure/core-http.RetryMode|latest-stable" />
         description: ''
   - name: retryDelayInMs
     uid: '@azure/core-http.RetryOptions.retryDelayInMs|latest-stable'

@@ -84,7 +84,9 @@ properties:
     syntax:
       content: 'state?: ImmutabilityPolicyState'
       return:
-        type: <xref uid="@azure/arm-storage.ImmutabilityPolicyState" />
+        type: >-
+          <xref uid="@azure/arm-storage.ImmutabilityPolicyState|latest-stable"
+          />
         description: ''
   - name: updateHistory
     uid: >-
@@ -102,5 +104,7 @@ properties:
     syntax:
       content: 'updateHistory?: UpdateHistoryProperty[]'
       return:
-        type: <xref uid="@azure/arm-storage.UpdateHistoryProperty" />[]
+        type: >-
+          <xref uid="@azure/arm-storage.UpdateHistoryProperty|latest-stable"
+          />[]
         description: ''

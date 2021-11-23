@@ -37,7 +37,8 @@ constructors:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.EventHubManagementClientOptionalParams" />
+            uid="@azure/arm-eventhub.EventHubManagementClientOptionalParams|preview"
+            />
           description: |
             The parameter options
 properties:

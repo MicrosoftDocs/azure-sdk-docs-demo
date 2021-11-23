@@ -51,7 +51,7 @@ properties:
     syntax:
       content: 'recordingStorageInfo: AcsRecordingStorageInfo'
       return:
-        type: <xref uid="@azure/eventgrid.AcsRecordingStorageInfo" />
+        type: <xref uid="@azure/eventgrid.AcsRecordingStorageInfo|latest-stable" />
         description: ''
   - name: sessionEndReason
     uid: >-

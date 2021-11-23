@@ -50,5 +50,7 @@ properties:
     syntax:
       content: 'status?: PersistedConnectionStatus'
       return:
-        type: <xref uid="@azure/arm-eventgrid.PersistedConnectionStatus" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.PersistedConnectionStatus|latest-stable" />
         description: ''

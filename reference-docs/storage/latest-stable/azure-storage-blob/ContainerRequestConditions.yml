@@ -60,4 +60,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-blob.LeaseAccessConditions" />
+extends: <xref uid="@azure/storage-blob.LeaseAccessConditions|latest-stable" />

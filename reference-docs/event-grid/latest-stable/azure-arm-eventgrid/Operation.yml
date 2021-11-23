@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'display?: OperationInfo'
       return:
-        type: <xref uid="@azure/arm-eventgrid.OperationInfo" />
+        type: <xref uid="@azure/arm-eventgrid.OperationInfo|latest-stable" />
         description: ''
   - name: name
     uid: '@azure/arm-eventgrid.Operation.name|latest-stable'

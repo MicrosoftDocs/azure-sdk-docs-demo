@@ -135,10 +135,12 @@ methods:
             SAS-encoded URL to an Azure Storage container holding the training
             data set
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.BuildModelOptions" />
+          type: <xref uid="@azure/ai-form-recognizer.BuildModelOptions|preview" />
           description: optional settings for the model build operation
       return:
-        type: Promise&lt;<xref uid="@azure/ai-form-recognizer.TrainingPoller" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.TrainingPoller|preview" />&gt;
         description: >-
           a long-running operation (poller) that will eventually produce the
           created model information or an error
@@ -213,10 +215,12 @@ methods:
             an Iterable of strings representing the unique model IDs of the
             models to compose
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.BuildModelOptions" />
+          type: <xref uid="@azure/ai-form-recognizer.BuildModelOptions|preview" />
           description: optional settings for model creation
       return:
-        type: Promise&lt;<xref uid="@azure/ai-form-recognizer.TrainingPoller" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.TrainingPoller|preview" />&gt;
         description: >-
           a long-running operation (poller) that will eventually produce the
           created model information or an error
@@ -292,15 +296,17 @@ methods:
           type: string
           description: the unique ID of the source model that will be copied
         - id: authorization
-          type: <xref uid="@azure/ai-form-recognizer.CopyAuthorization" />
+          type: <xref uid="@azure/ai-form-recognizer.CopyAuthorization|preview" />
           description: >-
             an authorization to copy the model, created using the
             <xref:@azure/ai-form-recognizer.DocumentModelAdministrationClient.getCopyAuthorization>
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.CopyModelOptions" />
+          type: <xref uid="@azure/ai-form-recognizer.CopyModelOptions|preview" />
           description: optional settings for
       return:
-        type: Promise&lt;<xref uid="@azure/ai-form-recognizer.TrainingPoller" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.TrainingPoller|preview" />&gt;
         description: >-
           a long-running operation (poller) that will eventually produce the
           copied model information or an error
@@ -330,7 +336,7 @@ methods:
           type: string
           description: the unique ID of the model to delete from the resource
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.DeleteModelOptions" />
+          type: <xref uid="@azure/ai-form-recognizer.DeleteModelOptions|preview" />
           description: |
             optional settings for the request
       return:
@@ -379,12 +385,15 @@ methods:
             the unique ID of the destination model (the ID to copy the model
             into)
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.GetCopyAuthorizationOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-form-recognizer.GetCopyAuthorizationOptions|preview"
+            />
           description: optional settings for creating the copy authorization
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/ai-form-recognizer.CopyAuthorization"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.CopyAuthorization|preview" />&gt;
         description: >-
           a copy authorization that encodes the given modelId and optional
           description
@@ -414,12 +423,12 @@ methods:
       content: 'function getInfo(options?: GetInfoOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.GetInfoOptions" />
+          type: <xref uid="@azure/ai-form-recognizer.GetInfoOptions|preview" />
           description: optional settings for the request
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/ai-form-recognizer.GetInfoResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.GetInfoResponse|preview" />&gt;
         description: basic information about this client's resource
   - name: getModel(string, GetModelOptions)
     uid: >-
@@ -491,10 +500,12 @@ methods:
           type: string
           description: the unique ID of the model to query
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.GetModelOptions" />
+          type: <xref uid="@azure/ai-form-recognizer.GetModelOptions|preview" />
           description: optional settings for the request
       return:
-        type: Promise&lt;<xref uid="@azure/ai-form-recognizer.ModelInfo" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/ai-form-recognizer.ModelInfo|preview"
+          />&gt;
         description: information about the model with the given ID
   - name: getOperation(string, GetOperationOptions)
     uid: >-
@@ -517,10 +528,12 @@ methods:
           type: string
           description: the ID of the operation to query
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.GetOperationOptions" />
+          type: <xref uid="@azure/ai-form-recognizer.GetOperationOptions|preview" />
           description: optional settings for the request
       return:
-        type: Promise&lt;<xref uid="@azure/ai-form-recognizer.OperationInfo" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/ai-form-recognizer.OperationInfo|preview"
+          />&gt;
         description: |-
           information about the operation with the given ID
 
@@ -631,12 +644,12 @@ methods:
       content: 'function listModels(options?: ListModelsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.ListModelsOptions" />
+          type: <xref uid="@azure/ai-form-recognizer.ListModelsOptions|preview" />
           description: optional settings for the model requests
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/ai-form-recognizer.ModelSummary" />&gt;
+          uid="@azure/ai-form-recognizer.ModelSummary|preview" />&gt;
         description: an async iterable of model summaries that supports paging
   - name: listOperations(ListOperationsOptions)
     uid: >-
@@ -697,12 +710,14 @@ methods:
       content: 'function listOperations(options?: ListOperationsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.ListOperationsOptions" />
+          type: >-
+            <xref uid="@azure/ai-form-recognizer.ListOperationsOptions|preview"
+            />
           description: optional settings for the operation requests
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/ai-form-recognizer.OperationInfo" />&gt;
+          uid="@azure/ai-form-recognizer.OperationInfo|preview" />&gt;
         description: >-
           an async iterable of operation information objects that supports
           paging

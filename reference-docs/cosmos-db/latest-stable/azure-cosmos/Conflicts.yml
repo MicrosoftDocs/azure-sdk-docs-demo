@@ -20,7 +20,7 @@ constructors:
       content: 'new Conflicts(container: Container, clientContext: ClientContext)'
       parameters:
         - id: container
-          type: <xref uid="@azure/cosmos.Container" />
+          type: <xref uid="@azure/cosmos.Container|latest-stable" />
           description: ''
         - id: clientContext
           type: ClientContext
@@ -37,7 +37,7 @@ properties:
     syntax:
       content: 'container: Container'
       return:
-        type: <xref uid="@azure/cosmos.Container" />
+        type: <xref uid="@azure/cosmos.Container|latest-stable" />
         description: ''
 methods:
   - name: query(string | SqlQuerySpec, FeedOptions)
@@ -51,18 +51,18 @@ methods:
       content: 'function query(query: string | SqlQuerySpec, options?: FeedOptions)'
       parameters:
         - id: query
-          type: string | <xref uid="@azure/cosmos.SqlQuerySpec" />
+          type: string | <xref uid="@azure/cosmos.SqlQuerySpec|latest-stable" />
           description: >-
             Query configuration for the operation. See
             <xref:@azure/cosmos.SqlQuerySpec> for more info on how to configure
             a query.
         - id: options
-          type: <xref uid="@azure/cosmos.FeedOptions" />
+          type: <xref uid="@azure/cosmos.FeedOptions|latest-stable" />
           description: >-
             Use to set options like response page size, continuation tokens,
             etc.
       return:
-        type: <xref uid="@azure/cosmos.QueryIterator" />&lt;any&gt;
+        type: <xref uid="@azure/cosmos.QueryIterator|latest-stable" />&lt;any&gt;
         description: >-
           Allows you to return results in an array or iterate over them one at a
           time.
@@ -77,18 +77,18 @@ methods:
       content: 'function query<T>(query: string | SqlQuerySpec, options?: FeedOptions)'
       parameters:
         - id: query
-          type: string | <xref uid="@azure/cosmos.SqlQuerySpec" />
+          type: string | <xref uid="@azure/cosmos.SqlQuerySpec|latest-stable" />
           description: >-
             Query configuration for the operation. See
             <xref:@azure/cosmos.SqlQuerySpec> for more info on how to configure
             a query.
         - id: options
-          type: <xref uid="@azure/cosmos.FeedOptions" />
+          type: <xref uid="@azure/cosmos.FeedOptions|latest-stable" />
           description: >-
             Use to set options like response page size, continuation tokens,
             etc.
       return:
-        type: <xref uid="@azure/cosmos.QueryIterator" />&lt;T&gt;
+        type: <xref uid="@azure/cosmos.QueryIterator|latest-stable" />&lt;T&gt;
         description: >-
           Allows you to return results in an array or iterate over them one at a
           time.
@@ -103,13 +103,13 @@ methods:
       content: 'function readAll(options?: FeedOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.FeedOptions" />
+          type: <xref uid="@azure/cosmos.FeedOptions|latest-stable" />
           description: >
             Use to set options like response page size, continuation tokens,
             etc.
       return:
         type: >-
-          <xref uid="@azure/cosmos.QueryIterator" />&lt;<xref
-          uid="@azure/cosmos.ConflictDefinition" /> & <xref
-          uid="@azure/cosmos.Resource" />&gt;
+          <xref uid="@azure/cosmos.QueryIterator|latest-stable" />&lt;<xref
+          uid="@azure/cosmos.ConflictDefinition|latest-stable" /> & <xref
+          uid="@azure/cosmos.Resource|latest-stable" />&gt;
         description: ''

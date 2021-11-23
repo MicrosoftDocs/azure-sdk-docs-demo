@@ -21,7 +21,7 @@ properties:
     syntax:
       content: 'retryOptions?: RetryOptions'
       return:
-        type: <xref uid="@azure/app-configuration.RetryOptions" />
+        type: <xref uid="@azure/app-configuration.RetryOptions|latest-stable" />
         description: ''
   - name: userAgentOptions
     uid: >-

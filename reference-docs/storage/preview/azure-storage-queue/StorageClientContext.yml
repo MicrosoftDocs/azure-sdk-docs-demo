@@ -28,7 +28,9 @@ constructors:
             of the desired
                        operation.
         - id: options
-          type: <xref uid="@azure/storage-queue.StorageClientOptionalParams" />
+          type: >-
+            <xref uid="@azure/storage-queue.StorageClientOptionalParams|preview"
+            />
           description: |
             The parameter options
 properties:

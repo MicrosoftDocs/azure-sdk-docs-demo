@@ -107,6 +107,8 @@ properties:
     syntax:
       content: 'results: SearchResult<T>[]'
       return:
-        type: <xref uid="@azure/search-documents.SearchResult" />&lt;T&gt;[]
+        type: >-
+          <xref uid="@azure/search-documents.SearchResult|latest-stable"
+          />&lt;T&gt;[]
         description: ''
-extends: <xref uid="@azure/search-documents.SearchDocumentsResultBase" />
+extends: <xref uid="@azure/search-documents.SearchDocumentsResultBase|latest-stable" />

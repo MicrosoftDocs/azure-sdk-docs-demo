@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'encryptionIdentity?: EncryptionIdentity'
       return:
-        type: <xref uid="@azure/arm-storage.EncryptionIdentity" />
+        type: <xref uid="@azure/arm-storage.EncryptionIdentity|preview" />
         description: ''
   - name: keySource
     uid: '@azure/arm-storage.Encryption.keySource|preview'
@@ -35,7 +35,7 @@ properties:
     syntax:
       content: 'keySource: KeySource'
       return:
-        type: <xref uid="@azure/arm-storage.KeySource" />
+        type: <xref uid="@azure/arm-storage.KeySource|preview" />
         description: ''
   - name: keyVaultProperties
     uid: '@azure/arm-storage.Encryption.keyVaultProperties|preview'
@@ -48,7 +48,7 @@ properties:
     syntax:
       content: 'keyVaultProperties?: KeyVaultProperties'
       return:
-        type: <xref uid="@azure/arm-storage.KeyVaultProperties" />
+        type: <xref uid="@azure/arm-storage.KeyVaultProperties|preview" />
         description: ''
   - name: requireInfrastructureEncryption
     uid: '@azure/arm-storage.Encryption.requireInfrastructureEncryption|preview'
@@ -76,5 +76,5 @@ properties:
     syntax:
       content: 'services?: EncryptionServices'
       return:
-        type: <xref uid="@azure/arm-storage.EncryptionServices" />
+        type: <xref uid="@azure/arm-storage.EncryptionServices|preview" />
         description: ''

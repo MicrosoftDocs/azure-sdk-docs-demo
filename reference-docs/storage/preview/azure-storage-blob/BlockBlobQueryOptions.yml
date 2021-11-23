@@ -40,7 +40,7 @@ properties:
     syntax:
       content: 'conditions?: BlobRequestConditions'
       return:
-        type: <xref uid="@azure/storage-blob.BlobRequestConditions" />
+        type: <xref uid="@azure/storage-blob.BlobRequestConditions|preview" />
         description: ''
   - name: customerProvidedKey
     uid: '@azure/storage-blob.BlockBlobQueryOptions.customerProvidedKey|preview'
@@ -53,7 +53,7 @@ properties:
     syntax:
       content: 'customerProvidedKey?: CpkInfo'
       return:
-        type: <xref uid="@azure/storage-blob.CpkInfo" />
+        type: <xref uid="@azure/storage-blob.CpkInfo|preview" />
         description: ''
   - name: inputTextConfiguration
     uid: '@azure/storage-blob.BlockBlobQueryOptions.inputTextConfiguration|preview'
@@ -69,9 +69,11 @@ properties:
         BlobQueryCsvTextConfiguration | BlobQueryParquetConfiguration
       return:
         type: >-
-          <xref uid="@azure/storage-blob.BlobQueryJsonTextConfiguration" /> |
-          <xref uid="@azure/storage-blob.BlobQueryCsvTextConfiguration" /> |
-          <xref uid="@azure/storage-blob.BlobQueryParquetConfiguration" />
+          <xref uid="@azure/storage-blob.BlobQueryJsonTextConfiguration|preview"
+          /> | <xref
+          uid="@azure/storage-blob.BlobQueryCsvTextConfiguration|preview" /> |
+          <xref uid="@azure/storage-blob.BlobQueryParquetConfiguration|preview"
+          />
         description: ''
   - name: onError
     uid: '@azure/storage-blob.BlockBlobQueryOptions.onError|preview'
@@ -113,9 +115,10 @@ properties:
         BlobQueryCsvTextConfiguration | BlobQueryArrowConfiguration
       return:
         type: >-
-          <xref uid="@azure/storage-blob.BlobQueryJsonTextConfiguration" /> |
-          <xref uid="@azure/storage-blob.BlobQueryCsvTextConfiguration" /> |
-          <xref uid="@azure/storage-blob.BlobQueryArrowConfiguration" />
+          <xref uid="@azure/storage-blob.BlobQueryJsonTextConfiguration|preview"
+          /> | <xref
+          uid="@azure/storage-blob.BlobQueryCsvTextConfiguration|preview" /> |
+          <xref uid="@azure/storage-blob.BlobQueryArrowConfiguration|preview" />
         description: ''
   - name: tracingOptions
     uid: '@azure/storage-blob.BlockBlobQueryOptions.tracingOptions|preview'
@@ -130,4 +133,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|preview" />

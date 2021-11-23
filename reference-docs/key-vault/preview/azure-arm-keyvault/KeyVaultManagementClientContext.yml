@@ -38,7 +38,8 @@ constructors:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-keyvault.KeyVaultManagementClientOptionalParams" />
+            uid="@azure/arm-keyvault.KeyVaultManagementClientOptionalParams|preview"
+            />
           description: |
             The parameter options
 properties:

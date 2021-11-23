@@ -36,7 +36,10 @@ properties:
     syntax:
       content: 'inputs?: InputFieldMappingEntry[]'
       return:
-        type: <xref uid="@azure/search-documents.InputFieldMappingEntry" />[]
+        type: >-
+          <xref
+          uid="@azure/search-documents.InputFieldMappingEntry|latest-stable"
+          />[]
         description: ''
   - name: referenceKeyName
     uid: >-

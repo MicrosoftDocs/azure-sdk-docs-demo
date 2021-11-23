@@ -21,7 +21,8 @@ constructors:
       parameters:
         - id: client
           type: >-
-            <xref uid="@azure/arm-servicebus.ServiceBusManagementClientContext"
+            <xref
+            uid="@azure/arm-servicebus.ServiceBusManagementClientContext|latest-stable"
             />
           description: |
             Reference to the service client.
@@ -37,10 +38,12 @@ methods:
       content: 'function list(options?: msRest.RequestOptionsBase)'
       parameters:
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.OperationsListResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.OperationsListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.OperationsListResponse>
   - name: list(RequestOptionsBase, ServiceCallback<OperationListResult>)
     uid: '@azure/arm-servicebus.Operations.list_2|latest-stable'
@@ -60,7 +63,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.OperationListResult" />&gt;
+            uid="@azure/arm-servicebus.OperationListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: list(ServiceCallback<OperationListResult>)
@@ -76,7 +79,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.OperationListResult" />&gt;
+            uid="@azure/arm-servicebus.OperationListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listNext(string, msRest.RequestOptionsBase)
@@ -95,10 +98,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.OperationsListNextResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.OperationsListNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.OperationsListNextResponse>
   - name: listNext(string, RequestOptionsBase, ServiceCallback<OperationListResult>)
     uid: '@azure/arm-servicebus.Operations.listNext_2|latest-stable'
@@ -121,7 +126,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.OperationListResult" />&gt;
+            uid="@azure/arm-servicebus.OperationListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listNext(string, ServiceCallback<OperationListResult>)
@@ -142,6 +147,6 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.OperationListResult" />&gt;
+            uid="@azure/arm-servicebus.OperationListResult|latest-stable" />&gt;
           description: |
             The callback

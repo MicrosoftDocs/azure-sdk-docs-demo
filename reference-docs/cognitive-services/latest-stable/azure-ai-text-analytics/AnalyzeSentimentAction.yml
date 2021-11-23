@@ -104,6 +104,6 @@ properties:
     syntax:
       content: 'stringIndexType?: StringIndexType'
       return:
-        type: <xref uid="@azure/ai-text-analytics.StringIndexType" />
+        type: <xref uid="@azure/ai-text-analytics.StringIndexType|latest-stable" />
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsAction" />
+extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsAction|latest-stable" />

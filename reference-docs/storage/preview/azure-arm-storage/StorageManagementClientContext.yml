@@ -33,7 +33,8 @@ constructors:
           description: The ID of the target subscription.
         - id: options
           type: >-
-            <xref uid="@azure/arm-storage.StorageManagementClientOptionalParams"
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientOptionalParams|preview"
             />
           description: |
             The parameter options

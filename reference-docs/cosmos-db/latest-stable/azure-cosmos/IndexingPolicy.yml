@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'excludedPaths?: IndexedPath[]'
       return:
-        type: <xref uid="@azure/cosmos.IndexedPath" />[]
+        type: <xref uid="@azure/cosmos.IndexedPath|latest-stable" />[]
         description: ''
   - name: includedPaths
     uid: '@azure/cosmos.IndexingPolicy.includedPaths|latest-stable'
@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'includedPaths?: IndexedPath[]'
       return:
-        type: <xref uid="@azure/cosmos.IndexedPath" />[]
+        type: <xref uid="@azure/cosmos.IndexedPath|latest-stable" />[]
         description: ''
   - name: indexingMode
     uid: '@azure/cosmos.IndexingPolicy.indexingMode|latest-stable'
@@ -72,5 +72,5 @@ properties:
     syntax:
       content: 'spatialIndexes?: SpatialIndex[]'
       return:
-        type: <xref uid="@azure/cosmos.SpatialIndex" />[]
+        type: <xref uid="@azure/cosmos.SpatialIndex|latest-stable" />[]
         description: ''

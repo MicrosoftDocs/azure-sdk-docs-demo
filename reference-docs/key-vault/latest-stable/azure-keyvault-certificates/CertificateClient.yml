@@ -31,7 +31,10 @@ constructors:
             authenticate requests to the service. Use the \@azure/identity
             package to create a credential that suits your needs.
         - id: pipelineOptions
-          type: <xref uid="@azure/keyvault-certificates.CertificateClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-certificates.CertificateClientOptions|latest-stable"
+            />
           description: |
             Pipeline options used to configure Key Vault API requests.
                                      Omit this parameter to use the default pipeline configuration.
@@ -88,7 +91,10 @@ methods:
           type: string
           description: The name of the certificate
         - id: options
-          type: <xref uid="@azure/keyvault-certificates.BackupCertificateOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-certificates.BackupCertificateOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
@@ -167,19 +173,24 @@ methods:
           type: string
           description: The name of the certificate
         - id: policy
-          type: <xref uid="@azure/keyvault-certificates.CertificatePolicy" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-certificates.CertificatePolicy|latest-stable"
+            />
           description: ''
         - id: options
           type: >-
             <xref
-            uid="@azure/keyvault-certificates.BeginCreateCertificateOptions" />
+            uid="@azure/keyvault-certificates.BeginCreateCertificateOptions|latest-stable"
+            />
           description: |
             Optional parameters
       return:
         type: >-
           Promise&lt;PollerLike&lt;<xref
-          uid="@azure/keyvault-certificates.CreateCertificateState" />, <xref
-          uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy"
+          uid="@azure/keyvault-certificates.CreateCertificateState|latest-stable"
+          />, <xref
+          uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy|latest-stable"
           />&gt;&gt;
         description: ''
   - name: beginDeleteCertificate(string, BeginDeleteCertificateOptions)
@@ -250,14 +261,17 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/keyvault-certificates.BeginDeleteCertificateOptions" />
+            uid="@azure/keyvault-certificates.BeginDeleteCertificateOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
         type: >-
           Promise&lt;PollerLike&lt;<xref
-          uid="@azure/keyvault-certificates.DeleteCertificateState" />, <xref
-          uid="@azure/keyvault-certificates.DeletedCertificate" />&gt;&gt;
+          uid="@azure/keyvault-certificates.DeleteCertificateState|latest-stable"
+          />, <xref
+          uid="@azure/keyvault-certificates.DeletedCertificate|latest-stable"
+          />&gt;&gt;
         description: ''
   - name: >-
       beginRecoverDeletedCertificate(string,
@@ -326,15 +340,16 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/keyvault-certificates.BeginRecoverDeletedCertificateOptions"
+            uid="@azure/keyvault-certificates.BeginRecoverDeletedCertificateOptions|latest-stable"
             />
           description: |
             The optional parameters
       return:
         type: >-
           Promise&lt;PollerLike&lt;<xref
-          uid="@azure/keyvault-certificates.RecoverDeletedCertificateState" />,
-          <xref uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy"
+          uid="@azure/keyvault-certificates.RecoverDeletedCertificateState|latest-stable"
+          />, <xref
+          uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy|latest-stable"
           />&gt;&gt;
         description: ''
   - name: createIssuer(string, string, CreateIssuerOptions)
@@ -372,12 +387,16 @@ methods:
           type: string
           description: The issuer provider.
         - id: options
-          type: <xref uid="@azure/keyvault-certificates.CreateIssuerOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-certificates.CreateIssuerOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/keyvault-certificates.CertificateIssuer"
+          Promise&lt;<xref
+          uid="@azure/keyvault-certificates.CertificateIssuer|latest-stable"
           />&gt;
         description: ''
   - name: deleteCertificateOperation(string, DeleteCertificateOperationOptions)
@@ -424,14 +443,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/keyvault-certificates.DeleteCertificateOperationOptions"
+            uid="@azure/keyvault-certificates.DeleteCertificateOperationOptions|latest-stable"
             />
           description: |
             The optional parameters
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/keyvault-certificates.CertificateOperation" />&gt;
+          uid="@azure/keyvault-certificates.CertificateOperation|latest-stable"
+          />&gt;
         description: ''
   - name: deleteContacts(DeleteContactsOptions)
     uid: >-
@@ -465,12 +485,16 @@ methods:
       content: 'function deleteContacts(options?: DeleteContactsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/keyvault-certificates.DeleteContactsOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-certificates.DeleteContactsOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/keyvault-certificates.CertificateContact"
+          Promise&lt;<xref
+          uid="@azure/keyvault-certificates.CertificateContact|latest-stable"
           />[] | undefined&gt;
         description: ''
   - name: deleteIssuer(string, DeleteIssuerOptions)
@@ -506,12 +530,16 @@ methods:
           type: string
           description: The name of the issuer.
         - id: options
-          type: <xref uid="@azure/keyvault-certificates.DeleteIssuerOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-certificates.DeleteIssuerOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/keyvault-certificates.CertificateIssuer"
+          Promise&lt;<xref
+          uid="@azure/keyvault-certificates.CertificateIssuer|latest-stable"
           />&gt;
         description: ''
   - name: getCertificate(string, GetCertificateOptions)
@@ -556,13 +584,16 @@ methods:
           type: string
           description: The name of the certificate
         - id: options
-          type: <xref uid="@azure/keyvault-certificates.GetCertificateOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-certificates.GetCertificateOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy"
+          uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy|latest-stable"
           />&gt;
         description: ''
   - name: getCertificateOperation(string, GetCertificateOperationOptions)
@@ -616,14 +647,16 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/keyvault-certificates.GetCertificateOperationOptions" />
+            uid="@azure/keyvault-certificates.GetCertificateOperationOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
         type: >-
           Promise&lt;PollerLike&lt;<xref
-          uid="@azure/keyvault-certificates.CertificateOperationState" />, <xref
-          uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy"
+          uid="@azure/keyvault-certificates.CertificateOperationState|latest-stable"
+          />, <xref
+          uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy|latest-stable"
           />&gt;&gt;
         description: ''
   - name: getCertificatePolicy(string, GetCertificatePolicyOptions)
@@ -666,13 +699,15 @@ methods:
           description: The name of the certificate
         - id: options
           type: >-
-            <xref uid="@azure/keyvault-certificates.GetCertificatePolicyOptions"
+            <xref
+            uid="@azure/keyvault-certificates.GetCertificatePolicyOptions|latest-stable"
             />
           description: |
             The optional parameters
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/keyvault-certificates.CertificatePolicy"
+          Promise&lt;<xref
+          uid="@azure/keyvault-certificates.CertificatePolicy|latest-stable"
           />&gt;
         description: ''
   - name: getCertificateVersion(string, string, GetCertificateVersionOptions)
@@ -726,13 +761,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/keyvault-certificates.GetCertificateVersionOptions" />
+            uid="@azure/keyvault-certificates.GetCertificateVersionOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/keyvault-certificates.KeyVaultCertificate" />&gt;
+          uid="@azure/keyvault-certificates.KeyVaultCertificate|latest-stable"
+          />&gt;
         description: ''
   - name: getContacts(GetContactsOptions)
     uid: '@azure/keyvault-certificates.CertificateClient.getContacts|latest-stable'
@@ -767,12 +804,16 @@ methods:
       content: 'function getContacts(options?: GetContactsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/keyvault-certificates.GetContactsOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-certificates.GetContactsOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/keyvault-certificates.CertificateContact"
+          Promise&lt;<xref
+          uid="@azure/keyvault-certificates.CertificateContact|latest-stable"
           />[] | undefined&gt;
         description: ''
   - name: getDeletedCertificate(string, GetDeletedCertificateOptions)
@@ -814,12 +855,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/keyvault-certificates.GetDeletedCertificateOptions" />
+            uid="@azure/keyvault-certificates.GetDeletedCertificateOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/keyvault-certificates.DeletedCertificate"
+          Promise&lt;<xref
+          uid="@azure/keyvault-certificates.DeletedCertificate|latest-stable"
           />&gt;
         description: ''
   - name: getIssuer(string, GetIssuerOptions)
@@ -859,12 +902,15 @@ methods:
           type: string
           description: The name of the issuer.
         - id: options
-          type: <xref uid="@azure/keyvault-certificates.GetIssuerOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-certificates.GetIssuerOptions|latest-stable" />
           description: |
             The optional parameters
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/keyvault-certificates.CertificateIssuer"
+          Promise&lt;<xref
+          uid="@azure/keyvault-certificates.CertificateIssuer|latest-stable"
           />&gt;
         description: ''
   - name: importCertificate(string, Uint8Array, ImportCertificateOptions)
@@ -924,13 +970,16 @@ methods:
             The PFX or ASCII PEM formatted value of the certificate containing
             both the X.509 certificates and the private key
         - id: options
-          type: <xref uid="@azure/keyvault-certificates.ImportCertificateOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-certificates.ImportCertificateOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy"
+          uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy|latest-stable"
           />&gt;
         description: ''
   - name: listDeletedCertificates(ListDeletedCertificatesOptions)
@@ -975,13 +1024,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/keyvault-certificates.ListDeletedCertificatesOptions" />
+            uid="@azure/keyvault-certificates.ListDeletedCertificatesOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/keyvault-certificates.DeletedCertificate" />&gt;
+          uid="@azure/keyvault-certificates.DeletedCertificate|latest-stable"
+          />&gt;
         description: ''
   - name: listPropertiesOfCertificates(ListPropertiesOfCertificatesOptions)
     uid: >-
@@ -1029,14 +1080,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/keyvault-certificates.ListPropertiesOfCertificatesOptions"
+            uid="@azure/keyvault-certificates.ListPropertiesOfCertificatesOptions|latest-stable"
             />
           description: |
             The optional parameters
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/keyvault-certificates.CertificateProperties" />&gt;
+          uid="@azure/keyvault-certificates.CertificateProperties|latest-stable"
+          />&gt;
         description: ''
   - name: >-
       listPropertiesOfCertificateVersions(string,
@@ -1077,14 +1129,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/keyvault-certificates.ListPropertiesOfCertificateVersionsOptions"
+            uid="@azure/keyvault-certificates.ListPropertiesOfCertificateVersionsOptions|latest-stable"
             />
           description: |
             The optional parameters
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/keyvault-certificates.CertificateProperties" />&gt;
+          uid="@azure/keyvault-certificates.CertificateProperties|latest-stable"
+          />&gt;
         description: ''
   - name: listPropertiesOfIssuers(ListPropertiesOfIssuersOptions)
     uid: >-
@@ -1131,13 +1184,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/keyvault-certificates.ListPropertiesOfIssuersOptions" />
+            uid="@azure/keyvault-certificates.ListPropertiesOfIssuersOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/keyvault-certificates.IssuerProperties" />&gt;
+          uid="@azure/keyvault-certificates.IssuerProperties|latest-stable"
+          />&gt;
         description: ''
   - name: mergeCertificate(string, Uint8Array[], MergeCertificateOptions)
     uid: >-
@@ -1213,13 +1268,16 @@ methods:
           type: Uint8Array[]
           description: The certificate(s) to merge
         - id: options
-          type: <xref uid="@azure/keyvault-certificates.MergeCertificateOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-certificates.MergeCertificateOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy"
+          uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy|latest-stable"
           />&gt;
         description: ''
   - name: purgeDeletedCertificate(string, PurgeDeletedCertificateOptions)
@@ -1264,7 +1322,8 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/keyvault-certificates.PurgeDeletedCertificateOptions" />
+            uid="@azure/keyvault-certificates.PurgeDeletedCertificateOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
@@ -1316,14 +1375,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/keyvault-certificates.RestoreCertificateBackupOptions"
+            uid="@azure/keyvault-certificates.RestoreCertificateBackupOptions|latest-stable"
             />
           description: |
             The optional parameters
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy"
+          uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy|latest-stable"
           />&gt;
         description: ''
   - name: setContacts(CertificateContact[], SetContactsOptions)
@@ -1357,15 +1416,22 @@ methods:
         SetContactsOptions)
       parameters:
         - id: contacts
-          type: <xref uid="@azure/keyvault-certificates.CertificateContact" />[]
+          type: >-
+            <xref
+            uid="@azure/keyvault-certificates.CertificateContact|latest-stable"
+            />[]
           description: The contacts to use
         - id: options
-          type: <xref uid="@azure/keyvault-certificates.SetContactsOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-certificates.SetContactsOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/keyvault-certificates.CertificateContact"
+          Promise&lt;<xref
+          uid="@azure/keyvault-certificates.CertificateContact|latest-stable"
           />[] | undefined&gt;
         description: ''
   - name: >-
@@ -1391,17 +1457,22 @@ methods:
           type: string
           description: The name of the certificate
         - id: policy
-          type: <xref uid="@azure/keyvault-certificates.CertificatePolicy" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-certificates.CertificatePolicy|latest-stable"
+            />
           description: The certificate policy
         - id: options
           type: >-
             <xref
-            uid="@azure/keyvault-certificates.UpdateCertificatePolicyOptions" />
+            uid="@azure/keyvault-certificates.UpdateCertificatePolicyOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/keyvault-certificates.CertificatePolicy"
+          Promise&lt;<xref
+          uid="@azure/keyvault-certificates.CertificatePolicy|latest-stable"
           />&gt;
         description: ''
   - name: updateCertificateProperties(string, string, UpdateCertificateOptions)
@@ -1450,13 +1521,17 @@ methods:
           type: string
           description: The version of the certificate to update
         - id: options
-          type: <xref uid="@azure/keyvault-certificates.UpdateCertificateOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-certificates.UpdateCertificateOptions|latest-stable"
+            />
           description: |
             The options, including what to update
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/keyvault-certificates.KeyVaultCertificate" />&gt;
+          uid="@azure/keyvault-certificates.KeyVaultCertificate|latest-stable"
+          />&gt;
         description: ''
   - name: updateIssuer(string, UpdateIssuerOptions)
     uid: '@azure/keyvault-certificates.CertificateClient.updateIssuer|latest-stable'
@@ -1492,11 +1567,15 @@ methods:
           type: string
           description: The name of the issuer.
         - id: options
-          type: <xref uid="@azure/keyvault-certificates.UpdateIssuerOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-certificates.UpdateIssuerOptions|latest-stable"
+            />
           description: |
             The optional parameters
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/keyvault-certificates.CertificateIssuer"
+          Promise&lt;<xref
+          uid="@azure/keyvault-certificates.CertificateIssuer|latest-stable"
           />&gt;
         description: ''

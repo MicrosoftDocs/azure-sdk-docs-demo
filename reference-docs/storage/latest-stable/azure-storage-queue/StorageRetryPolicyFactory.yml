@@ -22,7 +22,9 @@ constructors:
       content: 'new StorageRetryPolicyFactory(retryOptions?: StorageRetryOptions)'
       parameters:
         - id: retryOptions
-          type: <xref uid="@azure/storage-queue.StorageRetryOptions" />
+          type: >-
+            <xref uid="@azure/storage-queue.StorageRetryOptions|latest-stable"
+            />
           description: |
             -
 methods:
@@ -46,5 +48,5 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-queue.StorageRetryPolicy" />
+        type: <xref uid="@azure/storage-queue.StorageRetryPolicy|latest-stable" />
         description: ''

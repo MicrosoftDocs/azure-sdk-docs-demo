@@ -77,7 +77,9 @@ properties:
     syntax:
       content: 'publicAccess?: PublicAccessType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.PublicAccessType" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.PublicAccessType|latest-stable" />
         description: ''
   - name: requestId
     uid: >-

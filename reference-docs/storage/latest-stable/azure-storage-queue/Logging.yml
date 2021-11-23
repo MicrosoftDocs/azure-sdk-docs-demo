@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'retentionPolicy: RetentionPolicy'
       return:
-        type: <xref uid="@azure/storage-queue.RetentionPolicy" />
+        type: <xref uid="@azure/storage-queue.RetentionPolicy|latest-stable" />
         description: ''
   - name: version
     uid: '@azure/storage-queue.Logging.version|latest-stable'

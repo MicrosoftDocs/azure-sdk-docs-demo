@@ -20,7 +20,9 @@ properties:
     syntax:
       content: 'errors: FormRecognizerError[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormRecognizerError" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-form-recognizer.FormRecognizerError|latest-stable" />[]
         description: ''
   - name: modelId
     uid: '@azure/ai-form-recognizer.TrainingDocumentInfo.modelId|latest-stable'
@@ -72,5 +74,5 @@ properties:
     syntax:
       content: 'status: TrainingStatus'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.TrainingStatus" />
+        type: <xref uid="@azure/ai-form-recognizer.TrainingStatus|latest-stable" />
         description: ''

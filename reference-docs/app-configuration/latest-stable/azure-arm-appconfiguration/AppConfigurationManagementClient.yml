@@ -44,7 +44,10 @@ constructors:
           type: string
           description: The Microsoft Azure subscription ID.
         - id: options
-          type: <xref uid="Models.AppConfigurationManagementClientOptions" />
+          type: >-
+            <xref
+            uid="Models.AppConfigurationManagementClientOptions|latest-stable"
+            />
           description: ''
 properties:
   - name: acceptLanguage
@@ -87,7 +90,9 @@ properties:
     syntax:
       content: 'configurationStores: ConfigurationStores'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ConfigurationStores" />
+        type: >-
+          <xref
+          uid="@azure/arm-appconfiguration.ConfigurationStores|latest-stable" />
         description: ''
   - name: credentials
     uid: >-
@@ -115,7 +120,7 @@ properties:
     syntax:
       content: 'keyValues: KeyValues'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.KeyValues" />
+        type: <xref uid="@azure/arm-appconfiguration.KeyValues|latest-stable" />
         description: ''
   - name: longRunningOperationRetryTimeout
     uid: >-
@@ -145,7 +150,7 @@ properties:
     syntax:
       content: 'operations: Operations'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.Operations" />
+        type: <xref uid="@azure/arm-appconfiguration.Operations|latest-stable" />
         description: ''
   - name: privateEndpointConnections
     uid: >-
@@ -159,7 +164,10 @@ properties:
     syntax:
       content: 'privateEndpointConnections: PrivateEndpointConnections'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.PrivateEndpointConnections" />
+        type: >-
+          <xref
+          uid="@azure/arm-appconfiguration.PrivateEndpointConnections|latest-stable"
+          />
         description: ''
   - name: privateLinkResources
     uid: >-
@@ -173,7 +181,10 @@ properties:
     syntax:
       content: 'privateLinkResources: PrivateLinkResources'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.PrivateLinkResources" />
+        type: >-
+          <xref
+          uid="@azure/arm-appconfiguration.PrivateLinkResources|latest-stable"
+          />
         description: ''
   - name: subscriptionId
     uid: >-
@@ -351,4 +362,5 @@ methods:
         description: ''
 extends: >-
   <xref
-  uid="@azure/arm-appconfiguration.AppConfigurationManagementClientContext" />
+  uid="@azure/arm-appconfiguration.AppConfigurationManagementClientContext|latest-stable"
+  />

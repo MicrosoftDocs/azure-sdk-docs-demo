@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'action: SqlRuleAction'
       return:
-        type: <xref uid="@azure/service-bus.SqlRuleAction" />
+        type: <xref uid="@azure/service-bus.SqlRuleAction|latest-stable" />
         description: ''
   - name: filter
     uid: '@azure/service-bus.RuleProperties.filter|latest-stable'
@@ -44,8 +44,8 @@ properties:
       content: 'filter: SqlRuleFilter | CorrelationRuleFilter'
       return:
         type: >-
-          <xref uid="@azure/service-bus.SqlRuleFilter" /> | <xref
-          uid="@azure/service-bus.CorrelationRuleFilter" />
+          <xref uid="@azure/service-bus.SqlRuleFilter|latest-stable" /> | <xref
+          uid="@azure/service-bus.CorrelationRuleFilter|latest-stable" />
         description: ''
   - name: name
     uid: '@azure/service-bus.RuleProperties.name|latest-stable'

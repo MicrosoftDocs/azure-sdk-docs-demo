@@ -182,7 +182,7 @@ properties:
     syntax:
       content: 'initialHeaders?: CosmosHeaders'
       return:
-        type: <xref uid="@azure/cosmos.CosmosHeaders" />
+        type: <xref uid="@azure/cosmos.CosmosHeaders|latest-stable" />
         description: ''
   - name: maxDegreeOfParallelism
     uid: '@azure/cosmos.FeedOptions.maxDegreeOfParallelism|latest-stable'
@@ -310,4 +310,4 @@ properties:
       return:
         type: boolean
         description: ''
-extends: <xref uid="@azure/cosmos.SharedOptions" />
+extends: <xref uid="@azure/cosmos.SharedOptions|latest-stable" />

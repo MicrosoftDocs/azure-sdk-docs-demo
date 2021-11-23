@@ -89,7 +89,7 @@ properties:
     syntax:
       content: 'header?: AmqpMessageHeader'
       return:
-        type: <xref uid="@azure/core-amqp.AmqpMessageHeader" />
+        type: <xref uid="@azure/core-amqp.AmqpMessageHeader|latest-stable" />
         description: ''
   - name: messageAnnotations
     uid: '@azure/core-amqp.AmqpAnnotatedMessage.messageAnnotations|latest-stable'
@@ -117,5 +117,5 @@ properties:
     syntax:
       content: 'properties?: AmqpMessageProperties'
       return:
-        type: <xref uid="@azure/core-amqp.AmqpMessageProperties" />
+        type: <xref uid="@azure/core-amqp.AmqpMessageProperties|latest-stable" />
         description: ''

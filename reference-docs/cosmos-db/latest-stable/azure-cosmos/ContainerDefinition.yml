@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'conflictResolutionPolicy?: ConflictResolutionPolicy'
       return:
-        type: <xref uid="@azure/cosmos.ConflictResolutionPolicy" />
+        type: <xref uid="@azure/cosmos.ConflictResolutionPolicy|latest-stable" />
         description: ''
   - name: defaultTtl
     uid: '@azure/cosmos.ContainerDefinition.defaultTtl|latest-stable'
@@ -74,7 +74,7 @@ properties:
     syntax:
       content: 'indexingPolicy?: IndexingPolicy'
       return:
-        type: <xref uid="@azure/cosmos.IndexingPolicy" />
+        type: <xref uid="@azure/cosmos.IndexingPolicy|latest-stable" />
         description: ''
   - name: partitionKey
     uid: '@azure/cosmos.ContainerDefinition.partitionKey|latest-stable'
@@ -87,7 +87,7 @@ properties:
     syntax:
       content: 'partitionKey?: PartitionKeyDefinition'
       return:
-        type: <xref uid="@azure/cosmos.PartitionKeyDefinition" />
+        type: <xref uid="@azure/cosmos.PartitionKeyDefinition|latest-stable" />
         description: ''
   - name: uniqueKeyPolicy
     uid: '@azure/cosmos.ContainerDefinition.uniqueKeyPolicy|latest-stable'
@@ -100,5 +100,5 @@ properties:
     syntax:
       content: 'uniqueKeyPolicy?: UniqueKeyPolicy'
       return:
-        type: <xref uid="@azure/cosmos.UniqueKeyPolicy" />
+        type: <xref uid="@azure/cosmos.UniqueKeyPolicy|latest-stable" />
         description: ''

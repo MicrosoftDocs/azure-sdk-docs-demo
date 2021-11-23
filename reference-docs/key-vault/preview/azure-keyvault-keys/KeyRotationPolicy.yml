@@ -67,7 +67,9 @@ properties:
     syntax:
       content: 'lifetimeActions?: KeyRotationLifetimeAction[]'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyRotationLifetimeAction" />[]
+        type: >-
+          <xref uid="@azure/keyvault-keys.KeyRotationLifetimeAction|preview"
+          />[]
         description: ''
   - name: updatedOn
     uid: '@azure/keyvault-keys.KeyRotationPolicy.updatedOn|preview'
@@ -84,4 +86,4 @@ properties:
       return:
         type: Date
         description: ''
-extends: <xref uid="@azure/keyvault-keys.KeyRotationPolicyProperties" />
+extends: <xref uid="@azure/keyvault-keys.KeyRotationPolicyProperties|preview" />

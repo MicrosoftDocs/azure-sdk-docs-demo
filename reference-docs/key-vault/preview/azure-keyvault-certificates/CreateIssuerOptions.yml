@@ -49,7 +49,9 @@ properties:
     syntax:
       content: 'administratorContacts?: AdministratorContact[]'
       return:
-        type: <xref uid="@azure/keyvault-certificates.AdministratorContact" />[]
+        type: >-
+          <xref uid="@azure/keyvault-certificates.AdministratorContact|preview"
+          />[]
         description: ''
   - name: enabled
     uid: '@azure/keyvault-certificates.CreateIssuerOptions.enabled|preview'

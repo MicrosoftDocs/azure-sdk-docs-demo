@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'requestOptions?: OperationRequestOptions'
       return:
-        type: <xref uid="@azure/core-http.OperationRequestOptions" />
+        type: <xref uid="@azure/core-http.OperationRequestOptions|latest-stable" />
         description: ''
   - name: tracingOptions
     uid: '@azure/core-http.OperationOptions.tracingOptions|latest-stable'

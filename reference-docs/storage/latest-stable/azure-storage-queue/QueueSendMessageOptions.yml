@@ -216,4 +216,6 @@ properties:
       return:
         type: number
         description: ''
-extends: <xref uid="@azure/storage-queue.MessagesEnqueueOptionalParams" />
+extends: >-
+  <xref uid="@azure/storage-queue.MessagesEnqueueOptionalParams|latest-stable"
+  />

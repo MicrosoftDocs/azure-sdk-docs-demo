@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'value?: SystemTopic[]'
       return:
-        type: <xref uid="@azure/arm-eventgrid.SystemTopic" />[]
+        type: <xref uid="@azure/arm-eventgrid.SystemTopic|preview" />[]
         description: ''

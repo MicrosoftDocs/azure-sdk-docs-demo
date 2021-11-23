@@ -28,7 +28,7 @@ constructors:
       content: 'new CosmosClient(options: CosmosClientOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.CosmosClientOptions" />
+          type: <xref uid="@azure/cosmos.CosmosClientOptions|latest-stable" />
           description: |
             bag of options; require at least endpoint and auth to be configured
   - name: CosmosClient(string)
@@ -62,7 +62,7 @@ properties:
     syntax:
       content: 'databases: Databases'
       return:
-        type: <xref uid="@azure/cosmos.Databases" />
+        type: <xref uid="@azure/cosmos.Databases|latest-stable" />
         description: ''
   - name: offers
     uid: '@azure/cosmos.CosmosClient.offers|latest-stable'
@@ -77,7 +77,7 @@ properties:
     syntax:
       content: 'offers: Offers'
       return:
-        type: <xref uid="@azure/cosmos.Offers" />
+        type: <xref uid="@azure/cosmos.Offers|latest-stable" />
         description: ''
 methods:
   - name: database(string)
@@ -99,7 +99,7 @@ methods:
           type: string
           description: The id of the database.
       return:
-        type: <xref uid="@azure/cosmos.Database" />
+        type: <xref uid="@azure/cosmos.Database|latest-stable" />
         description: ''
   - name: dispose()
     uid: '@azure/cosmos.CosmosClient.dispose|latest-stable'
@@ -125,12 +125,13 @@ methods:
       content: 'function getDatabaseAccount(options?: RequestOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/cosmos.ResourceResponse" />&lt;<xref
-          uid="@azure/cosmos.DatabaseAccount" />&gt;&gt;
+          Promise&lt;<xref uid="@azure/cosmos.ResourceResponse|latest-stable"
+          />&lt;<xref uid="@azure/cosmos.DatabaseAccount|latest-stable"
+          />&gt;&gt;
         description: ''
   - name: getReadEndpoint()
     uid: '@azure/cosmos.CosmosClient.getReadEndpoint|latest-stable'
@@ -214,5 +215,5 @@ methods:
           description: |
             The id of the offer.
       return:
-        type: <xref uid="@azure/cosmos.Offer" />
+        type: <xref uid="@azure/cosmos.Offer|latest-stable" />
         description: ''

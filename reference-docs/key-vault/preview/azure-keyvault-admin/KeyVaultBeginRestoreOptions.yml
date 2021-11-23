@@ -106,4 +106,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/keyvault-admin.KeyVaultBackupPollerOptions" />
+extends: <xref uid="@azure/keyvault-admin.KeyVaultBackupPollerOptions|preview" />

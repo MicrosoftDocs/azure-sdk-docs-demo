@@ -26,7 +26,8 @@ constructors:
           description: Connection string needed for a client to connect to Azure.
         - id: options
           type: >-
-            <xref uid="@azure/app-configuration.AppConfigurationClientOptions"
+            <xref
+            uid="@azure/app-configuration.AppConfigurationClientOptions|latest-stable"
             />
           description: |
             Options for the AppConfigurationClient.
@@ -60,7 +61,8 @@ constructors:
             package to create a credential that suits your needs.
         - id: options
           type: >-
-            <xref uid="@azure/app-configuration.AppConfigurationClientOptions"
+            <xref
+            uid="@azure/app-configuration.AppConfigurationClientOptions|latest-stable"
             />
           description: |
             Options for the AppConfigurationClient.
@@ -99,23 +101,30 @@ methods:
       parameters:
         - id: configurationSetting
           type: >-
-            <xref uid="@azure/app-configuration.AddConfigurationSettingParam" />
-            | <xref uid="@azure/app-configuration.AddConfigurationSettingParam"
-            />&lt;<xref uid="@azure/app-configuration.FeatureFlagValue" />&gt; |
-            <xref uid="@azure/app-configuration.AddConfigurationSettingParam"
-            />&lt;<xref uid="@azure/app-configuration.SecretReferenceValue"
+            <xref
+            uid="@azure/app-configuration.AddConfigurationSettingParam|latest-stable"
+            /> | <xref
+            uid="@azure/app-configuration.AddConfigurationSettingParam|latest-stable"
+            />&lt;<xref
+            uid="@azure/app-configuration.FeatureFlagValue|latest-stable" />&gt;
+            | <xref
+            uid="@azure/app-configuration.AddConfigurationSettingParam|latest-stable"
+            />&lt;<xref
+            uid="@azure/app-configuration.SecretReferenceValue|latest-stable"
             />&gt;
           description: A configuration setting.
         - id: options
           type: >-
-            <xref uid="@azure/app-configuration.AddConfigurationSettingOptions"
+            <xref
+            uid="@azure/app-configuration.AddConfigurationSettingOptions|latest-stable"
             />
           description: |
             Optional parameters for the request.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/app-configuration.AddConfigurationSettingResponse" />&gt;
+          uid="@azure/app-configuration.AddConfigurationSettingResponse|latest-stable"
+          />&gt;
         description: ''
   - name: >-
       deleteConfigurationSetting(ConfigurationSettingId,
@@ -143,18 +152,22 @@ methods:
         options?: DeleteConfigurationSettingOptions)
       parameters:
         - id: id
-          type: <xref uid="@azure/app-configuration.ConfigurationSettingId" />
+          type: >-
+            <xref
+            uid="@azure/app-configuration.ConfigurationSettingId|latest-stable"
+            />
           description: The id of the configuration setting to delete.
         - id: options
           type: >-
             <xref
-            uid="@azure/app-configuration.DeleteConfigurationSettingOptions" />
+            uid="@azure/app-configuration.DeleteConfigurationSettingOptions|latest-stable"
+            />
           description: |
             Optional parameters for the request (ex: etag, label)
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/app-configuration.DeleteConfigurationSettingResponse"
+          uid="@azure/app-configuration.DeleteConfigurationSettingResponse|latest-stable"
           />&gt;
         description: ''
   - name: >-
@@ -183,18 +196,23 @@ methods:
         GetConfigurationSettingOptions)
       parameters:
         - id: id
-          type: <xref uid="@azure/app-configuration.ConfigurationSettingId" />
+          type: >-
+            <xref
+            uid="@azure/app-configuration.ConfigurationSettingId|latest-stable"
+            />
           description: The id of the configuration setting to get.
         - id: options
           type: >-
-            <xref uid="@azure/app-configuration.GetConfigurationSettingOptions"
+            <xref
+            uid="@azure/app-configuration.GetConfigurationSettingOptions|latest-stable"
             />
           description: |
             Optional parameters for the request.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/app-configuration.GetConfigurationSettingResponse" />&gt;
+          uid="@azure/app-configuration.GetConfigurationSettingResponse|latest-stable"
+          />&gt;
         description: ''
   - name: listConfigurationSettings(ListConfigurationSettingsOptions)
     uid: >-
@@ -224,15 +242,18 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/app-configuration.ListConfigurationSettingsOptions" />
+            uid="@azure/app-configuration.ListConfigurationSettingsOptions|latest-stable"
+            />
           description: |
             Optional parameters for the request.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/app-configuration.ConfigurationSetting" />, <xref
-          uid="@azure/app-configuration.ListConfigurationSettingPage" />, <xref
-          uid="@azure/app-configuration.PageSettings" />&gt;
+          uid="@azure/app-configuration.ConfigurationSetting|latest-stable" />,
+          <xref
+          uid="@azure/app-configuration.ListConfigurationSettingPage|latest-stable"
+          />, <xref uid="@azure/app-configuration.PageSettings|latest-stable"
+          />&gt;
         description: ''
   - name: listRevisions(ListRevisionsOptions)
     uid: >-
@@ -252,15 +273,18 @@ methods:
       content: 'function listRevisions(options?: ListRevisionsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/app-configuration.ListRevisionsOptions" />
+          type: >-
+            <xref
+            uid="@azure/app-configuration.ListRevisionsOptions|latest-stable" />
           description: |
             Optional parameters for the request.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/app-configuration.ConfigurationSetting" />, <xref
-          uid="@azure/app-configuration.ListRevisionsPage" />, <xref
-          uid="@azure/app-configuration.PageSettings" />&gt;
+          uid="@azure/app-configuration.ConfigurationSetting|latest-stable" />,
+          <xref uid="@azure/app-configuration.ListRevisionsPage|latest-stable"
+          />, <xref uid="@azure/app-configuration.PageSettings|latest-stable"
+          />&gt;
         description: ''
   - name: >-
       setConfigurationSetting(SetConfigurationSettingParam |
@@ -286,16 +310,22 @@ methods:
       parameters:
         - id: configurationSetting
           type: >-
-            <xref uid="@azure/app-configuration.SetConfigurationSettingParam" />
-            | <xref uid="@azure/app-configuration.SetConfigurationSettingParam"
-            />&lt;<xref uid="@azure/app-configuration.FeatureFlagValue" />&gt; |
-            <xref uid="@azure/app-configuration.SetConfigurationSettingParam"
-            />&lt;<xref uid="@azure/app-configuration.SecretReferenceValue"
+            <xref
+            uid="@azure/app-configuration.SetConfigurationSettingParam|latest-stable"
+            /> | <xref
+            uid="@azure/app-configuration.SetConfigurationSettingParam|latest-stable"
+            />&lt;<xref
+            uid="@azure/app-configuration.FeatureFlagValue|latest-stable" />&gt;
+            | <xref
+            uid="@azure/app-configuration.SetConfigurationSettingParam|latest-stable"
+            />&lt;<xref
+            uid="@azure/app-configuration.SecretReferenceValue|latest-stable"
             />&gt;
           description: A configuration value.
         - id: options
           type: >-
-            <xref uid="@azure/app-configuration.SetConfigurationSettingOptions"
+            <xref
+            uid="@azure/app-configuration.SetConfigurationSettingOptions|latest-stable"
             />
           description: >
             Optional parameters for the request.
@@ -312,7 +342,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/app-configuration.SetConfigurationSettingResponse" />&gt;
+          uid="@azure/app-configuration.SetConfigurationSettingResponse|latest-stable"
+          />&gt;
         description: ''
   - name: setReadOnly(ConfigurationSettingId, boolean, SetReadOnlyOptions)
     uid: '@azure/app-configuration.AppConfigurationClient.setReadOnly|latest-stable'
@@ -327,18 +358,24 @@ methods:
         options?: SetReadOnlyOptions)
       parameters:
         - id: id
-          type: <xref uid="@azure/app-configuration.ConfigurationSettingId" />
+          type: >-
+            <xref
+            uid="@azure/app-configuration.ConfigurationSettingId|latest-stable"
+            />
           description: |
             The id of the configuration setting to modify.
         - id: readOnly
           type: boolean
           description: ''
         - id: options
-          type: <xref uid="@azure/app-configuration.SetReadOnlyOptions" />
+          type: >-
+            <xref
+            uid="@azure/app-configuration.SetReadOnlyOptions|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/app-configuration.SetReadOnlyResponse"
+          Promise&lt;<xref
+          uid="@azure/app-configuration.SetReadOnlyResponse|latest-stable"
           />&gt;
         description: ''
   - name: updateSyncToken(string)

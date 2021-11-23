@@ -20,7 +20,9 @@ constructors:
       content: 'new SkusImpl(client: StorageManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|preview" />
           description: |
             Reference to the service client
 methods:
@@ -37,11 +39,11 @@ methods:
       content: 'function list(options?: SkusListOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="@azure/arm-storage.SkusListOptionalParams" />
+          type: <xref uid="@azure/arm-storage.SkusListOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-storage.SkuInformation" />&gt;
+          uid="@azure/arm-storage.SkuInformation|preview" />&gt;
         description: ''

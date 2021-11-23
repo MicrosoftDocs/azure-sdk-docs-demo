@@ -33,7 +33,9 @@ properties:
     syntax:
       content: 'dataActions?: KeyVaultDataAction[]'
       return:
-        type: <xref uid="@azure/keyvault-admin.KeyVaultDataAction" />[]
+        type: >-
+          <xref uid="@azure/keyvault-admin.KeyVaultDataAction|latest-stable"
+          />[]
         description: ''
   - name: notActions
     uid: '@azure/keyvault-admin.KeyVaultPermission.notActions|latest-stable'
@@ -63,5 +65,7 @@ properties:
     syntax:
       content: 'notDataActions?: KeyVaultDataAction[]'
       return:
-        type: <xref uid="@azure/keyvault-admin.KeyVaultDataAction" />[]
+        type: >-
+          <xref uid="@azure/keyvault-admin.KeyVaultDataAction|latest-stable"
+          />[]
         description: ''

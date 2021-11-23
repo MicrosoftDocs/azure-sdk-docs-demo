@@ -100,4 +100,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-blob.BlobDeleteHeaders" /> & Object
+extends: <xref uid="@azure/storage-blob.BlobDeleteHeaders|preview" /> & Object

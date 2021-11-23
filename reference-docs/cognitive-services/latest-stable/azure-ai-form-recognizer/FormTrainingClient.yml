@@ -46,7 +46,10 @@ constructors:
           type: TokenCredential | KeyCredential
           description: Used to authenticate requests to the service.
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.FormRecognizerClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-form-recognizer.FormRecognizerClientOptions|latest-stable"
+            />
           description: |
             Used to configure the client.
 properties:
@@ -122,19 +125,26 @@ methods:
             Id of the custom model in this resource to be copied to the target
             Form Recognizer resource
         - id: target
-          type: <xref uid="@azure/ai-form-recognizer.CopyAuthorization" />
+          type: >-
+            <xref
+            uid="@azure/ai-form-recognizer.CopyAuthorization|latest-stable" />
           description: >-
             Copy authorization produced by calling
             `targetTrainingClient.getCopyAuthorization()`
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.BeginCopyModelOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-form-recognizer.BeginCopyModelOptions|latest-stable"
+            />
           description: |
             Options to copy model operation
       return:
         type: >-
           Promise&lt;PollerLike&lt;<xref
-          uid="@azure/ai-form-recognizer.CopyModelOperationState" />, <xref
-          uid="@azure/ai-form-recognizer.CustomFormModelInfo" />&gt;&gt;
+          uid="@azure/ai-form-recognizer.CopyModelOperationState|latest-stable"
+          />, <xref
+          uid="@azure/ai-form-recognizer.CustomFormModelInfo|latest-stable"
+          />&gt;&gt;
         description: ''
   - name: beginCreateComposedModel(string[], BeginCreateComposedModelOptions)
     uid: >-
@@ -205,14 +215,17 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/ai-form-recognizer.BeginCreateComposedModelOptions" />
+            uid="@azure/ai-form-recognizer.BeginCreateComposedModelOptions|latest-stable"
+            />
           description: |
             Options to start the create composed model operation
       return:
         type: >-
           Promise&lt;PollerLike&lt;<xref
-          uid="@azure/ai-form-recognizer.TrainingOperationState" />, <xref
-          uid="@azure/ai-form-recognizer.CustomFormModel" />&gt;&gt;
+          uid="@azure/ai-form-recognizer.TrainingOperationState|latest-stable"
+          />, <xref
+          uid="@azure/ai-form-recognizer.CustomFormModel|latest-stable"
+          />&gt;&gt;
         description: ''
   - name: beginTraining(string, boolean, BeginTrainingOptions)
     uid: '@azure/ai-form-recognizer.FormTrainingClient.beginTraining|latest-stable'
@@ -289,14 +302,19 @@ methods:
           type: boolean
           description: Specifies whether or not to search for and train using label files
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.BeginTrainingOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-form-recognizer.BeginTrainingOptions|latest-stable"
+            />
           description: |
             Options to start the model training operation
       return:
         type: >-
           Promise&lt;PollerLike&lt;<xref
-          uid="@azure/ai-form-recognizer.TrainingOperationState" />, <xref
-          uid="@azure/ai-form-recognizer.CustomFormModel" />&gt;&gt;
+          uid="@azure/ai-form-recognizer.TrainingOperationState|latest-stable"
+          />, <xref
+          uid="@azure/ai-form-recognizer.CustomFormModel|latest-stable"
+          />&gt;&gt;
         description: ''
   - name: deleteModel(string, DeleteModelOptions)
     uid: '@azure/ai-form-recognizer.FormTrainingClient.deleteModel|latest-stable'
@@ -314,7 +332,9 @@ methods:
           type: string
           description: Id of the model to mark for deletion
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.DeleteModelOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-form-recognizer.DeleteModelOptions|latest-stable" />
           description: |
             Options to the Delete Model operation
       return:
@@ -332,13 +352,16 @@ methods:
       content: 'function getAccountProperties(options?: GetAccountPropertiesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.GetAccountPropertiesOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-form-recognizer.GetAccountPropertiesOptions|latest-stable"
+            />
           description: |
             Options to GetSummary operation
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/ai-form-recognizer.AccountProperties"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.AccountProperties|latest-stable" />&gt;
         description: ''
   - name: getCopyAuthorization(string, string, GetCopyAuthorizationOptions)
     uid: >-
@@ -382,12 +405,15 @@ methods:
             information about the regional availability of Azure Cognitive
             Services.
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.GetCopyAuthorizationOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-form-recognizer.GetCopyAuthorizationOptions|latest-stable"
+            />
           description: Options to get copy authorization operation
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/ai-form-recognizer.CopyAuthorization"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.CopyAuthorization|latest-stable" />&gt;
         description: The authorization to copy a custom model
   - name: getCustomModel(string, GetModelOptions)
     uid: '@azure/ai-form-recognizer.FormTrainingClient.getCustomModel|latest-stable'
@@ -403,13 +429,15 @@ methods:
           type: string
           description: Id of the model to get information
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.GetModelOptions" />
+          type: >-
+            <xref uid="@azure/ai-form-recognizer.GetModelOptions|latest-stable"
+            />
           description: |
             Options to the Get Model operation
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/ai-form-recognizer.FormModelResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.FormModelResponse|latest-stable" />&gt;
         description: ''
   - name: getFormRecognizerClient()
     uid: >-
@@ -426,7 +454,9 @@ methods:
     syntax:
       content: function getFormRecognizerClient()
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormRecognizerClient" />
+        type: >-
+          <xref
+          uid="@azure/ai-form-recognizer.FormRecognizerClient|latest-stable" />
         description: ''
   - name: listCustomModels(ListModelsOptions)
     uid: >-
@@ -496,12 +526,16 @@ methods:
       content: 'function listCustomModels(options?: ListModelsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.ListModelsOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-form-recognizer.ListModelsOptions|latest-stable" />
           description: |
             Options to the List Models operation
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/ai-form-recognizer.CustomFormModelInfo" />, <xref
-          uid="@azure/ai-form-recognizer.ListCustomModelsResponse" />&gt;
+          uid="@azure/ai-form-recognizer.CustomFormModelInfo|latest-stable" />,
+          <xref
+          uid="@azure/ai-form-recognizer.ListCustomModelsResponse|latest-stable"
+          />&gt;
         description: ''

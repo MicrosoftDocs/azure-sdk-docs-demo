@@ -48,5 +48,5 @@ properties:
     syntax:
       content: 'spans: DocumentSpan[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentSpan" />[]
+        type: <xref uid="@azure/ai-form-recognizer.DocumentSpan|preview" />[]
         description: ''

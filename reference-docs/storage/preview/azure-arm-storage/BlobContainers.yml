@@ -58,7 +58,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobContainersObjectLevelWormOptionalParams"
+            uid="@azure/arm-storage.BlobContainersObjectLevelWormOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -114,7 +114,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobContainersObjectLevelWormOptionalParams"
+            uid="@azure/arm-storage.BlobContainersObjectLevelWormOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -162,19 +162,20 @@ methods:
                                  and dash (-) only. Every dash (-) character must be immediately preceded and followed by a letter or
                                  number.
         - id: legalHold
-          type: <xref uid="@azure/arm-storage.LegalHold" />
+          type: <xref uid="@azure/arm-storage.LegalHold|preview" />
           description: The LegalHold property that will be clear from a blob container.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobContainersClearLegalHoldOptionalParams"
+            uid="@azure/arm-storage.BlobContainersClearLegalHoldOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.BlobContainersClearLegalHoldResponse" />&gt;
+          uid="@azure/arm-storage.BlobContainersClearLegalHoldResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       create(string, string, string, BlobContainer,
@@ -220,16 +221,19 @@ methods:
                                  and dash (-) only. Every dash (-) character must be immediately preceded and followed by a letter or
                                  number.
         - id: blobContainer
-          type: <xref uid="@azure/arm-storage.BlobContainer" />
+          type: <xref uid="@azure/arm-storage.BlobContainer|preview" />
           description: Properties of the blob container to create.
         - id: options
-          type: <xref uid="@azure/arm-storage.BlobContainersCreateOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.BlobContainersCreateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-storage.BlobContainersCreateResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-storage.BlobContainersCreateResponse|preview" />&gt;
         description: ''
   - name: >-
       createOrUpdateImmutabilityPolicy(string, string, string,
@@ -274,14 +278,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobContainersCreateOrUpdateImmutabilityPolicyOptionalParams"
+            uid="@azure/arm-storage.BlobContainersCreateOrUpdateImmutabilityPolicyOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.BlobContainersCreateOrUpdateImmutabilityPolicyResponse"
+          uid="@azure/arm-storage.BlobContainersCreateOrUpdateImmutabilityPolicyResponse|preview"
           />&gt;
         description: ''
   - name: delete(string, string, string, BlobContainersDeleteOptionalParams)
@@ -318,7 +322,10 @@ methods:
                                  and dash (-) only. Every dash (-) character must be immediately preceded and followed by a letter or
                                  number.
         - id: options
-          type: <xref uid="@azure/arm-storage.BlobContainersDeleteOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.BlobContainersDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -379,14 +386,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobContainersDeleteImmutabilityPolicyOptionalParams"
+            uid="@azure/arm-storage.BlobContainersDeleteImmutabilityPolicyOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.BlobContainersDeleteImmutabilityPolicyResponse"
+          uid="@azure/arm-storage.BlobContainersDeleteImmutabilityPolicyResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -440,14 +447,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobContainersExtendImmutabilityPolicyOptionalParams"
+            uid="@azure/arm-storage.BlobContainersExtendImmutabilityPolicyOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.BlobContainersExtendImmutabilityPolicyResponse"
+          uid="@azure/arm-storage.BlobContainersExtendImmutabilityPolicyResponse|preview"
           />&gt;
         description: ''
   - name: get(string, string, string, BlobContainersGetOptionalParams)
@@ -484,13 +491,15 @@ methods:
                                  and dash (-) only. Every dash (-) character must be immediately preceded and followed by a letter or
                                  number.
         - id: options
-          type: <xref uid="@azure/arm-storage.BlobContainersGetOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.BlobContainersGetOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-storage.BlobContainersGetResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-storage.BlobContainersGetResponse|preview" />&gt;
         description: ''
   - name: >-
       getImmutabilityPolicy(string, string, string,
@@ -535,14 +544,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobContainersGetImmutabilityPolicyOptionalParams"
+            uid="@azure/arm-storage.BlobContainersGetImmutabilityPolicyOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.BlobContainersGetImmutabilityPolicyResponse"
+          uid="@azure/arm-storage.BlobContainersGetImmutabilityPolicyResponse|preview"
           />&gt;
         description: ''
   - name: lease(string, string, string, BlobContainersLeaseOptionalParams)
@@ -583,13 +592,16 @@ methods:
                                  and dash (-) only. Every dash (-) character must be immediately preceded and followed by a letter or
                                  number.
         - id: options
-          type: <xref uid="@azure/arm-storage.BlobContainersLeaseOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.BlobContainersLeaseOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-storage.BlobContainersLeaseResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-storage.BlobContainersLeaseResponse|preview" />&gt;
         description: ''
   - name: list(string, string, BlobContainersListOptionalParams)
     uid: '@azure/arm-storage.BlobContainers.list|preview'
@@ -621,13 +633,15 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: options
-          type: <xref uid="@azure/arm-storage.BlobContainersListOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.BlobContainersListOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-storage.ListContainerItem" />&gt;
+          uid="@azure/arm-storage.ListContainerItem|preview" />&gt;
         description: ''
   - name: >-
       lockImmutabilityPolicy(string, string, string, string,
@@ -680,14 +694,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobContainersLockImmutabilityPolicyOptionalParams"
+            uid="@azure/arm-storage.BlobContainersLockImmutabilityPolicyOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.BlobContainersLockImmutabilityPolicyResponse"
+          uid="@azure/arm-storage.BlobContainersLockImmutabilityPolicyResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -732,18 +746,20 @@ methods:
                                  and dash (-) only. Every dash (-) character must be immediately preceded and followed by a letter or
                                  number.
         - id: legalHold
-          type: <xref uid="@azure/arm-storage.LegalHold" />
+          type: <xref uid="@azure/arm-storage.LegalHold|preview" />
           description: The LegalHold property that will be set to a blob container.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobContainersSetLegalHoldOptionalParams" />
+            uid="@azure/arm-storage.BlobContainersSetLegalHoldOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.BlobContainersSetLegalHoldResponse" />&gt;
+          uid="@azure/arm-storage.BlobContainersSetLegalHoldResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       update(string, string, string, BlobContainer,
@@ -787,14 +803,17 @@ methods:
                                  and dash (-) only. Every dash (-) character must be immediately preceded and followed by a letter or
                                  number.
         - id: blobContainer
-          type: <xref uid="@azure/arm-storage.BlobContainer" />
+          type: <xref uid="@azure/arm-storage.BlobContainer|preview" />
           description: Properties to update for the blob container.
         - id: options
-          type: <xref uid="@azure/arm-storage.BlobContainersUpdateOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.BlobContainersUpdateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-storage.BlobContainersUpdateResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-storage.BlobContainersUpdateResponse|preview" />&gt;
         description: ''

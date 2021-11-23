@@ -46,7 +46,9 @@ properties:
     syntax:
       content: 'partitionKey?: string | PartitionKeyDefinition'
       return:
-        type: string | <xref uid="@azure/cosmos.PartitionKeyDefinition" />
+        type: >-
+          string | <xref
+          uid="@azure/cosmos.PartitionKeyDefinition|latest-stable" />
         description: ''
   - name: throughput
     uid: '@azure/cosmos.ContainerRequest.throughput|latest-stable'

@@ -250,7 +250,7 @@ properties:
     syntax:
       content: 'copyStatus?: CopyStatusType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.CopyStatusType" />
+        type: <xref uid="@azure/storage-file-datalake.CopyStatusType|preview" />
         description: ''
   - name: copyStatusDescription
     uid: >-
@@ -399,7 +399,7 @@ properties:
     syntax:
       content: 'leaseDuration?: LeaseDurationType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.LeaseDurationType" />
+        type: <xref uid="@azure/storage-file-datalake.LeaseDurationType|preview" />
         description: ''
   - name: leaseState
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.leaseState|preview'
@@ -412,7 +412,7 @@ properties:
     syntax:
       content: 'leaseState?: LeaseStateType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.LeaseStateType" />
+        type: <xref uid="@azure/storage-file-datalake.LeaseStateType|preview" />
         description: ''
   - name: leaseStatus
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.leaseStatus|preview'
@@ -425,7 +425,7 @@ properties:
     syntax:
       content: 'leaseStatus?: LeaseStatusType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.LeaseStatusType" />
+        type: <xref uid="@azure/storage-file-datalake.LeaseStatusType|preview" />
         description: ''
   - name: metadata
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.metadata|preview'
@@ -438,7 +438,7 @@ properties:
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-file-datalake.Metadata" />
+        type: <xref uid="@azure/storage-file-datalake.Metadata|preview" />
         description: ''
   - name: requestId
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeaders.requestId|preview'

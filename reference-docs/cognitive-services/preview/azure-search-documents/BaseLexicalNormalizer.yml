@@ -40,5 +40,5 @@ properties:
     syntax:
       content: 'odatatype: "#Microsoft.Azure.Search.CustomNormalizer"'
       return:
-        type: '"#<xref uid="Microsoft.Azure.Search.CustomNormalizer" />"'
+        type: '"#<xref uid="Microsoft.Azure.Search.CustomNormalizer|preview" />"'
         description: ''

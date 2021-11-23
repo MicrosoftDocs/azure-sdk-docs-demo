@@ -104,7 +104,9 @@ properties:
     syntax:
       content: 'result?: RecognizedFormArray'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.RecognizedFormArray" />
+        type: >-
+          <xref
+          uid="@azure/ai-form-recognizer.RecognizedFormArray|latest-stable" />
         description: ''
   - name: resultId
     uid: >-
@@ -132,8 +134,8 @@ properties:
     syntax:
       content: 'status: OperationStatus'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.OperationStatus" />
+        type: <xref uid="@azure/ai-form-recognizer.OperationStatus|latest-stable" />
         description: ''
 extends: >-
   PollOperationState&lt;<xref
-  uid="@azure/ai-form-recognizer.RecognizedFormArray" />&gt;
+  uid="@azure/ai-form-recognizer.RecognizedFormArray|latest-stable" />&gt;

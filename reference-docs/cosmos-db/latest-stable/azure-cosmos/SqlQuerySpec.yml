@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'parameters?: SqlParameter[]'
       return:
-        type: <xref uid="@azure/cosmos.SqlParameter" />[]
+        type: <xref uid="@azure/cosmos.SqlParameter|latest-stable" />[]
         description: ''
   - name: query
     uid: '@azure/cosmos.SqlQuerySpec.query|latest-stable'

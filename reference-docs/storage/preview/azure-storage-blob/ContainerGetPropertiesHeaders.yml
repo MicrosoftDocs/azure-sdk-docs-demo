@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'blobPublicAccess?: PublicAccessType'
       return:
-        type: <xref uid="@azure/storage-blob.PublicAccessType" />
+        type: <xref uid="@azure/storage-blob.PublicAccessType|preview" />
         description: ''
   - name: clientRequestId
     uid: '@azure/storage-blob.ContainerGetPropertiesHeaders.clientRequestId|preview'
@@ -183,7 +183,7 @@ properties:
     syntax:
       content: 'leaseDuration?: LeaseDurationType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseDurationType" />
+        type: <xref uid="@azure/storage-blob.LeaseDurationType|preview" />
         description: ''
   - name: leaseState
     uid: '@azure/storage-blob.ContainerGetPropertiesHeaders.leaseState|preview'
@@ -196,7 +196,7 @@ properties:
     syntax:
       content: 'leaseState?: LeaseStateType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseStateType" />
+        type: <xref uid="@azure/storage-blob.LeaseStateType|preview" />
         description: ''
   - name: leaseStatus
     uid: '@azure/storage-blob.ContainerGetPropertiesHeaders.leaseStatus|preview'
@@ -209,7 +209,7 @@ properties:
     syntax:
       content: 'leaseStatus?: LeaseStatusType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseStatusType" />
+        type: <xref uid="@azure/storage-blob.LeaseStatusType|preview" />
         description: ''
   - name: metadata
     uid: '@azure/storage-blob.ContainerGetPropertiesHeaders.metadata|preview'

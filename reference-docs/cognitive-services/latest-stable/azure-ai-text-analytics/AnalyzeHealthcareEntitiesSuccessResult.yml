@@ -21,7 +21,9 @@ properties:
     syntax:
       content: 'entities: HealthcareEntity[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.HealthcareEntity" />[]
+        type: >-
+          <xref uid="@azure/ai-text-analytics.HealthcareEntity|latest-stable"
+          />[]
         description: ''
   - name: entityRelations
     uid: >-
@@ -35,7 +37,10 @@ properties:
     syntax:
       content: 'entityRelations: HealthcareEntityRelation[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.HealthcareEntityRelation" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.HealthcareEntityRelation|latest-stable"
+          />[]
         description: ''
   - name: error
     uid: >-
@@ -83,7 +88,9 @@ properties:
     syntax:
       content: 'statistics?: TextDocumentStatistics'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextDocumentStatistics" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TextDocumentStatistics|latest-stable" />
         description: ''
   - name: warnings
     uid: >-
@@ -99,6 +106,10 @@ properties:
     syntax:
       content: 'warnings: TextAnalyticsWarning[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsWarning" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TextAnalyticsWarning|latest-stable" />[]
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsSuccessResult" />
+extends: >-
+  <xref uid="@azure/ai-text-analytics.TextAnalyticsSuccessResult|latest-stable"
+  />

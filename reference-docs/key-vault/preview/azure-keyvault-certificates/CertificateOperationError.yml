@@ -39,7 +39,10 @@ properties:
     syntax:
       content: 'innerError?: CertificateOperationError'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificateOperationError" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-certificates.CertificateOperationError|preview"
+          />
         description: ''
   - name: message
     uid: '@azure/keyvault-certificates.CertificateOperationError.message|preview'

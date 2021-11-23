@@ -23,7 +23,10 @@ constructors:
         EventGridManagementClientContext)
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-eventgrid.EventGridManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.EventGridManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -61,12 +64,12 @@ methods:
             names must be between 3 and 100 characters in length and use
             alphanumeric letters only.
         - id: eventSubscriptionInfo
-          type: <xref uid="@azure/arm-eventgrid.EventSubscription" />
+          type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />
           description: |-
             Event subscription properties containing the destination and filter
             information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -99,7 +102,7 @@ methods:
             names must be between 3 and 100 characters in length and use
             alphanumeric letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -135,11 +138,12 @@ methods:
             alphanumeric letters only.
         - id: eventSubscriptionUpdateParameters
           type: >-
-            <xref uid="@azure/arm-eventgrid.EventSubscriptionUpdateParameters"
+            <xref
+            uid="@azure/arm-eventgrid.EventSubscriptionUpdateParameters|latest-stable"
             />
           description: Updated event subscription information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -178,17 +182,17 @@ methods:
             names must be between 3 and 100 characters in length and use
             alphanumeric letters only.
         - id: eventSubscriptionInfo
-          type: <xref uid="@azure/arm-eventgrid.EventSubscription" />
+          type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />
           description: |-
             Event subscription properties containing the destination and filter
             information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicEventSubscriptionsCreateOrUpdateResponse"
+          uid="Models.SystemTopicEventSubscriptionsCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.SystemTopicEventSubscriptionsCreateOrUpdateResponse>
   - name: deleteMethod(string, string, string, msRest.RequestOptionsBase)
@@ -219,7 +223,7 @@ methods:
             names must be between 3 and 100 characters in length and use
             alphanumeric letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -250,11 +254,12 @@ methods:
             names must be between 3 and 100 characters in length and use
             alphanumeric letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.SystemTopicEventSubscriptionsGetResponse"
+          Promise&lt;<xref
+          uid="Models.SystemTopicEventSubscriptionsGetResponse|latest-stable"
           />&gt;
         description: Promise<Models.SystemTopicEventSubscriptionsGetResponse>
   - name: >-
@@ -291,7 +296,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscription" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, string, ServiceCallback<EventSubscription>)
@@ -323,7 +328,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscription" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />&gt;
           description: |
             The callback
   - name: getDeliveryAttributes(string, string, string, msRest.RequestOptionsBase)
@@ -354,12 +359,12 @@ methods:
             names must be between 3 and 100 characters in length and use
             alphanumeric letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicEventSubscriptionsGetDeliveryAttributesResponse"
+          uid="Models.SystemTopicEventSubscriptionsGetDeliveryAttributesResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.SystemTopicEventSubscriptionsGetDeliveryAttributesResponse>
@@ -399,7 +404,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.DeliveryAttributeListResult" />&gt;
+            uid="@azure/arm-eventgrid.DeliveryAttributeListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -434,7 +440,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.DeliveryAttributeListResult" />&gt;
+            uid="@azure/arm-eventgrid.DeliveryAttributeListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: getFullUrl(string, string, string, msRest.RequestOptionsBase)
@@ -464,12 +471,13 @@ methods:
             names must be between 3 and 100 characters in length and use
             alphanumeric letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicEventSubscriptionsGetFullUrlResponse" />&gt;
+          uid="Models.SystemTopicEventSubscriptionsGetFullUrlResponse|latest-stable"
+          />&gt;
         description: Promise<Models.SystemTopicEventSubscriptionsGetFullUrlResponse>
   - name: >-
       getFullUrl(string, string, string, RequestOptionsBase,
@@ -506,7 +514,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionFullUrl" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionFullUrl|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -541,7 +550,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionFullUrl" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionFullUrl|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -569,13 +579,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.SystemTopicEventSubscriptionsListBySystemTopicOptionalParams"
+            uid="Models.SystemTopicEventSubscriptionsListBySystemTopicOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicEventSubscriptionsListBySystemTopicResponse"
+          uid="Models.SystemTopicEventSubscriptionsListBySystemTopicResponse|latest-stable"
           />&gt;
         description: Promise<Models.SystemTopicEventSubscriptionsListBySystemTopicResponse>
   - name: >-
@@ -602,7 +612,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -632,13 +643,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.SystemTopicEventSubscriptionsListBySystemTopicOptionalParams"
+            uid="@azure/arm-eventgrid.SystemTopicEventSubscriptionsListBySystemTopicOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -662,13 +674,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.SystemTopicEventSubscriptionsListBySystemTopicNextOptionalParams"
+            uid="Models.SystemTopicEventSubscriptionsListBySystemTopicNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicEventSubscriptionsListBySystemTopicNextResponse"
+          uid="Models.SystemTopicEventSubscriptionsListBySystemTopicNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.SystemTopicEventSubscriptionsListBySystemTopicNextResponse>
@@ -693,7 +705,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -719,13 +732,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.SystemTopicEventSubscriptionsListBySystemTopicNextOptionalParams"
+            uid="@azure/arm-eventgrid.SystemTopicEventSubscriptionsListBySystemTopicNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -758,14 +772,16 @@ methods:
             alphanumeric letters only.
         - id: eventSubscriptionUpdateParameters
           type: >-
-            <xref uid="@azure/arm-eventgrid.EventSubscriptionUpdateParameters"
+            <xref
+            uid="@azure/arm-eventgrid.EventSubscriptionUpdateParameters|latest-stable"
             />
           description: Updated event subscription information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.SystemTopicEventSubscriptionsUpdateResponse" />&gt;
+          uid="Models.SystemTopicEventSubscriptionsUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.SystemTopicEventSubscriptionsUpdateResponse>

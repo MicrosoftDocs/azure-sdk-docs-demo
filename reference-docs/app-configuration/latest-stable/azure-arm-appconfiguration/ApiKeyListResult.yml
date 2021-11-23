@@ -68,7 +68,9 @@ methods:
           type: number
           description: ''
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ApiKey" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" /> |
+          undefined
         description: ''
   - name: concat(ConcatArray<ApiKey>[])
     uid: '@azure/arm-appconfiguration.ApiKeyListResult.concat|latest-stable'
@@ -82,12 +84,12 @@ methods:
       parameters:
         - id: items
           type: >-
-            ConcatArray&lt;<xref uid="@azure/arm-appconfiguration.ApiKey"
-            />&gt;[]
+            ConcatArray&lt;<xref
+            uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />&gt;[]
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ApiKey" />[]
+        type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />[]
         description: ''
   - name: concat(T | ConcatArray<T>[])
     uid: '@azure/arm-appconfiguration.ApiKeyListResult.concat_1|latest-stable'
@@ -104,7 +106,7 @@ methods:
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ApiKey" />[]
+        type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />[]
         description: ''
   - name: copyWithin(number, number, undefined | number)
     uid: '@azure/arm-appconfiguration.ApiKeyListResult.copyWithin|latest-stable'
@@ -198,7 +200,7 @@ methods:
         | number)
       parameters:
         - id: value
-          type: <xref uid="@azure/arm-appconfiguration.ApiKey" />
+          type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />
           description: value to fill array section with
         - id: start
           type: undefined | number
@@ -244,7 +246,7 @@ methods:
             function. If thisArg is omitted, undefined is used as the this
             value.
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ApiKey" />[]
+        type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />[]
         description: ''
   - name: 'filter<S>((value: ApiKey, index: number, array: ApiKey[]) => boolean, any)'
     uid: '@azure/arm-appconfiguration.ApiKeyListResult.filter|latest-stable'
@@ -294,7 +296,9 @@ methods:
           type: any
           description: ''
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ApiKey" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" /> |
+          undefined
         description: ''
   - name: >-
       find<S>((this: void, value: ApiKey, index: number, obj: ApiKey[]) =>
@@ -663,7 +667,7 @@ methods:
       content: 'function includes(searchElement: ApiKey, fromIndex?: undefined | number)'
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-appconfiguration.ApiKey" />
+          type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />
           description: The element to search for.
         - id: fromIndex
           type: undefined | number
@@ -684,7 +688,7 @@ methods:
       content: 'function indexOf(searchElement: ApiKey, fromIndex?: undefined | number)'
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-appconfiguration.ApiKey" />
+          type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />
           description: The value to locate in the array.
         - id: fromIndex
           type: undefined | number
@@ -740,7 +744,7 @@ methods:
         number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-appconfiguration.ApiKey" />
+          type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />
           description: The value to locate in the array.
         - id: fromIndex
           type: undefined | number
@@ -788,7 +792,9 @@ methods:
     syntax:
       content: function pop()
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ApiKey" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" /> |
+          undefined
         description: ''
   - name: push(ApiKey[])
     uid: '@azure/arm-appconfiguration.ApiKeyListResult.push|latest-stable'
@@ -801,7 +807,7 @@ methods:
       content: 'function push(items: ApiKey[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/arm-appconfiguration.ApiKey" />[]
+          type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />[]
           description: |
             New elements of the Array.
       return:
@@ -833,7 +839,7 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ApiKey" />
+        type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />
         description: ''
   - name: >-
       reduce((previousValue: ApiKey, currentValue: ApiKey, currentIndex: number,
@@ -856,10 +862,10 @@ methods:
             array: ApiKey[]) =&gt; ApiKey
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/arm-appconfiguration.ApiKey" />
+          type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ApiKey" />
+        type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />
         description: ''
   - name: >-
       reduce<U>((previousValue: U, currentValue: ApiKey, currentIndex: number,
@@ -922,7 +928,7 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ApiKey" />
+        type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />
         description: ''
   - name: >-
       reduceRight((previousValue: ApiKey, currentValue: ApiKey, currentIndex:
@@ -945,10 +951,10 @@ methods:
             array: ApiKey[]) =&gt; ApiKey
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/arm-appconfiguration.ApiKey" />
+          type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ApiKey" />
+        type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />
         description: ''
   - name: >-
       reduceRight<U>((previousValue: U, currentValue: ApiKey, currentIndex:
@@ -995,7 +1001,7 @@ methods:
     syntax:
       content: function reverse()
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ApiKey" />[]
+        type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />[]
         description: ''
   - name: shift()
     uid: '@azure/arm-appconfiguration.ApiKeyListResult.shift|latest-stable'
@@ -1007,7 +1013,9 @@ methods:
     syntax:
       content: function shift()
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ApiKey" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" /> |
+          undefined
         description: ''
   - name: slice(undefined | number, undefined | number)
     uid: '@azure/arm-appconfiguration.ApiKeyListResult.slice|latest-stable'
@@ -1027,7 +1035,7 @@ methods:
           description: |
             The end of the specified portion of the array.
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ApiKey" />[]
+        type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />[]
         description: ''
   - name: 'some((value: ApiKey, index: number, array: ApiKey[]) => unknown, any)'
     uid: '@azure/arm-appconfiguration.ApiKeyListResult.some|latest-stable'
@@ -1098,11 +1106,11 @@ methods:
           type: number
           description: The number of elements to remove.
         - id: items
-          type: <xref uid="@azure/arm-appconfiguration.ApiKey" />[]
+          type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />[]
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ApiKey" />[]
+        type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />[]
         description: ''
   - name: splice(number, undefined | number)
     uid: '@azure/arm-appconfiguration.ApiKeyListResult.splice|latest-stable'
@@ -1126,7 +1134,7 @@ methods:
           description: |
             The number of elements to remove.
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ApiKey" />[]
+        type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />[]
         description: ''
   - name: toLocaleString()
     uid: '@azure/arm-appconfiguration.ApiKeyListResult.toLocaleString|latest-stable'
@@ -1165,7 +1173,7 @@ methods:
       content: 'function unshift(items: ApiKey[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/arm-appconfiguration.ApiKey" />[]
+          type: <xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />[]
           description: |
             Elements to insert at the start of the Array.
       return:
@@ -1182,7 +1190,7 @@ methods:
       content: function values()
       return:
         type: >-
-          IterableIterator&lt;<xref uid="@azure/arm-appconfiguration.ApiKey"
-          />&gt;
+          IterableIterator&lt;<xref
+          uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />&gt;
         description: ''
-extends: Array&lt;<xref uid="@azure/arm-appconfiguration.ApiKey" />&gt;
+extends: Array&lt;<xref uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />&gt;

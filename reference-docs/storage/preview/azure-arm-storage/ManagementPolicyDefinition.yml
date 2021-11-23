@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'actions: ManagementPolicyAction'
       return:
-        type: <xref uid="@azure/arm-storage.ManagementPolicyAction" />
+        type: <xref uid="@azure/arm-storage.ManagementPolicyAction|preview" />
         description: ''
   - name: filters
     uid: '@azure/arm-storage.ManagementPolicyDefinition.filters|preview'
@@ -35,5 +35,5 @@ properties:
     syntax:
       content: 'filters?: ManagementPolicyFilter'
       return:
-        type: <xref uid="@azure/arm-storage.ManagementPolicyFilter" />
+        type: <xref uid="@azure/arm-storage.ManagementPolicyFilter|preview" />
         description: ''

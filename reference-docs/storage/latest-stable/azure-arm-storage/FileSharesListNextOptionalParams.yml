@@ -54,7 +54,7 @@ properties:
     syntax:
       content: 'expand?: ListSharesExpand'
       return:
-        type: <xref uid="@azure/arm-storage.ListSharesExpand" />
+        type: <xref uid="@azure/arm-storage.ListSharesExpand|latest-stable" />
         description: ''
   - name: filter
     uid: '@azure/arm-storage.FileSharesListNextOptionalParams.filter|latest-stable'

@@ -66,4 +66,7 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/ai-form-recognizer.FormRecognizerOperationOptions" />
+extends: >-
+  <xref
+  uid="@azure/ai-form-recognizer.FormRecognizerOperationOptions|latest-stable"
+  />

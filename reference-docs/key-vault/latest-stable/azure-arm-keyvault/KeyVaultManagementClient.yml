@@ -47,7 +47,7 @@ constructors:
             subscription. The subscription ID forms part of the URI for every
             service call.
         - id: options
-          type: <xref uid="Models.KeyVaultManagementClientOptions" />
+          type: <xref uid="Models.KeyVaultManagementClientOptions|latest-stable" />
           description: ''
 properties:
   - name: acceptLanguage
@@ -116,7 +116,7 @@ properties:
     syntax:
       content: 'operations: Operations'
       return:
-        type: <xref uid="@azure/arm-keyvault.Operations" />
+        type: <xref uid="@azure/arm-keyvault.Operations|latest-stable" />
         description: ''
   - name: subscriptionId
     uid: '@azure/arm-keyvault.KeyVaultManagementClient.subscriptionId|latest-stable'
@@ -142,7 +142,7 @@ properties:
     syntax:
       content: 'vaults: Vaults'
       return:
-        type: <xref uid="@azure/arm-keyvault.Vaults" />
+        type: <xref uid="@azure/arm-keyvault.Vaults|latest-stable" />
         description: ''
 methods:
   - name: >-
@@ -302,4 +302,6 @@ methods:
       return:
         type: Promise&lt;HttpOperationResponse&gt;
         description: ''
-extends: <xref uid="@azure/arm-keyvault.KeyVaultManagementClientContext" />
+extends: >-
+  <xref uid="@azure/arm-keyvault.KeyVaultManagementClientContext|latest-stable"
+  />

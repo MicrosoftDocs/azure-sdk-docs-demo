@@ -22,7 +22,7 @@ constructors:
         - id: client
           type: >-
             <xref
-            uid="@azure/arm-cognitiveservices.CognitiveServicesManagementClientContext"
+            uid="@azure/arm-cognitiveservices.CognitiveServicesManagementClientContext|latest-stable"
             />
           description: |
             Reference to the service client.
@@ -40,10 +40,12 @@ methods:
       content: 'function list(options?: msRest.RequestOptionsBase)'
       parameters:
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ResourceSkusListResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.ResourceSkusListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ResourceSkusListResponse>
   - name: list(RequestOptionsBase, ServiceCallback<ResourceSkuListResult>)
     uid: '@azure/arm-cognitiveservices.ResourceSkus.list_2|latest-stable'
@@ -63,7 +65,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.ResourceSkuListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.ResourceSkuListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: list(ServiceCallback<ResourceSkuListResult>)
@@ -79,7 +82,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.ResourceSkuListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.ResourceSkuListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, msRest.RequestOptionsBase)
@@ -100,10 +104,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ResourceSkusListNextResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.ResourceSkusListNextResponse|latest-stable" />&gt;
         description: Promise<Models.ResourceSkusListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,
@@ -128,7 +134,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.ResourceSkuListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.ResourceSkuListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, ServiceCallback<ResourceSkuListResult>)
@@ -149,6 +156,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.ResourceSkuListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.ResourceSkuListResult|latest-stable"
+            />&gt;
           description: |
             The callback

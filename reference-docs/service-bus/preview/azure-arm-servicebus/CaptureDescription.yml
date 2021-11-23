@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'destination?: Destination'
       return:
-        type: <xref uid="@azure/arm-servicebus.Destination" />
+        type: <xref uid="@azure/arm-servicebus.Destination|preview" />
         description: ''
   - name: enabled
     uid: '@azure/arm-servicebus.CaptureDescription.enabled|preview'
@@ -50,7 +50,9 @@ properties:
     syntax:
       content: 'encoding?: EncodingCaptureDescription'
       return:
-        type: <xref uid="@azure/arm-servicebus.EncodingCaptureDescription" />
+        type: >-
+          <xref uid="@azure/arm-servicebus.EncodingCaptureDescription|preview"
+          />
         description: ''
   - name: intervalInSeconds
     uid: '@azure/arm-servicebus.CaptureDescription.intervalInSeconds|preview'

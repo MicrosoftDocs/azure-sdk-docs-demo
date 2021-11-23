@@ -72,8 +72,9 @@ properties:
       content: 'encryptionKey?: SearchResourceEncryptionKey | null'
       return:
         type: >-
-          <xref uid="@azure/search-documents.SearchResourceEncryptionKey" /> |
-          null
+          <xref
+          uid="@azure/search-documents.SearchResourceEncryptionKey|latest-stable"
+          /> | null
         description: ''
   - name: etag
     uid: '@azure/search-documents.SearchIndexer.etag|latest-stable'
@@ -103,7 +104,7 @@ properties:
     syntax:
       content: 'fieldMappings?: FieldMapping[]'
       return:
-        type: <xref uid="@azure/search-documents.FieldMapping" />[]
+        type: <xref uid="@azure/search-documents.FieldMapping|latest-stable" />[]
         description: ''
   - name: isDisabled
     uid: '@azure/search-documents.SearchIndexer.isDisabled|latest-stable'
@@ -146,7 +147,7 @@ properties:
     syntax:
       content: 'outputFieldMappings?: FieldMapping[]'
       return:
-        type: <xref uid="@azure/search-documents.FieldMapping" />[]
+        type: <xref uid="@azure/search-documents.FieldMapping|latest-stable" />[]
         description: ''
   - name: parameters
     uid: '@azure/search-documents.SearchIndexer.parameters|latest-stable'
@@ -159,7 +160,9 @@ properties:
     syntax:
       content: 'parameters?: IndexingParameters | null'
       return:
-        type: <xref uid="@azure/search-documents.IndexingParameters" /> | null
+        type: >-
+          <xref uid="@azure/search-documents.IndexingParameters|latest-stable"
+          /> | null
         description: ''
   - name: schedule
     uid: '@azure/search-documents.SearchIndexer.schedule|latest-stable'
@@ -172,7 +175,9 @@ properties:
     syntax:
       content: 'schedule?: IndexingSchedule | null'
       return:
-        type: <xref uid="@azure/search-documents.IndexingSchedule" /> | null
+        type: >-
+          <xref uid="@azure/search-documents.IndexingSchedule|latest-stable" />
+          | null
         description: ''
   - name: skillsetName
     uid: '@azure/search-documents.SearchIndexer.skillsetName|latest-stable'

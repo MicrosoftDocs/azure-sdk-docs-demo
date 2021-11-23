@@ -25,7 +25,7 @@ constructors:
         - id: client
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.AppConfigurationManagementClientContext"
+            uid="@azure/arm-appconfiguration.AppConfigurationManagementClientContext|latest-stable"
             />
           description: |
             Reference to the service client.
@@ -63,10 +63,13 @@ methods:
           type: string
           description: Private endpoint connection name
         - id: privateEndpointConnection
-          type: <xref uid="@azure/arm-appconfiguration.PrivateEndpointConnection" />
+          type: >-
+            <xref
+            uid="@azure/arm-appconfiguration.PrivateEndpointConnection|latest-stable"
+            />
           description: The private endpoint connection properties.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -97,7 +100,7 @@ methods:
           type: string
           description: Private endpoint connection name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -135,15 +138,19 @@ methods:
           type: string
           description: Private endpoint connection name
         - id: privateEndpointConnection
-          type: <xref uid="@azure/arm-appconfiguration.PrivateEndpointConnection" />
+          type: >-
+            <xref
+            uid="@azure/arm-appconfiguration.PrivateEndpointConnection|latest-stable"
+            />
           description: The private endpoint connection properties.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateEndpointConnectionsCreateOrUpdateResponse" />&gt;
+          uid="Models.PrivateEndpointConnectionsCreateOrUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateEndpointConnectionsCreateOrUpdateResponse>
   - name: deleteMethod(string, string, string, msRest.RequestOptionsBase)
     uid: >-
@@ -171,7 +178,7 @@ methods:
           type: string
           description: Private endpoint connection name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -203,11 +210,12 @@ methods:
           type: string
           description: Private endpoint connection name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.PrivateEndpointConnectionsGetResponse"
+          Promise&lt;<xref
+          uid="Models.PrivateEndpointConnectionsGetResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateEndpointConnectionsGetResponse>
   - name: >-
@@ -242,7 +250,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.PrivateEndpointConnection" />&gt;
+            uid="@azure/arm-appconfiguration.PrivateEndpointConnection|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: get(string, string, string, ServiceCallback<PrivateEndpointConnection>)
@@ -272,7 +281,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.PrivateEndpointConnection" />&gt;
+            uid="@azure/arm-appconfiguration.PrivateEndpointConnection|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listByConfigurationStore(string, string, msRest.RequestOptionsBase)
@@ -297,12 +307,12 @@ methods:
           type: string
           description: The name of the configuration store.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateEndpointConnectionsListByConfigurationStoreResponse"
+          uid="Models.PrivateEndpointConnectionsListByConfigurationStoreResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.PrivateEndpointConnectionsListByConfigurationStoreResponse>
@@ -336,7 +346,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.PrivateEndpointConnectionListResult"
+            uid="@azure/arm-appconfiguration.PrivateEndpointConnectionListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -367,7 +377,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.PrivateEndpointConnectionListResult"
+            uid="@azure/arm-appconfiguration.PrivateEndpointConnectionListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -388,12 +398,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateEndpointConnectionsListByConfigurationStoreNextResponse"
+          uid="Models.PrivateEndpointConnectionsListByConfigurationStoreNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.PrivateEndpointConnectionsListByConfigurationStoreNextResponse>
@@ -422,7 +432,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.PrivateEndpointConnectionListResult"
+            uid="@azure/arm-appconfiguration.PrivateEndpointConnectionListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -447,7 +457,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.PrivateEndpointConnectionListResult"
+            uid="@azure/arm-appconfiguration.PrivateEndpointConnectionListResult|latest-stable"
             />&gt;
           description: |
             The callback

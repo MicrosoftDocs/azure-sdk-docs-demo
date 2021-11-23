@@ -34,5 +34,5 @@ properties:
     syntax:
       content: 'handleList?: HandleItem[]'
       return:
-        type: <xref uid="@azure/storage-file-share.HandleItem" />[]
+        type: <xref uid="@azure/storage-file-share.HandleItem|latest-stable" />[]
         description: ''

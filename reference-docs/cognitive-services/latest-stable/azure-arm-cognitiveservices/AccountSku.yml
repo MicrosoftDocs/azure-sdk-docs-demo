@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'sku?: Sku'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.Sku" />
+        type: <xref uid="@azure/arm-cognitiveservices.Sku|latest-stable" />
         description: ''

@@ -115,4 +115,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-file-share.ShareCreateHeaders" /> & Object
+extends: <xref uid="@azure/storage-file-share.ShareCreateHeaders|preview" /> & Object

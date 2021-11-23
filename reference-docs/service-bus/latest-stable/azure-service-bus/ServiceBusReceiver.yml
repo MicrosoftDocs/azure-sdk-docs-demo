@@ -68,7 +68,9 @@ methods:
         propertiesToModify?: [key: string]: any)
       parameters:
         - id: message
-          type: <xref uid="@azure/service-bus.ServiceBusReceivedMessage" />
+          type: >-
+            <xref
+            uid="@azure/service-bus.ServiceBusReceivedMessage|latest-stable" />
           description: ''
         - id: propertiesToModify
           type: '[key: string]\: any'
@@ -107,7 +109,9 @@ methods:
       content: 'function completeMessage(message: ServiceBusReceivedMessage)'
       parameters:
         - id: message
-          type: <xref uid="@azure/service-bus.ServiceBusReceivedMessage" />
+          type: >-
+            <xref
+            uid="@azure/service-bus.ServiceBusReceivedMessage|latest-stable" />
           description: ''
       return:
         type: Promise&lt;void&gt;
@@ -132,12 +136,14 @@ methods:
         DeadLetterOptions & [key: string]: any)
       parameters:
         - id: message
-          type: <xref uid="@azure/service-bus.ServiceBusReceivedMessage" />
+          type: >-
+            <xref
+            uid="@azure/service-bus.ServiceBusReceivedMessage|latest-stable" />
           description: ''
         - id: options
           type: >-
-            <xref uid="@azure/service-bus.DeadLetterOptions" /> & [key: string]:
-            any
+            <xref uid="@azure/service-bus.DeadLetterOptions|latest-stable" /> &
+            [key: string]: any
           description: |
             The DeadLetter options that can be provided while
             rejecting the message.
@@ -162,7 +168,9 @@ methods:
         propertiesToModify?: [key: string]: any)
       parameters:
         - id: message
-          type: <xref uid="@azure/service-bus.ServiceBusReceivedMessage" />
+          type: >-
+            <xref
+            uid="@azure/service-bus.ServiceBusReceivedMessage|latest-stable" />
           description: ''
         - id: propertiesToModify
           type: '[key: string]\: any'
@@ -182,14 +190,17 @@ methods:
       content: 'function getMessageIterator(options?: GetMessageIteratorOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/service-bus.GetMessageIteratorOptions" />
+          type: >-
+            <xref
+            uid="@azure/service-bus.GetMessageIteratorOptions|latest-stable" />
           description: |
             A set of options to control the receive operation.
             - `abortSignal`: The signal to use to abort the ongoing operation.
       return:
         type: >-
           AsyncIterableIterator&lt;<xref
-          uid="@azure/service-bus.ServiceBusReceivedMessage" />&gt;
+          uid="@azure/service-bus.ServiceBusReceivedMessage|latest-stable"
+          />&gt;
         description: ''
   - name: peekMessages(number, PeekMessagesOptions)
     uid: '@azure/service-bus.ServiceBusReceiver.peekMessages|latest-stable'
@@ -221,7 +232,7 @@ methods:
           type: number
           description: The maximum number of messages to peek.
         - id: options
-          type: <xref uid="@azure/service-bus.PeekMessagesOptions" />
+          type: <xref uid="@azure/service-bus.PeekMessagesOptions|latest-stable" />
           description: >
             Options that allow to specify the maximum number of messages to
             peek,
@@ -230,7 +241,8 @@ methods:
             the operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/service-bus.ServiceBusReceivedMessage"
+          Promise&lt;<xref
+          uid="@azure/service-bus.ServiceBusReceivedMessage|latest-stable"
           />[]&gt;
         description: ''
   - name: receiveDeferredMessages(Long_2 | Long_2[], OperationOptionsBase)
@@ -254,11 +266,12 @@ methods:
             The sequence number or an array of sequence numbers for the messages
             that need to be received.
         - id: options
-          type: <xref uid="@azure/service-bus.OperationOptionsBase" />
+          type: <xref uid="@azure/service-bus.OperationOptionsBase|latest-stable" />
           description: Options bag to pass an abort signal or tracing options.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/service-bus.ServiceBusReceivedMessage"
+          Promise&lt;<xref
+          uid="@azure/service-bus.ServiceBusReceivedMessage|latest-stable"
           />[]&gt;
         description: >-
           A list of messages identified by the given sequenceNumbers or an empty
@@ -281,7 +294,9 @@ methods:
           type: number
           description: The maximum number of messages to receive.
         - id: options
-          type: <xref uid="@azure/service-bus.ReceiveMessagesOptions" />
+          type: >-
+            <xref uid="@azure/service-bus.ReceiveMessagesOptions|latest-stable"
+            />
           description: >-
             A set of options to control the receive operation.
 
@@ -291,7 +306,8 @@ methods:
             - `abortSignal`: The signal to use to abort the ongoing operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/service-bus.ServiceBusReceivedMessage"
+          Promise&lt;<xref
+          uid="@azure/service-bus.ServiceBusReceivedMessage|latest-stable"
           />[]&gt;
         description: A promise that resolves with an array of messages.
   - name: renewMessageLock(ServiceBusReceivedMessage)
@@ -320,7 +336,9 @@ methods:
       content: 'function renewMessageLock(message: ServiceBusReceivedMessage)'
       parameters:
         - id: message
-          type: <xref uid="@azure/service-bus.ServiceBusReceivedMessage" />
+          type: >-
+            <xref
+            uid="@azure/service-bus.ServiceBusReceivedMessage|latest-stable" />
           description: ''
       return:
         type: Promise&lt;Date&gt;
@@ -338,10 +356,10 @@ methods:
         SubscribeOptions)
       parameters:
         - id: handlers
-          type: <xref uid="@azure/service-bus.MessageHandlers" />
+          type: <xref uid="@azure/service-bus.MessageHandlers|latest-stable" />
           description: A handler that gets called for messages and errors.
         - id: options
-          type: <xref uid="@azure/service-bus.SubscribeOptions" />
+          type: <xref uid="@azure/service-bus.SubscribeOptions|latest-stable" />
           description: Options for subscribe.
       return:
         type: Object

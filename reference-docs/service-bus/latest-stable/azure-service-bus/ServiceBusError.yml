@@ -37,7 +37,7 @@ constructors:
           type: string
           description: The error message that provides more information about the error.
         - id: code
-          type: <xref uid="@azure/service-bus.ServiceBusErrorCode" />
+          type: <xref uid="@azure/service-bus.ServiceBusErrorCode|latest-stable" />
           description: |
             The reason for the failure.
 properties:
@@ -109,7 +109,7 @@ properties:
     syntax:
       content: 'code: ServiceBusErrorCode'
       return:
-        type: <xref uid="@azure/service-bus.ServiceBusErrorCode" />
+        type: <xref uid="@azure/service-bus.ServiceBusErrorCode|latest-stable" />
         description: ''
   - name: errno
     uid: '@azure/service-bus.ServiceBusError.errno|latest-stable'

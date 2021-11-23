@@ -157,7 +157,9 @@ properties:
     syntax:
       content: 'recoveryLevel?: DeletionRecoveryLevel'
       return:
-        type: <xref uid="@azure/keyvault-keys.DeletionRecoveryLevel" />
+        type: >-
+          <xref uid="@azure/keyvault-keys.DeletionRecoveryLevel|latest-stable"
+          />
         description: ''
   - name: tags
     uid: '@azure/keyvault-keys.KeyProperties.tags|latest-stable'

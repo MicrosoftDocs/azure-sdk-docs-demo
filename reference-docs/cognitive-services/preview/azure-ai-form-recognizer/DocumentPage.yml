@@ -50,7 +50,7 @@ properties:
     syntax:
       content: 'lines: DocumentLine[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentLine" />[]
+        type: <xref uid="@azure/ai-form-recognizer.DocumentLine|preview" />[]
         description: ''
   - name: pageNumber
     uid: '@azure/ai-form-recognizer.DocumentPage.pageNumber|preview'
@@ -76,7 +76,9 @@ properties:
     syntax:
       content: 'selectionMarks?: DocumentSelectionMark[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentSelectionMark" />[]
+        type: >-
+          <xref uid="@azure/ai-form-recognizer.DocumentSelectionMark|preview"
+          />[]
         description: ''
   - name: spans
     uid: '@azure/ai-form-recognizer.DocumentPage.spans|preview'
@@ -89,7 +91,7 @@ properties:
     syntax:
       content: 'spans: DocumentSpan[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentSpan" />[]
+        type: <xref uid="@azure/ai-form-recognizer.DocumentSpan|preview" />[]
         description: ''
   - name: unit
     uid: '@azure/ai-form-recognizer.DocumentPage.unit|preview'
@@ -104,7 +106,7 @@ properties:
     syntax:
       content: 'unit: LengthUnit'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.LengthUnit" />
+        type: <xref uid="@azure/ai-form-recognizer.LengthUnit|preview" />
         description: ''
   - name: width
     uid: '@azure/ai-form-recognizer.DocumentPage.width|preview'
@@ -130,5 +132,5 @@ properties:
     syntax:
       content: 'words: DocumentWord[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentWord" />[]
+        type: <xref uid="@azure/ai-form-recognizer.DocumentWord|preview" />[]
         description: ''

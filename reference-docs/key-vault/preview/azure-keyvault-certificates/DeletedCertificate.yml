@@ -97,7 +97,7 @@ properties:
     syntax:
       content: 'policy?: CertificatePolicy'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificatePolicy" />
+        type: <xref uid="@azure/keyvault-certificates.CertificatePolicy|preview" />
         description: ''
   - name: properties
     uid: '@azure/keyvault-certificates.DeletedCertificate.properties|preview'
@@ -110,7 +110,9 @@ properties:
     syntax:
       content: 'properties: CertificateProperties'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificateProperties" />
+        type: >-
+          <xref uid="@azure/keyvault-certificates.CertificateProperties|preview"
+          />
         description: ''
   - name: recoveryId
     uid: '@azure/keyvault-certificates.DeletedCertificate.recoveryId|preview'
@@ -160,4 +162,6 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy" />
+extends: >-
+  <xref uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy|preview"
+  />

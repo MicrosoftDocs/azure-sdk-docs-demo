@@ -170,7 +170,7 @@ properties:
     syntax:
       content: 'recoveryLevel?: DeletionRecoveryLevel'
       return:
-        type: <xref uid="@azure/keyvault-keys.DeletionRecoveryLevel" />
+        type: <xref uid="@azure/keyvault-keys.DeletionRecoveryLevel|preview" />
         description: ''
   - name: releasePolicy
     uid: '@azure/keyvault-keys.KeyProperties.releasePolicy|preview'
@@ -185,7 +185,7 @@ properties:
     syntax:
       content: 'releasePolicy?: KeyReleasePolicy'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyReleasePolicy" />
+        type: <xref uid="@azure/keyvault-keys.KeyReleasePolicy|preview" />
         description: ''
   - name: tags
     uid: '@azure/keyvault-keys.KeyProperties.tags|preview'

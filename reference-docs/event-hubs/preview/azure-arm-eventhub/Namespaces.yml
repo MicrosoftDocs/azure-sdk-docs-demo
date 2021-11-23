@@ -35,19 +35,21 @@ methods:
           type: string
           description: The Namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+          type: <xref uid="@azure/arm-eventhub.EHNamespace|preview" />
           description: Parameters for creating a namespace resource.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.NamespacesCreateOrUpdateOptionalParams" />
+            uid="@azure/arm-eventhub.NamespacesCreateOrUpdateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-eventhub.NamespacesCreateOrUpdateResponse" />&gt;,
-          <xref uid="@azure/arm-eventhub.NamespacesCreateOrUpdateResponse"
+          uid="@azure/arm-eventhub.NamespacesCreateOrUpdateResponse|preview"
+          />&gt;, <xref
+          uid="@azure/arm-eventhub.NamespacesCreateOrUpdateResponse|preview"
           />&gt;&gt;
         description: ''
   - name: >-
@@ -76,18 +78,20 @@ methods:
           type: string
           description: The Namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+          type: <xref uid="@azure/arm-eventhub.EHNamespace|preview" />
           description: Parameters for creating a namespace resource.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.NamespacesCreateOrUpdateOptionalParams" />
+            uid="@azure/arm-eventhub.NamespacesCreateOrUpdateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.NamespacesCreateOrUpdateResponse" />&gt;
+          uid="@azure/arm-eventhub.NamespacesCreateOrUpdateResponse|preview"
+          />&gt;
         description: ''
   - name: beginDelete(string, string, NamespacesDeleteOptionalParams)
     uid: '@azure/arm-eventhub.Namespaces.beginDelete|preview'
@@ -112,7 +116,9 @@ methods:
           type: string
           description: The Namespace name
         - id: options
-          type: <xref uid="@azure/arm-eventhub.NamespacesDeleteOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.NamespacesDeleteOptionalParams|preview" />
           description: |
             The options parameters.
       return:
@@ -141,7 +147,9 @@ methods:
           type: string
           description: The Namespace name
         - id: options
-          type: <xref uid="@azure/arm-eventhub.NamespacesDeleteOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.NamespacesDeleteOptionalParams|preview" />
           description: |
             The options parameters.
       return:
@@ -163,19 +171,21 @@ methods:
         NamespacesCheckNameAvailabilityOptionalParams)
       parameters:
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.CheckNameAvailabilityParameter" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.CheckNameAvailabilityParameter|preview" />
           description: Parameters to check availability of the given Namespace name
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.NamespacesCheckNameAvailabilityOptionalParams"
+            uid="@azure/arm-eventhub.NamespacesCheckNameAvailabilityOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.NamespacesCheckNameAvailabilityResponse"
+          uid="@azure/arm-eventhub.NamespacesCheckNameAvailabilityResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -204,19 +214,19 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.AuthorizationRule" />
+          type: <xref uid="@azure/arm-eventhub.AuthorizationRule|preview" />
           description: The shared access AuthorizationRule.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.NamespacesCreateOrUpdateAuthorizationRuleOptionalParams"
+            uid="@azure/arm-eventhub.NamespacesCreateOrUpdateAuthorizationRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.NamespacesCreateOrUpdateAuthorizationRuleResponse"
+          uid="@azure/arm-eventhub.NamespacesCreateOrUpdateAuthorizationRuleResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -241,19 +251,19 @@ methods:
           type: string
           description: The Namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.NetworkRuleSet" />
+          type: <xref uid="@azure/arm-eventhub.NetworkRuleSet|preview" />
           description: The Namespace IpFilterRule.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.NamespacesCreateOrUpdateNetworkRuleSetOptionalParams"
+            uid="@azure/arm-eventhub.NamespacesCreateOrUpdateNetworkRuleSetOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.NamespacesCreateOrUpdateNetworkRuleSetResponse"
+          uid="@azure/arm-eventhub.NamespacesCreateOrUpdateNetworkRuleSetResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -283,7 +293,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.NamespacesDeleteAuthorizationRuleOptionalParams"
+            uid="@azure/arm-eventhub.NamespacesDeleteAuthorizationRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -309,13 +319,15 @@ methods:
           type: string
           description: The Namespace name
         - id: options
-          type: <xref uid="@azure/arm-eventhub.NamespacesGetOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-eventhub.NamespacesGetOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-eventhub.NamespacesGetResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.NamespacesGetResponse|preview" />&gt;
         description: ''
   - name: >-
       getAuthorizationRule(string, string, string,
@@ -344,14 +356,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.NamespacesGetAuthorizationRuleOptionalParams"
+            uid="@azure/arm-eventhub.NamespacesGetAuthorizationRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.NamespacesGetAuthorizationRuleResponse"
+          uid="@azure/arm-eventhub.NamespacesGetAuthorizationRuleResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -377,14 +389,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.NamespacesGetNetworkRuleSetOptionalParams"
+            uid="@azure/arm-eventhub.NamespacesGetNetworkRuleSetOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.NamespacesGetNetworkRuleSetResponse" />&gt;
+          uid="@azure/arm-eventhub.NamespacesGetNetworkRuleSetResponse|preview"
+          />&gt;
         description: ''
   - name: list(NamespacesListOptionalParams)
     uid: '@azure/arm-eventhub.Namespaces.list|preview'
@@ -399,13 +412,15 @@ methods:
       content: 'function list(options?: NamespacesListOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="@azure/arm-eventhub.NamespacesListOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-eventhub.NamespacesListOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventhub.EHNamespace" />&gt;
+          uid="@azure/arm-eventhub.EHNamespace|preview" />&gt;
         description: ''
   - name: >-
       listAuthorizationRules(string, string,
@@ -431,14 +446,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.NamespacesListAuthorizationRulesOptionalParams"
+            uid="@azure/arm-eventhub.NamespacesListAuthorizationRulesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventhub.AuthorizationRule" />&gt;
+          uid="@azure/arm-eventhub.AuthorizationRule|preview" />&gt;
         description: ''
   - name: listByResourceGroup(string, NamespacesListByResourceGroupOptionalParams)
     uid: '@azure/arm-eventhub.Namespaces.listByResourceGroup|preview'
@@ -458,14 +473,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.NamespacesListByResourceGroupOptionalParams"
+            uid="@azure/arm-eventhub.NamespacesListByResourceGroupOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventhub.EHNamespace" />&gt;
+          uid="@azure/arm-eventhub.EHNamespace|preview" />&gt;
         description: ''
   - name: listKeys(string, string, string, NamespacesListKeysOptionalParams)
     uid: '@azure/arm-eventhub.Namespaces.listKeys|preview'
@@ -490,13 +505,16 @@ methods:
           type: string
           description: The authorization rule name.
         - id: options
-          type: <xref uid="@azure/arm-eventhub.NamespacesListKeysOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.NamespacesListKeysOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-eventhub.NamespacesListKeysResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.NamespacesListKeysResponse|preview" />&gt;
         description: ''
   - name: >-
       regenerateKeys(string, string, string, RegenerateAccessKeyParameters,
@@ -526,18 +544,22 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.RegenerateAccessKeyParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.RegenerateAccessKeyParameters|preview" />
           description: Parameters required to regenerate the connection string.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.NamespacesRegenerateKeysOptionalParams" />
+            uid="@azure/arm-eventhub.NamespacesRegenerateKeysOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.NamespacesRegenerateKeysResponse" />&gt;
+          uid="@azure/arm-eventhub.NamespacesRegenerateKeysResponse|preview"
+          />&gt;
         description: ''
   - name: update(string, string, EHNamespace, NamespacesUpdateOptionalParams)
     uid: '@azure/arm-eventhub.Namespaces.update|preview'
@@ -562,14 +584,16 @@ methods:
           type: string
           description: The Namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+          type: <xref uid="@azure/arm-eventhub.EHNamespace|preview" />
           description: Parameters for updating a namespace resource.
         - id: options
-          type: <xref uid="@azure/arm-eventhub.NamespacesUpdateOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.NamespacesUpdateOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-eventhub.NamespacesUpdateResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.NamespacesUpdateResponse|preview" />&gt;
         description: ''

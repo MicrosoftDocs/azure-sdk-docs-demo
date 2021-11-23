@@ -44,13 +44,16 @@ methods:
                                        letters and dash (-) only. Every dash (-) character must be immediately preceded and followed by a
                                        letter or number.
         - id: options
-          type: <xref uid="@azure/arm-storage.EncryptionScopesGetOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.EncryptionScopesGetOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-storage.EncryptionScopesGetResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-storage.EncryptionScopesGetResponse|preview" />&gt;
         description: ''
   - name: list(string, string, EncryptionScopesListOptionalParams)
     uid: '@azure/arm-storage.EncryptionScopes.list|preview'
@@ -80,13 +83,16 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: options
-          type: <xref uid="@azure/arm-storage.EncryptionScopesListOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.EncryptionScopesListOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-storage.EncryptionScope" />&gt;
+          uid="@azure/arm-storage.EncryptionScope|preview" />&gt;
         description: ''
   - name: >-
       patch(string, string, string, EncryptionScope,
@@ -129,18 +135,19 @@ methods:
                                        letters and dash (-) only. Every dash (-) character must be immediately preceded and followed by a
                                        letter or number.
         - id: encryptionScope
-          type: <xref uid="@azure/arm-storage.EncryptionScope" />
+          type: <xref uid="@azure/arm-storage.EncryptionScope|preview" />
           description: Encryption scope properties to be used for the update.
         - id: options
           type: >-
-            <xref uid="@azure/arm-storage.EncryptionScopesPatchOptionalParams"
+            <xref
+            uid="@azure/arm-storage.EncryptionScopesPatchOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.EncryptionScopesPatchResponse" />&gt;
+          uid="@azure/arm-storage.EncryptionScopesPatchResponse|preview" />&gt;
         description: ''
   - name: >-
       put(string, string, string, EncryptionScope,
@@ -186,14 +193,17 @@ methods:
                                        letters and dash (-) only. Every dash (-) character must be immediately preceded and followed by a
                                        letter or number.
         - id: encryptionScope
-          type: <xref uid="@azure/arm-storage.EncryptionScope" />
+          type: <xref uid="@azure/arm-storage.EncryptionScope|preview" />
           description: Encryption scope properties to be used for the create or update.
         - id: options
-          type: <xref uid="@azure/arm-storage.EncryptionScopesPutOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.EncryptionScopesPutOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-storage.EncryptionScopesPutResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-storage.EncryptionScopesPutResponse|preview" />&gt;
         description: ''

@@ -180,7 +180,7 @@ properties:
     syntax:
       content: 'method: HttpMethods'
       return:
-        type: <xref uid="@azure/core-http.HttpMethods" />
+        type: <xref uid="@azure/core-http.HttpMethods|latest-stable" />
         description: ''
   - name: onDownloadProgress
     uid: '@azure/core-http.RequestPrepareOptions.onDownloadProgress|latest-stable'
@@ -302,7 +302,7 @@ properties:
     syntax:
       content: 'serializationMapper?: Mapper'
       return:
-        type: <xref uid="@azure/core-http.Mapper" />
+        type: <xref uid="@azure/core-http.Mapper|latest-stable" />
         description: ''
   - name: spanOptions
     uid: '@azure/core-http.RequestPrepareOptions.spanOptions|latest-stable'

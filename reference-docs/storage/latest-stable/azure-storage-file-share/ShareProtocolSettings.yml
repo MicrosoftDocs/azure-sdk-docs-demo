@@ -20,5 +20,7 @@ properties:
     syntax:
       content: 'smb?: ShareSmbSettings'
       return:
-        type: <xref uid="@azure/storage-file-share.ShareSmbSettings" />
+        type: >-
+          <xref uid="@azure/storage-file-share.ShareSmbSettings|latest-stable"
+          />
         description: ''

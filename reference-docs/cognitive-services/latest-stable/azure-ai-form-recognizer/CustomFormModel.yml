@@ -20,7 +20,9 @@ properties:
     syntax:
       content: 'errors?: FormRecognizerError[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormRecognizerError" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-form-recognizer.FormRecognizerError|latest-stable" />[]
         description: ''
   - name: modelId
     uid: '@azure/ai-form-recognizer.CustomFormModel.modelId|latest-stable'
@@ -61,7 +63,10 @@ properties:
     syntax:
       content: 'properties?: CustomFormModelProperties'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.CustomFormModelProperties" />
+        type: >-
+          <xref
+          uid="@azure/ai-form-recognizer.CustomFormModelProperties|latest-stable"
+          />
         description: ''
   - name: status
     uid: '@azure/ai-form-recognizer.CustomFormModel.status|latest-stable'
@@ -74,7 +79,7 @@ properties:
     syntax:
       content: 'status: ModelStatus'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.ModelStatus" />
+        type: <xref uid="@azure/ai-form-recognizer.ModelStatus|latest-stable" />
         description: ''
   - name: submodels
     uid: '@azure/ai-form-recognizer.CustomFormModel.submodels|latest-stable'
@@ -87,7 +92,9 @@ properties:
     syntax:
       content: 'submodels?: CustomFormSubmodel[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.CustomFormSubmodel" />[]
+        type: >-
+          <xref uid="@azure/ai-form-recognizer.CustomFormSubmodel|latest-stable"
+          />[]
         description: ''
   - name: trainingCompletedOn
     uid: >-
@@ -116,7 +123,10 @@ properties:
     syntax:
       content: 'trainingDocuments?: TrainingDocumentInfo[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.TrainingDocumentInfo" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-form-recognizer.TrainingDocumentInfo|latest-stable"
+          />[]
         description: ''
   - name: trainingStartedOn
     uid: '@azure/ai-form-recognizer.CustomFormModel.trainingStartedOn|latest-stable'
@@ -131,4 +141,4 @@ properties:
       return:
         type: Date
         description: ''
-extends: <xref uid="@azure/ai-form-recognizer.CustomFormModelInfo" />
+extends: <xref uid="@azure/ai-form-recognizer.CustomFormModelInfo|latest-stable" />

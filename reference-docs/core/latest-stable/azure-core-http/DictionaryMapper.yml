@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'constraints?: MapperConstraints'
       return:
-        type: <xref uid="@azure/core-http.MapperConstraints" />
+        type: <xref uid="@azure/core-http.MapperConstraints|latest-stable" />
         description: ''
   - name: defaultValue
     uid: '@azure/core-http.DictionaryMapper.defaultValue|latest-stable'
@@ -124,7 +124,7 @@ properties:
     syntax:
       content: 'type: DictionaryMapperType'
       return:
-        type: <xref uid="@azure/core-http.DictionaryMapperType" />
+        type: <xref uid="@azure/core-http.DictionaryMapperType|latest-stable" />
         description: ''
   - name: xmlElementName
     uid: '@azure/core-http.DictionaryMapper.xmlElementName|latest-stable'
@@ -206,4 +206,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/core-http.BaseMapper" />
+extends: <xref uid="@azure/core-http.BaseMapper|latest-stable" />

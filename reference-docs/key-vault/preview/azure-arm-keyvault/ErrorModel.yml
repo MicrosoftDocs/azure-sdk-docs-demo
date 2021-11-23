@@ -41,7 +41,7 @@ properties:
     syntax:
       content: 'innerError?: ErrorModel'
       return:
-        type: <xref uid="@azure/arm-keyvault.ErrorModel" />
+        type: <xref uid="@azure/arm-keyvault.ErrorModel|preview" />
         description: ''
   - name: message
     uid: '@azure/arm-keyvault.ErrorModel.message|preview'

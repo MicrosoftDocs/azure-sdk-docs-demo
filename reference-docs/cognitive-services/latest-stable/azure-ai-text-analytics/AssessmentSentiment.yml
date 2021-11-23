@@ -27,7 +27,10 @@ properties:
     syntax:
       content: 'confidenceScores: TargetConfidenceScoreLabel'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TargetConfidenceScoreLabel" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TargetConfidenceScoreLabel|latest-stable"
+          />
         description: ''
   - name: isNegated
     uid: '@azure/ai-text-analytics.AssessmentSentiment.isNegated|latest-stable'
@@ -79,7 +82,9 @@ properties:
     syntax:
       content: 'sentiment: TokenSentimentValue'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TokenSentimentValue" />
+        type: >-
+          <xref uid="@azure/ai-text-analytics.TokenSentimentValue|latest-stable"
+          />
         description: ''
   - name: text
     uid: '@azure/ai-text-analytics.AssessmentSentiment.text|latest-stable'
@@ -94,4 +99,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.SentenceAssessment" />
+extends: <xref uid="@azure/ai-text-analytics.SentenceAssessment|latest-stable" />

@@ -35,7 +35,10 @@ properties:
     syntax:
       content: 'conditions?: DataLakeRequestConditions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.DataLakeRequestConditions" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.DataLakeRequestConditions|preview"
+          />
         description: ''
   - name: tracingOptions
     uid: >-
@@ -65,4 +68,4 @@ properties:
       return:
         type: boolean
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />
+extends: <xref uid="@azure/storage-file-datalake.CommonOptions|preview" />

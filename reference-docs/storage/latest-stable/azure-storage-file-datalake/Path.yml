@@ -111,5 +111,7 @@ properties:
     syntax:
       content: 'permissions?: PathPermissions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.PathPermissions" />
+        type: >-
+          <xref uid="@azure/storage-file-datalake.PathPermissions|latest-stable"
+          />
         description: ''

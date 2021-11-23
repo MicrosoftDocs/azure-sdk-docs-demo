@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'createMode?: CreateMode'
       return:
-        type: <xref uid="@azure/arm-keyvault.CreateMode" />
+        type: <xref uid="@azure/arm-keyvault.CreateMode|preview" />
         description: ''
   - name: enablePurgeProtection
     uid: '@azure/arm-keyvault.ManagedHsmProperties.enablePurgeProtection|preview'
@@ -103,7 +103,7 @@ properties:
     syntax:
       content: 'networkAcls?: MhsmNetworkRuleSet'
       return:
-        type: <xref uid="@azure/arm-keyvault.MhsmNetworkRuleSet" />
+        type: <xref uid="@azure/arm-keyvault.MhsmNetworkRuleSet|preview" />
         description: ''
   - name: privateEndpointConnections
     uid: >-
@@ -121,7 +121,10 @@ properties:
     syntax:
       content: 'privateEndpointConnections?: MhsmPrivateEndpointConnectionItem[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.MhsmPrivateEndpointConnectionItem" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-keyvault.MhsmPrivateEndpointConnectionItem|preview"
+          />[]
         description: ''
   - name: provisioningState
     uid: '@azure/arm-keyvault.ManagedHsmProperties.provisioningState|preview'
@@ -138,7 +141,7 @@ properties:
     syntax:
       content: 'provisioningState?: ProvisioningState'
       return:
-        type: <xref uid="@azure/arm-keyvault.ProvisioningState" />
+        type: <xref uid="@azure/arm-keyvault.ProvisioningState|preview" />
         description: ''
   - name: publicNetworkAccess
     uid: '@azure/arm-keyvault.ManagedHsmProperties.publicNetworkAccess|preview'
@@ -153,7 +156,7 @@ properties:
     syntax:
       content: 'publicNetworkAccess?: PublicNetworkAccess'
       return:
-        type: <xref uid="@azure/arm-keyvault.PublicNetworkAccess" />
+        type: <xref uid="@azure/arm-keyvault.PublicNetworkAccess|preview" />
         description: ''
   - name: scheduledPurgeDate
     uid: '@azure/arm-keyvault.ManagedHsmProperties.scheduledPurgeDate|preview'

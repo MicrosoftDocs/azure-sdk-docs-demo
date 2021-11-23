@@ -76,7 +76,10 @@ properties:
     syntax:
       content: 'restrictions?: ResourceSkuRestrictions[]'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.ResourceSkuRestrictions" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.ResourceSkuRestrictions|latest-stable"
+          />[]
         description: ''
   - name: tier
     uid: '@azure/arm-cognitiveservices.ResourceSku.tier|latest-stable'

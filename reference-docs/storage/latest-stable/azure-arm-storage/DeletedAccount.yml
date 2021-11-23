@@ -150,4 +150,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-storage.ProxyResource" />
+extends: <xref uid="@azure/arm-storage.ProxyResource|latest-stable" />

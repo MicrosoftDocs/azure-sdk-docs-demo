@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'boundingRegions?: BoundingRegion[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.BoundingRegion" />[]
+        type: <xref uid="@azure/ai-form-recognizer.BoundingRegion|preview" />[]
         description: ''
   - name: cells
     uid: '@azure/ai-form-recognizer.DocumentTable.cells|preview'
@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'cells: DocumentTableCell[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentTableCell" />[]
+        type: <xref uid="@azure/ai-form-recognizer.DocumentTableCell|preview" />[]
         description: ''
   - name: columnCount
     uid: '@azure/ai-form-recognizer.DocumentTable.columnCount|preview'
@@ -72,5 +72,5 @@ properties:
     syntax:
       content: 'spans: DocumentSpan[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentSpan" />[]
+        type: <xref uid="@azure/ai-form-recognizer.DocumentSpan|preview" />[]
         description: ''

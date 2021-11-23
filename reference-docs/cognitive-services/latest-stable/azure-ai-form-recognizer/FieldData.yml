@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'boundingBox?: Point2D[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.Point2D" />[]
+        type: <xref uid="@azure/ai-form-recognizer.Point2D|latest-stable" />[]
         description: ''
   - name: fieldElements
     uid: '@azure/ai-form-recognizer.FieldData.fieldElements|latest-stable'
@@ -39,7 +39,7 @@ properties:
     syntax:
       content: 'fieldElements?: FormElement[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormElement" />[]
+        type: <xref uid="@azure/ai-form-recognizer.FormElement|latest-stable" />[]
         description: ''
   - name: pageNumber
     uid: '@azure/ai-form-recognizer.FieldData.pageNumber|latest-stable'

@@ -20,5 +20,5 @@ properties:
     syntax:
       content: 'value?: MhsmPrivateLinkResource[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.MhsmPrivateLinkResource" />[]
+        type: <xref uid="@azure/arm-keyvault.MhsmPrivateLinkResource|preview" />[]
         description: ''

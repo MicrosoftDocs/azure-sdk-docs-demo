@@ -29,7 +29,9 @@ properties:
     syntax:
       content: 'apiVersion?: FormRecognizerApiVersion'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormRecognizerApiVersion" />
+        type: >-
+          <xref uid="@azure/ai-form-recognizer.FormRecognizerApiVersion|preview"
+          />
         description: ''
   - name: proxyOptions
     uid: >-
@@ -94,7 +96,7 @@ properties:
     syntax:
       content: 'stringIndexType?: StringIndexType'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.StringIndexType" />
+        type: <xref uid="@azure/ai-form-recognizer.StringIndexType|preview" />
         description: ''
   - name: userAgentOptions
     uid: >-
@@ -110,4 +112,6 @@ properties:
       return:
         type: UserAgentPolicyOptions
         description: ''
-extends: <xref uid="@azure/ai-form-recognizer.FormRecognizerCommonClientOptions" />
+extends: >-
+  <xref
+  uid="@azure/ai-form-recognizer.FormRecognizerCommonClientOptions|preview" />

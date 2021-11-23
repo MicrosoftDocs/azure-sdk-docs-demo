@@ -62,8 +62,8 @@ properties:
       content: 'formDataParameters?: ReadonlyArray<OperationParameter>'
       return:
         type: >-
-          ReadonlyArray&lt;<xref uid="@azure/core-http.OperationParameter"
-          />&gt;
+          ReadonlyArray&lt;<xref
+          uid="@azure/core-http.OperationParameter|latest-stable" />&gt;
         description: ''
   - name: headerParameters
     uid: '@azure/core-http.OperationSpec.headerParameters|latest-stable'
@@ -81,8 +81,8 @@ properties:
       content: 'headerParameters?: ReadonlyArray<OperationParameter>'
       return:
         type: >-
-          ReadonlyArray&lt;<xref uid="@azure/core-http.OperationParameter"
-          />&gt;
+          ReadonlyArray&lt;<xref
+          uid="@azure/core-http.OperationParameter|latest-stable" />&gt;
         description: ''
   - name: httpMethod
     uid: '@azure/core-http.OperationSpec.httpMethod|latest-stable'
@@ -95,7 +95,7 @@ properties:
     syntax:
       content: 'httpMethod: HttpMethods'
       return:
-        type: <xref uid="@azure/core-http.HttpMethods" />
+        type: <xref uid="@azure/core-http.HttpMethods|latest-stable" />
         description: ''
   - name: isXML
     uid: '@azure/core-http.OperationSpec.isXML|latest-stable'
@@ -160,8 +160,8 @@ properties:
       content: 'queryParameters?: ReadonlyArray<OperationQueryParameter>'
       return:
         type: >-
-          ReadonlyArray&lt;<xref uid="@azure/core-http.OperationQueryParameter"
-          />&gt;
+          ReadonlyArray&lt;<xref
+          uid="@azure/core-http.OperationQueryParameter|latest-stable" />&gt;
         description: ''
   - name: requestBody
     uid: '@azure/core-http.OperationSpec.requestBody|latest-stable'
@@ -174,7 +174,7 @@ properties:
     syntax:
       content: 'requestBody?: OperationParameter'
       return:
-        type: <xref uid="@azure/core-http.OperationParameter" />
+        type: <xref uid="@azure/core-http.OperationParameter|latest-stable" />
         description: ''
   - name: responses
     uid: '@azure/core-http.OperationSpec.responses|latest-stable'
@@ -191,7 +191,9 @@ properties:
     syntax:
       content: 'responses: [key: string]: OperationResponse'
       return:
-        type: '[key: string]\: <xref uid="@azure/core-http.OperationResponse" />'
+        type: >-
+          [key: string]\: <xref
+          uid="@azure/core-http.OperationResponse|latest-stable" />
         description: ''
   - name: serializer
     uid: '@azure/core-http.OperationSpec.serializer|latest-stable'
@@ -204,7 +206,7 @@ properties:
     syntax:
       content: 'serializer: Serializer'
       return:
-        type: <xref uid="@azure/core-http.Serializer" />
+        type: <xref uid="@azure/core-http.Serializer|latest-stable" />
         description: ''
   - name: urlParameters
     uid: '@azure/core-http.OperationSpec.urlParameters|latest-stable'
@@ -220,6 +222,6 @@ properties:
       content: 'urlParameters?: ReadonlyArray<OperationURLParameter>'
       return:
         type: >-
-          ReadonlyArray&lt;<xref uid="@azure/core-http.OperationURLParameter"
-          />&gt;
+          ReadonlyArray&lt;<xref
+          uid="@azure/core-http.OperationURLParameter|latest-stable" />&gt;
         description: ''

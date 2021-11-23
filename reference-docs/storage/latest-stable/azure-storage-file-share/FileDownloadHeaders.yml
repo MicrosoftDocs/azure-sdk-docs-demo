@@ -220,7 +220,7 @@ properties:
     syntax:
       content: 'copyStatus?: CopyStatusType'
       return:
-        type: <xref uid="@azure/storage-file-share.CopyStatusType" />
+        type: <xref uid="@azure/storage-file-share.CopyStatusType|latest-stable" />
         description: ''
   - name: copyStatusDescription
     uid: >-
@@ -438,7 +438,9 @@ properties:
     syntax:
       content: 'leaseDuration?: LeaseDurationType'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseDurationType" />
+        type: >-
+          <xref uid="@azure/storage-file-share.LeaseDurationType|latest-stable"
+          />
         description: ''
   - name: leaseState
     uid: '@azure/storage-file-share.FileDownloadHeaders.leaseState|latest-stable'
@@ -451,7 +453,7 @@ properties:
     syntax:
       content: 'leaseState?: LeaseStateType'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseStateType" />
+        type: <xref uid="@azure/storage-file-share.LeaseStateType|latest-stable" />
         description: ''
   - name: leaseStatus
     uid: '@azure/storage-file-share.FileDownloadHeaders.leaseStatus|latest-stable'
@@ -464,7 +466,7 @@ properties:
     syntax:
       content: 'leaseStatus?: LeaseStatusType'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseStatusType" />
+        type: <xref uid="@azure/storage-file-share.LeaseStatusType|latest-stable" />
         description: ''
   - name: metadata
     uid: '@azure/storage-file-share.FileDownloadHeaders.metadata|latest-stable'

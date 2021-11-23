@@ -26,7 +26,7 @@ properties:
     syntax:
       content: 'blobIndexMatch?: TagFilter[]'
       return:
-        type: <xref uid="@azure/arm-storage.TagFilter" />[]
+        type: <xref uid="@azure/arm-storage.TagFilter|latest-stable" />[]
         description: ''
   - name: blobTypes
     uid: '@azure/arm-storage.ManagementPolicyFilter.blobTypes|latest-stable'

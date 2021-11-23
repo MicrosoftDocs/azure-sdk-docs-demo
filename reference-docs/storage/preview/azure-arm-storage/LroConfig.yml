@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'mode?: LroMode'
       return:
-        type: <xref uid="@azure/arm-storage.LroMode" />
+        type: <xref uid="@azure/arm-storage.LroMode|preview" />
         description: ''
   - name: resourceLocation
     uid: '@azure/arm-storage.LroConfig.resourceLocation|preview'

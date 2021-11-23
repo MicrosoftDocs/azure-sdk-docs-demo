@@ -44,7 +44,7 @@ properties:
     syntax:
       content: 'accessTier?: ShareAccessTier'
       return:
-        type: <xref uid="@azure/storage-file-share.ShareAccessTier" />
+        type: <xref uid="@azure/storage-file-share.ShareAccessTier|preview" />
         description: ''
   - name: metadata
     uid: '@azure/storage-file-share.ShareCreateOptions.metadata|preview'
@@ -72,7 +72,7 @@ properties:
     syntax:
       content: 'protocols?: ShareProtocols'
       return:
-        type: <xref uid="@azure/storage-file-share.ShareProtocols" />
+        type: <xref uid="@azure/storage-file-share.ShareProtocols|preview" />
         description: ''
   - name: quota
     uid: '@azure/storage-file-share.ShareCreateOptions.quota|preview'
@@ -104,7 +104,7 @@ properties:
     syntax:
       content: 'rootSquash?: ShareRootSquash'
       return:
-        type: <xref uid="@azure/storage-file-share.ShareRootSquash" />
+        type: <xref uid="@azure/storage-file-share.ShareRootSquash|preview" />
         description: ''
   - name: tracingOptions
     uid: '@azure/storage-file-share.ShareCreateOptions.tracingOptions|preview'
@@ -119,4 +119,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-file-share.CommonOptions" />
+extends: <xref uid="@azure/storage-file-share.CommonOptions|preview" />

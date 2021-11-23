@@ -47,23 +47,23 @@ methods:
             Name of the event subscription. Event subscription names must be
                                          between 3 and 64 characters in length and should use alphanumeric letters only.
         - id: eventSubscriptionInfo
-          type: <xref uid="@azure/arm-eventgrid.EventSubscription" />
+          type: <xref uid="@azure/arm-eventgrid.EventSubscription|preview" />
           description: |-
             Event subscription properties containing the destination and filter
                                          information.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsCreateOrUpdateOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-eventgrid.EventSubscriptionsCreateOrUpdateResponse"
+          uid="@azure/arm-eventgrid.EventSubscriptionsCreateOrUpdateResponse|preview"
           />&gt;, <xref
-          uid="@azure/arm-eventgrid.EventSubscriptionsCreateOrUpdateResponse"
+          uid="@azure/arm-eventgrid.EventSubscriptionsCreateOrUpdateResponse|preview"
           />&gt;&gt;
         description: ''
   - name: >-
@@ -104,21 +104,21 @@ methods:
             Name of the event subscription. Event subscription names must be
                                          between 3 and 64 characters in length and should use alphanumeric letters only.
         - id: eventSubscriptionInfo
-          type: <xref uid="@azure/arm-eventgrid.EventSubscription" />
+          type: <xref uid="@azure/arm-eventgrid.EventSubscription|preview" />
           description: |-
             Event subscription properties containing the destination and filter
                                          information.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsCreateOrUpdateOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventgrid.EventSubscriptionsCreateOrUpdateResponse"
+          uid="@azure/arm-eventgrid.EventSubscriptionsCreateOrUpdateResponse|preview"
           />&gt;
         description: ''
   - name: beginDelete(string, string, EventSubscriptionsDeleteOptionalParams)
@@ -151,7 +151,8 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsDeleteOptionalParams" />
+            uid="@azure/arm-eventgrid.EventSubscriptionsDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -187,7 +188,8 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsDeleteOptionalParams" />
+            uid="@azure/arm-eventgrid.EventSubscriptionsDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -225,20 +227,23 @@ methods:
           description: Name of the event subscription to be updated.
         - id: eventSubscriptionUpdateParameters
           type: >-
-            <xref uid="@azure/arm-eventgrid.EventSubscriptionUpdateParameters"
+            <xref
+            uid="@azure/arm-eventgrid.EventSubscriptionUpdateParameters|preview"
             />
           description: Updated event subscription information.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsUpdateOptionalParams" />
+            uid="@azure/arm-eventgrid.EventSubscriptionsUpdateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-eventgrid.EventSubscriptionsUpdateResponse" />&gt;,
-          <xref uid="@azure/arm-eventgrid.EventSubscriptionsUpdateResponse"
+          uid="@azure/arm-eventgrid.EventSubscriptionsUpdateResponse|preview"
+          />&gt;, <xref
+          uid="@azure/arm-eventgrid.EventSubscriptionsUpdateResponse|preview"
           />&gt;&gt;
         description: ''
   - name: >-
@@ -274,19 +279,22 @@ methods:
           description: Name of the event subscription to be updated.
         - id: eventSubscriptionUpdateParameters
           type: >-
-            <xref uid="@azure/arm-eventgrid.EventSubscriptionUpdateParameters"
+            <xref
+            uid="@azure/arm-eventgrid.EventSubscriptionUpdateParameters|preview"
             />
           description: Updated event subscription information.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsUpdateOptionalParams" />
+            uid="@azure/arm-eventgrid.EventSubscriptionsUpdateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventgrid.EventSubscriptionsUpdateResponse" />&gt;
+          uid="@azure/arm-eventgrid.EventSubscriptionsUpdateResponse|preview"
+          />&gt;
         description: ''
   - name: get(string, string, EventSubscriptionsGetOptionalParams)
     uid: '@azure/arm-eventgrid.EventSubscriptions.get|preview'
@@ -317,14 +325,16 @@ methods:
           description: Name of the event subscription.
         - id: options
           type: >-
-            <xref uid="@azure/arm-eventgrid.EventSubscriptionsGetOptionalParams"
+            <xref
+            uid="@azure/arm-eventgrid.EventSubscriptionsGetOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventgrid.EventSubscriptionsGetResponse" />&gt;
+          uid="@azure/arm-eventgrid.EventSubscriptionsGetResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       getDeliveryAttributes(string, string,
@@ -358,14 +368,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsGetDeliveryAttributesOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsGetDeliveryAttributesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventgrid.EventSubscriptionsGetDeliveryAttributesResponse"
+          uid="@azure/arm-eventgrid.EventSubscriptionsGetDeliveryAttributesResponse|preview"
           />&gt;
         description: ''
   - name: getFullUrl(string, string, EventSubscriptionsGetFullUrlOptionalParams)
@@ -398,14 +408,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsGetFullUrlOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsGetFullUrlOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventgrid.EventSubscriptionsGetFullUrlResponse" />&gt;
+          uid="@azure/arm-eventgrid.EventSubscriptionsGetFullUrlResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       listByDomainTopic(string, string, string,
@@ -436,14 +447,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListByDomainTopicOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListByDomainTopicOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventgrid.EventSubscription" />&gt;
+          uid="@azure/arm-eventgrid.EventSubscription|preview" />&gt;
         description: ''
   - name: >-
       listByResource(string, string, string, string,
@@ -475,14 +486,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListByResourceOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListByResourceOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventgrid.EventSubscription" />&gt;
+          uid="@azure/arm-eventgrid.EventSubscription|preview" />&gt;
         description: ''
   - name: >-
       listGlobalByResourceGroup(string,
@@ -506,14 +517,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventgrid.EventSubscription" />&gt;
+          uid="@azure/arm-eventgrid.EventSubscription|preview" />&gt;
         description: ''
   - name: >-
       listGlobalByResourceGroupForTopicType(string, string,
@@ -542,14 +553,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupForTopicTypeOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupForTopicTypeOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventgrid.EventSubscription" />&gt;
+          uid="@azure/arm-eventgrid.EventSubscription|preview" />&gt;
         description: ''
   - name: >-
       listGlobalBySubscription(EventSubscriptionsListGlobalBySubscriptionOptionalParams)
@@ -569,14 +580,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventgrid.EventSubscription" />&gt;
+          uid="@azure/arm-eventgrid.EventSubscription|preview" />&gt;
         description: ''
   - name: >-
       listGlobalBySubscriptionForTopicType(string,
@@ -602,14 +613,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionForTopicTypeOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionForTopicTypeOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventgrid.EventSubscription" />&gt;
+          uid="@azure/arm-eventgrid.EventSubscription|preview" />&gt;
         description: ''
   - name: >-
       listRegionalByResourceGroup(string, string,
@@ -640,14 +651,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventgrid.EventSubscription" />&gt;
+          uid="@azure/arm-eventgrid.EventSubscription|preview" />&gt;
         description: ''
   - name: >-
       listRegionalByResourceGroupForTopicType(string, string, string,
@@ -681,14 +692,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupForTopicTypeOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupForTopicTypeOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventgrid.EventSubscription" />&gt;
+          uid="@azure/arm-eventgrid.EventSubscription|preview" />&gt;
         description: ''
   - name: >-
       listRegionalBySubscription(string,
@@ -712,14 +723,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventgrid.EventSubscription" />&gt;
+          uid="@azure/arm-eventgrid.EventSubscription|preview" />&gt;
         description: ''
   - name: >-
       listRegionalBySubscriptionForTopicType(string, string,
@@ -750,12 +761,12 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionForTopicTypeOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionForTopicTypeOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventgrid.EventSubscription" />&gt;
+          uid="@azure/arm-eventgrid.EventSubscription|preview" />&gt;
         description: ''

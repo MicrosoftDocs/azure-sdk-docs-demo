@@ -37,5 +37,5 @@ properties:
     syntax:
       content: 'value: JSONValue'
       return:
-        type: <xref uid="@azure/cosmos.JSONValue" />
+        type: <xref uid="@azure/cosmos.JSONValue|latest-stable" />
         description: ''

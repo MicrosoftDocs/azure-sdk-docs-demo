@@ -124,7 +124,7 @@ properties:
     syntax:
       content: 'initialHeaders?: CosmosHeaders'
       return:
-        type: <xref uid="@azure/cosmos.CosmosHeaders" />
+        type: <xref uid="@azure/cosmos.CosmosHeaders|latest-stable" />
         description: ''
   - name: offerThroughput
     uid: '@azure/cosmos.RequestOptions.offerThroughput|latest-stable'
@@ -240,4 +240,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/cosmos.SharedOptions" />
+extends: <xref uid="@azure/cosmos.SharedOptions|latest-stable" />

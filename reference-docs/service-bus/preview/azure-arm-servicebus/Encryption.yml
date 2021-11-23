@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'keySource?: undefined | "Microsoft.KeyVault"'
       return:
-        type: undefined | "<xref uid="Microsoft.KeyVault" />"
+        type: undefined | "<xref uid="Microsoft.KeyVault|preview" />"
         description: ''
   - name: keyVaultProperties
     uid: '@azure/arm-servicebus.Encryption.keyVaultProperties|preview'
@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'keyVaultProperties?: KeyVaultProperties'
       return:
-        type: <xref uid="@azure/arm-servicebus.KeyVaultProperties" />
+        type: <xref uid="@azure/arm-servicebus.KeyVaultProperties|preview" />
         description: ''

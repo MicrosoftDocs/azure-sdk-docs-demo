@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'appearance?: TextAppearance'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.TextAppearance" />
+        type: <xref uid="@azure/ai-form-recognizer.TextAppearance|latest-stable" />
         description: ''
   - name: boundingBox
     uid: '@azure/ai-form-recognizer.FormLine.boundingBox|latest-stable'
@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'boundingBox: Point2D[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.Point2D" />[]
+        type: <xref uid="@azure/ai-form-recognizer.Point2D|latest-stable" />[]
         description: ''
   - name: kind
     uid: '@azure/ai-form-recognizer.FormLine.kind|latest-stable'
@@ -85,6 +85,6 @@ properties:
     syntax:
       content: 'words: FormWord[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormWord" />[]
+        type: <xref uid="@azure/ai-form-recognizer.FormWord|latest-stable" />[]
         description: ''
-extends: <xref uid="@azure/ai-form-recognizer.FormElementCommon" />
+extends: <xref uid="@azure/ai-form-recognizer.FormElementCommon|latest-stable" />

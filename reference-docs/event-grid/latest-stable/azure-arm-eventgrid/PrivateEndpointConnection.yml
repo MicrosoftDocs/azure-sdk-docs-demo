@@ -68,7 +68,7 @@ properties:
     syntax:
       content: 'privateEndpoint?: PrivateEndpoint'
       return:
-        type: <xref uid="@azure/arm-eventgrid.PrivateEndpoint" />
+        type: <xref uid="@azure/arm-eventgrid.PrivateEndpoint|latest-stable" />
         description: ''
   - name: privateLinkServiceConnectionState
     uid: >-
@@ -82,7 +82,7 @@ properties:
     syntax:
       content: 'privateLinkServiceConnectionState?: ConnectionState'
       return:
-        type: <xref uid="@azure/arm-eventgrid.ConnectionState" />
+        type: <xref uid="@azure/arm-eventgrid.ConnectionState|latest-stable" />
         description: ''
   - name: provisioningState
     uid: >-
@@ -100,7 +100,9 @@ properties:
     syntax:
       content: 'provisioningState?: ResourceProvisioningState'
       return:
-        type: <xref uid="@azure/arm-eventgrid.ResourceProvisioningState" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.ResourceProvisioningState|latest-stable" />
         description: ''
   - name: type
     uid: '@azure/arm-eventgrid.PrivateEndpointConnection.type|latest-stable'
@@ -119,4 +121,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-eventgrid.Resource" />
+extends: <xref uid="@azure/arm-eventgrid.Resource|latest-stable" />

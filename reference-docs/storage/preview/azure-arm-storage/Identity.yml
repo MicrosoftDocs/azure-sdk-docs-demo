@@ -54,7 +54,7 @@ properties:
     syntax:
       content: 'type: IdentityType'
       return:
-        type: <xref uid="@azure/arm-storage.IdentityType" />
+        type: <xref uid="@azure/arm-storage.IdentityType|preview" />
         description: ''
   - name: userAssignedIdentities
     uid: '@azure/arm-storage.Identity.userAssignedIdentities|preview'
@@ -73,5 +73,5 @@ properties:
       return:
         type: >-
           undefined | [key: string]: <xref
-          uid="@azure/arm-storage.UserAssignedIdentity" />
+          uid="@azure/arm-storage.UserAssignedIdentity|preview" />
         description: ''

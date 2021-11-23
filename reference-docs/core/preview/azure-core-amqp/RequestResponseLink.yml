@@ -121,7 +121,9 @@ methods:
           type: ReceiverOptions
           description: Options that must be provided to create the receiver link.
       return:
-        type: Promise&lt;<xref uid="@azure/core-amqp.RequestResponseLink" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/core-amqp.RequestResponseLink|preview"
+          />&gt;
         description: Promise<RequestResponseLink>
   - name: isOpen()
     uid: '@azure/core-amqp.RequestResponseLink.isOpen|preview'
@@ -165,7 +167,7 @@ methods:
           type: Message
           description: The AMQP (request) message.
         - id: options
-          type: <xref uid="@azure/core-amqp.SendRequestOptions" />
+          type: <xref uid="@azure/core-amqp.SendRequestOptions|preview" />
           description: ''
       return:
         type: Promise&lt;Message&gt;

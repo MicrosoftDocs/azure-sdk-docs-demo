@@ -33,12 +33,15 @@ constructors:
                                 However, if a file or directory name includes %, file or directory name must be encoded in the URL.
                                 Such as a file named "myfile%", the URL should be "https://myaccount.file.core.windows.net/myshare/mydirectory/myfile%25".
         - id: credential
-          type: <xref uid="@azure/storage-file-share.Credential" />
+          type: <xref uid="@azure/storage-file-share.Credential|latest-stable" />
           description: |-
             Such as AnonymousCredential or StorageSharedKeyCredential.
                                              If not specified, AnonymousCredential is used.
         - id: options
-          type: <xref uid="@azure/storage-file-share.StoragePipelineOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.StoragePipelineOptions|latest-stable"
+            />
           description: |
             Optional. Options to configure the HTTP pipeline.
   - name: ShareFileClient(string, Pipeline)
@@ -63,7 +66,7 @@ constructors:
                                 However, if a file or directory name includes %, file or directory name must be encoded in the URL.
                                 Such as a file named "myfile%", the URL should be "https://myaccount.file.core.windows.net/myshare/mydirectory/myfile%25".
         - id: pipeline
-          type: <xref uid="@azure/storage-file-share.Pipeline" />
+          type: <xref uid="@azure/storage-file-share.Pipeline|latest-stable" />
           description: |
             Call newPipeline() to create a default
                                        pipeline, or provide a customized pipeline.
@@ -154,12 +157,16 @@ methods:
           type: string
           description: Id of the Copy File operation to abort.
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileAbortCopyFromURLOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileAbortCopyFromURLOptions|latest-stable"
+            />
           description: |
             Options to File Abort Copy From URL operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-file-share.FileAbortCopyResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-file-share.FileAbortCopyResponse|latest-stable"
           />&gt;
         description: ''
   - name: clearRange(number, number, FileClearRangeOptions)
@@ -183,13 +190,17 @@ methods:
           type: number
           description: '-'
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileClearRangeOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileClearRangeOptions|latest-stable"
+            />
           description: |
             Options to File Clear Range operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.FileUploadRangeResponse" />&gt;
+          uid="@azure/storage-file-share.FileUploadRangeResponse|latest-stable"
+          />&gt;
         description: ''
   - name: create(number, FileCreateOptions)
     uid: '@azure/storage-file-share.ShareFileClient.create|latest-stable'
@@ -207,11 +218,14 @@ methods:
           type: number
           description: Specifies the maximum size in bytes for the file, up to 4 TB.
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileCreateOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileCreateOptions|latest-stable" />
           description: Options to File Create operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-file-share.FileCreateResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-file-share.FileCreateResponse|latest-stable"
           />&gt;
         description: |-
           Response data for the File Create  operation.
@@ -261,11 +275,14 @@ methods:
       content: 'function delete(options?: FileDeleteOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileDeleteOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileDeleteOptions|latest-stable" />
           description: Options to File Delete operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-file-share.FileDeleteResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-file-share.FileDeleteResponse|latest-stable"
           />&gt;
         description: Response data for the File Delete operation.
   - name: deleteIfExists(FileDeleteOptions)
@@ -300,13 +317,16 @@ methods:
       content: 'function deleteIfExists(options?: FileDeleteOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileDeleteOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileDeleteOptions|latest-stable" />
           description: |
             -
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.FileDeleteIfExistsResponse" />&gt;
+          uid="@azure/storage-file-share.FileDeleteIfExistsResponse|latest-stable"
+          />&gt;
         description: ''
   - name: download(number, number, FileDownloadOptions)
     uid: '@azure/storage-file-share.ShareFileClient.download|latest-stable'
@@ -337,12 +357,15 @@ methods:
             How much data to be downloaded, greater than 0. Will download to the
             end when undefined
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileDownloadOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileDownloadOptions|latest-stable" />
           description: Options to File Download operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.FileDownloadResponseModel" />&gt;
+          uid="@azure/storage-file-share.FileDownloadResponseModel|latest-stable"
+          />&gt;
         description: |-
           Response data for the File Download operation.
 
@@ -432,7 +455,10 @@ methods:
             How much data to be downloaded. Will download to the end when
             passing undefined
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileDownloadToBufferOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileDownloadToBufferOptions|latest-stable"
+            />
           description: |
             -
       return:
@@ -473,7 +499,10 @@ methods:
             How much data to be downloaded. Will download to the end when
             passing undefined
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileDownloadToBufferOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileDownloadToBufferOptions|latest-stable"
+            />
           description: |
             -
       return:
@@ -511,12 +540,15 @@ methods:
             How much data to be downloaded. Will download to the end when
             passing undefined.
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileDownloadOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileDownloadOptions|latest-stable" />
           description: Options to Blob download options.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.FileDownloadResponseModel" />&gt;
+          uid="@azure/storage-file-share.FileDownloadResponseModel|latest-stable"
+          />&gt;
         description: |-
           The response data for blob download operation,
                                                           but with readableStreamBody set to undefined since its
@@ -542,7 +574,9 @@ methods:
       content: 'function exists(options?: FileExistsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileExistsOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileExistsOptions|latest-stable" />
           description: |
             options to Exists operation.
       return:
@@ -561,14 +595,15 @@ methods:
       parameters:
         - id: options
           type: >-
-            <xref uid="@azure/storage-file-share.FileForceCloseHandlesOptions"
+            <xref
+            uid="@azure/storage-file-share.FileForceCloseHandlesOptions|latest-stable"
             />
           description: |
             Options to force close handles operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-file-share.CloseHandlesInfo"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/storage-file-share.CloseHandlesInfo|latest-stable" />&gt;
         description: ''
   - name: forceCloseHandle(string, FileForceCloseHandlesOptions)
     uid: '@azure/storage-file-share.ShareFileClient.forceCloseHandle|latest-stable'
@@ -589,13 +624,15 @@ methods:
                                      Use forceCloseAllHandles() to close all handles.
         - id: options
           type: >-
-            <xref uid="@azure/storage-file-share.FileForceCloseHandlesOptions"
+            <xref
+            uid="@azure/storage-file-share.FileForceCloseHandlesOptions|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.FileForceCloseHandlesResponse" />&gt;
+          uid="@azure/storage-file-share.FileForceCloseHandlesResponse|latest-stable"
+          />&gt;
         description: ''
   - name: generateSasUrl(FileGenerateSasUrlOptions)
     uid: '@azure/storage-file-share.ShareFileClient.generateSasUrl|latest-stable'
@@ -615,7 +652,10 @@ methods:
       content: 'function generateSasUrl(options: FileGenerateSasUrlOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileGenerateSasUrlOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileGenerateSasUrlOptions|latest-stable"
+            />
           description: Optional parameters.
       return:
         type: string
@@ -637,12 +677,16 @@ methods:
       content: 'function getProperties(options?: FileGetPropertiesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileGetPropertiesOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileGetPropertiesOptions|latest-stable"
+            />
           description: Options to File Get Properties operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.FileGetPropertiesResponse" />&gt;
+          uid="@azure/storage-file-share.FileGetPropertiesResponse|latest-stable"
+          />&gt;
         description: Response data for the File Get Properties operation.
   - name: getRangeList(FileGetRangeListOptions)
     uid: '@azure/storage-file-share.ShareFileClient.getRangeList|latest-stable'
@@ -655,13 +699,17 @@ methods:
       content: 'function getRangeList(options?: FileGetRangeListOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileGetRangeListOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileGetRangeListOptions|latest-stable"
+            />
           description: |
             Options to File Get range List operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.FileGetRangeListResponse" />&gt;
+          uid="@azure/storage-file-share.FileGetRangeListResponse|latest-stable"
+          />&gt;
         description: ''
   - name: getRangeListDiff(string, FileGetRangeListOptions)
     uid: '@azure/storage-file-share.ShareFileClient.getRangeListDiff|latest-stable'
@@ -683,13 +731,17 @@ methods:
             The previous snapshot parameter is an opaque DateTime value that
             specifies the previous share snapshot to compare with.
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileGetRangeListOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileGetRangeListOptions|latest-stable"
+            />
           description: |
             -
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.FileGetRangeListDiffResponse" />&gt;
+          uid="@azure/storage-file-share.FileGetRangeListDiffResponse|latest-stable"
+          />&gt;
         description: ''
   - name: getShareLeaseClient(string)
     uid: >-
@@ -708,7 +760,9 @@ methods:
           type: string
           description: Initial proposed lease Id.
       return:
-        type: <xref uid="@azure/storage-file-share.ShareLeaseClient" />
+        type: >-
+          <xref uid="@azure/storage-file-share.ShareLeaseClient|latest-stable"
+          />
         description: A new ShareLeaseClient object for managing leases on the file.
   - name: listHandles(FileListHandlesOptions)
     uid: '@azure/storage-file-share.ShareFileClient.listHandles|latest-stable'
@@ -724,7 +778,10 @@ methods:
       content: 'function listHandles(options?: FileListHandlesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileListHandlesOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileListHandlesOptions|latest-stable"
+            />
           description: |
             Options to list handles operation.
 
@@ -732,8 +789,9 @@ methods:
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/storage-file-share.HandleItem" />, <xref
-          uid="@azure/storage-file-share.FileListHandlesResponse" />&gt;
+          uid="@azure/storage-file-share.HandleItem|latest-stable" />, <xref
+          uid="@azure/storage-file-share.FileListHandlesResponse|latest-stable"
+          />&gt;
         description: ''
   - name: resize(number, FileResizeOptions)
     uid: '@azure/storage-file-share.ShareFileClient.resize|latest-stable'
@@ -752,12 +810,15 @@ methods:
                                    If the specified byte value is less than the current size of the file,
                                    then all ranges above the specified byte value are cleared.
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileResizeOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileResizeOptions|latest-stable" />
           description: Options to File Resize operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.FileSetHTTPHeadersResponse" />&gt;
+          uid="@azure/storage-file-share.FileSetHTTPHeadersResponse|latest-stable"
+          />&gt;
         description: Response data for the File Set HTTP Headers operation.
   - name: setHttpHeaders(FileHttpHeaders, FileSetHttpHeadersOptions)
     uid: '@azure/storage-file-share.ShareFileClient.setHttpHeaders|latest-stable'
@@ -778,15 +839,21 @@ methods:
         FileSetHttpHeadersOptions)
       parameters:
         - id: fileHttpHeaders
-          type: <xref uid="@azure/storage-file-share.FileHttpHeaders" />
+          type: >-
+            <xref uid="@azure/storage-file-share.FileHttpHeaders|latest-stable"
+            />
           description: ''
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileSetHttpHeadersOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileSetHttpHeadersOptions|latest-stable"
+            />
           description: Options to File Set HTTP Headers operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.FileSetHTTPHeadersResponse" />&gt;
+          uid="@azure/storage-file-share.FileSetHTTPHeadersResponse|latest-stable"
+          />&gt;
         description: Response data for the File Set HTTP Headers operation.
   - name: setMetadata(Metadata, FileSetMetadataOptions)
     uid: '@azure/storage-file-share.ShareFileClient.setMetadata|latest-stable'
@@ -804,17 +871,21 @@ methods:
         FileSetMetadataOptions)
       parameters:
         - id: metadata
-          type: <xref uid="@azure/storage-file-share.Metadata" />
+          type: <xref uid="@azure/storage-file-share.Metadata|latest-stable" />
           description: >-
             If no metadata provided, all existing directory metadata will be
             removed
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileSetMetadataOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileSetMetadataOptions|latest-stable"
+            />
           description: Options to File Set Metadata operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.FileSetMetadataResponse" />&gt;
+          uid="@azure/storage-file-share.FileSetMetadataResponse|latest-stable"
+          />&gt;
         description: Response data for the File Set Metadata operation.
   - name: setProperties(FileProperties)
     uid: '@azure/storage-file-share.ShareFileClient.setProperties|latest-stable'
@@ -827,7 +898,9 @@ methods:
       content: 'function setProperties(properties?: FileProperties)'
       parameters:
         - id: properties
-          type: <xref uid="@azure/storage-file-share.FileProperties" />
+          type: >-
+            <xref uid="@azure/storage-file-share.FileProperties|latest-stable"
+            />
           description: |
             File properties. For file HTTP headers(e.g. Content-Type),
                                                   if no values are provided, existing HTTP headers will be removed.
@@ -835,7 +908,8 @@ methods:
                                                   existing values will be preserved.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-file-share.SetPropertiesResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-file-share.SetPropertiesResponse|latest-stable"
           />&gt;
         description: ''
   - name: startCopyFromURL(string, FileStartCopyOptions)
@@ -872,12 +946,16 @@ methods:
 
             can also be specified as a copy source.
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileStartCopyOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileStartCopyOptions|latest-stable"
+            />
           description: |
             Options to File Start Copy operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-file-share.FileStartCopyResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-file-share.FileStartCopyResponse|latest-stable"
           />&gt;
         description: ''
   - name: >-
@@ -900,7 +978,10 @@ methods:
           type: Buffer | Blob | ArrayBuffer | ArrayBufferView
           description: Buffer(Node), Blob, ArrayBuffer or ArrayBufferView
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileParallelUploadOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileParallelUploadOptions|latest-stable"
+            />
           description: |
             -
       return:
@@ -926,7 +1007,10 @@ methods:
           type: string
           description: Full path of local file
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileParallelUploadOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileParallelUploadOptions|latest-stable"
+            />
           description: |
             -
       return:
@@ -966,12 +1050,16 @@ methods:
             length for a
                                           string including non non-Base64/Hex-encoded characters.
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileUploadRangeOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileUploadRangeOptions|latest-stable"
+            />
           description: Options to File Upload Range operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.FileUploadRangeResponse" />&gt;
+          uid="@azure/storage-file-share.FileUploadRangeResponse|latest-stable"
+          />&gt;
         description: |-
           Response data for the File Upload Range operation.
 
@@ -1025,14 +1113,16 @@ methods:
           description: Number of bytes to be uploaded from source file.
         - id: options
           type: >-
-            <xref uid="@azure/storage-file-share.FileUploadRangeFromURLOptions"
+            <xref
+            uid="@azure/storage-file-share.FileUploadRangeFromURLOptions|latest-stable"
             />
           description: |
             Options to configure File - Upload Range from URL operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.FileUploadRangeFromURLResponse" />&gt;
+          uid="@azure/storage-file-share.FileUploadRangeFromURLResponse|latest-stable"
+          />&gt;
         description: ''
   - name: >-
       uploadResetableStream((offset: number, count?: number) => ReadableStream,
@@ -1068,7 +1158,10 @@ methods:
           type: number
           description: Size of the Azure file
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileParallelUploadOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileParallelUploadOptions|latest-stable"
+            />
           description: |
             -
       return:
@@ -1101,7 +1194,10 @@ methods:
           type: number
           description: '-'
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileParallelUploadOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileParallelUploadOptions|latest-stable"
+            />
           description: |
             -
       return:
@@ -1156,7 +1252,10 @@ methods:
             Max buffers will allocate during uploading, positive correlation
                                        with max uploading concurrency
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileUploadStreamOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileUploadStreamOptions|latest-stable"
+            />
           description: |
             -
       return:
@@ -1181,8 +1280,8 @@ methods:
           type: string
           description: The share snapshot timestamp.
       return:
-        type: <xref uid="@azure/storage-file-share.ShareFileClient" />
+        type: <xref uid="@azure/storage-file-share.ShareFileClient|latest-stable" />
         description: >-
           A new ShareFileClient object identical to the source but with the
           specified share snapshot timestamp.
-extends: <xref uid="@azure/storage-file-share.StorageClient" />
+extends: <xref uid="@azure/storage-file-share.StorageClient|latest-stable" />

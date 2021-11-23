@@ -20,8 +20,10 @@ methods:
       content: 'function sendRequest(httpRequest: WebResourceLike)'
       parameters:
         - id: httpRequest
-          type: <xref uid="@azure/core-http.WebResourceLike" />
+          type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/core-http.HttpOperationResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/core-http.HttpOperationResponse|latest-stable" />&gt;
         description: ''

@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'alignMode?: AlignMode'
       return:
-        type: <xref uid="@azure/ai-anomaly-detector.AlignMode" />
+        type: <xref uid="@azure/ai-anomaly-detector.AlignMode|preview" />
         description: ''
   - name: fillNAMethod
     uid: '@azure/ai-anomaly-detector.AlignPolicy.fillNAMethod|preview'
@@ -38,7 +38,7 @@ properties:
     syntax:
       content: 'fillNAMethod?: FillNAMethod'
       return:
-        type: <xref uid="@azure/ai-anomaly-detector.FillNAMethod" />
+        type: <xref uid="@azure/ai-anomaly-detector.FillNAMethod|preview" />
         description: ''
   - name: paddingValue
     uid: '@azure/ai-anomaly-detector.AlignPolicy.paddingValue|preview'

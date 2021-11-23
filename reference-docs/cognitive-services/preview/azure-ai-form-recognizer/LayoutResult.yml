@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'pages: DocumentPage[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentPage" />[]
+        type: <xref uid="@azure/ai-form-recognizer.DocumentPage|preview" />[]
         description: ''
   - name: styles
     uid: '@azure/ai-form-recognizer.LayoutResult.styles|preview'
@@ -39,7 +39,7 @@ properties:
     syntax:
       content: 'styles: DocumentStyle[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentStyle" />[]
+        type: <xref uid="@azure/ai-form-recognizer.DocumentStyle|preview" />[]
         description: ''
   - name: tables
     uid: '@azure/ai-form-recognizer.LayoutResult.tables|preview'
@@ -54,5 +54,5 @@ properties:
     syntax:
       content: 'tables: DocumentTable[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentTable" />[]
+        type: <xref uid="@azure/ai-form-recognizer.DocumentTable|preview" />[]
         description: ''

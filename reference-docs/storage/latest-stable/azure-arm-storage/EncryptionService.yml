@@ -42,7 +42,7 @@ properties:
     syntax:
       content: 'keyType?: KeyType'
       return:
-        type: <xref uid="@azure/arm-storage.KeyType" />
+        type: <xref uid="@azure/arm-storage.KeyType|latest-stable" />
         description: ''
   - name: lastEnabledTime
     uid: '@azure/arm-storage.EncryptionService.lastEnabledTime|latest-stable'

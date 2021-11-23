@@ -23,7 +23,7 @@ constructors:
       parameters:
         - id: actions
           type: >-
-            <xref uid="@azure/search-documents.IndexDocumentsAction"
+            <xref uid="@azure/search-documents.IndexDocumentsAction|preview"
             />&lt;T&gt;[]
           description: ''
 properties:
@@ -38,7 +38,9 @@ properties:
     syntax:
       content: 'actions: IndexDocumentsAction<T>[]'
       return:
-        type: <xref uid="@azure/search-documents.IndexDocumentsAction" />&lt;T&gt;[]
+        type: >-
+          <xref uid="@azure/search-documents.IndexDocumentsAction|preview"
+          />&lt;T&gt;[]
         description: ''
 methods:
   - name: delete(Object, string[])

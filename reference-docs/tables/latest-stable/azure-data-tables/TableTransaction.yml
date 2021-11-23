@@ -20,7 +20,7 @@ constructors:
       content: 'new TableTransaction(actions?: TransactionAction[])'
       parameters:
         - id: actions
-          type: <xref uid="@azure/data-tables.TransactionAction" />[]
+          type: <xref uid="@azure/data-tables.TransactionAction|latest-stable" />[]
           description: ''
 properties:
   - name: actions
@@ -34,7 +34,7 @@ properties:
     syntax:
       content: 'actions: TransactionAction[]'
       return:
-        type: <xref uid="@azure/data-tables.TransactionAction" />[]
+        type: <xref uid="@azure/data-tables.TransactionAction|latest-stable" />[]
         description: ''
 methods:
   - name: createEntity<T>(TableEntity<T>)
@@ -48,7 +48,7 @@ methods:
       content: 'function createEntity<T>(entity: TableEntity<T>)'
       parameters:
         - id: entity
-          type: <xref uid="@azure/data-tables.TableEntity" />&lt;T&gt;
+          type: <xref uid="@azure/data-tables.TableEntity|latest-stable" />&lt;T&gt;
           description: |
             entity to create
   - name: deleteEntity(string, string)
@@ -81,10 +81,10 @@ methods:
         UpdateMode)
       parameters:
         - id: entity
-          type: <xref uid="@azure/data-tables.TableEntity" />&lt;T&gt;
+          type: <xref uid="@azure/data-tables.TableEntity|latest-stable" />&lt;T&gt;
           description: entity to update
         - id: updateMode
-          type: <xref uid="@azure/data-tables.UpdateMode" />
+          type: <xref uid="@azure/data-tables.UpdateMode|latest-stable" />
           description: |
             update mode
   - name: upsertEntity<T>(TableEntity<T>, UpdateMode)
@@ -102,9 +102,9 @@ methods:
         UpdateMode)
       parameters:
         - id: entity
-          type: <xref uid="@azure/data-tables.TableEntity" />&lt;T&gt;
+          type: <xref uid="@azure/data-tables.TableEntity|latest-stable" />&lt;T&gt;
           description: entity to upsert
         - id: updateMode
-          type: <xref uid="@azure/data-tables.UpdateMode" />
+          type: <xref uid="@azure/data-tables.UpdateMode|latest-stable" />
           description: |
             update mode

@@ -49,7 +49,7 @@ properties:
     syntax:
       content: 'primaryLanguage: DetectedLanguage'
       return:
-        type: <xref uid="@azure/ai-text-analytics.DetectedLanguage" />
+        type: <xref uid="@azure/ai-text-analytics.DetectedLanguage|latest-stable" />
         description: ''
   - name: statistics
     uid: >-
@@ -69,7 +69,9 @@ properties:
     syntax:
       content: 'statistics?: TextDocumentStatistics'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextDocumentStatistics" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TextDocumentStatistics|latest-stable" />
         description: ''
   - name: warnings
     uid: >-
@@ -85,6 +87,10 @@ properties:
     syntax:
       content: 'warnings: TextAnalyticsWarning[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsWarning" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TextAnalyticsWarning|latest-stable" />[]
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsSuccessResult" />
+extends: >-
+  <xref uid="@azure/ai-text-analytics.TextAnalyticsSuccessResult|latest-stable"
+  />

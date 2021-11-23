@@ -48,7 +48,10 @@ properties:
     syntax:
       content: 'properties?: CustomFormModelProperties'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.CustomFormModelProperties" />
+        type: >-
+          <xref
+          uid="@azure/ai-form-recognizer.CustomFormModelProperties|latest-stable"
+          />
         description: ''
   - name: status
     uid: '@azure/ai-form-recognizer.CustomFormModelInfo.status|latest-stable'
@@ -61,7 +64,7 @@ properties:
     syntax:
       content: 'status: ModelStatus'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.ModelStatus" />
+        type: <xref uid="@azure/ai-form-recognizer.ModelStatus|latest-stable" />
         description: ''
   - name: trainingCompletedOn
     uid: >-

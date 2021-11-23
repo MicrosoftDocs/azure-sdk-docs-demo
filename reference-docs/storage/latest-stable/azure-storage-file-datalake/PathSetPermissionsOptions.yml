@@ -35,7 +35,10 @@ properties:
     syntax:
       content: 'conditions?: DataLakeRequestConditions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.DataLakeRequestConditions" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.DataLakeRequestConditions|latest-stable"
+          />
         description: ''
   - name: group
     uid: '@azure/storage-file-datalake.PathSetPermissionsOptions.group|latest-stable'
@@ -77,4 +80,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />
+extends: <xref uid="@azure/storage-file-datalake.CommonOptions|latest-stable" />

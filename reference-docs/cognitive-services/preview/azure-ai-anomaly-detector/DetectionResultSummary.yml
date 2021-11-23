@@ -22,7 +22,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/ai-anomaly-detector.AnomalyDetectorClientErrorResponse"
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorClientErrorResponse|preview"
           />[]
         description: ''
   - name: setupInfo
@@ -36,7 +36,7 @@ properties:
     syntax:
       content: 'setupInfo: DetectionRequest'
       return:
-        type: <xref uid="@azure/ai-anomaly-detector.DetectionRequest" />
+        type: <xref uid="@azure/ai-anomaly-detector.DetectionRequest|preview" />
         description: ''
   - name: status
     uid: '@azure/ai-anomaly-detector.DetectionResultSummary.status|preview'
@@ -49,7 +49,7 @@ properties:
     syntax:
       content: 'status: DetectionStatus'
       return:
-        type: <xref uid="@azure/ai-anomaly-detector.DetectionStatus" />
+        type: <xref uid="@azure/ai-anomaly-detector.DetectionStatus|preview" />
         description: ''
   - name: variableStates
     uid: '@azure/ai-anomaly-detector.DetectionResultSummary.variableStates|preview'
@@ -64,6 +64,6 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/ai-anomaly-detector.AnomalyDetectorClientVariableState"
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorClientVariableState|preview"
           />[]
         description: ''

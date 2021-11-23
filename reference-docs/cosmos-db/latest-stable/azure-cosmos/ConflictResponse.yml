@@ -25,17 +25,17 @@ constructors:
       parameters:
         - id: resource
           type: >-
-            <xref uid="@azure/cosmos.ConflictDefinition" /> & <xref
-            uid="@azure/cosmos.Resource" />
+            <xref uid="@azure/cosmos.ConflictDefinition|latest-stable" /> &
+            <xref uid="@azure/cosmos.Resource|latest-stable" />
           description: ''
         - id: headers
-          type: <xref uid="@azure/cosmos.CosmosHeaders" />
+          type: <xref uid="@azure/cosmos.CosmosHeaders|latest-stable" />
           description: ''
         - id: statusCode
           type: number
           description: ''
         - id: conflict
-          type: <xref uid="@azure/cosmos.Conflict" />
+          type: <xref uid="@azure/cosmos.Conflict|latest-stable" />
           description: ''
 properties:
   - name: activityId
@@ -64,7 +64,7 @@ properties:
     syntax:
       content: 'conflict: Conflict'
       return:
-        type: <xref uid="@azure/cosmos.Conflict" />
+        type: <xref uid="@azure/cosmos.Conflict|latest-stable" />
         description: ''
   - name: etag
     uid: '@azure/cosmos.ConflictResponse.etag|latest-stable'
@@ -90,7 +90,7 @@ properties:
     syntax:
       content: 'headers: CosmosHeaders_2'
       return:
-        type: <xref uid="@azure/cosmos.CosmosHeaders_2" />
+        type: <xref uid="@azure/cosmos.CosmosHeaders_2|latest-stable" />
         description: ''
   - name: requestCharge
     uid: '@azure/cosmos.ConflictResponse.requestCharge|latest-stable'
@@ -117,8 +117,8 @@ properties:
       content: 'resource: ConflictDefinition & Resource | undefined'
       return:
         type: >-
-          <xref uid="@azure/cosmos.ConflictDefinition" /> & <xref
-          uid="@azure/cosmos.Resource" /> | undefined
+          <xref uid="@azure/cosmos.ConflictDefinition|latest-stable" /> & <xref
+          uid="@azure/cosmos.Resource|latest-stable" /> | undefined
         description: ''
   - name: statusCode
     uid: '@azure/cosmos.ConflictResponse.statusCode|latest-stable'
@@ -147,6 +147,6 @@ properties:
         type: SubStatusCode
         description: ''
 extends: >-
-  <xref uid="@azure/cosmos.ResourceResponse" />&lt;<xref
-  uid="@azure/cosmos.ConflictDefinition" /> & <xref uid="@azure/cosmos.Resource"
-  />&gt;
+  <xref uid="@azure/cosmos.ResourceResponse|latest-stable" />&lt;<xref
+  uid="@azure/cosmos.ConflictDefinition|latest-stable" /> & <xref
+  uid="@azure/cosmos.Resource|latest-stable" />&gt;

@@ -20,7 +20,9 @@ properties:
     syntax:
       content: 'deadLetterDestination?: DeadLetterDestinationUnion'
       return:
-        type: <xref uid="@azure/arm-eventgrid.DeadLetterDestinationUnion" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.DeadLetterDestinationUnion|latest-stable" />
         description: ''
   - name: deadLetterWithResourceIdentity
     uid: >-
@@ -43,7 +45,10 @@ properties:
     syntax:
       content: 'deadLetterWithResourceIdentity?: DeadLetterWithResourceIdentity'
       return:
-        type: <xref uid="@azure/arm-eventgrid.DeadLetterWithResourceIdentity" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.DeadLetterWithResourceIdentity|latest-stable"
+          />
         description: ''
   - name: deliveryWithResourceIdentity
     uid: >-
@@ -66,7 +71,10 @@ properties:
     syntax:
       content: 'deliveryWithResourceIdentity?: DeliveryWithResourceIdentity'
       return:
-        type: <xref uid="@azure/arm-eventgrid.DeliveryWithResourceIdentity" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.DeliveryWithResourceIdentity|latest-stable"
+          />
         description: ''
   - name: destination
     uid: '@azure/arm-eventgrid.EventSubscription.destination|latest-stable'
@@ -83,7 +91,10 @@ properties:
     syntax:
       content: 'destination?: EventSubscriptionDestinationUnion'
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscriptionDestinationUnion" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.EventSubscriptionDestinationUnion|latest-stable"
+          />
         description: ''
   - name: eventDeliverySchema
     uid: '@azure/arm-eventgrid.EventSubscription.eventDeliverySchema|latest-stable'
@@ -103,7 +114,7 @@ properties:
     syntax:
       content: 'eventDeliverySchema?: EventDeliverySchema'
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventDeliverySchema" />
+        type: <xref uid="@azure/arm-eventgrid.EventDeliverySchema|latest-stable" />
         description: ''
   - name: expirationTimeUtc
     uid: '@azure/arm-eventgrid.EventSubscription.expirationTimeUtc|latest-stable'
@@ -129,7 +140,9 @@ properties:
     syntax:
       content: 'filter?: EventSubscriptionFilter'
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscriptionFilter" />
+        type: >-
+          <xref uid="@azure/arm-eventgrid.EventSubscriptionFilter|latest-stable"
+          />
         description: ''
   - name: id
     uid: '@azure/arm-eventgrid.EventSubscription.id|latest-stable'
@@ -196,7 +209,10 @@ properties:
     syntax:
       content: 'provisioningState?: EventSubscriptionProvisioningState'
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscriptionProvisioningState" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.EventSubscriptionProvisioningState|latest-stable"
+          />
         description: ''
   - name: retryPolicy
     uid: '@azure/arm-eventgrid.EventSubscription.retryPolicy|latest-stable'
@@ -213,7 +229,7 @@ properties:
     syntax:
       content: 'retryPolicy?: RetryPolicy'
       return:
-        type: <xref uid="@azure/arm-eventgrid.RetryPolicy" />
+        type: <xref uid="@azure/arm-eventgrid.RetryPolicy|latest-stable" />
         description: ''
   - name: systemData
     uid: '@azure/arm-eventgrid.EventSubscription.systemData|latest-stable'
@@ -230,7 +246,7 @@ properties:
     syntax:
       content: 'systemData?: SystemData'
       return:
-        type: <xref uid="@azure/arm-eventgrid.SystemData" />
+        type: <xref uid="@azure/arm-eventgrid.SystemData|latest-stable" />
         description: ''
   - name: topic
     uid: '@azure/arm-eventgrid.EventSubscription.topic|latest-stable'
@@ -266,4 +282,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-eventgrid.Resource" />
+extends: <xref uid="@azure/arm-eventgrid.Resource|latest-stable" />

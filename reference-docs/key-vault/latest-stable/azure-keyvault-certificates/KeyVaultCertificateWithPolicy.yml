@@ -86,7 +86,9 @@ properties:
     syntax:
       content: 'policy?: CertificatePolicy'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificatePolicy" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-certificates.CertificatePolicy|latest-stable" />
         description: ''
   - name: properties
     uid: >-
@@ -100,7 +102,10 @@ properties:
     syntax:
       content: 'properties: CertificateProperties'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificateProperties" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-certificates.CertificateProperties|latest-stable"
+          />
         description: ''
   - name: secretId
     uid: >-
@@ -119,4 +124,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/keyvault-certificates.KeyVaultCertificate" />
+extends: <xref uid="@azure/keyvault-certificates.KeyVaultCertificate|latest-stable" />

@@ -26,7 +26,8 @@ properties:
       return:
         type: >-
           "#<xref
-          uid="Microsoft.Azure.Search.HighWaterMarkChangeDetectionPolicy" />" |
-          "#<xref uid="Microsoft.Azure.Search.SqlIntegratedChangeTrackingPolicy"
+          uid="Microsoft.Azure.Search.HighWaterMarkChangeDetectionPolicy|preview"
+          />" | "#<xref
+          uid="Microsoft.Azure.Search.SqlIntegratedChangeTrackingPolicy|preview"
           />"
         description: ''

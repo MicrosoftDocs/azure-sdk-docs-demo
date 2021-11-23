@@ -25,7 +25,7 @@ constructors:
         - id: client
           type: >-
             <xref
-            uid="@azure/arm-cognitiveservices.CognitiveServicesManagementClientContext"
+            uid="@azure/arm-cognitiveservices.CognitiveServicesManagementClientContext|latest-stable"
             />
           description: |
             Reference to the service client.
@@ -63,11 +63,12 @@ methods:
             the Cognitive Services Account
         - id: properties
           type: >-
-            <xref uid="@azure/arm-cognitiveservices.PrivateEndpointConnection"
+            <xref
+            uid="@azure/arm-cognitiveservices.PrivateEndpointConnection|latest-stable"
             />
           description: The private endpoint connection properties.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -102,7 +103,7 @@ methods:
             The name of the private endpoint connection associated with
             the Cognitive Services Account
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -140,16 +141,18 @@ methods:
             the Cognitive Services Account
         - id: properties
           type: >-
-            <xref uid="@azure/arm-cognitiveservices.PrivateEndpointConnection"
+            <xref
+            uid="@azure/arm-cognitiveservices.PrivateEndpointConnection|latest-stable"
             />
           description: The private endpoint connection properties.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateEndpointConnectionsCreateOrUpdateResponse" />&gt;
+          uid="Models.PrivateEndpointConnectionsCreateOrUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateEndpointConnectionsCreateOrUpdateResponse>
   - name: deleteMethod(string, string, string, msRest.RequestOptionsBase)
     uid: >-
@@ -181,7 +184,7 @@ methods:
             The name of the private endpoint connection associated with
             the Cognitive Services Account
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -213,11 +216,12 @@ methods:
             The name of the private endpoint connection associated with
             the Cognitive Services Account
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.PrivateEndpointConnectionsGetResponse"
+          Promise&lt;<xref
+          uid="Models.PrivateEndpointConnectionsGetResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateEndpointConnectionsGetResponse>
   - name: >-
@@ -253,7 +257,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.PrivateEndpointConnection" />&gt;
+            uid="@azure/arm-cognitiveservices.PrivateEndpointConnection|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: get(string, string, string, ServiceCallback<PrivateEndpointConnection>)
@@ -284,7 +289,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.PrivateEndpointConnection" />&gt;
+            uid="@azure/arm-cognitiveservices.PrivateEndpointConnection|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: list(string, string, msRest.RequestOptionsBase)
@@ -308,11 +314,12 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.PrivateEndpointConnectionsListResponse"
+          Promise&lt;<xref
+          uid="Models.PrivateEndpointConnectionsListResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateEndpointConnectionsListResponse>
   - name: >-
@@ -343,7 +350,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.PrivateEndpointConnectionListResult"
+            uid="@azure/arm-cognitiveservices.PrivateEndpointConnectionListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -369,7 +376,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.PrivateEndpointConnectionListResult"
+            uid="@azure/arm-cognitiveservices.PrivateEndpointConnectionListResult|latest-stable"
             />&gt;
           description: |
             The callback

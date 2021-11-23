@@ -41,4 +41,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/app-configuration.SyncTokenHeaderField" />
+extends: <xref uid="@azure/app-configuration.SyncTokenHeaderField|latest-stable" />

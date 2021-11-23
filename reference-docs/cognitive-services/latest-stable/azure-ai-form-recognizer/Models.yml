@@ -20,7 +20,9 @@ properties:
     syntax:
       content: 'modelList?: CustomFormModelInfo[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.CustomFormModelInfo" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-form-recognizer.CustomFormModelInfo|latest-stable" />[]
         description: ''
   - name: nextLink
     uid: '@azure/ai-form-recognizer.Models.nextLink|latest-stable'
@@ -46,5 +48,5 @@ properties:
     syntax:
       content: 'summary?: ModelsSummary'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.ModelsSummary" />
+        type: <xref uid="@azure/ai-form-recognizer.ModelsSummary|latest-stable" />
         description: ''

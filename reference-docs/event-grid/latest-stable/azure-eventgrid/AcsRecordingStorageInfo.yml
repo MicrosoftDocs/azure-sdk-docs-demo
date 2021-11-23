@@ -20,5 +20,5 @@ properties:
     syntax:
       content: 'recordingChunks: AcsRecordingChunkInfo[]'
       return:
-        type: <xref uid="@azure/eventgrid.AcsRecordingChunkInfo" />[]
+        type: <xref uid="@azure/eventgrid.AcsRecordingChunkInfo|latest-stable" />[]
         description: ''

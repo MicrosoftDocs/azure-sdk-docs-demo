@@ -36,7 +36,7 @@ properties:
     syntax:
       content: 'copyStatus?: CopyStatusType'
       return:
-        type: <xref uid="@azure/storage-file-share.CopyStatusType" />
+        type: <xref uid="@azure/storage-file-share.CopyStatusType|latest-stable" />
         description: ''
   - name: date
     uid: '@azure/storage-file-share.FileStartCopyHeaders.date|latest-stable'

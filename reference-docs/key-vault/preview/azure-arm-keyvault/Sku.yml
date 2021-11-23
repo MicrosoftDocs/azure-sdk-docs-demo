@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'family: SkuFamily'
       return:
-        type: <xref uid="@azure/arm-keyvault.SkuFamily" />
+        type: <xref uid="@azure/arm-keyvault.SkuFamily|preview" />
         description: ''
   - name: name
     uid: '@azure/arm-keyvault.Sku.name|preview'
@@ -35,5 +35,5 @@ properties:
     syntax:
       content: 'name: SkuName'
       return:
-        type: <xref uid="@azure/arm-keyvault.SkuName" />
+        type: <xref uid="@azure/arm-keyvault.SkuName|preview" />
         description: ''

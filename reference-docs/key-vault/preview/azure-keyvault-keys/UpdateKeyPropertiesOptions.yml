@@ -61,7 +61,7 @@ properties:
     syntax:
       content: 'keyOps?: KeyOperation[]'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyOperation" />[]
+        type: <xref uid="@azure/keyvault-keys.KeyOperation|preview" />[]
         description: ''
   - name: notBefore
     uid: '@azure/keyvault-keys.UpdateKeyPropertiesOptions.notBefore|preview'
@@ -92,7 +92,7 @@ properties:
     syntax:
       content: 'releasePolicy?: KeyReleasePolicy'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyReleasePolicy" />
+        type: <xref uid="@azure/keyvault-keys.KeyReleasePolicy|preview" />
         description: ''
   - name: requestOptions
     uid: '@azure/keyvault-keys.UpdateKeyPropertiesOptions.requestOptions|preview'

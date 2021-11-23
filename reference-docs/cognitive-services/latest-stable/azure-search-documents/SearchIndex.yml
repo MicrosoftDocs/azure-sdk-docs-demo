@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'analyzers?: LexicalAnalyzer[]'
       return:
-        type: <xref uid="@azure/search-documents.LexicalAnalyzer" />[]
+        type: <xref uid="@azure/search-documents.LexicalAnalyzer|latest-stable" />[]
         description: ''
   - name: charFilters
     uid: '@azure/search-documents.SearchIndex.charFilters|latest-stable'
@@ -37,7 +37,7 @@ properties:
     syntax:
       content: 'charFilters?: CharFilter[]'
       return:
-        type: <xref uid="@azure/search-documents.CharFilter" />[]
+        type: <xref uid="@azure/search-documents.CharFilter|latest-stable" />[]
         description: ''
   - name: corsOptions
     uid: '@azure/search-documents.SearchIndex.corsOptions|latest-stable'
@@ -50,7 +50,9 @@ properties:
     syntax:
       content: 'corsOptions?: CorsOptions | null'
       return:
-        type: <xref uid="@azure/search-documents.CorsOptions" /> | null
+        type: >-
+          <xref uid="@azure/search-documents.CorsOptions|latest-stable" /> |
+          null
         description: ''
   - name: defaultScoringProfile
     uid: '@azure/search-documents.SearchIndex.defaultScoringProfile|latest-stable'
@@ -106,8 +108,9 @@ properties:
       content: 'encryptionKey?: SearchResourceEncryptionKey | null'
       return:
         type: >-
-          <xref uid="@azure/search-documents.SearchResourceEncryptionKey" /> |
-          null
+          <xref
+          uid="@azure/search-documents.SearchResourceEncryptionKey|latest-stable"
+          /> | null
         description: ''
   - name: etag
     uid: '@azure/search-documents.SearchIndex.etag|latest-stable'
@@ -133,7 +136,7 @@ properties:
     syntax:
       content: 'fields: SearchField[]'
       return:
-        type: <xref uid="@azure/search-documents.SearchField" />[]
+        type: <xref uid="@azure/search-documents.SearchField|latest-stable" />[]
         description: ''
   - name: name
     uid: '@azure/search-documents.SearchIndex.name|latest-stable'
@@ -159,7 +162,7 @@ properties:
     syntax:
       content: 'scoringProfiles?: ScoringProfile[]'
       return:
-        type: <xref uid="@azure/search-documents.ScoringProfile" />[]
+        type: <xref uid="@azure/search-documents.ScoringProfile|latest-stable" />[]
         description: ''
   - name: similarity
     uid: '@azure/search-documents.SearchIndex.similarity|latest-stable'
@@ -180,7 +183,9 @@ properties:
     syntax:
       content: 'similarity?: SimilarityAlgorithm'
       return:
-        type: <xref uid="@azure/search-documents.SimilarityAlgorithm" />
+        type: >-
+          <xref uid="@azure/search-documents.SimilarityAlgorithm|latest-stable"
+          />
         description: ''
   - name: suggesters
     uid: '@azure/search-documents.SearchIndex.suggesters|latest-stable'
@@ -193,7 +198,7 @@ properties:
     syntax:
       content: 'suggesters?: SearchSuggester[]'
       return:
-        type: <xref uid="@azure/search-documents.SearchSuggester" />[]
+        type: <xref uid="@azure/search-documents.SearchSuggester|latest-stable" />[]
         description: ''
   - name: tokenFilters
     uid: '@azure/search-documents.SearchIndex.tokenFilters|latest-stable'
@@ -206,7 +211,7 @@ properties:
     syntax:
       content: 'tokenFilters?: TokenFilter[]'
       return:
-        type: <xref uid="@azure/search-documents.TokenFilter" />[]
+        type: <xref uid="@azure/search-documents.TokenFilter|latest-stable" />[]
         description: ''
   - name: tokenizers
     uid: '@azure/search-documents.SearchIndex.tokenizers|latest-stable'
@@ -219,5 +224,7 @@ properties:
     syntax:
       content: 'tokenizers?: LexicalTokenizer[]'
       return:
-        type: <xref uid="@azure/search-documents.LexicalTokenizer" />[]
+        type: >-
+          <xref uid="@azure/search-documents.LexicalTokenizer|latest-stable"
+          />[]
         description: ''

@@ -20,7 +20,10 @@ constructors:
       content: 'new EventHubs(client: EventHubManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-eventhub.EventHubManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.EventHubManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -51,13 +54,15 @@ methods:
           type: string
           description: The Event Hub name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.Eventhub" />
+          type: <xref uid="@azure/arm-eventhub.Eventhub|latest-stable" />
           description: Parameters supplied to create an Event Hub resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.EventHubsCreateOrUpdateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.EventHubsCreateOrUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.EventHubsCreateOrUpdateResponse>
   - name: >-
       createOrUpdate(string, string, string, Eventhub, RequestOptionsBase,
@@ -84,13 +89,15 @@ methods:
           type: string
           description: The Event Hub name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.Eventhub" />
+          type: <xref uid="@azure/arm-eventhub.Eventhub|latest-stable" />
           description: Parameters supplied to create an Event Hub resource.
         - id: options
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-eventhub.Eventhub" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.Eventhub|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -118,10 +125,12 @@ methods:
           type: string
           description: The Event Hub name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.Eventhub" />
+          type: <xref uid="@azure/arm-eventhub.Eventhub|latest-stable" />
           description: Parameters supplied to create an Event Hub resource.
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-eventhub.Eventhub" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.Eventhub|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -158,15 +167,16 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.AuthorizationRule" />
+          type: <xref uid="@azure/arm-eventhub.AuthorizationRule|latest-stable" />
           description: The shared access AuthorizationRule.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventHubsCreateOrUpdateAuthorizationRuleResponse" />&gt;
+          uid="Models.EventHubsCreateOrUpdateAuthorizationRuleResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EventHubsCreateOrUpdateAuthorizationRuleResponse>
   - name: >-
       createOrUpdateAuthorizationRule(string, string, string, string,
@@ -198,15 +208,15 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.AuthorizationRule" />
+          type: <xref uid="@azure/arm-eventhub.AuthorizationRule|latest-stable" />
           description: The shared access AuthorizationRule.
         - id: options
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.AuthorizationRule"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.AuthorizationRule|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -239,12 +249,12 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.AuthorizationRule" />
+          type: <xref uid="@azure/arm-eventhub.AuthorizationRule|latest-stable" />
           description: The shared access AuthorizationRule.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.AuthorizationRule"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.AuthorizationRule|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -275,7 +285,7 @@ methods:
           type: string
           description: The authorization rule name.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -367,7 +377,7 @@ methods:
           type: string
           description: The Event Hub name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -450,10 +460,12 @@ methods:
           type: string
           description: The Event Hub name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.EventHubsGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.EventHubsGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EventHubsGetResponse>
   - name: get(string, string, string, RequestOptionsBase, ServiceCallback<Eventhub>)
     uid: '@azure/arm-eventhub.EventHubs.get_2|latest-stable'
@@ -481,7 +493,9 @@ methods:
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-eventhub.Eventhub" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.Eventhub|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, string, ServiceCallback<Eventhub>)
@@ -506,7 +520,9 @@ methods:
           type: string
           description: The Event Hub name
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-eventhub.Eventhub" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.Eventhub|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -537,11 +553,12 @@ methods:
           type: string
           description: The authorization rule name.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.EventHubsGetAuthorizationRuleResponse"
+          Promise&lt;<xref
+          uid="Models.EventHubsGetAuthorizationRuleResponse|latest-stable"
           />&gt;
         description: Promise<Models.EventHubsGetAuthorizationRuleResponse>
   - name: >-
@@ -576,8 +593,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.AuthorizationRule"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.AuthorizationRule|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -609,8 +626,8 @@ methods:
           description: The authorization rule name.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.AuthorizationRule"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.AuthorizationRule|latest-stable" />&gt;
           description: |
             The callback
   - name: listAuthorizationRules(string, string, string, msRest.RequestOptionsBase)
@@ -636,11 +653,12 @@ methods:
           type: string
           description: The Event Hub name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.EventHubsListAuthorizationRulesResponse"
+          Promise&lt;<xref
+          uid="Models.EventHubsListAuthorizationRulesResponse|latest-stable"
           />&gt;
         description: Promise<Models.EventHubsListAuthorizationRulesResponse>
   - name: >-
@@ -674,7 +692,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.AuthorizationRuleListResult" />&gt;
+            uid="@azure/arm-eventhub.AuthorizationRuleListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -704,7 +723,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.AuthorizationRuleListResult" />&gt;
+            uid="@azure/arm-eventhub.AuthorizationRuleListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listAuthorizationRulesNext(string, msRest.RequestOptionsBase)
@@ -723,12 +743,13 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventHubsListAuthorizationRulesNextResponse" />&gt;
+          uid="Models.EventHubsListAuthorizationRulesNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EventHubsListAuthorizationRulesNextResponse>
   - name: >-
       listAuthorizationRulesNext(string, RequestOptionsBase,
@@ -754,7 +775,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.AuthorizationRuleListResult" />&gt;
+            uid="@azure/arm-eventhub.AuthorizationRuleListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -777,7 +799,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.AuthorizationRuleListResult" />&gt;
+            uid="@azure/arm-eventhub.AuthorizationRuleListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -804,12 +827,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.EventHubsListByNamespaceOptionalParams" />
+            uid="@azure/arm-eventhub.EventHubsListByNamespaceOptionalParams|latest-stable"
+            />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.EventHubListResult" />&gt;
+            uid="@azure/arm-eventhub.EventHubListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -833,10 +857,14 @@ methods:
           type: string
           description: The Namespace name
         - id: options
-          type: <xref uid="Models.EventHubsListByNamespaceOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.EventHubsListByNamespaceOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.EventHubsListByNamespaceResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.EventHubsListByNamespaceResponse|latest-stable" />&gt;
         description: Promise<Models.EventHubsListByNamespaceResponse>
   - name: listByNamespace(string, string, ServiceCallback<EventHubListResult>)
     uid: '@azure/arm-eventhub.EventHubs.listByNamespace_1|latest-stable'
@@ -859,7 +887,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.EventHubListResult" />&gt;
+            uid="@azure/arm-eventhub.EventHubListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -883,13 +911,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.EventHubsListByNamespaceNextOptionalParams"
+            uid="@azure/arm-eventhub.EventHubsListByNamespaceNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.EventHubListResult" />&gt;
+            uid="@azure/arm-eventhub.EventHubListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -910,12 +938,15 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="Models.EventHubsListByNamespaceNextOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.EventHubsListByNamespaceNextOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.EventHubsListByNamespaceNextResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.EventHubsListByNamespaceNextResponse|latest-stable" />&gt;
         description: Promise<Models.EventHubsListByNamespaceNextResponse>
   - name: listByNamespaceNext(string, ServiceCallback<EventHubListResult>)
     uid: '@azure/arm-eventhub.EventHubs.listByNamespaceNext_1|latest-stable'
@@ -935,7 +966,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.EventHubListResult" />&gt;
+            uid="@azure/arm-eventhub.EventHubListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listKeys(string, string, string, string, msRest.RequestOptionsBase)
@@ -964,10 +995,12 @@ methods:
           type: string
           description: The authorization rule name.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.EventHubsListKeysResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.EventHubsListKeysResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EventHubsListKeysResponse>
   - name: >-
       listKeys(string, string, string, string, RequestOptionsBase,
@@ -1000,7 +1033,9 @@ methods:
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-eventhub.AccessKeys" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.AccessKeys|latest-stable" />&gt;
           description: |
             The callback
   - name: listKeys(string, string, string, string, ServiceCallback<AccessKeys>)
@@ -1029,7 +1064,9 @@ methods:
           type: string
           description: The authorization rule name.
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-eventhub.AccessKeys" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.AccessKeys|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -1060,15 +1097,20 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.RegenerateAccessKeyParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.RegenerateAccessKeyParameters|latest-stable"
+            />
           description: |-
             Parameters supplied to regenerate the AuthorizationRule Keys
             (PrimaryKey/SecondaryKey).
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.EventHubsRegenerateKeysResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.EventHubsRegenerateKeysResponse|latest-stable" />&gt;
         description: Promise<Models.EventHubsRegenerateKeysResponse>
   - name: >-
       regenerateKeys(string, string, string, string,
@@ -1100,7 +1142,10 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.RegenerateAccessKeyParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.RegenerateAccessKeyParameters|latest-stable"
+            />
           description: |-
             Parameters supplied to regenerate the AuthorizationRule Keys
             (PrimaryKey/SecondaryKey).
@@ -1108,7 +1153,9 @@ methods:
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-eventhub.AccessKeys" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.AccessKeys|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -1139,11 +1186,16 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.RegenerateAccessKeyParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.RegenerateAccessKeyParameters|latest-stable"
+            />
           description: |-
             Parameters supplied to regenerate the AuthorizationRule Keys
             (PrimaryKey/SecondaryKey).
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-eventhub.AccessKeys" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.AccessKeys|latest-stable" />&gt;
           description: |
             The callback

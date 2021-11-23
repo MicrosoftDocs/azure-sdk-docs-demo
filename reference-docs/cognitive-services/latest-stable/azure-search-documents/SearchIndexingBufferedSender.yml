@@ -28,7 +28,10 @@ constructors:
         SearchIndexingBufferedSenderOptions)
       parameters:
         - id: client
-          type: <xref uid="@azure/search-documents.IndexDocumentsClient" />&lt;T&gt;
+          type: >-
+            <xref
+            uid="@azure/search-documents.IndexDocumentsClient|latest-stable"
+            />&lt;T&gt;
           description: Search Client used to call the underlying IndexBatch operations.
         - id: documentKeyRetriever
           type: '(document: T) =&gt; string'
@@ -36,7 +39,8 @@ constructors:
         - id: options
           type: >-
             <xref
-            uid="@azure/search-documents.SearchIndexingBufferedSenderOptions" />
+            uid="@azure/search-documents.SearchIndexingBufferedSenderOptions|latest-stable"
+            />
           description: |+
             Options to modify auto flush.
 
@@ -60,7 +64,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/search-documents.SearchIndexingBufferedSenderDeleteDocumentsOptions"
+            uid="@azure/search-documents.SearchIndexingBufferedSenderDeleteDocumentsOptions|latest-stable"
             />
           description: |
             Upload options.
@@ -94,7 +98,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/search-documents.SearchIndexingBufferedSenderFlushDocumentsOptions"
+            uid="@azure/search-documents.SearchIndexingBufferedSenderFlushDocumentsOptions|latest-stable"
             />
           description: |
             Flush options.
@@ -120,7 +124,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/search-documents.SearchIndexingBufferedSenderMergeDocumentsOptions"
+            uid="@azure/search-documents.SearchIndexingBufferedSenderMergeDocumentsOptions|latest-stable"
             />
           description: |
             Upload options.
@@ -148,7 +152,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/search-documents.SearchIndexingBufferedSenderMergeOrUploadDocumentsOptions"
+            uid="@azure/search-documents.SearchIndexingBufferedSenderMergeOrUploadDocumentsOptions|latest-stable"
             />
           description: |
             Upload options.
@@ -318,7 +322,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/search-documents.SearchIndexingBufferedSenderUploadDocumentsOptions"
+            uid="@azure/search-documents.SearchIndexingBufferedSenderUploadDocumentsOptions|latest-stable"
             />
           description: |
             Upload options.

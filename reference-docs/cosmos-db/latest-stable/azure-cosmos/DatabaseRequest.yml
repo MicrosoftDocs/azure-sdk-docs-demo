@@ -61,4 +61,4 @@ properties:
       return:
         type: number
         description: ''
-extends: <xref uid="@azure/cosmos.DatabaseDefinition" />
+extends: <xref uid="@azure/cosmos.DatabaseDefinition|latest-stable" />

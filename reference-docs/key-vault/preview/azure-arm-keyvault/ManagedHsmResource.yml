@@ -67,7 +67,7 @@ properties:
     syntax:
       content: 'sku?: ManagedHsmSku'
       return:
-        type: <xref uid="@azure/arm-keyvault.ManagedHsmSku" />
+        type: <xref uid="@azure/arm-keyvault.ManagedHsmSku|preview" />
         description: ''
   - name: systemData
     uid: '@azure/arm-keyvault.ManagedHsmResource.systemData|preview'
@@ -85,7 +85,7 @@ properties:
     syntax:
       content: 'systemData?: SystemData'
       return:
-        type: <xref uid="@azure/arm-keyvault.SystemData" />
+        type: <xref uid="@azure/arm-keyvault.SystemData|preview" />
         description: ''
   - name: tags
     uid: '@azure/arm-keyvault.ManagedHsmResource.tags|preview'

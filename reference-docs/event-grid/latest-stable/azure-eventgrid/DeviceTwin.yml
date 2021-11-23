@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'metadata: DeviceTwinMetadata'
       return:
-        type: <xref uid="@azure/eventgrid.DeviceTwinMetadata" />
+        type: <xref uid="@azure/eventgrid.DeviceTwinMetadata|latest-stable" />
         description: ''
   - name: version
     uid: '@azure/eventgrid.DeviceTwin.version|latest-stable'

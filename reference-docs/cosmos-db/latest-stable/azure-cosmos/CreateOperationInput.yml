@@ -74,5 +74,5 @@ properties:
     syntax:
       content: 'resourceBody: JSONObject'
       return:
-        type: <xref uid="@azure/cosmos.JSONObject" />
+        type: <xref uid="@azure/cosmos.JSONObject|latest-stable" />
         description: ''

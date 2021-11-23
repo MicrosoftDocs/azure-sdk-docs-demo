@@ -59,5 +59,7 @@ properties:
     syntax:
       content: 'type: BlobQueryArrowFieldType'
       return:
-        type: <xref uid="@azure/storage-blob.BlobQueryArrowFieldType" />
+        type: >-
+          <xref uid="@azure/storage-blob.BlobQueryArrowFieldType|latest-stable"
+          />
         description: ''

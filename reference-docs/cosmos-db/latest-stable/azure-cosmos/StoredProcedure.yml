@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'container: Container'
       return:
-        type: <xref uid="@azure/cosmos.Container" />
+        type: <xref uid="@azure/cosmos.Container|latest-stable" />
         description: ''
   - name: id
     uid: '@azure/cosmos.StoredProcedure.id|latest-stable'
@@ -64,10 +64,12 @@ methods:
       content: 'function delete(options?: RequestOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.StoredProcedureResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/cosmos.StoredProcedureResponse|latest-stable" />&gt;
         description: ''
   - name: execute<T>(PartitionKey, any[], RequestOptions)
     uid: '@azure/cosmos.StoredProcedure.execute|latest-stable'
@@ -88,7 +90,7 @@ methods:
         options?: RequestOptions)
       parameters:
         - id: partitionKey
-          type: <xref uid="@azure/cosmos.PartitionKey" />
+          type: <xref uid="@azure/cosmos.PartitionKey|latest-stable" />
           description: The partition key to use when executing the stored procedure
         - id: params
           type: any[]
@@ -96,12 +98,14 @@ methods:
             Array of parameters to pass as arguments to the given
             <xref:@azure/cosmos.StoredProcedure>.
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: >
             Additional options, such as the partition key to invoke the
             <xref:@azure/cosmos.StoredProcedure> on.
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.ResourceResponse" />&lt;T&gt;&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.ResourceResponse|latest-stable"
+          />&lt;T&gt;&gt;
         description: ''
   - name: read(RequestOptions)
     uid: '@azure/cosmos.StoredProcedure.read|latest-stable'
@@ -116,10 +120,12 @@ methods:
       content: 'function read(options?: RequestOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.StoredProcedureResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/cosmos.StoredProcedureResponse|latest-stable" />&gt;
         description: ''
   - name: replace(StoredProcedureDefinition, RequestOptions)
     uid: '@azure/cosmos.StoredProcedure.replace|latest-stable'
@@ -136,13 +142,15 @@ methods:
         RequestOptions)
       parameters:
         - id: body
-          type: <xref uid="@azure/cosmos.StoredProcedureDefinition" />
+          type: <xref uid="@azure/cosmos.StoredProcedureDefinition|latest-stable" />
           description: >
             The specified <xref:@azure/cosmos.StoredProcedureDefinition> to
             replace the existing definition.
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.StoredProcedureResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/cosmos.StoredProcedureResponse|latest-stable" />&gt;
         description: ''

@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'category: MediaJobErrorCategory'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobErrorCategory" />
+        type: <xref uid="@azure/eventgrid.MediaJobErrorCategory|latest-stable" />
         description: ''
   - name: code
     uid: '@azure/eventgrid.MediaJobError.code|latest-stable'
@@ -41,7 +41,7 @@ properties:
     syntax:
       content: 'code: MediaJobErrorCode'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobErrorCode" />
+        type: <xref uid="@azure/eventgrid.MediaJobErrorCode|latest-stable" />
         description: ''
   - name: details
     uid: '@azure/eventgrid.MediaJobError.details|latest-stable'
@@ -58,7 +58,7 @@ properties:
     syntax:
       content: 'details: MediaJobErrorDetail[]'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobErrorDetail" />[]
+        type: <xref uid="@azure/eventgrid.MediaJobErrorDetail|latest-stable" />[]
         description: ''
   - name: message
     uid: '@azure/eventgrid.MediaJobError.message|latest-stable'
@@ -93,5 +93,5 @@ properties:
     syntax:
       content: 'retry: MediaJobRetry'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobRetry" />
+        type: <xref uid="@azure/eventgrid.MediaJobRetry|latest-stable" />
         description: ''

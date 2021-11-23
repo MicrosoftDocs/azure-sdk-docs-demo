@@ -23,7 +23,7 @@ properties:
     syntax:
       content: 'blobPublicAccess?: PublicAccessType'
       return:
-        type: <xref uid="@azure/storage-blob.PublicAccessType" />
+        type: <xref uid="@azure/storage-blob.PublicAccessType|latest-stable" />
         description: ''
   - name: clientRequestId
     uid: >-

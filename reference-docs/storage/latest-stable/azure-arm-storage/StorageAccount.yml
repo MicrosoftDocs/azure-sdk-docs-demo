@@ -27,7 +27,7 @@ properties:
     syntax:
       content: 'accessTier?: AccessTier'
       return:
-        type: <xref uid="@azure/arm-storage.AccessTier" />
+        type: <xref uid="@azure/arm-storage.AccessTier|latest-stable" />
         description: ''
   - name: allowBlobPublicAccess
     uid: '@azure/arm-storage.StorageAccount.allowBlobPublicAccess|latest-stable'
@@ -84,7 +84,8 @@ properties:
         AzureFilesIdentityBasedAuthentication
       return:
         type: >-
-          <xref uid="@azure/arm-storage.AzureFilesIdentityBasedAuthentication"
+          <xref
+          uid="@azure/arm-storage.AzureFilesIdentityBasedAuthentication|latest-stable"
           />
         description: ''
   - name: blobRestoreStatus
@@ -102,7 +103,7 @@ properties:
     syntax:
       content: 'blobRestoreStatus?: BlobRestoreStatus'
       return:
-        type: <xref uid="@azure/arm-storage.BlobRestoreStatus" />
+        type: <xref uid="@azure/arm-storage.BlobRestoreStatus|latest-stable" />
         description: ''
   - name: creationTime
     uid: '@azure/arm-storage.StorageAccount.creationTime|latest-stable'
@@ -136,7 +137,7 @@ properties:
     syntax:
       content: 'customDomain?: CustomDomain'
       return:
-        type: <xref uid="@azure/arm-storage.CustomDomain" />
+        type: <xref uid="@azure/arm-storage.CustomDomain|latest-stable" />
         description: ''
   - name: enableHttpsTrafficOnly
     uid: '@azure/arm-storage.StorageAccount.enableHttpsTrafficOnly|latest-stable'
@@ -180,7 +181,7 @@ properties:
     syntax:
       content: 'encryption?: Encryption'
       return:
-        type: <xref uid="@azure/arm-storage.Encryption" />
+        type: <xref uid="@azure/arm-storage.Encryption|latest-stable" />
         description: ''
   - name: extendedLocation
     uid: '@azure/arm-storage.StorageAccount.extendedLocation|latest-stable'
@@ -193,7 +194,7 @@ properties:
     syntax:
       content: 'extendedLocation?: ExtendedLocation'
       return:
-        type: <xref uid="@azure/arm-storage.ExtendedLocation" />
+        type: <xref uid="@azure/arm-storage.ExtendedLocation|latest-stable" />
         description: ''
   - name: failoverInProgress
     uid: '@azure/arm-storage.StorageAccount.failoverInProgress|latest-stable'
@@ -228,7 +229,7 @@ properties:
     syntax:
       content: 'geoReplicationStats?: GeoReplicationStats'
       return:
-        type: <xref uid="@azure/arm-storage.GeoReplicationStats" />
+        type: <xref uid="@azure/arm-storage.GeoReplicationStats|latest-stable" />
         description: ''
   - name: id
     uid: '@azure/arm-storage.StorageAccount.id|latest-stable'
@@ -260,7 +261,7 @@ properties:
     syntax:
       content: 'identity?: Identity'
       return:
-        type: <xref uid="@azure/arm-storage.Identity" />
+        type: <xref uid="@azure/arm-storage.Identity|latest-stable" />
         description: ''
   - name: isHnsEnabled
     uid: '@azure/arm-storage.StorageAccount.isHnsEnabled|latest-stable'
@@ -290,7 +291,7 @@ properties:
     syntax:
       content: 'keyCreationTime?: KeyCreationTime'
       return:
-        type: <xref uid="@azure/arm-storage.KeyCreationTime" />
+        type: <xref uid="@azure/arm-storage.KeyCreationTime|latest-stable" />
         description: ''
   - name: keyPolicy
     uid: '@azure/arm-storage.StorageAccount.keyPolicy|latest-stable'
@@ -307,7 +308,7 @@ properties:
     syntax:
       content: 'keyPolicy?: KeyPolicy'
       return:
-        type: <xref uid="@azure/arm-storage.KeyPolicy" />
+        type: <xref uid="@azure/arm-storage.KeyPolicy|latest-stable" />
         description: ''
   - name: kind
     uid: '@azure/arm-storage.StorageAccount.kind|latest-stable'
@@ -327,7 +328,7 @@ properties:
     syntax:
       content: 'kind?: Kind'
       return:
-        type: <xref uid="@azure/arm-storage.Kind" />
+        type: <xref uid="@azure/arm-storage.Kind|latest-stable" />
         description: ''
   - name: largeFileSharesState
     uid: '@azure/arm-storage.StorageAccount.largeFileSharesState|latest-stable'
@@ -344,7 +345,7 @@ properties:
     syntax:
       content: 'largeFileSharesState?: LargeFileSharesState'
       return:
-        type: <xref uid="@azure/arm-storage.LargeFileSharesState" />
+        type: <xref uid="@azure/arm-storage.LargeFileSharesState|latest-stable" />
         description: ''
   - name: lastGeoFailoverTime
     uid: '@azure/arm-storage.StorageAccount.lastGeoFailoverTime|latest-stable'
@@ -399,7 +400,7 @@ properties:
     syntax:
       content: 'minimumTlsVersion?: MinimumTlsVersion'
       return:
-        type: <xref uid="@azure/arm-storage.MinimumTlsVersion" />
+        type: <xref uid="@azure/arm-storage.MinimumTlsVersion|latest-stable" />
         description: ''
   - name: name
     uid: '@azure/arm-storage.StorageAccount.name|latest-stable'
@@ -433,7 +434,7 @@ properties:
     syntax:
       content: 'networkRuleSet?: NetworkRuleSet'
       return:
-        type: <xref uid="@azure/arm-storage.NetworkRuleSet" />
+        type: <xref uid="@azure/arm-storage.NetworkRuleSet|latest-stable" />
         description: ''
   - name: primaryEndpoints
     uid: '@azure/arm-storage.StorageAccount.primaryEndpoints|latest-stable'
@@ -454,7 +455,7 @@ properties:
     syntax:
       content: 'primaryEndpoints?: Endpoints'
       return:
-        type: <xref uid="@azure/arm-storage.Endpoints" />
+        type: <xref uid="@azure/arm-storage.Endpoints|latest-stable" />
         description: ''
   - name: primaryLocation
     uid: '@azure/arm-storage.StorageAccount.primaryLocation|latest-stable'
@@ -489,7 +490,9 @@ properties:
     syntax:
       content: 'privateEndpointConnections?: PrivateEndpointConnection[]'
       return:
-        type: <xref uid="@azure/arm-storage.PrivateEndpointConnection" />[]
+        type: >-
+          <xref uid="@azure/arm-storage.PrivateEndpointConnection|latest-stable"
+          />[]
         description: ''
   - name: provisioningState
     uid: '@azure/arm-storage.StorageAccount.provisioningState|latest-stable'
@@ -509,7 +512,7 @@ properties:
     syntax:
       content: 'provisioningState?: ProvisioningState'
       return:
-        type: <xref uid="@azure/arm-storage.ProvisioningState" />
+        type: <xref uid="@azure/arm-storage.ProvisioningState|latest-stable" />
         description: ''
   - name: routingPreference
     uid: '@azure/arm-storage.StorageAccount.routingPreference|latest-stable'
@@ -524,7 +527,7 @@ properties:
     syntax:
       content: 'routingPreference?: RoutingPreference'
       return:
-        type: <xref uid="@azure/arm-storage.RoutingPreference" />
+        type: <xref uid="@azure/arm-storage.RoutingPreference|latest-stable" />
         description: ''
   - name: sasPolicy
     uid: '@azure/arm-storage.StorageAccount.sasPolicy|latest-stable'
@@ -541,7 +544,7 @@ properties:
     syntax:
       content: 'sasPolicy?: SasPolicy'
       return:
-        type: <xref uid="@azure/arm-storage.SasPolicy" />
+        type: <xref uid="@azure/arm-storage.SasPolicy|latest-stable" />
         description: ''
   - name: secondaryEndpoints
     uid: '@azure/arm-storage.StorageAccount.secondaryEndpoints|latest-stable'
@@ -564,7 +567,7 @@ properties:
     syntax:
       content: 'secondaryEndpoints?: Endpoints'
       return:
-        type: <xref uid="@azure/arm-storage.Endpoints" />
+        type: <xref uid="@azure/arm-storage.Endpoints|latest-stable" />
         description: ''
   - name: secondaryLocation
     uid: '@azure/arm-storage.StorageAccount.secondaryLocation|latest-stable'
@@ -601,7 +604,7 @@ properties:
     syntax:
       content: 'sku?: Sku'
       return:
-        type: <xref uid="@azure/arm-storage.Sku" />
+        type: <xref uid="@azure/arm-storage.Sku|latest-stable" />
         description: ''
   - name: statusOfPrimary
     uid: '@azure/arm-storage.StorageAccount.statusOfPrimary|latest-stable'
@@ -621,7 +624,7 @@ properties:
     syntax:
       content: 'statusOfPrimary?: AccountStatus'
       return:
-        type: <xref uid="@azure/arm-storage.AccountStatus" />
+        type: <xref uid="@azure/arm-storage.AccountStatus|latest-stable" />
         description: ''
   - name: statusOfSecondary
     uid: '@azure/arm-storage.StorageAccount.statusOfSecondary|latest-stable'
@@ -644,7 +647,7 @@ properties:
     syntax:
       content: 'statusOfSecondary?: AccountStatus'
       return:
-        type: <xref uid="@azure/arm-storage.AccountStatus" />
+        type: <xref uid="@azure/arm-storage.AccountStatus|latest-stable" />
         description: ''
   - name: tags
     uid: '@azure/arm-storage.StorageAccount.tags|latest-stable'
@@ -678,4 +681,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-storage.TrackedResource" />
+extends: <xref uid="@azure/arm-storage.TrackedResource|latest-stable" />

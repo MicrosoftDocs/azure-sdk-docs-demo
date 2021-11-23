@@ -20,5 +20,5 @@ properties:
     syntax:
       content: 'multichannel?: SmbMultichannel'
       return:
-        type: <xref uid="@azure/storage-file-share.SmbMultichannel" />
+        type: <xref uid="@azure/storage-file-share.SmbMultichannel|latest-stable" />
         description: ''

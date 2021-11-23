@@ -77,8 +77,10 @@ properties:
         "#Microsoft.Azure.Search.EdgeNGramTokenFilter"
       return:
         type: >-
-          "#<xref uid="Microsoft.Azure.Search.EdgeNGramTokenFilterV2" />" |
-          "#<xref uid="Microsoft.Azure.Search.EdgeNGramTokenFilter" />"
+          "#<xref
+          uid="Microsoft.Azure.Search.EdgeNGramTokenFilterV2|latest-stable" />"
+          | "#<xref
+          uid="Microsoft.Azure.Search.EdgeNGramTokenFilter|latest-stable" />"
         description: ''
   - name: side
     uid: '@azure/search-documents.EdgeNGramTokenFilter.side|latest-stable'
@@ -95,5 +97,8 @@ properties:
     syntax:
       content: 'side?: EdgeNGramTokenFilterSide'
       return:
-        type: <xref uid="@azure/search-documents.EdgeNGramTokenFilterSide" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.EdgeNGramTokenFilterSide|latest-stable"
+          />
         description: ''

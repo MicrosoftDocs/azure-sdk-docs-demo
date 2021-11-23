@@ -37,7 +37,7 @@ constructors:
           type: RequestPolicyFactory[]
           description: '-'
         - id: options
-          type: <xref uid="@azure/storage-queue.PipelineOptions" />
+          type: <xref uid="@azure/storage-queue.PipelineOptions|preview" />
           description: |
             -
 properties:
@@ -65,7 +65,7 @@ properties:
     syntax:
       content: 'options: PipelineOptions'
       return:
-        type: <xref uid="@azure/storage-queue.PipelineOptions" />
+        type: <xref uid="@azure/storage-queue.PipelineOptions|preview" />
         description: ''
 methods:
   - name: toServiceClientOptions()

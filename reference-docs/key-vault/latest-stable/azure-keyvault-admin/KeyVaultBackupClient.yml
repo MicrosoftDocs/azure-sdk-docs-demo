@@ -52,7 +52,10 @@ constructors:
             authenticate requests to the service. Use the \@azure/identity
             package to create a credential that suits your needs.
         - id: options
-          type: <xref uid="@azure/keyvault-admin.KeyVaultBackupClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-admin.KeyVaultBackupClientOptions|latest-stable"
+            />
           description: |
             options used to configure Key Vault API requests.
 properties:
@@ -140,14 +143,19 @@ methods:
           type: string
           description: The SAS token.
         - id: options
-          type: <xref uid="@azure/keyvault-admin.KeyVaultBeginBackupOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-admin.KeyVaultBeginBackupOptions|latest-stable"
+            />
           description: |
             The optional parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;<xref
-          uid="@azure/keyvault-admin.KeyVaultBackupOperationState" />, <xref
-          uid="@azure/keyvault-admin.KeyVaultBackupResult" />&gt;&gt;
+          uid="@azure/keyvault-admin.KeyVaultBackupOperationState|latest-stable"
+          />, <xref
+          uid="@azure/keyvault-admin.KeyVaultBackupResult|latest-stable"
+          />&gt;&gt;
         description: ''
   - name: beginRestore(string, string, KeyVaultBeginRestoreOptions)
     uid: '@azure/keyvault-admin.KeyVaultBackupClient.beginRestore|latest-stable'
@@ -221,14 +229,19 @@ methods:
           type: string
           description: The SAS token.
         - id: options
-          type: <xref uid="@azure/keyvault-admin.KeyVaultBeginRestoreOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-admin.KeyVaultBeginRestoreOptions|latest-stable"
+            />
           description: |
             The optional parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;<xref
-          uid="@azure/keyvault-admin.KeyVaultRestoreOperationState" />, <xref
-          uid="@azure/keyvault-admin.KeyVaultRestoreResult" />&gt;&gt;
+          uid="@azure/keyvault-admin.KeyVaultRestoreOperationState|latest-stable"
+          />, <xref
+          uid="@azure/keyvault-admin.KeyVaultRestoreResult|latest-stable"
+          />&gt;&gt;
         description: ''
   - name: >-
       beginSelectiveKeyRestore(string, string, string,
@@ -310,15 +323,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/keyvault-admin.KeyVaultBeginSelectiveKeyRestoreOptions"
+            uid="@azure/keyvault-admin.KeyVaultBeginSelectiveKeyRestoreOptions|latest-stable"
             />
           description: |
             The optional parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;<xref
-          uid="@azure/keyvault-admin.KeyVaultSelectiveKeyRestoreOperationState"
+          uid="@azure/keyvault-admin.KeyVaultSelectiveKeyRestoreOperationState|latest-stable"
           />, <xref
-          uid="@azure/keyvault-admin.KeyVaultSelectiveKeyRestoreResult"
+          uid="@azure/keyvault-admin.KeyVaultSelectiveKeyRestoreResult|latest-stable"
           />&gt;&gt;
         description: ''

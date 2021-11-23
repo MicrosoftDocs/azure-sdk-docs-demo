@@ -40,7 +40,7 @@ properties:
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-queue.Metadata" />
+        type: <xref uid="@azure/storage-queue.Metadata|preview" />
         description: ''
   - name: tracingOptions
     uid: '@azure/storage-queue.QueueCreateOptions.tracingOptions|preview'
@@ -55,4 +55,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-queue.CommonOptions" />
+extends: <xref uid="@azure/storage-queue.CommonOptions|preview" />

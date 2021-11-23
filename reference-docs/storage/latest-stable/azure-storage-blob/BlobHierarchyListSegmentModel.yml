@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'blobItems: BlobItemInternal[]'
       return:
-        type: <xref uid="@azure/storage-blob.BlobItemInternal" />[]
+        type: <xref uid="@azure/storage-blob.BlobItemInternal|latest-stable" />[]
         description: ''
   - name: blobPrefixes
     uid: >-
@@ -34,5 +34,5 @@ properties:
     syntax:
       content: 'blobPrefixes?: BlobPrefix[]'
       return:
-        type: <xref uid="@azure/storage-blob.BlobPrefix" />[]
+        type: <xref uid="@azure/storage-blob.BlobPrefix|latest-stable" />[]
         description: ''

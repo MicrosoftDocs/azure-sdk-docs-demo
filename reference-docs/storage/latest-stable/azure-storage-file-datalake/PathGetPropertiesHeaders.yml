@@ -258,7 +258,9 @@ properties:
     syntax:
       content: 'copyStatus?: CopyStatusType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.CopyStatusType" />
+        type: >-
+          <xref uid="@azure/storage-file-datalake.CopyStatusType|latest-stable"
+          />
         description: ''
   - name: copyStatusDescription
     uid: >-
@@ -410,7 +412,9 @@ properties:
     syntax:
       content: 'leaseDuration?: LeaseDurationType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.LeaseDurationType" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.LeaseDurationType|latest-stable" />
         description: ''
   - name: leaseState
     uid: >-
@@ -424,7 +428,9 @@ properties:
     syntax:
       content: 'leaseState?: LeaseStateType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.LeaseStateType" />
+        type: >-
+          <xref uid="@azure/storage-file-datalake.LeaseStateType|latest-stable"
+          />
         description: ''
   - name: leaseStatus
     uid: >-
@@ -438,7 +444,9 @@ properties:
     syntax:
       content: 'leaseStatus?: LeaseStatusType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.LeaseStatusType" />
+        type: >-
+          <xref uid="@azure/storage-file-datalake.LeaseStatusType|latest-stable"
+          />
         description: ''
   - name: metadata
     uid: >-
@@ -452,7 +460,7 @@ properties:
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-file-datalake.Metadata" />
+        type: <xref uid="@azure/storage-file-datalake.Metadata|latest-stable" />
         description: ''
   - name: requestId
     uid: >-

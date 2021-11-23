@@ -184,11 +184,11 @@ methods:
       content: 'static function from(permissionLike: BlobSASPermissionsLike)'
       parameters:
         - id: permissionLike
-          type: <xref uid="@azure/storage-blob.BlobSASPermissionsLike" />
+          type: <xref uid="@azure/storage-blob.BlobSASPermissionsLike|preview" />
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-blob.BlobSASPermissions" />
+        type: <xref uid="@azure/storage-blob.BlobSASPermissions|preview" />
         description: ''
   - name: parse(string)
     uid: '@azure/storage-blob.BlobSASPermissions.parse|preview'
@@ -210,7 +210,7 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-blob.BlobSASPermissions" />
+        type: <xref uid="@azure/storage-blob.BlobSASPermissions|preview" />
         description: ''
   - name: toString()
     uid: '@azure/storage-blob.BlobSASPermissions.toString|preview'

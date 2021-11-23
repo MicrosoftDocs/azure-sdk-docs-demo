@@ -58,7 +58,8 @@ methods:
           description: ''
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
           /> | undefined
         description: ''
   - name: concat(ConcatArray<AnalyzeHealthcareEntitiesResult>[])
@@ -75,13 +76,14 @@ methods:
         - id: items
           type: >-
             ConcatArray&lt;<xref
-            uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+            uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
             />&gt;[]
           description: |
             Additional items to add to the end of array1.
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
           />[]
         description: ''
   - name: concat(T | ConcatArray<T>[])
@@ -101,7 +103,8 @@ methods:
             Additional items to add to the end of array1.
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
           />[]
         description: ''
   - name: copyWithin(number, number, number)
@@ -203,7 +206,8 @@ methods:
       parameters:
         - id: value
           type: >-
-            <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
             />
           description: value to fill array section with
         - id: start
@@ -257,7 +261,8 @@ methods:
             value.
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
           />[]
         description: ''
   - name: >-
@@ -321,7 +326,8 @@ methods:
           description: ''
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
           /> | undefined
         description: ''
   - name: >-
@@ -721,7 +727,8 @@ methods:
       parameters:
         - id: searchElement
           type: >-
-            <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
             />
           description: The element to search for.
         - id: fromIndex
@@ -747,7 +754,8 @@ methods:
       parameters:
         - id: searchElement
           type: >-
-            <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
             />
           description: The value to locate in the array.
         - id: fromIndex
@@ -806,7 +814,8 @@ methods:
       parameters:
         - id: searchElement
           type: >-
-            <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
             />
           description: The value to locate in the array.
         - id: fromIndex
@@ -861,7 +870,8 @@ methods:
       content: function pop()
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
           /> | undefined
         description: ''
   - name: push(AnalyzeHealthcareEntitiesResult[])
@@ -876,7 +886,8 @@ methods:
       parameters:
         - id: items
           type: >-
-            <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
             />[]
           description: |
             New elements of the Array.
@@ -916,7 +927,8 @@ methods:
             array.
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
           />
         description: ''
   - name: >-
@@ -948,12 +960,14 @@ methods:
           description: ''
         - id: initialValue
           type: >-
-            <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
             />
           description: ''
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
           />
         description: ''
   - name: >-
@@ -1028,7 +1042,8 @@ methods:
             array.
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
           />
         description: ''
   - name: >-
@@ -1060,12 +1075,14 @@ methods:
           description: ''
         - id: initialValue
           type: >-
-            <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
             />
           description: ''
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
           />
         description: ''
   - name: >-
@@ -1119,7 +1136,8 @@ methods:
       content: function reverse()
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
           />[]
         description: ''
   - name: shift()
@@ -1134,7 +1152,8 @@ methods:
       content: function shift()
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
           /> | undefined
         description: ''
   - name: slice(number, number)
@@ -1157,7 +1176,8 @@ methods:
             The end of the specified portion of the array.
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
           />[]
         description: ''
   - name: >-
@@ -1243,7 +1263,8 @@ methods:
             The number of elements to remove.
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
           />[]
         description: ''
   - name: splice(number, number, AnalyzeHealthcareEntitiesResult[])
@@ -1271,13 +1292,15 @@ methods:
           description: The number of elements to remove.
         - id: items
           type: >-
-            <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
             />[]
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
           />[]
         description: ''
   - name: toLocaleString()
@@ -1321,7 +1344,8 @@ methods:
       parameters:
         - id: items
           type: >-
-            <xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
             />[]
           description: |
             Elements to insert at the start of the Array.
@@ -1341,8 +1365,9 @@ methods:
       return:
         type: >-
           IterableIterator&lt;<xref
-          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult" />&gt;
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview"
+          />&gt;
         description: ''
 extends: >-
-  Array&lt;<xref uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult"
-  />&gt;
+  Array&lt;<xref
+  uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|preview" />&gt;

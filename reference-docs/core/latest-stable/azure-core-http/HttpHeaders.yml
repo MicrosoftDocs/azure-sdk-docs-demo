@@ -20,7 +20,7 @@ constructors:
       content: 'new HttpHeaders(rawHeaders?: RawHttpHeaders)'
       parameters:
         - id: rawHeaders
-          type: <xref uid="@azure/core-http.RawHttpHeaders" />
+          type: <xref uid="@azure/core-http.RawHttpHeaders|latest-stable" />
           description: ''
 methods:
   - name: clone()
@@ -33,7 +33,7 @@ methods:
     syntax:
       content: function clone()
       return:
-        type: <xref uid="@azure/core-http.HttpHeaders" />
+        type: <xref uid="@azure/core-http.HttpHeaders|latest-stable" />
         description: ''
   - name: contains(string)
     uid: '@azure/core-http.HttpHeaders.contains|latest-stable'
@@ -96,7 +96,7 @@ methods:
     syntax:
       content: function headersArray()
       return:
-        type: <xref uid="@azure/core-http.HttpHeader" />[]
+        type: <xref uid="@azure/core-http.HttpHeader|latest-stable" />[]
         description: ''
   - name: headerValues()
     uid: '@azure/core-http.HttpHeaders.headerValues|latest-stable'
@@ -120,7 +120,7 @@ methods:
     syntax:
       content: function rawHeaders()
       return:
-        type: <xref uid="@azure/core-http.RawHttpHeaders" />
+        type: <xref uid="@azure/core-http.RawHttpHeaders|latest-stable" />
         description: ''
   - name: remove(string)
     uid: '@azure/core-http.HttpHeaders.remove|latest-stable'
@@ -174,7 +174,7 @@ methods:
     syntax:
       content: function toJson()
       return:
-        type: <xref uid="@azure/core-http.RawHttpHeaders" />
+        type: <xref uid="@azure/core-http.RawHttpHeaders|latest-stable" />
         description: ''
   - name: toString()
     uid: '@azure/core-http.HttpHeaders.toString|latest-stable'

@@ -24,7 +24,10 @@ properties:
     syntax:
       content: 'additionalInfo?: ErrorAdditionalInfo[]'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ErrorAdditionalInfo" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-appconfiguration.ErrorAdditionalInfo|latest-stable"
+          />[]
         description: ''
   - name: code
     uid: '@azure/arm-appconfiguration.ErrorDetails.code|latest-stable'

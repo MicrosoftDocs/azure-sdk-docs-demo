@@ -22,7 +22,10 @@ properties:
     syntax:
       content: 'definition: BlobInventoryPolicyDefinition'
       return:
-        type: <xref uid="@azure/arm-storage.BlobInventoryPolicyDefinition" />
+        type: >-
+          <xref
+          uid="@azure/arm-storage.BlobInventoryPolicyDefinition|latest-stable"
+          />
         description: ''
   - name: enabled
     uid: '@azure/arm-storage.BlobInventoryPolicyRule.enabled|latest-stable'

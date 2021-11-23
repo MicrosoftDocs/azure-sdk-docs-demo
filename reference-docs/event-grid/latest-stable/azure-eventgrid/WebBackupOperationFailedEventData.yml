@@ -36,7 +36,7 @@ properties:
     syntax:
       content: 'appEventTypeDetail: AppEventTypeDetail'
       return:
-        type: <xref uid="@azure/eventgrid.AppEventTypeDetail" />
+        type: <xref uid="@azure/eventgrid.AppEventTypeDetail|latest-stable" />
         description: ''
   - name: clientRequestId
     uid: >-

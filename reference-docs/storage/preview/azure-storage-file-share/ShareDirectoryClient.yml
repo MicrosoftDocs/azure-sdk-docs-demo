@@ -35,12 +35,14 @@ constructors:
                                 However, if a directory name includes %, directory name must be encoded in the URL.
                                 Such as a directory named "mydir%", the URL should be "https://myaccount.file.core.windows.net/myshare/mydir%25".
         - id: credential
-          type: <xref uid="@azure/storage-file-share.Credential_2" />
+          type: <xref uid="@azure/storage-file-share.Credential_2|preview" />
           description: |-
             Such as AnonymousCredential or StorageSharedKeyCredential.
                                              If not specified, AnonymousCredential is used.
         - id: options
-          type: <xref uid="@azure/storage-file-share.StoragePipelineOptions" />
+          type: >-
+            <xref uid="@azure/storage-file-share.StoragePipelineOptions|preview"
+            />
           description: |
             Optional. Options to configure the HTTP pipeline.
   - name: ShareDirectoryClient(string, Pipeline)
@@ -65,7 +67,7 @@ constructors:
                                 However, if a directory name includes %, directory name must be encoded in the URL.
                                 Such as a directory named "mydir%", the URL should be "https://myaccount.file.core.windows.net/myshare/mydir%25".
         - id: pipeline
-          type: <xref uid="@azure/storage-file-share.Pipeline" />
+          type: <xref uid="@azure/storage-file-share.Pipeline|preview" />
           description: |
             Call newPipeline() to create a default
                                        pipeline, or provide a customized pipeline.
@@ -147,12 +149,14 @@ methods:
       content: 'function create(options?: DirectoryCreateOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.DirectoryCreateOptions" />
+          type: >-
+            <xref uid="@azure/storage-file-share.DirectoryCreateOptions|preview"
+            />
           description: Options to Directory Create operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.DirectoryCreateResponse" />&gt;
+          uid="@azure/storage-file-share.DirectoryCreateResponse|preview" />&gt;
         description: Response data for the Directory  operation.
   - name: createFile(string, number, FileCreateOptions)
     uid: '@azure/storage-file-share.ShareDirectoryClient.createFile|preview'
@@ -175,7 +179,7 @@ methods:
           type: number
           description: Specifies the maximum size in bytes for the file, up to 4 TB.
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileCreateOptions" />
+          type: <xref uid="@azure/storage-file-share.FileCreateOptions|preview" />
           description: Options to File Create operation.
       return:
         type: Promise&lt;Object&gt;
@@ -195,13 +199,15 @@ methods:
       content: 'function createIfNotExists(options?: DirectoryCreateOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.DirectoryCreateOptions" />
+          type: >-
+            <xref uid="@azure/storage-file-share.DirectoryCreateOptions|preview"
+            />
           description: |
             -
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.DirectoryCreateIfNotExistsResponse"
+          uid="@azure/storage-file-share.DirectoryCreateIfNotExistsResponse|preview"
           />&gt;
         description: ''
   - name: createSubdirectory(string, DirectoryCreateOptions)
@@ -220,7 +226,9 @@ methods:
           type: string
           description: '-'
         - id: options
-          type: <xref uid="@azure/storage-file-share.DirectoryCreateOptions" />
+          type: >-
+            <xref uid="@azure/storage-file-share.DirectoryCreateOptions|preview"
+            />
           description: Options to Directory Create operation.
       return:
         type: Promise&lt;Object&gt;
@@ -242,12 +250,14 @@ methods:
       content: 'function delete(options?: DirectoryDeleteOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.DirectoryDeleteOptions" />
+          type: >-
+            <xref uid="@azure/storage-file-share.DirectoryDeleteOptions|preview"
+            />
           description: Options to Directory Delete operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.DirectoryDeleteResponse" />&gt;
+          uid="@azure/storage-file-share.DirectoryDeleteResponse|preview" />&gt;
         description: Response data for the Directory Delete operation.
   - name: deleteFile(string, FileDeleteOptions)
     uid: '@azure/storage-file-share.ShareDirectoryClient.deleteFile|preview'
@@ -284,12 +294,12 @@ methods:
           type: string
           description: Name of the file to delete
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileDeleteOptions" />
+          type: <xref uid="@azure/storage-file-share.FileDeleteOptions|preview" />
           description: Options to File Delete operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-file-share.FileDeleteResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/storage-file-share.FileDeleteResponse|preview" />&gt;
         description: File deletion response data.
   - name: deleteIfExists(DirectoryDeleteOptions)
     uid: '@azure/storage-file-share.ShareDirectoryClient.deleteIfExists|preview'
@@ -306,13 +316,16 @@ methods:
       content: 'function deleteIfExists(options?: DirectoryDeleteOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.DirectoryDeleteOptions" />
+          type: >-
+            <xref uid="@azure/storage-file-share.DirectoryDeleteOptions|preview"
+            />
           description: |
             -
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.DirectoryDeleteIfExistsResponse" />&gt;
+          uid="@azure/storage-file-share.DirectoryDeleteIfExistsResponse|preview"
+          />&gt;
         description: ''
   - name: deleteSubdirectory(string, DirectoryDeleteOptions)
     uid: '@azure/storage-file-share.ShareDirectoryClient.deleteSubdirectory|preview'
@@ -332,12 +345,14 @@ methods:
           type: string
           description: '-'
         - id: options
-          type: <xref uid="@azure/storage-file-share.DirectoryDeleteOptions" />
+          type: >-
+            <xref uid="@azure/storage-file-share.DirectoryDeleteOptions|preview"
+            />
           description: Options to Directory Delete operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.DirectoryDeleteResponse" />&gt;
+          uid="@azure/storage-file-share.DirectoryDeleteResponse|preview" />&gt;
         description: Directory deletion response data.
   - name: exists(DirectoryExistsOptions)
     uid: '@azure/storage-file-share.ShareDirectoryClient.exists|preview'
@@ -359,7 +374,9 @@ methods:
       content: 'function exists(options?: DirectoryExistsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.DirectoryExistsOptions" />
+          type: >-
+            <xref uid="@azure/storage-file-share.DirectoryExistsOptions|preview"
+            />
           description: |
             options to Exists operation.
       return:
@@ -381,14 +398,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/storage-file-share.DirectoryForceCloseHandlesSegmentOptions"
+            uid="@azure/storage-file-share.DirectoryForceCloseHandlesSegmentOptions|preview"
             />
           description: |
             -
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-file-share.CloseHandlesInfo"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/storage-file-share.CloseHandlesInfo|preview" />&gt;
         description: ''
   - name: forceCloseHandle(string, DirectoryForceCloseHandlesOptions)
     uid: '@azure/storage-file-share.ShareDirectoryClient.forceCloseHandle|preview'
@@ -410,13 +427,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/storage-file-share.DirectoryForceCloseHandlesOptions" />
+            uid="@azure/storage-file-share.DirectoryForceCloseHandlesOptions|preview"
+            />
           description: |
             -
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.DirectoryForceCloseHandlesResponse"
+          uid="@azure/storage-file-share.DirectoryForceCloseHandlesResponse|preview"
           />&gt;
         description: ''
   - name: getDirectoryClient(string)
@@ -433,7 +451,7 @@ methods:
           type: string
           description: A subdirectory name
       return:
-        type: <xref uid="@azure/storage-file-share.ShareDirectoryClient" />
+        type: <xref uid="@azure/storage-file-share.ShareDirectoryClient|preview" />
         description: >-
           The ShareDirectoryClient object for the given subdirectory name.
 
@@ -465,7 +483,7 @@ methods:
           type: string
           description: A file name.
       return:
-        type: <xref uid="@azure/storage-file-share.ShareFileClient" />
+        type: <xref uid="@azure/storage-file-share.ShareFileClient|preview" />
         description: |-
           A new ShareFileClient object for the given file name.
 
@@ -501,13 +519,15 @@ methods:
       parameters:
         - id: options
           type: >-
-            <xref uid="@azure/storage-file-share.DirectoryGetPropertiesOptions"
+            <xref
+            uid="@azure/storage-file-share.DirectoryGetPropertiesOptions|preview"
             />
           description: Options to Directory Get Properties operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.DirectoryGetPropertiesResponse" />&gt;
+          uid="@azure/storage-file-share.DirectoryGetPropertiesResponse|preview"
+          />&gt;
         description: Response data for the Directory Get Properties operation.
   - name: listFilesAndDirectories(DirectoryListFilesAndDirectoriesOptions)
     uid: >-
@@ -647,15 +667,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/storage-file-share.DirectoryListFilesAndDirectoriesOptions"
+            uid="@azure/storage-file-share.DirectoryListFilesAndDirectoriesOptions|preview"
             />
           description: Options to list files and directories operation.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;Object & <xref
-          uid="@azure/storage-file-share.FileItem" /> | Object & <xref
-          uid="@azure/storage-file-share.DirectoryItem" />, <xref
-          uid="@azure/storage-file-share.DirectoryListFilesAndDirectoriesSegmentResponse"
+          uid="@azure/storage-file-share.FileItem|preview" /> | Object & <xref
+          uid="@azure/storage-file-share.DirectoryItem|preview" />, <xref
+          uid="@azure/storage-file-share.DirectoryListFilesAndDirectoriesSegmentResponse|preview"
           />&gt;
         description: An asyncIterableIterator that supports paging.
   - name: listHandles(DirectoryListHandlesOptions)
@@ -778,7 +798,10 @@ methods:
       content: 'function listHandles(options?: DirectoryListHandlesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.DirectoryListHandlesOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.DirectoryListHandlesOptions|preview"
+            />
           description: |
             Options to list handles operation.
 
@@ -786,8 +809,9 @@ methods:
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/storage-file-share.HandleItem" />, <xref
-          uid="@azure/storage-file-share.DirectoryListHandlesResponse" />&gt;
+          uid="@azure/storage-file-share.HandleItem|preview" />, <xref
+          uid="@azure/storage-file-share.DirectoryListHandlesResponse|preview"
+          />&gt;
         description: ''
   - name: setMetadata(Metadata, DirectorySetMetadataOptions)
     uid: '@azure/storage-file-share.ShareDirectoryClient.setMetadata|preview'
@@ -802,17 +826,21 @@ methods:
         DirectorySetMetadataOptions)
       parameters:
         - id: metadata
-          type: <xref uid="@azure/storage-file-share.Metadata" />
+          type: <xref uid="@azure/storage-file-share.Metadata|preview" />
           description: >-
             If no metadata provided, all existing directory metadata will be
             removed
         - id: options
-          type: <xref uid="@azure/storage-file-share.DirectorySetMetadataOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.DirectorySetMetadataOptions|preview"
+            />
           description: Options to Directory Set Metadata operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.DirectorySetMetadataResponse" />&gt;
+          uid="@azure/storage-file-share.DirectorySetMetadataResponse|preview"
+          />&gt;
         description: Response data for the Directory Set Metadata operation.
   - name: setProperties(DirectoryProperties)
     uid: '@azure/storage-file-share.ShareDirectoryClient.setProperties|preview'
@@ -825,11 +853,12 @@ methods:
       content: 'function setProperties(properties?: DirectoryProperties)'
       parameters:
         - id: properties
-          type: <xref uid="@azure/storage-file-share.DirectoryProperties" />
+          type: <xref uid="@azure/storage-file-share.DirectoryProperties|preview" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.DirectorySetPropertiesResponse" />&gt;
+          uid="@azure/storage-file-share.DirectorySetPropertiesResponse|preview"
+          />&gt;
         description: ''
-extends: <xref uid="@azure/storage-file-share.StorageClient" />
+extends: <xref uid="@azure/storage-file-share.StorageClient|preview" />

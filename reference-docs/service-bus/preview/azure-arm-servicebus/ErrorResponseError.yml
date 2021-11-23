@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'additionalInfo?: ErrorAdditionalInfo[]'
       return:
-        type: <xref uid="@azure/arm-servicebus.ErrorAdditionalInfo" />[]
+        type: <xref uid="@azure/arm-servicebus.ErrorAdditionalInfo|preview" />[]
         description: ''
   - name: code
     uid: '@azure/arm-servicebus.ErrorResponseError.code|preview'
@@ -58,7 +58,7 @@ properties:
     syntax:
       content: 'details?: ErrorResponse[]'
       return:
-        type: <xref uid="@azure/arm-servicebus.ErrorResponse" />[]
+        type: <xref uid="@azure/arm-servicebus.ErrorResponse|preview" />[]
         description: ''
   - name: message
     uid: '@azure/arm-servicebus.ErrorResponseError.message|preview'

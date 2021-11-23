@@ -26,7 +26,7 @@ properties:
     syntax:
       content: 'boundingRegions?: BoundingRegion[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.BoundingRegion" />[]
+        type: <xref uid="@azure/ai-form-recognizer.BoundingRegion|preview" />[]
         description: ''
   - name: confidence
     uid: '@azure/ai-form-recognizer.AnalyzedDocument.confidence|preview'
@@ -72,7 +72,9 @@ properties:
     syntax:
       content: 'fields: [key: string]: DocumentField'
       return:
-        type: '[key: string]\: <xref uid="@azure/ai-form-recognizer.DocumentField" />'
+        type: >-
+          [key: string]\: <xref
+          uid="@azure/ai-form-recognizer.DocumentField|preview" />
         description: ''
   - name: spans
     uid: '@azure/ai-form-recognizer.AnalyzedDocument.spans|preview'
@@ -87,5 +89,5 @@ properties:
     syntax:
       content: 'spans: DocumentSpan[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentSpan" />[]
+        type: <xref uid="@azure/ai-form-recognizer.DocumentSpan|preview" />[]
         description: ''

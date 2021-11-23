@@ -36,7 +36,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.PrivateEndpointConnectionsDeleteOptionalParams"
+            uid="@azure/arm-servicebus.PrivateEndpointConnectionsDeleteOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -71,7 +71,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.PrivateEndpointConnectionsDeleteOptionalParams"
+            uid="@azure/arm-servicebus.PrivateEndpointConnectionsDeleteOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -104,7 +104,9 @@ methods:
           type: string
           description: The PrivateEndpointConnection name
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.PrivateEndpointConnection" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.PrivateEndpointConnection|preview"
+            />
           description: >-
             Parameters supplied to update Status of PrivateEndPoint Connection
             to namespace
@@ -112,14 +114,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.PrivateEndpointConnectionsCreateOrUpdateOptionalParams"
+            uid="@azure/arm-servicebus.PrivateEndpointConnectionsCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.PrivateEndpointConnectionsCreateOrUpdateResponse"
+          uid="@azure/arm-servicebus.PrivateEndpointConnectionsCreateOrUpdateResponse|preview"
           />&gt;
         description: ''
   - name: get(string, string, string, PrivateEndpointConnectionsGetOptionalParams)
@@ -147,14 +149,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.PrivateEndpointConnectionsGetOptionalParams"
+            uid="@azure/arm-servicebus.PrivateEndpointConnectionsGetOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.PrivateEndpointConnectionsGetResponse"
+          uid="@azure/arm-servicebus.PrivateEndpointConnectionsGetResponse|preview"
           />&gt;
         description: ''
   - name: list(string, string, PrivateEndpointConnectionsListOptionalParams)
@@ -178,12 +180,12 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.PrivateEndpointConnectionsListOptionalParams"
+            uid="@azure/arm-servicebus.PrivateEndpointConnectionsListOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-servicebus.PrivateEndpointConnection" />&gt;
+          uid="@azure/arm-servicebus.PrivateEndpointConnection|preview" />&gt;
         description: ''

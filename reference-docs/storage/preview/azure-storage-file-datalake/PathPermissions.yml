@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'group: RolePermissions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.RolePermissions" />
+        type: <xref uid="@azure/storage-file-datalake.RolePermissions|preview" />
         description: ''
   - name: other
     uid: '@azure/storage-file-datalake.PathPermissions.other|preview'
@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'other: RolePermissions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.RolePermissions" />
+        type: <xref uid="@azure/storage-file-datalake.RolePermissions|preview" />
         description: ''
   - name: owner
     uid: '@azure/storage-file-datalake.PathPermissions.owner|preview'
@@ -59,7 +59,7 @@ properties:
     syntax:
       content: 'owner: RolePermissions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.RolePermissions" />
+        type: <xref uid="@azure/storage-file-datalake.RolePermissions|preview" />
         description: ''
   - name: stickyBit
     uid: '@azure/storage-file-datalake.PathPermissions.stickyBit|preview'

@@ -20,7 +20,9 @@ constructors:
       content: 'new RequestPolicyOptions(_logger?: HttpPipelineLogger | undefined)'
       parameters:
         - id: _logger
-          type: <xref uid="@azure/core-http.HttpPipelineLogger" /> | undefined
+          type: >-
+            <xref uid="@azure/core-http.HttpPipelineLogger|latest-stable" /> |
+            undefined
           description: ''
 methods:
   - name: log(HttpPipelineLogLevel, string)
@@ -39,7 +41,7 @@ methods:
       content: 'function log(logLevel: HttpPipelineLogLevel, message: string)'
       parameters:
         - id: logLevel
-          type: <xref uid="@azure/core-http.HttpPipelineLogLevel" />
+          type: <xref uid="@azure/core-http.HttpPipelineLogLevel|latest-stable" />
           description: The log level of this log.
         - id: message
           type: string
@@ -56,7 +58,7 @@ methods:
       content: 'function shouldLog(logLevel: HttpPipelineLogLevel)'
       parameters:
         - id: logLevel
-          type: <xref uid="@azure/core-http.HttpPipelineLogLevel" />
+          type: <xref uid="@azure/core-http.HttpPipelineLogLevel|latest-stable" />
           description: The log level of the log that will be logged.
       return:
         type: boolean

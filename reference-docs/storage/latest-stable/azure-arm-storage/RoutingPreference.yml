@@ -60,5 +60,5 @@ properties:
     syntax:
       content: 'routingChoice?: RoutingChoice'
       return:
-        type: <xref uid="@azure/arm-storage.RoutingChoice" />
+        type: <xref uid="@azure/arm-storage.RoutingChoice|latest-stable" />
         description: ''

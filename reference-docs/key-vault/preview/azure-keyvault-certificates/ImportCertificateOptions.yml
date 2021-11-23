@@ -61,7 +61,9 @@ properties:
     syntax:
       content: 'policy?: ImportCertificatePolicy'
       return:
-        type: <xref uid="@azure/keyvault-certificates.ImportCertificatePolicy" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-certificates.ImportCertificatePolicy|preview" />
         description: ''
   - name: requestOptions
     uid: >-
@@ -90,7 +92,7 @@ properties:
     syntax:
       content: 'tags?: CertificateTags'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificateTags" />
+        type: <xref uid="@azure/keyvault-certificates.CertificateTags|preview" />
         description: ''
   - name: tracingOptions
     uid: >-

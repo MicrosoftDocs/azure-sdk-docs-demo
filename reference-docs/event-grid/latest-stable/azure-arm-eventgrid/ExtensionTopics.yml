@@ -20,7 +20,10 @@ constructors:
       content: 'new ExtensionTopics(client: EventGridManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-eventgrid.EventGridManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.EventGridManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -53,10 +56,12 @@ methods:
 
             for Azure resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ExtensionTopicsGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.ExtensionTopicsGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ExtensionTopicsGetResponse>
   - name: get(string, RequestOptionsBase, ServiceCallback<ExtensionTopic>)
     uid: '@azure/arm-eventgrid.ExtensionTopics.get_2|latest-stable'
@@ -93,8 +98,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventgrid.ExtensionTopic"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventgrid.ExtensionTopic|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, ServiceCallback<ExtensionTopic>)
@@ -127,7 +132,7 @@ methods:
             for Azure resource.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventgrid.ExtensionTopic"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventgrid.ExtensionTopic|latest-stable" />&gt;
           description: |
             The callback

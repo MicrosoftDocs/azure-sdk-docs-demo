@@ -42,7 +42,7 @@ properties:
     syntax:
       content: 'conditions?: BlobRequestConditions'
       return:
-        type: <xref uid="@azure/storage-blob.BlobRequestConditions" />
+        type: <xref uid="@azure/storage-blob.BlobRequestConditions|preview" />
         description: ''
   - name: immutabilityPolicy
     uid: '@azure/storage-blob.BlobStartCopyFromURLOptions.immutabilityPolicy|preview'
@@ -61,7 +61,7 @@ properties:
     syntax:
       content: 'immutabilityPolicy?: BlobImmutabilityPolicy'
       return:
-        type: <xref uid="@azure/storage-blob.BlobImmutabilityPolicy" />
+        type: <xref uid="@azure/storage-blob.BlobImmutabilityPolicy|preview" />
         description: ''
   - name: legalHold
     uid: '@azure/storage-blob.BlobStartCopyFromURLOptions.legalHold|preview'
@@ -95,7 +95,7 @@ properties:
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-blob.Metadata" />
+        type: <xref uid="@azure/storage-blob.Metadata|preview" />
         description: ''
   - name: rehydratePriority
     uid: '@azure/storage-blob.BlobStartCopyFromURLOptions.rehydratePriority|preview'
@@ -112,7 +112,7 @@ properties:
     syntax:
       content: 'rehydratePriority?: RehydratePriority'
       return:
-        type: <xref uid="@azure/storage-blob.RehydratePriority" />
+        type: <xref uid="@azure/storage-blob.RehydratePriority|preview" />
         description: ''
   - name: sealBlob
     uid: '@azure/storage-blob.BlobStartCopyFromURLOptions.sealBlob|preview'
@@ -140,7 +140,7 @@ properties:
     syntax:
       content: 'sourceConditions?: ModifiedAccessConditions'
       return:
-        type: <xref uid="@azure/storage-blob.ModifiedAccessConditions" />
+        type: <xref uid="@azure/storage-blob.ModifiedAccessConditions|preview" />
         description: ''
   - name: tags
     uid: '@azure/storage-blob.BlobStartCopyFromURLOptions.tags|preview'
@@ -153,7 +153,7 @@ properties:
     syntax:
       content: 'tags?: Tags'
       return:
-        type: <xref uid="@azure/storage-blob.Tags" />
+        type: <xref uid="@azure/storage-blob.Tags|preview" />
         description: ''
   - name: tier
     uid: '@azure/storage-blob.BlobStartCopyFromURLOptions.tier|preview'
@@ -171,8 +171,8 @@ properties:
       content: 'tier?: BlockBlobTier | PremiumPageBlobTier | string'
       return:
         type: >-
-          <xref uid="@azure/storage-blob.BlockBlobTier" /> | <xref
-          uid="@azure/storage-blob.PremiumPageBlobTier" /> | string
+          <xref uid="@azure/storage-blob.BlockBlobTier|preview" /> | <xref
+          uid="@azure/storage-blob.PremiumPageBlobTier|preview" /> | string
         description: ''
   - name: tracingOptions
     uid: '@azure/storage-blob.BlobStartCopyFromURLOptions.tracingOptions|preview'
@@ -187,4 +187,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|preview" />

@@ -20,7 +20,9 @@ constructors:
       content: 'new PrivateLinkResourcesImpl(client: StorageManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|preview" />
           description: |
             Reference to the service client
 methods:
@@ -57,13 +59,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.PrivateLinkResourcesListByStorageAccountOptionalParams"
+            uid="@azure/arm-storage.PrivateLinkResourcesListByStorageAccountOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.PrivateLinkResourcesListByStorageAccountResponse"
+          uid="@azure/arm-storage.PrivateLinkResourcesListByStorageAccountResponse|preview"
           />&gt;
         description: ''

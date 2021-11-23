@@ -49,7 +49,7 @@ methods:
           type: '(args: any[]) =&gt; Promise&lt;T&gt;'
           description: The function to invoke once the lock has been acquired.
         - id: properties
-          type: <xref uid="@azure/core-amqp.AcquireLockProperties" />
+          type: <xref uid="@azure/core-amqp.AcquireLockProperties|latest-stable" />
           description: |
             Additional properties to control the behavior of `acquire`.
       return:

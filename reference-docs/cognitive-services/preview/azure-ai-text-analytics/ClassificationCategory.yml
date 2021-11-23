@@ -35,4 +35,4 @@ properties:
       return:
         type: number
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.ClassificationResult" />
+extends: <xref uid="@azure/ai-text-analytics.ClassificationResult|preview" />

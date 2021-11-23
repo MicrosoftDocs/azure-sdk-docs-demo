@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'identity?: IdentityInfo'
       return:
-        type: <xref uid="@azure/arm-eventgrid.IdentityInfo" />
+        type: <xref uid="@azure/arm-eventgrid.IdentityInfo|latest-stable" />
         description: ''
   - name: tags
     uid: '@azure/arm-eventgrid.SystemTopicUpdateParameters.tags|latest-stable'

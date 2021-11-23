@@ -24,7 +24,7 @@ properties:
       content: 'dnsNames: ArrayOneOrMore<string>'
       return:
         type: >-
-          <xref uid="@azure/keyvault-certificates.ArrayOneOrMore"
+          <xref uid="@azure/keyvault-certificates.ArrayOneOrMore|latest-stable"
           />&lt;string&gt;
         description: ''
   - name: emails
@@ -40,7 +40,7 @@ properties:
       content: 'emails: ArrayOneOrMore<string>'
       return:
         type: >-
-          <xref uid="@azure/keyvault-certificates.ArrayOneOrMore"
+          <xref uid="@azure/keyvault-certificates.ArrayOneOrMore|latest-stable"
           />&lt;string&gt;
         description: ''
   - name: userPrincipalNames
@@ -56,6 +56,6 @@ properties:
       content: 'userPrincipalNames: ArrayOneOrMore<string>'
       return:
         type: >-
-          <xref uid="@azure/keyvault-certificates.ArrayOneOrMore"
+          <xref uid="@azure/keyvault-certificates.ArrayOneOrMore|latest-stable"
           />&lt;string&gt;
         description: ''

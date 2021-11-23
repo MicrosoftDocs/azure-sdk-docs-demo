@@ -37,7 +37,7 @@ constructors:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.ServiceBusManagementClientOptionalParams"
+            uid="@azure/arm-servicebus.ServiceBusManagementClientOptionalParams|preview"
             />
           description: |
             The parameter options
@@ -80,7 +80,7 @@ properties:
     syntax:
       content: 'disasterRecoveryConfigs: DisasterRecoveryConfigs'
       return:
-        type: <xref uid="@azure/arm-servicebus.DisasterRecoveryConfigs" />
+        type: <xref uid="@azure/arm-servicebus.DisasterRecoveryConfigs|preview" />
         description: ''
   - name: eventHubs
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.eventHubs|preview'
@@ -93,7 +93,7 @@ properties:
     syntax:
       content: 'eventHubs: EventHubs'
       return:
-        type: <xref uid="@azure/arm-servicebus.EventHubs" />
+        type: <xref uid="@azure/arm-servicebus.EventHubs|preview" />
         description: ''
   - name: migrationConfigs
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.migrationConfigs|preview'
@@ -106,7 +106,7 @@ properties:
     syntax:
       content: 'migrationConfigs: MigrationConfigs'
       return:
-        type: <xref uid="@azure/arm-servicebus.MigrationConfigs" />
+        type: <xref uid="@azure/arm-servicebus.MigrationConfigs|preview" />
         description: ''
   - name: namespaces
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.namespaces|preview'
@@ -119,7 +119,7 @@ properties:
     syntax:
       content: 'namespaces: Namespaces'
       return:
-        type: <xref uid="@azure/arm-servicebus.Namespaces" />
+        type: <xref uid="@azure/arm-servicebus.Namespaces|preview" />
         description: ''
   - name: operations
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.operations|preview'
@@ -132,7 +132,7 @@ properties:
     syntax:
       content: 'operations: Operations'
       return:
-        type: <xref uid="@azure/arm-servicebus.Operations" />
+        type: <xref uid="@azure/arm-servicebus.Operations|preview" />
         description: ''
   - name: pipeline
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.pipeline|preview'
@@ -159,7 +159,10 @@ properties:
     syntax:
       content: 'premiumMessagingRegionsOperations: PremiumMessagingRegionsOperations'
       return:
-        type: <xref uid="@azure/arm-servicebus.PremiumMessagingRegionsOperations" />
+        type: >-
+          <xref
+          uid="@azure/arm-servicebus.PremiumMessagingRegionsOperations|preview"
+          />
         description: ''
   - name: privateEndpointConnections
     uid: >-
@@ -173,7 +176,9 @@ properties:
     syntax:
       content: 'privateEndpointConnections: PrivateEndpointConnections'
       return:
-        type: <xref uid="@azure/arm-servicebus.PrivateEndpointConnections" />
+        type: >-
+          <xref uid="@azure/arm-servicebus.PrivateEndpointConnections|preview"
+          />
         description: ''
   - name: privateLinkResources
     uid: >-
@@ -187,7 +192,7 @@ properties:
     syntax:
       content: 'privateLinkResources: PrivateLinkResources'
       return:
-        type: <xref uid="@azure/arm-servicebus.PrivateLinkResources" />
+        type: <xref uid="@azure/arm-servicebus.PrivateLinkResources|preview" />
         description: ''
   - name: queues
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.queues|preview'
@@ -200,7 +205,7 @@ properties:
     syntax:
       content: 'queues: Queues'
       return:
-        type: <xref uid="@azure/arm-servicebus.Queues" />
+        type: <xref uid="@azure/arm-servicebus.Queues|preview" />
         description: ''
   - name: regions
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.regions|preview'
@@ -213,7 +218,7 @@ properties:
     syntax:
       content: 'regions: Regions'
       return:
-        type: <xref uid="@azure/arm-servicebus.Regions" />
+        type: <xref uid="@azure/arm-servicebus.Regions|preview" />
         description: ''
   - name: rules
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.rules|preview'
@@ -226,7 +231,7 @@ properties:
     syntax:
       content: 'rules: Rules'
       return:
-        type: <xref uid="@azure/arm-servicebus.Rules" />
+        type: <xref uid="@azure/arm-servicebus.Rules|preview" />
         description: ''
   - name: subscriptionId
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.subscriptionId|preview'
@@ -252,7 +257,7 @@ properties:
     syntax:
       content: 'subscriptions: Subscriptions'
       return:
-        type: <xref uid="@azure/arm-servicebus.Subscriptions" />
+        type: <xref uid="@azure/arm-servicebus.Subscriptions|preview" />
         description: ''
   - name: topics
     uid: '@azure/arm-servicebus.ServiceBusManagementClient.topics|preview'
@@ -265,7 +270,7 @@ properties:
     syntax:
       content: 'topics: Topics'
       return:
-        type: <xref uid="@azure/arm-servicebus.Topics" />
+        type: <xref uid="@azure/arm-servicebus.Topics|preview" />
         description: ''
 methods:
   - name: sendOperationRequest<T>(OperationArguments, OperationSpec)
@@ -309,4 +314,4 @@ methods:
       return:
         type: Promise&lt;PipelineResponse&gt;
         description: ''
-extends: <xref uid="@azure/arm-servicebus.ServiceBusManagementClientContext" />
+extends: <xref uid="@azure/arm-servicebus.ServiceBusManagementClientContext|preview" />

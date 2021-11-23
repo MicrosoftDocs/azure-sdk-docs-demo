@@ -34,7 +34,9 @@ properties:
     syntax:
       content: 'filters?: ObjectReplicationPolicyFilter'
       return:
-        type: <xref uid="@azure/arm-storage.ObjectReplicationPolicyFilter" />
+        type: >-
+          <xref uid="@azure/arm-storage.ObjectReplicationPolicyFilter|preview"
+          />
         description: ''
   - name: ruleId
     uid: '@azure/arm-storage.ObjectReplicationPolicyRule.ruleId|preview'

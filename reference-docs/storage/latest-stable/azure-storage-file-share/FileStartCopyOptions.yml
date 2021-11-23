@@ -41,7 +41,7 @@ properties:
     syntax:
       content: 'copyFileSmbInfo?: CopyFileSmbInfo'
       return:
-        type: <xref uid="@azure/storage-file-share.CopyFileSmbInfo" />
+        type: <xref uid="@azure/storage-file-share.CopyFileSmbInfo|latest-stable" />
         description: ''
   - name: filePermission
     uid: >-
@@ -100,7 +100,9 @@ properties:
     syntax:
       content: 'leaseAccessConditions?: LeaseAccessConditions'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-share.LeaseAccessConditions|latest-stable" />
         description: ''
   - name: metadata
     uid: '@azure/storage-file-share.FileStartCopyOptions.metadata|latest-stable'
@@ -115,7 +117,7 @@ properties:
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-file-share.Metadata" />
+        type: <xref uid="@azure/storage-file-share.Metadata|latest-stable" />
         description: ''
   - name: tracingOptions
     uid: >-
@@ -131,4 +133,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-file-share.CommonOptions" />
+extends: <xref uid="@azure/storage-file-share.CommonOptions|latest-stable" />

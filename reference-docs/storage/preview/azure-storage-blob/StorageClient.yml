@@ -45,8 +45,9 @@ properties:
         TokenCredential
       return:
         type: >-
-          <xref uid="@azure/storage-blob.StorageSharedKeyCredential" /> | <xref
-          uid="@azure/storage-blob.AnonymousCredential" /> | TokenCredential
+          <xref uid="@azure/storage-blob.StorageSharedKeyCredential|preview" />
+          | <xref uid="@azure/storage-blob.AnonymousCredential|preview" /> |
+          TokenCredential
         description: ''
   - name: url
     uid: '@azure/storage-blob.StorageClient.url|preview'

@@ -81,7 +81,7 @@ properties:
     syntax:
       content: 'parameters?: LeaseContainerRequest'
       return:
-        type: <xref uid="@azure/arm-storage.LeaseContainerRequest" />
+        type: <xref uid="@azure/arm-storage.LeaseContainerRequest|latest-stable" />
         description: ''
   - name: timeout
     uid: '@azure/arm-storage.BlobContainersLeaseOptionalParams.timeout|latest-stable'

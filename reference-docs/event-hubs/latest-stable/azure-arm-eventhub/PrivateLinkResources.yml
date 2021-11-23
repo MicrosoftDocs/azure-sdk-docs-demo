@@ -20,7 +20,10 @@ constructors:
       content: 'new PrivateLinkResources(client: EventHubManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-eventhub.EventHubManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.EventHubManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -43,10 +46,12 @@ methods:
           type: string
           description: The Namespace name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.PrivateLinkResourcesGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.PrivateLinkResourcesGetResponse|latest-stable" />&gt;
         description: Promise<Models.PrivateLinkResourcesGetResponse>
   - name: >-
       get(string, string, RequestOptionsBase,
@@ -75,7 +80,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.PrivateLinkResourcesListResult" />&gt;
+            uid="@azure/arm-eventhub.PrivateLinkResourcesListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: get(string, string, ServiceCallback<PrivateLinkResourcesListResult>)
@@ -99,6 +105,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.PrivateLinkResourcesListResult" />&gt;
+            uid="@azure/arm-eventhub.PrivateLinkResourcesListResult|latest-stable"
+            />&gt;
           description: |
             The callback

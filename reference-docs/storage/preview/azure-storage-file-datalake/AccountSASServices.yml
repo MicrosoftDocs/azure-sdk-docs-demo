@@ -97,7 +97,7 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-file-datalake.AccountSASServices" />
+        type: <xref uid="@azure/storage-file-datalake.AccountSASServices|preview" />
         description: ''
   - name: toString()
     uid: '@azure/storage-file-datalake.AccountSASServices.toString|preview'

@@ -37,7 +37,7 @@ properties:
     syntax:
       content: 'curve?: KeyCurveName'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyCurveName" />
+        type: <xref uid="@azure/keyvault-keys.KeyCurveName|preview" />
         description: ''
   - name: enabled
     uid: '@azure/keyvault-keys.CreateKeyOptions.enabled|preview'
@@ -104,7 +104,7 @@ properties:
     syntax:
       content: 'keyOps?: KeyOperation[]'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyOperation" />[]
+        type: <xref uid="@azure/keyvault-keys.KeyOperation|preview" />[]
         description: ''
   - name: keySize
     uid: '@azure/keyvault-keys.CreateKeyOptions.keySize|preview'
@@ -145,7 +145,7 @@ properties:
     syntax:
       content: 'releasePolicy?: KeyReleasePolicy'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyReleasePolicy" />
+        type: <xref uid="@azure/keyvault-keys.KeyReleasePolicy|preview" />
         description: ''
   - name: requestOptions
     uid: '@azure/keyvault-keys.CreateKeyOptions.requestOptions|preview'

@@ -98,7 +98,7 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-queue.QueueSASPermissions" />
+        type: <xref uid="@azure/storage-queue.QueueSASPermissions|latest-stable" />
         description: ''
   - name: toString()
     uid: '@azure/storage-queue.QueueSASPermissions.toString|latest-stable'

@@ -121,7 +121,7 @@ properties:
     syntax:
       content: 'ipRange?: SasIPRange'
       return:
-        type: <xref uid="@azure/storage-file-share.SasIPRange" />
+        type: <xref uid="@azure/storage-file-share.SasIPRange|preview" />
         description: ''
   - name: protocol
     uid: '@azure/storage-file-share.CommonGenerateSasUrlOptions.protocol|preview'
@@ -134,7 +134,7 @@ properties:
     syntax:
       content: 'protocol?: SASProtocol'
       return:
-        type: <xref uid="@azure/storage-file-share.SASProtocol" />
+        type: <xref uid="@azure/storage-file-share.SASProtocol|preview" />
         description: ''
   - name: startsOn
     uid: '@azure/storage-file-share.CommonGenerateSasUrlOptions.startsOn|preview'

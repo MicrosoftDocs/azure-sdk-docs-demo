@@ -20,5 +20,7 @@ properties:
     syntax:
       content: 'value?: DeliveryAttributeMappingUnion[]'
       return:
-        type: <xref uid="@azure/arm-eventgrid.DeliveryAttributeMappingUnion" />[]
+        type: >-
+          <xref uid="@azure/arm-eventgrid.DeliveryAttributeMappingUnion|preview"
+          />[]
         description: ''

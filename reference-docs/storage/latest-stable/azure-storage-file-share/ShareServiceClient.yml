@@ -32,12 +32,15 @@ constructors:
                                 "https://myaccount.file.core.windows.net". You can Append a SAS
                                 if using AnonymousCredential, such as "https://myaccount.file.core.windows.net?sasString".
         - id: credential
-          type: <xref uid="@azure/storage-file-share.Credential" />
+          type: <xref uid="@azure/storage-file-share.Credential|latest-stable" />
           description: |-
             Such as AnonymousCredential or StorageSharedKeyCredential.
                                              If not specified, AnonymousCredential is used.
         - id: options
-          type: <xref uid="@azure/storage-file-share.StoragePipelineOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.StoragePipelineOptions|latest-stable"
+            />
           description: |
             Optional. Options to configure the HTTP pipeline.
   - name: ShareServiceClient(string, Pipeline)
@@ -57,7 +60,7 @@ constructors:
                                 "https://myaccount.file.core.windows.net". You can Append a SAS
                                 if using AnonymousCredential, such as "https://myaccount.file.core.windows.net?sasString".
         - id: pipeline
-          type: <xref uid="@azure/storage-file-share.Pipeline" />
+          type: <xref uid="@azure/storage-file-share.Pipeline|latest-stable" />
           description: |
             Call newPipeline() to create a default
                                        pipeline, or provide a customized pipeline.
@@ -103,7 +106,9 @@ methods:
           type: string
           description: '-'
         - id: options
-          type: <xref uid="@azure/storage-file-share.ShareCreateOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ShareCreateOptions|latest-stable" />
           description: '-'
       return:
         type: Promise&lt;Object&gt;
@@ -124,11 +129,15 @@ methods:
           type: string
           description: '-'
         - id: options
-          type: <xref uid="@azure/storage-file-share.ShareDeleteMethodOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ShareDeleteMethodOptions|latest-stable"
+            />
           description: '-'
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-file-share.ShareDeleteResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-file-share.ShareDeleteResponse|latest-stable"
           />&gt;
         description: Share deletion response and the corresponding share client.
   - name: fromConnectionString(string, StoragePipelineOptions)
@@ -155,10 +164,15 @@ methods:
                                              SAS connection string example -
                                              `BlobEndpoint=https://myaccount.blob.core.windows.net/;QueueEndpoint=https://myaccount.queue.core.windows.net/;FileEndpoint=https://myaccount.file.core.windows.net/;TableEndpoint=https://myaccount.table.core.windows.net/;SharedAccessSignature=sasString`
         - id: options
-          type: <xref uid="@azure/storage-file-share.StoragePipelineOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.StoragePipelineOptions|latest-stable"
+            />
           description: Options to configure the HTTP pipeline.
       return:
-        type: <xref uid="@azure/storage-file-share.ShareServiceClient" />
+        type: >-
+          <xref uid="@azure/storage-file-share.ShareServiceClient|latest-stable"
+          />
         description: A new ShareServiceClient from the given connection string.
   - name: >-
       generateAccountSasUrl(Date, AccountSASPermissions, string,
@@ -190,7 +204,10 @@ methods:
             Optional. The time at which the shared access signature becomes
             invalid. Default to an hour later if not specified.
         - id: permissions
-          type: <xref uid="@azure/storage-file-share.AccountSASPermissions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.AccountSASPermissions|latest-stable"
+            />
           description: Specifies the list of permissions to be associated with the SAS.
         - id: resourceTypes
           type: string
@@ -200,7 +217,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/storage-file-share.ServiceGenerateAccountSasUrlOptions"
+            uid="@azure/storage-file-share.ServiceGenerateAccountSasUrlOptions|latest-stable"
             />
           description: Optional parameters.
       return:
@@ -223,12 +240,16 @@ methods:
       content: 'function getProperties(options?: ServiceGetPropertiesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.ServiceGetPropertiesOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ServiceGetPropertiesOptions|latest-stable"
+            />
           description: Options to Get Properties operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.ServiceGetPropertiesResponse" />&gt;
+          uid="@azure/storage-file-share.ServiceGetPropertiesResponse|latest-stable"
+          />&gt;
         description: Response data for the Get Properties operation.
   - name: getShareClient(string)
     uid: '@azure/storage-file-share.ShareServiceClient.getShareClient|latest-stable'
@@ -244,7 +265,7 @@ methods:
           type: string
           description: Name of a share.
       return:
-        type: <xref uid="@azure/storage-file-share.ShareClient" />
+        type: <xref uid="@azure/storage-file-share.ShareClient|latest-stable" />
         description: |-
           The ShareClient object for the given share name.
 
@@ -370,7 +391,10 @@ methods:
       content: 'function listShares(options?: ServiceListSharesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.ServiceListSharesOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ServiceListSharesOptions|latest-stable"
+            />
           description: |
             Options to list shares operation.
 
@@ -378,8 +402,8 @@ methods:
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/storage-file-share.ShareItem" />, <xref
-          uid="@azure/storage-file-share.ServiceListSharesSegmentResponse"
+          uid="@azure/storage-file-share.ShareItem|latest-stable" />, <xref
+          uid="@azure/storage-file-share.ServiceListSharesSegmentResponse|latest-stable"
           />&gt;
         description: ''
   - name: setProperties(FileServiceProperties, ServiceSetPropertiesOptions)
@@ -400,15 +424,22 @@ methods:
         ServiceSetPropertiesOptions)
       parameters:
         - id: properties
-          type: <xref uid="@azure/storage-file-share.FileServiceProperties" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileServiceProperties|latest-stable"
+            />
           description: '-'
         - id: options
-          type: <xref uid="@azure/storage-file-share.ServiceSetPropertiesOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ServiceSetPropertiesOptions|latest-stable"
+            />
           description: Options to Set Properties operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.ServiceSetPropertiesResponse" />&gt;
+          uid="@azure/storage-file-share.ServiceSetPropertiesResponse|latest-stable"
+          />&gt;
         description: Response data for the Set Properties operation.
   - name: undeleteShare(string, string, ServiceUndeleteShareOptions)
     uid: '@azure/storage-file-share.ShareServiceClient.undeleteShare|latest-stable'
@@ -432,9 +463,14 @@ methods:
           type: string
           description: The version of the previously deleted share.
         - id: options
-          type: <xref uid="@azure/storage-file-share.ServiceUndeleteShareOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ServiceUndeleteShareOptions|latest-stable"
+            />
           description: Options to Share undelete operation.
       return:
-        type: Promise&lt;<xref uid="@azure/storage-file-share.ShareClient" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/storage-file-share.ShareClient|latest-stable" />&gt;
         description: Restored share.
-extends: <xref uid="@azure/storage-file-share.StorageClient" />
+extends: <xref uid="@azure/storage-file-share.StorageClient|latest-stable" />

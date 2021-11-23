@@ -43,5 +43,5 @@ properties:
     syntax:
       content: 'value?: DeletedAccount[]'
       return:
-        type: <xref uid="@azure/arm-storage.DeletedAccount" />[]
+        type: <xref uid="@azure/arm-storage.DeletedAccount|preview" />[]
         description: ''

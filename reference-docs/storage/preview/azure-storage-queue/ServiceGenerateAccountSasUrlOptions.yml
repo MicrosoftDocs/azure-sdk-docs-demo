@@ -23,7 +23,7 @@ properties:
     syntax:
       content: 'ipRange?: SasIPRange'
       return:
-        type: <xref uid="@azure/storage-queue.SasIPRange" />
+        type: <xref uid="@azure/storage-queue.SasIPRange|preview" />
         description: ''
   - name: protocol
     uid: '@azure/storage-queue.ServiceGenerateAccountSasUrlOptions.protocol|preview'
@@ -36,7 +36,7 @@ properties:
     syntax:
       content: 'protocol?: SASProtocol'
       return:
-        type: <xref uid="@azure/storage-queue.SASProtocol" />
+        type: <xref uid="@azure/storage-queue.SASProtocol|preview" />
         description: ''
   - name: startsOn
     uid: '@azure/storage-queue.ServiceGenerateAccountSasUrlOptions.startsOn|preview'

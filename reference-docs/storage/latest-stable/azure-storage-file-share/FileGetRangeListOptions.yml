@@ -42,7 +42,9 @@ properties:
     syntax:
       content: 'leaseAccessConditions?: LeaseAccessConditions'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-share.LeaseAccessConditions|latest-stable" />
         description: ''
   - name: range
     uid: '@azure/storage-file-share.FileGetRangeListOptions.range|latest-stable'
@@ -57,7 +59,7 @@ properties:
     syntax:
       content: 'range?: Range'
       return:
-        type: <xref uid="@azure/storage-file-share.Range" />
+        type: <xref uid="@azure/storage-file-share.Range|latest-stable" />
         description: ''
   - name: tracingOptions
     uid: >-
@@ -73,4 +75,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-file-share.CommonOptions" />
+extends: <xref uid="@azure/storage-file-share.CommonOptions|latest-stable" />

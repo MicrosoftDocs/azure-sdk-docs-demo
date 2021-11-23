@@ -60,7 +60,7 @@ properties:
     syntax:
       content: 'fileHttpHeaders?: FileHttpHeaders'
       return:
-        type: <xref uid="@azure/storage-file-share.FileHttpHeaders" />
+        type: <xref uid="@azure/storage-file-share.FileHttpHeaders|latest-stable" />
         description: ''
   - name: leaseAccessConditions
     uid: >-
@@ -74,7 +74,9 @@ properties:
     syntax:
       content: 'leaseAccessConditions?: LeaseAccessConditions'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-share.LeaseAccessConditions|latest-stable" />
         description: ''
   - name: metadata
     uid: '@azure/storage-file-share.FileParallelUploadOptions.metadata|latest-stable'
@@ -87,7 +89,7 @@ properties:
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-file-share.Metadata" />
+        type: <xref uid="@azure/storage-file-share.Metadata|latest-stable" />
         description: ''
   - name: onProgress
     uid: >-
@@ -133,4 +135,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-file-share.CommonOptions" />
+extends: <xref uid="@azure/storage-file-share.CommonOptions|latest-stable" />

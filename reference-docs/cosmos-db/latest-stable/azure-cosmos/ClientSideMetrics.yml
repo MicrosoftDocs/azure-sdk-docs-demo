@@ -47,7 +47,7 @@ properties:
     syntax:
       content: 'static zero: ClientSideMetrics'
       return:
-        type: <xref uid="@azure/cosmos.ClientSideMetrics" />
+        type: <xref uid="@azure/cosmos.ClientSideMetrics|latest-stable" />
         description: ''
 methods:
   - name: add(ClientSideMetrics[])
@@ -63,10 +63,10 @@ methods:
       content: 'function add(clientSideMetricsArray: ClientSideMetrics[])'
       parameters:
         - id: clientSideMetricsArray
-          type: <xref uid="@azure/cosmos.ClientSideMetrics" />[]
+          type: <xref uid="@azure/cosmos.ClientSideMetrics|latest-stable" />[]
           description: ''
       return:
-        type: <xref uid="@azure/cosmos.ClientSideMetrics" />
+        type: <xref uid="@azure/cosmos.ClientSideMetrics|latest-stable" />
         description: ''
   - name: createFromArray(ClientSideMetrics[])
     uid: '@azure/cosmos.ClientSideMetrics.createFromArray|latest-stable'
@@ -81,8 +81,8 @@ methods:
         ClientSideMetrics[])
       parameters:
         - id: clientSideMetricsArray
-          type: <xref uid="@azure/cosmos.ClientSideMetrics" />[]
+          type: <xref uid="@azure/cosmos.ClientSideMetrics|latest-stable" />[]
           description: ''
       return:
-        type: <xref uid="@azure/cosmos.ClientSideMetrics" />
+        type: <xref uid="@azure/cosmos.ClientSideMetrics|latest-stable" />
         description: ''

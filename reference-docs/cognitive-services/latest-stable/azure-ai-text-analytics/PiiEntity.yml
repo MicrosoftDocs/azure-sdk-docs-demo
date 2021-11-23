@@ -93,4 +93,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.Entity" />
+extends: <xref uid="@azure/ai-text-analytics.Entity|latest-stable" />

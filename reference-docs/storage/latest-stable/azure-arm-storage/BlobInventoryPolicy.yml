@@ -75,7 +75,9 @@ properties:
     syntax:
       content: 'policy: BlobInventoryPolicySchema'
       return:
-        type: <xref uid="@azure/arm-storage.BlobInventoryPolicySchema" />
+        type: >-
+          <xref uid="@azure/arm-storage.BlobInventoryPolicySchema|latest-stable"
+          />
         description: ''
   - name: systemData
     uid: '@azure/arm-storage.BlobInventoryPolicy.systemData|latest-stable'
@@ -88,7 +90,7 @@ properties:
     syntax:
       content: 'systemData?: SystemData'
       return:
-        type: <xref uid="@azure/arm-storage.SystemData" />
+        type: <xref uid="@azure/arm-storage.SystemData|latest-stable" />
         description: ''
   - name: type
     uid: '@azure/arm-storage.BlobInventoryPolicy.type|latest-stable'
@@ -109,4 +111,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-storage.Resource" />
+extends: <xref uid="@azure/arm-storage.Resource|latest-stable" />

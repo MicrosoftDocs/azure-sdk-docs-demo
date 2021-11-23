@@ -92,7 +92,9 @@ properties:
     syntax:
       content: 'serviceVersion?: SUPPORTED_API_VERSIONS'
       return:
-        type: <xref uid="@azure/keyvault-admin.SUPPORTED_API_VERSIONS" />
+        type: >-
+          <xref uid="@azure/keyvault-admin.SUPPORTED_API_VERSIONS|latest-stable"
+          />
         description: ''
   - name: userAgentOptions
     uid: >-

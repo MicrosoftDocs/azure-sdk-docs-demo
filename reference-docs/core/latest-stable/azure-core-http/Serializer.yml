@@ -68,7 +68,7 @@ methods:
         string, options?: SerializerOptions)
       parameters:
         - id: mapper
-          type: <xref uid="@azure/core-http.Mapper" />
+          type: <xref uid="@azure/core-http.Mapper|latest-stable" />
           description: The mapper which defines the metadata of the serializable object
         - id: responseBody
           type: unknown
@@ -77,7 +77,7 @@ methods:
           type: string
           description: Name of the deserialized object
         - id: options
-          type: <xref uid="@azure/core-http.SerializerOptions" />
+          type: <xref uid="@azure/core-http.SerializerOptions|latest-stable" />
           description: Controls behavior of XML parser and builder.
       return:
         type: any
@@ -95,7 +95,7 @@ methods:
         options?: SerializerOptions)
       parameters:
         - id: mapper
-          type: <xref uid="@azure/core-http.Mapper" />
+          type: <xref uid="@azure/core-http.Mapper|latest-stable" />
           description: The mapper which defines the metadata of the serializable object
         - id: object
           type: unknown
@@ -104,7 +104,7 @@ methods:
           type: string
           description: Name of the serialized object
         - id: options
-          type: <xref uid="@azure/core-http.SerializerOptions" />
+          type: <xref uid="@azure/core-http.SerializerOptions|latest-stable" />
           description: additional options to deserialization
       return:
         type: any
@@ -122,7 +122,7 @@ methods:
         string)
       parameters:
         - id: mapper
-          type: <xref uid="@azure/core-http.Mapper" />
+          type: <xref uid="@azure/core-http.Mapper|latest-stable" />
           description: ''
         - id: value
           type: unknown

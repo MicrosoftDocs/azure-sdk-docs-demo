@@ -51,7 +51,7 @@ properties:
     syntax:
       content: 'permissions: Permissions_2'
       return:
-        type: <xref uid="@azure/arm-keyvault.Permissions_2" />
+        type: <xref uid="@azure/arm-keyvault.Permissions_2|preview" />
         description: ''
   - name: tenantId
     uid: '@azure/arm-keyvault.AccessPolicyEntry.tenantId|preview'

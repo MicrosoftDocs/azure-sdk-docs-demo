@@ -20,5 +20,5 @@ properties:
     syntax:
       content: 'attributes?: SpanAttributes'
       return:
-        type: <xref uid="@azure/core-auth.SpanAttributes" />
+        type: <xref uid="@azure/core-auth.SpanAttributes|latest-stable" />
         description: ''

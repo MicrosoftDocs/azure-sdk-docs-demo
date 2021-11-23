@@ -86,4 +86,7 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-blob.ServiceSubmitBatchOptionalParamsModel" />
+extends: >-
+  <xref
+  uid="@azure/storage-blob.ServiceSubmitBatchOptionalParamsModel|latest-stable"
+  />

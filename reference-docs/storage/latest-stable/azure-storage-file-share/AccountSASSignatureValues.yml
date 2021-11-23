@@ -50,7 +50,7 @@ properties:
     syntax:
       content: 'ipRange?: SasIPRange'
       return:
-        type: <xref uid="@azure/storage-file-share.SasIPRange" />
+        type: <xref uid="@azure/storage-file-share.SasIPRange|latest-stable" />
         description: ''
   - name: permissions
     uid: >-
@@ -68,7 +68,9 @@ properties:
     syntax:
       content: 'permissions: AccountSASPermissions'
       return:
-        type: <xref uid="@azure/storage-file-share.AccountSASPermissions" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-share.AccountSASPermissions|latest-stable" />
         description: ''
   - name: protocol
     uid: '@azure/storage-file-share.AccountSASSignatureValues.protocol|latest-stable'
@@ -81,7 +83,7 @@ properties:
     syntax:
       content: 'protocol?: SASProtocol'
       return:
-        type: <xref uid="@azure/storage-file-share.SASProtocol" />
+        type: <xref uid="@azure/storage-file-share.SASProtocol|latest-stable" />
         description: ''
   - name: resourceTypes
     uid: >-

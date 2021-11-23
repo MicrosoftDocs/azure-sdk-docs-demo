@@ -202,7 +202,7 @@ properties:
     syntax:
       content: 'ipRange?: SasIPRange'
       return:
-        type: <xref uid="@azure/storage-file-datalake.SasIPRange" />
+        type: <xref uid="@azure/storage-file-datalake.SasIPRange|preview" />
         description: ''
   - name: isDirectory
     uid: >-
@@ -266,9 +266,12 @@ properties:
         FileSystemSASPermissions
       return:
         type: >-
-          <xref uid="@azure/storage-file-datalake.DataLakeSASPermissions" /> |
-          <xref uid="@azure/storage-file-datalake.DirectorySASPermissions" /> |
-          <xref uid="@azure/storage-file-datalake.FileSystemSASPermissions" />
+          <xref
+          uid="@azure/storage-file-datalake.DataLakeSASPermissions|preview" /> |
+          <xref
+          uid="@azure/storage-file-datalake.DirectorySASPermissions|preview" />
+          | <xref
+          uid="@azure/storage-file-datalake.FileSystemSASPermissions|preview" />
         description: ''
   - name: preauthorizedAgentObjectId
     uid: >-
@@ -309,7 +312,7 @@ properties:
     syntax:
       content: 'protocol?: SASProtocol'
       return:
-        type: <xref uid="@azure/storage-file-datalake.SASProtocol" />
+        type: <xref uid="@azure/storage-file-datalake.SASProtocol|preview" />
         description: ''
   - name: snapshotTime
     uid: >-

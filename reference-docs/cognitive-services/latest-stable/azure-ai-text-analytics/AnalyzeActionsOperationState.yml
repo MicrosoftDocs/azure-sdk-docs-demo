@@ -187,7 +187,10 @@ properties:
     syntax:
       content: 'result?: PagedAnalyzeActionsResult'
       return:
-        type: <xref uid="@azure/ai-text-analytics.PagedAnalyzeActionsResult" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.PagedAnalyzeActionsResult|latest-stable"
+          />
         description: ''
   - name: status
     uid: '@azure/ai-text-analytics.AnalyzeActionsOperationState.status|latest-stable'
@@ -200,8 +203,12 @@ properties:
     syntax:
       content: 'status: TextAnalyticsOperationStatus'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsOperationStatus" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TextAnalyticsOperationStatus|latest-stable"
+          />
         description: ''
 extends: >-
-  <xref uid="@azure/ai-text-analytics.AnalysisPollOperationState" />&lt;<xref
-  uid="@azure/ai-text-analytics.PagedAnalyzeActionsResult" />&gt;
+  <xref uid="@azure/ai-text-analytics.AnalysisPollOperationState|latest-stable"
+  />&lt;<xref
+  uid="@azure/ai-text-analytics.PagedAnalyzeActionsResult|latest-stable" />&gt;

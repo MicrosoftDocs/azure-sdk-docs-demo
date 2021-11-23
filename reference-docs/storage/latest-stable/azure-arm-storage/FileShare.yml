@@ -29,7 +29,7 @@ properties:
     syntax:
       content: 'accessTier?: ShareAccessTier'
       return:
-        type: <xref uid="@azure/arm-storage.ShareAccessTier" />
+        type: <xref uid="@azure/arm-storage.ShareAccessTier|latest-stable" />
         description: ''
   - name: accessTierChangeTime
     uid: '@azure/arm-storage.FileShare.accessTierChangeTime|latest-stable'
@@ -114,7 +114,7 @@ properties:
     syntax:
       content: 'enabledProtocols?: EnabledProtocols'
       return:
-        type: <xref uid="@azure/arm-storage.EnabledProtocols" />
+        type: <xref uid="@azure/arm-storage.EnabledProtocols|latest-stable" />
         description: ''
   - name: etag
     uid: '@azure/arm-storage.FileShare.etag|latest-stable'
@@ -231,7 +231,7 @@ properties:
     syntax:
       content: 'rootSquash?: RootSquashType'
       return:
-        type: <xref uid="@azure/arm-storage.RootSquashType" />
+        type: <xref uid="@azure/arm-storage.RootSquashType|latest-stable" />
         description: ''
   - name: shareQuota
     uid: '@azure/arm-storage.FileShare.shareQuota|latest-stable'
@@ -326,4 +326,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-storage.AzureEntityResource" />
+extends: <xref uid="@azure/arm-storage.AzureEntityResource|latest-stable" />

@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'definition: ManagementPolicyDefinition'
       return:
-        type: <xref uid="@azure/arm-storage.ManagementPolicyDefinition" />
+        type: <xref uid="@azure/arm-storage.ManagementPolicyDefinition|preview" />
         description: ''
   - name: enabled
     uid: '@azure/arm-storage.ManagementPolicyRule.enabled|preview'
@@ -63,5 +63,5 @@ properties:
     syntax:
       content: 'type: RuleType'
       return:
-        type: <xref uid="@azure/arm-storage.RuleType" />
+        type: <xref uid="@azure/arm-storage.RuleType|preview" />
         description: ''

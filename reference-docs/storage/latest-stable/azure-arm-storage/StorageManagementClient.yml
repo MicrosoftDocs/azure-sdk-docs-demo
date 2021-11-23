@@ -43,7 +43,7 @@ constructors:
           type: string
           description: The ID of the target subscription.
         - id: options
-          type: <xref uid="Models.StorageManagementClientOptions" />
+          type: <xref uid="Models.StorageManagementClientOptions|latest-stable" />
           description: ''
 properties:
   - name: acceptLanguage
@@ -83,7 +83,7 @@ properties:
     syntax:
       content: 'blobContainers: BlobContainers'
       return:
-        type: <xref uid="@azure/arm-storage.BlobContainers" />
+        type: <xref uid="@azure/arm-storage.BlobContainers|latest-stable" />
         description: ''
   - name: blobInventoryPolicies
     uid: >-
@@ -97,7 +97,7 @@ properties:
     syntax:
       content: 'blobInventoryPolicies: BlobInventoryPolicies'
       return:
-        type: <xref uid="@azure/arm-storage.BlobInventoryPolicies" />
+        type: <xref uid="@azure/arm-storage.BlobInventoryPolicies|latest-stable" />
         description: ''
   - name: blobServices
     uid: '@azure/arm-storage.StorageManagementClient.blobServices|latest-stable'
@@ -110,7 +110,7 @@ properties:
     syntax:
       content: 'blobServices: BlobServices'
       return:
-        type: <xref uid="@azure/arm-storage.BlobServices" />
+        type: <xref uid="@azure/arm-storage.BlobServices|latest-stable" />
         description: ''
   - name: credentials
     uid: '@azure/arm-storage.StorageManagementClient.credentials|latest-stable'
@@ -136,7 +136,7 @@ properties:
     syntax:
       content: 'deletedAccounts: DeletedAccounts'
       return:
-        type: <xref uid="@azure/arm-storage.DeletedAccounts" />
+        type: <xref uid="@azure/arm-storage.DeletedAccounts|latest-stable" />
         description: ''
   - name: encryptionScopes
     uid: '@azure/arm-storage.StorageManagementClient.encryptionScopes|latest-stable'
@@ -149,7 +149,7 @@ properties:
     syntax:
       content: 'encryptionScopes: EncryptionScopes'
       return:
-        type: <xref uid="@azure/arm-storage.EncryptionScopes" />
+        type: <xref uid="@azure/arm-storage.EncryptionScopes|latest-stable" />
         description: ''
   - name: fileServices
     uid: '@azure/arm-storage.StorageManagementClient.fileServices|latest-stable'
@@ -162,7 +162,7 @@ properties:
     syntax:
       content: 'fileServices: FileServices'
       return:
-        type: <xref uid="@azure/arm-storage.FileServices" />
+        type: <xref uid="@azure/arm-storage.FileServices|latest-stable" />
         description: ''
   - name: fileShares
     uid: '@azure/arm-storage.StorageManagementClient.fileShares|latest-stable'
@@ -175,7 +175,7 @@ properties:
     syntax:
       content: 'fileShares: FileShares'
       return:
-        type: <xref uid="@azure/arm-storage.FileShares" />
+        type: <xref uid="@azure/arm-storage.FileShares|latest-stable" />
         description: ''
   - name: longRunningOperationRetryTimeout
     uid: >-
@@ -205,7 +205,7 @@ properties:
     syntax:
       content: 'managementPolicies: ManagementPolicies'
       return:
-        type: <xref uid="@azure/arm-storage.ManagementPolicies" />
+        type: <xref uid="@azure/arm-storage.ManagementPolicies|latest-stable" />
         description: ''
   - name: objectReplicationPolicies
     uid: >-
@@ -219,7 +219,10 @@ properties:
     syntax:
       content: 'objectReplicationPolicies: ObjectReplicationPoliciesOperations'
       return:
-        type: <xref uid="@azure/arm-storage.ObjectReplicationPoliciesOperations" />
+        type: >-
+          <xref
+          uid="@azure/arm-storage.ObjectReplicationPoliciesOperations|latest-stable"
+          />
         description: ''
   - name: operations
     uid: '@azure/arm-storage.StorageManagementClient.operations|latest-stable'
@@ -232,7 +235,7 @@ properties:
     syntax:
       content: 'operations: Operations'
       return:
-        type: <xref uid="@azure/arm-storage.Operations" />
+        type: <xref uid="@azure/arm-storage.Operations|latest-stable" />
         description: ''
   - name: privateEndpointConnections
     uid: >-
@@ -246,7 +249,9 @@ properties:
     syntax:
       content: 'privateEndpointConnections: PrivateEndpointConnections'
       return:
-        type: <xref uid="@azure/arm-storage.PrivateEndpointConnections" />
+        type: >-
+          <xref
+          uid="@azure/arm-storage.PrivateEndpointConnections|latest-stable" />
         description: ''
   - name: privateLinkResources
     uid: >-
@@ -260,7 +265,7 @@ properties:
     syntax:
       content: 'privateLinkResources: PrivateLinkResources'
       return:
-        type: <xref uid="@azure/arm-storage.PrivateLinkResources" />
+        type: <xref uid="@azure/arm-storage.PrivateLinkResources|latest-stable" />
         description: ''
   - name: queue
     uid: '@azure/arm-storage.StorageManagementClient.queue|latest-stable'
@@ -273,7 +278,7 @@ properties:
     syntax:
       content: 'queue: Queue'
       return:
-        type: <xref uid="@azure/arm-storage.Queue" />
+        type: <xref uid="@azure/arm-storage.Queue|latest-stable" />
         description: ''
   - name: queueServices
     uid: '@azure/arm-storage.StorageManagementClient.queueServices|latest-stable'
@@ -286,7 +291,7 @@ properties:
     syntax:
       content: 'queueServices: QueueServices'
       return:
-        type: <xref uid="@azure/arm-storage.QueueServices" />
+        type: <xref uid="@azure/arm-storage.QueueServices|latest-stable" />
         description: ''
   - name: skus
     uid: '@azure/arm-storage.StorageManagementClient.skus|latest-stable'
@@ -299,7 +304,7 @@ properties:
     syntax:
       content: 'skus: Skus'
       return:
-        type: <xref uid="@azure/arm-storage.Skus" />
+        type: <xref uid="@azure/arm-storage.Skus|latest-stable" />
         description: ''
   - name: storageAccounts
     uid: '@azure/arm-storage.StorageManagementClient.storageAccounts|latest-stable'
@@ -312,7 +317,7 @@ properties:
     syntax:
       content: 'storageAccounts: StorageAccounts'
       return:
-        type: <xref uid="@azure/arm-storage.StorageAccounts" />
+        type: <xref uid="@azure/arm-storage.StorageAccounts|latest-stable" />
         description: ''
   - name: subscriptionId
     uid: '@azure/arm-storage.StorageManagementClient.subscriptionId|latest-stable'
@@ -338,7 +343,7 @@ properties:
     syntax:
       content: 'table: TableOperations'
       return:
-        type: <xref uid="@azure/arm-storage.TableOperations" />
+        type: <xref uid="@azure/arm-storage.TableOperations|latest-stable" />
         description: ''
   - name: tableServices
     uid: '@azure/arm-storage.StorageManagementClient.tableServices|latest-stable'
@@ -351,7 +356,7 @@ properties:
     syntax:
       content: 'tableServices: TableServices'
       return:
-        type: <xref uid="@azure/arm-storage.TableServices" />
+        type: <xref uid="@azure/arm-storage.TableServices|latest-stable" />
         description: ''
   - name: usages
     uid: '@azure/arm-storage.StorageManagementClient.usages|latest-stable'
@@ -364,7 +369,7 @@ properties:
     syntax:
       content: 'usages: Usages'
       return:
-        type: <xref uid="@azure/arm-storage.Usages" />
+        type: <xref uid="@azure/arm-storage.Usages|latest-stable" />
         description: ''
 methods:
   - name: >-
@@ -523,4 +528,4 @@ methods:
       return:
         type: Promise&lt;HttpOperationResponse&gt;
         description: ''
-extends: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+extends: <xref uid="@azure/arm-storage.StorageManagementClientContext|latest-stable" />

@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'tags?: Tags'
       return:
-        type: <xref uid="@azure/storage-blob.Tags" />
+        type: <xref uid="@azure/storage-blob.Tags|latest-stable" />
         description: ''
   - name: tagValue
     uid: '@azure/storage-blob.FilterBlobItem.tagValue|latest-stable'

@@ -59,7 +59,7 @@ properties:
     syntax:
       content: 'name?: UsageName'
       return:
-        type: <xref uid="@azure/arm-storage.UsageName" />
+        type: <xref uid="@azure/arm-storage.UsageName|latest-stable" />
         description: ''
   - name: unit
     uid: '@azure/arm-storage.Usage.unit|latest-stable'
@@ -79,5 +79,5 @@ properties:
     syntax:
       content: 'unit?: UsageUnit'
       return:
-        type: <xref uid="@azure/arm-storage.UsageUnit" />
+        type: <xref uid="@azure/arm-storage.UsageUnit|latest-stable" />
         description: ''

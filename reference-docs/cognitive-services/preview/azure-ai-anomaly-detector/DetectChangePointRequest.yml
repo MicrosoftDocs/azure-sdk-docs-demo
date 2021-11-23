@@ -38,7 +38,7 @@ properties:
     syntax:
       content: 'granularity: TimeGranularity'
       return:
-        type: <xref uid="@azure/ai-anomaly-detector.TimeGranularity" />
+        type: <xref uid="@azure/ai-anomaly-detector.TimeGranularity|preview" />
         description: ''
   - name: period
     uid: '@azure/ai-anomaly-detector.DetectChangePointRequest.period|preview'
@@ -68,7 +68,7 @@ properties:
     syntax:
       content: 'series: TimeSeriesPoint[]'
       return:
-        type: <xref uid="@azure/ai-anomaly-detector.TimeSeriesPoint" />[]
+        type: <xref uid="@azure/ai-anomaly-detector.TimeSeriesPoint|preview" />[]
         description: ''
   - name: stableTrendWindow
     uid: >-

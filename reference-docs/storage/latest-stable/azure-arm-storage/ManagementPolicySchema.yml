@@ -26,5 +26,5 @@ properties:
     syntax:
       content: 'rules: ManagementPolicyRule[]'
       return:
-        type: <xref uid="@azure/arm-storage.ManagementPolicyRule" />[]
+        type: <xref uid="@azure/arm-storage.ManagementPolicyRule|latest-stable" />[]
         description: ''

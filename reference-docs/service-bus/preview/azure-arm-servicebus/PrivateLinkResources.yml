@@ -30,11 +30,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.PrivateLinkResourcesGetOptionalParams" />
+            uid="@azure/arm-servicebus.PrivateLinkResourcesGetOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.PrivateLinkResourcesGetResponse" />&gt;
+          uid="@azure/arm-servicebus.PrivateLinkResourcesGetResponse|preview"
+          />&gt;
         description: ''

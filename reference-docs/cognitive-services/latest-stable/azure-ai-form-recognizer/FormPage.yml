@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'lines?: FormLine[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormLine" />[]
+        type: <xref uid="@azure/ai-form-recognizer.FormLine|latest-stable" />[]
         description: ''
   - name: pageNumber
     uid: '@azure/ai-form-recognizer.FormPage.pageNumber|latest-stable'
@@ -72,7 +72,9 @@ properties:
     syntax:
       content: 'selectionMarks?: FormSelectionMark[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormSelectionMark" />[]
+        type: >-
+          <xref uid="@azure/ai-form-recognizer.FormSelectionMark|latest-stable"
+          />[]
         description: ''
   - name: tables
     uid: '@azure/ai-form-recognizer.FormPage.tables|latest-stable'
@@ -85,7 +87,7 @@ properties:
     syntax:
       content: 'tables?: FormTable[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormTable" />[]
+        type: <xref uid="@azure/ai-form-recognizer.FormTable|latest-stable" />[]
         description: ''
   - name: textAngle
     uid: '@azure/ai-form-recognizer.FormPage.textAngle|latest-stable'
@@ -120,7 +122,7 @@ properties:
     syntax:
       content: 'unit: LengthUnit'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.LengthUnit" />
+        type: <xref uid="@azure/ai-form-recognizer.LengthUnit|latest-stable" />
         description: ''
   - name: width
     uid: '@azure/ai-form-recognizer.FormPage.width|latest-stable'

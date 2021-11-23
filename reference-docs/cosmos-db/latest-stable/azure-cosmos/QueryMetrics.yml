@@ -48,7 +48,7 @@ constructors:
           type: TimeSpan
           description: ''
         - id: queryPreparationTimes
-          type: <xref uid="@azure/cosmos.QueryPreparationTimes" />
+          type: <xref uid="@azure/cosmos.QueryPreparationTimes|latest-stable" />
           description: ''
         - id: indexLookupTime
           type: TimeSpan
@@ -60,13 +60,13 @@ constructors:
           type: TimeSpan
           description: ''
         - id: runtimeExecutionTimes
-          type: <xref uid="@azure/cosmos.RuntimeExecutionTimes" />
+          type: <xref uid="@azure/cosmos.RuntimeExecutionTimes|latest-stable" />
           description: ''
         - id: documentWriteTime
           type: TimeSpan
           description: ''
         - id: clientSideMetrics
-          type: <xref uid="@azure/cosmos.ClientSideMetrics" />
+          type: <xref uid="@azure/cosmos.ClientSideMetrics|latest-stable" />
           description: ''
 properties:
   - name: clientSideMetrics
@@ -80,7 +80,7 @@ properties:
     syntax:
       content: 'clientSideMetrics: ClientSideMetrics'
       return:
-        type: <xref uid="@azure/cosmos.ClientSideMetrics" />
+        type: <xref uid="@azure/cosmos.ClientSideMetrics|latest-stable" />
         description: ''
   - name: documentLoadTime
     uid: '@azure/cosmos.QueryMetrics.documentLoadTime|latest-stable'
@@ -171,7 +171,7 @@ properties:
     syntax:
       content: 'queryPreparationTimes: QueryPreparationTimes'
       return:
-        type: <xref uid="@azure/cosmos.QueryPreparationTimes" />
+        type: <xref uid="@azure/cosmos.QueryPreparationTimes|latest-stable" />
         description: ''
   - name: retrievedDocumentCount
     uid: '@azure/cosmos.QueryMetrics.retrievedDocumentCount|latest-stable'
@@ -210,7 +210,7 @@ properties:
     syntax:
       content: 'runtimeExecutionTimes: RuntimeExecutionTimes'
       return:
-        type: <xref uid="@azure/cosmos.RuntimeExecutionTimes" />
+        type: <xref uid="@azure/cosmos.RuntimeExecutionTimes|latest-stable" />
         description: ''
   - name: totalQueryExecutionTime
     uid: '@azure/cosmos.QueryMetrics.totalQueryExecutionTime|latest-stable'
@@ -249,7 +249,7 @@ properties:
     syntax:
       content: 'static zero: QueryMetrics'
       return:
-        type: <xref uid="@azure/cosmos.QueryMetrics" />
+        type: <xref uid="@azure/cosmos.QueryMetrics|latest-stable" />
         description: ''
 methods:
   - name: add(QueryMetrics[])
@@ -265,10 +265,10 @@ methods:
       content: 'function add(queryMetricsArray: QueryMetrics[])'
       parameters:
         - id: queryMetricsArray
-          type: <xref uid="@azure/cosmos.QueryMetrics" />[]
+          type: <xref uid="@azure/cosmos.QueryMetrics|latest-stable" />[]
           description: ''
       return:
-        type: <xref uid="@azure/cosmos.QueryMetrics" />
+        type: <xref uid="@azure/cosmos.QueryMetrics|latest-stable" />
         description: ''
   - name: createFromArray(QueryMetrics[])
     uid: '@azure/cosmos.QueryMetrics.createFromArray|latest-stable'
@@ -283,10 +283,10 @@ methods:
       content: 'static function createFromArray(queryMetricsArray: QueryMetrics[])'
       parameters:
         - id: queryMetricsArray
-          type: <xref uid="@azure/cosmos.QueryMetrics" />[]
+          type: <xref uid="@azure/cosmos.QueryMetrics|latest-stable" />[]
           description: ''
       return:
-        type: <xref uid="@azure/cosmos.QueryMetrics" />
+        type: <xref uid="@azure/cosmos.QueryMetrics|latest-stable" />
         description: ''
   - name: createFromDelimitedString(string, ClientSideMetrics)
     uid: '@azure/cosmos.QueryMetrics.createFromDelimitedString|latest-stable'
@@ -306,8 +306,8 @@ methods:
           type: string
           description: ''
         - id: clientSideMetrics
-          type: <xref uid="@azure/cosmos.ClientSideMetrics" />
+          type: <xref uid="@azure/cosmos.ClientSideMetrics|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/cosmos.QueryMetrics" />
+        type: <xref uid="@azure/cosmos.QueryMetrics|latest-stable" />
         description: ''

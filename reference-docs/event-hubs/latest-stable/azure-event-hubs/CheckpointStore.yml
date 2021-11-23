@@ -47,17 +47,19 @@ methods:
         options?: OperationOptions)
       parameters:
         - id: partitionOwnership
-          type: <xref uid="@azure/event-hubs.PartitionOwnership" />[]
+          type: <xref uid="@azure/event-hubs.PartitionOwnership|latest-stable" />[]
           description: The list of partition ownership this instance is claiming to own.
         - id: options
-          type: <xref uid="@azure/event-hubs.OperationOptions" />
+          type: <xref uid="@azure/event-hubs.OperationOptions|latest-stable" />
           description: >-
             A set of options that can be specified to influence the behavior of
             this method.
              - `abortSignal`: A signal used to request operation cancellation.
              - `tracingOptions`: Options for configuring tracing.
       return:
-        type: Promise&lt;<xref uid="@azure/event-hubs.PartitionOwnership" />[]&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/event-hubs.PartitionOwnership|latest-stable" />[]&gt;
         description: A list of partitions this instance successfully claimed ownership.
   - name: listCheckpoints(string, string, string, OperationOptions)
     uid: '@azure/event-hubs.CheckpointStore.listCheckpoints|latest-stable'
@@ -87,14 +89,16 @@ methods:
           type: string
           description: The consumer group name.
         - id: options
-          type: <xref uid="@azure/event-hubs.OperationOptions" />
+          type: <xref uid="@azure/event-hubs.OperationOptions|latest-stable" />
           description: >-
             A set of options that can be specified to influence the behavior of
             this method.
              - `abortSignal`: A signal used to request operation cancellation.
              - `tracingOptions`: Options for configuring tracing.
       return:
-        type: Promise&lt;<xref uid="@azure/event-hubs.Checkpoint" />[]&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/event-hubs.Checkpoint|latest-stable"
+          />[]&gt;
         description: >-
           A list of checkpoints for a given namespace, eventhub, and consumer
           group.
@@ -128,14 +132,16 @@ methods:
           type: string
           description: The consumer group name.
         - id: options
-          type: <xref uid="@azure/event-hubs.OperationOptions" />
+          type: <xref uid="@azure/event-hubs.OperationOptions|latest-stable" />
           description: >-
             A set of options that can be specified to influence the behavior of
             this method.
              - `abortSignal`: A signal used to request operation cancellation.
              - `tracingOptions`: Options for configuring tracing.
       return:
-        type: Promise&lt;<xref uid="@azure/event-hubs.PartitionOwnership" />[]&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/event-hubs.PartitionOwnership|latest-stable" />[]&gt;
         description: >-
           A list of partition ownership details of all the partitions that
           have/had an owner.
@@ -152,10 +158,10 @@ methods:
         OperationOptions)
       parameters:
         - id: checkpoint
-          type: <xref uid="@azure/event-hubs.Checkpoint" />
+          type: <xref uid="@azure/event-hubs.Checkpoint|latest-stable" />
           description: The checkpoint.
         - id: options
-          type: <xref uid="@azure/event-hubs.OperationOptions" />
+          type: <xref uid="@azure/event-hubs.OperationOptions|latest-stable" />
           description: >
             A set of options that can be specified to influence the behavior of
             this method.

@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'value?: PrivateLinkResource[]'
       return:
-        type: <xref uid="@azure/arm-eventhub.PrivateLinkResource" />[]
+        type: <xref uid="@azure/arm-eventhub.PrivateLinkResource|preview" />[]
         description: ''

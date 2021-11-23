@@ -26,7 +26,7 @@ properties:
     syntax:
       content: 'dataVersion?: JsonFieldWithDefault'
       return:
-        type: <xref uid="@azure/arm-eventgrid.JsonFieldWithDefault" />
+        type: <xref uid="@azure/arm-eventgrid.JsonFieldWithDefault|latest-stable" />
         description: ''
   - name: eventTime
     uid: '@azure/arm-eventgrid.JsonInputSchemaMapping.eventTime|latest-stable'
@@ -41,7 +41,7 @@ properties:
     syntax:
       content: 'eventTime?: JsonField'
       return:
-        type: <xref uid="@azure/arm-eventgrid.JsonField" />
+        type: <xref uid="@azure/arm-eventgrid.JsonField|latest-stable" />
         description: ''
   - name: eventType
     uid: '@azure/arm-eventgrid.JsonInputSchemaMapping.eventType|latest-stable'
@@ -56,7 +56,7 @@ properties:
     syntax:
       content: 'eventType?: JsonFieldWithDefault'
       return:
-        type: <xref uid="@azure/arm-eventgrid.JsonFieldWithDefault" />
+        type: <xref uid="@azure/arm-eventgrid.JsonFieldWithDefault|latest-stable" />
         description: ''
   - name: id
     uid: '@azure/arm-eventgrid.JsonInputSchemaMapping.id|latest-stable'
@@ -69,7 +69,7 @@ properties:
     syntax:
       content: 'id?: JsonField'
       return:
-        type: <xref uid="@azure/arm-eventgrid.JsonField" />
+        type: <xref uid="@azure/arm-eventgrid.JsonField|latest-stable" />
         description: ''
   - name: inputSchemaMappingType
     uid: >-
@@ -96,7 +96,7 @@ properties:
     syntax:
       content: 'subject?: JsonFieldWithDefault'
       return:
-        type: <xref uid="@azure/arm-eventgrid.JsonFieldWithDefault" />
+        type: <xref uid="@azure/arm-eventgrid.JsonFieldWithDefault|latest-stable" />
         description: ''
   - name: topic
     uid: '@azure/arm-eventgrid.JsonInputSchemaMapping.topic|latest-stable'
@@ -109,5 +109,5 @@ properties:
     syntax:
       content: 'topic?: JsonField'
       return:
-        type: <xref uid="@azure/arm-eventgrid.JsonField" />
+        type: <xref uid="@azure/arm-eventgrid.JsonField|latest-stable" />
         description: ''

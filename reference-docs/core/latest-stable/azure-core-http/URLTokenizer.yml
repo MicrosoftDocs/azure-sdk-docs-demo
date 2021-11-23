@@ -23,7 +23,7 @@ constructors:
           type: string
           description: ''
         - id: state
-          type: <xref uid="@azure/core-http.URLTokenizerState" />
+          type: <xref uid="@azure/core-http.URLTokenizerState|latest-stable" />
           description: ''
 methods:
   - name: current()
@@ -40,7 +40,7 @@ methods:
     syntax:
       content: function current()
       return:
-        type: <xref uid="@azure/core-http.URLToken" /> | undefined
+        type: <xref uid="@azure/core-http.URLToken|latest-stable" /> | undefined
         description: ''
   - name: next()
     uid: '@azure/core-http.URLTokenizer.next|latest-stable'

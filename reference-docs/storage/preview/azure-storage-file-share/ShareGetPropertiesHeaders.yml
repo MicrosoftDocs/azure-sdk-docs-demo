@@ -136,7 +136,7 @@ properties:
     syntax:
       content: 'leaseDuration?: LeaseDurationType'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseDurationType" />
+        type: <xref uid="@azure/storage-file-share.LeaseDurationType|preview" />
         description: ''
   - name: leaseState
     uid: '@azure/storage-file-share.ShareGetPropertiesHeaders.leaseState|preview'
@@ -149,7 +149,7 @@ properties:
     syntax:
       content: 'leaseState?: LeaseStateType'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseStateType" />
+        type: <xref uid="@azure/storage-file-share.LeaseStateType|preview" />
         description: ''
   - name: leaseStatus
     uid: '@azure/storage-file-share.ShareGetPropertiesHeaders.leaseStatus|preview'
@@ -162,7 +162,7 @@ properties:
     syntax:
       content: 'leaseStatus?: LeaseStatusType'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseStatusType" />
+        type: <xref uid="@azure/storage-file-share.LeaseStatusType|preview" />
         description: ''
   - name: metadata
     uid: '@azure/storage-file-share.ShareGetPropertiesHeaders.metadata|preview'
@@ -274,7 +274,7 @@ properties:
     syntax:
       content: 'rootSquash?: ShareRootSquash'
       return:
-        type: <xref uid="@azure/storage-file-share.ShareRootSquash" />
+        type: <xref uid="@azure/storage-file-share.ShareRootSquash|preview" />
         description: ''
   - name: version
     uid: '@azure/storage-file-share.ShareGetPropertiesHeaders.version|preview'

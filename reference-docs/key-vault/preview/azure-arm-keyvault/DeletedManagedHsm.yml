@@ -54,7 +54,7 @@ properties:
     syntax:
       content: 'properties?: DeletedManagedHsmProperties'
       return:
-        type: <xref uid="@azure/arm-keyvault.DeletedManagedHsmProperties" />
+        type: <xref uid="@azure/arm-keyvault.DeletedManagedHsmProperties|preview" />
         description: ''
   - name: type
     uid: '@azure/arm-keyvault.DeletedManagedHsm.type|preview'

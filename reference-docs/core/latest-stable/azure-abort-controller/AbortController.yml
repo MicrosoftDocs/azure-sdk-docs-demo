@@ -24,7 +24,9 @@ constructors:
       content: 'new AbortController(parentSignals?: AbortSignalLike[])'
       parameters:
         - id: parentSignals
-          type: <xref uid="@azure/abort-controller.AbortSignalLike" />[]
+          type: >-
+            <xref uid="@azure/abort-controller.AbortSignalLike|latest-stable"
+            />[]
           description: >
             The AbortSignals that will signal aborted on the AbortSignal
             associated with this controller.
@@ -39,7 +41,9 @@ constructors:
       content: 'new AbortController(parentSignals: AbortSignalLike[])'
       parameters:
         - id: parentSignals
-          type: <xref uid="@azure/abort-controller.AbortSignalLike" />[]
+          type: >-
+            <xref uid="@azure/abort-controller.AbortSignalLike|latest-stable"
+            />[]
           description: >
             The AbortSignals that will signal aborted on the AbortSignal
             associated with this controller.
@@ -57,7 +61,7 @@ properties:
     syntax:
       content: AbortSignal signal
       return:
-        type: <xref uid="@azure/abort-controller.AbortSignal" />
+        type: <xref uid="@azure/abort-controller.AbortSignal|latest-stable" />
         description: ''
 methods:
   - name: abort()
@@ -88,5 +92,5 @@ methods:
           description: |
             Elapsed time in milliseconds to trigger an abort.
       return:
-        type: <xref uid="@azure/abort-controller.AbortSignal" />
+        type: <xref uid="@azure/abort-controller.AbortSignal|latest-stable" />
         description: ''

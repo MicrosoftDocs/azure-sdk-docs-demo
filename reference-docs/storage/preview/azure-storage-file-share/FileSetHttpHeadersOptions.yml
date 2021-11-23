@@ -49,8 +49,8 @@ properties:
       content: 'creationTime?: Date | TimeNowType | TimePreserveType'
       return:
         type: >-
-          Date | <xref uid="@azure/storage-file-share.TimeNowType" /> | <xref
-          uid="@azure/storage-file-share.TimePreserveType" />
+          Date | <xref uid="@azure/storage-file-share.TimeNowType|preview" /> |
+          <xref uid="@azure/storage-file-share.TimePreserveType|preview" />
         description: ''
   - name: fileAttributes
     uid: '@azure/storage-file-share.FileSetHttpHeadersOptions.fileAttributes|preview'
@@ -64,8 +64,9 @@ properties:
       content: 'fileAttributes?: FileSystemAttributes | FileAttributesPreserveType'
       return:
         type: >-
-          <xref uid="@azure/storage-file-share.FileSystemAttributes" /> | <xref
-          uid="@azure/storage-file-share.FileAttributesPreserveType" />
+          <xref uid="@azure/storage-file-share.FileSystemAttributes|preview" />
+          | <xref
+          uid="@azure/storage-file-share.FileAttributesPreserveType|preview" />
         description: ''
   - name: filePermission
     uid: '@azure/storage-file-share.FileSetHttpHeadersOptions.filePermission|preview'
@@ -97,8 +98,9 @@ properties:
       return:
         type: >-
           string | <xref
-          uid="@azure/storage-file-share.FilePermissionInheritType" /> | <xref
-          uid="@azure/storage-file-share.FilePermissionPreserveType" />
+          uid="@azure/storage-file-share.FilePermissionInheritType|preview" /> |
+          <xref
+          uid="@azure/storage-file-share.FilePermissionPreserveType|preview" />
         description: ''
   - name: filePermissionKey
     uid: >-
@@ -139,8 +141,8 @@ properties:
       content: 'lastWriteTime?: Date | TimeNowType | TimePreserveType'
       return:
         type: >-
-          Date | <xref uid="@azure/storage-file-share.TimeNowType" /> | <xref
-          uid="@azure/storage-file-share.TimePreserveType" />
+          Date | <xref uid="@azure/storage-file-share.TimeNowType|preview" /> |
+          <xref uid="@azure/storage-file-share.TimePreserveType|preview" />
         description: ''
   - name: leaseAccessConditions
     uid: >-
@@ -154,7 +156,7 @@ properties:
     syntax:
       content: 'leaseAccessConditions?: LeaseAccessConditions'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions" />
+        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions|preview" />
         description: ''
   - name: tracingOptions
     uid: '@azure/storage-file-share.FileSetHttpHeadersOptions.tracingOptions|preview'
@@ -171,4 +173,5 @@ properties:
         description: ''
 extends: >-
   <xref
-  uid="@azure/storage-file-share.FileAndDirectorySetPropertiesCommonOptions" />
+  uid="@azure/storage-file-share.FileAndDirectorySetPropertiesCommonOptions|preview"
+  />

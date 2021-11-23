@@ -25,7 +25,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/arm-cognitiveservices.ResourceSkuRestrictionsReasonCode"
+          uid="@azure/arm-cognitiveservices.ResourceSkuRestrictionsReasonCode|latest-stable"
           />
         description: ''
   - name: restrictionInfo
@@ -40,7 +40,10 @@ properties:
     syntax:
       content: 'restrictionInfo?: ResourceSkuRestrictionInfo'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.ResourceSkuRestrictionInfo" />
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.ResourceSkuRestrictionInfo|latest-stable"
+          />
         description: ''
   - name: type
     uid: '@azure/arm-cognitiveservices.ResourceSkuRestrictions.type|latest-stable'
@@ -54,7 +57,8 @@ properties:
       content: 'type?: ResourceSkuRestrictionsType'
       return:
         type: >-
-          <xref uid="@azure/arm-cognitiveservices.ResourceSkuRestrictionsType"
+          <xref
+          uid="@azure/arm-cognitiveservices.ResourceSkuRestrictionsType|latest-stable"
           />
         description: ''
   - name: values

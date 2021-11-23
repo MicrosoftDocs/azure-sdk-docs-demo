@@ -114,7 +114,7 @@ properties:
     syntax:
       content: 'leaseDuration?: LeaseDurationType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseDurationType" />
+        type: <xref uid="@azure/storage-blob.LeaseDurationType|latest-stable" />
         description: ''
   - name: leaseState
     uid: '@azure/storage-blob.ContainerProperties.leaseState|latest-stable'
@@ -127,7 +127,7 @@ properties:
     syntax:
       content: 'leaseState?: LeaseStateType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseStateType" />
+        type: <xref uid="@azure/storage-blob.LeaseStateType|latest-stable" />
         description: ''
   - name: leaseStatus
     uid: '@azure/storage-blob.ContainerProperties.leaseStatus|latest-stable'
@@ -140,7 +140,7 @@ properties:
     syntax:
       content: 'leaseStatus?: LeaseStatusType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseStatusType" />
+        type: <xref uid="@azure/storage-blob.LeaseStatusType|latest-stable" />
         description: ''
   - name: preventEncryptionScopeOverride
     uid: >-
@@ -167,7 +167,7 @@ properties:
     syntax:
       content: 'publicAccess?: PublicAccessType'
       return:
-        type: <xref uid="@azure/storage-blob.PublicAccessType" />
+        type: <xref uid="@azure/storage-blob.PublicAccessType|latest-stable" />
         description: ''
   - name: remainingRetentionDays
     uid: >-

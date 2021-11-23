@@ -45,7 +45,10 @@ constructors:
           type: string
           description: The Microsoft Azure subscription ID.
         - id: options
-          type: <xref uid="Models.AppConfigurationManagementClientOptions" />
+          type: >-
+            <xref
+            uid="Models.AppConfigurationManagementClientOptions|latest-stable"
+            />
           description: ''
 properties:
   - name: acceptLanguage

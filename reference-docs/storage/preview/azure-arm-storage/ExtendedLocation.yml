@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'type?: ExtendedLocationTypes'
       return:
-        type: <xref uid="@azure/arm-storage.ExtendedLocationTypes" />
+        type: <xref uid="@azure/arm-storage.ExtendedLocationTypes|preview" />
         description: ''

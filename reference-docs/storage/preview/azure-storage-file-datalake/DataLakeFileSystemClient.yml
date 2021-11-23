@@ -30,7 +30,7 @@ constructors:
                                 "https://myaccount.dfs.core.windows.net/filesystem". You can append a SAS
                                 if using AnonymousCredential, such as "https://myaccount.dfs.core.windows.net/filesystem?sasString".
         - id: pipeline
-          type: <xref uid="@azure/storage-file-datalake.Pipeline" />
+          type: <xref uid="@azure/storage-file-datalake.Pipeline|preview" />
           description: |
             Call newPipeline() to create a default
                                        pipeline, or provide a customized pipeline.
@@ -58,9 +58,11 @@ constructors:
                                 if using AnonymousCredential, such as "https://myaccount.dfs.core.windows.net/filesystem?sasString".
         - id: credential
           type: >-
-            <xref uid="@azure/storage-file-datalake.StorageSharedKeyCredential"
-            /> | <xref uid="@azure/storage-file-datalake.AnonymousCredential" />
-            | TokenCredential
+            <xref
+            uid="@azure/storage-file-datalake.StorageSharedKeyCredential|preview"
+            /> | <xref
+            uid="@azure/storage-file-datalake.AnonymousCredential|preview" /> |
+            TokenCredential
           description: >-
             Such as AnonymousCredential, StorageSharedKeyCredential or any
             credential from the `@azure/identity` package to authenticate
@@ -68,7 +70,9 @@ constructors:
             implements the TokenCredential interface. If not specified,
             AnonymousCredential is used.
         - id: options
-          type: <xref uid="@azure/storage-file-datalake.StoragePipelineOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-datalake.StoragePipelineOptions|preview" />
           description: |
             Optional. Options to configure the HTTP pipeline.
 properties:
@@ -103,8 +107,10 @@ properties:
         TokenCredential
       return:
         type: >-
-          <xref uid="@azure/storage-file-datalake.StorageSharedKeyCredential" />
-          | <xref uid="@azure/storage-file-datalake.AnonymousCredential" /> |
+          <xref
+          uid="@azure/storage-file-datalake.StorageSharedKeyCredential|preview"
+          /> | <xref
+          uid="@azure/storage-file-datalake.AnonymousCredential|preview" /> |
           TokenCredential
         description: ''
   - name: name
@@ -149,13 +155,17 @@ methods:
       content: 'function create(options?: FileSystemCreateOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-datalake.FileSystemCreateOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-datalake.FileSystemCreateOptions|preview"
+            />
           description: |
             Optional. Options when creating file system.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-datalake.FileSystemCreateResponse" />&gt;
+          uid="@azure/storage-file-datalake.FileSystemCreateResponse|preview"
+          />&gt;
         description: ''
   - name: createIfNotExists(FileSystemCreateOptions)
     uid: >-
@@ -173,13 +183,16 @@ methods:
       content: 'function createIfNotExists(options?: FileSystemCreateOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-datalake.FileSystemCreateOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-datalake.FileSystemCreateOptions|preview"
+            />
           description: |
             -
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-datalake.FileSystemCreateIfNotExistsResponse"
+          uid="@azure/storage-file-datalake.FileSystemCreateIfNotExistsResponse|preview"
           />&gt;
         description: ''
   - name: delete(FileSystemDeleteOptions)
@@ -193,13 +206,17 @@ methods:
       content: 'function delete(options?: FileSystemDeleteOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-datalake.FileSystemDeleteOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-datalake.FileSystemDeleteOptions|preview"
+            />
           description: |
             Optional. Options when deleting file system.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-datalake.FileSystemDeleteResponse" />&gt;
+          uid="@azure/storage-file-datalake.FileSystemDeleteResponse|preview"
+          />&gt;
         description: ''
   - name: deleteIfExists(FileSystemDeleteOptions)
     uid: >-
@@ -213,13 +230,16 @@ methods:
       content: 'function deleteIfExists(options?: FileSystemDeleteOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-datalake.FileSystemDeleteOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-datalake.FileSystemDeleteOptions|preview"
+            />
           description: |
             -
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-datalake.FileSystemDeleteIfExistsResponse"
+          uid="@azure/storage-file-datalake.FileSystemDeleteIfExistsResponse|preview"
           />&gt;
         description: ''
   - name: exists(FileSystemExistsOptions)
@@ -243,7 +263,10 @@ methods:
       content: 'function exists(options?: FileSystemExistsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-datalake.FileSystemExistsOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-datalake.FileSystemExistsOptions|preview"
+            />
           description: |
             -
       return:
@@ -271,7 +294,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/storage-file-datalake.FileSystemGenerateSasUrlOptions"
+            uid="@azure/storage-file-datalake.FileSystemGenerateSasUrlOptions|preview"
             />
           description: Optional parameters.
       return:
@@ -303,14 +326,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/storage-file-datalake.FileSystemGetAccessPolicyOptions"
+            uid="@azure/storage-file-datalake.FileSystemGetAccessPolicyOptions|preview"
             />
           description: |
             Optional. Options when getting file system access policy.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-datalake.FileSystemGetAccessPolicyResponse"
+          uid="@azure/storage-file-datalake.FileSystemGetAccessPolicyResponse|preview"
           />&gt;
         description: ''
   - name: getDataLakeLeaseClient(string)
@@ -331,7 +354,9 @@ methods:
           description: |
             Optional. Initial proposed lease Id.
       return:
-        type: <xref uid="@azure/storage-file-datalake.DataLakeLeaseClient" />
+        type: >-
+          <xref uid="@azure/storage-file-datalake.DataLakeLeaseClient|preview"
+          />
         description: ''
   - name: getDirectoryClient(string)
     uid: >-
@@ -351,7 +376,9 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-file-datalake.DataLakeDirectoryClient" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.DataLakeDirectoryClient|preview" />
         description: ''
   - name: getFileClient(string)
     uid: >-
@@ -371,7 +398,7 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-file-datalake.DataLakeFileClient" />
+        type: <xref uid="@azure/storage-file-datalake.DataLakeFileClient|preview" />
         description: ''
   - name: getProperties(FileSystemGetPropertiesOptions)
     uid: >-
@@ -402,13 +429,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/storage-file-datalake.FileSystemGetPropertiesOptions" />
+            uid="@azure/storage-file-datalake.FileSystemGetPropertiesOptions|preview"
+            />
           description: |
             Optional. Options when getting file system properties.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-datalake.FileSystemGetPropertiesResponse"
+          uid="@azure/storage-file-datalake.FileSystemGetPropertiesResponse|preview"
           />&gt;
         description: ''
   - name: listDeletedPaths(ListDeletedPathsOptions)
@@ -529,14 +557,17 @@ methods:
       content: 'function listDeletedPaths(options?: ListDeletedPathsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-datalake.ListDeletedPathsOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-datalake.ListDeletedPathsOptions|preview"
+            />
           description: |
             Optional. Options when listing deleted paths.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/storage-file-datalake.DeletedPath" />, <xref
-          uid="@azure/storage-file-datalake.FileSystemListDeletedPathsResponse"
+          uid="@azure/storage-file-datalake.DeletedPath|preview" />, <xref
+          uid="@azure/storage-file-datalake.FileSystemListDeletedPathsResponse|preview"
           />&gt;
         description: ''
   - name: listPaths(ListPathsOptions)
@@ -655,14 +686,15 @@ methods:
       content: 'function listPaths(options?: ListPathsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-datalake.ListPathsOptions" />
+          type: <xref uid="@azure/storage-file-datalake.ListPathsOptions|preview" />
           description: |
             Optional. Options when listing paths.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/storage-file-datalake.Path" />, <xref
-          uid="@azure/storage-file-datalake.FileSystemListPathsResponse" />&gt;
+          uid="@azure/storage-file-datalake.Path|preview" />, <xref
+          uid="@azure/storage-file-datalake.FileSystemListPathsResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       setAccessPolicy(PublicAccessType, SignedIdentifier<AccessPolicy>[],
@@ -693,26 +725,27 @@ methods:
         FileSystemSetAccessPolicyOptions)
       parameters:
         - id: access
-          type: <xref uid="@azure/storage-file-datalake.PublicAccessType" />
+          type: <xref uid="@azure/storage-file-datalake.PublicAccessType|preview" />
           description: Optional. The level of public access to data in the file system.
         - id: fileSystemAcl
           type: >-
-            <xref uid="@azure/storage-file-datalake.SignedIdentifier"
-            />&lt;<xref uid="@azure/storage-file-datalake.AccessPolicy" />&gt;[]
+            <xref uid="@azure/storage-file-datalake.SignedIdentifier|preview"
+            />&lt;<xref uid="@azure/storage-file-datalake.AccessPolicy|preview"
+            />&gt;[]
           description: >-
             Optional. Array of elements each having a unique Id and details of
             the access policy.
         - id: options
           type: >-
             <xref
-            uid="@azure/storage-file-datalake.FileSystemSetAccessPolicyOptions"
+            uid="@azure/storage-file-datalake.FileSystemSetAccessPolicyOptions|preview"
             />
           description: |
             Optional. Options when setting file system access policy.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-datalake.FileSystemSetAccessPolicyResponse"
+          uid="@azure/storage-file-datalake.FileSystemSetAccessPolicyResponse|preview"
           />&gt;
         description: ''
   - name: setMetadata(Metadata, FileSystemSetMetadataOptions)
@@ -735,20 +768,21 @@ methods:
         FileSystemSetMetadataOptions)
       parameters:
         - id: metadata
-          type: <xref uid="@azure/storage-file-datalake.Metadata" />
+          type: <xref uid="@azure/storage-file-datalake.Metadata|preview" />
           description: |-
             Replace existing metadata with this value.
                                          If no value provided the existing metadata will be removed.
         - id: options
           type: >-
             <xref
-            uid="@azure/storage-file-datalake.FileSystemSetMetadataOptions" />
+            uid="@azure/storage-file-datalake.FileSystemSetMetadataOptions|preview"
+            />
           description: |
             Optional. Options when setting file system metadata.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-datalake.FileSystemSetMetadataResponse"
+          uid="@azure/storage-file-datalake.FileSystemSetMetadataResponse|preview"
           />&gt;
         description: ''
   - name: undeletePath(string, string, FileSystemUndeletePathOption)
@@ -775,12 +809,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/storage-file-datalake.FileSystemUndeletePathOption" />
+            uid="@azure/storage-file-datalake.FileSystemUndeletePathOption|preview"
+            />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-datalake.FileSystemUndeletePathResponse"
+          uid="@azure/storage-file-datalake.FileSystemUndeletePathResponse|preview"
           />&gt;
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.StorageClient" />
+extends: <xref uid="@azure/storage-file-datalake.StorageClient|preview" />

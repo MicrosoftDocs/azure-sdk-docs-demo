@@ -20,11 +20,13 @@ methods:
       content: 'function list(options?: OperationsListOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="@azure/arm-keyvault.OperationsListOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-keyvault.OperationsListOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-keyvault.Operation" />&gt;
+          uid="@azure/arm-keyvault.Operation|preview" />&gt;
         description: ''

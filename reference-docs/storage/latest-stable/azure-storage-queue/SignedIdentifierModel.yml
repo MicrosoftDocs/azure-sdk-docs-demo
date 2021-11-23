@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'accessPolicy: AccessPolicy'
       return:
-        type: <xref uid="@azure/storage-queue.AccessPolicy" />
+        type: <xref uid="@azure/storage-queue.AccessPolicy|latest-stable" />
         description: ''
   - name: id
     uid: '@azure/storage-queue.SignedIdentifierModel.id|latest-stable'

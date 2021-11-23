@@ -58,7 +58,7 @@ properties:
     syntax:
       content: 'permissions?: KeyPermission'
       return:
-        type: <xref uid="@azure/arm-storage.KeyPermission" />
+        type: <xref uid="@azure/arm-storage.KeyPermission|preview" />
         description: ''
   - name: value
     uid: '@azure/arm-storage.StorageAccountKey.value|preview'

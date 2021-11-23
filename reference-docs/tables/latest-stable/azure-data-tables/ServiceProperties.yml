@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'cors?: CorsRule[]'
       return:
-        type: <xref uid="@azure/data-tables.CorsRule" />[]
+        type: <xref uid="@azure/data-tables.CorsRule|latest-stable" />[]
         description: ''
   - name: hourMetrics
     uid: '@azure/data-tables.ServiceProperties.hourMetrics|latest-stable'
@@ -35,7 +35,7 @@ properties:
     syntax:
       content: 'hourMetrics?: Metrics'
       return:
-        type: <xref uid="@azure/data-tables.Metrics" />
+        type: <xref uid="@azure/data-tables.Metrics|latest-stable" />
         description: ''
   - name: logging
     uid: '@azure/data-tables.ServiceProperties.logging|latest-stable'
@@ -48,7 +48,7 @@ properties:
     syntax:
       content: 'logging?: Logging'
       return:
-        type: <xref uid="@azure/data-tables.Logging" />
+        type: <xref uid="@azure/data-tables.Logging|latest-stable" />
         description: ''
   - name: minuteMetrics
     uid: '@azure/data-tables.ServiceProperties.minuteMetrics|latest-stable'
@@ -63,5 +63,5 @@ properties:
     syntax:
       content: 'minuteMetrics?: Metrics'
       return:
-        type: <xref uid="@azure/data-tables.Metrics" />
+        type: <xref uid="@azure/data-tables.Metrics|latest-stable" />
         description: ''

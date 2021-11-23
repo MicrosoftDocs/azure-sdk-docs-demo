@@ -89,7 +89,7 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-blob.AccountSASResourceTypes" />
+        type: <xref uid="@azure/storage-blob.AccountSASResourceTypes|preview" />
         description: ''
   - name: toString()
     uid: '@azure/storage-blob.AccountSASResourceTypes.toString|preview'

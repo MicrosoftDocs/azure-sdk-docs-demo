@@ -21,5 +21,8 @@ properties:
     syntax:
       content: 'value?: PrivateLinkResource[]'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.PrivateLinkResource" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.PrivateLinkResource|latest-stable"
+          />[]
         description: ''

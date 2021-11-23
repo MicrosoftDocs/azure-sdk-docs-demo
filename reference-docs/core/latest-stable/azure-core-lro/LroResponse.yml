@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'rawResponse: RawResponse'
       return:
-        type: <xref uid="@azure/core-lro.RawResponse" />
+        type: <xref uid="@azure/core-lro.RawResponse|latest-stable" />
         description: ''

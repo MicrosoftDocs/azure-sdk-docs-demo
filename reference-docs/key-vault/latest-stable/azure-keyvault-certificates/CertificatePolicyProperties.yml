@@ -62,7 +62,10 @@ properties:
     syntax:
       content: 'contentType?: CertificateContentType'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificateContentType" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-certificates.CertificateContentType|latest-stable"
+          />
         description: ''
   - name: createdOn
     uid: >-
@@ -134,7 +137,9 @@ properties:
     syntax:
       content: 'issuerName?: WellKnownIssuer | string'
       return:
-        type: <xref uid="@azure/keyvault-certificates.WellKnownIssuer" /> | string
+        type: >-
+          <xref uid="@azure/keyvault-certificates.WellKnownIssuer|latest-stable"
+          /> | string
         description: ''
   - name: keyCurveName
     uid: >-
@@ -150,7 +155,10 @@ properties:
     syntax:
       content: 'keyCurveName?: CertificateKeyCurveName'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificateKeyCurveName" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-certificates.CertificateKeyCurveName|latest-stable"
+          />
         description: ''
   - name: keySize
     uid: >-
@@ -182,7 +190,9 @@ properties:
     syntax:
       content: 'keyType?: CertificateKeyType'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificateKeyType" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-certificates.CertificateKeyType|latest-stable" />
         description: ''
   - name: keyUsage
     uid: >-
@@ -196,7 +206,9 @@ properties:
     syntax:
       content: 'keyUsage?: KeyUsageType[]'
       return:
-        type: <xref uid="@azure/keyvault-certificates.KeyUsageType" />[]
+        type: >-
+          <xref uid="@azure/keyvault-certificates.KeyUsageType|latest-stable"
+          />[]
         description: ''
   - name: lifetimeActions
     uid: >-
@@ -212,7 +224,9 @@ properties:
     syntax:
       content: 'lifetimeActions?: LifetimeAction[]'
       return:
-        type: <xref uid="@azure/keyvault-certificates.LifetimeAction" />[]
+        type: >-
+          <xref uid="@azure/keyvault-certificates.LifetimeAction|latest-stable"
+          />[]
         description: ''
   - name: reuseKey
     uid: >-

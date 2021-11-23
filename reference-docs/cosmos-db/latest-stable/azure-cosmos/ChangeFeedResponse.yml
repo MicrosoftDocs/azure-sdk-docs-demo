@@ -89,7 +89,7 @@ properties:
     syntax:
       content: 'headers: CosmosHeaders'
       return:
-        type: <xref uid="@azure/cosmos.CosmosHeaders" />
+        type: <xref uid="@azure/cosmos.CosmosHeaders|latest-stable" />
         description: ''
   - name: requestCharge
     uid: '@azure/cosmos.ChangeFeedResponse.requestCharge|latest-stable'

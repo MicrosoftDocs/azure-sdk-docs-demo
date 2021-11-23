@@ -25,7 +25,7 @@ properties:
     syntax:
       content: 'replicationStatus: ObjectReplicationStatus'
       return:
-        type: <xref uid="@azure/storage-blob.ObjectReplicationStatus" />
+        type: <xref uid="@azure/storage-blob.ObjectReplicationStatus|preview" />
         description: ''
   - name: ruleId
     uid: '@azure/storage-blob.ObjectReplicationRule.ruleId|preview'

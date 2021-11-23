@@ -138,4 +138,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsOperationOptions" />
+extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsOperationOptions|preview" />

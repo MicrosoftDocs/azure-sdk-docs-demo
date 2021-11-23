@@ -40,7 +40,7 @@ properties:
     syntax:
       content: 'initialHeaders?: CosmosHeaders'
       return:
-        type: <xref uid="@azure/cosmos.CosmosHeaders" />
+        type: <xref uid="@azure/cosmos.CosmosHeaders|latest-stable" />
         description: ''
   - name: sessionToken
     uid: '@azure/cosmos.SharedOptions.sessionToken|latest-stable'

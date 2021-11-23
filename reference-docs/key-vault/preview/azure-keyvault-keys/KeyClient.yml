@@ -55,7 +55,7 @@ constructors:
             authenticate requests to the service. Use the \@azure/identity
             package to create a credential that suits your needs.
         - id: pipelineOptions
-          type: <xref uid="@azure/keyvault-keys.KeyClientOptions" />
+          type: <xref uid="@azure/keyvault-keys.KeyClientOptions|preview" />
           description: >
             Pipeline options used to configure Key Vault API requests. Omit this
             parameter to use the default pipeline configuration.
@@ -105,7 +105,7 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.BackupKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.BackupKeyOptions|preview" />
           description: |
             The optional parameters.
       return:
@@ -166,14 +166,14 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.BeginDeleteKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.BeginDeleteKeyOptions|preview" />
           description: |
             The optional parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/keyvault-keys.DeletedKey" />&gt;, <xref
-          uid="@azure/keyvault-keys.DeletedKey" />&gt;&gt;
+          uid="@azure/keyvault-keys.DeletedKey|preview" />&gt;, <xref
+          uid="@azure/keyvault-keys.DeletedKey|preview" />&gt;&gt;
         description: ''
   - name: beginRecoverDeletedKey(string, BeginRecoverDeletedKeyOptions)
     uid: '@azure/keyvault-keys.KeyClient.beginRecoverDeletedKey|preview'
@@ -237,14 +237,16 @@ methods:
           type: string
           description: The name of the deleted key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.BeginRecoverDeletedKeyOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-keys.BeginRecoverDeletedKeyOptions|preview" />
           description: |
             The optional parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/keyvault-keys.DeletedKey" />&gt;, <xref
-          uid="@azure/keyvault-keys.DeletedKey" />&gt;&gt;
+          uid="@azure/keyvault-keys.DeletedKey|preview" />&gt;, <xref
+          uid="@azure/keyvault-keys.DeletedKey|preview" />&gt;&gt;
         description: ''
   - name: createEcKey(string, CreateEcKeyOptions)
     uid: '@azure/keyvault-keys.KeyClient.createEcKey|preview'
@@ -280,11 +282,11 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.CreateEcKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.CreateEcKeyOptions|preview" />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|preview" />&gt;
         description: ''
   - name: createKey(string, KeyType_2, CreateKeyOptions)
     uid: '@azure/keyvault-keys.KeyClient.createKey|preview'
@@ -324,16 +326,16 @@ methods:
           type: string
           description: The name of the key.
         - id: keyType
-          type: <xref uid="@azure/keyvault-keys.KeyType_2" />
+          type: <xref uid="@azure/keyvault-keys.KeyType_2|preview" />
           description: >-
             The type of the key. One of the following: 'EC', 'EC-HSM', 'RSA',
             'RSA-HSM', 'oct'.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.CreateKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.CreateKeyOptions|preview" />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|preview" />&gt;
         description: ''
   - name: createOctKey(string, CreateOctKeyOptions)
     uid: '@azure/keyvault-keys.KeyClient.createOctKey|preview'
@@ -369,11 +371,11 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.CreateOctKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.CreateOctKeyOptions|preview" />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|preview" />&gt;
         description: ''
   - name: createRsaKey(string, CreateRsaKeyOptions)
     uid: '@azure/keyvault-keys.KeyClient.createRsaKey|preview'
@@ -409,11 +411,11 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.CreateRsaKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.CreateRsaKeyOptions|preview" />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|preview" />&gt;
         description: ''
   - name: getCryptographyClient(string, GetCryptographyClientOptions)
     uid: '@azure/keyvault-keys.KeyClient.getCryptographyClient|preview'
@@ -438,10 +440,12 @@ methods:
           type: string
           description: ''
         - id: options
-          type: <xref uid="@azure/keyvault-keys.GetCryptographyClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-keys.GetCryptographyClientOptions|preview" />
           description: ''
       return:
-        type: <xref uid="@azure/keyvault-keys.CryptographyClient" />
+        type: <xref uid="@azure/keyvault-keys.CryptographyClient|preview" />
         description: >-
           - A {@link CryptographyClient} using the same options, credentials,
           and http client as this {@link KeyClient}
@@ -475,11 +479,11 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.GetDeletedKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.GetDeletedKeyOptions|preview" />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.DeletedKey" />&gt;
+        type: Promise&lt;<xref uid="@azure/keyvault-keys.DeletedKey|preview" />&gt;
         description: ''
   - name: getKey(string, GetKeyOptions)
     uid: '@azure/keyvault-keys.KeyClient.getKey|preview'
@@ -511,11 +515,11 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.GetKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.GetKeyOptions|preview" />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|preview" />&gt;
         description: ''
   - name: getKeyRotationPolicy(string, GetKeyRotationPolicyOptions)
     uid: '@azure/keyvault-keys.KeyClient.getKeyRotationPolicy|preview'
@@ -541,11 +545,15 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.GetKeyRotationPolicyOptions" />
+          type: >-
+            <xref uid="@azure/keyvault-keys.GetKeyRotationPolicyOptions|preview"
+            />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyRotationPolicy" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.KeyRotationPolicy|preview"
+          />&gt;
         description: ''
   - name: getRandomBytes(number, GetRandomBytesOptions)
     uid: '@azure/keyvault-keys.KeyClient.getRandomBytes|preview'
@@ -575,7 +583,7 @@ methods:
           type: number
           description: The number of bytes to generate between 1 and 128 inclusive.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.GetRandomBytesOptions" />
+          type: <xref uid="@azure/keyvault-keys.GetRandomBytesOptions|preview" />
           description: |
             The optional parameters.
       return:
@@ -621,14 +629,14 @@ methods:
           type: string
           description: Name for the imported key.
         - id: key
-          type: <xref uid="@azure/keyvault-keys.JsonWebKey_2" />
+          type: <xref uid="@azure/keyvault-keys.JsonWebKey_2|preview" />
           description: The JSON web key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.ImportKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.ImportKeyOptions|preview" />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|preview" />&gt;
         description: ''
   - name: listDeletedKeys(ListDeletedKeysOptions)
     uid: '@azure/keyvault-keys.KeyClient.listDeletedKeys|preview'
@@ -660,13 +668,13 @@ methods:
       content: 'function listDeletedKeys(options?: ListDeletedKeysOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/keyvault-keys.ListDeletedKeysOptions" />
+          type: <xref uid="@azure/keyvault-keys.ListDeletedKeysOptions|preview" />
           description: |
             The optional parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/keyvault-keys.DeletedKey" />&gt;
+          uid="@azure/keyvault-keys.DeletedKey|preview" />&gt;
         description: ''
   - name: listPropertiesOfKeys(ListPropertiesOfKeysOptions)
     uid: '@azure/keyvault-keys.KeyClient.listPropertiesOfKeys|preview'
@@ -699,13 +707,15 @@ methods:
       content: 'function listPropertiesOfKeys(options?: ListPropertiesOfKeysOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/keyvault-keys.ListPropertiesOfKeysOptions" />
+          type: >-
+            <xref uid="@azure/keyvault-keys.ListPropertiesOfKeysOptions|preview"
+            />
           description: |
             The optional parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/keyvault-keys.KeyProperties" />&gt;
+          uid="@azure/keyvault-keys.KeyProperties|preview" />&gt;
         description: ''
   - name: listPropertiesOfKeyVersions(string, ListPropertiesOfKeyVersionsOptions)
     uid: '@azure/keyvault-keys.KeyClient.listPropertiesOfKeyVersions|preview'
@@ -742,14 +752,15 @@ methods:
           description: Name of the key to fetch versions for
         - id: options
           type: >-
-            <xref uid="@azure/keyvault-keys.ListPropertiesOfKeyVersionsOptions"
+            <xref
+            uid="@azure/keyvault-keys.ListPropertiesOfKeyVersionsOptions|preview"
             />
           description: |
             The optional parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/keyvault-keys.KeyProperties" />&gt;
+          uid="@azure/keyvault-keys.KeyProperties|preview" />&gt;
         description: ''
   - name: purgeDeletedKey(string, PurgeDeletedKeyOptions)
     uid: '@azure/keyvault-keys.KeyClient.purgeDeletedKey|preview'
@@ -788,7 +799,7 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.PurgeDeletedKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.PurgeDeletedKeyOptions|preview" />
           description: |
             The optional parameters.
       return:
@@ -828,11 +839,13 @@ methods:
           type: string
           description: The attestation assertion for the target of the key release.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.ReleaseKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.ReleaseKeyOptions|preview" />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.ReleaseKeyResult" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.ReleaseKeyResult|preview"
+          />&gt;
         description: ''
   - name: restoreKeyBackup(Uint8Array, RestoreKeyBackupOptions)
     uid: '@azure/keyvault-keys.KeyClient.restoreKeyBackup|preview'
@@ -870,11 +883,11 @@ methods:
           type: Uint8Array
           description: The backup blob associated with a key bundle.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.RestoreKeyBackupOptions" />
+          type: <xref uid="@azure/keyvault-keys.RestoreKeyBackupOptions|preview" />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|preview" />&gt;
         description: ''
   - name: rotateKey(string, RotateKeyOptions)
     uid: '@azure/keyvault-keys.KeyClient.rotateKey|preview'
@@ -902,11 +915,11 @@ methods:
           type: string
           description: The name of the key to rotate.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.RotateKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.RotateKeyOptions|preview" />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|preview" />&gt;
         description: ''
   - name: updateKeyProperties(string, string, UpdateKeyPropertiesOptions)
     uid: '@azure/keyvault-keys.KeyClient.updateKeyProperties|preview'
@@ -952,11 +965,13 @@ methods:
           type: string
           description: The version of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.UpdateKeyPropertiesOptions" />
+          type: >-
+            <xref uid="@azure/keyvault-keys.UpdateKeyPropertiesOptions|preview"
+            />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|preview" />&gt;
         description: ''
   - name: updateKeyProperties(string, UpdateKeyPropertiesOptions)
     uid: '@azure/keyvault-keys.KeyClient.updateKeyProperties_1|preview'
@@ -999,11 +1014,13 @@ methods:
           type: string
           description: The name of the key.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.UpdateKeyPropertiesOptions" />
+          type: >-
+            <xref uid="@azure/keyvault-keys.UpdateKeyPropertiesOptions|preview"
+            />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey" />&gt;
+        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyVaultKey|preview" />&gt;
         description: ''
   - name: >-
       updateKeyRotationPolicy(string, KeyRotationPolicyProperties,
@@ -1030,12 +1047,18 @@ methods:
           type: string
           description: The name of the key.
         - id: policy
-          type: <xref uid="@azure/keyvault-keys.KeyRotationPolicyProperties" />
+          type: >-
+            <xref uid="@azure/keyvault-keys.KeyRotationPolicyProperties|preview"
+            />
           description: ''
         - id: options
-          type: <xref uid="@azure/keyvault-keys.UpdateKeyRotationPolicyOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-keys.UpdateKeyRotationPolicyOptions|preview" />
           description: |
             The optional parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.KeyRotationPolicy" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.KeyRotationPolicy|preview"
+          />&gt;
         description: ''

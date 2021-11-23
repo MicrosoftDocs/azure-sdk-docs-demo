@@ -42,7 +42,7 @@ properties:
     syntax:
       content: 'leaseAccessConditions?: LeaseAccessConditions'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions" />
+        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions|preview" />
         description: ''
   - name: sourceAuthorization
     uid: >-
@@ -58,7 +58,7 @@ properties:
     syntax:
       content: 'sourceAuthorization?: HttpAuthorization'
       return:
-        type: <xref uid="@azure/storage-file-share.HttpAuthorization" />
+        type: <xref uid="@azure/storage-file-share.HttpAuthorization|preview" />
         description: ''
   - name: sourceConditions
     uid: >-
@@ -73,7 +73,8 @@ properties:
       content: 'sourceConditions?: SourceModifiedAccessConditions'
       return:
         type: >-
-          <xref uid="@azure/storage-file-share.SourceModifiedAccessConditions"
+          <xref
+          uid="@azure/storage-file-share.SourceModifiedAccessConditions|preview"
           />
         description: ''
   - name: sourceContentCrc64
@@ -126,4 +127,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-file-share.CommonOptions" />
+extends: <xref uid="@azure/storage-file-share.CommonOptions|preview" />

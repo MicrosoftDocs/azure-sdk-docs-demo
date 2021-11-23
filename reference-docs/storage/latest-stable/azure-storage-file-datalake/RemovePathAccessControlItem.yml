@@ -21,7 +21,9 @@ properties:
     syntax:
       content: 'accessControlType: AccessControlType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.AccessControlType" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.AccessControlType|latest-stable" />
         description: ''
   - name: defaultScope
     uid: >-

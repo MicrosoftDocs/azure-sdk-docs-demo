@@ -52,5 +52,5 @@ properties:
     syntax:
       content: 'reason?: UnavailableReason'
       return:
-        type: <xref uid="@azure/arm-servicebus.UnavailableReason" />
+        type: <xref uid="@azure/arm-servicebus.UnavailableReason|preview" />
         description: ''

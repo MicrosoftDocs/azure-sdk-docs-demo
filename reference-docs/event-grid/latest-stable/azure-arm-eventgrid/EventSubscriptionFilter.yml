@@ -22,7 +22,9 @@ properties:
     syntax:
       content: 'advancedFilters?: AdvancedFilterUnion[]'
       return:
-        type: <xref uid="@azure/arm-eventgrid.AdvancedFilterUnion" />[]
+        type: >-
+          <xref uid="@azure/arm-eventgrid.AdvancedFilterUnion|latest-stable"
+          />[]
         description: ''
   - name: enableAdvancedFilteringOnArrays
     uid: >-

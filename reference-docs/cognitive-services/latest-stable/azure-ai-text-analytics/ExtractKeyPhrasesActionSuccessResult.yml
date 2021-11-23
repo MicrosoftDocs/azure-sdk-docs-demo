@@ -49,6 +49,12 @@ properties:
     syntax:
       content: 'results: ExtractKeyPhrasesResultArray'
       return:
-        type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesResultArray" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResultArray|latest-stable"
+          />
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsActionSuccessState" />
+extends: >-
+  <xref
+  uid="@azure/ai-text-analytics.TextAnalyticsActionSuccessState|latest-stable"
+  />

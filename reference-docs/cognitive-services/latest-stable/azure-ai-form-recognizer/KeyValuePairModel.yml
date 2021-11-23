@@ -33,7 +33,9 @@ properties:
     syntax:
       content: 'key: KeyValueElementModel'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.KeyValueElementModel" />
+        type: >-
+          <xref
+          uid="@azure/ai-form-recognizer.KeyValueElementModel|latest-stable" />
         description: ''
   - name: label
     uid: '@azure/ai-form-recognizer.KeyValuePairModel.label|latest-stable'
@@ -59,5 +61,7 @@ properties:
     syntax:
       content: 'value: KeyValueElementModel'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.KeyValueElementModel" />
+        type: >-
+          <xref
+          uid="@azure/ai-form-recognizer.KeyValueElementModel|latest-stable" />
         description: ''

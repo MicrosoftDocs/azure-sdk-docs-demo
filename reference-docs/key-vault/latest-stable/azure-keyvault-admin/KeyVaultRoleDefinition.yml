@@ -86,7 +86,9 @@ properties:
     syntax:
       content: 'permissions: KeyVaultPermission[]'
       return:
-        type: <xref uid="@azure/keyvault-admin.KeyVaultPermission" />[]
+        type: >-
+          <xref uid="@azure/keyvault-admin.KeyVaultPermission|latest-stable"
+          />[]
         description: ''
   - name: roleName
     uid: '@azure/keyvault-admin.KeyVaultRoleDefinition.roleName|latest-stable'

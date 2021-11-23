@@ -37,7 +37,10 @@ properties:
     syntax:
       content: 'certificateOperation?: CertificateOperation'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificateOperation" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-certificates.CertificateOperation|latest-stable"
+          />
         description: ''
   - name: error
     uid: '@azure/keyvault-certificates.CertificateOperationState.error|latest-stable'
@@ -107,10 +110,13 @@ properties:
       content: 'result?: KeyVaultCertificateWithPolicy'
       return:
         type: >-
-          <xref uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy"
+          <xref
+          uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy|latest-stable"
           />
         description: ''
 extends: >-
-  <xref uid="@azure/keyvault-certificates.KeyVaultCertificatePollOperationState"
-  />&lt;<xref uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy"
+  <xref
+  uid="@azure/keyvault-certificates.KeyVaultCertificatePollOperationState|latest-stable"
+  />&lt;<xref
+  uid="@azure/keyvault-certificates.KeyVaultCertificateWithPolicy|latest-stable"
   />&gt;

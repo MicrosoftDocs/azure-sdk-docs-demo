@@ -75,7 +75,9 @@ properties:
     syntax:
       content: 'statistics?: TextDocumentBatchStatistics'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextDocumentBatchStatistics" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TextDocumentBatchStatistics|preview" />
         description: ''
 methods:
   - name: at(number)
@@ -96,8 +98,9 @@ methods:
           description: ''
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult" />
-          | undefined
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
+          /> | undefined
         description: ''
   - name: concat(ConcatArray<RecognizeLinkedEntitiesResult>[])
     uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesResultArray.concat|preview'
@@ -112,13 +115,14 @@ methods:
         - id: items
           type: >-
             ConcatArray&lt;<xref
-            uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
+            uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
             />&gt;[]
           description: |
             Additional items to add to the end of array1.
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
           />[]
         description: ''
   - name: concat(T | ConcatArray<T>[])
@@ -138,7 +142,8 @@ methods:
             Additional items to add to the end of array1.
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
           />[]
         description: ''
   - name: copyWithin(number, number, number)
@@ -239,7 +244,8 @@ methods:
       parameters:
         - id: value
           type: >-
-            <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
             />
           description: value to fill array section with
         - id: start
@@ -293,7 +299,8 @@ methods:
             value.
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
           />[]
         description: ''
   - name: >-
@@ -354,8 +361,9 @@ methods:
           description: ''
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult" />
-          | undefined
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
+          /> | undefined
         description: ''
   - name: >-
       find<S>((this: void, value: RecognizeLinkedEntitiesResult, index: number,
@@ -746,7 +754,8 @@ methods:
       parameters:
         - id: searchElement
           type: >-
-            <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
             />
           description: The element to search for.
         - id: fromIndex
@@ -772,7 +781,8 @@ methods:
       parameters:
         - id: searchElement
           type: >-
-            <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
             />
           description: The value to locate in the array.
         - id: fromIndex
@@ -831,7 +841,8 @@ methods:
       parameters:
         - id: searchElement
           type: >-
-            <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
             />
           description: The value to locate in the array.
         - id: fromIndex
@@ -886,8 +897,9 @@ methods:
       content: function pop()
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult" />
-          | undefined
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
+          /> | undefined
         description: ''
   - name: push(RecognizeLinkedEntitiesResult[])
     uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesResultArray.push|preview'
@@ -901,7 +913,8 @@ methods:
       parameters:
         - id: items
           type: >-
-            <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
             />[]
           description: |
             New elements of the Array.
@@ -938,7 +951,10 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
+          />
         description: ''
   - name: >-
       reduce((previousValue: RecognizeLinkedEntitiesResult, currentValue:
@@ -968,11 +984,15 @@ methods:
           description: ''
         - id: initialValue
           type: >-
-            <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
             />
           description: ''
       return:
-        type: <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
+          />
         description: ''
   - name: >-
       reduce<U>((previousValue: U, currentValue: RecognizeLinkedEntitiesResult,
@@ -1043,7 +1063,10 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
+          />
         description: ''
   - name: >-
       reduceRight((previousValue: RecognizeLinkedEntitiesResult, currentValue:
@@ -1073,11 +1096,15 @@ methods:
           description: ''
         - id: initialValue
           type: >-
-            <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
             />
           description: ''
       return:
-        type: <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
+          />
         description: ''
   - name: >-
       reduceRight<U>((previousValue: U, currentValue:
@@ -1130,7 +1157,8 @@ methods:
       content: function reverse()
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
           />[]
         description: ''
   - name: shift()
@@ -1144,8 +1172,9 @@ methods:
       content: function shift()
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult" />
-          | undefined
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
+          /> | undefined
         description: ''
   - name: slice(number, number)
     uid: '@azure/ai-text-analytics.RecognizeLinkedEntitiesResultArray.slice|preview'
@@ -1166,7 +1195,8 @@ methods:
             The end of the specified portion of the array.
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
           />[]
         description: ''
   - name: >-
@@ -1251,7 +1281,8 @@ methods:
             The number of elements to remove.
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
           />[]
         description: ''
   - name: splice(number, number, RecognizeLinkedEntitiesResult[])
@@ -1279,13 +1310,15 @@ methods:
           description: The number of elements to remove.
         - id: items
           type: >-
-            <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
             />[]
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
           />[]
         description: ''
   - name: toLocaleString()
@@ -1329,7 +1362,8 @@ methods:
       parameters:
         - id: items
           type: >-
-            <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
             />[]
           description: |
             Elements to insert at the start of the Array.
@@ -1348,8 +1382,9 @@ methods:
       return:
         type: >-
           IterableIterator&lt;<xref
-          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult" />&gt;
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview"
+          />&gt;
         description: ''
 extends: >-
-  Array&lt;<xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult"
-  />&gt;
+  Array&lt;<xref
+  uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|preview" />&gt;

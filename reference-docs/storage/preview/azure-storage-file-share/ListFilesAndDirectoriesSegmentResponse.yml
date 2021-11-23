@@ -106,7 +106,8 @@ properties:
       content: 'segment: FilesAndDirectoriesListSegment'
       return:
         type: >-
-          <xref uid="@azure/storage-file-share.FilesAndDirectoriesListSegment"
+          <xref
+          uid="@azure/storage-file-share.FilesAndDirectoriesListSegment|preview"
           />
         description: ''
   - name: serviceEndpoint

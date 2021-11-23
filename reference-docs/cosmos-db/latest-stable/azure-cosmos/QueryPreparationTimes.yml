@@ -98,7 +98,7 @@ properties:
     syntax:
       content: 'static zero: QueryPreparationTimes'
       return:
-        type: <xref uid="@azure/cosmos.QueryPreparationTimes" />
+        type: <xref uid="@azure/cosmos.QueryPreparationTimes|latest-stable" />
         description: ''
 methods:
   - name: add(QueryPreparationTimes[])
@@ -114,10 +114,10 @@ methods:
       content: 'function add(queryPreparationTimesArray: QueryPreparationTimes[])'
       parameters:
         - id: queryPreparationTimesArray
-          type: <xref uid="@azure/cosmos.QueryPreparationTimes" />[]
+          type: <xref uid="@azure/cosmos.QueryPreparationTimes|latest-stable" />[]
           description: ''
       return:
-        type: <xref uid="@azure/cosmos.QueryPreparationTimes" />
+        type: <xref uid="@azure/cosmos.QueryPreparationTimes|latest-stable" />
         description: ''
   - name: createFromArray(QueryPreparationTimes[])
     uid: '@azure/cosmos.QueryPreparationTimes.createFromArray|latest-stable'
@@ -134,10 +134,10 @@ methods:
         QueryPreparationTimes[])
       parameters:
         - id: queryPreparationTimesArray
-          type: <xref uid="@azure/cosmos.QueryPreparationTimes" />[]
+          type: <xref uid="@azure/cosmos.QueryPreparationTimes|latest-stable" />[]
           description: ''
       return:
-        type: <xref uid="@azure/cosmos.QueryPreparationTimes" />
+        type: <xref uid="@azure/cosmos.QueryPreparationTimes|latest-stable" />
         description: ''
   - name: createFromDelimitedString(string)
     uid: >-
@@ -156,7 +156,7 @@ methods:
           type: string
           description: ''
       return:
-        type: <xref uid="@azure/cosmos.QueryPreparationTimes" />
+        type: <xref uid="@azure/cosmos.QueryPreparationTimes|latest-stable" />
         description: ''
   - name: toDelimitedString()
     uid: '@azure/cosmos.QueryPreparationTimes.toDelimitedString|latest-stable'

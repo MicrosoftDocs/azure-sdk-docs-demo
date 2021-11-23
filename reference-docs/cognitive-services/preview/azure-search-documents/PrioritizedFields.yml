@@ -27,7 +27,7 @@ properties:
     syntax:
       content: 'prioritizedContentFields?: SemanticField[]'
       return:
-        type: <xref uid="@azure/search-documents.SemanticField" />[]
+        type: <xref uid="@azure/search-documents.SemanticField|preview" />[]
         description: ''
   - name: prioritizedKeywordsFields
     uid: >-
@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'prioritizedKeywordsFields?: SemanticField[]'
       return:
-        type: <xref uid="@azure/search-documents.SemanticField" />[]
+        type: <xref uid="@azure/search-documents.SemanticField|preview" />[]
         description: ''
   - name: titleField
     uid: '@azure/search-documents.PrioritizedFields.titleField|preview'
@@ -62,5 +62,5 @@ properties:
     syntax:
       content: 'titleField?: SemanticField'
       return:
-        type: <xref uid="@azure/search-documents.SemanticField" />
+        type: <xref uid="@azure/search-documents.SemanticField|preview" />
         description: ''

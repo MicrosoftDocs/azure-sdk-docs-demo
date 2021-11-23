@@ -58,7 +58,7 @@ properties:
     syntax:
       content: 'countDetails?: MessageCountDetails'
       return:
-        type: <xref uid="@azure/arm-servicebus.MessageCountDetails" />
+        type: <xref uid="@azure/arm-servicebus.MessageCountDetails|latest-stable" />
         description: ''
   - name: createdAt
     uid: '@azure/arm-servicebus.SBTopic.createdAt|latest-stable'
@@ -261,7 +261,7 @@ properties:
     syntax:
       content: 'status?: EntityStatus'
       return:
-        type: <xref uid="@azure/arm-servicebus.EntityStatus" />
+        type: <xref uid="@azure/arm-servicebus.EntityStatus|latest-stable" />
         description: ''
   - name: subscriptionCount
     uid: '@azure/arm-servicebus.SBTopic.subscriptionCount|latest-stable'
@@ -327,4 +327,4 @@ properties:
       return:
         type: Date
         description: ''
-extends: <xref uid="@azure/arm-servicebus.Resource" />
+extends: <xref uid="@azure/arm-servicebus.Resource|latest-stable" />

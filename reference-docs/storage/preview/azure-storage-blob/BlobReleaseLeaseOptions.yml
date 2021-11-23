@@ -38,7 +38,7 @@ properties:
     syntax:
       content: 'conditions?: ModifiedAccessConditions'
       return:
-        type: <xref uid="@azure/storage-blob.ModifiedAccessConditions" />
+        type: <xref uid="@azure/storage-blob.ModifiedAccessConditions|preview" />
         description: ''
   - name: tracingOptions
     uid: '@azure/storage-blob.BlobReleaseLeaseOptions.tracingOptions|preview'
@@ -53,4 +53,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|preview" />

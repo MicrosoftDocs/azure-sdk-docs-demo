@@ -23,11 +23,11 @@ constructors:
       parameters:
         - id: lro
           type: >-
-            <xref uid="@azure/arm-storage.LongRunningOperation"
+            <xref uid="@azure/arm-storage.LongRunningOperation|preview"
             />&lt;TResult&gt;
           description: ''
         - id: options
-          type: <xref uid="@azure/arm-storage.LroEngineOptions" />
+          type: <xref uid="@azure/arm-storage.LroEngineOptions|preview" />
           description: ''
 methods:
   - name: cancelOperation(undefined | Object)

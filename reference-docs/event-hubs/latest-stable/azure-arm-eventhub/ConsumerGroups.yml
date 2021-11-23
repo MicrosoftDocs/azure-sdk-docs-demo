@@ -20,7 +20,10 @@ constructors:
       content: 'new ConsumerGroups(client: EventHubManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-eventhub.EventHubManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.EventHubManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -54,15 +57,15 @@ methods:
           type: string
           description: The consumer group name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />
+          type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />
           description: Parameters supplied to create or update a consumer group resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.ConsumerGroupsCreateOrUpdateResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.ConsumerGroupsCreateOrUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.ConsumerGroupsCreateOrUpdateResponse>
   - name: >-
       createOrUpdate(string, string, string, string, ConsumerGroup,
@@ -93,15 +96,15 @@ methods:
           type: string
           description: The consumer group name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />
+          type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />
           description: Parameters supplied to create or update a consumer group resource.
         - id: options
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.ConsumerGroup"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -132,12 +135,12 @@ methods:
           type: string
           description: The consumer group name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />
+          type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />
           description: Parameters supplied to create or update a consumer group resource.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.ConsumerGroup"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />&gt;
           description: |
             The callback
   - name: deleteMethod(string, string, string, string, msRest.RequestOptionsBase)
@@ -166,7 +169,7 @@ methods:
           type: string
           description: The consumer group name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -260,10 +263,12 @@ methods:
           type: string
           description: The consumer group name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ConsumerGroupsGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.ConsumerGroupsGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ConsumerGroupsGetResponse>
   - name: >-
       get(string, string, string, string, RequestOptionsBase,
@@ -297,8 +302,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.ConsumerGroup"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, string, string, ServiceCallback<ConsumerGroup>)
@@ -328,8 +333,8 @@ methods:
           description: The consumer group name
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.ConsumerGroup"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -361,13 +366,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.ConsumerGroupsListByEventHubOptionalParams"
+            uid="@azure/arm-eventhub.ConsumerGroupsListByEventHubOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.ConsumerGroupListResult" />&gt;
+            uid="@azure/arm-eventhub.ConsumerGroupListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -399,12 +405,15 @@ methods:
           type: string
           description: The Event Hub name
         - id: options
-          type: <xref uid="Models.ConsumerGroupsListByEventHubOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.ConsumerGroupsListByEventHubOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.ConsumerGroupsListByEventHubResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.ConsumerGroupsListByEventHubResponse|latest-stable" />&gt;
         description: Promise<Models.ConsumerGroupsListByEventHubResponse>
   - name: >-
       listByEventHub(string, string, string,
@@ -433,7 +442,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.ConsumerGroupListResult" />&gt;
+            uid="@azure/arm-eventhub.ConsumerGroupListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -457,13 +467,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.ConsumerGroupsListByEventHubNextOptionalParams"
+            uid="@azure/arm-eventhub.ConsumerGroupsListByEventHubNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.ConsumerGroupListResult" />&gt;
+            uid="@azure/arm-eventhub.ConsumerGroupListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -488,11 +499,15 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="Models.ConsumerGroupsListByEventHubNextOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.ConsumerGroupsListByEventHubNextOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.ConsumerGroupsListByEventHubNextResponse"
+          Promise&lt;<xref
+          uid="Models.ConsumerGroupsListByEventHubNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.ConsumerGroupsListByEventHubNextResponse>
   - name: listByEventHubNext(string, ServiceCallback<ConsumerGroupListResult>)
@@ -513,6 +528,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.ConsumerGroupListResult" />&gt;
+            uid="@azure/arm-eventhub.ConsumerGroupListResult|latest-stable"
+            />&gt;
           description: |
             The callback

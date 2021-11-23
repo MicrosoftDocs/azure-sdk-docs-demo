@@ -29,7 +29,7 @@ constructors:
                                 "https://myaccount.dfs.core.windows.net". You can append a SAS
                                 if using AnonymousCredential, such as "https://myaccount.dfs.core.windows.net?sasString".
         - id: pipeline
-          type: <xref uid="@azure/storage-file-datalake.Pipeline" />
+          type: <xref uid="@azure/storage-file-datalake.Pipeline|preview" />
           description: |
             Call newPipeline() to create a default
                                        pipeline, or provide a customized pipeline.
@@ -56,9 +56,11 @@ constructors:
                                 if using AnonymousCredential, such as "https://myaccount.dfs.core.windows.net?sasString".
         - id: credential
           type: >-
-            <xref uid="@azure/storage-file-datalake.StorageSharedKeyCredential"
-            /> | <xref uid="@azure/storage-file-datalake.AnonymousCredential" />
-            | TokenCredential
+            <xref
+            uid="@azure/storage-file-datalake.StorageSharedKeyCredential|preview"
+            /> | <xref
+            uid="@azure/storage-file-datalake.AnonymousCredential|preview" /> |
+            TokenCredential
           description: >-
             Such as AnonymousCredential, StorageSharedKeyCredential or any
             credential from the `@azure/identity` package to authenticate
@@ -66,7 +68,9 @@ constructors:
             implements the TokenCredential interface. If not specified,
             AnonymousCredential is used.
         - id: options
-          type: <xref uid="@azure/storage-file-datalake.StoragePipelineOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-datalake.StoragePipelineOptions|preview" />
           description: |
             Optional. Options to configure the HTTP pipeline.
 properties:
@@ -101,8 +105,10 @@ properties:
         TokenCredential
       return:
         type: >-
-          <xref uid="@azure/storage-file-datalake.StorageSharedKeyCredential" />
-          | <xref uid="@azure/storage-file-datalake.AnonymousCredential" /> |
+          <xref
+          uid="@azure/storage-file-datalake.StorageSharedKeyCredential|preview"
+          /> | <xref
+          uid="@azure/storage-file-datalake.AnonymousCredential|preview" /> |
           TokenCredential
         description: ''
   - name: url
@@ -143,11 +149,15 @@ methods:
                                              SAS connection string example -
                                              `BlobEndpoint=https://myaccount.blob.core.windows.net/;QueueEndpoint=https://myaccount.queue.core.windows.net/;FileEndpoint=https://myaccount.file.core.windows.net/;TableEndpoint=https://myaccount.table.core.windows.net/;SharedAccessSignature=sasString`
         - id: options
-          type: <xref uid="@azure/storage-file-datalake.StoragePipelineOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-datalake.StoragePipelineOptions|preview" />
           description: |
             Optional. Options to configure the HTTP pipeline.
       return:
-        type: <xref uid="@azure/storage-file-datalake.DataLakeServiceClient" />
+        type: >-
+          <xref uid="@azure/storage-file-datalake.DataLakeServiceClient|preview"
+          />
         description: ''
   - name: >-
       generateAccountSasUrl(Date, AccountSASPermissions, string,
@@ -179,7 +189,9 @@ methods:
             Optional. The time at which the shared access signature becomes
             invalid. Default to an hour later if not specified.
         - id: permissions
-          type: <xref uid="@azure/storage-file-datalake.AccountSASPermissions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-datalake.AccountSASPermissions|preview" />
           description: Specifies the list of permissions to be associated with the SAS.
         - id: resourceTypes
           type: string
@@ -189,7 +201,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/storage-file-datalake.ServiceGenerateAccountSasUrlOptions"
+            uid="@azure/storage-file-datalake.ServiceGenerateAccountSasUrlOptions|preview"
             />
           description: Optional parameters.
       return:
@@ -215,7 +227,9 @@ methods:
           description: |
             File system name.
       return:
-        type: <xref uid="@azure/storage-file-datalake.DataLakeFileSystemClient" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.DataLakeFileSystemClient|preview" />
         description: ''
   - name: getProperties(ServiceGetPropertiesOptions)
     uid: '@azure/storage-file-datalake.DataLakeServiceClient.getProperties|preview'
@@ -269,14 +283,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/storage-file-datalake.ServiceGetUserDelegationKeyOptions"
+            uid="@azure/storage-file-datalake.ServiceGetUserDelegationKeyOptions|preview"
             />
           description: |
             -
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-datalake.ServiceGetUserDelegationKeyResponse"
+          uid="@azure/storage-file-datalake.ServiceGetUserDelegationKeyResponse|preview"
           />&gt;
         description: ''
   - name: listFileSystems(ServiceListFileSystemsOptions)
@@ -396,14 +410,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/storage-file-datalake.ServiceListFileSystemsOptions" />
+            uid="@azure/storage-file-datalake.ServiceListFileSystemsOptions|preview"
+            />
           description: |
             -
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/storage-file-datalake.FileSystemItem" />, <xref
-          uid="@azure/storage-file-datalake.ServiceListFileSystemsSegmentResponse"
+          uid="@azure/storage-file-datalake.FileSystemItem|preview" />, <xref
+          uid="@azure/storage-file-datalake.ServiceListFileSystemsSegmentResponse|preview"
           />&gt;
         description: ''
   - name: setProperties(DataLakeServiceProperties, ServiceSetPropertiesOptions)
@@ -459,11 +474,11 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/storage-file-datalake.ServiceUndeleteFileSystemOptions"
+            uid="@azure/storage-file-datalake.ServiceUndeleteFileSystemOptions|preview"
             />
           description: |
             Options to configure File System Restore operation.
       return:
         type: Promise&lt;Object&gt;
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.StorageClient" />
+extends: <xref uid="@azure/storage-file-datalake.StorageClient|preview" />

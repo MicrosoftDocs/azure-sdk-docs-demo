@@ -45,7 +45,7 @@ methods:
             1.0 schema.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/eventgrid.CloudEvent"
+          Promise&lt;<xref uid="@azure/eventgrid.CloudEvent|latest-stable"
           />&lt;unknown&gt;[]&gt;
         description: ''
   - name: deserializeCloudEvents(string)
@@ -68,7 +68,7 @@ methods:
             events, encoded in the Cloud Events 1.0 Schema.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/eventgrid.CloudEvent"
+          Promise&lt;<xref uid="@azure/eventgrid.CloudEvent|latest-stable"
           />&lt;unknown&gt;[]&gt;
         description: ''
   - name: deserializeEventGridEvents(Record<string, unknown>)
@@ -91,7 +91,7 @@ methods:
             schema.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/eventgrid.EventGridEvent"
+          Promise&lt;<xref uid="@azure/eventgrid.EventGridEvent|latest-stable"
           />&lt;unknown&gt;[]&gt;
         description: ''
   - name: deserializeEventGridEvents(string)
@@ -114,6 +114,6 @@ methods:
             events, encoded in the Event Grid Schema.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/eventgrid.EventGridEvent"
+          Promise&lt;<xref uid="@azure/eventgrid.EventGridEvent|latest-stable"
           />&lt;unknown&gt;[]&gt;
         description: ''

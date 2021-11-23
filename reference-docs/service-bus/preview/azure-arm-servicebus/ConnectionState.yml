@@ -33,5 +33,7 @@ properties:
     syntax:
       content: 'status?: PrivateLinkConnectionStatus'
       return:
-        type: <xref uid="@azure/arm-servicebus.PrivateLinkConnectionStatus" />
+        type: >-
+          <xref uid="@azure/arm-servicebus.PrivateLinkConnectionStatus|preview"
+          />
         description: ''

@@ -144,6 +144,9 @@ properties:
     syntax:
       content: 'status: TextAnalyticsOperationStatus'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsOperationStatus" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TextAnalyticsOperationStatus|latest-stable"
+          />
         description: ''
 extends: PollOperationState&lt;TResult&gt;

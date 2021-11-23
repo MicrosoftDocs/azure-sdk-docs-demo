@@ -46,5 +46,7 @@ properties:
     syntax:
       content: 'rules?: ThrottlingRule[]'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.ThrottlingRule" />[]
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.ThrottlingRule|latest-stable"
+          />[]
         description: ''

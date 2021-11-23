@@ -177,7 +177,7 @@ properties:
     syntax:
       content: 'ipRange?: SasIPRange'
       return:
-        type: <xref uid="@azure/storage-file-datalake.SasIPRange" />
+        type: <xref uid="@azure/storage-file-datalake.SasIPRange|preview" />
         description: ''
   - name: permissions
     uid: '@azure/storage-file-datalake.SASQueryParametersOptions.permissions|preview'
@@ -236,7 +236,7 @@ properties:
     syntax:
       content: 'protocol?: SASProtocol'
       return:
-        type: <xref uid="@azure/storage-file-datalake.SASProtocol" />
+        type: <xref uid="@azure/storage-file-datalake.SASProtocol|preview" />
         description: ''
   - name: resource
     uid: '@azure/storage-file-datalake.SASQueryParametersOptions.resource|preview'
@@ -314,5 +314,5 @@ properties:
     syntax:
       content: 'userDelegationKey?: UserDelegationKey'
       return:
-        type: <xref uid="@azure/storage-file-datalake.UserDelegationKey" />
+        type: <xref uid="@azure/storage-file-datalake.UserDelegationKey|preview" />
         description: ''

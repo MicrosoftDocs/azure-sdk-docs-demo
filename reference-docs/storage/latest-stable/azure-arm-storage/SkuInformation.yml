@@ -27,7 +27,7 @@ properties:
     syntax:
       content: 'capabilities?: SKUCapability[]'
       return:
-        type: <xref uid="@azure/arm-storage.SKUCapability" />[]
+        type: <xref uid="@azure/arm-storage.SKUCapability|latest-stable" />[]
         description: ''
   - name: kind
     uid: '@azure/arm-storage.SkuInformation.kind|latest-stable'
@@ -47,7 +47,7 @@ properties:
     syntax:
       content: 'kind?: Kind'
       return:
-        type: <xref uid="@azure/arm-storage.Kind" />
+        type: <xref uid="@azure/arm-storage.Kind|latest-stable" />
         description: ''
   - name: locations
     uid: '@azure/arm-storage.SkuInformation.locations|latest-stable'
@@ -84,7 +84,7 @@ properties:
     syntax:
       content: 'name: SkuName'
       return:
-        type: <xref uid="@azure/arm-storage.SkuName" />
+        type: <xref uid="@azure/arm-storage.SkuName|latest-stable" />
         description: ''
   - name: resourceType
     uid: '@azure/arm-storage.SkuInformation.resourceType|latest-stable'
@@ -118,7 +118,7 @@ properties:
     syntax:
       content: 'restrictions?: Restriction[]'
       return:
-        type: <xref uid="@azure/arm-storage.Restriction" />[]
+        type: <xref uid="@azure/arm-storage.Restriction|latest-stable" />[]
         description: ''
   - name: tier
     uid: '@azure/arm-storage.SkuInformation.tier|latest-stable'
@@ -131,5 +131,5 @@ properties:
     syntax:
       content: 'tier?: SkuTier'
       return:
-        type: <xref uid="@azure/arm-storage.SkuTier" />
+        type: <xref uid="@azure/arm-storage.SkuTier|latest-stable" />
         description: ''

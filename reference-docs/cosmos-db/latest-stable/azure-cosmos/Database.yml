@@ -27,7 +27,7 @@ constructors:
         ClientContext)
       parameters:
         - id: client
-          type: <xref uid="@azure/cosmos.CosmosClient" />
+          type: <xref uid="@azure/cosmos.CosmosClient|latest-stable" />
           description: ''
         - id: id
           type: string
@@ -47,7 +47,7 @@ properties:
     syntax:
       content: 'client: CosmosClient'
       return:
-        type: <xref uid="@azure/cosmos.CosmosClient" />
+        type: <xref uid="@azure/cosmos.CosmosClient|latest-stable" />
         description: ''
   - name: containers
     uid: '@azure/cosmos.Database.containers|latest-stable'
@@ -64,7 +64,7 @@ properties:
     syntax:
       content: 'containers: Containers'
       return:
-        type: <xref uid="@azure/cosmos.Containers" />
+        type: <xref uid="@azure/cosmos.Containers|latest-stable" />
         description: ''
   - name: id
     uid: '@azure/cosmos.Database.id|latest-stable'
@@ -107,7 +107,7 @@ properties:
     syntax:
       content: 'users: Users'
       return:
-        type: <xref uid="@azure/cosmos.Users" />
+        type: <xref uid="@azure/cosmos.Users|latest-stable" />
         description: ''
 methods:
   - name: container(string)
@@ -129,7 +129,7 @@ methods:
           type: string
           description: ''
       return:
-        type: <xref uid="@azure/cosmos.Container" />
+        type: <xref uid="@azure/cosmos.Container|latest-stable" />
         description: ''
   - name: delete(RequestOptions)
     uid: '@azure/cosmos.Database.delete|latest-stable'
@@ -142,10 +142,12 @@ methods:
       content: 'function delete(options?: RequestOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.DatabaseResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.DatabaseResponse|latest-stable"
+          />&gt;
         description: ''
   - name: read(RequestOptions)
     uid: '@azure/cosmos.Database.read|latest-stable'
@@ -158,10 +160,12 @@ methods:
       content: 'function read(options?: RequestOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.DatabaseResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.DatabaseResponse|latest-stable"
+          />&gt;
         description: ''
   - name: readOffer(RequestOptions)
     uid: '@azure/cosmos.Database.readOffer|latest-stable'
@@ -176,10 +180,12 @@ methods:
       content: 'function readOffer(options?: RequestOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.OfferResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.OfferResponse|latest-stable"
+          />&gt;
         description: ''
   - name: user(string)
     uid: '@azure/cosmos.Database.user|latest-stable'
@@ -199,5 +205,5 @@ methods:
           type: string
           description: ''
       return:
-        type: <xref uid="@azure/cosmos.User" />
+        type: <xref uid="@azure/cosmos.User|latest-stable" />
         description: ''

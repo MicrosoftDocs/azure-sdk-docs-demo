@@ -38,5 +38,5 @@ properties:
     syntax:
       content: 'value?: Eventhub[]'
       return:
-        type: <xref uid="@azure/arm-servicebus.Eventhub" />[]
+        type: <xref uid="@azure/arm-servicebus.Eventhub|preview" />[]
         description: ''

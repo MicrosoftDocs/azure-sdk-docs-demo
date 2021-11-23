@@ -70,7 +70,7 @@ properties:
     syntax:
       content: 'type?: IdentityType'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.IdentityType" />
+        type: <xref uid="@azure/arm-appconfiguration.IdentityType|latest-stable" />
         description: ''
   - name: userAssignedIdentities
     uid: >-
@@ -92,5 +92,5 @@ properties:
       return:
         type: >-
           undefined | [key: string]: <xref
-          uid="@azure/arm-appconfiguration.UserIdentity" />
+          uid="@azure/arm-appconfiguration.UserIdentity|latest-stable" />
         description: ''

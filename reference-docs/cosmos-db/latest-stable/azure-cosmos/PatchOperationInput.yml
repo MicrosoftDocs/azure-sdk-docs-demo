@@ -87,5 +87,5 @@ properties:
     syntax:
       content: 'resourceBody: PatchRequestBody'
       return:
-        type: <xref uid="@azure/cosmos.PatchRequestBody" />
+        type: <xref uid="@azure/cosmos.PatchRequestBody|latest-stable" />
         description: ''

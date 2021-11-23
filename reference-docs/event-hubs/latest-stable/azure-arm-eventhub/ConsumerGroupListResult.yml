@@ -70,7 +70,9 @@ methods:
           type: number
           description: ''
       return:
-        type: <xref uid="@azure/arm-eventhub.ConsumerGroup" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" /> |
+          undefined
         description: ''
   - name: concat(ConcatArray<ConsumerGroup>[])
     uid: '@azure/arm-eventhub.ConsumerGroupListResult.concat|latest-stable'
@@ -84,12 +86,12 @@ methods:
       parameters:
         - id: items
           type: >-
-            ConcatArray&lt;<xref uid="@azure/arm-eventhub.ConsumerGroup"
-            />&gt;[]
+            ConcatArray&lt;<xref
+            uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />&gt;[]
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />[]
+        type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />[]
         description: ''
   - name: concat(T | ConcatArray<T>[])
     uid: '@azure/arm-eventhub.ConsumerGroupListResult.concat_1|latest-stable'
@@ -106,7 +108,7 @@ methods:
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />[]
+        type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />[]
         description: ''
   - name: copyWithin(number, number, undefined | number)
     uid: '@azure/arm-eventhub.ConsumerGroupListResult.copyWithin|latest-stable'
@@ -204,7 +206,7 @@ methods:
         undefined | number)
       parameters:
         - id: value
-          type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />
+          type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />
           description: value to fill array section with
         - id: start
           type: undefined | number
@@ -254,7 +256,7 @@ methods:
             function. If thisArg is omitted, undefined is used as the this
             value.
       return:
-        type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />[]
+        type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />[]
         description: ''
   - name: >-
       filter<S>((value: ConsumerGroup, index: number, array: ConsumerGroup[]) =>
@@ -312,7 +314,9 @@ methods:
           type: any
           description: ''
       return:
-        type: <xref uid="@azure/arm-eventhub.ConsumerGroup" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" /> |
+          undefined
         description: ''
   - name: >-
       find<S>((this: void, value: ConsumerGroup, index: number, obj:
@@ -691,7 +695,7 @@ methods:
         number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />
+          type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />
           description: The element to search for.
         - id: fromIndex
           type: undefined | number
@@ -714,7 +718,7 @@ methods:
         number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />
+          type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />
           description: The value to locate in the array.
         - id: fromIndex
           type: undefined | number
@@ -770,7 +774,7 @@ methods:
         | number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />
+          type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />
           description: The value to locate in the array.
         - id: fromIndex
           type: undefined | number
@@ -822,7 +826,9 @@ methods:
     syntax:
       content: function pop()
       return:
-        type: <xref uid="@azure/arm-eventhub.ConsumerGroup" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" /> |
+          undefined
         description: ''
   - name: push(ConsumerGroup[])
     uid: '@azure/arm-eventhub.ConsumerGroupListResult.push|latest-stable'
@@ -835,7 +841,7 @@ methods:
       content: 'function push(items: ConsumerGroup[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />[]
+          type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />[]
           description: |
             New elements of the Array.
       return:
@@ -868,7 +874,7 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />
+        type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />
         description: ''
   - name: >-
       reduce((previousValue: ConsumerGroup, currentValue: ConsumerGroup,
@@ -892,10 +898,10 @@ methods:
             currentIndex: number, array: ConsumerGroup[]) =&gt; ConsumerGroup
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />
+          type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />
+        type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />
         description: ''
   - name: >-
       reduce<U>((previousValue: U, currentValue: ConsumerGroup, currentIndex:
@@ -960,7 +966,7 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />
+        type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />
         description: ''
   - name: >-
       reduceRight((previousValue: ConsumerGroup, currentValue: ConsumerGroup,
@@ -984,10 +990,10 @@ methods:
             currentIndex: number, array: ConsumerGroup[]) =&gt; ConsumerGroup
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />
+          type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />
+        type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />
         description: ''
   - name: >-
       reduceRight<U>((previousValue: U, currentValue: ConsumerGroup,
@@ -1035,7 +1041,7 @@ methods:
     syntax:
       content: function reverse()
       return:
-        type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />[]
+        type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />[]
         description: ''
   - name: shift()
     uid: '@azure/arm-eventhub.ConsumerGroupListResult.shift|latest-stable'
@@ -1047,7 +1053,9 @@ methods:
     syntax:
       content: function shift()
       return:
-        type: <xref uid="@azure/arm-eventhub.ConsumerGroup" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" /> |
+          undefined
         description: ''
   - name: slice(undefined | number, undefined | number)
     uid: '@azure/arm-eventhub.ConsumerGroupListResult.slice|latest-stable'
@@ -1067,7 +1075,7 @@ methods:
           description: |
             The end of the specified portion of the array.
       return:
-        type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />[]
+        type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />[]
         description: ''
   - name: >-
       some((value: ConsumerGroup, index: number, array: ConsumerGroup[]) =>
@@ -1146,11 +1154,11 @@ methods:
           type: number
           description: The number of elements to remove.
         - id: items
-          type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />[]
+          type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />[]
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
-        type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />[]
+        type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />[]
         description: ''
   - name: splice(number, undefined | number)
     uid: '@azure/arm-eventhub.ConsumerGroupListResult.splice|latest-stable'
@@ -1174,7 +1182,7 @@ methods:
           description: |
             The number of elements to remove.
       return:
-        type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />[]
+        type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />[]
         description: ''
   - name: toLocaleString()
     uid: '@azure/arm-eventhub.ConsumerGroupListResult.toLocaleString|latest-stable'
@@ -1213,7 +1221,7 @@ methods:
       content: 'function unshift(items: ConsumerGroup[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />[]
+          type: <xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />[]
           description: |
             Elements to insert at the start of the Array.
       return:
@@ -1230,7 +1238,7 @@ methods:
       content: function values()
       return:
         type: >-
-          IterableIterator&lt;<xref uid="@azure/arm-eventhub.ConsumerGroup"
-          />&gt;
+          IterableIterator&lt;<xref
+          uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />&gt;
         description: ''
-extends: Array&lt;<xref uid="@azure/arm-eventhub.ConsumerGroup" />&gt;
+extends: Array&lt;<xref uid="@azure/arm-eventhub.ConsumerGroup|latest-stable" />&gt;

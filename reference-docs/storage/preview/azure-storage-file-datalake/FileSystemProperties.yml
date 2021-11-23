@@ -86,7 +86,7 @@ properties:
     syntax:
       content: 'leaseDuration?: LeaseDurationType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.LeaseDurationType" />
+        type: <xref uid="@azure/storage-file-datalake.LeaseDurationType|preview" />
         description: ''
   - name: leaseState
     uid: '@azure/storage-file-datalake.FileSystemProperties.leaseState|preview'
@@ -99,7 +99,7 @@ properties:
     syntax:
       content: 'leaseState?: LeaseStateType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.LeaseStateType" />
+        type: <xref uid="@azure/storage-file-datalake.LeaseStateType|preview" />
         description: ''
   - name: leaseStatus
     uid: '@azure/storage-file-datalake.FileSystemProperties.leaseStatus|preview'
@@ -112,7 +112,7 @@ properties:
     syntax:
       content: 'leaseStatus?: LeaseStatusType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.LeaseStatusType" />
+        type: <xref uid="@azure/storage-file-datalake.LeaseStatusType|preview" />
         description: ''
   - name: publicAccess
     uid: '@azure/storage-file-datalake.FileSystemProperties.publicAccess|preview'
@@ -125,7 +125,7 @@ properties:
     syntax:
       content: 'publicAccess?: PublicAccessType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.PublicAccessType" />
+        type: <xref uid="@azure/storage-file-datalake.PublicAccessType|preview" />
         description: ''
   - name: remainingRetentionDays
     uid: >-

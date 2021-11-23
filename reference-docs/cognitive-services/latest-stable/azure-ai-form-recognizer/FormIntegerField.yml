@@ -37,7 +37,7 @@ properties:
     syntax:
       content: 'labelData?: FieldData'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FieldData" />
+        type: <xref uid="@azure/ai-form-recognizer.FieldData|latest-stable" />
         description: ''
   - name: name
     uid: '@azure/ai-form-recognizer.FormIntegerField.name|latest-stable'
@@ -78,7 +78,7 @@ properties:
     syntax:
       content: 'valueData?: FieldData'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FieldData" />
+        type: <xref uid="@azure/ai-form-recognizer.FieldData|latest-stable" />
         description: ''
   - name: valueType
     uid: '@azure/ai-form-recognizer.FormIntegerField.valueType|latest-stable'
@@ -93,4 +93,4 @@ properties:
       return:
         type: '"integer"'
         description: ''
-extends: <xref uid="@azure/ai-form-recognizer.FormFieldCommon" />
+extends: <xref uid="@azure/ai-form-recognizer.FormFieldCommon|latest-stable" />

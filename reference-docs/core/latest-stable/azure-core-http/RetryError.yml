@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'innerError?: RetryError'
       return:
-        type: <xref uid="@azure/core-http.RetryError" />
+        type: <xref uid="@azure/core-http.RetryError|latest-stable" />
         description: ''
   - name: message
     uid: '@azure/core-http.RetryError.message|latest-stable'

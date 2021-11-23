@@ -38,15 +38,16 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.DomainTopicsCreateOrUpdateOptionalParams"
+            uid="@azure/arm-eventgrid.DomainTopicsCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-eventgrid.DomainTopicsCreateOrUpdateResponse" />&gt;,
-          <xref uid="@azure/arm-eventgrid.DomainTopicsCreateOrUpdateResponse"
+          uid="@azure/arm-eventgrid.DomainTopicsCreateOrUpdateResponse|preview"
+          />&gt;, <xref
+          uid="@azure/arm-eventgrid.DomainTopicsCreateOrUpdateResponse|preview"
           />&gt;&gt;
         description: ''
   - name: >-
@@ -78,14 +79,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.DomainTopicsCreateOrUpdateOptionalParams"
+            uid="@azure/arm-eventgrid.DomainTopicsCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventgrid.DomainTopicsCreateOrUpdateResponse" />&gt;
+          uid="@azure/arm-eventgrid.DomainTopicsCreateOrUpdateResponse|preview"
+          />&gt;
         description: ''
   - name: beginDelete(string, string, string, DomainTopicsDeleteOptionalParams)
     uid: '@azure/arm-eventgrid.DomainTopics.beginDelete|preview'
@@ -109,7 +111,10 @@ methods:
           type: string
           description: Name of the domain topic.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.DomainTopicsDeleteOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.DomainTopicsDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -140,7 +145,10 @@ methods:
           type: string
           description: Name of the domain topic.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.DomainTopicsDeleteOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.DomainTopicsDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -168,13 +176,15 @@ methods:
           type: string
           description: Name of the topic.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.DomainTopicsGetOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.DomainTopicsGetOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-eventgrid.DomainTopicsGetResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-eventgrid.DomainTopicsGetResponse|preview" />&gt;
         description: ''
   - name: listByDomain(string, string, DomainTopicsListByDomainOptionalParams)
     uid: '@azure/arm-eventgrid.DomainTopics.listByDomain|preview'
@@ -197,11 +207,12 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.DomainTopicsListByDomainOptionalParams" />
+            uid="@azure/arm-eventgrid.DomainTopicsListByDomainOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventgrid.DomainTopic" />&gt;
+          uid="@azure/arm-eventgrid.DomainTopic|preview" />&gt;
         description: ''

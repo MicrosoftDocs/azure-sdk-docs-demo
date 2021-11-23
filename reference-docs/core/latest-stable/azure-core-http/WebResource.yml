@@ -42,7 +42,7 @@ constructors:
           type: string
           description: ''
         - id: method
-          type: <xref uid="@azure/core-http.HttpMethods" />
+          type: <xref uid="@azure/core-http.HttpMethods|latest-stable" />
           description: ''
         - id: body
           type: unknown
@@ -52,8 +52,8 @@ constructors:
           description: ''
         - id: headers
           type: >-
-            [key: string]\: any | <xref uid="@azure/core-http.HttpHeadersLike"
-            />
+            [key: string]\: any | <xref
+            uid="@azure/core-http.HttpHeadersLike|latest-stable" />
           description: ''
         - id: streamResponseBody
           type: boolean
@@ -74,7 +74,7 @@ constructors:
           type: '(progress: TransferProgressEvent) =&gt; void'
           description: ''
         - id: proxySettings
-          type: <xref uid="@azure/core-http.ProxySettings" />
+          type: <xref uid="@azure/core-http.ProxySettings|latest-stable" />
           description: ''
         - id: keepAlive
           type: boolean
@@ -151,7 +151,7 @@ properties:
     syntax:
       content: 'headers: HttpHeadersLike'
       return:
-        type: <xref uid="@azure/core-http.HttpHeadersLike" />
+        type: <xref uid="@azure/core-http.HttpHeadersLike|latest-stable" />
         description: ''
   - name: keepAlive
     uid: '@azure/core-http.WebResource.keepAlive|latest-stable'
@@ -177,7 +177,7 @@ properties:
     syntax:
       content: 'method: HttpMethods'
       return:
-        type: <xref uid="@azure/core-http.HttpMethods" />
+        type: <xref uid="@azure/core-http.HttpMethods|latest-stable" />
         description: ''
   - name: onDownloadProgress
     uid: '@azure/core-http.WebResource.onDownloadProgress|latest-stable'
@@ -240,7 +240,7 @@ properties:
     syntax:
       content: 'operationSpec?: OperationSpec'
       return:
-        type: <xref uid="@azure/core-http.OperationSpec" />
+        type: <xref uid="@azure/core-http.OperationSpec|latest-stable" />
         description: ''
   - name: proxySettings
     uid: '@azure/core-http.WebResource.proxySettings|latest-stable'
@@ -253,7 +253,7 @@ properties:
     syntax:
       content: 'proxySettings?: ProxySettings'
       return:
-        type: <xref uid="@azure/core-http.ProxySettings" />
+        type: <xref uid="@azure/core-http.ProxySettings|latest-stable" />
         description: ''
   - name: query
     uid: '@azure/core-http.WebResource.query|latest-stable'
@@ -409,7 +409,7 @@ methods:
     syntax:
       content: function clone()
       return:
-        type: <xref uid="@azure/core-http.WebResource" />
+        type: <xref uid="@azure/core-http.WebResource|latest-stable" />
         description: The clone of this WebResource HTTP request object.
   - name: prepare(RequestPrepareOptions)
     uid: '@azure/core-http.WebResource.prepare|latest-stable'
@@ -422,10 +422,10 @@ methods:
       content: 'function prepare(options: RequestPrepareOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/core-http.RequestPrepareOptions" />
+          type: <xref uid="@azure/core-http.RequestPrepareOptions|latest-stable" />
           description: Options to provide for preparing the request.
       return:
-        type: <xref uid="@azure/core-http.WebResource" />
+        type: <xref uid="@azure/core-http.WebResource|latest-stable" />
         description: >-
           Returns the prepared WebResource (HTTP Request) object that needs to
           be given to the request pipeline.

@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'accessPolicies?: AccessPolicyEntry[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.AccessPolicyEntry" />[]
+        type: <xref uid="@azure/arm-keyvault.AccessPolicyEntry|preview" />[]
         description: ''
   - name: createMode
     uid: '@azure/arm-keyvault.VaultProperties.createMode|preview'
@@ -39,7 +39,7 @@ properties:
     syntax:
       content: 'createMode?: CreateMode'
       return:
-        type: <xref uid="@azure/arm-keyvault.CreateMode" />
+        type: <xref uid="@azure/arm-keyvault.CreateMode|preview" />
         description: ''
   - name: enabledForDeployment
     uid: '@azure/arm-keyvault.VaultProperties.enabledForDeployment|preview'
@@ -173,7 +173,7 @@ properties:
     syntax:
       content: 'networkAcls?: NetworkRuleSet'
       return:
-        type: <xref uid="@azure/arm-keyvault.NetworkRuleSet" />
+        type: <xref uid="@azure/arm-keyvault.NetworkRuleSet|preview" />
         description: ''
   - name: privateEndpointConnections
     uid: '@azure/arm-keyvault.VaultProperties.privateEndpointConnections|preview'
@@ -190,7 +190,9 @@ properties:
     syntax:
       content: 'privateEndpointConnections?: PrivateEndpointConnectionItem[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.PrivateEndpointConnectionItem" />[]
+        type: >-
+          <xref uid="@azure/arm-keyvault.PrivateEndpointConnectionItem|preview"
+          />[]
         description: ''
   - name: provisioningState
     uid: '@azure/arm-keyvault.VaultProperties.provisioningState|preview'
@@ -203,7 +205,7 @@ properties:
     syntax:
       content: 'provisioningState?: VaultProvisioningState'
       return:
-        type: <xref uid="@azure/arm-keyvault.VaultProvisioningState" />
+        type: <xref uid="@azure/arm-keyvault.VaultProvisioningState|preview" />
         description: ''
   - name: publicNetworkAccess
     uid: '@azure/arm-keyvault.VaultProperties.publicNetworkAccess|preview'
@@ -234,7 +236,7 @@ properties:
     syntax:
       content: 'sku: Sku'
       return:
-        type: <xref uid="@azure/arm-keyvault.Sku" />
+        type: <xref uid="@azure/arm-keyvault.Sku|preview" />
         description: ''
   - name: softDeleteRetentionInDays
     uid: '@azure/arm-keyvault.VaultProperties.softDeleteRetentionInDays|preview'

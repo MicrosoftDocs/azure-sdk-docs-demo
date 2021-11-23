@@ -35,7 +35,7 @@ properties:
     syntax:
       content: 'fileSystemItems: FileSystemItem[]'
       return:
-        type: <xref uid="@azure/storage-file-datalake.FileSystemItem" />[]
+        type: <xref uid="@azure/storage-file-datalake.FileSystemItem|preview" />[]
         description: ''
   - name: marker
     uid: '@azure/storage-file-datalake.ListFileSystemsSegmentResponse.marker|preview'

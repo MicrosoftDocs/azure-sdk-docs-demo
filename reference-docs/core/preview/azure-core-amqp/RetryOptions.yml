@@ -58,7 +58,7 @@ properties:
     syntax:
       content: 'mode?: RetryMode'
       return:
-        type: <xref uid="@azure/core-amqp.RetryMode" />
+        type: <xref uid="@azure/core-amqp.RetryMode|preview" />
         description: ''
   - name: retryDelayInMs
     uid: '@azure/core-amqp.RetryOptions.retryDelayInMs|preview'

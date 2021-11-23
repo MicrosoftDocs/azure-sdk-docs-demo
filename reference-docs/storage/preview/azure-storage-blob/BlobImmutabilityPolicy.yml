@@ -35,5 +35,5 @@ properties:
     syntax:
       content: 'policyMode?: BlobImmutabilityPolicyMode'
       return:
-        type: <xref uid="@azure/storage-blob.BlobImmutabilityPolicyMode" />
+        type: <xref uid="@azure/storage-blob.BlobImmutabilityPolicyMode|preview" />
         description: ''

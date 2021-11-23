@@ -49,7 +49,9 @@ constructors:
           type: KeyCredential | TokenCredential
           description: Used to authenticate requests to the service.
         - id: options
-          type: <xref uid="@azure/search-documents.SearchIndexerClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/search-documents.SearchIndexerClientOptions|preview" />
           description: |
             Used to configure the Search client.
 properties:
@@ -99,18 +101,21 @@ methods:
         - id: dataSourceConnection
           type: >-
             <xref
-            uid="@azure/search-documents.SearchIndexerDataSourceConnection" />
+            uid="@azure/search-documents.SearchIndexerDataSourceConnection|preview"
+            />
           description: The dataSource definition to create in a search service.
         - id: options
           type: >-
             <xref
-            uid="@azure/search-documents.CreateDataSourceConnectionOptions" />
+            uid="@azure/search-documents.CreateDataSourceConnectionOptions|preview"
+            />
           description: |
             Additional optional arguments.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/search-documents.SearchIndexerDataSourceConnection" />&gt;
+          uid="@azure/search-documents.SearchIndexerDataSourceConnection|preview"
+          />&gt;
         description: ''
   - name: createIndexer(SearchIndexer, CreateIndexerOptions)
     uid: '@azure/search-documents.SearchIndexerClient.createIndexer|preview'
@@ -125,14 +130,16 @@ methods:
         CreateIndexerOptions)
       parameters:
         - id: indexer
-          type: <xref uid="@azure/search-documents.SearchIndexer" />
+          type: <xref uid="@azure/search-documents.SearchIndexer|preview" />
           description: The indexer definition to create in a search service.
         - id: options
-          type: <xref uid="@azure/search-documents.CreateIndexerOptions" />
+          type: <xref uid="@azure/search-documents.CreateIndexerOptions|preview" />
           description: |
             Additional optional arguments.
       return:
-        type: Promise&lt;<xref uid="@azure/search-documents.SearchIndexer" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/search-documents.SearchIndexer|preview"
+          />&gt;
         description: ''
   - name: >-
       createOrUpdateDataSourceConnection(SearchIndexerDataSourceConnection,
@@ -153,19 +160,21 @@ methods:
         - id: dataSourceConnection
           type: >-
             <xref
-            uid="@azure/search-documents.SearchIndexerDataSourceConnection" />
+            uid="@azure/search-documents.SearchIndexerDataSourceConnection|preview"
+            />
           description: The information describing the datasource to be created/updated.
         - id: options
           type: >-
             <xref
-            uid="@azure/search-documents.CreateorUpdateDataSourceConnectionOptions"
+            uid="@azure/search-documents.CreateorUpdateDataSourceConnectionOptions|preview"
             />
           description: |
             Additional optional arguments.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/search-documents.SearchIndexerDataSourceConnection" />&gt;
+          uid="@azure/search-documents.SearchIndexerDataSourceConnection|preview"
+          />&gt;
         description: ''
   - name: createOrUpdateIndexer(SearchIndexer, CreateorUpdateIndexerOptions)
     uid: '@azure/search-documents.SearchIndexerClient.createOrUpdateIndexer|preview'
@@ -180,14 +189,19 @@ methods:
         CreateorUpdateIndexerOptions)
       parameters:
         - id: indexer
-          type: <xref uid="@azure/search-documents.SearchIndexer" />
+          type: <xref uid="@azure/search-documents.SearchIndexer|preview" />
           description: The information describing the indexer to be created/updated.
         - id: options
-          type: <xref uid="@azure/search-documents.CreateorUpdateIndexerOptions" />
+          type: >-
+            <xref
+            uid="@azure/search-documents.CreateorUpdateIndexerOptions|preview"
+            />
           description: |
             Additional optional arguments.
       return:
-        type: Promise&lt;<xref uid="@azure/search-documents.SearchIndexer" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/search-documents.SearchIndexer|preview"
+          />&gt;
         description: ''
   - name: >-
       createOrUpdateSkillset(SearchIndexerSkillset,
@@ -204,16 +218,19 @@ methods:
         options?: CreateOrUpdateSkillsetOptions)
       parameters:
         - id: skillset
-          type: <xref uid="@azure/search-documents.SearchIndexerSkillset" />
+          type: <xref uid="@azure/search-documents.SearchIndexerSkillset|preview" />
           description: The information describing the index to be created.
         - id: options
-          type: <xref uid="@azure/search-documents.CreateOrUpdateSkillsetOptions" />
+          type: >-
+            <xref
+            uid="@azure/search-documents.CreateOrUpdateSkillsetOptions|preview"
+            />
           description: |
             Additional optional arguments.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/search-documents.SearchIndexerSkillset"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/search-documents.SearchIndexerSkillset|preview" />&gt;
         description: ''
   - name: createSkillset(SearchIndexerSkillset, CreateSkillsetOptions)
     uid: '@azure/search-documents.SearchIndexerClient.createSkillset|preview'
@@ -228,18 +245,18 @@ methods:
         CreateSkillsetOptions)
       parameters:
         - id: skillset
-          type: <xref uid="@azure/search-documents.SearchIndexerSkillset" />
+          type: <xref uid="@azure/search-documents.SearchIndexerSkillset|preview" />
           description: >-
             The skillset containing one or more skills to create in a search
             service.
         - id: options
-          type: <xref uid="@azure/search-documents.CreateSkillsetOptions" />
+          type: <xref uid="@azure/search-documents.CreateSkillsetOptions|preview" />
           description: |
             Additional optional arguments.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/search-documents.SearchIndexerSkillset"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/search-documents.SearchIndexerSkillset|preview" />&gt;
         description: ''
   - name: >-
       deleteDataSourceConnection(string | SearchIndexerDataSourceConnection,
@@ -260,12 +277,14 @@ methods:
         - id: dataSourceConnection
           type: >-
             string | <xref
-            uid="@azure/search-documents.SearchIndexerDataSourceConnection" />
+            uid="@azure/search-documents.SearchIndexerDataSourceConnection|preview"
+            />
           description: ''
         - id: options
           type: >-
             <xref
-            uid="@azure/search-documents.DeleteDataSourceConnectionOptions" />
+            uid="@azure/search-documents.DeleteDataSourceConnectionOptions|preview"
+            />
           description: |
             Additional optional arguments.
       return:
@@ -284,10 +303,12 @@ methods:
         DeleteIndexerOptions)
       parameters:
         - id: indexer
-          type: string | <xref uid="@azure/search-documents.SearchIndexer" />
+          type: >-
+            string | <xref uid="@azure/search-documents.SearchIndexer|preview"
+            />
           description: Indexer/Name of the indexer to delete.
         - id: options
-          type: <xref uid="@azure/search-documents.DeleteIndexerOptions" />
+          type: <xref uid="@azure/search-documents.DeleteIndexerOptions|preview" />
           description: |
             Additional optional arguments.
       return:
@@ -307,11 +328,11 @@ methods:
       parameters:
         - id: skillset
           type: >-
-            string | <xref uid="@azure/search-documents.SearchIndexerSkillset"
-            />
+            string | <xref
+            uid="@azure/search-documents.SearchIndexerSkillset|preview" />
           description: Skillset/Name of the Skillset to delete.
         - id: options
-          type: <xref uid="@azure/search-documents.DeleteSkillsetOptions" />
+          type: <xref uid="@azure/search-documents.DeleteSkillsetOptions|preview" />
           description: |
             Additional optional arguments.
       return:
@@ -335,14 +356,16 @@ methods:
           description: ''
         - id: options
           type: >-
-            <xref uid="@azure/search-documents.GetDataSourceConnectionOptions"
+            <xref
+            uid="@azure/search-documents.GetDataSourceConnectionOptions|preview"
             />
           description: |
             Additional optional arguments
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/search-documents.SearchIndexerDataSourceConnection" />&gt;
+          uid="@azure/search-documents.SearchIndexerDataSourceConnection|preview"
+          />&gt;
         description: ''
   - name: getIndexer(string, GetIndexerOptions)
     uid: '@azure/search-documents.SearchIndexerClient.getIndexer|preview'
@@ -358,11 +381,13 @@ methods:
           type: string
           description: The name of the Indexer.
         - id: options
-          type: <xref uid="@azure/search-documents.GetIndexerOptions" />
+          type: <xref uid="@azure/search-documents.GetIndexerOptions|preview" />
           description: |
             Additional optional arguments.
       return:
-        type: Promise&lt;<xref uid="@azure/search-documents.SearchIndexer" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/search-documents.SearchIndexer|preview"
+          />&gt;
         description: ''
   - name: getIndexerStatus(string, GetIndexerStatusOptions)
     uid: '@azure/search-documents.SearchIndexerClient.getIndexerStatus|preview'
@@ -380,13 +405,15 @@ methods:
           type: string
           description: The name of the indexer.
         - id: options
-          type: <xref uid="@azure/search-documents.GetIndexerStatusOptions" />
+          type: >-
+            <xref uid="@azure/search-documents.GetIndexerStatusOptions|preview"
+            />
           description: |
             Additional optional arguments.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/search-documents.SearchIndexerStatus"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/search-documents.SearchIndexerStatus|preview" />&gt;
         description: ''
   - name: getSkillset(string, GetSkillSetOptions)
     uid: '@azure/search-documents.SearchIndexerClient.getSkillset|preview'
@@ -402,13 +429,13 @@ methods:
           type: string
           description: ''
         - id: options
-          type: <xref uid="@azure/search-documents.GetSkillSetOptions" />
+          type: <xref uid="@azure/search-documents.GetSkillSetOptions|preview" />
           description: |
             Additional optional arguments.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/search-documents.SearchIndexerSkillset"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/search-documents.SearchIndexerSkillset|preview" />&gt;
         description: ''
   - name: listDataSourceConnections(ListDataSourceConnectionsOptions)
     uid: >-
@@ -425,14 +452,15 @@ methods:
       parameters:
         - id: options
           type: >-
-            <xref uid="@azure/search-documents.ListDataSourceConnectionsOptions"
+            <xref
+            uid="@azure/search-documents.ListDataSourceConnectionsOptions|preview"
             />
           description: |
             Options to the list indexers operation.
       return:
         type: >-
           Promise&lt;Array&lt;<xref
-          uid="@azure/search-documents.SearchIndexerDataSourceConnection"
+          uid="@azure/search-documents.SearchIndexerDataSourceConnection|preview"
           />&gt;&gt;
         description: ''
   - name: listDataSourceConnectionsNames(ListDataSourceConnectionsOptions)
@@ -450,7 +478,8 @@ methods:
       parameters:
         - id: options
           type: >-
-            <xref uid="@azure/search-documents.ListDataSourceConnectionsOptions"
+            <xref
+            uid="@azure/search-documents.ListDataSourceConnectionsOptions|preview"
             />
           description: |
             Options to the list indexers operation.
@@ -468,13 +497,13 @@ methods:
       content: 'function listIndexers(options?: ListIndexersOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/search-documents.ListIndexersOptions" />
+          type: <xref uid="@azure/search-documents.ListIndexersOptions|preview" />
           description: |
             Options to the list indexers operation.
       return:
         type: >-
-          Promise&lt;Array&lt;<xref uid="@azure/search-documents.SearchIndexer"
-          />&gt;&gt;
+          Promise&lt;Array&lt;<xref
+          uid="@azure/search-documents.SearchIndexer|preview" />&gt;&gt;
         description: ''
   - name: listIndexersNames(ListIndexersOptions)
     uid: '@azure/search-documents.SearchIndexerClient.listIndexersNames|preview'
@@ -487,7 +516,7 @@ methods:
       content: 'function listIndexersNames(options?: ListIndexersOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/search-documents.ListIndexersOptions" />
+          type: <xref uid="@azure/search-documents.ListIndexersOptions|preview" />
           description: |
             Options to the list indexers operation.
       return:
@@ -504,13 +533,13 @@ methods:
       content: 'function listSkillsets(options?: ListSkillsetsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/search-documents.ListSkillsetsOptions" />
+          type: <xref uid="@azure/search-documents.ListSkillsetsOptions|preview" />
           description: |
             Options to the list Skillsets operation.
       return:
         type: >-
           Promise&lt;Array&lt;<xref
-          uid="@azure/search-documents.SearchIndexerSkillset" />&gt;&gt;
+          uid="@azure/search-documents.SearchIndexerSkillset|preview" />&gt;&gt;
         description: ''
   - name: listSkillsetsNames(ListSkillsetsOptions)
     uid: '@azure/search-documents.SearchIndexerClient.listSkillsetsNames|preview'
@@ -523,7 +552,7 @@ methods:
       content: 'function listSkillsetsNames(options?: ListSkillsetsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/search-documents.ListSkillsetsOptions" />
+          type: <xref uid="@azure/search-documents.ListSkillsetsOptions|preview" />
           description: |
             Options to the list Skillsets operation.
       return:
@@ -547,7 +576,7 @@ methods:
           type: string
           description: The name of the indexer to reset documents for.
         - id: options
-          type: <xref uid="@azure/search-documents.ResetDocumentsOptions" />
+          type: <xref uid="@azure/search-documents.ResetDocumentsOptions|preview" />
           description: |
             Additional optional arguments.
       return:
@@ -569,7 +598,7 @@ methods:
           type: string
           description: The name of the indexer to reset.
         - id: options
-          type: <xref uid="@azure/search-documents.ResetIndexerOptions" />
+          type: <xref uid="@azure/search-documents.ResetIndexerOptions|preview" />
           description: |
             Additional optional arguments.
       return:
@@ -589,7 +618,7 @@ methods:
           type: string
           description: The name of the skillset to reset.
         - id: options
-          type: <xref uid="@azure/search-documents.ResetSkillsOptions" />
+          type: <xref uid="@azure/search-documents.ResetSkillsOptions|preview" />
           description: |
             The options parameters.
       return:
@@ -609,7 +638,7 @@ methods:
           type: string
           description: The name of the indexer to run.
         - id: options
-          type: <xref uid="@azure/search-documents.RunIndexerOptions" />
+          type: <xref uid="@azure/search-documents.RunIndexerOptions|preview" />
           description: |
             Additional optional arguments.
       return:

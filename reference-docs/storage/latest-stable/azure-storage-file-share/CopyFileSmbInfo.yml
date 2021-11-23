@@ -72,7 +72,10 @@ properties:
     syntax:
       content: 'filePermissionCopyMode?: PermissionCopyModeType'
       return:
-        type: <xref uid="@azure/storage-file-share.PermissionCopyModeType" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-share.PermissionCopyModeType|latest-stable"
+          />
         description: ''
   - name: ignoreReadOnly
     uid: '@azure/storage-file-share.CopyFileSmbInfo.ignoreReadOnly|latest-stable'

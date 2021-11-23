@@ -35,7 +35,9 @@ properties:
     syntax:
       content: 'actor: ContainerRegistryEventActor'
       return:
-        type: <xref uid="@azure/eventgrid.ContainerRegistryEventActor" />
+        type: >-
+          <xref uid="@azure/eventgrid.ContainerRegistryEventActor|latest-stable"
+          />
         description: ''
   - name: id
     uid: '@azure/eventgrid.ContainerRegistryEventData.id|latest-stable'
@@ -61,7 +63,9 @@ properties:
     syntax:
       content: 'request: ContainerRegistryEventRequest'
       return:
-        type: <xref uid="@azure/eventgrid.ContainerRegistryEventRequest" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ContainerRegistryEventRequest|latest-stable" />
         description: ''
   - name: source
     uid: '@azure/eventgrid.ContainerRegistryEventData.source|latest-stable'
@@ -76,7 +80,9 @@ properties:
     syntax:
       content: 'source: ContainerRegistryEventSource'
       return:
-        type: <xref uid="@azure/eventgrid.ContainerRegistryEventSource" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ContainerRegistryEventSource|latest-stable" />
         description: ''
   - name: target
     uid: '@azure/eventgrid.ContainerRegistryEventData.target|latest-stable'
@@ -89,7 +95,9 @@ properties:
     syntax:
       content: 'target: ContainerRegistryEventTarget'
       return:
-        type: <xref uid="@azure/eventgrid.ContainerRegistryEventTarget" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ContainerRegistryEventTarget|latest-stable" />
         description: ''
   - name: timestamp
     uid: '@azure/eventgrid.ContainerRegistryEventData.timestamp|latest-stable'

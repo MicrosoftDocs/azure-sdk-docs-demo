@@ -61,6 +61,6 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/arm-cognitiveservices.PrivateEndpointServiceConnectionStatus"
+          uid="@azure/arm-cognitiveservices.PrivateEndpointServiceConnectionStatus|latest-stable"
           />
         description: ''

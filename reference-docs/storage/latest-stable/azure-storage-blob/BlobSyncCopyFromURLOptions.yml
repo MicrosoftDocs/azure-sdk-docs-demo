@@ -42,7 +42,7 @@ properties:
     syntax:
       content: 'conditions?: BlobRequestConditions'
       return:
-        type: <xref uid="@azure/storage-blob.BlobRequestConditions" />
+        type: <xref uid="@azure/storage-blob.BlobRequestConditions|latest-stable" />
         description: ''
   - name: immutabilityPolicy
     uid: >-
@@ -62,7 +62,9 @@ properties:
     syntax:
       content: 'immutabilityPolicy?: BlobImmutabilityPolicy'
       return:
-        type: <xref uid="@azure/storage-blob.BlobImmutabilityPolicy" />
+        type: >-
+          <xref uid="@azure/storage-blob.BlobImmutabilityPolicy|latest-stable"
+          />
         description: ''
   - name: legalHold
     uid: '@azure/storage-blob.BlobSyncCopyFromURLOptions.legalHold|latest-stable'
@@ -94,7 +96,7 @@ properties:
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-blob.Metadata" />
+        type: <xref uid="@azure/storage-blob.Metadata|latest-stable" />
         description: ''
   - name: sourceAuthorization
     uid: >-
@@ -110,7 +112,7 @@ properties:
     syntax:
       content: 'sourceAuthorization?: HttpAuthorization'
       return:
-        type: <xref uid="@azure/storage-blob.HttpAuthorization" />
+        type: <xref uid="@azure/storage-blob.HttpAuthorization|latest-stable" />
         description: ''
   - name: sourceConditions
     uid: >-
@@ -127,8 +129,9 @@ properties:
       content: 'sourceConditions?: MatchConditions & ModificationConditions'
       return:
         type: >-
-          <xref uid="@azure/storage-blob.MatchConditions" /> & <xref
-          uid="@azure/storage-blob.ModificationConditions" />
+          <xref uid="@azure/storage-blob.MatchConditions|latest-stable" /> &
+          <xref uid="@azure/storage-blob.ModificationConditions|latest-stable"
+          />
         description: ''
   - name: sourceContentMD5
     uid: >-
@@ -157,7 +160,7 @@ properties:
     syntax:
       content: 'tags?: Tags'
       return:
-        type: <xref uid="@azure/storage-blob.Tags" />
+        type: <xref uid="@azure/storage-blob.Tags|latest-stable" />
         description: ''
   - name: tracingOptions
     uid: >-
@@ -173,4 +176,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|latest-stable" />

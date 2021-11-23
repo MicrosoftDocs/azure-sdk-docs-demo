@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'value?: Key[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.Key" />[]
+        type: <xref uid="@azure/arm-keyvault.Key|preview" />[]
         description: ''

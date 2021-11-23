@@ -20,5 +20,7 @@ properties:
     syntax:
       content: 'tokens: AnalyzedTokenInfo[]'
       return:
-        type: <xref uid="@azure/search-documents.AnalyzedTokenInfo" />[]
+        type: >-
+          <xref uid="@azure/search-documents.AnalyzedTokenInfo|latest-stable"
+          />[]
         description: ''

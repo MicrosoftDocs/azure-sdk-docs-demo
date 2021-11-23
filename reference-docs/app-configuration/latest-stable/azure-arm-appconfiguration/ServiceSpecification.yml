@@ -21,7 +21,9 @@ properties:
     syntax:
       content: 'logSpecifications?: LogSpecification[]'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.LogSpecification" />[]
+        type: >-
+          <xref uid="@azure/arm-appconfiguration.LogSpecification|latest-stable"
+          />[]
         description: ''
   - name: metricSpecifications
     uid: >-
@@ -35,5 +37,8 @@ properties:
     syntax:
       content: 'metricSpecifications?: MetricSpecification[]'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.MetricSpecification" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-appconfiguration.MetricSpecification|latest-stable"
+          />[]
         description: ''

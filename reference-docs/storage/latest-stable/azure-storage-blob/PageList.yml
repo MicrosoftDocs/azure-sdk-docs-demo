@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'clearRange?: Range[]'
       return:
-        type: <xref uid="@azure/storage-blob.Range" />[]
+        type: <xref uid="@azure/storage-blob.Range|latest-stable" />[]
         description: ''
   - name: pageRange
     uid: '@azure/storage-blob.PageList.pageRange|latest-stable'
@@ -35,5 +35,5 @@ properties:
     syntax:
       content: 'pageRange?: Range[]'
       return:
-        type: <xref uid="@azure/storage-blob.Range" />[]
+        type: <xref uid="@azure/storage-blob.Range|latest-stable" />[]
         description: ''

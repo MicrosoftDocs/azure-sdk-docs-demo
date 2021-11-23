@@ -21,7 +21,8 @@ constructors:
       parameters:
         - id: client
           type: >-
-            <xref uid="@azure/arm-servicebus.ServiceBusManagementClientContext"
+            <xref
+            uid="@azure/arm-servicebus.ServiceBusManagementClientContext|latest-stable"
             />
           description: |
             Reference to the service client.
@@ -49,13 +50,15 @@ methods:
           type: string
           description: The topic name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBTopic" />
+          type: <xref uid="@azure/arm-servicebus.SBTopic|latest-stable" />
           description: Parameters supplied to create a topic resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TopicsCreateOrUpdateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.TopicsCreateOrUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.TopicsCreateOrUpdateResponse>
   - name: >-
       createOrUpdate(string, string, string, SBTopic, RequestOptionsBase,
@@ -82,13 +85,15 @@ methods:
           type: string
           description: The topic name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBTopic" />
+          type: <xref uid="@azure/arm-servicebus.SBTopic|latest-stable" />
           description: Parameters supplied to create a topic resource.
         - id: options
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-servicebus.SBTopic" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-servicebus.SBTopic|latest-stable" />&gt;
           description: |
             The callback
   - name: createOrUpdate(string, string, string, SBTopic, ServiceCallback<SBTopic>)
@@ -114,10 +119,12 @@ methods:
           type: string
           description: The topic name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBTopic" />
+          type: <xref uid="@azure/arm-servicebus.SBTopic|latest-stable" />
           description: Parameters supplied to create a topic resource.
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-servicebus.SBTopic" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-servicebus.SBTopic|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -148,15 +155,18 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBAuthorizationRule" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.SBAuthorizationRule|latest-stable"
+            />
           description: The shared access authorization rule.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.TopicsCreateOrUpdateAuthorizationRuleResponse" />&gt;
+          uid="Models.TopicsCreateOrUpdateAuthorizationRuleResponse|latest-stable"
+          />&gt;
         description: Promise<Models.TopicsCreateOrUpdateAuthorizationRuleResponse>
   - name: >-
       createOrUpdateAuthorizationRule(string, string, string, string,
@@ -189,7 +199,9 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBAuthorizationRule" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.SBAuthorizationRule|latest-stable"
+            />
           description: The shared access authorization rule.
         - id: options
           type: RequestOptionsBase
@@ -197,7 +209,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRule" />&gt;
+            uid="@azure/arm-servicebus.SBAuthorizationRule|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -230,12 +242,14 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBAuthorizationRule" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.SBAuthorizationRule|latest-stable"
+            />
           description: The shared access authorization rule.
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRule" />&gt;
+            uid="@azure/arm-servicebus.SBAuthorizationRule|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -266,7 +280,7 @@ methods:
           type: string
           description: The authorization rule name.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -358,7 +372,7 @@ methods:
           type: string
           description: The topic name.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -441,10 +455,10 @@ methods:
           type: string
           description: The topic name.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TopicsGetResponse" />&gt;
+        type: Promise&lt;<xref uid="Models.TopicsGetResponse|latest-stable" />&gt;
         description: Promise<Models.TopicsGetResponse>
   - name: get(string, string, string, RequestOptionsBase, ServiceCallback<SBTopic>)
     uid: '@azure/arm-servicebus.Topics.get_2|latest-stable'
@@ -472,7 +486,9 @@ methods:
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-servicebus.SBTopic" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-servicebus.SBTopic|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, string, ServiceCallback<SBTopic>)
@@ -497,7 +513,9 @@ methods:
           type: string
           description: The topic name.
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-servicebus.SBTopic" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-servicebus.SBTopic|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -528,12 +546,12 @@ methods:
           type: string
           description: The authorization rule name.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.TopicsGetAuthorizationRuleResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.TopicsGetAuthorizationRuleResponse|latest-stable" />&gt;
         description: Promise<Models.TopicsGetAuthorizationRuleResponse>
   - name: >-
       getAuthorizationRule(string, string, string, string, RequestOptionsBase,
@@ -568,7 +586,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRule" />&gt;
+            uid="@azure/arm-servicebus.SBAuthorizationRule|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -601,7 +619,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRule" />&gt;
+            uid="@azure/arm-servicebus.SBAuthorizationRule|latest-stable" />&gt;
           description: |
             The callback
   - name: listAuthorizationRules(string, string, string, msRest.RequestOptionsBase)
@@ -627,12 +645,12 @@ methods:
           type: string
           description: The topic name.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.TopicsListAuthorizationRulesResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.TopicsListAuthorizationRulesResponse|latest-stable" />&gt;
         description: Promise<Models.TopicsListAuthorizationRulesResponse>
   - name: >-
       listAuthorizationRules(string, string, string, RequestOptionsBase,
@@ -664,7 +682,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult" />&gt;
+            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -694,7 +713,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult" />&gt;
+            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listAuthorizationRulesNext(string, msRest.RequestOptionsBase)
@@ -713,11 +733,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.TopicsListAuthorizationRulesNextResponse"
+          Promise&lt;<xref
+          uid="Models.TopicsListAuthorizationRulesNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.TopicsListAuthorizationRulesNextResponse>
   - name: >-
@@ -744,7 +765,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult" />&gt;
+            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -767,7 +789,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult" />&gt;
+            uid="@azure/arm-servicebus.SBAuthorizationRuleListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -791,10 +814,14 @@ methods:
           type: string
           description: The namespace name
         - id: options
-          type: <xref uid="Models.TopicsListByNamespaceOptionalParams" />
+          type: >-
+            <xref uid="Models.TopicsListByNamespaceOptionalParams|latest-stable"
+            />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TopicsListByNamespaceResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.TopicsListByNamespaceResponse|latest-stable" />&gt;
         description: Promise<Models.TopicsListByNamespaceResponse>
   - name: listByNamespace(string, string, ServiceCallback<SBTopicListResult>)
     uid: '@azure/arm-servicebus.Topics.listByNamespace_1|latest-stable'
@@ -817,7 +844,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBTopicListResult" />&gt;
+            uid="@azure/arm-servicebus.SBTopicListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -844,12 +871,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.TopicsListByNamespaceOptionalParams" />
+            uid="@azure/arm-servicebus.TopicsListByNamespaceOptionalParams|latest-stable"
+            />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBTopicListResult" />&gt;
+            uid="@azure/arm-servicebus.SBTopicListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listByNamespaceNext(string, msRest.RequestOptionsBase)
@@ -868,10 +896,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TopicsListByNamespaceNextResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.TopicsListByNamespaceNextResponse|latest-stable" />&gt;
         description: Promise<Models.TopicsListByNamespaceNextResponse>
   - name: >-
       listByNamespaceNext(string, RequestOptionsBase,
@@ -896,7 +926,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBTopicListResult" />&gt;
+            uid="@azure/arm-servicebus.SBTopicListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listByNamespaceNext(string, ServiceCallback<SBTopicListResult>)
@@ -917,7 +947,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.SBTopicListResult" />&gt;
+            uid="@azure/arm-servicebus.SBTopicListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listKeys(string, string, string, string, msRest.RequestOptionsBase)
@@ -946,10 +976,12 @@ methods:
           type: string
           description: The authorization rule name.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TopicsListKeysResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.TopicsListKeysResponse|latest-stable"
+          />&gt;
         description: Promise<Models.TopicsListKeysResponse>
   - name: >-
       listKeys(string, string, string, string, RequestOptionsBase,
@@ -983,8 +1015,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.AccessKeys"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-servicebus.AccessKeys|latest-stable" />&gt;
           description: |
             The callback
   - name: listKeys(string, string, string, string, ServiceCallback<AccessKeys>)
@@ -1014,8 +1046,8 @@ methods:
           description: The authorization rule name.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.AccessKeys"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-servicebus.AccessKeys|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -1046,13 +1078,18 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.RegenerateAccessKeyParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.RegenerateAccessKeyParameters|latest-stable"
+            />
           description: Parameters supplied to regenerate the authorization rule.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.TopicsRegenerateKeysResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.TopicsRegenerateKeysResponse|latest-stable" />&gt;
         description: Promise<Models.TopicsRegenerateKeysResponse>
   - name: >-
       regenerateKeys(string, string, string, string,
@@ -1084,15 +1121,18 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.RegenerateAccessKeyParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.RegenerateAccessKeyParameters|latest-stable"
+            />
           description: Parameters supplied to regenerate the authorization rule.
         - id: options
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.AccessKeys"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-servicebus.AccessKeys|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -1123,11 +1163,14 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.RegenerateAccessKeyParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.RegenerateAccessKeyParameters|latest-stable"
+            />
           description: Parameters supplied to regenerate the authorization rule.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-servicebus.AccessKeys"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-servicebus.AccessKeys|latest-stable" />&gt;
           description: |
             The callback

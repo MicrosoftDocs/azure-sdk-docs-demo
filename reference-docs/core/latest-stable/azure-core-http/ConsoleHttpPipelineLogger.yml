@@ -20,7 +20,7 @@ constructors:
       content: 'new ConsoleHttpPipelineLogger(minimumLogLevel: HttpPipelineLogLevel)'
       parameters:
         - id: minimumLogLevel
-          type: <xref uid="@azure/core-http.HttpPipelineLogLevel" />
+          type: <xref uid="@azure/core-http.HttpPipelineLogLevel|latest-stable" />
           description: |
             The log level threshold for what logs will be logged.
 properties:
@@ -35,7 +35,7 @@ properties:
     syntax:
       content: 'minimumLogLevel: HttpPipelineLogLevel'
       return:
-        type: <xref uid="@azure/core-http.HttpPipelineLogLevel" />
+        type: <xref uid="@azure/core-http.HttpPipelineLogLevel|latest-stable" />
         description: ''
 methods:
   - name: log(HttpPipelineLogLevel, string)
@@ -49,7 +49,7 @@ methods:
       content: 'function log(logLevel: HttpPipelineLogLevel, message: string)'
       parameters:
         - id: logLevel
-          type: <xref uid="@azure/core-http.HttpPipelineLogLevel" />
+          type: <xref uid="@azure/core-http.HttpPipelineLogLevel|latest-stable" />
           description: The HttpLogDetailLevel associated with this message.
         - id: message
           type: string

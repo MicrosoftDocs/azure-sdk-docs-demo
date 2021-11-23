@@ -97,4 +97,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-blob.ModifiedAccessConditions" />
+extends: <xref uid="@azure/storage-blob.ModifiedAccessConditions|preview" />

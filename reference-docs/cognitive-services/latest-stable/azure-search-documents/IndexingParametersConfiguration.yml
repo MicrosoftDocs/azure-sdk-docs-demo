@@ -47,7 +47,10 @@ properties:
     syntax:
       content: 'dataToExtract?: BlobIndexerDataToExtract'
       return:
-        type: <xref uid="@azure/search-documents.BlobIndexerDataToExtract" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.BlobIndexerDataToExtract|latest-stable"
+          />
         description: ''
   - name: delimitedTextDelimiter
     uid: >-
@@ -126,7 +129,10 @@ properties:
     syntax:
       content: 'executionEnvironment?: IndexerExecutionEnvironment'
       return:
-        type: <xref uid="@azure/search-documents.IndexerExecutionEnvironment" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.IndexerExecutionEnvironment|latest-stable"
+          />
         description: ''
   - name: failOnUnprocessableDocument
     uid: >-
@@ -192,7 +198,9 @@ properties:
     syntax:
       content: 'imageAction?: BlobIndexerImageAction'
       return:
-        type: <xref uid="@azure/search-documents.BlobIndexerImageAction" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.BlobIndexerImageAction|latest-stable" />
         description: ''
   - name: indexedFileNameExtensions
     uid: >-
@@ -242,7 +250,9 @@ properties:
     syntax:
       content: 'parsingMode?: BlobIndexerParsingMode'
       return:
-        type: <xref uid="@azure/search-documents.BlobIndexerParsingMode" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.BlobIndexerParsingMode|latest-stable" />
         description: ''
   - name: pdfTextRotationAlgorithm
     uid: >-
@@ -260,7 +270,8 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/search-documents.BlobIndexerPDFTextRotationAlgorithm" />
+          uid="@azure/search-documents.BlobIndexerPDFTextRotationAlgorithm|latest-stable"
+          />
         description: ''
   - name: queryTimeout
     uid: >-

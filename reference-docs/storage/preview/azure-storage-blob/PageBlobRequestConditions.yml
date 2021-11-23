@@ -145,4 +145,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-blob.BlobRequestConditions" />
+extends: <xref uid="@azure/storage-blob.BlobRequestConditions|preview" />

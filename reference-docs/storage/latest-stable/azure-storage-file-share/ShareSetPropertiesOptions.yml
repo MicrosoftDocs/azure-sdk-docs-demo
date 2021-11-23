@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'accessTier?: ShareAccessTier'
       return:
-        type: <xref uid="@azure/storage-file-share.ShareAccessTier" />
+        type: <xref uid="@azure/storage-file-share.ShareAccessTier|latest-stable" />
         description: ''
   - name: leaseAccessConditions
     uid: >-
@@ -62,7 +62,9 @@ properties:
     syntax:
       content: 'leaseAccessConditions?: LeaseAccessConditions'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-share.LeaseAccessConditions|latest-stable" />
         description: ''
   - name: quotaInGB
     uid: >-
@@ -94,7 +96,7 @@ properties:
     syntax:
       content: 'rootSquash?: ShareRootSquash'
       return:
-        type: <xref uid="@azure/storage-file-share.ShareRootSquash" />
+        type: <xref uid="@azure/storage-file-share.ShareRootSquash|latest-stable" />
         description: ''
   - name: tracingOptions
     uid: >-
@@ -110,4 +112,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-file-share.CommonOptions" />
+extends: <xref uid="@azure/storage-file-share.CommonOptions|latest-stable" />

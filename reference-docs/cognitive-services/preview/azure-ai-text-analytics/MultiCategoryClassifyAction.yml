@@ -84,4 +84,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.CustomTextAnalyticsAction" />
+extends: <xref uid="@azure/ai-text-analytics.CustomTextAnalyticsAction|preview" />

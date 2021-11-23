@@ -35,7 +35,7 @@ properties:
     syntax:
       content: 'dimensions?: DimensionProperties[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.DimensionProperties" />[]
+        type: <xref uid="@azure/arm-keyvault.DimensionProperties|preview" />[]
         description: ''
   - name: displayDescription
     uid: '@azure/arm-keyvault.MetricSpecification.displayDescription|preview'

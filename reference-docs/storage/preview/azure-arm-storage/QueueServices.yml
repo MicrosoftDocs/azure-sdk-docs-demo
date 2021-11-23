@@ -43,14 +43,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.QueueServicesGetServicePropertiesOptionalParams"
+            uid="@azure/arm-storage.QueueServicesGetServicePropertiesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.QueueServicesGetServicePropertiesResponse"
+          uid="@azure/arm-storage.QueueServicesGetServicePropertiesResponse|preview"
           />&gt;
         description: ''
   - name: list(string, string, QueueServicesListOptionalParams)
@@ -79,13 +79,15 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: options
-          type: <xref uid="@azure/arm-storage.QueueServicesListOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.QueueServicesListOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-storage.QueueServicesListResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-storage.QueueServicesListResponse|preview" />&gt;
         description: ''
   - name: >-
       setServiceProperties(string, string, QueueServiceProperties,
@@ -120,7 +122,7 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.QueueServiceProperties" />
+          type: <xref uid="@azure/arm-storage.QueueServiceProperties|preview" />
           description: >-
             The properties of a storage account’s Queue service, only properties
             for Storage
@@ -128,13 +130,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.QueueServicesSetServicePropertiesOptionalParams"
+            uid="@azure/arm-storage.QueueServicesSetServicePropertiesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.QueueServicesSetServicePropertiesResponse"
+          uid="@azure/arm-storage.QueueServicesSetServicePropertiesResponse|preview"
           />&gt;
         description: ''

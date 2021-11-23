@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'expirationAction: ExpirationAction'
       return:
-        type: <xref uid="@azure/arm-storage.ExpirationAction" />
+        type: <xref uid="@azure/arm-storage.ExpirationAction|preview" />
         description: ''
   - name: sasExpirationPeriod
     uid: '@azure/arm-storage.SasPolicy.sasExpirationPeriod|preview'

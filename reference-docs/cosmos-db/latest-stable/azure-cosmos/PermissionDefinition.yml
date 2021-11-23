@@ -35,7 +35,7 @@ properties:
     syntax:
       content: 'permissionMode: PermissionMode'
       return:
-        type: <xref uid="@azure/cosmos.PermissionMode" />
+        type: <xref uid="@azure/cosmos.PermissionMode|latest-stable" />
         description: ''
   - name: resource
     uid: '@azure/cosmos.PermissionDefinition.resource|latest-stable'

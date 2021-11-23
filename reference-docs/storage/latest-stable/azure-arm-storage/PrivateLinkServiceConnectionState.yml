@@ -59,6 +59,7 @@ properties:
       content: 'status?: PrivateEndpointServiceConnectionStatus'
       return:
         type: >-
-          <xref uid="@azure/arm-storage.PrivateEndpointServiceConnectionStatus"
+          <xref
+          uid="@azure/arm-storage.PrivateEndpointServiceConnectionStatus|latest-stable"
           />
         description: ''

@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'blobTags?: BlobTags'
       return:
-        type: <xref uid="@azure/storage-blob.BlobTags" />
+        type: <xref uid="@azure/storage-blob.BlobTags|preview" />
         description: ''
   - name: deleted
     uid: '@azure/storage-blob.BlobItemInternal.deleted|preview'
@@ -113,7 +113,7 @@ properties:
     syntax:
       content: 'properties: BlobProperties'
       return:
-        type: <xref uid="@azure/storage-blob.BlobProperties" />
+        type: <xref uid="@azure/storage-blob.BlobProperties|preview" />
         description: ''
   - name: snapshot
     uid: '@azure/storage-blob.BlobItemInternal.snapshot|preview'

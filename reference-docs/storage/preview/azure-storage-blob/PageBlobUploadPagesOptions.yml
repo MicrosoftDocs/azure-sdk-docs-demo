@@ -40,7 +40,7 @@ properties:
     syntax:
       content: 'conditions?: PageBlobRequestConditions'
       return:
-        type: <xref uid="@azure/storage-blob.PageBlobRequestConditions" />
+        type: <xref uid="@azure/storage-blob.PageBlobRequestConditions|preview" />
         description: ''
   - name: customerProvidedKey
     uid: '@azure/storage-blob.PageBlobUploadPagesOptions.customerProvidedKey|preview'
@@ -53,7 +53,7 @@ properties:
     syntax:
       content: 'customerProvidedKey?: CpkInfo'
       return:
-        type: <xref uid="@azure/storage-blob.CpkInfo" />
+        type: <xref uid="@azure/storage-blob.CpkInfo|preview" />
         description: ''
   - name: encryptionScope
     uid: '@azure/storage-blob.PageBlobUploadPagesOptions.encryptionScope|preview'
@@ -148,4 +148,4 @@ properties:
       return:
         type: Uint8Array
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|preview" />

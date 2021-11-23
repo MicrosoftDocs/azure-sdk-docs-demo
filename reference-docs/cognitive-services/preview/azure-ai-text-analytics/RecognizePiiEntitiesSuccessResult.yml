@@ -25,7 +25,7 @@ properties:
     syntax:
       content: 'entities: PiiEntity[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.PiiEntity" />[]
+        type: <xref uid="@azure/ai-text-analytics.PiiEntity|preview" />[]
         description: ''
   - name: error
     uid: '@azure/ai-text-analytics.RecognizePiiEntitiesSuccessResult.error|preview'
@@ -85,7 +85,7 @@ properties:
     syntax:
       content: 'statistics?: TextDocumentStatistics'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextDocumentStatistics" />
+        type: <xref uid="@azure/ai-text-analytics.TextDocumentStatistics|preview" />
         description: ''
   - name: warnings
     uid: >-
@@ -101,6 +101,6 @@ properties:
     syntax:
       content: 'warnings: TextAnalyticsWarning[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsWarning" />[]
+        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsWarning|preview" />[]
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsSuccessResult" />
+extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsSuccessResult|preview" />

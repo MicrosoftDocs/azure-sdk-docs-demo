@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'error?: MediaJobError'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobError" />
+        type: <xref uid="@azure/eventgrid.MediaJobError|latest-stable" />
         description: ''
   - name: label
     uid: '@azure/eventgrid.MediaJobOutput.label|latest-stable'
@@ -48,7 +48,7 @@ properties:
     syntax:
       content: 'odataType: "#Microsoft.Media.JobOutputAsset"'
       return:
-        type: '"#<xref uid="Microsoft.Media.JobOutputAsset" />"'
+        type: '"#<xref uid="Microsoft.Media.JobOutputAsset|latest-stable" />"'
         description: ''
   - name: progress
     uid: '@azure/eventgrid.MediaJobOutput.progress|latest-stable'
@@ -74,5 +74,5 @@ properties:
     syntax:
       content: 'state: MediaJobState'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobState" />
+        type: <xref uid="@azure/eventgrid.MediaJobState|latest-stable" />
         description: ''

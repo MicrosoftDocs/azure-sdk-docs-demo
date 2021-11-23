@@ -62,7 +62,9 @@ properties:
     syntax:
       content: 'contentType?: CertificateContentType'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificateContentType" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-certificates.CertificateContentType|preview" />
         description: ''
   - name: createdOn
     uid: '@azure/keyvault-certificates.CertificatePolicyProperties.createdOn|preview'
@@ -132,7 +134,9 @@ properties:
     syntax:
       content: 'issuerName?: WellKnownIssuer | string'
       return:
-        type: <xref uid="@azure/keyvault-certificates.WellKnownIssuer" /> | string
+        type: >-
+          <xref uid="@azure/keyvault-certificates.WellKnownIssuer|preview" /> |
+          string
         description: ''
   - name: keyCurveName
     uid: >-
@@ -148,7 +152,9 @@ properties:
     syntax:
       content: 'keyCurveName?: CertificateKeyCurveName'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificateKeyCurveName" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-certificates.CertificateKeyCurveName|preview" />
         description: ''
   - name: keySize
     uid: '@azure/keyvault-certificates.CertificatePolicyProperties.keySize|preview'
@@ -178,7 +184,7 @@ properties:
     syntax:
       content: 'keyType?: CertificateKeyType'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificateKeyType" />
+        type: <xref uid="@azure/keyvault-certificates.CertificateKeyType|preview" />
         description: ''
   - name: keyUsage
     uid: '@azure/keyvault-certificates.CertificatePolicyProperties.keyUsage|preview'
@@ -191,7 +197,7 @@ properties:
     syntax:
       content: 'keyUsage?: KeyUsageType[]'
       return:
-        type: <xref uid="@azure/keyvault-certificates.KeyUsageType" />[]
+        type: <xref uid="@azure/keyvault-certificates.KeyUsageType|preview" />[]
         description: ''
   - name: lifetimeActions
     uid: >-
@@ -207,7 +213,7 @@ properties:
     syntax:
       content: 'lifetimeActions?: LifetimeAction[]'
       return:
-        type: <xref uid="@azure/keyvault-certificates.LifetimeAction" />[]
+        type: <xref uid="@azure/keyvault-certificates.LifetimeAction|preview" />[]
         description: ''
   - name: reuseKey
     uid: '@azure/keyvault-certificates.CertificatePolicyProperties.reuseKey|preview'

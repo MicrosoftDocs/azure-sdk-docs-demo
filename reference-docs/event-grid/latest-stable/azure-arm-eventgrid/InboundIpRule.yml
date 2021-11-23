@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'action?: IpActionType'
       return:
-        type: <xref uid="@azure/arm-eventgrid.IpActionType" />
+        type: <xref uid="@azure/arm-eventgrid.IpActionType|latest-stable" />
         description: ''
   - name: ipMask
     uid: '@azure/arm-eventgrid.InboundIpRule.ipMask|latest-stable'

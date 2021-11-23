@@ -20,7 +20,9 @@ constructors:
       content: 'new StorageAccountsImpl(client: StorageManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|preview" />
           description: |
             Reference to the service client
 methods:
@@ -63,19 +65,23 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.StorageAccountCreateParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountCreateParameters|preview" />
           description: The parameters to provide for the created account.
         - id: options
           type: >-
-            <xref uid="@azure/arm-storage.StorageAccountsCreateOptionalParams"
+            <xref
+            uid="@azure/arm-storage.StorageAccountsCreateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-storage.StorageAccountsCreateResponse" />&gt;, <xref
-          uid="@azure/arm-storage.StorageAccountsCreateResponse" />&gt;&gt;
+          uid="@azure/arm-storage.StorageAccountsCreateResponse|preview" />&gt;,
+          <xref uid="@azure/arm-storage.StorageAccountsCreateResponse|preview"
+          />&gt;&gt;
         description: ''
   - name: >-
       beginCreateAndWait(string, string, StorageAccountCreateParameters,
@@ -116,18 +122,21 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.StorageAccountCreateParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountCreateParameters|preview" />
           description: The parameters to provide for the created account.
         - id: options
           type: >-
-            <xref uid="@azure/arm-storage.StorageAccountsCreateOptionalParams"
+            <xref
+            uid="@azure/arm-storage.StorageAccountsCreateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.StorageAccountsCreateResponse" />&gt;
+          uid="@azure/arm-storage.StorageAccountsCreateResponse|preview" />&gt;
         description: ''
   - name: beginFailover(string, string, StorageAccountsFailoverOptionalParams)
     uid: '@azure/arm-storage.StorageAccountsImpl.beginFailover|preview'
@@ -163,7 +172,8 @@ methods:
                                only.
         - id: options
           type: >-
-            <xref uid="@azure/arm-storage.StorageAccountsFailoverOptionalParams"
+            <xref
+            uid="@azure/arm-storage.StorageAccountsFailoverOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -206,7 +216,8 @@ methods:
                                only.
         - id: options
           type: >-
-            <xref uid="@azure/arm-storage.StorageAccountsFailoverOptionalParams"
+            <xref
+            uid="@azure/arm-storage.StorageAccountsFailoverOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -242,21 +253,21 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.BlobRestoreParameters" />
+          type: <xref uid="@azure/arm-storage.BlobRestoreParameters|preview" />
           description: The parameters to provide for restore blob ranges.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.StorageAccountsRestoreBlobRangesOptionalParams"
+            uid="@azure/arm-storage.StorageAccountsRestoreBlobRangesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-storage.StorageAccountsRestoreBlobRangesResponse"
+          uid="@azure/arm-storage.StorageAccountsRestoreBlobRangesResponse|preview"
           />&gt;, <xref
-          uid="@azure/arm-storage.StorageAccountsRestoreBlobRangesResponse"
+          uid="@azure/arm-storage.StorageAccountsRestoreBlobRangesResponse|preview"
           />&gt;&gt;
         description: ''
   - name: >-
@@ -289,19 +300,19 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.BlobRestoreParameters" />
+          type: <xref uid="@azure/arm-storage.BlobRestoreParameters|preview" />
           description: The parameters to provide for restore blob ranges.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.StorageAccountsRestoreBlobRangesOptionalParams"
+            uid="@azure/arm-storage.StorageAccountsRestoreBlobRangesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.StorageAccountsRestoreBlobRangesResponse"
+          uid="@azure/arm-storage.StorageAccountsRestoreBlobRangesResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -322,7 +333,7 @@ methods:
         - id: accountName
           type: >-
             <xref
-            uid="@azure/arm-storage.StorageAccountCheckNameAvailabilityParameters"
+            uid="@azure/arm-storage.StorageAccountCheckNameAvailabilityParameters|preview"
             />
           description: >-
             The name of the storage account within the specified resource group.
@@ -332,14 +343,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.StorageAccountsCheckNameAvailabilityOptionalParams"
+            uid="@azure/arm-storage.StorageAccountsCheckNameAvailabilityOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.StorageAccountsCheckNameAvailabilityResponse"
+          uid="@azure/arm-storage.StorageAccountsCheckNameAvailabilityResponse|preview"
           />&gt;
         description: ''
   - name: delete(string, string, StorageAccountsDeleteOptionalParams)
@@ -369,7 +380,8 @@ methods:
                                only.
         - id: options
           type: >-
-            <xref uid="@azure/arm-storage.StorageAccountsDeleteOptionalParams"
+            <xref
+            uid="@azure/arm-storage.StorageAccountsDeleteOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -409,14 +421,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.StorageAccountsGetPropertiesOptionalParams"
+            uid="@azure/arm-storage.StorageAccountsGetPropertiesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.StorageAccountsGetPropertiesResponse" />&gt;
+          uid="@azure/arm-storage.StorageAccountsGetPropertiesResponse|preview"
+          />&gt;
         description: ''
   - name: list(StorageAccountsListOptionalParams)
     uid: '@azure/arm-storage.StorageAccountsImpl.list|preview'
@@ -433,13 +446,16 @@ methods:
       content: 'function list(options?: StorageAccountsListOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="@azure/arm-storage.StorageAccountsListOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsListOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-storage.StorageAccount" />&gt;
+          uid="@azure/arm-storage.StorageAccount|preview" />&gt;
         description: ''
   - name: >-
       listAccountSAS(string, string, AccountSasParameters,
@@ -470,21 +486,22 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.AccountSasParameters" />
+          type: <xref uid="@azure/arm-storage.AccountSasParameters|preview" />
           description: >-
             The parameters to provide to list SAS credentials for the storage
             account.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.StorageAccountsListAccountSASOptionalParams"
+            uid="@azure/arm-storage.StorageAccountsListAccountSASOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.StorageAccountsListAccountSASResponse" />&gt;
+          uid="@azure/arm-storage.StorageAccountsListAccountSASResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       listByResourceGroup(string,
@@ -513,14 +530,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.StorageAccountsListByResourceGroupOptionalParams"
+            uid="@azure/arm-storage.StorageAccountsListByResourceGroupOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-storage.StorageAccount" />&gt;
+          uid="@azure/arm-storage.StorageAccount|preview" />&gt;
         description: ''
   - name: listKeys(string, string, StorageAccountsListKeysOptionalParams)
     uid: '@azure/arm-storage.StorageAccountsImpl.listKeys|preview'
@@ -553,14 +570,16 @@ methods:
                                only.
         - id: options
           type: >-
-            <xref uid="@azure/arm-storage.StorageAccountsListKeysOptionalParams"
+            <xref
+            uid="@azure/arm-storage.StorageAccountsListKeysOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.StorageAccountsListKeysResponse" />&gt;
+          uid="@azure/arm-storage.StorageAccountsListKeysResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       listServiceSAS(string, string, ServiceSasParameters,
@@ -591,19 +610,20 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.ServiceSasParameters" />
+          type: <xref uid="@azure/arm-storage.ServiceSasParameters|preview" />
           description: The parameters to provide to list service SAS credentials.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.StorageAccountsListServiceSASOptionalParams"
+            uid="@azure/arm-storage.StorageAccountsListServiceSASOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.StorageAccountsListServiceSASResponse" />&gt;
+          uid="@azure/arm-storage.StorageAccountsListServiceSASResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       regenerateKey(string, string, StorageAccountRegenerateKeyParameters,
@@ -637,7 +657,8 @@ methods:
                                only.
         - id: regenerateKey
           type: >-
-            <xref uid="@azure/arm-storage.StorageAccountRegenerateKeyParameters"
+            <xref
+            uid="@azure/arm-storage.StorageAccountRegenerateKeyParameters|preview"
             />
           description: >-
             Specifies name of the key which should be regenerated -- key1, key2,
@@ -646,14 +667,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.StorageAccountsRegenerateKeyOptionalParams"
+            uid="@azure/arm-storage.StorageAccountsRegenerateKeyOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.StorageAccountsRegenerateKeyResponse" />&gt;
+          uid="@azure/arm-storage.StorageAccountsRegenerateKeyResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       revokeUserDelegationKeys(string, string,
@@ -686,7 +708,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.StorageAccountsRevokeUserDelegationKeysOptionalParams"
+            uid="@azure/arm-storage.StorageAccountsRevokeUserDelegationKeysOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -741,16 +763,19 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.StorageAccountUpdateParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountUpdateParameters|preview" />
           description: The parameters to provide for the updated account.
         - id: options
           type: >-
-            <xref uid="@azure/arm-storage.StorageAccountsUpdateOptionalParams"
+            <xref
+            uid="@azure/arm-storage.StorageAccountsUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.StorageAccountsUpdateResponse" />&gt;
+          uid="@azure/arm-storage.StorageAccountsUpdateResponse|preview" />&gt;
         description: ''

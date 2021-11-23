@@ -85,7 +85,7 @@ properties:
     syntax:
       content: 'objectReplicationSourceProperties?: ObjectReplicationPolicy[]'
       return:
-        type: <xref uid="@azure/storage-blob.ObjectReplicationPolicy" />[]
+        type: <xref uid="@azure/storage-blob.ObjectReplicationPolicy|preview" />[]
         description: ''
   - name: properties
     uid: '@azure/storage-blob.BlobItem.properties|preview'
@@ -98,7 +98,7 @@ properties:
     syntax:
       content: 'properties: BlobProperties'
       return:
-        type: <xref uid="@azure/storage-blob.BlobProperties" />
+        type: <xref uid="@azure/storage-blob.BlobProperties|preview" />
         description: ''
   - name: snapshot
     uid: '@azure/storage-blob.BlobItem.snapshot|preview'
@@ -124,7 +124,7 @@ properties:
     syntax:
       content: 'tags?: Tags'
       return:
-        type: <xref uid="@azure/storage-blob.Tags" />
+        type: <xref uid="@azure/storage-blob.Tags|preview" />
         description: ''
   - name: versionId
     uid: '@azure/storage-blob.BlobItem.versionId|preview'

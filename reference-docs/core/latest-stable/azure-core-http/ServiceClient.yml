@@ -26,10 +26,10 @@ constructors:
         - id: credentials
           type: >-
             TokenCredential | <xref
-            uid="@azure/core-http.ServiceClientCredentials" />
+            uid="@azure/core-http.ServiceClientCredentials|latest-stable" />
           description: The credentials used for authentication with the service.
         - id: options
-          type: <xref uid="@azure/core-http.ServiceClientOptions" />
+          type: <xref uid="@azure/core-http.ServiceClientOptions|latest-stable" />
           description: |
             The service client options that govern the behavior of the client.
 methods:
@@ -48,19 +48,23 @@ methods:
         operationSpec: OperationSpec, callback?: ServiceCallback<any>)
       parameters:
         - id: operationArguments
-          type: <xref uid="@azure/core-http.OperationArguments" />
+          type: <xref uid="@azure/core-http.OperationArguments|latest-stable" />
           description: >-
             The arguments that the HTTP request's templated values will be
             populated from.
         - id: operationSpec
-          type: <xref uid="@azure/core-http.OperationSpec" />
+          type: <xref uid="@azure/core-http.OperationSpec|latest-stable" />
           description: The OperationSpec to use to populate the httpRequest.
         - id: callback
-          type: <xref uid="@azure/core-http.ServiceCallback" />&lt;any&gt;
+          type: >-
+            <xref uid="@azure/core-http.ServiceCallback|latest-stable"
+            />&lt;any&gt;
           description: |
             The callback to call when the response is received.
       return:
-        type: Promise&lt;<xref uid="@azure/core-http.RestResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/core-http.RestResponse|latest-stable"
+          />&gt;
         description: ''
   - name: sendRequest(RequestPrepareOptions | WebResourceLike)
     uid: '@azure/core-http.ServiceClient.sendRequest|latest-stable'
@@ -74,9 +78,11 @@ methods:
       parameters:
         - id: options
           type: >-
-            <xref uid="@azure/core-http.RequestPrepareOptions" /> | <xref
-            uid="@azure/core-http.WebResourceLike" />
+            <xref uid="@azure/core-http.RequestPrepareOptions|latest-stable" />
+            | <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/core-http.HttpOperationResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/core-http.HttpOperationResponse|latest-stable" />&gt;
         description: ''

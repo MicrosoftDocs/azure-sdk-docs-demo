@@ -68,7 +68,7 @@ properties:
     syntax:
       content: 'odatatype: "#Microsoft.Azure.Search.CustomAnalyzer"'
       return:
-        type: '"#<xref uid="Microsoft.Azure.Search.CustomAnalyzer" />"'
+        type: '"#<xref uid="Microsoft.Azure.Search.CustomAnalyzer|preview" />"'
         description: ''
   - name: tokenFilters
     uid: '@azure/search-documents.CustomAnalyzer.tokenFilters|preview'

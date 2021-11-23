@@ -31,12 +31,15 @@ constructors:
                                 append a SAS if using AnonymousCredential, such as
                                 "https://myaccount.file.core.windows.net/share?sasString".
         - id: credential
-          type: <xref uid="@azure/storage-file-share.Credential" />
+          type: <xref uid="@azure/storage-file-share.Credential|latest-stable" />
           description: |-
             Such as AnonymousCredential or StorageSharedKeyCredential.
                                              If not specified, AnonymousCredential is used.
         - id: options
-          type: <xref uid="@azure/storage-file-share.StoragePipelineOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.StoragePipelineOptions|latest-stable"
+            />
           description: |
             Optional. Options to configure the HTTP pipeline.
   - name: ShareClient(string, Pipeline)
@@ -57,7 +60,7 @@ constructors:
                                 append a SAS if using AnonymousCredential, such as
                                 "https://myaccount.file.core.windows.net/share?sasString".
         - id: pipeline
-          type: <xref uid="@azure/storage-file-share.Pipeline" />
+          type: <xref uid="@azure/storage-file-share.Pipeline|latest-stable" />
           description: |
             Call newPipeline() to create a default
                                        pipeline, or provide a customized pipeline.
@@ -89,7 +92,10 @@ constructors:
           type: string
           description: Share name.
         - id: options
-          type: <xref uid="@azure/storage-file-share.StoragePipelineOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.StoragePipelineOptions|latest-stable"
+            />
           description: |
             Optional. Options to configure the HTTP pipeline.
 properties:
@@ -132,7 +138,9 @@ properties:
     syntax:
       content: ShareDirectoryClient rootDirectoryClient
       return:
-        type: <xref uid="@azure/storage-file-share.ShareDirectoryClient" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-share.ShareDirectoryClient|latest-stable" />
         description: ''
   - name: url
     uid: '@azure/storage-file-share.ShareClient.url|latest-stable'
@@ -161,11 +169,14 @@ methods:
       content: 'function create(options?: ShareCreateOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.ShareCreateOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ShareCreateOptions|latest-stable" />
           description: Options to Share Create operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-file-share.ShareCreateResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-file-share.ShareCreateResponse|latest-stable"
           />&gt;
         description: Response data for the Share Create operation.
   - name: createDirectory(string, DirectoryCreateOptions)
@@ -184,7 +195,10 @@ methods:
           type: string
           description: '-'
         - id: options
-          type: <xref uid="@azure/storage-file-share.DirectoryCreateOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.DirectoryCreateOptions|latest-stable"
+            />
           description: Options to Directory Create operation.
       return:
         type: Promise&lt;Object&gt;
@@ -214,7 +228,9 @@ methods:
           type: number
           description: Specifies the maximum size in bytes for the file, up to 4 TB.
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileCreateOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileCreateOptions|latest-stable" />
           description: Options to File Create operation.
       return:
         type: Promise&lt;Object&gt;
@@ -232,13 +248,16 @@ methods:
       content: 'function createIfNotExists(options?: ShareCreateOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.ShareCreateOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ShareCreateOptions|latest-stable" />
           description: |
             -
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.ShareCreateIfNotExistsResponse" />&gt;
+          uid="@azure/storage-file-share.ShareCreateIfNotExistsResponse|latest-stable"
+          />&gt;
         description: ''
   - name: createPermission(string, ShareCreatePermissionOptions)
     uid: '@azure/storage-file-share.ShareClient.createPermission|latest-stable'
@@ -262,13 +281,15 @@ methods:
             File permission described in the SDDL
         - id: options
           type: >-
-            <xref uid="@azure/storage-file-share.ShareCreatePermissionOptions"
+            <xref
+            uid="@azure/storage-file-share.ShareCreatePermissionOptions|latest-stable"
             />
           description: Options to Share Create Permission operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.ShareCreatePermissionResponse" />&gt;
+          uid="@azure/storage-file-share.ShareCreatePermissionResponse|latest-stable"
+          />&gt;
         description: ''
   - name: createSnapshot(ShareCreateSnapshotOptions)
     uid: '@azure/storage-file-share.ShareClient.createSnapshot|latest-stable'
@@ -281,12 +302,16 @@ methods:
       content: 'function createSnapshot(options?: ShareCreateSnapshotOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.ShareCreateSnapshotOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ShareCreateSnapshotOptions|latest-stable"
+            />
           description: Options to Share Create Snapshot operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.ShareCreateSnapshotResponse" />&gt;
+          uid="@azure/storage-file-share.ShareCreateSnapshotResponse|latest-stable"
+          />&gt;
         description: Response data for the Share Create Snapshot operation.
   - name: delete(ShareDeleteMethodOptions)
     uid: '@azure/storage-file-share.ShareClient.delete|latest-stable'
@@ -303,11 +328,15 @@ methods:
       content: 'function delete(options?: ShareDeleteMethodOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.ShareDeleteMethodOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ShareDeleteMethodOptions|latest-stable"
+            />
           description: Options to Share Delete operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-file-share.ShareDeleteResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-file-share.ShareDeleteResponse|latest-stable"
           />&gt;
         description: Response data for the Share Delete operation.
   - name: deleteDirectory(string, DirectoryDeleteOptions)
@@ -328,12 +357,16 @@ methods:
           type: string
           description: '-'
         - id: options
-          type: <xref uid="@azure/storage-file-share.DirectoryDeleteOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.DirectoryDeleteOptions|latest-stable"
+            />
           description: Options to Directory Delete operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.DirectoryDeleteResponse" />&gt;
+          uid="@azure/storage-file-share.DirectoryDeleteResponse|latest-stable"
+          />&gt;
         description: Directory deletion response data.
   - name: deleteFile(string, FileDeleteOptions)
     uid: '@azure/storage-file-share.ShareClient.deleteFile|latest-stable'
@@ -373,11 +406,14 @@ methods:
           type: string
           description: '-'
         - id: options
-          type: <xref uid="@azure/storage-file-share.FileDeleteOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.FileDeleteOptions|latest-stable" />
           description: Options to File Delete operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-file-share.FileDeleteResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-file-share.FileDeleteResponse|latest-stable"
           />&gt;
         description: Promise<FileDeleteResponse> File Delete response data.
   - name: deleteIfExists(ShareDeleteMethodOptions)
@@ -395,13 +431,17 @@ methods:
       content: 'function deleteIfExists(options?: ShareDeleteMethodOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.ShareDeleteMethodOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ShareDeleteMethodOptions|latest-stable"
+            />
           description: |
             -
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.ShareDeleteIfExistsResponse" />&gt;
+          uid="@azure/storage-file-share.ShareDeleteIfExistsResponse|latest-stable"
+          />&gt;
         description: ''
   - name: exists(ShareExistsOptions)
     uid: '@azure/storage-file-share.ShareClient.exists|latest-stable'
@@ -424,7 +464,9 @@ methods:
       content: 'function exists(options?: ShareExistsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.ShareExistsOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ShareExistsOptions|latest-stable" />
           description: |
             options to Exists operation.
       return:
@@ -448,7 +490,10 @@ methods:
       content: 'function generateSasUrl(options: ShareGenerateSasUrlOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.ShareGenerateSasUrlOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ShareGenerateSasUrlOptions|latest-stable"
+            />
           description: Optional parameters.
       return:
         type: string
@@ -475,12 +520,16 @@ methods:
       content: 'function getAccessPolicy(options?: ShareGetAccessPolicyOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.ShareGetAccessPolicyOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ShareGetAccessPolicyOptions|latest-stable"
+            />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.ShareGetAccessPolicyResponse" />&gt;
+          uid="@azure/storage-file-share.ShareGetAccessPolicyResponse|latest-stable"
+          />&gt;
         description: Response data for the Share Get Access Policy operation.
   - name: getDirectoryClient(string)
     uid: '@azure/storage-file-share.ShareClient.getDirectoryClient|latest-stable'
@@ -496,7 +545,9 @@ methods:
           type: string
           description: A directory name
       return:
-        type: <xref uid="@azure/storage-file-share.ShareDirectoryClient" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-share.ShareDirectoryClient|latest-stable" />
         description: The ShareDirectoryClient object for the given directory name.
   - name: getPermission(string, ShareGetPermissionOptions)
     uid: '@azure/storage-file-share.ShareClient.getPermission|latest-stable'
@@ -520,12 +571,16 @@ methods:
             File permission key which indicates the security descriptor of the
             permission.
         - id: options
-          type: <xref uid="@azure/storage-file-share.ShareGetPermissionOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ShareGetPermissionOptions|latest-stable"
+            />
           description: Options to Share Create Permission operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.ShareGetPermissionResponse" />&gt;
+          uid="@azure/storage-file-share.ShareGetPermissionResponse|latest-stable"
+          />&gt;
         description: ''
   - name: getProperties(ShareGetPropertiesOptions)
     uid: '@azure/storage-file-share.ShareClient.getProperties|latest-stable'
@@ -540,12 +595,16 @@ methods:
       content: 'function getProperties(options?: ShareGetPropertiesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.ShareGetPropertiesOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ShareGetPropertiesOptions|latest-stable"
+            />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.ShareGetPropertiesResponse" />&gt;
+          uid="@azure/storage-file-share.ShareGetPropertiesResponse|latest-stable"
+          />&gt;
         description: Response data for the Share Get Properties operation.
   - name: getStatistics(ShareGetStatisticsOptions)
     uid: '@azure/storage-file-share.ShareClient.getStatistics|latest-stable'
@@ -558,12 +617,16 @@ methods:
       content: 'function getStatistics(options?: ShareGetStatisticsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.ShareGetStatisticsOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ShareGetStatisticsOptions|latest-stable"
+            />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.ShareGetStatisticsResponse" />&gt;
+          uid="@azure/storage-file-share.ShareGetStatisticsResponse|latest-stable"
+          />&gt;
         description: Response data for the Share Get Statistics operation.
   - name: setAccessPolicy(SignedIdentifier[], ShareSetAccessPolicyOptions)
     uid: '@azure/storage-file-share.ShareClient.setAccessPolicy|latest-stable'
@@ -598,17 +661,23 @@ methods:
         ShareSetAccessPolicyOptions)
       parameters:
         - id: shareAcl
-          type: <xref uid="@azure/storage-file-share.SignedIdentifier" />[]
+          type: >-
+            <xref uid="@azure/storage-file-share.SignedIdentifier|latest-stable"
+            />[]
           description: >-
             Array of signed identifiers, each having a unique Id and details of
             access policy.
         - id: options
-          type: <xref uid="@azure/storage-file-share.ShareSetAccessPolicyOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ShareSetAccessPolicyOptions|latest-stable"
+            />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.ShareSetAccessPolicyResponse" />&gt;
+          uid="@azure/storage-file-share.ShareSetAccessPolicyResponse|latest-stable"
+          />&gt;
         description: Response data for the Share Set Access Policy operation.
   - name: setMetadata(Metadata, ShareSetMetadataOptions)
     uid: '@azure/storage-file-share.ShareClient.setMetadata|latest-stable'
@@ -629,17 +698,21 @@ methods:
         ShareSetMetadataOptions)
       parameters:
         - id: metadata
-          type: <xref uid="@azure/storage-file-share.Metadata" />
+          type: <xref uid="@azure/storage-file-share.Metadata|latest-stable" />
           description: >-
             If no metadata provided, all existing directory metadata will be
             removed.
         - id: options
-          type: <xref uid="@azure/storage-file-share.ShareSetMetadataOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ShareSetMetadataOptions|latest-stable"
+            />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.ShareSetMetadataResponse" />&gt;
+          uid="@azure/storage-file-share.ShareSetMetadataResponse|latest-stable"
+          />&gt;
         description: Response data for the Share Set Metadata operation.
   - name: setProperties(ShareSetPropertiesOptions)
     uid: '@azure/storage-file-share.ShareClient.setProperties|latest-stable'
@@ -652,12 +725,16 @@ methods:
       content: 'function setProperties(options?: ShareSetPropertiesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-file-share.ShareSetPropertiesOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ShareSetPropertiesOptions|latest-stable"
+            />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-file-share.ShareSetPropertiesResponse" />&gt;
+          uid="@azure/storage-file-share.ShareSetPropertiesResponse|latest-stable"
+          />&gt;
         description: Response data for the Share Set Properties operation.
   - name: setQuota(number, ShareSetQuotaOptions)
     uid: '@azure/storage-file-share.ShareClient.setQuota|latest-stable'
@@ -674,11 +751,15 @@ methods:
           type: number
           description: Specifies the maximum size of the share in gigabytes
         - id: options
-          type: <xref uid="@azure/storage-file-share.ShareSetQuotaOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-share.ShareSetQuotaOptions|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-file-share.ShareSetQuotaResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-file-share.ShareSetQuotaResponse|latest-stable"
           />&gt;
         description: Response data for the Share Get Quota operation.
   - name: withSnapshot(string)
@@ -699,8 +780,8 @@ methods:
           type: string
           description: The snapshot timestamp.
       return:
-        type: <xref uid="@azure/storage-file-share.ShareClient" />
+        type: <xref uid="@azure/storage-file-share.ShareClient|latest-stable" />
         description: >-
           A new ShareClient object identical to the source but with the
           specified snapshot timestamp
-extends: <xref uid="@azure/storage-file-share.StorageClient" />
+extends: <xref uid="@azure/storage-file-share.StorageClient|latest-stable" />

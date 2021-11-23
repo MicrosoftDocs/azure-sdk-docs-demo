@@ -21,7 +21,7 @@ properties:
     syntax:
       content: 'directoryItems: DirectoryItem[]'
       return:
-        type: <xref uid="@azure/storage-file-share.DirectoryItem" />[]
+        type: <xref uid="@azure/storage-file-share.DirectoryItem|preview" />[]
         description: ''
   - name: fileItems
     uid: '@azure/storage-file-share.FilesAndDirectoriesListSegment.fileItems|preview'
@@ -34,5 +34,5 @@ properties:
     syntax:
       content: 'fileItems: FileItem[]'
       return:
-        type: <xref uid="@azure/storage-file-share.FileItem" />[]
+        type: <xref uid="@azure/storage-file-share.FileItem|preview" />[]
         description: ''

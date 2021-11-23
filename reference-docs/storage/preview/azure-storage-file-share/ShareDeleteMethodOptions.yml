@@ -43,7 +43,9 @@ properties:
     syntax:
       content: 'deleteSnapshots?: DeleteSnapshotsOptionType'
       return:
-        type: <xref uid="@azure/storage-file-share.DeleteSnapshotsOptionType" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-share.DeleteSnapshotsOptionType|preview" />
         description: ''
   - name: leaseAccessConditions
     uid: >-
@@ -59,7 +61,7 @@ properties:
     syntax:
       content: 'leaseAccessConditions?: LeaseAccessConditions'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions" />
+        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions|preview" />
         description: ''
   - name: tracingOptions
     uid: '@azure/storage-file-share.ShareDeleteMethodOptions.tracingOptions|preview'
@@ -74,4 +76,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-file-share.CommonOptions" />
+extends: <xref uid="@azure/storage-file-share.CommonOptions|preview" />

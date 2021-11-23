@@ -44,7 +44,7 @@ properties:
     syntax:
       content: 'blobHTTPHeaders?: BlobHTTPHeaders'
       return:
-        type: <xref uid="@azure/storage-blob.BlobHTTPHeaders" />
+        type: <xref uid="@azure/storage-blob.BlobHTTPHeaders|preview" />
         description: ''
   - name: conditions
     uid: '@azure/storage-blob.BlockBlobUploadStreamOptions.conditions|preview'
@@ -57,7 +57,7 @@ properties:
     syntax:
       content: 'conditions?: BlobRequestConditions'
       return:
-        type: <xref uid="@azure/storage-blob.BlobRequestConditions" />
+        type: <xref uid="@azure/storage-blob.BlobRequestConditions|preview" />
         description: ''
   - name: encryptionScope
     uid: '@azure/storage-blob.BlockBlobUploadStreamOptions.encryptionScope|preview'
@@ -119,7 +119,7 @@ properties:
     syntax:
       content: 'tags?: Tags'
       return:
-        type: <xref uid="@azure/storage-blob.Tags" />
+        type: <xref uid="@azure/storage-blob.Tags|preview" />
         description: ''
   - name: tier
     uid: '@azure/storage-blob.BlockBlobUploadStreamOptions.tier|preview'
@@ -136,7 +136,7 @@ properties:
     syntax:
       content: 'tier?: BlockBlobTier | string'
       return:
-        type: <xref uid="@azure/storage-blob.BlockBlobTier" /> | string
+        type: <xref uid="@azure/storage-blob.BlockBlobTier|preview" /> | string
         description: ''
   - name: tracingOptions
     uid: '@azure/storage-blob.BlockBlobUploadStreamOptions.tracingOptions|preview'
@@ -151,4 +151,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|preview" />

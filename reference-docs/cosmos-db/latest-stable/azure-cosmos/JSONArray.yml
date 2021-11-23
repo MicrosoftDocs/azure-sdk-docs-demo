@@ -22,4 +22,4 @@ properties:
       return:
         type: number
         description: ''
-extends: ArrayLike&lt;<xref uid="@azure/cosmos.JSONValue" />&gt;
+extends: ArrayLike&lt;<xref uid="@azure/cosmos.JSONValue|latest-stable" />&gt;

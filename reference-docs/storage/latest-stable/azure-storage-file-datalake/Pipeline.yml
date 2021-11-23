@@ -39,7 +39,9 @@ constructors:
           type: RequestPolicyFactory[]
           description: '-'
         - id: options
-          type: <xref uid="@azure/storage-file-datalake.PipelineOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-datalake.PipelineOptions|latest-stable" />
           description: |
             -
 properties:
@@ -67,7 +69,9 @@ properties:
     syntax:
       content: 'options: PipelineOptions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.PipelineOptions" />
+        type: >-
+          <xref uid="@azure/storage-file-datalake.PipelineOptions|latest-stable"
+          />
         description: ''
 methods:
   - name: toServiceClientOptions()

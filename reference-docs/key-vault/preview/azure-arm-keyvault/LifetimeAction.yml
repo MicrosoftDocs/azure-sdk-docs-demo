@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'action?: Action'
       return:
-        type: <xref uid="@azure/arm-keyvault.Action" />
+        type: <xref uid="@azure/arm-keyvault.Action|preview" />
         description: ''
   - name: trigger
     uid: '@azure/arm-keyvault.LifetimeAction.trigger|preview'
@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'trigger?: Trigger'
       return:
-        type: <xref uid="@azure/arm-keyvault.Trigger" />
+        type: <xref uid="@azure/arm-keyvault.Trigger|preview" />
         description: ''

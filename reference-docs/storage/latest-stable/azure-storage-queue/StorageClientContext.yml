@@ -28,7 +28,10 @@ constructors:
             of the desired
                        operation.
         - id: options
-          type: <xref uid="@azure/storage-queue.StorageClientOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/storage-queue.StorageClientOptionalParams|latest-stable"
+            />
           description: |
             The parameter options
 properties:

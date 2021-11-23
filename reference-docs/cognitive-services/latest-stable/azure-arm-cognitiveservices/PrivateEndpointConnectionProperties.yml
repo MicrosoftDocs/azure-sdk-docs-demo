@@ -35,7 +35,9 @@ properties:
     syntax:
       content: 'privateEndpoint?: PrivateEndpoint'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.PrivateEndpoint" />
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.PrivateEndpoint|latest-stable"
+          />
         description: ''
   - name: privateLinkServiceConnectionState
     uid: >-
@@ -55,7 +57,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/arm-cognitiveservices.PrivateLinkServiceConnectionState"
+          uid="@azure/arm-cognitiveservices.PrivateLinkServiceConnectionState|latest-stable"
           />
         description: ''
   - name: provisioningState
@@ -76,6 +78,6 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/arm-cognitiveservices.PrivateEndpointConnectionProvisioningState"
+          uid="@azure/arm-cognitiveservices.PrivateEndpointConnectionProvisioningState|latest-stable"
           />
         description: ''

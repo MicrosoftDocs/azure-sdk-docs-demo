@@ -86,5 +86,5 @@ properties:
     syntax:
       content: 'status?: GeoReplicationStatus'
       return:
-        type: <xref uid="@azure/arm-storage.GeoReplicationStatus" />
+        type: <xref uid="@azure/arm-storage.GeoReplicationStatus|latest-stable" />
         description: ''

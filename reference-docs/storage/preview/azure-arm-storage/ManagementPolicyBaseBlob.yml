@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'delete?: DateAfterModification'
       return:
-        type: <xref uid="@azure/arm-storage.DateAfterModification" />
+        type: <xref uid="@azure/arm-storage.DateAfterModification|preview" />
         description: ''
   - name: enableAutoTierToHotFromCool
     uid: >-
@@ -52,7 +52,7 @@ properties:
     syntax:
       content: 'tierToArchive?: DateAfterModification'
       return:
-        type: <xref uid="@azure/arm-storage.DateAfterModification" />
+        type: <xref uid="@azure/arm-storage.DateAfterModification|preview" />
         description: ''
   - name: tierToCool
     uid: '@azure/arm-storage.ManagementPolicyBaseBlob.tierToCool|preview'
@@ -67,5 +67,5 @@ properties:
     syntax:
       content: 'tierToCool?: DateAfterModification'
       return:
-        type: <xref uid="@azure/arm-storage.DateAfterModification" />
+        type: <xref uid="@azure/arm-storage.DateAfterModification|preview" />
         description: ''

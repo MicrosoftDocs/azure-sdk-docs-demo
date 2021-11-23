@@ -42,13 +42,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.PrivateLinkResourcesListByStorageAccountOptionalParams"
+            uid="@azure/arm-storage.PrivateLinkResourcesListByStorageAccountOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.PrivateLinkResourcesListByStorageAccountResponse"
+          uid="@azure/arm-storage.PrivateLinkResourcesListByStorageAccountResponse|preview"
           />&gt;
         description: ''

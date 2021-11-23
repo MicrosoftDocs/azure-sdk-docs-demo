@@ -40,7 +40,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.DisasterRecoveryConfigsBreakPairingOptionalParams"
+            uid="@azure/arm-servicebus.DisasterRecoveryConfigsBreakPairingOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -70,19 +70,19 @@ methods:
           type: string
           description: The namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.CheckNameAvailability" />
+          type: <xref uid="@azure/arm-servicebus.CheckNameAvailability|preview" />
           description: Parameters to check availability of the given namespace name
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.DisasterRecoveryConfigsCheckNameAvailabilityOptionalParams"
+            uid="@azure/arm-servicebus.DisasterRecoveryConfigsCheckNameAvailabilityOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.DisasterRecoveryConfigsCheckNameAvailabilityResponse"
+          uid="@azure/arm-servicebus.DisasterRecoveryConfigsCheckNameAvailabilityResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -110,21 +110,21 @@ methods:
           type: string
           description: The Disaster Recovery configuration name
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.ArmDisasterRecovery" />
+          type: <xref uid="@azure/arm-servicebus.ArmDisasterRecovery|preview" />
           description: >-
             Parameters required to create an Alias(Disaster Recovery
             configuration)
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.DisasterRecoveryConfigsCreateOrUpdateOptionalParams"
+            uid="@azure/arm-servicebus.DisasterRecoveryConfigsCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.DisasterRecoveryConfigsCreateOrUpdateResponse"
+          uid="@azure/arm-servicebus.DisasterRecoveryConfigsCreateOrUpdateResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -153,7 +153,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.DisasterRecoveryConfigsDeleteOptionalParams"
+            uid="@azure/arm-servicebus.DisasterRecoveryConfigsDeleteOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -188,7 +188,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.DisasterRecoveryConfigsFailOverOptionalParams"
+            uid="@azure/arm-servicebus.DisasterRecoveryConfigsFailOverOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -221,14 +221,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.DisasterRecoveryConfigsGetOptionalParams"
+            uid="@azure/arm-servicebus.DisasterRecoveryConfigsGetOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.DisasterRecoveryConfigsGetResponse" />&gt;
+          uid="@azure/arm-servicebus.DisasterRecoveryConfigsGetResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       getAuthorizationRule(string, string, string, string,
@@ -260,14 +261,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.DisasterRecoveryConfigsGetAuthorizationRuleOptionalParams"
+            uid="@azure/arm-servicebus.DisasterRecoveryConfigsGetAuthorizationRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.DisasterRecoveryConfigsGetAuthorizationRuleResponse"
+          uid="@azure/arm-servicebus.DisasterRecoveryConfigsGetAuthorizationRuleResponse|preview"
           />&gt;
         description: ''
   - name: list(string, string, DisasterRecoveryConfigsListOptionalParams)
@@ -291,14 +292,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.DisasterRecoveryConfigsListOptionalParams"
+            uid="@azure/arm-servicebus.DisasterRecoveryConfigsListOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-servicebus.ArmDisasterRecovery" />&gt;
+          uid="@azure/arm-servicebus.ArmDisasterRecovery|preview" />&gt;
         description: ''
   - name: >-
       listAuthorizationRules(string, string, string,
@@ -328,14 +329,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.DisasterRecoveryConfigsListAuthorizationRulesOptionalParams"
+            uid="@azure/arm-servicebus.DisasterRecoveryConfigsListAuthorizationRulesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-servicebus.SBAuthorizationRule" />&gt;
+          uid="@azure/arm-servicebus.SBAuthorizationRule|preview" />&gt;
         description: ''
   - name: >-
       listKeys(string, string, string, string,
@@ -367,13 +368,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.DisasterRecoveryConfigsListKeysOptionalParams"
+            uid="@azure/arm-servicebus.DisasterRecoveryConfigsListKeysOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.DisasterRecoveryConfigsListKeysResponse"
+          uid="@azure/arm-servicebus.DisasterRecoveryConfigsListKeysResponse|preview"
           />&gt;
         description: ''

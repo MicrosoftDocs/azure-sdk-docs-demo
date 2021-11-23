@@ -153,6 +153,9 @@ properties:
     syntax:
       content: 'status: AnalyzeResultOperationStatus'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.AnalyzeResultOperationStatus" />
+        type: >-
+          <xref
+          uid="@azure/ai-form-recognizer.AnalyzeResultOperationStatus|preview"
+          />
         description: ''
 extends: PollOperationState&lt;Result&gt;

@@ -20,7 +20,10 @@ constructors:
       content: 'new EventSubscriptions(client: EventGridManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-eventgrid.EventGridManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.EventGridManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -75,12 +78,12 @@ methods:
             between 3 and 64 characters in length and should use alphanumeric
             letters only.
         - id: eventSubscriptionInfo
-          type: <xref uid="@azure/arm-eventgrid.EventSubscription" />
+          type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />
           description: |-
             Event subscription properties containing the destination and filter
             information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -123,7 +126,7 @@ methods:
           type: string
           description: Name of the event subscription.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -170,11 +173,12 @@ methods:
           description: Name of the event subscription to be updated.
         - id: eventSubscriptionUpdateParameters
           type: >-
-            <xref uid="@azure/arm-eventgrid.EventSubscriptionUpdateParameters"
+            <xref
+            uid="@azure/arm-eventgrid.EventSubscriptionUpdateParameters|latest-stable"
             />
           description: Updated event subscription information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -230,16 +234,17 @@ methods:
             between 3 and 64 characters in length and should use alphanumeric
             letters only.
         - id: eventSubscriptionInfo
-          type: <xref uid="@azure/arm-eventgrid.EventSubscription" />
+          type: <xref uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />
           description: |-
             Event subscription properties containing the destination and filter
             information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.EventSubscriptionsCreateOrUpdateResponse"
+          Promise&lt;<xref
+          uid="Models.EventSubscriptionsCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.EventSubscriptionsCreateOrUpdateResponse>
   - name: deleteMethod(string, string, msRest.RequestOptionsBase)
@@ -280,7 +285,7 @@ methods:
           type: string
           description: Name of the event subscription.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -323,10 +328,12 @@ methods:
           type: string
           description: Name of the event subscription.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.EventSubscriptionsGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.EventSubscriptionsGetResponse|latest-stable" />&gt;
         description: Promise<Models.EventSubscriptionsGetResponse>
   - name: >-
       get(string, string, RequestOptionsBase,
@@ -373,7 +380,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscription" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, ServiceCallback<EventSubscription>)
@@ -416,7 +423,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscription" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscription|latest-stable" />&gt;
           description: |
             The callback
   - name: getDeliveryAttributes(string, string, msRest.RequestOptionsBase)
@@ -458,12 +465,13 @@ methods:
           type: string
           description: Name of the event subscription.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsGetDeliveryAttributesResponse" />&gt;
+          uid="Models.EventSubscriptionsGetDeliveryAttributesResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EventSubscriptionsGetDeliveryAttributesResponse>
   - name: >-
       getDeliveryAttributes(string, string, RequestOptionsBase,
@@ -512,7 +520,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.DeliveryAttributeListResult" />&gt;
+            uid="@azure/arm-eventgrid.DeliveryAttributeListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -558,7 +567,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.DeliveryAttributeListResult" />&gt;
+            uid="@azure/arm-eventgrid.DeliveryAttributeListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: getFullUrl(string, string, msRest.RequestOptionsBase)
@@ -599,12 +609,12 @@ methods:
           type: string
           description: Name of the event subscription.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.EventSubscriptionsGetFullUrlResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.EventSubscriptionsGetFullUrlResponse|latest-stable" />&gt;
         description: Promise<Models.EventSubscriptionsGetFullUrlResponse>
   - name: >-
       getFullUrl(string, string, RequestOptionsBase,
@@ -652,7 +662,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionFullUrl" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionFullUrl|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: getFullUrl(string, string, ServiceCallback<EventSubscriptionFullUrl>)
@@ -695,7 +706,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionFullUrl" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionFullUrl|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -727,13 +739,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListByDomainTopicOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListByDomainTopicOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -764,13 +777,15 @@ methods:
           description: Name of the domain topic.
         - id: options
           type: >-
-            <xref uid="Models.EventSubscriptionsListByDomainTopicOptionalParams"
+            <xref
+            uid="Models.EventSubscriptionsListByDomainTopicOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListByDomainTopicResponse" />&gt;
+          uid="Models.EventSubscriptionsListByDomainTopicResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EventSubscriptionsListByDomainTopicResponse>
   - name: >-
       listByDomainTopic(string, string, string,
@@ -799,7 +814,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -825,13 +841,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListByDomainTopicNextOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListByDomainTopicNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -857,13 +874,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListByDomainTopicNextOptionalParams"
+            uid="Models.EventSubscriptionsListByDomainTopicNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListByDomainTopicNextResponse" />&gt;
+          uid="Models.EventSubscriptionsListByDomainTopicNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EventSubscriptionsListByDomainTopicNextResponse>
   - name: >-
       listByDomainTopicNext(string,
@@ -886,7 +904,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -921,13 +940,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListByResourceOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListByResourceOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -958,11 +978,15 @@ methods:
           type: string
           description: Name of the resource.
         - id: options
-          type: <xref uid="Models.EventSubscriptionsListByResourceOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.EventSubscriptionsListByResourceOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.EventSubscriptionsListByResourceResponse"
+          Promise&lt;<xref
+          uid="Models.EventSubscriptionsListByResourceResponse|latest-stable"
           />&gt;
         description: Promise<Models.EventSubscriptionsListByResourceResponse>
   - name: >-
@@ -995,7 +1019,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1020,13 +1045,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListByResourceNextOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListByResourceNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1049,12 +1075,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListByResourceNextOptionalParams" />
+            uid="Models.EventSubscriptionsListByResourceNextOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListByResourceNextResponse" />&gt;
+          uid="Models.EventSubscriptionsListByResourceNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EventSubscriptionsListByResourceNextResponse>
   - name: listByResourceNext(string, ServiceCallback<EventSubscriptionsListResult>)
     uid: '@azure/arm-eventgrid.EventSubscriptions.listByResourceNext_1|latest-stable'
@@ -1074,7 +1102,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1100,13 +1129,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1132,13 +1162,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListGlobalByResourceGroupOptionalParams"
+            uid="Models.EventSubscriptionsListGlobalByResourceGroupOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListGlobalByResourceGroupResponse"
+          uid="Models.EventSubscriptionsListGlobalByResourceGroupResponse|latest-stable"
           />&gt;
         description: Promise<Models.EventSubscriptionsListGlobalByResourceGroupResponse>
   - name: >-
@@ -1162,7 +1192,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1192,13 +1223,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupForTopicTypeOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupForTopicTypeOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1228,13 +1260,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListGlobalByResourceGroupForTopicTypeOptionalParams"
+            uid="Models.EventSubscriptionsListGlobalByResourceGroupForTopicTypeOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListGlobalByResourceGroupForTopicTypeResponse"
+          uid="Models.EventSubscriptionsListGlobalByResourceGroupForTopicTypeResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListGlobalByResourceGroupForTopicTypeResponse>
@@ -1263,7 +1295,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1290,13 +1323,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1323,13 +1357,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextOptionalParams"
+            uid="Models.EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextResponse"
+          uid="Models.EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListGlobalByResourceGroupForTopicTypeNextResponse>
@@ -1354,7 +1388,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1380,13 +1415,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupNextOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalByResourceGroupNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1412,13 +1448,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListGlobalByResourceGroupNextOptionalParams"
+            uid="Models.EventSubscriptionsListGlobalByResourceGroupNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListGlobalByResourceGroupNextResponse"
+          uid="Models.EventSubscriptionsListGlobalByResourceGroupNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListGlobalByResourceGroupNextResponse>
@@ -1443,7 +1479,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1465,13 +1502,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1493,13 +1531,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListGlobalBySubscriptionOptionalParams"
+            uid="Models.EventSubscriptionsListGlobalBySubscriptionOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListGlobalBySubscriptionResponse" />&gt;
+          uid="Models.EventSubscriptionsListGlobalBySubscriptionResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EventSubscriptionsListGlobalBySubscriptionResponse>
   - name: listGlobalBySubscription(ServiceCallback<EventSubscriptionsListResult>)
     uid: >-
@@ -1517,7 +1556,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1544,13 +1584,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionForTopicTypeOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionForTopicTypeOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1577,13 +1618,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListGlobalBySubscriptionForTopicTypeOptionalParams"
+            uid="Models.EventSubscriptionsListGlobalBySubscriptionForTopicTypeOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListGlobalBySubscriptionForTopicTypeResponse"
+          uid="Models.EventSubscriptionsListGlobalBySubscriptionForTopicTypeResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListGlobalBySubscriptionForTopicTypeResponse>
@@ -1608,7 +1649,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1635,13 +1677,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionForTopicTypeNextOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionForTopicTypeNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1668,13 +1711,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListGlobalBySubscriptionForTopicTypeNextOptionalParams"
+            uid="Models.EventSubscriptionsListGlobalBySubscriptionForTopicTypeNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListGlobalBySubscriptionForTopicTypeNextResponse"
+          uid="Models.EventSubscriptionsListGlobalBySubscriptionForTopicTypeNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListGlobalBySubscriptionForTopicTypeNextResponse>
@@ -1699,7 +1742,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1725,13 +1769,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionNextOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListGlobalBySubscriptionNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1757,13 +1802,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListGlobalBySubscriptionNextOptionalParams"
+            uid="Models.EventSubscriptionsListGlobalBySubscriptionNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListGlobalBySubscriptionNextResponse"
+          uid="Models.EventSubscriptionsListGlobalBySubscriptionNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.EventSubscriptionsListGlobalBySubscriptionNextResponse>
   - name: >-
@@ -1787,7 +1832,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1817,13 +1863,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1855,13 +1902,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListRegionalByResourceGroupOptionalParams"
+            uid="Models.EventSubscriptionsListRegionalByResourceGroupOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListRegionalByResourceGroupResponse"
+          uid="Models.EventSubscriptionsListRegionalByResourceGroupResponse|latest-stable"
           />&gt;
         description: Promise<Models.EventSubscriptionsListRegionalByResourceGroupResponse>
   - name: >-
@@ -1889,7 +1936,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1922,13 +1970,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupForTopicTypeOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupForTopicTypeOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1963,13 +2012,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListRegionalByResourceGroupForTopicTypeOptionalParams"
+            uid="Models.EventSubscriptionsListRegionalByResourceGroupForTopicTypeOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListRegionalByResourceGroupForTopicTypeResponse"
+          uid="Models.EventSubscriptionsListRegionalByResourceGroupForTopicTypeResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListRegionalByResourceGroupForTopicTypeResponse>
@@ -2001,7 +2050,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -2028,13 +2078,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupForTopicTypeNextOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupForTopicTypeNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -2063,13 +2114,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListRegionalByResourceGroupForTopicTypeNextOptionalParams"
+            uid="Models.EventSubscriptionsListRegionalByResourceGroupForTopicTypeNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListRegionalByResourceGroupForTopicTypeNextResponse"
+          uid="Models.EventSubscriptionsListRegionalByResourceGroupForTopicTypeNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListRegionalByResourceGroupForTopicTypeNextResponse>
@@ -2094,7 +2145,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -2120,13 +2172,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupNextOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalByResourceGroupNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -2154,13 +2207,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListRegionalByResourceGroupNextOptionalParams"
+            uid="Models.EventSubscriptionsListRegionalByResourceGroupNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListRegionalByResourceGroupNextResponse"
+          uid="Models.EventSubscriptionsListRegionalByResourceGroupNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListRegionalByResourceGroupNextResponse>
@@ -2185,7 +2238,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -2211,13 +2265,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -2243,13 +2298,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListRegionalBySubscriptionOptionalParams"
+            uid="Models.EventSubscriptionsListRegionalBySubscriptionOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListRegionalBySubscriptionResponse"
+          uid="Models.EventSubscriptionsListRegionalBySubscriptionResponse|latest-stable"
           />&gt;
         description: Promise<Models.EventSubscriptionsListRegionalBySubscriptionResponse>
   - name: >-
@@ -2273,7 +2328,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -2303,13 +2359,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionForTopicTypeOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionForTopicTypeOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -2341,13 +2398,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListRegionalBySubscriptionForTopicTypeOptionalParams"
+            uid="Models.EventSubscriptionsListRegionalBySubscriptionForTopicTypeOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListRegionalBySubscriptionForTopicTypeResponse"
+          uid="Models.EventSubscriptionsListRegionalBySubscriptionForTopicTypeResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListRegionalBySubscriptionForTopicTypeResponse>
@@ -2376,7 +2433,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -2403,13 +2461,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionForTopicTypeNextOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionForTopicTypeNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -2438,13 +2497,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListRegionalBySubscriptionForTopicTypeNextOptionalParams"
+            uid="Models.EventSubscriptionsListRegionalBySubscriptionForTopicTypeNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListRegionalBySubscriptionForTopicTypeNextResponse"
+          uid="Models.EventSubscriptionsListRegionalBySubscriptionForTopicTypeNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListRegionalBySubscriptionForTopicTypeNextResponse>
@@ -2469,7 +2528,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -2495,13 +2555,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionNextOptionalParams"
+            uid="@azure/arm-eventgrid.EventSubscriptionsListRegionalBySubscriptionNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -2527,13 +2588,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.EventSubscriptionsListRegionalBySubscriptionNextOptionalParams"
+            uid="Models.EventSubscriptionsListRegionalBySubscriptionNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.EventSubscriptionsListRegionalBySubscriptionNextResponse"
+          uid="Models.EventSubscriptionsListRegionalBySubscriptionNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.EventSubscriptionsListRegionalBySubscriptionNextResponse>
@@ -2558,7 +2619,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.EventSubscriptionsListResult" />&gt;
+            uid="@azure/arm-eventgrid.EventSubscriptionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -2603,12 +2665,15 @@ methods:
           description: Name of the event subscription to be updated.
         - id: eventSubscriptionUpdateParameters
           type: >-
-            <xref uid="@azure/arm-eventgrid.EventSubscriptionUpdateParameters"
+            <xref
+            uid="@azure/arm-eventgrid.EventSubscriptionUpdateParameters|latest-stable"
             />
           description: Updated event subscription information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.EventSubscriptionsUpdateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.EventSubscriptionsUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.EventSubscriptionsUpdateResponse>

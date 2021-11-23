@@ -21,7 +21,9 @@ properties:
     syntax:
       content: 'recipientCommunicationIdentifier: CommunicationIdentifierModel'
       return:
-        type: <xref uid="@azure/eventgrid.CommunicationIdentifierModel" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.CommunicationIdentifierModel|latest-stable" />
         description: ''
   - name: threadId
     uid: '@azure/eventgrid.AcsChatEventBase.threadId|latest-stable'

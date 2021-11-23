@@ -28,7 +28,7 @@ properties:
     syntax:
       content: 'cbsSession: CbsClient'
       return:
-        type: <xref uid="@azure/core-amqp.CbsClient" />
+        type: <xref uid="@azure/core-amqp.CbsClient|preview" />
         description: ''
   - name: config
     uid: '@azure/core-amqp.ConnectionContextBase.config|preview'
@@ -45,7 +45,7 @@ properties:
     syntax:
       content: 'config: ConnectionConfig'
       return:
-        type: <xref uid="@azure/core-amqp.ConnectionConfig" />
+        type: <xref uid="@azure/core-amqp.ConnectionConfig|preview" />
         description: ''
   - name: connection
     uid: '@azure/core-amqp.ConnectionContextBase.connection|preview'
@@ -112,7 +112,7 @@ properties:
     syntax:
       content: 'dataTransformer: DataTransformer'
       return:
-        type: <xref uid="@azure/core-amqp.DataTransformer" />
+        type: <xref uid="@azure/core-amqp.DataTransformer|preview" />
         description: ''
   - name: negotiateClaimLock
     uid: '@azure/core-amqp.ConnectionContextBase.negotiateClaimLock|preview'

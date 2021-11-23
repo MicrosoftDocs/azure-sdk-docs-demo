@@ -43,14 +43,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.FileServicesGetServicePropertiesOptionalParams"
+            uid="@azure/arm-storage.FileServicesGetServicePropertiesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.FileServicesGetServicePropertiesResponse"
+          uid="@azure/arm-storage.FileServicesGetServicePropertiesResponse|preview"
           />&gt;
         description: ''
   - name: list(string, string, FileServicesListOptionalParams)
@@ -79,13 +79,15 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: options
-          type: <xref uid="@azure/arm-storage.FileServicesListOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.FileServicesListOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-storage.FileServicesListResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-storage.FileServicesListResponse|preview" />&gt;
         description: ''
   - name: >-
       setServiceProperties(string, string, FileServiceProperties,
@@ -120,7 +122,7 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.FileServiceProperties" />
+          type: <xref uid="@azure/arm-storage.FileServiceProperties|preview" />
           description: >-
             The properties of file services in storage accounts, including CORS
             (Cross-Origin
@@ -128,13 +130,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.FileServicesSetServicePropertiesOptionalParams"
+            uid="@azure/arm-storage.FileServicesSetServicePropertiesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.FileServicesSetServicePropertiesResponse"
+          uid="@azure/arm-storage.FileServicesSetServicePropertiesResponse|preview"
           />&gt;
         description: ''

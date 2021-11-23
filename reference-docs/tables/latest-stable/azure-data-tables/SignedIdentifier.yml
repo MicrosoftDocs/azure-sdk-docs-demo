@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'accessPolicy?: AccessPolicy'
       return:
-        type: <xref uid="@azure/data-tables.AccessPolicy" />
+        type: <xref uid="@azure/data-tables.AccessPolicy|latest-stable" />
         description: ''
   - name: id
     uid: '@azure/data-tables.SignedIdentifier.id|latest-stable'

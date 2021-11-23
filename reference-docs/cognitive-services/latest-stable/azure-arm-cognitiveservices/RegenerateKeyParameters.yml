@@ -20,5 +20,5 @@ properties:
     syntax:
       content: 'keyName: KeyName'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.KeyName" />
+        type: <xref uid="@azure/arm-cognitiveservices.KeyName|latest-stable" />
         description: ''

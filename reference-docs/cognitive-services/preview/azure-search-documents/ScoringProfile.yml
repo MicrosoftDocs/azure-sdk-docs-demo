@@ -29,7 +29,9 @@ properties:
     syntax:
       content: 'functionAggregation?: ScoringFunctionAggregation'
       return:
-        type: <xref uid="@azure/search-documents.ScoringFunctionAggregation" />
+        type: >-
+          <xref uid="@azure/search-documents.ScoringFunctionAggregation|preview"
+          />
         description: ''
   - name: functions
     uid: '@azure/search-documents.ScoringProfile.functions|preview'
@@ -42,7 +44,7 @@ properties:
     syntax:
       content: 'functions?: ScoringFunction[]'
       return:
-        type: <xref uid="@azure/search-documents.ScoringFunction" />[]
+        type: <xref uid="@azure/search-documents.ScoringFunction|preview" />[]
         description: ''
   - name: name
     uid: '@azure/search-documents.ScoringProfile.name|preview'
@@ -70,5 +72,5 @@ properties:
     syntax:
       content: 'textWeights?: TextWeights'
       return:
-        type: <xref uid="@azure/search-documents.TextWeights" />
+        type: <xref uid="@azure/search-documents.TextWeights|preview" />
         description: ''

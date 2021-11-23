@@ -33,7 +33,10 @@ properties:
     syntax:
       content: 'conditions?: DataLakeRequestConditions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.DataLakeRequestConditions" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.DataLakeRequestConditions|latest-stable"
+          />
         description: ''
   - name: metadata
     uid: '@azure/storage-file-datalake.FileCreateOptions.metadata|latest-stable'
@@ -46,7 +49,7 @@ properties:
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-file-datalake.Metadata" />
+        type: <xref uid="@azure/storage-file-datalake.Metadata|latest-stable" />
         description: ''
   - name: pathHttpHeaders
     uid: >-
@@ -60,7 +63,10 @@ properties:
     syntax:
       content: 'pathHttpHeaders?: PathCreateHttpHeaders'
       return:
-        type: <xref uid="@azure/storage-file-datalake.PathCreateHttpHeaders" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.PathCreateHttpHeaders|latest-stable"
+          />
         description: ''
   - name: permissions
     uid: '@azure/storage-file-datalake.FileCreateOptions.permissions|latest-stable'
@@ -102,4 +108,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.PathCreateOptions" />
+extends: <xref uid="@azure/storage-file-datalake.PathCreateOptions|latest-stable" />

@@ -28,7 +28,7 @@ properties:
     syntax:
       content: 'flags?: RegexFlags[]'
       return:
-        type: <xref uid="@azure/search-documents.RegexFlags" />[]
+        type: <xref uid="@azure/search-documents.RegexFlags|latest-stable" />[]
         description: ''
   - name: lowerCaseTerms
     uid: '@azure/search-documents.PatternAnalyzer.lowerCaseTerms|latest-stable'
@@ -74,7 +74,7 @@ properties:
     syntax:
       content: 'odatatype: "#Microsoft.Azure.Search.PatternAnalyzer"'
       return:
-        type: '"#<xref uid="Microsoft.Azure.Search.PatternAnalyzer" />"'
+        type: '"#<xref uid="Microsoft.Azure.Search.PatternAnalyzer|latest-stable" />"'
         description: ''
   - name: pattern
     uid: '@azure/search-documents.PatternAnalyzer.pattern|latest-stable'

@@ -108,7 +108,7 @@ properties:
     syntax:
       content: 'provisioningState?: ProvisioningStateDR'
       return:
-        type: <xref uid="@azure/arm-servicebus.ProvisioningStateDR" />
+        type: <xref uid="@azure/arm-servicebus.ProvisioningStateDR|latest-stable" />
         description: ''
   - name: role
     uid: '@azure/arm-servicebus.ArmDisasterRecovery.role|latest-stable'
@@ -129,7 +129,9 @@ properties:
     syntax:
       content: 'role?: RoleDisasterRecovery'
       return:
-        type: <xref uid="@azure/arm-servicebus.RoleDisasterRecovery" />
+        type: >-
+          <xref uid="@azure/arm-servicebus.RoleDisasterRecovery|latest-stable"
+          />
         description: ''
   - name: type
     uid: '@azure/arm-servicebus.ArmDisasterRecovery.type|latest-stable'
@@ -148,4 +150,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-servicebus.Resource" />
+extends: <xref uid="@azure/arm-servicebus.Resource|latest-stable" />

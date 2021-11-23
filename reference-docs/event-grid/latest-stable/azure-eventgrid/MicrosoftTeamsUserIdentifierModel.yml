@@ -22,7 +22,10 @@ properties:
     syntax:
       content: 'cloud?: CommunicationCloudEnvironmentModel'
       return:
-        type: <xref uid="@azure/eventgrid.CommunicationCloudEnvironmentModel" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.CommunicationCloudEnvironmentModel|latest-stable"
+          />
         description: ''
   - name: isAnonymous
     uid: >-

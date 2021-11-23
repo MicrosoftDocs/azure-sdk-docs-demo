@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-file-datalake.Metadata" />
+        type: <xref uid="@azure/storage-file-datalake.Metadata|preview" />
         description: ''
   - name: name
     uid: '@azure/storage-file-datalake.FileSystemItem.name|preview'
@@ -59,7 +59,9 @@ properties:
     syntax:
       content: 'properties: FileSystemProperties'
       return:
-        type: <xref uid="@azure/storage-file-datalake.FileSystemProperties" />
+        type: >-
+          <xref uid="@azure/storage-file-datalake.FileSystemProperties|preview"
+          />
         description: ''
   - name: versionId
     uid: '@azure/storage-file-datalake.FileSystemItem.versionId|preview'

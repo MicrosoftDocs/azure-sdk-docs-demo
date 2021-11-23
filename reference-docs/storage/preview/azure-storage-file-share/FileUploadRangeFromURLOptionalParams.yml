@@ -51,7 +51,7 @@ properties:
     syntax:
       content: 'leaseAccessConditions?: LeaseAccessConditions'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions" />
+        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions|preview" />
         description: ''
   - name: requestOptions
     uid: >-
@@ -96,7 +96,8 @@ properties:
       content: 'sourceModifiedAccessConditions?: SourceModifiedAccessConditions'
       return:
         type: >-
-          <xref uid="@azure/storage-file-share.SourceModifiedAccessConditions"
+          <xref
+          uid="@azure/storage-file-share.SourceModifiedAccessConditions|preview"
           />
         description: ''
   - name: sourceRange

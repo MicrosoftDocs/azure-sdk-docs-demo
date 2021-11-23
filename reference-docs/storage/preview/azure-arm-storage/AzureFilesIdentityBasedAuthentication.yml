@@ -21,7 +21,7 @@ properties:
     syntax:
       content: 'activeDirectoryProperties?: ActiveDirectoryProperties'
       return:
-        type: <xref uid="@azure/arm-storage.ActiveDirectoryProperties" />
+        type: <xref uid="@azure/arm-storage.ActiveDirectoryProperties|preview" />
         description: ''
   - name: defaultSharePermission
     uid: >-
@@ -37,7 +37,7 @@ properties:
     syntax:
       content: 'defaultSharePermission?: DefaultSharePermission'
       return:
-        type: <xref uid="@azure/arm-storage.DefaultSharePermission" />
+        type: <xref uid="@azure/arm-storage.DefaultSharePermission|preview" />
         description: ''
   - name: directoryServiceOptions
     uid: >-
@@ -51,5 +51,5 @@ properties:
     syntax:
       content: 'directoryServiceOptions: DirectoryServiceOptions'
       return:
-        type: <xref uid="@azure/arm-storage.DirectoryServiceOptions" />
+        type: <xref uid="@azure/arm-storage.DirectoryServiceOptions|preview" />
         description: ''

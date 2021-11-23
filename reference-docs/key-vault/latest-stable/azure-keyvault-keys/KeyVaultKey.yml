@@ -35,7 +35,7 @@ properties:
     syntax:
       content: 'key?: JsonWebKey'
       return:
-        type: <xref uid="@azure/keyvault-keys.JsonWebKey" />
+        type: <xref uid="@azure/keyvault-keys.JsonWebKey|latest-stable" />
         description: ''
   - name: keyOperations
     uid: '@azure/keyvault-keys.KeyVaultKey.keyOperations|latest-stable'
@@ -48,7 +48,7 @@ properties:
     syntax:
       content: 'keyOperations?: KeyOperation[]'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyOperation" />[]
+        type: <xref uid="@azure/keyvault-keys.KeyOperation|latest-stable" />[]
         description: ''
   - name: keyType
     uid: '@azure/keyvault-keys.KeyVaultKey.keyType|latest-stable'
@@ -67,7 +67,7 @@ properties:
     syntax:
       content: 'keyType?: KeyType'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyType" />
+        type: <xref uid="@azure/keyvault-keys.KeyType|latest-stable" />
         description: ''
   - name: name
     uid: '@azure/keyvault-keys.KeyVaultKey.name|latest-stable'
@@ -93,5 +93,5 @@ properties:
     syntax:
       content: 'properties: KeyProperties'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyProperties" />
+        type: <xref uid="@azure/keyvault-keys.KeyProperties|latest-stable" />
         description: ''

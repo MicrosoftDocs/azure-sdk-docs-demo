@@ -38,5 +38,7 @@ properties:
     syntax:
       content: 'value?: MigrationConfigProperties[]'
       return:
-        type: <xref uid="@azure/arm-servicebus.MigrationConfigProperties" />[]
+        type: >-
+          <xref uid="@azure/arm-servicebus.MigrationConfigProperties|preview"
+          />[]
         description: ''

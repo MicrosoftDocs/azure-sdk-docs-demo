@@ -67,7 +67,7 @@ methods:
             Sequence number or an array of sequence numbers of the messages to
             be cancelled.
         - id: options
-          type: <xref uid="@azure/service-bus.OperationOptionsBase" />
+          type: <xref uid="@azure/service-bus.OperationOptionsBase|latest-stable" />
           description: Options bag to pass an abort signal or tracing options.
       return:
         type: Promise&lt;void&gt;
@@ -106,7 +106,9 @@ methods:
       content: 'function createMessageBatch(options?: CreateMessageBatchOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/service-bus.CreateMessageBatchOptions" />
+          type: >-
+            <xref
+            uid="@azure/service-bus.CreateMessageBatchOptions|latest-stable" />
           description: >
             Configures the behavior of the batch.
 
@@ -114,8 +116,8 @@ methods:
             `tryAdd` function will return `false` after this limit is reached.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/service-bus.ServiceBusMessageBatch"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/service-bus.ServiceBusMessageBatch|latest-stable" />&gt;
         description: ''
   - name: >-
       scheduleMessages(ServiceBusMessage | ServiceBusMessage[] |
@@ -136,15 +138,15 @@ methods:
       parameters:
         - id: messages
           type: >-
-            <xref uid="@azure/service-bus.ServiceBusMessage" /> | <xref
-            uid="@azure/service-bus.ServiceBusMessage" />[] |
-            AmqpAnnotatedMessage | AmqpAnnotatedMessage[]
+            <xref uid="@azure/service-bus.ServiceBusMessage|latest-stable" /> |
+            <xref uid="@azure/service-bus.ServiceBusMessage|latest-stable" />[]
+            | AmqpAnnotatedMessage | AmqpAnnotatedMessage[]
           description: Message or an array of messages that need to be scheduled.
         - id: scheduledEnqueueTimeUtc
           type: Date
           description: The UTC time at which the messages should be enqueued.
         - id: options
-          type: <xref uid="@azure/service-bus.OperationOptionsBase" />
+          type: <xref uid="@azure/service-bus.OperationOptionsBase|latest-stable" />
           description: Options bag to pass an abort signal or tracing options.
       return:
         type: Promise&lt;Long_2[]&gt;
@@ -188,9 +190,10 @@ methods:
       parameters:
         - id: messages
           type: >-
-            <xref uid="@azure/service-bus.ServiceBusMessage" /> | <xref
-            uid="@azure/service-bus.ServiceBusMessage" />[] | <xref
-            uid="@azure/service-bus.ServiceBusMessageBatch" /> |
+            <xref uid="@azure/service-bus.ServiceBusMessage|latest-stable" /> |
+            <xref uid="@azure/service-bus.ServiceBusMessage|latest-stable" />[]
+            | <xref
+            uid="@azure/service-bus.ServiceBusMessageBatch|latest-stable" /> |
             AmqpAnnotatedMessage | AmqpAnnotatedMessage[]
           description: >-
             A single message or an array of messages or a batch of messages
@@ -198,7 +201,7 @@ methods:
 
             method to send.
         - id: options
-          type: <xref uid="@azure/service-bus.OperationOptionsBase" />
+          type: <xref uid="@azure/service-bus.OperationOptionsBase|latest-stable" />
           description: Options bag to pass an abort signal or tracing options.
       return:
         type: Promise&lt;void&gt;

@@ -75,7 +75,7 @@ properties:
     syntax:
       content: 'systemData?: SystemData'
       return:
-        type: <xref uid="@azure/arm-eventgrid.SystemData" />
+        type: <xref uid="@azure/arm-eventgrid.SystemData|latest-stable" />
         description: ''
   - name: systemTopic
     uid: '@azure/arm-eventgrid.ExtensionTopic.systemTopic|latest-stable'
@@ -107,4 +107,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-eventgrid.Resource" />
+extends: <xref uid="@azure/arm-eventgrid.Resource|latest-stable" />

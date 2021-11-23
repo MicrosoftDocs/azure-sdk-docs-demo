@@ -34,7 +34,7 @@ properties:
     syntax:
       content: 'algorithm: AesGcmEncryptionAlgorithm'
       return:
-        type: <xref uid="@azure/keyvault-keys.AesGcmEncryptionAlgorithm" />
+        type: <xref uid="@azure/keyvault-keys.AesGcmEncryptionAlgorithm|preview" />
         description: ''
   - name: plaintext
     uid: '@azure/keyvault-keys.AesGcmEncryptParameters.plaintext|preview'

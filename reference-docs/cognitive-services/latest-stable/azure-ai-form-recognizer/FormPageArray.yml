@@ -55,7 +55,9 @@ methods:
           type: number
           description: ''
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormPage" /> | undefined
+        type: >-
+          <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" /> |
+          undefined
         description: ''
   - name: concat(ConcatArray<FormPage>[])
     uid: '@azure/ai-form-recognizer.FormPageArray.concat|latest-stable'
@@ -69,12 +71,12 @@ methods:
       parameters:
         - id: items
           type: >-
-            ConcatArray&lt;<xref uid="@azure/ai-form-recognizer.FormPage"
-            />&gt;[]
+            ConcatArray&lt;<xref
+            uid="@azure/ai-form-recognizer.FormPage|latest-stable" />&gt;[]
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormPage" />[]
+        type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />[]
         description: ''
   - name: concat(T | ConcatArray<T>[])
     uid: '@azure/ai-form-recognizer.FormPageArray.concat_1|latest-stable'
@@ -91,7 +93,7 @@ methods:
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormPage" />[]
+        type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />[]
         description: ''
   - name: copyWithin(number, number, number)
     uid: '@azure/ai-form-recognizer.FormPageArray.copyWithin|latest-stable'
@@ -181,7 +183,7 @@ methods:
       content: 'function fill(value: FormPage, start?: number, end?: number)'
       parameters:
         - id: value
-          type: <xref uid="@azure/ai-form-recognizer.FormPage" />
+          type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />
           description: value to fill array section with
         - id: start
           type: number
@@ -229,7 +231,7 @@ methods:
             function. If thisArg is omitted, undefined is used as the this
             value.
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormPage" />[]
+        type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />[]
         description: ''
   - name: >-
       filter<S>((value: FormPage, index: number, array: FormPage[]) => boolean,
@@ -281,7 +283,9 @@ methods:
           type: any
           description: ''
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormPage" /> | undefined
+        type: >-
+          <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" /> |
+          undefined
         description: ''
   - name: >-
       find<S>((this: void, value: FormPage, index: number, obj: FormPage[]) =>
@@ -652,7 +656,7 @@ methods:
       content: 'function includes(searchElement: FormPage, fromIndex?: number)'
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/ai-form-recognizer.FormPage" />
+          type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />
           description: The element to search for.
         - id: fromIndex
           type: number
@@ -673,7 +677,7 @@ methods:
       content: 'function indexOf(searchElement: FormPage, fromIndex?: number)'
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/ai-form-recognizer.FormPage" />
+          type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />
           description: The value to locate in the array.
         - id: fromIndex
           type: number
@@ -727,7 +731,7 @@ methods:
       content: 'function lastIndexOf(searchElement: FormPage, fromIndex?: number)'
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/ai-form-recognizer.FormPage" />
+          type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />
           description: The value to locate in the array.
         - id: fromIndex
           type: number
@@ -775,7 +779,9 @@ methods:
     syntax:
       content: function pop()
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormPage" /> | undefined
+        type: >-
+          <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" /> |
+          undefined
         description: ''
   - name: push(FormPage[])
     uid: '@azure/ai-form-recognizer.FormPageArray.push|latest-stable'
@@ -788,7 +794,7 @@ methods:
       content: 'function push(items: FormPage[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/ai-form-recognizer.FormPage" />[]
+          type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />[]
           description: |
             New elements of the Array.
       return:
@@ -820,7 +826,7 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormPage" />
+        type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />
         description: ''
   - name: >-
       reduce((previousValue: FormPage, currentValue: FormPage, currentIndex:
@@ -843,10 +849,10 @@ methods:
             number, array: FormPage[]) =&gt; FormPage
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/ai-form-recognizer.FormPage" />
+          type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormPage" />
+        type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />
         description: ''
   - name: >-
       reduce<U>((previousValue: U, currentValue: FormPage, currentIndex: number,
@@ -910,7 +916,7 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormPage" />
+        type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />
         description: ''
   - name: >-
       reduceRight((previousValue: FormPage, currentValue: FormPage,
@@ -933,10 +939,10 @@ methods:
             number, array: FormPage[]) =&gt; FormPage
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/ai-form-recognizer.FormPage" />
+          type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormPage" />
+        type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />
         description: ''
   - name: >-
       reduceRight<U>((previousValue: U, currentValue: FormPage, currentIndex:
@@ -984,7 +990,7 @@ methods:
     syntax:
       content: function reverse()
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormPage" />[]
+        type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />[]
         description: ''
   - name: shift()
     uid: '@azure/ai-form-recognizer.FormPageArray.shift|latest-stable'
@@ -996,7 +1002,9 @@ methods:
     syntax:
       content: function shift()
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormPage" /> | undefined
+        type: >-
+          <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" /> |
+          undefined
         description: ''
   - name: slice(number, number)
     uid: '@azure/ai-form-recognizer.FormPageArray.slice|latest-stable'
@@ -1016,7 +1024,7 @@ methods:
           description: |
             The end of the specified portion of the array.
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormPage" />[]
+        type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />[]
         description: ''
   - name: 'some((value: FormPage, index: number, array: FormPage[]) => unknown, any)'
     uid: '@azure/ai-form-recognizer.FormPageArray.some|latest-stable'
@@ -1088,7 +1096,7 @@ methods:
           description: |
             The number of elements to remove.
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormPage" />[]
+        type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />[]
         description: ''
   - name: splice(number, number, FormPage[])
     uid: '@azure/ai-form-recognizer.FormPageArray.splice_1|latest-stable'
@@ -1111,11 +1119,11 @@ methods:
           type: number
           description: The number of elements to remove.
         - id: items
-          type: <xref uid="@azure/ai-form-recognizer.FormPage" />[]
+          type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />[]
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormPage" />[]
+        type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />[]
         description: ''
   - name: toLocaleString()
     uid: '@azure/ai-form-recognizer.FormPageArray.toLocaleString|latest-stable'
@@ -1154,7 +1162,7 @@ methods:
       content: 'function unshift(items: FormPage[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/ai-form-recognizer.FormPage" />[]
+          type: <xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />[]
           description: |
             Elements to insert at the start of the Array.
       return:
@@ -1171,7 +1179,7 @@ methods:
       content: function values()
       return:
         type: >-
-          IterableIterator&lt;<xref uid="@azure/ai-form-recognizer.FormPage"
-          />&gt;
+          IterableIterator&lt;<xref
+          uid="@azure/ai-form-recognizer.FormPage|latest-stable" />&gt;
         description: ''
-extends: Array&lt;<xref uid="@azure/ai-form-recognizer.FormPage" />&gt;
+extends: Array&lt;<xref uid="@azure/ai-form-recognizer.FormPage|latest-stable" />&gt;

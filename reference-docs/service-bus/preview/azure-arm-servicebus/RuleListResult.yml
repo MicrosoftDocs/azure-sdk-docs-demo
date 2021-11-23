@@ -35,5 +35,5 @@ properties:
     syntax:
       content: 'value?: Rule[]'
       return:
-        type: <xref uid="@azure/arm-servicebus.Rule" />[]
+        type: <xref uid="@azure/arm-servicebus.Rule|preview" />[]
         description: ''

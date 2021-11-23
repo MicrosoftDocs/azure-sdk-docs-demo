@@ -35,7 +35,7 @@ properties:
     syntax:
       content: 'details?: CloudErrorBody[]'
       return:
-        type: <xref uid="@azure/arm-storage.CloudErrorBody" />[]
+        type: <xref uid="@azure/arm-storage.CloudErrorBody|preview" />[]
         description: ''
   - name: message
     uid: '@azure/arm-storage.CloudErrorBody.message|preview'

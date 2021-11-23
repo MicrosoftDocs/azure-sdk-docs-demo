@@ -30,11 +30,14 @@ methods:
                          '/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}'
                          for Azure resource.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.ExtensionTopicsGetOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.ExtensionTopicsGetOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-eventgrid.ExtensionTopicsGetResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-eventgrid.ExtensionTopicsGetResponse|preview" />&gt;
         description: ''

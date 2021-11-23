@@ -72,8 +72,9 @@ methods:
           description: ''
       return:
         type: >-
-          <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" /> |
-          undefined
+          <xref
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable" />
+          | undefined
         description: ''
   - name: concat(ConcatArray<PrivateEndpointConnection>[])
     uid: >-
@@ -89,11 +90,15 @@ methods:
         - id: items
           type: >-
             ConcatArray&lt;<xref
-            uid="@azure/arm-eventgrid.PrivateEndpointConnection" />&gt;[]
+            uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+            />&gt;[]
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+          />[]
         description: ''
   - name: concat(T | ConcatArray<T>[])
     uid: >-
@@ -111,7 +116,10 @@ methods:
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+          />[]
         description: ''
   - name: copyWithin(number, number, undefined | number)
     uid: >-
@@ -213,7 +221,10 @@ methods:
         number, end?: undefined | number)
       parameters:
         - id: value
-          type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+            />
           description: value to fill array section with
         - id: start
           type: undefined | number
@@ -264,7 +275,10 @@ methods:
             function. If thisArg is omitted, undefined is used as the this
             value.
       return:
-        type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+          />[]
         description: ''
   - name: >-
       filter<S>((value: PrivateEndpointConnection, index: number, array:
@@ -325,8 +339,9 @@ methods:
           description: ''
       return:
         type: >-
-          <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" /> |
-          undefined
+          <xref
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable" />
+          | undefined
         description: ''
   - name: >-
       find<S>((this: void, value: PrivateEndpointConnection, index: number, obj:
@@ -721,7 +736,10 @@ methods:
         undefined | number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+            />
           description: The element to search for.
         - id: fromIndex
           type: undefined | number
@@ -745,7 +763,10 @@ methods:
         undefined | number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+            />
           description: The value to locate in the array.
         - id: fromIndex
           type: undefined | number
@@ -804,7 +825,10 @@ methods:
         fromIndex?: undefined | number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+            />
           description: The value to locate in the array.
         - id: fromIndex
           type: undefined | number
@@ -857,8 +881,9 @@ methods:
       content: function pop()
       return:
         type: >-
-          <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" /> |
-          undefined
+          <xref
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable" />
+          | undefined
         description: ''
   - name: push(PrivateEndpointConnection[])
     uid: >-
@@ -872,7 +897,10 @@ methods:
       content: 'function push(items: PrivateEndpointConnection[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />[]
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+            />[]
           description: |
             New elements of the Array.
       return:
@@ -908,7 +936,9 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable" />
         description: ''
   - name: >-
       reduce((previousValue: PrivateEndpointConnection, currentValue:
@@ -936,10 +966,15 @@ methods:
             PrivateEndpointConnection[]) =&gt; PrivateEndpointConnection
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+            />
           description: ''
       return:
-        type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable" />
         description: ''
   - name: >-
       reduce<U>((previousValue: U, currentValue: PrivateEndpointConnection,
@@ -1009,7 +1044,9 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable" />
         description: ''
   - name: >-
       reduceRight((previousValue: PrivateEndpointConnection, currentValue:
@@ -1037,10 +1074,15 @@ methods:
             PrivateEndpointConnection[]) =&gt; PrivateEndpointConnection
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+            />
           description: ''
       return:
-        type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable" />
         description: ''
   - name: >-
       reduceRight<U>((previousValue: U, currentValue: PrivateEndpointConnection,
@@ -1090,7 +1132,10 @@ methods:
     syntax:
       content: function reverse()
       return:
-        type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+          />[]
         description: ''
   - name: shift()
     uid: >-
@@ -1104,8 +1149,9 @@ methods:
       content: function shift()
       return:
         type: >-
-          <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" /> |
-          undefined
+          <xref
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable" />
+          | undefined
         description: ''
   - name: slice(undefined | number, undefined | number)
     uid: >-
@@ -1126,7 +1172,10 @@ methods:
           description: |
             The end of the specified portion of the array.
       return:
-        type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+          />[]
         description: ''
   - name: >-
       some((value: PrivateEndpointConnection, index: number, array:
@@ -1212,11 +1261,17 @@ methods:
           type: number
           description: The number of elements to remove.
         - id: items
-          type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />[]
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+            />[]
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
-        type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+          />[]
         description: ''
   - name: splice(number, undefined | number)
     uid: >-
@@ -1241,7 +1296,10 @@ methods:
           description: |
             The number of elements to remove.
       return:
-        type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+          />[]
         description: ''
   - name: toLocaleString()
     uid: >-
@@ -1283,7 +1341,10 @@ methods:
       content: 'function unshift(items: PrivateEndpointConnection[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />[]
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+            />[]
           description: |
             Elements to insert at the start of the Array.
       return:
@@ -1302,6 +1363,9 @@ methods:
       return:
         type: >-
           IterableIterator&lt;<xref
-          uid="@azure/arm-eventgrid.PrivateEndpointConnection" />&gt;
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+          />&gt;
         description: ''
-extends: Array&lt;<xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />&gt;
+extends: >-
+  Array&lt;<xref
+  uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable" />&gt;

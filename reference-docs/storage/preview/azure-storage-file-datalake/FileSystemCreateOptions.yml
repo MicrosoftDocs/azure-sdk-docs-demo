@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'access?: PublicAccessType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.PublicAccessType" />
+        type: <xref uid="@azure/storage-file-datalake.PublicAccessType|preview" />
         description: ''
   - name: metadata
     uid: '@azure/storage-file-datalake.FileSystemCreateOptions.metadata|preview'
@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-file-datalake.Metadata" />
+        type: <xref uid="@azure/storage-file-datalake.Metadata|preview" />
         description: ''
   - name: tracingOptions
     uid: >-
@@ -62,4 +62,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />
+extends: <xref uid="@azure/storage-file-datalake.CommonOptions|preview" />

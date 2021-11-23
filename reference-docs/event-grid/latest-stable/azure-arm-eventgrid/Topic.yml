@@ -74,7 +74,7 @@ properties:
     syntax:
       content: 'identity?: IdentityInfo'
       return:
-        type: <xref uid="@azure/arm-eventgrid.IdentityInfo" />
+        type: <xref uid="@azure/arm-eventgrid.IdentityInfo|latest-stable" />
         description: ''
   - name: inboundIpRules
     uid: '@azure/arm-eventgrid.Topic.inboundIpRules|latest-stable'
@@ -91,7 +91,7 @@ properties:
     syntax:
       content: 'inboundIpRules?: InboundIpRule[]'
       return:
-        type: <xref uid="@azure/arm-eventgrid.InboundIpRule" />[]
+        type: <xref uid="@azure/arm-eventgrid.InboundIpRule|latest-stable" />[]
         description: ''
   - name: inputSchema
     uid: '@azure/arm-eventgrid.Topic.inputSchema|latest-stable'
@@ -110,7 +110,7 @@ properties:
     syntax:
       content: 'inputSchema?: InputSchema'
       return:
-        type: <xref uid="@azure/arm-eventgrid.InputSchema" />
+        type: <xref uid="@azure/arm-eventgrid.InputSchema|latest-stable" />
         description: ''
   - name: inputSchemaMapping
     uid: '@azure/arm-eventgrid.Topic.inputSchemaMapping|latest-stable'
@@ -130,7 +130,9 @@ properties:
     syntax:
       content: 'inputSchemaMapping?: InputSchemaMappingUnion'
       return:
-        type: <xref uid="@azure/arm-eventgrid.InputSchemaMappingUnion" />
+        type: >-
+          <xref uid="@azure/arm-eventgrid.InputSchemaMappingUnion|latest-stable"
+          />
         description: ''
   - name: location
     uid: '@azure/arm-eventgrid.Topic.location|latest-stable'
@@ -192,7 +194,10 @@ properties:
     syntax:
       content: 'privateEndpointConnections?: PrivateEndpointConnection[]'
       return:
-        type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|latest-stable"
+          />[]
         description: ''
   - name: provisioningState
     uid: '@azure/arm-eventgrid.Topic.provisioningState|latest-stable'
@@ -212,7 +217,9 @@ properties:
     syntax:
       content: 'provisioningState?: TopicProvisioningState'
       return:
-        type: <xref uid="@azure/arm-eventgrid.TopicProvisioningState" />
+        type: >-
+          <xref uid="@azure/arm-eventgrid.TopicProvisioningState|latest-stable"
+          />
         description: ''
   - name: publicNetworkAccess
     uid: '@azure/arm-eventgrid.Topic.publicNetworkAccess|latest-stable'
@@ -234,7 +241,7 @@ properties:
     syntax:
       content: 'publicNetworkAccess?: PublicNetworkAccess'
       return:
-        type: <xref uid="@azure/arm-eventgrid.PublicNetworkAccess" />
+        type: <xref uid="@azure/arm-eventgrid.PublicNetworkAccess|latest-stable" />
         description: ''
   - name: systemData
     uid: '@azure/arm-eventgrid.Topic.systemData|latest-stable'
@@ -251,7 +258,7 @@ properties:
     syntax:
       content: 'systemData?: SystemData'
       return:
-        type: <xref uid="@azure/arm-eventgrid.SystemData" />
+        type: <xref uid="@azure/arm-eventgrid.SystemData|latest-stable" />
         description: ''
   - name: tags
     uid: '@azure/arm-eventgrid.Topic.tags|latest-stable'
@@ -283,4 +290,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-eventgrid.TrackedResource" />
+extends: <xref uid="@azure/arm-eventgrid.TrackedResource|latest-stable" />

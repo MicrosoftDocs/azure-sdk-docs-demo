@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'results: AnomalyState[]'
       return:
-        type: <xref uid="@azure/ai-anomaly-detector.AnomalyState" />[]
+        type: <xref uid="@azure/ai-anomaly-detector.AnomalyState|preview" />[]
         description: ''
   - name: summary
     uid: '@azure/ai-anomaly-detector.DetectionResult.summary|preview'
@@ -46,5 +46,7 @@ properties:
     syntax:
       content: 'summary: DetectionResultSummary'
       return:
-        type: <xref uid="@azure/ai-anomaly-detector.DetectionResultSummary" />
+        type: >-
+          <xref uid="@azure/ai-anomaly-detector.DetectionResultSummary|preview"
+          />
         description: ''

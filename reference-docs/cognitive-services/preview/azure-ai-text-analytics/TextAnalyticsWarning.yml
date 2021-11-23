@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'code: WarningCode'
       return:
-        type: <xref uid="@azure/ai-text-analytics.WarningCode" />
+        type: <xref uid="@azure/ai-text-analytics.WarningCode|preview" />
         description: ''
   - name: message
     uid: '@azure/ai-text-analytics.TextAnalyticsWarning.message|preview'

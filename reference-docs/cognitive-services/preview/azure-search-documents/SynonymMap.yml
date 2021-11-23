@@ -42,7 +42,9 @@ properties:
     syntax:
       content: 'encryptionKey?: SearchResourceEncryptionKey'
       return:
-        type: <xref uid="@azure/search-documents.SearchResourceEncryptionKey" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.SearchResourceEncryptionKey|preview" />
         description: ''
   - name: etag
     uid: '@azure/search-documents.SynonymMap.etag|preview'

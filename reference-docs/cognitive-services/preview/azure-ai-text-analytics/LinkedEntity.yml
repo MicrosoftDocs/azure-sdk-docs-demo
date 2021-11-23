@@ -75,7 +75,7 @@ properties:
     syntax:
       content: 'matches: Match[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.Match" />[]
+        type: <xref uid="@azure/ai-text-analytics.Match|preview" />[]
         description: ''
   - name: name
     uid: '@azure/ai-text-analytics.LinkedEntity.name|preview'

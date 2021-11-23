@@ -38,7 +38,10 @@ properties:
     syntax:
       content: 'configuration?: IndexingParametersConfiguration'
       return:
-        type: <xref uid="@azure/search-documents.IndexingParametersConfiguration" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.IndexingParametersConfiguration|preview"
+          />
         description: ''
   - name: maxFailedItems
     uid: '@azure/search-documents.IndexingParameters.maxFailedItems|preview'

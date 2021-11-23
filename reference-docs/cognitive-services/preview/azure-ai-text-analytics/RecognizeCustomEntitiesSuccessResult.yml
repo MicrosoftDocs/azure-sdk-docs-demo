@@ -23,7 +23,7 @@ properties:
     syntax:
       content: 'entities: CategorizedEntity[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.CategorizedEntity" />[]
+        type: <xref uid="@azure/ai-text-analytics.CategorizedEntity|preview" />[]
         description: ''
   - name: error
     uid: >-
@@ -70,7 +70,7 @@ properties:
     syntax:
       content: 'statistics?: TextDocumentStatistics'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextDocumentStatistics" />
+        type: <xref uid="@azure/ai-text-analytics.TextDocumentStatistics|preview" />
         description: ''
   - name: warnings
     uid: >-
@@ -86,6 +86,6 @@ properties:
     syntax:
       content: 'warnings: TextAnalyticsWarning[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsWarning" />[]
+        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsWarning|preview" />[]
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsSuccessResult" />
+extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsSuccessResult|preview" />

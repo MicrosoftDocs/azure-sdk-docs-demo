@@ -59,7 +59,7 @@ properties:
     syntax:
       content: 'properties: ContainerProperties'
       return:
-        type: <xref uid="@azure/storage-blob.ContainerProperties" />
+        type: <xref uid="@azure/storage-blob.ContainerProperties|preview" />
         description: ''
   - name: version
     uid: '@azure/storage-blob.ContainerItem.version|preview'

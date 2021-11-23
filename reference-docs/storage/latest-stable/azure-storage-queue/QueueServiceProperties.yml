@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'cors?: CorsRule[]'
       return:
-        type: <xref uid="@azure/storage-queue.CorsRule" />[]
+        type: <xref uid="@azure/storage-queue.CorsRule|latest-stable" />[]
         description: ''
   - name: hourMetrics
     uid: '@azure/storage-queue.QueueServiceProperties.hourMetrics|latest-stable'
@@ -35,7 +35,7 @@ properties:
     syntax:
       content: 'hourMetrics?: Metrics'
       return:
-        type: <xref uid="@azure/storage-queue.Metrics" />
+        type: <xref uid="@azure/storage-queue.Metrics|latest-stable" />
         description: ''
   - name: minuteMetrics
     uid: '@azure/storage-queue.QueueServiceProperties.minuteMetrics|latest-stable'
@@ -50,7 +50,7 @@ properties:
     syntax:
       content: 'minuteMetrics?: Metrics'
       return:
-        type: <xref uid="@azure/storage-queue.Metrics" />
+        type: <xref uid="@azure/storage-queue.Metrics|latest-stable" />
         description: ''
   - name: queueAnalyticsLogging
     uid: >-
@@ -64,5 +64,5 @@ properties:
     syntax:
       content: 'queueAnalyticsLogging?: Logging'
       return:
-        type: <xref uid="@azure/storage-queue.Logging" />
+        type: <xref uid="@azure/storage-queue.Logging|latest-stable" />
         description: ''

@@ -36,7 +36,9 @@ properties:
     syntax:
       content: 'appServicePlanEventTypeDetail: AppServicePlanEventTypeDetail'
       return:
-        type: <xref uid="@azure/eventgrid.AppServicePlanEventTypeDetail" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.AppServicePlanEventTypeDetail|latest-stable" />
         description: ''
   - name: clientRequestId
     uid: >-
@@ -109,7 +111,10 @@ properties:
     syntax:
       content: 'sku: WebAppServicePlanUpdatedEventDataSku'
       return:
-        type: <xref uid="@azure/eventgrid.WebAppServicePlanUpdatedEventDataSku" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.WebAppServicePlanUpdatedEventDataSku|latest-stable"
+          />
         description: ''
   - name: verb
     uid: '@azure/eventgrid.WebAppServicePlanUpdatedEventData.verb|latest-stable'

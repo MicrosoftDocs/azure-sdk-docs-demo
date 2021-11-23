@@ -20,7 +20,10 @@ constructors:
       content: 'new PrivateEndpointConnections(client: StorageManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -62,7 +65,7 @@ methods:
             The name of the private endpoint connection associated with
             the Azure resource
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -187,11 +190,12 @@ methods:
             The name of the private endpoint connection associated with
             the Azure resource
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.PrivateEndpointConnectionsGetResponse"
+          Promise&lt;<xref
+          uid="Models.PrivateEndpointConnectionsGetResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateEndpointConnectionsGetResponse>
   - name: >-
@@ -237,7 +241,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.PrivateEndpointConnection" />&gt;
+            uid="@azure/arm-storage.PrivateEndpointConnection|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: get(string, string, string, ServiceCallback<PrivateEndpointConnection>)
@@ -278,7 +283,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.PrivateEndpointConnection" />&gt;
+            uid="@azure/arm-storage.PrivateEndpointConnection|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: list(string, string, msRest.RequestOptionsBase)
@@ -313,11 +319,12 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.PrivateEndpointConnectionsListResponse"
+          Promise&lt;<xref
+          uid="Models.PrivateEndpointConnectionsListResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateEndpointConnectionsListResponse>
   - name: >-
@@ -358,7 +365,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.PrivateEndpointConnectionListResult" />&gt;
+            uid="@azure/arm-storage.PrivateEndpointConnectionListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: list(string, string, ServiceCallback<PrivateEndpointConnectionListResult>)
@@ -393,7 +401,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.PrivateEndpointConnectionListResult" />&gt;
+            uid="@azure/arm-storage.PrivateEndpointConnectionListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -436,14 +445,17 @@ methods:
             The name of the private endpoint connection associated with
             the Azure resource
         - id: properties
-          type: <xref uid="@azure/arm-storage.PrivateEndpointConnection" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.PrivateEndpointConnection|latest-stable" />
           description: The private endpoint connection properties.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.PrivateEndpointConnectionsPutResponse"
+          Promise&lt;<xref
+          uid="Models.PrivateEndpointConnectionsPutResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateEndpointConnectionsPutResponse>
   - name: >-
@@ -485,7 +497,9 @@ methods:
             The name of the private endpoint connection associated with
             the Azure resource
         - id: properties
-          type: <xref uid="@azure/arm-storage.PrivateEndpointConnection" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.PrivateEndpointConnection|latest-stable" />
           description: The private endpoint connection properties.
         - id: options
           type: RequestOptionsBase
@@ -493,7 +507,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.PrivateEndpointConnection" />&gt;
+            uid="@azure/arm-storage.PrivateEndpointConnection|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -535,11 +550,14 @@ methods:
             The name of the private endpoint connection associated with
             the Azure resource
         - id: properties
-          type: <xref uid="@azure/arm-storage.PrivateEndpointConnection" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.PrivateEndpointConnection|latest-stable" />
           description: The private endpoint connection properties.
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.PrivateEndpointConnection" />&gt;
+            uid="@azure/arm-storage.PrivateEndpointConnection|latest-stable"
+            />&gt;
           description: |
             The callback

@@ -180,10 +180,10 @@ methods:
           type: string
           description: The token that needs to be sent in the put-token request.
         - id: tokenType
-          type: <xref uid="@azure/core-amqp.TokenType" />
+          type: <xref uid="@azure/core-amqp.TokenType|preview" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/core-amqp.CbsResponse" />&gt;
+        type: Promise&lt;<xref uid="@azure/core-amqp.CbsResponse|preview" />&gt;
         description: |-
           Returns a Promise that resolves when $cbs authentication is successful
           and rejects when an error occurs during $cbs authentication.

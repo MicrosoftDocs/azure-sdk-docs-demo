@@ -28,7 +28,7 @@ properties:
     syntax:
       content: 'accessPolicies?: AccessPolicyEntry[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.AccessPolicyEntry" />[]
+        type: <xref uid="@azure/arm-keyvault.AccessPolicyEntry|latest-stable" />[]
         description: ''
   - name: createMode
     uid: '@azure/arm-keyvault.VaultProperties.createMode|latest-stable'
@@ -45,7 +45,7 @@ properties:
     syntax:
       content: 'createMode?: CreateMode'
       return:
-        type: <xref uid="@azure/arm-keyvault.CreateMode" />
+        type: <xref uid="@azure/arm-keyvault.CreateMode|latest-stable" />
         description: ''
   - name: enabledForDeployment
     uid: '@azure/arm-keyvault.VaultProperties.enabledForDeployment|latest-stable'
@@ -157,7 +157,7 @@ properties:
     syntax:
       content: 'networkAcls?: NetworkRuleSet'
       return:
-        type: <xref uid="@azure/arm-keyvault.NetworkRuleSet" />
+        type: <xref uid="@azure/arm-keyvault.NetworkRuleSet|latest-stable" />
         description: ''
   - name: sku
     uid: '@azure/arm-keyvault.VaultProperties.sku|latest-stable'
@@ -170,7 +170,7 @@ properties:
     syntax:
       content: 'sku: Sku'
       return:
-        type: <xref uid="@azure/arm-keyvault.Sku" />
+        type: <xref uid="@azure/arm-keyvault.Sku|latest-stable" />
         description: ''
   - name: tenantId
     uid: '@azure/arm-keyvault.VaultProperties.tenantId|latest-stable'

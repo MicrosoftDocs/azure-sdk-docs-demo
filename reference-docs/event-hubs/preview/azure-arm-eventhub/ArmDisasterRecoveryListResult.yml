@@ -38,5 +38,5 @@ properties:
     syntax:
       content: 'value?: ArmDisasterRecovery[]'
       return:
-        type: <xref uid="@azure/arm-eventhub.ArmDisasterRecovery" />[]
+        type: <xref uid="@azure/arm-eventhub.ArmDisasterRecovery|preview" />[]
         description: ''

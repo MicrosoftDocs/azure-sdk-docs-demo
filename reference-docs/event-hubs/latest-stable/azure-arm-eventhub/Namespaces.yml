@@ -20,7 +20,10 @@ constructors:
       content: 'new Namespaces(client: EventHubManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-eventhub.EventHubManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.EventHubManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -49,10 +52,10 @@ methods:
           type: string
           description: The Namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+          type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />
           description: Parameters for creating a namespace resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -80,7 +83,7 @@ methods:
           type: string
           description: The Namespace name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -100,14 +103,18 @@ methods:
         CheckNameAvailabilityParameter, options?: msRest.RequestOptionsBase)
       parameters:
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.CheckNameAvailabilityParameter" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.CheckNameAvailabilityParameter|latest-stable"
+            />
           description: Parameters to check availability of the given Namespace name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.NamespacesCheckNameAvailabilityResponse"
+          Promise&lt;<xref
+          uid="Models.NamespacesCheckNameAvailabilityResponse|latest-stable"
           />&gt;
         description: Promise<Models.NamespacesCheckNameAvailabilityResponse>
   - name: >-
@@ -126,7 +133,10 @@ methods:
         ServiceCallback<CheckNameAvailabilityResult>)
       parameters:
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.CheckNameAvailabilityParameter" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.CheckNameAvailabilityParameter|latest-stable"
+            />
           description: Parameters to check availability of the given Namespace name
         - id: options
           type: RequestOptionsBase
@@ -134,7 +144,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.CheckNameAvailabilityResult" />&gt;
+            uid="@azure/arm-eventhub.CheckNameAvailabilityResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -153,12 +164,16 @@ methods:
         ServiceCallback<CheckNameAvailabilityResult>)
       parameters:
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.CheckNameAvailabilityParameter" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.CheckNameAvailabilityParameter|latest-stable"
+            />
           description: Parameters to check availability of the given Namespace name
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.CheckNameAvailabilityResult" />&gt;
+            uid="@azure/arm-eventhub.CheckNameAvailabilityResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: createOrUpdate(string, string, EHNamespace, msRest.RequestOptionsBase)
@@ -184,13 +199,15 @@ methods:
           type: string
           description: The Namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+          type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />
           description: Parameters for creating a namespace resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.NamespacesCreateOrUpdateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.NamespacesCreateOrUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.NamespacesCreateOrUpdateResponse>
   - name: >-
       createOrUpdateAuthorizationRule(string, string, string, AuthorizationRule,
@@ -218,15 +235,16 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.AuthorizationRule" />
+          type: <xref uid="@azure/arm-eventhub.AuthorizationRule|latest-stable" />
           description: The shared access AuthorizationRule.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.NamespacesCreateOrUpdateAuthorizationRuleResponse" />&gt;
+          uid="Models.NamespacesCreateOrUpdateAuthorizationRuleResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesCreateOrUpdateAuthorizationRuleResponse>
   - name: >-
       createOrUpdateAuthorizationRule(string, string, string, AuthorizationRule,
@@ -255,15 +273,15 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.AuthorizationRule" />
+          type: <xref uid="@azure/arm-eventhub.AuthorizationRule|latest-stable" />
           description: The shared access AuthorizationRule.
         - id: options
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.AuthorizationRule"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.AuthorizationRule|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -292,12 +310,12 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.AuthorizationRule" />
+          type: <xref uid="@azure/arm-eventhub.AuthorizationRule|latest-stable" />
           description: The shared access AuthorizationRule.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.AuthorizationRule"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.AuthorizationRule|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -322,15 +340,16 @@ methods:
           type: string
           description: The Namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.NetworkRuleSet" />
+          type: <xref uid="@azure/arm-eventhub.NetworkRuleSet|latest-stable" />
           description: The Namespace IpFilterRule.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.NamespacesCreateOrUpdateNetworkRuleSetResponse" />&gt;
+          uid="Models.NamespacesCreateOrUpdateNetworkRuleSetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesCreateOrUpdateNetworkRuleSetResponse>
   - name: >-
       createOrUpdateNetworkRuleSet(string, string, NetworkRuleSet,
@@ -355,15 +374,15 @@ methods:
           type: string
           description: The Namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.NetworkRuleSet" />
+          type: <xref uid="@azure/arm-eventhub.NetworkRuleSet|latest-stable" />
           description: The Namespace IpFilterRule.
         - id: options
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.NetworkRuleSet"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.NetworkRuleSet|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -389,12 +408,12 @@ methods:
           type: string
           description: The Namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.NetworkRuleSet" />
+          type: <xref uid="@azure/arm-eventhub.NetworkRuleSet|latest-stable" />
           description: The Namespace IpFilterRule.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.NetworkRuleSet"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.NetworkRuleSet|latest-stable" />&gt;
           description: |
             The callback
   - name: deleteAuthorizationRule(string, string, string, msRest.RequestOptionsBase)
@@ -420,7 +439,7 @@ methods:
           type: string
           description: The authorization rule name.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -505,7 +524,7 @@ methods:
           type: string
           description: The Namespace name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -529,10 +548,12 @@ methods:
           type: string
           description: The Namespace name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.NamespacesGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.NamespacesGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesGetResponse>
   - name: get(string, string, RequestOptionsBase, ServiceCallback<EHNamespace>)
     uid: '@azure/arm-eventhub.Namespaces.get_2|latest-stable'
@@ -557,8 +578,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.EHNamespace"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.EHNamespace|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, ServiceCallback<EHNamespace>)
@@ -581,8 +602,8 @@ methods:
           description: The Namespace name
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.EHNamespace"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.EHNamespace|latest-stable" />&gt;
           description: |
             The callback
   - name: getAuthorizationRule(string, string, string, msRest.RequestOptionsBase)
@@ -608,11 +629,12 @@ methods:
           type: string
           description: The authorization rule name.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.NamespacesGetAuthorizationRuleResponse"
+          Promise&lt;<xref
+          uid="Models.NamespacesGetAuthorizationRuleResponse|latest-stable"
           />&gt;
         description: Promise<Models.NamespacesGetAuthorizationRuleResponse>
   - name: >-
@@ -644,8 +666,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.AuthorizationRule"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.AuthorizationRule|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -674,8 +696,8 @@ methods:
           description: The authorization rule name.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.AuthorizationRule"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.AuthorizationRule|latest-stable" />&gt;
           description: |
             The callback
   - name: getNetworkRuleSet(string, string, msRest.RequestOptionsBase)
@@ -697,12 +719,12 @@ methods:
           type: string
           description: The Namespace name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.NamespacesGetNetworkRuleSetResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.NamespacesGetNetworkRuleSetResponse|latest-stable" />&gt;
         description: Promise<Models.NamespacesGetNetworkRuleSetResponse>
   - name: >-
       getNetworkRuleSet(string, string, RequestOptionsBase,
@@ -730,8 +752,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.NetworkRuleSet"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.NetworkRuleSet|latest-stable" />&gt;
           description: |
             The callback
   - name: getNetworkRuleSet(string, string, ServiceCallback<NetworkRuleSet>)
@@ -754,8 +776,8 @@ methods:
           description: The Namespace name
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.NetworkRuleSet"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.NetworkRuleSet|latest-stable" />&gt;
           description: |
             The callback
   - name: list(msRest.RequestOptionsBase)
@@ -771,10 +793,12 @@ methods:
       content: 'function list(options?: msRest.RequestOptionsBase)'
       parameters:
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.NamespacesListResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.NamespacesListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesListResponse>
   - name: list(RequestOptionsBase, ServiceCallback<EHNamespaceListResult>)
     uid: '@azure/arm-eventhub.Namespaces.list_2|latest-stable'
@@ -794,7 +818,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.EHNamespaceListResult" />&gt;
+            uid="@azure/arm-eventhub.EHNamespaceListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: list(ServiceCallback<EHNamespaceListResult>)
@@ -810,7 +834,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.EHNamespaceListResult" />&gt;
+            uid="@azure/arm-eventhub.EHNamespaceListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listAuthorizationRules(string, string, msRest.RequestOptionsBase)
@@ -832,11 +856,12 @@ methods:
           type: string
           description: The Namespace name
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.NamespacesListAuthorizationRulesResponse"
+          Promise&lt;<xref
+          uid="Models.NamespacesListAuthorizationRulesResponse|latest-stable"
           />&gt;
         description: Promise<Models.NamespacesListAuthorizationRulesResponse>
   - name: >-
@@ -866,7 +891,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.AuthorizationRuleListResult" />&gt;
+            uid="@azure/arm-eventhub.AuthorizationRuleListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -893,7 +919,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.AuthorizationRuleListResult" />&gt;
+            uid="@azure/arm-eventhub.AuthorizationRuleListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listAuthorizationRulesNext(string, msRest.RequestOptionsBase)
@@ -912,12 +939,13 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.NamespacesListAuthorizationRulesNextResponse" />&gt;
+          uid="Models.NamespacesListAuthorizationRulesNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesListAuthorizationRulesNextResponse>
   - name: >-
       listAuthorizationRulesNext(string, RequestOptionsBase,
@@ -943,7 +971,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.AuthorizationRuleListResult" />&gt;
+            uid="@azure/arm-eventhub.AuthorizationRuleListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -966,7 +995,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.AuthorizationRuleListResult" />&gt;
+            uid="@azure/arm-eventhub.AuthorizationRuleListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listByResourceGroup(string, msRest.RequestOptionsBase)
@@ -985,11 +1015,12 @@ methods:
           type: string
           description: Name of the resource group within the azure subscription.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.NamespacesListByResourceGroupResponse"
+          Promise&lt;<xref
+          uid="Models.NamespacesListByResourceGroupResponse|latest-stable"
           />&gt;
         description: Promise<Models.NamespacesListByResourceGroupResponse>
   - name: >-
@@ -1015,7 +1046,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.EHNamespaceListResult" />&gt;
+            uid="@azure/arm-eventhub.EHNamespaceListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listByResourceGroup(string, ServiceCallback<EHNamespaceListResult>)
@@ -1036,7 +1067,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.EHNamespaceListResult" />&gt;
+            uid="@azure/arm-eventhub.EHNamespaceListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listByResourceGroupNext(string, msRest.RequestOptionsBase)
@@ -1055,12 +1086,13 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.NamespacesListByResourceGroupNextResponse" />&gt;
+          uid="Models.NamespacesListByResourceGroupNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesListByResourceGroupNextResponse>
   - name: >-
       listByResourceGroupNext(string, RequestOptionsBase,
@@ -1085,7 +1117,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.EHNamespaceListResult" />&gt;
+            uid="@azure/arm-eventhub.EHNamespaceListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listByResourceGroupNext(string, ServiceCallback<EHNamespaceListResult>)
@@ -1106,7 +1138,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.EHNamespaceListResult" />&gt;
+            uid="@azure/arm-eventhub.EHNamespaceListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listKeys(string, string, string, msRest.RequestOptionsBase)
@@ -1131,10 +1163,12 @@ methods:
           type: string
           description: The authorization rule name.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.NamespacesListKeysResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.NamespacesListKeysResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesListKeysResponse>
   - name: >-
       listKeys(string, string, string, RequestOptionsBase,
@@ -1164,7 +1198,9 @@ methods:
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-eventhub.AccessKeys" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.AccessKeys|latest-stable" />&gt;
           description: |
             The callback
   - name: listKeys(string, string, string, ServiceCallback<AccessKeys>)
@@ -1189,7 +1225,9 @@ methods:
           type: string
           description: The authorization rule name.
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-eventhub.AccessKeys" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.AccessKeys|latest-stable" />&gt;
           description: |
             The callback
   - name: listNext(string, msRest.RequestOptionsBase)
@@ -1210,10 +1248,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.NamespacesListNextResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.NamespacesListNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,
@@ -1238,7 +1278,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.EHNamespaceListResult" />&gt;
+            uid="@azure/arm-eventhub.EHNamespaceListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listNext(string, ServiceCallback<EHNamespaceListResult>)
@@ -1259,7 +1299,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventhub.EHNamespaceListResult" />&gt;
+            uid="@azure/arm-eventhub.EHNamespaceListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -1289,13 +1329,18 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.RegenerateAccessKeyParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.RegenerateAccessKeyParameters|latest-stable"
+            />
           description: Parameters required to regenerate the connection string.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.NamespacesRegenerateKeysResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.NamespacesRegenerateKeysResponse|latest-stable" />&gt;
         description: Promise<Models.NamespacesRegenerateKeysResponse>
   - name: >-
       regenerateKeys(string, string, string, RegenerateAccessKeyParameters,
@@ -1323,13 +1368,18 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.RegenerateAccessKeyParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.RegenerateAccessKeyParameters|latest-stable"
+            />
           description: Parameters required to regenerate the connection string.
         - id: options
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-eventhub.AccessKeys" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.AccessKeys|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -1357,10 +1407,15 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.RegenerateAccessKeyParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.RegenerateAccessKeyParameters|latest-stable"
+            />
           description: Parameters required to regenerate the connection string.
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-eventhub.AccessKeys" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.AccessKeys|latest-stable" />&gt;
           description: |
             The callback
   - name: update(string, string, EHNamespace, msRest.RequestOptionsBase)
@@ -1386,13 +1441,15 @@ methods:
           type: string
           description: The Namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+          type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />
           description: Parameters for updating a namespace resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.NamespacesUpdateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.NamespacesUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesUpdateResponse>
   - name: >-
       update(string, string, EHNamespace, RequestOptionsBase,
@@ -1416,15 +1473,15 @@ methods:
           type: string
           description: The Namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+          type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />
           description: Parameters for updating a namespace resource.
         - id: options
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.EHNamespace"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.EHNamespace|latest-stable" />&gt;
           description: |
             The callback
   - name: update(string, string, EHNamespace, ServiceCallback<EHNamespace>)
@@ -1446,11 +1503,11 @@ methods:
           type: string
           description: The Namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+          type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />
           description: Parameters for updating a namespace resource.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-eventhub.EHNamespace"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventhub.EHNamespace|latest-stable" />&gt;
           description: |
             The callback

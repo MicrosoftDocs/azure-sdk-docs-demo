@@ -37,7 +37,9 @@ constructors:
             NamedKeyCredential used to authenticate requests. Only Supported for
             Node
         - id: options
-          type: <xref uid="@azure/data-tables.TableServiceClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/data-tables.TableServiceClientOptions|latest-stable" />
           description: >
             Optional. Options to configure the HTTP pipeline.
 
@@ -94,7 +96,9 @@ constructors:
             NamedKeyCredential used to authenticate requests. Only Supported for
             Node
         - id: options
-          type: <xref uid="@azure/data-tables.TableServiceClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/data-tables.TableServiceClientOptions|latest-stable" />
           description: >
             Optional. Options to configure the HTTP pipeline.
 
@@ -146,7 +150,9 @@ constructors:
           type: string
           description: the name of the table
         - id: options
-          type: <xref uid="@azure/data-tables.TableServiceClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/data-tables.TableServiceClientOptions|latest-stable" />
           description: >
             Optional. Options to configure the HTTP pipeline.
 
@@ -203,7 +209,9 @@ constructors:
             NamedKeyCredential used to authenticate requests. Only Supported for
             Node
         - id: options
-          type: <xref uid="@azure/data-tables.TableServiceClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/data-tables.TableServiceClientOptions|latest-stable" />
           description: >
             Optional. Options to configure the HTTP pipeline.
 
@@ -292,7 +300,7 @@ methods:
         OperationOptions)
       parameters:
         - id: entity
-          type: <xref uid="@azure/data-tables.TableEntity" />&lt;T&gt;
+          type: <xref uid="@azure/data-tables.TableEntity|latest-stable" />&lt;T&gt;
           description: The properties for the table entity.
         - id: options
           type: OperationOptions
@@ -335,7 +343,8 @@ methods:
             ```
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/data-tables.CreateTableEntityResponse"
+          Promise&lt;<xref
+          uid="@azure/data-tables.CreateTableEntityResponse|latest-stable"
           />&gt;
         description: ''
   - name: createTable(OperationOptions)
@@ -411,7 +420,9 @@ methods:
           type: string
           description: The row key of the entity.
         - id: options
-          type: <xref uid="@azure/data-tables.DeleteTableEntityOptions" />
+          type: >-
+            <xref
+            uid="@azure/data-tables.DeleteTableEntityOptions|latest-stable" />
           description: >
             The options parameters.
 
@@ -449,7 +460,8 @@ methods:
             ```
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/data-tables.DeleteTableEntityResponse"
+          Promise&lt;<xref
+          uid="@azure/data-tables.DeleteTableEntityResponse|latest-stable"
           />&gt;
         description: ''
   - name: deleteTable(OperationOptions)
@@ -530,10 +542,12 @@ methods:
           type: string
           description: ''
         - id: options
-          type: <xref uid="@azure/data-tables.TableServiceClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/data-tables.TableServiceClientOptions|latest-stable" />
           description: Options to configure the HTTP pipeline.
       return:
-        type: <xref uid="@azure/data-tables.TableClient" />
+        type: <xref uid="@azure/data-tables.TableClient|latest-stable" />
         description: A new TableClient from the given connection string.
   - name: getAccessPolicy(OperationOptions)
     uid: '@azure/data-tables.TableClient.getAccessPolicy|latest-stable'
@@ -555,8 +569,8 @@ methods:
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/data-tables.GetAccessPolicyResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/data-tables.GetAccessPolicyResponse|latest-stable" />&gt;
         description: ''
   - name: getEntity<T>(string, string, GetTableEntityOptions)
     uid: '@azure/data-tables.TableClient.getEntity|latest-stable'
@@ -577,7 +591,9 @@ methods:
           type: string
           description: The row key of the entity.
         - id: options
-          type: <xref uid="@azure/data-tables.GetTableEntityOptions" />
+          type: >-
+            <xref uid="@azure/data-tables.GetTableEntityOptions|latest-stable"
+            />
           description: >
             The options parameters.
 
@@ -619,8 +635,9 @@ methods:
             ```
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/data-tables.GetTableEntityResponse"
-          />&lt;<xref uid="@azure/data-tables.TableEntityResult"
+          Promise&lt;<xref
+          uid="@azure/data-tables.GetTableEntityResponse|latest-stable"
+          />&lt;<xref uid="@azure/data-tables.TableEntityResult|latest-stable"
           />&lt;T&gt;&gt;&gt;
         description: ''
   - name: listEntities<T>(ListTableEntitiesOptions)
@@ -634,7 +651,9 @@ methods:
       content: 'function listEntities<T>(options?: ListTableEntitiesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/data-tables.ListTableEntitiesOptions" />
+          type: >-
+            <xref
+            uid="@azure/data-tables.ListTableEntitiesOptions|latest-stable" />
           description: >
             The options parameters.
 
@@ -684,8 +703,9 @@ methods:
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/data-tables.TableEntityResult" />&lt;T&gt;, <xref
-          uid="@azure/data-tables.TableEntityResultPage" />&lt;T&gt;&gt;
+          uid="@azure/data-tables.TableEntityResult|latest-stable" />&lt;T&gt;,
+          <xref uid="@azure/data-tables.TableEntityResultPage|latest-stable"
+          />&lt;T&gt;&gt;
         description: ''
   - name: setAccessPolicy(SignedIdentifier[], OperationOptions)
     uid: '@azure/data-tables.TableClient.setAccessPolicy|latest-stable'
@@ -702,7 +722,7 @@ methods:
         OperationOptions)
       parameters:
         - id: tableAcl
-          type: <xref uid="@azure/data-tables.SignedIdentifier" />[]
+          type: <xref uid="@azure/data-tables.SignedIdentifier|latest-stable" />[]
           description: The Access Control List for the table.
         - id: options
           type: OperationOptions
@@ -710,8 +730,8 @@ methods:
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/data-tables.SetAccessPolicyResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/data-tables.SetAccessPolicyResponse|latest-stable" />&gt;
         description: ''
   - name: submitTransaction(TransactionAction[])
     uid: '@azure/data-tables.TableClient.submitTransaction|latest-stable'
@@ -783,14 +803,14 @@ methods:
       content: 'function submitTransaction(actions: TransactionAction[])'
       parameters:
         - id: actions
-          type: <xref uid="@azure/data-tables.TransactionAction" />[]
+          type: <xref uid="@azure/data-tables.TransactionAction|latest-stable" />[]
           description: >
             tuple that contains the action to perform, and the entity to perform
             the action with
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/data-tables.TableTransactionResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/data-tables.TableTransactionResponse|latest-stable" />&gt;
         description: ''
   - name: updateEntity<T>(TableEntity<T>, UpdateMode, UpdateTableEntityOptions)
     uid: '@azure/data-tables.TableClient.updateEntity|latest-stable'
@@ -805,16 +825,18 @@ methods:
         options?: UpdateTableEntityOptions)
       parameters:
         - id: entity
-          type: <xref uid="@azure/data-tables.TableEntity" />&lt;T&gt;
+          type: <xref uid="@azure/data-tables.TableEntity|latest-stable" />&lt;T&gt;
           description: The properties of the entity to be updated.
         - id: mode
-          type: <xref uid="@azure/data-tables.UpdateMode" />
+          type: <xref uid="@azure/data-tables.UpdateMode|latest-stable" />
           description: |-
             The different modes for updating the entity:
                           - Merge: Updates an entity by updating the entity's properties without replacing the existing entity.
                           - Replace: Updates an existing entity by replacing the entire entity.
         - id: options
-          type: <xref uid="@azure/data-tables.UpdateTableEntityOptions" />
+          type: >-
+            <xref
+            uid="@azure/data-tables.UpdateTableEntityOptions|latest-stable" />
           description: >
             The options parameters.
 
@@ -879,7 +901,9 @@ methods:
 
             ```
       return:
-        type: Promise&lt;<xref uid="@azure/data-tables.UpdateEntityResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/data-tables.UpdateEntityResponse|latest-stable" />&gt;
         description: ''
   - name: upsertEntity<T>(TableEntity<T>, UpdateMode, OperationOptions)
     uid: '@azure/data-tables.TableClient.upsertEntity|latest-stable'
@@ -894,10 +918,10 @@ methods:
         options?: OperationOptions)
       parameters:
         - id: entity
-          type: <xref uid="@azure/data-tables.TableEntity" />&lt;T&gt;
+          type: <xref uid="@azure/data-tables.TableEntity|latest-stable" />&lt;T&gt;
           description: The properties for the table entity.
         - id: mode
-          type: <xref uid="@azure/data-tables.UpdateMode" />
+          type: <xref uid="@azure/data-tables.UpdateMode|latest-stable" />
           description: |-
             The different modes for updating the entity:
                           - Merge: Updates an entity by updating the entity's properties without replacing the existing entity.
@@ -955,5 +979,7 @@ methods:
 
             ```
       return:
-        type: Promise&lt;<xref uid="@azure/data-tables.UpsertEntityResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/data-tables.UpsertEntityResponse|latest-stable" />&gt;
         description: ''

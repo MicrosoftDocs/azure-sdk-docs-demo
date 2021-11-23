@@ -50,7 +50,7 @@ properties:
     syntax:
       content: 'createdByType?: CreatedByType'
       return:
-        type: <xref uid="@azure/arm-eventgrid.CreatedByType" />
+        type: <xref uid="@azure/arm-eventgrid.CreatedByType|latest-stable" />
         description: ''
   - name: lastModifiedAt
     uid: '@azure/arm-eventgrid.SystemData.lastModifiedAt|latest-stable'
@@ -93,5 +93,5 @@ properties:
     syntax:
       content: 'lastModifiedByType?: CreatedByType'
       return:
-        type: <xref uid="@azure/arm-eventgrid.CreatedByType" />
+        type: <xref uid="@azure/arm-eventgrid.CreatedByType|latest-stable" />
         description: ''

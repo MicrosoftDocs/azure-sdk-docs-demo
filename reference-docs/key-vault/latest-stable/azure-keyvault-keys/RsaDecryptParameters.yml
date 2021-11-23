@@ -20,7 +20,9 @@ properties:
     syntax:
       content: 'algorithm: RsaEncryptionAlgorithm'
       return:
-        type: <xref uid="@azure/keyvault-keys.RsaEncryptionAlgorithm" />
+        type: >-
+          <xref uid="@azure/keyvault-keys.RsaEncryptionAlgorithm|latest-stable"
+          />
         description: ''
   - name: ciphertext
     uid: '@azure/keyvault-keys.RsaDecryptParameters.ciphertext|latest-stable'

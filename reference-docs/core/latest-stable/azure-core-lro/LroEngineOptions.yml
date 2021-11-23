@@ -50,7 +50,7 @@ properties:
     syntax:
       content: 'lroResourceLocationConfig?: LroResourceLocationConfig'
       return:
-        type: <xref uid="@azure/core-lro.LroResourceLocationConfig" />
+        type: <xref uid="@azure/core-lro.LroResourceLocationConfig|latest-stable" />
         description: ''
   - name: processResult
     uid: '@azure/core-lro.LroEngineOptions.processResult|latest-stable'

@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'container: Container'
       return:
-        type: <xref uid="@azure/cosmos.Container" />
+        type: <xref uid="@azure/cosmos.Container|latest-stable" />
         description: ''
   - name: id
     uid: '@azure/cosmos.Conflict.id|latest-stable'
@@ -60,10 +60,12 @@ methods:
       content: 'function delete(options?: RequestOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.ConflictResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.ConflictResponse|latest-stable"
+          />&gt;
         description: ''
   - name: read(RequestOptions)
     uid: '@azure/cosmos.Conflict.read|latest-stable'
@@ -78,8 +80,10 @@ methods:
       content: 'function read(options?: RequestOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.ConflictResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.ConflictResponse|latest-stable"
+          />&gt;
         description: ''

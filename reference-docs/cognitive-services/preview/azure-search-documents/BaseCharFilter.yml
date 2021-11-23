@@ -41,6 +41,7 @@ properties:
         "#Microsoft.Azure.Search.PatternReplaceCharFilter"
       return:
         type: >-
-          "#<xref uid="Microsoft.Azure.Search.MappingCharFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.PatternReplaceCharFilter" />"
+          "#<xref uid="Microsoft.Azure.Search.MappingCharFilter|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.PatternReplaceCharFilter|preview"
+          />"
         description: ''

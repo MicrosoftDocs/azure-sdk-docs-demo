@@ -24,7 +24,8 @@ constructors:
       parameters:
         - id: client
           type: >-
-            <xref uid="@azure/arm-servicebus.ServiceBusManagementClientContext"
+            <xref
+            uid="@azure/arm-servicebus.ServiceBusManagementClientContext|latest-stable"
             />
           description: |
             Reference to the service client.
@@ -40,12 +41,12 @@ methods:
       content: 'function list(options?: msRest.RequestOptionsBase)'
       parameters:
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.PremiumMessagingRegionsListResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.PremiumMessagingRegionsListResponse|latest-stable" />&gt;
         description: Promise<Models.PremiumMessagingRegionsListResponse>
   - name: >-
       list(RequestOptionsBase,
@@ -68,7 +69,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.PremiumMessagingRegionsListResult" />&gt;
+            uid="@azure/arm-servicebus.PremiumMessagingRegionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: list(ServiceCallback<PremiumMessagingRegionsListResult>)
@@ -87,7 +89,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.PremiumMessagingRegionsListResult" />&gt;
+            uid="@azure/arm-servicebus.PremiumMessagingRegionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, msRest.RequestOptionsBase)
@@ -107,11 +110,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.PremiumMessagingRegionsListNextResponse"
+          Promise&lt;<xref
+          uid="Models.PremiumMessagingRegionsListNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.PremiumMessagingRegionsListNextResponse>
   - name: >-
@@ -138,7 +142,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.PremiumMessagingRegionsListResult" />&gt;
+            uid="@azure/arm-servicebus.PremiumMessagingRegionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, ServiceCallback<PremiumMessagingRegionsListResult>)
@@ -160,6 +165,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-servicebus.PremiumMessagingRegionsListResult" />&gt;
+            uid="@azure/arm-servicebus.PremiumMessagingRegionsListResult|latest-stable"
+            />&gt;
           description: |
             The callback

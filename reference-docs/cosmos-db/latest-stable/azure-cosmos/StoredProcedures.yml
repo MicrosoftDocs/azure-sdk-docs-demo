@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'container: Container'
       return:
-        type: <xref uid="@azure/cosmos.Container" />
+        type: <xref uid="@azure/cosmos.Container|latest-stable" />
         description: ''
 methods:
   - name: create(StoredProcedureDefinition, RequestOptions)
@@ -53,13 +53,15 @@ methods:
         RequestOptions)
       parameters:
         - id: body
-          type: <xref uid="@azure/cosmos.StoredProcedureDefinition" />
+          type: <xref uid="@azure/cosmos.StoredProcedureDefinition|latest-stable" />
           description: ''
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.StoredProcedureResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/cosmos.StoredProcedureResponse|latest-stable" />&gt;
         description: ''
   - name: query(SqlQuerySpec, FeedOptions)
     uid: '@azure/cosmos.StoredProcedures.query|latest-stable'
@@ -72,16 +74,16 @@ methods:
       content: 'function query(query: SqlQuerySpec, options?: FeedOptions)'
       parameters:
         - id: query
-          type: <xref uid="@azure/cosmos.SqlQuerySpec" />
+          type: <xref uid="@azure/cosmos.SqlQuerySpec|latest-stable" />
           description: >-
             Query configuration for the operation. See
             <xref:@azure/cosmos.SqlQuerySpec> for more info on how to configure
             a query.
         - id: options
-          type: <xref uid="@azure/cosmos.FeedOptions" />
+          type: <xref uid="@azure/cosmos.FeedOptions|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/cosmos.QueryIterator" />&lt;any&gt;
+        type: <xref uid="@azure/cosmos.QueryIterator|latest-stable" />&lt;any&gt;
         description: ''
   - name: query<T>(SqlQuerySpec, FeedOptions)
     uid: '@azure/cosmos.StoredProcedures.query_1|latest-stable'
@@ -94,16 +96,16 @@ methods:
       content: 'function query<T>(query: SqlQuerySpec, options?: FeedOptions)'
       parameters:
         - id: query
-          type: <xref uid="@azure/cosmos.SqlQuerySpec" />
+          type: <xref uid="@azure/cosmos.SqlQuerySpec|latest-stable" />
           description: >-
             Query configuration for the operation. See
             <xref:@azure/cosmos.SqlQuerySpec> for more info on how to configure
             a query.
         - id: options
-          type: <xref uid="@azure/cosmos.FeedOptions" />
+          type: <xref uid="@azure/cosmos.FeedOptions|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/cosmos.QueryIterator" />&lt;T&gt;
+        type: <xref uid="@azure/cosmos.QueryIterator|latest-stable" />&lt;T&gt;
         description: ''
   - name: readAll(FeedOptions)
     uid: '@azure/cosmos.StoredProcedures.readAll|latest-stable'
@@ -116,11 +118,11 @@ methods:
       content: 'function readAll(options?: FeedOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.FeedOptions" />
+          type: <xref uid="@azure/cosmos.FeedOptions|latest-stable" />
           description: ''
       return:
         type: >-
-          <xref uid="@azure/cosmos.QueryIterator" />&lt;<xref
-          uid="@azure/cosmos.StoredProcedureDefinition" /> & <xref
-          uid="@azure/cosmos.Resource" />&gt;
+          <xref uid="@azure/cosmos.QueryIterator|latest-stable" />&lt;<xref
+          uid="@azure/cosmos.StoredProcedureDefinition|latest-stable" /> & <xref
+          uid="@azure/cosmos.Resource|latest-stable" />&gt;
         description: ''

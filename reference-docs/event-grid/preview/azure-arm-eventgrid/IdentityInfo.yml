@@ -49,7 +49,7 @@ properties:
     syntax:
       content: 'type?: IdentityType'
       return:
-        type: <xref uid="@azure/arm-eventgrid.IdentityType" />
+        type: <xref uid="@azure/arm-eventgrid.IdentityType|preview" />
         description: ''
   - name: userAssignedIdentities
     uid: '@azure/arm-eventgrid.IdentityInfo.userAssignedIdentities|preview'
@@ -72,5 +72,5 @@ properties:
       return:
         type: >-
           undefined | [key: string]: <xref
-          uid="@azure/arm-eventgrid.UserIdentityProperties" />
+          uid="@azure/arm-eventgrid.UserIdentityProperties|preview" />
         description: ''

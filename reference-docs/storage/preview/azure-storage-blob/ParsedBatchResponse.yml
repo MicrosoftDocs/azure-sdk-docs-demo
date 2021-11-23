@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'subResponses: BatchSubResponse[]'
       return:
-        type: <xref uid="@azure/storage-blob.BatchSubResponse" />[]
+        type: <xref uid="@azure/storage-blob.BatchSubResponse|preview" />[]
         description: ''
   - name: subResponsesFailedCount
     uid: '@azure/storage-blob.ParsedBatchResponse.subResponsesFailedCount|preview'

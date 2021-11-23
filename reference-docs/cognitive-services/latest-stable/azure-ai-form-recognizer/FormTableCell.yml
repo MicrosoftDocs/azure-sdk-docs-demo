@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'boundingBox: Point2D[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.Point2D" />[]
+        type: <xref uid="@azure/ai-form-recognizer.Point2D|latest-stable" />[]
         description: ''
   - name: columnIndex
     uid: '@azure/ai-form-recognizer.FormTableCell.columnIndex|latest-stable'
@@ -74,7 +74,7 @@ properties:
     syntax:
       content: 'fieldElements?: FormElement[]'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormElement" />[]
+        type: <xref uid="@azure/ai-form-recognizer.FormElement|latest-stable" />[]
         description: ''
   - name: isFooter
     uid: '@azure/ai-form-recognizer.FormTableCell.isFooter|latest-stable'

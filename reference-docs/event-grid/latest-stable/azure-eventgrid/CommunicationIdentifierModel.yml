@@ -25,7 +25,10 @@ properties:
     syntax:
       content: 'communicationUser?: CommunicationUserIdentifierModel'
       return:
-        type: <xref uid="@azure/eventgrid.CommunicationUserIdentifierModel" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.CommunicationUserIdentifierModel|latest-stable"
+          />
         description: ''
   - name: microsoftTeamsUser
     uid: >-
@@ -39,7 +42,10 @@ properties:
     syntax:
       content: 'microsoftTeamsUser?: MicrosoftTeamsUserIdentifierModel'
       return:
-        type: <xref uid="@azure/eventgrid.MicrosoftTeamsUserIdentifierModel" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.MicrosoftTeamsUserIdentifierModel|latest-stable"
+          />
         description: ''
   - name: phoneNumber
     uid: '@azure/eventgrid.CommunicationIdentifierModel.phoneNumber|latest-stable'
@@ -52,7 +58,9 @@ properties:
     syntax:
       content: 'phoneNumber?: PhoneNumberIdentifierModel'
       return:
-        type: <xref uid="@azure/eventgrid.PhoneNumberIdentifierModel" />
+        type: >-
+          <xref uid="@azure/eventgrid.PhoneNumberIdentifierModel|latest-stable"
+          />
         description: ''
   - name: rawId
     uid: '@azure/eventgrid.CommunicationIdentifierModel.rawId|latest-stable'

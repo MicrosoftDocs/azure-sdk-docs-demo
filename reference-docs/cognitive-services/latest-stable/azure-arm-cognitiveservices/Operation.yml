@@ -29,7 +29,7 @@ properties:
     syntax:
       content: 'actionType?: ActionType'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.ActionType" />
+        type: <xref uid="@azure/arm-cognitiveservices.ActionType|latest-stable" />
         description: ''
   - name: display
     uid: '@azure/arm-cognitiveservices.Operation.display|latest-stable'
@@ -42,7 +42,9 @@ properties:
     syntax:
       content: 'display?: OperationDisplay'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.OperationDisplay" />
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.OperationDisplay|latest-stable" />
         description: ''
   - name: isDataAction
     uid: '@azure/arm-cognitiveservices.Operation.isDataAction|latest-stable'
@@ -106,5 +108,5 @@ properties:
     syntax:
       content: 'origin?: Origin'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.Origin" />
+        type: <xref uid="@azure/arm-cognitiveservices.Origin|latest-stable" />
         description: ''

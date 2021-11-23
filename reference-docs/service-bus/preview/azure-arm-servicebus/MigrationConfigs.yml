@@ -36,24 +36,28 @@ methods:
           type: string
           description: The namespace name
         - id: configName
-          type: <xref uid="@azure/arm-servicebus.MigrationConfigurationName" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.MigrationConfigurationName|preview"
+            />
           description: The configuration name. Should always be "$default".
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.MigrationConfigProperties" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.MigrationConfigProperties|preview"
+            />
           description: Parameters required to create Migration Configuration
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationOptionalParams"
+            uid="@azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationResponse"
+          uid="@azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationResponse|preview"
           />&gt;, <xref
-          uid="@azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationResponse"
+          uid="@azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationResponse|preview"
           />&gt;&gt;
         description: ''
   - name: >-
@@ -83,22 +87,26 @@ methods:
           type: string
           description: The namespace name
         - id: configName
-          type: <xref uid="@azure/arm-servicebus.MigrationConfigurationName" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.MigrationConfigurationName|preview"
+            />
           description: The configuration name. Should always be "$default".
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.MigrationConfigProperties" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.MigrationConfigProperties|preview"
+            />
           description: Parameters required to create Migration Configuration
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationOptionalParams"
+            uid="@azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationResponse"
+          uid="@azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -131,12 +139,14 @@ methods:
           type: string
           description: The namespace name
         - id: configName
-          type: <xref uid="@azure/arm-servicebus.MigrationConfigurationName" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.MigrationConfigurationName|preview"
+            />
           description: The configuration name. Should always be "$default".
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.MigrationConfigsCompleteMigrationOptionalParams"
+            uid="@azure/arm-servicebus.MigrationConfigsCompleteMigrationOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -165,12 +175,15 @@ methods:
           type: string
           description: The namespace name
         - id: configName
-          type: <xref uid="@azure/arm-servicebus.MigrationConfigurationName" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.MigrationConfigurationName|preview"
+            />
           description: The configuration name. Should always be "$default".
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.MigrationConfigsDeleteOptionalParams" />
+            uid="@azure/arm-servicebus.MigrationConfigsDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -198,18 +211,21 @@ methods:
           type: string
           description: The namespace name
         - id: configName
-          type: <xref uid="@azure/arm-servicebus.MigrationConfigurationName" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.MigrationConfigurationName|preview"
+            />
           description: The configuration name. Should always be "$default".
         - id: options
           type: >-
-            <xref uid="@azure/arm-servicebus.MigrationConfigsGetOptionalParams"
+            <xref
+            uid="@azure/arm-servicebus.MigrationConfigsGetOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.MigrationConfigsGetResponse" />&gt;
+          uid="@azure/arm-servicebus.MigrationConfigsGetResponse|preview" />&gt;
         description: ''
   - name: list(string, string, MigrationConfigsListOptionalParams)
     uid: '@azure/arm-servicebus.MigrationConfigs.list|preview'
@@ -231,14 +247,15 @@ methods:
           description: The namespace name
         - id: options
           type: >-
-            <xref uid="@azure/arm-servicebus.MigrationConfigsListOptionalParams"
+            <xref
+            uid="@azure/arm-servicebus.MigrationConfigsListOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-servicebus.MigrationConfigProperties" />&gt;
+          uid="@azure/arm-servicebus.MigrationConfigProperties|preview" />&gt;
         description: ''
   - name: >-
       revert(string, string, MigrationConfigurationName,
@@ -262,12 +279,15 @@ methods:
           type: string
           description: The namespace name
         - id: configName
-          type: <xref uid="@azure/arm-servicebus.MigrationConfigurationName" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.MigrationConfigurationName|preview"
+            />
           description: The configuration name. Should always be "$default".
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.MigrationConfigsRevertOptionalParams" />
+            uid="@azure/arm-servicebus.MigrationConfigsRevertOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:

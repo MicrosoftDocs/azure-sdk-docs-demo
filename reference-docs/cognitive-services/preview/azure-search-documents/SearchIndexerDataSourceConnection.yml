@@ -35,7 +35,9 @@ properties:
     syntax:
       content: 'container: SearchIndexerDataContainer'
       return:
-        type: <xref uid="@azure/search-documents.SearchIndexerDataContainer" />
+        type: >-
+          <xref uid="@azure/search-documents.SearchIndexerDataContainer|preview"
+          />
         description: ''
   - name: dataChangeDetectionPolicy
     uid: >-
@@ -49,7 +51,9 @@ properties:
     syntax:
       content: 'dataChangeDetectionPolicy?: DataChangeDetectionPolicy'
       return:
-        type: <xref uid="@azure/search-documents.DataChangeDetectionPolicy" />
+        type: >-
+          <xref uid="@azure/search-documents.DataChangeDetectionPolicy|preview"
+          />
         description: ''
   - name: dataDeletionDetectionPolicy
     uid: >-
@@ -63,7 +67,9 @@ properties:
     syntax:
       content: 'dataDeletionDetectionPolicy?: DataDeletionDetectionPolicy'
       return:
-        type: <xref uid="@azure/search-documents.DataDeletionDetectionPolicy" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.DataDeletionDetectionPolicy|preview" />
         description: ''
   - name: description
     uid: >-
@@ -116,7 +122,9 @@ properties:
     syntax:
       content: 'encryptionKey?: SearchResourceEncryptionKey'
       return:
-        type: <xref uid="@azure/search-documents.SearchResourceEncryptionKey" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.SearchResourceEncryptionKey|preview" />
         description: ''
   - name: etag
     uid: '@azure/search-documents.SearchIndexerDataSourceConnection.etag|preview'
@@ -150,7 +158,9 @@ properties:
     syntax:
       content: 'identity?: SearchIndexerDataIdentity'
       return:
-        type: <xref uid="@azure/search-documents.SearchIndexerDataIdentity" />
+        type: >-
+          <xref uid="@azure/search-documents.SearchIndexerDataIdentity|preview"
+          />
         description: ''
   - name: name
     uid: '@azure/search-documents.SearchIndexerDataSourceConnection.name|preview'
@@ -180,5 +190,7 @@ properties:
     syntax:
       content: 'type: SearchIndexerDataSourceType'
       return:
-        type: <xref uid="@azure/search-documents.SearchIndexerDataSourceType" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.SearchIndexerDataSourceType|preview" />
         description: ''

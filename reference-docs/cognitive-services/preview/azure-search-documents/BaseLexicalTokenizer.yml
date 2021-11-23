@@ -51,16 +51,19 @@ properties:
         "#Microsoft.Azure.Search.UaxUrlEmailTokenizer"
       return:
         type: >-
-          "#<xref uid="Microsoft.Azure.Search.ClassicTokenizer" />" | "#<xref
-          uid="Microsoft.Azure.Search.EdgeNGramTokenizer" />" | "#<xref
-          uid="Microsoft.Azure.Search.KeywordTokenizer" />" | "#<xref
-          uid="Microsoft.Azure.Search.KeywordTokenizerV2" />" | "#<xref
-          uid="Microsoft.Azure.Search.MicrosoftLanguageTokenizer" />" | "#<xref
-          uid="Microsoft.Azure.Search.MicrosoftLanguageStemmingTokenizer" />" |
-          "#<xref uid="Microsoft.Azure.Search.NGramTokenizer" />" | "#<xref
-          uid="Microsoft.Azure.Search.PathHierarchyTokenizerV2" />" | "#<xref
-          uid="Microsoft.Azure.Search.PatternTokenizer" />" | "#<xref
-          uid="Microsoft.Azure.Search.StandardTokenizer" />" | "#<xref
-          uid="Microsoft.Azure.Search.StandardTokenizerV2" />" | "#<xref
-          uid="Microsoft.Azure.Search.UaxUrlEmailTokenizer" />"
+          "#<xref uid="Microsoft.Azure.Search.ClassicTokenizer|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.EdgeNGramTokenizer|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.KeywordTokenizer|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.KeywordTokenizerV2|preview" />" |
+          "#<xref
+          uid="Microsoft.Azure.Search.MicrosoftLanguageTokenizer|preview" />" |
+          "#<xref
+          uid="Microsoft.Azure.Search.MicrosoftLanguageStemmingTokenizer|preview"
+          />" | "#<xref uid="Microsoft.Azure.Search.NGramTokenizer|preview" />"
+          | "#<xref
+          uid="Microsoft.Azure.Search.PathHierarchyTokenizerV2|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.PatternTokenizer|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.StandardTokenizer|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.StandardTokenizerV2|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.UaxUrlEmailTokenizer|preview" />"
         description: ''

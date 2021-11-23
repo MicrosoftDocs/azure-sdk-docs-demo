@@ -20,7 +20,10 @@ properties:
     syntax:
       content: 'display?: OperationDefinitionDisplay'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.OperationDefinitionDisplay" />
+        type: >-
+          <xref
+          uid="@azure/arm-appconfiguration.OperationDefinitionDisplay|latest-stable"
+          />
         description: ''
   - name: isDataAction
     uid: '@azure/arm-appconfiguration.OperationDefinition.isDataAction|latest-stable'
@@ -72,5 +75,7 @@ properties:
     syntax:
       content: 'properties?: OperationProperties'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.OperationProperties" />
+        type: >-
+          <xref
+          uid="@azure/arm-appconfiguration.OperationProperties|latest-stable" />
         description: ''

@@ -30,11 +30,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.PrivateLinkResourcesGetOptionalParams" />
+            uid="@azure/arm-eventhub.PrivateLinkResourcesGetOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.PrivateLinkResourcesGetResponse" />&gt;
+          uid="@azure/arm-eventhub.PrivateLinkResourcesGetResponse|preview"
+          />&gt;
         description: ''

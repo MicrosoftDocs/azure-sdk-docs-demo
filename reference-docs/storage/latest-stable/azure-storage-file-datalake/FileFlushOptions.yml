@@ -46,7 +46,10 @@ properties:
     syntax:
       content: 'conditions?: DataLakeRequestConditions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.DataLakeRequestConditions" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.DataLakeRequestConditions|latest-stable"
+          />
         description: ''
   - name: pathHttpHeaders
     uid: >-
@@ -60,7 +63,9 @@ properties:
     syntax:
       content: 'pathHttpHeaders?: PathHttpHeaders'
       return:
-        type: <xref uid="@azure/storage-file-datalake.PathHttpHeaders" />
+        type: >-
+          <xref uid="@azure/storage-file-datalake.PathHttpHeaders|latest-stable"
+          />
         description: ''
   - name: retainUncommittedData
     uid: >-
@@ -89,4 +94,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />
+extends: <xref uid="@azure/storage-file-datalake.CommonOptions|latest-stable" />

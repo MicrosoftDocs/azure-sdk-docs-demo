@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'baseBlob?: ManagementPolicyBaseBlob'
       return:
-        type: <xref uid="@azure/arm-storage.ManagementPolicyBaseBlob" />
+        type: <xref uid="@azure/arm-storage.ManagementPolicyBaseBlob|preview" />
         description: ''
   - name: snapshot
     uid: '@azure/arm-storage.ManagementPolicyAction.snapshot|preview'
@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'snapshot?: ManagementPolicySnapShot'
       return:
-        type: <xref uid="@azure/arm-storage.ManagementPolicySnapShot" />
+        type: <xref uid="@azure/arm-storage.ManagementPolicySnapShot|preview" />
         description: ''
   - name: version
     uid: '@azure/arm-storage.ManagementPolicyAction.version|preview'
@@ -46,5 +46,5 @@ properties:
     syntax:
       content: 'version?: ManagementPolicyVersion'
       return:
-        type: <xref uid="@azure/arm-storage.ManagementPolicyVersion" />
+        type: <xref uid="@azure/arm-storage.ManagementPolicyVersion|preview" />
         description: ''

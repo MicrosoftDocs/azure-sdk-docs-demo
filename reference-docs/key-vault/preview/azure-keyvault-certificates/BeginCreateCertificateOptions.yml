@@ -171,7 +171,9 @@ properties:
     syntax:
       content: 'recoveryLevel?: DeletionRecoveryLevel'
       return:
-        type: <xref uid="@azure/keyvault-certificates.DeletionRecoveryLevel" />
+        type: >-
+          <xref uid="@azure/keyvault-certificates.DeletionRecoveryLevel|preview"
+          />
         description: ''
   - name: requestOptions
     uid: >-
@@ -214,7 +216,7 @@ properties:
     syntax:
       content: 'tags?: CertificateTags'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificateTags" />
+        type: <xref uid="@azure/keyvault-certificates.CertificateTags|preview" />
         description: ''
   - name: tracingOptions
     uid: >-
@@ -285,4 +287,4 @@ properties:
       return:
         type: Uint8Array
         description: ''
-extends: <xref uid="@azure/keyvault-certificates.CreateCertificateOptions" />
+extends: <xref uid="@azure/keyvault-certificates.CreateCertificateOptions|preview" />

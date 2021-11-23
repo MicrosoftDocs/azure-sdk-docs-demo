@@ -104,7 +104,7 @@ properties:
     syntax:
       content: 'properties: DeviceTwinInfoProperties'
       return:
-        type: <xref uid="@azure/eventgrid.DeviceTwinInfoProperties" />
+        type: <xref uid="@azure/eventgrid.DeviceTwinInfoProperties|latest-stable" />
         description: ''
   - name: status
     uid: '@azure/eventgrid.DeviceTwinInfo.status|latest-stable'
@@ -162,5 +162,7 @@ properties:
     syntax:
       content: 'x509Thumbprint: DeviceTwinInfoX509Thumbprint'
       return:
-        type: <xref uid="@azure/eventgrid.DeviceTwinInfoX509Thumbprint" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.DeviceTwinInfoX509Thumbprint|latest-stable" />
         description: ''

@@ -46,7 +46,10 @@ properties:
     syntax:
       content: 'target: ContainerRegistryArtifactEventTarget'
       return:
-        type: <xref uid="@azure/eventgrid.ContainerRegistryArtifactEventTarget" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ContainerRegistryArtifactEventTarget|latest-stable"
+          />
         description: ''
   - name: timestamp
     uid: >-

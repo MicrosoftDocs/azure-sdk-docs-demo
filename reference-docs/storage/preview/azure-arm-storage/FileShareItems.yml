@@ -44,5 +44,5 @@ properties:
     syntax:
       content: 'value?: FileShareItem[]'
       return:
-        type: <xref uid="@azure/arm-storage.FileShareItem" />[]
+        type: <xref uid="@azure/arm-storage.FileShareItem|preview" />[]
         description: ''

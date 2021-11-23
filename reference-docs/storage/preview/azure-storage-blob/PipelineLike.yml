@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'options: PipelineOptions'
       return:
-        type: <xref uid="@azure/storage-blob.PipelineOptions" />
+        type: <xref uid="@azure/storage-blob.PipelineOptions|preview" />
         description: ''
 methods:
   - name: toServiceClientOptions()

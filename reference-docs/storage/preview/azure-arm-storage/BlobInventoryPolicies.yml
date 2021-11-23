@@ -39,24 +39,24 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: blobInventoryPolicyName
-          type: <xref uid="@azure/arm-storage.BlobInventoryPolicyName" />
+          type: <xref uid="@azure/arm-storage.BlobInventoryPolicyName|preview" />
           description: |-
             The name of the storage account blob inventory policy. It should
                                            always be 'default'
         - id: properties
-          type: <xref uid="@azure/arm-storage.BlobInventoryPolicy" />
+          type: <xref uid="@azure/arm-storage.BlobInventoryPolicy|preview" />
           description: The blob inventory policy set to a storage account.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobInventoryPoliciesCreateOrUpdateOptionalParams"
+            uid="@azure/arm-storage.BlobInventoryPoliciesCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.BlobInventoryPoliciesCreateOrUpdateResponse"
+          uid="@azure/arm-storage.BlobInventoryPoliciesCreateOrUpdateResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -90,14 +90,14 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: blobInventoryPolicyName
-          type: <xref uid="@azure/arm-storage.BlobInventoryPolicyName" />
+          type: <xref uid="@azure/arm-storage.BlobInventoryPolicyName|preview" />
           description: |-
             The name of the storage account blob inventory policy. It should
                                            always be 'default'
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobInventoryPoliciesDeleteOptionalParams"
+            uid="@azure/arm-storage.BlobInventoryPoliciesDeleteOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -135,20 +135,22 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: blobInventoryPolicyName
-          type: <xref uid="@azure/arm-storage.BlobInventoryPolicyName" />
+          type: <xref uid="@azure/arm-storage.BlobInventoryPolicyName|preview" />
           description: |-
             The name of the storage account blob inventory policy. It should
                                            always be 'default'
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobInventoryPoliciesGetOptionalParams" />
+            uid="@azure/arm-storage.BlobInventoryPoliciesGetOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.BlobInventoryPoliciesGetResponse" />&gt;
+          uid="@azure/arm-storage.BlobInventoryPoliciesGetResponse|preview"
+          />&gt;
         description: ''
   - name: list(string, string, BlobInventoryPoliciesListOptionalParams)
     uid: '@azure/arm-storage.BlobInventoryPolicies.list|preview'
@@ -180,11 +182,12 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobInventoryPoliciesListOptionalParams" />
+            uid="@azure/arm-storage.BlobInventoryPoliciesListOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-storage.BlobInventoryPolicy" />&gt;
+          uid="@azure/arm-storage.BlobInventoryPolicy|preview" />&gt;
         description: ''

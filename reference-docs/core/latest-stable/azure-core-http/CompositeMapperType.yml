@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'additionalProperties?: Mapper'
       return:
-        type: <xref uid="@azure/core-http.Mapper" />
+        type: <xref uid="@azure/core-http.Mapper|latest-stable" />
         description: ''
   - name: className
     uid: '@azure/core-http.CompositeMapperType.className|latest-stable'
@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'modelProperties?: [key: string]: Mapper'
       return:
-        type: '[key: string]\: <xref uid="@azure/core-http.Mapper" />'
+        type: '[key: string]\: <xref uid="@azure/core-http.Mapper|latest-stable" />'
         description: ''
   - name: name
     uid: '@azure/core-http.CompositeMapperType.name|latest-stable'
@@ -73,7 +73,7 @@ properties:
     syntax:
       content: 'polymorphicDiscriminator?: PolymorphicDiscriminator'
       return:
-        type: <xref uid="@azure/core-http.PolymorphicDiscriminator" />
+        type: <xref uid="@azure/core-http.PolymorphicDiscriminator|latest-stable" />
         description: ''
   - name: uberParent
     uid: '@azure/core-http.CompositeMapperType.uberParent|latest-stable'

@@ -40,18 +40,19 @@ methods:
           type: string
           description: The rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.Rule" />
+          type: <xref uid="@azure/arm-servicebus.Rule|preview" />
           description: Parameters supplied to create a rule.
         - id: options
           type: >-
-            <xref uid="@azure/arm-servicebus.RulesCreateOrUpdateOptionalParams"
+            <xref
+            uid="@azure/arm-servicebus.RulesCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.RulesCreateOrUpdateResponse" />&gt;
+          uid="@azure/arm-servicebus.RulesCreateOrUpdateResponse|preview" />&gt;
         description: ''
   - name: delete(string, string, string, string, string, RulesDeleteOptionalParams)
     uid: '@azure/arm-servicebus.Rules.delete|preview'
@@ -82,7 +83,9 @@ methods:
           type: string
           description: The rule name.
         - id: options
-          type: <xref uid="@azure/arm-servicebus.RulesDeleteOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.RulesDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -117,11 +120,13 @@ methods:
           type: string
           description: The rule name.
         - id: options
-          type: <xref uid="@azure/arm-servicebus.RulesGetOptionalParams" />
+          type: <xref uid="@azure/arm-servicebus.RulesGetOptionalParams|preview" />
           description: |
             The options parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/arm-servicebus.RulesGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-servicebus.RulesGetResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       listBySubscriptions(string, string, string, string,
@@ -153,12 +158,12 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.RulesListBySubscriptionsOptionalParams"
+            uid="@azure/arm-servicebus.RulesListBySubscriptionsOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
-          PagedAsyncIterableIterator&lt;<xref uid="@azure/arm-servicebus.Rule"
-          />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-servicebus.Rule|preview" />&gt;
         description: ''

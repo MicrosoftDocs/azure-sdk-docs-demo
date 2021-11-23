@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'bodyMapper?: Mapper'
       return:
-        type: <xref uid="@azure/core-http.Mapper" />
+        type: <xref uid="@azure/core-http.Mapper|latest-stable" />
         description: ''
   - name: headersMapper
     uid: '@azure/core-http.OperationResponse.headersMapper|latest-stable'
@@ -35,7 +35,7 @@ properties:
     syntax:
       content: 'headersMapper?: Mapper'
       return:
-        type: <xref uid="@azure/core-http.Mapper" />
+        type: <xref uid="@azure/core-http.Mapper|latest-stable" />
         description: ''
   - name: isError
     uid: '@azure/core-http.OperationResponse.isError|latest-stable'

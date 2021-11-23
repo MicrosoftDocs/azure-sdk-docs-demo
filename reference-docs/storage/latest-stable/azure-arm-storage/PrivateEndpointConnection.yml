@@ -56,7 +56,7 @@ properties:
     syntax:
       content: 'privateEndpoint?: PrivateEndpoint'
       return:
-        type: <xref uid="@azure/arm-storage.PrivateEndpoint" />
+        type: <xref uid="@azure/arm-storage.PrivateEndpoint|latest-stable" />
         description: ''
   - name: privateLinkServiceConnectionState
     uid: >-
@@ -74,7 +74,10 @@ properties:
     syntax:
       content: 'privateLinkServiceConnectionState: PrivateLinkServiceConnectionState'
       return:
-        type: <xref uid="@azure/arm-storage.PrivateLinkServiceConnectionState" />
+        type: >-
+          <xref
+          uid="@azure/arm-storage.PrivateLinkServiceConnectionState|latest-stable"
+          />
         description: ''
   - name: provisioningState
     uid: >-
@@ -94,7 +97,8 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/arm-storage.PrivateEndpointConnectionProvisioningState" />
+          uid="@azure/arm-storage.PrivateEndpointConnectionProvisioningState|latest-stable"
+          />
         description: ''
   - name: type
     uid: '@azure/arm-storage.PrivateEndpointConnection.type|latest-stable'
@@ -115,4 +119,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-storage.Resource" />
+extends: <xref uid="@azure/arm-storage.Resource|latest-stable" />

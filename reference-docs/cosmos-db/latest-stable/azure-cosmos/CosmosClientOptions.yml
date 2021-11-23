@@ -49,7 +49,7 @@ properties:
     syntax:
       content: 'agent?: Agent'
       return:
-        type: <xref uid="@azure/cosmos.Agent" />
+        type: <xref uid="@azure/cosmos.Agent|latest-stable" />
         description: ''
   - name: connectionPolicy
     uid: '@azure/cosmos.CosmosClientOptions.connectionPolicy|latest-stable'
@@ -66,7 +66,7 @@ properties:
     syntax:
       content: 'connectionPolicy?: ConnectionPolicy'
       return:
-        type: <xref uid="@azure/cosmos.ConnectionPolicy" />
+        type: <xref uid="@azure/cosmos.ConnectionPolicy|latest-stable" />
         description: ''
   - name: consistencyLevel
     uid: '@azure/cosmos.CosmosClientOptions.consistencyLevel|latest-stable'
@@ -94,7 +94,7 @@ properties:
     syntax:
       content: 'defaultHeaders?: CosmosHeaders_2'
       return:
-        type: <xref uid="@azure/cosmos.CosmosHeaders_2" />
+        type: <xref uid="@azure/cosmos.CosmosHeaders_2|latest-stable" />
         description: ''
   - name: endpoint
     uid: '@azure/cosmos.CosmosClientOptions.endpoint|latest-stable'
@@ -133,7 +133,7 @@ properties:
     syntax:
       content: 'permissionFeed?: PermissionDefinition[]'
       return:
-        type: <xref uid="@azure/cosmos.PermissionDefinition" />[]
+        type: <xref uid="@azure/cosmos.PermissionDefinition|latest-stable" />[]
         description: ''
   - name: resourceTokens
     uid: '@azure/cosmos.CosmosClientOptions.resourceTokens|latest-stable'
@@ -165,7 +165,7 @@ properties:
     syntax:
       content: 'tokenProvider?: TokenProvider'
       return:
-        type: <xref uid="@azure/cosmos.TokenProvider" />
+        type: <xref uid="@azure/cosmos.TokenProvider|latest-stable" />
         description: ''
   - name: userAgentSuffix
     uid: '@azure/cosmos.CosmosClientOptions.userAgentSuffix|latest-stable'

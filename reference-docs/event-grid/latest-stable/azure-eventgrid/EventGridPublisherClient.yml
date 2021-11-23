@@ -56,7 +56,10 @@ constructors:
           type: KeyCredential | SASCredential | TokenCredential
           description: Used to authenticate requests to the service.
         - id: options
-          type: <xref uid="@azure/eventgrid.EventGridPublisherClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/eventgrid.EventGridPublisherClientOptions|latest-stable"
+            />
           description: |
             Used to configure the Event Grid Client.
 properties:
@@ -105,7 +108,7 @@ methods:
             The events to send. The events should be in the schema used when
             constructing the client.
         - id: options
-          type: <xref uid="@azure/eventgrid.SendOptions" />
+          type: <xref uid="@azure/eventgrid.SendOptions|latest-stable" />
           description: |
             Options to control the underlying operation.
       return:

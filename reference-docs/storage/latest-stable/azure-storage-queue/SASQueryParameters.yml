@@ -61,7 +61,7 @@ constructors:
             Representing the storage resource types being accessed (only for
             Account SAS)
         - id: protocol
-          type: <xref uid="@azure/storage-queue.SASProtocol" />
+          type: <xref uid="@azure/storage-queue.SASProtocol|latest-stable" />
           description: Representing the allowed HTTP protocol(s)
         - id: startsOn
           type: Date
@@ -70,7 +70,7 @@ constructors:
           type: Date
           description: Representing the expiry time for this SAS token
         - id: ipRange
-          type: <xref uid="@azure/storage-queue.SasIPRange" />
+          type: <xref uid="@azure/storage-queue.SasIPRange|latest-stable" />
           description: Representing the range of valid IP addresses for this SAS token
         - id: identifier
           type: string
@@ -121,7 +121,9 @@ properties:
     syntax:
       content: SasIPRange | undefined ipRange
       return:
-        type: <xref uid="@azure/storage-queue.SasIPRange" /> | undefined
+        type: >-
+          <xref uid="@azure/storage-queue.SasIPRange|latest-stable" /> |
+          undefined
         description: ''
   - name: permissions
     uid: '@azure/storage-queue.SASQueryParameters.permissions|latest-stable'
@@ -151,7 +153,7 @@ properties:
     syntax:
       content: 'protocol?: SASProtocol'
       return:
-        type: <xref uid="@azure/storage-queue.SASProtocol" />
+        type: <xref uid="@azure/storage-queue.SASProtocol|latest-stable" />
         description: ''
   - name: resource
     uid: '@azure/storage-queue.SASQueryParameters.resource|latest-stable'

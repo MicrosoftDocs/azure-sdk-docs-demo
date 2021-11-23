@@ -22,7 +22,7 @@ constructors:
         - id: client
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.AppConfigurationManagementClientContext"
+            uid="@azure/arm-appconfiguration.AppConfigurationManagementClientContext|latest-stable"
             />
           description: |
             Reference to the service client.
@@ -55,7 +55,7 @@ methods:
 
             character. Label is optional.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -94,13 +94,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.KeyValuesCreateOrUpdateOptionalParams"
+            uid="@azure/arm-appconfiguration.KeyValuesCreateOrUpdateOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-appconfiguration.KeyValue"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-appconfiguration.KeyValue|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -134,10 +134,14 @@ methods:
 
             character. Label is optional.
         - id: options
-          type: <xref uid="Models.KeyValuesCreateOrUpdateOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.KeyValuesCreateOrUpdateOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.KeyValuesCreateOrUpdateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.KeyValuesCreateOrUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.KeyValuesCreateOrUpdateResponse>
   - name: createOrUpdate(string, string, string, ServiceCallback<KeyValue>)
     uid: '@azure/arm-appconfiguration.KeyValues.createOrUpdate_1|latest-stable'
@@ -168,8 +172,8 @@ methods:
             character. Label is optional.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-appconfiguration.KeyValue"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-appconfiguration.KeyValue|latest-stable" />&gt;
           description: |
             The callback
   - name: deleteMethod(string, string, string, msRest.RequestOptionsBase)
@@ -200,7 +204,7 @@ methods:
 
             character. Label is optional.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -233,10 +237,12 @@ methods:
 
             character. Label is optional.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.KeyValuesGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.KeyValuesGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.KeyValuesGetResponse>
   - name: get(string, string, string, RequestOptionsBase, ServiceCallback<KeyValue>)
     uid: '@azure/arm-appconfiguration.KeyValues.get_2|latest-stable'
@@ -271,8 +277,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-appconfiguration.KeyValue"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-appconfiguration.KeyValue|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, string, ServiceCallback<KeyValue>)
@@ -304,8 +310,8 @@ methods:
             character. Label is optional.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-appconfiguration.KeyValue"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-appconfiguration.KeyValue|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -337,13 +343,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.KeyValuesListByConfigurationStoreOptionalParams"
+            uid="@azure/arm-appconfiguration.KeyValuesListByConfigurationStoreOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.KeyValueListResult" />&gt;
+            uid="@azure/arm-appconfiguration.KeyValueListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -372,13 +379,15 @@ methods:
           description: The name of the configuration store.
         - id: options
           type: >-
-            <xref uid="Models.KeyValuesListByConfigurationStoreOptionalParams"
+            <xref
+            uid="Models.KeyValuesListByConfigurationStoreOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.KeyValuesListByConfigurationStoreResponse" />&gt;
+          uid="Models.KeyValuesListByConfigurationStoreResponse|latest-stable"
+          />&gt;
         description: Promise<Models.KeyValuesListByConfigurationStoreResponse>
   - name: >-
       listByConfigurationStore(string, string,
@@ -406,7 +415,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.KeyValueListResult" />&gt;
+            uid="@azure/arm-appconfiguration.KeyValueListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -432,13 +442,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.KeyValuesListByConfigurationStoreNextOptionalParams"
+            uid="@azure/arm-appconfiguration.KeyValuesListByConfigurationStoreNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.KeyValueListResult" />&gt;
+            uid="@azure/arm-appconfiguration.KeyValueListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -462,12 +473,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.KeyValuesListByConfigurationStoreNextOptionalParams" />
+            uid="Models.KeyValuesListByConfigurationStoreNextOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.KeyValuesListByConfigurationStoreNextResponse" />&gt;
+          uid="Models.KeyValuesListByConfigurationStoreNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.KeyValuesListByConfigurationStoreNextResponse>
   - name: listByConfigurationStoreNext(string, ServiceCallback<KeyValueListResult>)
     uid: >-
@@ -488,6 +501,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.KeyValueListResult" />&gt;
+            uid="@azure/arm-appconfiguration.KeyValueListResult|latest-stable"
+            />&gt;
           description: |
             The callback

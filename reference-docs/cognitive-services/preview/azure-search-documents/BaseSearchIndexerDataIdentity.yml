@@ -25,7 +25,9 @@ properties:
         "#Microsoft.Azure.Search.SearchIndexerDataUserAssignedIdentity"
       return:
         type: >-
-          "#<xref uid="Microsoft.Azure.Search.SearchIndexerDataNoneIdentity" />"
+          "#<xref
+          uid="Microsoft.Azure.Search.SearchIndexerDataNoneIdentity|preview" />"
           | "#<xref
-          uid="Microsoft.Azure.Search.SearchIndexerDataUserAssignedIdentity" />"
+          uid="Microsoft.Azure.Search.SearchIndexerDataUserAssignedIdentity|preview"
+          />"
         description: ''

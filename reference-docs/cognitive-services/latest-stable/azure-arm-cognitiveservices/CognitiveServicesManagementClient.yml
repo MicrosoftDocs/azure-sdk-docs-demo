@@ -44,7 +44,10 @@ constructors:
           type: string
           description: The ID of the target subscription.
         - id: options
-          type: <xref uid="Models.CognitiveServicesManagementClientOptions" />
+          type: >-
+            <xref
+            uid="Models.CognitiveServicesManagementClientOptions|latest-stable"
+            />
           description: ''
 properties:
   - name: acceptLanguage
@@ -73,7 +76,7 @@ properties:
     syntax:
       content: 'accounts: Accounts'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.Accounts" />
+        type: <xref uid="@azure/arm-cognitiveservices.Accounts|latest-stable" />
         description: ''
   - name: apiVersion
     uid: >-
@@ -101,7 +104,9 @@ properties:
     syntax:
       content: 'commitmentPlans: CommitmentPlans'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.CommitmentPlans" />
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.CommitmentPlans|latest-stable"
+          />
         description: ''
   - name: commitmentTiers
     uid: >-
@@ -115,7 +120,9 @@ properties:
     syntax:
       content: 'commitmentTiers: CommitmentTiers'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.CommitmentTiers" />
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.CommitmentTiers|latest-stable"
+          />
         description: ''
   - name: credentials
     uid: >-
@@ -143,7 +150,9 @@ properties:
     syntax:
       content: 'deletedAccounts: DeletedAccounts'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.DeletedAccounts" />
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.DeletedAccounts|latest-stable"
+          />
         description: ''
   - name: deployments
     uid: >-
@@ -157,7 +166,7 @@ properties:
     syntax:
       content: 'deployments: Deployments'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.Deployments" />
+        type: <xref uid="@azure/arm-cognitiveservices.Deployments|latest-stable" />
         description: ''
   - name: longRunningOperationRetryTimeout
     uid: >-
@@ -187,7 +196,7 @@ properties:
     syntax:
       content: 'operations: Operations'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.Operations" />
+        type: <xref uid="@azure/arm-cognitiveservices.Operations|latest-stable" />
         description: ''
   - name: privateEndpointConnections
     uid: >-
@@ -201,7 +210,10 @@ properties:
     syntax:
       content: 'privateEndpointConnections: PrivateEndpointConnections'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.PrivateEndpointConnections" />
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.PrivateEndpointConnections|latest-stable"
+          />
         description: ''
   - name: privateLinkResources
     uid: >-
@@ -215,7 +227,10 @@ properties:
     syntax:
       content: 'privateLinkResources: PrivateLinkResources'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.PrivateLinkResources" />
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.PrivateLinkResources|latest-stable"
+          />
         description: ''
   - name: resourceSkus
     uid: >-
@@ -229,7 +244,7 @@ properties:
     syntax:
       content: 'resourceSkus: ResourceSkus'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.ResourceSkus" />
+        type: <xref uid="@azure/arm-cognitiveservices.ResourceSkus|latest-stable" />
         description: ''
   - name: subscriptionId
     uid: >-
@@ -305,13 +320,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-cognitiveservices.CognitiveServicesManagementClientCheckDomainAvailabilityOptionalParams"
+            uid="@azure/arm-cognitiveservices.CognitiveServicesManagementClientCheckDomainAvailabilityOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.DomainAvailability" />&gt;
+            uid="@azure/arm-cognitiveservices.DomainAvailability|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -339,11 +355,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.CognitiveServicesManagementClientCheckDomainAvailabilityOptionalParams"
+            uid="Models.CognitiveServicesManagementClientCheckDomainAvailabilityOptionalParams|latest-stable"
             />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.CheckDomainAvailabilityResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.CheckDomainAvailabilityResponse|latest-stable" />&gt;
         description: Promise<Models.CheckDomainAvailabilityResponse>
   - name: >-
       checkDomainAvailability(string, string,
@@ -369,7 +387,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.DomainAvailability" />&gt;
+            uid="@azure/arm-cognitiveservices.DomainAvailability|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -400,10 +419,12 @@ methods:
           type: string
           description: The Type of the resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.CheckSkuAvailabilityResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.CheckSkuAvailabilityResponse|latest-stable" />&gt;
         description: Promise<Models.CheckSkuAvailabilityResponse>
   - name: >-
       checkSkuAvailability(string, string[], string, string, RequestOptionsBase,
@@ -439,7 +460,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.SkuAvailabilityListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.SkuAvailabilityListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -473,7 +495,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.SkuAvailabilityListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.SkuAvailabilityListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: restoreLROPoller(LROPollState)
@@ -605,4 +628,5 @@ methods:
         description: ''
 extends: >-
   <xref
-  uid="@azure/arm-cognitiveservices.CognitiveServicesManagementClientContext" />
+  uid="@azure/arm-cognitiveservices.CognitiveServicesManagementClientContext|latest-stable"
+  />

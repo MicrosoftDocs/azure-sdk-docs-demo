@@ -170,7 +170,9 @@ properties:
     syntax:
       content: 'immutabilityPolicy?: ImmutabilityPolicyProperties'
       return:
-        type: <xref uid="@azure/arm-storage.ImmutabilityPolicyProperties" />
+        type: >-
+          <xref
+          uid="@azure/arm-storage.ImmutabilityPolicyProperties|latest-stable" />
         description: ''
   - name: lastModifiedTime
     uid: '@azure/arm-storage.ListContainerItem.lastModifiedTime|latest-stable'
@@ -207,7 +209,7 @@ properties:
     syntax:
       content: 'leaseDuration?: LeaseDuration'
       return:
-        type: <xref uid="@azure/arm-storage.LeaseDuration" />
+        type: <xref uid="@azure/arm-storage.LeaseDuration|latest-stable" />
         description: ''
   - name: leaseState
     uid: '@azure/arm-storage.ListContainerItem.leaseState|latest-stable'
@@ -227,7 +229,7 @@ properties:
     syntax:
       content: 'leaseState?: LeaseState'
       return:
-        type: <xref uid="@azure/arm-storage.LeaseState" />
+        type: <xref uid="@azure/arm-storage.LeaseState|latest-stable" />
         description: ''
   - name: leaseStatus
     uid: '@azure/arm-storage.ListContainerItem.leaseStatus|latest-stable'
@@ -245,7 +247,7 @@ properties:
     syntax:
       content: 'leaseStatus?: LeaseStatus'
       return:
-        type: <xref uid="@azure/arm-storage.LeaseStatus" />
+        type: <xref uid="@azure/arm-storage.LeaseStatus|latest-stable" />
         description: ''
   - name: legalHold
     uid: '@azure/arm-storage.ListContainerItem.legalHold|latest-stable'
@@ -262,7 +264,7 @@ properties:
     syntax:
       content: 'legalHold?: LegalHoldProperties'
       return:
-        type: <xref uid="@azure/arm-storage.LegalHoldProperties" />
+        type: <xref uid="@azure/arm-storage.LegalHoldProperties|latest-stable" />
         description: ''
   - name: metadata
     uid: '@azure/arm-storage.ListContainerItem.metadata|latest-stable'
@@ -309,7 +311,7 @@ properties:
     syntax:
       content: 'publicAccess?: PublicAccess'
       return:
-        type: <xref uid="@azure/arm-storage.PublicAccess" />
+        type: <xref uid="@azure/arm-storage.PublicAccess|latest-stable" />
         description: ''
   - name: remainingRetentionDays
     uid: '@azure/arm-storage.ListContainerItem.remainingRetentionDays|latest-stable'
@@ -364,4 +366,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-storage.AzureEntityResource" />
+extends: <xref uid="@azure/arm-storage.AzureEntityResource|latest-stable" />

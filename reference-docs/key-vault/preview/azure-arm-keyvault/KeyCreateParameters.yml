@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'properties: KeyProperties'
       return:
-        type: <xref uid="@azure/arm-keyvault.KeyProperties" />
+        type: <xref uid="@azure/arm-keyvault.KeyProperties|preview" />
         description: ''
   - name: tags
     uid: '@azure/arm-keyvault.KeyCreateParameters.tags|preview'

@@ -48,7 +48,7 @@ properties:
     syntax:
       content: 'ipRange?: SasIPRange'
       return:
-        type: <xref uid="@azure/storage-queue.SasIPRange" />
+        type: <xref uid="@azure/storage-queue.SasIPRange|latest-stable" />
         description: ''
   - name: permissions
     uid: '@azure/storage-queue.AccountSASSignatureValues.permissions|latest-stable'
@@ -65,7 +65,9 @@ properties:
     syntax:
       content: 'permissions: AccountSASPermissions'
       return:
-        type: <xref uid="@azure/storage-queue.AccountSASPermissions" />
+        type: >-
+          <xref uid="@azure/storage-queue.AccountSASPermissions|latest-stable"
+          />
         description: ''
   - name: protocol
     uid: '@azure/storage-queue.AccountSASSignatureValues.protocol|latest-stable'
@@ -78,7 +80,7 @@ properties:
     syntax:
       content: 'protocol?: SASProtocol'
       return:
-        type: <xref uid="@azure/storage-queue.SASProtocol" />
+        type: <xref uid="@azure/storage-queue.SASProtocol|latest-stable" />
         description: ''
   - name: resourceTypes
     uid: '@azure/storage-queue.AccountSASSignatureValues.resourceTypes|latest-stable'

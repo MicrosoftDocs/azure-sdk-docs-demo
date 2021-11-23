@@ -20,7 +20,10 @@ constructors:
       content: 'new StorageAccounts(client: StorageManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -68,10 +71,13 @@ methods:
 
             letters only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.StorageAccountCreateParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountCreateParameters|latest-stable"
+            />
           description: The parameters to provide for the created account.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -113,7 +119,7 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -154,10 +160,10 @@ methods:
           type: Date | string
           description: Restore blob to the specified time.
         - id: blobRanges
-          type: <xref uid="@azure/arm-storage.BlobRestoreRange" />[]
+          type: <xref uid="@azure/arm-storage.BlobRestoreRange|latest-stable" />[]
           description: Blob ranges to restore.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -178,12 +184,13 @@ methods:
           type: string
           description: The storage account name.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.StorageAccountsCheckNameAvailabilityResponse" />&gt;
+          uid="Models.StorageAccountsCheckNameAvailabilityResponse|latest-stable"
+          />&gt;
         description: Promise<Models.StorageAccountsCheckNameAvailabilityResponse>
   - name: >-
       checkNameAvailability(string, RequestOptionsBase,
@@ -209,7 +216,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.CheckNameAvailabilityResult" />&gt;
+            uid="@azure/arm-storage.CheckNameAvailabilityResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -232,7 +240,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.CheckNameAvailabilityResult" />&gt;
+            uid="@azure/arm-storage.CheckNameAvailabilityResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -279,13 +288,18 @@ methods:
 
             letters only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.StorageAccountCreateParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountCreateParameters|latest-stable"
+            />
           description: The parameters to provide for the created account.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.StorageAccountsCreateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.StorageAccountsCreateResponse|latest-stable" />&gt;
         description: Promise<Models.StorageAccountsCreateResponse>
   - name: deleteMethod(string, string, msRest.RequestOptionsBase)
     uid: '@azure/arm-storage.StorageAccounts.deleteMethod|latest-stable'
@@ -317,7 +331,7 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -428,7 +442,7 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -472,12 +486,15 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="Models.StorageAccountsGetPropertiesOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.StorageAccountsGetPropertiesOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.StorageAccountsGetPropertiesResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.StorageAccountsGetPropertiesResponse|latest-stable" />&gt;
         description: Promise<Models.StorageAccountsGetPropertiesResponse>
   - name: getProperties(string, string, ServiceCallback<StorageAccount>)
     uid: '@azure/arm-storage.StorageAccounts.getProperties_1|latest-stable'
@@ -510,8 +527,8 @@ methods:
             letters only.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.StorageAccount"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.StorageAccount|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -549,13 +566,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.StorageAccountsGetPropertiesOptionalParams"
+            uid="@azure/arm-storage.StorageAccountsGetPropertiesOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.StorageAccount"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.StorageAccount|latest-stable" />&gt;
           description: |
             The callback
   - name: list(msRest.RequestOptionsBase)
@@ -573,10 +590,12 @@ methods:
       content: 'function list(options?: msRest.RequestOptionsBase)'
       parameters:
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.StorageAccountsListResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.StorageAccountsListResponse|latest-stable" />&gt;
         description: Promise<Models.StorageAccountsListResponse>
   - name: list(RequestOptionsBase, ServiceCallback<StorageAccountListResult>)
     uid: '@azure/arm-storage.StorageAccounts.list_2|latest-stable'
@@ -596,7 +615,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.StorageAccountListResult" />&gt;
+            uid="@azure/arm-storage.StorageAccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: list(ServiceCallback<StorageAccountListResult>)
@@ -612,7 +632,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.StorageAccountListResult" />&gt;
+            uid="@azure/arm-storage.StorageAccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -647,16 +668,17 @@ methods:
 
             letters only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.AccountSasParameters" />
+          type: <xref uid="@azure/arm-storage.AccountSasParameters|latest-stable" />
           description: >-
             The parameters to provide to list SAS credentials for the storage
             account.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.StorageAccountsListAccountSASResponse"
+          Promise&lt;<xref
+          uid="Models.StorageAccountsListAccountSASResponse|latest-stable"
           />&gt;
         description: Promise<Models.StorageAccountsListAccountSASResponse>
   - name: >-
@@ -692,7 +714,7 @@ methods:
 
             letters only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.AccountSasParameters" />
+          type: <xref uid="@azure/arm-storage.AccountSasParameters|latest-stable" />
           description: >-
             The parameters to provide to list SAS credentials for the storage
             account.
@@ -702,7 +724,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.ListAccountSasResponse" />&gt;
+            uid="@azure/arm-storage.ListAccountSasResponse|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -738,14 +760,14 @@ methods:
 
             letters only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.AccountSasParameters" />
+          type: <xref uid="@azure/arm-storage.AccountSasParameters|latest-stable" />
           description: >-
             The parameters to provide to list SAS credentials for the storage
             account.
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.ListAccountSasResponse" />&gt;
+            uid="@azure/arm-storage.ListAccountSasResponse|latest-stable" />&gt;
           description: |
             The callback
   - name: listByResourceGroup(string, msRest.RequestOptionsBase)
@@ -772,12 +794,13 @@ methods:
 
             is case insensitive.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.StorageAccountsListByResourceGroupResponse" />&gt;
+          uid="Models.StorageAccountsListByResourceGroupResponse|latest-stable"
+          />&gt;
         description: Promise<Models.StorageAccountsListByResourceGroupResponse>
   - name: >-
       listByResourceGroup(string, RequestOptionsBase,
@@ -806,7 +829,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.StorageAccountListResult" />&gt;
+            uid="@azure/arm-storage.StorageAccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listByResourceGroup(string, ServiceCallback<StorageAccountListResult>)
@@ -831,7 +855,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.StorageAccountListResult" />&gt;
+            uid="@azure/arm-storage.StorageAccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listByResourceGroupNext(string, msRest.RequestOptionsBase)
@@ -854,12 +879,13 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.StorageAccountsListByResourceGroupNextResponse" />&gt;
+          uid="Models.StorageAccountsListByResourceGroupNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.StorageAccountsListByResourceGroupNextResponse>
   - name: >-
       listByResourceGroupNext(string, RequestOptionsBase,
@@ -884,7 +910,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.StorageAccountListResult" />&gt;
+            uid="@azure/arm-storage.StorageAccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listByResourceGroupNext(string, ServiceCallback<StorageAccountListResult>)
@@ -905,7 +932,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.StorageAccountListResult" />&gt;
+            uid="@azure/arm-storage.StorageAccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listKeys(string, string, Models.StorageAccountsListKeysOptionalParams)
@@ -942,10 +970,14 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="Models.StorageAccountsListKeysOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.StorageAccountsListKeysOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.StorageAccountsListKeysResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.StorageAccountsListKeysResponse|latest-stable" />&gt;
         description: Promise<Models.StorageAccountsListKeysResponse>
   - name: listKeys(string, string, ServiceCallback<StorageAccountListKeysResult>)
     uid: '@azure/arm-storage.StorageAccounts.listKeys_1|latest-stable'
@@ -979,7 +1011,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.StorageAccountListKeysResult" />&gt;
+            uid="@azure/arm-storage.StorageAccountListKeysResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1016,13 +1049,15 @@ methods:
             letters only.
         - id: options
           type: >-
-            <xref uid="@azure/arm-storage.StorageAccountsListKeysOptionalParams"
+            <xref
+            uid="@azure/arm-storage.StorageAccountsListKeysOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.StorageAccountListKeysResult" />&gt;
+            uid="@azure/arm-storage.StorageAccountListKeysResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, msRest.RequestOptionsBase)
@@ -1045,10 +1080,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.StorageAccountsListNextResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.StorageAccountsListNextResponse|latest-stable" />&gt;
         description: Promise<Models.StorageAccountsListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,
@@ -1073,7 +1110,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.StorageAccountListResult" />&gt;
+            uid="@azure/arm-storage.StorageAccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, ServiceCallback<StorageAccountListResult>)
@@ -1094,7 +1132,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.StorageAccountListResult" />&gt;
+            uid="@azure/arm-storage.StorageAccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1129,14 +1168,15 @@ methods:
 
             letters only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.ServiceSasParameters" />
+          type: <xref uid="@azure/arm-storage.ServiceSasParameters|latest-stable" />
           description: The parameters to provide to list service SAS credentials.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.StorageAccountsListServiceSASResponse"
+          Promise&lt;<xref
+          uid="Models.StorageAccountsListServiceSASResponse|latest-stable"
           />&gt;
         description: Promise<Models.StorageAccountsListServiceSASResponse>
   - name: >-
@@ -1172,7 +1212,7 @@ methods:
 
             letters only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.ServiceSasParameters" />
+          type: <xref uid="@azure/arm-storage.ServiceSasParameters|latest-stable" />
           description: The parameters to provide to list service SAS credentials.
         - id: options
           type: RequestOptionsBase
@@ -1180,7 +1220,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.ListServiceSasResponse" />&gt;
+            uid="@azure/arm-storage.ListServiceSasResponse|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -1216,12 +1256,12 @@ methods:
 
             letters only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.ServiceSasParameters" />
+          type: <xref uid="@azure/arm-storage.ServiceSasParameters|latest-stable" />
           description: The parameters to provide to list service SAS credentials.
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.ListServiceSasResponse" />&gt;
+            uid="@azure/arm-storage.ListServiceSasResponse|latest-stable" />&gt;
           description: |
             The callback
   - name: regenerateKey(string, string, string, msRest.RequestOptionsBase)
@@ -1263,12 +1303,12 @@ methods:
 
             key2, kerb1, kerb2.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.StorageAccountsRegenerateKeyResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.StorageAccountsRegenerateKeyResponse|latest-stable" />&gt;
         description: Promise<Models.StorageAccountsRegenerateKeyResponse>
   - name: >-
       regenerateKey(string, string, string, RequestOptionsBase,
@@ -1315,7 +1355,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.StorageAccountListKeysResult" />&gt;
+            uid="@azure/arm-storage.StorageAccountListKeysResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1360,7 +1401,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.StorageAccountListKeysResult" />&gt;
+            uid="@azure/arm-storage.StorageAccountListKeysResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -1399,14 +1441,15 @@ methods:
           type: Date | string
           description: Restore blob to the specified time.
         - id: blobRanges
-          type: <xref uid="@azure/arm-storage.BlobRestoreRange" />[]
+          type: <xref uid="@azure/arm-storage.BlobRestoreRange|latest-stable" />[]
           description: Blob ranges to restore.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.StorageAccountsRestoreBlobRangesResponse"
+          Promise&lt;<xref
+          uid="Models.StorageAccountsRestoreBlobRangesResponse|latest-stable"
           />&gt;
         description: Promise<Models.StorageAccountsRestoreBlobRangesResponse>
   - name: revokeUserDelegationKeys(string, string, msRest.RequestOptionsBase)
@@ -1439,7 +1482,7 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -1573,13 +1616,18 @@ methods:
 
             letters only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.StorageAccountUpdateParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountUpdateParameters|latest-stable"
+            />
           description: The parameters to provide for the updated account.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.StorageAccountsUpdateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.StorageAccountsUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.StorageAccountsUpdateResponse>
   - name: >-
       update(string, string, StorageAccountUpdateParameters, RequestOptionsBase,
@@ -1614,15 +1662,18 @@ methods:
 
             letters only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.StorageAccountUpdateParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountUpdateParameters|latest-stable"
+            />
           description: The parameters to provide for the updated account.
         - id: options
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.StorageAccount"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.StorageAccount|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -1658,11 +1709,14 @@ methods:
 
             letters only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.StorageAccountUpdateParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountUpdateParameters|latest-stable"
+            />
           description: The parameters to provide for the updated account.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.StorageAccount"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.StorageAccount|latest-stable" />&gt;
           description: |
             The callback

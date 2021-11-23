@@ -97,7 +97,7 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-queue.AccountSASServices" />
+        type: <xref uid="@azure/storage-queue.AccountSASServices|preview" />
         description: ''
   - name: toString()
     uid: '@azure/storage-queue.AccountSASServices.toString|preview'

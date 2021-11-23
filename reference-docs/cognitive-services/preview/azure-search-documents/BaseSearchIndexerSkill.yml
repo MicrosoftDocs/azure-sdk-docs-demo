@@ -53,7 +53,9 @@ properties:
     syntax:
       content: 'inputs: InputFieldMappingEntry[]'
       return:
-        type: <xref uid="@azure/search-documents.InputFieldMappingEntry" />[]
+        type: >-
+          <xref uid="@azure/search-documents.InputFieldMappingEntry|preview"
+          />[]
         description: ''
   - name: name
     uid: '@azure/search-documents.BaseSearchIndexerSkill.name|preview'
@@ -103,24 +105,25 @@ properties:
         "#Microsoft.Skills.Custom.WebApiSkill"
       return:
         type: >-
-          "#<xref uid="Microsoft.Skills.Util.ConditionalSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.KeyPhraseExtractionSkill" />" | "#<xref
-          uid="Microsoft.Skills.Vision.OcrSkill" />" | "#<xref
-          uid="Microsoft.Skills.Vision.ImageAnalysisSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.LanguageDetectionSkill" />" | "#<xref
-          uid="Microsoft.Skills.Util.ShaperSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.MergeSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.EntityRecognitionSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.SentimentSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.V3.SentimentSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.V3.EntityLinkingSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.V3.EntityRecognitionSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.PIIDetectionSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.SplitSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.CustomEntityLookupSkill" />" | "#<xref
-          uid="Microsoft.Skills.Text.TranslationSkill" />" | "#<xref
-          uid="Microsoft.Skills.Util.DocumentExtractionSkill" />" | "#<xref
-          uid="Microsoft.Skills.Custom.WebApiSkill" />"
+          "#<xref uid="Microsoft.Skills.Util.ConditionalSkill|preview" />" |
+          "#<xref uid="Microsoft.Skills.Text.KeyPhraseExtractionSkill|preview"
+          />" | "#<xref uid="Microsoft.Skills.Vision.OcrSkill|preview" />" |
+          "#<xref uid="Microsoft.Skills.Vision.ImageAnalysisSkill|preview" />" |
+          "#<xref uid="Microsoft.Skills.Text.LanguageDetectionSkill|preview" />"
+          | "#<xref uid="Microsoft.Skills.Util.ShaperSkill|preview" />" |
+          "#<xref uid="Microsoft.Skills.Text.MergeSkill|preview" />" | "#<xref
+          uid="Microsoft.Skills.Text.EntityRecognitionSkill|preview" />" |
+          "#<xref uid="Microsoft.Skills.Text.SentimentSkill|preview" />" |
+          "#<xref uid="Microsoft.Skills.Text.V3.SentimentSkill|preview" />" |
+          "#<xref uid="Microsoft.Skills.Text.V3.EntityLinkingSkill|preview" />"
+          | "#<xref
+          uid="Microsoft.Skills.Text.V3.EntityRecognitionSkill|preview" />" |
+          "#<xref uid="Microsoft.Skills.Text.PIIDetectionSkill|preview" />" |
+          "#<xref uid="Microsoft.Skills.Text.SplitSkill|preview" />" | "#<xref
+          uid="Microsoft.Skills.Text.CustomEntityLookupSkill|preview" />" |
+          "#<xref uid="Microsoft.Skills.Text.TranslationSkill|preview" />" |
+          "#<xref uid="Microsoft.Skills.Util.DocumentExtractionSkill|preview"
+          />" | "#<xref uid="Microsoft.Skills.Custom.WebApiSkill|preview" />"
         description: ''
   - name: outputs
     uid: '@azure/search-documents.BaseSearchIndexerSkill.outputs|preview'
@@ -135,5 +138,7 @@ properties:
     syntax:
       content: 'outputs: OutputFieldMappingEntry[]'
       return:
-        type: <xref uid="@azure/search-documents.OutputFieldMappingEntry" />[]
+        type: >-
+          <xref uid="@azure/search-documents.OutputFieldMappingEntry|preview"
+          />[]
         description: ''

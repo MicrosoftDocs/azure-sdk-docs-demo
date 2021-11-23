@@ -48,7 +48,7 @@ properties:
     syntax:
       content: 'retentionPolicy?: RetentionPolicy'
       return:
-        type: <xref uid="@azure/storage-file-share.RetentionPolicy" />
+        type: <xref uid="@azure/storage-file-share.RetentionPolicy|latest-stable" />
         description: ''
   - name: version
     uid: '@azure/storage-file-share.Metrics.version|latest-stable'

@@ -81,7 +81,10 @@ properties:
     syntax:
       content: 'error?: CertificateOperationError'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificateOperationError" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-certificates.CertificateOperationError|latest-stable"
+          />
         description: ''
   - name: id
     uid: '@azure/keyvault-certificates.CertificateOperation.id|latest-stable'

@@ -35,5 +35,5 @@ properties:
     syntax:
       content: 'value?: NetworkRuleSet[]'
       return:
-        type: <xref uid="@azure/arm-servicebus.NetworkRuleSet" />[]
+        type: <xref uid="@azure/arm-servicebus.NetworkRuleSet|preview" />[]
         description: ''

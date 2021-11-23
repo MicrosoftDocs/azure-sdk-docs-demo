@@ -125,7 +125,7 @@ properties:
     syntax:
       content: 'result?: ModelInfo'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.ModelInfo" />
+        type: <xref uid="@azure/ai-form-recognizer.ModelInfo|preview" />
         description: ''
   - name: status
     uid: '@azure/ai-form-recognizer.TrainingPollOperationState.status|preview'
@@ -144,6 +144,8 @@ properties:
     syntax:
       content: 'status: OperationStatus'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.OperationStatus" />
+        type: <xref uid="@azure/ai-form-recognizer.OperationStatus|preview" />
         description: ''
-extends: PollOperationState&lt;<xref uid="@azure/ai-form-recognizer.ModelInfo" />&gt;
+extends: >-
+  PollOperationState&lt;<xref uid="@azure/ai-form-recognizer.ModelInfo|preview"
+  />&gt;

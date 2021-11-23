@@ -20,5 +20,5 @@ properties:
     syntax:
       content: 'targetNamespaceType: NameSpaceType'
       return:
-        type: <xref uid="@azure/arm-servicebus.NameSpaceType" />
+        type: <xref uid="@azure/arm-servicebus.NameSpaceType|preview" />
         description: ''

@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'name?: MetricName'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.MetricName" />
+        type: <xref uid="@azure/arm-cognitiveservices.MetricName|latest-stable" />
         description: ''
   - name: nextResetTime
     uid: '@azure/arm-cognitiveservices.Usage.nextResetTime|latest-stable'
@@ -89,7 +89,9 @@ properties:
     syntax:
       content: 'status?: QuotaUsageStatus'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.QuotaUsageStatus" />
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.QuotaUsageStatus|latest-stable" />
         description: ''
   - name: unit
     uid: '@azure/arm-cognitiveservices.Usage.unit|latest-stable'
@@ -106,5 +108,5 @@ properties:
     syntax:
       content: 'unit?: UnitType'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.UnitType" />
+        type: <xref uid="@azure/arm-cognitiveservices.UnitType|latest-stable" />
         description: ''

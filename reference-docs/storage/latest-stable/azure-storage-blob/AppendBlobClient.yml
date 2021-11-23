@@ -40,7 +40,7 @@ constructors:
                                 However, if a blob name includes ? or %, blob name must be encoded in the URL.
                                 Such as a blob named "my?blob%", the URL should be "https://myaccount.blob.core.windows.net/mycontainer/my%3Fblob%25".
         - id: pipeline
-          type: <xref uid="@azure/storage-blob.PipelineLike" />
+          type: <xref uid="@azure/storage-blob.PipelineLike|latest-stable" />
           description: |
             Call newPipeline() to create a default
                                        pipeline, or provide a customized pipeline.
@@ -81,8 +81,10 @@ constructors:
                                 Such as a blob named "my?blob%", the URL should be "https://myaccount.blob.core.windows.net/mycontainer/my%3Fblob%25".
         - id: credential
           type: >-
-            <xref uid="@azure/storage-blob.StorageSharedKeyCredential" /> |
-            <xref uid="@azure/storage-blob.AnonymousCredential" /> |
+            <xref
+            uid="@azure/storage-blob.StorageSharedKeyCredential|latest-stable"
+            /> | <xref
+            uid="@azure/storage-blob.AnonymousCredential|latest-stable" /> |
             TokenCredential
           description: >-
             Such as AnonymousCredential, StorageSharedKeyCredential or any
@@ -91,7 +93,9 @@ constructors:
             implements the TokenCredential interface. If not specified,
             AnonymousCredential is used.
         - id: options
-          type: <xref uid="@azure/storage-blob.StoragePipelineOptions" />
+          type: >-
+            <xref uid="@azure/storage-blob.StoragePipelineOptions|latest-stable"
+            />
           description: |
             Optional. Options to configure the HTTP pipeline.
   - name: AppendBlobClient(string, string, string, StoragePipelineOptions)
@@ -123,7 +127,9 @@ constructors:
           type: string
           description: Blob name.
         - id: options
-          type: <xref uid="@azure/storage-blob.StoragePipelineOptions" />
+          type: >-
+            <xref uid="@azure/storage-blob.StoragePipelineOptions|latest-stable"
+            />
           description: |
             Optional. Options to configure the HTTP pipeline.
 properties:
@@ -171,8 +177,10 @@ properties:
         TokenCredential
       return:
         type: >-
-          <xref uid="@azure/storage-blob.StorageSharedKeyCredential" /> | <xref
-          uid="@azure/storage-blob.AnonymousCredential" /> | TokenCredential
+          <xref
+          uid="@azure/storage-blob.StorageSharedKeyCredential|latest-stable" />
+          | <xref uid="@azure/storage-blob.AnonymousCredential|latest-stable" />
+          | TokenCredential
         description: ''
   - name: name
     uid: '@azure/storage-blob.AppendBlobClient.name|latest-stable'
@@ -221,13 +229,17 @@ methods:
           type: string
           description: Id of the Copy From URL operation.
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobAbortCopyFromURLOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-blob.BlobAbortCopyFromURLOptions|latest-stable"
+            />
           description: |
             Optional options to the Blob Abort Copy From URL operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-blob.BlobAbortCopyFromURLResponse" />&gt;
+          uid="@azure/storage-blob.BlobAbortCopyFromURLResponse|latest-stable"
+          />&gt;
         description: ''
   - name: appendBlock(HttpRequestBody, number, AppendBlobAppendBlockOptions)
     uid: '@azure/storage-blob.AppendBlobClient.appendBlock|latest-stable'
@@ -248,7 +260,10 @@ methods:
           type: number
           description: Length of the body in bytes.
         - id: options
-          type: <xref uid="@azure/storage-blob.AppendBlobAppendBlockOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-blob.AppendBlobAppendBlockOptions|latest-stable"
+            />
           description: >
             Options to the Append Block operation.
 
@@ -283,7 +298,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-blob.AppendBlobAppendBlockResponse" />&gt;
+          uid="@azure/storage-blob.AppendBlobAppendBlockResponse|latest-stable"
+          />&gt;
         description: ''
   - name: >-
       appendBlockFromURL(string, number, number,
@@ -319,14 +335,16 @@ methods:
           description: Number of bytes to be appended as a block
         - id: options
           type: >-
-            <xref uid="@azure/storage-blob.AppendBlobAppendBlockFromURLOptions"
+            <xref
+            uid="@azure/storage-blob.AppendBlobAppendBlockFromURLOptions|latest-stable"
             />
           description: |
             -
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-blob.AppendBlobAppendBlockFromUrlResponse" />&gt;
+          uid="@azure/storage-blob.AppendBlobAppendBlockFromUrlResponse|latest-stable"
+          />&gt;
         description: ''
   - name: beginCopyFromURL(string, BlobBeginCopyFromURLOptions)
     uid: '@azure/storage-blob.AppendBlobClient.beginCopyFromURL|latest-stable'
@@ -374,14 +392,19 @@ methods:
           type: string
           description: url to the source Azure Blob/File.
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobBeginCopyFromURLOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-blob.BlobBeginCopyFromURLOptions|latest-stable"
+            />
           description: |
             Optional options to the Blob Start Copy From URL operation.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/storage-blob.BlobBeginCopyFromURLResponse" />&gt;, <xref
-          uid="@azure/storage-blob.BlobBeginCopyFromURLResponse" />&gt;&gt;
+          uid="@azure/storage-blob.BlobBeginCopyFromURLResponse|latest-stable"
+          />&gt;, <xref
+          uid="@azure/storage-blob.BlobBeginCopyFromURLResponse|latest-stable"
+          />&gt;&gt;
         description: ''
   - name: create(AppendBlobCreateOptions)
     uid: '@azure/storage-blob.AppendBlobClient.create|latest-stable'
@@ -396,7 +419,9 @@ methods:
       content: 'function create(options?: AppendBlobCreateOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-blob.AppendBlobCreateOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-blob.AppendBlobCreateOptions|latest-stable" />
           description: >
             Options to the Append Block Create operation.
 
@@ -415,7 +440,8 @@ methods:
             ```
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-blob.AppendBlobCreateResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-blob.AppendBlobCreateResponse|latest-stable"
           />&gt;
         description: ''
   - name: createIfNotExists(AppendBlobCreateIfNotExistsOptions)
@@ -435,14 +461,16 @@ methods:
       parameters:
         - id: options
           type: >-
-            <xref uid="@azure/storage-blob.AppendBlobCreateIfNotExistsOptions"
+            <xref
+            uid="@azure/storage-blob.AppendBlobCreateIfNotExistsOptions|latest-stable"
             />
           description: |
             -
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-blob.AppendBlobCreateIfNotExistsResponse" />&gt;
+          uid="@azure/storage-blob.AppendBlobCreateIfNotExistsResponse|latest-stable"
+          />&gt;
         description: ''
   - name: createSnapshot(BlobCreateSnapshotOptions)
     uid: '@azure/storage-blob.AppendBlobClient.createSnapshot|latest-stable'
@@ -455,12 +483,15 @@ methods:
       content: 'function createSnapshot(options?: BlobCreateSnapshotOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobCreateSnapshotOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-blob.BlobCreateSnapshotOptions|latest-stable" />
           description: |
             Optional options to the Blob Create Snapshot operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-blob.BlobCreateSnapshotResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-blob.BlobCreateSnapshotResponse|latest-stable"
           />&gt;
         description: ''
   - name: delete(BlobDeleteOptions)
@@ -483,11 +514,13 @@ methods:
       content: 'function delete(options?: BlobDeleteOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobDeleteOptions" />
+          type: <xref uid="@azure/storage-blob.BlobDeleteOptions|latest-stable" />
           description: |
             Optional options to Blob Delete operation.
       return:
-        type: Promise&lt;<xref uid="@azure/storage-blob.BlobDeleteResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/storage-blob.BlobDeleteResponse|latest-stable" />&gt;
         description: ''
   - name: deleteIfExists(BlobDeleteOptions)
     uid: '@azure/storage-blob.AppendBlobClient.deleteIfExists|latest-stable'
@@ -509,12 +542,13 @@ methods:
       content: 'function deleteIfExists(options?: BlobDeleteOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobDeleteOptions" />
+          type: <xref uid="@azure/storage-blob.BlobDeleteOptions|latest-stable" />
           description: |
             Optional options to Blob Delete operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-blob.BlobDeleteIfExistsResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-blob.BlobDeleteIfExistsResponse|latest-stable"
           />&gt;
         description: ''
   - name: deleteImmutabilityPolicy(BlobDeleteImmutabilityPolicyOptions)
@@ -532,14 +566,16 @@ methods:
       parameters:
         - id: options
           type: >-
-            <xref uid="@azure/storage-blob.BlobDeleteImmutabilityPolicyOptions"
+            <xref
+            uid="@azure/storage-blob.BlobDeleteImmutabilityPolicyOptions|latest-stable"
             />
           description: |
             Optional options to delete immutability policy on the blob.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-blob.BlobDeleteImmutabilityPolicyResponse" />&gt;
+          uid="@azure/storage-blob.BlobDeleteImmutabilityPolicyResponse|latest-stable"
+          />&gt;
         description: ''
   - name: download(number, number, BlobDownloadOptions)
     uid: '@azure/storage-blob.AppendBlobClient.download|latest-stable'
@@ -572,7 +608,7 @@ methods:
             How much data to be downloaded, greater than 0. Will download to the
             end when undefined
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobDownloadOptions" />
+          type: <xref uid="@azure/storage-blob.BlobDownloadOptions|latest-stable" />
           description: >
             Optional options to Blob Download operation.
 
@@ -652,7 +688,8 @@ methods:
             ```
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-blob.BlobDownloadResponseParsed"
+          Promise&lt;<xref
+          uid="@azure/storage-blob.BlobDownloadResponseParsed|latest-stable"
           />&gt;
         description: ''
   - name: downloadToBuffer(Buffer, number, number, BlobDownloadToBufferOptions)
@@ -694,7 +731,10 @@ methods:
             How much data(in bytes) to be downloaded. Will download to the end
             when passing undefined
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobDownloadToBufferOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-blob.BlobDownloadToBufferOptions|latest-stable"
+            />
           description: |
             BlobDownloadToBufferOptions
       return:
@@ -736,7 +776,10 @@ methods:
             How much data(in bytes) to be downloaded. Will download to the end
             when passing undefined
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobDownloadToBufferOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-blob.BlobDownloadToBufferOptions|latest-stable"
+            />
           description: |
             BlobDownloadToBufferOptions
       return:
@@ -774,11 +817,12 @@ methods:
             How much data to be downloaded. Will download to the end when
             passing undefined.
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobDownloadOptions" />
+          type: <xref uid="@azure/storage-blob.BlobDownloadOptions|latest-stable" />
           description: Options to Blob download options.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-blob.BlobDownloadResponseParsed"
+          Promise&lt;<xref
+          uid="@azure/storage-blob.BlobDownloadResponseParsed|latest-stable"
           />&gt;
         description: |-
           The response data for blob download operation,
@@ -806,7 +850,7 @@ methods:
       content: 'function exists(options?: BlobExistsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobExistsOptions" />
+          type: <xref uid="@azure/storage-blob.BlobExistsOptions|latest-stable" />
           description: |
             options to Exists operation.
       return:
@@ -830,7 +874,9 @@ methods:
       content: 'function generateSasUrl(options: BlobGenerateSasUrlOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobGenerateSasUrlOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-blob.BlobGenerateSasUrlOptions|latest-stable" />
           description: Optional parameters.
       return:
         type: Promise&lt;string&gt;
@@ -847,7 +893,7 @@ methods:
     syntax:
       content: function getAppendBlobClient()
       return:
-        type: <xref uid="@azure/storage-blob.AppendBlobClient" />
+        type: <xref uid="@azure/storage-blob.AppendBlobClient|latest-stable" />
         description: ''
   - name: getBlobLeaseClient(string)
     uid: '@azure/storage-blob.AppendBlobClient.getBlobLeaseClient|latest-stable'
@@ -865,7 +911,7 @@ methods:
           type: string
           description: Initial proposed lease Id.
       return:
-        type: <xref uid="@azure/storage-blob.BlobLeaseClient" />
+        type: <xref uid="@azure/storage-blob.BlobLeaseClient|latest-stable" />
         description: A new BlobLeaseClient object for managing leases on the blob.
   - name: getBlockBlobClient()
     uid: '@azure/storage-blob.AppendBlobClient.getBlockBlobClient|latest-stable'
@@ -877,7 +923,7 @@ methods:
     syntax:
       content: function getBlockBlobClient()
       return:
-        type: <xref uid="@azure/storage-blob.BlockBlobClient" />
+        type: <xref uid="@azure/storage-blob.BlockBlobClient|latest-stable" />
         description: ''
   - name: getPageBlobClient()
     uid: '@azure/storage-blob.AppendBlobClient.getPageBlobClient|latest-stable'
@@ -889,7 +935,7 @@ methods:
     syntax:
       content: function getPageBlobClient()
       return:
-        type: <xref uid="@azure/storage-blob.PageBlobClient" />
+        type: <xref uid="@azure/storage-blob.PageBlobClient|latest-stable" />
         description: ''
   - name: getProperties(BlobGetPropertiesOptions)
     uid: '@azure/storage-blob.AppendBlobClient.getProperties|latest-stable'
@@ -906,12 +952,15 @@ methods:
       content: 'function getProperties(options?: BlobGetPropertiesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobGetPropertiesOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-blob.BlobGetPropertiesOptions|latest-stable" />
           description: |
             Optional options to Get Properties operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-blob.BlobGetPropertiesResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-blob.BlobGetPropertiesResponse|latest-stable"
           />&gt;
         description: ''
   - name: getTags(BlobGetTagsOptions)
@@ -925,11 +974,13 @@ methods:
       content: 'function getTags(options?: BlobGetTagsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobGetTagsOptions" />
+          type: <xref uid="@azure/storage-blob.BlobGetTagsOptions|latest-stable" />
           description: |
             -
       return:
-        type: Promise&lt;<xref uid="@azure/storage-blob.BlobGetTagsResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/storage-blob.BlobGetTagsResponse|latest-stable" />&gt;
         description: ''
   - name: seal(AppendBlobSealOptions)
     uid: '@azure/storage-blob.AppendBlobClient.seal|latest-stable'
@@ -942,13 +993,16 @@ methods:
       content: 'function seal(options?: AppendBlobSealOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-blob.AppendBlobSealOptions" />
+          type: >-
+            <xref uid="@azure/storage-blob.AppendBlobSealOptions|latest-stable"
+            />
           description: |
             -
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-blob.AppendBlobAppendBlockResponse" />&gt;
+          uid="@azure/storage-blob.AppendBlobAppendBlockResponse|latest-stable"
+          />&gt;
         description: ''
   - name: >-
       setAccessTier(BlockBlobTier | PremiumPageBlobTier | string,
@@ -978,17 +1032,20 @@ methods:
       parameters:
         - id: tier
           type: >-
-            <xref uid="@azure/storage-blob.BlockBlobTier" /> | <xref
-            uid="@azure/storage-blob.PremiumPageBlobTier" /> | string
+            <xref uid="@azure/storage-blob.BlockBlobTier|latest-stable" /> |
+            <xref uid="@azure/storage-blob.PremiumPageBlobTier|latest-stable" />
+            | string
           description: >-
             The tier to be set on the blob. Valid values are Hot, Cool, or
             Archive.
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobSetTierOptions" />
+          type: <xref uid="@azure/storage-blob.BlobSetTierOptions|latest-stable" />
           description: |
             Optional options to the Blob Set Tier operation.
       return:
-        type: Promise&lt;<xref uid="@azure/storage-blob.BlobSetTierResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/storage-blob.BlobSetTierResponse|latest-stable" />&gt;
         description: ''
   - name: setHTTPHeaders(BlobHTTPHeaders, BlobSetHTTPHeadersOptions)
     uid: '@azure/storage-blob.AppendBlobClient.setHTTPHeaders|latest-stable'
@@ -1009,7 +1066,7 @@ methods:
         BlobSetHTTPHeadersOptions)
       parameters:
         - id: blobHTTPHeaders
-          type: <xref uid="@azure/storage-blob.BlobHTTPHeaders" />
+          type: <xref uid="@azure/storage-blob.BlobHTTPHeaders|latest-stable" />
           description: |-
             If no value provided, or no value provided for
                                                               the specified blob HTTP headers, these blob HTTP
@@ -1018,12 +1075,15 @@ methods:
                                                               enabling the browser to provide functionality
                                                               based on file type.
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobSetHTTPHeadersOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-blob.BlobSetHTTPHeadersOptions|latest-stable" />
           description: |
             Optional options to Blob Set HTTP Headers operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-blob.BlobSetHTTPHeadersResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-blob.BlobSetHTTPHeadersResponse|latest-stable"
           />&gt;
         description: ''
   - name: >-
@@ -1041,16 +1101,22 @@ methods:
         BlobImmutabilityPolicy, options?: BlobSetImmutabilityPolicyOptions)
       parameters:
         - id: immutabilityPolicy
-          type: <xref uid="@azure/storage-blob.BlobImmutabilityPolicy" />
+          type: >-
+            <xref uid="@azure/storage-blob.BlobImmutabilityPolicy|latest-stable"
+            />
           description: ''
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobSetImmutabilityPolicyOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-blob.BlobSetImmutabilityPolicyOptions|latest-stable"
+            />
           description: |
             Optional options to set immutability policy on the blob.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-blob.BlobSetImmutabilityPolicyResponse" />&gt;
+          uid="@azure/storage-blob.BlobSetImmutabilityPolicyResponse|latest-stable"
+          />&gt;
         description: ''
   - name: setLegalHold(boolean, BlobSetLegalHoldOptions)
     uid: '@azure/storage-blob.AppendBlobClient.setLegalHold|latest-stable'
@@ -1068,12 +1134,15 @@ methods:
           type: boolean
           description: ''
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobSetLegalHoldOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-blob.BlobSetLegalHoldOptions|latest-stable" />
           description: |
             Optional options to set legal hold on the blob.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-blob.BlobSetLegalHoldResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-blob.BlobSetLegalHoldResponse|latest-stable"
           />&gt;
         description: ''
   - name: setMetadata(Metadata, BlobSetMetadataOptions)
@@ -1095,18 +1164,20 @@ methods:
         BlobSetMetadataOptions)
       parameters:
         - id: metadata
-          type: <xref uid="@azure/storage-blob.Metadata" />
+          type: <xref uid="@azure/storage-blob.Metadata|latest-stable" />
           description: |-
             Replace existing metadata with this value.
                                           If no value provided the existing metadata will be removed.
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobSetMetadataOptions" />
+          type: >-
+            <xref uid="@azure/storage-blob.BlobSetMetadataOptions|latest-stable"
+            />
           description: |
             Optional options to Set Metadata operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-blob.BlobSetMetadataResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/storage-blob.BlobSetMetadataResponse|latest-stable" />&gt;
         description: ''
   - name: setTags(Tags, BlobSetTagsOptions)
     uid: '@azure/storage-blob.AppendBlobClient.setTags|latest-stable'
@@ -1129,14 +1200,16 @@ methods:
       content: 'function setTags(tags: Tags, options?: BlobSetTagsOptions)'
       parameters:
         - id: tags
-          type: <xref uid="@azure/storage-blob.Tags" />
+          type: <xref uid="@azure/storage-blob.Tags|latest-stable" />
           description: '-'
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobSetTagsOptions" />
+          type: <xref uid="@azure/storage-blob.BlobSetTagsOptions|latest-stable" />
           description: |
             -
       return:
-        type: Promise&lt;<xref uid="@azure/storage-blob.BlobSetTagsResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/storage-blob.BlobSetTagsResponse|latest-stable" />&gt;
         description: ''
   - name: syncCopyFromURL(string, BlobSyncCopyFromURLOptions)
     uid: '@azure/storage-blob.AppendBlobClient.syncCopyFromURL|latest-stable'
@@ -1160,13 +1233,16 @@ methods:
             The source URL to copy from, Shared Access Signature(SAS) maybe
             needed for authentication
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobSyncCopyFromURLOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-blob.BlobSyncCopyFromURLOptions|latest-stable"
+            />
           description: |
             -
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-blob.BlobCopyFromURLResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/storage-blob.BlobCopyFromURLResponse|latest-stable" />&gt;
         description: ''
   - name: undelete(BlobUndeleteOptions)
     uid: '@azure/storage-blob.AppendBlobClient.undelete|latest-stable'
@@ -1185,11 +1261,13 @@ methods:
       content: 'function undelete(options?: BlobUndeleteOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-blob.BlobUndeleteOptions" />
+          type: <xref uid="@azure/storage-blob.BlobUndeleteOptions|latest-stable" />
           description: |
             Optional options to Blob Undelete operation.
       return:
-        type: Promise&lt;<xref uid="@azure/storage-blob.BlobUndeleteResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/storage-blob.BlobUndeleteResponse|latest-stable" />&gt;
         description: ''
   - name: withSnapshot(string)
     uid: '@azure/storage-blob.AppendBlobClient.withSnapshot|latest-stable'
@@ -1208,7 +1286,7 @@ methods:
           type: string
           description: The snapshot timestamp.
       return:
-        type: <xref uid="@azure/storage-blob.AppendBlobClient" />
+        type: <xref uid="@azure/storage-blob.AppendBlobClient|latest-stable" />
         description: >-
           A new AppendBlobClient object identical to the source but with the
           specified snapshot timestamp.
@@ -1228,6 +1306,6 @@ methods:
           type: string
           description: The versionId.
       return:
-        type: <xref uid="@azure/storage-blob.BlobClient" />
+        type: <xref uid="@azure/storage-blob.BlobClient|latest-stable" />
         description: A new BlobClient object pointing to the version of this blob.
-extends: <xref uid="@azure/storage-blob.BlobClient" />
+extends: <xref uid="@azure/storage-blob.BlobClient|latest-stable" />

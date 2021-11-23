@@ -49,7 +49,7 @@ properties:
     syntax:
       content: 'blobHTTPHeaders?: BlobHTTPHeaders'
       return:
-        type: <xref uid="@azure/storage-blob.BlobHTTPHeaders" />
+        type: <xref uid="@azure/storage-blob.BlobHTTPHeaders|latest-stable" />
         description: ''
   - name: conditions
     uid: >-
@@ -63,7 +63,7 @@ properties:
     syntax:
       content: 'conditions?: BlobRequestConditions'
       return:
-        type: <xref uid="@azure/storage-blob.BlobRequestConditions" />
+        type: <xref uid="@azure/storage-blob.BlobRequestConditions|latest-stable" />
         description: ''
   - name: copySourceBlobProperties
     uid: >-
@@ -93,7 +93,7 @@ properties:
     syntax:
       content: 'customerProvidedKey?: CpkInfo'
       return:
-        type: <xref uid="@azure/storage-blob.CpkInfo" />
+        type: <xref uid="@azure/storage-blob.CpkInfo|latest-stable" />
         description: ''
   - name: encryptionScope
     uid: >-
@@ -150,7 +150,7 @@ properties:
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-blob.Metadata" />
+        type: <xref uid="@azure/storage-blob.Metadata|latest-stable" />
         description: ''
   - name: sourceAuthorization
     uid: >-
@@ -166,7 +166,7 @@ properties:
     syntax:
       content: 'sourceAuthorization?: HttpAuthorization'
       return:
-        type: <xref uid="@azure/storage-blob.HttpAuthorization" />
+        type: <xref uid="@azure/storage-blob.HttpAuthorization|latest-stable" />
         description: ''
   - name: sourceConditions
     uid: >-
@@ -180,7 +180,9 @@ properties:
     syntax:
       content: 'sourceConditions?: ModifiedAccessConditions'
       return:
-        type: <xref uid="@azure/storage-blob.ModifiedAccessConditions" />
+        type: >-
+          <xref uid="@azure/storage-blob.ModifiedAccessConditions|latest-stable"
+          />
         description: ''
   - name: sourceContentMD5
     uid: >-
@@ -209,7 +211,7 @@ properties:
     syntax:
       content: 'tags?: Tags'
       return:
-        type: <xref uid="@azure/storage-blob.Tags" />
+        type: <xref uid="@azure/storage-blob.Tags|latest-stable" />
         description: ''
   - name: tier
     uid: '@azure/storage-blob.BlockBlobSyncUploadFromURLOptions.tier|latest-stable'
@@ -226,7 +228,9 @@ properties:
     syntax:
       content: 'tier?: BlockBlobTier | string'
       return:
-        type: <xref uid="@azure/storage-blob.BlockBlobTier" /> | string
+        type: >-
+          <xref uid="@azure/storage-blob.BlockBlobTier|latest-stable" /> |
+          string
         description: ''
   - name: timeoutInSeconds
     uid: >-
@@ -260,4 +264,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|latest-stable" />

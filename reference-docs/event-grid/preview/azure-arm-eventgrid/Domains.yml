@@ -33,19 +33,22 @@ methods:
           type: string
           description: Name of the domain.
         - id: domainInfo
-          type: <xref uid="@azure/arm-eventgrid.Domain" />
+          type: <xref uid="@azure/arm-eventgrid.Domain|preview" />
           description: Domain information.
         - id: options
           type: >-
-            <xref uid="@azure/arm-eventgrid.DomainsCreateOrUpdateOptionalParams"
+            <xref
+            uid="@azure/arm-eventgrid.DomainsCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-eventgrid.DomainsCreateOrUpdateResponse" />&gt;, <xref
-          uid="@azure/arm-eventgrid.DomainsCreateOrUpdateResponse" />&gt;&gt;
+          uid="@azure/arm-eventgrid.DomainsCreateOrUpdateResponse|preview"
+          />&gt;, <xref
+          uid="@azure/arm-eventgrid.DomainsCreateOrUpdateResponse|preview"
+          />&gt;&gt;
         description: ''
   - name: >-
       beginCreateOrUpdateAndWait(string, string, Domain,
@@ -71,18 +74,20 @@ methods:
           type: string
           description: Name of the domain.
         - id: domainInfo
-          type: <xref uid="@azure/arm-eventgrid.Domain" />
+          type: <xref uid="@azure/arm-eventgrid.Domain|preview" />
           description: Domain information.
         - id: options
           type: >-
-            <xref uid="@azure/arm-eventgrid.DomainsCreateOrUpdateOptionalParams"
+            <xref
+            uid="@azure/arm-eventgrid.DomainsCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventgrid.DomainsCreateOrUpdateResponse" />&gt;
+          uid="@azure/arm-eventgrid.DomainsCreateOrUpdateResponse|preview"
+          />&gt;
         description: ''
   - name: beginDelete(string, string, DomainsDeleteOptionalParams)
     uid: '@azure/arm-eventgrid.Domains.beginDelete|preview'
@@ -103,7 +108,9 @@ methods:
           type: string
           description: Name of the domain.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.DomainsDeleteOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-eventgrid.DomainsDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -128,7 +135,9 @@ methods:
           type: string
           description: Name of the domain.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.DomainsDeleteOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-eventgrid.DomainsDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -156,10 +165,12 @@ methods:
           type: string
           description: Name of the domain.
         - id: domainUpdateParameters
-          type: <xref uid="@azure/arm-eventgrid.DomainUpdateParameters" />
+          type: <xref uid="@azure/arm-eventgrid.DomainUpdateParameters|preview" />
           description: Domain update information.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.DomainsUpdateOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-eventgrid.DomainsUpdateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -187,10 +198,12 @@ methods:
           type: string
           description: Name of the domain.
         - id: domainUpdateParameters
-          type: <xref uid="@azure/arm-eventgrid.DomainUpdateParameters" />
+          type: <xref uid="@azure/arm-eventgrid.DomainUpdateParameters|preview" />
           description: Domain update information.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.DomainsUpdateOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-eventgrid.DomainsUpdateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -215,11 +228,13 @@ methods:
           type: string
           description: Name of the domain.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.DomainsGetOptionalParams" />
+          type: <xref uid="@azure/arm-eventgrid.DomainsGetOptionalParams|preview" />
           description: |
             The options parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/arm-eventgrid.DomainsGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-eventgrid.DomainsGetResponse|preview"
+          />&gt;
         description: ''
   - name: listByResourceGroup(string, DomainsListByResourceGroupOptionalParams)
     uid: '@azure/arm-eventgrid.Domains.listByResourceGroup|preview'
@@ -239,14 +254,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.DomainsListByResourceGroupOptionalParams"
+            uid="@azure/arm-eventgrid.DomainsListByResourceGroupOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
-          PagedAsyncIterableIterator&lt;<xref uid="@azure/arm-eventgrid.Domain"
-          />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-eventgrid.Domain|preview" />&gt;
         description: ''
   - name: listBySubscription(DomainsListBySubscriptionOptionalParams)
     uid: '@azure/arm-eventgrid.Domains.listBySubscription|preview'
@@ -263,14 +278,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.DomainsListBySubscriptionOptionalParams"
+            uid="@azure/arm-eventgrid.DomainsListBySubscriptionOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
-          PagedAsyncIterableIterator&lt;<xref uid="@azure/arm-eventgrid.Domain"
-          />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-eventgrid.Domain|preview" />&gt;
         description: ''
   - name: >-
       listSharedAccessKeys(string, string,
@@ -295,14 +310,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.DomainsListSharedAccessKeysOptionalParams"
+            uid="@azure/arm-eventgrid.DomainsListSharedAccessKeysOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventgrid.DomainsListSharedAccessKeysResponse" />&gt;
+          uid="@azure/arm-eventgrid.DomainsListSharedAccessKeysResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       regenerateKey(string, string, DomainRegenerateKeyRequest,
@@ -326,16 +342,19 @@ methods:
           type: string
           description: Name of the domain.
         - id: regenerateKeyRequest
-          type: <xref uid="@azure/arm-eventgrid.DomainRegenerateKeyRequest" />
+          type: >-
+            <xref uid="@azure/arm-eventgrid.DomainRegenerateKeyRequest|preview"
+            />
           description: Request body to regenerate key.
         - id: options
           type: >-
-            <xref uid="@azure/arm-eventgrid.DomainsRegenerateKeyOptionalParams"
+            <xref
+            uid="@azure/arm-eventgrid.DomainsRegenerateKeyOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventgrid.DomainsRegenerateKeyResponse" />&gt;
+          uid="@azure/arm-eventgrid.DomainsRegenerateKeyResponse|preview" />&gt;
         description: ''

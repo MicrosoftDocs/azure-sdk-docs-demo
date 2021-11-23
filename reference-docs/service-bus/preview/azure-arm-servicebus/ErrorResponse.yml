@@ -20,5 +20,5 @@ properties:
     syntax:
       content: 'error?: ErrorResponseError'
       return:
-        type: <xref uid="@azure/arm-servicebus.ErrorResponseError" />
+        type: <xref uid="@azure/arm-servicebus.ErrorResponseError|preview" />
         description: ''

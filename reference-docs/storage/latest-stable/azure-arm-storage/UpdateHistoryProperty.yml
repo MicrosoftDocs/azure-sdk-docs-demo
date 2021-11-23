@@ -98,7 +98,9 @@ properties:
     syntax:
       content: 'update?: ImmutabilityPolicyUpdateType'
       return:
-        type: <xref uid="@azure/arm-storage.ImmutabilityPolicyUpdateType" />
+        type: >-
+          <xref
+          uid="@azure/arm-storage.ImmutabilityPolicyUpdateType|latest-stable" />
         description: ''
   - name: upn
     uid: '@azure/arm-storage.UpdateHistoryProperty.upn|latest-stable'

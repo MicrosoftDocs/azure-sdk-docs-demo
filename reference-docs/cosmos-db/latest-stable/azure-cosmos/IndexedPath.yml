@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'indexes?: Index[]'
       return:
-        type: <xref uid="@azure/cosmos.Index" />[]
+        type: <xref uid="@azure/cosmos.Index|latest-stable" />[]
         description: ''
   - name: path
     uid: '@azure/cosmos.IndexedPath.path|latest-stable'

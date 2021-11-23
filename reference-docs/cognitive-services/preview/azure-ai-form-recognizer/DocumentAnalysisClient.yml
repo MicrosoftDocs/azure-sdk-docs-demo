@@ -225,16 +225,20 @@ methods:
         - id: input
           type: >-
             string | <xref
-            uid="@azure/ai-form-recognizer.FormRecognizerRequestBody" />
+            uid="@azure/ai-form-recognizer.FormRecognizerRequestBody|preview" />
           description: >-
             a URL (string) to an input document accessible from the public
             internet, or a
                            <xref:@azure/ai-form-recognizer.FormRecognizerRequestBody> that will be uploaded with the request
         - id: options
-          type: <xref uid="@azure/ai-form-recognizer.AnalyzeDocumentsOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-form-recognizer.AnalyzeDocumentsOptions|preview" />
           description: optional settings for the analysis operation and poller
       return:
-        type: Promise&lt;<xref uid="@azure/ai-form-recognizer.AnalysisPoller" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.AnalysisPoller|preview" />&gt;
         description: >-
           a long-running operation (poller) that will eventually produce an
           `AnalyzeResult`
@@ -404,7 +408,7 @@ methods:
       parameters:
         - id: model
           type: >-
-            <xref uid="@azure/ai-form-recognizer.DocumentModel"
+            <xref uid="@azure/ai-form-recognizer.DocumentModel|preview"
             />&lt;Document&gt;
           description: >-
             a <xref:@azure/ai-form-recognizer.DocumentModel> representing the
@@ -412,21 +416,23 @@ methods:
         - id: input
           type: >-
             string | <xref
-            uid="@azure/ai-form-recognizer.FormRecognizerRequestBody" />
+            uid="@azure/ai-form-recognizer.FormRecognizerRequestBody|preview" />
           description: >-
             a URL (string) to an input document accessible from the public
             internet, or a
                            <xref:@azure/ai-form-recognizer.FormRecognizerRequestBody> that will be uploaded with the request
         - id: options
           type: >-
-            <xref uid="@azure/ai-form-recognizer.AnalyzeDocumentsOptions"
-            />&lt;<xref uid="@azure/ai-form-recognizer.AnalyzeResult"
+            <xref
+            uid="@azure/ai-form-recognizer.AnalyzeDocumentsOptions|preview"
+            />&lt;<xref uid="@azure/ai-form-recognizer.AnalyzeResult|preview"
             />&lt;Document&gt;&gt;
           description: optional settings for the analysis operation and poller
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/ai-form-recognizer.AnalysisPoller"
-          />&lt;<xref uid="@azure/ai-form-recognizer.AnalyzeResult"
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.AnalysisPoller|preview" />&lt;<xref
+          uid="@azure/ai-form-recognizer.AnalyzeResult|preview"
           />&lt;Document&gt;&gt;&gt;
         description: >-
           a long-running operation (poller) that will eventually produce an
@@ -540,21 +546,23 @@ methods:
         - id: input
           type: >-
             string | <xref
-            uid="@azure/ai-form-recognizer.FormRecognizerRequestBody" />
+            uid="@azure/ai-form-recognizer.FormRecognizerRequestBody|preview" />
           description: >-
             a URL (string) to an input document accessible from the public
             internet, or a
                            <xref:@azure/ai-form-recognizer.FormRecognizerRequestBody> that will be uploaded with the request
         - id: options
           type: >-
-            <xref uid="@azure/ai-form-recognizer.AnalyzeDocumentsOptions"
-            />&lt;<xref uid="@azure/ai-form-recognizer.GenericDocumentResult"
-            />&gt;
+            <xref
+            uid="@azure/ai-form-recognizer.AnalyzeDocumentsOptions|preview"
+            />&lt;<xref
+            uid="@azure/ai-form-recognizer.GenericDocumentResult|preview" />&gt;
           description: optional settings for the analysis operation and poller
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/ai-form-recognizer.AnalysisPoller"
-          />&lt;<xref uid="@azure/ai-form-recognizer.GenericDocumentResult"
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.AnalysisPoller|preview" />&lt;<xref
+          uid="@azure/ai-form-recognizer.GenericDocumentResult|preview"
           />&gt;&gt;
         description: >-
           a long-running operation (poller) that will eventually produce a
@@ -656,20 +664,23 @@ methods:
         - id: input
           type: >-
             string | <xref
-            uid="@azure/ai-form-recognizer.FormRecognizerRequestBody" />
+            uid="@azure/ai-form-recognizer.FormRecognizerRequestBody|preview" />
           description: >-
             a URL (string) to an input document accessible from the public
             internet, or a
                            <xref:@azure/ai-form-recognizer.FormRecognizerRequestBody> that will be uploaded with the request
         - id: options
           type: >-
-            <xref uid="@azure/ai-form-recognizer.AnalyzeDocumentsOptions"
-            />&lt;<xref uid="@azure/ai-form-recognizer.LayoutResult" />&gt;
+            <xref
+            uid="@azure/ai-form-recognizer.AnalyzeDocumentsOptions|preview"
+            />&lt;<xref uid="@azure/ai-form-recognizer.LayoutResult|preview"
+            />&gt;
           description: optional settings for the analysis operation and poller
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/ai-form-recognizer.AnalysisPoller"
-          />&lt;<xref uid="@azure/ai-form-recognizer.LayoutResult" />&gt;&gt;
+          Promise&lt;<xref
+          uid="@azure/ai-form-recognizer.AnalysisPoller|preview" />&lt;<xref
+          uid="@azure/ai-form-recognizer.LayoutResult|preview" />&gt;&gt;
         description: >-
           a long-running operation (poller) that will eventually produce a
           layout result or an error

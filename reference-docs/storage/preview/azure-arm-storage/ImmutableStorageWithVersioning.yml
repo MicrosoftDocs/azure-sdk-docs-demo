@@ -40,7 +40,7 @@ properties:
     syntax:
       content: 'migrationState?: MigrationState'
       return:
-        type: <xref uid="@azure/arm-storage.MigrationState" />
+        type: <xref uid="@azure/arm-storage.MigrationState|preview" />
         description: ''
   - name: timeStamp
     uid: '@azure/arm-storage.ImmutableStorageWithVersioning.timeStamp|preview'

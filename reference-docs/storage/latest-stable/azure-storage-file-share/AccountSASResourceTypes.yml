@@ -89,7 +89,10 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-file-share.AccountSASResourceTypes" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-share.AccountSASResourceTypes|latest-stable"
+          />
         description: ''
   - name: toString()
     uid: '@azure/storage-file-share.AccountSASResourceTypes.toString|latest-stable'

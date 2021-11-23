@@ -64,29 +64,36 @@ properties:
         "#Microsoft.Azure.Search.WordDelimiterTokenFilter"
       return:
         type: >-
-          "#<xref uid="Microsoft.Azure.Search.AsciiFoldingTokenFilter" />" |
-          "#<xref uid="Microsoft.Azure.Search.CjkBigramTokenFilter" />" |
-          "#<xref uid="Microsoft.Azure.Search.CommonGramTokenFilter" />" |
-          "#<xref uid="Microsoft.Azure.Search.DictionaryDecompounderTokenFilter"
-          />" | "#<xref uid="Microsoft.Azure.Search.EdgeNGramTokenFilter" />" |
-          "#<xref uid="Microsoft.Azure.Search.EdgeNGramTokenFilterV2" />" |
-          "#<xref uid="Microsoft.Azure.Search.ElisionTokenFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.KeepTokenFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.KeywordMarkerTokenFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.LengthTokenFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.LimitTokenFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.NGramTokenFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.NGramTokenFilterV2" />" | "#<xref
-          uid="Microsoft.Azure.Search.PatternCaptureTokenFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.PatternReplaceTokenFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.PhoneticTokenFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.ShingleTokenFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.SnowballTokenFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.StemmerTokenFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.StemmerOverrideTokenFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.StopwordsTokenFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.SynonymTokenFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.TruncateTokenFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.UniqueTokenFilter" />" | "#<xref
-          uid="Microsoft.Azure.Search.WordDelimiterTokenFilter" />"
+          "#<xref uid="Microsoft.Azure.Search.AsciiFoldingTokenFilter|preview"
+          />" | "#<xref
+          uid="Microsoft.Azure.Search.CjkBigramTokenFilter|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.CommonGramTokenFilter|preview" />"
+          | "#<xref
+          uid="Microsoft.Azure.Search.DictionaryDecompounderTokenFilter|preview"
+          />" | "#<xref
+          uid="Microsoft.Azure.Search.EdgeNGramTokenFilter|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.EdgeNGramTokenFilterV2|preview"
+          />" | "#<xref uid="Microsoft.Azure.Search.ElisionTokenFilter|preview"
+          />" | "#<xref uid="Microsoft.Azure.Search.KeepTokenFilter|preview" />"
+          | "#<xref
+          uid="Microsoft.Azure.Search.KeywordMarkerTokenFilter|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.LengthTokenFilter|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.LimitTokenFilter|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.NGramTokenFilter|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.NGramTokenFilterV2|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.PatternCaptureTokenFilter|preview"
+          />" | "#<xref
+          uid="Microsoft.Azure.Search.PatternReplaceTokenFilter|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.PhoneticTokenFilter|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.ShingleTokenFilter|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.SnowballTokenFilter|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.StemmerTokenFilter|preview" />" |
+          "#<xref
+          uid="Microsoft.Azure.Search.StemmerOverrideTokenFilter|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.StopwordsTokenFilter|preview" />"
+          | "#<xref uid="Microsoft.Azure.Search.SynonymTokenFilter|preview" />"
+          | "#<xref uid="Microsoft.Azure.Search.TruncateTokenFilter|preview" />"
+          | "#<xref uid="Microsoft.Azure.Search.UniqueTokenFilter|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.WordDelimiterTokenFilter|preview"
+          />"
         description: ''

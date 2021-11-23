@@ -31,5 +31,7 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-file-share.StorageBrowserPolicy" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-share.StorageBrowserPolicy|latest-stable" />
         description: ''

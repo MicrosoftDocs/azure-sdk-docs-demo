@@ -53,7 +53,7 @@ properties:
     syntax:
       content: 'permissions: Permissions'
       return:
-        type: <xref uid="@azure/arm-storage.Permissions" />
+        type: <xref uid="@azure/arm-storage.Permissions|latest-stable" />
         description: ''
   - name: protocols
     uid: '@azure/arm-storage.AccountSasParameters.protocols|latest-stable'
@@ -70,7 +70,7 @@ properties:
     syntax:
       content: 'protocols?: HttpProtocol'
       return:
-        type: <xref uid="@azure/arm-storage.HttpProtocol" />
+        type: <xref uid="@azure/arm-storage.HttpProtocol|latest-stable" />
         description: ''
   - name: resourceTypes
     uid: '@azure/arm-storage.AccountSasParameters.resourceTypes|latest-stable'
@@ -93,7 +93,7 @@ properties:
     syntax:
       content: 'resourceTypes: SignedResourceTypes'
       return:
-        type: <xref uid="@azure/arm-storage.SignedResourceTypes" />
+        type: <xref uid="@azure/arm-storage.SignedResourceTypes|latest-stable" />
         description: ''
   - name: services
     uid: '@azure/arm-storage.AccountSasParameters.services|latest-stable'
@@ -110,7 +110,7 @@ properties:
     syntax:
       content: 'services: Services'
       return:
-        type: <xref uid="@azure/arm-storage.Services" />
+        type: <xref uid="@azure/arm-storage.Services|latest-stable" />
         description: ''
   - name: sharedAccessExpiryTime
     uid: >-

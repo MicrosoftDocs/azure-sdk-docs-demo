@@ -55,7 +55,7 @@ properties:
     syntax:
       content: 'errorResponse: ErrorResponse'
       return:
-        type: <xref uid="@azure/identity.ErrorResponse" />
+        type: <xref uid="@azure/identity.ErrorResponse|latest-stable" />
         description: ''
   - name: message
     uid: '@azure/identity.AuthenticationError.message|latest-stable'

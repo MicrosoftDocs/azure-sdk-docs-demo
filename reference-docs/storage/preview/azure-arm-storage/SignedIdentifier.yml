@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'accessPolicy?: AccessPolicy'
       return:
-        type: <xref uid="@azure/arm-storage.AccessPolicy" />
+        type: <xref uid="@azure/arm-storage.AccessPolicy|preview" />
         description: ''
   - name: id
     uid: '@azure/arm-storage.SignedIdentifier.id|preview'

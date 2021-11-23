@@ -22,7 +22,9 @@ properties:
     syntax:
       content: 'mappingFunction?: FieldMappingFunction | null'
       return:
-        type: <xref uid="@azure/search-documents.FieldMappingFunction" /> | null
+        type: >-
+          <xref uid="@azure/search-documents.FieldMappingFunction|latest-stable"
+          /> | null
         description: ''
   - name: sourceFieldName
     uid: '@azure/search-documents.FieldMapping.sourceFieldName|latest-stable'

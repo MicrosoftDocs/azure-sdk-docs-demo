@@ -51,7 +51,7 @@ properties:
     syntax:
       content: 'headers: HttpHeadersLike'
       return:
-        type: <xref uid="@azure/core-http.HttpHeadersLike" />
+        type: <xref uid="@azure/core-http.HttpHeadersLike|latest-stable" />
         description: ''
   - name: parsedBody
     uid: '@azure/core-http.HttpOperationResponse.parsedBody|latest-stable'
@@ -106,7 +106,7 @@ properties:
     syntax:
       content: 'request: WebResourceLike'
       return:
-        type: <xref uid="@azure/core-http.WebResourceLike" />
+        type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
         description: ''
   - name: status
     uid: '@azure/core-http.HttpOperationResponse.status|latest-stable'
@@ -121,4 +121,4 @@ properties:
       return:
         type: number
         description: ''
-extends: <xref uid="@azure/core-http.HttpResponse" />
+extends: <xref uid="@azure/core-http.HttpResponse|latest-stable" />

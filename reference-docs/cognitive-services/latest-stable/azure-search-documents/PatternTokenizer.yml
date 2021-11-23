@@ -28,7 +28,7 @@ properties:
     syntax:
       content: 'flags?: RegexFlags[]'
       return:
-        type: <xref uid="@azure/search-documents.RegexFlags" />[]
+        type: <xref uid="@azure/search-documents.RegexFlags|latest-stable" />[]
         description: ''
   - name: group
     uid: '@azure/search-documents.PatternTokenizer.group|latest-stable'
@@ -81,7 +81,9 @@ properties:
     syntax:
       content: 'odatatype: "#Microsoft.Azure.Search.PatternTokenizer"'
       return:
-        type: '"#<xref uid="Microsoft.Azure.Search.PatternTokenizer" />"'
+        type: >-
+          "#<xref uid="Microsoft.Azure.Search.PatternTokenizer|latest-stable"
+          />"
         description: ''
   - name: pattern
     uid: '@azure/search-documents.PatternTokenizer.pattern|latest-stable'

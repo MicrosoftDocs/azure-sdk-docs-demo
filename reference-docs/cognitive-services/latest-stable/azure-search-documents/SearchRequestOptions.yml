@@ -180,7 +180,7 @@ properties:
     syntax:
       content: 'queryType?: QueryType'
       return:
-        type: <xref uid="@azure/search-documents.QueryType" />
+        type: <xref uid="@azure/search-documents.QueryType|latest-stable" />
         description: ''
   - name: scoringParameters
     uid: >-
@@ -241,7 +241,7 @@ properties:
     syntax:
       content: 'scoringStatistics?: ScoringStatistics'
       return:
-        type: <xref uid="@azure/search-documents.ScoringStatistics" />
+        type: <xref uid="@azure/search-documents.ScoringStatistics|latest-stable" />
         description: ''
   - name: searchFields
     uid: '@azure/search-documents.SearchRequestOptions.searchFields|latest-stable'
@@ -279,7 +279,7 @@ properties:
     syntax:
       content: 'searchMode?: SearchMode'
       return:
-        type: <xref uid="@azure/search-documents.SearchMode" />
+        type: <xref uid="@azure/search-documents.SearchMode|latest-stable" />
         description: ''
   - name: select
     uid: '@azure/search-documents.SearchRequestOptions.select|latest-stable'

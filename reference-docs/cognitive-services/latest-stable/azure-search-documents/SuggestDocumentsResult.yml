@@ -44,5 +44,7 @@ properties:
     syntax:
       content: 'results: SuggestResult<T>[]'
       return:
-        type: <xref uid="@azure/search-documents.SuggestResult" />&lt;T&gt;[]
+        type: >-
+          <xref uid="@azure/search-documents.SuggestResult|latest-stable"
+          />&lt;T&gt;[]
         description: ''

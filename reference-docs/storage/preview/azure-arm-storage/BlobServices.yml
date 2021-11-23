@@ -43,14 +43,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobServicesGetServicePropertiesOptionalParams"
+            uid="@azure/arm-storage.BlobServicesGetServicePropertiesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.BlobServicesGetServicePropertiesResponse"
+          uid="@azure/arm-storage.BlobServicesGetServicePropertiesResponse|preview"
           />&gt;
         description: ''
   - name: list(string, string, BlobServicesListOptionalParams)
@@ -81,13 +81,15 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: options
-          type: <xref uid="@azure/arm-storage.BlobServicesListOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.BlobServicesListOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-storage.BlobServiceProperties" />&gt;
+          uid="@azure/arm-storage.BlobServiceProperties|preview" />&gt;
         description: ''
   - name: >-
       setServiceProperties(string, string, BlobServiceProperties,
@@ -122,7 +124,7 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: parameters
-          type: <xref uid="@azure/arm-storage.BlobServiceProperties" />
+          type: <xref uid="@azure/arm-storage.BlobServiceProperties|preview" />
           description: >-
             The properties of a storage account’s Blob service, including
             properties for
@@ -130,13 +132,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobServicesSetServicePropertiesOptionalParams"
+            uid="@azure/arm-storage.BlobServicesSetServicePropertiesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.BlobServicesSetServicePropertiesResponse"
+          uid="@azure/arm-storage.BlobServicesSetServicePropertiesResponse|preview"
           />&gt;
         description: ''

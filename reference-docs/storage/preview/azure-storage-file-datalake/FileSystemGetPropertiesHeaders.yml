@@ -103,7 +103,7 @@ properties:
     syntax:
       content: 'leaseDuration?: LeaseDurationType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.LeaseDurationType" />
+        type: <xref uid="@azure/storage-file-datalake.LeaseDurationType|preview" />
         description: ''
   - name: leaseState
     uid: >-
@@ -117,7 +117,7 @@ properties:
     syntax:
       content: 'leaseState?: LeaseStateType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.LeaseStateType" />
+        type: <xref uid="@azure/storage-file-datalake.LeaseStateType|preview" />
         description: ''
   - name: leaseStatus
     uid: >-
@@ -131,7 +131,7 @@ properties:
     syntax:
       content: 'leaseStatus?: LeaseStatusType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.LeaseStatusType" />
+        type: <xref uid="@azure/storage-file-datalake.LeaseStatusType|preview" />
         description: ''
   - name: metadata
     uid: >-
@@ -145,7 +145,7 @@ properties:
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-file-datalake.Metadata" />
+        type: <xref uid="@azure/storage-file-datalake.Metadata|preview" />
         description: ''
   - name: publicAccess
     uid: >-
@@ -159,7 +159,7 @@ properties:
     syntax:
       content: 'publicAccess?: PublicAccessType'
       return:
-        type: <xref uid="@azure/storage-file-datalake.PublicAccessType" />
+        type: <xref uid="@azure/storage-file-datalake.PublicAccessType|preview" />
         description: ''
   - name: requestId
     uid: >-

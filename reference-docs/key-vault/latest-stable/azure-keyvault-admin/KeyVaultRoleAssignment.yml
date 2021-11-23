@@ -59,5 +59,8 @@ properties:
     syntax:
       content: 'properties: KeyVaultRoleAssignmentProperties'
       return:
-        type: <xref uid="@azure/keyvault-admin.KeyVaultRoleAssignmentProperties" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-admin.KeyVaultRoleAssignmentProperties|latest-stable"
+          />
         description: ''

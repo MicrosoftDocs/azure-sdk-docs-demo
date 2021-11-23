@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'accessPolicy: AccessPolicy'
       return:
-        type: <xref uid="@azure/storage-blob.AccessPolicy" />
+        type: <xref uid="@azure/storage-blob.AccessPolicy|preview" />
         description: ''
   - name: id
     uid: '@azure/storage-blob.SignedIdentifierModel.id|preview'

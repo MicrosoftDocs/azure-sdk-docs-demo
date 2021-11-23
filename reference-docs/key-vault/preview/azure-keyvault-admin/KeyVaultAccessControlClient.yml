@@ -49,7 +49,9 @@ constructors:
             authenticate requests to the service. Use the \@azure/identity
             package to create a credential that suits your needs.
         - id: options
-          type: <xref uid="@azure/keyvault-admin.AccessControlClientOptions" />
+          type: >-
+            <xref uid="@azure/keyvault-admin.AccessControlClientOptions|preview"
+            />
           description: ''
 properties:
   - name: vaultUrl
@@ -101,7 +103,7 @@ methods:
         CreateRoleAssignmentOptions)
       parameters:
         - id: roleScope
-          type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope" />
+          type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope|preview" />
           description: The scope of the role assignment.
         - id: name
           type: string
@@ -116,13 +118,15 @@ methods:
             the Active Directory. It can point to a user, service principal, or
             security group.
         - id: options
-          type: <xref uid="@azure/keyvault-admin.CreateRoleAssignmentOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-admin.CreateRoleAssignmentOptions|preview" />
           description: |
             The optional parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/keyvault-admin.KeyVaultRoleAssignment"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/keyvault-admin.KeyVaultRoleAssignment|preview" />&gt;
         description: ''
   - name: >-
       deleteRoleAssignment(KeyVaultRoleScope, string,
@@ -157,13 +161,15 @@ methods:
         string, options?: DeleteRoleAssignmentOptions)
       parameters:
         - id: roleScope
-          type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope" />
+          type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope|preview" />
           description: The scope of the role assignment.
         - id: name
           type: string
           description: The name of the role assignment.
         - id: options
-          type: <xref uid="@azure/keyvault-admin.DeleteRoleAssignmentOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-admin.DeleteRoleAssignmentOptions|preview" />
           description: |
             The optional parameters.
       return:
@@ -199,13 +205,15 @@ methods:
         string, options?: DeleteRoleDefinitionOptions)
       parameters:
         - id: roleScope
-          type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope" />
+          type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope|preview" />
           description: The scope of the role definition.
         - id: name
           type: string
           description: The name of the role definition to delete.
         - id: options
-          type: <xref uid="@azure/keyvault-admin.DeleteRoleDefinitionOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-admin.DeleteRoleDefinitionOptions|preview" />
           description: |
             The optional parameters.
       return:
@@ -245,19 +253,21 @@ methods:
         options?: GetRoleAssignmentOptions)
       parameters:
         - id: roleScope
-          type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope" />
+          type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope|preview" />
           description: The scope of the role assignment.
         - id: name
           type: string
           description: The name of the role assignment.
         - id: options
-          type: <xref uid="@azure/keyvault-admin.GetRoleAssignmentOptions" />
+          type: >-
+            <xref uid="@azure/keyvault-admin.GetRoleAssignmentOptions|preview"
+            />
           description: |
             The optional parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/keyvault-admin.KeyVaultRoleAssignment"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/keyvault-admin.KeyVaultRoleAssignment|preview" />&gt;
         description: ''
   - name: getRoleDefinition(KeyVaultRoleScope, string, GetRoleDefinitionOptions)
     uid: >-
@@ -287,19 +297,21 @@ methods:
         options?: GetRoleDefinitionOptions)
       parameters:
         - id: roleScope
-          type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope" />
+          type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope|preview" />
           description: The scope of the role definition.
         - id: name
           type: string
           description: The name of the role definition.
         - id: options
-          type: <xref uid="@azure/keyvault-admin.GetRoleDefinitionOptions" />
+          type: >-
+            <xref uid="@azure/keyvault-admin.GetRoleDefinitionOptions|preview"
+            />
           description: |
             The optional parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/keyvault-admin.KeyVaultRoleDefinition"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/keyvault-admin.KeyVaultRoleDefinition|preview" />&gt;
         description: ''
   - name: listRoleAssignments(KeyVaultRoleScope, ListRoleAssignmentsOptions)
     uid: >-
@@ -324,16 +336,18 @@ methods:
         ListRoleAssignmentsOptions)
       parameters:
         - id: roleScope
-          type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope" />
+          type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope|preview" />
           description: The scope of the role assignments.
         - id: options
-          type: <xref uid="@azure/keyvault-admin.ListRoleAssignmentsOptions" />
+          type: >-
+            <xref uid="@azure/keyvault-admin.ListRoleAssignmentsOptions|preview"
+            />
           description: |
             The optional parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/keyvault-admin.KeyVaultRoleAssignment" />&gt;
+          uid="@azure/keyvault-admin.KeyVaultRoleAssignment|preview" />&gt;
         description: ''
   - name: listRoleDefinitions(KeyVaultRoleScope, ListRoleDefinitionsOptions)
     uid: >-
@@ -358,16 +372,18 @@ methods:
         ListRoleDefinitionsOptions)
       parameters:
         - id: roleScope
-          type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope" />
+          type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope|preview" />
           description: The scope of the role definition.
         - id: options
-          type: <xref uid="@azure/keyvault-admin.ListRoleDefinitionsOptions" />
+          type: >-
+            <xref uid="@azure/keyvault-admin.ListRoleDefinitionsOptions|preview"
+            />
           description: |
             The optional parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/keyvault-admin.KeyVaultRoleDefinition" />&gt;
+          uid="@azure/keyvault-admin.KeyVaultRoleDefinition|preview" />&gt;
         description: ''
   - name: setRoleDefinition(KeyVaultRoleScope, SetRoleDefinitionOptions)
     uid: >-
@@ -403,14 +419,16 @@ methods:
         SetRoleDefinitionOptions)
       parameters:
         - id: roleScope
-          type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope" />
+          type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope|preview" />
           description: The scope of the role definition.
         - id: options
-          type: <xref uid="@azure/keyvault-admin.SetRoleDefinitionOptions" />
+          type: >-
+            <xref uid="@azure/keyvault-admin.SetRoleDefinitionOptions|preview"
+            />
           description: |
             The optional parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/keyvault-admin.KeyVaultRoleDefinition"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/keyvault-admin.KeyVaultRoleDefinition|preview" />&gt;
         description: ''

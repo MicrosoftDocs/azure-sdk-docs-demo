@@ -48,7 +48,7 @@ properties:
     syntax:
       content: 'retentionPolicy?: RetentionPolicy'
       return:
-        type: <xref uid="@azure/data-tables.RetentionPolicy" />
+        type: <xref uid="@azure/data-tables.RetentionPolicy|latest-stable" />
         description: ''
   - name: version
     uid: '@azure/data-tables.Metrics.version|latest-stable'

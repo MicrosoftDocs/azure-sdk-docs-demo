@@ -120,7 +120,7 @@ properties:
     syntax:
       content: 'ipRange?: SasIPRange'
       return:
-        type: <xref uid="@azure/storage-blob.SasIPRange" />
+        type: <xref uid="@azure/storage-blob.SasIPRange|latest-stable" />
         description: ''
   - name: permissions
     uid: '@azure/storage-blob.BlobGenerateSasUrlOptions.permissions|latest-stable'
@@ -135,7 +135,7 @@ properties:
     syntax:
       content: 'permissions?: BlobSASPermissions'
       return:
-        type: <xref uid="@azure/storage-blob.BlobSASPermissions" />
+        type: <xref uid="@azure/storage-blob.BlobSASPermissions|latest-stable" />
         description: ''
   - name: protocol
     uid: '@azure/storage-blob.BlobGenerateSasUrlOptions.protocol|latest-stable'
@@ -148,7 +148,7 @@ properties:
     syntax:
       content: 'protocol?: SASProtocol'
       return:
-        type: <xref uid="@azure/storage-blob.SASProtocol" />
+        type: <xref uid="@azure/storage-blob.SASProtocol|latest-stable" />
         description: ''
   - name: startsOn
     uid: '@azure/storage-blob.BlobGenerateSasUrlOptions.startsOn|latest-stable'
@@ -180,4 +180,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonGenerateSasUrlOptions" />
+extends: <xref uid="@azure/storage-blob.CommonGenerateSasUrlOptions|latest-stable" />

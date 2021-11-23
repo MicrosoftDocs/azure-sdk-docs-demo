@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'attributes?: KeyAttributes'
       return:
-        type: <xref uid="@azure/arm-keyvault.KeyAttributes" />
+        type: <xref uid="@azure/arm-keyvault.KeyAttributes|preview" />
         description: ''
   - name: curveName
     uid: '@azure/arm-keyvault.KeyProperties.curveName|preview'
@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'curveName?: JsonWebKeyCurveName'
       return:
-        type: <xref uid="@azure/arm-keyvault.JsonWebKeyCurveName" />
+        type: <xref uid="@azure/arm-keyvault.JsonWebKeyCurveName|preview" />
         description: ''
   - name: keyOps
     uid: '@azure/arm-keyvault.KeyProperties.keyOps|preview'
@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'keyOps?: JsonWebKeyOperation[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.JsonWebKeyOperation" />[]
+        type: <xref uid="@azure/arm-keyvault.JsonWebKeyOperation|preview" />[]
         description: ''
   - name: keySize
     uid: '@azure/arm-keyvault.KeyProperties.keySize|preview'
@@ -106,7 +106,7 @@ properties:
     syntax:
       content: 'kty?: JsonWebKeyType'
       return:
-        type: <xref uid="@azure/arm-keyvault.JsonWebKeyType" />
+        type: <xref uid="@azure/arm-keyvault.JsonWebKeyType|preview" />
         description: ''
   - name: rotationPolicy
     uid: '@azure/arm-keyvault.KeyProperties.rotationPolicy|preview'
@@ -121,5 +121,5 @@ properties:
     syntax:
       content: 'rotationPolicy?: RotationPolicy'
       return:
-        type: <xref uid="@azure/arm-keyvault.RotationPolicy" />
+        type: <xref uid="@azure/arm-keyvault.RotationPolicy|preview" />
         description: ''

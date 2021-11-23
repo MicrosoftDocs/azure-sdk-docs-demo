@@ -23,7 +23,9 @@ properties:
     syntax:
       content: 'deviceConnectionStateEventInfo: DeviceConnectionStateEventInfo'
       return:
-        type: <xref uid="@azure/eventgrid.DeviceConnectionStateEventInfo" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.DeviceConnectionStateEventInfo|latest-stable" />
         description: ''
   - name: deviceId
     uid: '@azure/eventgrid.DeviceConnectionStateEvent.deviceId|latest-stable'

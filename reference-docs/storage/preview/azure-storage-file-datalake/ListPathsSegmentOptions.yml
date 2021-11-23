@@ -89,4 +89,4 @@ properties:
       return:
         type: boolean
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.ListPathsOptions" />
+extends: <xref uid="@azure/storage-file-datalake.ListPathsOptions|preview" />

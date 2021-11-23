@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'attributes?: KeyRotationPolicyAttributes'
       return:
-        type: <xref uid="@azure/arm-keyvault.KeyRotationPolicyAttributes" />
+        type: <xref uid="@azure/arm-keyvault.KeyRotationPolicyAttributes|preview" />
         description: ''
   - name: lifetimeActions
     uid: '@azure/arm-keyvault.RotationPolicy.lifetimeActions|preview'
@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'lifetimeActions?: LifetimeAction[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.LifetimeAction" />[]
+        type: <xref uid="@azure/arm-keyvault.LifetimeAction|preview" />[]
         description: ''

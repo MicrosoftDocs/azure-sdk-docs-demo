@@ -48,7 +48,7 @@ constructors:
             subscription. The subscription ID forms part of the URI for every
             service call.
         - id: options
-          type: <xref uid="Models.KeyVaultManagementClientOptions" />
+          type: <xref uid="Models.KeyVaultManagementClientOptions|latest-stable" />
           description: ''
 properties:
   - name: acceptLanguage

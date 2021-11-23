@@ -53,7 +53,9 @@ properties:
     syntax:
       content: 'deserializationContentTypes?: DeserializationContentTypes'
       return:
-        type: <xref uid="@azure/core-http.DeserializationContentTypes" />
+        type: >-
+          <xref uid="@azure/core-http.DeserializationContentTypes|latest-stable"
+          />
         description: ''
   - name: generateClientRequestIdHeader
     uid: >-
@@ -82,7 +84,7 @@ properties:
     syntax:
       content: 'httpClient?: HttpClient'
       return:
-        type: <xref uid="@azure/core-http.HttpClient" />
+        type: <xref uid="@azure/core-http.HttpClient|latest-stable" />
         description: ''
   - name: httpPipelineLogger
     uid: '@azure/core-http.ServiceClientOptions.httpPipelineLogger|latest-stable'
@@ -97,7 +99,7 @@ properties:
     syntax:
       content: 'httpPipelineLogger?: HttpPipelineLogger'
       return:
-        type: <xref uid="@azure/core-http.HttpPipelineLogger" />
+        type: <xref uid="@azure/core-http.HttpPipelineLogger|latest-stable" />
         description: ''
   - name: noRetryPolicy
     uid: '@azure/core-http.ServiceClientOptions.noRetryPolicy|latest-stable'
@@ -123,7 +125,7 @@ properties:
     syntax:
       content: 'proxySettings?: ProxySettings'
       return:
-        type: <xref uid="@azure/core-http.ProxySettings" />
+        type: <xref uid="@azure/core-http.ProxySettings|latest-stable" />
         description: ''
   - name: requestPolicyFactories
     uid: '@azure/core-http.ServiceClientOptions.requestPolicyFactories|latest-stable'
@@ -147,7 +149,7 @@ properties:
         RequestPolicyFactory[]
       return:
         type: >-
-          <xref uid="@azure/core-http.RequestPolicyFactory" />[] |
+          <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />[] |
           (defaultRequestPolicyFactories: RequestPolicyFactory[]) =&gt; void |
           RequestPolicyFactory[]
         description: ''

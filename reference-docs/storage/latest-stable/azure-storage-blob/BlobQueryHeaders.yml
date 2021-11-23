@@ -80,7 +80,7 @@ properties:
     syntax:
       content: 'blobType?: BlobType'
       return:
-        type: <xref uid="@azure/storage-blob.BlobType" />
+        type: <xref uid="@azure/storage-blob.BlobType|latest-stable" />
         description: ''
   - name: cacheControl
     uid: '@azure/storage-blob.BlobQueryHeaders.cacheControl|latest-stable'
@@ -321,7 +321,7 @@ properties:
     syntax:
       content: 'copyStatus?: CopyStatusType'
       return:
-        type: <xref uid="@azure/storage-blob.CopyStatusType" />
+        type: <xref uid="@azure/storage-blob.CopyStatusType|latest-stable" />
         description: ''
   - name: copyStatusDescription
     uid: '@azure/storage-blob.BlobQueryHeaders.copyStatusDescription|latest-stable'
@@ -463,7 +463,7 @@ properties:
     syntax:
       content: 'leaseDuration?: LeaseDurationType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseDurationType" />
+        type: <xref uid="@azure/storage-blob.LeaseDurationType|latest-stable" />
         description: ''
   - name: leaseState
     uid: '@azure/storage-blob.BlobQueryHeaders.leaseState|latest-stable'
@@ -476,7 +476,7 @@ properties:
     syntax:
       content: 'leaseState?: LeaseStateType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseStateType" />
+        type: <xref uid="@azure/storage-blob.LeaseStateType|latest-stable" />
         description: ''
   - name: leaseStatus
     uid: '@azure/storage-blob.BlobQueryHeaders.leaseStatus|latest-stable'
@@ -489,7 +489,7 @@ properties:
     syntax:
       content: 'leaseStatus?: LeaseStatusType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseStatusType" />
+        type: <xref uid="@azure/storage-blob.LeaseStatusType|latest-stable" />
         description: ''
   - name: metadata
     uid: '@azure/storage-blob.BlobQueryHeaders.metadata|latest-stable'

@@ -20,7 +20,9 @@ properties:
     syntax:
       content: 'cost?: CommitmentCost'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.CommitmentCost" />
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.CommitmentCost|latest-stable"
+          />
         description: ''
   - name: hostingModel
     uid: '@azure/arm-cognitiveservices.CommitmentTier.hostingModel|latest-stable'
@@ -37,7 +39,7 @@ properties:
     syntax:
       content: 'hostingModel?: HostingModel'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.HostingModel" />
+        type: <xref uid="@azure/arm-cognitiveservices.HostingModel|latest-stable" />
         description: ''
   - name: kind
     uid: '@azure/arm-cognitiveservices.CommitmentTier.kind|latest-stable'
@@ -89,7 +91,9 @@ properties:
     syntax:
       content: 'quota?: CommitmentQuota'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.CommitmentQuota" />
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.CommitmentQuota|latest-stable"
+          />
         description: ''
   - name: skuName
     uid: '@azure/arm-cognitiveservices.CommitmentTier.skuName|latest-stable'

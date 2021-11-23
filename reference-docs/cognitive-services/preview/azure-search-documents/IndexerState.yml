@@ -64,7 +64,7 @@ properties:
     syntax:
       content: 'mode?: IndexingMode'
       return:
-        type: <xref uid="@azure/search-documents.IndexingMode" />
+        type: <xref uid="@azure/search-documents.IndexingMode|preview" />
         description: ''
   - name: resetDatasourceDocumentIds
     uid: '@azure/search-documents.IndexerState.resetDatasourceDocumentIds|preview'

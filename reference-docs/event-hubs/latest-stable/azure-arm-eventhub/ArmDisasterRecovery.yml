@@ -108,7 +108,7 @@ properties:
     syntax:
       content: 'provisioningState?: ProvisioningStateDR'
       return:
-        type: <xref uid="@azure/arm-eventhub.ProvisioningStateDR" />
+        type: <xref uid="@azure/arm-eventhub.ProvisioningStateDR|latest-stable" />
         description: ''
   - name: role
     uid: '@azure/arm-eventhub.ArmDisasterRecovery.role|latest-stable'
@@ -129,7 +129,7 @@ properties:
     syntax:
       content: 'role?: RoleDisasterRecovery'
       return:
-        type: <xref uid="@azure/arm-eventhub.RoleDisasterRecovery" />
+        type: <xref uid="@azure/arm-eventhub.RoleDisasterRecovery|latest-stable" />
         description: ''
   - name: systemData
     uid: '@azure/arm-eventhub.ArmDisasterRecovery.systemData|latest-stable'
@@ -146,7 +146,7 @@ properties:
     syntax:
       content: 'systemData?: SystemData'
       return:
-        type: <xref uid="@azure/arm-eventhub.SystemData" />
+        type: <xref uid="@azure/arm-eventhub.SystemData|latest-stable" />
         description: ''
   - name: type
     uid: '@azure/arm-eventhub.ArmDisasterRecovery.type|latest-stable'
@@ -165,4 +165,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-eventhub.Resource" />
+extends: <xref uid="@azure/arm-eventhub.Resource|latest-stable" />

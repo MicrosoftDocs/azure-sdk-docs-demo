@@ -26,7 +26,8 @@ properties:
       content: 'deleteSummary: StorageLifecyclePolicyActionSummaryDetail'
       return:
         type: >-
-          <xref uid="@azure/eventgrid.StorageLifecyclePolicyActionSummaryDetail"
+          <xref
+          uid="@azure/eventgrid.StorageLifecyclePolicyActionSummaryDetail|latest-stable"
           />
         description: ''
   - name: scheduleTime
@@ -58,7 +59,8 @@ properties:
       content: 'tierToArchiveSummary: StorageLifecyclePolicyActionSummaryDetail'
       return:
         type: >-
-          <xref uid="@azure/eventgrid.StorageLifecyclePolicyActionSummaryDetail"
+          <xref
+          uid="@azure/eventgrid.StorageLifecyclePolicyActionSummaryDetail|latest-stable"
           />
         description: ''
   - name: tierToCoolSummary
@@ -76,6 +78,7 @@ properties:
       content: 'tierToCoolSummary: StorageLifecyclePolicyActionSummaryDetail'
       return:
         type: >-
-          <xref uid="@azure/eventgrid.StorageLifecyclePolicyActionSummaryDetail"
+          <xref
+          uid="@azure/eventgrid.StorageLifecyclePolicyActionSummaryDetail|latest-stable"
           />
         description: ''

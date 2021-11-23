@@ -63,7 +63,7 @@ properties:
     syntax:
       content: 'encryption?: Encryption'
       return:
-        type: <xref uid="@azure/arm-eventhub.Encryption" />
+        type: <xref uid="@azure/arm-eventhub.Encryption|latest-stable" />
         description: ''
   - name: id
     uid: '@azure/arm-eventhub.EHNamespace.id|latest-stable'
@@ -93,7 +93,7 @@ properties:
     syntax:
       content: 'identity?: Identity'
       return:
-        type: <xref uid="@azure/arm-eventhub.Identity" />
+        type: <xref uid="@azure/arm-eventhub.Identity|latest-stable" />
         description: ''
   - name: isAutoInflateEnabled
     uid: '@azure/arm-eventhub.EHNamespace.isAutoInflateEnabled|latest-stable'
@@ -198,7 +198,9 @@ properties:
     syntax:
       content: 'privateEndpointConnections?: PrivateEndpointConnection[]'
       return:
-        type: <xref uid="@azure/arm-eventhub.PrivateEndpointConnection" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-eventhub.PrivateEndpointConnection|latest-stable" />[]
         description: ''
   - name: provisioningState
     uid: '@azure/arm-eventhub.EHNamespace.provisioningState|latest-stable'
@@ -245,7 +247,7 @@ properties:
     syntax:
       content: 'sku?: Sku'
       return:
-        type: <xref uid="@azure/arm-eventhub.Sku" />
+        type: <xref uid="@azure/arm-eventhub.Sku|latest-stable" />
         description: ''
   - name: status
     uid: '@azure/arm-eventhub.EHNamespace.status|latest-stable'
@@ -279,7 +281,7 @@ properties:
     syntax:
       content: 'systemData?: SystemData'
       return:
-        type: <xref uid="@azure/arm-eventhub.SystemData" />
+        type: <xref uid="@azure/arm-eventhub.SystemData|latest-stable" />
         description: ''
   - name: tags
     uid: '@azure/arm-eventhub.EHNamespace.tags|latest-stable'
@@ -345,4 +347,4 @@ properties:
       return:
         type: undefined | false | true
         description: ''
-extends: <xref uid="@azure/arm-eventhub.TrackedResource" />
+extends: <xref uid="@azure/arm-eventhub.TrackedResource|latest-stable" />

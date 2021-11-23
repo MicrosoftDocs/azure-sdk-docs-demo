@@ -62,7 +62,9 @@ properties:
     syntax:
       content: 'retryOptions?: StorageRetryOptions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.StorageRetryOptions" />
+        type: >-
+          <xref uid="@azure/storage-file-datalake.StorageRetryOptions|preview"
+          />
         description: ''
   - name: userAgentOptions
     uid: >-

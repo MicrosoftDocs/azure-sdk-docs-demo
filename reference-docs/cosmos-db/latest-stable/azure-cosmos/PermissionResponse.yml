@@ -26,18 +26,18 @@ constructors:
       parameters:
         - id: resource
           type: >-
-            <xref uid="@azure/cosmos.PermissionDefinition" /> & <xref
-            uid="@azure/cosmos.PermissionBody" /> & <xref
-            uid="@azure/cosmos.Resource" />
+            <xref uid="@azure/cosmos.PermissionDefinition|latest-stable" /> &
+            <xref uid="@azure/cosmos.PermissionBody|latest-stable" /> & <xref
+            uid="@azure/cosmos.Resource|latest-stable" />
           description: ''
         - id: headers
-          type: <xref uid="@azure/cosmos.CosmosHeaders" />
+          type: <xref uid="@azure/cosmos.CosmosHeaders|latest-stable" />
           description: ''
         - id: statusCode
           type: number
           description: ''
         - id: permission
-          type: <xref uid="@azure/cosmos.Permission" />
+          type: <xref uid="@azure/cosmos.Permission|latest-stable" />
           description: ''
 properties:
   - name: activityId
@@ -77,7 +77,7 @@ properties:
     syntax:
       content: 'headers: CosmosHeaders_2'
       return:
-        type: <xref uid="@azure/cosmos.CosmosHeaders_2" />
+        type: <xref uid="@azure/cosmos.CosmosHeaders_2|latest-stable" />
         description: ''
   - name: permission
     uid: '@azure/cosmos.PermissionResponse.permission|latest-stable'
@@ -92,7 +92,7 @@ properties:
     syntax:
       content: 'permission: Permission'
       return:
-        type: <xref uid="@azure/cosmos.Permission" />
+        type: <xref uid="@azure/cosmos.Permission|latest-stable" />
         description: ''
   - name: requestCharge
     uid: '@azure/cosmos.PermissionResponse.requestCharge|latest-stable'
@@ -119,9 +119,9 @@ properties:
       content: 'resource: PermissionDefinition & PermissionBody & Resource | undefined'
       return:
         type: >-
-          <xref uid="@azure/cosmos.PermissionDefinition" /> & <xref
-          uid="@azure/cosmos.PermissionBody" /> & <xref
-          uid="@azure/cosmos.Resource" /> | undefined
+          <xref uid="@azure/cosmos.PermissionDefinition|latest-stable" /> &
+          <xref uid="@azure/cosmos.PermissionBody|latest-stable" /> & <xref
+          uid="@azure/cosmos.Resource|latest-stable" /> | undefined
         description: ''
   - name: statusCode
     uid: '@azure/cosmos.PermissionResponse.statusCode|latest-stable'
@@ -150,7 +150,7 @@ properties:
         type: SubStatusCode
         description: ''
 extends: >-
-  <xref uid="@azure/cosmos.ResourceResponse" />&lt;<xref
-  uid="@azure/cosmos.PermissionDefinition" /> & <xref
-  uid="@azure/cosmos.PermissionBody" /> & <xref uid="@azure/cosmos.Resource"
-  />&gt;
+  <xref uid="@azure/cosmos.ResourceResponse|latest-stable" />&lt;<xref
+  uid="@azure/cosmos.PermissionDefinition|latest-stable" /> & <xref
+  uid="@azure/cosmos.PermissionBody|latest-stable" /> & <xref
+  uid="@azure/cosmos.Resource|latest-stable" />&gt;

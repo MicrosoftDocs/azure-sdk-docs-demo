@@ -30,7 +30,7 @@ constructors:
                                 "https://myaccount.queue.core.windows.net". You can append a SAS
                                 if using AnonymousCredential, such as "https://myaccount.queue.core.windows.net?sasString".
         - id: pipeline
-          type: <xref uid="@azure/storage-queue.Pipeline" />
+          type: <xref uid="@azure/storage-queue.Pipeline|preview" />
           description: |
             Call newPipeline() to create a default
                                        pipeline, or provide a customized pipeline.
@@ -57,9 +57,9 @@ constructors:
                                 if using AnonymousCredential, such as "https://myaccount.queue.core.windows.net?sasString".
         - id: credential
           type: >-
-            <xref uid="@azure/storage-queue.StorageSharedKeyCredential" /> |
-            <xref uid="@azure/storage-queue.AnonymousCredential" /> |
-            TokenCredential
+            <xref uid="@azure/storage-queue.StorageSharedKeyCredential|preview"
+            /> | <xref uid="@azure/storage-queue.AnonymousCredential|preview" />
+            | TokenCredential
           description: >-
             Such as AnonymousCredential, StorageSharedKeyCredential or any
             credential from the `@azure/identity` package to authenticate
@@ -67,7 +67,7 @@ constructors:
             implements the TokenCredential interface. If not specified,
             AnonymousCredential is used.
         - id: options
-          type: <xref uid="@azure/storage-queue.StoragePipelineOptions" />
+          type: <xref uid="@azure/storage-queue.StoragePipelineOptions|preview" />
           description: >
             Options to configure the HTTP pipeline.
 
@@ -155,10 +155,12 @@ methods:
           type: string
           description: name of the queue to create
         - id: options
-          type: <xref uid="@azure/storage-queue.QueueCreateOptions" />
+          type: <xref uid="@azure/storage-queue.QueueCreateOptions|preview" />
           description: Options to Queue create operation.
       return:
-        type: Promise&lt;<xref uid="@azure/storage-queue.QueueCreateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/storage-queue.QueueCreateResponse|preview" />&gt;
         description: Response data for the Queue create operation.
   - name: deleteQueue(string, QueueDeleteOptions)
     uid: '@azure/storage-queue.QueueServiceClient.deleteQueue|preview'
@@ -174,10 +176,12 @@ methods:
           type: string
           description: name of the queue to delete.
         - id: options
-          type: <xref uid="@azure/storage-queue.QueueDeleteOptions" />
+          type: <xref uid="@azure/storage-queue.QueueDeleteOptions|preview" />
           description: Options to Queue delete operation.
       return:
-        type: Promise&lt;<xref uid="@azure/storage-queue.QueueDeleteResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/storage-queue.QueueDeleteResponse|preview" />&gt;
         description: Response data for the Queue delete operation.
   - name: fromConnectionString(string, StoragePipelineOptions)
     uid: '@azure/storage-queue.QueueServiceClient.fromConnectionString|preview'
@@ -202,10 +206,10 @@ methods:
                                              SAS connection string example -
                                              `BlobEndpoint=https://myaccount.blob.core.windows.net/;QueueEndpoint=https://myaccount.queue.core.windows.net/;FileEndpoint=https://myaccount.file.core.windows.net/;TableEndpoint=https://myaccount.table.core.windows.net/;SharedAccessSignature=sasString`
         - id: options
-          type: <xref uid="@azure/storage-queue.StoragePipelineOptions" />
+          type: <xref uid="@azure/storage-queue.StoragePipelineOptions|preview" />
           description: Options to configure the HTTP pipeline.
       return:
-        type: <xref uid="@azure/storage-queue.QueueServiceClient" />
+        type: <xref uid="@azure/storage-queue.QueueServiceClient|preview" />
         description: A new QueueServiceClient object from the given connection string.
   - name: >-
       generateAccountSasUrl(Date, AccountSASPermissions, string,
@@ -236,7 +240,7 @@ methods:
             Optional. The time at which the shared access signature becomes
             invalid. Default to an hour later if not specified.
         - id: permissions
-          type: <xref uid="@azure/storage-queue.AccountSASPermissions" />
+          type: <xref uid="@azure/storage-queue.AccountSASPermissions|preview" />
           description: Specifies the list of permissions to be associated with the SAS.
         - id: resourceTypes
           type: string
@@ -245,7 +249,8 @@ methods:
             signature.
         - id: options
           type: >-
-            <xref uid="@azure/storage-queue.ServiceGenerateAccountSasUrlOptions"
+            <xref
+            uid="@azure/storage-queue.ServiceGenerateAccountSasUrlOptions|preview"
             />
           description: Optional parameters.
       return:
@@ -268,12 +273,14 @@ methods:
       content: 'function getProperties(options?: ServiceGetPropertiesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-queue.ServiceGetPropertiesOptions" />
+          type: >-
+            <xref uid="@azure/storage-queue.ServiceGetPropertiesOptions|preview"
+            />
           description: Options to get properties operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-queue.ServiceGetPropertiesResponse" />&gt;
+          uid="@azure/storage-queue.ServiceGetPropertiesResponse|preview" />&gt;
         description: Response data including the queue service properties.
   - name: getQueueClient(string)
     uid: '@azure/storage-queue.QueueServiceClient.getQueueClient|preview'
@@ -289,7 +296,7 @@ methods:
           type: string
           description: '-'
       return:
-        type: <xref uid="@azure/storage-queue.QueueClient" />
+        type: <xref uid="@azure/storage-queue.QueueClient|preview" />
         description: >-
           a new QueueClient
 
@@ -323,12 +330,14 @@ methods:
       content: 'function getStatistics(options?: ServiceGetStatisticsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-queue.ServiceGetStatisticsOptions" />
+          type: >-
+            <xref uid="@azure/storage-queue.ServiceGetStatisticsOptions|preview"
+            />
           description: Options to get statistics operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-queue.ServiceGetStatisticsResponse" />&gt;
+          uid="@azure/storage-queue.ServiceGetStatisticsResponse|preview" />&gt;
         description: Response data for get statistics the operation.
   - name: listQueues(ServiceListQueuesOptions)
     uid: '@azure/storage-queue.QueueServiceClient.listQueues|preview'
@@ -449,13 +458,14 @@ methods:
       content: 'function listQueues(options?: ServiceListQueuesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-queue.ServiceListQueuesOptions" />
+          type: <xref uid="@azure/storage-queue.ServiceListQueuesOptions|preview" />
           description: Options to list queues operation.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/storage-queue.QueueItem" />, <xref
-          uid="@azure/storage-queue.ServiceListQueuesSegmentResponse" />&gt;
+          uid="@azure/storage-queue.QueueItem|preview" />, <xref
+          uid="@azure/storage-queue.ServiceListQueuesSegmentResponse|preview"
+          />&gt;
         description: An asyncIterableIterator that supports paging.
   - name: setProperties(QueueServiceProperties, ServiceGetPropertiesOptions)
     uid: '@azure/storage-queue.QueueServiceClient.setProperties|preview'
@@ -475,14 +485,16 @@ methods:
         ServiceGetPropertiesOptions)
       parameters:
         - id: properties
-          type: <xref uid="@azure/storage-queue.QueueServiceProperties" />
+          type: <xref uid="@azure/storage-queue.QueueServiceProperties|preview" />
           description: '-'
         - id: options
-          type: <xref uid="@azure/storage-queue.ServiceGetPropertiesOptions" />
+          type: >-
+            <xref uid="@azure/storage-queue.ServiceGetPropertiesOptions|preview"
+            />
           description: Options to set properties operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-queue.ServiceSetPropertiesResponse" />&gt;
+          uid="@azure/storage-queue.ServiceSetPropertiesResponse|preview" />&gt;
         description: Response data for the Set Properties operation.
-extends: <xref uid="@azure/storage-queue.StorageClient" />
+extends: <xref uid="@azure/storage-queue.StorageClient|preview" />

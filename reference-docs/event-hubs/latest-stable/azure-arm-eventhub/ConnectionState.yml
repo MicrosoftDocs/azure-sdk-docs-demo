@@ -37,5 +37,7 @@ properties:
     syntax:
       content: 'status?: PrivateLinkConnectionStatus'
       return:
-        type: <xref uid="@azure/arm-eventhub.PrivateLinkConnectionStatus" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventhub.PrivateLinkConnectionStatus|latest-stable" />
         description: ''

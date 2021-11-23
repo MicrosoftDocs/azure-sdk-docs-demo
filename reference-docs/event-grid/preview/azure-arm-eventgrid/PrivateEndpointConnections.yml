@@ -28,7 +28,7 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="@azure/arm-eventgrid.Enum20" />
+          type: <xref uid="@azure/arm-eventgrid.Enum20|preview" />
           description: >-
             The type of the parent resource. This can be either \'topics\' or
             \'domains\'.
@@ -43,7 +43,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsDeleteOptionalParams"
+            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsDeleteOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -69,7 +69,7 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="@azure/arm-eventgrid.Enum20" />
+          type: <xref uid="@azure/arm-eventgrid.Enum20|preview" />
           description: >-
             The type of the parent resource. This can be either \'topics\' or
             \'domains\'.
@@ -84,7 +84,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsDeleteOptionalParams"
+            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsDeleteOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -111,7 +111,7 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="@azure/arm-eventgrid.Enum19" />
+          type: <xref uid="@azure/arm-eventgrid.Enum19|preview" />
           description: >-
             The type of the parent resource. This can be either \'topics\' or
             \'domains\'.
@@ -124,21 +124,23 @@ methods:
           type: string
           description: The name of the private endpoint connection connection.
         - id: privateEndpointConnection
-          type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />
+          type: >-
+            <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection|preview"
+            />
           description: The private endpoint connection object to update.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsUpdateOptionalParams"
+            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-eventgrid.PrivateEndpointConnectionsUpdateResponse"
+          uid="@azure/arm-eventgrid.PrivateEndpointConnectionsUpdateResponse|preview"
           />&gt;, <xref
-          uid="@azure/arm-eventgrid.PrivateEndpointConnectionsUpdateResponse"
+          uid="@azure/arm-eventgrid.PrivateEndpointConnectionsUpdateResponse|preview"
           />&gt;&gt;
         description: ''
   - name: >-
@@ -161,7 +163,7 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="@azure/arm-eventgrid.Enum19" />
+          type: <xref uid="@azure/arm-eventgrid.Enum19|preview" />
           description: >-
             The type of the parent resource. This can be either \'topics\' or
             \'domains\'.
@@ -174,19 +176,21 @@ methods:
           type: string
           description: The name of the private endpoint connection connection.
         - id: privateEndpointConnection
-          type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection" />
+          type: >-
+            <xref uid="@azure/arm-eventgrid.PrivateEndpointConnection|preview"
+            />
           description: The private endpoint connection object to update.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsUpdateOptionalParams"
+            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventgrid.PrivateEndpointConnectionsUpdateResponse"
+          uid="@azure/arm-eventgrid.PrivateEndpointConnectionsUpdateResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -208,7 +212,7 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="@azure/arm-eventgrid.Enum18" />
+          type: <xref uid="@azure/arm-eventgrid.Enum18|preview" />
           description: >-
             The type of the parent resource. This can be either \'topics\' or
             \'domains\'.
@@ -223,14 +227,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsGetOptionalParams"
+            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsGetOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventgrid.PrivateEndpointConnectionsGetResponse"
+          uid="@azure/arm-eventgrid.PrivateEndpointConnectionsGetResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -252,7 +256,7 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="@azure/arm-eventgrid.Enum21" />
+          type: <xref uid="@azure/arm-eventgrid.Enum21|preview" />
           description: >-
             The type of the parent resource. This can be either \'topics\' or
             \'domains\'.
@@ -264,12 +268,12 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsListByResourceOptionalParams"
+            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsListByResourceOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventgrid.PrivateEndpointConnection" />&gt;
+          uid="@azure/arm-eventgrid.PrivateEndpointConnection|preview" />&gt;
         description: ''

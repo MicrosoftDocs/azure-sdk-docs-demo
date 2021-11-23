@@ -32,5 +32,8 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-file-datalake.StorageBrowserPolicy" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.StorageBrowserPolicy|latest-stable"
+          />
         description: ''

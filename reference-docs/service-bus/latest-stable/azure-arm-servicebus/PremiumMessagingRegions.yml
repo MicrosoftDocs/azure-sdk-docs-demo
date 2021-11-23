@@ -67,7 +67,10 @@ properties:
     syntax:
       content: 'properties?: PremiumMessagingRegionsProperties'
       return:
-        type: <xref uid="@azure/arm-servicebus.PremiumMessagingRegionsProperties" />
+        type: >-
+          <xref
+          uid="@azure/arm-servicebus.PremiumMessagingRegionsProperties|latest-stable"
+          />
         description: ''
   - name: tags
     uid: '@azure/arm-servicebus.PremiumMessagingRegions.tags|latest-stable'
@@ -99,4 +102,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-servicebus.ResourceNamespacePatch" />
+extends: <xref uid="@azure/arm-servicebus.ResourceNamespacePatch|latest-stable" />

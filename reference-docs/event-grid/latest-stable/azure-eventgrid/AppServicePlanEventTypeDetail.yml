@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'action: AppServicePlanAction'
       return:
-        type: <xref uid="@azure/eventgrid.AppServicePlanAction" />
+        type: <xref uid="@azure/eventgrid.AppServicePlanAction|latest-stable" />
         description: ''
   - name: stampKind
     uid: '@azure/eventgrid.AppServicePlanEventTypeDetail.stampKind|latest-stable'
@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'stampKind: StampKind'
       return:
-        type: <xref uid="@azure/eventgrid.StampKind" />
+        type: <xref uid="@azure/eventgrid.StampKind|latest-stable" />
         description: ''
   - name: status
     uid: '@azure/eventgrid.AppServicePlanEventTypeDetail.status|latest-stable'
@@ -46,5 +46,5 @@ properties:
     syntax:
       content: 'status: AsyncStatus'
       return:
-        type: <xref uid="@azure/eventgrid.AsyncStatus" />
+        type: <xref uid="@azure/eventgrid.AsyncStatus|latest-stable" />
         description: ''

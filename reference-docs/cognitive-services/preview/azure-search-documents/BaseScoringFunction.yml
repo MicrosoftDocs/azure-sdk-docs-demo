@@ -50,7 +50,9 @@ properties:
     syntax:
       content: 'interpolation?: ScoringFunctionInterpolation'
       return:
-        type: <xref uid="@azure/search-documents.ScoringFunctionInterpolation" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.ScoringFunctionInterpolation|preview" />
         description: ''
   - name: type
     uid: '@azure/search-documents.BaseScoringFunction.type|preview'

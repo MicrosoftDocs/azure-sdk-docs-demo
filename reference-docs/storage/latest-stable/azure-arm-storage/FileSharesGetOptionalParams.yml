@@ -52,7 +52,7 @@ properties:
     syntax:
       content: 'expand?: GetShareExpand'
       return:
-        type: <xref uid="@azure/arm-storage.GetShareExpand" />
+        type: <xref uid="@azure/arm-storage.GetShareExpand|latest-stable" />
         description: ''
   - name: onDownloadProgress
     uid: >-

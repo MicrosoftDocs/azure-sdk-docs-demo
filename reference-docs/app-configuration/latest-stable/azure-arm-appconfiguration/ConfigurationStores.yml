@@ -22,7 +22,7 @@ constructors:
         - id: client
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.AppConfigurationManagementClientContext"
+            uid="@azure/arm-appconfiguration.AppConfigurationManagementClientContext|latest-stable"
             />
           description: |
             Reference to the service client.
@@ -49,10 +49,13 @@ methods:
           type: string
           description: The name of the configuration store.
         - id: configStoreCreationParameters
-          type: <xref uid="@azure/arm-appconfiguration.ConfigurationStore" />
+          type: >-
+            <xref
+            uid="@azure/arm-appconfiguration.ConfigurationStore|latest-stable"
+            />
           description: The parameters for creating a configuration store.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -79,7 +82,7 @@ methods:
           type: string
           description: The name of the configuration store.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -110,11 +113,11 @@ methods:
         - id: configStoreUpdateParameters
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.ConfigurationStoreUpdateParameters"
+            uid="@azure/arm-appconfiguration.ConfigurationStoreUpdateParameters|latest-stable"
             />
           description: The parameters for updating a configuration store.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -141,13 +144,18 @@ methods:
           type: string
           description: The name of the configuration store.
         - id: configStoreCreationParameters
-          type: <xref uid="@azure/arm-appconfiguration.ConfigurationStore" />
+          type: >-
+            <xref
+            uid="@azure/arm-appconfiguration.ConfigurationStore|latest-stable"
+            />
           description: The parameters for creating a configuration store.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ConfigurationStoresCreateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.ConfigurationStoresCreateResponse|latest-stable" />&gt;
         description: Promise<Models.ConfigurationStoresCreateResponse>
   - name: deleteMethod(string, string, msRest.RequestOptionsBase)
     uid: '@azure/arm-appconfiguration.ConfigurationStores.deleteMethod|latest-stable'
@@ -170,7 +178,7 @@ methods:
           type: string
           description: The name of the configuration store.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -196,10 +204,12 @@ methods:
           type: string
           description: The name of the configuration store.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ConfigurationStoresGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.ConfigurationStoresGetResponse|latest-stable" />&gt;
         description: Promise<Models.ConfigurationStoresGetResponse>
   - name: >-
       get(string, string, RequestOptionsBase,
@@ -230,7 +240,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.ConfigurationStore" />&gt;
+            uid="@azure/arm-appconfiguration.ConfigurationStore|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: get(string, string, ServiceCallback<ConfigurationStore>)
@@ -256,7 +267,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.ConfigurationStore" />&gt;
+            uid="@azure/arm-appconfiguration.ConfigurationStore|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -276,13 +288,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.ConfigurationStoresListOptionalParams"
+            uid="@azure/arm-appconfiguration.ConfigurationStoresListOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.ConfigurationStoreListResult"
+            uid="@azure/arm-appconfiguration.ConfigurationStoreListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -297,10 +309,14 @@ methods:
       content: 'function list(options?: Models.ConfigurationStoresListOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="Models.ConfigurationStoresListOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.ConfigurationStoresListOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ConfigurationStoresListResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.ConfigurationStoresListResponse|latest-stable" />&gt;
         description: Promise<Models.ConfigurationStoresListResponse>
   - name: list(ServiceCallback<ConfigurationStoreListResult>)
     uid: '@azure/arm-appconfiguration.ConfigurationStores.list_1|latest-stable'
@@ -315,7 +331,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.ConfigurationStoreListResult"
+            uid="@azure/arm-appconfiguration.ConfigurationStoreListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -344,13 +360,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.ConfigurationStoresListByResourceGroupOptionalParams"
+            uid="@azure/arm-appconfiguration.ConfigurationStoresListByResourceGroupOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.ConfigurationStoreListResult"
+            uid="@azure/arm-appconfiguration.ConfigurationStoreListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -377,12 +393,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.ConfigurationStoresListByResourceGroupOptionalParams" />
+            uid="Models.ConfigurationStoresListByResourceGroupOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.ConfigurationStoresListByResourceGroupResponse" />&gt;
+          uid="Models.ConfigurationStoresListByResourceGroupResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ConfigurationStoresListByResourceGroupResponse>
   - name: listByResourceGroup(string, ServiceCallback<ConfigurationStoreListResult>)
     uid: >-
@@ -405,7 +423,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.ConfigurationStoreListResult"
+            uid="@azure/arm-appconfiguration.ConfigurationStoreListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -432,13 +450,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.ConfigurationStoresListByResourceGroupNextOptionalParams"
+            uid="@azure/arm-appconfiguration.ConfigurationStoresListByResourceGroupNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.ConfigurationStoreListResult"
+            uid="@azure/arm-appconfiguration.ConfigurationStoreListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -463,13 +481,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.ConfigurationStoresListByResourceGroupNextOptionalParams"
+            uid="Models.ConfigurationStoresListByResourceGroupNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.ConfigurationStoresListByResourceGroupNextResponse" />&gt;
+          uid="Models.ConfigurationStoresListByResourceGroupNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ConfigurationStoresListByResourceGroupNextResponse>
   - name: >-
       listByResourceGroupNext(string,
@@ -492,7 +511,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.ConfigurationStoreListResult"
+            uid="@azure/arm-appconfiguration.ConfigurationStoreListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -522,13 +541,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.ConfigurationStoresListKeysOptionalParams"
+            uid="@azure/arm-appconfiguration.ConfigurationStoresListKeysOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.ApiKeyListResult" />&gt;
+            uid="@azure/arm-appconfiguration.ApiKeyListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listKeys(string, string, Models.ConfigurationStoresListKeysOptionalParams)
@@ -552,12 +572,15 @@ methods:
           type: string
           description: The name of the configuration store.
         - id: options
-          type: <xref uid="Models.ConfigurationStoresListKeysOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.ConfigurationStoresListKeysOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.ConfigurationStoresListKeysResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.ConfigurationStoresListKeysResponse|latest-stable" />&gt;
         description: Promise<Models.ConfigurationStoresListKeysResponse>
   - name: listKeys(string, string, ServiceCallback<ApiKeyListResult>)
     uid: '@azure/arm-appconfiguration.ConfigurationStores.listKeys_1|latest-stable'
@@ -582,7 +605,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.ApiKeyListResult" />&gt;
+            uid="@azure/arm-appconfiguration.ApiKeyListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -607,13 +631,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.ConfigurationStoresListKeysNextOptionalParams"
+            uid="@azure/arm-appconfiguration.ConfigurationStoresListKeysNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.ApiKeyListResult" />&gt;
+            uid="@azure/arm-appconfiguration.ApiKeyListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listKeysNext(string, Models.ConfigurationStoresListKeysNextOptionalParams)
@@ -632,11 +657,15 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="Models.ConfigurationStoresListKeysNextOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.ConfigurationStoresListKeysNextOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.ConfigurationStoresListKeysNextResponse"
+          Promise&lt;<xref
+          uid="Models.ConfigurationStoresListKeysNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.ConfigurationStoresListKeysNextResponse>
   - name: listKeysNext(string, ServiceCallback<ApiKeyListResult>)
@@ -658,7 +687,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.ApiKeyListResult" />&gt;
+            uid="@azure/arm-appconfiguration.ApiKeyListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -682,13 +712,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.ConfigurationStoresListNextOptionalParams"
+            uid="@azure/arm-appconfiguration.ConfigurationStoresListNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.ConfigurationStoreListResult"
+            uid="@azure/arm-appconfiguration.ConfigurationStoreListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -708,12 +738,15 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="Models.ConfigurationStoresListNextOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.ConfigurationStoresListNextOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.ConfigurationStoresListNextResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.ConfigurationStoresListNextResponse|latest-stable" />&gt;
         description: Promise<Models.ConfigurationStoresListNextResponse>
   - name: listNext(string, ServiceCallback<ConfigurationStoreListResult>)
     uid: '@azure/arm-appconfiguration.ConfigurationStores.listNext_1|latest-stable'
@@ -733,7 +766,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.ConfigurationStoreListResult"
+            uid="@azure/arm-appconfiguration.ConfigurationStoreListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -762,14 +795,18 @@ methods:
           type: string
           description: The name of the configuration store.
         - id: regenerateKeyParameters
-          type: <xref uid="@azure/arm-appconfiguration.RegenerateKeyParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-appconfiguration.RegenerateKeyParameters|latest-stable"
+            />
           description: The parameters for regenerating an access key.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.ConfigurationStoresRegenerateKeyResponse"
+          Promise&lt;<xref
+          uid="Models.ConfigurationStoresRegenerateKeyResponse|latest-stable"
           />&gt;
         description: Promise<Models.ConfigurationStoresRegenerateKeyResponse>
   - name: >-
@@ -797,15 +834,18 @@ methods:
           type: string
           description: The name of the configuration store.
         - id: regenerateKeyParameters
-          type: <xref uid="@azure/arm-appconfiguration.RegenerateKeyParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-appconfiguration.RegenerateKeyParameters|latest-stable"
+            />
           description: The parameters for regenerating an access key.
         - id: options
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-appconfiguration.ApiKey"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -833,12 +873,15 @@ methods:
           type: string
           description: The name of the configuration store.
         - id: regenerateKeyParameters
-          type: <xref uid="@azure/arm-appconfiguration.RegenerateKeyParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-appconfiguration.RegenerateKeyParameters|latest-stable"
+            />
           description: The parameters for regenerating an access key.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-appconfiguration.ApiKey"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-appconfiguration.ApiKey|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -867,12 +910,14 @@ methods:
         - id: configStoreUpdateParameters
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.ConfigurationStoreUpdateParameters"
+            uid="@azure/arm-appconfiguration.ConfigurationStoreUpdateParameters|latest-stable"
             />
           description: The parameters for updating a configuration store.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ConfigurationStoresUpdateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.ConfigurationStoresUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.ConfigurationStoresUpdateResponse>

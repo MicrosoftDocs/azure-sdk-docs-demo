@@ -30,7 +30,7 @@ properties:
     syntax:
       content: 'reasonCode?: ReasonCode'
       return:
-        type: <xref uid="@azure/arm-storage.ReasonCode" />
+        type: <xref uid="@azure/arm-storage.ReasonCode|latest-stable" />
         description: ''
   - name: type
     uid: '@azure/arm-storage.Restriction.type|latest-stable'

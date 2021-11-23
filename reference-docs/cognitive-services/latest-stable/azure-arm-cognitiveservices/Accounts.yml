@@ -22,7 +22,7 @@ constructors:
         - id: client
           type: >-
             <xref
-            uid="@azure/arm-cognitiveservices.CognitiveServicesManagementClientContext"
+            uid="@azure/arm-cognitiveservices.CognitiveServicesManagementClientContext|latest-stable"
             />
           description: |
             Reference to the service client.
@@ -51,10 +51,10 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: account
-          type: <xref uid="@azure/arm-cognitiveservices.Account" />
+          type: <xref uid="@azure/arm-cognitiveservices.Account|latest-stable" />
           description: The parameters to provide for the created account.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -78,7 +78,7 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -102,10 +102,10 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: account
-          type: <xref uid="@azure/arm-cognitiveservices.Account" />
+          type: <xref uid="@azure/arm-cognitiveservices.Account|latest-stable" />
           description: The parameters to provide for the created account.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -134,13 +134,15 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: account
-          type: <xref uid="@azure/arm-cognitiveservices.Account" />
+          type: <xref uid="@azure/arm-cognitiveservices.Account|latest-stable" />
           description: The parameters to provide for the created account.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.AccountsCreateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.AccountsCreateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.AccountsCreateResponse>
   - name: deleteMethod(string, string, msRest.RequestOptionsBase)
     uid: '@azure/arm-cognitiveservices.Accounts.deleteMethod|latest-stable'
@@ -161,7 +163,7 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -185,10 +187,10 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.AccountsGetResponse" />&gt;
+        type: Promise&lt;<xref uid="Models.AccountsGetResponse|latest-stable" />&gt;
         description: Promise<Models.AccountsGetResponse>
   - name: get(string, string, RequestOptionsBase, ServiceCallback<Account>)
     uid: '@azure/arm-cognitiveservices.Accounts.get_2|latest-stable'
@@ -213,8 +215,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-cognitiveservices.Account"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-cognitiveservices.Account|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, ServiceCallback<Account>)
@@ -237,8 +239,8 @@ methods:
           description: The name of Cognitive Services account.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-cognitiveservices.Account"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-cognitiveservices.Account|latest-stable" />&gt;
           description: |
             The callback
   - name: list(msRest.RequestOptionsBase)
@@ -254,10 +256,12 @@ methods:
       content: 'function list(options?: msRest.RequestOptionsBase)'
       parameters:
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.AccountsListResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.AccountsListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.AccountsListResponse>
   - name: list(RequestOptionsBase, ServiceCallback<AccountListResult>)
     uid: '@azure/arm-cognitiveservices.Accounts.list_2|latest-stable'
@@ -277,7 +281,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.AccountListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.AccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: list(ServiceCallback<AccountListResult>)
@@ -293,7 +298,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.AccountListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.AccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listByResourceGroup(string, msRest.RequestOptionsBase)
@@ -314,12 +320,12 @@ methods:
           type: string
           description: The name of the resource group. The name is case insensitive.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.AccountsListByResourceGroupResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.AccountsListByResourceGroupResponse|latest-stable" />&gt;
         description: Promise<Models.AccountsListByResourceGroupResponse>
   - name: >-
       listByResourceGroup(string, RequestOptionsBase,
@@ -344,7 +350,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.AccountListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.AccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listByResourceGroup(string, ServiceCallback<AccountListResult>)
@@ -365,7 +372,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.AccountListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.AccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listByResourceGroupNext(string, msRest.RequestOptionsBase)
@@ -387,11 +395,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.AccountsListByResourceGroupNextResponse"
+          Promise&lt;<xref
+          uid="Models.AccountsListByResourceGroupNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.AccountsListByResourceGroupNextResponse>
   - name: >-
@@ -418,7 +427,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.AccountListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.AccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listByResourceGroupNext(string, ServiceCallback<AccountListResult>)
@@ -440,7 +450,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.AccountListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.AccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listKeys(string, string, msRest.RequestOptionsBase)
@@ -462,10 +473,12 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.AccountsListKeysResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.AccountsListKeysResponse|latest-stable"
+          />&gt;
         description: Promise<Models.AccountsListKeysResponse>
   - name: listKeys(string, string, RequestOptionsBase, ServiceCallback<ApiKeys>)
     uid: '@azure/arm-cognitiveservices.Accounts.listKeys_2|latest-stable'
@@ -490,8 +503,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-cognitiveservices.ApiKeys"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-cognitiveservices.ApiKeys|latest-stable" />&gt;
           description: |
             The callback
   - name: listKeys(string, string, ServiceCallback<ApiKeys>)
@@ -514,8 +527,8 @@ methods:
           description: The name of Cognitive Services account.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-cognitiveservices.ApiKeys"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-cognitiveservices.ApiKeys|latest-stable" />&gt;
           description: |
             The callback
   - name: listNext(string, msRest.RequestOptionsBase)
@@ -536,10 +549,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.AccountsListNextResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.AccountsListNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.AccountsListNextResponse>
   - name: listNext(string, RequestOptionsBase, ServiceCallback<AccountListResult>)
     uid: '@azure/arm-cognitiveservices.Accounts.listNext_2|latest-stable'
@@ -562,7 +577,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.AccountListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.AccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, ServiceCallback<AccountListResult>)
@@ -583,7 +599,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.AccountListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.AccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listSkus(string, string, msRest.RequestOptionsBase)
@@ -605,10 +622,12 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.AccountsListSkusResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.AccountsListSkusResponse|latest-stable"
+          />&gt;
         description: Promise<Models.AccountsListSkusResponse>
   - name: >-
       listSkus(string, string, RequestOptionsBase,
@@ -637,7 +656,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.AccountSkuListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.AccountSkuListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listSkus(string, string, ServiceCallback<AccountSkuListResult>)
@@ -661,7 +681,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.AccountSkuListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.AccountSkuListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -688,13 +709,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-cognitiveservices.AccountsListUsagesOptionalParams"
+            uid="@azure/arm-cognitiveservices.AccountsListUsagesOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.UsageListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.UsageListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listUsages(string, string, Models.AccountsListUsagesOptionalParams)
@@ -716,10 +738,12 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: options
-          type: <xref uid="Models.AccountsListUsagesOptionalParams" />
+          type: <xref uid="Models.AccountsListUsagesOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.AccountsListUsagesResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.AccountsListUsagesResponse|latest-stable"
+          />&gt;
         description: Promise<Models.AccountsListUsagesResponse>
   - name: listUsages(string, string, ServiceCallback<UsageListResult>)
     uid: '@azure/arm-cognitiveservices.Accounts.listUsages_1|latest-stable'
@@ -742,7 +766,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-cognitiveservices.UsageListResult" />&gt;
+            uid="@azure/arm-cognitiveservices.UsageListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: regenerateKey(string, string, Models.KeyName, msRest.RequestOptionsBase)
@@ -766,15 +791,17 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: keyName
-          type: <xref uid="Models.KeyName" />
+          type: <xref uid="Models.KeyName|latest-stable" />
           description: >-
             key name to generate (Key1|Key2). Possible values include: 'Key1',
             'Key2'
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.AccountsRegenerateKeyResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.AccountsRegenerateKeyResponse|latest-stable" />&gt;
         description: Promise<Models.AccountsRegenerateKeyResponse>
   - name: >-
       regenerateKey(string, string, Models.KeyName, RequestOptionsBase,
@@ -798,7 +825,7 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: keyName
-          type: <xref uid="Models.KeyName" />
+          type: <xref uid="Models.KeyName|latest-stable" />
           description: >-
             key name to generate (Key1|Key2). Possible values include: 'Key1',
             'Key2'
@@ -807,8 +834,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-cognitiveservices.ApiKeys"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-cognitiveservices.ApiKeys|latest-stable" />&gt;
           description: |
             The callback
   - name: regenerateKey(string, string, Models.KeyName, ServiceCallback<ApiKeys>)
@@ -830,14 +857,14 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: keyName
-          type: <xref uid="Models.KeyName" />
+          type: <xref uid="Models.KeyName|latest-stable" />
           description: >-
             key name to generate (Key1|Key2). Possible values include: 'Key1',
             'Key2'
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-cognitiveservices.ApiKeys"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-cognitiveservices.ApiKeys|latest-stable" />&gt;
           description: |
             The callback
   - name: update(string, string, Account, msRest.RequestOptionsBase)
@@ -859,11 +886,13 @@ methods:
           type: string
           description: The name of Cognitive Services account.
         - id: account
-          type: <xref uid="@azure/arm-cognitiveservices.Account" />
+          type: <xref uid="@azure/arm-cognitiveservices.Account|latest-stable" />
           description: The parameters to provide for the created account.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.AccountsUpdateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.AccountsUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.AccountsUpdateResponse>

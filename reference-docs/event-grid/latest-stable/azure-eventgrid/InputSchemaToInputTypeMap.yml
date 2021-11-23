@@ -24,7 +24,9 @@ properties:
     syntax:
       content: 'CloudEvent: SendCloudEventInput<unknown>'
       return:
-        type: <xref uid="@azure/eventgrid.SendCloudEventInput" />&lt;unknown&gt;
+        type: >-
+          <xref uid="@azure/eventgrid.SendCloudEventInput|latest-stable"
+          />&lt;unknown&gt;
         description: ''
   - name: Custom
     uid: '@azure/eventgrid.InputSchemaToInputTypeMap.Custom|latest-stable'
@@ -54,5 +56,7 @@ properties:
     syntax:
       content: 'EventGrid: SendEventGridEventInput<unknown>'
       return:
-        type: <xref uid="@azure/eventgrid.SendEventGridEventInput" />&lt;unknown&gt;
+        type: >-
+          <xref uid="@azure/eventgrid.SendEventGridEventInput|latest-stable"
+          />&lt;unknown&gt;
         description: ''

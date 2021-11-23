@@ -47,7 +47,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.PrivateEndpointConnectionsDeleteOptionalParams"
+            uid="@azure/arm-storage.PrivateEndpointConnectionsDeleteOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -90,14 +90,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.PrivateEndpointConnectionsGetOptionalParams"
+            uid="@azure/arm-storage.PrivateEndpointConnectionsGetOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.PrivateEndpointConnectionsGetResponse" />&gt;
+          uid="@azure/arm-storage.PrivateEndpointConnectionsGetResponse|preview"
+          />&gt;
         description: ''
   - name: list(string, string, PrivateEndpointConnectionsListOptionalParams)
     uid: '@azure/arm-storage.PrivateEndpointConnections.list|preview'
@@ -129,14 +130,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.PrivateEndpointConnectionsListOptionalParams"
+            uid="@azure/arm-storage.PrivateEndpointConnectionsListOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-storage.PrivateEndpointConnection" />&gt;
+          uid="@azure/arm-storage.PrivateEndpointConnection|preview" />&gt;
         description: ''
   - name: >-
       put(string, string, string, PrivateEndpointConnection,
@@ -175,17 +176,18 @@ methods:
             The name of the private endpoint connection associated with the
                                                  Azure resource
         - id: properties
-          type: <xref uid="@azure/arm-storage.PrivateEndpointConnection" />
+          type: <xref uid="@azure/arm-storage.PrivateEndpointConnection|preview" />
           description: The private endpoint connection properties.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.PrivateEndpointConnectionsPutOptionalParams"
+            uid="@azure/arm-storage.PrivateEndpointConnectionsPutOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.PrivateEndpointConnectionsPutResponse" />&gt;
+          uid="@azure/arm-storage.PrivateEndpointConnectionsPutResponse|preview"
+          />&gt;
         description: ''

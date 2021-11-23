@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'family: ManagedHsmSkuFamily'
       return:
-        type: <xref uid="@azure/arm-keyvault.ManagedHsmSkuFamily" />
+        type: <xref uid="@azure/arm-keyvault.ManagedHsmSkuFamily|preview" />
         description: ''
   - name: name
     uid: '@azure/arm-keyvault.ManagedHsmSku.name|preview'
@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'name: ManagedHsmSkuName'
       return:
-        type: <xref uid="@azure/arm-keyvault.ManagedHsmSkuName" />
+        type: <xref uid="@azure/arm-keyvault.ManagedHsmSkuName|preview" />
         description: ''

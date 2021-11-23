@@ -22,13 +22,13 @@ constructors:
         RequestPolicyOptions, tracingOptions: TracingPolicyOptions)
       parameters:
         - id: nextPolicy
-          type: <xref uid="@azure/core-http.RequestPolicy" />
+          type: <xref uid="@azure/core-http.RequestPolicy|latest-stable" />
           description: ''
         - id: options
-          type: <xref uid="@azure/core-http.RequestPolicyOptions" />
+          type: <xref uid="@azure/core-http.RequestPolicyOptions|latest-stable" />
           description: ''
         - id: tracingOptions
-          type: <xref uid="@azure/core-http.TracingPolicyOptions" />
+          type: <xref uid="@azure/core-http.TracingPolicyOptions|latest-stable" />
           description: ''
 methods:
   - name: log(HttpPipelineLogLevel, string)
@@ -47,7 +47,7 @@ methods:
       content: 'function log(logLevel: HttpPipelineLogLevel, message: string)'
       parameters:
         - id: logLevel
-          type: <xref uid="@azure/core-http.HttpPipelineLogLevel" />
+          type: <xref uid="@azure/core-http.HttpPipelineLogLevel|latest-stable" />
           description: The log level of this log.
         - id: message
           type: string
@@ -64,10 +64,12 @@ methods:
       content: 'function sendRequest(request: WebResourceLike)'
       parameters:
         - id: request
-          type: <xref uid="@azure/core-http.WebResourceLike" />
+          type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/core-http.HttpOperationResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/core-http.HttpOperationResponse|latest-stable" />&gt;
         description: ''
   - name: shouldLog(HttpPipelineLogLevel)
     uid: '@azure/core-http.TracingPolicy.shouldLog|latest-stable'
@@ -80,7 +82,7 @@ methods:
       content: 'function shouldLog(logLevel: HttpPipelineLogLevel)'
       parameters:
         - id: logLevel
-          type: <xref uid="@azure/core-http.HttpPipelineLogLevel" />
+          type: <xref uid="@azure/core-http.HttpPipelineLogLevel|latest-stable" />
           description: The log level of the log that will be logged.
       return:
         type: boolean
@@ -96,9 +98,9 @@ methods:
       content: 'function tryCreateSpan(request: WebResourceLike)'
       parameters:
         - id: request
-          type: <xref uid="@azure/core-http.WebResourceLike" />
+          type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
           description: ''
       return:
         type: Span | undefined
         description: ''
-extends: <xref uid="@azure/core-http.BaseRequestPolicy" />
+extends: <xref uid="@azure/core-http.BaseRequestPolicy|latest-stable" />

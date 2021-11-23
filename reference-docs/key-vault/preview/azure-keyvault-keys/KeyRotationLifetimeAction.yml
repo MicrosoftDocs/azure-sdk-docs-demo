@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'action: KeyRotationPolicyAction'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyRotationPolicyAction" />
+        type: <xref uid="@azure/keyvault-keys.KeyRotationPolicyAction|preview" />
         description: ''
   - name: timeAfterCreate
     uid: '@azure/keyvault-keys.KeyRotationLifetimeAction.timeAfterCreate|preview'

@@ -29,7 +29,7 @@ constructors:
                                 append a SAS if using AnonymousCredential, such as
                                 "https://myaccount.queue.core.windows.net/myqueue?sasString".
         - id: pipeline
-          type: <xref uid="@azure/storage-queue.Pipeline" />
+          type: <xref uid="@azure/storage-queue.Pipeline|latest-stable" />
           description: |
             Call newPipeline() to create a default
                                        pipeline, or provide a customized pipeline.
@@ -56,8 +56,10 @@ constructors:
                                 "https://myaccount.queue.core.windows.net/myqueue?sasString".
         - id: credential
           type: >-
-            <xref uid="@azure/storage-queue.StorageSharedKeyCredential" /> |
-            <xref uid="@azure/storage-queue.AnonymousCredential" /> |
+            <xref
+            uid="@azure/storage-queue.StorageSharedKeyCredential|latest-stable"
+            /> | <xref
+            uid="@azure/storage-queue.AnonymousCredential|latest-stable" /> |
             TokenCredential
           description: >-
             Such as AnonymousCredential, StorageSharedKeyCredential or any
@@ -66,7 +68,9 @@ constructors:
             implements the TokenCredential interface. If not specified,
             AnonymousCredential is used.
         - id: options
-          type: <xref uid="@azure/storage-queue.StoragePipelineOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-queue.StoragePipelineOptions|latest-stable" />
           description: |
             Options to configure the HTTP pipeline.
   - name: QueueClient(string, string, StoragePipelineOptions)
@@ -95,7 +99,9 @@ constructors:
           type: string
           description: Queue name.
         - id: options
-          type: <xref uid="@azure/storage-queue.StoragePipelineOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-queue.StoragePipelineOptions|latest-stable" />
           description: |
             Options to configure the HTTP pipeline.
 properties:
@@ -150,11 +156,15 @@ methods:
       content: 'function clearMessages(options?: QueueClearMessagesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-queue.QueueClearMessagesOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-queue.QueueClearMessagesOptions|latest-stable"
+            />
           description: Options to clear messages operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-queue.QueueClearMessagesResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-queue.QueueClearMessagesResponse|latest-stable"
           />&gt;
         description: Response data for the clear messages operation.
   - name: create(QueueCreateOptions)
@@ -168,10 +178,12 @@ methods:
       content: 'function create(options?: QueueCreateOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-queue.QueueCreateOptions" />
+          type: <xref uid="@azure/storage-queue.QueueCreateOptions|latest-stable" />
           description: Options to Queue create operation.
       return:
-        type: Promise&lt;<xref uid="@azure/storage-queue.QueueCreateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/storage-queue.QueueCreateResponse|latest-stable" />&gt;
         description: >-
           Response data for the Queue create operation.
 
@@ -202,13 +214,14 @@ methods:
       content: 'function createIfNotExists(options?: QueueCreateOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-queue.QueueCreateOptions" />
+          type: <xref uid="@azure/storage-queue.QueueCreateOptions|latest-stable" />
           description: |
             -
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-queue.QueueCreateIfNotExistsResponse" />&gt;
+          uid="@azure/storage-queue.QueueCreateIfNotExistsResponse|latest-stable"
+          />&gt;
         description: ''
   - name: delete(QueueDeleteOptions)
     uid: '@azure/storage-queue.QueueClient.delete|latest-stable'
@@ -221,10 +234,12 @@ methods:
       content: 'function delete(options?: QueueDeleteOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-queue.QueueDeleteOptions" />
+          type: <xref uid="@azure/storage-queue.QueueDeleteOptions|latest-stable" />
           description: Options to Queue delete operation.
       return:
-        type: Promise&lt;<xref uid="@azure/storage-queue.QueueDeleteResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/storage-queue.QueueDeleteResponse|latest-stable" />&gt;
         description: |-
           Response data for the Queue delete operation.
 
@@ -247,13 +262,14 @@ methods:
       content: 'function deleteIfExists(options?: QueueDeleteOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-queue.QueueDeleteOptions" />
+          type: <xref uid="@azure/storage-queue.QueueDeleteOptions|latest-stable" />
           description: |
             -
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-queue.QueueDeleteIfExistsResponse" />&gt;
+          uid="@azure/storage-queue.QueueDeleteIfExistsResponse|latest-stable"
+          />&gt;
         description: ''
   - name: deleteMessage(string, string, QueueDeleteMessageOptions)
     uid: '@azure/storage-queue.QueueClient.deleteMessage|latest-stable'
@@ -276,11 +292,15 @@ methods:
             A valid pop receipt value returned from an earlier call to the
             receive messages or update message operation.
         - id: options
-          type: <xref uid="@azure/storage-queue.QueueDeleteMessageOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-queue.QueueDeleteMessageOptions|latest-stable"
+            />
           description: Options to delete message operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-queue.QueueDeleteMessageResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-queue.QueueDeleteMessageResponse|latest-stable"
           />&gt;
         description: Response data for the delete message operation.
   - name: exists(QueueExistsOptions)
@@ -303,7 +323,7 @@ methods:
       content: 'function exists(options?: QueueExistsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-queue.QueueExistsOptions" />
+          type: <xref uid="@azure/storage-queue.QueueExistsOptions|latest-stable" />
           description: |
             options to Exists operation.
       return:
@@ -327,7 +347,10 @@ methods:
       content: 'function generateSasUrl(options: QueueGenerateSasUrlOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-queue.QueueGenerateSasUrlOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-queue.QueueGenerateSasUrlOptions|latest-stable"
+            />
           description: Optional parameters.
       return:
         type: string
@@ -353,12 +376,16 @@ methods:
       content: 'function getAccessPolicy(options?: QueueGetAccessPolicyOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-queue.QueueGetAccessPolicyOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-queue.QueueGetAccessPolicyOptions|latest-stable"
+            />
           description: Options to Queue get access policy operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-queue.QueueGetAccessPolicyResponse" />&gt;
+          uid="@azure/storage-queue.QueueGetAccessPolicyResponse|latest-stable"
+          />&gt;
         description: Response data for the Queue get access policy operation.
   - name: getProperties(QueueGetPropertiesOptions)
     uid: '@azure/storage-queue.QueueClient.getProperties|latest-stable'
@@ -373,11 +400,15 @@ methods:
       content: 'function getProperties(options?: QueueGetPropertiesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-queue.QueueGetPropertiesOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-queue.QueueGetPropertiesOptions|latest-stable"
+            />
           description: Options to Queue get properties operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-queue.QueueGetPropertiesResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-queue.QueueGetPropertiesResponse|latest-stable"
           />&gt;
         description: Response data for the Queue get properties operation.
   - name: peekMessages(QueuePeekMessagesOptions)
@@ -393,11 +424,14 @@ methods:
       content: 'function peekMessages(options?: QueuePeekMessagesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-queue.QueuePeekMessagesOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-queue.QueuePeekMessagesOptions|latest-stable" />
           description: Options to peek messages operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-queue.QueuePeekMessagesResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-queue.QueuePeekMessagesResponse|latest-stable"
           />&gt;
         description: >-
           Response data for the peek messages operation.
@@ -427,12 +461,16 @@ methods:
       content: 'function receiveMessages(options?: QueueReceiveMessageOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/storage-queue.QueueReceiveMessageOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-queue.QueueReceiveMessageOptions|latest-stable"
+            />
           description: Options to receive messages operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-queue.QueueReceiveMessageResponse" />&gt;
+          uid="@azure/storage-queue.QueueReceiveMessageResponse|latest-stable"
+          />&gt;
         description: |-
           Response data for the receive messages operation.
 
@@ -479,11 +517,14 @@ methods:
           type: string
           description: Text of the message to send
         - id: options
-          type: <xref uid="@azure/storage-queue.QueueSendMessageOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-queue.QueueSendMessageOptions|latest-stable" />
           description: Options to send messages operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-queue.QueueSendMessageResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-queue.QueueSendMessageResponse|latest-stable"
           />&gt;
         description: >-
           Response data for the send messages operation.
@@ -518,15 +559,19 @@ methods:
         QueueSetAccessPolicyOptions)
       parameters:
         - id: queueAcl
-          type: <xref uid="@azure/storage-queue.SignedIdentifier" />[]
+          type: <xref uid="@azure/storage-queue.SignedIdentifier|latest-stable" />[]
           description: '-'
         - id: options
-          type: <xref uid="@azure/storage-queue.QueueSetAccessPolicyOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-queue.QueueSetAccessPolicyOptions|latest-stable"
+            />
           description: Options to Queue set access policy operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/storage-queue.QueueSetAccessPolicyResponse" />&gt;
+          uid="@azure/storage-queue.QueueSetAccessPolicyResponse|latest-stable"
+          />&gt;
         description: Response data for the Queue set access policy operation.
   - name: setMetadata(Metadata, QueueSetMetadataOptions)
     uid: '@azure/storage-queue.QueueClient.setMetadata|latest-stable'
@@ -547,14 +592,17 @@ methods:
         QueueSetMetadataOptions)
       parameters:
         - id: metadata
-          type: <xref uid="@azure/storage-queue.Metadata" />
+          type: <xref uid="@azure/storage-queue.Metadata|latest-stable" />
           description: If no metadata provided, all existing metadata will be removed.
         - id: options
-          type: <xref uid="@azure/storage-queue.QueueSetMetadataOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-queue.QueueSetMetadataOptions|latest-stable" />
           description: Options to Queue set metadata operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-queue.QueueSetMetadataResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-queue.QueueSetMetadataResponse|latest-stable"
           />&gt;
         description: Response data for the Queue set metadata operation.
   - name: updateMessage(string, string, string, number, QueueUpdateMessageOptions)
@@ -598,11 +646,15 @@ methods:
                                               be set to a value later than the expiry time.
                                               A message can be updated until it has been deleted or has expired.
         - id: options
-          type: <xref uid="@azure/storage-queue.QueueUpdateMessageOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-queue.QueueUpdateMessageOptions|latest-stable"
+            />
           description: Options to update message operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/storage-queue.QueueUpdateMessageResponse"
+          Promise&lt;<xref
+          uid="@azure/storage-queue.QueueUpdateMessageResponse|latest-stable"
           />&gt;
         description: Response data for the update message operation.
-extends: <xref uid="@azure/storage-queue.StorageClient" />
+extends: <xref uid="@azure/storage-queue.StorageClient|latest-stable" />

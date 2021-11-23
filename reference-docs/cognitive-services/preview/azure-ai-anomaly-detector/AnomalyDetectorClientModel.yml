@@ -61,6 +61,7 @@ properties:
       content: 'modelInfo?: AnomalyDetectorClientModelInfo'
       return:
         type: >-
-          <xref uid="@azure/ai-anomaly-detector.AnomalyDetectorClientModelInfo"
+          <xref
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorClientModelInfo|preview"
           />
         description: ''

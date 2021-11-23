@@ -60,7 +60,7 @@ properties:
     syntax:
       content: 'identity?: Identity'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.Identity" />
+        type: <xref uid="@azure/arm-cognitiveservices.Identity|latest-stable" />
         description: ''
   - name: kind
     uid: '@azure/arm-cognitiveservices.Account.kind|latest-stable'
@@ -116,7 +116,9 @@ properties:
     syntax:
       content: 'properties?: AccountProperties'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.AccountProperties" />
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.AccountProperties|latest-stable" />
         description: ''
   - name: sku
     uid: '@azure/arm-cognitiveservices.Account.sku|latest-stable'
@@ -129,7 +131,7 @@ properties:
     syntax:
       content: 'sku?: Sku'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.Sku" />
+        type: <xref uid="@azure/arm-cognitiveservices.Sku|latest-stable" />
         description: ''
   - name: systemData
     uid: '@azure/arm-cognitiveservices.Account.systemData|latest-stable'
@@ -144,7 +146,7 @@ properties:
     syntax:
       content: 'systemData?: SystemData'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.SystemData" />
+        type: <xref uid="@azure/arm-cognitiveservices.SystemData|latest-stable" />
         description: ''
   - name: tags
     uid: '@azure/arm-cognitiveservices.Account.tags|latest-stable'
@@ -178,4 +180,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-cognitiveservices.AzureEntityResource" />
+extends: <xref uid="@azure/arm-cognitiveservices.AzureEntityResource|latest-stable" />

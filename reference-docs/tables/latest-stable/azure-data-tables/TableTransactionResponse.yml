@@ -49,5 +49,8 @@ properties:
     syntax:
       content: 'subResponses: TableTransactionEntityResponse[]'
       return:
-        type: <xref uid="@azure/data-tables.TableTransactionEntityResponse" />[]
+        type: >-
+          <xref
+          uid="@azure/data-tables.TableTransactionEntityResponse|latest-stable"
+          />[]
         description: ''

@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'defaultAction?: DefaultAction'
       return:
-        type: <xref uid="@azure/arm-eventhub.DefaultAction" />
+        type: <xref uid="@azure/arm-eventhub.DefaultAction|latest-stable" />
         description: ''
   - name: id
     uid: '@azure/arm-eventhub.NetworkRuleSet.id|latest-stable'
@@ -52,7 +52,7 @@ properties:
     syntax:
       content: 'ipRules?: NWRuleSetIpRules[]'
       return:
-        type: <xref uid="@azure/arm-eventhub.NWRuleSetIpRules" />[]
+        type: <xref uid="@azure/arm-eventhub.NWRuleSetIpRules|latest-stable" />[]
         description: ''
   - name: name
     uid: '@azure/arm-eventhub.NetworkRuleSet.name|latest-stable'
@@ -86,7 +86,9 @@ properties:
     syntax:
       content: 'publicNetworkAccess?: PublicNetworkAccessFlag'
       return:
-        type: <xref uid="@azure/arm-eventhub.PublicNetworkAccessFlag" />
+        type: >-
+          <xref uid="@azure/arm-eventhub.PublicNetworkAccessFlag|latest-stable"
+          />
         description: ''
   - name: systemData
     uid: '@azure/arm-eventhub.NetworkRuleSet.systemData|latest-stable'
@@ -103,7 +105,7 @@ properties:
     syntax:
       content: 'systemData?: SystemData'
       return:
-        type: <xref uid="@azure/arm-eventhub.SystemData" />
+        type: <xref uid="@azure/arm-eventhub.SystemData|latest-stable" />
         description: ''
   - name: trustedServiceAccessEnabled
     uid: >-
@@ -147,6 +149,9 @@ properties:
     syntax:
       content: 'virtualNetworkRules?: NWRuleSetVirtualNetworkRules[]'
       return:
-        type: <xref uid="@azure/arm-eventhub.NWRuleSetVirtualNetworkRules" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-eventhub.NWRuleSetVirtualNetworkRules|latest-stable"
+          />[]
         description: ''
-extends: <xref uid="@azure/arm-eventhub.Resource" />
+extends: <xref uid="@azure/arm-eventhub.Resource|latest-stable" />

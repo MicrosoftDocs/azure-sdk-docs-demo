@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'captureDescription?: CaptureDescription'
       return:
-        type: <xref uid="@azure/arm-eventhub.CaptureDescription" />
+        type: <xref uid="@azure/arm-eventhub.CaptureDescription|latest-stable" />
         description: ''
   - name: createdAt
     uid: '@azure/arm-eventhub.Eventhub.createdAt|latest-stable'
@@ -138,7 +138,7 @@ properties:
     syntax:
       content: 'status?: EntityStatus'
       return:
-        type: <xref uid="@azure/arm-eventhub.EntityStatus" />
+        type: <xref uid="@azure/arm-eventhub.EntityStatus|latest-stable" />
         description: ''
   - name: systemData
     uid: '@azure/arm-eventhub.Eventhub.systemData|latest-stable'
@@ -155,7 +155,7 @@ properties:
     syntax:
       content: 'systemData?: SystemData'
       return:
-        type: <xref uid="@azure/arm-eventhub.SystemData" />
+        type: <xref uid="@azure/arm-eventhub.SystemData|latest-stable" />
         description: ''
   - name: type
     uid: '@azure/arm-eventhub.Eventhub.type|latest-stable'
@@ -191,4 +191,4 @@ properties:
       return:
         type: Date
         description: ''
-extends: <xref uid="@azure/arm-eventhub.Resource" />
+extends: <xref uid="@azure/arm-eventhub.Resource|latest-stable" />

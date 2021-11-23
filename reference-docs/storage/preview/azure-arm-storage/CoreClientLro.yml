@@ -27,7 +27,7 @@ constructors:
         requestMethod?: undefined | string)
       parameters:
         - id: sendOperationFn
-          type: <xref uid="@azure/arm-storage.SendOperationFn" />&lt;T&gt;
+          type: <xref uid="@azure/arm-storage.SendOperationFn|preview" />&lt;T&gt;
           description: ''
         - id: args
           type: OperationArguments
@@ -37,8 +37,8 @@ constructors:
           description: ''
         - id: lroResourceLocationConfig
           type: >-
-            <xref uid="@azure/arm-storage.LroResourceLocationConfig" /> |
-            undefined
+            <xref uid="@azure/arm-storage.LroResourceLocationConfig|preview" />
+            | undefined
           description: ''
         - id: requestPath
           type: undefined | string
@@ -88,7 +88,9 @@ methods:
           type: undefined | string
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/arm-storage.LroResponse" />&lt;T&gt;&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-storage.LroResponse|preview"
+          />&lt;T&gt;&gt;
         description: ''
   - name: >-
       sendInitialRequest((rawResponse: RawResponse, flatResponse: unknown) =>
@@ -108,7 +110,9 @@ methods:
           type: '(rawResponse: RawResponse, flatResponse: unknown) =&gt; boolean'
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/arm-storage.LroResponse" />&lt;T&gt;&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-storage.LroResponse|preview"
+          />&lt;T&gt;&gt;
         description: ''
   - name: sendPollRequest(LroConfig, string)
     uid: '@azure/arm-storage.CoreClientLro.sendPollRequest|preview'
@@ -121,11 +125,13 @@ methods:
       content: 'function sendPollRequest(config: LroConfig, path: string)'
       parameters:
         - id: config
-          type: <xref uid="@azure/arm-storage.LroConfig" />
+          type: <xref uid="@azure/arm-storage.LroConfig|preview" />
           description: ''
         - id: path
           type: string
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/arm-storage.LroStatus" />&lt;T&gt;&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-storage.LroStatus|preview"
+          />&lt;T&gt;&gt;
         description: ''

@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'algorithm: KeyWrapAlgorithm'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyWrapAlgorithm" />
+        type: <xref uid="@azure/keyvault-keys.KeyWrapAlgorithm|latest-stable" />
         description: ''
   - name: keyID
     uid: '@azure/keyvault-keys.UnwrapResult.keyID|latest-stable'

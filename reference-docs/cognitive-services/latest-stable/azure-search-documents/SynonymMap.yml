@@ -43,8 +43,9 @@ properties:
       content: 'encryptionKey?: SearchResourceEncryptionKey | null'
       return:
         type: >-
-          <xref uid="@azure/search-documents.SearchResourceEncryptionKey" /> |
-          null
+          <xref
+          uid="@azure/search-documents.SearchResourceEncryptionKey|latest-stable"
+          /> | null
         description: ''
   - name: etag
     uid: '@azure/search-documents.SynonymMap.etag|latest-stable'

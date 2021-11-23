@@ -23,7 +23,7 @@ properties:
     syntax:
       content: 'assessments: AssessmentSentiment[]'
       return:
-        type: <xref uid="@azure/ai-text-analytics.AssessmentSentiment" />[]
+        type: <xref uid="@azure/ai-text-analytics.AssessmentSentiment|preview" />[]
         description: ''
   - name: target
     uid: '@azure/ai-text-analytics.Opinion.target|preview'
@@ -36,5 +36,5 @@ properties:
     syntax:
       content: 'target: TargetSentiment'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TargetSentiment" />
+        type: <xref uid="@azure/ai-text-analytics.TargetSentiment|preview" />
         description: ''

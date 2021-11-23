@@ -89,10 +89,12 @@ methods:
         TryAddOptions)
       parameters:
         - id: eventData
-          type: <xref uid="@azure/event-hubs.EventData" /> | AmqpAnnotatedMessage
+          type: >-
+            <xref uid="@azure/event-hubs.EventData|preview" /> |
+            AmqpAnnotatedMessage
           description: An individual event data object or AmqpAnnotatedMessage.
         - id: options
-          type: <xref uid="@azure/event-hubs.TryAddOptions" />
+          type: <xref uid="@azure/event-hubs.TryAddOptions|preview" />
           description: ''
       return:
         type: boolean

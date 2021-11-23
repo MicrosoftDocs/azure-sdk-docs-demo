@@ -52,7 +52,7 @@ properties:
     syntax:
       content: static AbortSignal none
       return:
-        type: <xref uid="@azure/abort-controller.AbortSignal" />
+        type: <xref uid="@azure/abort-controller.AbortSignal|latest-stable" />
         description: ''
   - name: onabort
     uid: '@azure/abort-controller.AbortSignal.onabort|latest-stable'

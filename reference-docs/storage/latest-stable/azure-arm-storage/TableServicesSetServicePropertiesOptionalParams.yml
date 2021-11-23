@@ -43,7 +43,7 @@ properties:
     syntax:
       content: 'cors?: CorsRules'
       return:
-        type: <xref uid="@azure/arm-storage.CorsRules" />
+        type: <xref uid="@azure/arm-storage.CorsRules|latest-stable" />
         description: ''
   - name: customHeaders
     uid: >-

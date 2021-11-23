@@ -76,4 +76,4 @@ properties:
       return:
         type: Uint8Array
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />
+extends: <xref uid="@azure/storage-file-datalake.CommonOptions|latest-stable" />

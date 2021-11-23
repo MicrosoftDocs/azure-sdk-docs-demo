@@ -26,6 +26,6 @@ properties:
       return:
         type: >-
           "#<xref
-          uid="Microsoft.Azure.Search.SoftDeleteColumnDeletionDetectionPolicy"
+          uid="Microsoft.Azure.Search.SoftDeleteColumnDeletionDetectionPolicy|preview"
           />"
         description: ''

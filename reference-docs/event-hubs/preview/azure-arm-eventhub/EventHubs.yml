@@ -36,18 +36,20 @@ methods:
           type: string
           description: The Event Hub name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.Eventhub" />
+          type: <xref uid="@azure/arm-eventhub.Eventhub|preview" />
           description: Parameters supplied to create an Event Hub resource.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.EventHubsCreateOrUpdateOptionalParams" />
+            uid="@azure/arm-eventhub.EventHubsCreateOrUpdateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.EventHubsCreateOrUpdateResponse" />&gt;
+          uid="@azure/arm-eventhub.EventHubsCreateOrUpdateResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       createOrUpdateAuthorizationRule(string, string, string, string,
@@ -82,19 +84,19 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.AuthorizationRule" />
+          type: <xref uid="@azure/arm-eventhub.AuthorizationRule|preview" />
           description: The shared access AuthorizationRule.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.EventHubsCreateOrUpdateAuthorizationRuleOptionalParams"
+            uid="@azure/arm-eventhub.EventHubsCreateOrUpdateAuthorizationRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.EventHubsCreateOrUpdateAuthorizationRuleResponse"
+          uid="@azure/arm-eventhub.EventHubsCreateOrUpdateAuthorizationRuleResponse|preview"
           />&gt;
         description: ''
   - name: delete(string, string, string, EventHubsDeleteOptionalParams)
@@ -119,7 +121,9 @@ methods:
           type: string
           description: The Event Hub name
         - id: options
-          type: <xref uid="@azure/arm-eventhub.EventHubsDeleteOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.EventHubsDeleteOptionalParams|preview" />
           description: |
             The options parameters.
       return:
@@ -155,7 +159,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.EventHubsDeleteAuthorizationRuleOptionalParams"
+            uid="@azure/arm-eventhub.EventHubsDeleteAuthorizationRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -184,11 +188,15 @@ methods:
           type: string
           description: The Event Hub name
         - id: options
-          type: <xref uid="@azure/arm-eventhub.EventHubsGetOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-eventhub.EventHubsGetOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/arm-eventhub.EventHubsGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.EventHubsGetResponse|preview" />&gt;
         description: ''
   - name: >-
       getAuthorizationRule(string, string, string, string,
@@ -220,14 +228,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.EventHubsGetAuthorizationRuleOptionalParams"
+            uid="@azure/arm-eventhub.EventHubsGetAuthorizationRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.EventHubsGetAuthorizationRuleResponse" />&gt;
+          uid="@azure/arm-eventhub.EventHubsGetAuthorizationRuleResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       listAuthorizationRules(string, string, string,
@@ -256,14 +265,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.EventHubsListAuthorizationRulesOptionalParams"
+            uid="@azure/arm-eventhub.EventHubsListAuthorizationRulesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventhub.AuthorizationRule" />&gt;
+          uid="@azure/arm-eventhub.AuthorizationRule|preview" />&gt;
         description: ''
   - name: listByNamespace(string, string, EventHubsListByNamespaceOptionalParams)
     uid: '@azure/arm-eventhub.EventHubs.listByNamespace|preview'
@@ -286,13 +295,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.EventHubsListByNamespaceOptionalParams" />
+            uid="@azure/arm-eventhub.EventHubsListByNamespaceOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
-          PagedAsyncIterableIterator&lt;<xref uid="@azure/arm-eventhub.Eventhub"
-          />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-eventhub.Eventhub|preview" />&gt;
         description: ''
   - name: listKeys(string, string, string, string, EventHubsListKeysOptionalParams)
     uid: '@azure/arm-eventhub.EventHubs.listKeys|preview'
@@ -320,13 +330,15 @@ methods:
           type: string
           description: The authorization rule name.
         - id: options
-          type: <xref uid="@azure/arm-eventhub.EventHubsListKeysOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.EventHubsListKeysOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-eventhub.EventHubsListKeysResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.EventHubsListKeysResponse|preview" />&gt;
         description: ''
   - name: >-
       regenerateKeys(string, string, string, string,
@@ -357,18 +369,22 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.RegenerateAccessKeyParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.RegenerateAccessKeyParameters|preview" />
           description: |-
             Parameters supplied to regenerate the AuthorizationRule Keys
                               (PrimaryKey/SecondaryKey).
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.EventHubsRegenerateKeysOptionalParams" />
+            uid="@azure/arm-eventhub.EventHubsRegenerateKeysOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.EventHubsRegenerateKeysResponse" />&gt;
+          uid="@azure/arm-eventhub.EventHubsRegenerateKeysResponse|preview"
+          />&gt;
         description: ''

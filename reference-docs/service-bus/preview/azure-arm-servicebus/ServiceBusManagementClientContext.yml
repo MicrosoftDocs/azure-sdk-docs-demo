@@ -38,7 +38,7 @@ constructors:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.ServiceBusManagementClientOptionalParams"
+            uid="@azure/arm-servicebus.ServiceBusManagementClientOptionalParams|preview"
             />
           description: |
             The parameter options

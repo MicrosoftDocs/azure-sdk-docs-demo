@@ -24,12 +24,14 @@ constructors:
         LroEngineOptions<TResult, TState>)
       parameters:
         - id: lro
-          type: <xref uid="@azure/core-lro.LongRunningOperation" />&lt;TResult&gt;
+          type: >-
+            <xref uid="@azure/core-lro.LongRunningOperation|latest-stable"
+            />&lt;TResult&gt;
           description: ''
         - id: options
           type: >-
-            <xref uid="@azure/core-lro.LroEngineOptions" />&lt;TResult,
-            TState&gt;
+            <xref uid="@azure/core-lro.LroEngineOptions|latest-stable"
+            />&lt;TResult, TState&gt;
           description: ''
 methods:
   - name: cancelOperation(Object)
@@ -209,7 +211,7 @@ methods:
           type: '(state: TState) =&gt; void'
           description: ''
       return:
-        type: <xref uid="@azure/core-lro.CancelOnProgress" />
+        type: <xref uid="@azure/core-lro.CancelOnProgress|latest-stable" />
         description: ''
   - name: poll(Object)
     uid: '@azure/core-lro.LroEngine.poll|latest-stable'
@@ -272,4 +274,4 @@ methods:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/core-lro.Poller" />&lt;TState, TResult&gt;
+extends: <xref uid="@azure/core-lro.Poller|latest-stable" />&lt;TState, TResult&gt;

@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'type: "Microsoft.KeyVault/vaults"'
       return:
-        type: '"<xref uid="Microsoft.KeyVault/vaults" />"'
+        type: '"<xref uid="Microsoft.KeyVault/vaults|preview" />"'
         description: ''

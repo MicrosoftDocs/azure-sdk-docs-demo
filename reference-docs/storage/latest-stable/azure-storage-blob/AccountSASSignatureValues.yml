@@ -49,7 +49,7 @@ properties:
     syntax:
       content: 'ipRange?: SasIPRange'
       return:
-        type: <xref uid="@azure/storage-blob.SasIPRange" />
+        type: <xref uid="@azure/storage-blob.SasIPRange|latest-stable" />
         description: ''
   - name: permissions
     uid: '@azure/storage-blob.AccountSASSignatureValues.permissions|latest-stable'
@@ -66,7 +66,7 @@ properties:
     syntax:
       content: 'permissions: AccountSASPermissions'
       return:
-        type: <xref uid="@azure/storage-blob.AccountSASPermissions" />
+        type: <xref uid="@azure/storage-blob.AccountSASPermissions|latest-stable" />
         description: ''
   - name: protocol
     uid: '@azure/storage-blob.AccountSASSignatureValues.protocol|latest-stable'
@@ -79,7 +79,7 @@ properties:
     syntax:
       content: 'protocol?: SASProtocol'
       return:
-        type: <xref uid="@azure/storage-blob.SASProtocol" />
+        type: <xref uid="@azure/storage-blob.SASProtocol|latest-stable" />
         description: ''
   - name: resourceTypes
     uid: '@azure/storage-blob.AccountSASSignatureValues.resourceTypes|latest-stable'

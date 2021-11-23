@@ -104,4 +104,6 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-blob.ContainerDeleteHeaders" /> & Object
+extends: >-
+  <xref uid="@azure/storage-blob.ContainerDeleteHeaders|latest-stable" /> &
+  Object

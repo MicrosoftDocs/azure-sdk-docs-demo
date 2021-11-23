@@ -36,7 +36,9 @@ constructors:
             NamedKeyCredential | SASCredential used to authenticate requests.
             Only Supported for Node
         - id: options
-          type: <xref uid="@azure/data-tables.TableServiceClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/data-tables.TableServiceClientOptions|latest-stable" />
           description: >
             Options to configure the HTTP pipeline.
 
@@ -84,7 +86,9 @@ constructors:
             NamedKeyCredential | SASCredential used to authenticate requests.
             Only Supported for Node
         - id: options
-          type: <xref uid="@azure/data-tables.TableServiceClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/data-tables.TableServiceClientOptions|latest-stable" />
           description: >
             Options to configure the HTTP pipeline.
 
@@ -125,7 +129,9 @@ constructors:
             The URL of the service account that is the target of the desired
             operation., such as "https://myaccount.table.core.windows.net".
         - id: options
-          type: <xref uid="@azure/data-tables.TableServiceClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/data-tables.TableServiceClientOptions|latest-stable" />
           description: >
             Options to configure the HTTP pipeline.
 
@@ -173,7 +179,9 @@ constructors:
             NamedKeyCredential | SASCredential used to authenticate requests.
             Only Supported for Node
         - id: options
-          type: <xref uid="@azure/data-tables.TableServiceClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/data-tables.TableServiceClientOptions|latest-stable" />
           description: >
             Options to configure the HTTP pipeline.
 
@@ -293,10 +301,12 @@ methods:
                                       SAS connection string example -
                                       `BlobEndpoint=https://myaccount.table.core.windows.net/;QueueEndpoint=https://myaccount.queue.core.windows.net/;FileEndpoint=https://myaccount.file.core.windows.net/;TableEndpoint=https://myaccount.table.core.windows.net/;SharedAccessSignature=sasString`
         - id: options
-          type: <xref uid="@azure/data-tables.TableServiceClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/data-tables.TableServiceClientOptions|latest-stable" />
           description: Options to configure the HTTP pipeline.
       return:
-        type: <xref uid="@azure/data-tables.TableServiceClient" />
+        type: <xref uid="@azure/data-tables.TableServiceClient|latest-stable" />
         description: A new TableServiceClient from the given connection string.
   - name: getProperties(OperationOptions)
     uid: '@azure/data-tables.TableServiceClient.getProperties|latest-stable'
@@ -317,7 +327,9 @@ methods:
           description: |
             The options parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/data-tables.GetPropertiesResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/data-tables.GetPropertiesResponse|latest-stable" />&gt;
         description: ''
   - name: getStatistics(OperationOptions)
     uid: '@azure/data-tables.TableServiceClient.getStatistics|latest-stable'
@@ -339,7 +351,9 @@ methods:
           description: |
             The options parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/data-tables.GetStatisticsResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/data-tables.GetStatisticsResponse|latest-stable" />&gt;
         description: ''
   - name: listTables(ListTableItemsOptions)
     uid: '@azure/data-tables.TableServiceClient.listTables|latest-stable'
@@ -352,13 +366,16 @@ methods:
       content: 'function listTables(options?: ListTableItemsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/data-tables.ListTableItemsOptions" />
+          type: >-
+            <xref uid="@azure/data-tables.ListTableItemsOptions|latest-stable"
+            />
           description: |
             The options parameters.
       return:
         type: >-
-          PagedAsyncIterableIterator&lt;<xref uid="@azure/data-tables.TableItem"
-          />, <xref uid="@azure/data-tables.TableItemResultPage" />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/data-tables.TableItem|latest-stable" />, <xref
+          uid="@azure/data-tables.TableItemResultPage|latest-stable" />&gt;
         description: ''
   - name: setProperties(ServiceProperties, SetPropertiesOptions)
     uid: '@azure/data-tables.TableServiceClient.setProperties|latest-stable'
@@ -377,12 +394,14 @@ methods:
         SetPropertiesOptions)
       parameters:
         - id: properties
-          type: <xref uid="@azure/data-tables.ServiceProperties" />
+          type: <xref uid="@azure/data-tables.ServiceProperties|latest-stable" />
           description: The Table Service properties.
         - id: options
-          type: <xref uid="@azure/data-tables.SetPropertiesOptions" />
+          type: <xref uid="@azure/data-tables.SetPropertiesOptions|latest-stable" />
           description: |
             The options parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/data-tables.SetPropertiesResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/data-tables.SetPropertiesResponse|latest-stable" />&gt;
         description: ''

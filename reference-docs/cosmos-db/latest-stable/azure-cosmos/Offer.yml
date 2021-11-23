@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'client: CosmosClient'
       return:
-        type: <xref uid="@azure/cosmos.CosmosClient" />
+        type: <xref uid="@azure/cosmos.CosmosClient|latest-stable" />
         description: ''
   - name: id
     uid: '@azure/cosmos.Offer.id|latest-stable'
@@ -62,10 +62,12 @@ methods:
       content: 'function read(options?: RequestOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.OfferResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.OfferResponse|latest-stable"
+          />&gt;
         description: ''
   - name: replace(OfferDefinition, RequestOptions)
     uid: '@azure/cosmos.Offer.replace|latest-stable'
@@ -80,12 +82,14 @@ methods:
       content: 'function replace(body: OfferDefinition, options?: RequestOptions)'
       parameters:
         - id: body
-          type: <xref uid="@azure/cosmos.OfferDefinition" />
+          type: <xref uid="@azure/cosmos.OfferDefinition|latest-stable" />
           description: |
             The specified <xref:@azure/cosmos.OfferDefinition>
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.OfferResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.OfferResponse|latest-stable"
+          />&gt;
         description: ''

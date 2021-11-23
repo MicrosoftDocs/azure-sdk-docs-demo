@@ -74,7 +74,7 @@ properties:
     syntax:
       content: 'headers: HttpHeadersLike'
       return:
-        type: <xref uid="@azure/core-http.HttpHeadersLike" />
+        type: <xref uid="@azure/core-http.HttpHeadersLike|latest-stable" />
         description: ''
   - name: keepAlive
     uid: '@azure/core-http.WebResourceLike.keepAlive|latest-stable'
@@ -100,7 +100,7 @@ properties:
     syntax:
       content: 'method: HttpMethods'
       return:
-        type: <xref uid="@azure/core-http.HttpMethods" />
+        type: <xref uid="@azure/core-http.HttpMethods|latest-stable" />
         description: ''
   - name: onDownloadProgress
     uid: '@azure/core-http.WebResourceLike.onDownloadProgress|latest-stable'
@@ -163,7 +163,7 @@ properties:
     syntax:
       content: 'operationSpec?: OperationSpec'
       return:
-        type: <xref uid="@azure/core-http.OperationSpec" />
+        type: <xref uid="@azure/core-http.OperationSpec|latest-stable" />
         description: ''
   - name: proxySettings
     uid: '@azure/core-http.WebResourceLike.proxySettings|latest-stable'
@@ -176,7 +176,7 @@ properties:
     syntax:
       content: 'proxySettings?: ProxySettings'
       return:
-        type: <xref uid="@azure/core-http.ProxySettings" />
+        type: <xref uid="@azure/core-http.ProxySettings|latest-stable" />
         description: ''
   - name: query
     uid: '@azure/core-http.WebResourceLike.query|latest-stable'
@@ -323,7 +323,7 @@ methods:
     syntax:
       content: function clone()
       return:
-        type: <xref uid="@azure/core-http.WebResourceLike" />
+        type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
         description: ''
   - name: prepare(RequestPrepareOptions)
     uid: '@azure/core-http.WebResourceLike.prepare|latest-stable'
@@ -336,10 +336,10 @@ methods:
       content: 'function prepare(options: RequestPrepareOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/core-http.RequestPrepareOptions" />
+          type: <xref uid="@azure/core-http.RequestPrepareOptions|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/core-http.WebResourceLike" />
+        type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
         description: ''
   - name: validateRequestProperties()
     uid: '@azure/core-http.WebResourceLike.validateRequestProperties|latest-stable'

@@ -524,4 +524,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/service-bus.ServiceBusMessage" />
+extends: <xref uid="@azure/service-bus.ServiceBusMessage|latest-stable" />

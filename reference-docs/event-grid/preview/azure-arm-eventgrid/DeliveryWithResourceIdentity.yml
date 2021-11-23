@@ -27,7 +27,10 @@ properties:
     syntax:
       content: 'destination?: EventSubscriptionDestinationUnion'
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscriptionDestinationUnion" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.EventSubscriptionDestinationUnion|preview"
+          />
         description: ''
   - name: identity
     uid: '@azure/arm-eventgrid.DeliveryWithResourceIdentity.identity|preview'
@@ -40,5 +43,5 @@ properties:
     syntax:
       content: 'identity?: EventSubscriptionIdentity'
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscriptionIdentity" />
+        type: <xref uid="@azure/arm-eventgrid.EventSubscriptionIdentity|preview" />
         description: ''

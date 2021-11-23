@@ -80,11 +80,11 @@ methods:
       parameters:
         - id: message
           type: >-
-            <xref uid="@azure/service-bus.ServiceBusMessage" /> |
+            <xref uid="@azure/service-bus.ServiceBusMessage|latest-stable" /> |
             AmqpAnnotatedMessage
           description: The message to add to the batch.
         - id: options
-          type: <xref uid="@azure/service-bus.TryAddOptions" />
+          type: <xref uid="@azure/service-bus.TryAddOptions|latest-stable" />
           description: ''
       return:
         type: boolean

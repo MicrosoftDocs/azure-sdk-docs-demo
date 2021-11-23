@@ -37,7 +37,7 @@ properties:
     syntax:
       content: 'labelData?: FieldData'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FieldData" />
+        type: <xref uid="@azure/ai-form-recognizer.FieldData|latest-stable" />
         description: ''
   - name: name
     uid: '@azure/ai-form-recognizer.FormObjectField.name|latest-stable'
@@ -67,8 +67,8 @@ properties:
       content: 'value?: Record<string, FormField>'
       return:
         type: >-
-          Record&lt;string, <xref uid="@azure/ai-form-recognizer.FormField"
-          />&gt;
+          Record&lt;string, <xref
+          uid="@azure/ai-form-recognizer.FormField|latest-stable" />&gt;
         description: ''
   - name: valueData
     uid: '@azure/ai-form-recognizer.FormObjectField.valueData|latest-stable'
@@ -83,7 +83,7 @@ properties:
     syntax:
       content: 'valueData?: FieldData'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FieldData" />
+        type: <xref uid="@azure/ai-form-recognizer.FieldData|latest-stable" />
         description: ''
   - name: valueType
     uid: '@azure/ai-form-recognizer.FormObjectField.valueType|latest-stable'
@@ -98,4 +98,4 @@ properties:
       return:
         type: '"object"'
         description: ''
-extends: <xref uid="@azure/ai-form-recognizer.FormFieldCommon" />
+extends: <xref uid="@azure/ai-form-recognizer.FormFieldCommon|latest-stable" />

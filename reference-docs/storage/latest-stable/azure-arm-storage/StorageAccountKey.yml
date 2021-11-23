@@ -61,7 +61,7 @@ properties:
     syntax:
       content: 'permissions?: KeyPermission'
       return:
-        type: <xref uid="@azure/arm-storage.KeyPermission" />
+        type: <xref uid="@azure/arm-storage.KeyPermission|latest-stable" />
         description: ''
   - name: value
     uid: '@azure/arm-storage.StorageAccountKey.value|latest-stable'

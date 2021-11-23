@@ -71,7 +71,7 @@ properties:
     syntax:
       content: 'multichannel?: Multichannel'
       return:
-        type: <xref uid="@azure/arm-storage.Multichannel" />
+        type: <xref uid="@azure/arm-storage.Multichannel|latest-stable" />
         description: ''
   - name: versions
     uid: '@azure/arm-storage.SmbSetting.versions|latest-stable'

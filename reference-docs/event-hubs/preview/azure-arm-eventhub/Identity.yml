@@ -54,7 +54,7 @@ properties:
     syntax:
       content: 'type?: ManagedServiceIdentityType'
       return:
-        type: <xref uid="@azure/arm-eventhub.ManagedServiceIdentityType" />
+        type: <xref uid="@azure/arm-eventhub.ManagedServiceIdentityType|preview" />
         description: ''
   - name: userAssignedIdentities
     uid: '@azure/arm-eventhub.Identity.userAssignedIdentities|preview'
@@ -69,5 +69,5 @@ properties:
       return:
         type: >-
           undefined | [key: string]: <xref
-          uid="@azure/arm-eventhub.UserAssignedIdentity" />
+          uid="@azure/arm-eventhub.UserAssignedIdentity|preview" />
         description: ''

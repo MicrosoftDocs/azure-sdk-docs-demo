@@ -149,4 +149,7 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.PathCreateIfNotExistsResponse" />
+extends: >-
+  <xref
+  uid="@azure/storage-file-datalake.PathCreateIfNotExistsResponse|latest-stable"
+  />

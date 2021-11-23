@@ -23,7 +23,7 @@ properties:
     syntax:
       content: 'actionsRequired?: ActionsRequired'
       return:
-        type: <xref uid="@azure/arm-keyvault.ActionsRequired" />
+        type: <xref uid="@azure/arm-keyvault.ActionsRequired|preview" />
         description: ''
   - name: description
     uid: >-
@@ -53,6 +53,7 @@ properties:
       content: 'status?: PrivateEndpointServiceConnectionStatus'
       return:
         type: >-
-          <xref uid="@azure/arm-keyvault.PrivateEndpointServiceConnectionStatus"
+          <xref
+          uid="@azure/arm-keyvault.PrivateEndpointServiceConnectionStatus|preview"
           />
         description: ''

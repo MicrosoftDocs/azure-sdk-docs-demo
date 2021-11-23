@@ -127,7 +127,9 @@ methods:
             behavior.
                For example, `abortSignal` can be passed to allow cancelling an in-progress `create` invocation.
       return:
-        type: Promise&lt;<xref uid="@azure/core-amqp.RequestResponseLink" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/core-amqp.RequestResponseLink|latest-stable" />&gt;
         description: Promise<RequestResponseLink>
   - name: isOpen()
     uid: '@azure/core-amqp.RequestResponseLink.isOpen|latest-stable'
@@ -171,7 +173,7 @@ methods:
           type: Message
           description: The AMQP (request) message.
         - id: options
-          type: <xref uid="@azure/core-amqp.SendRequestOptions" />
+          type: <xref uid="@azure/core-amqp.SendRequestOptions|latest-stable" />
           description: Options that can be provided while sending a request.
       return:
         type: Promise&lt;Message&gt;

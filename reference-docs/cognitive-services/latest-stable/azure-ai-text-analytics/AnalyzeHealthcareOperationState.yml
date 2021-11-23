@@ -135,7 +135,8 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.PagedAnalyzeHealthcareEntitiesResult" />
+          uid="@azure/ai-text-analytics.PagedAnalyzeHealthcareEntitiesResult|latest-stable"
+          />
         description: ''
   - name: status
     uid: >-
@@ -149,8 +150,13 @@ properties:
     syntax:
       content: 'status: TextAnalyticsOperationStatus'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsOperationStatus" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TextAnalyticsOperationStatus|latest-stable"
+          />
         description: ''
 extends: >-
-  <xref uid="@azure/ai-text-analytics.AnalysisPollOperationState" />&lt;<xref
-  uid="@azure/ai-text-analytics.PagedAnalyzeHealthcareEntitiesResult" />&gt;
+  <xref uid="@azure/ai-text-analytics.AnalysisPollOperationState|latest-stable"
+  />&lt;<xref
+  uid="@azure/ai-text-analytics.PagedAnalyzeHealthcareEntitiesResult|latest-stable"
+  />&gt;

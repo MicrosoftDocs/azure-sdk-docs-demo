@@ -68,4 +68,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-cognitiveservices.Resource" />
+extends: <xref uid="@azure/arm-cognitiveservices.Resource|latest-stable" />

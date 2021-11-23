@@ -22,7 +22,9 @@ properties:
     syntax:
       content: 'action?: CertificatePolicyAction'
       return:
-        type: <xref uid="@azure/keyvault-certificates.CertificatePolicyAction" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-certificates.CertificatePolicyAction|preview" />
         description: ''
   - name: daysBeforeExpiry
     uid: '@azure/keyvault-certificates.LifetimeAction.daysBeforeExpiry|preview'

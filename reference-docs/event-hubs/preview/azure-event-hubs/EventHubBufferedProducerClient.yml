@@ -87,7 +87,8 @@ constructors:
             'Endpoint=sb://my-servicebus-namespace.servicebus.windows.net/;SharedAccessKeyName=my-SA-name;SharedAccessKey=my-SA-key;EntityPath=my-event-hub-name'.
         - id: options
           type: >-
-            <xref uid="@azure/event-hubs.EventHubBufferedProducerClientOptions"
+            <xref
+            uid="@azure/event-hubs.EventHubBufferedProducerClientOptions|preview"
             />
           description: >
             A set of options to apply when configuring the client.
@@ -137,7 +138,8 @@ constructors:
           description: The name of the specific Event Hub to connect the client to.
         - id: options
           type: >-
-            <xref uid="@azure/event-hubs.EventHubBufferedProducerClientOptions"
+            <xref
+            uid="@azure/event-hubs.EventHubBufferedProducerClientOptions|preview"
             />
           description: >
             A set of options to apply when configuring the client.
@@ -206,7 +208,8 @@ constructors:
             `AzureSASCredential`.
         - id: options
           type: >-
-            <xref uid="@azure/event-hubs.EventHubBufferedProducerClientOptions"
+            <xref
+            uid="@azure/event-hubs.EventHubBufferedProducerClientOptions|preview"
             />
           description: >
             A set of options to apply when configuring the client.
@@ -272,7 +275,7 @@ methods:
       content: 'function close(options?: BufferedCloseOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/event-hubs.BufferedCloseOptions" />
+          type: <xref uid="@azure/event-hubs.BufferedCloseOptions|preview" />
           description: The set of options to apply to the operation call.
       return:
         type: Promise&lt;void&gt;
@@ -304,10 +307,12 @@ methods:
         EnqueueEventOptions)
       parameters:
         - id: event
-          type: <xref uid="@azure/event-hubs.EventData" /> | AmqpAnnotatedMessage
+          type: >-
+            <xref uid="@azure/event-hubs.EventData|preview" /> |
+            AmqpAnnotatedMessage
           description: ''
         - id: options
-          type: <xref uid="@azure/event-hubs.EnqueueEventOptions" />
+          type: <xref uid="@azure/event-hubs.EnqueueEventOptions|preview" />
           description: >-
             A set of options that can be specified to influence the way in which
 
@@ -354,13 +359,13 @@ methods:
       parameters:
         - id: events
           type: >-
-            <xref uid="@azure/event-hubs.EventData" />[] |
+            <xref uid="@azure/event-hubs.EventData|preview" />[] |
             AmqpAnnotatedMessage[]
           description: >-
             An array of <xref:@azure/event-hubs.EventData> or
             `AmqpAnnotatedMessage`.
         - id: options
-          type: <xref uid="@azure/event-hubs.EnqueueEventOptions" />
+          type: <xref uid="@azure/event-hubs.EnqueueEventOptions|preview" />
           description: >-
             A set of options that can be specified to influence the way in which
 
@@ -394,7 +399,7 @@ methods:
       content: 'function flush(options?: BufferedFlushOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/event-hubs.BufferedFlushOptions" />
+          type: <xref uid="@azure/event-hubs.BufferedFlushOptions|preview" />
           description: |
             The set of options to apply to the operation call.
       return:
@@ -412,10 +417,14 @@ methods:
       content: 'function getEventHubProperties(options?: GetEventHubPropertiesOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/event-hubs.GetEventHubPropertiesOptions" />
+          type: >-
+            <xref uid="@azure/event-hubs.GetEventHubPropertiesOptions|preview"
+            />
           description: The set of options to apply to the operation call.
       return:
-        type: Promise&lt;<xref uid="@azure/event-hubs.EventHubProperties" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/event-hubs.EventHubProperties|preview"
+          />&gt;
         description: A promise that resolves with information about the Event Hub instance.
   - name: getPartitionIds(GetPartitionIdsOptions)
     uid: '@azure/event-hubs.EventHubBufferedProducerClient.getPartitionIds|preview'
@@ -428,7 +437,7 @@ methods:
       content: 'function getPartitionIds(options?: GetPartitionIdsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/event-hubs.GetPartitionIdsOptions" />
+          type: <xref uid="@azure/event-hubs.GetPartitionIdsOptions|preview" />
           description: The set of options to apply to the operation call.
       return:
         type: Promise&lt;Array&lt;string&gt;&gt;
@@ -454,10 +463,14 @@ methods:
           type: string
           description: The id of the partition for which information is required.
         - id: options
-          type: <xref uid="@azure/event-hubs.GetPartitionPropertiesOptions" />
+          type: >-
+            <xref uid="@azure/event-hubs.GetPartitionPropertiesOptions|preview"
+            />
           description: The set of options to apply to the operation call.
       return:
-        type: Promise&lt;<xref uid="@azure/event-hubs.PartitionProperties" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/event-hubs.PartitionProperties|preview"
+          />&gt;
         description: >-
           A promise that resolves with information about the state of the
           partition .

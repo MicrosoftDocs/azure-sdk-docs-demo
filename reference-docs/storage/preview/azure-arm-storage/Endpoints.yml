@@ -73,7 +73,9 @@ properties:
     syntax:
       content: 'internetEndpoints?: StorageAccountInternetEndpoints'
       return:
-        type: <xref uid="@azure/arm-storage.StorageAccountInternetEndpoints" />
+        type: >-
+          <xref uid="@azure/arm-storage.StorageAccountInternetEndpoints|preview"
+          />
         description: ''
   - name: microsoftEndpoints
     uid: '@azure/arm-storage.Endpoints.microsoftEndpoints|preview'
@@ -86,7 +88,9 @@ properties:
     syntax:
       content: 'microsoftEndpoints?: StorageAccountMicrosoftEndpoints'
       return:
-        type: <xref uid="@azure/arm-storage.StorageAccountMicrosoftEndpoints" />
+        type: >-
+          <xref
+          uid="@azure/arm-storage.StorageAccountMicrosoftEndpoints|preview" />
         description: ''
   - name: queue
     uid: '@azure/arm-storage.Endpoints.queue|preview'

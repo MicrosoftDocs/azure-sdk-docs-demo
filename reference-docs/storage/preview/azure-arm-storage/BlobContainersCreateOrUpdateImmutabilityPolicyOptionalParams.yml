@@ -72,7 +72,7 @@ properties:
     syntax:
       content: 'parameters?: ImmutabilityPolicy'
       return:
-        type: <xref uid="@azure/arm-storage.ImmutabilityPolicy" />
+        type: <xref uid="@azure/arm-storage.ImmutabilityPolicy|preview" />
         description: ''
   - name: requestOptions
     uid: >-

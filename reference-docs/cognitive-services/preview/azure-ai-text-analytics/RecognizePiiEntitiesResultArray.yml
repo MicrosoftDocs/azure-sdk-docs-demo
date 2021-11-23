@@ -75,7 +75,9 @@ properties:
     syntax:
       content: 'statistics?: TextDocumentBatchStatistics'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextDocumentBatchStatistics" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TextDocumentBatchStatistics|preview" />
         description: ''
 methods:
   - name: at(number)
@@ -96,7 +98,8 @@ methods:
           description: ''
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" /> |
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" /> |
           undefined
         description: ''
   - name: concat(ConcatArray<RecognizePiiEntitiesResult>[])
@@ -112,11 +115,14 @@ methods:
         - id: items
           type: >-
             ConcatArray&lt;<xref
-            uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />&gt;[]
+            uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview"
+            />&gt;[]
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />[]
         description: ''
   - name: concat(T | ConcatArray<T>[])
     uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.concat_1|preview'
@@ -133,7 +139,9 @@ methods:
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />[]
         description: ''
   - name: copyWithin(number, number, number)
     uid: >-
@@ -230,7 +238,9 @@ methods:
         number)
       parameters:
         - id: value
-          type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />
           description: value to fill array section with
         - id: start
           type: number
@@ -280,7 +290,9 @@ methods:
             function. If thisArg is omitted, undefined is used as the this
             value.
       return:
-        type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />[]
         description: ''
   - name: >-
       filter<S>((value: RecognizePiiEntitiesResult, index: number, array:
@@ -340,7 +352,8 @@ methods:
           description: ''
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" /> |
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" /> |
           undefined
         description: ''
   - name: >-
@@ -723,7 +736,9 @@ methods:
         number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />
           description: The element to search for.
         - id: fromIndex
           type: number
@@ -746,7 +761,9 @@ methods:
         number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />
           description: The value to locate in the array.
         - id: fromIndex
           type: number
@@ -803,7 +820,9 @@ methods:
         fromIndex?: number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />
           description: The value to locate in the array.
         - id: fromIndex
           type: number
@@ -856,7 +875,8 @@ methods:
       content: function pop()
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" /> |
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" /> |
           undefined
         description: ''
   - name: push(RecognizePiiEntitiesResult[])
@@ -870,7 +890,10 @@ methods:
       content: 'function push(items: RecognizePiiEntitiesResult[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview"
+            />[]
           description: |
             New elements of the Array.
       return:
@@ -905,7 +928,9 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />
         description: ''
   - name: >-
       reduce((previousValue: RecognizePiiEntitiesResult, currentValue:
@@ -932,10 +957,14 @@ methods:
             RecognizePiiEntitiesResult[]) =&gt; RecognizePiiEntitiesResult
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />
           description: ''
       return:
-        type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />
         description: ''
   - name: >-
       reduce<U>((previousValue: U, currentValue: RecognizePiiEntitiesResult,
@@ -1004,7 +1033,9 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />
         description: ''
   - name: >-
       reduceRight((previousValue: RecognizePiiEntitiesResult, currentValue:
@@ -1032,10 +1063,14 @@ methods:
             RecognizePiiEntitiesResult[]) =&gt; RecognizePiiEntitiesResult
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />
           description: ''
       return:
-        type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />
         description: ''
   - name: >-
       reduceRight<U>((previousValue: U, currentValue:
@@ -1085,7 +1120,9 @@ methods:
     syntax:
       content: function reverse()
       return:
-        type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />[]
         description: ''
   - name: shift()
     uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.shift|preview'
@@ -1098,7 +1135,8 @@ methods:
       content: function shift()
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" /> |
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" /> |
           undefined
         description: ''
   - name: slice(number, number)
@@ -1119,7 +1157,9 @@ methods:
           description: |
             The end of the specified portion of the array.
       return:
-        type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />[]
         description: ''
   - name: >-
       some((value: RecognizePiiEntitiesResult, index: number, array:
@@ -1201,7 +1241,9 @@ methods:
           description: |
             The number of elements to remove.
       return:
-        type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />[]
         description: ''
   - name: splice(number, number, RecognizePiiEntitiesResult[])
     uid: '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray.splice_1|preview'
@@ -1226,11 +1268,16 @@ methods:
           type: number
           description: The number of elements to remove.
         - id: items
-          type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview"
+            />[]
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
-        type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />[]
         description: ''
   - name: toLocaleString()
     uid: >-
@@ -1270,7 +1317,10 @@ methods:
       content: 'function unshift(items: RecognizePiiEntitiesResult[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />[]
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview"
+            />[]
           description: |
             Elements to insert at the start of the Array.
       return:
@@ -1288,8 +1338,9 @@ methods:
       return:
         type: >-
           IterableIterator&lt;<xref
-          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult" />&gt;
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview"
+          />&gt;
         description: ''
 extends: >-
-  Array&lt;<xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult"
-  />&gt;
+  Array&lt;<xref
+  uid="@azure/ai-text-analytics.RecognizePiiEntitiesResult|preview" />&gt;

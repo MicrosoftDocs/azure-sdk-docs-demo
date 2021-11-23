@@ -20,7 +20,10 @@ constructors:
       content: 'new BlobContainers(client: StorageManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -82,12 +85,12 @@ methods:
 
             at SRP.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.BlobContainersClearLegalHoldResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.BlobContainersClearLegalHoldResponse|latest-stable" />&gt;
         description: Promise<Models.BlobContainersClearLegalHoldResponse>
   - name: >-
       clearLegalHold(string, string, string, string[], RequestOptionsBase,
@@ -145,7 +148,9 @@ methods:
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-storage.LegalHold" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.LegalHold|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -201,7 +206,9 @@ methods:
 
             at SRP.
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-storage.LegalHold" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.LegalHold|latest-stable" />&gt;
           description: |
             The callback
   - name: create(string, string, string, BlobContainer, msRest.RequestOptionsBase)
@@ -255,13 +262,15 @@ methods:
 
             a letter or number.
         - id: blobContainer
-          type: <xref uid="@azure/arm-storage.BlobContainer" />
+          type: <xref uid="@azure/arm-storage.BlobContainer|latest-stable" />
           description: Properties of the blob container to create.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobContainersCreateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.BlobContainersCreateResponse|latest-stable" />&gt;
         description: Promise<Models.BlobContainersCreateResponse>
   - name: >-
       create(string, string, string, BlobContainer, RequestOptionsBase,
@@ -309,15 +318,15 @@ methods:
 
             a letter or number.
         - id: blobContainer
-          type: <xref uid="@azure/arm-storage.BlobContainer" />
+          type: <xref uid="@azure/arm-storage.BlobContainer|latest-stable" />
           description: Properties of the blob container to create.
         - id: options
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.BlobContainer"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.BlobContainer|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -366,12 +375,12 @@ methods:
 
             a letter or number.
         - id: blobContainer
-          type: <xref uid="@azure/arm-storage.BlobContainer" />
+          type: <xref uid="@azure/arm-storage.BlobContainer|latest-stable" />
           description: Properties of the blob container to create.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.BlobContainer"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.BlobContainer|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -425,13 +434,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobContainersCreateOrUpdateImmutabilityPolicyOptionalParams"
+            uid="@azure/arm-storage.BlobContainersCreateOrUpdateImmutabilityPolicyOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ImmutabilityPolicy"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ImmutabilityPolicy|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -487,13 +496,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.BlobContainersCreateOrUpdateImmutabilityPolicyOptionalParams"
+            uid="Models.BlobContainersCreateOrUpdateImmutabilityPolicyOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.BlobContainersCreateOrUpdateImmutabilityPolicyResponse"
+          uid="Models.BlobContainersCreateOrUpdateImmutabilityPolicyResponse|latest-stable"
           />&gt;
         description: Promise<Models.BlobContainersCreateOrUpdateImmutabilityPolicyResponse>
   - name: >-
@@ -544,8 +553,8 @@ methods:
             a letter or number.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ImmutabilityPolicy"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ImmutabilityPolicy|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -613,12 +622,13 @@ methods:
 
             omitted, this operation will always be applied.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.BlobContainersDeleteImmutabilityPolicyResponse" />&gt;
+          uid="Models.BlobContainersDeleteImmutabilityPolicyResponse|latest-stable"
+          />&gt;
         description: Promise<Models.BlobContainersDeleteImmutabilityPolicyResponse>
   - name: >-
       deleteImmutabilityPolicy(string, string, string, string,
@@ -680,8 +690,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ImmutabilityPolicy"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ImmutabilityPolicy|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -741,8 +751,8 @@ methods:
             omitted, this operation will always be applied.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ImmutabilityPolicy"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ImmutabilityPolicy|latest-stable" />&gt;
           description: |
             The callback
   - name: deleteMethod(string, string, string, msRest.RequestOptionsBase)
@@ -788,7 +798,7 @@ methods:
 
             a letter or number.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -951,13 +961,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobContainersExtendImmutabilityPolicyOptionalParams"
+            uid="@azure/arm-storage.BlobContainersExtendImmutabilityPolicyOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ImmutabilityPolicy"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ImmutabilityPolicy|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -1025,12 +1035,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="Models.BlobContainersExtendImmutabilityPolicyOptionalParams" />
+            uid="Models.BlobContainersExtendImmutabilityPolicyOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.BlobContainersExtendImmutabilityPolicyResponse" />&gt;
+          uid="Models.BlobContainersExtendImmutabilityPolicyResponse|latest-stable"
+          />&gt;
         description: Promise<Models.BlobContainersExtendImmutabilityPolicyResponse>
   - name: >-
       extendImmutabilityPolicy(string, string, string, string,
@@ -1089,8 +1101,8 @@ methods:
             omitted, this operation will always be applied.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ImmutabilityPolicy"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ImmutabilityPolicy|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, string, msRest.RequestOptionsBase)
@@ -1136,10 +1148,12 @@ methods:
 
             a letter or number.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobContainersGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.BlobContainersGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.BlobContainersGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -1191,8 +1205,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.BlobContainer"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.BlobContainer|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, string, ServiceCallback<BlobContainer>)
@@ -1239,8 +1253,8 @@ methods:
             a letter or number.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.BlobContainer"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.BlobContainer|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -1293,13 +1307,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.BlobContainersGetImmutabilityPolicyOptionalParams"
+            uid="@azure/arm-storage.BlobContainersGetImmutabilityPolicyOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ImmutabilityPolicy"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ImmutabilityPolicy|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -1353,13 +1367,15 @@ methods:
             a letter or number.
         - id: options
           type: >-
-            <xref uid="Models.BlobContainersGetImmutabilityPolicyOptionalParams"
+            <xref
+            uid="Models.BlobContainersGetImmutabilityPolicyOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.BlobContainersGetImmutabilityPolicyResponse" />&gt;
+          uid="Models.BlobContainersGetImmutabilityPolicyResponse|latest-stable"
+          />&gt;
         description: Promise<Models.BlobContainersGetImmutabilityPolicyResponse>
   - name: >-
       getImmutabilityPolicy(string, string, string,
@@ -1408,8 +1424,8 @@ methods:
             a letter or number.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ImmutabilityPolicy"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ImmutabilityPolicy|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -1458,12 +1474,15 @@ methods:
 
             a letter or number.
         - id: options
-          type: <xref uid="@azure/arm-storage.BlobContainersLeaseOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.BlobContainersLeaseOptionalParams|latest-stable"
+            />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.LeaseContainerResponse" />&gt;
+            uid="@azure/arm-storage.LeaseContainerResponse|latest-stable" />&gt;
           description: |
             The callback
   - name: lease(string, string, string, Models.BlobContainersLeaseOptionalParams)
@@ -1514,10 +1533,14 @@ methods:
 
             a letter or number.
         - id: options
-          type: <xref uid="Models.BlobContainersLeaseOptionalParams" />
+          type: >-
+            <xref uid="Models.BlobContainersLeaseOptionalParams|latest-stable"
+            />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobContainersLeaseResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.BlobContainersLeaseResponse|latest-stable" />&gt;
         description: Promise<Models.BlobContainersLeaseResponse>
   - name: lease(string, string, string, ServiceCallback<LeaseContainerResponse>)
     uid: '@azure/arm-storage.BlobContainers.lease_1|latest-stable'
@@ -1565,7 +1588,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.LeaseContainerResponse" />&gt;
+            uid="@azure/arm-storage.LeaseContainerResponse|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -1601,12 +1624,15 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="@azure/arm-storage.BlobContainersListOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.BlobContainersListOptionalParams|latest-stable"
+            />
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ListContainerItems"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ListContainerItems|latest-stable" />&gt;
           description: |
             The callback
   - name: list(string, string, Models.BlobContainersListOptionalParams)
@@ -1643,10 +1669,12 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="Models.BlobContainersListOptionalParams" />
+          type: <xref uid="Models.BlobContainersListOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobContainersListResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.BlobContainersListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.BlobContainersListResponse>
   - name: list(string, string, ServiceCallback<ListContainerItems>)
     uid: '@azure/arm-storage.BlobContainers.list_1|latest-stable'
@@ -1679,8 +1707,8 @@ methods:
             letters only.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ListContainerItems"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ListContainerItems|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -1703,13 +1731,14 @@ methods:
           description: The NextLink from the previous successful call to List operation.
         - id: options
           type: >-
-            <xref uid="@azure/arm-storage.BlobContainersListNextOptionalParams"
+            <xref
+            uid="@azure/arm-storage.BlobContainersListNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ListContainerItems"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ListContainerItems|latest-stable" />&gt;
           description: |
             The callback
   - name: listNext(string, Models.BlobContainersListNextOptionalParams)
@@ -1732,10 +1761,14 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="Models.BlobContainersListNextOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.BlobContainersListNextOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobContainersListNextResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.BlobContainersListNextResponse|latest-stable" />&gt;
         description: Promise<Models.BlobContainersListNextResponse>
   - name: listNext(string, ServiceCallback<ListContainerItems>)
     uid: '@azure/arm-storage.BlobContainers.listNext_1|latest-stable'
@@ -1754,8 +1787,8 @@ methods:
           description: The NextLink from the previous successful call to List operation.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ListContainerItems"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ListContainerItems|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -1819,12 +1852,13 @@ methods:
 
             omitted, this operation will always be applied.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.BlobContainersLockImmutabilityPolicyResponse" />&gt;
+          uid="Models.BlobContainersLockImmutabilityPolicyResponse|latest-stable"
+          />&gt;
         description: Promise<Models.BlobContainersLockImmutabilityPolicyResponse>
   - name: >-
       lockImmutabilityPolicy(string, string, string, string, RequestOptionsBase,
@@ -1886,8 +1920,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ImmutabilityPolicy"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ImmutabilityPolicy|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -1947,8 +1981,8 @@ methods:
             omitted, this operation will always be applied.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ImmutabilityPolicy"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ImmutabilityPolicy|latest-stable" />&gt;
           description: |
             The callback
   - name: setLegalHold(string, string, string, string[], msRest.RequestOptionsBase)
@@ -2009,12 +2043,12 @@ methods:
 
             at SRP.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.BlobContainersSetLegalHoldResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.BlobContainersSetLegalHoldResponse|latest-stable" />&gt;
         description: Promise<Models.BlobContainersSetLegalHoldResponse>
   - name: >-
       setLegalHold(string, string, string, string[], RequestOptionsBase,
@@ -2072,7 +2106,9 @@ methods:
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-storage.LegalHold" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.LegalHold|latest-stable" />&gt;
           description: |
             The callback
   - name: setLegalHold(string, string, string, string[], ServiceCallback<LegalHold>)
@@ -2126,7 +2162,9 @@ methods:
 
             at SRP.
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-storage.LegalHold" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.LegalHold|latest-stable" />&gt;
           description: |
             The callback
   - name: update(string, string, string, BlobContainer, msRest.RequestOptionsBase)
@@ -2178,13 +2216,15 @@ methods:
 
             a letter or number.
         - id: blobContainer
-          type: <xref uid="@azure/arm-storage.BlobContainer" />
+          type: <xref uid="@azure/arm-storage.BlobContainer|latest-stable" />
           description: Properties to update for the blob container.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.BlobContainersUpdateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.BlobContainersUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.BlobContainersUpdateResponse>
   - name: >-
       update(string, string, string, BlobContainer, RequestOptionsBase,
@@ -2232,15 +2272,15 @@ methods:
 
             a letter or number.
         - id: blobContainer
-          type: <xref uid="@azure/arm-storage.BlobContainer" />
+          type: <xref uid="@azure/arm-storage.BlobContainer|latest-stable" />
           description: Properties to update for the blob container.
         - id: options
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.BlobContainer"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.BlobContainer|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -2289,11 +2329,11 @@ methods:
 
             a letter or number.
         - id: blobContainer
-          type: <xref uid="@azure/arm-storage.BlobContainer" />
+          type: <xref uid="@azure/arm-storage.BlobContainer|latest-stable" />
           description: Properties to update for the blob container.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.BlobContainer"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.BlobContainer|latest-stable" />&gt;
           description: |
             The callback

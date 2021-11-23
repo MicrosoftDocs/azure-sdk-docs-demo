@@ -31,20 +31,21 @@ methods:
           type: string
           description: Name of the system topic.
         - id: systemTopicInfo
-          type: <xref uid="@azure/arm-eventgrid.SystemTopic" />
+          type: <xref uid="@azure/arm-eventgrid.SystemTopic|preview" />
           description: System Topic information.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.SystemTopicsCreateOrUpdateOptionalParams"
+            uid="@azure/arm-eventgrid.SystemTopicsCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-eventgrid.SystemTopicsCreateOrUpdateResponse" />&gt;,
-          <xref uid="@azure/arm-eventgrid.SystemTopicsCreateOrUpdateResponse"
+          uid="@azure/arm-eventgrid.SystemTopicsCreateOrUpdateResponse|preview"
+          />&gt;, <xref
+          uid="@azure/arm-eventgrid.SystemTopicsCreateOrUpdateResponse|preview"
           />&gt;&gt;
         description: ''
   - name: >-
@@ -69,19 +70,20 @@ methods:
           type: string
           description: Name of the system topic.
         - id: systemTopicInfo
-          type: <xref uid="@azure/arm-eventgrid.SystemTopic" />
+          type: <xref uid="@azure/arm-eventgrid.SystemTopic|preview" />
           description: System Topic information.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.SystemTopicsCreateOrUpdateOptionalParams"
+            uid="@azure/arm-eventgrid.SystemTopicsCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventgrid.SystemTopicsCreateOrUpdateResponse" />&gt;
+          uid="@azure/arm-eventgrid.SystemTopicsCreateOrUpdateResponse|preview"
+          />&gt;
         description: ''
   - name: beginDelete(string, string, SystemTopicsDeleteOptionalParams)
     uid: '@azure/arm-eventgrid.SystemTopics.beginDelete|preview'
@@ -102,7 +104,10 @@ methods:
           type: string
           description: Name of the system topic.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.SystemTopicsDeleteOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.SystemTopicsDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -127,7 +132,10 @@ methods:
           type: string
           description: Name of the system topic.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.SystemTopicsDeleteOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.SystemTopicsDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -155,17 +163,23 @@ methods:
           type: string
           description: Name of the system topic.
         - id: systemTopicUpdateParameters
-          type: <xref uid="@azure/arm-eventgrid.SystemTopicUpdateParameters" />
+          type: >-
+            <xref uid="@azure/arm-eventgrid.SystemTopicUpdateParameters|preview"
+            />
           description: SystemTopic update information.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.SystemTopicsUpdateOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.SystemTopicsUpdateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-eventgrid.SystemTopicsUpdateResponse" />&gt;, <xref
-          uid="@azure/arm-eventgrid.SystemTopicsUpdateResponse" />&gt;&gt;
+          uid="@azure/arm-eventgrid.SystemTopicsUpdateResponse|preview" />&gt;,
+          <xref uid="@azure/arm-eventgrid.SystemTopicsUpdateResponse|preview"
+          />&gt;&gt;
         description: ''
   - name: >-
       beginUpdateAndWait(string, string, SystemTopicUpdateParameters,
@@ -189,16 +203,21 @@ methods:
           type: string
           description: Name of the system topic.
         - id: systemTopicUpdateParameters
-          type: <xref uid="@azure/arm-eventgrid.SystemTopicUpdateParameters" />
+          type: >-
+            <xref uid="@azure/arm-eventgrid.SystemTopicUpdateParameters|preview"
+            />
           description: SystemTopic update information.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.SystemTopicsUpdateOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.SystemTopicsUpdateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-eventgrid.SystemTopicsUpdateResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-eventgrid.SystemTopicsUpdateResponse|preview" />&gt;
         description: ''
   - name: get(string, string, SystemTopicsGetOptionalParams)
     uid: '@azure/arm-eventgrid.SystemTopics.get|preview'
@@ -219,13 +238,15 @@ methods:
           type: string
           description: Name of the system topic.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.SystemTopicsGetOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.SystemTopicsGetOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-eventgrid.SystemTopicsGetResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-eventgrid.SystemTopicsGetResponse|preview" />&gt;
         description: ''
   - name: listByResourceGroup(string, SystemTopicsListByResourceGroupOptionalParams)
     uid: '@azure/arm-eventgrid.SystemTopics.listByResourceGroup|preview'
@@ -245,14 +266,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.SystemTopicsListByResourceGroupOptionalParams"
+            uid="@azure/arm-eventgrid.SystemTopicsListByResourceGroupOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventgrid.SystemTopic" />&gt;
+          uid="@azure/arm-eventgrid.SystemTopic|preview" />&gt;
         description: ''
   - name: listBySubscription(SystemTopicsListBySubscriptionOptionalParams)
     uid: '@azure/arm-eventgrid.SystemTopics.listBySubscription|preview'
@@ -269,12 +290,12 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.SystemTopicsListBySubscriptionOptionalParams"
+            uid="@azure/arm-eventgrid.SystemTopicsListBySubscriptionOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventgrid.SystemTopic" />&gt;
+          uid="@azure/arm-eventgrid.SystemTopic|preview" />&gt;
         description: ''

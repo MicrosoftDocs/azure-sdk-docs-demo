@@ -40,7 +40,7 @@ properties:
     syntax:
       content: 'granularity?: TimeGranularity'
       return:
-        type: <xref uid="@azure/ai-anomaly-detector.TimeGranularity" />
+        type: <xref uid="@azure/ai-anomaly-detector.TimeGranularity|preview" />
         description: ''
   - name: maxAnomalyRatio
     uid: '@azure/ai-anomaly-detector.DetectRequest.maxAnomalyRatio|preview'
@@ -103,5 +103,5 @@ properties:
     syntax:
       content: 'series: TimeSeriesPoint[]'
       return:
-        type: <xref uid="@azure/ai-anomaly-detector.TimeSeriesPoint" />[]
+        type: <xref uid="@azure/ai-anomaly-detector.TimeSeriesPoint|preview" />[]
         description: ''

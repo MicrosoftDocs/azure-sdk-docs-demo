@@ -52,7 +52,7 @@ properties:
     syntax:
       content: 'keyValueParameters?: KeyValue'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.KeyValue" />
+        type: <xref uid="@azure/arm-appconfiguration.KeyValue|latest-stable" />
         description: ''
   - name: onDownloadProgress
     uid: >-

@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'connectionMode?: ConnectionMode'
       return:
-        type: <xref uid="@azure/cosmos.ConnectionMode" />
+        type: <xref uid="@azure/cosmos.ConnectionMode|latest-stable" />
         description: ''
   - name: enableBackgroundEndpointRefreshing
     uid: >-
@@ -119,7 +119,7 @@ properties:
     syntax:
       content: 'retryOptions?: RetryOptions'
       return:
-        type: <xref uid="@azure/cosmos.RetryOptions" />
+        type: <xref uid="@azure/cosmos.RetryOptions|latest-stable" />
         description: ''
   - name: useMultipleWriteLocations
     uid: '@azure/cosmos.ConnectionPolicy.useMultipleWriteLocations|latest-stable'

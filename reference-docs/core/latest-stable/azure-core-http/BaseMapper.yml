@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'constraints?: MapperConstraints'
       return:
-        type: <xref uid="@azure/core-http.MapperConstraints" />
+        type: <xref uid="@azure/core-http.MapperConstraints|latest-stable" />
         description: ''
   - name: defaultValue
     uid: '@azure/core-http.BaseMapper.defaultValue|latest-stable'
@@ -111,7 +111,7 @@ properties:
     syntax:
       content: 'type: MapperType'
       return:
-        type: <xref uid="@azure/core-http.MapperType" />
+        type: <xref uid="@azure/core-http.MapperType|latest-stable" />
         description: ''
   - name: xmlElementName
     uid: '@azure/core-http.BaseMapper.xmlElementName|latest-stable'

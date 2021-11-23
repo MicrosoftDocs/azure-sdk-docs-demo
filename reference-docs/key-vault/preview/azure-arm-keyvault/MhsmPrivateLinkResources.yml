@@ -32,13 +32,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-keyvault.MhsmPrivateLinkResourcesListByMhsmResourceOptionalParams"
+            uid="@azure/arm-keyvault.MhsmPrivateLinkResourcesListByMhsmResourceOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-keyvault.MhsmPrivateLinkResourcesListByMhsmResourceResponse"
+          uid="@azure/arm-keyvault.MhsmPrivateLinkResourcesListByMhsmResourceResponse|preview"
           />&gt;
         description: ''

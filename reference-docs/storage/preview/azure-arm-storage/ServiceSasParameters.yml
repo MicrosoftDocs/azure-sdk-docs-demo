@@ -168,7 +168,7 @@ properties:
     syntax:
       content: 'permissions?: Permissions'
       return:
-        type: <xref uid="@azure/arm-storage.Permissions" />
+        type: <xref uid="@azure/arm-storage.Permissions|preview" />
         description: ''
   - name: protocols
     uid: '@azure/arm-storage.ServiceSasParameters.protocols|preview'
@@ -181,7 +181,7 @@ properties:
     syntax:
       content: 'protocols?: HttpProtocol'
       return:
-        type: <xref uid="@azure/arm-storage.HttpProtocol" />
+        type: <xref uid="@azure/arm-storage.HttpProtocol|preview" />
         description: ''
   - name: resource
     uid: '@azure/arm-storage.ServiceSasParameters.resource|preview'
@@ -196,7 +196,7 @@ properties:
     syntax:
       content: 'resource?: SignedResource'
       return:
-        type: <xref uid="@azure/arm-storage.SignedResource" />
+        type: <xref uid="@azure/arm-storage.SignedResource|preview" />
         description: ''
   - name: rowKeyEnd
     uid: '@azure/arm-storage.ServiceSasParameters.rowKeyEnd|preview'

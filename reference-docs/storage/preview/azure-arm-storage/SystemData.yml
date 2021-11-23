@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'createdByType?: CreatedByType'
       return:
-        type: <xref uid="@azure/arm-storage.CreatedByType" />
+        type: <xref uid="@azure/arm-storage.CreatedByType|preview" />
         description: ''
   - name: lastModifiedAt
     uid: '@azure/arm-storage.SystemData.lastModifiedAt|preview'
@@ -85,5 +85,5 @@ properties:
     syntax:
       content: 'lastModifiedByType?: CreatedByType'
       return:
-        type: <xref uid="@azure/arm-storage.CreatedByType" />
+        type: <xref uid="@azure/arm-storage.CreatedByType|preview" />
         description: ''

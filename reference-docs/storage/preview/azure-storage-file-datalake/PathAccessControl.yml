@@ -20,7 +20,9 @@ properties:
     syntax:
       content: 'acl: PathAccessControlItem[]'
       return:
-        type: <xref uid="@azure/storage-file-datalake.PathAccessControlItem" />[]
+        type: >-
+          <xref uid="@azure/storage-file-datalake.PathAccessControlItem|preview"
+          />[]
         description: ''
   - name: group
     uid: '@azure/storage-file-datalake.PathAccessControl.group|preview'
@@ -59,5 +61,5 @@ properties:
     syntax:
       content: 'permissions?: PathPermissions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.PathPermissions" />
+        type: <xref uid="@azure/storage-file-datalake.PathPermissions|preview" />
         description: ''

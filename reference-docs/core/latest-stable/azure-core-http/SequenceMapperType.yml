@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'element: Mapper'
       return:
-        type: <xref uid="@azure/core-http.Mapper" />
+        type: <xref uid="@azure/core-http.Mapper|latest-stable" />
         description: ''
   - name: name
     uid: '@azure/core-http.SequenceMapperType.name|latest-stable'

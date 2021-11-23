@@ -21,7 +21,8 @@ properties:
       content: 'modelState?: AnomalyDetectorClientModelState'
       return:
         type: >-
-          <xref uid="@azure/ai-anomaly-detector.AnomalyDetectorClientModelState"
+          <xref
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorClientModelState|preview"
           />
         description: ''
   - name: variableStates
@@ -37,6 +38,6 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/ai-anomaly-detector.AnomalyDetectorClientVariableState"
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorClientVariableState|preview"
           />[]
         description: ''

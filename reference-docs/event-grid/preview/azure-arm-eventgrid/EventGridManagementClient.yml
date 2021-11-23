@@ -37,7 +37,7 @@ constructors:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.EventGridManagementClientOptionalParams"
+            uid="@azure/arm-eventgrid.EventGridManagementClientOptionalParams|preview"
             />
           description: |
             The parameter options
@@ -79,7 +79,7 @@ properties:
     syntax:
       content: 'domains: Domains'
       return:
-        type: <xref uid="@azure/arm-eventgrid.Domains" />
+        type: <xref uid="@azure/arm-eventgrid.Domains|preview" />
         description: ''
   - name: domainTopics
     uid: '@azure/arm-eventgrid.EventGridManagementClient.domainTopics|preview'
@@ -92,7 +92,7 @@ properties:
     syntax:
       content: 'domainTopics: DomainTopics'
       return:
-        type: <xref uid="@azure/arm-eventgrid.DomainTopics" />
+        type: <xref uid="@azure/arm-eventgrid.DomainTopics|preview" />
         description: ''
   - name: eventSubscriptions
     uid: '@azure/arm-eventgrid.EventGridManagementClient.eventSubscriptions|preview'
@@ -105,7 +105,7 @@ properties:
     syntax:
       content: 'eventSubscriptions: EventSubscriptions'
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscriptions" />
+        type: <xref uid="@azure/arm-eventgrid.EventSubscriptions|preview" />
         description: ''
   - name: extensionTopics
     uid: '@azure/arm-eventgrid.EventGridManagementClient.extensionTopics|preview'
@@ -118,7 +118,7 @@ properties:
     syntax:
       content: 'extensionTopics: ExtensionTopics'
       return:
-        type: <xref uid="@azure/arm-eventgrid.ExtensionTopics" />
+        type: <xref uid="@azure/arm-eventgrid.ExtensionTopics|preview" />
         description: ''
   - name: operations
     uid: '@azure/arm-eventgrid.EventGridManagementClient.operations|preview'
@@ -131,7 +131,7 @@ properties:
     syntax:
       content: 'operations: Operations'
       return:
-        type: <xref uid="@azure/arm-eventgrid.Operations" />
+        type: <xref uid="@azure/arm-eventgrid.Operations|preview" />
         description: ''
   - name: pipeline
     uid: '@azure/arm-eventgrid.EventGridManagementClient.pipeline|preview'
@@ -158,7 +158,7 @@ properties:
     syntax:
       content: 'privateEndpointConnections: PrivateEndpointConnections'
       return:
-        type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnections" />
+        type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnections|preview" />
         description: ''
   - name: privateLinkResources
     uid: >-
@@ -172,7 +172,7 @@ properties:
     syntax:
       content: 'privateLinkResources: PrivateLinkResources'
       return:
-        type: <xref uid="@azure/arm-eventgrid.PrivateLinkResources" />
+        type: <xref uid="@azure/arm-eventgrid.PrivateLinkResources|preview" />
         description: ''
   - name: subscriptionId
     uid: '@azure/arm-eventgrid.EventGridManagementClient.subscriptionId|preview'
@@ -199,7 +199,9 @@ properties:
     syntax:
       content: 'systemTopicEventSubscriptions: SystemTopicEventSubscriptions'
       return:
-        type: <xref uid="@azure/arm-eventgrid.SystemTopicEventSubscriptions" />
+        type: >-
+          <xref uid="@azure/arm-eventgrid.SystemTopicEventSubscriptions|preview"
+          />
         description: ''
   - name: systemTopics
     uid: '@azure/arm-eventgrid.EventGridManagementClient.systemTopics|preview'
@@ -212,7 +214,7 @@ properties:
     syntax:
       content: 'systemTopics: SystemTopics'
       return:
-        type: <xref uid="@azure/arm-eventgrid.SystemTopics" />
+        type: <xref uid="@azure/arm-eventgrid.SystemTopics|preview" />
         description: ''
   - name: topics
     uid: '@azure/arm-eventgrid.EventGridManagementClient.topics|preview'
@@ -225,7 +227,7 @@ properties:
     syntax:
       content: 'topics: Topics'
       return:
-        type: <xref uid="@azure/arm-eventgrid.Topics" />
+        type: <xref uid="@azure/arm-eventgrid.Topics|preview" />
         description: ''
   - name: topicTypes
     uid: '@azure/arm-eventgrid.EventGridManagementClient.topicTypes|preview'
@@ -238,7 +240,7 @@ properties:
     syntax:
       content: 'topicTypes: TopicTypes'
       return:
-        type: <xref uid="@azure/arm-eventgrid.TopicTypes" />
+        type: <xref uid="@azure/arm-eventgrid.TopicTypes|preview" />
         description: ''
 methods:
   - name: sendOperationRequest<T>(OperationArguments, OperationSpec)
@@ -282,4 +284,4 @@ methods:
       return:
         type: Promise&lt;PipelineResponse&gt;
         description: ''
-extends: <xref uid="@azure/arm-eventgrid.EventGridManagementClientContext" />
+extends: <xref uid="@azure/arm-eventgrid.EventGridManagementClientContext|preview" />

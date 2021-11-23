@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'container: Container'
       return:
-        type: <xref uid="@azure/cosmos.Container" />
+        type: <xref uid="@azure/cosmos.Container|latest-stable" />
         description: ''
   - name: id
     uid: '@azure/cosmos.Item.id|latest-stable'
@@ -66,11 +66,13 @@ methods:
       content: 'function delete<T>(options?: RequestOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: |
             Additional options for the request
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.ItemResponse" />&lt;T&gt;&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.ItemResponse|latest-stable"
+          />&lt;T&gt;&gt;
         description: ''
   - name: patch<T>(PatchRequestBody, RequestOptions)
     uid: '@azure/cosmos.Item.patch|latest-stable'
@@ -89,14 +91,16 @@ methods:
       content: 'function patch<T>(body: PatchRequestBody, options?: RequestOptions)'
       parameters:
         - id: body
-          type: <xref uid="@azure/cosmos.PatchRequestBody" />
+          type: <xref uid="@azure/cosmos.PatchRequestBody|latest-stable" />
           description: ''
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: |
             Additional options for the request
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.ItemResponse" />&lt;T&gt;&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.ItemResponse|latest-stable"
+          />&lt;T&gt;&gt;
         description: ''
   - name: read<T>(RequestOptions)
     uid: '@azure/cosmos.Item.read|latest-stable'
@@ -124,11 +128,13 @@ methods:
       content: 'function read<T>(options?: RequestOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: |
             Additional options for the request
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.ItemResponse" />&lt;T&gt;&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.ItemResponse|latest-stable"
+          />&lt;T&gt;&gt;
         description: ''
   - name: replace(ItemDefinition, RequestOptions)
     uid: '@azure/cosmos.Item.replace|latest-stable'
@@ -145,18 +151,19 @@ methods:
       content: 'function replace(body: ItemDefinition, options?: RequestOptions)'
       parameters:
         - id: body
-          type: <xref uid="@azure/cosmos.ItemDefinition" />
+          type: <xref uid="@azure/cosmos.ItemDefinition|latest-stable" />
           description: >-
             The definition to replace the existing <xref:@azure/cosmos.Item>'s
             definition with.
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: |
             Additional options for the request
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/cosmos.ItemResponse" />&lt;<xref
-          uid="@azure/cosmos.ItemDefinition" />&gt;&gt;
+          Promise&lt;<xref uid="@azure/cosmos.ItemResponse|latest-stable"
+          />&lt;<xref uid="@azure/cosmos.ItemDefinition|latest-stable"
+          />&gt;&gt;
         description: ''
   - name: replace<T>(T, RequestOptions)
     uid: '@azure/cosmos.Item.replace_1|latest-stable'
@@ -184,9 +191,11 @@ methods:
             The definition to replace the existing <xref:@azure/cosmos.Item>'s
             definition with.
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: |
             Additional options for the request
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.ItemResponse" />&lt;T&gt;&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.ItemResponse|latest-stable"
+          />&lt;T&gt;&gt;
         description: ''

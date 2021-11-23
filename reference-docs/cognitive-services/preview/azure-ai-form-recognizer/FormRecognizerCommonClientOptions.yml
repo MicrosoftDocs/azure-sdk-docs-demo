@@ -34,7 +34,9 @@ properties:
     syntax:
       content: 'apiVersion?: FormRecognizerApiVersion'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormRecognizerApiVersion" />
+        type: >-
+          <xref uid="@azure/ai-form-recognizer.FormRecognizerApiVersion|preview"
+          />
         description: ''
   - name: proxyOptions
     uid: >-

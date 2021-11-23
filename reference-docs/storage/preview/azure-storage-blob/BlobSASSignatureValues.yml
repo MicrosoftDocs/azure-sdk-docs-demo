@@ -180,7 +180,7 @@ properties:
     syntax:
       content: 'ipRange?: SasIPRange'
       return:
-        type: <xref uid="@azure/storage-blob.SasIPRange" />
+        type: <xref uid="@azure/storage-blob.SasIPRange|preview" />
         description: ''
   - name: permissions
     uid: '@azure/storage-blob.BlobSASSignatureValues.permissions|preview'
@@ -200,8 +200,8 @@ properties:
       content: 'permissions?: BlobSASPermissions | ContainerSASPermissions'
       return:
         type: >-
-          <xref uid="@azure/storage-blob.BlobSASPermissions" /> | <xref
-          uid="@azure/storage-blob.ContainerSASPermissions" />
+          <xref uid="@azure/storage-blob.BlobSASPermissions|preview" /> | <xref
+          uid="@azure/storage-blob.ContainerSASPermissions|preview" />
         description: ''
   - name: preauthorizedAgentObjectId
     uid: >-
@@ -239,7 +239,7 @@ properties:
     syntax:
       content: 'protocol?: SASProtocol'
       return:
-        type: <xref uid="@azure/storage-blob.SASProtocol" />
+        type: <xref uid="@azure/storage-blob.SASProtocol|preview" />
         description: ''
   - name: snapshotTime
     uid: '@azure/storage-blob.BlobSASSignatureValues.snapshotTime|preview'

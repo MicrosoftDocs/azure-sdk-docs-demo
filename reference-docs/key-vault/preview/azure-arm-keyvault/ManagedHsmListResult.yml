@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'value?: ManagedHsm[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.ManagedHsm" />[]
+        type: <xref uid="@azure/arm-keyvault.ManagedHsm|preview" />[]
         description: ''

@@ -57,7 +57,9 @@ properties:
     syntax:
       content: 'privateEndpoint?: PrivateEndpoint'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.PrivateEndpoint" />
+        type: >-
+          <xref uid="@azure/arm-appconfiguration.PrivateEndpoint|latest-stable"
+          />
         description: ''
   - name: privateLinkServiceConnectionState
     uid: >-
@@ -77,7 +79,8 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/arm-appconfiguration.PrivateLinkServiceConnectionState" />
+          uid="@azure/arm-appconfiguration.PrivateLinkServiceConnectionState|latest-stable"
+          />
         description: ''
   - name: provisioningState
     uid: >-
@@ -98,7 +101,9 @@ properties:
     syntax:
       content: 'provisioningState?: ProvisioningState'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ProvisioningState" />
+        type: >-
+          <xref
+          uid="@azure/arm-appconfiguration.ProvisioningState|latest-stable" />
         description: ''
   - name: type
     uid: >-

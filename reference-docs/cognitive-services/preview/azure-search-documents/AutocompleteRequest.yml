@@ -27,7 +27,7 @@ properties:
     syntax:
       content: 'autocompleteMode?: AutocompleteMode'
       return:
-        type: <xref uid="@azure/search-documents.AutocompleteMode" />
+        type: <xref uid="@azure/search-documents.AutocompleteMode|preview" />
         description: ''
   - name: filter
     uid: '@azure/search-documents.AutocompleteRequest.filter|preview'

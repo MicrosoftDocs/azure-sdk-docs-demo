@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'constraints?: MapperConstraints'
       return:
-        type: <xref uid="@azure/core-http.MapperConstraints" />
+        type: <xref uid="@azure/core-http.MapperConstraints|latest-stable" />
         description: ''
   - name: defaultValue
     uid: '@azure/core-http.SequenceMapper.defaultValue|latest-stable'
@@ -111,7 +111,7 @@ properties:
     syntax:
       content: 'type: SequenceMapperType'
       return:
-        type: <xref uid="@azure/core-http.SequenceMapperType" />
+        type: <xref uid="@azure/core-http.SequenceMapperType|latest-stable" />
         description: ''
   - name: xmlElementName
     uid: '@azure/core-http.SequenceMapper.xmlElementName|latest-stable'
@@ -193,4 +193,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/core-http.BaseMapper" />
+extends: <xref uid="@azure/core-http.BaseMapper|latest-stable" />

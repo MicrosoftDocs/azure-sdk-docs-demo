@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'container: Container'
       return:
-        type: <xref uid="@azure/cosmos.Container" />
+        type: <xref uid="@azure/cosmos.Container|latest-stable" />
         description: ''
 methods:
   - name: create(TriggerDefinition, RequestOptions)
@@ -48,13 +48,15 @@ methods:
       content: 'function create(body: TriggerDefinition, options?: RequestOptions)'
       parameters:
         - id: body
-          type: <xref uid="@azure/cosmos.TriggerDefinition" />
+          type: <xref uid="@azure/cosmos.TriggerDefinition|latest-stable" />
           description: ''
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.TriggerResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.TriggerResponse|latest-stable"
+          />&gt;
         description: ''
   - name: query(SqlQuerySpec, FeedOptions)
     uid: '@azure/cosmos.Triggers.query|latest-stable'
@@ -67,16 +69,16 @@ methods:
       content: 'function query(query: SqlQuerySpec, options?: FeedOptions)'
       parameters:
         - id: query
-          type: <xref uid="@azure/cosmos.SqlQuerySpec" />
+          type: <xref uid="@azure/cosmos.SqlQuerySpec|latest-stable" />
           description: >
             Query configuration for the operation. See
             <xref:@azure/cosmos.SqlQuerySpec> for more info on how to configure
             a query.
         - id: options
-          type: <xref uid="@azure/cosmos.FeedOptions" />
+          type: <xref uid="@azure/cosmos.FeedOptions|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/cosmos.QueryIterator" />&lt;any&gt;
+        type: <xref uid="@azure/cosmos.QueryIterator|latest-stable" />&lt;any&gt;
         description: ''
   - name: query<T>(SqlQuerySpec, FeedOptions)
     uid: '@azure/cosmos.Triggers.query_1|latest-stable'
@@ -89,16 +91,16 @@ methods:
       content: 'function query<T>(query: SqlQuerySpec, options?: FeedOptions)'
       parameters:
         - id: query
-          type: <xref uid="@azure/cosmos.SqlQuerySpec" />
+          type: <xref uid="@azure/cosmos.SqlQuerySpec|latest-stable" />
           description: >
             Query configuration for the operation. See
             <xref:@azure/cosmos.SqlQuerySpec> for more info on how to configure
             a query.
         - id: options
-          type: <xref uid="@azure/cosmos.FeedOptions" />
+          type: <xref uid="@azure/cosmos.FeedOptions|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/cosmos.QueryIterator" />&lt;T&gt;
+        type: <xref uid="@azure/cosmos.QueryIterator|latest-stable" />&lt;T&gt;
         description: ''
   - name: readAll(FeedOptions)
     uid: '@azure/cosmos.Triggers.readAll|latest-stable'
@@ -111,11 +113,11 @@ methods:
       content: 'function readAll(options?: FeedOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.FeedOptions" />
+          type: <xref uid="@azure/cosmos.FeedOptions|latest-stable" />
           description: ''
       return:
         type: >-
-          <xref uid="@azure/cosmos.QueryIterator" />&lt;<xref
-          uid="@azure/cosmos.TriggerDefinition" /> & <xref
-          uid="@azure/cosmos.Resource" />&gt;
+          <xref uid="@azure/cosmos.QueryIterator|latest-stable" />&lt;<xref
+          uid="@azure/cosmos.TriggerDefinition|latest-stable" /> & <xref
+          uid="@azure/cosmos.Resource|latest-stable" />&gt;
         description: ''

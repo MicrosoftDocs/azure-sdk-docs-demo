@@ -26,14 +26,20 @@ methods:
         IndexDocumentsOptions)
       parameters:
         - id: batch
-          type: <xref uid="@azure/search-documents.IndexDocumentsBatch" />&lt;T&gt;
+          type: >-
+            <xref
+            uid="@azure/search-documents.IndexDocumentsBatch|latest-stable"
+            />&lt;T&gt;
           description: An array of actions to perform on the index.
         - id: options
-          type: <xref uid="@azure/search-documents.IndexDocumentsOptions" />
+          type: >-
+            <xref
+            uid="@azure/search-documents.IndexDocumentsOptions|latest-stable" />
           description: |
             Additional options.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/search-documents.IndexDocumentsResult"
+          Promise&lt;<xref
+          uid="@azure/search-documents.IndexDocumentsResult|latest-stable"
           />&gt;
         description: ''

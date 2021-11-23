@@ -37,7 +37,8 @@ constructors:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.EventHubManagementClientOptionalParams" />
+            uid="@azure/arm-eventhub.EventHubManagementClientOptionalParams|preview"
+            />
           description: |
             The parameter options
 properties:
@@ -78,7 +79,7 @@ properties:
     syntax:
       content: 'clusters: Clusters'
       return:
-        type: <xref uid="@azure/arm-eventhub.Clusters" />
+        type: <xref uid="@azure/arm-eventhub.Clusters|preview" />
         description: ''
   - name: configuration
     uid: '@azure/arm-eventhub.EventHubManagementClient.configuration|preview'
@@ -91,7 +92,7 @@ properties:
     syntax:
       content: 'configuration: Configuration'
       return:
-        type: <xref uid="@azure/arm-eventhub.Configuration" />
+        type: <xref uid="@azure/arm-eventhub.Configuration|preview" />
         description: ''
   - name: consumerGroups
     uid: '@azure/arm-eventhub.EventHubManagementClient.consumerGroups|preview'
@@ -104,7 +105,7 @@ properties:
     syntax:
       content: 'consumerGroups: ConsumerGroups'
       return:
-        type: <xref uid="@azure/arm-eventhub.ConsumerGroups" />
+        type: <xref uid="@azure/arm-eventhub.ConsumerGroups|preview" />
         description: ''
   - name: disasterRecoveryConfigs
     uid: >-
@@ -118,7 +119,7 @@ properties:
     syntax:
       content: 'disasterRecoveryConfigs: DisasterRecoveryConfigs'
       return:
-        type: <xref uid="@azure/arm-eventhub.DisasterRecoveryConfigs" />
+        type: <xref uid="@azure/arm-eventhub.DisasterRecoveryConfigs|preview" />
         description: ''
   - name: eventHubs
     uid: '@azure/arm-eventhub.EventHubManagementClient.eventHubs|preview'
@@ -131,7 +132,7 @@ properties:
     syntax:
       content: 'eventHubs: EventHubs'
       return:
-        type: <xref uid="@azure/arm-eventhub.EventHubs" />
+        type: <xref uid="@azure/arm-eventhub.EventHubs|preview" />
         description: ''
   - name: namespaces
     uid: '@azure/arm-eventhub.EventHubManagementClient.namespaces|preview'
@@ -144,7 +145,7 @@ properties:
     syntax:
       content: 'namespaces: Namespaces'
       return:
-        type: <xref uid="@azure/arm-eventhub.Namespaces" />
+        type: <xref uid="@azure/arm-eventhub.Namespaces|preview" />
         description: ''
   - name: operations
     uid: '@azure/arm-eventhub.EventHubManagementClient.operations|preview'
@@ -157,7 +158,7 @@ properties:
     syntax:
       content: 'operations: Operations'
       return:
-        type: <xref uid="@azure/arm-eventhub.Operations" />
+        type: <xref uid="@azure/arm-eventhub.Operations|preview" />
         description: ''
   - name: pipeline
     uid: '@azure/arm-eventhub.EventHubManagementClient.pipeline|preview'
@@ -184,7 +185,7 @@ properties:
     syntax:
       content: 'privateEndpointConnections: PrivateEndpointConnections'
       return:
-        type: <xref uid="@azure/arm-eventhub.PrivateEndpointConnections" />
+        type: <xref uid="@azure/arm-eventhub.PrivateEndpointConnections|preview" />
         description: ''
   - name: privateLinkResources
     uid: '@azure/arm-eventhub.EventHubManagementClient.privateLinkResources|preview'
@@ -197,7 +198,7 @@ properties:
     syntax:
       content: 'privateLinkResources: PrivateLinkResources'
       return:
-        type: <xref uid="@azure/arm-eventhub.PrivateLinkResources" />
+        type: <xref uid="@azure/arm-eventhub.PrivateLinkResources|preview" />
         description: ''
   - name: subscriptionId
     uid: '@azure/arm-eventhub.EventHubManagementClient.subscriptionId|preview'
@@ -253,4 +254,4 @@ methods:
       return:
         type: Promise&lt;PipelineResponse&gt;
         description: ''
-extends: <xref uid="@azure/arm-eventhub.EventHubManagementClientContext" />
+extends: <xref uid="@azure/arm-eventhub.EventHubManagementClientContext|preview" />

@@ -31,19 +31,21 @@ methods:
           type: string
           description: Name of the managed HSM Pool
         - id: parameters
-          type: <xref uid="@azure/arm-keyvault.ManagedHsm" />
+          type: <xref uid="@azure/arm-keyvault.ManagedHsm|preview" />
           description: Parameters to create or update the managed HSM Pool
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-keyvault.ManagedHsmsCreateOrUpdateOptionalParams" />
+            uid="@azure/arm-keyvault.ManagedHsmsCreateOrUpdateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-keyvault.ManagedHsmsCreateOrUpdateResponse" />&gt;,
-          <xref uid="@azure/arm-keyvault.ManagedHsmsCreateOrUpdateResponse"
+          uid="@azure/arm-keyvault.ManagedHsmsCreateOrUpdateResponse|preview"
+          />&gt;, <xref
+          uid="@azure/arm-keyvault.ManagedHsmsCreateOrUpdateResponse|preview"
           />&gt;&gt;
         description: ''
   - name: >-
@@ -68,18 +70,20 @@ methods:
           type: string
           description: Name of the managed HSM Pool
         - id: parameters
-          type: <xref uid="@azure/arm-keyvault.ManagedHsm" />
+          type: <xref uid="@azure/arm-keyvault.ManagedHsm|preview" />
           description: Parameters to create or update the managed HSM Pool
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-keyvault.ManagedHsmsCreateOrUpdateOptionalParams" />
+            uid="@azure/arm-keyvault.ManagedHsmsCreateOrUpdateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-keyvault.ManagedHsmsCreateOrUpdateResponse" />&gt;
+          uid="@azure/arm-keyvault.ManagedHsmsCreateOrUpdateResponse|preview"
+          />&gt;
         description: ''
   - name: beginDelete(string, string, ManagedHsmsDeleteOptionalParams)
     uid: '@azure/arm-keyvault.ManagedHsms.beginDelete|preview'
@@ -100,7 +104,9 @@ methods:
           type: string
           description: The name of the managed HSM Pool to delete
         - id: options
-          type: <xref uid="@azure/arm-keyvault.ManagedHsmsDeleteOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-keyvault.ManagedHsmsDeleteOptionalParams|preview" />
           description: |
             The options parameters.
       return:
@@ -125,7 +131,9 @@ methods:
           type: string
           description: The name of the managed HSM Pool to delete
         - id: options
-          type: <xref uid="@azure/arm-keyvault.ManagedHsmsDeleteOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-keyvault.ManagedHsmsDeleteOptionalParams|preview" />
           description: |
             The options parameters.
       return:
@@ -152,7 +160,8 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-keyvault.ManagedHsmsPurgeDeletedOptionalParams" />
+            uid="@azure/arm-keyvault.ManagedHsmsPurgeDeletedOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -181,7 +190,8 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-keyvault.ManagedHsmsPurgeDeletedOptionalParams" />
+            uid="@azure/arm-keyvault.ManagedHsmsPurgeDeletedOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -206,17 +216,20 @@ methods:
           type: string
           description: Name of the managed HSM Pool
         - id: parameters
-          type: <xref uid="@azure/arm-keyvault.ManagedHsm" />
+          type: <xref uid="@azure/arm-keyvault.ManagedHsm|preview" />
           description: Parameters to patch the managed HSM Pool
         - id: options
-          type: <xref uid="@azure/arm-keyvault.ManagedHsmsUpdateOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-keyvault.ManagedHsmsUpdateOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-keyvault.ManagedHsmsUpdateResponse" />&gt;, <xref
-          uid="@azure/arm-keyvault.ManagedHsmsUpdateResponse" />&gt;&gt;
+          uid="@azure/arm-keyvault.ManagedHsmsUpdateResponse|preview" />&gt;,
+          <xref uid="@azure/arm-keyvault.ManagedHsmsUpdateResponse|preview"
+          />&gt;&gt;
         description: ''
   - name: >-
       beginUpdateAndWait(string, string, ManagedHsm,
@@ -239,16 +252,18 @@ methods:
           type: string
           description: Name of the managed HSM Pool
         - id: parameters
-          type: <xref uid="@azure/arm-keyvault.ManagedHsm" />
+          type: <xref uid="@azure/arm-keyvault.ManagedHsm|preview" />
           description: Parameters to patch the managed HSM Pool
         - id: options
-          type: <xref uid="@azure/arm-keyvault.ManagedHsmsUpdateOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-keyvault.ManagedHsmsUpdateOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-keyvault.ManagedHsmsUpdateResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-keyvault.ManagedHsmsUpdateResponse|preview" />&gt;
         description: ''
   - name: get(string, string, ManagedHsmsGetOptionalParams)
     uid: '@azure/arm-keyvault.ManagedHsms.get|preview'
@@ -269,13 +284,15 @@ methods:
           type: string
           description: The name of the managed HSM Pool.
         - id: options
-          type: <xref uid="@azure/arm-keyvault.ManagedHsmsGetOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-keyvault.ManagedHsmsGetOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-keyvault.ManagedHsmsGetResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-keyvault.ManagedHsmsGetResponse|preview" />&gt;
         description: ''
   - name: getDeleted(string, string, ManagedHsmsGetDeletedOptionalParams)
     uid: '@azure/arm-keyvault.ManagedHsms.getDeleted|preview'
@@ -297,14 +314,15 @@ methods:
           description: The location of the deleted managed HSM.
         - id: options
           type: >-
-            <xref uid="@azure/arm-keyvault.ManagedHsmsGetDeletedOptionalParams"
+            <xref
+            uid="@azure/arm-keyvault.ManagedHsmsGetDeletedOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-keyvault.ManagedHsmsGetDeletedResponse" />&gt;
+          uid="@azure/arm-keyvault.ManagedHsmsGetDeletedResponse|preview" />&gt;
         description: ''
   - name: listByResourceGroup(string, ManagedHsmsListByResourceGroupOptionalParams)
     uid: '@azure/arm-keyvault.ManagedHsms.listByResourceGroup|preview'
@@ -328,14 +346,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-keyvault.ManagedHsmsListByResourceGroupOptionalParams"
+            uid="@azure/arm-keyvault.ManagedHsmsListByResourceGroupOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-keyvault.ManagedHsm" />&gt;
+          uid="@azure/arm-keyvault.ManagedHsm|preview" />&gt;
         description: ''
   - name: listBySubscription(ManagedHsmsListBySubscriptionOptionalParams)
     uid: '@azure/arm-keyvault.ManagedHsms.listBySubscription|preview'
@@ -354,14 +372,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-keyvault.ManagedHsmsListBySubscriptionOptionalParams"
+            uid="@azure/arm-keyvault.ManagedHsmsListBySubscriptionOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-keyvault.ManagedHsm" />&gt;
+          uid="@azure/arm-keyvault.ManagedHsm|preview" />&gt;
         description: ''
   - name: listDeleted(ManagedHsmsListDeletedOptionalParams)
     uid: '@azure/arm-keyvault.ManagedHsms.listDeleted|preview'
@@ -377,12 +395,13 @@ methods:
       parameters:
         - id: options
           type: >-
-            <xref uid="@azure/arm-keyvault.ManagedHsmsListDeletedOptionalParams"
+            <xref
+            uid="@azure/arm-keyvault.ManagedHsmsListDeletedOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-keyvault.DeletedManagedHsm" />&gt;
+          uid="@azure/arm-keyvault.DeletedManagedHsm|preview" />&gt;
         description: ''

@@ -120,7 +120,7 @@ methods:
           type: string
           description: ''
       return:
-        type: <xref uid="@azure/core-http.URLBuilder" />
+        type: <xref uid="@azure/core-http.URLBuilder|latest-stable" />
         description: ''
   - name: replaceAll(string, string)
     uid: '@azure/core-http.URLBuilder.replaceAll|latest-stable'

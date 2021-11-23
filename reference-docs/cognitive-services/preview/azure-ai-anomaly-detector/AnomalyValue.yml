@@ -23,7 +23,7 @@ properties:
     syntax:
       content: 'contributors?: AnomalyContributor[]'
       return:
-        type: <xref uid="@azure/ai-anomaly-detector.AnomalyContributor" />[]
+        type: <xref uid="@azure/ai-anomaly-detector.AnomalyContributor|preview" />[]
         description: ''
   - name: isAnomaly
     uid: '@azure/ai-anomaly-detector.AnomalyValue.isAnomaly|preview'

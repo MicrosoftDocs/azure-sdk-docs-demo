@@ -61,6 +61,10 @@ properties:
     syntax:
       content: 'results: ExtractSummaryResultArray'
       return:
-        type: <xref uid="@azure/ai-text-analytics.ExtractSummaryResultArray" />
+        type: >-
+          <xref uid="@azure/ai-text-analytics.ExtractSummaryResultArray|preview"
+          />
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsActionSuccessState" />
+extends: >-
+  <xref uid="@azure/ai-text-analytics.TextAnalyticsActionSuccessState|preview"
+  />

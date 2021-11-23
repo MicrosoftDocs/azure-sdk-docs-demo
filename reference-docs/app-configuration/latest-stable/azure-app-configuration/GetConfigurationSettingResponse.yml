@@ -159,5 +159,5 @@ properties:
         type: string
         description: ''
 extends: >-
-  <xref uid="@azure/app-configuration.ConfigurationSettingId" /> & Object &
-  Object & Object
+  <xref uid="@azure/app-configuration.ConfigurationSettingId|latest-stable" /> &
+  Object & Object & Object

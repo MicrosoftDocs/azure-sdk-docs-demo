@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'crv?: KeyCurveName'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyCurveName" />
+        type: <xref uid="@azure/keyvault-keys.KeyCurveName|latest-stable" />
         description: ''
   - name: d
     uid: '@azure/keyvault-keys.JsonWebKey.d|latest-stable'
@@ -104,7 +104,7 @@ properties:
     syntax:
       content: 'keyOps?: KeyOperation[]'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyOperation" />[]
+        type: <xref uid="@azure/keyvault-keys.KeyOperation|latest-stable" />[]
         description: ''
   - name: kid
     uid: '@azure/keyvault-keys.JsonWebKey.kid|latest-stable'
@@ -136,7 +136,7 @@ properties:
     syntax:
       content: 'kty?: KeyType'
       return:
-        type: <xref uid="@azure/keyvault-keys.KeyType" />
+        type: <xref uid="@azure/keyvault-keys.KeyType|latest-stable" />
         description: ''
   - name: 'n'
     uid: '@azure/keyvault-keys.JsonWebKey.n|latest-stable'

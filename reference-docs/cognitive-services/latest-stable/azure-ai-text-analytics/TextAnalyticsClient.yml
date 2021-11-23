@@ -46,7 +46,10 @@ constructors:
           type: TokenCredential | KeyCredential
           description: Used to authenticate requests to the service.
         - id: options
-          type: <xref uid="@azure/ai-text-analytics.TextAnalyticsClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.TextAnalyticsClientOptions|latest-stable"
+            />
           description: |
             Used to configure the TextAnalytics client.
 properties:
@@ -128,13 +131,17 @@ methods:
             If set to an empty string, the service will apply a model
             where the lanuage is explicitly set to "None".
         - id: options
-          type: <xref uid="@azure/ai-text-analytics.AnalyzeSentimentOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.AnalyzeSentimentOptions|latest-stable"
+            />
           description: |
             Optional parameters that includes enabling opinion mining.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-text-analytics.AnalyzeSentimentResultArray" />&gt;
+          uid="@azure/ai-text-analytics.AnalyzeSentimentResultArray|latest-stable"
+          />&gt;
         description: ''
   - name: analyzeSentiment(TextDocumentInput[], AnalyzeSentimentOptions)
     uid: >-
@@ -162,16 +169,22 @@ methods:
         AnalyzeSentimentOptions)
       parameters:
         - id: documents
-          type: <xref uid="@azure/ai-text-analytics.TextDocumentInput" />[]
+          type: >-
+            <xref uid="@azure/ai-text-analytics.TextDocumentInput|latest-stable"
+            />[]
           description: The input documents to analyze.
         - id: options
-          type: <xref uid="@azure/ai-text-analytics.AnalyzeSentimentOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.AnalyzeSentimentOptions|latest-stable"
+            />
           description: |
             Optional parameters that includes enabling opinion mining.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-text-analytics.AnalyzeSentimentResultArray" />&gt;
+          uid="@azure/ai-text-analytics.AnalyzeSentimentResultArray|latest-stable"
+          />&gt;
         description: ''
   - name: >-
       beginAnalyzeActions(string[], TextAnalyticsActions, string,
@@ -195,7 +208,9 @@ methods:
           type: string[]
           description: Collection of documents to analyze
         - id: actions
-          type: <xref uid="@azure/ai-text-analytics.TextAnalyticsActions" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.TextAnalyticsActions|latest-stable" />
           description: TextAnalyticsActions to execute.
         - id: language
           type: string
@@ -206,13 +221,17 @@ methods:
             If set to an empty string, the service will apply a model
             where the language is explicitly set to "None".
         - id: options
-          type: <xref uid="@azure/ai-text-analytics.BeginAnalyzeActionsOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.BeginAnalyzeActionsOptions|latest-stable"
+            />
           description: |
             Options for the operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-text-analytics.AnalyzeActionsPollerLike" />&gt;
+          uid="@azure/ai-text-analytics.AnalyzeActionsPollerLike|latest-stable"
+          />&gt;
         description: ''
   - name: >-
       beginAnalyzeActions(TextDocumentInput[], TextAnalyticsActions,
@@ -232,19 +251,27 @@ methods:
         TextAnalyticsActions, options?: BeginAnalyzeActionsOptions)
       parameters:
         - id: documents
-          type: <xref uid="@azure/ai-text-analytics.TextDocumentInput" />[]
+          type: >-
+            <xref uid="@azure/ai-text-analytics.TextDocumentInput|latest-stable"
+            />[]
           description: Collection of documents to analyze
         - id: actions
-          type: <xref uid="@azure/ai-text-analytics.TextAnalyticsActions" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.TextAnalyticsActions|latest-stable" />
           description: TextAnalyticsActions to execute.
         - id: options
-          type: <xref uid="@azure/ai-text-analytics.BeginAnalyzeActionsOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.BeginAnalyzeActionsOptions|latest-stable"
+            />
           description: |
             Options for the operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-text-analytics.AnalyzeActionsPollerLike" />&gt;
+          uid="@azure/ai-text-analytics.AnalyzeActionsPollerLike|latest-stable"
+          />&gt;
         description: ''
   - name: >-
       beginAnalyzeHealthcareEntities(string[], string,
@@ -279,14 +306,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/ai-text-analytics.BeginAnalyzeHealthcareEntitiesOptions"
+            uid="@azure/ai-text-analytics.BeginAnalyzeHealthcareEntitiesOptions|latest-stable"
             />
           description: |
             Options for the operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesPollerLike"
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesPollerLike|latest-stable"
           />&gt;
         description: ''
   - name: >-
@@ -309,19 +336,21 @@ methods:
         options?: BeginAnalyzeHealthcareEntitiesOptions)
       parameters:
         - id: documents
-          type: <xref uid="@azure/ai-text-analytics.TextDocumentInput" />[]
+          type: >-
+            <xref uid="@azure/ai-text-analytics.TextDocumentInput|latest-stable"
+            />[]
           description: Collection of documents to analyze.
         - id: options
           type: >-
             <xref
-            uid="@azure/ai-text-analytics.BeginAnalyzeHealthcareEntitiesOptions"
+            uid="@azure/ai-text-analytics.BeginAnalyzeHealthcareEntitiesOptions|latest-stable"
             />
           description: |
             Options for the operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesPollerLike"
+          uid="@azure/ai-text-analytics.AnalyzeHealthcareEntitiesPollerLike|latest-stable"
           />&gt;
         description: ''
   - name: detectLanguage(DetectLanguageInput[], DetectLanguageOptions)
@@ -348,16 +377,23 @@ methods:
         DetectLanguageOptions)
       parameters:
         - id: documents
-          type: <xref uid="@azure/ai-text-analytics.DetectLanguageInput" />[]
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.DetectLanguageInput|latest-stable"
+            />[]
           description: A collection of input documents to analyze.
         - id: options
-          type: <xref uid="@azure/ai-text-analytics.DetectLanguageOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.DetectLanguageOptions|latest-stable"
+            />
           description: |
             Optional parameters for the operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-text-analytics.DetectLanguageResultArray" />&gt;
+          uid="@azure/ai-text-analytics.DetectLanguageResultArray|latest-stable"
+          />&gt;
         description: ''
   - name: detectLanguage(string[], string, DetectLanguageOptions)
     uid: '@azure/ai-text-analytics.TextAnalyticsClient.detectLanguage|latest-stable'
@@ -395,13 +431,17 @@ methods:
               model where the country is explicitly unset.
               The same country hint is applied to all strings in the input collection.
         - id: options
-          type: <xref uid="@azure/ai-text-analytics.DetectLanguageOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.DetectLanguageOptions|latest-stable"
+            />
           description: |
             Optional parameters for the operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-text-analytics.DetectLanguageResultArray" />&gt;
+          uid="@azure/ai-text-analytics.DetectLanguageResultArray|latest-stable"
+          />&gt;
         description: ''
   - name: extractKeyPhrases(string[], string, ExtractKeyPhrasesOptions)
     uid: >-
@@ -435,13 +475,17 @@ methods:
             If set to an empty string, the service will apply a model
             where the language is explicitly set to "None".
         - id: options
-          type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.ExtractKeyPhrasesOptions|latest-stable"
+            />
           description: |
             Options for the operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResultArray" />&gt;
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResultArray|latest-stable"
+          />&gt;
         description: ''
   - name: extractKeyPhrases(TextDocumentInput[], ExtractKeyPhrasesOptions)
     uid: >-
@@ -464,16 +508,22 @@ methods:
         ExtractKeyPhrasesOptions)
       parameters:
         - id: documents
-          type: <xref uid="@azure/ai-text-analytics.TextDocumentInput" />[]
+          type: >-
+            <xref uid="@azure/ai-text-analytics.TextDocumentInput|latest-stable"
+            />[]
           description: The input documents to analyze.
         - id: options
-          type: <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.ExtractKeyPhrasesOptions|latest-stable"
+            />
           description: |
             Options for the operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResultArray" />&gt;
+          uid="@azure/ai-text-analytics.ExtractKeyPhrasesResultArray|latest-stable"
+          />&gt;
         description: ''
   - name: recognizeEntities(string[], string, RecognizeCategorizedEntitiesOptions)
     uid: >-
@@ -515,14 +565,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesOptions"
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesOptions|latest-stable"
             />
           description: |
             Optional parameters for the operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray"
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray|latest-stable"
           />&gt;
         description: ''
   - name: >-
@@ -554,19 +604,21 @@ methods:
         RecognizeCategorizedEntitiesOptions)
       parameters:
         - id: documents
-          type: <xref uid="@azure/ai-text-analytics.TextDocumentInput" />[]
+          type: >-
+            <xref uid="@azure/ai-text-analytics.TextDocumentInput|latest-stable"
+            />[]
           description: The input documents to analyze.
         - id: options
           type: >-
             <xref
-            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesOptions"
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesOptions|latest-stable"
             />
           description: |
             Optional parameters for the operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray"
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray|latest-stable"
           />&gt;
         description: ''
   - name: recognizeLinkedEntities(string[], string, RecognizeLinkedEntitiesOptions)
@@ -604,14 +656,15 @@ methods:
             where the language is explicitly set to "None".
         - id: options
           type: >-
-            <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesOptions"
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesOptions|latest-stable"
             />
           description: |
             Options for the operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResultArray"
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResultArray|latest-stable"
           />&gt;
         description: ''
   - name: >-
@@ -640,18 +693,21 @@ methods:
         options?: RecognizeLinkedEntitiesOptions)
       parameters:
         - id: documents
-          type: <xref uid="@azure/ai-text-analytics.TextDocumentInput" />[]
+          type: >-
+            <xref uid="@azure/ai-text-analytics.TextDocumentInput|latest-stable"
+            />[]
           description: The input documents to analyze.
         - id: options
           type: >-
-            <xref uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesOptions"
+            <xref
+            uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesOptions|latest-stable"
             />
           description: |
             Options for the operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResultArray"
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesResultArray|latest-stable"
           />&gt;
         description: ''
   - name: recognizePiiEntities(string[], string, RecognizePiiEntitiesOptions)
@@ -690,13 +746,17 @@ methods:
             If set to an empty string, the service will apply a model
             where the language is explicitly set to "None".
         - id: options
-          type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.RecognizePiiEntitiesOptions|latest-stable"
+            />
           description: |
             Options for the operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResultArray" />&gt;
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResultArray|latest-stable"
+          />&gt;
         description: ''
   - name: recognizePiiEntities(TextDocumentInput[], RecognizePiiEntitiesOptions)
     uid: >-
@@ -724,14 +784,20 @@ methods:
         RecognizePiiEntitiesOptions)
       parameters:
         - id: inputs
-          type: <xref uid="@azure/ai-text-analytics.TextDocumentInput" />[]
+          type: >-
+            <xref uid="@azure/ai-text-analytics.TextDocumentInput|latest-stable"
+            />[]
           description: The input documents to analyze.
         - id: options
-          type: <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesOptions" />
+          type: >-
+            <xref
+            uid="@azure/ai-text-analytics.RecognizePiiEntitiesOptions|latest-stable"
+            />
           description: |
             Optional parameters for the operation.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResultArray" />&gt;
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesResultArray|latest-stable"
+          />&gt;
         description: ''

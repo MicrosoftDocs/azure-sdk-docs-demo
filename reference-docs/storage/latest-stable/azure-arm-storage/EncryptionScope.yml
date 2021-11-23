@@ -60,7 +60,10 @@ properties:
     syntax:
       content: 'keyVaultProperties?: EncryptionScopeKeyVaultProperties'
       return:
-        type: <xref uid="@azure/arm-storage.EncryptionScopeKeyVaultProperties" />
+        type: >-
+          <xref
+          uid="@azure/arm-storage.EncryptionScopeKeyVaultProperties|latest-stable"
+          />
         description: ''
   - name: lastModifiedTime
     uid: '@azure/arm-storage.EncryptionScope.lastModifiedTime|latest-stable'
@@ -130,7 +133,7 @@ properties:
     syntax:
       content: 'source?: EncryptionScopeSource'
       return:
-        type: <xref uid="@azure/arm-storage.EncryptionScopeSource" />
+        type: <xref uid="@azure/arm-storage.EncryptionScopeSource|latest-stable" />
         description: ''
   - name: state
     uid: '@azure/arm-storage.EncryptionScope.state|latest-stable'
@@ -147,7 +150,7 @@ properties:
     syntax:
       content: 'state?: EncryptionScopeState'
       return:
-        type: <xref uid="@azure/arm-storage.EncryptionScopeState" />
+        type: <xref uid="@azure/arm-storage.EncryptionScopeState|latest-stable" />
         description: ''
   - name: type
     uid: '@azure/arm-storage.EncryptionScope.type|latest-stable'
@@ -168,4 +171,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-storage.Resource" />
+extends: <xref uid="@azure/arm-storage.Resource|latest-stable" />

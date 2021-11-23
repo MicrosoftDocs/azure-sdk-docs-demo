@@ -31,10 +31,10 @@ constructors:
           type: number
           description: ''
         - id: request
-          type: <xref uid="@azure/core-http.WebResourceLike" />
+          type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
           description: ''
         - id: response
-          type: <xref uid="@azure/core-http.HttpOperationResponse" />
+          type: <xref uid="@azure/core-http.HttpOperationResponse|latest-stable" />
           description: ''
 properties:
   - name: code
@@ -126,7 +126,7 @@ properties:
     syntax:
       content: 'request?: WebResourceLike'
       return:
-        type: <xref uid="@azure/core-http.WebResourceLike" />
+        type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
         description: ''
   - name: REQUEST_SEND_ERROR
     uid: '@azure/core-http.RestError.REQUEST_SEND_ERROR|latest-stable'
@@ -152,7 +152,7 @@ properties:
     syntax:
       content: 'response?: HttpOperationResponse'
       return:
-        type: <xref uid="@azure/core-http.HttpOperationResponse" />
+        type: <xref uid="@azure/core-http.HttpOperationResponse|latest-stable" />
         description: ''
   - name: stack
     uid: '@azure/core-http.RestError.stack|latest-stable'

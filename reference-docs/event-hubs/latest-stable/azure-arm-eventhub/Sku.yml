@@ -40,7 +40,7 @@ properties:
     syntax:
       content: 'name: SkuName'
       return:
-        type: <xref uid="@azure/arm-eventhub.SkuName" />
+        type: <xref uid="@azure/arm-eventhub.SkuName|latest-stable" />
         description: ''
   - name: tier
     uid: '@azure/arm-eventhub.Sku.tier|latest-stable'
@@ -57,5 +57,5 @@ properties:
     syntax:
       content: 'tier?: SkuTier'
       return:
-        type: <xref uid="@azure/arm-eventhub.SkuTier" />
+        type: <xref uid="@azure/arm-eventhub.SkuTier|latest-stable" />
         description: ''

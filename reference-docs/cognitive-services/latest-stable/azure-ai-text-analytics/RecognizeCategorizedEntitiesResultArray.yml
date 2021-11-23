@@ -77,7 +77,10 @@ properties:
     syntax:
       content: 'statistics?: TextDocumentBatchStatistics'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextDocumentBatchStatistics" />
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TextDocumentBatchStatistics|latest-stable"
+          />
         description: ''
 methods:
   - name: at(number)
@@ -100,8 +103,8 @@ methods:
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" /> |
-          undefined
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+          /> | undefined
         description: ''
   - name: concat(ConcatArray<RecognizeCategorizedEntitiesResult>[])
     uid: >-
@@ -119,14 +122,15 @@ methods:
         - id: items
           type: >-
             ConcatArray&lt;<xref
-            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult"
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
             />&gt;[]
           description: |
             Additional items to add to the end of array1.
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />[]
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+          />[]
         description: ''
   - name: concat(T | ConcatArray<T>[])
     uid: >-
@@ -146,7 +150,8 @@ methods:
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />[]
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+          />[]
         description: ''
   - name: copyWithin(number, number, number)
     uid: >-
@@ -249,7 +254,8 @@ methods:
         - id: value
           type: >-
             <xref
-            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+            />
           description: value to fill array section with
         - id: start
           type: number
@@ -303,7 +309,8 @@ methods:
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />[]
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+          />[]
         description: ''
   - name: >-
       filter<S>((value: RecognizeCategorizedEntitiesResult, index: number,
@@ -367,8 +374,8 @@ methods:
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" /> |
-          undefined
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+          /> | undefined
         description: ''
   - name: >-
       find<S>((this: void, value: RecognizeCategorizedEntitiesResult, index:
@@ -770,7 +777,8 @@ methods:
         - id: searchElement
           type: >-
             <xref
-            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+            />
           description: The element to search for.
         - id: fromIndex
           type: number
@@ -796,7 +804,8 @@ methods:
         - id: searchElement
           type: >-
             <xref
-            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+            />
           description: The value to locate in the array.
         - id: fromIndex
           type: number
@@ -857,7 +866,8 @@ methods:
         - id: searchElement
           type: >-
             <xref
-            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+            />
           description: The value to locate in the array.
         - id: fromIndex
           type: number
@@ -914,8 +924,8 @@ methods:
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" /> |
-          undefined
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+          /> | undefined
         description: ''
   - name: push(RecognizeCategorizedEntitiesResult[])
     uid: >-
@@ -931,7 +941,7 @@ methods:
         - id: items
           type: >-
             <xref
-            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult"
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
             />[]
           description: |
             New elements of the Array.
@@ -974,7 +984,8 @@ methods:
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+          />
         description: ''
   - name: >-
       reduce((previousValue: RecognizeCategorizedEntitiesResult, currentValue:
@@ -1007,12 +1018,14 @@ methods:
         - id: initialValue
           type: >-
             <xref
-            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+            />
           description: ''
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+          />
         description: ''
   - name: >-
       reduce<U>((previousValue: U, currentValue:
@@ -1089,7 +1102,8 @@ methods:
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+          />
         description: ''
   - name: >-
       reduceRight((previousValue: RecognizeCategorizedEntitiesResult,
@@ -1122,12 +1136,14 @@ methods:
         - id: initialValue
           type: >-
             <xref
-            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+            />
           description: ''
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+          />
         description: ''
   - name: >-
       reduceRight<U>((previousValue: U, currentValue:
@@ -1181,7 +1197,8 @@ methods:
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />[]
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+          />[]
         description: ''
   - name: shift()
     uid: >-
@@ -1196,8 +1213,8 @@ methods:
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" /> |
-          undefined
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+          /> | undefined
         description: ''
   - name: slice(number, number)
     uid: >-
@@ -1220,7 +1237,8 @@ methods:
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />[]
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+          />[]
         description: ''
   - name: >-
       some((value: RecognizeCategorizedEntitiesResult, index: number, array:
@@ -1308,7 +1326,8 @@ methods:
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />[]
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+          />[]
         description: ''
   - name: splice(number, number, RecognizeCategorizedEntitiesResult[])
     uid: >-
@@ -1336,14 +1355,15 @@ methods:
         - id: items
           type: >-
             <xref
-            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult"
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
             />[]
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
         type: >-
           <xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />[]
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+          />[]
         description: ''
   - name: toLocaleString()
     uid: >-
@@ -1387,7 +1407,7 @@ methods:
         - id: items
           type: >-
             <xref
-            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult"
+            uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
             />[]
           description: |
             Elements to insert at the start of the Array.
@@ -1407,9 +1427,10 @@ methods:
       return:
         type: >-
           IterableIterator&lt;<xref
-          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult"
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
           />&gt;
         description: ''
 extends: >-
   Array&lt;<xref
-  uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult" />&gt;
+  uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable"
+  />&gt;

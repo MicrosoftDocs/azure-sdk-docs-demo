@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'analyzerName?: LexicalAnalyzerName'
       return:
-        type: <xref uid="@azure/search-documents.LexicalAnalyzerName" />
+        type: <xref uid="@azure/search-documents.LexicalAnalyzerName|preview" />
         description: ''
   - name: facetable
     uid: '@azure/search-documents.SimpleField.facetable|preview'
@@ -138,7 +138,7 @@ properties:
     syntax:
       content: 'indexAnalyzerName?: LexicalAnalyzerName'
       return:
-        type: <xref uid="@azure/search-documents.LexicalAnalyzerName" />
+        type: <xref uid="@azure/search-documents.LexicalAnalyzerName|preview" />
         description: ''
   - name: key
     uid: '@azure/search-documents.SimpleField.key|preview'
@@ -191,7 +191,7 @@ properties:
     syntax:
       content: 'normalizerName?: LexicalNormalizerName'
       return:
-        type: <xref uid="@azure/search-documents.LexicalNormalizerName" />
+        type: <xref uid="@azure/search-documents.LexicalNormalizerName|preview" />
         description: ''
   - name: searchable
     uid: '@azure/search-documents.SimpleField.searchable|preview'
@@ -247,7 +247,7 @@ properties:
     syntax:
       content: 'searchAnalyzerName?: LexicalAnalyzerName'
       return:
-        type: <xref uid="@azure/search-documents.LexicalAnalyzerName" />
+        type: <xref uid="@azure/search-documents.LexicalAnalyzerName|preview" />
         description: ''
   - name: sortable
     uid: '@azure/search-documents.SimpleField.sortable|preview'
@@ -331,5 +331,5 @@ properties:
     syntax:
       content: 'type: SearchFieldDataType'
       return:
-        type: <xref uid="@azure/search-documents.SearchFieldDataType" />
+        type: <xref uid="@azure/search-documents.SearchFieldDataType|preview" />
         description: ''

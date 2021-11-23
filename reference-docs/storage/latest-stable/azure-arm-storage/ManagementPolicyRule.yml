@@ -22,7 +22,9 @@ properties:
     syntax:
       content: 'definition: ManagementPolicyDefinition'
       return:
-        type: <xref uid="@azure/arm-storage.ManagementPolicyDefinition" />
+        type: >-
+          <xref
+          uid="@azure/arm-storage.ManagementPolicyDefinition|latest-stable" />
         description: ''
   - name: enabled
     uid: '@azure/arm-storage.ManagementPolicyRule.enabled|latest-stable'

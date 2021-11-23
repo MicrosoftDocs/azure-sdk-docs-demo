@@ -28,7 +28,7 @@ properties:
     syntax:
       content: 'collectionFormat?: QueryCollectionFormat'
       return:
-        type: <xref uid="@azure/core-http.QueryCollectionFormat" />
+        type: <xref uid="@azure/core-http.QueryCollectionFormat|latest-stable" />
         description: ''
   - name: mapper
     uid: '@azure/core-http.OperationQueryParameter.mapper|latest-stable'
@@ -43,7 +43,7 @@ properties:
     syntax:
       content: 'mapper: Mapper'
       return:
-        type: <xref uid="@azure/core-http.Mapper" />
+        type: <xref uid="@azure/core-http.Mapper|latest-stable" />
         description: ''
   - name: parameterPath
     uid: '@azure/core-http.OperationQueryParameter.parameterPath|latest-stable'
@@ -60,7 +60,7 @@ properties:
     syntax:
       content: 'parameterPath: ParameterPath'
       return:
-        type: <xref uid="@azure/core-http.ParameterPath" />
+        type: <xref uid="@azure/core-http.ParameterPath|latest-stable" />
         description: ''
   - name: skipEncoding
     uid: '@azure/core-http.OperationQueryParameter.skipEncoding|latest-stable'
@@ -77,4 +77,4 @@ properties:
       return:
         type: boolean
         description: ''
-extends: <xref uid="@azure/core-http.OperationParameter" />
+extends: <xref uid="@azure/core-http.OperationParameter|latest-stable" />

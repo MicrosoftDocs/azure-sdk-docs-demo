@@ -67,4 +67,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/app-configuration.HttpOnlyIfUnchangedField" />
+extends: <xref uid="@azure/app-configuration.HttpOnlyIfUnchangedField|latest-stable" />

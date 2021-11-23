@@ -37,7 +37,7 @@ properties:
     syntax:
       content: 'contentType?: FormContentType'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FormContentType" />
+        type: <xref uid="@azure/ai-form-recognizer.FormContentType|latest-stable" />
         description: ''
   - name: includeFieldElements
     uid: >-
@@ -147,4 +147,4 @@ properties:
       return:
         type: number
         description: ''
-extends: <xref uid="@azure/ai-form-recognizer.RecognizeFormsOptions" />
+extends: <xref uid="@azure/ai-form-recognizer.RecognizeFormsOptions|latest-stable" />

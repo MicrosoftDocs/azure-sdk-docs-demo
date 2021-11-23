@@ -33,7 +33,9 @@ properties:
     syntax:
       content: 'error: Error | ServiceBusError'
       return:
-        type: Error | <xref uid="@azure/service-bus.ServiceBusError" />
+        type: >-
+          Error | <xref uid="@azure/service-bus.ServiceBusError|latest-stable"
+          />
         description: ''
   - name: errorSource
     uid: '@azure/service-bus.ProcessErrorArgs.errorSource|latest-stable'

@@ -20,7 +20,10 @@ constructors:
       content: 'new ManagementPolicies(client: StorageManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -56,18 +59,21 @@ methods:
 
             letters only.
         - id: policy
-          type: <xref uid="@azure/arm-storage.ManagementPolicySchema" />
+          type: >-
+            <xref uid="@azure/arm-storage.ManagementPolicySchema|latest-stable"
+            />
           description: >-
             The Storage Account ManagementPolicy, in JSON format. See more
             details in:
 
             https://docs.microsoft.com/en-us/azure/storage/common/storage-lifecycle-managment-concepts.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.ManagementPoliciesCreateOrUpdateResponse"
+          Promise&lt;<xref
+          uid="Models.ManagementPoliciesCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.ManagementPoliciesCreateOrUpdateResponse>
   - name: >-
@@ -103,7 +109,9 @@ methods:
 
             letters only.
         - id: policy
-          type: <xref uid="@azure/arm-storage.ManagementPolicySchema" />
+          type: >-
+            <xref uid="@azure/arm-storage.ManagementPolicySchema|latest-stable"
+            />
           description: >-
             The Storage Account ManagementPolicy, in JSON format. See more
             details in:
@@ -114,8 +122,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ManagementPolicy"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ManagementPolicy|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -151,7 +159,9 @@ methods:
 
             letters only.
         - id: policy
-          type: <xref uid="@azure/arm-storage.ManagementPolicySchema" />
+          type: >-
+            <xref uid="@azure/arm-storage.ManagementPolicySchema|latest-stable"
+            />
           description: >-
             The Storage Account ManagementPolicy, in JSON format. See more
             details in:
@@ -159,8 +169,8 @@ methods:
             https://docs.microsoft.com/en-us/azure/storage/common/storage-lifecycle-managment-concepts.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ManagementPolicy"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ManagementPolicy|latest-stable" />&gt;
           description: |
             The callback
   - name: deleteMethod(string, string, msRest.RequestOptionsBase)
@@ -195,7 +205,7 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -299,10 +309,12 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ManagementPoliciesGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.ManagementPoliciesGetResponse|latest-stable" />&gt;
         description: Promise<Models.ManagementPoliciesGetResponse>
   - name: get(string, string, RequestOptionsBase, ServiceCallback<ManagementPolicy>)
     uid: '@azure/arm-storage.ManagementPolicies.get_2|latest-stable'
@@ -338,8 +350,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ManagementPolicy"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ManagementPolicy|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, ServiceCallback<ManagementPolicy>)
@@ -373,7 +385,7 @@ methods:
             letters only.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ManagementPolicy"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ManagementPolicy|latest-stable" />&gt;
           description: |
             The callback

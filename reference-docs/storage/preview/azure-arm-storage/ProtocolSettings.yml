@@ -20,5 +20,5 @@ properties:
     syntax:
       content: 'smb?: SmbSetting'
       return:
-        type: <xref uid="@azure/arm-storage.SmbSetting" />
+        type: <xref uid="@azure/arm-storage.SmbSetting|preview" />
         description: ''

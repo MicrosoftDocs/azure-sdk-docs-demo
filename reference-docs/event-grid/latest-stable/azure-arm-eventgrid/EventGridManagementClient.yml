@@ -47,7 +47,7 @@ constructors:
             subscription. The subscription ID forms part of the URI for every
             service call.
         - id: options
-          type: <xref uid="Models.EventGridManagementClientOptions" />
+          type: <xref uid="Models.EventGridManagementClientOptions|latest-stable" />
           description: ''
 properties:
   - name: acceptLanguage
@@ -101,7 +101,7 @@ properties:
     syntax:
       content: 'domains: Domains'
       return:
-        type: <xref uid="@azure/arm-eventgrid.Domains" />
+        type: <xref uid="@azure/arm-eventgrid.Domains|latest-stable" />
         description: ''
   - name: domainTopics
     uid: '@azure/arm-eventgrid.EventGridManagementClient.domainTopics|latest-stable'
@@ -114,7 +114,7 @@ properties:
     syntax:
       content: 'domainTopics: DomainTopics'
       return:
-        type: <xref uid="@azure/arm-eventgrid.DomainTopics" />
+        type: <xref uid="@azure/arm-eventgrid.DomainTopics|latest-stable" />
         description: ''
   - name: eventSubscriptions
     uid: >-
@@ -128,7 +128,7 @@ properties:
     syntax:
       content: 'eventSubscriptions: EventSubscriptions'
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscriptions" />
+        type: <xref uid="@azure/arm-eventgrid.EventSubscriptions|latest-stable" />
         description: ''
   - name: extensionTopics
     uid: >-
@@ -142,7 +142,7 @@ properties:
     syntax:
       content: 'extensionTopics: ExtensionTopics'
       return:
-        type: <xref uid="@azure/arm-eventgrid.ExtensionTopics" />
+        type: <xref uid="@azure/arm-eventgrid.ExtensionTopics|latest-stable" />
         description: ''
   - name: longRunningOperationRetryTimeout
     uid: >-
@@ -171,7 +171,7 @@ properties:
     syntax:
       content: 'operations: Operations'
       return:
-        type: <xref uid="@azure/arm-eventgrid.Operations" />
+        type: <xref uid="@azure/arm-eventgrid.Operations|latest-stable" />
         description: ''
   - name: privateEndpointConnections
     uid: >-
@@ -185,7 +185,9 @@ properties:
     syntax:
       content: 'privateEndpointConnections: PrivateEndpointConnections'
       return:
-        type: <xref uid="@azure/arm-eventgrid.PrivateEndpointConnections" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.PrivateEndpointConnections|latest-stable" />
         description: ''
   - name: privateLinkResources
     uid: >-
@@ -199,7 +201,7 @@ properties:
     syntax:
       content: 'privateLinkResources: PrivateLinkResources'
       return:
-        type: <xref uid="@azure/arm-eventgrid.PrivateLinkResources" />
+        type: <xref uid="@azure/arm-eventgrid.PrivateLinkResources|latest-stable" />
         description: ''
   - name: subscriptionId
     uid: >-
@@ -227,7 +229,10 @@ properties:
     syntax:
       content: 'systemTopicEventSubscriptions: SystemTopicEventSubscriptions'
       return:
-        type: <xref uid="@azure/arm-eventgrid.SystemTopicEventSubscriptions" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.SystemTopicEventSubscriptions|latest-stable"
+          />
         description: ''
   - name: systemTopics
     uid: '@azure/arm-eventgrid.EventGridManagementClient.systemTopics|latest-stable'
@@ -240,7 +245,7 @@ properties:
     syntax:
       content: 'systemTopics: SystemTopics'
       return:
-        type: <xref uid="@azure/arm-eventgrid.SystemTopics" />
+        type: <xref uid="@azure/arm-eventgrid.SystemTopics|latest-stable" />
         description: ''
   - name: topics
     uid: '@azure/arm-eventgrid.EventGridManagementClient.topics|latest-stable'
@@ -253,7 +258,7 @@ properties:
     syntax:
       content: 'topics: Topics'
       return:
-        type: <xref uid="@azure/arm-eventgrid.Topics" />
+        type: <xref uid="@azure/arm-eventgrid.Topics|latest-stable" />
         description: ''
   - name: topicTypes
     uid: '@azure/arm-eventgrid.EventGridManagementClient.topicTypes|latest-stable'
@@ -266,7 +271,7 @@ properties:
     syntax:
       content: 'topicTypes: TopicTypes'
       return:
-        type: <xref uid="@azure/arm-eventgrid.TopicTypes" />
+        type: <xref uid="@azure/arm-eventgrid.TopicTypes|latest-stable" />
         description: ''
 methods:
   - name: >-
@@ -427,4 +432,6 @@ methods:
       return:
         type: Promise&lt;HttpOperationResponse&gt;
         description: ''
-extends: <xref uid="@azure/arm-eventgrid.EventGridManagementClientContext" />
+extends: >-
+  <xref
+  uid="@azure/arm-eventgrid.EventGridManagementClientContext|latest-stable" />

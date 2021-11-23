@@ -75,7 +75,7 @@ properties:
     syntax:
       content: 'systemData?: SystemData'
       return:
-        type: <xref uid="@azure/arm-eventhub.SystemData" />
+        type: <xref uid="@azure/arm-eventhub.SystemData|latest-stable" />
         description: ''
   - name: type
     uid: '@azure/arm-eventhub.ConsumerGroup.type|latest-stable'
@@ -131,4 +131,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-eventhub.Resource" />
+extends: <xref uid="@azure/arm-eventhub.Resource|latest-stable" />

@@ -49,7 +49,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/ai-anomaly-detector.AnomalyDetectorClientModelSnapshot"
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorClientModelSnapshot|preview"
           />[]
         description: ''
   - name: nextLink

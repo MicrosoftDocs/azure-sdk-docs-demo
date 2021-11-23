@@ -91,6 +91,8 @@ properties:
     syntax:
       content: 'results: SearchIterator<T>'
       return:
-        type: <xref uid="@azure/search-documents.SearchIterator" />&lt;T&gt;
+        type: >-
+          <xref uid="@azure/search-documents.SearchIterator|latest-stable"
+          />&lt;T&gt;
         description: ''
-extends: <xref uid="@azure/search-documents.SearchDocumentsResultBase" />
+extends: <xref uid="@azure/search-documents.SearchDocumentsResultBase|latest-stable" />

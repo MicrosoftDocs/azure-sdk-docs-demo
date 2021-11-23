@@ -30,7 +30,10 @@ constructors:
           type: RequestPolicyOptions
           description: '-'
         - id: retryOptions
-          type: <xref uid="@azure/storage-file-datalake.StorageRetryOptions" />
+          type: >-
+            <xref
+            uid="@azure/storage-file-datalake.StorageRetryOptions|latest-stable"
+            />
           description: |
             -
 methods:

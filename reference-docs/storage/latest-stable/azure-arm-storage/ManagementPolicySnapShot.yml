@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'deleteProperty?: DateAfterCreation'
       return:
-        type: <xref uid="@azure/arm-storage.DateAfterCreation" />
+        type: <xref uid="@azure/arm-storage.DateAfterCreation|latest-stable" />
         description: ''
   - name: tierToArchive
     uid: '@azure/arm-storage.ManagementPolicySnapShot.tierToArchive|latest-stable'
@@ -37,7 +37,7 @@ properties:
     syntax:
       content: 'tierToArchive?: DateAfterCreation'
       return:
-        type: <xref uid="@azure/arm-storage.DateAfterCreation" />
+        type: <xref uid="@azure/arm-storage.DateAfterCreation|latest-stable" />
         description: ''
   - name: tierToCool
     uid: '@azure/arm-storage.ManagementPolicySnapShot.tierToCool|latest-stable'
@@ -54,5 +54,5 @@ properties:
     syntax:
       content: 'tierToCool?: DateAfterCreation'
       return:
-        type: <xref uid="@azure/arm-storage.DateAfterCreation" />
+        type: <xref uid="@azure/arm-storage.DateAfterCreation|latest-stable" />
         description: ''

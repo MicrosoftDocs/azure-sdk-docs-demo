@@ -132,7 +132,7 @@ properties:
     syntax:
       content: 'blobType?: BlobType'
       return:
-        type: <xref uid="@azure/storage-blob.BlobType" />
+        type: <xref uid="@azure/storage-blob.BlobType|preview" />
         description: ''
   - name: cacheControl
     uid: '@azure/storage-blob.BlobGetPropertiesResponse.cacheControl|preview'
@@ -342,7 +342,7 @@ properties:
     syntax:
       content: 'copyStatus?: CopyStatusType'
       return:
-        type: <xref uid="@azure/storage-blob.CopyStatusType" />
+        type: <xref uid="@azure/storage-blob.CopyStatusType|preview" />
         description: ''
   - name: copyStatusDescription
     uid: >-
@@ -509,7 +509,7 @@ properties:
     syntax:
       content: 'immutabilityPolicyMode?: BlobImmutabilityPolicyMode'
       return:
-        type: <xref uid="@azure/storage-blob.BlobImmutabilityPolicyMode" />
+        type: <xref uid="@azure/storage-blob.BlobImmutabilityPolicyMode|preview" />
         description: ''
   - name: isCurrentVersion
     uid: '@azure/storage-blob.BlobGetPropertiesResponse.isCurrentVersion|preview'
@@ -613,7 +613,7 @@ properties:
     syntax:
       content: 'leaseDuration?: LeaseDurationType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseDurationType" />
+        type: <xref uid="@azure/storage-blob.LeaseDurationType|preview" />
         description: ''
   - name: leaseState
     uid: '@azure/storage-blob.BlobGetPropertiesResponse.leaseState|preview'
@@ -626,7 +626,7 @@ properties:
     syntax:
       content: 'leaseState?: LeaseStateType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseStateType" />
+        type: <xref uid="@azure/storage-blob.LeaseStateType|preview" />
         description: ''
   - name: leaseStatus
     uid: '@azure/storage-blob.BlobGetPropertiesResponse.leaseStatus|preview'
@@ -639,7 +639,7 @@ properties:
     syntax:
       content: 'leaseStatus?: LeaseStatusType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseStatusType" />
+        type: <xref uid="@azure/storage-blob.LeaseStatusType|preview" />
         description: ''
   - name: legalHold
     uid: '@azure/storage-blob.BlobGetPropertiesResponse.legalHold|preview'
@@ -730,7 +730,7 @@ properties:
     syntax:
       content: 'objectReplicationSourceProperties?: ObjectReplicationPolicy[]'
       return:
-        type: <xref uid="@azure/storage-blob.ObjectReplicationPolicy" />[]
+        type: <xref uid="@azure/storage-blob.ObjectReplicationPolicy|preview" />[]
         description: ''
   - name: rehydratePriority
     uid: '@azure/storage-blob.BlobGetPropertiesResponse.rehydratePriority|preview'
@@ -745,7 +745,7 @@ properties:
     syntax:
       content: 'rehydratePriority?: RehydratePriority'
       return:
-        type: <xref uid="@azure/storage-blob.RehydratePriority" />
+        type: <xref uid="@azure/storage-blob.RehydratePriority|preview" />
         description: ''
   - name: requestId
     uid: '@azure/storage-blob.BlobGetPropertiesResponse.requestId|preview'
@@ -807,4 +807,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-blob.BlobGetPropertiesHeaders" /> & Object
+extends: <xref uid="@azure/storage-blob.BlobGetPropertiesHeaders|preview" /> & Object

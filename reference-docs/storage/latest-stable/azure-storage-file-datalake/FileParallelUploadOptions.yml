@@ -83,7 +83,10 @@ properties:
     syntax:
       content: 'conditions?: DataLakeRequestConditions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.DataLakeRequestConditions" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.DataLakeRequestConditions|latest-stable"
+          />
         description: ''
   - name: maxConcurrency
     uid: >-
@@ -115,7 +118,7 @@ properties:
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-file-datalake.Metadata" />
+        type: <xref uid="@azure/storage-file-datalake.Metadata|latest-stable" />
         description: ''
   - name: onProgress
     uid: >-
@@ -143,7 +146,9 @@ properties:
     syntax:
       content: 'pathHttpHeaders?: PathHttpHeaders'
       return:
-        type: <xref uid="@azure/storage-file-datalake.PathHttpHeaders" />
+        type: >-
+          <xref uid="@azure/storage-file-datalake.PathHttpHeaders|latest-stable"
+          />
         description: ''
   - name: permissions
     uid: >-
@@ -231,4 +236,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />
+extends: <xref uid="@azure/storage-file-datalake.CommonOptions|latest-stable" />

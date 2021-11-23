@@ -38,5 +38,7 @@ properties:
     syntax:
       content: 'subjectAlternativeNames: SubjectAlternativeNames'
       return:
-        type: <xref uid="@azure/keyvault-certificates.SubjectAlternativeNames" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-certificates.SubjectAlternativeNames|preview" />
         description: ''

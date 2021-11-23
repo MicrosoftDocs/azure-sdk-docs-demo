@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'accountKind?: AccountKind'
       return:
-        type: <xref uid="@azure/storage-blob.AccountKind" />
+        type: <xref uid="@azure/storage-blob.AccountKind|preview" />
         description: ''
   - name: clientRequestId
     uid: '@azure/storage-blob.ServiceGetAccountInfoHeaders.clientRequestId|preview'
@@ -107,7 +107,7 @@ properties:
     syntax:
       content: 'skuName?: SkuName'
       return:
-        type: <xref uid="@azure/storage-blob.SkuName" />
+        type: <xref uid="@azure/storage-blob.SkuName|preview" />
         description: ''
   - name: version
     uid: '@azure/storage-blob.ServiceGetAccountInfoHeaders.version|preview'

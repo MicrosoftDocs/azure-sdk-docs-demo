@@ -35,7 +35,9 @@ properties:
     syntax:
       content: 'key: DocumentKeyValueElement'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentKeyValueElement" />
+        type: >-
+          <xref uid="@azure/ai-form-recognizer.DocumentKeyValueElement|preview"
+          />
         description: ''
   - name: value
     uid: '@azure/ai-form-recognizer.DocumentKeyValuePair.value|preview'
@@ -48,5 +50,7 @@ properties:
     syntax:
       content: 'value?: DocumentKeyValueElement'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentKeyValueElement" />
+        type: >-
+          <xref uid="@azure/ai-form-recognizer.DocumentKeyValueElement|preview"
+          />
         description: ''

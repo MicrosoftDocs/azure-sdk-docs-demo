@@ -20,5 +20,5 @@ properties:
     syntax:
       content: 'geoReplication?: GeoReplication'
       return:
-        type: <xref uid="@azure/storage-queue.GeoReplication" />
+        type: <xref uid="@azure/storage-queue.GeoReplication|preview" />
         description: ''

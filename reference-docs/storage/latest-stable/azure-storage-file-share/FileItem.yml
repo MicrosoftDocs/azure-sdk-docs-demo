@@ -72,5 +72,5 @@ properties:
     syntax:
       content: 'properties: FileProperty'
       return:
-        type: <xref uid="@azure/storage-file-share.FileProperty" />
+        type: <xref uid="@azure/storage-file-share.FileProperty|latest-stable" />
         description: ''

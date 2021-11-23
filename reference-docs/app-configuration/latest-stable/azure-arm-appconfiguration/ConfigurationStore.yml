@@ -55,7 +55,10 @@ properties:
     syntax:
       content: 'encryption?: EncryptionProperties'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.EncryptionProperties" />
+        type: >-
+          <xref
+          uid="@azure/arm-appconfiguration.EncryptionProperties|latest-stable"
+          />
         description: ''
   - name: endpoint
     uid: '@azure/arm-appconfiguration.ConfigurationStore.endpoint|latest-stable'
@@ -104,7 +107,9 @@ properties:
     syntax:
       content: 'identity?: ResourceIdentity'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ResourceIdentity" />
+        type: >-
+          <xref uid="@azure/arm-appconfiguration.ResourceIdentity|latest-stable"
+          />
         description: ''
   - name: location
     uid: '@azure/arm-appconfiguration.ConfigurationStore.location|latest-stable'
@@ -155,7 +160,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/arm-appconfiguration.PrivateEndpointConnectionReference"
+          uid="@azure/arm-appconfiguration.PrivateEndpointConnectionReference|latest-stable"
           />[]
         description: ''
   - name: provisioningState
@@ -177,7 +182,9 @@ properties:
     syntax:
       content: 'provisioningState?: ProvisioningState'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ProvisioningState" />
+        type: >-
+          <xref
+          uid="@azure/arm-appconfiguration.ProvisioningState|latest-stable" />
         description: ''
   - name: publicNetworkAccess
     uid: >-
@@ -195,7 +202,9 @@ properties:
     syntax:
       content: 'publicNetworkAccess?: PublicNetworkAccess'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.PublicNetworkAccess" />
+        type: >-
+          <xref
+          uid="@azure/arm-appconfiguration.PublicNetworkAccess|latest-stable" />
         description: ''
   - name: sku
     uid: '@azure/arm-appconfiguration.ConfigurationStore.sku|latest-stable'
@@ -208,7 +217,7 @@ properties:
     syntax:
       content: 'sku: Sku'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.Sku" />
+        type: <xref uid="@azure/arm-appconfiguration.Sku|latest-stable" />
         description: ''
   - name: systemData
     uid: '@azure/arm-appconfiguration.ConfigurationStore.systemData|latest-stable'
@@ -221,7 +230,7 @@ properties:
     syntax:
       content: 'systemData?: SystemData'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.SystemData" />
+        type: <xref uid="@azure/arm-appconfiguration.SystemData|latest-stable" />
         description: ''
   - name: tags
     uid: '@azure/arm-appconfiguration.ConfigurationStore.tags|latest-stable'
@@ -255,4 +264,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-appconfiguration.TrackedResource" />
+extends: <xref uid="@azure/arm-appconfiguration.TrackedResource|latest-stable" />

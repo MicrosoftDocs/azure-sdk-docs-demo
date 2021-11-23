@@ -230,4 +230,6 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-file-share.DirectoryCreateHeaders" /> & Object
+extends: >-
+  <xref uid="@azure/storage-file-share.DirectoryCreateHeaders|preview" /> &
+  Object

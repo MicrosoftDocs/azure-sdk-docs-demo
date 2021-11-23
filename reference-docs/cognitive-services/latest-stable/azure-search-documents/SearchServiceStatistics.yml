@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'counters: ServiceCounters'
       return:
-        type: <xref uid="@azure/search-documents.ServiceCounters" />
+        type: <xref uid="@azure/search-documents.ServiceCounters|latest-stable" />
         description: ''
   - name: limits
     uid: '@azure/search-documents.SearchServiceStatistics.limits|latest-stable'
@@ -37,5 +37,5 @@ properties:
     syntax:
       content: 'limits: ServiceLimits'
       return:
-        type: <xref uid="@azure/search-documents.ServiceLimits" />
+        type: <xref uid="@azure/search-documents.ServiceLimits|latest-stable" />
         description: ''

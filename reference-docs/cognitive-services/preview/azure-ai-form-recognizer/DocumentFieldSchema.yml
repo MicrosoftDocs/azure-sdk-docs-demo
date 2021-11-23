@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'items?: DocumentFieldSchema'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentFieldSchema" />
+        type: <xref uid="@azure/ai-form-recognizer.DocumentFieldSchema|preview" />
         description: ''
   - name: properties
     uid: '@azure/ai-form-recognizer.DocumentFieldSchema.properties|preview'
@@ -61,7 +61,7 @@ properties:
       return:
         type: >-
           [key: string]\: <xref
-          uid="@azure/ai-form-recognizer.DocumentFieldSchema" />
+          uid="@azure/ai-form-recognizer.DocumentFieldSchema|preview" />
         description: ''
   - name: type
     uid: '@azure/ai-form-recognizer.DocumentFieldSchema.type|preview'
@@ -74,5 +74,5 @@ properties:
     syntax:
       content: 'type: DocumentFieldType'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.DocumentFieldType" />
+        type: <xref uid="@azure/ai-form-recognizer.DocumentFieldType|preview" />
         description: ''

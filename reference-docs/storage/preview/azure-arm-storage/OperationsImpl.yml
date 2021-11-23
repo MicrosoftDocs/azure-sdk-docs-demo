@@ -20,7 +20,9 @@ constructors:
       content: 'new OperationsImpl(client: StorageManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|preview" />
           description: |
             Reference to the service client
 methods:
@@ -35,11 +37,13 @@ methods:
       content: 'function list(options?: OperationsListOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="@azure/arm-storage.OperationsListOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-storage.OperationsListOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
-          PagedAsyncIterableIterator&lt;<xref uid="@azure/arm-storage.Operation"
-          />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-storage.Operation|preview" />&gt;
         description: ''

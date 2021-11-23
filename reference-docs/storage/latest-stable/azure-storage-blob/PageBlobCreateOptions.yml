@@ -40,7 +40,7 @@ properties:
     syntax:
       content: 'blobHTTPHeaders?: BlobHTTPHeaders'
       return:
-        type: <xref uid="@azure/storage-blob.BlobHTTPHeaders" />
+        type: <xref uid="@azure/storage-blob.BlobHTTPHeaders|latest-stable" />
         description: ''
   - name: blobSequenceNumber
     uid: '@azure/storage-blob.PageBlobCreateOptions.blobSequenceNumber|latest-stable'
@@ -68,7 +68,7 @@ properties:
     syntax:
       content: 'conditions?: BlobRequestConditions'
       return:
-        type: <xref uid="@azure/storage-blob.BlobRequestConditions" />
+        type: <xref uid="@azure/storage-blob.BlobRequestConditions|latest-stable" />
         description: ''
   - name: customerProvidedKey
     uid: >-
@@ -82,7 +82,7 @@ properties:
     syntax:
       content: 'customerProvidedKey?: CpkInfo'
       return:
-        type: <xref uid="@azure/storage-blob.CpkInfo" />
+        type: <xref uid="@azure/storage-blob.CpkInfo|latest-stable" />
         description: ''
   - name: encryptionScope
     uid: '@azure/storage-blob.PageBlobCreateOptions.encryptionScope|latest-stable'
@@ -124,7 +124,9 @@ properties:
     syntax:
       content: 'immutabilityPolicy?: BlobImmutabilityPolicy'
       return:
-        type: <xref uid="@azure/storage-blob.BlobImmutabilityPolicy" />
+        type: >-
+          <xref uid="@azure/storage-blob.BlobImmutabilityPolicy|latest-stable"
+          />
         description: ''
   - name: legalHold
     uid: '@azure/storage-blob.PageBlobCreateOptions.legalHold|latest-stable'
@@ -158,7 +160,7 @@ properties:
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-blob.Metadata" />
+        type: <xref uid="@azure/storage-blob.Metadata|latest-stable" />
         description: ''
   - name: tags
     uid: '@azure/storage-blob.PageBlobCreateOptions.tags|latest-stable'
@@ -171,7 +173,7 @@ properties:
     syntax:
       content: 'tags?: Tags'
       return:
-        type: <xref uid="@azure/storage-blob.Tags" />
+        type: <xref uid="@azure/storage-blob.Tags|latest-stable" />
         description: ''
   - name: tier
     uid: '@azure/storage-blob.PageBlobCreateOptions.tier|latest-stable'
@@ -188,7 +190,9 @@ properties:
     syntax:
       content: 'tier?: PremiumPageBlobTier | string'
       return:
-        type: <xref uid="@azure/storage-blob.PremiumPageBlobTier" /> | string
+        type: >-
+          <xref uid="@azure/storage-blob.PremiumPageBlobTier|latest-stable" /> |
+          string
         description: ''
   - name: tracingOptions
     uid: '@azure/storage-blob.PageBlobCreateOptions.tracingOptions|latest-stable'
@@ -203,4 +207,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|latest-stable" />

@@ -45,14 +45,16 @@ methods:
                              characters.The name must comprise of lowercase alphanumeric and dash(-) characters only, it should
                              begin and end with an alphanumeric character and it cannot have two consecutive dash(-) characters.
         - id: queue
-          type: <xref uid="@azure/arm-storage.StorageQueue" />
+          type: <xref uid="@azure/arm-storage.StorageQueue|preview" />
           description: Queue properties and metadata to be created with
         - id: options
-          type: <xref uid="@azure/arm-storage.QueueCreateOptionalParams" />
+          type: <xref uid="@azure/arm-storage.QueueCreateOptionalParams|preview" />
           description: |
             The options parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/arm-storage.QueueCreateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-storage.QueueCreateResponse|preview"
+          />&gt;
         description: ''
   - name: delete(string, string, string, QueueDeleteOptionalParams)
     uid: '@azure/arm-storage.Queue.delete|preview'
@@ -89,7 +91,7 @@ methods:
                              characters.The name must comprise of lowercase alphanumeric and dash(-) characters only, it should
                              begin and end with an alphanumeric character and it cannot have two consecutive dash(-) characters.
         - id: options
-          type: <xref uid="@azure/arm-storage.QueueDeleteOptionalParams" />
+          type: <xref uid="@azure/arm-storage.QueueDeleteOptionalParams|preview" />
           description: |
             The options parameters.
       return:
@@ -130,11 +132,13 @@ methods:
                              characters.The name must comprise of lowercase alphanumeric and dash(-) characters only, it should
                              begin and end with an alphanumeric character and it cannot have two consecutive dash(-) characters.
         - id: options
-          type: <xref uid="@azure/arm-storage.QueueGetOptionalParams" />
+          type: <xref uid="@azure/arm-storage.QueueGetOptionalParams|preview" />
           description: |
             The options parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/arm-storage.QueueGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-storage.QueueGetResponse|preview"
+          />&gt;
         description: ''
   - name: list(string, string, QueueListOptionalParams)
     uid: '@azure/arm-storage.Queue.list|preview'
@@ -162,13 +166,13 @@ methods:
                                account names must be between 3 and 24 characters in length and use numbers and lower-case letters
                                only.
         - id: options
-          type: <xref uid="@azure/arm-storage.QueueListOptionalParams" />
+          type: <xref uid="@azure/arm-storage.QueueListOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
-          PagedAsyncIterableIterator&lt;<xref uid="@azure/arm-storage.ListQueue"
-          />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-storage.ListQueue|preview" />&gt;
         description: ''
   - name: update(string, string, string, StorageQueue, QueueUpdateOptionalParams)
     uid: '@azure/arm-storage.Queue.update|preview'
@@ -206,12 +210,14 @@ methods:
                              characters.The name must comprise of lowercase alphanumeric and dash(-) characters only, it should
                              begin and end with an alphanumeric character and it cannot have two consecutive dash(-) characters.
         - id: queue
-          type: <xref uid="@azure/arm-storage.StorageQueue" />
+          type: <xref uid="@azure/arm-storage.StorageQueue|preview" />
           description: Queue properties and metadata to be created with
         - id: options
-          type: <xref uid="@azure/arm-storage.QueueUpdateOptionalParams" />
+          type: <xref uid="@azure/arm-storage.QueueUpdateOptionalParams|preview" />
           description: |
             The options parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/arm-storage.QueueUpdateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-storage.QueueUpdateResponse|preview"
+          />&gt;
         description: ''

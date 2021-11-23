@@ -22,10 +22,10 @@ constructors:
         RequestPolicyOptions, headerKey: string, headerValue: string)
       parameters:
         - id: _nextPolicy
-          type: <xref uid="@azure/core-http.RequestPolicy" />
+          type: <xref uid="@azure/core-http.RequestPolicy|latest-stable" />
           description: ''
         - id: _options
-          type: <xref uid="@azure/core-http.RequestPolicyOptions" />
+          type: <xref uid="@azure/core-http.RequestPolicyOptions|latest-stable" />
           description: ''
         - id: headerKey
           type: string
@@ -45,7 +45,7 @@ methods:
       content: 'function addUserAgentHeader(request: WebResourceLike)'
       parameters:
         - id: request
-          type: <xref uid="@azure/core-http.WebResourceLike" />
+          type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
           description: ''
   - name: log(HttpPipelineLogLevel, string)
     uid: '@azure/core-http.UserAgentPolicy.log|latest-stable'
@@ -63,7 +63,7 @@ methods:
       content: 'function log(logLevel: HttpPipelineLogLevel, message: string)'
       parameters:
         - id: logLevel
-          type: <xref uid="@azure/core-http.HttpPipelineLogLevel" />
+          type: <xref uid="@azure/core-http.HttpPipelineLogLevel|latest-stable" />
           description: The log level of this log.
         - id: message
           type: string
@@ -80,10 +80,12 @@ methods:
       content: 'function sendRequest(request: WebResourceLike)'
       parameters:
         - id: request
-          type: <xref uid="@azure/core-http.WebResourceLike" />
+          type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/core-http.HttpOperationResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/core-http.HttpOperationResponse|latest-stable" />&gt;
         description: ''
   - name: shouldLog(HttpPipelineLogLevel)
     uid: '@azure/core-http.UserAgentPolicy.shouldLog|latest-stable'
@@ -96,9 +98,9 @@ methods:
       content: 'function shouldLog(logLevel: HttpPipelineLogLevel)'
       parameters:
         - id: logLevel
-          type: <xref uid="@azure/core-http.HttpPipelineLogLevel" />
+          type: <xref uid="@azure/core-http.HttpPipelineLogLevel|latest-stable" />
           description: The log level of the log that will be logged.
       return:
         type: boolean
         description: Whether or not a log with the provided log level should be logged.
-extends: <xref uid="@azure/core-http.BaseRequestPolicy" />
+extends: <xref uid="@azure/core-http.BaseRequestPolicy|latest-stable" />

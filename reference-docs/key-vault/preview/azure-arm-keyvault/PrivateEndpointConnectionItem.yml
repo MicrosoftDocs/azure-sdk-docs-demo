@@ -48,7 +48,7 @@ properties:
     syntax:
       content: 'privateEndpoint?: PrivateEndpoint'
       return:
-        type: <xref uid="@azure/arm-keyvault.PrivateEndpoint" />
+        type: <xref uid="@azure/arm-keyvault.PrivateEndpoint|preview" />
         description: ''
   - name: privateLinkServiceConnectionState
     uid: >-
@@ -62,7 +62,9 @@ properties:
     syntax:
       content: 'privateLinkServiceConnectionState?: PrivateLinkServiceConnectionState'
       return:
-        type: <xref uid="@azure/arm-keyvault.PrivateLinkServiceConnectionState" />
+        type: >-
+          <xref
+          uid="@azure/arm-keyvault.PrivateLinkServiceConnectionState|preview" />
         description: ''
   - name: provisioningState
     uid: >-
@@ -78,6 +80,6 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/arm-keyvault.PrivateEndpointConnectionProvisioningState"
+          uid="@azure/arm-keyvault.PrivateEndpointConnectionProvisioningState|preview"
           />
         description: ''

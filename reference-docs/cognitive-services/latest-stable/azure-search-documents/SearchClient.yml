@@ -51,7 +51,9 @@ constructors:
           type: KeyCredential
           description: Used to authenticate requests to the service.
         - id: options
-          type: <xref uid="@azure/search-documents.SearchClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/search-documents.SearchClientOptions|latest-stable" />
           description: |
             Used to configure the Search client.
 properties:
@@ -119,14 +121,15 @@ methods:
             that's part of the index definition.
         - id: options
           type: >-
-            <xref uid="@azure/search-documents.AutocompleteOptions"
+            <xref
+            uid="@azure/search-documents.AutocompleteOptions|latest-stable"
             />&lt;Fields&gt;
           description: |
             Options to the autocomplete operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/search-documents.AutocompleteResult"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/search-documents.AutocompleteResult|latest-stable" />&gt;
         description: ''
   - name: deleteDocuments(Object, string[], DeleteDocumentsOptions)
     uid: '@azure/search-documents.SearchClient.deleteDocuments_1|latest-stable'
@@ -147,12 +150,16 @@ methods:
           type: string[]
           description: The primary key values of documents to delete.
         - id: options
-          type: <xref uid="@azure/search-documents.DeleteDocumentsOptions" />
+          type: >-
+            <xref
+            uid="@azure/search-documents.DeleteDocumentsOptions|latest-stable"
+            />
           description: |
             Additional options.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/search-documents.IndexDocumentsResult"
+          Promise&lt;<xref
+          uid="@azure/search-documents.IndexDocumentsResult|latest-stable"
           />&gt;
         description: ''
   - name: deleteDocuments(T[], DeleteDocumentsOptions)
@@ -171,12 +178,16 @@ methods:
           type: T[]
           description: Documents to be deleted.
         - id: options
-          type: <xref uid="@azure/search-documents.DeleteDocumentsOptions" />
+          type: >-
+            <xref
+            uid="@azure/search-documents.DeleteDocumentsOptions|latest-stable"
+            />
           description: |
             Additional options.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/search-documents.IndexDocumentsResult"
+          Promise&lt;<xref
+          uid="@azure/search-documents.IndexDocumentsResult|latest-stable"
           />&gt;
         description: ''
   - name: getDocument<Fields>(string, GetDocumentOptions<Fields>)
@@ -196,7 +207,7 @@ methods:
           description: The primary key value of the document
         - id: options
           type: >-
-            <xref uid="@azure/search-documents.GetDocumentOptions"
+            <xref uid="@azure/search-documents.GetDocumentOptions|latest-stable"
             />&lt;Fields&gt;
           description: |
             Additional options
@@ -214,7 +225,9 @@ methods:
       content: 'function getDocumentsCount(options?: CountDocumentsOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/search-documents.CountDocumentsOptions" />
+          type: >-
+            <xref
+            uid="@azure/search-documents.CountDocumentsOptions|latest-stable" />
           description: |
             Options to the count operation.
       return:
@@ -247,15 +260,21 @@ methods:
         IndexDocumentsOptions)
       parameters:
         - id: batch
-          type: <xref uid="@azure/search-documents.IndexDocumentsBatch" />&lt;T&gt;
+          type: >-
+            <xref
+            uid="@azure/search-documents.IndexDocumentsBatch|latest-stable"
+            />&lt;T&gt;
           description: An array of actions to perform on the index.
         - id: options
-          type: <xref uid="@azure/search-documents.IndexDocumentsOptions" />
+          type: >-
+            <xref
+            uid="@azure/search-documents.IndexDocumentsOptions|latest-stable" />
           description: |
             Additional options.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/search-documents.IndexDocumentsResult"
+          Promise&lt;<xref
+          uid="@azure/search-documents.IndexDocumentsResult|latest-stable"
           />&gt;
         description: ''
   - name: mergeDocuments(T[], MergeDocumentsOptions)
@@ -276,12 +295,15 @@ methods:
           type: T[]
           description: The updated documents.
         - id: options
-          type: <xref uid="@azure/search-documents.MergeDocumentsOptions" />
+          type: >-
+            <xref
+            uid="@azure/search-documents.MergeDocumentsOptions|latest-stable" />
           description: |
             Additional options.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/search-documents.IndexDocumentsResult"
+          Promise&lt;<xref
+          uid="@azure/search-documents.IndexDocumentsResult|latest-stable"
           />&gt;
         description: ''
   - name: mergeOrUploadDocuments(T[], MergeOrUploadDocumentsOptions)
@@ -304,12 +326,16 @@ methods:
           type: T[]
           description: The updated documents.
         - id: options
-          type: <xref uid="@azure/search-documents.MergeOrUploadDocumentsOptions" />
+          type: >-
+            <xref
+            uid="@azure/search-documents.MergeOrUploadDocumentsOptions|latest-stable"
+            />
           description: |
             Additional options.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/search-documents.IndexDocumentsResult"
+          Promise&lt;<xref
+          uid="@azure/search-documents.IndexDocumentsResult|latest-stable"
           />&gt;
         description: ''
   - name: search<Fields>(string, SearchOptions<Fields>)
@@ -330,12 +356,15 @@ methods:
           type: string
           description: Text to search
         - id: options
-          type: <xref uid="@azure/search-documents.SearchOptions" />&lt;Fields&gt;
+          type: >-
+            <xref uid="@azure/search-documents.SearchOptions|latest-stable"
+            />&lt;Fields&gt;
           description: |
             Options for the search operation.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/search-documents.SearchDocumentsResult"
+          Promise&lt;<xref
+          uid="@azure/search-documents.SearchDocumentsResult|latest-stable"
           />&lt;Pick&lt;T, Fields&gt;&gt;&gt;
         description: ''
   - name: suggest<Fields>(string, string, SuggestOptions<Fields>)
@@ -363,12 +392,15 @@ methods:
             The name of the suggester as specified in the suggesters collection
             that's part of the index definition.
         - id: options
-          type: <xref uid="@azure/search-documents.SuggestOptions" />&lt;Fields&gt;
+          type: >-
+            <xref uid="@azure/search-documents.SuggestOptions|latest-stable"
+            />&lt;Fields&gt;
           description: |
             Options for the suggest operation
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/search-documents.SuggestDocumentsResult"
+          Promise&lt;<xref
+          uid="@azure/search-documents.SuggestDocumentsResult|latest-stable"
           />&lt;Pick&lt;T, Fields&gt;&gt;&gt;
         description: ''
   - name: uploadDocuments(T[], UploadDocumentsOptions)
@@ -387,11 +419,15 @@ methods:
           type: T[]
           description: The documents to upload.
         - id: options
-          type: <xref uid="@azure/search-documents.UploadDocumentsOptions" />
+          type: >-
+            <xref
+            uid="@azure/search-documents.UploadDocumentsOptions|latest-stable"
+            />
           description: |
             Additional options.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/search-documents.IndexDocumentsResult"
+          Promise&lt;<xref
+          uid="@azure/search-documents.IndexDocumentsResult|latest-stable"
           />&gt;
         description: ''

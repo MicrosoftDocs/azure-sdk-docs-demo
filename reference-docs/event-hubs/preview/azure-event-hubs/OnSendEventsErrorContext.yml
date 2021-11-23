@@ -42,7 +42,7 @@ properties:
       content: 'events: Array<EventData | AmqpAnnotatedMessage>'
       return:
         type: >-
-          Array&lt;<xref uid="@azure/event-hubs.EventData" /> |
+          Array&lt;<xref uid="@azure/event-hubs.EventData|preview" /> |
           AmqpAnnotatedMessage&gt;
         description: ''
   - name: partitionId

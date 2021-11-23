@@ -48,7 +48,7 @@ properties:
     syntax:
       content: 'include?: ListContainersInclude'
       return:
-        type: <xref uid="@azure/arm-storage.ListContainersInclude" />
+        type: <xref uid="@azure/arm-storage.ListContainersInclude|preview" />
         description: ''
   - name: maxpagesize
     uid: '@azure/arm-storage.BlobContainersListOptionalParams.maxpagesize|preview'

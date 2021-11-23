@@ -35,5 +35,5 @@ properties:
     syntax:
       content: 'type: "Microsoft.Storage/storageAccounts"'
       return:
-        type: '"<xref uid="Microsoft.Storage/storageAccounts" />"'
+        type: '"<xref uid="Microsoft.Storage/storageAccounts|preview" />"'
         description: ''

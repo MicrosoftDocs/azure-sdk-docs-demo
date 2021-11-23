@@ -30,19 +30,22 @@ methods:
           type: string
           description: Name of the topic.
         - id: topicInfo
-          type: <xref uid="@azure/arm-eventgrid.Topic" />
+          type: <xref uid="@azure/arm-eventgrid.Topic|preview" />
           description: Topic information.
         - id: options
           type: >-
-            <xref uid="@azure/arm-eventgrid.TopicsCreateOrUpdateOptionalParams"
+            <xref
+            uid="@azure/arm-eventgrid.TopicsCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-eventgrid.TopicsCreateOrUpdateResponse" />&gt;, <xref
-          uid="@azure/arm-eventgrid.TopicsCreateOrUpdateResponse" />&gt;&gt;
+          uid="@azure/arm-eventgrid.TopicsCreateOrUpdateResponse|preview"
+          />&gt;, <xref
+          uid="@azure/arm-eventgrid.TopicsCreateOrUpdateResponse|preview"
+          />&gt;&gt;
         description: ''
   - name: >-
       beginCreateOrUpdateAndWait(string, string, Topic,
@@ -66,18 +69,19 @@ methods:
           type: string
           description: Name of the topic.
         - id: topicInfo
-          type: <xref uid="@azure/arm-eventgrid.Topic" />
+          type: <xref uid="@azure/arm-eventgrid.Topic|preview" />
           description: Topic information.
         - id: options
           type: >-
-            <xref uid="@azure/arm-eventgrid.TopicsCreateOrUpdateOptionalParams"
+            <xref
+            uid="@azure/arm-eventgrid.TopicsCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventgrid.TopicsCreateOrUpdateResponse" />&gt;
+          uid="@azure/arm-eventgrid.TopicsCreateOrUpdateResponse|preview" />&gt;
         description: ''
   - name: beginDelete(string, string, TopicsDeleteOptionalParams)
     uid: '@azure/arm-eventgrid.Topics.beginDelete|preview'
@@ -98,7 +102,9 @@ methods:
           type: string
           description: Name of the topic.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.TopicsDeleteOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-eventgrid.TopicsDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -123,7 +129,9 @@ methods:
           type: string
           description: Name of the topic.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.TopicsDeleteOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-eventgrid.TopicsDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -151,19 +159,23 @@ methods:
           type: string
           description: Name of the topic.
         - id: regenerateKeyRequest
-          type: <xref uid="@azure/arm-eventgrid.TopicRegenerateKeyRequest" />
+          type: >-
+            <xref uid="@azure/arm-eventgrid.TopicRegenerateKeyRequest|preview"
+            />
           description: Request body to regenerate key.
         - id: options
           type: >-
-            <xref uid="@azure/arm-eventgrid.TopicsRegenerateKeyOptionalParams"
+            <xref
+            uid="@azure/arm-eventgrid.TopicsRegenerateKeyOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-eventgrid.TopicsRegenerateKeyResponse" />&gt;, <xref
-          uid="@azure/arm-eventgrid.TopicsRegenerateKeyResponse" />&gt;&gt;
+          uid="@azure/arm-eventgrid.TopicsRegenerateKeyResponse|preview" />&gt;,
+          <xref uid="@azure/arm-eventgrid.TopicsRegenerateKeyResponse|preview"
+          />&gt;&gt;
         description: ''
   - name: >-
       beginRegenerateKeyAndWait(string, string, TopicRegenerateKeyRequest,
@@ -187,18 +199,21 @@ methods:
           type: string
           description: Name of the topic.
         - id: regenerateKeyRequest
-          type: <xref uid="@azure/arm-eventgrid.TopicRegenerateKeyRequest" />
+          type: >-
+            <xref uid="@azure/arm-eventgrid.TopicRegenerateKeyRequest|preview"
+            />
           description: Request body to regenerate key.
         - id: options
           type: >-
-            <xref uid="@azure/arm-eventgrid.TopicsRegenerateKeyOptionalParams"
+            <xref
+            uid="@azure/arm-eventgrid.TopicsRegenerateKeyOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventgrid.TopicsRegenerateKeyResponse" />&gt;
+          uid="@azure/arm-eventgrid.TopicsRegenerateKeyResponse|preview" />&gt;
         description: ''
   - name: >-
       beginUpdate(string, string, TopicUpdateParameters,
@@ -222,10 +237,12 @@ methods:
           type: string
           description: Name of the topic.
         - id: topicUpdateParameters
-          type: <xref uid="@azure/arm-eventgrid.TopicUpdateParameters" />
+          type: <xref uid="@azure/arm-eventgrid.TopicUpdateParameters|preview" />
           description: Topic update information.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.TopicsUpdateOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-eventgrid.TopicsUpdateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -253,10 +270,12 @@ methods:
           type: string
           description: Name of the topic.
         - id: topicUpdateParameters
-          type: <xref uid="@azure/arm-eventgrid.TopicUpdateParameters" />
+          type: <xref uid="@azure/arm-eventgrid.TopicUpdateParameters|preview" />
           description: Topic update information.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.TopicsUpdateOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-eventgrid.TopicsUpdateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -281,11 +300,13 @@ methods:
           type: string
           description: Name of the topic.
         - id: options
-          type: <xref uid="@azure/arm-eventgrid.TopicsGetOptionalParams" />
+          type: <xref uid="@azure/arm-eventgrid.TopicsGetOptionalParams|preview" />
           description: |
             The options parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/arm-eventgrid.TopicsGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-eventgrid.TopicsGetResponse|preview"
+          />&gt;
         description: ''
   - name: listByResourceGroup(string, TopicsListByResourceGroupOptionalParams)
     uid: '@azure/arm-eventgrid.Topics.listByResourceGroup|preview'
@@ -305,14 +326,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.TopicsListByResourceGroupOptionalParams"
+            uid="@azure/arm-eventgrid.TopicsListByResourceGroupOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
-          PagedAsyncIterableIterator&lt;<xref uid="@azure/arm-eventgrid.Topic"
-          />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-eventgrid.Topic|preview" />&gt;
         description: ''
   - name: listBySubscription(TopicsListBySubscriptionOptionalParams)
     uid: '@azure/arm-eventgrid.Topics.listBySubscription|preview'
@@ -329,13 +350,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.TopicsListBySubscriptionOptionalParams" />
+            uid="@azure/arm-eventgrid.TopicsListBySubscriptionOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
-          PagedAsyncIterableIterator&lt;<xref uid="@azure/arm-eventgrid.Topic"
-          />&gt;
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-eventgrid.Topic|preview" />&gt;
         description: ''
   - name: >-
       listEventTypes(string, string, string, string,
@@ -366,14 +388,15 @@ methods:
           description: Name of the topic.
         - id: options
           type: >-
-            <xref uid="@azure/arm-eventgrid.TopicsListEventTypesOptionalParams"
+            <xref
+            uid="@azure/arm-eventgrid.TopicsListEventTypesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventgrid.EventType" />&gt;
+          uid="@azure/arm-eventgrid.EventType|preview" />&gt;
         description: ''
   - name: >-
       listSharedAccessKeys(string, string,
@@ -398,12 +421,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.TopicsListSharedAccessKeysOptionalParams"
+            uid="@azure/arm-eventgrid.TopicsListSharedAccessKeysOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventgrid.TopicsListSharedAccessKeysResponse" />&gt;
+          uid="@azure/arm-eventgrid.TopicsListSharedAccessKeysResponse|preview"
+          />&gt;
         description: ''

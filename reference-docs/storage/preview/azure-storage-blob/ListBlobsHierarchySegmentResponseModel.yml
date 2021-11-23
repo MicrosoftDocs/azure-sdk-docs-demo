@@ -102,7 +102,9 @@ properties:
     syntax:
       content: 'segment: BlobHierarchyListSegmentModel'
       return:
-        type: <xref uid="@azure/storage-blob.BlobHierarchyListSegmentModel" />
+        type: >-
+          <xref uid="@azure/storage-blob.BlobHierarchyListSegmentModel|preview"
+          />
         description: ''
   - name: serviceEndpoint
     uid: >-

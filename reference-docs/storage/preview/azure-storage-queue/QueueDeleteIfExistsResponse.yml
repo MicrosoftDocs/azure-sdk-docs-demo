@@ -100,4 +100,4 @@ properties:
       return:
         type: string
         description: ''
-extends: <xref uid="@azure/storage-queue.QueueDeleteHeaders" /> & Object
+extends: <xref uid="@azure/storage-queue.QueueDeleteHeaders|preview" /> & Object

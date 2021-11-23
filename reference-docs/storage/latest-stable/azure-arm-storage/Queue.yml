@@ -20,7 +20,10 @@ constructors:
       content: 'new Queue(client: StorageManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -69,10 +72,10 @@ methods:
 
             characters.
         - id: options
-          type: <xref uid="Models.QueueCreateOptionalParams" />
+          type: <xref uid="Models.QueueCreateOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueCreateResponse" />&gt;
+        type: Promise&lt;<xref uid="Models.QueueCreateResponse|latest-stable" />&gt;
         description: Promise<Models.QueueCreateResponse>
   - name: >-
       create(string, string, string, QueueCreateOptionalParams,
@@ -120,12 +123,14 @@ methods:
 
             characters.
         - id: options
-          type: <xref uid="@azure/arm-storage.QueueCreateOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.QueueCreateOptionalParams|latest-stable" />
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.StorageQueue"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.StorageQueue|latest-stable" />&gt;
           description: |
             The callback
   - name: create(string, string, string, ServiceCallback<StorageQueue>)
@@ -172,8 +177,8 @@ methods:
             characters.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.StorageQueue"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.StorageQueue|latest-stable" />&gt;
           description: |
             The callback
   - name: deleteMethod(string, string, string, msRest.RequestOptionsBase)
@@ -221,7 +226,7 @@ methods:
 
             characters.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -369,10 +374,10 @@ methods:
 
             characters.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueGetResponse" />&gt;
+        type: Promise&lt;<xref uid="Models.QueueGetResponse|latest-stable" />&gt;
         description: Promise<Models.QueueGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -424,8 +429,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.StorageQueue"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.StorageQueue|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, string, ServiceCallback<StorageQueue>)
@@ -472,8 +477,8 @@ methods:
             characters.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.StorageQueue"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.StorageQueue|latest-stable" />&gt;
           description: |
             The callback
   - name: list(string, string, Models.QueueListOptionalParams)
@@ -506,10 +511,10 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="Models.QueueListOptionalParams" />
+          type: <xref uid="Models.QueueListOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueListResponse" />&gt;
+        type: Promise&lt;<xref uid="Models.QueueListResponse|latest-stable" />&gt;
         description: Promise<Models.QueueListResponse>
   - name: >-
       list(string, string, QueueListOptionalParams,
@@ -543,12 +548,14 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="@azure/arm-storage.QueueListOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-storage.QueueListOptionalParams|latest-stable"
+            />
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ListQueueResource"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ListQueueResource|latest-stable" />&gt;
           description: |
             The callback
   - name: list(string, string, ServiceCallback<ListQueueResource>)
@@ -582,8 +589,8 @@ methods:
             letters only.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ListQueueResource"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ListQueueResource|latest-stable" />&gt;
           description: |
             The callback
   - name: listNext(string, Models.QueueListNextOptionalParams)
@@ -602,10 +609,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="Models.QueueListNextOptionalParams" />
+          type: <xref uid="Models.QueueListNextOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueListNextResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.QueueListNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.QueueListNextResponse>
   - name: >-
       listNext(string, QueueListNextOptionalParams,
@@ -626,12 +635,15 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="@azure/arm-storage.QueueListNextOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.QueueListNextOptionalParams|latest-stable"
+            />
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ListQueueResource"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ListQueueResource|latest-stable" />&gt;
           description: |
             The callback
   - name: listNext(string, ServiceCallback<ListQueueResource>)
@@ -651,8 +663,8 @@ methods:
           description: The NextLink from the previous successful call to List operation.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.ListQueueResource"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.ListQueueResource|latest-stable" />&gt;
           description: |
             The callback
   - name: update(string, string, string, Models.QueueUpdateOptionalParams)
@@ -700,10 +712,10 @@ methods:
 
             characters.
         - id: options
-          type: <xref uid="Models.QueueUpdateOptionalParams" />
+          type: <xref uid="Models.QueueUpdateOptionalParams|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.QueueUpdateResponse" />&gt;
+        type: Promise&lt;<xref uid="Models.QueueUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.QueueUpdateResponse>
   - name: >-
       update(string, string, string, QueueUpdateOptionalParams,
@@ -751,12 +763,14 @@ methods:
 
             characters.
         - id: options
-          type: <xref uid="@azure/arm-storage.QueueUpdateOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.QueueUpdateOptionalParams|latest-stable" />
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.StorageQueue"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.StorageQueue|latest-stable" />&gt;
           description: |
             The callback
   - name: update(string, string, string, ServiceCallback<StorageQueue>)
@@ -803,7 +817,7 @@ methods:
             characters.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.StorageQueue"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.StorageQueue|latest-stable" />&gt;
           description: |
             The callback

@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'value?: DomainTopic[]'
       return:
-        type: <xref uid="@azure/arm-eventgrid.DomainTopic" />[]
+        type: <xref uid="@azure/arm-eventgrid.DomainTopic|preview" />[]
         description: ''

@@ -37,7 +37,7 @@ properties:
     syntax:
       content: 'labelData?: FieldData'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FieldData" />
+        type: <xref uid="@azure/ai-form-recognizer.FieldData|latest-stable" />
         description: ''
   - name: name
     uid: '@azure/ai-form-recognizer.FormFieldCommon.name|latest-stable'
@@ -65,5 +65,5 @@ properties:
     syntax:
       content: 'valueData?: FieldData'
       return:
-        type: <xref uid="@azure/ai-form-recognizer.FieldData" />
+        type: <xref uid="@azure/ai-form-recognizer.FieldData|latest-stable" />
         description: ''

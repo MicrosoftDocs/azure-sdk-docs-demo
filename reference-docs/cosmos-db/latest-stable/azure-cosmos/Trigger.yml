@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'container: Container'
       return:
-        type: <xref uid="@azure/cosmos.Container" />
+        type: <xref uid="@azure/cosmos.Container|latest-stable" />
         description: ''
   - name: id
     uid: '@azure/cosmos.Trigger.id|latest-stable'
@@ -62,10 +62,12 @@ methods:
       content: 'function delete(options?: RequestOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.TriggerResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.TriggerResponse|latest-stable"
+          />&gt;
         description: ''
   - name: read(RequestOptions)
     uid: '@azure/cosmos.Trigger.read|latest-stable'
@@ -80,10 +82,12 @@ methods:
       content: 'function read(options?: RequestOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.TriggerResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.TriggerResponse|latest-stable"
+          />&gt;
         description: ''
   - name: replace(TriggerDefinition, RequestOptions)
     uid: '@azure/cosmos.Trigger.replace|latest-stable'
@@ -98,13 +102,15 @@ methods:
       content: 'function replace(body: TriggerDefinition, options?: RequestOptions)'
       parameters:
         - id: body
-          type: <xref uid="@azure/cosmos.TriggerDefinition" />
+          type: <xref uid="@azure/cosmos.TriggerDefinition|latest-stable" />
           description: >
             The specified <xref:@azure/cosmos.TriggerDefinition> to replace the
             existing definition with.
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.TriggerResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.TriggerResponse|latest-stable"
+          />&gt;
         description: ''

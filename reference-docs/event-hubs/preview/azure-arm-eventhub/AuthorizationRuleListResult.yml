@@ -35,5 +35,5 @@ properties:
     syntax:
       content: 'value?: AuthorizationRule[]'
       return:
-        type: <xref uid="@azure/arm-eventhub.AuthorizationRule" />[]
+        type: <xref uid="@azure/arm-eventhub.AuthorizationRule|preview" />[]
         description: ''

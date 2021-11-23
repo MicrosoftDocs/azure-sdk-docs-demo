@@ -25,7 +25,9 @@ constructors:
         StorageManagementClientContext)
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|preview" />
           description: |
             Reference to the service client
 methods:
@@ -67,7 +69,7 @@ methods:
                                              ID that is returned when you download the policy that was defined on the destination account. The
                                              policy is downloaded as a JSON file.
         - id: properties
-          type: <xref uid="@azure/arm-storage.ObjectReplicationPolicy" />
+          type: <xref uid="@azure/arm-storage.ObjectReplicationPolicy|preview" />
           description: >-
             The object replication policy set to a storage account. A unique
             policy ID will be
@@ -75,14 +77,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsCreateOrUpdateOptionalParams"
+            uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsCreateOrUpdateResponse"
+          uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsCreateOrUpdateResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -125,7 +127,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsDeleteOptionalParams"
+            uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsDeleteOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -170,14 +172,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsGetOptionalParams"
+            uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsGetOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsGetResponse"
+          uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsGetResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -210,12 +212,12 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsListOptionalParams"
+            uid="@azure/arm-storage.ObjectReplicationPoliciesOperationsListOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-storage.ObjectReplicationPolicy" />&gt;
+          uid="@azure/arm-storage.ObjectReplicationPolicy|preview" />&gt;
         description: ''

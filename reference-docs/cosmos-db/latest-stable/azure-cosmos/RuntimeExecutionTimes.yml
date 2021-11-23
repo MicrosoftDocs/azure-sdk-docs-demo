@@ -84,7 +84,7 @@ properties:
     syntax:
       content: 'static zero: RuntimeExecutionTimes'
       return:
-        type: <xref uid="@azure/cosmos.RuntimeExecutionTimes" />
+        type: <xref uid="@azure/cosmos.RuntimeExecutionTimes|latest-stable" />
         description: ''
 methods:
   - name: add(RuntimeExecutionTimes[])
@@ -100,10 +100,10 @@ methods:
       content: 'function add(runtimeExecutionTimesArray: RuntimeExecutionTimes[])'
       parameters:
         - id: runtimeExecutionTimesArray
-          type: <xref uid="@azure/cosmos.RuntimeExecutionTimes" />[]
+          type: <xref uid="@azure/cosmos.RuntimeExecutionTimes|latest-stable" />[]
           description: ''
       return:
-        type: <xref uid="@azure/cosmos.RuntimeExecutionTimes" />
+        type: <xref uid="@azure/cosmos.RuntimeExecutionTimes|latest-stable" />
         description: ''
   - name: createFromArray(RuntimeExecutionTimes[])
     uid: '@azure/cosmos.RuntimeExecutionTimes.createFromArray|latest-stable'
@@ -120,10 +120,10 @@ methods:
         RuntimeExecutionTimes[])
       parameters:
         - id: runtimeExecutionTimesArray
-          type: <xref uid="@azure/cosmos.RuntimeExecutionTimes" />[]
+          type: <xref uid="@azure/cosmos.RuntimeExecutionTimes|latest-stable" />[]
           description: ''
       return:
-        type: <xref uid="@azure/cosmos.RuntimeExecutionTimes" />
+        type: <xref uid="@azure/cosmos.RuntimeExecutionTimes|latest-stable" />
         description: ''
   - name: createFromDelimitedString(string)
     uid: >-
@@ -142,7 +142,7 @@ methods:
           type: string
           description: ''
       return:
-        type: <xref uid="@azure/cosmos.RuntimeExecutionTimes" />
+        type: <xref uid="@azure/cosmos.RuntimeExecutionTimes|latest-stable" />
         description: ''
   - name: toDelimitedString()
     uid: '@azure/cosmos.RuntimeExecutionTimes.toDelimitedString|latest-stable'

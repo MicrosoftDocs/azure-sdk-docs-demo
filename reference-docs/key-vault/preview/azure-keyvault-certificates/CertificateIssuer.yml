@@ -36,7 +36,9 @@ properties:
     syntax:
       content: 'administratorContacts?: AdministratorContact[]'
       return:
-        type: <xref uid="@azure/keyvault-certificates.AdministratorContact" />[]
+        type: >-
+          <xref uid="@azure/keyvault-certificates.AdministratorContact|preview"
+          />[]
         description: ''
   - name: createdOn
     uid: '@azure/keyvault-certificates.CertificateIssuer.createdOn|preview'
@@ -142,4 +144,4 @@ properties:
       return:
         type: Date
         description: ''
-extends: <xref uid="@azure/keyvault-certificates.IssuerProperties" />
+extends: <xref uid="@azure/keyvault-certificates.IssuerProperties|preview" />

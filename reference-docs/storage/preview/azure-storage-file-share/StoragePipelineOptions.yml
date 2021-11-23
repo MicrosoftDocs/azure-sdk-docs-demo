@@ -59,7 +59,7 @@ properties:
     syntax:
       content: 'retryOptions?: StorageRetryOptions'
       return:
-        type: <xref uid="@azure/storage-file-share.StorageRetryOptions" />
+        type: <xref uid="@azure/storage-file-share.StorageRetryOptions|preview" />
         description: ''
   - name: userAgentOptions
     uid: '@azure/storage-file-share.StoragePipelineOptions.userAgentOptions|preview'

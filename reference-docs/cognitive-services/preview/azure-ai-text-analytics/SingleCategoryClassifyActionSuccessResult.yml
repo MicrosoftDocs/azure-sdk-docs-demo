@@ -66,7 +66,10 @@ properties:
       content: 'results: SingleCategoryClassifyResultArray'
       return:
         type: >-
-          <xref uid="@azure/ai-text-analytics.SingleCategoryClassifyResultArray"
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyResultArray|preview"
           />
         description: ''
-extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsActionSuccessState" />
+extends: >-
+  <xref uid="@azure/ai-text-analytics.TextAnalyticsActionSuccessState|preview"
+  />

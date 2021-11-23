@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'analyzers?: LexicalAnalyzer[]'
       return:
-        type: <xref uid="@azure/search-documents.LexicalAnalyzer" />[]
+        type: <xref uid="@azure/search-documents.LexicalAnalyzer|preview" />[]
         description: ''
   - name: charFilters
     uid: '@azure/search-documents.SearchIndex.charFilters|preview'
@@ -37,7 +37,7 @@ properties:
     syntax:
       content: 'charFilters?: CharFilter[]'
       return:
-        type: <xref uid="@azure/search-documents.CharFilter" />[]
+        type: <xref uid="@azure/search-documents.CharFilter|preview" />[]
         description: ''
   - name: corsOptions
     uid: '@azure/search-documents.SearchIndex.corsOptions|preview'
@@ -50,7 +50,7 @@ properties:
     syntax:
       content: 'corsOptions?: CorsOptions'
       return:
-        type: <xref uid="@azure/search-documents.CorsOptions" />
+        type: <xref uid="@azure/search-documents.CorsOptions|preview" />
         description: ''
   - name: defaultScoringProfile
     uid: '@azure/search-documents.SearchIndex.defaultScoringProfile|preview'
@@ -105,7 +105,9 @@ properties:
     syntax:
       content: 'encryptionKey?: SearchResourceEncryptionKey'
       return:
-        type: <xref uid="@azure/search-documents.SearchResourceEncryptionKey" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.SearchResourceEncryptionKey|preview" />
         description: ''
   - name: etag
     uid: '@azure/search-documents.SearchIndex.etag|preview'
@@ -131,7 +133,7 @@ properties:
     syntax:
       content: 'fields: SearchField[]'
       return:
-        type: <xref uid="@azure/search-documents.SearchField" />[]
+        type: <xref uid="@azure/search-documents.SearchField|preview" />[]
         description: ''
   - name: name
     uid: '@azure/search-documents.SearchIndex.name|preview'
@@ -157,7 +159,7 @@ properties:
     syntax:
       content: 'normalizers?: LexicalNormalizer[]'
       return:
-        type: <xref uid="@azure/search-documents.LexicalNormalizer" />[]
+        type: <xref uid="@azure/search-documents.LexicalNormalizer|preview" />[]
         description: ''
   - name: scoringProfiles
     uid: '@azure/search-documents.SearchIndex.scoringProfiles|preview'
@@ -170,7 +172,7 @@ properties:
     syntax:
       content: 'scoringProfiles?: ScoringProfile[]'
       return:
-        type: <xref uid="@azure/search-documents.ScoringProfile" />[]
+        type: <xref uid="@azure/search-documents.ScoringProfile|preview" />[]
         description: ''
   - name: semanticSettings
     uid: '@azure/search-documents.SearchIndex.semanticSettings|preview'
@@ -185,7 +187,7 @@ properties:
     syntax:
       content: 'semanticSettings?: SemanticSettings'
       return:
-        type: <xref uid="@azure/search-documents.SemanticSettings" />
+        type: <xref uid="@azure/search-documents.SemanticSettings|preview" />
         description: ''
   - name: similarity
     uid: '@azure/search-documents.SearchIndex.similarity|preview'
@@ -206,7 +208,7 @@ properties:
     syntax:
       content: 'similarity?: SimilarityAlgorithm'
       return:
-        type: <xref uid="@azure/search-documents.SimilarityAlgorithm" />
+        type: <xref uid="@azure/search-documents.SimilarityAlgorithm|preview" />
         description: ''
   - name: suggesters
     uid: '@azure/search-documents.SearchIndex.suggesters|preview'
@@ -219,7 +221,7 @@ properties:
     syntax:
       content: 'suggesters?: SearchSuggester[]'
       return:
-        type: <xref uid="@azure/search-documents.SearchSuggester" />[]
+        type: <xref uid="@azure/search-documents.SearchSuggester|preview" />[]
         description: ''
   - name: tokenFilters
     uid: '@azure/search-documents.SearchIndex.tokenFilters|preview'
@@ -232,7 +234,7 @@ properties:
     syntax:
       content: 'tokenFilters?: TokenFilter[]'
       return:
-        type: <xref uid="@azure/search-documents.TokenFilter" />[]
+        type: <xref uid="@azure/search-documents.TokenFilter|preview" />[]
         description: ''
   - name: tokenizers
     uid: '@azure/search-documents.SearchIndex.tokenizers|preview'
@@ -245,5 +247,5 @@ properties:
     syntax:
       content: 'tokenizers?: LexicalTokenizer[]'
       return:
-        type: <xref uid="@azure/search-documents.LexicalTokenizer" />[]
+        type: <xref uid="@azure/search-documents.LexicalTokenizer|preview" />[]
         description: ''

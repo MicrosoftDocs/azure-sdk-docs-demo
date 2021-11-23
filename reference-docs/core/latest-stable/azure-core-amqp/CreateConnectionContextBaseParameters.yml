@@ -25,7 +25,7 @@ properties:
     syntax:
       content: 'config: ConnectionConfig'
       return:
-        type: <xref uid="@azure/core-amqp.ConnectionConfig" />
+        type: <xref uid="@azure/core-amqp.ConnectionConfig|latest-stable" />
         description: ''
   - name: connectionProperties
     uid: >-
@@ -41,7 +41,7 @@ properties:
     syntax:
       content: 'connectionProperties: ConnectionProperties'
       return:
-        type: <xref uid="@azure/core-amqp.ConnectionProperties" />
+        type: <xref uid="@azure/core-amqp.ConnectionProperties|latest-stable" />
         description: ''
   - name: isEntityPathRequired
     uid: >-

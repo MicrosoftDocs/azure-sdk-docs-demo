@@ -49,7 +49,7 @@ properties:
     syntax:
       content: 'ipRange?: SasIPRange'
       return:
-        type: <xref uid="@azure/storage-file-datalake.SasIPRange" />
+        type: <xref uid="@azure/storage-file-datalake.SasIPRange|preview" />
         description: ''
   - name: permissions
     uid: '@azure/storage-file-datalake.AccountSASSignatureValues.permissions|preview'
@@ -66,7 +66,9 @@ properties:
     syntax:
       content: 'permissions: AccountSASPermissions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.AccountSASPermissions" />
+        type: >-
+          <xref uid="@azure/storage-file-datalake.AccountSASPermissions|preview"
+          />
         description: ''
   - name: protocol
     uid: '@azure/storage-file-datalake.AccountSASSignatureValues.protocol|preview'
@@ -79,7 +81,7 @@ properties:
     syntax:
       content: 'protocol?: SASProtocol'
       return:
-        type: <xref uid="@azure/storage-file-datalake.SASProtocol" />
+        type: <xref uid="@azure/storage-file-datalake.SASProtocol|preview" />
         description: ''
   - name: resourceTypes
     uid: >-

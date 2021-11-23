@@ -35,7 +35,9 @@ properties:
     syntax:
       content: 'current?: CommitmentPeriod'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.CommitmentPeriod" />
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.CommitmentPeriod|latest-stable" />
         description: ''
   - name: hostingModel
     uid: >-
@@ -53,7 +55,7 @@ properties:
     syntax:
       content: 'hostingModel?: HostingModel'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.HostingModel" />
+        type: <xref uid="@azure/arm-cognitiveservices.HostingModel|latest-stable" />
         description: ''
   - name: last
     uid: '@azure/arm-cognitiveservices.CommitmentPlanProperties.last|latest-stable'
@@ -68,7 +70,9 @@ properties:
     syntax:
       content: 'last?: CommitmentPeriod'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.CommitmentPeriod" />
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.CommitmentPeriod|latest-stable" />
         description: ''
   - name: next
     uid: '@azure/arm-cognitiveservices.CommitmentPlanProperties.next|latest-stable'
@@ -81,7 +85,9 @@ properties:
     syntax:
       content: 'next?: CommitmentPeriod'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.CommitmentPeriod" />
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.CommitmentPeriod|latest-stable" />
         description: ''
   - name: planType
     uid: >-

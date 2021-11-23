@@ -43,5 +43,5 @@ properties:
     syntax:
       content: 'keyType: KeyType'
       return:
-        type: <xref uid="@azure/arm-eventhub.KeyType" />
+        type: <xref uid="@azure/arm-eventhub.KeyType|latest-stable" />
         description: ''

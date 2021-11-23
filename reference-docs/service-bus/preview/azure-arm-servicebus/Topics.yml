@@ -34,18 +34,20 @@ methods:
           type: string
           description: The topic name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBTopic" />
+          type: <xref uid="@azure/arm-servicebus.SBTopic|preview" />
           description: Parameters supplied to create a topic resource.
         - id: options
           type: >-
-            <xref uid="@azure/arm-servicebus.TopicsCreateOrUpdateOptionalParams"
+            <xref
+            uid="@azure/arm-servicebus.TopicsCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.TopicsCreateOrUpdateResponse" />&gt;
+          uid="@azure/arm-servicebus.TopicsCreateOrUpdateResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       createOrUpdateAuthorizationRule(string, string, string, string,
@@ -76,19 +78,19 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBAuthorizationRule" />
+          type: <xref uid="@azure/arm-servicebus.SBAuthorizationRule|preview" />
           description: The shared access authorization rule.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.TopicsCreateOrUpdateAuthorizationRuleOptionalParams"
+            uid="@azure/arm-servicebus.TopicsCreateOrUpdateAuthorizationRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.TopicsCreateOrUpdateAuthorizationRuleResponse"
+          uid="@azure/arm-servicebus.TopicsCreateOrUpdateAuthorizationRuleResponse|preview"
           />&gt;
         description: ''
   - name: delete(string, string, string, TopicsDeleteOptionalParams)
@@ -113,7 +115,9 @@ methods:
           type: string
           description: The topic name.
         - id: options
-          type: <xref uid="@azure/arm-servicebus.TopicsDeleteOptionalParams" />
+          type: >-
+            <xref uid="@azure/arm-servicebus.TopicsDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -149,7 +153,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.TopicsDeleteAuthorizationRuleOptionalParams"
+            uid="@azure/arm-servicebus.TopicsDeleteAuthorizationRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -178,11 +182,13 @@ methods:
           type: string
           description: The topic name.
         - id: options
-          type: <xref uid="@azure/arm-servicebus.TopicsGetOptionalParams" />
+          type: <xref uid="@azure/arm-servicebus.TopicsGetOptionalParams|preview" />
           description: |
             The options parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/arm-servicebus.TopicsGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/arm-servicebus.TopicsGetResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       getAuthorizationRule(string, string, string, string,
@@ -214,14 +220,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.TopicsGetAuthorizationRuleOptionalParams"
+            uid="@azure/arm-servicebus.TopicsGetAuthorizationRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.TopicsGetAuthorizationRuleResponse" />&gt;
+          uid="@azure/arm-servicebus.TopicsGetAuthorizationRuleResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       listAuthorizationRules(string, string, string,
@@ -250,14 +257,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.TopicsListAuthorizationRulesOptionalParams"
+            uid="@azure/arm-servicebus.TopicsListAuthorizationRulesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-servicebus.SBAuthorizationRule" />&gt;
+          uid="@azure/arm-servicebus.SBAuthorizationRule|preview" />&gt;
         description: ''
   - name: listByNamespace(string, string, TopicsListByNamespaceOptionalParams)
     uid: '@azure/arm-servicebus.Topics.listByNamespace|preview'
@@ -280,13 +287,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.TopicsListByNamespaceOptionalParams" />
+            uid="@azure/arm-servicebus.TopicsListByNamespaceOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-servicebus.SBTopic" />&gt;
+          uid="@azure/arm-servicebus.SBTopic|preview" />&gt;
         description: ''
   - name: listKeys(string, string, string, string, TopicsListKeysOptionalParams)
     uid: '@azure/arm-servicebus.Topics.listKeys|preview'
@@ -314,13 +322,15 @@ methods:
           type: string
           description: The authorization rule name.
         - id: options
-          type: <xref uid="@azure/arm-servicebus.TopicsListKeysOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.TopicsListKeysOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-servicebus.TopicsListKeysResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.TopicsListKeysResponse|preview" />&gt;
         description: ''
   - name: >-
       regenerateKeys(string, string, string, string,
@@ -351,16 +361,20 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.RegenerateAccessKeyParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.RegenerateAccessKeyParameters|preview" />
           description: Parameters supplied to regenerate the authorization rule.
         - id: options
           type: >-
-            <xref uid="@azure/arm-servicebus.TopicsRegenerateKeysOptionalParams"
+            <xref
+            uid="@azure/arm-servicebus.TopicsRegenerateKeysOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.TopicsRegenerateKeysResponse" />&gt;
+          uid="@azure/arm-servicebus.TopicsRegenerateKeysResponse|preview"
+          />&gt;
         description: ''

@@ -83,4 +83,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-appconfiguration.Resource" />
+extends: <xref uid="@azure/arm-appconfiguration.Resource|latest-stable" />

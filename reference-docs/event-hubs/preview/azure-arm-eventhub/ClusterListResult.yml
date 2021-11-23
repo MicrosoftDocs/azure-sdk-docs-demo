@@ -35,5 +35,5 @@ properties:
     syntax:
       content: 'value?: Cluster[]'
       return:
-        type: <xref uid="@azure/arm-eventhub.Cluster" />[]
+        type: <xref uid="@azure/arm-eventhub.Cluster|preview" />[]
         description: ''

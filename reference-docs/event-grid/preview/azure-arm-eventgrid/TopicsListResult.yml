@@ -33,5 +33,5 @@ properties:
     syntax:
       content: 'value?: Topic[]'
       return:
-        type: <xref uid="@azure/arm-eventgrid.Topic" />[]
+        type: <xref uid="@azure/arm-eventgrid.Topic|preview" />[]
         description: ''

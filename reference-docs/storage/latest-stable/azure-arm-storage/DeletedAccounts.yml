@@ -20,7 +20,10 @@ constructors:
       content: 'new DeletedAccounts(client: StorageManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -43,10 +46,12 @@ methods:
           type: string
           description: The location of the deleted storage account.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.DeletedAccountsGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.DeletedAccountsGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DeletedAccountsGetResponse>
   - name: get(string, string, RequestOptionsBase, ServiceCallback<DeletedAccount>)
     uid: '@azure/arm-storage.DeletedAccounts.get_2|latest-stable'
@@ -71,8 +76,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.DeletedAccount"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.DeletedAccount|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, ServiceCallback<DeletedAccount>)
@@ -95,8 +100,8 @@ methods:
           description: The location of the deleted storage account.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.DeletedAccount"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.DeletedAccount|latest-stable" />&gt;
           description: |
             The callback
   - name: list(msRest.RequestOptionsBase)
@@ -110,10 +115,12 @@ methods:
       content: 'function list(options?: msRest.RequestOptionsBase)'
       parameters:
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.DeletedAccountsListResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.DeletedAccountsListResponse|latest-stable" />&gt;
         description: Promise<Models.DeletedAccountsListResponse>
   - name: list(RequestOptionsBase, ServiceCallback<DeletedAccountListResult>)
     uid: '@azure/arm-storage.DeletedAccounts.list_2|latest-stable'
@@ -133,7 +140,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.DeletedAccountListResult" />&gt;
+            uid="@azure/arm-storage.DeletedAccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: list(ServiceCallback<DeletedAccountListResult>)
@@ -149,7 +157,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.DeletedAccountListResult" />&gt;
+            uid="@azure/arm-storage.DeletedAccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, msRest.RequestOptionsBase)
@@ -168,10 +177,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.DeletedAccountsListNextResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.DeletedAccountsListNextResponse|latest-stable" />&gt;
         description: Promise<Models.DeletedAccountsListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,
@@ -196,7 +207,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.DeletedAccountListResult" />&gt;
+            uid="@azure/arm-storage.DeletedAccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, ServiceCallback<DeletedAccountListResult>)
@@ -217,6 +229,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.DeletedAccountListResult" />&gt;
+            uid="@azure/arm-storage.DeletedAccountListResult|latest-stable"
+            />&gt;
           description: |
             The callback

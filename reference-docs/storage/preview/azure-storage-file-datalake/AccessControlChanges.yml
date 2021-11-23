@@ -27,7 +27,8 @@ properties:
       content: 'aggregateCounters: AccessControlChangeCounters'
       return:
         type: >-
-          <xref uid="@azure/storage-file-datalake.AccessControlChangeCounters"
+          <xref
+          uid="@azure/storage-file-datalake.AccessControlChangeCounters|preview"
           />
         description: ''
   - name: batchCounters
@@ -42,7 +43,8 @@ properties:
       content: 'batchCounters: AccessControlChangeCounters'
       return:
         type: >-
-          <xref uid="@azure/storage-file-datalake.AccessControlChangeCounters"
+          <xref
+          uid="@azure/storage-file-datalake.AccessControlChangeCounters|preview"
           />
         description: ''
   - name: batchFailures
@@ -58,7 +60,10 @@ properties:
     syntax:
       content: 'batchFailures: AccessControlChangeError[]'
       return:
-        type: <xref uid="@azure/storage-file-datalake.AccessControlChangeError" />[]
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.AccessControlChangeError|preview"
+          />[]
         description: ''
   - name: continuationToken
     uid: >-

@@ -119,7 +119,7 @@ methods:
           type: string
           description: Model identifier.
         - id: detectionRequest
-          type: <xref uid="@azure/ai-anomaly-detector.DetectionRequest" />
+          type: <xref uid="@azure/ai-anomaly-detector.DetectionRequest|preview" />
           description: Detect anomaly request
         - id: options
           type: OperationOptions
@@ -128,7 +128,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-anomaly-detector.AnomalyDetectorDetectAnomalyResponse"
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorDetectAnomalyResponse|preview"
           />&gt;
         description: ''
   - name: detectChangePoint(DetectChangePointRequest, OperationOptions)
@@ -144,7 +144,9 @@ methods:
         OperationOptions)
       parameters:
         - id: body
-          type: <xref uid="@azure/ai-anomaly-detector.DetectChangePointRequest" />
+          type: >-
+            <xref
+            uid="@azure/ai-anomaly-detector.DetectChangePointRequest|preview" />
           description: >-
             Time series points and granularity is needed. Advanced model
             parameters can also be set
@@ -156,7 +158,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-anomaly-detector.AnomalyDetectorDetectChangePointResponse"
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorDetectChangePointResponse|preview"
           />&gt;
         description: ''
   - name: detectEntireSeries(DetectRequest, OperationOptions)
@@ -181,7 +183,7 @@ methods:
         OperationOptions)
       parameters:
         - id: body
-          type: <xref uid="@azure/ai-anomaly-detector.DetectRequest" />
+          type: <xref uid="@azure/ai-anomaly-detector.DetectRequest|preview" />
           description: >-
             Time series points and period if needed. Advanced model parameters
             can also be set in
@@ -193,7 +195,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-anomaly-detector.AnomalyDetectorDetectEntireSeriesResponse"
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorDetectEntireSeriesResponse|preview"
           />&gt;
         description: ''
   - name: detectLastPoint(DetectRequest, OperationOptions)
@@ -217,7 +219,7 @@ methods:
         OperationOptions)
       parameters:
         - id: body
-          type: <xref uid="@azure/ai-anomaly-detector.DetectRequest" />
+          type: <xref uid="@azure/ai-anomaly-detector.DetectRequest|preview" />
           description: >-
             Time series points and period if needed. Advanced model parameters
             can also be set in
@@ -229,7 +231,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-anomaly-detector.AnomalyDetectorDetectLastPointResponse"
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorDetectLastPointResponse|preview"
           />&gt;
         description: ''
   - name: exportModel(string, OperationOptions)
@@ -252,7 +254,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-anomaly-detector.AnomalyDetectorExportModelResponse"
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorExportModelResponse|preview"
           />&gt;
         description: ''
   - name: getDetectionResult(string, OperationOptions)
@@ -280,7 +282,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-anomaly-detector.AnomalyDetectorGetDetectionResultResponse"
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorGetDetectionResultResponse|preview"
           />&gt;
         description: ''
   - name: getMultivariateModel(string, OperationOptions)
@@ -310,7 +312,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-anomaly-detector.AnomalyDetectorGetMultivariateModelResponse"
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorGetMultivariateModelResponse|preview"
           />&gt;
         description: ''
   - name: listMultivariateModel(AnomalyDetectorListMultivariateModelOptionalParams)
@@ -329,14 +331,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/ai-anomaly-detector.AnomalyDetectorListMultivariateModelOptionalParams"
+            uid="@azure/ai-anomaly-detector.AnomalyDetectorListMultivariateModelOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/ai-anomaly-detector.AnomalyDetectorClientModelSnapshot"
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorClientModelSnapshot|preview"
           />&gt;
         description: ''
   - name: >-
@@ -412,7 +414,8 @@ methods:
         - id: modelRequest
           type: >-
             <xref
-            uid="@azure/ai-anomaly-detector.AnomalyDetectorClientModelInfo" />
+            uid="@azure/ai-anomaly-detector.AnomalyDetectorClientModelInfo|preview"
+            />
           description: Training request
         - id: options
           type: OperationOptions
@@ -421,7 +424,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/ai-anomaly-detector.AnomalyDetectorTrainMultivariateModelResponse"
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorTrainMultivariateModelResponse|preview"
           />&gt;
         description: ''
 extends: AnomalyDetector

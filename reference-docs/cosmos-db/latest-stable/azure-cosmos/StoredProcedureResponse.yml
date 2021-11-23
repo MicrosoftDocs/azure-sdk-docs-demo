@@ -26,17 +26,17 @@ constructors:
       parameters:
         - id: resource
           type: >-
-            <xref uid="@azure/cosmos.StoredProcedureDefinition" /> & <xref
-            uid="@azure/cosmos.Resource" />
+            <xref uid="@azure/cosmos.StoredProcedureDefinition|latest-stable" />
+            & <xref uid="@azure/cosmos.Resource|latest-stable" />
           description: ''
         - id: headers
-          type: <xref uid="@azure/cosmos.CosmosHeaders" />
+          type: <xref uid="@azure/cosmos.CosmosHeaders|latest-stable" />
           description: ''
         - id: statusCode
           type: number
           description: ''
         - id: storedProcedure
-          type: <xref uid="@azure/cosmos.StoredProcedure" />
+          type: <xref uid="@azure/cosmos.StoredProcedure|latest-stable" />
           description: ''
 properties:
   - name: activityId
@@ -76,7 +76,7 @@ properties:
     syntax:
       content: 'headers: CosmosHeaders_2'
       return:
-        type: <xref uid="@azure/cosmos.CosmosHeaders_2" />
+        type: <xref uid="@azure/cosmos.CosmosHeaders_2|latest-stable" />
         description: ''
   - name: requestCharge
     uid: '@azure/cosmos.StoredProcedureResponse.requestCharge|latest-stable'
@@ -103,8 +103,8 @@ properties:
       content: 'resource: StoredProcedureDefinition & Resource | undefined'
       return:
         type: >-
-          <xref uid="@azure/cosmos.StoredProcedureDefinition" /> & <xref
-          uid="@azure/cosmos.Resource" /> | undefined
+          <xref uid="@azure/cosmos.StoredProcedureDefinition|latest-stable" /> &
+          <xref uid="@azure/cosmos.Resource|latest-stable" /> | undefined
         description: ''
   - name: sproc
     uid: '@azure/cosmos.StoredProcedureResponse.sproc|latest-stable'
@@ -121,7 +121,7 @@ properties:
     syntax:
       content: StoredProcedure sproc
       return:
-        type: <xref uid="@azure/cosmos.StoredProcedure" />
+        type: <xref uid="@azure/cosmos.StoredProcedure|latest-stable" />
         description: ''
   - name: statusCode
     uid: '@azure/cosmos.StoredProcedureResponse.statusCode|latest-stable'
@@ -149,7 +149,7 @@ properties:
     syntax:
       content: 'storedProcedure: StoredProcedure'
       return:
-        type: <xref uid="@azure/cosmos.StoredProcedure" />
+        type: <xref uid="@azure/cosmos.StoredProcedure|latest-stable" />
         description: ''
   - name: substatus
     uid: '@azure/cosmos.StoredProcedureResponse.substatus|latest-stable'
@@ -165,6 +165,6 @@ properties:
         type: SubStatusCode
         description: ''
 extends: >-
-  <xref uid="@azure/cosmos.ResourceResponse" />&lt;<xref
-  uid="@azure/cosmos.StoredProcedureDefinition" /> & <xref
-  uid="@azure/cosmos.Resource" />&gt;
+  <xref uid="@azure/cosmos.ResourceResponse|latest-stable" />&lt;<xref
+  uid="@azure/cosmos.StoredProcedureDefinition|latest-stable" /> & <xref
+  uid="@azure/cosmos.Resource|latest-stable" />&gt;

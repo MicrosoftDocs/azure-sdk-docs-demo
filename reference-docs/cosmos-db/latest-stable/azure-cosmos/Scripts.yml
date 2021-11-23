@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'container: Container'
       return:
-        type: <xref uid="@azure/cosmos.Container" />
+        type: <xref uid="@azure/cosmos.Container|latest-stable" />
         description: ''
   - name: storedProcedures
     uid: '@azure/cosmos.Scripts.storedProcedures|latest-stable'
@@ -38,7 +38,7 @@ properties:
     syntax:
       content: StoredProcedures storedProcedures
       return:
-        type: <xref uid="@azure/cosmos.StoredProcedures" />
+        type: <xref uid="@azure/cosmos.StoredProcedures|latest-stable" />
         description: ''
   - name: triggers
     uid: '@azure/cosmos.Scripts.triggers|latest-stable'
@@ -55,7 +55,7 @@ properties:
     syntax:
       content: Triggers triggers
       return:
-        type: <xref uid="@azure/cosmos.Triggers" />
+        type: <xref uid="@azure/cosmos.Triggers|latest-stable" />
         description: ''
   - name: userDefinedFunctions
     uid: '@azure/cosmos.Scripts.userDefinedFunctions|latest-stable'
@@ -73,7 +73,7 @@ properties:
     syntax:
       content: UserDefinedFunctions userDefinedFunctions
       return:
-        type: <xref uid="@azure/cosmos.UserDefinedFunctions" />
+        type: <xref uid="@azure/cosmos.UserDefinedFunctions|latest-stable" />
         description: ''
 methods:
   - name: storedProcedure(string)
@@ -96,7 +96,7 @@ methods:
           description: |
             The id of the <xref:@azure/cosmos.StoredProcedure>.
       return:
-        type: <xref uid="@azure/cosmos.StoredProcedure" />
+        type: <xref uid="@azure/cosmos.StoredProcedure|latest-stable" />
         description: ''
   - name: trigger(string)
     uid: '@azure/cosmos.Scripts.trigger|latest-stable'
@@ -118,7 +118,7 @@ methods:
           description: |
             The id of the <xref:@azure/cosmos.Trigger>.
       return:
-        type: <xref uid="@azure/cosmos.Trigger" />
+        type: <xref uid="@azure/cosmos.Trigger|latest-stable" />
         description: ''
   - name: userDefinedFunction(string)
     uid: '@azure/cosmos.Scripts.userDefinedFunction|latest-stable'
@@ -140,5 +140,5 @@ methods:
           description: |
             The id of the <xref:@azure/cosmos.UserDefinedFunction>.
       return:
-        type: <xref uid="@azure/cosmos.UserDefinedFunction" />
+        type: <xref uid="@azure/cosmos.UserDefinedFunction|latest-stable" />
         description: ''

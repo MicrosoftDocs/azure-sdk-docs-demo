@@ -35,5 +35,8 @@ properties:
     syntax:
       content: 'scaleType?: DeploymentScaleType'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.DeploymentScaleType" />
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.DeploymentScaleType|latest-stable"
+          />
         description: ''

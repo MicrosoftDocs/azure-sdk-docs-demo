@@ -25,7 +25,9 @@ methods:
     syntax:
       content: function fetchAll()
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.FeedResponse" />&lt;T&gt;&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.FeedResponse|latest-stable"
+          />&lt;T&gt;&gt;
         description: ''
   - name: fetchNext()
     uid: '@azure/cosmos.QueryIterator.fetchNext|latest-stable'
@@ -46,7 +48,9 @@ methods:
     syntax:
       content: function fetchNext()
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.FeedResponse" />&lt;T&gt;&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.FeedResponse|latest-stable"
+          />&lt;T&gt;&gt;
         description: ''
   - name: getAsyncIterator()
     uid: '@azure/cosmos.QueryIterator.getAsyncIterator|latest-stable'
@@ -71,7 +75,7 @@ methods:
       content: function getAsyncIterator()
       return:
         type: >-
-          AsyncIterable&lt;<xref uid="@azure/cosmos.FeedResponse"
+          AsyncIterable&lt;<xref uid="@azure/cosmos.FeedResponse|latest-stable"
           />&lt;T&gt;&gt;
         description: ''
   - name: hasMoreResults()

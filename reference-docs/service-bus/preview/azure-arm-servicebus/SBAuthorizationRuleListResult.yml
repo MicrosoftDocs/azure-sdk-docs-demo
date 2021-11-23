@@ -35,5 +35,5 @@ properties:
     syntax:
       content: 'value?: SBAuthorizationRule[]'
       return:
-        type: <xref uid="@azure/arm-servicebus.SBAuthorizationRule" />[]
+        type: <xref uid="@azure/arm-servicebus.SBAuthorizationRule|preview" />[]
         description: ''

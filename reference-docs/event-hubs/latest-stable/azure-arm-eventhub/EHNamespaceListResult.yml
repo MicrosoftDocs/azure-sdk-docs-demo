@@ -70,7 +70,9 @@ methods:
           type: number
           description: ''
       return:
-        type: <xref uid="@azure/arm-eventhub.EHNamespace" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" /> |
+          undefined
         description: ''
   - name: concat(ConcatArray<EHNamespace>[])
     uid: '@azure/arm-eventhub.EHNamespaceListResult.concat|latest-stable'
@@ -83,11 +85,13 @@ methods:
       content: 'function concat(items: ConcatArray<EHNamespace>[])'
       parameters:
         - id: items
-          type: ConcatArray&lt;<xref uid="@azure/arm-eventhub.EHNamespace" />&gt;[]
+          type: >-
+            ConcatArray&lt;<xref
+            uid="@azure/arm-eventhub.EHNamespace|latest-stable" />&gt;[]
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/arm-eventhub.EHNamespace" />[]
+        type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />[]
         description: ''
   - name: concat(T | ConcatArray<T>[])
     uid: '@azure/arm-eventhub.EHNamespaceListResult.concat_1|latest-stable'
@@ -104,7 +108,7 @@ methods:
           description: |
             Additional items to add to the end of array1.
       return:
-        type: <xref uid="@azure/arm-eventhub.EHNamespace" />[]
+        type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />[]
         description: ''
   - name: copyWithin(number, number, undefined | number)
     uid: '@azure/arm-eventhub.EHNamespaceListResult.copyWithin|latest-stable'
@@ -202,7 +206,7 @@ methods:
         undefined | number)
       parameters:
         - id: value
-          type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+          type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />
           description: value to fill array section with
         - id: start
           type: undefined | number
@@ -252,7 +256,7 @@ methods:
             function. If thisArg is omitted, undefined is used as the this
             value.
       return:
-        type: <xref uid="@azure/arm-eventhub.EHNamespace" />[]
+        type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />[]
         description: ''
   - name: >-
       filter<S>((value: EHNamespace, index: number, array: EHNamespace[]) =>
@@ -310,7 +314,9 @@ methods:
           type: any
           description: ''
       return:
-        type: <xref uid="@azure/arm-eventhub.EHNamespace" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" /> |
+          undefined
         description: ''
   - name: >-
       find<S>((this: void, value: EHNamespace, index: number, obj:
@@ -687,7 +693,7 @@ methods:
         number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+          type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />
           description: The element to search for.
         - id: fromIndex
           type: undefined | number
@@ -710,7 +716,7 @@ methods:
         number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+          type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />
           description: The value to locate in the array.
         - id: fromIndex
           type: undefined | number
@@ -766,7 +772,7 @@ methods:
         number)
       parameters:
         - id: searchElement
-          type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+          type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />
           description: The value to locate in the array.
         - id: fromIndex
           type: undefined | number
@@ -816,7 +822,9 @@ methods:
     syntax:
       content: function pop()
       return:
-        type: <xref uid="@azure/arm-eventhub.EHNamespace" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" /> |
+          undefined
         description: ''
   - name: push(EHNamespace[])
     uid: '@azure/arm-eventhub.EHNamespaceListResult.push|latest-stable'
@@ -829,7 +837,7 @@ methods:
       content: 'function push(items: EHNamespace[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/arm-eventhub.EHNamespace" />[]
+          type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />[]
           description: |
             New elements of the Array.
       return:
@@ -861,7 +869,7 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+        type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />
         description: ''
   - name: >-
       reduce((previousValue: EHNamespace, currentValue: EHNamespace,
@@ -884,10 +892,10 @@ methods:
             currentIndex: number, array: EHNamespace[]) =&gt; EHNamespace
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+          type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+        type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />
         description: ''
   - name: >-
       reduce<U>((previousValue: U, currentValue: EHNamespace, currentIndex:
@@ -952,7 +960,7 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+        type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />
         description: ''
   - name: >-
       reduceRight((previousValue: EHNamespace, currentValue: EHNamespace,
@@ -975,10 +983,10 @@ methods:
             currentIndex: number, array: EHNamespace[]) =&gt; EHNamespace
           description: ''
         - id: initialValue
-          type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+          type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />
           description: ''
       return:
-        type: <xref uid="@azure/arm-eventhub.EHNamespace" />
+        type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />
         description: ''
   - name: >-
       reduceRight<U>((previousValue: U, currentValue: EHNamespace, currentIndex:
@@ -1026,7 +1034,7 @@ methods:
     syntax:
       content: function reverse()
       return:
-        type: <xref uid="@azure/arm-eventhub.EHNamespace" />[]
+        type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />[]
         description: ''
   - name: shift()
     uid: '@azure/arm-eventhub.EHNamespaceListResult.shift|latest-stable'
@@ -1038,7 +1046,9 @@ methods:
     syntax:
       content: function shift()
       return:
-        type: <xref uid="@azure/arm-eventhub.EHNamespace" /> | undefined
+        type: >-
+          <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" /> |
+          undefined
         description: ''
   - name: slice(undefined | number, undefined | number)
     uid: '@azure/arm-eventhub.EHNamespaceListResult.slice|latest-stable'
@@ -1058,7 +1068,7 @@ methods:
           description: |
             The end of the specified portion of the array.
       return:
-        type: <xref uid="@azure/arm-eventhub.EHNamespace" />[]
+        type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />[]
         description: ''
   - name: >-
       some((value: EHNamespace, index: number, array: EHNamespace[]) => unknown,
@@ -1137,11 +1147,11 @@ methods:
           type: number
           description: The number of elements to remove.
         - id: items
-          type: <xref uid="@azure/arm-eventhub.EHNamespace" />[]
+          type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />[]
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
-        type: <xref uid="@azure/arm-eventhub.EHNamespace" />[]
+        type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />[]
         description: ''
   - name: splice(number, undefined | number)
     uid: '@azure/arm-eventhub.EHNamespaceListResult.splice|latest-stable'
@@ -1165,7 +1175,7 @@ methods:
           description: |
             The number of elements to remove.
       return:
-        type: <xref uid="@azure/arm-eventhub.EHNamespace" />[]
+        type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />[]
         description: ''
   - name: toLocaleString()
     uid: '@azure/arm-eventhub.EHNamespaceListResult.toLocaleString|latest-stable'
@@ -1204,7 +1214,7 @@ methods:
       content: 'function unshift(items: EHNamespace[])'
       parameters:
         - id: items
-          type: <xref uid="@azure/arm-eventhub.EHNamespace" />[]
+          type: <xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />[]
           description: |
             Elements to insert at the start of the Array.
       return:
@@ -1220,6 +1230,8 @@ methods:
     syntax:
       content: function values()
       return:
-        type: IterableIterator&lt;<xref uid="@azure/arm-eventhub.EHNamespace" />&gt;
+        type: >-
+          IterableIterator&lt;<xref
+          uid="@azure/arm-eventhub.EHNamespace|latest-stable" />&gt;
         description: ''
-extends: Array&lt;<xref uid="@azure/arm-eventhub.EHNamespace" />&gt;
+extends: Array&lt;<xref uid="@azure/arm-eventhub.EHNamespace|latest-stable" />&gt;

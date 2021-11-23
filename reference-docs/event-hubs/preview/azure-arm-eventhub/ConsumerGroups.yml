@@ -39,19 +39,20 @@ methods:
           type: string
           description: The consumer group name
         - id: parameters
-          type: <xref uid="@azure/arm-eventhub.ConsumerGroup" />
+          type: <xref uid="@azure/arm-eventhub.ConsumerGroup|preview" />
           description: Parameters supplied to create or update a consumer group resource.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.ConsumerGroupsCreateOrUpdateOptionalParams"
+            uid="@azure/arm-eventhub.ConsumerGroupsCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-eventhub.ConsumerGroupsCreateOrUpdateResponse" />&gt;
+          uid="@azure/arm-eventhub.ConsumerGroupsCreateOrUpdateResponse|preview"
+          />&gt;
         description: ''
   - name: delete(string, string, string, string, ConsumerGroupsDeleteOptionalParams)
     uid: '@azure/arm-eventhub.ConsumerGroups.delete|preview'
@@ -80,7 +81,8 @@ methods:
           description: The consumer group name
         - id: options
           type: >-
-            <xref uid="@azure/arm-eventhub.ConsumerGroupsDeleteOptionalParams"
+            <xref
+            uid="@azure/arm-eventhub.ConsumerGroupsDeleteOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -113,13 +115,15 @@ methods:
           type: string
           description: The consumer group name
         - id: options
-          type: <xref uid="@azure/arm-eventhub.ConsumerGroupsGetOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.ConsumerGroupsGetOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-eventhub.ConsumerGroupsGetResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.ConsumerGroupsGetResponse|preview" />&gt;
         description: ''
   - name: >-
       listByEventHub(string, string, string,
@@ -152,12 +156,12 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventhub.ConsumerGroupsListByEventHubOptionalParams"
+            uid="@azure/arm-eventhub.ConsumerGroupsListByEventHubOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-eventhub.ConsumerGroup" />&gt;
+          uid="@azure/arm-eventhub.ConsumerGroup|preview" />&gt;
         description: ''

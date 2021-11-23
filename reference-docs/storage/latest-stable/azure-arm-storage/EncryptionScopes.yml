@@ -20,7 +20,10 @@ constructors:
       content: 'new EncryptionScopes(client: StorageManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -66,10 +69,12 @@ methods:
 
             followed by a letter or number.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.EncryptionScopesGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.EncryptionScopesGetResponse|latest-stable" />&gt;
         description: Promise<Models.EncryptionScopesGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -120,8 +125,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.EncryptionScope"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.EncryptionScope|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, string, ServiceCallback<EncryptionScope>)
@@ -167,8 +172,8 @@ methods:
             followed by a letter or number.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.EncryptionScope"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.EncryptionScope|latest-stable" />&gt;
           description: |
             The callback
   - name: list(string, string, msRest.RequestOptionsBase)
@@ -203,10 +208,12 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.EncryptionScopesListResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.EncryptionScopesListResponse|latest-stable" />&gt;
         description: Promise<Models.EncryptionScopesListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -246,7 +253,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.EncryptionScopeListResult" />&gt;
+            uid="@azure/arm-storage.EncryptionScopeListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: list(string, string, ServiceCallback<EncryptionScopeListResult>)
@@ -281,7 +289,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.EncryptionScopeListResult" />&gt;
+            uid="@azure/arm-storage.EncryptionScopeListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, msRest.RequestOptionsBase)
@@ -302,10 +311,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.EncryptionScopesListNextResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.EncryptionScopesListNextResponse|latest-stable" />&gt;
         description: Promise<Models.EncryptionScopesListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,
@@ -330,7 +341,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.EncryptionScopeListResult" />&gt;
+            uid="@azure/arm-storage.EncryptionScopeListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listNext(string, ServiceCallback<EncryptionScopeListResult>)
@@ -351,7 +363,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-storage.EncryptionScopeListResult" />&gt;
+            uid="@azure/arm-storage.EncryptionScopeListResult|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: patch(string, string, string, EncryptionScope, msRest.RequestOptionsBase)
@@ -401,13 +414,15 @@ methods:
 
             followed by a letter or number.
         - id: encryptionScope
-          type: <xref uid="@azure/arm-storage.EncryptionScope" />
+          type: <xref uid="@azure/arm-storage.EncryptionScope|latest-stable" />
           description: Encryption scope properties to be used for the update.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.EncryptionScopesPatchResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.EncryptionScopesPatchResponse|latest-stable" />&gt;
         description: Promise<Models.EncryptionScopesPatchResponse>
   - name: >-
       patch(string, string, string, EncryptionScope, RequestOptionsBase,
@@ -454,15 +469,15 @@ methods:
 
             followed by a letter or number.
         - id: encryptionScope
-          type: <xref uid="@azure/arm-storage.EncryptionScope" />
+          type: <xref uid="@azure/arm-storage.EncryptionScope|latest-stable" />
           description: Encryption scope properties to be used for the update.
         - id: options
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.EncryptionScope"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.EncryptionScope|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -510,12 +525,12 @@ methods:
 
             followed by a letter or number.
         - id: encryptionScope
-          type: <xref uid="@azure/arm-storage.EncryptionScope" />
+          type: <xref uid="@azure/arm-storage.EncryptionScope|latest-stable" />
           description: Encryption scope properties to be used for the update.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.EncryptionScope"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.EncryptionScope|latest-stable" />&gt;
           description: |
             The callback
   - name: put(string, string, string, EncryptionScope, msRest.RequestOptionsBase)
@@ -569,13 +584,15 @@ methods:
 
             followed by a letter or number.
         - id: encryptionScope
-          type: <xref uid="@azure/arm-storage.EncryptionScope" />
+          type: <xref uid="@azure/arm-storage.EncryptionScope|latest-stable" />
           description: Encryption scope properties to be used for the create or update.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.EncryptionScopesPutResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.EncryptionScopesPutResponse|latest-stable" />&gt;
         description: Promise<Models.EncryptionScopesPutResponse>
   - name: >-
       put(string, string, string, EncryptionScope, RequestOptionsBase,
@@ -622,15 +639,15 @@ methods:
 
             followed by a letter or number.
         - id: encryptionScope
-          type: <xref uid="@azure/arm-storage.EncryptionScope" />
+          type: <xref uid="@azure/arm-storage.EncryptionScope|latest-stable" />
           description: Encryption scope properties to be used for the create or update.
         - id: options
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.EncryptionScope"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.EncryptionScope|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -678,11 +695,11 @@ methods:
 
             followed by a letter or number.
         - id: encryptionScope
-          type: <xref uid="@azure/arm-storage.EncryptionScope" />
+          type: <xref uid="@azure/arm-storage.EncryptionScope|latest-stable" />
           description: Encryption scope properties to be used for the create or update.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.EncryptionScope"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.EncryptionScope|latest-stable" />&gt;
           description: |
             The callback

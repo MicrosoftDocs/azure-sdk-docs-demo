@@ -63,6 +63,6 @@ properties:
         "#Microsoft.Azure.Search.KeywordTokenizer"
       return:
         type: >-
-          "#<xref uid="Microsoft.Azure.Search.KeywordTokenizerV2" />" | "#<xref
-          uid="Microsoft.Azure.Search.KeywordTokenizer" />"
+          "#<xref uid="Microsoft.Azure.Search.KeywordTokenizerV2|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.KeywordTokenizer|preview" />"
         description: ''

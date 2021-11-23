@@ -21,7 +21,7 @@ properties:
     syntax:
       content: 'deadLetterDestination?: DeadLetterDestinationUnion'
       return:
-        type: <xref uid="@azure/arm-eventgrid.DeadLetterDestinationUnion" />
+        type: <xref uid="@azure/arm-eventgrid.DeadLetterDestinationUnion|preview" />
         description: ''
   - name: deadLetterWithResourceIdentity
     uid: >-
@@ -42,7 +42,9 @@ properties:
     syntax:
       content: 'deadLetterWithResourceIdentity?: DeadLetterWithResourceIdentity'
       return:
-        type: <xref uid="@azure/arm-eventgrid.DeadLetterWithResourceIdentity" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.DeadLetterWithResourceIdentity|preview" />
         description: ''
   - name: deliveryWithResourceIdentity
     uid: >-
@@ -62,7 +64,9 @@ properties:
     syntax:
       content: 'deliveryWithResourceIdentity?: DeliveryWithResourceIdentity'
       return:
-        type: <xref uid="@azure/arm-eventgrid.DeliveryWithResourceIdentity" />
+        type: >-
+          <xref uid="@azure/arm-eventgrid.DeliveryWithResourceIdentity|preview"
+          />
         description: ''
   - name: destination
     uid: '@azure/arm-eventgrid.EventSubscriptionUpdateParameters.destination|preview'
@@ -77,7 +81,10 @@ properties:
     syntax:
       content: 'destination?: EventSubscriptionDestinationUnion'
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscriptionDestinationUnion" />
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.EventSubscriptionDestinationUnion|preview"
+          />
         description: ''
   - name: eventDeliverySchema
     uid: >-
@@ -91,7 +98,7 @@ properties:
     syntax:
       content: 'eventDeliverySchema?: EventDeliverySchema'
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventDeliverySchema" />
+        type: <xref uid="@azure/arm-eventgrid.EventDeliverySchema|preview" />
         description: ''
   - name: expirationTimeUtc
     uid: >-
@@ -118,7 +125,7 @@ properties:
     syntax:
       content: 'filter?: EventSubscriptionFilter'
       return:
-        type: <xref uid="@azure/arm-eventgrid.EventSubscriptionFilter" />
+        type: <xref uid="@azure/arm-eventgrid.EventSubscriptionFilter|preview" />
         description: ''
   - name: labels
     uid: '@azure/arm-eventgrid.EventSubscriptionUpdateParameters.labels|preview'
@@ -146,5 +153,5 @@ properties:
     syntax:
       content: 'retryPolicy?: RetryPolicy'
       return:
-        type: <xref uid="@azure/arm-eventgrid.RetryPolicy" />
+        type: <xref uid="@azure/arm-eventgrid.RetryPolicy|preview" />
         description: ''

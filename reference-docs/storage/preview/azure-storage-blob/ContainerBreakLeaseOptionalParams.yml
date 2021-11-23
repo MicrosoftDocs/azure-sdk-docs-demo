@@ -55,7 +55,9 @@ properties:
     syntax:
       content: 'modifiedAccessConditions?: ModifiedAccessConditionsModel'
       return:
-        type: <xref uid="@azure/storage-blob.ModifiedAccessConditionsModel" />
+        type: >-
+          <xref uid="@azure/storage-blob.ModifiedAccessConditionsModel|preview"
+          />
         description: ''
   - name: requestId
     uid: '@azure/storage-blob.ContainerBreakLeaseOptionalParams.requestId|preview'

@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'body?: ErrorBody'
       return:
-        type: <xref uid="@azure/cosmos.ErrorBody" />
+        type: <xref uid="@azure/cosmos.ErrorBody|latest-stable" />
         description: ''
   - name: code
     uid: '@azure/cosmos.ErrorResponse.code|latest-stable'
@@ -72,7 +72,7 @@ properties:
     syntax:
       content: 'headers?: CosmosHeaders'
       return:
-        type: <xref uid="@azure/cosmos.CosmosHeaders" />
+        type: <xref uid="@azure/cosmos.CosmosHeaders|latest-stable" />
         description: ''
   - name: message
     uid: '@azure/cosmos.ErrorResponse.message|latest-stable'

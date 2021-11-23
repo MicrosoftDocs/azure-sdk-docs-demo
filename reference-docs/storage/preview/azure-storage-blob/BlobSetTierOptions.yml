@@ -45,8 +45,8 @@ properties:
       content: 'conditions?: LeaseAccessConditions & TagConditions'
       return:
         type: >-
-          <xref uid="@azure/storage-blob.LeaseAccessConditions" /> & <xref
-          uid="@azure/storage-blob.TagConditions" />
+          <xref uid="@azure/storage-blob.LeaseAccessConditions|preview" /> &
+          <xref uid="@azure/storage-blob.TagConditions|preview" />
         description: ''
   - name: rehydratePriority
     uid: '@azure/storage-blob.BlobSetTierOptions.rehydratePriority|preview'
@@ -63,7 +63,7 @@ properties:
     syntax:
       content: 'rehydratePriority?: RehydratePriority'
       return:
-        type: <xref uid="@azure/storage-blob.RehydratePriority" />
+        type: <xref uid="@azure/storage-blob.RehydratePriority|preview" />
         description: ''
   - name: tracingOptions
     uid: '@azure/storage-blob.BlobSetTierOptions.tracingOptions|preview'
@@ -78,4 +78,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|preview" />

@@ -23,7 +23,7 @@ properties:
     syntax:
       content: 'accessPolicies?: AccessPolicyEntry[]'
       return:
-        type: <xref uid="@azure/arm-keyvault.AccessPolicyEntry" />[]
+        type: <xref uid="@azure/arm-keyvault.AccessPolicyEntry|preview" />[]
         description: ''
   - name: createMode
     uid: '@azure/arm-keyvault.VaultPatchProperties.createMode|preview'
@@ -38,7 +38,7 @@ properties:
     syntax:
       content: 'createMode?: CreateMode'
       return:
-        type: <xref uid="@azure/arm-keyvault.CreateMode" />
+        type: <xref uid="@azure/arm-keyvault.CreateMode|preview" />
         description: ''
   - name: enabledForDeployment
     uid: '@azure/arm-keyvault.VaultPatchProperties.enabledForDeployment|preview'
@@ -153,7 +153,7 @@ properties:
     syntax:
       content: 'networkAcls?: NetworkRuleSet'
       return:
-        type: <xref uid="@azure/arm-keyvault.NetworkRuleSet" />
+        type: <xref uid="@azure/arm-keyvault.NetworkRuleSet|preview" />
         description: ''
   - name: publicNetworkAccess
     uid: '@azure/arm-keyvault.VaultPatchProperties.publicNetworkAccess|preview'
@@ -184,7 +184,7 @@ properties:
     syntax:
       content: 'sku?: Sku'
       return:
-        type: <xref uid="@azure/arm-keyvault.Sku" />
+        type: <xref uid="@azure/arm-keyvault.Sku|preview" />
         description: ''
   - name: softDeleteRetentionInDays
     uid: '@azure/arm-keyvault.VaultPatchProperties.softDeleteRetentionInDays|preview'

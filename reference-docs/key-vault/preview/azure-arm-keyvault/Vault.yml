@@ -67,7 +67,7 @@ properties:
     syntax:
       content: 'properties: VaultProperties'
       return:
-        type: <xref uid="@azure/arm-keyvault.VaultProperties" />
+        type: <xref uid="@azure/arm-keyvault.VaultProperties|preview" />
         description: ''
   - name: systemData
     uid: '@azure/arm-keyvault.Vault.systemData|preview'
@@ -84,7 +84,7 @@ properties:
     syntax:
       content: 'systemData?: SystemData'
       return:
-        type: <xref uid="@azure/arm-keyvault.SystemData" />
+        type: <xref uid="@azure/arm-keyvault.SystemData|preview" />
         description: ''
   - name: tags
     uid: '@azure/arm-keyvault.Vault.tags|preview'

@@ -22,7 +22,7 @@ properties:
     syntax:
       content: 'mapper: Mapper'
       return:
-        type: <xref uid="@azure/core-http.Mapper" />
+        type: <xref uid="@azure/core-http.Mapper|latest-stable" />
         description: ''
   - name: parameterPath
     uid: '@azure/core-http.OperationParameter.parameterPath|latest-stable'
@@ -39,5 +39,5 @@ properties:
     syntax:
       content: 'parameterPath: ParameterPath'
       return:
-        type: <xref uid="@azure/core-http.ParameterPath" />
+        type: <xref uid="@azure/core-http.ParameterPath|latest-stable" />
         description: ''

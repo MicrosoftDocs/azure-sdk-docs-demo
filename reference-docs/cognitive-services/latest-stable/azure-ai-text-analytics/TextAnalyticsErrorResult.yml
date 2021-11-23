@@ -22,7 +22,9 @@ properties:
     syntax:
       content: 'error: TextAnalyticsError'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TextAnalyticsError" />
+        type: >-
+          <xref uid="@azure/ai-text-analytics.TextAnalyticsError|latest-stable"
+          />
         description: ''
   - name: id
     uid: '@azure/ai-text-analytics.TextAnalyticsErrorResult.id|latest-stable'

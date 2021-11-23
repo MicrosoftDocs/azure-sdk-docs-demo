@@ -35,5 +35,5 @@ properties:
     syntax:
       content: 'value?: EHNamespace[]'
       return:
-        type: <xref uid="@azure/arm-eventhub.EHNamespace" />[]
+        type: <xref uid="@azure/arm-eventhub.EHNamespace|preview" />[]
         description: ''

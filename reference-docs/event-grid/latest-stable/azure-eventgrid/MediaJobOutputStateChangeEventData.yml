@@ -36,7 +36,7 @@ properties:
     syntax:
       content: 'output: MediaJobOutputUnion'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobOutputUnion" />
+        type: <xref uid="@azure/eventgrid.MediaJobOutputUnion|latest-stable" />
         description: ''
   - name: previousState
     uid: >-
@@ -54,5 +54,5 @@ properties:
     syntax:
       content: 'previousState: MediaJobState'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobState" />
+        type: <xref uid="@azure/eventgrid.MediaJobState|latest-stable" />
         description: ''

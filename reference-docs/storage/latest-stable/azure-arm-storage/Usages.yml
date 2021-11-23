@@ -20,7 +20,10 @@ constructors:
       content: 'new Usages(client: StorageManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-storage.StorageManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -44,10 +47,12 @@ methods:
           type: string
           description: The location of the Azure Storage resource.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.UsagesListByLocationResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.UsagesListByLocationResponse|latest-stable" />&gt;
         description: Promise<Models.UsagesListByLocationResponse>
   - name: >-
       listByLocation(string, RequestOptionsBase,
@@ -71,8 +76,8 @@ methods:
           description: The optional parameters
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.UsageListResult"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.UsageListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listByLocation(string, ServiceCallback<UsageListResult>)
@@ -92,7 +97,7 @@ methods:
           description: The location of the Azure Storage resource.
         - id: callback
           type: >-
-            ServiceCallback&lt;<xref uid="@azure/arm-storage.UsageListResult"
-            />&gt;
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-storage.UsageListResult|latest-stable" />&gt;
           description: |
             The callback

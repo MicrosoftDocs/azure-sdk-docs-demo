@@ -35,20 +35,21 @@ methods:
           type: string
           description: The namespace name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBNamespace" />
+          type: <xref uid="@azure/arm-servicebus.SBNamespace|preview" />
           description: Parameters supplied to create a namespace resource.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
-          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateResponse" />&gt;,
-          <xref uid="@azure/arm-servicebus.NamespacesCreateOrUpdateResponse"
+          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateResponse|preview"
+          />&gt;, <xref
+          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateResponse|preview"
           />&gt;&gt;
         description: ''
   - name: >-
@@ -77,19 +78,20 @@ methods:
           type: string
           description: The namespace name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBNamespace" />
+          type: <xref uid="@azure/arm-servicebus.SBNamespace|preview" />
           description: Parameters supplied to create a namespace resource.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateResponse" />&gt;
+          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateResponse|preview"
+          />&gt;
         description: ''
   - name: beginDelete(string, string, NamespacesDeleteOptionalParams)
     uid: '@azure/arm-servicebus.Namespaces.beginDelete|preview'
@@ -114,7 +116,10 @@ methods:
           type: string
           description: The namespace name
         - id: options
-          type: <xref uid="@azure/arm-servicebus.NamespacesDeleteOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -143,7 +148,10 @@ methods:
           type: string
           description: The namespace name
         - id: options
-          type: <xref uid="@azure/arm-servicebus.NamespacesDeleteOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesDeleteOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -164,19 +172,19 @@ methods:
         options?: NamespacesCheckNameAvailabilityOptionalParams)
       parameters:
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.CheckNameAvailability" />
+          type: <xref uid="@azure/arm-servicebus.CheckNameAvailability|preview" />
           description: Parameters to check availability of the given namespace name
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesCheckNameAvailabilityOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesCheckNameAvailabilityOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.NamespacesCheckNameAvailabilityResponse"
+          uid="@azure/arm-servicebus.NamespacesCheckNameAvailabilityResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -206,19 +214,19 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBAuthorizationRule" />
+          type: <xref uid="@azure/arm-servicebus.SBAuthorizationRule|preview" />
           description: The shared access authorization rule.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateAuthorizationRuleOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateAuthorizationRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateAuthorizationRuleResponse"
+          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateAuthorizationRuleResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -247,19 +255,19 @@ methods:
           type: string
           description: The IP Filter Rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.IpFilterRule" />
+          type: <xref uid="@azure/arm-servicebus.IpFilterRule|preview" />
           description: The Namespace IpFilterRule.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateIpFilterRuleOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateIpFilterRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateIpFilterRuleResponse"
+          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateIpFilterRuleResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -284,19 +292,19 @@ methods:
           type: string
           description: The namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.NetworkRuleSet" />
+          type: <xref uid="@azure/arm-servicebus.NetworkRuleSet|preview" />
           description: The Namespace IpFilterRule.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateNetworkRuleSetOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateNetworkRuleSetOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateNetworkRuleSetResponse"
+          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateNetworkRuleSetResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -326,19 +334,19 @@ methods:
           type: string
           description: The Virtual Network Rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.VirtualNetworkRule" />
+          type: <xref uid="@azure/arm-servicebus.VirtualNetworkRule|preview" />
           description: The Namespace VirtualNetworkRule.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateVirtualNetworkRuleOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesCreateOrUpdateVirtualNetworkRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateVirtualNetworkRuleResponse"
+          uid="@azure/arm-servicebus.NamespacesCreateOrUpdateVirtualNetworkRuleResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -368,7 +376,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesDeleteAuthorizationRuleOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesDeleteAuthorizationRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -402,7 +410,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesDeleteIpFilterRuleOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesDeleteIpFilterRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -436,7 +444,7 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesDeleteVirtualNetworkRuleOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesDeleteVirtualNetworkRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
@@ -462,13 +470,15 @@ methods:
           type: string
           description: The namespace name
         - id: options
-          type: <xref uid="@azure/arm-servicebus.NamespacesGetOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesGetOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-servicebus.NamespacesGetResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.NamespacesGetResponse|preview" />&gt;
         description: ''
   - name: >-
       getAuthorizationRule(string, string, string,
@@ -497,14 +507,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesGetAuthorizationRuleOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesGetAuthorizationRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.NamespacesGetAuthorizationRuleResponse"
+          uid="@azure/arm-servicebus.NamespacesGetAuthorizationRuleResponse|preview"
           />&gt;
         description: ''
   - name: >-
@@ -534,14 +544,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesGetIpFilterRuleOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesGetIpFilterRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.NamespacesGetIpFilterRuleResponse" />&gt;
+          uid="@azure/arm-servicebus.NamespacesGetIpFilterRuleResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       getNetworkRuleSet(string, string,
@@ -566,14 +577,15 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesGetNetworkRuleSetOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesGetNetworkRuleSetOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.NamespacesGetNetworkRuleSetResponse" />&gt;
+          uid="@azure/arm-servicebus.NamespacesGetNetworkRuleSetResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       getVirtualNetworkRule(string, string, string,
@@ -602,14 +614,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesGetVirtualNetworkRuleOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesGetVirtualNetworkRuleOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.NamespacesGetVirtualNetworkRuleResponse"
+          uid="@azure/arm-servicebus.NamespacesGetVirtualNetworkRuleResponse|preview"
           />&gt;
         description: ''
   - name: list(NamespacesListOptionalParams)
@@ -625,13 +637,15 @@ methods:
       content: 'function list(options?: NamespacesListOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="@azure/arm-servicebus.NamespacesListOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesListOptionalParams|preview" />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-servicebus.SBNamespace" />&gt;
+          uid="@azure/arm-servicebus.SBNamespace|preview" />&gt;
         description: ''
   - name: >-
       listAuthorizationRules(string, string,
@@ -657,14 +671,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesListAuthorizationRulesOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesListAuthorizationRulesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-servicebus.SBAuthorizationRule" />&gt;
+          uid="@azure/arm-servicebus.SBAuthorizationRule|preview" />&gt;
         description: ''
   - name: listByResourceGroup(string, NamespacesListByResourceGroupOptionalParams)
     uid: '@azure/arm-servicebus.Namespaces.listByResourceGroup|preview'
@@ -684,14 +698,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesListByResourceGroupOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesListByResourceGroupOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-servicebus.SBNamespace" />&gt;
+          uid="@azure/arm-servicebus.SBNamespace|preview" />&gt;
         description: ''
   - name: >-
       listIpFilterRules(string, string,
@@ -716,14 +730,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesListIpFilterRulesOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesListIpFilterRulesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-servicebus.IpFilterRule" />&gt;
+          uid="@azure/arm-servicebus.IpFilterRule|preview" />&gt;
         description: ''
   - name: listKeys(string, string, string, NamespacesListKeysOptionalParams)
     uid: '@azure/arm-servicebus.Namespaces.listKeys|preview'
@@ -749,14 +763,15 @@ methods:
           description: The authorization rule name.
         - id: options
           type: >-
-            <xref uid="@azure/arm-servicebus.NamespacesListKeysOptionalParams"
+            <xref
+            uid="@azure/arm-servicebus.NamespacesListKeysOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.NamespacesListKeysResponse" />&gt;
+          uid="@azure/arm-servicebus.NamespacesListKeysResponse|preview" />&gt;
         description: ''
   - name: >-
       listNetworkRuleSets(string, string,
@@ -781,14 +796,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesListNetworkRuleSetsOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesListNetworkRuleSetsOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-servicebus.NetworkRuleSet" />&gt;
+          uid="@azure/arm-servicebus.NetworkRuleSet|preview" />&gt;
         description: ''
   - name: >-
       listVirtualNetworkRules(string, string,
@@ -814,14 +829,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesListVirtualNetworkRulesOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesListVirtualNetworkRulesOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           PagedAsyncIterableIterator&lt;<xref
-          uid="@azure/arm-servicebus.VirtualNetworkRule" />&gt;
+          uid="@azure/arm-servicebus.VirtualNetworkRule|preview" />&gt;
         description: ''
   - name: >-
       migrate(string, string, SBNamespaceMigrate,
@@ -845,10 +860,13 @@ methods:
           type: string
           description: The namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBNamespaceMigrate" />
+          type: <xref uid="@azure/arm-servicebus.SBNamespaceMigrate|preview" />
           description: Parameters supplied to migrate namespace type.
         - id: options
-          type: <xref uid="@azure/arm-servicebus.NamespacesMigrateOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesMigrateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
@@ -880,19 +898,22 @@ methods:
           type: string
           description: The authorization rule name.
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.RegenerateAccessKeyParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.RegenerateAccessKeyParameters|preview" />
           description: Parameters supplied to regenerate the authorization rule.
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-servicebus.NamespacesRegenerateKeysOptionalParams"
+            uid="@azure/arm-servicebus.NamespacesRegenerateKeysOptionalParams|preview"
             />
           description: |
             The options parameters.
       return:
         type: >-
           Promise&lt;<xref
-          uid="@azure/arm-servicebus.NamespacesRegenerateKeysResponse" />&gt;
+          uid="@azure/arm-servicebus.NamespacesRegenerateKeysResponse|preview"
+          />&gt;
         description: ''
   - name: >-
       update(string, string, SBNamespaceUpdateParameters,
@@ -920,14 +941,19 @@ methods:
           type: string
           description: The namespace name
         - id: parameters
-          type: <xref uid="@azure/arm-servicebus.SBNamespaceUpdateParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.SBNamespaceUpdateParameters|preview" />
           description: Parameters supplied to update a namespace resource.
         - id: options
-          type: <xref uid="@azure/arm-servicebus.NamespacesUpdateOptionalParams" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.NamespacesUpdateOptionalParams|preview"
+            />
           description: |
             The options parameters.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/arm-servicebus.NamespacesUpdateResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.NamespacesUpdateResponse|preview" />&gt;
         description: ''

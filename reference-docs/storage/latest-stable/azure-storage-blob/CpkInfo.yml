@@ -23,7 +23,9 @@ properties:
     syntax:
       content: 'encryptionAlgorithm?: EncryptionAlgorithmType'
       return:
-        type: <xref uid="@azure/storage-blob.EncryptionAlgorithmType" />
+        type: >-
+          <xref uid="@azure/storage-blob.EncryptionAlgorithmType|latest-stable"
+          />
         description: ''
   - name: encryptionKey
     uid: '@azure/storage-blob.CpkInfo.encryptionKey|latest-stable'

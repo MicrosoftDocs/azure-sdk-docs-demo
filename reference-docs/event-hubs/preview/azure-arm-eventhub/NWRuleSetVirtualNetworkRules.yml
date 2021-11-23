@@ -34,5 +34,5 @@ properties:
     syntax:
       content: 'subnet?: Subnet'
       return:
-        type: <xref uid="@azure/arm-eventhub.Subnet" />
+        type: <xref uid="@azure/arm-eventhub.Subnet|preview" />
         description: ''

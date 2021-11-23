@@ -61,8 +61,8 @@ methods:
             Optional properties passed to the operation's update method.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/core-lro.PollOperation" />&lt;TState,
-          TResult&gt;&gt;
+          Promise&lt;<xref uid="@azure/core-lro.PollOperation|latest-stable"
+          />&lt;TState, TResult&gt;&gt;
         description: ''
   - name: toString()
     uid: '@azure/core-lro.PollOperation.toString|latest-stable'
@@ -106,6 +106,6 @@ methods:
             Optional properties passed to the operation's update method.
       return:
         type: >-
-          Promise&lt;<xref uid="@azure/core-lro.PollOperation" />&lt;TState,
-          TResult&gt;&gt;
+          Promise&lt;<xref uid="@azure/core-lro.PollOperation|latest-stable"
+          />&lt;TState, TResult&gt;&gt;
         description: ''

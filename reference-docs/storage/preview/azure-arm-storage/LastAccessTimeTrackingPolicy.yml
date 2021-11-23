@@ -50,7 +50,7 @@ properties:
     syntax:
       content: 'name?: Name'
       return:
-        type: <xref uid="@azure/arm-storage.Name" />
+        type: <xref uid="@azure/arm-storage.Name|preview" />
         description: ''
   - name: trackingGranularityInDays
     uid: >-

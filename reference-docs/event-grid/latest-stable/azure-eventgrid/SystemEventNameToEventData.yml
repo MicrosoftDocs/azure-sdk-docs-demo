@@ -23,7 +23,10 @@ properties:
     syntax:
       content: 'Microsoft.ApiManagement.APICreated: ApiManagementApiCreatedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.ApiManagementApiCreatedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ApiManagementApiCreatedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.ApiManagement.APIDeleted
     uid: >-
@@ -39,7 +42,10 @@ properties:
     syntax:
       content: 'Microsoft.ApiManagement.APIDeleted: ApiManagementApiDeletedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.ApiManagementApiDeletedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ApiManagementApiDeletedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.ApiManagement.APIReleaseCreated
     uid: >-
@@ -58,7 +64,8 @@ properties:
         ApiManagementApiReleaseCreatedEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.ApiManagementApiReleaseCreatedEventData"
+          <xref
+          uid="@azure/eventgrid.ApiManagementApiReleaseCreatedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.ApiManagement.APIReleaseDeleted
@@ -78,7 +85,8 @@ properties:
         ApiManagementApiReleaseDeletedEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.ApiManagementApiReleaseDeletedEventData"
+          <xref
+          uid="@azure/eventgrid.ApiManagementApiReleaseDeletedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.ApiManagement.APIReleaseUpdated
@@ -98,7 +106,8 @@ properties:
         ApiManagementApiReleaseUpdatedEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.ApiManagementApiReleaseUpdatedEventData"
+          <xref
+          uid="@azure/eventgrid.ApiManagementApiReleaseUpdatedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.ApiManagement.APIUpdated
@@ -115,7 +124,10 @@ properties:
     syntax:
       content: 'Microsoft.ApiManagement.APIUpdated: ApiManagementApiUpdatedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.ApiManagementApiUpdatedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ApiManagementApiUpdatedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.ApiManagement.ProductCreated
     uid: >-
@@ -133,7 +145,10 @@ properties:
         Microsoft.ApiManagement.ProductCreated:
         ApiManagementProductCreatedEventData
       return:
-        type: <xref uid="@azure/eventgrid.ApiManagementProductCreatedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ApiManagementProductCreatedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.ApiManagement.ProductDeleted
     uid: >-
@@ -151,7 +166,10 @@ properties:
         Microsoft.ApiManagement.ProductDeleted:
         ApiManagementProductDeletedEventData
       return:
-        type: <xref uid="@azure/eventgrid.ApiManagementProductDeletedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ApiManagementProductDeletedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.ApiManagement.ProductUpdated
     uid: >-
@@ -169,7 +187,10 @@ properties:
         Microsoft.ApiManagement.ProductUpdated:
         ApiManagementProductUpdatedEventData
       return:
-        type: <xref uid="@azure/eventgrid.ApiManagementProductUpdatedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ApiManagementProductUpdatedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.ApiManagement.SubscriptionCreated
     uid: >-
@@ -188,7 +209,8 @@ properties:
         ApiManagementSubscriptionCreatedEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.ApiManagementSubscriptionCreatedEventData"
+          <xref
+          uid="@azure/eventgrid.ApiManagementSubscriptionCreatedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.ApiManagement.SubscriptionDeleted
@@ -208,7 +230,8 @@ properties:
         ApiManagementSubscriptionDeletedEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.ApiManagementSubscriptionDeletedEventData"
+          <xref
+          uid="@azure/eventgrid.ApiManagementSubscriptionDeletedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.ApiManagement.SubscriptionUpdated
@@ -228,7 +251,8 @@ properties:
         ApiManagementSubscriptionUpdatedEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.ApiManagementSubscriptionUpdatedEventData"
+          <xref
+          uid="@azure/eventgrid.ApiManagementSubscriptionUpdatedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.ApiManagement.UserCreated
@@ -245,7 +269,10 @@ properties:
     syntax:
       content: 'Microsoft.ApiManagement.UserCreated: ApiManagementUserCreatedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.ApiManagementUserCreatedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ApiManagementUserCreatedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.ApiManagement.UserDeleted
     uid: >-
@@ -261,7 +288,10 @@ properties:
     syntax:
       content: 'Microsoft.ApiManagement.UserDeleted: ApiManagementUserDeletedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.ApiManagementUserDeletedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ApiManagementUserDeletedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.ApiManagement.UserUpdated
     uid: >-
@@ -277,7 +307,10 @@ properties:
     syntax:
       content: 'Microsoft.ApiManagement.UserUpdated: ApiManagementUserUpdatedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.ApiManagementUserUpdatedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ApiManagementUserUpdatedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.AppConfiguration.KeyValueDeleted
     uid: >-
@@ -296,7 +329,8 @@ properties:
         AppConfigurationKeyValueDeletedEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.AppConfigurationKeyValueDeletedEventData"
+          <xref
+          uid="@azure/eventgrid.AppConfigurationKeyValueDeletedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.AppConfiguration.KeyValueModified
@@ -316,7 +350,8 @@ properties:
         AppConfigurationKeyValueModifiedEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.AppConfigurationKeyValueModifiedEventData"
+          <xref
+          uid="@azure/eventgrid.AppConfigurationKeyValueModifiedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Communication.ChatMessageDeleted
@@ -335,7 +370,9 @@ properties:
         Microsoft.Communication.ChatMessageDeleted:
         AcsChatMessageDeletedEventData
       return:
-        type: <xref uid="@azure/eventgrid.AcsChatMessageDeletedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.AcsChatMessageDeletedEventData|latest-stable" />
         description: ''
   - name: Microsoft.Communication.ChatMessageDeletedInThread
     uid: >-
@@ -353,7 +390,10 @@ properties:
         Microsoft.Communication.ChatMessageDeletedInThread:
         AcsChatMessageDeletedInThreadEventData
       return:
-        type: <xref uid="@azure/eventgrid.AcsChatMessageDeletedInThreadEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.AcsChatMessageDeletedInThreadEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Communication.ChatMessageEdited
     uid: >-
@@ -369,7 +409,9 @@ properties:
     syntax:
       content: 'Microsoft.Communication.ChatMessageEdited: AcsChatMessageEditedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.AcsChatMessageEditedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.AcsChatMessageEditedEventData|latest-stable" />
         description: ''
   - name: Microsoft.Communication.ChatMessageEditedInThread
     uid: >-
@@ -387,7 +429,10 @@ properties:
         Microsoft.Communication.ChatMessageEditedInThread:
         AcsChatMessageEditedInThreadEventData
       return:
-        type: <xref uid="@azure/eventgrid.AcsChatMessageEditedInThreadEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.AcsChatMessageEditedInThreadEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Communication.ChatMessageReceived
     uid: >-
@@ -405,7 +450,10 @@ properties:
         Microsoft.Communication.ChatMessageReceived:
         AcsChatMessageReceivedEventData
       return:
-        type: <xref uid="@azure/eventgrid.AcsChatMessageReceivedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.AcsChatMessageReceivedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Communication.ChatMessageReceivedInThread
     uid: >-
@@ -424,7 +472,8 @@ properties:
         AcsChatMessageReceivedInThreadEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.AcsChatMessageReceivedInThreadEventData"
+          <xref
+          uid="@azure/eventgrid.AcsChatMessageReceivedInThreadEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Communication.ChatParticipantAddedToThreadWithUser
@@ -445,7 +494,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.AcsChatParticipantAddedToThreadWithUserEventData"
+          uid="@azure/eventgrid.AcsChatParticipantAddedToThreadWithUserEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Communication.ChatParticipantRemovedFromThreadWithUser
@@ -466,7 +515,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.AcsChatParticipantRemovedFromThreadWithUserEventData"
+          uid="@azure/eventgrid.AcsChatParticipantRemovedFromThreadWithUserEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Communication.ChatThreadCreatedWithUser
@@ -485,7 +534,10 @@ properties:
         Microsoft.Communication.ChatThreadCreatedWithUser:
         AcsChatThreadCreatedWithUserEventData
       return:
-        type: <xref uid="@azure/eventgrid.AcsChatThreadCreatedWithUserEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.AcsChatThreadCreatedWithUserEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Communication.ChatThreadParticipantAdded
     uid: >-
@@ -504,7 +556,8 @@ properties:
         AcsChatParticipantAddedToThreadEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.AcsChatParticipantAddedToThreadEventData"
+          <xref
+          uid="@azure/eventgrid.AcsChatParticipantAddedToThreadEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Communication.ChatThreadParticipantRemoved
@@ -525,7 +578,8 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.AcsChatParticipantRemovedFromThreadEventData" />
+          uid="@azure/eventgrid.AcsChatParticipantRemovedFromThreadEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Communication.ChatThreadPropertiesUpdatedPerUser
     uid: >-
@@ -545,7 +599,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.AcsChatThreadPropertiesUpdatedPerUserEventData"
+          uid="@azure/eventgrid.AcsChatThreadPropertiesUpdatedPerUserEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Communication.ChatThreadWithUserDeleted
@@ -564,7 +618,10 @@ properties:
         Microsoft.Communication.ChatThreadWithUserDeleted:
         AcsChatThreadWithUserDeletedEventData
       return:
-        type: <xref uid="@azure/eventgrid.AcsChatThreadWithUserDeletedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.AcsChatThreadWithUserDeletedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Communication.RecordingFileStatusUpdated
     uid: >-
@@ -582,7 +639,10 @@ properties:
         Microsoft.Communication.RecordingFileStatusUpdated:
         AcsRecordingFileStatusUpdatedEventData
       return:
-        type: <xref uid="@azure/eventgrid.AcsRecordingFileStatusUpdatedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.AcsRecordingFileStatusUpdatedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Communication.SMSDeliveryReportReceived
     uid: >-
@@ -600,7 +660,10 @@ properties:
         Microsoft.Communication.SMSDeliveryReportReceived:
         AcsSmsDeliveryReportReceivedEventData
       return:
-        type: <xref uid="@azure/eventgrid.AcsSmsDeliveryReportReceivedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.AcsSmsDeliveryReportReceivedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Communication.SMSReceived
     uid: >-
@@ -616,7 +679,7 @@ properties:
     syntax:
       content: 'Microsoft.Communication.SMSReceived: AcsSmsReceivedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.AcsSmsReceivedEventData" />
+        type: <xref uid="@azure/eventgrid.AcsSmsReceivedEventData|latest-stable" />
         description: ''
   - name: Microsoft.Communication.UserDisconnected
     uid: >-
@@ -632,7 +695,9 @@ properties:
     syntax:
       content: 'Microsoft.Communication.UserDisconnected: AcsUserDisconnectedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.AcsUserDisconnectedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.AcsUserDisconnectedEventData|latest-stable" />
         description: ''
   - name: Microsoft.ContainerRegistry.ChartDeleted
     uid: >-
@@ -650,7 +715,10 @@ properties:
         Microsoft.ContainerRegistry.ChartDeleted:
         ContainerRegistryChartDeletedEventData
       return:
-        type: <xref uid="@azure/eventgrid.ContainerRegistryChartDeletedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ContainerRegistryChartDeletedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.ContainerRegistry.ChartPushed
     uid: >-
@@ -668,7 +736,10 @@ properties:
         Microsoft.ContainerRegistry.ChartPushed:
         ContainerRegistryChartPushedEventData
       return:
-        type: <xref uid="@azure/eventgrid.ContainerRegistryChartPushedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ContainerRegistryChartPushedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.ContainerRegistry.ImageDeleted
     uid: >-
@@ -686,7 +757,10 @@ properties:
         Microsoft.ContainerRegistry.ImageDeleted:
         ContainerRegistryImageDeletedEventData
       return:
-        type: <xref uid="@azure/eventgrid.ContainerRegistryImageDeletedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ContainerRegistryImageDeletedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.ContainerRegistry.ImagePushed
     uid: >-
@@ -704,7 +778,10 @@ properties:
         Microsoft.ContainerRegistry.ImagePushed:
         ContainerRegistryImagePushedEventData
       return:
-        type: <xref uid="@azure/eventgrid.ContainerRegistryImagePushedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ContainerRegistryImagePushedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.ContainerService.NewKubernetesVersionAvailable
     uid: >-
@@ -724,7 +801,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.ContainerServiceNewKubernetesVersionAvailableEventData"
+          uid="@azure/eventgrid.ContainerServiceNewKubernetesVersionAvailableEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Devices.DeviceConnected
@@ -741,7 +818,9 @@ properties:
     syntax:
       content: 'Microsoft.Devices.DeviceConnected: IotHubDeviceConnectedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.IotHubDeviceConnectedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.IotHubDeviceConnectedEventData|latest-stable" />
         description: ''
   - name: Microsoft.Devices.DeviceCreated
     uid: >-
@@ -757,7 +836,9 @@ properties:
     syntax:
       content: 'Microsoft.Devices.DeviceCreated: IotHubDeviceCreatedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.IotHubDeviceCreatedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.IotHubDeviceCreatedEventData|latest-stable" />
         description: ''
   - name: Microsoft.Devices.DeviceDeleted
     uid: >-
@@ -773,7 +854,9 @@ properties:
     syntax:
       content: 'Microsoft.Devices.DeviceDeleted: IotHubDeviceDeletedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.IotHubDeviceDeletedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.IotHubDeviceDeletedEventData|latest-stable" />
         description: ''
   - name: Microsoft.Devices.DeviceDisconnected
     uid: >-
@@ -789,7 +872,10 @@ properties:
     syntax:
       content: 'Microsoft.Devices.DeviceDisconnected: IotHubDeviceDisconnectedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.IotHubDeviceDisconnectedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.IotHubDeviceDisconnectedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Devices.DeviceTelemetry
     uid: >-
@@ -805,7 +891,9 @@ properties:
     syntax:
       content: 'Microsoft.Devices.DeviceTelemetry: IotHubDeviceTelemetryEventData'
       return:
-        type: <xref uid="@azure/eventgrid.IotHubDeviceTelemetryEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.IotHubDeviceTelemetryEventData|latest-stable" />
         description: ''
   - name: Microsoft.EventGrid.SubscriptionDeletedEvent
     uid: >-
@@ -823,7 +911,9 @@ properties:
         Microsoft.EventGrid.SubscriptionDeletedEvent:
         SubscriptionDeletedEventData
       return:
-        type: <xref uid="@azure/eventgrid.SubscriptionDeletedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.SubscriptionDeletedEventData|latest-stable" />
         description: ''
   - name: Microsoft.EventGrid.SubscriptionValidationEvent
     uid: >-
@@ -841,7 +931,10 @@ properties:
         Microsoft.EventGrid.SubscriptionValidationEvent:
         SubscriptionValidationEventData
       return:
-        type: <xref uid="@azure/eventgrid.SubscriptionValidationEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.SubscriptionValidationEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.EventHub.CaptureFileCreated
     uid: >-
@@ -859,7 +952,10 @@ properties:
         Microsoft.EventHub.CaptureFileCreated:
         EventHubCaptureFileCreatedEventData
       return:
-        type: <xref uid="@azure/eventgrid.EventHubCaptureFileCreatedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.EventHubCaptureFileCreatedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.KeyVault.CertificateExpired
     uid: >-
@@ -877,7 +973,10 @@ properties:
         Microsoft.KeyVault.CertificateExpired:
         KeyVaultCertificateExpiredEventData
       return:
-        type: <xref uid="@azure/eventgrid.KeyVaultCertificateExpiredEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.KeyVaultCertificateExpiredEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.KeyVault.CertificateNearExpiry
     uid: >-
@@ -895,7 +994,10 @@ properties:
         Microsoft.KeyVault.CertificateNearExpiry:
         KeyVaultCertificateNearExpiryEventData
       return:
-        type: <xref uid="@azure/eventgrid.KeyVaultCertificateNearExpiryEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.KeyVaultCertificateNearExpiryEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.KeyVault.CertificateNewVersionCreated
     uid: >-
@@ -915,7 +1017,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.KeyVaultCertificateNewVersionCreatedEventData"
+          uid="@azure/eventgrid.KeyVaultCertificateNewVersionCreatedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.KeyVault.KeyExpired
@@ -932,7 +1034,9 @@ properties:
     syntax:
       content: 'Microsoft.KeyVault.KeyExpired: KeyVaultKeyExpiredEventData'
       return:
-        type: <xref uid="@azure/eventgrid.KeyVaultKeyExpiredEventData" />
+        type: >-
+          <xref uid="@azure/eventgrid.KeyVaultKeyExpiredEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.KeyVault.KeyNearExpiry
     uid: >-
@@ -948,7 +1052,9 @@ properties:
     syntax:
       content: 'Microsoft.KeyVault.KeyNearExpiry: KeyVaultKeyNearExpiryEventData'
       return:
-        type: <xref uid="@azure/eventgrid.KeyVaultKeyNearExpiryEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.KeyVaultKeyNearExpiryEventData|latest-stable" />
         description: ''
   - name: Microsoft.KeyVault.KeyNewVersionCreated
     uid: >-
@@ -966,7 +1072,10 @@ properties:
         Microsoft.KeyVault.KeyNewVersionCreated:
         KeyVaultKeyNewVersionCreatedEventData
       return:
-        type: <xref uid="@azure/eventgrid.KeyVaultKeyNewVersionCreatedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.KeyVaultKeyNewVersionCreatedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.KeyVault.SecretExpired
     uid: >-
@@ -982,7 +1091,9 @@ properties:
     syntax:
       content: 'Microsoft.KeyVault.SecretExpired: KeyVaultSecretExpiredEventData'
       return:
-        type: <xref uid="@azure/eventgrid.KeyVaultSecretExpiredEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.KeyVaultSecretExpiredEventData|latest-stable" />
         description: ''
   - name: Microsoft.KeyVault.SecretNearExpiry
     uid: >-
@@ -998,7 +1109,10 @@ properties:
     syntax:
       content: 'Microsoft.KeyVault.SecretNearExpiry: KeyVaultSecretNearExpiryEventData'
       return:
-        type: <xref uid="@azure/eventgrid.KeyVaultSecretNearExpiryEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.KeyVaultSecretNearExpiryEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.KeyVault.SecretNewVersionCreated
     uid: >-
@@ -1017,7 +1131,8 @@ properties:
         KeyVaultSecretNewVersionCreatedEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.KeyVaultSecretNewVersionCreatedEventData"
+          <xref
+          uid="@azure/eventgrid.KeyVaultSecretNewVersionCreatedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.KeyVault.VaultAccessPolicyChanged
@@ -1036,7 +1151,10 @@ properties:
         Microsoft.KeyVault.VaultAccessPolicyChanged:
         KeyVaultAccessPolicyChangedEventData
       return:
-        type: <xref uid="@azure/eventgrid.KeyVaultAccessPolicyChangedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.KeyVaultAccessPolicyChangedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.MachineLearningServices.DatasetDriftDetected
     uid: >-
@@ -1056,7 +1174,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.MachineLearningServicesDatasetDriftDetectedEventData"
+          uid="@azure/eventgrid.MachineLearningServicesDatasetDriftDetectedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.MachineLearningServices.ModelDeployed
@@ -1077,7 +1195,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.MachineLearningServicesModelDeployedEventData"
+          uid="@azure/eventgrid.MachineLearningServicesModelDeployedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.MachineLearningServices.ModelRegistered
@@ -1098,7 +1216,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.MachineLearningServicesModelRegisteredEventData"
+          uid="@azure/eventgrid.MachineLearningServicesModelRegisteredEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.MachineLearningServices.RunCompleted
@@ -1119,7 +1237,8 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.MachineLearningServicesRunCompletedEventData" />
+          uid="@azure/eventgrid.MachineLearningServicesRunCompletedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.MachineLearningServices.RunStatusChanged
     uid: >-
@@ -1139,7 +1258,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.MachineLearningServicesRunStatusChangedEventData"
+          uid="@azure/eventgrid.MachineLearningServicesRunStatusChangedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Maps.GeofenceEntered
@@ -1156,7 +1275,9 @@ properties:
     syntax:
       content: 'Microsoft.Maps.GeofenceEntered: MapsGeofenceEnteredEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MapsGeofenceEnteredEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.MapsGeofenceEnteredEventData|latest-stable" />
         description: ''
   - name: Microsoft.Maps.GeofenceExited
     uid: >-
@@ -1172,7 +1293,9 @@ properties:
     syntax:
       content: 'Microsoft.Maps.GeofenceExited: MapsGeofenceExitedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MapsGeofenceExitedEventData" />
+        type: >-
+          <xref uid="@azure/eventgrid.MapsGeofenceExitedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Maps.GeofenceResult
     uid: >-
@@ -1188,7 +1311,9 @@ properties:
     syntax:
       content: 'Microsoft.Maps.GeofenceResult: MapsGeofenceResultEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MapsGeofenceResultEventData" />
+        type: >-
+          <xref uid="@azure/eventgrid.MapsGeofenceResultEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Media.JobCanceled
     uid: >-
@@ -1202,7 +1327,9 @@ properties:
     syntax:
       content: 'Microsoft.Media.JobCanceled: MediaJobCanceledEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobCanceledEventData" />
+        type: >-
+          <xref uid="@azure/eventgrid.MediaJobCanceledEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Media.JobCanceling
     uid: >-
@@ -1216,7 +1343,9 @@ properties:
     syntax:
       content: 'Microsoft.Media.JobCanceling: MediaJobCancelingEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobCancelingEventData" />
+        type: >-
+          <xref uid="@azure/eventgrid.MediaJobCancelingEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Media.JobErrored
     uid: >-
@@ -1230,7 +1359,7 @@ properties:
     syntax:
       content: 'Microsoft.Media.JobErrored: MediaJobErroredEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobErroredEventData" />
+        type: <xref uid="@azure/eventgrid.MediaJobErroredEventData|latest-stable" />
         description: ''
   - name: Microsoft.Media.JobFinished
     uid: >-
@@ -1244,7 +1373,9 @@ properties:
     syntax:
       content: 'Microsoft.Media.JobFinished: MediaJobFinishedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobFinishedEventData" />
+        type: >-
+          <xref uid="@azure/eventgrid.MediaJobFinishedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Media.JobOutputCanceled
     uid: >-
@@ -1260,7 +1391,10 @@ properties:
     syntax:
       content: 'Microsoft.Media.JobOutputCanceled: MediaJobOutputCanceledEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobOutputCanceledEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.MediaJobOutputCanceledEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Media.JobOutputCanceling
     uid: >-
@@ -1276,7 +1410,10 @@ properties:
     syntax:
       content: 'Microsoft.Media.JobOutputCanceling: MediaJobOutputCancelingEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobOutputCancelingEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.MediaJobOutputCancelingEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Media.JobOutputErrored
     uid: >-
@@ -1292,7 +1429,9 @@ properties:
     syntax:
       content: 'Microsoft.Media.JobOutputErrored: MediaJobOutputErroredEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobOutputErroredEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.MediaJobOutputErroredEventData|latest-stable" />
         description: ''
   - name: Microsoft.Media.JobOutputFinished
     uid: >-
@@ -1308,7 +1447,10 @@ properties:
     syntax:
       content: 'Microsoft.Media.JobOutputFinished: MediaJobOutputFinishedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobOutputFinishedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.MediaJobOutputFinishedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Media.JobOutputProcessing
     uid: >-
@@ -1324,7 +1466,10 @@ properties:
     syntax:
       content: 'Microsoft.Media.JobOutputProcessing: MediaJobOutputProcessingEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobOutputProcessingEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.MediaJobOutputProcessingEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Media.JobOutputProgress
     uid: >-
@@ -1340,7 +1485,10 @@ properties:
     syntax:
       content: 'Microsoft.Media.JobOutputProgress: MediaJobOutputProgressEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobOutputProgressEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.MediaJobOutputProgressEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Media.JobOutputScheduled
     uid: >-
@@ -1356,7 +1504,10 @@ properties:
     syntax:
       content: 'Microsoft.Media.JobOutputScheduled: MediaJobOutputScheduledEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobOutputScheduledEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.MediaJobOutputScheduledEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Media.JobOutputStateChange
     uid: >-
@@ -1372,7 +1523,10 @@ properties:
     syntax:
       content: 'Microsoft.Media.JobOutputStateChange: MediaJobOutputStateChangeEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobOutputStateChangeEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.MediaJobOutputStateChangeEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Media.JobProcessing
     uid: >-
@@ -1388,7 +1542,9 @@ properties:
     syntax:
       content: 'Microsoft.Media.JobProcessing: MediaJobProcessingEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobProcessingEventData" />
+        type: >-
+          <xref uid="@azure/eventgrid.MediaJobProcessingEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Media.JobScheduled
     uid: >-
@@ -1402,7 +1558,9 @@ properties:
     syntax:
       content: 'Microsoft.Media.JobScheduled: MediaJobScheduledEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobScheduledEventData" />
+        type: >-
+          <xref uid="@azure/eventgrid.MediaJobScheduledEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Media.JobStateChange
     uid: >-
@@ -1418,7 +1576,9 @@ properties:
     syntax:
       content: 'Microsoft.Media.JobStateChange: MediaJobStateChangeEventData'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobStateChangeEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.MediaJobStateChangeEventData|latest-stable" />
         description: ''
   - name: Microsoft.Media.LiveEventChannelArchiveHeartbeat
     uid: >-
@@ -1438,7 +1598,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.MediaLiveEventChannelArchiveHeartbeatEventData"
+          uid="@azure/eventgrid.MediaLiveEventChannelArchiveHeartbeatEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Media.LiveEventConnectionRejected
@@ -1458,7 +1618,8 @@ properties:
         MediaLiveEventConnectionRejectedEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.MediaLiveEventConnectionRejectedEventData"
+          <xref
+          uid="@azure/eventgrid.MediaLiveEventConnectionRejectedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Media.LiveEventEncoderConnected
@@ -1478,7 +1639,8 @@ properties:
         MediaLiveEventEncoderConnectedEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.MediaLiveEventEncoderConnectedEventData"
+          <xref
+          uid="@azure/eventgrid.MediaLiveEventEncoderConnectedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Media.LiveEventEncoderDisconnected
@@ -1499,7 +1661,8 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.MediaLiveEventEncoderDisconnectedEventData" />
+          uid="@azure/eventgrid.MediaLiveEventEncoderDisconnectedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Media.LiveEventIncomingDataChunkDropped
     uid: >-
@@ -1519,7 +1682,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.MediaLiveEventIncomingDataChunkDroppedEventData"
+          uid="@azure/eventgrid.MediaLiveEventIncomingDataChunkDroppedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Media.LiveEventIncomingStreamReceived
@@ -1540,7 +1703,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.MediaLiveEventIncomingStreamReceivedEventData"
+          uid="@azure/eventgrid.MediaLiveEventIncomingStreamReceivedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Media.LiveEventIncomingStreamsOutOfSync
@@ -1561,7 +1724,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.MediaLiveEventIncomingStreamsOutOfSyncEventData"
+          uid="@azure/eventgrid.MediaLiveEventIncomingStreamsOutOfSyncEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Media.LiveEventIncomingVideoStreamsOutOfSync
@@ -1582,7 +1745,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.MediaLiveEventIncomingVideoStreamsOutOfSyncEventData"
+          uid="@azure/eventgrid.MediaLiveEventIncomingVideoStreamsOutOfSyncEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Media.LiveEventIngestHeartbeat
@@ -1601,7 +1764,10 @@ properties:
         Microsoft.Media.LiveEventIngestHeartbeat:
         MediaLiveEventIngestHeartbeatEventData
       return:
-        type: <xref uid="@azure/eventgrid.MediaLiveEventIngestHeartbeatEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.MediaLiveEventIngestHeartbeatEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Media.LiveEventTrackDiscontinuityDetected
     uid: >-
@@ -1621,7 +1787,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.MediaLiveEventTrackDiscontinuityDetectedEventData"
+          uid="@azure/eventgrid.MediaLiveEventTrackDiscontinuityDetectedEventData|latest-stable"
           />
         description: ''
   - name: 'Microsoft.PolicyInsights.PolicyStateChanged '
@@ -1642,7 +1808,8 @@ properties:
         PolicyInsightsPolicyStateChangedEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.PolicyInsightsPolicyStateChangedEventData"
+          <xref
+          uid="@azure/eventgrid.PolicyInsightsPolicyStateChangedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.PolicyInsights.PolicyStateCreated
@@ -1662,7 +1829,8 @@ properties:
         PolicyInsightsPolicyStateCreatedEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.PolicyInsightsPolicyStateCreatedEventData"
+          <xref
+          uid="@azure/eventgrid.PolicyInsightsPolicyStateCreatedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.PolicyInsights.PolicyStateDeleted
@@ -1682,7 +1850,8 @@ properties:
         PolicyInsightsPolicyStateDeletedEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.PolicyInsightsPolicyStateDeletedEventData"
+          <xref
+          uid="@azure/eventgrid.PolicyInsightsPolicyStateDeletedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Resources.ResourceActionCancel
@@ -1699,7 +1868,9 @@ properties:
     syntax:
       content: 'Microsoft.Resources.ResourceActionCancel: ResourceActionCancelEventData'
       return:
-        type: <xref uid="@azure/eventgrid.ResourceActionCancelEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ResourceActionCancelEventData|latest-stable" />
         description: ''
   - name: Microsoft.Resources.ResourceActionFailure
     uid: >-
@@ -1717,7 +1888,9 @@ properties:
         Microsoft.Resources.ResourceActionFailure:
         ResourceActionFailureEventData
       return:
-        type: <xref uid="@azure/eventgrid.ResourceActionFailureEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ResourceActionFailureEventData|latest-stable" />
         description: ''
   - name: Microsoft.Resources.ResourceActionSuccess
     uid: >-
@@ -1735,7 +1908,9 @@ properties:
         Microsoft.Resources.ResourceActionSuccess:
         ResourceActionSuccessEventData
       return:
-        type: <xref uid="@azure/eventgrid.ResourceActionSuccessEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ResourceActionSuccessEventData|latest-stable" />
         description: ''
   - name: Microsoft.Resources.ResourceDeleteCancel
     uid: >-
@@ -1751,7 +1926,9 @@ properties:
     syntax:
       content: 'Microsoft.Resources.ResourceDeleteCancel: ResourceDeleteCancelEventData'
       return:
-        type: <xref uid="@azure/eventgrid.ResourceDeleteCancelEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ResourceDeleteCancelEventData|latest-stable" />
         description: ''
   - name: Microsoft.Resources.ResourceDeleteFailure
     uid: >-
@@ -1769,7 +1946,9 @@ properties:
         Microsoft.Resources.ResourceDeleteFailure:
         ResourceDeleteFailureEventData
       return:
-        type: <xref uid="@azure/eventgrid.ResourceDeleteFailureEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ResourceDeleteFailureEventData|latest-stable" />
         description: ''
   - name: Microsoft.Resources.ResourceDeleteSuccess
     uid: >-
@@ -1787,7 +1966,9 @@ properties:
         Microsoft.Resources.ResourceDeleteSuccess:
         ResourceDeleteSuccessEventData
       return:
-        type: <xref uid="@azure/eventgrid.ResourceDeleteSuccessEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ResourceDeleteSuccessEventData|latest-stable" />
         description: ''
   - name: Microsoft.Resources.ResourceWriteCancel
     uid: >-
@@ -1803,7 +1984,9 @@ properties:
     syntax:
       content: 'Microsoft.Resources.ResourceWriteCancel: ResourceWriteCancelEventData'
       return:
-        type: <xref uid="@azure/eventgrid.ResourceWriteCancelEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ResourceWriteCancelEventData|latest-stable" />
         description: ''
   - name: Microsoft.Resources.ResourceWriteFailure
     uid: >-
@@ -1819,7 +2002,9 @@ properties:
     syntax:
       content: 'Microsoft.Resources.ResourceWriteFailure: ResourceWriteFailureEventData'
       return:
-        type: <xref uid="@azure/eventgrid.ResourceWriteFailureEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ResourceWriteFailureEventData|latest-stable" />
         description: ''
   - name: Microsoft.Resources.ResourceWriteSuccess
     uid: >-
@@ -1835,7 +2020,9 @@ properties:
     syntax:
       content: 'Microsoft.Resources.ResourceWriteSuccess: ResourceWriteSuccessEventData'
       return:
-        type: <xref uid="@azure/eventgrid.ResourceWriteSuccessEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.ResourceWriteSuccessEventData|latest-stable" />
         description: ''
   - name: Microsoft.ServiceBus.ActiveMessagesAvailableWithNoListeners
     uid: >-
@@ -1855,7 +2042,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.ServiceBusActiveMessagesAvailableWithNoListenersEventData"
+          uid="@azure/eventgrid.ServiceBusActiveMessagesAvailableWithNoListenersEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.ServiceBus.DeadletterMessagesAvailableWithNoListeners
@@ -1876,7 +2063,7 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.ServiceBusDeadletterMessagesAvailableWithNoListenersEventData"
+          uid="@azure/eventgrid.ServiceBusDeadletterMessagesAvailableWithNoListenersEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Storage.AsyncOperationInitiated
@@ -1896,7 +2083,8 @@ properties:
         StorageAsyncOperationInitiatedEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.StorageAsyncOperationInitiatedEventData"
+          <xref
+          uid="@azure/eventgrid.StorageAsyncOperationInitiatedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Storage.BlobCreated
@@ -1913,7 +2101,9 @@ properties:
     syntax:
       content: 'Microsoft.Storage.BlobCreated: StorageBlobCreatedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.StorageBlobCreatedEventData" />
+        type: >-
+          <xref uid="@azure/eventgrid.StorageBlobCreatedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Storage.BlobDeleted
     uid: >-
@@ -1929,7 +2119,9 @@ properties:
     syntax:
       content: 'Microsoft.Storage.BlobDeleted: StorageBlobDeletedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.StorageBlobDeletedEventData" />
+        type: >-
+          <xref uid="@azure/eventgrid.StorageBlobDeletedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Storage.BlobInventoryPolicyCompleted
     uid: >-
@@ -1949,7 +2141,8 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/eventgrid.StorageBlobInventoryPolicyCompletedEventData" />
+          uid="@azure/eventgrid.StorageBlobInventoryPolicyCompletedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Storage.BlobRenamed
     uid: >-
@@ -1965,7 +2158,9 @@ properties:
     syntax:
       content: 'Microsoft.Storage.BlobRenamed: StorageBlobRenamedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.StorageBlobRenamedEventData" />
+        type: >-
+          <xref uid="@azure/eventgrid.StorageBlobRenamedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Storage.BlobTierChanged
     uid: >-
@@ -1981,7 +2176,10 @@ properties:
     syntax:
       content: 'Microsoft.Storage.BlobTierChanged: StorageBlobTierChangedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.StorageBlobTierChangedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.StorageBlobTierChangedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Storage.DirectoryCreated
     uid: >-
@@ -1997,7 +2195,10 @@ properties:
     syntax:
       content: 'Microsoft.Storage.DirectoryCreated: StorageDirectoryCreatedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.StorageDirectoryCreatedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.StorageDirectoryCreatedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Storage.DirectoryDeleted
     uid: >-
@@ -2013,7 +2214,10 @@ properties:
     syntax:
       content: 'Microsoft.Storage.DirectoryDeleted: StorageDirectoryDeletedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.StorageDirectoryDeletedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.StorageDirectoryDeletedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Storage.DirectoryRenamed
     uid: >-
@@ -2029,7 +2233,10 @@ properties:
     syntax:
       content: 'Microsoft.Storage.DirectoryRenamed: StorageDirectoryRenamedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.StorageDirectoryRenamedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.StorageDirectoryRenamedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Storage.LifecyclePolicyCompleted
     uid: >-
@@ -2048,7 +2255,8 @@ properties:
         StorageLifecyclePolicyCompletedEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.StorageLifecyclePolicyCompletedEventData"
+          <xref
+          uid="@azure/eventgrid.StorageLifecyclePolicyCompletedEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Web.AppServicePlanUpdated
@@ -2065,7 +2273,10 @@ properties:
     syntax:
       content: 'Microsoft.Web.AppServicePlanUpdated: WebAppServicePlanUpdatedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.WebAppServicePlanUpdatedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.WebAppServicePlanUpdatedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Web.AppUpdated
     uid: >-
@@ -2079,7 +2290,7 @@ properties:
     syntax:
       content: 'Microsoft.Web.AppUpdated: WebAppUpdatedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.WebAppUpdatedEventData" />
+        type: <xref uid="@azure/eventgrid.WebAppUpdatedEventData|latest-stable" />
         description: ''
   - name: Microsoft.Web.BackupOperationCompleted
     uid: >-
@@ -2097,7 +2308,10 @@ properties:
         Microsoft.Web.BackupOperationCompleted:
         WebBackupOperationCompletedEventData
       return:
-        type: <xref uid="@azure/eventgrid.WebBackupOperationCompletedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.WebBackupOperationCompletedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Web.BackupOperationFailed
     uid: >-
@@ -2113,7 +2327,10 @@ properties:
     syntax:
       content: 'Microsoft.Web.BackupOperationFailed: WebBackupOperationFailedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.WebBackupOperationFailedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.WebBackupOperationFailedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Web.BackupOperationStarted
     uid: >-
@@ -2129,7 +2346,10 @@ properties:
     syntax:
       content: 'Microsoft.Web.BackupOperationStarted: WebBackupOperationStartedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.WebBackupOperationStartedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.WebBackupOperationStartedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Web.RestoreOperationCompleted
     uid: >-
@@ -2147,7 +2367,10 @@ properties:
         Microsoft.Web.RestoreOperationCompleted:
         WebRestoreOperationCompletedEventData
       return:
-        type: <xref uid="@azure/eventgrid.WebRestoreOperationCompletedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.WebRestoreOperationCompletedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Web.RestoreOperationFailed
     uid: >-
@@ -2163,7 +2386,10 @@ properties:
     syntax:
       content: 'Microsoft.Web.RestoreOperationFailed: WebRestoreOperationFailedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.WebRestoreOperationFailedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.WebRestoreOperationFailedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Web.RestoreOperationStarted
     uid: >-
@@ -2181,7 +2407,10 @@ properties:
         Microsoft.Web.RestoreOperationStarted:
         WebRestoreOperationStartedEventData
       return:
-        type: <xref uid="@azure/eventgrid.WebRestoreOperationStartedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.WebRestoreOperationStartedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Web.SlotSwapCompleted
     uid: >-
@@ -2197,7 +2426,9 @@ properties:
     syntax:
       content: 'Microsoft.Web.SlotSwapCompleted: WebSlotSwapCompletedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.WebSlotSwapCompletedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.WebSlotSwapCompletedEventData|latest-stable" />
         description: ''
   - name: Microsoft.Web.SlotSwapFailed
     uid: >-
@@ -2211,7 +2442,9 @@ properties:
     syntax:
       content: 'Microsoft.Web.SlotSwapFailed: WebSlotSwapFailedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.WebSlotSwapFailedEventData" />
+        type: >-
+          <xref uid="@azure/eventgrid.WebSlotSwapFailedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Web.SlotSwapStarted
     uid: >-
@@ -2227,7 +2460,9 @@ properties:
     syntax:
       content: 'Microsoft.Web.SlotSwapStarted: WebSlotSwapStartedEventData'
       return:
-        type: <xref uid="@azure/eventgrid.WebSlotSwapStartedEventData" />
+        type: >-
+          <xref uid="@azure/eventgrid.WebSlotSwapStartedEventData|latest-stable"
+          />
         description: ''
   - name: Microsoft.Web.SlotSwapWithPreviewCancelled
     uid: >-
@@ -2246,7 +2481,8 @@ properties:
         WebSlotSwapWithPreviewCancelledEventData
       return:
         type: >-
-          <xref uid="@azure/eventgrid.WebSlotSwapWithPreviewCancelledEventData"
+          <xref
+          uid="@azure/eventgrid.WebSlotSwapWithPreviewCancelledEventData|latest-stable"
           />
         description: ''
   - name: Microsoft.Web.SlotSwapWithPreviewStarted
@@ -2265,5 +2501,8 @@ properties:
         Microsoft.Web.SlotSwapWithPreviewStarted:
         WebSlotSwapWithPreviewStartedEventData
       return:
-        type: <xref uid="@azure/eventgrid.WebSlotSwapWithPreviewStartedEventData" />
+        type: >-
+          <xref
+          uid="@azure/eventgrid.WebSlotSwapWithPreviewStartedEventData|latest-stable"
+          />
         description: ''

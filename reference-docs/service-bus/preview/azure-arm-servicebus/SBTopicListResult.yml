@@ -35,5 +35,5 @@ properties:
     syntax:
       content: 'value?: SBTopic[]'
       return:
-        type: <xref uid="@azure/arm-servicebus.SBTopic" />[]
+        type: <xref uid="@azure/arm-servicebus.SBTopic|preview" />[]
         description: ''

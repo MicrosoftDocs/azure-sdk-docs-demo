@@ -20,7 +20,10 @@ constructors:
       content: 'new Domains(client: EventGridManagementClientContext)'
       parameters:
         - id: client
-          type: <xref uid="@azure/arm-eventgrid.EventGridManagementClientContext" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.EventGridManagementClientContext|latest-stable"
+            />
           description: |
             Reference to the service client.
 methods:
@@ -45,10 +48,10 @@ methods:
           type: string
           description: Name of the domain.
         - id: domainInfo
-          type: <xref uid="@azure/arm-eventgrid.Domain" />
+          type: <xref uid="@azure/arm-eventgrid.Domain|latest-stable" />
           description: Domain information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -72,7 +75,7 @@ methods:
           type: string
           description: Name of the domain.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -99,10 +102,12 @@ methods:
           type: string
           description: Name of the domain.
         - id: domainUpdateParameters
-          type: <xref uid="@azure/arm-eventgrid.DomainUpdateParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.DomainUpdateParameters|latest-stable" />
           description: Domain update information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;LROPoller&gt;
@@ -128,13 +133,15 @@ methods:
           type: string
           description: Name of the domain.
         - id: domainInfo
-          type: <xref uid="@azure/arm-eventgrid.Domain" />
+          type: <xref uid="@azure/arm-eventgrid.Domain|latest-stable" />
           description: Domain information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.DomainsCreateOrUpdateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.DomainsCreateOrUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.DomainsCreateOrUpdateResponse>
   - name: deleteMethod(string, string, msRest.RequestOptionsBase)
     uid: '@azure/arm-eventgrid.Domains.deleteMethod|latest-stable'
@@ -155,7 +162,7 @@ methods:
           type: string
           description: Name of the domain.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: Promise&lt;RestResponse&gt;
@@ -179,10 +186,10 @@ methods:
           type: string
           description: Name of the domain.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.DomainsGetResponse" />&gt;
+        type: Promise&lt;<xref uid="Models.DomainsGetResponse|latest-stable" />&gt;
         description: Promise<Models.DomainsGetResponse>
   - name: get(string, string, RequestOptionsBase, ServiceCallback<Domain>)
     uid: '@azure/arm-eventgrid.Domains.get_2|latest-stable'
@@ -206,7 +213,9 @@ methods:
           type: RequestOptionsBase
           description: The optional parameters
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-eventgrid.Domain" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventgrid.Domain|latest-stable" />&gt;
           description: |
             The callback
   - name: get(string, string, ServiceCallback<Domain>)
@@ -228,7 +237,9 @@ methods:
           type: string
           description: Name of the domain.
         - id: callback
-          type: ServiceCallback&lt;<xref uid="@azure/arm-eventgrid.Domain" />&gt;
+          type: >-
+            ServiceCallback&lt;<xref
+            uid="@azure/arm-eventgrid.Domain|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -252,13 +263,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.DomainsListByResourceGroupOptionalParams"
+            uid="@azure/arm-eventgrid.DomainsListByResourceGroupOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.DomainsListResult" />&gt;
+            uid="@azure/arm-eventgrid.DomainsListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -279,12 +290,15 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: options
-          type: <xref uid="Models.DomainsListByResourceGroupOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.DomainsListByResourceGroupOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.DomainsListByResourceGroupResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.DomainsListByResourceGroupResponse|latest-stable" />&gt;
         description: Promise<Models.DomainsListByResourceGroupResponse>
   - name: listByResourceGroup(string, ServiceCallback<DomainsListResult>)
     uid: '@azure/arm-eventgrid.Domains.listByResourceGroup_1|latest-stable'
@@ -304,7 +318,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.DomainsListResult" />&gt;
+            uid="@azure/arm-eventgrid.DomainsListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -329,13 +343,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.DomainsListByResourceGroupNextOptionalParams"
+            uid="@azure/arm-eventgrid.DomainsListByResourceGroupNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.DomainsListResult" />&gt;
+            uid="@azure/arm-eventgrid.DomainsListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -356,11 +370,15 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="Models.DomainsListByResourceGroupNextOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.DomainsListByResourceGroupNextOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.DomainsListByResourceGroupNextResponse"
+          Promise&lt;<xref
+          uid="Models.DomainsListByResourceGroupNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.DomainsListByResourceGroupNextResponse>
   - name: listByResourceGroupNext(string, ServiceCallback<DomainsListResult>)
@@ -381,7 +399,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.DomainsListResult" />&gt;
+            uid="@azure/arm-eventgrid.DomainsListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -402,13 +420,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.DomainsListBySubscriptionOptionalParams"
+            uid="@azure/arm-eventgrid.DomainsListBySubscriptionOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.DomainsListResult" />&gt;
+            uid="@azure/arm-eventgrid.DomainsListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listBySubscription(Models.DomainsListBySubscriptionOptionalParams)
@@ -424,10 +442,15 @@ methods:
         Models.DomainsListBySubscriptionOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="Models.DomainsListBySubscriptionOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.DomainsListBySubscriptionOptionalParams|latest-stable"
+            />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.DomainsListBySubscriptionResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.DomainsListBySubscriptionResponse|latest-stable" />&gt;
         description: Promise<Models.DomainsListBySubscriptionResponse>
   - name: listBySubscription(ServiceCallback<DomainsListResult>)
     uid: '@azure/arm-eventgrid.Domains.listBySubscription_1|latest-stable'
@@ -444,7 +467,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.DomainsListResult" />&gt;
+            uid="@azure/arm-eventgrid.DomainsListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -469,13 +492,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="@azure/arm-eventgrid.DomainsListBySubscriptionNextOptionalParams"
+            uid="@azure/arm-eventgrid.DomainsListBySubscriptionNextOptionalParams|latest-stable"
             />
           description: The optional parameters
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.DomainsListResult" />&gt;
+            uid="@azure/arm-eventgrid.DomainsListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: >-
@@ -496,11 +519,15 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="Models.DomainsListBySubscriptionNextOptionalParams" />
+          type: >-
+            <xref
+            uid="Models.DomainsListBySubscriptionNextOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.DomainsListBySubscriptionNextResponse"
+          Promise&lt;<xref
+          uid="Models.DomainsListBySubscriptionNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.DomainsListBySubscriptionNextResponse>
   - name: listBySubscriptionNext(string, ServiceCallback<DomainsListResult>)
@@ -521,7 +548,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.DomainsListResult" />&gt;
+            uid="@azure/arm-eventgrid.DomainsListResult|latest-stable" />&gt;
           description: |
             The callback
   - name: listSharedAccessKeys(string, string, msRest.RequestOptionsBase)
@@ -543,12 +570,12 @@ methods:
           type: string
           description: Name of the domain.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="Models.DomainsListSharedAccessKeysResponse"
-          />&gt;
+          Promise&lt;<xref
+          uid="Models.DomainsListSharedAccessKeysResponse|latest-stable" />&gt;
         description: Promise<Models.DomainsListSharedAccessKeysResponse>
   - name: >-
       listSharedAccessKeys(string, string, RequestOptionsBase,
@@ -577,7 +604,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.DomainSharedAccessKeys" />&gt;
+            uid="@azure/arm-eventgrid.DomainSharedAccessKeys|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -603,7 +631,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.DomainSharedAccessKeys" />&gt;
+            uid="@azure/arm-eventgrid.DomainSharedAccessKeys|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -628,13 +657,18 @@ methods:
           type: string
           description: Name of the domain.
         - id: regenerateKeyRequest
-          type: <xref uid="@azure/arm-eventgrid.DomainRegenerateKeyRequest" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.DomainRegenerateKeyRequest|latest-stable"
+            />
           description: Request body to regenerate key.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.DomainsRegenerateKeyResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.DomainsRegenerateKeyResponse|latest-stable" />&gt;
         description: Promise<Models.DomainsRegenerateKeyResponse>
   - name: >-
       regenerateKey(string, string, DomainRegenerateKeyRequest,
@@ -658,7 +692,10 @@ methods:
           type: string
           description: Name of the domain.
         - id: regenerateKeyRequest
-          type: <xref uid="@azure/arm-eventgrid.DomainRegenerateKeyRequest" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.DomainRegenerateKeyRequest|latest-stable"
+            />
           description: Request body to regenerate key.
         - id: options
           type: RequestOptionsBase
@@ -666,7 +703,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.DomainSharedAccessKeys" />&gt;
+            uid="@azure/arm-eventgrid.DomainSharedAccessKeys|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: >-
@@ -691,12 +729,16 @@ methods:
           type: string
           description: Name of the domain.
         - id: regenerateKeyRequest
-          type: <xref uid="@azure/arm-eventgrid.DomainRegenerateKeyRequest" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.DomainRegenerateKeyRequest|latest-stable"
+            />
           description: Request body to regenerate key.
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-eventgrid.DomainSharedAccessKeys" />&gt;
+            uid="@azure/arm-eventgrid.DomainSharedAccessKeys|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: update(string, string, DomainUpdateParameters, msRest.RequestOptionsBase)
@@ -719,11 +761,15 @@ methods:
           type: string
           description: Name of the domain.
         - id: domainUpdateParameters
-          type: <xref uid="@azure/arm-eventgrid.DomainUpdateParameters" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.DomainUpdateParameters|latest-stable" />
           description: Domain update information.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.DomainsUpdateResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="Models.DomainsUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DomainsUpdateResponse>

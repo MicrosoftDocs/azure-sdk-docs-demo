@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'display?: OperationDisplay'
       return:
-        type: <xref uid="@azure/arm-servicebus.OperationDisplay" />
+        type: <xref uid="@azure/arm-servicebus.OperationDisplay|preview" />
         description: ''
   - name: name
     uid: '@azure/arm-servicebus.Operation.name|preview'

@@ -39,7 +39,7 @@ constructors:
       content: 'new CryptographyClient(key: JsonWebKey)'
       parameters:
         - id: key
-          type: <xref uid="@azure/keyvault-keys.JsonWebKey" />
+          type: <xref uid="@azure/keyvault-keys.JsonWebKey|latest-stable" />
           description: >-
             The key to use during cryptography tasks. You can also pass the
             identifier of the key i.e its url here.
@@ -74,7 +74,9 @@ constructors:
         TokenCredential, pipelineOptions?: CryptographyClientOptions)
       parameters:
         - id: key
-          type: string | <xref uid="@azure/keyvault-keys.KeyVaultKey" />
+          type: >-
+            string | <xref uid="@azure/keyvault-keys.KeyVaultKey|latest-stable"
+            />
           description: >-
             The key to use during cryptography tasks. You can also pass the
             identifier of the key i.e its url here.
@@ -85,7 +87,10 @@ constructors:
             authenticate requests to the service. Use the \@azure/identity
             package to create a credential that suits your needs.
         - id: pipelineOptions
-          type: <xref uid="@azure/keyvault-keys.CryptographyClientOptions" />
+          type: >-
+            <xref
+            uid="@azure/keyvault-keys.CryptographyClientOptions|latest-stable"
+            />
           description: |
             Pipeline options used to configure Key Vault API requests.
                                      Omit this parameter to use the default pipeline configuration.
@@ -150,14 +155,16 @@ methods:
         DecryptOptions)
       parameters:
         - id: decryptParameters
-          type: <xref uid="@azure/keyvault-keys.DecryptParameters" />
+          type: <xref uid="@azure/keyvault-keys.DecryptParameters|latest-stable" />
           description: The decryption parameters.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.DecryptOptions" />
+          type: <xref uid="@azure/keyvault-keys.DecryptOptions|latest-stable" />
           description: |
             Additional options.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.DecryptResult" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/keyvault-keys.DecryptResult|latest-stable" />&gt;
         description: ''
   - name: decrypt(EncryptionAlgorithm, Uint8Array, DecryptOptions)
     uid: '@azure/keyvault-keys.CryptographyClient.decrypt_1|latest-stable'
@@ -178,16 +185,20 @@ methods:
         options?: DecryptOptions)
       parameters:
         - id: algorithm
-          type: <xref uid="@azure/keyvault-keys.EncryptionAlgorithm" />
+          type: >-
+            <xref uid="@azure/keyvault-keys.EncryptionAlgorithm|latest-stable"
+            />
           description: The algorithm to use.
         - id: ciphertext
           type: Uint8Array
           description: The text to decrypt.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.DecryptOptions" />
+          type: <xref uid="@azure/keyvault-keys.DecryptOptions|latest-stable" />
           description: Additional options.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.DecryptResult" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/keyvault-keys.DecryptResult|latest-stable" />&gt;
         description: ''
   - name: encrypt(EncryptionAlgorithm, Uint8Array, EncryptOptions)
     uid: '@azure/keyvault-keys.CryptographyClient.encrypt_1|latest-stable'
@@ -208,16 +219,20 @@ methods:
         options?: EncryptOptions)
       parameters:
         - id: algorithm
-          type: <xref uid="@azure/keyvault-keys.EncryptionAlgorithm" />
+          type: >-
+            <xref uid="@azure/keyvault-keys.EncryptionAlgorithm|latest-stable"
+            />
           description: The algorithm to use.
         - id: plaintext
           type: Uint8Array
           description: The text to encrypt.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.EncryptOptions" />
+          type: <xref uid="@azure/keyvault-keys.EncryptOptions|latest-stable" />
           description: Additional options.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.EncryptResult" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/keyvault-keys.EncryptResult|latest-stable" />&gt;
         description: ''
   - name: encrypt(EncryptParameters, EncryptOptions)
     uid: '@azure/keyvault-keys.CryptographyClient.encrypt|latest-stable'
@@ -251,14 +266,16 @@ methods:
         EncryptOptions)
       parameters:
         - id: encryptParameters
-          type: <xref uid="@azure/keyvault-keys.EncryptParameters" />
+          type: <xref uid="@azure/keyvault-keys.EncryptParameters|latest-stable" />
           description: The encryption parameters, keyed on the encryption algorithm chosen.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.EncryptOptions" />
+          type: <xref uid="@azure/keyvault-keys.EncryptOptions|latest-stable" />
           description: |
             Additional options.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.EncryptResult" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/keyvault-keys.EncryptResult|latest-stable" />&gt;
         description: ''
   - name: sign(SignatureAlgorithm, Uint8Array, SignOptions)
     uid: '@azure/keyvault-keys.CryptographyClient.sign|latest-stable'
@@ -279,17 +296,19 @@ methods:
         options?: SignOptions)
       parameters:
         - id: algorithm
-          type: <xref uid="@azure/keyvault-keys.SignatureAlgorithm" />
+          type: <xref uid="@azure/keyvault-keys.SignatureAlgorithm|latest-stable" />
           description: The signing algorithm to use.
         - id: digest
           type: Uint8Array
           description: The digest of the data to sign.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.SignOptions" />
+          type: <xref uid="@azure/keyvault-keys.SignOptions|latest-stable" />
           description: |
             Additional options.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.SignResult" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.SignResult|latest-stable"
+          />&gt;
         description: ''
   - name: signData(SignatureAlgorithm, Uint8Array, SignOptions)
     uid: '@azure/keyvault-keys.CryptographyClient.signData|latest-stable'
@@ -310,17 +329,19 @@ methods:
         options?: SignOptions)
       parameters:
         - id: algorithm
-          type: <xref uid="@azure/keyvault-keys.SignatureAlgorithm" />
+          type: <xref uid="@azure/keyvault-keys.SignatureAlgorithm|latest-stable" />
           description: The signing algorithm to use.
         - id: data
           type: Uint8Array
           description: The data to sign.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.SignOptions" />
+          type: <xref uid="@azure/keyvault-keys.SignOptions|latest-stable" />
           description: |
             Additional options.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.SignResult" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.SignResult|latest-stable"
+          />&gt;
         description: ''
   - name: unwrapKey(KeyWrapAlgorithm, Uint8Array, UnwrapKeyOptions)
     uid: '@azure/keyvault-keys.CryptographyClient.unwrapKey|latest-stable'
@@ -341,17 +362,19 @@ methods:
         Uint8Array, options?: UnwrapKeyOptions)
       parameters:
         - id: algorithm
-          type: <xref uid="@azure/keyvault-keys.KeyWrapAlgorithm" />
+          type: <xref uid="@azure/keyvault-keys.KeyWrapAlgorithm|latest-stable" />
           description: The decryption algorithm to use to unwrap the key.
         - id: encryptedKey
           type: Uint8Array
           description: The encrypted key to unwrap.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.UnwrapKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.UnwrapKeyOptions|latest-stable" />
           description: |
             Additional options.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.UnwrapResult" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.UnwrapResult|latest-stable"
+          />&gt;
         description: ''
   - name: verify(SignatureAlgorithm, Uint8Array, Uint8Array, VerifyOptions)
     uid: '@azure/keyvault-keys.CryptographyClient.verify|latest-stable'
@@ -372,7 +395,7 @@ methods:
         signature: Uint8Array, options?: VerifyOptions)
       parameters:
         - id: algorithm
-          type: <xref uid="@azure/keyvault-keys.SignatureAlgorithm" />
+          type: <xref uid="@azure/keyvault-keys.SignatureAlgorithm|latest-stable" />
           description: The signing algorithm to use to verify with.
         - id: digest
           type: Uint8Array
@@ -381,11 +404,13 @@ methods:
           type: Uint8Array
           description: The signature to verify the digest against.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.VerifyOptions" />
+          type: <xref uid="@azure/keyvault-keys.VerifyOptions|latest-stable" />
           description: |
             Additional options.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.VerifyResult" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.VerifyResult|latest-stable"
+          />&gt;
         description: ''
   - name: verifyData(SignatureAlgorithm, Uint8Array, Uint8Array, VerifyOptions)
     uid: '@azure/keyvault-keys.CryptographyClient.verifyData|latest-stable'
@@ -406,7 +431,7 @@ methods:
         signature: Uint8Array, options?: VerifyOptions)
       parameters:
         - id: algorithm
-          type: <xref uid="@azure/keyvault-keys.SignatureAlgorithm" />
+          type: <xref uid="@azure/keyvault-keys.SignatureAlgorithm|latest-stable" />
           description: The algorithm to use to verify with.
         - id: data
           type: Uint8Array
@@ -415,11 +440,13 @@ methods:
           type: Uint8Array
           description: The signature to verify the block against.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.VerifyOptions" />
+          type: <xref uid="@azure/keyvault-keys.VerifyOptions|latest-stable" />
           description: |
             Additional options.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.VerifyResult" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.VerifyResult|latest-stable"
+          />&gt;
         description: ''
   - name: wrapKey(KeyWrapAlgorithm, Uint8Array, WrapKeyOptions)
     uid: '@azure/keyvault-keys.CryptographyClient.wrapKey|latest-stable'
@@ -440,15 +467,17 @@ methods:
         WrapKeyOptions)
       parameters:
         - id: algorithm
-          type: <xref uid="@azure/keyvault-keys.KeyWrapAlgorithm" />
+          type: <xref uid="@azure/keyvault-keys.KeyWrapAlgorithm|latest-stable" />
           description: The encryption algorithm to use to wrap the given key.
         - id: key
           type: Uint8Array
           description: The key to wrap.
         - id: options
-          type: <xref uid="@azure/keyvault-keys.WrapKeyOptions" />
+          type: <xref uid="@azure/keyvault-keys.WrapKeyOptions|latest-stable" />
           description: |
             Additional options.
       return:
-        type: Promise&lt;<xref uid="@azure/keyvault-keys.WrapResult" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/keyvault-keys.WrapResult|latest-stable"
+          />&gt;
         description: ''

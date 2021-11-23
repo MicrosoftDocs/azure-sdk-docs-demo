@@ -58,4 +58,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-servicebus.Action" />
+extends: <xref uid="@azure/arm-servicebus.Action|latest-stable" />

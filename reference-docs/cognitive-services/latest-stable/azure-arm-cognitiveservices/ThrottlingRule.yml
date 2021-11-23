@@ -60,7 +60,10 @@ properties:
     syntax:
       content: 'matchPatterns?: RequestMatchPattern[]'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.RequestMatchPattern" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.RequestMatchPattern|latest-stable"
+          />[]
         description: ''
   - name: minCount
     uid: '@azure/arm-cognitiveservices.ThrottlingRule.minCount|latest-stable'

@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'cache?: SearchIndexerCache'
       return:
-        type: <xref uid="@azure/search-documents.SearchIndexerCache" />
+        type: <xref uid="@azure/search-documents.SearchIndexerCache|preview" />
         description: ''
   - name: dataSourceName
     uid: '@azure/search-documents.SearchIndexer.dataSourceName|preview'
@@ -88,7 +88,9 @@ properties:
     syntax:
       content: 'encryptionKey?: SearchResourceEncryptionKey'
       return:
-        type: <xref uid="@azure/search-documents.SearchResourceEncryptionKey" />
+        type: >-
+          <xref
+          uid="@azure/search-documents.SearchResourceEncryptionKey|preview" />
         description: ''
   - name: etag
     uid: '@azure/search-documents.SearchIndexer.etag|preview'
@@ -118,7 +120,7 @@ properties:
     syntax:
       content: 'fieldMappings?: FieldMapping[]'
       return:
-        type: <xref uid="@azure/search-documents.FieldMapping" />[]
+        type: <xref uid="@azure/search-documents.FieldMapping|preview" />[]
         description: ''
   - name: isDisabled
     uid: '@azure/search-documents.SearchIndexer.isDisabled|preview'
@@ -161,7 +163,7 @@ properties:
     syntax:
       content: 'outputFieldMappings?: FieldMapping[]'
       return:
-        type: <xref uid="@azure/search-documents.FieldMapping" />[]
+        type: <xref uid="@azure/search-documents.FieldMapping|preview" />[]
         description: ''
   - name: parameters
     uid: '@azure/search-documents.SearchIndexer.parameters|preview'
@@ -174,7 +176,7 @@ properties:
     syntax:
       content: 'parameters?: IndexingParameters'
       return:
-        type: <xref uid="@azure/search-documents.IndexingParameters" />
+        type: <xref uid="@azure/search-documents.IndexingParameters|preview" />
         description: ''
   - name: schedule
     uid: '@azure/search-documents.SearchIndexer.schedule|preview'
@@ -187,7 +189,7 @@ properties:
     syntax:
       content: 'schedule?: IndexingSchedule'
       return:
-        type: <xref uid="@azure/search-documents.IndexingSchedule" />
+        type: <xref uid="@azure/search-documents.IndexingSchedule|preview" />
         description: ''
   - name: skillsetName
     uid: '@azure/search-documents.SearchIndexer.skillsetName|preview'

@@ -21,7 +21,7 @@ properties:
     syntax:
       content: 'privateEndpoint?: MhsmPrivateEndpoint'
       return:
-        type: <xref uid="@azure/arm-keyvault.MhsmPrivateEndpoint" />
+        type: <xref uid="@azure/arm-keyvault.MhsmPrivateEndpoint|preview" />
         description: ''
   - name: privateLinkServiceConnectionState
     uid: >-
@@ -38,7 +38,8 @@ properties:
         MhsmPrivateLinkServiceConnectionState
       return:
         type: >-
-          <xref uid="@azure/arm-keyvault.MhsmPrivateLinkServiceConnectionState"
+          <xref
+          uid="@azure/arm-keyvault.MhsmPrivateLinkServiceConnectionState|preview"
           />
         description: ''
   - name: provisioningState
@@ -55,6 +56,6 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/arm-keyvault.PrivateEndpointConnectionProvisioningState"
+          uid="@azure/arm-keyvault.PrivateEndpointConnectionProvisioningState|preview"
           />
         description: ''

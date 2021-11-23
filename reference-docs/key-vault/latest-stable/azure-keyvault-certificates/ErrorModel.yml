@@ -42,7 +42,7 @@ properties:
     syntax:
       content: 'innerError?: ErrorModel'
       return:
-        type: <xref uid="@azure/keyvault-certificates.ErrorModel" />
+        type: <xref uid="@azure/keyvault-certificates.ErrorModel|latest-stable" />
         description: ''
   - name: message
     uid: '@azure/keyvault-certificates.ErrorModel.message|latest-stable'

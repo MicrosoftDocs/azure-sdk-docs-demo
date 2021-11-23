@@ -42,7 +42,7 @@ properties:
     syntax:
       content: 'conditions?: BlobRequestConditions'
       return:
-        type: <xref uid="@azure/storage-blob.BlobRequestConditions" />
+        type: <xref uid="@azure/storage-blob.BlobRequestConditions|preview" />
         description: ''
   - name: encryptionScope
     uid: '@azure/storage-blob.BlobSyncCopyFromURLOptions.encryptionScope|preview'
@@ -79,7 +79,7 @@ properties:
     syntax:
       content: 'immutabilityPolicy?: BlobImmutabilityPolicy'
       return:
-        type: <xref uid="@azure/storage-blob.BlobImmutabilityPolicy" />
+        type: <xref uid="@azure/storage-blob.BlobImmutabilityPolicy|preview" />
         description: ''
   - name: legalHold
     uid: '@azure/storage-blob.BlobSyncCopyFromURLOptions.legalHold|preview'
@@ -111,7 +111,7 @@ properties:
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-blob.Metadata" />
+        type: <xref uid="@azure/storage-blob.Metadata|preview" />
         description: ''
   - name: sourceAuthorization
     uid: '@azure/storage-blob.BlobSyncCopyFromURLOptions.sourceAuthorization|preview'
@@ -126,7 +126,7 @@ properties:
     syntax:
       content: 'sourceAuthorization?: HttpAuthorization'
       return:
-        type: <xref uid="@azure/storage-blob.HttpAuthorization" />
+        type: <xref uid="@azure/storage-blob.HttpAuthorization|preview" />
         description: ''
   - name: sourceConditions
     uid: '@azure/storage-blob.BlobSyncCopyFromURLOptions.sourceConditions|preview'
@@ -142,8 +142,8 @@ properties:
       content: 'sourceConditions?: MatchConditions & ModificationConditions'
       return:
         type: >-
-          <xref uid="@azure/storage-blob.MatchConditions" /> & <xref
-          uid="@azure/storage-blob.ModificationConditions" />
+          <xref uid="@azure/storage-blob.MatchConditions|preview" /> & <xref
+          uid="@azure/storage-blob.ModificationConditions|preview" />
         description: ''
   - name: sourceContentMD5
     uid: '@azure/storage-blob.BlobSyncCopyFromURLOptions.sourceContentMD5|preview'
@@ -171,7 +171,7 @@ properties:
     syntax:
       content: 'tags?: Tags'
       return:
-        type: <xref uid="@azure/storage-blob.Tags" />
+        type: <xref uid="@azure/storage-blob.Tags|preview" />
         description: ''
   - name: tracingOptions
     uid: '@azure/storage-blob.BlobSyncCopyFromURLOptions.tracingOptions|preview'
@@ -186,4 +186,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/storage-blob.CommonOptions" />
+extends: <xref uid="@azure/storage-blob.CommonOptions|preview" />

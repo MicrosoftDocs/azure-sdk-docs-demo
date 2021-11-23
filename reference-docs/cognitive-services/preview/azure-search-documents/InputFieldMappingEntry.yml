@@ -20,7 +20,9 @@ properties:
     syntax:
       content: 'inputs?: InputFieldMappingEntry[]'
       return:
-        type: <xref uid="@azure/search-documents.InputFieldMappingEntry" />[]
+        type: >-
+          <xref uid="@azure/search-documents.InputFieldMappingEntry|preview"
+          />[]
         description: ''
   - name: name
     uid: '@azure/search-documents.InputFieldMappingEntry.name|preview'

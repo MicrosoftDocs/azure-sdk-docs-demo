@@ -39,7 +39,7 @@ properties:
     syntax:
       content: 'aliases?: CustomEntityAlias[]'
       return:
-        type: <xref uid="@azure/search-documents.CustomEntityAlias" />[]
+        type: <xref uid="@azure/search-documents.CustomEntityAlias|preview" />[]
         description: ''
   - name: caseSensitive
     uid: '@azure/search-documents.CustomEntity.caseSensitive|preview'

@@ -107,7 +107,10 @@ properties:
     syntax:
       content: 'result?: KeyVaultSelectiveKeyRestoreResult'
       return:
-        type: <xref uid="@azure/keyvault-admin.KeyVaultSelectiveKeyRestoreResult" />
+        type: >-
+          <xref
+          uid="@azure/keyvault-admin.KeyVaultSelectiveKeyRestoreResult|preview"
+          />
         description: ''
   - name: startTime
     uid: >-
@@ -152,5 +155,6 @@ properties:
         type: string
         description: ''
 extends: >-
-  <xref uid="@azure/keyvault-admin.KeyVaultAdminPollOperationState" />&lt;<xref
-  uid="@azure/keyvault-admin.KeyVaultSelectiveKeyRestoreResult" />&gt;
+  <xref uid="@azure/keyvault-admin.KeyVaultAdminPollOperationState|preview"
+  />&lt;<xref
+  uid="@azure/keyvault-admin.KeyVaultSelectiveKeyRestoreResult|preview" />&gt;

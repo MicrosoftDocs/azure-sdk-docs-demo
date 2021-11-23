@@ -21,7 +21,9 @@ properties:
     syntax:
       content: 'activeDirectoryProperties?: ActiveDirectoryProperties'
       return:
-        type: <xref uid="@azure/arm-storage.ActiveDirectoryProperties" />
+        type: >-
+          <xref uid="@azure/arm-storage.ActiveDirectoryProperties|latest-stable"
+          />
         description: ''
   - name: directoryServiceOptions
     uid: >-
@@ -37,5 +39,7 @@ properties:
     syntax:
       content: 'directoryServiceOptions: DirectoryServiceOptions'
       return:
-        type: <xref uid="@azure/arm-storage.DirectoryServiceOptions" />
+        type: >-
+          <xref uid="@azure/arm-storage.DirectoryServiceOptions|latest-stable"
+          />
         description: ''

@@ -24,7 +24,10 @@ properties:
     syntax:
       content: 'additionalInfo?: ErrorAdditionalInfo[]'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.ErrorAdditionalInfo" />[]
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.ErrorAdditionalInfo|latest-stable"
+          />[]
         description: ''
   - name: code
     uid: '@azure/arm-cognitiveservices.ErrorDetail.code|latest-stable'
@@ -58,7 +61,9 @@ properties:
     syntax:
       content: 'details?: ErrorDetail[]'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.ErrorDetail" />[]
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.ErrorDetail|latest-stable"
+          />[]
         description: ''
   - name: message
     uid: '@azure/arm-cognitiveservices.ErrorDetail.message|latest-stable'

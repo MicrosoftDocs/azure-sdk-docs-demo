@@ -52,7 +52,9 @@ properties:
     syntax:
       content: 'quota?: CommitmentQuota'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.CommitmentQuota" />
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.CommitmentQuota|latest-stable"
+          />
         description: ''
   - name: startDate
     uid: '@azure/arm-cognitiveservices.CommitmentPeriod.startDate|latest-stable'

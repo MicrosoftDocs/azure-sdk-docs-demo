@@ -24,7 +24,10 @@ constructors:
         AuthenticationRequiredErrorOptions)
       parameters:
         - id: options
-          type: <xref uid="@azure/identity.AuthenticationRequiredErrorOptions" />
+          type: >-
+            <xref
+            uid="@azure/identity.AuthenticationRequiredErrorOptions|latest-stable"
+            />
           description: ''
 properties:
   - name: Error

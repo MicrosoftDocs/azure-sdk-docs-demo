@@ -27,7 +27,7 @@ properties:
     syntax:
       content: 'cors?: CorsRules'
       return:
-        type: <xref uid="@azure/arm-storage.CorsRules" />
+        type: <xref uid="@azure/arm-storage.CorsRules|latest-stable" />
         description: ''
   - name: id
     uid: '@azure/arm-storage.FileServiceProperties.id|latest-stable'
@@ -76,7 +76,7 @@ properties:
     syntax:
       content: 'protocolSettings?: ProtocolSettings'
       return:
-        type: <xref uid="@azure/arm-storage.ProtocolSettings" />
+        type: <xref uid="@azure/arm-storage.ProtocolSettings|latest-stable" />
         description: ''
   - name: shareDeleteRetentionPolicy
     uid: >-
@@ -90,7 +90,7 @@ properties:
     syntax:
       content: 'shareDeleteRetentionPolicy?: DeleteRetentionPolicy'
       return:
-        type: <xref uid="@azure/arm-storage.DeleteRetentionPolicy" />
+        type: <xref uid="@azure/arm-storage.DeleteRetentionPolicy|latest-stable" />
         description: ''
   - name: sku
     uid: '@azure/arm-storage.FileServiceProperties.sku|latest-stable'
@@ -107,7 +107,7 @@ properties:
     syntax:
       content: 'sku?: Sku'
       return:
-        type: <xref uid="@azure/arm-storage.Sku" />
+        type: <xref uid="@azure/arm-storage.Sku|latest-stable" />
         description: ''
   - name: type
     uid: '@azure/arm-storage.FileServiceProperties.type|latest-stable'
@@ -128,4 +128,4 @@ properties:
       return:
         type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-storage.Resource" />
+extends: <xref uid="@azure/arm-storage.Resource|latest-stable" />

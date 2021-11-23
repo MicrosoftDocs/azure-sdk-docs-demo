@@ -81,4 +81,4 @@ properties:
       return:
         type: OperationTracingOptions
         description: ''
-extends: <xref uid="@azure/keyvault-keys.KeyPollerOptions" />
+extends: <xref uid="@azure/keyvault-keys.KeyPollerOptions|latest-stable" />

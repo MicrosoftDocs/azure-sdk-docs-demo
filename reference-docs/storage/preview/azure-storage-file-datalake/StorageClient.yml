@@ -44,8 +44,10 @@ properties:
         TokenCredential
       return:
         type: >-
-          <xref uid="@azure/storage-file-datalake.StorageSharedKeyCredential" />
-          | <xref uid="@azure/storage-file-datalake.AnonymousCredential" /> |
+          <xref
+          uid="@azure/storage-file-datalake.StorageSharedKeyCredential|preview"
+          /> | <xref
+          uid="@azure/storage-file-datalake.AnonymousCredential|preview" /> |
           TokenCredential
         description: ''
   - name: url

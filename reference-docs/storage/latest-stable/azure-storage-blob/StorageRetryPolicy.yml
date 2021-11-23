@@ -30,7 +30,7 @@ constructors:
           type: RequestPolicyOptions
           description: '-'
         - id: retryOptions
-          type: <xref uid="@azure/storage-blob.StorageRetryOptions" />
+          type: <xref uid="@azure/storage-blob.StorageRetryOptions|latest-stable" />
           description: |
             -
 methods:

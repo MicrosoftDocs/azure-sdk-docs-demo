@@ -85,5 +85,5 @@ properties:
     syntax:
       content: 'shareItems?: ShareItem[]'
       return:
-        type: <xref uid="@azure/storage-file-share.ShareItem" />[]
+        type: <xref uid="@azure/storage-file-share.ShareItem|preview" />[]
         description: ''

@@ -24,7 +24,7 @@ constructors:
         - id: client
           type: >-
             <xref
-            uid="@azure/arm-appconfiguration.AppConfigurationManagementClientContext"
+            uid="@azure/arm-appconfiguration.AppConfigurationManagementClientContext|latest-stable"
             />
           description: |
             Reference to the service client.
@@ -55,10 +55,12 @@ methods:
           type: string
           description: The name of the private link resource group.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.PrivateLinkResourcesGetResponse" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="Models.PrivateLinkResourcesGetResponse|latest-stable" />&gt;
         description: Promise<Models.PrivateLinkResourcesGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -92,7 +94,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.PrivateLinkResource" />&gt;
+            uid="@azure/arm-appconfiguration.PrivateLinkResource|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: get(string, string, string, ServiceCallback<PrivateLinkResource>)
@@ -121,7 +124,8 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.PrivateLinkResource" />&gt;
+            uid="@azure/arm-appconfiguration.PrivateLinkResource|latest-stable"
+            />&gt;
           description: |
             The callback
   - name: listByConfigurationStore(string, string, msRest.RequestOptionsBase)
@@ -148,12 +152,12 @@ methods:
           type: string
           description: The name of the configuration store.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateLinkResourcesListByConfigurationStoreResponse"
+          uid="Models.PrivateLinkResourcesListByConfigurationStoreResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateLinkResourcesListByConfigurationStoreResponse>
   - name: >-
@@ -186,7 +190,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.PrivateLinkResourceListResult"
+            uid="@azure/arm-appconfiguration.PrivateLinkResourceListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -217,7 +221,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.PrivateLinkResourceListResult"
+            uid="@azure/arm-appconfiguration.PrivateLinkResourceListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -240,12 +244,12 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="msRest.RequestOptionsBase" />
+          type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="Models.PrivateLinkResourcesListByConfigurationStoreNextResponse"
+          uid="Models.PrivateLinkResourcesListByConfigurationStoreNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.PrivateLinkResourcesListByConfigurationStoreNextResponse>
@@ -274,7 +278,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.PrivateLinkResourceListResult"
+            uid="@azure/arm-appconfiguration.PrivateLinkResourceListResult|latest-stable"
             />&gt;
           description: |
             The callback
@@ -299,7 +303,7 @@ methods:
         - id: callback
           type: >-
             ServiceCallback&lt;<xref
-            uid="@azure/arm-appconfiguration.PrivateLinkResourceListResult"
+            uid="@azure/arm-appconfiguration.PrivateLinkResourceListResult|latest-stable"
             />&gt;
           description: |
             The callback

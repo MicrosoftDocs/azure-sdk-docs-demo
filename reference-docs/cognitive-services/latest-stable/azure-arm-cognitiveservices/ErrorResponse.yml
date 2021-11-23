@@ -24,5 +24,5 @@ properties:
     syntax:
       content: 'error?: ErrorDetail'
       return:
-        type: <xref uid="@azure/arm-cognitiveservices.ErrorDetail" />
+        type: <xref uid="@azure/arm-cognitiveservices.ErrorDetail|latest-stable" />
         description: ''

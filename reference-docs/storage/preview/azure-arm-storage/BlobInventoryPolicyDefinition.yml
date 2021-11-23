@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'filters?: BlobInventoryPolicyFilter'
       return:
-        type: <xref uid="@azure/arm-storage.BlobInventoryPolicyFilter" />
+        type: <xref uid="@azure/arm-storage.BlobInventoryPolicyFilter|preview" />
         description: ''
   - name: format
     uid: '@azure/arm-storage.BlobInventoryPolicyDefinition.format|preview'
@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'format: Format'
       return:
-        type: <xref uid="@azure/arm-storage.Format" />
+        type: <xref uid="@azure/arm-storage.Format|preview" />
         description: ''
   - name: objectType
     uid: '@azure/arm-storage.BlobInventoryPolicyDefinition.objectType|preview'
@@ -48,7 +48,7 @@ properties:
     syntax:
       content: 'objectType: ObjectType'
       return:
-        type: <xref uid="@azure/arm-storage.ObjectType" />
+        type: <xref uid="@azure/arm-storage.ObjectType|preview" />
         description: ''
   - name: schedule
     uid: '@azure/arm-storage.BlobInventoryPolicyDefinition.schedule|preview'
@@ -63,7 +63,7 @@ properties:
     syntax:
       content: 'schedule: Schedule'
       return:
-        type: <xref uid="@azure/arm-storage.Schedule" />
+        type: <xref uid="@azure/arm-storage.Schedule|preview" />
         description: ''
   - name: schemaFields
     uid: '@azure/arm-storage.BlobInventoryPolicyDefinition.schemaFields|preview'

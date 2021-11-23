@@ -29,6 +29,6 @@ properties:
         "#Microsoft.Azure.Search.BM25Similarity"
       return:
         type: >-
-          "#<xref uid="Microsoft.Azure.Search.ClassicSimilarity" />" | "#<xref
-          uid="Microsoft.Azure.Search.BM25Similarity" />"
+          "#<xref uid="Microsoft.Azure.Search.ClassicSimilarity|preview" />" |
+          "#<xref uid="Microsoft.Azure.Search.BM25Similarity|preview" />"
         description: ''

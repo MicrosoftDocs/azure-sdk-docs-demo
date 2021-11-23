@@ -24,7 +24,7 @@ properties:
     syntax:
       content: 'action: Action1'
       return:
-        type: <xref uid="@azure/arm-storage.Action1" />
+        type: <xref uid="@azure/arm-storage.Action1|latest-stable" />
         description: ''
   - name: breakPeriod
     uid: '@azure/arm-storage.LeaseContainerRequest.breakPeriod|latest-stable'

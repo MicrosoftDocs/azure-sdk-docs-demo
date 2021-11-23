@@ -23,7 +23,7 @@ constructors:
           type: string
           description: ''
         - id: type
-          type: <xref uid="@azure/core-http.URLTokenType" />
+          type: <xref uid="@azure/core-http.URLTokenType|latest-stable" />
           description: ''
 properties:
   - name: text
@@ -50,7 +50,7 @@ properties:
     syntax:
       content: 'type: URLTokenType'
       return:
-        type: <xref uid="@azure/core-http.URLTokenType" />
+        type: <xref uid="@azure/core-http.URLTokenType|latest-stable" />
         description: ''
 methods:
   - name: host(string)
@@ -67,7 +67,7 @@ methods:
           type: string
           description: ''
       return:
-        type: <xref uid="@azure/core-http.URLToken" />
+        type: <xref uid="@azure/core-http.URLToken|latest-stable" />
         description: ''
   - name: path(string)
     uid: '@azure/core-http.URLToken.path|latest-stable'
@@ -83,7 +83,7 @@ methods:
           type: string
           description: ''
       return:
-        type: <xref uid="@azure/core-http.URLToken" />
+        type: <xref uid="@azure/core-http.URLToken|latest-stable" />
         description: ''
   - name: port(string)
     uid: '@azure/core-http.URLToken.port|latest-stable'
@@ -99,7 +99,7 @@ methods:
           type: string
           description: ''
       return:
-        type: <xref uid="@azure/core-http.URLToken" />
+        type: <xref uid="@azure/core-http.URLToken|latest-stable" />
         description: ''
   - name: query(string)
     uid: '@azure/core-http.URLToken.query|latest-stable'
@@ -115,7 +115,7 @@ methods:
           type: string
           description: ''
       return:
-        type: <xref uid="@azure/core-http.URLToken" />
+        type: <xref uid="@azure/core-http.URLToken|latest-stable" />
         description: ''
   - name: scheme(string)
     uid: '@azure/core-http.URLToken.scheme|latest-stable'
@@ -131,5 +131,5 @@ methods:
           type: string
           description: ''
       return:
-        type: <xref uid="@azure/core-http.URLToken" />
+        type: <xref uid="@azure/core-http.URLToken|latest-stable" />
         description: ''

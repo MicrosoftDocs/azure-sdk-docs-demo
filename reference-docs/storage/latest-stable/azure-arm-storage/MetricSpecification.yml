@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'dimensions?: Dimension[]'
       return:
-        type: <xref uid="@azure/arm-storage.Dimension" />[]
+        type: <xref uid="@azure/arm-storage.Dimension|latest-stable" />[]
         description: ''
   - name: displayDescription
     uid: '@azure/arm-storage.MetricSpecification.displayDescription|latest-stable'

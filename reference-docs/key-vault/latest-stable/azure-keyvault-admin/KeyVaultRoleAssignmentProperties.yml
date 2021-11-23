@@ -48,5 +48,5 @@ properties:
     syntax:
       content: 'scope?: KeyVaultRoleScope'
       return:
-        type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope" />
+        type: <xref uid="@azure/keyvault-admin.KeyVaultRoleScope|latest-stable" />
         description: ''

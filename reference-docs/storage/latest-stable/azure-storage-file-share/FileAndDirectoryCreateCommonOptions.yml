@@ -27,7 +27,9 @@ properties:
     syntax:
       content: 'creationTime?: Date | TimeNowType'
       return:
-        type: Date | <xref uid="@azure/storage-file-share.TimeNowType" />
+        type: >-
+          Date | <xref uid="@azure/storage-file-share.TimeNowType|latest-stable"
+          />
         description: ''
   - name: fileAttributes
     uid: >-
@@ -41,7 +43,9 @@ properties:
     syntax:
       content: 'fileAttributes?: FileSystemAttributes'
       return:
-        type: <xref uid="@azure/storage-file-share.FileSystemAttributes" />
+        type: >-
+          <xref
+          uid="@azure/storage-file-share.FileSystemAttributes|latest-stable" />
         description: ''
   - name: filePermission
     uid: >-
@@ -70,7 +74,8 @@ properties:
       return:
         type: >-
           string | <xref
-          uid="@azure/storage-file-share.FilePermissionInheritType" />
+          uid="@azure/storage-file-share.FilePermissionInheritType|latest-stable"
+          />
         description: ''
   - name: filePermissionKey
     uid: >-
@@ -109,5 +114,7 @@ properties:
     syntax:
       content: 'lastWriteTime?: Date | TimeNowType'
       return:
-        type: Date | <xref uid="@azure/storage-file-share.TimeNowType" />
+        type: >-
+          Date | <xref uid="@azure/storage-file-share.TimeNowType|latest-stable"
+          />
         description: ''

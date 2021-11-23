@@ -50,5 +50,5 @@ properties:
       return:
         type: >-
           [key: string]\: <xref
-          uid="@azure/ai-form-recognizer.DocumentFieldSchema" />
+          uid="@azure/ai-form-recognizer.DocumentFieldSchema|preview" />
         description: ''

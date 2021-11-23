@@ -27,7 +27,7 @@ constructors:
           type: TResource | undefined
           description: ''
         - id: headers
-          type: <xref uid="@azure/cosmos.CosmosHeaders_2" />
+          type: <xref uid="@azure/cosmos.CosmosHeaders_2|latest-stable" />
           description: ''
         - id: statusCode
           type: StatusCode
@@ -73,7 +73,7 @@ properties:
     syntax:
       content: 'headers: CosmosHeaders_2'
       return:
-        type: <xref uid="@azure/cosmos.CosmosHeaders_2" />
+        type: <xref uid="@azure/cosmos.CosmosHeaders_2|latest-stable" />
         description: ''
   - name: requestCharge
     uid: '@azure/cosmos.ResourceResponse.requestCharge|latest-stable'

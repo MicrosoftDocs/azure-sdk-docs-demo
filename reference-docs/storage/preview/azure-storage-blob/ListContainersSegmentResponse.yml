@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'containerItems: ContainerItem[]'
       return:
-        type: <xref uid="@azure/storage-blob.ContainerItem" />[]
+        type: <xref uid="@azure/storage-blob.ContainerItem|preview" />[]
         description: ''
   - name: continuationToken
     uid: >-

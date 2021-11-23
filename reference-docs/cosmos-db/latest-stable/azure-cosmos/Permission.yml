@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'user: User'
       return:
-        type: <xref uid="@azure/cosmos.User" />
+        type: <xref uid="@azure/cosmos.User|latest-stable" />
         description: ''
 methods:
   - name: delete(RequestOptions)
@@ -60,10 +60,12 @@ methods:
       content: 'function delete(options?: RequestOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.PermissionResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.PermissionResponse|latest-stable"
+          />&gt;
         description: ''
   - name: read(RequestOptions)
     uid: '@azure/cosmos.Permission.read|latest-stable'
@@ -78,10 +80,12 @@ methods:
       content: 'function read(options?: RequestOptions)'
       parameters:
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.PermissionResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.PermissionResponse|latest-stable"
+          />&gt;
         description: ''
   - name: replace(PermissionDefinition, RequestOptions)
     uid: '@azure/cosmos.Permission.replace|latest-stable'
@@ -96,12 +100,14 @@ methods:
       content: 'function replace(body: PermissionDefinition, options?: RequestOptions)'
       parameters:
         - id: body
-          type: <xref uid="@azure/cosmos.PermissionDefinition" />
+          type: <xref uid="@azure/cosmos.PermissionDefinition|latest-stable" />
           description: |
             The specified <xref:@azure/cosmos.PermissionDefinition>.
         - id: options
-          type: <xref uid="@azure/cosmos.RequestOptions" />
+          type: <xref uid="@azure/cosmos.RequestOptions|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/cosmos.PermissionResponse" />&gt;
+        type: >-
+          Promise&lt;<xref uid="@azure/cosmos.PermissionResponse|latest-stable"
+          />&gt;
         description: ''

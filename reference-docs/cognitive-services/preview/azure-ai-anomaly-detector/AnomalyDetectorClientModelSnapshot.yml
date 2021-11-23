@@ -83,7 +83,8 @@ properties:
       return:
         type: >-
           <xref
-          uid="@azure/ai-anomaly-detector.AnomalyDetectorClientModelStatus" />
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorClientModelStatus|preview"
+          />
         description: ''
   - name: variablesCount
     uid: >-

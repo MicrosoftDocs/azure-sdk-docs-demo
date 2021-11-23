@@ -20,7 +20,7 @@ properties:
     syntax:
       content: 'dataSourceCounter: ResourceCounter'
       return:
-        type: <xref uid="@azure/search-documents.ResourceCounter" />
+        type: <xref uid="@azure/search-documents.ResourceCounter|preview" />
         description: ''
   - name: documentCounter
     uid: '@azure/search-documents.ServiceCounters.documentCounter|preview'
@@ -33,7 +33,7 @@ properties:
     syntax:
       content: 'documentCounter: ResourceCounter'
       return:
-        type: <xref uid="@azure/search-documents.ResourceCounter" />
+        type: <xref uid="@azure/search-documents.ResourceCounter|preview" />
         description: ''
   - name: indexCounter
     uid: '@azure/search-documents.ServiceCounters.indexCounter|preview'
@@ -46,7 +46,7 @@ properties:
     syntax:
       content: 'indexCounter: ResourceCounter'
       return:
-        type: <xref uid="@azure/search-documents.ResourceCounter" />
+        type: <xref uid="@azure/search-documents.ResourceCounter|preview" />
         description: ''
   - name: indexerCounter
     uid: '@azure/search-documents.ServiceCounters.indexerCounter|preview'
@@ -59,7 +59,7 @@ properties:
     syntax:
       content: 'indexerCounter: ResourceCounter'
       return:
-        type: <xref uid="@azure/search-documents.ResourceCounter" />
+        type: <xref uid="@azure/search-documents.ResourceCounter|preview" />
         description: ''
   - name: skillsetCounter
     uid: '@azure/search-documents.ServiceCounters.skillsetCounter|preview'
@@ -72,7 +72,7 @@ properties:
     syntax:
       content: 'skillsetCounter?: ResourceCounter'
       return:
-        type: <xref uid="@azure/search-documents.ResourceCounter" />
+        type: <xref uid="@azure/search-documents.ResourceCounter|preview" />
         description: ''
   - name: storageSizeCounter
     uid: '@azure/search-documents.ServiceCounters.storageSizeCounter|preview'
@@ -85,7 +85,7 @@ properties:
     syntax:
       content: 'storageSizeCounter: ResourceCounter'
       return:
-        type: <xref uid="@azure/search-documents.ResourceCounter" />
+        type: <xref uid="@azure/search-documents.ResourceCounter|preview" />
         description: ''
   - name: synonymMapCounter
     uid: '@azure/search-documents.ServiceCounters.synonymMapCounter|preview'
@@ -98,5 +98,5 @@ properties:
     syntax:
       content: 'synonymMapCounter: ResourceCounter'
       return:
-        type: <xref uid="@azure/search-documents.ResourceCounter" />
+        type: <xref uid="@azure/search-documents.ResourceCounter|preview" />
         description: ''
