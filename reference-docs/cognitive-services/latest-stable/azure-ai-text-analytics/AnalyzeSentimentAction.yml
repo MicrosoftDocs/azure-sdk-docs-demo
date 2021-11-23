@@ -60,7 +60,7 @@ properties:
       the result of this analysis.
 
       More information about the feature can be found here:
-      <xref:https%3A%2F%2Fdocs.microsoft.com%2Fazure%2Fcognitive-services%2Ftext-analytics%2Fhow-tos%2Ftext-analytics-how-to-sentiment-analysis%3Ftabs%3Dversion-3-1%23opinion-mining>
+      [https%3A%2F%2Fdocs.microsoft.com%2Fazure%2Fcognitive-services%2Ftext-analytics%2Fhow-tos%2Ftext-analytics-how-to-sentiment-analysis%3Ftabs%3Dversion-3-1%23opinion-mining](https%3A%2F%2Fdocs.microsoft.com%2Fazure%2Fcognitive-services%2Ftext-analytics%2Fhow-tos%2Ftext-analytics-how-to-sentiment-analysis%3Ftabs%3Dversion-3-1%23opinion-mining)
     fullName: includeOpinionMining
     remarks: ''
     isPreview: false
