@@ -43,7 +43,10 @@ constructors:
           type: string
           description: The ID of the target subscription.
         - id: options
-          type: <xref uid="StorageManagementClientOptions|latest-stable" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageManagementClientOptions|latest-stable"
+            />
           description: ''
 properties:
   - name: acceptLanguage

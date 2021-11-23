@@ -44,7 +44,9 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="TopicTypesGetResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventgrid.TopicTypesGetResponse|latest-stable" />&gt;
         description: Promise<Models.TopicTypesGetResponse>
   - name: get(string, RequestOptionsBase, ServiceCallback<TopicTypeInfo>)
     uid: '@azure/arm-eventgrid.TopicTypes.get_2|latest-stable'
@@ -105,7 +107,9 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="TopicTypesListResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventgrid.TopicTypesListResponse|latest-stable" />&gt;
         description: Promise<Models.TopicTypesListResponse>
   - name: list(RequestOptionsBase, ServiceCallback<TopicTypesListResult>)
     uid: '@azure/arm-eventgrid.TopicTypes.list_2|latest-stable'
@@ -164,7 +168,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="TopicTypesListEventTypesResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-eventgrid.TopicTypesListEventTypesResponse|latest-stable"
           />&gt;
         description: Promise<Models.TopicTypesListEventTypesResponse>
   - name: >-

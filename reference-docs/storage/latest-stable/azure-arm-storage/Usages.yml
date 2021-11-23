@@ -51,7 +51,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="UsagesListByLocationResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.UsagesListByLocationResponse|latest-stable"
           />&gt;
         description: Promise<Models.UsagesListByLocationResponse>
   - name: >-

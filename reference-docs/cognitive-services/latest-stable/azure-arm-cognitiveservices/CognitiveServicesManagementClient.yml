@@ -45,7 +45,8 @@ constructors:
           description: The ID of the target subscription.
         - id: options
           type: >-
-            <xref uid="CognitiveServicesManagementClientOptions|latest-stable"
+            <xref
+            uid="@azure/arm-cognitiveservices.CognitiveServicesManagementClientOptions|latest-stable"
             />
           description: ''
 properties:
@@ -354,12 +355,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="CognitiveServicesManagementClientCheckDomainAvailabilityOptionalParams|latest-stable"
+            uid="@azure/arm-cognitiveservices.CognitiveServicesManagementClientCheckDomainAvailabilityOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="CheckDomainAvailabilityResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-cognitiveservices.CheckDomainAvailabilityResponse|latest-stable"
           />&gt;
         description: Promise<Models.CheckDomainAvailabilityResponse>
   - name: >-
@@ -422,7 +424,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="CheckSkuAvailabilityResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-cognitiveservices.CheckSkuAvailabilityResponse|latest-stable"
           />&gt;
         description: Promise<Models.CheckSkuAvailabilityResponse>
   - name: >-

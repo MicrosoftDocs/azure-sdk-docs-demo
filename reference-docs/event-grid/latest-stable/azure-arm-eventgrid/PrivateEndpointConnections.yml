@@ -47,7 +47,7 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="ParentType2|latest-stable" />
+          type: <xref uid="@azure/arm-eventgrid.ParentType2|latest-stable" />
           description: >-
             The type of the parent resource. This can be either \'topics\' or
             \'domains\'.
@@ -89,7 +89,7 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="ParentType1|latest-stable" />
+          type: <xref uid="@azure/arm-eventgrid.ParentType1|latest-stable" />
           description: >-
             The type of the parent resource. This can be either \'topics\' or
             \'domains\'.
@@ -136,7 +136,7 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="ParentType2|latest-stable" />
+          type: <xref uid="@azure/arm-eventgrid.ParentType2|latest-stable" />
           description: >-
             The type of the parent resource. This can be either \'topics\' or
             \'domains\'.
@@ -175,7 +175,7 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="ParentType|latest-stable" />
+          type: <xref uid="@azure/arm-eventgrid.ParentType|latest-stable" />
           description: >-
             The type of the parent resource. This can be either \'topics\' or
             \'domains\'.
@@ -197,7 +197,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="PrivateEndpointConnectionsGetResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventgrid.PrivateEndpointConnectionsGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateEndpointConnectionsGetResponse>
   - name: >-
       get(string, Models.ParentType, string, string, RequestOptionsBase,
@@ -219,7 +220,7 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="ParentType|latest-stable" />
+          type: <xref uid="@azure/arm-eventgrid.ParentType|latest-stable" />
           description: >-
             The type of the parent resource. This can be either \'topics\' or
             \'domains\'.
@@ -264,7 +265,7 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="ParentType|latest-stable" />
+          type: <xref uid="@azure/arm-eventgrid.ParentType|latest-stable" />
           description: >-
             The type of the parent resource. This can be either \'topics\' or
             \'domains\'.
@@ -307,7 +308,7 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="ParentType3|latest-stable" />
+          type: <xref uid="@azure/arm-eventgrid.ParentType3|latest-stable" />
           description: >-
             The type of the parent resource. This can be either \'topics\' or
             \'domains\'.
@@ -323,13 +324,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="PrivateEndpointConnectionsListByResourceOptionalParams|latest-stable"
+            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsListByResourceOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="PrivateEndpointConnectionsListByResourceResponse|latest-stable"
+          uid="@azure/arm-eventgrid.PrivateEndpointConnectionsListByResourceResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateEndpointConnectionsListByResourceResponse>
   - name: >-
@@ -354,7 +355,7 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="ParentType3|latest-stable" />
+          type: <xref uid="@azure/arm-eventgrid.ParentType3|latest-stable" />
           description: >-
             The type of the parent resource. This can be either \'topics\' or
             \'domains\'.
@@ -400,7 +401,7 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="ParentType3|latest-stable" />
+          type: <xref uid="@azure/arm-eventgrid.ParentType3|latest-stable" />
           description: >-
             The type of the parent resource. This can be either \'topics\' or
             \'domains\'.
@@ -441,13 +442,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="PrivateEndpointConnectionsListByResourceNextOptionalParams|latest-stable"
+            uid="@azure/arm-eventgrid.PrivateEndpointConnectionsListByResourceNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="PrivateEndpointConnectionsListByResourceNextResponse|latest-stable"
+          uid="@azure/arm-eventgrid.PrivateEndpointConnectionsListByResourceNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateEndpointConnectionsListByResourceNextResponse>
   - name: >-
@@ -528,7 +529,7 @@ methods:
           type: string
           description: The name of the resource group within the user's subscription.
         - id: parentType
-          type: <xref uid="ParentType1|latest-stable" />
+          type: <xref uid="@azure/arm-eventgrid.ParentType1|latest-stable" />
           description: >-
             The type of the parent resource. This can be either \'topics\' or
             \'domains\'.
@@ -556,5 +557,6 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="PrivateEndpointConnectionsUpdateResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventgrid.PrivateEndpointConnectionsUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateEndpointConnectionsUpdateResponse>

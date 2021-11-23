@@ -184,7 +184,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="MigrationConfigsCreateAndStartMigrationResponse|latest-stable"
+          uid="@azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationResponse|latest-stable"
           />&gt;
         description: Promise<Models.MigrationConfigsCreateAndStartMigrationResponse>
   - name: deleteMethod(string, string, msRest.RequestOptionsBase)
@@ -281,7 +281,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="MigrationConfigsGetResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.MigrationConfigsGetResponse|latest-stable"
           />&gt;
         description: Promise<Models.MigrationConfigsGetResponse>
   - name: >-
@@ -363,7 +364,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="MigrationConfigsListResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.MigrationConfigsListResponse|latest-stable"
           />&gt;
         description: Promise<Models.MigrationConfigsListResponse>
   - name: >-
@@ -442,7 +444,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="MigrationConfigsListNextResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.MigrationConfigsListNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.MigrationConfigsListNextResponse>
   - name: >-

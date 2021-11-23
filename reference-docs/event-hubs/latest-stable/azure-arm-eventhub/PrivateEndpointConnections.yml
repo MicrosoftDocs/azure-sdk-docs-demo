@@ -100,7 +100,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="PrivateEndpointConnectionsCreateOrUpdateResponse|latest-stable"
+          uid="@azure/arm-eventhub.PrivateEndpointConnectionsCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateEndpointConnectionsCreateOrUpdateResponse>
   - name: >-
@@ -250,7 +250,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="PrivateEndpointConnectionsGetResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventhub.PrivateEndpointConnectionsGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateEndpointConnectionsGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -339,7 +340,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="PrivateEndpointConnectionsListResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventhub.PrivateEndpointConnectionsListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateEndpointConnectionsListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -418,7 +420,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="PrivateEndpointConnectionsListNextResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventhub.PrivateEndpointConnectionsListNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateEndpointConnectionsListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,

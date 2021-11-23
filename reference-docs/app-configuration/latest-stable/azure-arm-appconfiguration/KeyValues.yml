@@ -134,11 +134,15 @@ methods:
 
             character. Label is optional.
         - id: options
-          type: <xref uid="KeyValuesCreateOrUpdateOptionalParams|latest-stable" />
+          type: >-
+            <xref
+            uid="@azure/arm-appconfiguration.KeyValuesCreateOrUpdateOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="KeyValuesCreateOrUpdateResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-appconfiguration.KeyValuesCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.KeyValuesCreateOrUpdateResponse>
   - name: createOrUpdate(string, string, string, ServiceCallback<KeyValue>)
@@ -238,7 +242,10 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="KeyValuesGetResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-appconfiguration.KeyValuesGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.KeyValuesGetResponse>
   - name: get(string, string, string, RequestOptionsBase, ServiceCallback<KeyValue>)
     uid: '@azure/arm-appconfiguration.KeyValues.get_2|latest-stable'
@@ -376,13 +383,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="KeyValuesListByConfigurationStoreOptionalParams|latest-stable"
+            uid="@azure/arm-appconfiguration.KeyValuesListByConfigurationStoreOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="KeyValuesListByConfigurationStoreResponse|latest-stable" />&gt;
+          uid="@azure/arm-appconfiguration.KeyValuesListByConfigurationStoreResponse|latest-stable"
+          />&gt;
         description: Promise<Models.KeyValuesListByConfigurationStoreResponse>
   - name: >-
       listByConfigurationStore(string, string,
@@ -468,13 +476,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="KeyValuesListByConfigurationStoreNextOptionalParams|latest-stable"
+            uid="@azure/arm-appconfiguration.KeyValuesListByConfigurationStoreNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="KeyValuesListByConfigurationStoreNextResponse|latest-stable"
+          uid="@azure/arm-appconfiguration.KeyValuesListByConfigurationStoreNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.KeyValuesListByConfigurationStoreNextResponse>
   - name: listByConfigurationStoreNext(string, ServiceCallback<KeyValueListResult>)

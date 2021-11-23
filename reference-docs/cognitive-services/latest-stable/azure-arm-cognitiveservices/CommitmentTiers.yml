@@ -45,7 +45,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="CommitmentTiersListResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-cognitiveservices.CommitmentTiersListResponse|latest-stable"
           />&gt;
         description: Promise<Models.CommitmentTiersListResponse>
   - name: >-
@@ -117,7 +118,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="CommitmentTiersListNextResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-cognitiveservices.CommitmentTiersListNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.CommitmentTiersListNextResponse>
   - name: >-

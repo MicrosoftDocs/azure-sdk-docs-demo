@@ -147,7 +147,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="DisasterRecoveryConfigsCheckNameAvailabilityMethodResponse|latest-stable"
+          uid="@azure/arm-servicebus.DisasterRecoveryConfigsCheckNameAvailabilityMethodResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.DisasterRecoveryConfigsCheckNameAvailabilityMethodResponse>
@@ -260,7 +260,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="DisasterRecoveryConfigsCreateOrUpdateResponse|latest-stable"
+          uid="@azure/arm-servicebus.DisasterRecoveryConfigsCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.DisasterRecoveryConfigsCreateOrUpdateResponse>
   - name: >-
@@ -539,7 +539,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="DisasterRecoveryConfigsGetResponse|latest-stable" />&gt;
+          uid="@azure/arm-servicebus.DisasterRecoveryConfigsGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DisasterRecoveryConfigsGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -635,7 +636,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="DisasterRecoveryConfigsGetAuthorizationRuleResponse|latest-stable"
+          uid="@azure/arm-servicebus.DisasterRecoveryConfigsGetAuthorizationRuleResponse|latest-stable"
           />&gt;
         description: Promise<Models.DisasterRecoveryConfigsGetAuthorizationRuleResponse>
   - name: >-
@@ -733,7 +734,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="DisasterRecoveryConfigsListResponse|latest-stable" />&gt;
+          uid="@azure/arm-servicebus.DisasterRecoveryConfigsListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DisasterRecoveryConfigsListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -820,7 +822,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="DisasterRecoveryConfigsListAuthorizationRulesResponse|latest-stable"
+          uid="@azure/arm-servicebus.DisasterRecoveryConfigsListAuthorizationRulesResponse|latest-stable"
           />&gt;
         description: Promise<Models.DisasterRecoveryConfigsListAuthorizationRulesResponse>
   - name: >-
@@ -912,7 +914,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="DisasterRecoveryConfigsListAuthorizationRulesNextResponse|latest-stable"
+          uid="@azure/arm-servicebus.DisasterRecoveryConfigsListAuthorizationRulesNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.DisasterRecoveryConfigsListAuthorizationRulesNextResponse>
@@ -1001,7 +1003,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="DisasterRecoveryConfigsListKeysResponse|latest-stable" />&gt;
+          uid="@azure/arm-servicebus.DisasterRecoveryConfigsListKeysResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DisasterRecoveryConfigsListKeysResponse>
   - name: >-
       listKeys(string, string, string, string, RequestOptionsBase,
@@ -1091,7 +1094,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="DisasterRecoveryConfigsListNextResponse|latest-stable" />&gt;
+          uid="@azure/arm-servicebus.DisasterRecoveryConfigsListNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DisasterRecoveryConfigsListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,

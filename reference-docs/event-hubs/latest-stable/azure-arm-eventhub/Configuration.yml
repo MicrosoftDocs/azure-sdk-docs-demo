@@ -53,7 +53,10 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="ConfigurationGetResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.ConfigurationGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ConfigurationGetResponse>
   - name: >-
       get(string, string, RequestOptionsBase,
@@ -146,7 +149,10 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="ConfigurationPatchResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.ConfigurationPatchResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ConfigurationPatchResponse>
   - name: >-
       patch(string, string, ClusterQuotaConfigurationProperties,

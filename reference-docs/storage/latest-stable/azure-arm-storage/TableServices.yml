@@ -66,7 +66,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="TableServicesGetServicePropertiesResponse|latest-stable" />&gt;
+          uid="@azure/arm-storage.TableServicesGetServicePropertiesResponse|latest-stable"
+          />&gt;
         description: Promise<Models.TableServicesGetServicePropertiesResponse>
   - name: >-
       getServiceProperties(string, string, RequestOptionsBase,
@@ -179,7 +180,10 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="TableServicesListResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-storage.TableServicesListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.TableServicesListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -295,13 +299,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="TableServicesSetServicePropertiesOptionalParams|latest-stable"
+            uid="@azure/arm-storage.TableServicesSetServicePropertiesOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="TableServicesSetServicePropertiesResponse|latest-stable" />&gt;
+          uid="@azure/arm-storage.TableServicesSetServicePropertiesResponse|latest-stable"
+          />&gt;
         description: Promise<Models.TableServicesSetServicePropertiesResponse>
   - name: >-
       setServiceProperties(string, string,

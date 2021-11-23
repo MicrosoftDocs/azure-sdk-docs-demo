@@ -149,7 +149,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="PrivateEndpointConnectionsCreateOrUpdateResponse|latest-stable"
+          uid="@azure/arm-appconfiguration.PrivateEndpointConnectionsCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateEndpointConnectionsCreateOrUpdateResponse>
   - name: deleteMethod(string, string, string, msRest.RequestOptionsBase)
@@ -215,7 +215,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="PrivateEndpointConnectionsGetResponse|latest-stable" />&gt;
+          uid="@azure/arm-appconfiguration.PrivateEndpointConnectionsGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateEndpointConnectionsGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -311,7 +312,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="PrivateEndpointConnectionsListByConfigurationStoreResponse|latest-stable"
+          uid="@azure/arm-appconfiguration.PrivateEndpointConnectionsListByConfigurationStoreResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.PrivateEndpointConnectionsListByConfigurationStoreResponse>
@@ -402,7 +403,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="PrivateEndpointConnectionsListByConfigurationStoreNextResponse|latest-stable"
+          uid="@azure/arm-appconfiguration.PrivateEndpointConnectionsListByConfigurationStoreNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.PrivateEndpointConnectionsListByConfigurationStoreNextResponse>

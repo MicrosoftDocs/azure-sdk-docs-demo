@@ -50,7 +50,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="EventHubsListByNamespaceResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.EventHubsListByNamespaceResponse|latest-stable"
           />&gt;
         description: Promise<Models.EventHubsListByNamespaceResponse>
   - name: >-
@@ -128,7 +129,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="EventHubsListByNamespaceNextResponse|latest-stable" />&gt;
+          uid="@azure/arm-servicebus.EventHubsListByNamespaceNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.EventHubsListByNamespaceNextResponse>
   - name: >-
       listByNamespaceNext(string, RequestOptionsBase,

@@ -46,7 +46,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="PremiumMessagingRegionsListResponse|latest-stable" />&gt;
+          uid="@azure/arm-servicebus.PremiumMessagingRegionsListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PremiumMessagingRegionsListResponse>
   - name: >-
       list(RequestOptionsBase,
@@ -115,7 +116,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="PremiumMessagingRegionsListNextResponse|latest-stable" />&gt;
+          uid="@azure/arm-servicebus.PremiumMessagingRegionsListNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PremiumMessagingRegionsListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,

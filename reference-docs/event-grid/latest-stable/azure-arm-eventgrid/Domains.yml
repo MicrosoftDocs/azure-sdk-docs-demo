@@ -140,7 +140,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="DomainsCreateOrUpdateResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-eventgrid.DomainsCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.DomainsCreateOrUpdateResponse>
   - name: deleteMethod(string, string, msRest.RequestOptionsBase)
@@ -189,7 +190,9 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="DomainsGetResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventgrid.DomainsGetResponse|latest-stable" />&gt;
         description: Promise<Models.DomainsGetResponse>
   - name: get(string, string, RequestOptionsBase, ServiceCallback<Domain>)
     uid: '@azure/arm-eventgrid.Domains.get_2|latest-stable'
@@ -291,13 +294,15 @@ methods:
           description: The name of the resource group within the user's subscription.
         - id: options
           type: >-
-            <xref uid="DomainsListByResourceGroupOptionalParams|latest-stable"
+            <xref
+            uid="@azure/arm-eventgrid.DomainsListByResourceGroupOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="DomainsListByResourceGroupResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventgrid.DomainsListByResourceGroupResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DomainsListByResourceGroupResponse>
   - name: listByResourceGroup(string, ServiceCallback<DomainsListResult>)
     uid: '@azure/arm-eventgrid.Domains.listByResourceGroup_1|latest-stable'
@@ -371,12 +376,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="DomainsListByResourceGroupNextOptionalParams|latest-stable" />
+            uid="@azure/arm-eventgrid.DomainsListByResourceGroupNextOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="DomainsListByResourceGroupNextResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventgrid.DomainsListByResourceGroupNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DomainsListByResourceGroupNextResponse>
   - name: listByResourceGroupNext(string, ServiceCallback<DomainsListResult>)
     uid: '@azure/arm-eventgrid.Domains.listByResourceGroupNext_1|latest-stable'
@@ -439,11 +446,15 @@ methods:
         Models.DomainsListBySubscriptionOptionalParams)
       parameters:
         - id: options
-          type: <xref uid="DomainsListBySubscriptionOptionalParams|latest-stable" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.DomainsListBySubscriptionOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="DomainsListBySubscriptionResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-eventgrid.DomainsListBySubscriptionResponse|latest-stable"
           />&gt;
         description: Promise<Models.DomainsListBySubscriptionResponse>
   - name: listBySubscription(ServiceCallback<DomainsListResult>)
@@ -515,12 +526,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="DomainsListBySubscriptionNextOptionalParams|latest-stable" />
+            uid="@azure/arm-eventgrid.DomainsListBySubscriptionNextOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="DomainsListBySubscriptionNextResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventgrid.DomainsListBySubscriptionNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DomainsListBySubscriptionNextResponse>
   - name: listBySubscriptionNext(string, ServiceCallback<DomainsListResult>)
     uid: '@azure/arm-eventgrid.Domains.listBySubscriptionNext_1|latest-stable'
@@ -567,7 +580,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="DomainsListSharedAccessKeysResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventgrid.DomainsListSharedAccessKeysResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DomainsListSharedAccessKeysResponse>
   - name: >-
       listSharedAccessKeys(string, string, RequestOptionsBase,
@@ -659,7 +673,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="DomainsRegenerateKeyResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-eventgrid.DomainsRegenerateKeyResponse|latest-stable"
           />&gt;
         description: Promise<Models.DomainsRegenerateKeyResponse>
   - name: >-
@@ -761,5 +776,7 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="DomainsUpdateResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventgrid.DomainsUpdateResponse|latest-stable" />&gt;
         description: Promise<Models.DomainsUpdateResponse>

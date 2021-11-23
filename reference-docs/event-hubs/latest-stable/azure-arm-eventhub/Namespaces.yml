@@ -114,7 +114,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="NamespacesCheckNameAvailabilityResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventhub.NamespacesCheckNameAvailabilityResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesCheckNameAvailabilityResponse>
   - name: >-
       checkNameAvailability(CheckNameAvailabilityParameter, RequestOptionsBase,
@@ -205,7 +206,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="NamespacesCreateOrUpdateResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.NamespacesCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.NamespacesCreateOrUpdateResponse>
   - name: >-
@@ -242,7 +244,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="NamespacesCreateOrUpdateAuthorizationRuleResponse|latest-stable"
+          uid="@azure/arm-eventhub.NamespacesCreateOrUpdateAuthorizationRuleResponse|latest-stable"
           />&gt;
         description: Promise<Models.NamespacesCreateOrUpdateAuthorizationRuleResponse>
   - name: >-
@@ -347,7 +349,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="NamespacesCreateOrUpdateNetworkRuleSetResponse|latest-stable"
+          uid="@azure/arm-eventhub.NamespacesCreateOrUpdateNetworkRuleSetResponse|latest-stable"
           />&gt;
         description: Promise<Models.NamespacesCreateOrUpdateNetworkRuleSetResponse>
   - name: >-
@@ -550,7 +552,9 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="NamespacesGetResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.NamespacesGetResponse|latest-stable" />&gt;
         description: Promise<Models.NamespacesGetResponse>
   - name: get(string, string, RequestOptionsBase, ServiceCallback<EHNamespace>)
     uid: '@azure/arm-eventhub.Namespaces.get_2|latest-stable'
@@ -631,7 +635,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="NamespacesGetAuthorizationRuleResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventhub.NamespacesGetAuthorizationRuleResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesGetAuthorizationRuleResponse>
   - name: >-
       getAuthorizationRule(string, string, string, RequestOptionsBase,
@@ -720,7 +725,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="NamespacesGetNetworkRuleSetResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventhub.NamespacesGetNetworkRuleSetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesGetNetworkRuleSetResponse>
   - name: >-
       getNetworkRuleSet(string, string, RequestOptionsBase,
@@ -792,7 +798,9 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="NamespacesListResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.NamespacesListResponse|latest-stable" />&gt;
         description: Promise<Models.NamespacesListResponse>
   - name: list(RequestOptionsBase, ServiceCallback<EHNamespaceListResult>)
     uid: '@azure/arm-eventhub.Namespaces.list_2|latest-stable'
@@ -855,7 +863,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="NamespacesListAuthorizationRulesResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventhub.NamespacesListAuthorizationRulesResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesListAuthorizationRulesResponse>
   - name: >-
       listAuthorizationRules(string, string, RequestOptionsBase,
@@ -937,7 +946,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="NamespacesListAuthorizationRulesNextResponse|latest-stable"
+          uid="@azure/arm-eventhub.NamespacesListAuthorizationRulesNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.NamespacesListAuthorizationRulesNextResponse>
   - name: >-
@@ -1013,7 +1022,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="NamespacesListByResourceGroupResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventhub.NamespacesListByResourceGroupResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesListByResourceGroupResponse>
   - name: >-
       listByResourceGroup(string, RequestOptionsBase,
@@ -1083,7 +1093,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="NamespacesListByResourceGroupNextResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventhub.NamespacesListByResourceGroupNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesListByResourceGroupNextResponse>
   - name: >-
       listByResourceGroupNext(string, RequestOptionsBase,
@@ -1157,7 +1168,10 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="NamespacesListKeysResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.NamespacesListKeysResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesListKeysResponse>
   - name: >-
       listKeys(string, string, string, RequestOptionsBase,
@@ -1240,7 +1254,10 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="NamespacesListNextResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.NamespacesListNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesListNextResponse>
   - name: >-
       listNext(string, RequestOptionsBase,
@@ -1326,7 +1343,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="NamespacesRegenerateKeysResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.NamespacesRegenerateKeysResponse|latest-stable"
           />&gt;
         description: Promise<Models.NamespacesRegenerateKeysResponse>
   - name: >-
@@ -1434,7 +1452,10 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="NamespacesUpdateResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.NamespacesUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.NamespacesUpdateResponse>
   - name: >-
       update(string, string, EHNamespace, RequestOptionsBase,

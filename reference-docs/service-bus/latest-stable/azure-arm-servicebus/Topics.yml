@@ -57,7 +57,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="TopicsCreateOrUpdateResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.TopicsCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.TopicsCreateOrUpdateResponse>
   - name: >-
@@ -165,7 +166,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="TopicsCreateOrUpdateAuthorizationRuleResponse|latest-stable"
+          uid="@azure/arm-servicebus.TopicsCreateOrUpdateAuthorizationRuleResponse|latest-stable"
           />&gt;
         description: Promise<Models.TopicsCreateOrUpdateAuthorizationRuleResponse>
   - name: >-
@@ -458,7 +459,9 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="TopicsGetResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.TopicsGetResponse|latest-stable" />&gt;
         description: Promise<Models.TopicsGetResponse>
   - name: get(string, string, string, RequestOptionsBase, ServiceCallback<SBTopic>)
     uid: '@azure/arm-servicebus.Topics.get_2|latest-stable'
@@ -551,7 +554,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="TopicsGetAuthorizationRuleResponse|latest-stable" />&gt;
+          uid="@azure/arm-servicebus.TopicsGetAuthorizationRuleResponse|latest-stable"
+          />&gt;
         description: Promise<Models.TopicsGetAuthorizationRuleResponse>
   - name: >-
       getAuthorizationRule(string, string, string, string, RequestOptionsBase,
@@ -650,7 +654,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="TopicsListAuthorizationRulesResponse|latest-stable" />&gt;
+          uid="@azure/arm-servicebus.TopicsListAuthorizationRulesResponse|latest-stable"
+          />&gt;
         description: Promise<Models.TopicsListAuthorizationRulesResponse>
   - name: >-
       listAuthorizationRules(string, string, string, RequestOptionsBase,
@@ -738,7 +743,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="TopicsListAuthorizationRulesNextResponse|latest-stable" />&gt;
+          uid="@azure/arm-servicebus.TopicsListAuthorizationRulesNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.TopicsListAuthorizationRulesNextResponse>
   - name: >-
       listAuthorizationRulesNext(string, RequestOptionsBase,
@@ -813,11 +819,15 @@ methods:
           type: string
           description: The namespace name
         - id: options
-          type: <xref uid="TopicsListByNamespaceOptionalParams|latest-stable" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.TopicsListByNamespaceOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="TopicsListByNamespaceResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.TopicsListByNamespaceResponse|latest-stable"
           />&gt;
         description: Promise<Models.TopicsListByNamespaceResponse>
   - name: listByNamespace(string, string, ServiceCallback<SBTopicListResult>)
@@ -897,7 +907,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="TopicsListByNamespaceNextResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.TopicsListByNamespaceNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.TopicsListByNamespaceNextResponse>
   - name: >-
@@ -976,7 +987,10 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="TopicsListKeysResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.TopicsListKeysResponse|latest-stable"
+          />&gt;
         description: Promise<Models.TopicsListKeysResponse>
   - name: >-
       listKeys(string, string, string, string, RequestOptionsBase,
@@ -1083,7 +1097,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="TopicsRegenerateKeysResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.TopicsRegenerateKeysResponse|latest-stable"
           />&gt;
         description: Promise<Models.TopicsRegenerateKeysResponse>
   - name: >-

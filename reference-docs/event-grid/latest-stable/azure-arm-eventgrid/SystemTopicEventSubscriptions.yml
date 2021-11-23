@@ -192,7 +192,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="SystemTopicEventSubscriptionsCreateOrUpdateResponse|latest-stable"
+          uid="@azure/arm-eventgrid.SystemTopicEventSubscriptionsCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.SystemTopicEventSubscriptionsCreateOrUpdateResponse>
   - name: deleteMethod(string, string, string, msRest.RequestOptionsBase)
@@ -259,7 +259,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="SystemTopicEventSubscriptionsGetResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventgrid.SystemTopicEventSubscriptionsGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.SystemTopicEventSubscriptionsGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -363,7 +364,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="SystemTopicEventSubscriptionsGetDeliveryAttributesResponse|latest-stable"
+          uid="@azure/arm-eventgrid.SystemTopicEventSubscriptionsGetDeliveryAttributesResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.SystemTopicEventSubscriptionsGetDeliveryAttributesResponse>
@@ -475,7 +476,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="SystemTopicEventSubscriptionsGetFullUrlResponse|latest-stable"
+          uid="@azure/arm-eventgrid.SystemTopicEventSubscriptionsGetFullUrlResponse|latest-stable"
           />&gt;
         description: Promise<Models.SystemTopicEventSubscriptionsGetFullUrlResponse>
   - name: >-
@@ -578,13 +579,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="SystemTopicEventSubscriptionsListBySystemTopicOptionalParams|latest-stable"
+            uid="@azure/arm-eventgrid.SystemTopicEventSubscriptionsListBySystemTopicOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="SystemTopicEventSubscriptionsListBySystemTopicResponse|latest-stable"
+          uid="@azure/arm-eventgrid.SystemTopicEventSubscriptionsListBySystemTopicResponse|latest-stable"
           />&gt;
         description: Promise<Models.SystemTopicEventSubscriptionsListBySystemTopicResponse>
   - name: >-
@@ -673,13 +674,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="SystemTopicEventSubscriptionsListBySystemTopicNextOptionalParams|latest-stable"
+            uid="@azure/arm-eventgrid.SystemTopicEventSubscriptionsListBySystemTopicNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="SystemTopicEventSubscriptionsListBySystemTopicNextResponse|latest-stable"
+          uid="@azure/arm-eventgrid.SystemTopicEventSubscriptionsListBySystemTopicNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.SystemTopicEventSubscriptionsListBySystemTopicNextResponse>
@@ -781,5 +782,6 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="SystemTopicEventSubscriptionsUpdateResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventgrid.SystemTopicEventSubscriptionsUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.SystemTopicEventSubscriptionsUpdateResponse>

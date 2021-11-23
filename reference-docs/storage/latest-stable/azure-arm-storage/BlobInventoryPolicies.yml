@@ -122,13 +122,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="BlobInventoryPoliciesCreateOrUpdateOptionalParams|latest-stable"
+            uid="@azure/arm-storage.BlobInventoryPoliciesCreateOrUpdateOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="BlobInventoryPoliciesCreateOrUpdateResponse|latest-stable" />&gt;
+          uid="@azure/arm-storage.BlobInventoryPoliciesCreateOrUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.BlobInventoryPoliciesCreateOrUpdateResponse>
   - name: >-
       createOrUpdate(string, string, BlobInventoryPolicySchema,
@@ -317,7 +318,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="BlobInventoryPoliciesGetResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.BlobInventoryPoliciesGetResponse|latest-stable"
           />&gt;
         description: Promise<Models.BlobInventoryPoliciesGetResponse>
   - name: >-
@@ -431,7 +433,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="BlobInventoryPoliciesListResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.BlobInventoryPoliciesListResponse|latest-stable"
           />&gt;
         description: Promise<Models.BlobInventoryPoliciesListResponse>
   - name: >-

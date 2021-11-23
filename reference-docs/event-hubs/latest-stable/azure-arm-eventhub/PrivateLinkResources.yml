@@ -50,7 +50,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="PrivateLinkResourcesGetResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.PrivateLinkResourcesGetResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateLinkResourcesGetResponse>
   - name: >-

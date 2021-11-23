@@ -64,7 +64,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="PrivateLinkResourcesListByStorageAccountResponse|latest-stable"
+          uid="@azure/arm-storage.PrivateLinkResourcesListByStorageAccountResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateLinkResourcesListByStorageAccountResponse>
   - name: >-

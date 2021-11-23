@@ -65,7 +65,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="ConsumerGroupsCreateOrUpdateResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventhub.ConsumerGroupsCreateOrUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ConsumerGroupsCreateOrUpdateResponse>
   - name: >-
       createOrUpdate(string, string, string, string, ConsumerGroup,
@@ -266,7 +267,10 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="ConsumerGroupsGetResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.ConsumerGroupsGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ConsumerGroupsGetResponse>
   - name: >-
       get(string, string, string, string, RequestOptionsBase,
@@ -404,13 +408,15 @@ methods:
           description: The Event Hub name
         - id: options
           type: >-
-            <xref uid="ConsumerGroupsListByEventHubOptionalParams|latest-stable"
+            <xref
+            uid="@azure/arm-eventhub.ConsumerGroupsListByEventHubOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="ConsumerGroupsListByEventHubResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventhub.ConsumerGroupsListByEventHubResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ConsumerGroupsListByEventHubResponse>
   - name: >-
       listByEventHub(string, string, string,
@@ -498,13 +504,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="ConsumerGroupsListByEventHubNextOptionalParams|latest-stable"
+            uid="@azure/arm-eventhub.ConsumerGroupsListByEventHubNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="ConsumerGroupsListByEventHubNextResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventhub.ConsumerGroupsListByEventHubNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ConsumerGroupsListByEventHubNextResponse>
   - name: listByEventHubNext(string, ServiceCallback<ConsumerGroupListResult>)
     uid: '@azure/arm-eventhub.ConsumerGroups.listByEventHubNext_1|latest-stable'

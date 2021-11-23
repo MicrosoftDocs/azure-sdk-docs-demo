@@ -59,7 +59,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="PrivateLinkResourcesGetResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-appconfiguration.PrivateLinkResourcesGetResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateLinkResourcesGetResponse>
   - name: >-
@@ -157,7 +158,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="PrivateLinkResourcesListByConfigurationStoreResponse|latest-stable"
+          uid="@azure/arm-appconfiguration.PrivateLinkResourcesListByConfigurationStoreResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateLinkResourcesListByConfigurationStoreResponse>
   - name: >-
@@ -249,7 +250,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="PrivateLinkResourcesListByConfigurationStoreNextResponse|latest-stable"
+          uid="@azure/arm-appconfiguration.PrivateLinkResourcesListByConfigurationStoreNextResponse|latest-stable"
           />&gt;
         description: >-
           Promise<Models.PrivateLinkResourcesListByConfigurationStoreNextResponse>

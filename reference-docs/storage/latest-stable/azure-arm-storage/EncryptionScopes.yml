@@ -73,7 +73,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="EncryptionScopesGetResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.EncryptionScopesGetResponse|latest-stable"
           />&gt;
         description: Promise<Models.EncryptionScopesGetResponse>
   - name: >-
@@ -212,7 +213,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="EncryptionScopesListResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.EncryptionScopesListResponse|latest-stable"
           />&gt;
         description: Promise<Models.EncryptionScopesListResponse>
   - name: >-
@@ -315,7 +317,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="EncryptionScopesListNextResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.EncryptionScopesListNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.EncryptionScopesListNextResponse>
   - name: >-
@@ -421,7 +424,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="EncryptionScopesPatchResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.EncryptionScopesPatchResponse|latest-stable"
           />&gt;
         description: Promise<Models.EncryptionScopesPatchResponse>
   - name: >-
@@ -591,7 +595,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="EncryptionScopesPutResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.EncryptionScopesPutResponse|latest-stable"
           />&gt;
         description: Promise<Models.EncryptionScopesPutResponse>
   - name: >-

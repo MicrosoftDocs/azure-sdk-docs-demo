@@ -73,7 +73,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="ManagementPoliciesCreateOrUpdateResponse|latest-stable" />&gt;
+          uid="@azure/arm-storage.ManagementPoliciesCreateOrUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ManagementPoliciesCreateOrUpdateResponse>
   - name: >-
       createOrUpdate(string, string, ManagementPolicySchema, RequestOptionsBase,
@@ -312,7 +313,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="ManagementPoliciesGetResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.ManagementPoliciesGetResponse|latest-stable"
           />&gt;
         description: Promise<Models.ManagementPoliciesGetResponse>
   - name: get(string, string, RequestOptionsBase, ServiceCallback<ManagementPolicy>)

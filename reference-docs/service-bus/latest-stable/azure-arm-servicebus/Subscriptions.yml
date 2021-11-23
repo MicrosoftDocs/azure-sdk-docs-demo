@@ -63,7 +63,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="SubscriptionsCreateOrUpdateResponse|latest-stable" />&gt;
+          uid="@azure/arm-servicebus.SubscriptionsCreateOrUpdateResponse|latest-stable"
+          />&gt;
         description: Promise<Models.SubscriptionsCreateOrUpdateResponse>
   - name: >-
       createOrUpdate(string, string, string, string, SBSubscription,
@@ -264,7 +265,10 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="SubscriptionsGetResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.SubscriptionsGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.SubscriptionsGetResponse>
   - name: >-
       get(string, string, string, string, RequestOptionsBase,
@@ -358,11 +362,15 @@ methods:
           type: string
           description: The topic name.
         - id: options
-          type: <xref uid="SubscriptionsListByTopicOptionalParams|latest-stable" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.SubscriptionsListByTopicOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="SubscriptionsListByTopicResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.SubscriptionsListByTopicResponse|latest-stable"
           />&gt;
         description: Promise<Models.SubscriptionsListByTopicResponse>
   - name: >-
@@ -454,7 +462,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="SubscriptionsListByTopicNextResponse|latest-stable" />&gt;
+          uid="@azure/arm-servicebus.SubscriptionsListByTopicNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.SubscriptionsListByTopicNextResponse>
   - name: >-
       listByTopicNext(string, RequestOptionsBase,

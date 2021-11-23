@@ -46,7 +46,8 @@ constructors:
           description: The ID of the target subscription.
         - id: options
           type: >-
-            <xref uid="CognitiveServicesManagementClientOptions|latest-stable"
+            <xref
+            uid="@azure/arm-cognitiveservices.CognitiveServicesManagementClientOptions|latest-stable"
             />
           description: ''
 properties:

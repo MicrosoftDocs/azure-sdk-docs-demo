@@ -55,7 +55,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="PrivateLinkResourcesListResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-cognitiveservices.PrivateLinkResourcesListResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateLinkResourcesListResponse>
   - name: >-

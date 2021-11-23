@@ -189,7 +189,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="StorageAccountsCheckNameAvailabilityResponse|latest-stable"
+          uid="@azure/arm-storage.StorageAccountsCheckNameAvailabilityResponse|latest-stable"
           />&gt;
         description: Promise<Models.StorageAccountsCheckNameAvailabilityResponse>
   - name: >-
@@ -298,7 +298,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="StorageAccountsCreateResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.StorageAccountsCreateResponse|latest-stable"
           />&gt;
         description: Promise<Models.StorageAccountsCreateResponse>
   - name: deleteMethod(string, string, msRest.RequestOptionsBase)
@@ -487,13 +488,15 @@ methods:
             letters only.
         - id: options
           type: >-
-            <xref uid="StorageAccountsGetPropertiesOptionalParams|latest-stable"
+            <xref
+            uid="@azure/arm-storage.StorageAccountsGetPropertiesOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="StorageAccountsGetPropertiesResponse|latest-stable" />&gt;
+          uid="@azure/arm-storage.StorageAccountsGetPropertiesResponse|latest-stable"
+          />&gt;
         description: Promise<Models.StorageAccountsGetPropertiesResponse>
   - name: getProperties(string, string, ServiceCallback<StorageAccount>)
     uid: '@azure/arm-storage.StorageAccounts.getProperties_1|latest-stable'
@@ -593,7 +596,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="StorageAccountsListResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.StorageAccountsListResponse|latest-stable"
           />&gt;
         description: Promise<Models.StorageAccountsListResponse>
   - name: list(RequestOptionsBase, ServiceCallback<StorageAccountListResult>)
@@ -677,7 +681,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="StorageAccountsListAccountSASResponse|latest-stable" />&gt;
+          uid="@azure/arm-storage.StorageAccountsListAccountSASResponse|latest-stable"
+          />&gt;
         description: Promise<Models.StorageAccountsListAccountSASResponse>
   - name: >-
       listAccountSAS(string, string, AccountSasParameters, RequestOptionsBase,
@@ -797,7 +802,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="StorageAccountsListByResourceGroupResponse|latest-stable" />&gt;
+          uid="@azure/arm-storage.StorageAccountsListByResourceGroupResponse|latest-stable"
+          />&gt;
         description: Promise<Models.StorageAccountsListByResourceGroupResponse>
   - name: >-
       listByResourceGroup(string, RequestOptionsBase,
@@ -881,7 +887,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="StorageAccountsListByResourceGroupNextResponse|latest-stable"
+          uid="@azure/arm-storage.StorageAccountsListByResourceGroupNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.StorageAccountsListByResourceGroupNextResponse>
   - name: >-
@@ -967,11 +973,15 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="StorageAccountsListKeysOptionalParams|latest-stable" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsListKeysOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="StorageAccountsListKeysResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.StorageAccountsListKeysResponse|latest-stable"
           />&gt;
         description: Promise<Models.StorageAccountsListKeysResponse>
   - name: listKeys(string, string, ServiceCallback<StorageAccountListKeysResult>)
@@ -1079,7 +1089,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="StorageAccountsListNextResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.StorageAccountsListNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.StorageAccountsListNextResponse>
   - name: >-
@@ -1171,7 +1182,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="StorageAccountsListServiceSASResponse|latest-stable" />&gt;
+          uid="@azure/arm-storage.StorageAccountsListServiceSASResponse|latest-stable"
+          />&gt;
         description: Promise<Models.StorageAccountsListServiceSASResponse>
   - name: >-
       listServiceSAS(string, string, ServiceSasParameters, RequestOptionsBase,
@@ -1302,7 +1314,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="StorageAccountsRegenerateKeyResponse|latest-stable" />&gt;
+          uid="@azure/arm-storage.StorageAccountsRegenerateKeyResponse|latest-stable"
+          />&gt;
         description: Promise<Models.StorageAccountsRegenerateKeyResponse>
   - name: >-
       regenerateKey(string, string, string, RequestOptionsBase,
@@ -1443,7 +1456,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="StorageAccountsRestoreBlobRangesResponse|latest-stable" />&gt;
+          uid="@azure/arm-storage.StorageAccountsRestoreBlobRangesResponse|latest-stable"
+          />&gt;
         description: Promise<Models.StorageAccountsRestoreBlobRangesResponse>
   - name: revokeUserDelegationKeys(string, string, msRest.RequestOptionsBase)
     uid: '@azure/arm-storage.StorageAccounts.revokeUserDelegationKeys|latest-stable'
@@ -1619,7 +1633,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="StorageAccountsUpdateResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.StorageAccountsUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.StorageAccountsUpdateResponse>
   - name: >-

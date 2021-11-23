@@ -83,7 +83,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="ObjectReplicationPoliciesCreateOrUpdateResponse|latest-stable"
+          uid="@azure/arm-storage.ObjectReplicationPoliciesCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.ObjectReplicationPoliciesCreateOrUpdateResponse>
   - name: >-
@@ -365,7 +365,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="ObjectReplicationPoliciesGetResponse|latest-stable" />&gt;
+          uid="@azure/arm-storage.ObjectReplicationPoliciesGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ObjectReplicationPoliciesGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -491,7 +492,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="ObjectReplicationPoliciesListResponse|latest-stable" />&gt;
+          uid="@azure/arm-storage.ObjectReplicationPoliciesListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ObjectReplicationPoliciesListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,

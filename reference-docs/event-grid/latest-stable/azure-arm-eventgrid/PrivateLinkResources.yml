@@ -63,7 +63,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="PrivateLinkResourcesGetResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-eventgrid.PrivateLinkResourcesGetResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateLinkResourcesGetResponse>
   - name: >-
@@ -178,13 +179,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="PrivateLinkResourcesListByResourceOptionalParams|latest-stable"
+            uid="@azure/arm-eventgrid.PrivateLinkResourcesListByResourceOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="PrivateLinkResourcesListByResourceResponse|latest-stable" />&gt;
+          uid="@azure/arm-eventgrid.PrivateLinkResourcesListByResourceResponse|latest-stable"
+          />&gt;
         description: Promise<Models.PrivateLinkResourcesListByResourceResponse>
   - name: >-
       listByResource(string, string, string,
@@ -288,13 +290,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="PrivateLinkResourcesListByResourceNextOptionalParams|latest-stable"
+            uid="@azure/arm-eventgrid.PrivateLinkResourcesListByResourceNextOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="PrivateLinkResourcesListByResourceNextResponse|latest-stable"
+          uid="@azure/arm-eventgrid.PrivateLinkResourcesListByResourceNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.PrivateLinkResourcesListByResourceNextResponse>
   - name: >-

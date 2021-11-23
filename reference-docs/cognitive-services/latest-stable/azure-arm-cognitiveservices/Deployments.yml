@@ -131,7 +131,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="DeploymentsCreateOrUpdateResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-cognitiveservices.DeploymentsCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.DeploymentsCreateOrUpdateResponse>
   - name: deleteMethod(string, string, string, msRest.RequestOptionsBase)
@@ -194,7 +195,10 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="DeploymentsGetResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-cognitiveservices.DeploymentsGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DeploymentsGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -282,7 +286,10 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="DeploymentsListResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-cognitiveservices.DeploymentsListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.DeploymentsListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -359,7 +366,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="DeploymentsListNextResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-cognitiveservices.DeploymentsListNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.DeploymentsListNextResponse>
   - name: >-

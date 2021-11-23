@@ -66,7 +66,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="QueueServicesGetServicePropertiesResponse|latest-stable" />&gt;
+          uid="@azure/arm-storage.QueueServicesGetServicePropertiesResponse|latest-stable"
+          />&gt;
         description: Promise<Models.QueueServicesGetServicePropertiesResponse>
   - name: >-
       getServiceProperties(string, string, RequestOptionsBase,
@@ -179,7 +180,10 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="QueueServicesListResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-storage.QueueServicesListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.QueueServicesListResponse>
   - name: >-
       list(string, string, RequestOptionsBase,
@@ -295,13 +299,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="QueueServicesSetServicePropertiesOptionalParams|latest-stable"
+            uid="@azure/arm-storage.QueueServicesSetServicePropertiesOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="QueueServicesSetServicePropertiesResponse|latest-stable" />&gt;
+          uid="@azure/arm-storage.QueueServicesSetServicePropertiesResponse|latest-stable"
+          />&gt;
         description: Promise<Models.QueueServicesSetServicePropertiesResponse>
   - name: >-
       setServiceProperties(string, string,

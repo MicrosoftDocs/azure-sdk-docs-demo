@@ -57,7 +57,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="QueuesCreateOrUpdateResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.QueuesCreateOrUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.QueuesCreateOrUpdateResponse>
   - name: >-
@@ -165,7 +166,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="QueuesCreateOrUpdateAuthorizationRuleResponse|latest-stable"
+          uid="@azure/arm-servicebus.QueuesCreateOrUpdateAuthorizationRuleResponse|latest-stable"
           />&gt;
         description: Promise<Models.QueuesCreateOrUpdateAuthorizationRuleResponse>
   - name: >-
@@ -458,7 +459,9 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="QueuesGetResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.QueuesGetResponse|latest-stable" />&gt;
         description: Promise<Models.QueuesGetResponse>
   - name: get(string, string, string, RequestOptionsBase, ServiceCallback<SBQueue>)
     uid: '@azure/arm-servicebus.Queues.get_2|latest-stable'
@@ -551,7 +554,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="QueuesGetAuthorizationRuleResponse|latest-stable" />&gt;
+          uid="@azure/arm-servicebus.QueuesGetAuthorizationRuleResponse|latest-stable"
+          />&gt;
         description: Promise<Models.QueuesGetAuthorizationRuleResponse>
   - name: >-
       getAuthorizationRule(string, string, string, string, RequestOptionsBase,
@@ -650,7 +654,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="QueuesListAuthorizationRulesResponse|latest-stable" />&gt;
+          uid="@azure/arm-servicebus.QueuesListAuthorizationRulesResponse|latest-stable"
+          />&gt;
         description: Promise<Models.QueuesListAuthorizationRulesResponse>
   - name: >-
       listAuthorizationRules(string, string, string, RequestOptionsBase,
@@ -738,7 +743,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="QueuesListAuthorizationRulesNextResponse|latest-stable" />&gt;
+          uid="@azure/arm-servicebus.QueuesListAuthorizationRulesNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.QueuesListAuthorizationRulesNextResponse>
   - name: >-
       listAuthorizationRulesNext(string, RequestOptionsBase,
@@ -813,11 +819,15 @@ methods:
           type: string
           description: The namespace name
         - id: options
-          type: <xref uid="QueuesListByNamespaceOptionalParams|latest-stable" />
+          type: >-
+            <xref
+            uid="@azure/arm-servicebus.QueuesListByNamespaceOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="QueuesListByNamespaceResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.QueuesListByNamespaceResponse|latest-stable"
           />&gt;
         description: Promise<Models.QueuesListByNamespaceResponse>
   - name: >-
@@ -897,7 +907,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="QueuesListByNamespaceNextResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.QueuesListByNamespaceNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.QueuesListByNamespaceNextResponse>
   - name: >-
@@ -976,7 +987,10 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="QueuesListKeysResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.QueuesListKeysResponse|latest-stable"
+          />&gt;
         description: Promise<Models.QueuesListKeysResponse>
   - name: >-
       listKeys(string, string, string, string, RequestOptionsBase,
@@ -1083,7 +1097,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="QueuesRegenerateKeysResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-servicebus.QueuesRegenerateKeysResponse|latest-stable"
           />&gt;
         description: Promise<Models.QueuesRegenerateKeysResponse>
   - name: >-

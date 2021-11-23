@@ -43,7 +43,10 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="ResourceSkusListResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-cognitiveservices.ResourceSkusListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.ResourceSkusListResponse>
   - name: list(RequestOptionsBase, ServiceCallback<ResourceSkuListResult>)
     uid: '@azure/arm-cognitiveservices.ResourceSkus.list_2|latest-stable'
@@ -106,7 +109,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="ResourceSkusListNextResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-cognitiveservices.ResourceSkusListNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.ResourceSkusListNextResponse>
   - name: >-

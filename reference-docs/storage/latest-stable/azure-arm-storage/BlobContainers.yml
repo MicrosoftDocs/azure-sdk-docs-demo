@@ -90,7 +90,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="BlobContainersClearLegalHoldResponse|latest-stable" />&gt;
+          uid="@azure/arm-storage.BlobContainersClearLegalHoldResponse|latest-stable"
+          />&gt;
         description: Promise<Models.BlobContainersClearLegalHoldResponse>
   - name: >-
       clearLegalHold(string, string, string, string[], RequestOptionsBase,
@@ -269,7 +270,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="BlobContainersCreateResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.BlobContainersCreateResponse|latest-stable"
           />&gt;
         description: Promise<Models.BlobContainersCreateResponse>
   - name: >-
@@ -496,13 +498,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="BlobContainersCreateOrUpdateImmutabilityPolicyOptionalParams|latest-stable"
+            uid="@azure/arm-storage.BlobContainersCreateOrUpdateImmutabilityPolicyOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="BlobContainersCreateOrUpdateImmutabilityPolicyResponse|latest-stable"
+          uid="@azure/arm-storage.BlobContainersCreateOrUpdateImmutabilityPolicyResponse|latest-stable"
           />&gt;
         description: Promise<Models.BlobContainersCreateOrUpdateImmutabilityPolicyResponse>
   - name: >-
@@ -627,7 +629,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="BlobContainersDeleteImmutabilityPolicyResponse|latest-stable"
+          uid="@azure/arm-storage.BlobContainersDeleteImmutabilityPolicyResponse|latest-stable"
           />&gt;
         description: Promise<Models.BlobContainersDeleteImmutabilityPolicyResponse>
   - name: >-
@@ -1035,13 +1037,13 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="BlobContainersExtendImmutabilityPolicyOptionalParams|latest-stable"
+            uid="@azure/arm-storage.BlobContainersExtendImmutabilityPolicyOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="BlobContainersExtendImmutabilityPolicyResponse|latest-stable"
+          uid="@azure/arm-storage.BlobContainersExtendImmutabilityPolicyResponse|latest-stable"
           />&gt;
         description: Promise<Models.BlobContainersExtendImmutabilityPolicyResponse>
   - name: >-
@@ -1151,7 +1153,10 @@ methods:
           type: <xref uid="msRest.RequestOptionsBase|latest-stable" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="BlobContainersGetResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-storage.BlobContainersGetResponse|latest-stable"
+          />&gt;
         description: Promise<Models.BlobContainersGetResponse>
   - name: >-
       get(string, string, string, RequestOptionsBase,
@@ -1366,13 +1371,14 @@ methods:
         - id: options
           type: >-
             <xref
-            uid="BlobContainersGetImmutabilityPolicyOptionalParams|latest-stable"
+            uid="@azure/arm-storage.BlobContainersGetImmutabilityPolicyOptionalParams|latest-stable"
             />
           description: ''
       return:
         type: >-
           Promise&lt;<xref
-          uid="BlobContainersGetImmutabilityPolicyResponse|latest-stable" />&gt;
+          uid="@azure/arm-storage.BlobContainersGetImmutabilityPolicyResponse|latest-stable"
+          />&gt;
         description: Promise<Models.BlobContainersGetImmutabilityPolicyResponse>
   - name: >-
       getImmutabilityPolicy(string, string, string,
@@ -1530,11 +1536,15 @@ methods:
 
             a letter or number.
         - id: options
-          type: <xref uid="BlobContainersLeaseOptionalParams|latest-stable" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.BlobContainersLeaseOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="BlobContainersLeaseResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.BlobContainersLeaseResponse|latest-stable"
           />&gt;
         description: Promise<Models.BlobContainersLeaseResponse>
   - name: lease(string, string, string, ServiceCallback<LeaseContainerResponse>)
@@ -1664,10 +1674,16 @@ methods:
 
             letters only.
         - id: options
-          type: <xref uid="BlobContainersListOptionalParams|latest-stable" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.BlobContainersListOptionalParams|latest-stable"
+            />
           description: ''
       return:
-        type: Promise&lt;<xref uid="BlobContainersListResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-storage.BlobContainersListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.BlobContainersListResponse>
   - name: list(string, string, ServiceCallback<ListContainerItems>)
     uid: '@azure/arm-storage.BlobContainers.list_1|latest-stable'
@@ -1754,11 +1770,15 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="BlobContainersListNextOptionalParams|latest-stable" />
+          type: >-
+            <xref
+            uid="@azure/arm-storage.BlobContainersListNextOptionalParams|latest-stable"
+            />
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="BlobContainersListNextResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.BlobContainersListNextResponse|latest-stable"
           />&gt;
         description: Promise<Models.BlobContainersListNextResponse>
   - name: listNext(string, ServiceCallback<ListContainerItems>)
@@ -1848,7 +1868,7 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="BlobContainersLockImmutabilityPolicyResponse|latest-stable"
+          uid="@azure/arm-storage.BlobContainersLockImmutabilityPolicyResponse|latest-stable"
           />&gt;
         description: Promise<Models.BlobContainersLockImmutabilityPolicyResponse>
   - name: >-
@@ -2039,7 +2059,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="BlobContainersSetLegalHoldResponse|latest-stable" />&gt;
+          uid="@azure/arm-storage.BlobContainersSetLegalHoldResponse|latest-stable"
+          />&gt;
         description: Promise<Models.BlobContainersSetLegalHoldResponse>
   - name: >-
       setLegalHold(string, string, string, string[], RequestOptionsBase,
@@ -2214,7 +2235,8 @@ methods:
           description: ''
       return:
         type: >-
-          Promise&lt;<xref uid="BlobContainersUpdateResponse|latest-stable"
+          Promise&lt;<xref
+          uid="@azure/arm-storage.BlobContainersUpdateResponse|latest-stable"
           />&gt;
         description: Promise<Models.BlobContainersUpdateResponse>
   - name: >-

@@ -47,7 +47,10 @@ constructors:
             subscription. The subscription ID forms part of the URI for every
             service call.
         - id: options
-          type: <xref uid="KeyVaultManagementClientOptions|latest-stable" />
+          type: >-
+            <xref
+            uid="@azure/arm-keyvault.KeyVaultManagementClientOptions|latest-stable"
+            />
           description: ''
 properties:
   - name: acceptLanguage

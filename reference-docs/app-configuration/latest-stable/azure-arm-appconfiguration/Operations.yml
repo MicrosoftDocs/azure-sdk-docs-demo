@@ -55,7 +55,8 @@ methods:
       return:
         type: >-
           Promise&lt;<xref
-          uid="OperationsCheckNameAvailabilityResponse|latest-stable" />&gt;
+          uid="@azure/arm-appconfiguration.OperationsCheckNameAvailabilityResponse|latest-stable"
+          />&gt;
         description: Promise<Models.OperationsCheckNameAvailabilityResponse>
   - name: >-
       checkNameAvailability(CheckNameAvailabilityParameters, RequestOptionsBase,
@@ -133,10 +134,16 @@ methods:
       content: 'function list(options?: Models.OperationsListOptionalParams)'
       parameters:
         - id: options
-          type: <xref uid="OperationsListOptionalParams|latest-stable" />
+          type: >-
+            <xref
+            uid="@azure/arm-appconfiguration.OperationsListOptionalParams|latest-stable"
+            />
           description: ''
       return:
-        type: Promise&lt;<xref uid="OperationsListResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-appconfiguration.OperationsListResponse|latest-stable"
+          />&gt;
         description: Promise<Models.OperationsListResponse>
   - name: >-
       list(OperationsListOptionalParams,
@@ -198,10 +205,16 @@ methods:
           type: string
           description: The NextLink from the previous successful call to List operation.
         - id: options
-          type: <xref uid="OperationsListNextOptionalParams|latest-stable" />
+          type: >-
+            <xref
+            uid="@azure/arm-appconfiguration.OperationsListNextOptionalParams|latest-stable"
+            />
           description: ''
       return:
-        type: Promise&lt;<xref uid="OperationsListNextResponse|latest-stable" />&gt;
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-appconfiguration.OperationsListNextResponse|latest-stable"
+          />&gt;
         description: Promise<Models.OperationsListNextResponse>
   - name: >-
       listNext(string, OperationsListNextOptionalParams,

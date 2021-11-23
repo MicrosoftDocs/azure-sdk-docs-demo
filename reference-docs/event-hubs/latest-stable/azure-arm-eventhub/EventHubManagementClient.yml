@@ -47,7 +47,10 @@ constructors:
             subscription. The subscription ID forms part of the URI for every
             service call.
         - id: options
-          type: <xref uid="EventHubManagementClientOptions|latest-stable" />
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.EventHubManagementClientOptions|latest-stable"
+            />
           description: ''
 properties:
   - name: acceptLanguage
