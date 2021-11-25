@@ -1,0 +1,40 @@
+### YamlMime:TSEnum
+name: KnownVisualFeature
+uid: '@azure/search-documents.KnownVisualFeature|preview'
+package: '@azure/search-documents|preview'
+summary: >-
+  Known values of <xref:@azure/search-documents.VisualFeature> that the service
+  accepts.
+fullName: KnownVisualFeature
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Adult
+    uid: '@azure/search-documents.KnownVisualFeature.Adult|preview'
+    package: '@azure/search-documents|preview'
+    summary: Visual features recognized as adult persons.
+  - name: Brands
+    uid: '@azure/search-documents.KnownVisualFeature.Brands|preview'
+    package: '@azure/search-documents|preview'
+    summary: Visual features recognized as commercial brands.
+  - name: Categories
+    uid: '@azure/search-documents.KnownVisualFeature.Categories|preview'
+    package: '@azure/search-documents|preview'
+    summary: Categories.
+  - name: Description
+    uid: '@azure/search-documents.KnownVisualFeature.Description|preview'
+    package: '@azure/search-documents|preview'
+    summary: Description.
+  - name: Faces
+    uid: '@azure/search-documents.KnownVisualFeature.Faces|preview'
+    package: '@azure/search-documents|preview'
+    summary: Visual features recognized as people faces.
+  - name: Objects
+    uid: '@azure/search-documents.KnownVisualFeature.Objects|preview'
+    package: '@azure/search-documents|preview'
+    summary: Visual features recognized as objects.
+  - name: Tags
+    uid: '@azure/search-documents.KnownVisualFeature.Tags|preview'
+    package: '@azure/search-documents|preview'
+    summary: Tags.

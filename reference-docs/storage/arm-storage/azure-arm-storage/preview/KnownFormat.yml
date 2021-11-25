@@ -1,0 +1,18 @@
+### YamlMime:TSEnum
+name: KnownFormat
+uid: '@azure/arm-storage.KnownFormat|preview'
+package: '@azure/arm-storage|preview'
+summary: Known values of <xref:@azure/arm-storage.Format> that the service accepts.
+fullName: KnownFormat
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Csv
+    uid: '@azure/arm-storage.KnownFormat.Csv|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Parquet
+    uid: '@azure/arm-storage.KnownFormat.Parquet|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

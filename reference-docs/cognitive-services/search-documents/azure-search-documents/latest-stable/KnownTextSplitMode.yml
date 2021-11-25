@@ -1,0 +1,20 @@
+### YamlMime:TSEnum
+name: KnownTextSplitMode
+uid: '@azure/search-documents.KnownTextSplitMode|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: >-
+  Known values of <xref:@azure/search-documents.TextSplitMode> that the service
+  accepts.
+fullName: KnownTextSplitMode
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Pages
+    uid: '@azure/search-documents.KnownTextSplitMode.Pages|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Split the text into individual pages.
+  - name: Sentences
+    uid: '@azure/search-documents.KnownTextSplitMode.Sentences|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: Split the text into individual sentences.

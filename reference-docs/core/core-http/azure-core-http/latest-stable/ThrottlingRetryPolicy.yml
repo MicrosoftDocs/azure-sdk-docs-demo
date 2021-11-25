@@ -1,0 +1,132 @@
+### YamlMime:TSType
+name: ThrottlingRetryPolicy
+uid: '@azure/core-http.ThrottlingRetryPolicy|latest-stable'
+package: '@azure/core-http|latest-stable'
+summary: >-
+  To learn more, please refer to
+
+  https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-request-limits,
+
+  https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits and
+
+  https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/troubleshooting-throttling-errors
+fullName: ThrottlingRetryPolicy
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: >-
+      ThrottlingRetryPolicy(RequestPolicy, RequestPolicyOptions,
+      ResponseHandler)
+    uid: '@azure/core-http.ThrottlingRetryPolicy.constructor|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new ThrottlingRetryPolicy(nextPolicy: RequestPolicy, options:
+        RequestPolicyOptions, _handleResponse?: ResponseHandler)
+      parameters:
+        - id: nextPolicy
+          type: <xref uid="@azure/core-http.RequestPolicy|latest-stable" />
+          description: ''
+        - id: options
+          type: <xref uid="@azure/core-http.RequestPolicyOptions|latest-stable" />
+          description: ''
+        - id: _handleResponse
+          type: <xref uid="@azure/core-http.ResponseHandler|latest-stable" />
+          description: ''
+methods:
+  - name: log(HttpPipelineLogLevel, string)
+    uid: '@azure/core-http.ThrottlingRetryPolicy.log|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: >-
+      Attempt to log the provided message to the provided logger. If no logger
+      was provided or if
+
+      the log level does not meat the logger's threshold, then nothing will be
+      logged.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function log(logLevel: HttpPipelineLogLevel, message: string)'
+      parameters:
+        - id: logLevel
+          type: <xref uid="@azure/core-http.HttpPipelineLogLevel|latest-stable" />
+          description: The log level of this log.
+        - id: message
+          type: string
+          description: |
+            The message of this log.
+  - name: parseDateRetryAfterHeader(string)
+    uid: >-
+      @azure/core-http.ThrottlingRetryPolicy.parseDateRetryAfterHeader|latest-stable
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static function parseDateRetryAfterHeader(headerValue: string)'
+      parameters:
+        - id: headerValue
+          type: string
+          description: ''
+      return:
+        type: number | undefined
+        description: ''
+  - name: parseRetryAfterHeader(string)
+    uid: '@azure/core-http.ThrottlingRetryPolicy.parseRetryAfterHeader|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static function parseRetryAfterHeader(headerValue: string)'
+      parameters:
+        - id: headerValue
+          type: string
+          description: ''
+      return:
+        type: number | undefined
+        description: ''
+  - name: sendRequest(WebResourceLike)
+    uid: '@azure/core-http.ThrottlingRetryPolicy.sendRequest|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function sendRequest(httpRequest: WebResourceLike)'
+      parameters:
+        - id: httpRequest
+          type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
+          description: ''
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/core-http.HttpOperationResponse|latest-stable" />&gt;
+        description: ''
+  - name: shouldLog(HttpPipelineLogLevel)
+    uid: '@azure/core-http.ThrottlingRetryPolicy.shouldLog|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Get whether or not a log with the provided log level should be logged.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function shouldLog(logLevel: HttpPipelineLogLevel)'
+      parameters:
+        - id: logLevel
+          type: <xref uid="@azure/core-http.HttpPipelineLogLevel|latest-stable" />
+          description: The log level of the log that will be logged.
+      return:
+        type: boolean
+        description: Whether or not a log with the provided log level should be logged.
+extends: <xref uid="@azure/core-http.BaseRequestPolicy|latest-stable" />

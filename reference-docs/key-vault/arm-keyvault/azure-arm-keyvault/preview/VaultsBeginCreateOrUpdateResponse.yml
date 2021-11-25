@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: VaultsBeginCreateOrUpdateResponse
+uid: '@azure/arm-keyvault.VaultsBeginCreateOrUpdateResponse|preview'
+package: '@azure/arm-keyvault|preview'
+summary: Contains response data for the beginCreateOrUpdate operation.
+fullName: VaultsBeginCreateOrUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type VaultsBeginCreateOrUpdateResponse = Vault & { _response: Object }'

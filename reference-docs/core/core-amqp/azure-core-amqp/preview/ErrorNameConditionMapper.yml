@@ -1,0 +1,279 @@
+### YamlMime:TSEnum
+name: ErrorNameConditionMapper
+uid: '@azure/core-amqp.ErrorNameConditionMapper|preview'
+package: '@azure/core-amqp|preview'
+summary: Maps the Error names to the amqp error conditions.
+fullName: ErrorNameConditionMapper
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: AddressAlreadyInUseError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.AddressAlreadyInUseError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: Error is thrown when the address is already in use.
+  - name: ArgumentError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.ArgumentError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: Error is thrown when an incorrect argument was received.
+  - name: ArgumentOutOfRangeError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.ArgumentOutOfRangeError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when an argument has a value that is out of the admissible
+      range.
+  - name: ConnectionForcedError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.ConnectionForcedError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when an operator intervened to close the connection for
+      some reason.
+  - name: ConnectionRedirectError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.ConnectionRedirectError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when the container is no longer available on the current
+      connection.
+  - name: DecodeError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.DecodeError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: Error is thrown when data could not be decoded.
+  - name: DetachForcedError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.DetachForcedError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: Error is thrown when an operator intervened to detach for some reason.
+  - name: ErrantLinkError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.ErrantLinkError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when input was received for a link that was detached with
+      an error.
+  - name: FrameSizeTooSmallError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.FrameSizeTooSmallError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when the peer cannot send a frame because the smallest
+      encoding of
+
+      the performative with the currently valid values would be too large to fit
+      within
+
+      a frame of the agreed maximum frame size.
+  - name: FramingError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.FramingError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when a valid frame header cannot be formed from the
+      incoming byte stream.
+  - name: HandleInUseError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.HandleInUseError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when an attach was received using a handle that is already
+      in use for an attached link.
+  - name: IllegalStateError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.IllegalStateError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when the peer sent a frame that is not permitted in the
+      current state.
+  - name: InternalServerError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.InternalServerError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when an internal server error occurred. You may have found
+      a bug?
+  - name: InvalidFieldError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.InvalidFieldError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when an invalid field was passed in a frame body, and the
+      operation could not proceed.
+  - name: InvalidOperationError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.InvalidOperationError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: Error is thrown when an operation is attempted but is not allowed.
+  - name: LinkRedirectError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.LinkRedirectError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when the address provided cannot be resolved to a terminus
+      at the current container.
+  - name: MessageLockLostError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.MessageLockLostError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: Error is thrown when the lock on the message is lost.
+  - name: MessageNotFoundError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.MessageNotFoundError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: Error is thrown when message is not found.
+  - name: MessageTooLargeError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.MessageTooLargeError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when the message sent is too large: the maximum size is
+      256Kb.
+  - name: MessageWaitTimeout
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.MessageWaitTimeout|preview'
+    package: '@azure/core-amqp|preview'
+    summary: Error is thrown when no new messages are received for the specified time.
+  - name: MessagingEntityAlreadyExistsError
+    uid: >-
+      @azure/core-amqp.ErrorNameConditionMapper.MessagingEntityAlreadyExistsError|preview
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when an attempt is made to create an entity that already
+      exists.
+  - name: MessagingEntityDisabledError
+    uid: >-
+      @azure/core-amqp.ErrorNameConditionMapper.MessagingEntityDisabledError|preview
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when trying to access/connect to a disabled messaging
+      entity.
+  - name: NoMatchingSubscriptionError
+    uid: >-
+      @azure/core-amqp.ErrorNameConditionMapper.NoMatchingSubscriptionError|preview
+    package: '@azure/core-amqp|preview'
+    summary: Error is thrown when a matching subscription is not found.
+  - name: NotImplementedError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.NotImplementedError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when a feature is not implemented yet but the placeholder
+      is present.
+  - name: OperationCancelledError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.OperationCancelledError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when server cancels the operation due to an internal
+      issue.
+  - name: PartitionNotOwnedError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.PartitionNotOwnedError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when an attempt is made to access a partition that is not
+      owned by the
+
+      requesting entity.
+  - name: PreconditionFailedError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.PreconditionFailedError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when a condition that should have been met in order to
+      execute an operation was not.
+  - name: PublisherRevokedError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.PublisherRevokedError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: Error is thrown when access to publisher has been revoked.
+  - name: QuotaExceededError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.QuotaExceededError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown the the Azure EventHub/ServiceBus quota has been exceeded.
+
+      Quotas are reset periodically, this operation will have to wait until
+      then.
+
+      The messaging entity has reached its maximum allowable size.
+
+      This can happen if the maximum number of receivers (which is 5) has
+      already
+
+      been opened on a per-consumer group level.
+  - name: ReceiverDisconnectedError
+    uid: >-
+      @azure/core-amqp.ErrorNameConditionMapper.ReceiverDisconnectedError|preview
+    package: '@azure/core-amqp|preview'
+    summary: |-
+      Error is thrown when two or more instances connect to the same partition
+      with different epoch values.
+  - name: RelayNotFoundError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.RelayNotFoundError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: Error is thrown when relay is not found.
+  - name: ResourceDeletedError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.ResourceDeletedError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when a server entity the client is working with has been
+      deleted.
+  - name: ResourceLockedError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.ResourceLockedError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when the client attempted to work with a server entity to
+      which it
+
+      has no access because another client is working with it.
+  - name: SenderBusyError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.SenderBusyError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when the client sender does not have enough link credits
+      to send the message.
+  - name: ServerBusyError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.ServerBusyError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when the server is busy. Callers should wait a while and
+      retry the operation.
+  - name: ServiceCommunicationError
+    uid: >-
+      @azure/core-amqp.ErrorNameConditionMapper.ServiceCommunicationError|preview
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error for signaling general communication errors related to messaging
+      operations.
+  - name: ServiceUnavailableError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.ServiceUnavailableError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when the service is unavailable. The operation should be
+      retried.
+  - name: SessionCannotBeLockedError
+    uid: >-
+      @azure/core-amqp.ErrorNameConditionMapper.SessionCannotBeLockedError|preview
+    package: '@azure/core-amqp|preview'
+    summary: Error is thrown when the Azure ServiceBus session cannot be locked.
+  - name: SessionLockLostError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.SessionLockLostError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: Error is thrown when the lock on the Azure ServiceBus session is lost.
+  - name: SessionWindowViolationError
+    uid: >-
+      @azure/core-amqp.ErrorNameConditionMapper.SessionWindowViolationError|preview
+    package: '@azure/core-amqp|preview'
+    summary: Error is thrown when the peer violated incoming window for the session.
+  - name: StoreLockLostError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.StoreLockLostError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: Error is thrown when the store lock is lost.
+  - name: SystemError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.SystemError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when a low level system error is thrown by node.js.
+
+      [https%3A%2F%2Fnodejs.org%2Fapi%2Ferrors.html%23errors_class_systemerror](https%3A%2F%2Fnodejs.org%2Fapi%2Ferrors.html%23errors_class_systemerror)
+  - name: TransferLimitExceededError
+    uid: >-
+      @azure/core-amqp.ErrorNameConditionMapper.TransferLimitExceededError|preview
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when the peer sent more message transfers than currently
+      allowed on the link.
+  - name: UnattachedHandleError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.UnattachedHandleError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when a frame (other than attach) was received referencing
+      a handle which is not
+
+      currently in use of an attached link.
+  - name: UnauthorizedError
+    uid: '@azure/core-amqp.ErrorNameConditionMapper.UnauthorizedError|preview'
+    package: '@azure/core-amqp|preview'
+    summary: >-
+      Error is thrown when the connection parameters are wrong and the server
+      refused the connection.

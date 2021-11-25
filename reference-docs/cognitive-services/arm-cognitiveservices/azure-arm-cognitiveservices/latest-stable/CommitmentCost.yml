@@ -1,0 +1,38 @@
+### YamlMime:TSType
+name: CommitmentCost
+uid: '@azure/arm-cognitiveservices.CommitmentCost|latest-stable'
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: Cognitive Services account commitment cost.
+fullName: CommitmentCost
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: commitmentMeterId
+    uid: >-
+      @azure/arm-cognitiveservices.CommitmentCost.commitmentMeterId|latest-stable
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Commitment meter Id.
+    fullName: commitmentMeterId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'commitmentMeterId?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: overageMeterId
+    uid: '@azure/arm-cognitiveservices.CommitmentCost.overageMeterId|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Overage meter Id.
+    fullName: overageMeterId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'overageMeterId?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

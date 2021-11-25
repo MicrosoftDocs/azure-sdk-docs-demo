@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: FileSystemUndeletePathResponse
+uid: '@azure/storage-file-datalake.FileSystemUndeletePathResponse|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: ''
+fullName: FileSystemUndeletePathResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type FileSystemUndeletePathResponse = PathUndeleteHeaders & { _response:
+  Object, pathClient: DataLakePathClient }

@@ -1,0 +1,22 @@
+### YamlMime:TSPackage
+uid: '@azure/core-lro|latest-stable'
+name: '@azure/core-lro'
+summary: ''
+type: package
+classes:
+  - '@azure/core-lro.LroEngine|latest-stable'
+  - '@azure/core-lro.Poller|latest-stable'
+  - '@azure/core-lro.PollerCancelledError|latest-stable'
+  - '@azure/core-lro.PollerStoppedError|latest-stable'
+interfaces:
+  - '@azure/core-lro.LongRunningOperation|latest-stable'
+  - '@azure/core-lro.LroEngineOptions|latest-stable'
+  - '@azure/core-lro.LroResponse|latest-stable'
+  - '@azure/core-lro.PollOperation|latest-stable'
+  - '@azure/core-lro.PollOperationState|latest-stable'
+  - '@azure/core-lro.PollerLike|latest-stable'
+  - '@azure/core-lro.RawResponse|latest-stable'
+typeAliases:
+  - '@azure/core-lro.CancelOnProgress|latest-stable'
+  - '@azure/core-lro.LroResourceLocationConfig|latest-stable'
+  - '@azure/core-lro.PollProgressCallback|latest-stable'

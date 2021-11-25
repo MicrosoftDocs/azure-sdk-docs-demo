@@ -1,0 +1,108 @@
+### YamlMime:TSType
+name: KeyVaultKeyNewVersionCreatedEventData
+uid: '@azure/eventgrid.KeyVaultKeyNewVersionCreatedEventData|latest-stable'
+package: '@azure/eventgrid|latest-stable'
+summary: >-
+  Schema of the Data property of an EventGridEvent for a
+  Microsoft.KeyVault.KeyNewVersionCreated event.
+fullName: KeyVaultKeyNewVersionCreatedEventData
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: exp
+    uid: '@azure/eventgrid.KeyVaultKeyNewVersionCreatedEventData.exp|latest-stable'
+    package: '@azure/eventgrid|latest-stable'
+    summary: The expiration date of the object that triggered this event
+    fullName: exp
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'exp: number'
+      return:
+        type: number
+        description: ''
+  - name: id
+    uid: '@azure/eventgrid.KeyVaultKeyNewVersionCreatedEventData.id|latest-stable'
+    package: '@azure/eventgrid|latest-stable'
+    summary: The id of the object that triggered this event.
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        type: string
+        description: ''
+  - name: nbf
+    uid: '@azure/eventgrid.KeyVaultKeyNewVersionCreatedEventData.nbf|latest-stable'
+    package: '@azure/eventgrid|latest-stable'
+    summary: Not before date of the object that triggered this event
+    fullName: nbf
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'nbf: number'
+      return:
+        type: number
+        description: ''
+  - name: objectName
+    uid: >-
+      @azure/eventgrid.KeyVaultKeyNewVersionCreatedEventData.objectName|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: The name of the object that triggered this event
+    fullName: objectName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'objectName: string'
+      return:
+        type: string
+        description: ''
+  - name: objectType
+    uid: >-
+      @azure/eventgrid.KeyVaultKeyNewVersionCreatedEventData.objectType|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: The type of the object that triggered this event
+    fullName: objectType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'objectType: string'
+      return:
+        type: string
+        description: ''
+  - name: vaultName
+    uid: >-
+      @azure/eventgrid.KeyVaultKeyNewVersionCreatedEventData.vaultName|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: Key vault name of the object that triggered this event.
+    fullName: vaultName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'vaultName: string'
+      return:
+        type: string
+        description: ''
+  - name: version
+    uid: >-
+      @azure/eventgrid.KeyVaultKeyNewVersionCreatedEventData.version|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: The version of the object that triggered this event
+    fullName: version
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'version: string'
+      return:
+        type: string
+        description: ''

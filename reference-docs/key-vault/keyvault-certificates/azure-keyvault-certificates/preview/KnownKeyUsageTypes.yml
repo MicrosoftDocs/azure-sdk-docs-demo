@@ -1,0 +1,48 @@
+### YamlMime:TSEnum
+name: KnownKeyUsageTypes
+uid: '@azure/keyvault-certificates.KnownKeyUsageTypes|preview'
+package: '@azure/keyvault-certificates|preview'
+summary: >-
+  Known values of <xref:@azure/keyvault-certificates.KeyUsageType> that the
+  service accepts.
+fullName: KnownKeyUsageTypes
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: CRLSign
+    uid: '@azure/keyvault-certificates.KnownKeyUsageTypes.CRLSign|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: CRLSign Usage Type.
+  - name: DataEncipherment
+    uid: '@azure/keyvault-certificates.KnownKeyUsageTypes.DataEncipherment|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: DataEncipherment Usage Type.
+  - name: DecipherOnly
+    uid: '@azure/keyvault-certificates.KnownKeyUsageTypes.DecipherOnly|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: DecipherOnly Usage Type.
+  - name: DigitalSignature
+    uid: '@azure/keyvault-certificates.KnownKeyUsageTypes.DigitalSignature|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: DigitalSignature Usage Type.
+  - name: EncipherOnly
+    uid: '@azure/keyvault-certificates.KnownKeyUsageTypes.EncipherOnly|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: EncipherOnly Usage Type.
+  - name: KeyAgreement
+    uid: '@azure/keyvault-certificates.KnownKeyUsageTypes.KeyAgreement|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: KeyAgreement Usage Type.
+  - name: KeyCertSign
+    uid: '@azure/keyvault-certificates.KnownKeyUsageTypes.KeyCertSign|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: KeyCertSign Usage Type.
+  - name: KeyEncipherment
+    uid: '@azure/keyvault-certificates.KnownKeyUsageTypes.KeyEncipherment|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: KeyEncipherment Usage Type.
+  - name: NonRepudiation
+    uid: '@azure/keyvault-certificates.KnownKeyUsageTypes.NonRepudiation|preview'
+    package: '@azure/keyvault-certificates|preview'
+    summary: NonRepudiation Usage Type.

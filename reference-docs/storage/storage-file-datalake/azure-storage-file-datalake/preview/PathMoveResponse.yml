@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: PathMoveResponse
+uid: '@azure/storage-file-datalake.PathMoveResponse|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: ''
+fullName: PathMoveResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type PathMoveResponse = PathRemoveHeaders & { _response: Object }'

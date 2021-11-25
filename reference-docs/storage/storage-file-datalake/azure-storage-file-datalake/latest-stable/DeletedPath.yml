@@ -1,0 +1,64 @@
+### YamlMime:TSType
+name: DeletedPath
+uid: '@azure/storage-file-datalake.DeletedPath|latest-stable'
+package: '@azure/storage-file-datalake|latest-stable'
+summary: ''
+fullName: DeletedPath
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: deletedOn
+    uid: '@azure/storage-file-datalake.DeletedPath.deletedOn|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: deletedOn
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'deletedOn?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: deletionId
+    uid: '@azure/storage-file-datalake.DeletedPath.deletionId|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: deletionId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'deletionId?: string'
+      return:
+        type: string
+        description: ''
+  - name: name
+    uid: '@azure/storage-file-datalake.DeletedPath.name|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        type: string
+        description: ''
+  - name: remainingRetentionDays
+    uid: >-
+      @azure/storage-file-datalake.DeletedPath.remainingRetentionDays|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: remainingRetentionDays
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'remainingRetentionDays?: number'
+      return:
+        type: number
+        description: ''

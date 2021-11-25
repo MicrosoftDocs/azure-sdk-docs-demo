@@ -1,0 +1,338 @@
+### YamlMime:TSPackage
+uid: '@azure/search-documents|latest-stable'
+name: '@azure/search-documents'
+summary: ''
+type: package
+enums:
+  - '@azure/search-documents.KnownAnalyzerNames|latest-stable'
+  - '@azure/search-documents.KnownBlobIndexerDataToExtract|latest-stable'
+  - '@azure/search-documents.KnownBlobIndexerImageAction|latest-stable'
+  - >-
+    @azure/search-documents.KnownBlobIndexerPDFTextRotationAlgorithm|latest-stable
+  - '@azure/search-documents.KnownBlobIndexerParsingMode|latest-stable'
+  - '@azure/search-documents.KnownCharFilterName|latest-stable'
+  - '@azure/search-documents.KnownCharFilterNames|latest-stable'
+  - '@azure/search-documents.KnownCustomEntityLookupSkillLanguage|latest-stable'
+  - '@azure/search-documents.KnownEntityCategory|latest-stable'
+  - '@azure/search-documents.KnownEntityRecognitionSkillLanguage|latest-stable'
+  - '@azure/search-documents.KnownImageAnalysisSkillLanguage|latest-stable'
+  - '@azure/search-documents.KnownImageDetail|latest-stable'
+  - '@azure/search-documents.KnownKeyPhraseExtractionSkillLanguage|latest-stable'
+  - '@azure/search-documents.KnownLexicalAnalyzerName|latest-stable'
+  - '@azure/search-documents.KnownOcrSkillLanguage|latest-stable'
+  - '@azure/search-documents.KnownRegexFlags|latest-stable'
+  - '@azure/search-documents.KnownSearchIndexerDataSourceType|latest-stable'
+  - '@azure/search-documents.KnownSentimentSkillLanguage|latest-stable'
+  - '@azure/search-documents.KnownSplitSkillLanguage|latest-stable'
+  - '@azure/search-documents.KnownTextSplitMode|latest-stable'
+  - '@azure/search-documents.KnownTextTranslationSkillLanguage|latest-stable'
+  - '@azure/search-documents.KnownTokenFilterName|latest-stable'
+  - '@azure/search-documents.KnownTokenFilterNames|latest-stable'
+  - '@azure/search-documents.KnownTokenizerNames|latest-stable'
+  - '@azure/search-documents.KnownVisualFeature|latest-stable'
+classes:
+  - '@azure/search-documents.GeographyPoint|latest-stable'
+  - '@azure/search-documents.IndexDocumentsBatch|latest-stable'
+  - '@azure/search-documents.SearchClient|latest-stable'
+  - '@azure/search-documents.SearchIndexClient|latest-stable'
+  - '@azure/search-documents.SearchIndexerClient|latest-stable'
+  - '@azure/search-documents.SearchIndexingBufferedSender|latest-stable'
+interfaces:
+  - '@azure/search-documents.AnalyzeRequest|latest-stable'
+  - '@azure/search-documents.AnalyzeResult|latest-stable'
+  - '@azure/search-documents.AnalyzedTokenInfo|latest-stable'
+  - '@azure/search-documents.AutocompleteItem|latest-stable'
+  - '@azure/search-documents.AutocompleteRequest|latest-stable'
+  - '@azure/search-documents.AutocompleteResult|latest-stable'
+  - >-
+    @azure/search-documents.AzureActiveDirectoryApplicationCredentials|latest-stable
+  - '@azure/search-documents.BaseCharFilter|latest-stable'
+  - '@azure/search-documents.BaseCognitiveServicesAccount|latest-stable'
+  - '@azure/search-documents.BaseDataChangeDetectionPolicy|latest-stable'
+  - '@azure/search-documents.BaseDataDeletionDetectionPolicy|latest-stable'
+  - '@azure/search-documents.BaseLexicalAnalyzer|latest-stable'
+  - '@azure/search-documents.BaseLexicalTokenizer|latest-stable'
+  - '@azure/search-documents.BaseScoringFunction|latest-stable'
+  - '@azure/search-documents.BaseSearchIndexerSkill|latest-stable'
+  - '@azure/search-documents.BaseTokenFilter|latest-stable'
+  - '@azure/search-documents.ComplexField|latest-stable'
+  - '@azure/search-documents.CorsOptions|latest-stable'
+  - '@azure/search-documents.CreateOrUpdateIndexOptions|latest-stable'
+  - '@azure/search-documents.CreateOrUpdateSkillsetOptions|latest-stable'
+  - '@azure/search-documents.CreateOrUpdateSynonymMapOptions|latest-stable'
+  - >-
+    @azure/search-documents.CreateorUpdateDataSourceConnectionOptions|latest-stable
+  - '@azure/search-documents.CreateorUpdateIndexerOptions|latest-stable'
+  - '@azure/search-documents.CustomAnalyzer|latest-stable'
+  - '@azure/search-documents.CustomEntity|latest-stable'
+  - '@azure/search-documents.CustomEntityAlias|latest-stable'
+  - '@azure/search-documents.DeleteDataSourceConnectionOptions|latest-stable'
+  - '@azure/search-documents.DeleteIndexOptions|latest-stable'
+  - '@azure/search-documents.DeleteIndexerOptions|latest-stable'
+  - '@azure/search-documents.DeleteSkillsetOptions|latest-stable'
+  - '@azure/search-documents.DeleteSynonymMapOptions|latest-stable'
+  - '@azure/search-documents.DistanceScoringParameters|latest-stable'
+  - '@azure/search-documents.EdgeNGramTokenFilter|latest-stable'
+  - '@azure/search-documents.FacetResult|latest-stable'
+  - '@azure/search-documents.FieldMapping|latest-stable'
+  - '@azure/search-documents.FieldMappingFunction|latest-stable'
+  - '@azure/search-documents.FreshnessScoringParameters|latest-stable'
+  - '@azure/search-documents.GetDocumentOptions|latest-stable'
+  - '@azure/search-documents.IndexDocumentsClient|latest-stable'
+  - '@azure/search-documents.IndexDocumentsOptions|latest-stable'
+  - '@azure/search-documents.IndexDocumentsResult|latest-stable'
+  - '@azure/search-documents.IndexerExecutionResult|latest-stable'
+  - '@azure/search-documents.IndexingParameters|latest-stable'
+  - '@azure/search-documents.IndexingParametersConfiguration|latest-stable'
+  - '@azure/search-documents.IndexingResult|latest-stable'
+  - '@azure/search-documents.IndexingSchedule|latest-stable'
+  - '@azure/search-documents.InputFieldMappingEntry|latest-stable'
+  - '@azure/search-documents.KeywordTokenizer|latest-stable'
+  - '@azure/search-documents.ListSearchResultsPageSettings|latest-stable'
+  - '@azure/search-documents.LuceneStandardTokenizer|latest-stable'
+  - '@azure/search-documents.MagnitudeScoringParameters|latest-stable'
+  - '@azure/search-documents.NGramTokenFilter|latest-stable'
+  - '@azure/search-documents.OutputFieldMappingEntry|latest-stable'
+  - '@azure/search-documents.PatternAnalyzer|latest-stable'
+  - '@azure/search-documents.PatternTokenizer|latest-stable'
+  - '@azure/search-documents.ResourceCounter|latest-stable'
+  - '@azure/search-documents.ScoringProfile|latest-stable'
+  - '@azure/search-documents.SearchClientOptions|latest-stable'
+  - '@azure/search-documents.SearchDocumentsPageResult|latest-stable'
+  - '@azure/search-documents.SearchDocumentsResult|latest-stable'
+  - '@azure/search-documents.SearchDocumentsResultBase|latest-stable'
+  - '@azure/search-documents.SearchIndex|latest-stable'
+  - '@azure/search-documents.SearchIndexClientOptions|latest-stable'
+  - '@azure/search-documents.SearchIndexStatistics|latest-stable'
+  - '@azure/search-documents.SearchIndexer|latest-stable'
+  - '@azure/search-documents.SearchIndexerClientOptions|latest-stable'
+  - '@azure/search-documents.SearchIndexerDataContainer|latest-stable'
+  - '@azure/search-documents.SearchIndexerDataSourceConnection|latest-stable'
+  - '@azure/search-documents.SearchIndexerError|latest-stable'
+  - '@azure/search-documents.SearchIndexerKnowledgeStore|latest-stable'
+  - '@azure/search-documents.SearchIndexerKnowledgeStoreProjection|latest-stable'
+  - >-
+    @azure/search-documents.SearchIndexerKnowledgeStoreProjectionSelector|latest-stable
+  - '@azure/search-documents.SearchIndexerLimits|latest-stable'
+  - '@azure/search-documents.SearchIndexerSkillset|latest-stable'
+  - '@azure/search-documents.SearchIndexerStatus|latest-stable'
+  - '@azure/search-documents.SearchIndexerWarning|latest-stable'
+  - '@azure/search-documents.SearchIndexingBufferedSenderOptions|latest-stable'
+  - '@azure/search-documents.SearchRequest|latest-stable'
+  - '@azure/search-documents.SearchRequestOptions|latest-stable'
+  - '@azure/search-documents.SearchResourceEncryptionKey|latest-stable'
+  - '@azure/search-documents.SearchServiceStatistics|latest-stable'
+  - '@azure/search-documents.SearchSuggester|latest-stable'
+  - '@azure/search-documents.ServiceCounters|latest-stable'
+  - '@azure/search-documents.ServiceLimits|latest-stable'
+  - '@azure/search-documents.Similarity|latest-stable'
+  - '@azure/search-documents.SimpleField|latest-stable'
+  - '@azure/search-documents.SuggestDocumentsResult|latest-stable'
+  - '@azure/search-documents.SuggestRequest|latest-stable'
+  - '@azure/search-documents.SynonymMap|latest-stable'
+  - '@azure/search-documents.TagScoringParameters|latest-stable'
+  - '@azure/search-documents.TextWeights|latest-stable'
+typeAliases:
+  - '@azure/search-documents.AnalyzeTextOptions|latest-stable'
+  - '@azure/search-documents.AsciiFoldingTokenFilter|latest-stable'
+  - '@azure/search-documents.AutocompleteMode|latest-stable'
+  - '@azure/search-documents.AutocompleteOptions|latest-stable'
+  - '@azure/search-documents.BM25Similarity|latest-stable'
+  - '@azure/search-documents.BlobIndexerDataToExtract|latest-stable'
+  - '@azure/search-documents.BlobIndexerImageAction|latest-stable'
+  - '@azure/search-documents.BlobIndexerPDFTextRotationAlgorithm|latest-stable'
+  - '@azure/search-documents.BlobIndexerParsingMode|latest-stable'
+  - '@azure/search-documents.CharFilter|latest-stable'
+  - '@azure/search-documents.CharFilterName|latest-stable'
+  - '@azure/search-documents.CjkBigramTokenFilter|latest-stable'
+  - '@azure/search-documents.CjkBigramTokenFilterScripts|latest-stable'
+  - '@azure/search-documents.ClassicSimilarity|latest-stable'
+  - '@azure/search-documents.ClassicTokenizer|latest-stable'
+  - '@azure/search-documents.CognitiveServicesAccount|latest-stable'
+  - '@azure/search-documents.CognitiveServicesAccountKey|latest-stable'
+  - '@azure/search-documents.CommonGramTokenFilter|latest-stable'
+  - '@azure/search-documents.ComplexDataType|latest-stable'
+  - '@azure/search-documents.ConditionalSkill|latest-stable'
+  - '@azure/search-documents.CountDocumentsOptions|latest-stable'
+  - '@azure/search-documents.CreateDataSourceConnectionOptions|latest-stable'
+  - '@azure/search-documents.CreateIndexOptions|latest-stable'
+  - '@azure/search-documents.CreateIndexerOptions|latest-stable'
+  - '@azure/search-documents.CreateSkillsetOptions|latest-stable'
+  - '@azure/search-documents.CreateSynonymMapOptions|latest-stable'
+  - '@azure/search-documents.CustomEntityLookupSkill|latest-stable'
+  - '@azure/search-documents.CustomEntityLookupSkillLanguage|latest-stable'
+  - '@azure/search-documents.DataChangeDetectionPolicy|latest-stable'
+  - '@azure/search-documents.DataDeletionDetectionPolicy|latest-stable'
+  - '@azure/search-documents.DefaultCognitiveServicesAccount|latest-stable'
+  - '@azure/search-documents.DeleteDocumentsOptions|latest-stable'
+  - '@azure/search-documents.DictionaryDecompounderTokenFilter|latest-stable'
+  - '@azure/search-documents.DistanceScoringFunction|latest-stable'
+  - '@azure/search-documents.DocumentExtractionSkill|latest-stable'
+  - '@azure/search-documents.EdgeNGramTokenFilterSide|latest-stable'
+  - '@azure/search-documents.EdgeNGramTokenizer|latest-stable'
+  - '@azure/search-documents.ElisionTokenFilter|latest-stable'
+  - '@azure/search-documents.EntityCategory|latest-stable'
+  - '@azure/search-documents.EntityRecognitionSkill|latest-stable'
+  - '@azure/search-documents.EntityRecognitionSkillLanguage|latest-stable'
+  - '@azure/search-documents.FreshnessScoringFunction|latest-stable'
+  - '@azure/search-documents.GetDataSourceConnectionOptions|latest-stable'
+  - '@azure/search-documents.GetIndexOptions|latest-stable'
+  - '@azure/search-documents.GetIndexStatisticsOptions|latest-stable'
+  - '@azure/search-documents.GetIndexerOptions|latest-stable'
+  - '@azure/search-documents.GetIndexerStatusOptions|latest-stable'
+  - '@azure/search-documents.GetServiceStatisticsOptions|latest-stable'
+  - '@azure/search-documents.GetSkillSetOptions|latest-stable'
+  - '@azure/search-documents.GetSynonymMapsOptions|latest-stable'
+  - '@azure/search-documents.HighWaterMarkChangeDetectionPolicy|latest-stable'
+  - '@azure/search-documents.ImageAnalysisSkill|latest-stable'
+  - '@azure/search-documents.ImageAnalysisSkillLanguage|latest-stable'
+  - '@azure/search-documents.ImageDetail|latest-stable'
+  - '@azure/search-documents.IndexActionType|latest-stable'
+  - '@azure/search-documents.IndexDocumentsAction|latest-stable'
+  - '@azure/search-documents.IndexIterator|latest-stable'
+  - '@azure/search-documents.IndexNameIterator|latest-stable'
+  - '@azure/search-documents.IndexerExecutionEnvironment|latest-stable'
+  - '@azure/search-documents.IndexerExecutionStatus|latest-stable'
+  - '@azure/search-documents.IndexerStatus|latest-stable'
+  - '@azure/search-documents.KeepTokenFilter|latest-stable'
+  - '@azure/search-documents.KeyPhraseExtractionSkill|latest-stable'
+  - '@azure/search-documents.KeyPhraseExtractionSkillLanguage|latest-stable'
+  - '@azure/search-documents.KeywordMarkerTokenFilter|latest-stable'
+  - '@azure/search-documents.LanguageDetectionSkill|latest-stable'
+  - '@azure/search-documents.LengthTokenFilter|latest-stable'
+  - '@azure/search-documents.LexicalAnalyzer|latest-stable'
+  - '@azure/search-documents.LexicalAnalyzerName|latest-stable'
+  - '@azure/search-documents.LexicalTokenizer|latest-stable'
+  - '@azure/search-documents.LimitTokenFilter|latest-stable'
+  - '@azure/search-documents.ListDataSourceConnectionsOptions|latest-stable'
+  - '@azure/search-documents.ListIndexersOptions|latest-stable'
+  - '@azure/search-documents.ListIndexesOptions|latest-stable'
+  - '@azure/search-documents.ListSkillsetsOptions|latest-stable'
+  - '@azure/search-documents.ListSynonymMapsOptions|latest-stable'
+  - '@azure/search-documents.LuceneStandardAnalyzer|latest-stable'
+  - '@azure/search-documents.MagnitudeScoringFunction|latest-stable'
+  - '@azure/search-documents.MappingCharFilter|latest-stable'
+  - '@azure/search-documents.MergeDocumentsOptions|latest-stable'
+  - '@azure/search-documents.MergeOrUploadDocumentsOptions|latest-stable'
+  - '@azure/search-documents.MergeSkill|latest-stable'
+  - '@azure/search-documents.MicrosoftLanguageStemmingTokenizer|latest-stable'
+  - '@azure/search-documents.MicrosoftLanguageTokenizer|latest-stable'
+  - '@azure/search-documents.MicrosoftStemmingTokenizerLanguage|latest-stable'
+  - '@azure/search-documents.MicrosoftTokenizerLanguage|latest-stable'
+  - '@azure/search-documents.NGramTokenizer|latest-stable'
+  - '@azure/search-documents.OcrSkill|latest-stable'
+  - '@azure/search-documents.OcrSkillLanguage|latest-stable'
+  - '@azure/search-documents.PathHierarchyTokenizer|latest-stable'
+  - '@azure/search-documents.PatternCaptureTokenFilter|latest-stable'
+  - '@azure/search-documents.PatternReplaceCharFilter|latest-stable'
+  - '@azure/search-documents.PatternReplaceTokenFilter|latest-stable'
+  - '@azure/search-documents.PhoneticEncoder|latest-stable'
+  - '@azure/search-documents.PhoneticTokenFilter|latest-stable'
+  - '@azure/search-documents.QueryType|latest-stable'
+  - '@azure/search-documents.RegexFlags|latest-stable'
+  - '@azure/search-documents.ResetIndexerOptions|latest-stable'
+  - '@azure/search-documents.RunIndexerOptions|latest-stable'
+  - '@azure/search-documents.ScoringFunction|latest-stable'
+  - '@azure/search-documents.ScoringFunctionAggregation|latest-stable'
+  - '@azure/search-documents.ScoringFunctionInterpolation|latest-stable'
+  - '@azure/search-documents.ScoringStatistics|latest-stable'
+  - '@azure/search-documents.SearchField|latest-stable'
+  - '@azure/search-documents.SearchFieldDataType|latest-stable'
+  - '@azure/search-documents.SearchIndexerDataSourceType|latest-stable'
+  - >-
+    @azure/search-documents.SearchIndexerKnowledgeStoreBlobProjectionSelector|latest-stable
+  - >-
+    @azure/search-documents.SearchIndexerKnowledgeStoreFileProjectionSelector|latest-stable
+  - >-
+    @azure/search-documents.SearchIndexerKnowledgeStoreObjectProjectionSelector|latest-stable
+  - >-
+    @azure/search-documents.SearchIndexerKnowledgeStoreTableProjectionSelector|latest-stable
+  - '@azure/search-documents.SearchIndexerSkill|latest-stable'
+  - >-
+    @azure/search-documents.SearchIndexingBufferedSenderDeleteDocumentsOptions|latest-stable
+  - >-
+    @azure/search-documents.SearchIndexingBufferedSenderFlushDocumentsOptions|latest-stable
+  - >-
+    @azure/search-documents.SearchIndexingBufferedSenderMergeDocumentsOptions|latest-stable
+  - >-
+    @azure/search-documents.SearchIndexingBufferedSenderMergeOrUploadDocumentsOptions|latest-stable
+  - >-
+    @azure/search-documents.SearchIndexingBufferedSenderUploadDocumentsOptions|latest-stable
+  - '@azure/search-documents.SearchIterator|latest-stable'
+  - '@azure/search-documents.SearchMode|latest-stable'
+  - '@azure/search-documents.SearchOptions|latest-stable'
+  - '@azure/search-documents.SearchResult|latest-stable'
+  - '@azure/search-documents.SentimentSkill|latest-stable'
+  - '@azure/search-documents.SentimentSkillLanguage|latest-stable'
+  - '@azure/search-documents.ShaperSkill|latest-stable'
+  - '@azure/search-documents.ShingleTokenFilter|latest-stable'
+  - '@azure/search-documents.SimilarityAlgorithm|latest-stable'
+  - '@azure/search-documents.SnowballTokenFilter|latest-stable'
+  - '@azure/search-documents.SnowballTokenFilterLanguage|latest-stable'
+  - >-
+    @azure/search-documents.SoftDeleteColumnDeletionDetectionPolicy|latest-stable
+  - '@azure/search-documents.SplitSkill|latest-stable'
+  - '@azure/search-documents.SplitSkillLanguage|latest-stable'
+  - '@azure/search-documents.SqlIntegratedChangeTrackingPolicy|latest-stable'
+  - '@azure/search-documents.StemmerOverrideTokenFilter|latest-stable'
+  - '@azure/search-documents.StemmerTokenFilter|latest-stable'
+  - '@azure/search-documents.StemmerTokenFilterLanguage|latest-stable'
+  - '@azure/search-documents.StopAnalyzer|latest-stable'
+  - '@azure/search-documents.StopwordsList|latest-stable'
+  - '@azure/search-documents.StopwordsTokenFilter|latest-stable'
+  - '@azure/search-documents.SuggestOptions|latest-stable'
+  - '@azure/search-documents.SuggestResult|latest-stable'
+  - '@azure/search-documents.SynonymTokenFilter|latest-stable'
+  - '@azure/search-documents.TagScoringFunction|latest-stable'
+  - '@azure/search-documents.TextSplitMode|latest-stable'
+  - '@azure/search-documents.TextTranslationSkill|latest-stable'
+  - '@azure/search-documents.TextTranslationSkillLanguage|latest-stable'
+  - '@azure/search-documents.TokenCharacterKind|latest-stable'
+  - '@azure/search-documents.TokenFilter|latest-stable'
+  - '@azure/search-documents.TokenFilterName|latest-stable'
+  - '@azure/search-documents.TruncateTokenFilter|latest-stable'
+  - '@azure/search-documents.UaxUrlEmailTokenizer|latest-stable'
+  - '@azure/search-documents.UniqueTokenFilter|latest-stable'
+  - '@azure/search-documents.UploadDocumentsOptions|latest-stable'
+  - '@azure/search-documents.VisualFeature|latest-stable'
+  - '@azure/search-documents.WebApiSkill|latest-stable'
+  - '@azure/search-documents.WordDelimiterTokenFilter|latest-stable'
+functions:
+  - name: odata(TemplateStringsArray, unknown[])
+    uid: '@azure/search-documents.odata|latest-stable'
+    package: '@azure/search-documents|latest-stable'
+    summary: >-
+      Escapes an odata filter expression to avoid errors with quoting string
+      literals.
+
+      Example usage:
+
+      ```ts
+
+      const baseRateMax = 200;
+
+      const ratingMin = 4;
+
+      const filter = odata`Rooms/any(room: room/BaseRate lt ${baseRateMax}) and
+      Rating ge ${ratingMin}`;
+
+      ```
+
+      For more information on supported syntax see:
+      https://docs.microsoft.com/en-us/azure/search/search-query-odata-filter
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function odata(strings: TemplateStringsArray, values: unknown[])'
+      parameters:
+        - id: strings
+          type: TemplateStringsArray
+          description: Array of strings for the expression
+        - id: values
+          type: unknown[]
+          description: |
+            Array of values for the expression
+      return:
+        type: string
+        description: ''

@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: ListPropertiesOfCertificateVersionsOptions
+uid: >-
+  @azure/keyvault-certificates.ListPropertiesOfCertificateVersionsOptions|latest-stable
+package: '@azure/keyvault-certificates|latest-stable'
+summary: >-
+  An interface representing optional parameters for CertificateClient paged
+  operations passed to listPropertiesOfCertificateVersions.
+fullName: ListPropertiesOfCertificateVersionsOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type ListPropertiesOfCertificateVersionsOptions = OperationOptions

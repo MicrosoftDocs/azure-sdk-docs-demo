@@ -1,0 +1,26 @@
+### YamlMime:TSEnum
+name: SpatialType
+uid: '@azure/cosmos.SpatialType|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: ''
+fullName: SpatialType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: LineString
+    uid: '@azure/cosmos.SpatialType.LineString|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+  - name: MultiPolygon
+    uid: '@azure/cosmos.SpatialType.MultiPolygon|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+  - name: Point
+    uid: '@azure/cosmos.SpatialType.Point|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+  - name: Polygon
+    uid: '@azure/cosmos.SpatialType.Polygon|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''

@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: BlobInventoryPolicy
+uid: '@azure/arm-storage.BlobInventoryPolicy|preview'
+package: '@azure/arm-storage|preview'
+summary: The storage account blob inventory policy.
+fullName: BlobInventoryPolicy
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type BlobInventoryPolicy = Resource & { lastModifiedTime: Date, policy:
+  BlobInventoryPolicySchema, systemData: SystemData }

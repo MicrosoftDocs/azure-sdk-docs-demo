@@ -1,0 +1,29 @@
+### YamlMime:TSEnum
+name: KnownPrivateLinkConnectionStatus
+uid: '@azure/arm-servicebus.KnownPrivateLinkConnectionStatus|preview'
+package: '@azure/arm-servicebus|preview'
+summary: >-
+  Known values of <xref:@azure/arm-servicebus.PrivateLinkConnectionStatus> that
+  the service accepts.
+fullName: KnownPrivateLinkConnectionStatus
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Approved
+    uid: '@azure/arm-servicebus.KnownPrivateLinkConnectionStatus.Approved|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+  - name: Disconnected
+    uid: >-
+      @azure/arm-servicebus.KnownPrivateLinkConnectionStatus.Disconnected|preview
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+  - name: Pending
+    uid: '@azure/arm-servicebus.KnownPrivateLinkConnectionStatus.Pending|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''
+  - name: Rejected
+    uid: '@azure/arm-servicebus.KnownPrivateLinkConnectionStatus.Rejected|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: ''

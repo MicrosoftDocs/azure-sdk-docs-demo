@@ -1,0 +1,128 @@
+### YamlMime:TSPackage
+uid: '@azure/arm-appconfiguration|latest-stable'
+name: '@azure/arm-appconfiguration'
+summary: ''
+type: package
+classes:
+  - '@azure/arm-appconfiguration.AppConfigurationManagementClient|latest-stable'
+  - >-
+    @azure/arm-appconfiguration.AppConfigurationManagementClientContext|latest-stable
+  - '@azure/arm-appconfiguration.ConfigurationStores|latest-stable'
+  - '@azure/arm-appconfiguration.KeyValues|latest-stable'
+  - '@azure/arm-appconfiguration.Operations|latest-stable'
+  - '@azure/arm-appconfiguration.PrivateEndpointConnections|latest-stable'
+  - '@azure/arm-appconfiguration.PrivateLinkResources|latest-stable'
+interfaces:
+  - '@azure/arm-appconfiguration.ApiKey|latest-stable'
+  - '@azure/arm-appconfiguration.ApiKeyListResult|latest-stable'
+  - >-
+    @azure/arm-appconfiguration.AppConfigurationManagementClientOptions|latest-stable
+  - '@azure/arm-appconfiguration.AzureEntityResource|latest-stable'
+  - '@azure/arm-appconfiguration.CheckNameAvailabilityParameters|latest-stable'
+  - '@azure/arm-appconfiguration.ConfigurationStore|latest-stable'
+  - '@azure/arm-appconfiguration.ConfigurationStoreListResult|latest-stable'
+  - '@azure/arm-appconfiguration.ConfigurationStoreUpdateParameters|latest-stable'
+  - >-
+    @azure/arm-appconfiguration.ConfigurationStoresListByResourceGroupNextOptionalParams|latest-stable
+  - >-
+    @azure/arm-appconfiguration.ConfigurationStoresListByResourceGroupOptionalParams|latest-stable
+  - >-
+    @azure/arm-appconfiguration.ConfigurationStoresListKeysNextOptionalParams|latest-stable
+  - >-
+    @azure/arm-appconfiguration.ConfigurationStoresListKeysOptionalParams|latest-stable
+  - >-
+    @azure/arm-appconfiguration.ConfigurationStoresListNextOptionalParams|latest-stable
+  - >-
+    @azure/arm-appconfiguration.ConfigurationStoresListOptionalParams|latest-stable
+  - '@azure/arm-appconfiguration.EncryptionProperties|latest-stable'
+  - '@azure/arm-appconfiguration.ErrorAdditionalInfo|latest-stable'
+  - '@azure/arm-appconfiguration.ErrorDetails|latest-stable'
+  - '@azure/arm-appconfiguration.ErrorResponse|latest-stable'
+  - '@azure/arm-appconfiguration.KeyValue|latest-stable'
+  - '@azure/arm-appconfiguration.KeyValueListResult|latest-stable'
+  - >-
+    @azure/arm-appconfiguration.KeyValuesCreateOrUpdateOptionalParams|latest-stable
+  - >-
+    @azure/arm-appconfiguration.KeyValuesListByConfigurationStoreNextOptionalParams|latest-stable
+  - >-
+    @azure/arm-appconfiguration.KeyValuesListByConfigurationStoreOptionalParams|latest-stable
+  - '@azure/arm-appconfiguration.KeyVaultProperties|latest-stable'
+  - '@azure/arm-appconfiguration.LogSpecification|latest-stable'
+  - '@azure/arm-appconfiguration.MetricDimension|latest-stable'
+  - '@azure/arm-appconfiguration.MetricSpecification|latest-stable'
+  - '@azure/arm-appconfiguration.NameAvailabilityStatus|latest-stable'
+  - '@azure/arm-appconfiguration.OperationDefinition|latest-stable'
+  - '@azure/arm-appconfiguration.OperationDefinitionDisplay|latest-stable'
+  - '@azure/arm-appconfiguration.OperationDefinitionListResult|latest-stable'
+  - '@azure/arm-appconfiguration.OperationProperties|latest-stable'
+  - '@azure/arm-appconfiguration.OperationsListNextOptionalParams|latest-stable'
+  - '@azure/arm-appconfiguration.OperationsListOptionalParams|latest-stable'
+  - '@azure/arm-appconfiguration.PrivateEndpoint|latest-stable'
+  - '@azure/arm-appconfiguration.PrivateEndpointConnection|latest-stable'
+  - >-
+    @azure/arm-appconfiguration.PrivateEndpointConnectionListResult|latest-stable
+  - '@azure/arm-appconfiguration.PrivateEndpointConnectionReference|latest-stable'
+  - '@azure/arm-appconfiguration.PrivateLinkResource|latest-stable'
+  - '@azure/arm-appconfiguration.PrivateLinkResourceListResult|latest-stable'
+  - '@azure/arm-appconfiguration.PrivateLinkServiceConnectionState|latest-stable'
+  - '@azure/arm-appconfiguration.ProxyResource|latest-stable'
+  - '@azure/arm-appconfiguration.RegenerateKeyParameters|latest-stable'
+  - '@azure/arm-appconfiguration.Resource|latest-stable'
+  - '@azure/arm-appconfiguration.ResourceIdentity|latest-stable'
+  - '@azure/arm-appconfiguration.ServiceSpecification|latest-stable'
+  - '@azure/arm-appconfiguration.Sku|latest-stable'
+  - '@azure/arm-appconfiguration.SystemData|latest-stable'
+  - '@azure/arm-appconfiguration.TrackedResource|latest-stable'
+  - '@azure/arm-appconfiguration.UserIdentity|latest-stable'
+typeAliases:
+  - '@azure/arm-appconfiguration.ActionsRequired|latest-stable'
+  - >-
+    @azure/arm-appconfiguration.ConfigurationStoresBeginCreateResponse|latest-stable
+  - >-
+    @azure/arm-appconfiguration.ConfigurationStoresBeginUpdateResponse|latest-stable
+  - '@azure/arm-appconfiguration.ConfigurationStoresCreateResponse|latest-stable'
+  - '@azure/arm-appconfiguration.ConfigurationStoresGetResponse|latest-stable'
+  - >-
+    @azure/arm-appconfiguration.ConfigurationStoresListByResourceGroupNextResponse|latest-stable
+  - >-
+    @azure/arm-appconfiguration.ConfigurationStoresListByResourceGroupResponse|latest-stable
+  - >-
+    @azure/arm-appconfiguration.ConfigurationStoresListKeysNextResponse|latest-stable
+  - >-
+    @azure/arm-appconfiguration.ConfigurationStoresListKeysResponse|latest-stable
+  - >-
+    @azure/arm-appconfiguration.ConfigurationStoresListNextResponse|latest-stable
+  - '@azure/arm-appconfiguration.ConfigurationStoresListResponse|latest-stable'
+  - >-
+    @azure/arm-appconfiguration.ConfigurationStoresRegenerateKeyResponse|latest-stable
+  - '@azure/arm-appconfiguration.ConfigurationStoresUpdateResponse|latest-stable'
+  - '@azure/arm-appconfiguration.ConnectionStatus|latest-stable'
+  - '@azure/arm-appconfiguration.CreatedByType|latest-stable'
+  - '@azure/arm-appconfiguration.IdentityType|latest-stable'
+  - '@azure/arm-appconfiguration.KeyValuesCreateOrUpdateResponse|latest-stable'
+  - '@azure/arm-appconfiguration.KeyValuesGetResponse|latest-stable'
+  - >-
+    @azure/arm-appconfiguration.KeyValuesListByConfigurationStoreNextResponse|latest-stable
+  - >-
+    @azure/arm-appconfiguration.KeyValuesListByConfigurationStoreResponse|latest-stable
+  - >-
+    @azure/arm-appconfiguration.OperationsCheckNameAvailabilityResponse|latest-stable
+  - '@azure/arm-appconfiguration.OperationsListNextResponse|latest-stable'
+  - '@azure/arm-appconfiguration.OperationsListResponse|latest-stable'
+  - >-
+    @azure/arm-appconfiguration.PrivateEndpointConnectionsBeginCreateOrUpdateResponse|latest-stable
+  - >-
+    @azure/arm-appconfiguration.PrivateEndpointConnectionsCreateOrUpdateResponse|latest-stable
+  - >-
+    @azure/arm-appconfiguration.PrivateEndpointConnectionsGetResponse|latest-stable
+  - >-
+    @azure/arm-appconfiguration.PrivateEndpointConnectionsListByConfigurationStoreNextResponse|latest-stable
+  - >-
+    @azure/arm-appconfiguration.PrivateEndpointConnectionsListByConfigurationStoreResponse|latest-stable
+  - '@azure/arm-appconfiguration.PrivateLinkResourcesGetResponse|latest-stable'
+  - >-
+    @azure/arm-appconfiguration.PrivateLinkResourcesListByConfigurationStoreNextResponse|latest-stable
+  - >-
+    @azure/arm-appconfiguration.PrivateLinkResourcesListByConfigurationStoreResponse|latest-stable
+  - '@azure/arm-appconfiguration.ProvisioningState|latest-stable'
+  - '@azure/arm-appconfiguration.PublicNetworkAccess|latest-stable'

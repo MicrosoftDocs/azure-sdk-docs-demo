@@ -1,0 +1,24 @@
+### YamlMime:TSEnum
+name: KnownGeoReplicationStatusType
+uid: '@azure/data-tables.KnownGeoReplicationStatusType|latest-stable'
+package: '@azure/data-tables|latest-stable'
+summary: >-
+  Known values of <xref:@azure/data-tables.GeoReplicationStatusType> that the
+  service accepts.
+fullName: KnownGeoReplicationStatusType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Bootstrap
+    uid: '@azure/data-tables.KnownGeoReplicationStatusType.Bootstrap|latest-stable'
+    package: '@azure/data-tables|latest-stable'
+    summary: ''
+  - name: Live
+    uid: '@azure/data-tables.KnownGeoReplicationStatusType.Live|latest-stable'
+    package: '@azure/data-tables|latest-stable'
+    summary: ''
+  - name: Unavailable
+    uid: '@azure/data-tables.KnownGeoReplicationStatusType.Unavailable|latest-stable'
+    package: '@azure/data-tables|latest-stable'
+    summary: ''

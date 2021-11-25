@@ -1,0 +1,18 @@
+### YamlMime:TSEnum
+name: KnownKeyVaultRoleScope
+uid: '@azure/keyvault-admin.KnownKeyVaultRoleScope|latest-stable'
+package: '@azure/keyvault-admin|latest-stable'
+summary: Known values of RoleScope that the service accepts.
+fullName: KnownKeyVaultRoleScope
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Global
+    uid: '@azure/keyvault-admin.KnownKeyVaultRoleScope.Global|latest-stable'
+    package: '@azure/keyvault-admin|latest-stable'
+    summary: Global scope
+  - name: Keys
+    uid: '@azure/keyvault-admin.KnownKeyVaultRoleScope.Keys|latest-stable'
+    package: '@azure/keyvault-admin|latest-stable'
+    summary: Keys scope

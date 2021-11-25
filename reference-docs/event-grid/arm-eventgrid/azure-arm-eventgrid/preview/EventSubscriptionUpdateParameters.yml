@@ -1,0 +1,157 @@
+### YamlMime:TSType
+name: EventSubscriptionUpdateParameters
+uid: '@azure/arm-eventgrid.EventSubscriptionUpdateParameters|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: Properties of the Event Subscription update.
+fullName: EventSubscriptionUpdateParameters
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: deadLetterDestination
+    uid: >-
+      @azure/arm-eventgrid.EventSubscriptionUpdateParameters.deadLetterDestination|preview
+    package: '@azure/arm-eventgrid|preview'
+    summary: The DeadLetter destination of the event subscription.
+    fullName: deadLetterDestination
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'deadLetterDestination?: DeadLetterDestinationUnion'
+      return:
+        type: <xref uid="@azure/arm-eventgrid.DeadLetterDestinationUnion|preview" />
+        description: ''
+  - name: deadLetterWithResourceIdentity
+    uid: >-
+      @azure/arm-eventgrid.EventSubscriptionUpdateParameters.deadLetterWithResourceIdentity|preview
+    package: '@azure/arm-eventgrid|preview'
+    summary: >-
+      The dead letter destination of the event subscription. Any event that
+      cannot be delivered to its' destination is sent to the dead letter
+      destination.
+
+      Uses the managed identity setup on the parent resource (topic / domain) to
+      acquire the authentication tokens being used during delivery /
+      dead-lettering.
+    fullName: deadLetterWithResourceIdentity
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'deadLetterWithResourceIdentity?: DeadLetterWithResourceIdentity'
+      return:
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.DeadLetterWithResourceIdentity|preview" />
+        description: ''
+  - name: deliveryWithResourceIdentity
+    uid: >-
+      @azure/arm-eventgrid.EventSubscriptionUpdateParameters.deliveryWithResourceIdentity|preview
+    package: '@azure/arm-eventgrid|preview'
+    summary: >-
+      Information about the destination where events have to be delivered for
+      the event subscription.
+
+      Uses the managed identity setup on the parent resource (topic / domain) to
+      acquire the authentication tokens being used during delivery /
+      dead-lettering.
+    fullName: deliveryWithResourceIdentity
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'deliveryWithResourceIdentity?: DeliveryWithResourceIdentity'
+      return:
+        type: >-
+          <xref uid="@azure/arm-eventgrid.DeliveryWithResourceIdentity|preview"
+          />
+        description: ''
+  - name: destination
+    uid: '@azure/arm-eventgrid.EventSubscriptionUpdateParameters.destination|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: >-
+      Information about the destination where events have to be delivered for
+      the event subscription.
+    fullName: destination
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'destination?: EventSubscriptionDestinationUnion'
+      return:
+        type: >-
+          <xref
+          uid="@azure/arm-eventgrid.EventSubscriptionDestinationUnion|preview"
+          />
+        description: ''
+  - name: eventDeliverySchema
+    uid: >-
+      @azure/arm-eventgrid.EventSubscriptionUpdateParameters.eventDeliverySchema|preview
+    package: '@azure/arm-eventgrid|preview'
+    summary: The event delivery schema for the event subscription.
+    fullName: eventDeliverySchema
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'eventDeliverySchema?: EventDeliverySchema'
+      return:
+        type: <xref uid="@azure/arm-eventgrid.EventDeliverySchema|preview" />
+        description: ''
+  - name: expirationTimeUtc
+    uid: >-
+      @azure/arm-eventgrid.EventSubscriptionUpdateParameters.expirationTimeUtc|preview
+    package: '@azure/arm-eventgrid|preview'
+    summary: Information about the expiration time for the event subscription.
+    fullName: expirationTimeUtc
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'expirationTimeUtc?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: filter
+    uid: '@azure/arm-eventgrid.EventSubscriptionUpdateParameters.filter|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: Information about the filter for the event subscription.
+    fullName: filter
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'filter?: EventSubscriptionFilter'
+      return:
+        type: <xref uid="@azure/arm-eventgrid.EventSubscriptionFilter|preview" />
+        description: ''
+  - name: labels
+    uid: '@azure/arm-eventgrid.EventSubscriptionUpdateParameters.labels|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: List of user defined labels.
+    fullName: labels
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'labels?: string[]'
+      return:
+        type: string[]
+        description: ''
+  - name: retryPolicy
+    uid: '@azure/arm-eventgrid.EventSubscriptionUpdateParameters.retryPolicy|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: >-
+      The retry policy for events. This can be used to configure maximum number
+      of delivery attempts and time to live for events.
+    fullName: retryPolicy
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'retryPolicy?: RetryPolicy'
+      return:
+        type: <xref uid="@azure/arm-eventgrid.RetryPolicy|preview" />
+        description: ''

@@ -1,0 +1,17 @@
+### YamlMime:TSEnum
+name: KnownIndexerExecutionStatusDetail
+uid: '@azure/search-documents.KnownIndexerExecutionStatusDetail|preview'
+package: '@azure/search-documents|preview'
+summary: >-
+  Known values of <xref:@azure/search-documents.IndexerExecutionStatusDetail>
+  that the service accepts.
+fullName: KnownIndexerExecutionStatusDetail
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: ResetDocs
+    uid: >-
+      @azure/search-documents.KnownIndexerExecutionStatusDetail.ResetDocs|preview
+    package: '@azure/search-documents|preview'
+    summary: Indicates that the reset that occurred was for a call to ResetDocs.

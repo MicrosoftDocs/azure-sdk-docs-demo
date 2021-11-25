@@ -1,0 +1,136 @@
+### YamlMime:TSType
+name: BlockBlobQueryOptions
+uid: '@azure/storage-blob.BlockBlobQueryOptions|preview'
+package: '@azure/storage-blob|preview'
+summary: >-
+  Options to configure <xref:@azure/storage-blob.BlockBlobClient.query>
+  operation.
+fullName: BlockBlobQueryOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: '@azure/storage-blob.BlockBlobQueryOptions.abortSignal|preview'
+    package: '@azure/storage-blob|preview'
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: conditions
+    uid: '@azure/storage-blob.BlockBlobQueryOptions.conditions|preview'
+    package: '@azure/storage-blob|preview'
+    summary: Conditions to meet when uploading to the block blob.
+    fullName: conditions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'conditions?: BlobRequestConditions'
+      return:
+        type: <xref uid="@azure/storage-blob.BlobRequestConditions|preview" />
+        description: ''
+  - name: customerProvidedKey
+    uid: '@azure/storage-blob.BlockBlobQueryOptions.customerProvidedKey|preview'
+    package: '@azure/storage-blob|preview'
+    summary: Customer Provided Key Info.
+    fullName: customerProvidedKey
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'customerProvidedKey?: CpkInfo'
+      return:
+        type: <xref uid="@azure/storage-blob.CpkInfo|preview" />
+        description: ''
+  - name: inputTextConfiguration
+    uid: '@azure/storage-blob.BlockBlobQueryOptions.inputTextConfiguration|preview'
+    package: '@azure/storage-blob|preview'
+    summary: Configurations for the query input.
+    fullName: inputTextConfiguration
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        inputTextConfiguration?: BlobQueryJsonTextConfiguration |
+        BlobQueryCsvTextConfiguration | BlobQueryParquetConfiguration
+      return:
+        type: >-
+          <xref uid="@azure/storage-blob.BlobQueryJsonTextConfiguration|preview"
+          /> | <xref
+          uid="@azure/storage-blob.BlobQueryCsvTextConfiguration|preview" /> |
+          <xref uid="@azure/storage-blob.BlobQueryParquetConfiguration|preview"
+          />
+        description: ''
+  - name: onError
+    uid: '@azure/storage-blob.BlockBlobQueryOptions.onError|preview'
+    package: '@azure/storage-blob|preview'
+    summary: Callback to receive error events during the query operaiton.
+    fullName: onError
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onError?: (error: BlobQueryError) => void'
+      return:
+        type: '(error: BlobQueryError) =&gt; void'
+        description: ''
+  - name: onProgress
+    uid: '@azure/storage-blob.BlockBlobQueryOptions.onProgress|preview'
+    package: '@azure/storage-blob|preview'
+    summary: Callback to receive events on the progress of query operation.
+    fullName: onProgress
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onProgress?: (progress: TransferProgressEvent) => void'
+      return:
+        type: '(progress: TransferProgressEvent) =&gt; void'
+        description: ''
+  - name: outputTextConfiguration
+    uid: '@azure/storage-blob.BlockBlobQueryOptions.outputTextConfiguration|preview'
+    package: '@azure/storage-blob|preview'
+    summary: Configurations for the query output.
+    fullName: outputTextConfiguration
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        outputTextConfiguration?: BlobQueryJsonTextConfiguration |
+        BlobQueryCsvTextConfiguration | BlobQueryArrowConfiguration
+      return:
+        type: >-
+          <xref uid="@azure/storage-blob.BlobQueryJsonTextConfiguration|preview"
+          /> | <xref
+          uid="@azure/storage-blob.BlobQueryCsvTextConfiguration|preview" /> |
+          <xref uid="@azure/storage-blob.BlobQueryArrowConfiguration|preview" />
+        description: ''
+  - name: tracingOptions
+    uid: '@azure/storage-blob.BlockBlobQueryOptions.tracingOptions|preview'
+    package: '@azure/storage-blob|preview'
+    summary: Options to configure spans created when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+extends: <xref uid="@azure/storage-blob.CommonOptions|preview" />

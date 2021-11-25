@@ -1,0 +1,232 @@
+### YamlMime:TSPackage
+uid: '@azure/storage-queue|preview'
+name: '@azure/storage-queue'
+summary: ''
+type: package
+enums:
+  - '@azure/storage-queue.SASProtocol|preview'
+  - '@azure/storage-queue.StorageRetryPolicyType|preview'
+classes:
+  - '@azure/storage-queue.AccountSASPermissions|preview'
+  - '@azure/storage-queue.AccountSASResourceTypes|preview'
+  - '@azure/storage-queue.AccountSASServices|preview'
+  - '@azure/storage-queue.AnonymousCredential|preview'
+  - '@azure/storage-queue.AnonymousCredentialPolicy|preview'
+  - '@azure/storage-queue.CredentialPolicy|preview'
+  - '@azure/storage-queue.Credential_2|preview'
+  - '@azure/storage-queue.Pipeline|preview'
+  - '@azure/storage-queue.QueueClient|preview'
+  - '@azure/storage-queue.QueueSASPermissions|preview'
+  - '@azure/storage-queue.QueueServiceClient|preview'
+  - '@azure/storage-queue.SASQueryParameters|preview'
+  - '@azure/storage-queue.StorageBrowserPolicy|preview'
+  - '@azure/storage-queue.StorageBrowserPolicyFactory|preview'
+  - '@azure/storage-queue.StorageClient|preview'
+  - '@azure/storage-queue.StorageClientContext|preview'
+  - '@azure/storage-queue.StorageRetryPolicy|preview'
+  - '@azure/storage-queue.StorageRetryPolicyFactory|preview'
+  - '@azure/storage-queue.StorageSharedKeyCredential|preview'
+  - '@azure/storage-queue.StorageSharedKeyCredentialPolicy|preview'
+interfaces:
+  - '@azure/storage-queue.AccessPolicy|preview'
+  - '@azure/storage-queue.AccountSASSignatureValues|preview'
+  - '@azure/storage-queue.CommonOptions|preview'
+  - '@azure/storage-queue.CorsRule|preview'
+  - '@azure/storage-queue.DequeuedMessageItem|preview'
+  - '@azure/storage-queue.EnqueuedMessage|preview'
+  - '@azure/storage-queue.GeoReplication|preview'
+  - '@azure/storage-queue.ListQueuesSegmentResponse|preview'
+  - '@azure/storage-queue.Logging|preview'
+  - '@azure/storage-queue.MessageIdDeleteHeaders|preview'
+  - '@azure/storage-queue.MessageIdUpdateHeaders|preview'
+  - '@azure/storage-queue.MessagesClearHeaders|preview'
+  - '@azure/storage-queue.MessagesDequeueHeaders|preview'
+  - '@azure/storage-queue.MessagesDequeueOptionalParams|preview'
+  - '@azure/storage-queue.MessagesEnqueueHeaders|preview'
+  - '@azure/storage-queue.MessagesEnqueueOptionalParams|preview'
+  - '@azure/storage-queue.MessagesPeekHeaders|preview'
+  - '@azure/storage-queue.MessagesPeekOptionalParams|preview'
+  - '@azure/storage-queue.Metadata|preview'
+  - '@azure/storage-queue.Metrics|preview'
+  - '@azure/storage-queue.PeekedMessageItem|preview'
+  - '@azure/storage-queue.PipelineOptions|preview'
+  - '@azure/storage-queue.QueueClearMessagesOptions|preview'
+  - '@azure/storage-queue.QueueCreateHeaders|preview'
+  - '@azure/storage-queue.QueueCreateIfNotExistsResponse|preview'
+  - '@azure/storage-queue.QueueCreateOptions|preview'
+  - '@azure/storage-queue.QueueDeleteHeaders|preview'
+  - '@azure/storage-queue.QueueDeleteIfExistsResponse|preview'
+  - '@azure/storage-queue.QueueDeleteMessageOptions|preview'
+  - '@azure/storage-queue.QueueDeleteOptions|preview'
+  - '@azure/storage-queue.QueueExistsOptions|preview'
+  - '@azure/storage-queue.QueueGenerateSasUrlOptions|preview'
+  - '@azure/storage-queue.QueueGetAccessPolicyHeaders|preview'
+  - '@azure/storage-queue.QueueGetAccessPolicyOptions|preview'
+  - '@azure/storage-queue.QueueGetPropertiesHeaders|preview'
+  - '@azure/storage-queue.QueueGetPropertiesOptions|preview'
+  - '@azure/storage-queue.QueueItem|preview'
+  - '@azure/storage-queue.QueuePeekMessagesOptions|preview'
+  - '@azure/storage-queue.QueueReceiveMessageOptions|preview'
+  - '@azure/storage-queue.QueueSASSignatureValues|preview'
+  - '@azure/storage-queue.QueueSendMessageOptions|preview'
+  - '@azure/storage-queue.QueueServiceProperties|preview'
+  - '@azure/storage-queue.QueueServiceStatistics|preview'
+  - '@azure/storage-queue.QueueSetAccessPolicyHeaders|preview'
+  - '@azure/storage-queue.QueueSetAccessPolicyOptions|preview'
+  - '@azure/storage-queue.QueueSetMetadataHeaders|preview'
+  - '@azure/storage-queue.QueueSetMetadataOptions|preview'
+  - '@azure/storage-queue.QueueUpdateMessageOptions|preview'
+  - '@azure/storage-queue.RetentionPolicy|preview'
+  - '@azure/storage-queue.SasIPRange|preview'
+  - '@azure/storage-queue.ServiceGenerateAccountSasUrlOptions|preview'
+  - '@azure/storage-queue.ServiceGetPropertiesHeaders|preview'
+  - '@azure/storage-queue.ServiceGetPropertiesOptions|preview'
+  - '@azure/storage-queue.ServiceGetStatisticsHeaders|preview'
+  - '@azure/storage-queue.ServiceGetStatisticsOptions|preview'
+  - '@azure/storage-queue.ServiceListQueuesOptions|preview'
+  - '@azure/storage-queue.ServiceListQueuesSegmentHeaders|preview'
+  - '@azure/storage-queue.ServiceSetPropertiesHeaders|preview'
+  - '@azure/storage-queue.ServiceSetPropertiesOptions|preview'
+  - '@azure/storage-queue.SignedIdentifier|preview'
+  - '@azure/storage-queue.SignedIdentifierModel|preview'
+  - '@azure/storage-queue.StorageClientOptionalParams|preview'
+  - '@azure/storage-queue.StoragePipelineOptions|preview'
+  - '@azure/storage-queue.StorageRetryOptions|preview'
+typeAliases:
+  - '@azure/storage-queue.CredentialPolicyCreator|preview'
+  - '@azure/storage-queue.GeoReplicationStatusType|preview'
+  - '@azure/storage-queue.ListQueuesIncludeType|preview'
+  - '@azure/storage-queue.MessageIdDeleteResponse|preview'
+  - '@azure/storage-queue.MessageIdUpdateResponse|preview'
+  - '@azure/storage-queue.MessagesClearResponse|preview'
+  - '@azure/storage-queue.QueueClearMessagesResponse|preview'
+  - '@azure/storage-queue.QueueCreateResponse|preview'
+  - '@azure/storage-queue.QueueDeleteMessageResponse|preview'
+  - '@azure/storage-queue.QueueDeleteResponse|preview'
+  - '@azure/storage-queue.QueueGetAccessPolicyResponse|preview'
+  - '@azure/storage-queue.QueueGetPropertiesResponse|preview'
+  - '@azure/storage-queue.QueuePeekMessagesResponse|preview'
+  - '@azure/storage-queue.QueueReceiveMessageResponse|preview'
+  - '@azure/storage-queue.QueueSendMessageResponse|preview'
+  - '@azure/storage-queue.QueueSetAccessPolicyResponse|preview'
+  - '@azure/storage-queue.QueueSetMetadataResponse|preview'
+  - '@azure/storage-queue.QueueUpdateMessageResponse|preview'
+  - '@azure/storage-queue.ReceivedMessageItem|preview'
+  - '@azure/storage-queue.ServiceGetPropertiesResponse|preview'
+  - '@azure/storage-queue.ServiceGetStatisticsResponse|preview'
+  - '@azure/storage-queue.ServiceListQueuesSegmentResponse|preview'
+  - '@azure/storage-queue.ServiceSetPropertiesResponse|preview'
+functions:
+  - name: >-
+      generateAccountSASQueryParameters(AccountSASSignatureValues,
+      StorageSharedKeyCredential)
+    uid: '@azure/storage-queue.generateAccountSASQueryParameters|preview'
+    package: '@azure/storage-queue|preview'
+    summary: >
+      ONLY AVAILABLE IN NODE.JS RUNTIME.
+
+      Generates a <xref:@azure/storage-queue.SASQueryParameters> object which
+      contains all SAS query parameters needed to make an actual
+
+      REST request.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function generateAccountSASQueryParameters(accountSASSignatureValues:
+        AccountSASSignatureValues, sharedKeyCredential:
+        StorageSharedKeyCredential)
+      parameters:
+        - id: accountSASSignatureValues
+          type: >-
+            <xref uid="@azure/storage-queue.AccountSASSignatureValues|preview"
+            />
+          description: SAS Signature values of the account
+        - id: sharedKeyCredential
+          type: >-
+            <xref uid="@azure/storage-queue.StorageSharedKeyCredential|preview"
+            />
+          description: |
+            Shared key credential.
+      return:
+        type: <xref uid="@azure/storage-queue.SASQueryParameters|preview" />
+        description: ''
+  - name: >-
+      generateQueueSASQueryParameters(QueueSASSignatureValues,
+      StorageSharedKeyCredential)
+    uid: '@azure/storage-queue.generateQueueSASQueryParameters|preview'
+    package: '@azure/storage-queue|preview'
+    summary: >
+      ONLY AVAILABLE IN NODE.JS RUNTIME.
+
+      Creates an instance of SASQueryParameters.
+
+
+      Only accepts required settings needed to create a SAS. For optional
+      settings please
+
+      set corresponding properties directly, such as permissions, startsOn and
+      identifier.
+
+
+      WARNING: When identifier is not provided, permissions and expiresOn are
+      required.
+
+      You MUST assign value to identifier or expiresOn & permissions manually if
+      you initial with
+
+      this constructor.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function generateQueueSASQueryParameters(queueSASSignatureValues:
+        QueueSASSignatureValues, sharedKeyCredential:
+        StorageSharedKeyCredential)
+      parameters:
+        - id: queueSASSignatureValues
+          type: <xref uid="@azure/storage-queue.QueueSASSignatureValues|preview" />
+          description: '-'
+        - id: sharedKeyCredential
+          type: >-
+            <xref uid="@azure/storage-queue.StorageSharedKeyCredential|preview"
+            />
+          description: |
+            -
+      return:
+        type: <xref uid="@azure/storage-queue.SASQueryParameters|preview" />
+        description: ''
+  - name: >-
+      newPipeline(StorageSharedKeyCredential | AnonymousCredential |
+      TokenCredential, StoragePipelineOptions)
+    uid: '@azure/storage-queue.newPipeline|preview'
+    package: '@azure/storage-queue|preview'
+    summary: Creates a new Pipeline object with Credential provided.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function newPipeline(credential?: StorageSharedKeyCredential |
+        AnonymousCredential | TokenCredential, pipelineOptions?:
+        StoragePipelineOptions)
+      parameters:
+        - id: credential
+          type: >-
+            <xref uid="@azure/storage-queue.StorageSharedKeyCredential|preview"
+            /> | <xref uid="@azure/storage-queue.AnonymousCredential|preview" />
+            | TokenCredential
+          description: >-
+            Such as AnonymousCredential, StorageSharedKeyCredential or any
+            credential from the `@azure/identity` package to authenticate
+            requests to the service. You can also provide an object that
+            implements the TokenCredential interface. If not specified,
+            AnonymousCredential is used.
+        - id: pipelineOptions
+          type: <xref uid="@azure/storage-queue.StoragePipelineOptions|preview" />
+          description: Options.
+      return:
+        type: <xref uid="@azure/storage-queue.Pipeline|preview" />
+        description: A new Pipeline object.

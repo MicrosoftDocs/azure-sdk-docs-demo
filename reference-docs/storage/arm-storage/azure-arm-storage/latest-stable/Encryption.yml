@@ -1,0 +1,88 @@
+### YamlMime:TSType
+name: Encryption
+uid: '@azure/arm-storage.Encryption|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: The encryption settings on the storage account.
+fullName: Encryption
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: encryptionIdentity
+    uid: '@azure/arm-storage.Encryption.encryptionIdentity|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: The identity to be used with service-side encryption at rest.
+    fullName: encryptionIdentity
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'encryptionIdentity?: EncryptionIdentity'
+      return:
+        type: <xref uid="@azure/arm-storage.EncryptionIdentity|latest-stable" />
+        description: ''
+  - name: keySource
+    uid: '@azure/arm-storage.Encryption.keySource|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: >-
+      The encryption keySource (provider). Possible values (case-insensitive): 
+      Microsoft.Storage,
+
+      Microsoft.Keyvault. Possible values include: 'Microsoft.Storage',
+      'Microsoft.Keyvault'.
+
+      Default value: 'Microsoft.Storage'.
+    fullName: keySource
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keySource: KeySource'
+      return:
+        type: <xref uid="@azure/arm-storage.KeySource|latest-stable" />
+        description: ''
+  - name: keyVaultProperties
+    uid: '@azure/arm-storage.Encryption.keyVaultProperties|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: Properties provided by key vault.
+    fullName: keyVaultProperties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keyVaultProperties?: KeyVaultProperties'
+      return:
+        type: <xref uid="@azure/arm-storage.KeyVaultProperties|latest-stable" />
+        description: ''
+  - name: requireInfrastructureEncryption
+    uid: >-
+      @azure/arm-storage.Encryption.requireInfrastructureEncryption|latest-stable
+    package: '@azure/arm-storage|latest-stable'
+    summary: >-
+      A boolean indicating whether or not the service applies a secondary layer
+      of encryption with
+
+      platform managed keys for data at rest.
+    fullName: requireInfrastructureEncryption
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'requireInfrastructureEncryption?: undefined | false | true'
+      return:
+        type: undefined | false | true
+        description: ''
+  - name: services
+    uid: '@azure/arm-storage.Encryption.services|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: List of services which support encryption.
+    fullName: services
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'services?: EncryptionServices'
+      return:
+        type: <xref uid="@azure/arm-storage.EncryptionServices|latest-stable" />
+        description: ''

@@ -1,0 +1,67 @@
+### YamlMime:TSEnum
+name: KnownAdvancedFilterOperatorType
+uid: '@azure/arm-eventgrid.KnownAdvancedFilterOperatorType|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: >-
+  Known values of <xref:@azure/arm-eventgrid.AdvancedFilterOperatorType> that
+  the service accepts.
+fullName: KnownAdvancedFilterOperatorType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: BoolEquals
+    uid: '@azure/arm-eventgrid.KnownAdvancedFilterOperatorType.BoolEquals|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: NumberGreaterThan
+    uid: >-
+      @azure/arm-eventgrid.KnownAdvancedFilterOperatorType.NumberGreaterThan|preview
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: NumberGreaterThanOrEquals
+    uid: >-
+      @azure/arm-eventgrid.KnownAdvancedFilterOperatorType.NumberGreaterThanOrEquals|preview
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: NumberIn
+    uid: '@azure/arm-eventgrid.KnownAdvancedFilterOperatorType.NumberIn|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: NumberLessThan
+    uid: >-
+      @azure/arm-eventgrid.KnownAdvancedFilterOperatorType.NumberLessThan|preview
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: NumberLessThanOrEquals
+    uid: >-
+      @azure/arm-eventgrid.KnownAdvancedFilterOperatorType.NumberLessThanOrEquals|preview
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: NumberNotIn
+    uid: '@azure/arm-eventgrid.KnownAdvancedFilterOperatorType.NumberNotIn|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: StringBeginsWith
+    uid: >-
+      @azure/arm-eventgrid.KnownAdvancedFilterOperatorType.StringBeginsWith|preview
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: StringContains
+    uid: >-
+      @azure/arm-eventgrid.KnownAdvancedFilterOperatorType.StringContains|preview
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: StringEndsWith
+    uid: >-
+      @azure/arm-eventgrid.KnownAdvancedFilterOperatorType.StringEndsWith|preview
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: StringIn
+    uid: '@azure/arm-eventgrid.KnownAdvancedFilterOperatorType.StringIn|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: StringNotIn
+    uid: '@azure/arm-eventgrid.KnownAdvancedFilterOperatorType.StringNotIn|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''

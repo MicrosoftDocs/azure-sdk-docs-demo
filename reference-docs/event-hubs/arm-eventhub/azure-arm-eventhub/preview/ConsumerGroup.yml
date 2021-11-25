@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: ConsumerGroup
+uid: '@azure/arm-eventhub.ConsumerGroup|preview'
+package: '@azure/arm-eventhub|preview'
+summary: Single item in List or Get Consumer group operation
+fullName: ConsumerGroup
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type ConsumerGroup = Resource & { createdAt: Date, systemData: SystemData,
+  updatedAt: Date, userMetadata: Object }

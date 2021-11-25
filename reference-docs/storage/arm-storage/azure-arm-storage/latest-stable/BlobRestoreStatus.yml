@@ -1,0 +1,90 @@
+### YamlMime:TSType
+name: BlobRestoreStatus
+uid: '@azure/arm-storage.BlobRestoreStatus|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: Blob restore status.
+fullName: BlobRestoreStatus
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: failureReason
+    uid: '@azure/arm-storage.BlobRestoreStatus.failureReason|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: >-
+      Failure reason when blob restore is failed.
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: failureReason
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'failureReason?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: parameters
+    uid: '@azure/arm-storage.BlobRestoreStatus.parameters|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: >-
+      Blob restore request parameters.
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: parameters
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'parameters?: BlobRestoreParameters'
+      return:
+        type: <xref uid="@azure/arm-storage.BlobRestoreParameters|latest-stable" />
+        description: ''
+  - name: restoreId
+    uid: '@azure/arm-storage.BlobRestoreStatus.restoreId|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: >-
+      Id for tracking blob restore request.
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: restoreId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'restoreId?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: status
+    uid: '@azure/arm-storage.BlobRestoreStatus.status|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: >-
+      The status of blob restore progress. Possible values are: - InProgress:
+      Indicates that blob
+
+      restore is ongoing. - Complete: Indicates that blob restore has been
+      completed successfully. -
+
+      Failed: Indicates that blob restore is failed. Possible values include:
+      'InProgress',
+
+      'Complete', 'Failed'
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: status
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'status?: BlobRestoreProgressStatus'
+      return:
+        type: >-
+          <xref uid="@azure/arm-storage.BlobRestoreProgressStatus|latest-stable"
+          />
+        description: ''

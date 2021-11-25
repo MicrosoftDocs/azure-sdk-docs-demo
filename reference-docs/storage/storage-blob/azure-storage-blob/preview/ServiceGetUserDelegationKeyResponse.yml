@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: ServiceGetUserDelegationKeyResponse
+uid: '@azure/storage-blob.ServiceGetUserDelegationKeyResponse|preview'
+package: '@azure/storage-blob|preview'
+summary: Contains response data for the getUserDelegationKey operation.
+fullName: ServiceGetUserDelegationKeyResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type ServiceGetUserDelegationKeyResponse = UserDelegationKey &
+  ServiceGetUserDelegationKeyHeaders & { _response: Object }

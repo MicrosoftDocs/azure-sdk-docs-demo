@@ -1,0 +1,321 @@
+### YamlMime:TSPackage
+uid: '@azure/eventgrid|latest-stable'
+name: '@azure/eventgrid'
+summary: ''
+type: package
+enums:
+  - '@azure/eventgrid.KnownAppAction|latest-stable'
+  - '@azure/eventgrid.KnownAppServicePlanAction|latest-stable'
+  - '@azure/eventgrid.KnownAsyncStatus|latest-stable'
+  - '@azure/eventgrid.KnownStampKind|latest-stable'
+classes:
+  - '@azure/eventgrid.EventGridDeserializer|latest-stable'
+  - '@azure/eventgrid.EventGridPublisherClient|latest-stable'
+interfaces:
+  - '@azure/eventgrid.AcsChatEventBase|latest-stable'
+  - '@azure/eventgrid.AcsChatEventInThreadBase|latest-stable'
+  - '@azure/eventgrid.AcsChatThreadParticipant|latest-stable'
+  - '@azure/eventgrid.AcsRecordingChunkInfo|latest-stable'
+  - '@azure/eventgrid.AcsRecordingFileStatusUpdatedEventData|latest-stable'
+  - '@azure/eventgrid.AcsRecordingStorageInfo|latest-stable'
+  - '@azure/eventgrid.AcsSmsDeliveryAttempt|latest-stable'
+  - '@azure/eventgrid.AcsSmsEventBase|latest-stable'
+  - '@azure/eventgrid.AcsUserDisconnectedEventData|latest-stable'
+  - '@azure/eventgrid.ApiManagementApiCreatedEventData|latest-stable'
+  - '@azure/eventgrid.ApiManagementApiDeletedEventData|latest-stable'
+  - '@azure/eventgrid.ApiManagementApiReleaseCreatedEventData|latest-stable'
+  - '@azure/eventgrid.ApiManagementApiReleaseDeletedEventData|latest-stable'
+  - '@azure/eventgrid.ApiManagementApiReleaseUpdatedEventData|latest-stable'
+  - '@azure/eventgrid.ApiManagementApiUpdatedEventData|latest-stable'
+  - '@azure/eventgrid.ApiManagementProductCreatedEventData|latest-stable'
+  - '@azure/eventgrid.ApiManagementProductDeletedEventData|latest-stable'
+  - '@azure/eventgrid.ApiManagementProductUpdatedEventData|latest-stable'
+  - '@azure/eventgrid.ApiManagementSubscriptionCreatedEventData|latest-stable'
+  - '@azure/eventgrid.ApiManagementSubscriptionDeletedEventData|latest-stable'
+  - '@azure/eventgrid.ApiManagementSubscriptionUpdatedEventData|latest-stable'
+  - '@azure/eventgrid.ApiManagementUserCreatedEventData|latest-stable'
+  - '@azure/eventgrid.ApiManagementUserDeletedEventData|latest-stable'
+  - '@azure/eventgrid.ApiManagementUserUpdatedEventData|latest-stable'
+  - '@azure/eventgrid.AppConfigurationKeyValueDeletedEventData|latest-stable'
+  - '@azure/eventgrid.AppConfigurationKeyValueModifiedEventData|latest-stable'
+  - '@azure/eventgrid.AppEventTypeDetail|latest-stable'
+  - '@azure/eventgrid.AppServicePlanEventTypeDetail|latest-stable'
+  - '@azure/eventgrid.CloudEvent|latest-stable'
+  - '@azure/eventgrid.CommunicationIdentifierModel|latest-stable'
+  - '@azure/eventgrid.CommunicationUserIdentifierModel|latest-stable'
+  - '@azure/eventgrid.ContainerRegistryArtifactEventData|latest-stable'
+  - '@azure/eventgrid.ContainerRegistryArtifactEventTarget|latest-stable'
+  - '@azure/eventgrid.ContainerRegistryEventActor|latest-stable'
+  - '@azure/eventgrid.ContainerRegistryEventData|latest-stable'
+  - '@azure/eventgrid.ContainerRegistryEventRequest|latest-stable'
+  - '@azure/eventgrid.ContainerRegistryEventSource|latest-stable'
+  - '@azure/eventgrid.ContainerRegistryEventTarget|latest-stable'
+  - >-
+    @azure/eventgrid.ContainerServiceNewKubernetesVersionAvailableEventData|latest-stable
+  - '@azure/eventgrid.DeviceConnectionStateEvent|latest-stable'
+  - '@azure/eventgrid.DeviceConnectionStateEventInfo|latest-stable'
+  - '@azure/eventgrid.DeviceLifeCycleEvent|latest-stable'
+  - '@azure/eventgrid.DeviceTelemetryEvent|latest-stable'
+  - '@azure/eventgrid.DeviceTwin|latest-stable'
+  - '@azure/eventgrid.DeviceTwinInfo|latest-stable'
+  - '@azure/eventgrid.DeviceTwinInfoProperties|latest-stable'
+  - '@azure/eventgrid.DeviceTwinInfoX509Thumbprint|latest-stable'
+  - '@azure/eventgrid.DeviceTwinMetadata|latest-stable'
+  - '@azure/eventgrid.EventGridEvent|latest-stable'
+  - '@azure/eventgrid.EventHubCaptureFileCreatedEventData|latest-stable'
+  - '@azure/eventgrid.GenerateSharedAccessSignatureOptions|latest-stable'
+  - '@azure/eventgrid.InputSchemaToInputTypeMap|latest-stable'
+  - '@azure/eventgrid.KeyVaultAccessPolicyChangedEventData|latest-stable'
+  - '@azure/eventgrid.KeyVaultCertificateExpiredEventData|latest-stable'
+  - '@azure/eventgrid.KeyVaultCertificateNearExpiryEventData|latest-stable'
+  - '@azure/eventgrid.KeyVaultCertificateNewVersionCreatedEventData|latest-stable'
+  - '@azure/eventgrid.KeyVaultKeyExpiredEventData|latest-stable'
+  - '@azure/eventgrid.KeyVaultKeyNearExpiryEventData|latest-stable'
+  - '@azure/eventgrid.KeyVaultKeyNewVersionCreatedEventData|latest-stable'
+  - '@azure/eventgrid.KeyVaultSecretExpiredEventData|latest-stable'
+  - '@azure/eventgrid.KeyVaultSecretNearExpiryEventData|latest-stable'
+  - '@azure/eventgrid.KeyVaultSecretNewVersionCreatedEventData|latest-stable'
+  - >-
+    @azure/eventgrid.MachineLearningServicesDatasetDriftDetectedEventData|latest-stable
+  - '@azure/eventgrid.MachineLearningServicesModelDeployedEventData|latest-stable'
+  - >-
+    @azure/eventgrid.MachineLearningServicesModelRegisteredEventData|latest-stable
+  - '@azure/eventgrid.MachineLearningServicesRunCompletedEventData|latest-stable'
+  - >-
+    @azure/eventgrid.MachineLearningServicesRunStatusChangedEventData|latest-stable
+  - '@azure/eventgrid.MapsGeofenceEvent|latest-stable'
+  - '@azure/eventgrid.MapsGeofenceGeometry|latest-stable'
+  - '@azure/eventgrid.MediaJobError|latest-stable'
+  - '@azure/eventgrid.MediaJobErrorDetail|latest-stable'
+  - '@azure/eventgrid.MediaJobOutput|latest-stable'
+  - '@azure/eventgrid.MediaJobOutputProgressEventData|latest-stable'
+  - '@azure/eventgrid.MediaJobOutputStateChangeEventData|latest-stable'
+  - '@azure/eventgrid.MediaJobStateChangeEventData|latest-stable'
+  - >-
+    @azure/eventgrid.MediaLiveEventChannelArchiveHeartbeatEventData|latest-stable
+  - '@azure/eventgrid.MediaLiveEventConnectionRejectedEventData|latest-stable'
+  - '@azure/eventgrid.MediaLiveEventEncoderConnectedEventData|latest-stable'
+  - '@azure/eventgrid.MediaLiveEventEncoderDisconnectedEventData|latest-stable'
+  - >-
+    @azure/eventgrid.MediaLiveEventIncomingDataChunkDroppedEventData|latest-stable
+  - '@azure/eventgrid.MediaLiveEventIncomingStreamReceivedEventData|latest-stable'
+  - >-
+    @azure/eventgrid.MediaLiveEventIncomingStreamsOutOfSyncEventData|latest-stable
+  - >-
+    @azure/eventgrid.MediaLiveEventIncomingVideoStreamsOutOfSyncEventData|latest-stable
+  - '@azure/eventgrid.MediaLiveEventIngestHeartbeatEventData|latest-stable'
+  - >-
+    @azure/eventgrid.MediaLiveEventTrackDiscontinuityDetectedEventData|latest-stable
+  - '@azure/eventgrid.MicrosoftTeamsUserIdentifierModel|latest-stable'
+  - '@azure/eventgrid.PhoneNumberIdentifierModel|latest-stable'
+  - '@azure/eventgrid.PolicyInsightsPolicyStateChangedEventData|latest-stable'
+  - '@azure/eventgrid.PolicyInsightsPolicyStateCreatedEventData|latest-stable'
+  - '@azure/eventgrid.PolicyInsightsPolicyStateDeletedEventData|latest-stable'
+  - '@azure/eventgrid.ResourceActionCancelEventData|latest-stable'
+  - '@azure/eventgrid.ResourceActionFailureEventData|latest-stable'
+  - '@azure/eventgrid.ResourceActionSuccessEventData|latest-stable'
+  - '@azure/eventgrid.ResourceDeleteCancelEventData|latest-stable'
+  - '@azure/eventgrid.ResourceDeleteFailureEventData|latest-stable'
+  - '@azure/eventgrid.ResourceDeleteSuccessEventData|latest-stable'
+  - '@azure/eventgrid.ResourceWriteCancelEventData|latest-stable'
+  - '@azure/eventgrid.ResourceWriteFailureEventData|latest-stable'
+  - '@azure/eventgrid.ResourceWriteSuccessEventData|latest-stable'
+  - '@azure/eventgrid.SendCloudEventInput|latest-stable'
+  - '@azure/eventgrid.SendEventGridEventInput|latest-stable'
+  - >-
+    @azure/eventgrid.ServiceBusActiveMessagesAvailableWithNoListenersEventData|latest-stable
+  - >-
+    @azure/eventgrid.ServiceBusDeadletterMessagesAvailableWithNoListenersEventData|latest-stable
+  - '@azure/eventgrid.StorageAsyncOperationInitiatedEventData|latest-stable'
+  - '@azure/eventgrid.StorageBlobCreatedEventData|latest-stable'
+  - '@azure/eventgrid.StorageBlobDeletedEventData|latest-stable'
+  - '@azure/eventgrid.StorageBlobInventoryPolicyCompletedEventData|latest-stable'
+  - '@azure/eventgrid.StorageBlobRenamedEventData|latest-stable'
+  - '@azure/eventgrid.StorageBlobTierChangedEventData|latest-stable'
+  - '@azure/eventgrid.StorageDirectoryCreatedEventData|latest-stable'
+  - '@azure/eventgrid.StorageDirectoryDeletedEventData|latest-stable'
+  - '@azure/eventgrid.StorageDirectoryRenamedEventData|latest-stable'
+  - '@azure/eventgrid.StorageLifecyclePolicyActionSummaryDetail|latest-stable'
+  - '@azure/eventgrid.StorageLifecyclePolicyCompletedEventData|latest-stable'
+  - '@azure/eventgrid.SubscriptionDeletedEventData|latest-stable'
+  - '@azure/eventgrid.SubscriptionValidationEventData|latest-stable'
+  - '@azure/eventgrid.SystemEventNameToEventData|latest-stable'
+  - '@azure/eventgrid.WebAppServicePlanUpdatedEventData|latest-stable'
+  - '@azure/eventgrid.WebAppServicePlanUpdatedEventDataSku|latest-stable'
+  - '@azure/eventgrid.WebAppUpdatedEventData|latest-stable'
+  - '@azure/eventgrid.WebBackupOperationCompletedEventData|latest-stable'
+  - '@azure/eventgrid.WebBackupOperationFailedEventData|latest-stable'
+  - '@azure/eventgrid.WebBackupOperationStartedEventData|latest-stable'
+  - '@azure/eventgrid.WebRestoreOperationCompletedEventData|latest-stable'
+  - '@azure/eventgrid.WebRestoreOperationFailedEventData|latest-stable'
+  - '@azure/eventgrid.WebRestoreOperationStartedEventData|latest-stable'
+  - '@azure/eventgrid.WebSlotSwapCompletedEventData|latest-stable'
+  - '@azure/eventgrid.WebSlotSwapFailedEventData|latest-stable'
+  - '@azure/eventgrid.WebSlotSwapStartedEventData|latest-stable'
+  - '@azure/eventgrid.WebSlotSwapWithPreviewCancelledEventData|latest-stable'
+  - '@azure/eventgrid.WebSlotSwapWithPreviewStartedEventData|latest-stable'
+typeAliases:
+  - '@azure/eventgrid.AcsChatMessageDeletedEventData|latest-stable'
+  - '@azure/eventgrid.AcsChatMessageDeletedInThreadEventData|latest-stable'
+  - '@azure/eventgrid.AcsChatMessageEditedEventData|latest-stable'
+  - '@azure/eventgrid.AcsChatMessageEditedInThreadEventData|latest-stable'
+  - '@azure/eventgrid.AcsChatMessageEventBase|latest-stable'
+  - '@azure/eventgrid.AcsChatMessageEventInThreadBase|latest-stable'
+  - '@azure/eventgrid.AcsChatMessageReceivedEventData|latest-stable'
+  - '@azure/eventgrid.AcsChatMessageReceivedInThreadEventData|latest-stable'
+  - '@azure/eventgrid.AcsChatParticipantAddedToThreadEventData|latest-stable'
+  - >-
+    @azure/eventgrid.AcsChatParticipantAddedToThreadWithUserEventData|latest-stable
+  - '@azure/eventgrid.AcsChatParticipantRemovedFromThreadEventData|latest-stable'
+  - >-
+    @azure/eventgrid.AcsChatParticipantRemovedFromThreadWithUserEventData|latest-stable
+  - '@azure/eventgrid.AcsChatThreadCreatedWithUserEventData|latest-stable'
+  - '@azure/eventgrid.AcsChatThreadEventBase|latest-stable'
+  - >-
+    @azure/eventgrid.AcsChatThreadPropertiesUpdatedPerUserEventData|latest-stable
+  - '@azure/eventgrid.AcsChatThreadWithUserDeletedEventData|latest-stable'
+  - '@azure/eventgrid.AcsSmsDeliveryReportReceivedEventData|latest-stable'
+  - '@azure/eventgrid.AcsSmsReceivedEventData|latest-stable'
+  - '@azure/eventgrid.AppAction|latest-stable'
+  - '@azure/eventgrid.AppServicePlanAction|latest-stable'
+  - '@azure/eventgrid.AsyncStatus|latest-stable'
+  - '@azure/eventgrid.CommunicationCloudEnvironmentModel|latest-stable'
+  - '@azure/eventgrid.ContainerRegistryChartDeletedEventData|latest-stable'
+  - '@azure/eventgrid.ContainerRegistryChartPushedEventData|latest-stable'
+  - '@azure/eventgrid.ContainerRegistryImageDeletedEventData|latest-stable'
+  - '@azure/eventgrid.ContainerRegistryImagePushedEventData|latest-stable'
+  - '@azure/eventgrid.EventGridPublisherClientOptions|latest-stable'
+  - '@azure/eventgrid.InputSchema|latest-stable'
+  - '@azure/eventgrid.IotHubDeviceConnectedEventData|latest-stable'
+  - '@azure/eventgrid.IotHubDeviceCreatedEventData|latest-stable'
+  - '@azure/eventgrid.IotHubDeviceDeletedEventData|latest-stable'
+  - '@azure/eventgrid.IotHubDeviceDisconnectedEventData|latest-stable'
+  - '@azure/eventgrid.IotHubDeviceTelemetryEventData|latest-stable'
+  - '@azure/eventgrid.KnownSystemEventTypes|latest-stable'
+  - '@azure/eventgrid.MapsGeofenceEnteredEventData|latest-stable'
+  - '@azure/eventgrid.MapsGeofenceExitedEventData|latest-stable'
+  - '@azure/eventgrid.MapsGeofenceResultEventData|latest-stable'
+  - '@azure/eventgrid.MediaJobCanceledEventData|latest-stable'
+  - '@azure/eventgrid.MediaJobCancelingEventData|latest-stable'
+  - '@azure/eventgrid.MediaJobErrorCategory|latest-stable'
+  - '@azure/eventgrid.MediaJobErrorCode|latest-stable'
+  - '@azure/eventgrid.MediaJobErroredEventData|latest-stable'
+  - '@azure/eventgrid.MediaJobFinishedEventData|latest-stable'
+  - '@azure/eventgrid.MediaJobOutputAsset|latest-stable'
+  - '@azure/eventgrid.MediaJobOutputCanceledEventData|latest-stable'
+  - '@azure/eventgrid.MediaJobOutputCancelingEventData|latest-stable'
+  - '@azure/eventgrid.MediaJobOutputErroredEventData|latest-stable'
+  - '@azure/eventgrid.MediaJobOutputFinishedEventData|latest-stable'
+  - '@azure/eventgrid.MediaJobOutputProcessingEventData|latest-stable'
+  - '@azure/eventgrid.MediaJobOutputScheduledEventData|latest-stable'
+  - '@azure/eventgrid.MediaJobOutputUnion|latest-stable'
+  - '@azure/eventgrid.MediaJobProcessingEventData|latest-stable'
+  - '@azure/eventgrid.MediaJobRetry|latest-stable'
+  - '@azure/eventgrid.MediaJobScheduledEventData|latest-stable'
+  - '@azure/eventgrid.MediaJobState|latest-stable'
+  - '@azure/eventgrid.SendOptions|latest-stable'
+  - '@azure/eventgrid.StampKind|latest-stable'
+functions:
+  - name: >-
+      generateSharedAccessSignature(string, KeyCredential, Date,
+      GenerateSharedAccessSignatureOptions)
+    uid: '@azure/eventgrid.generateSharedAccessSignature|latest-stable'
+    package: '@azure/eventgrid|latest-stable'
+    summary: >-
+      Generate a shared access signature, which allows a client to send events
+      to an Event Grid Topic or Domain for a limited period of time. This
+
+      function may only be called when the EventGridPublisherClient was
+      constructed with a KeyCredential instance.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function generateSharedAccessSignature(endpointUrl: string, credential:
+        KeyCredential, expiresOnUtc: Date, options?:
+        GenerateSharedAccessSignatureOptions)
+      parameters:
+        - id: endpointUrl
+          type: string
+          description: >-
+            The endpoint for the topic or domain you wish to generate a shared
+            access signature for.
+        - id: credential
+          type: KeyCredential
+          description: The credential to use when generating the shared access signatrue.
+        - id: expiresOnUtc
+          type: Date
+          description: ''
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/eventgrid.GenerateSharedAccessSignatureOptions|latest-stable"
+            />
+          description: |
+            Options to control how the signature is generated.
+      return:
+        type: Promise&lt;string&gt;
+        description: ''
+  - name: isSystemEvent<T>(T, EventGridEvent<unknown>)
+    uid: '@azure/eventgrid.isSystemEvent|latest-stable'
+    package: '@azure/eventgrid|latest-stable'
+    summary: >-
+      iSystemEvent returns "true" when a given event is a system event of a
+      given type. When using
+
+      TypeScript, this function acts as a custom type guard and allows the
+      TypeScript compiler to
+
+      identify the underlying data
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isSystemEvent<T>(eventType: T, event: EventGridEvent<unknown>)'
+      parameters:
+        - id: eventType
+          type: T
+          description: >-
+            The type of system event to check for, e.g.,
+            "Microsoft.AppConfiguration.KeyValueDeleted"
+        - id: event
+          type: >-
+            <xref uid="@azure/eventgrid.EventGridEvent|latest-stable"
+            />&lt;unknown&gt;
+          description: |
+            The event to test.
+      return:
+        type: boolean
+        description: ''
+  - name: isSystemEvent<T>(T, CloudEvent<unknown>)
+    uid: '@azure/eventgrid.isSystemEvent_1|latest-stable'
+    package: '@azure/eventgrid|latest-stable'
+    summary: >-
+      iSystemEvent returns "true" when a given event is a system event of a
+      given type. When using
+
+      TypeScript, this function acts as a custom type guard and allows the
+      TypeScript compiler to
+
+      identify the underlying data
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isSystemEvent<T>(eventType: T, event: CloudEvent<unknown>)'
+      parameters:
+        - id: eventType
+          type: T
+          description: >-
+            The type of system event to check for, e.g.,
+            "Microsoft.AppConfiguration.KeyValueDeleted"
+        - id: event
+          type: >-
+            <xref uid="@azure/eventgrid.CloudEvent|latest-stable"
+            />&lt;unknown&gt;
+          description: |
+            The event to test.
+      return:
+        type: boolean
+        description: ''

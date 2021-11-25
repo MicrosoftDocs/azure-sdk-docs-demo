@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: GetCertificateOptions
+uid: '@azure/keyvault-certificates.GetCertificateOptions|latest-stable'
+package: '@azure/keyvault-certificates|latest-stable'
+summary: Options for getCertificate.
+fullName: GetCertificateOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type GetCertificateOptions = OperationOptions

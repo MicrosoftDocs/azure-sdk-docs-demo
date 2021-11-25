@@ -1,0 +1,65 @@
+### YamlMime:TSType
+name: StaticDeliveryAttributeMapping
+uid: '@azure/arm-eventgrid.StaticDeliveryAttributeMapping|latest-stable'
+package: '@azure/arm-eventgrid|latest-stable'
+summary: Static delivery attribute mapping details.
+fullName: StaticDeliveryAttributeMapping
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: isSecret
+    uid: '@azure/arm-eventgrid.StaticDeliveryAttributeMapping.isSecret|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: >-
+      Boolean flag to tell if the attribute contains sensitive information .
+      Default value: false.
+    fullName: isSecret
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isSecret?: undefined | false | true'
+      return:
+        type: undefined | false | true
+        description: ''
+  - name: name
+    uid: '@azure/arm-eventgrid.StaticDeliveryAttributeMapping.name|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: Name of the delivery attribute or header.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: type
+    uid: '@azure/arm-eventgrid.StaticDeliveryAttributeMapping.type|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: Polymorphic Discriminator
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: "Static"'
+      return:
+        type: '"Static"'
+        description: ''
+  - name: value
+    uid: '@azure/arm-eventgrid.StaticDeliveryAttributeMapping.value|latest-stable'
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: Value of the delivery attribute.
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

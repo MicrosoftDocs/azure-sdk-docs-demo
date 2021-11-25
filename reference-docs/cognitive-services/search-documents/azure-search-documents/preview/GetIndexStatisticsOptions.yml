@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: GetIndexStatisticsOptions
+uid: '@azure/search-documents.GetIndexStatisticsOptions|preview'
+package: '@azure/search-documents|preview'
+summary: Options for get index statistics operation.
+fullName: GetIndexStatisticsOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type GetIndexStatisticsOptions = OperationOptions

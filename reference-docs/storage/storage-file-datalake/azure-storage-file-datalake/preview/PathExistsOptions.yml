@@ -1,0 +1,46 @@
+### YamlMime:TSType
+name: PathExistsOptions
+uid: '@azure/storage-file-datalake.PathExistsOptions|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: |
+  Option interface for Data Lake directory/file exists operations
+  See:
+  - <xref:@azure/storage-file-datalake.DataLakePathClient.exists>
+fullName: PathExistsOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: '@azure/storage-file-datalake.PathExistsOptions.abortSignal|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: tracingOptions
+    uid: '@azure/storage-file-datalake.PathExistsOptions.tracingOptions|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: Options to configure spans created when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+extends: <xref uid="@azure/storage-file-datalake.CommonOptions|preview" />

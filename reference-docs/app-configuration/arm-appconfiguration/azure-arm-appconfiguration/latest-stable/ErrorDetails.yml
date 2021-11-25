@@ -1,0 +1,65 @@
+### YamlMime:TSType
+name: ErrorDetails
+uid: '@azure/arm-appconfiguration.ErrorDetails|latest-stable'
+package: '@azure/arm-appconfiguration|latest-stable'
+summary: The details of the error.
+fullName: ErrorDetails
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: additionalInfo
+    uid: '@azure/arm-appconfiguration.ErrorDetails.additionalInfo|latest-stable'
+    package: '@azure/arm-appconfiguration|latest-stable'
+    summary: >-
+      The error additional info.
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: additionalInfo
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'additionalInfo?: ErrorAdditionalInfo[]'
+      return:
+        type: >-
+          <xref
+          uid="@azure/arm-appconfiguration.ErrorAdditionalInfo|latest-stable"
+          />[]
+        description: ''
+  - name: code
+    uid: '@azure/arm-appconfiguration.ErrorDetails.code|latest-stable'
+    package: '@azure/arm-appconfiguration|latest-stable'
+    summary: >-
+      Error code.
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: code
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'code?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: message
+    uid: '@azure/arm-appconfiguration.ErrorDetails.message|latest-stable'
+    package: '@azure/arm-appconfiguration|latest-stable'
+    summary: >-
+      Error message indicating why the operation failed.
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: message
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'message?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: VerboseOmit
+uid: '@azure/cosmos.VerboseOmit|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: ''
+fullName: VerboseOmit<T>
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type VerboseOmit<T,K> = Pick<T,Exclude>

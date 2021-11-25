@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: SystemTopicsListBySubscriptionNextResponse
+uid: '@azure/arm-eventgrid.SystemTopicsListBySubscriptionNextResponse|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: Contains response data for the listBySubscriptionNext operation.
+fullName: SystemTopicsListBySubscriptionNextResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type SystemTopicsListBySubscriptionNextResponse = SystemTopicsListResult

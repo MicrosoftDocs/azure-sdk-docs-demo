@@ -1,0 +1,11 @@
+### YamlMime:TSTypeAlias
+name: SearchIndexingBufferedSenderFlushDocumentsOptions
+uid: >-
+  @azure/search-documents.SearchIndexingBufferedSenderFlushDocumentsOptions|preview
+package: '@azure/search-documents|preview'
+summary: Options for SearchIndexingBufferedSenderFlushDocuments.
+fullName: SearchIndexingBufferedSenderFlushDocumentsOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type SearchIndexingBufferedSenderFlushDocumentsOptions = OperationOptions

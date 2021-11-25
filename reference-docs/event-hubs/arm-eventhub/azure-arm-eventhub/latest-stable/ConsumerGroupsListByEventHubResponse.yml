@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: ConsumerGroupsListByEventHubResponse
+uid: '@azure/arm-eventhub.ConsumerGroupsListByEventHubResponse|latest-stable'
+package: '@azure/arm-eventhub|latest-stable'
+summary: Contains response data for the listByEventHub operation.
+fullName: ConsumerGroupsListByEventHubResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type ConsumerGroupsListByEventHubResponse = ConsumerGroupListResult & {
+  _response: Object }

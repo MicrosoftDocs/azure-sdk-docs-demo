@@ -1,0 +1,53 @@
+### YamlMime:TSType
+name: ListDeletedPathsOptions
+uid: '@azure/storage-file-datalake.ListDeletedPathsOptions|latest-stable'
+package: '@azure/storage-file-datalake|latest-stable'
+summary: ''
+fullName: ListDeletedPathsOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: >-
+      @azure/storage-file-datalake.ListDeletedPathsOptions.abortSignal|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: prefix
+    uid: '@azure/storage-file-datalake.ListDeletedPathsOptions.prefix|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: Filters results to filesystems within the specified prefix.
+    fullName: prefix
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'prefix?: string'
+      return:
+        type: string
+        description: ''
+  - name: tracingOptions
+    uid: >-
+      @azure/storage-file-datalake.ListDeletedPathsOptions.tracingOptions|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: Options to configure spans created when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+extends: <xref uid="@azure/storage-file-datalake.CommonOptions|latest-stable" />

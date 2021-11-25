@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: UrlParameterValue
+uid: '@azure/core-http.UrlParameterValue|latest-stable'
+package: '@azure/core-http|latest-stable'
+summary: ''
+fullName: UrlParameterValue
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: skipUrlEncoding
+    uid: '@azure/core-http.UrlParameterValue.skipUrlEncoding|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    fullName: skipUrlEncoding
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'skipUrlEncoding: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: value
+    uid: '@azure/core-http.UrlParameterValue.value|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value: string'
+      return:
+        type: string
+        description: ''

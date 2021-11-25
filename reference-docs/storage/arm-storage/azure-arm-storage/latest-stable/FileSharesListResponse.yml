@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: FileSharesListResponse
+uid: '@azure/arm-storage.FileSharesListResponse|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: Contains response data for the list operation.
+fullName: FileSharesListResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type FileSharesListResponse = FileShareItems & { _response: Object }'

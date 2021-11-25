@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: SkuCapability
+uid: '@azure/arm-cognitiveservices.SkuCapability|latest-stable'
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: SkuCapability indicates the capability of a certain feature.
+fullName: SkuCapability
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: name
+    uid: '@azure/arm-cognitiveservices.SkuCapability.name|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: The name of the SkuCapability.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: value
+    uid: '@azure/arm-cognitiveservices.SkuCapability.value|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: The value of the SkuCapability.
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

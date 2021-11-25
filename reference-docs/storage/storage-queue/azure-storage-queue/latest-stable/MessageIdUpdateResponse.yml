@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: MessageIdUpdateResponse
+uid: '@azure/storage-queue.MessageIdUpdateResponse|latest-stable'
+package: '@azure/storage-queue|latest-stable'
+summary: Contains response data for the update operation.
+fullName: MessageIdUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type MessageIdUpdateResponse = MessageIdUpdateHeaders & { _response: Object }'

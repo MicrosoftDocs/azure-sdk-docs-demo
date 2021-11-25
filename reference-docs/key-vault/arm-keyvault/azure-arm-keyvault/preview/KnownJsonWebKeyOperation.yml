@@ -1,0 +1,40 @@
+### YamlMime:TSEnum
+name: KnownJsonWebKeyOperation
+uid: '@azure/arm-keyvault.KnownJsonWebKeyOperation|preview'
+package: '@azure/arm-keyvault|preview'
+summary: >-
+  Known values of <xref:@azure/arm-keyvault.JsonWebKeyOperation> that the
+  service accepts.
+fullName: KnownJsonWebKeyOperation
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Decrypt
+    uid: '@azure/arm-keyvault.KnownJsonWebKeyOperation.Decrypt|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Encrypt
+    uid: '@azure/arm-keyvault.KnownJsonWebKeyOperation.Encrypt|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Import
+    uid: '@azure/arm-keyvault.KnownJsonWebKeyOperation.Import|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Sign
+    uid: '@azure/arm-keyvault.KnownJsonWebKeyOperation.Sign|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: UnwrapKey
+    uid: '@azure/arm-keyvault.KnownJsonWebKeyOperation.UnwrapKey|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Verify
+    uid: '@azure/arm-keyvault.KnownJsonWebKeyOperation.Verify|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: WrapKey
+    uid: '@azure/arm-keyvault.KnownJsonWebKeyOperation.WrapKey|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''

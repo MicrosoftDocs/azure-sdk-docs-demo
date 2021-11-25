@@ -1,0 +1,28 @@
+### YamlMime:TSEnum
+name: KnownPersistedConnectionStatus
+uid: '@azure/arm-eventgrid.KnownPersistedConnectionStatus|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: >-
+  Known values of <xref:@azure/arm-eventgrid.PersistedConnectionStatus> that the
+  service accepts.
+fullName: KnownPersistedConnectionStatus
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Approved
+    uid: '@azure/arm-eventgrid.KnownPersistedConnectionStatus.Approved|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: Disconnected
+    uid: '@azure/arm-eventgrid.KnownPersistedConnectionStatus.Disconnected|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: Pending
+    uid: '@azure/arm-eventgrid.KnownPersistedConnectionStatus.Pending|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: Rejected
+    uid: '@azure/arm-eventgrid.KnownPersistedConnectionStatus.Rejected|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''

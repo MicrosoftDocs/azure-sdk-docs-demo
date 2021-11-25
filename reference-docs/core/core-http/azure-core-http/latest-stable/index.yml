@@ -1,0 +1,1397 @@
+### YamlMime:TSPackage
+uid: '@azure/core-http|latest-stable'
+name: '@azure/core-http'
+summary: ''
+type: package
+classes:
+  - '@azure/core-http.BrowserFetchHttpClient|latest-stable'
+  - '@azure/core-http.ExpiringAccessTokenCache|latest-stable'
+  - '@azure/core-http.AccessTokenRefresher|latest-stable'
+  - '@azure/core-http.ApiKeyCredentials|latest-stable'
+  - '@azure/core-http.BasicAuthenticationCredentials|latest-stable'
+  - '@azure/core-http.TopicCredentials|latest-stable'
+  - '@azure/core-http.FetchHttpClient|latest-stable'
+  - '@azure/core-http.ReportTransform|latest-stable'
+  - '@azure/core-http.HttpHeaders|latest-stable'
+  - '@azure/core-http.ConsoleHttpPipelineLogger|latest-stable'
+  - '@azure/core-http.NodeFetchHttpClient|latest-stable'
+  - '@azure/core-http.DeserializationPolicy|latest-stable'
+  - '@azure/core-http.DisableResponseDecompressionPolicy|latest-stable'
+  - '@azure/core-http.ExponentialRetryPolicy|latest-stable'
+  - '@azure/core-http.GenerateClientRequestIdPolicy|latest-stable'
+  - '@azure/core-http.KeepAlivePolicy|latest-stable'
+  - '@azure/core-http.LogPolicy|latest-stable'
+  - '@azure/core-http.ProxyPolicy|latest-stable'
+  - '@azure/core-http.RedirectPolicy|latest-stable'
+  - '@azure/core-http.BaseRequestPolicy|latest-stable'
+  - '@azure/core-http.RequestPolicyOptions|latest-stable'
+  - '@azure/core-http.RPRegistrationPolicy|latest-stable'
+  - '@azure/core-http.SigningPolicy|latest-stable'
+  - '@azure/core-http.SystemErrorRetryPolicy|latest-stable'
+  - '@azure/core-http.ThrottlingRetryPolicy|latest-stable'
+  - '@azure/core-http.TracingPolicy|latest-stable'
+  - '@azure/core-http.UserAgentPolicy|latest-stable'
+  - '@azure/core-http.RestError|latest-stable'
+  - '@azure/core-http.Serializer|latest-stable'
+  - '@azure/core-http.ServiceClient|latest-stable'
+  - '@azure/core-http.URLBuilder|latest-stable'
+  - '@azure/core-http.URLQuery|latest-stable'
+  - '@azure/core-http.URLToken|latest-stable'
+  - '@azure/core-http.URLTokenizer|latest-stable'
+  - '@azure/core-http.Sanitizer|latest-stable'
+  - '@azure/core-http.WebResource|latest-stable'
+  - '@azure/core-http.XhrHttpClient|latest-stable'
+interfaces:
+  - '@azure/core-http.AccessTokenCache|latest-stable'
+  - '@azure/core-http.ApiKeyCredentialOptions|latest-stable'
+  - '@azure/core-http.ServiceClientCredentials|latest-stable'
+  - '@azure/core-http.HttpClient|latest-stable'
+  - '@azure/core-http.HttpHeader|latest-stable'
+  - '@azure/core-http.HttpHeadersLike|latest-stable'
+  - '@azure/core-http.HttpOperationResponse|latest-stable'
+  - '@azure/core-http.HttpResponse|latest-stable'
+  - '@azure/core-http.RestResponse|latest-stable'
+  - '@azure/core-http.HttpPipelineLogger|latest-stable'
+  - '@azure/core-http.OperationArguments|latest-stable'
+  - '@azure/core-http.OperationOptions|latest-stable'
+  - '@azure/core-http.OperationRequestOptions|latest-stable'
+  - '@azure/core-http.OperationParameter|latest-stable'
+  - '@azure/core-http.OperationQueryParameter|latest-stable'
+  - '@azure/core-http.OperationURLParameter|latest-stable'
+  - '@azure/core-http.OperationResponse|latest-stable'
+  - '@azure/core-http.OperationSpec|latest-stable'
+  - '@azure/core-http.InternalPipelineOptions|latest-stable'
+  - '@azure/core-http.PipelineOptions|latest-stable'
+  - '@azure/core-http.TokenCyclerOptions|latest-stable'
+  - '@azure/core-http.DeserializationContentTypes|latest-stable'
+  - '@azure/core-http.DeserializationOptions|latest-stable'
+  - '@azure/core-http.RetryOptions|latest-stable'
+  - '@azure/core-http.KeepAliveOptions|latest-stable'
+  - '@azure/core-http.LogPolicyOptions|latest-stable'
+  - '@azure/core-http.RedirectOptions|latest-stable'
+  - '@azure/core-http.RequestPolicy|latest-stable'
+  - '@azure/core-http.RequestPolicyOptionsLike|latest-stable'
+  - '@azure/core-http.TracingPolicyOptions|latest-stable'
+  - '@azure/core-http.UserAgentOptions|latest-stable'
+  - '@azure/core-http.BaseMapper|latest-stable'
+  - '@azure/core-http.CompositeMapper|latest-stable'
+  - '@azure/core-http.CompositeMapperType|latest-stable'
+  - '@azure/core-http.DictionaryMapper|latest-stable'
+  - '@azure/core-http.DictionaryMapperType|latest-stable'
+  - '@azure/core-http.EnumMapper|latest-stable'
+  - '@azure/core-http.EnumMapperType|latest-stable'
+  - '@azure/core-http.MapperConstraints|latest-stable'
+  - '@azure/core-http.PolymorphicDiscriminator|latest-stable'
+  - '@azure/core-http.SequenceMapper|latest-stable'
+  - '@azure/core-http.SequenceMapperType|latest-stable'
+  - '@azure/core-http.SimpleMapperType|latest-stable'
+  - '@azure/core-http.UrlParameterValue|latest-stable'
+  - '@azure/core-http.ProxySettings|latest-stable'
+  - '@azure/core-http.ServiceClientOptions|latest-stable'
+  - '@azure/core-http.RetryData|latest-stable'
+  - '@azure/core-http.RetryError|latest-stable'
+  - '@azure/core-http.SanitizerOptions|latest-stable'
+  - '@azure/core-http.SerializerOptions|latest-stable'
+  - '@azure/core-http.ServiceCallback|latest-stable'
+  - '@azure/core-http.ParameterValue|latest-stable'
+  - '@azure/core-http.RequestOptionsBase|latest-stable'
+  - '@azure/core-http.RequestPrepareOptions|latest-stable'
+  - '@azure/core-http.WebResourceLike|latest-stable'
+typeAliases:
+  - '@azure/core-http.Authenticator|latest-stable'
+  - '@azure/core-http.CommonRequestInfo|latest-stable'
+  - '@azure/core-http.CommonRequestInit|latest-stable'
+  - '@azure/core-http.CommonResponse|latest-stable'
+  - '@azure/core-http.RawHttpHeaders|latest-stable'
+  - '@azure/core-http.ParameterPath|latest-stable'
+  - '@azure/core-http.RequestPolicyFactory|latest-stable'
+  - '@azure/core-http.ResponseHandler|latest-stable'
+  - '@azure/core-http.TelemetryInfo|latest-stable'
+  - '@azure/core-http.ProxyAgent|latest-stable'
+  - '@azure/core-http.Mapper|latest-stable'
+  - '@azure/core-http.MapperType|latest-stable'
+  - '@azure/core-http.PropertyParent|latest-stable'
+  - '@azure/core-http.ProxyOptions|latest-stable'
+  - '@azure/core-http.URLTokenType|latest-stable'
+  - '@azure/core-http.URLTokenizerState|latest-stable'
+  - '@azure/core-http.UnknownObject|latest-stable'
+  - '@azure/core-http.HttpMethods|latest-stable'
+  - '@azure/core-http.HttpRequestBody|latest-stable'
+  - '@azure/core-http.TransferProgressEvent|latest-stable'
+functions:
+  - name: parseHeaders(XMLHttpRequest)
+    uid: '@azure/core-http.parseHeaders|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parseHeaders(xhr: XMLHttpRequest)'
+      parameters:
+        - id: xhr
+          type: XMLHttpRequest
+          description: ''
+      return:
+        type: <xref uid="@azure/core-http.HttpHeadersLike|latest-stable" />
+        description: ''
+  - name: getCachedDefaultHttpClient()
+    uid: '@azure/core-http.getCachedDefaultHttpClient|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function getCachedDefaultHttpClient()
+      return:
+        type: <xref uid="@azure/core-http.HttpClient|latest-stable" />
+        description: ''
+  - name: isHttpHeadersLike(unknown)
+    uid: '@azure/core-http.isHttpHeadersLike|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isHttpHeadersLike(object?: unknown)'
+      parameters:
+        - id: object
+          type: unknown
+          description: ''
+      return:
+        type: boolean
+        description: ''
+  - name: operationOptionsToRequestOptionsBase<T>(T)
+    uid: '@azure/core-http.operationOptionsToRequestOptionsBase|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Converts an OperationOptions to a RequestOptionsBase
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function operationOptionsToRequestOptionsBase<T>(opts: T)'
+      parameters:
+        - id: opts
+          type: T
+          description: |
+            OperationOptions object to convert to RequestOptionsBase
+      return:
+        type: <xref uid="@azure/core-http.RequestOptionsBase|latest-stable" />
+        description: ''
+  - name: getPathStringFromParameter(OperationParameter)
+    uid: '@azure/core-http.getPathStringFromParameter|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Get the path to this parameter's value as a dotted string (a.b.c).
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getPathStringFromParameter(parameter: OperationParameter)'
+      parameters:
+        - id: parameter
+          type: <xref uid="@azure/core-http.OperationParameter|latest-stable" />
+          description: The parameter to get the path string for.
+      return:
+        type: string
+        description: The path to this parameter's value as a dotted string.
+  - name: getPathStringFromParameterPath(ParameterPath, Mapper)
+    uid: '@azure/core-http.getPathStringFromParameterPath|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getPathStringFromParameterPath(parameterPath: ParameterPath,
+        mapper: Mapper)
+      parameters:
+        - id: parameterPath
+          type: <xref uid="@azure/core-http.ParameterPath|latest-stable" />
+          description: ''
+        - id: mapper
+          type: <xref uid="@azure/core-http.Mapper|latest-stable" />
+          description: ''
+      return:
+        type: string
+        description: ''
+  - name: getStreamResponseStatusCodes(OperationSpec)
+    uid: '@azure/core-http.getStreamResponseStatusCodes|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Gets the list of status codes for streaming responses.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getStreamResponseStatusCodes(operationSpec: OperationSpec)'
+      parameters:
+        - id: operationSpec
+          type: <xref uid="@azure/core-http.OperationSpec|latest-stable" />
+          description: ''
+      return:
+        type: Set&lt;number&gt;
+        description: ''
+  - name: bearerTokenAuthenticationPolicy(TokenCredential, string | string[])
+    uid: '@azure/core-http.bearerTokenAuthenticationPolicy|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: |-
+      Creates a new factory for a RequestPolicy that applies a bearer token to
+      the requests' `Authorization` headers.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function bearerTokenAuthenticationPolicy(credential: TokenCredential,
+        scopes: string | string[])
+      parameters:
+        - id: credential
+          type: TokenCredential
+          description: The TokenCredential implementation that can supply the bearer token.
+        - id: scopes
+          type: string | string[]
+          description: |
+            The scopes for which the bearer token applies.
+      return:
+        type: <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />
+        description: ''
+  - name: deserializationPolicy(DeserializationContentTypes, SerializerOptions)
+    uid: '@azure/core-http.deserializationPolicy|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: >-
+      Create a new serialization RequestPolicyCreator that will serialized HTTP
+      request bodies as they
+
+      pass through the HTTP pipeline.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function deserializationPolicy(deserializationContentTypes?:
+        DeserializationContentTypes, parsingOptions?: SerializerOptions)
+      parameters:
+        - id: deserializationContentTypes
+          type: >-
+            <xref
+            uid="@azure/core-http.DeserializationContentTypes|latest-stable" />
+          description: ''
+        - id: parsingOptions
+          type: <xref uid="@azure/core-http.SerializerOptions|latest-stable" />
+          description: ''
+      return:
+        type: <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />
+        description: ''
+  - name: >-
+      deserializeResponseBody(string[], string[], HttpOperationResponse,
+      SerializerOptions)
+    uid: '@azure/core-http.deserializeResponseBody|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function deserializeResponseBody(jsonContentTypes: string[],
+        xmlContentTypes: string[], response: HttpOperationResponse, options?:
+        SerializerOptions)
+      parameters:
+        - id: jsonContentTypes
+          type: string[]
+          description: ''
+        - id: xmlContentTypes
+          type: string[]
+          description: ''
+        - id: response
+          type: <xref uid="@azure/core-http.HttpOperationResponse|latest-stable" />
+          description: ''
+        - id: options
+          type: <xref uid="@azure/core-http.SerializerOptions|latest-stable" />
+          description: ''
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/core-http.HttpOperationResponse|latest-stable" />&gt;
+        description: ''
+  - name: disableResponseDecompressionPolicy()
+    uid: '@azure/core-http.disableResponseDecompressionPolicy|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: |-
+      Returns a request policy factory that can be used to create an instance of
+      <xref:@azure/core-http.DisableResponseDecompressionPolicy>.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function disableResponseDecompressionPolicy()
+      return:
+        type: <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />
+        description: ''
+  - name: exponentialRetryPolicy(number, number, number)
+    uid: '@azure/core-http.exponentialRetryPolicy|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function exponentialRetryPolicy(retryCount?: number, retryInterval?:
+        number, maxRetryInterval?: number)
+      parameters:
+        - id: retryCount
+          type: number
+          description: ''
+        - id: retryInterval
+          type: number
+          description: ''
+        - id: maxRetryInterval
+          type: number
+          description: ''
+      return:
+        type: <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />
+        description: ''
+  - name: generateClientRequestIdPolicy(string)
+    uid: '@azure/core-http.generateClientRequestIdPolicy|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function generateClientRequestIdPolicy(requestIdHeaderName?: string)'
+      parameters:
+        - id: requestIdHeaderName
+          type: string
+          description: ''
+      return:
+        type: <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />
+        description: ''
+  - name: keepAlivePolicy(KeepAliveOptions)
+    uid: '@azure/core-http.keepAlivePolicy|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function keepAlivePolicy(keepAliveOptions?: KeepAliveOptions)'
+      parameters:
+        - id: keepAliveOptions
+          type: <xref uid="@azure/core-http.KeepAliveOptions|latest-stable" />
+          description: ''
+      return:
+        type: <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />
+        description: ''
+  - name: logPolicy(LogPolicyOptions)
+    uid: '@azure/core-http.logPolicy|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function logPolicy(loggingOptions?: LogPolicyOptions)'
+      parameters:
+        - id: loggingOptions
+          type: <xref uid="@azure/core-http.LogPolicyOptions|latest-stable" />
+          description: ''
+      return:
+        type: <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />
+        description: ''
+  - name: getDefaultUserAgentKey()
+    uid: '@azure/core-http.getDefaultUserAgentKey|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function getDefaultUserAgentKey()
+      return:
+        type: string
+        description: ''
+  - name: getPlatformSpecificData()
+    uid: '@azure/core-http.getPlatformSpecificData|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function getPlatformSpecificData()
+      return:
+        type: <xref uid="@azure/core-http.TelemetryInfo|latest-stable" />[]
+        description: ''
+  - name: ndJsonPolicy()
+    uid: '@azure/core-http.ndJsonPolicy|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function ndJsonPolicy()
+      return:
+        type: <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />
+        description: ''
+  - name: getDefaultProxySettings(string)
+    uid: '@azure/core-http.getDefaultProxySettings|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getDefaultProxySettings(proxyUrl?: string)'
+      parameters:
+        - id: proxyUrl
+          type: string
+          description: ''
+      return:
+        type: >-
+          <xref uid="@azure/core-http.ProxySettings|latest-stable" /> |
+          undefined
+        description: ''
+  - name: proxyPolicy(ProxySettings, Object)
+    uid: '@azure/core-http.proxyPolicy|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: |-
+      A policy that allows one to apply proxy settings to all requests.
+      If not passed static settings, they will be retrieved from the HTTPS_PROXY
+      or HTTP_PROXY environment variables.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function proxyPolicy(proxySettings?: ProxySettings, options?: Object)'
+      parameters:
+        - id: proxySettings
+          type: <xref uid="@azure/core-http.ProxySettings|latest-stable" />
+          description: ProxySettings to use on each request.
+        - id: options
+          type: Object
+          description: |
+            additional settings, for example, custom NO_PROXY patterns
+      return:
+        type: <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />
+        description: ''
+  - name: loadNoProxy()
+    uid: '@azure/core-http.loadNoProxy|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function loadNoProxy()
+      return:
+        type: string[]
+        description: ''
+  - name: redirectPolicy(number)
+    uid: '@azure/core-http.redirectPolicy|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function redirectPolicy(maximumRetries?: number)'
+      parameters:
+        - id: maximumRetries
+          type: number
+          description: ''
+      return:
+        type: <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />
+        description: ''
+  - name: rpRegistrationPolicy(number)
+    uid: '@azure/core-http.rpRegistrationPolicy|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function rpRegistrationPolicy(retryTimeout?: number)'
+      parameters:
+        - id: retryTimeout
+          type: number
+          description: ''
+      return:
+        type: <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />
+        description: ''
+  - name: signingPolicy(ServiceClientCredentials)
+    uid: '@azure/core-http.signingPolicy|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function signingPolicy(authenticationProvider: ServiceClientCredentials)'
+      parameters:
+        - id: authenticationProvider
+          type: >-
+            <xref uid="@azure/core-http.ServiceClientCredentials|latest-stable"
+            />
+          description: ''
+      return:
+        type: <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />
+        description: ''
+  - name: systemErrorRetryPolicy(number, number, number, number)
+    uid: '@azure/core-http.systemErrorRetryPolicy|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function systemErrorRetryPolicy(retryCount?: number, retryInterval?:
+        number, minRetryInterval?: number, maxRetryInterval?: number)
+      parameters:
+        - id: retryCount
+          type: number
+          description: ''
+        - id: retryInterval
+          type: number
+          description: ''
+        - id: minRetryInterval
+          type: number
+          description: ''
+        - id: maxRetryInterval
+          type: number
+          description: ''
+      return:
+        type: <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />
+        description: ''
+  - name: throttlingRetryPolicy()
+    uid: '@azure/core-http.throttlingRetryPolicy|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function throttlingRetryPolicy()
+      return:
+        type: <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />
+        description: ''
+  - name: tracingPolicy(TracingPolicyOptions)
+    uid: '@azure/core-http.tracingPolicy|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function tracingPolicy(tracingOptions?: TracingPolicyOptions)'
+      parameters:
+        - id: tracingOptions
+          type: <xref uid="@azure/core-http.TracingPolicyOptions|latest-stable" />
+          description: ''
+      return:
+        type: <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />
+        description: ''
+  - name: getDefaultUserAgentValue()
+    uid: '@azure/core-http.getDefaultUserAgentValue|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function getDefaultUserAgentValue()
+      return:
+        type: string
+        description: ''
+  - name: userAgentPolicy(TelemetryInfo)
+    uid: '@azure/core-http.userAgentPolicy|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function userAgentPolicy(userAgentData?: TelemetryInfo)'
+      parameters:
+        - id: userAgentData
+          type: <xref uid="@azure/core-http.TelemetryInfo|latest-stable" />
+          description: ''
+      return:
+        type: <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />
+        description: ''
+  - name: createProxyAgent(string, ProxySettings, HttpHeadersLike)
+    uid: '@azure/core-http.createProxyAgent|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createProxyAgent(requestUrl: string, proxySettings:
+        ProxySettings, headers?: HttpHeadersLike)
+      parameters:
+        - id: requestUrl
+          type: string
+          description: ''
+        - id: proxySettings
+          type: <xref uid="@azure/core-http.ProxySettings|latest-stable" />
+          description: ''
+        - id: headers
+          type: <xref uid="@azure/core-http.HttpHeadersLike|latest-stable" />
+          description: ''
+      return:
+        type: <xref uid="@azure/core-http.ProxyAgent|latest-stable" />
+        description: ''
+  - name: createTunnel(boolean, boolean, HttpsOverHttpsOptions)
+    uid: '@azure/core-http.createTunnel|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createTunnel(isRequestHttps: boolean, isProxyHttps: boolean,
+        tunnelOptions: HttpsOverHttpsOptions)
+      parameters:
+        - id: isRequestHttps
+          type: boolean
+          description: ''
+        - id: isProxyHttps
+          type: boolean
+          description: ''
+        - id: tunnelOptions
+          type: HttpsOverHttpsOptions
+          description: ''
+      return:
+        type: Agent | Agent
+        description: ''
+  - name: isUrlHttps(string)
+    uid: '@azure/core-http.isUrlHttps|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isUrlHttps(url: string)'
+      parameters:
+        - id: url
+          type: string
+          description: ''
+      return:
+        type: boolean
+        description: ''
+  - name: serializeObject(unknown)
+    uid: '@azure/core-http.serializeObject|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function serializeObject(toSerialize: unknown)'
+      parameters:
+        - id: toSerialize
+          type: unknown
+          description: ''
+      return:
+        type: any
+        description: ''
+  - name: createPipelineFromOptions(InternalPipelineOptions, RequestPolicyFactory)
+    uid: '@azure/core-http.createPipelineFromOptions|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createPipelineFromOptions(pipelineOptions:
+        InternalPipelineOptions, authPolicyFactory?: RequestPolicyFactory)
+      parameters:
+        - id: pipelineOptions
+          type: >-
+            <xref uid="@azure/core-http.InternalPipelineOptions|latest-stable"
+            />
+          description: ''
+        - id: authPolicyFactory
+          type: <xref uid="@azure/core-http.RequestPolicyFactory|latest-stable" />
+          description: ''
+      return:
+        type: <xref uid="@azure/core-http.ServiceClientOptions|latest-stable" />
+        description: ''
+  - name: flattenResponse(HttpOperationResponse, OperationResponse | undefined)
+    uid: '@azure/core-http.flattenResponse|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function flattenResponse(_response: HttpOperationResponse, responseSpec:
+        OperationResponse | undefined)
+      parameters:
+        - id: _response
+          type: <xref uid="@azure/core-http.HttpOperationResponse|latest-stable" />
+          description: ''
+        - id: responseSpec
+          type: >-
+            <xref uid="@azure/core-http.OperationResponse|latest-stable" /> |
+            undefined
+          description: ''
+      return:
+        type: <xref uid="@azure/core-http.RestResponse|latest-stable" />
+        description: ''
+  - name: >-
+      getOperationArgumentValueFromParameterPath(ServiceClient,
+      OperationArguments, ParameterPath, Mapper, Serializer)
+    uid: '@azure/core-http.getOperationArgumentValueFromParameterPath|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getOperationArgumentValueFromParameterPath(serviceClient:
+        ServiceClient, operationArguments: OperationArguments, parameterPath:
+        ParameterPath, parameterMapper: Mapper, serializer: Serializer)
+      parameters:
+        - id: serviceClient
+          type: <xref uid="@azure/core-http.ServiceClient|latest-stable" />
+          description: ''
+        - id: operationArguments
+          type: <xref uid="@azure/core-http.OperationArguments|latest-stable" />
+          description: ''
+        - id: parameterPath
+          type: <xref uid="@azure/core-http.ParameterPath|latest-stable" />
+          description: ''
+        - id: parameterMapper
+          type: <xref uid="@azure/core-http.Mapper|latest-stable" />
+          description: ''
+        - id: serializer
+          type: <xref uid="@azure/core-http.Serializer|latest-stable" />
+          description: ''
+      return:
+        type: any
+        description: ''
+  - name: getPropertyParent(PropertyParent, string[])
+    uid: '@azure/core-http.getPropertyParent|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: >-
+      Get the property parent for the property at the provided path when
+      starting with the provided
+
+      parent object.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getPropertyParent(parent: PropertyParent, propertyPath:
+        string[])
+      parameters:
+        - id: parent
+          type: <xref uid="@azure/core-http.PropertyParent|latest-stable" />
+          description: ''
+        - id: propertyPath
+          type: string[]
+          description: ''
+      return:
+        type: <xref uid="@azure/core-http.PropertyParent|latest-stable" />
+        description: ''
+  - name: >-
+      serializeRequestBody(ServiceClient, WebResourceLike, OperationArguments,
+      OperationSpec)
+    uid: '@azure/core-http.serializeRequestBody|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function serializeRequestBody(serviceClient: ServiceClient, httpRequest:
+        WebResourceLike, operationArguments: OperationArguments, operationSpec:
+        OperationSpec)
+      parameters:
+        - id: serviceClient
+          type: <xref uid="@azure/core-http.ServiceClient|latest-stable" />
+          description: ''
+        - id: httpRequest
+          type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
+          description: ''
+        - id: operationArguments
+          type: <xref uid="@azure/core-http.OperationArguments|latest-stable" />
+          description: ''
+        - id: operationSpec
+          type: <xref uid="@azure/core-http.OperationSpec|latest-stable" />
+          description: ''
+  - name: isAlphaNumericCharacter(string)
+    uid: '@azure/core-http.isAlphaNumericCharacter|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: >-
+      Get whether or not the provided character (single character string) is an
+      alphanumeric (letter or
+
+      digit) character.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isAlphaNumericCharacter(character: string)'
+      parameters:
+        - id: character
+          type: string
+          description: ''
+      return:
+        type: boolean
+        description: ''
+  - name: decodeString(string)
+    uid: '@azure/core-http.decodeString|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Decodes a base64 string into a byte array.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function decodeString(value: string)'
+      parameters:
+        - id: value
+          type: string
+          description: |
+            The base64 string to decode
+      return:
+        type: Uint8Array
+        description: ''
+  - name: encodeByteArray(Uint8Array)
+    uid: '@azure/core-http.encodeByteArray|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Encodes a byte array in base64 format.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function encodeByteArray(value: Uint8Array)'
+      parameters:
+        - id: value
+          type: Uint8Array
+          description: |
+            The Uint8Aray to encode
+      return:
+        type: string
+        description: ''
+  - name: encodeString(string)
+    uid: '@azure/core-http.encodeString|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Encodes a string in base64 format.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function encodeString(value: string)'
+      parameters:
+        - id: value
+          type: string
+          description: |
+            The string to encode
+      return:
+        type: string
+        description: ''
+  - name: delay<T>(number, T, Object)
+    uid: '@azure/core-http.delay|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: >-
+      A wrapper for setTimeout that resolves a promise after delayInMs
+      milliseconds.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function delay<T>(delayInMs: number, value?: T, options?: Object)'
+      parameters:
+        - id: delayInMs
+          type: number
+          description: The number of milliseconds to be delayed.
+        - id: value
+          type: T
+          description: The value to be resolved with after a timeout of t milliseconds.
+        - id: options
+          type: Object
+          description: |-
+            The options for delay - currently abort options
+              @param abortSignal - The abortSignal associated with containing operation.
+              @param abortErrorMsg - The abort error message associated with containing operation.
+      return:
+        type: Promise&lt;T | void&gt;
+        description: '- Resolved promise'
+  - name: isNumber(unknown)
+    uid: '@azure/core-http.isNumber|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isNumber(n: unknown)'
+      parameters:
+        - id: 'n'
+          type: unknown
+          description: ''
+      return:
+        type: boolean
+        description: ''
+  - name: >-
+      shouldRetry(number, (response?: HttpOperationResponse, error?: RetryError)
+      => boolean, RetryData, HttpOperationResponse, RetryError)
+    uid: '@azure/core-http.shouldRetry|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function shouldRetry(retryLimit: number, predicate: (response?:
+        HttpOperationResponse, error?: RetryError) => boolean, retryData:
+        RetryData, response?: HttpOperationResponse, error?: RetryError)
+      parameters:
+        - id: retryLimit
+          type: number
+          description: Specifies the max number of retries.
+        - id: predicate
+          type: '(response?: HttpOperationResponse, error?: RetryError) =&gt; boolean'
+          description: >-
+            Initial chekck on whether to retry based on given responses or
+            errors
+        - id: retryData
+          type: <xref uid="@azure/core-http.RetryData|latest-stable" />
+          description: The retry data.
+        - id: response
+          type: <xref uid="@azure/core-http.HttpOperationResponse|latest-stable" />
+          description: ''
+        - id: error
+          type: <xref uid="@azure/core-http.RetryError|latest-stable" />
+          description: ''
+      return:
+        type: boolean
+        description: True if the operation qualifies for a retry; false otherwise.
+  - name: updateRetryData(Object, RetryData, RetryError)
+    uid: '@azure/core-http.updateRetryData|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function updateRetryData(retryOptions: Object, retryData?: RetryData,
+        err?: RetryError)
+      parameters:
+        - id: retryOptions
+          type: Object
+          description: specifies retry interval, and its lower bound and upper bound.
+        - id: retryData
+          type: <xref uid="@azure/core-http.RetryData|latest-stable" />
+          description: The retry data.
+        - id: err
+          type: <xref uid="@azure/core-http.RetryError|latest-stable" />
+          description: |
+            The operation"s error, if any.
+      return:
+        type: <xref uid="@azure/core-http.RetryData|latest-stable" />
+        description: ''
+  - name: isDefined<T>(T | undefined | null)
+    uid: '@azure/core-http.isDefined|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Helper TypeGuard that checks if the value is not null or undefined.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isDefined<T>(thing: T | undefined | null)'
+      parameters:
+        - id: thing
+          type: T | undefined | null
+          description: Anything
+      return:
+        type: boolean
+        description: ''
+  - name: applyMixins(unknown, any[])
+    uid: '@azure/core-http.applyMixins|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: >-
+      Applies the properties on the prototype of sourceCtors to the prototype of
+      targetCtor
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function applyMixins(targetCtorParam: unknown, sourceCtors: any[])'
+      parameters:
+        - id: targetCtorParam
+          type: unknown
+          description: ''
+        - id: sourceCtors
+          type: any[]
+          description: >
+            An array of source objects from which the properties need to be
+            taken.
+  - name: encodeUri(string)
+    uid: '@azure/core-http.encodeUri|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Encodes an URI.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function encodeUri(uri: string)'
+      parameters:
+        - id: uri
+          type: string
+          description: The URI to be encoded.
+      return:
+        type: string
+        description: The encoded URI.
+  - name: executePromisesSequentially(Array<any>, unknown)
+    uid: '@azure/core-http.executePromisesSequentially|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: >-
+      Executes an array of promises sequentially. Inspiration of this method is
+      here:
+
+      https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html. An
+      awesome blog on promises!
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function executePromisesSequentially(promiseFactories: Array<any>,
+        kickstart: unknown)
+      parameters:
+        - id: promiseFactories
+          type: Array&lt;any&gt;
+          description: An array of promise factories(A function that return a promise)
+        - id: kickstart
+          type: unknown
+          description: >-
+            Input to the first promise that is used to kickstart the promise
+            chain.
+
+            If not provided then the promise chain starts with undefined.
+      return:
+        type: Promise&lt;any&gt;
+        description: A chain of resolved or rejected promises
+  - name: generateUuid()
+    uid: '@azure/core-http.generateUuid|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Generated UUID
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function generateUuid()
+      return:
+        type: string
+        description: RFC4122 v4 UUID.
+  - name: getEnvironmentValue(string)
+    uid: '@azure/core-http.getEnvironmentValue|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function getEnvironmentValue(name: string)'
+      parameters:
+        - id: name
+          type: string
+          description: ''
+      return:
+        type: string | undefined
+        description: ''
+  - name: isDuration(string)
+    uid: '@azure/core-http.isDuration|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Indicates whether the given string is in ISO 8601 format.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isDuration(value: string)'
+      parameters:
+        - id: value
+          type: string
+          description: The value to be validated for ISO 8601 duration format.
+      return:
+        type: boolean
+        description: '`true` if valid, `false` otherwise.'
+  - name: isObject(unknown)
+    uid: '@azure/core-http.isObject|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isObject(input: unknown)'
+      parameters:
+        - id: input
+          type: unknown
+          description: ''
+      return:
+        type: boolean
+        description: >-
+          true when input is an object type that is not null, Array, RegExp, or
+          Date.
+  - name: isPrimitiveType(unknown)
+    uid: '@azure/core-http.isPrimitiveType|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: |-
+      Determines whether the given entity is a basic/primitive type
+      (string, number, boolean, null, undefined).
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isPrimitiveType(value: unknown)'
+      parameters:
+        - id: value
+          type: unknown
+          description: Any entity
+      return:
+        type: boolean
+        description: true is it is primitive type, false otherwise.
+  - name: isValidUuid(string)
+    uid: '@azure/core-http.isValidUuid|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Validates the given uuid as a string
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isValidUuid(uuid: string)'
+      parameters:
+        - id: uuid
+          type: string
+          description: The uuid as a string that needs to be validated
+      return:
+        type: boolean
+        description: True if the uuid is valid; false otherwise.
+  - name: prepareXMLRootList(unknown, string, string, string)
+    uid: '@azure/core-http.prepareXMLRootList|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function prepareXMLRootList(obj: unknown, elementName: string,
+        xmlNamespaceKey?: string, xmlNamespace?: string)
+      parameters:
+        - id: obj
+          type: unknown
+          description: ''
+        - id: elementName
+          type: string
+          description: ''
+        - id: xmlNamespaceKey
+          type: string
+          description: ''
+        - id: xmlNamespace
+          type: string
+          description: ''
+      return:
+        type: '[key: string]\: any'
+        description: ''
+  - name: promiseToCallback(Promise<any>)
+    uid: '@azure/core-http.promiseToCallback|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Converts a Promise to a callback.
+    remarks: ''
+    isPreview: false
+    isDeprecated: true
+    customDeprecatedMessage: generated code should instead depend on responseToBody
+    syntax:
+      content: 'function promiseToCallback(promise: Promise<any>)'
+      parameters:
+        - id: promise
+          type: Promise&lt;any&gt;
+          description: The Promise to be converted to a callback
+      return:
+        type: '(cb: Function) =&gt; void'
+        description: 'A function that takes the callback `(cb: Function) => void`'
+  - name: promiseToServiceCallback<T>(Promise<HttpOperationResponse>)
+    uid: '@azure/core-http.promiseToServiceCallback|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Converts a Promise to a service callback.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function promiseToServiceCallback<T>(promise:
+        Promise<HttpOperationResponse>)
+      parameters:
+        - id: promise
+          type: >-
+            Promise&lt;<xref
+            uid="@azure/core-http.HttpOperationResponse|latest-stable" />&gt;
+          description: >-
+            The Promise of HttpOperationResponse to be converted to a service
+            callback
+      return:
+        type: '(cb: ServiceCallback&lt;T&gt;) =&gt; void'
+        description: >-
+          A function that takes the service callback (cb: ServiceCallback<T>):
+          void
+  - name: replaceAll(string | undefined, string, string)
+    uid: '@azure/core-http.replaceAll|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: >-
+      Replace all of the instances of searchValue in value with the provided
+      replaceValue.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function replaceAll(value: string | undefined, searchValue: string,
+        replaceValue: string)
+      parameters:
+        - id: value
+          type: string | undefined
+          description: The value to search and replace in.
+        - id: searchValue
+          type: string
+          description: The value to search for in the value argument.
+        - id: replaceValue
+          type: string
+          description: The value to replace searchValue with in the value argument.
+      return:
+        type: string | undefined
+        description: >-
+          The value where each instance of searchValue was replaced with
+          replacedValue.
+  - name: stripRequest(WebResourceLike)
+    uid: '@azure/core-http.stripRequest|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: |-
+      Returns a stripped version of the Http Request that does not contain the
+      Authorization header.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function stripRequest(request: WebResourceLike)'
+      parameters:
+        - id: request
+          type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
+          description: The Http Request object
+      return:
+        type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
+        description: The stripped version of Http Request.
+  - name: stripResponse(HttpOperationResponse)
+    uid: '@azure/core-http.stripResponse|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: |-
+      Returns a stripped version of the Http Response which only contains body,
+      headers and the status.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function stripResponse(response: HttpOperationResponse)'
+      parameters:
+        - id: response
+          type: <xref uid="@azure/core-http.HttpOperationResponse|latest-stable" />
+          description: The Http Response
+      return:
+        type: any
+        description: The stripped version of Http Response.
+  - name: urlIsHTTPS(Object)
+    uid: '@azure/core-http.urlIsHTTPS|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Checks if a parsed URL is HTTPS
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function urlIsHTTPS(urlToCheck: Object)'
+      parameters:
+        - id: urlToCheck
+          type: Object
+          description: The url to check
+      return:
+        type: boolean
+        description: True if the URL is HTTPS; false otherwise.
+  - name: parseXML(string, SerializerOptions)
+    uid: '@azure/core-http.parseXML|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Converts given XML string into JSON
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function parseXML(str: string, opts?: SerializerOptions)'
+      parameters:
+        - id: str
+          type: string
+          description: String containing the XML content to be parsed into JSON
+        - id: opts
+          type: <xref uid="@azure/core-http.SerializerOptions|latest-stable" />
+          description: |
+            Options that govern the parsing of given xml string
+      return:
+        type: Promise&lt;any&gt;
+        description: ''
+  - name: stringifyXML(unknown, SerializerOptions)
+    uid: '@azure/core-http.stringifyXML|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Converts given JSON object to XML string
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function stringifyXML(obj: unknown, opts?: SerializerOptions)'
+      parameters:
+        - id: obj
+          type: unknown
+          description: JSON object to be converted into XML string
+        - id: opts
+          type: <xref uid="@azure/core-http.SerializerOptions|latest-stable" />
+          description: |
+            Options that govern the parsing of given JSON object
+      return:
+        type: string
+        description: ''
+  - name: isWebResourceLike(unknown)
+    uid: '@azure/core-http.isWebResourceLike|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function isWebResourceLike(object: unknown)'
+      parameters:
+        - id: object
+          type: unknown
+          description: ''
+      return:
+        type: boolean
+        description: ''
+enums:
+  - '@azure/core-http.HttpPipelineLogLevel|latest-stable'
+  - '@azure/core-http.RetryMode|latest-stable'
+  - '@azure/core-http.QueryCollectionFormat|latest-stable'

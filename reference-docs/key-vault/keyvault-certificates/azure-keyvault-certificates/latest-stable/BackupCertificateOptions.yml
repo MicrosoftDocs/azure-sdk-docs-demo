@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: BackupCertificateOptions
+uid: '@azure/keyvault-certificates.BackupCertificateOptions|latest-stable'
+package: '@azure/keyvault-certificates|latest-stable'
+summary: Options for backupCertificate.
+fullName: BackupCertificateOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type BackupCertificateOptions = OperationOptions

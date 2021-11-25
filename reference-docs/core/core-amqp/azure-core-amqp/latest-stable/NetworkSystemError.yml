@@ -1,0 +1,134 @@
+### YamlMime:TSType
+name: NetworkSystemError
+uid: '@azure/core-amqp.NetworkSystemError|latest-stable'
+package: '@azure/core-amqp|latest-stable'
+summary: >-
+  Describes the fields on a Node.js SystemError.
+
+  Omits fields that are not related to network calls (e.g. file system calls).
+
+  See
+  https://nodejs.org/dist/latest-v12.x/docs/api/errors.html#errors_class_systemerror
+fullName: NetworkSystemError
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: address
+    uid: '@azure/core-amqp.NetworkSystemError.address|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+    fullName: address
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'address?: string'
+      return:
+        type: string
+        description: ''
+  - name: code
+    uid: '@azure/core-amqp.NetworkSystemError.code|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+    fullName: code
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'code: string'
+      return:
+        type: string
+        description: ''
+  - name: errno
+    uid: '@azure/core-amqp.NetworkSystemError.errno|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+    fullName: errno
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'errno: string | number'
+      return:
+        type: string | number
+        description: ''
+  - name: info
+    uid: '@azure/core-amqp.NetworkSystemError.info|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+    fullName: info
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'info?: any'
+      return:
+        type: any
+        description: ''
+  - name: message
+    uid: '@azure/core-amqp.NetworkSystemError.message|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+    fullName: message
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'message: string'
+      return:
+        type: string
+        description: ''
+  - name: name
+    uid: '@azure/core-amqp.NetworkSystemError.name|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        type: string
+        description: ''
+  - name: port
+    uid: '@azure/core-amqp.NetworkSystemError.port|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+    fullName: port
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'port?: number'
+      return:
+        type: number
+        description: ''
+  - name: stack
+    uid: '@azure/core-amqp.NetworkSystemError.stack|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+    fullName: stack
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'stack: string'
+      return:
+        type: string
+        description: ''
+  - name: syscall
+    uid: '@azure/core-amqp.NetworkSystemError.syscall|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+    fullName: syscall
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'syscall: string'
+      return:
+        type: string
+        description: ''

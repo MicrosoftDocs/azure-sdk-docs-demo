@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: ListIndexersOptions
+uid: '@azure/search-documents.ListIndexersOptions|preview'
+package: '@azure/search-documents|preview'
+summary: Options for a list indexers operation.
+fullName: ListIndexersOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type ListIndexersOptions = OperationOptions

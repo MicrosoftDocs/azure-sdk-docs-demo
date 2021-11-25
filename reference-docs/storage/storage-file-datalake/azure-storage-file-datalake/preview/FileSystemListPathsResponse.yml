@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: FileSystemListPathsResponse
+uid: '@azure/storage-file-datalake.FileSystemListPathsResponse|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: ''
+fullName: FileSystemListPathsResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type FileSystemListPathsResponse = PathList & FileSystemListPathsHeaders & {
+  _response: Object }

@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: ResourceAccessRule
+uid: '@azure/arm-storage.ResourceAccessRule|preview'
+package: '@azure/arm-storage|preview'
+summary: Resource Access Rule.
+fullName: ResourceAccessRule
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: resourceId
+    uid: '@azure/arm-storage.ResourceAccessRule.resourceId|preview'
+    package: '@azure/arm-storage|preview'
+    summary: Resource Id
+    fullName: resourceId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'resourceId?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: tenantId
+    uid: '@azure/arm-storage.ResourceAccessRule.tenantId|preview'
+    package: '@azure/arm-storage|preview'
+    summary: Tenant Id
+    fullName: tenantId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tenantId?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

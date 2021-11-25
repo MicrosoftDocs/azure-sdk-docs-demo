@@ -1,0 +1,85 @@
+### YamlMime:TSType
+name: TopicTypes
+uid: '@azure/arm-eventgrid.TopicTypes|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: Interface representing a TopicTypes.
+fullName: TopicTypes
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+methods:
+  - name: get(string, TopicTypesGetOptionalParams)
+    uid: '@azure/arm-eventgrid.TopicTypes.get|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: Get information about a topic type.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function get(topicTypeName: string, options?:
+        TopicTypesGetOptionalParams)
+      parameters:
+        - id: topicTypeName
+          type: string
+          description: Name of the topic type.
+        - id: options
+          type: >-
+            <xref uid="@azure/arm-eventgrid.TopicTypesGetOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventgrid.TopicTypesGetResponse|preview" />&gt;
+        description: ''
+  - name: list(TopicTypesListOptionalParams)
+    uid: '@azure/arm-eventgrid.TopicTypes.list|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: List all registered topic types.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function list(options?: TopicTypesListOptionalParams)'
+      parameters:
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.TopicTypesListOptionalParams|preview" />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-eventgrid.TopicTypeInfo|preview" />&gt;
+        description: ''
+  - name: listEventTypes(string, TopicTypesListEventTypesOptionalParams)
+    uid: '@azure/arm-eventgrid.TopicTypes.listEventTypes|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: List event types for a topic type.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listEventTypes(topicTypeName: string, options?:
+        TopicTypesListEventTypesOptionalParams)
+      parameters:
+        - id: topicTypeName
+          type: string
+          description: Name of the topic type.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.TopicTypesListEventTypesOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-eventgrid.EventType|preview" />&gt;
+        description: ''

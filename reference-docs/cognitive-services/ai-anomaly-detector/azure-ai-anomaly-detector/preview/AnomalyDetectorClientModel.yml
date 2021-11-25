@@ -1,0 +1,67 @@
+### YamlMime:TSType
+name: AnomalyDetectorClientModel
+uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientModel|preview'
+package: '@azure/ai-anomaly-detector|preview'
+summary: Response of get model.
+fullName: AnomalyDetectorClientModel
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: createdTime
+    uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientModel.createdTime|preview'
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: Date and time (UTC) when the model was created.
+    fullName: createdTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'createdTime: Date'
+      return:
+        type: Date
+        description: ''
+  - name: lastUpdatedTime
+    uid: >-
+      @azure/ai-anomaly-detector.AnomalyDetectorClientModel.lastUpdatedTime|preview
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: Date and time (UTC) when the model was last updated.
+    fullName: lastUpdatedTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lastUpdatedTime: Date'
+      return:
+        type: Date
+        description: ''
+  - name: modelId
+    uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientModel.modelId|preview'
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: Model identifier.
+    fullName: modelId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'modelId: string'
+      return:
+        type: string
+        description: ''
+  - name: modelInfo
+    uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientModel.modelInfo|preview'
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: Training Status of the model.
+    fullName: modelInfo
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'modelInfo?: AnomalyDetectorClientModelInfo'
+      return:
+        type: >-
+          <xref
+          uid="@azure/ai-anomaly-detector.AnomalyDetectorClientModelInfo|preview"
+          />
+        description: ''

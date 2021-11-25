@@ -1,0 +1,28 @@
+### YamlMime:TSEnum
+name: KnownJsonWebKeyCurveName
+uid: '@azure/arm-keyvault.KnownJsonWebKeyCurveName|preview'
+package: '@azure/arm-keyvault|preview'
+summary: >-
+  Known values of <xref:@azure/arm-keyvault.JsonWebKeyCurveName> that the
+  service accepts.
+fullName: KnownJsonWebKeyCurveName
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: P256
+    uid: '@azure/arm-keyvault.KnownJsonWebKeyCurveName.P256|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: P256K
+    uid: '@azure/arm-keyvault.KnownJsonWebKeyCurveName.P256K|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: P384
+    uid: '@azure/arm-keyvault.KnownJsonWebKeyCurveName.P384|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: P521
+    uid: '@azure/arm-keyvault.KnownJsonWebKeyCurveName.P521|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''

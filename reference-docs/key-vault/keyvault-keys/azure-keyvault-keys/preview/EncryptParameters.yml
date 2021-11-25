@@ -1,0 +1,14 @@
+### YamlMime:TSTypeAlias
+name: EncryptParameters
+uid: '@azure/keyvault-keys.EncryptParameters|preview'
+package: '@azure/keyvault-keys|preview'
+summary: >-
+  A type representing all currently supported encryption parameters as they
+  apply to different encryption algorithms.
+fullName: EncryptParameters
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type EncryptParameters = RsaEncryptParameters | AesGcmEncryptParameters |
+  AesCbcEncryptParameters

@@ -1,0 +1,76 @@
+### YamlMime:TSType
+name: PathPermissions
+uid: '@azure/storage-file-datalake.PathPermissions|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: ''
+fullName: PathPermissions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: extendedAcls
+    uid: '@azure/storage-file-datalake.PathPermissions.extendedAcls|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: extendedAcls
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'extendedAcls: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: group
+    uid: '@azure/storage-file-datalake.PathPermissions.group|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: group
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'group: RolePermissions'
+      return:
+        type: <xref uid="@azure/storage-file-datalake.RolePermissions|preview" />
+        description: ''
+  - name: other
+    uid: '@azure/storage-file-datalake.PathPermissions.other|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: other
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'other: RolePermissions'
+      return:
+        type: <xref uid="@azure/storage-file-datalake.RolePermissions|preview" />
+        description: ''
+  - name: owner
+    uid: '@azure/storage-file-datalake.PathPermissions.owner|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: owner
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'owner: RolePermissions'
+      return:
+        type: <xref uid="@azure/storage-file-datalake.RolePermissions|preview" />
+        description: ''
+  - name: stickyBit
+    uid: '@azure/storage-file-datalake.PathPermissions.stickyBit|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: stickyBit
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'stickyBit: boolean'
+      return:
+        type: boolean
+        description: ''

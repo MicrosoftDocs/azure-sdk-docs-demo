@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: KeyVaultSelectiveKeyRestoreResult
+uid: '@azure/keyvault-admin.KeyVaultSelectiveKeyRestoreResult|preview'
+package: '@azure/keyvault-admin|preview'
+summary: An interface representing the result of a selective key restore operation.
+fullName: KeyVaultSelectiveKeyRestoreResult
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: endTime
+    uid: '@azure/keyvault-admin.KeyVaultSelectiveKeyRestoreResult.endTime|preview'
+    package: '@azure/keyvault-admin|preview'
+    summary: The end time of the selective key restore operation.
+    fullName: endTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'endTime?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: startTime
+    uid: '@azure/keyvault-admin.KeyVaultSelectiveKeyRestoreResult.startTime|preview'
+    package: '@azure/keyvault-admin|preview'
+    summary: The start time of the selective key restore operation.
+    fullName: startTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'startTime: Date'
+      return:
+        type: Date
+        description: ''

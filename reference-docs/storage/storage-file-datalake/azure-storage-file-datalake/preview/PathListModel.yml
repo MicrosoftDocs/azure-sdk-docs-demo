@@ -1,0 +1,24 @@
+### YamlMime:TSType
+name: PathListModel
+uid: '@azure/storage-file-datalake.PathListModel|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: ''
+fullName: PathListModel
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: paths
+    uid: '@azure/storage-file-datalake.PathListModel.paths|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: paths
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'paths?: PathModel[]'
+      return:
+        type: <xref uid="@azure/storage-file-datalake.PathModel|preview" />[]
+        description: ''

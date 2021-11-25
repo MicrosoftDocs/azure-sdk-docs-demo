@@ -1,0 +1,138 @@
+### YamlMime:TSType
+name: UpdateIssuerOptions
+uid: '@azure/keyvault-certificates.UpdateIssuerOptions|latest-stable'
+package: '@azure/keyvault-certificates|latest-stable'
+summary: Options for updateIssuer.
+fullName: UpdateIssuerOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: '@azure/keyvault-certificates.UpdateIssuerOptions.abortSignal|latest-stable'
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: The signal which can be used to abort requests.
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: accountId
+    uid: '@azure/keyvault-certificates.UpdateIssuerOptions.accountId|latest-stable'
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: The user name/account name/account id.
+    fullName: accountId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'accountId?: string'
+      return:
+        type: string
+        description: ''
+  - name: administratorContacts
+    uid: >-
+      @azure/keyvault-certificates.UpdateIssuerOptions.administratorContacts|latest-stable
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: >-
+      Details of the organization's administrator contacts, as provided to the
+      issuer.
+    fullName: administratorContacts
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'administratorContacts?: AdministratorContact[]'
+      return:
+        type: >-
+          <xref
+          uid="@azure/keyvault-certificates.AdministratorContact|latest-stable"
+          />[]
+        description: ''
+  - name: enabled
+    uid: '@azure/keyvault-certificates.UpdateIssuerOptions.enabled|latest-stable'
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: Determines whether the object is enabled.
+    fullName: enabled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'enabled?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: organizationId
+    uid: >-
+      @azure/keyvault-certificates.UpdateIssuerOptions.organizationId|latest-stable
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: Id of the organization.
+    fullName: organizationId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'organizationId?: string'
+      return:
+        type: string
+        description: ''
+  - name: password
+    uid: '@azure/keyvault-certificates.UpdateIssuerOptions.password|latest-stable'
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: The password/secret/account key.
+    fullName: password
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'password?: string'
+      return:
+        type: string
+        description: ''
+  - name: provider
+    uid: '@azure/keyvault-certificates.UpdateIssuerOptions.provider|latest-stable'
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: The issuer provider.
+    fullName: provider
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'provider?: string'
+      return:
+        type: string
+        description: ''
+  - name: requestOptions
+    uid: >-
+      @azure/keyvault-certificates.UpdateIssuerOptions.requestOptions|latest-stable
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: Options used when creating and sending HTTP requests for this operation.
+    fullName: requestOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'requestOptions?: OperationRequestOptions'
+      return:
+        type: OperationRequestOptions
+        description: ''
+  - name: tracingOptions
+    uid: >-
+      @azure/keyvault-certificates.UpdateIssuerOptions.tracingOptions|latest-stable
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: Options used when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+extends: <xref uid="@azure/keyvault-certificates.CreateIssuerOptions|latest-stable" />

@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: ShareFileRangeList
+uid: '@azure/storage-file-share.ShareFileRangeList|latest-stable'
+package: '@azure/storage-file-share|latest-stable'
+summary: The list of file ranges
+fullName: ShareFileRangeList
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: clearRanges
+    uid: '@azure/storage-file-share.ShareFileRangeList.clearRanges|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: ''
+    fullName: clearRanges
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'clearRanges?: ClearRange[]'
+      return:
+        type: <xref uid="@azure/storage-file-share.ClearRange|latest-stable" />[]
+        description: ''
+  - name: ranges
+    uid: '@azure/storage-file-share.ShareFileRangeList.ranges|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: ''
+    fullName: ranges
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'ranges?: RangeModel[]'
+      return:
+        type: <xref uid="@azure/storage-file-share.RangeModel|latest-stable" />[]
+        description: ''

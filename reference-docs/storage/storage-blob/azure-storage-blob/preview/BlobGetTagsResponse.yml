@@ -1,0 +1,14 @@
+### YamlMime:TSTypeAlias
+name: BlobGetTagsResponse
+uid: '@azure/storage-blob.BlobGetTagsResponse|preview'
+package: '@azure/storage-blob|preview'
+summary: >-
+  Contains response data for the <xref:@azure/storage-blob.BlobClient.getTags>
+  operation.
+fullName: BlobGetTagsResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type BlobGetTagsResponse = { tags: Tags } & BlobGetTagsHeaders & { _response:
+  Object }

@@ -1,0 +1,106 @@
+### YamlMime:TSType
+name: TracingPolicy
+uid: '@azure/core-http.TracingPolicy|latest-stable'
+package: '@azure/core-http|latest-stable'
+summary: ''
+fullName: TracingPolicy
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: TracingPolicy(RequestPolicy, RequestPolicyOptions, TracingPolicyOptions)
+    uid: '@azure/core-http.TracingPolicy.constructor|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new TracingPolicy(nextPolicy: RequestPolicy, options:
+        RequestPolicyOptions, tracingOptions: TracingPolicyOptions)
+      parameters:
+        - id: nextPolicy
+          type: <xref uid="@azure/core-http.RequestPolicy|latest-stable" />
+          description: ''
+        - id: options
+          type: <xref uid="@azure/core-http.RequestPolicyOptions|latest-stable" />
+          description: ''
+        - id: tracingOptions
+          type: <xref uid="@azure/core-http.TracingPolicyOptions|latest-stable" />
+          description: ''
+methods:
+  - name: log(HttpPipelineLogLevel, string)
+    uid: '@azure/core-http.TracingPolicy.log|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: >-
+      Attempt to log the provided message to the provided logger. If no logger
+      was provided or if
+
+      the log level does not meat the logger's threshold, then nothing will be
+      logged.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function log(logLevel: HttpPipelineLogLevel, message: string)'
+      parameters:
+        - id: logLevel
+          type: <xref uid="@azure/core-http.HttpPipelineLogLevel|latest-stable" />
+          description: The log level of this log.
+        - id: message
+          type: string
+          description: |
+            The message of this log.
+  - name: sendRequest(WebResourceLike)
+    uid: '@azure/core-http.TracingPolicy.sendRequest|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function sendRequest(request: WebResourceLike)'
+      parameters:
+        - id: request
+          type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
+          description: ''
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/core-http.HttpOperationResponse|latest-stable" />&gt;
+        description: ''
+  - name: shouldLog(HttpPipelineLogLevel)
+    uid: '@azure/core-http.TracingPolicy.shouldLog|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: Get whether or not a log with the provided log level should be logged.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function shouldLog(logLevel: HttpPipelineLogLevel)'
+      parameters:
+        - id: logLevel
+          type: <xref uid="@azure/core-http.HttpPipelineLogLevel|latest-stable" />
+          description: The log level of the log that will be logged.
+      return:
+        type: boolean
+        description: Whether or not a log with the provided log level should be logged.
+  - name: tryCreateSpan(WebResourceLike)
+    uid: '@azure/core-http.TracingPolicy.tryCreateSpan|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function tryCreateSpan(request: WebResourceLike)'
+      parameters:
+        - id: request
+          type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
+          description: ''
+      return:
+        type: Span | undefined
+        description: ''
+extends: <xref uid="@azure/core-http.BaseRequestPolicy|latest-stable" />

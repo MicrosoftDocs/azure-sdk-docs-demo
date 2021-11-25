@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: MergeCertificateOptions
+uid: '@azure/keyvault-certificates.MergeCertificateOptions|latest-stable'
+package: '@azure/keyvault-certificates|latest-stable'
+summary: An interface representing optional parameters for mergeCertificate.
+fullName: MergeCertificateOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type MergeCertificateOptions = OperationOptions

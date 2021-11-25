@@ -1,0 +1,36 @@
+### YamlMime:TSEnum
+name: KnownDefaultSharePermission
+uid: '@azure/arm-storage.KnownDefaultSharePermission|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Known values of <xref:@azure/arm-storage.DefaultSharePermission> that the
+  service accepts.
+fullName: KnownDefaultSharePermission
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: None
+    uid: '@azure/arm-storage.KnownDefaultSharePermission.None|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: StorageFileDataSmbShareContributor
+    uid: >-
+      @azure/arm-storage.KnownDefaultSharePermission.StorageFileDataSmbShareContributor|preview
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: StorageFileDataSmbShareElevatedContributor
+    uid: >-
+      @azure/arm-storage.KnownDefaultSharePermission.StorageFileDataSmbShareElevatedContributor|preview
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: StorageFileDataSmbShareOwner
+    uid: >-
+      @azure/arm-storage.KnownDefaultSharePermission.StorageFileDataSmbShareOwner|preview
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: StorageFileDataSmbShareReader
+    uid: >-
+      @azure/arm-storage.KnownDefaultSharePermission.StorageFileDataSmbShareReader|preview
+    package: '@azure/arm-storage|preview'
+    summary: ''

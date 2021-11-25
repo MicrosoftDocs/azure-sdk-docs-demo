@@ -1,0 +1,67 @@
+### YamlMime:TSType
+name: AnomalyDetectorClientModelState
+uid: '@azure/ai-anomaly-detector.AnomalyDetectorClientModelState|preview'
+package: '@azure/ai-anomaly-detector|preview'
+summary: ''
+fullName: AnomalyDetectorClientModelState
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: epochIds
+    uid: >-
+      @azure/ai-anomaly-detector.AnomalyDetectorClientModelState.epochIds|preview
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: Epoch id
+    fullName: epochIds
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'epochIds?: number[]'
+      return:
+        type: number[]
+        description: ''
+  - name: latenciesInSeconds
+    uid: >-
+      @azure/ai-anomaly-detector.AnomalyDetectorClientModelState.latenciesInSeconds|preview
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: ''
+    fullName: latenciesInSeconds
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'latenciesInSeconds?: number[]'
+      return:
+        type: number[]
+        description: ''
+  - name: trainLosses
+    uid: >-
+      @azure/ai-anomaly-detector.AnomalyDetectorClientModelState.trainLosses|preview
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: ''
+    fullName: trainLosses
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'trainLosses?: number[]'
+      return:
+        type: number[]
+        description: ''
+  - name: validationLosses
+    uid: >-
+      @azure/ai-anomaly-detector.AnomalyDetectorClientModelState.validationLosses|preview
+    package: '@azure/ai-anomaly-detector|preview'
+    summary: ''
+    fullName: validationLosses
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'validationLosses?: number[]'
+      return:
+        type: number[]
+        description: ''

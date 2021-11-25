@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: SignedIdentifierModel
+uid: '@azure/storage-file-share.SignedIdentifierModel|latest-stable'
+package: '@azure/storage-file-share|latest-stable'
+summary: Signed identifier.
+fullName: SignedIdentifierModel
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: accessPolicy
+    uid: '@azure/storage-file-share.SignedIdentifierModel.accessPolicy|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: The access policy.
+    fullName: accessPolicy
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'accessPolicy?: AccessPolicy'
+      return:
+        type: <xref uid="@azure/storage-file-share.AccessPolicy|latest-stable" />
+        description: ''
+  - name: id
+    uid: '@azure/storage-file-share.SignedIdentifierModel.id|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: A unique id.
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id: string'
+      return:
+        type: string
+        description: ''

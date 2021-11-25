@@ -1,0 +1,43 @@
+### YamlMime:TSPackage
+uid: '@azure/logger|latest-stable'
+name: '@azure/logger'
+summary: ''
+type: package
+interfaces:
+  - '@azure/logger.AzureLogger|latest-stable'
+  - '@azure/logger.Debugger|latest-stable'
+typeAliases:
+  - '@azure/logger.AzureClientLogger|latest-stable'
+  - '@azure/logger.AzureLogLevel|latest-stable'
+functions:
+  - name: getLogLevel()
+    uid: '@azure/logger.getLogLevel|latest-stable'
+    package: '@azure/logger|latest-stable'
+    summary: Retrieves the currently specified log level.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: function getLogLevel()
+      return:
+        type: <xref uid="@azure/logger.AzureLogLevel|latest-stable" /> | undefined
+        description: ''
+  - name: setLogLevel(AzureLogLevel)
+    uid: '@azure/logger.setLogLevel|latest-stable'
+    package: '@azure/logger|latest-stable'
+    summary: Immediately enables logging at the specified log level.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function setLogLevel(level?: AzureLogLevel)'
+      parameters:
+        - id: level
+          type: <xref uid="@azure/logger.AzureLogLevel|latest-stable" />
+          description: |
+            The log level to enable for logging.
+            Options from most verbose to least verbose are:
+            - verbose
+            - info
+            - warning
+            - error

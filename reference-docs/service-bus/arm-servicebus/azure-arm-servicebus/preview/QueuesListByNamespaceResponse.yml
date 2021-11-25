@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: QueuesListByNamespaceResponse
+uid: '@azure/arm-servicebus.QueuesListByNamespaceResponse|preview'
+package: '@azure/arm-servicebus|preview'
+summary: Contains response data for the listByNamespace operation.
+fullName: QueuesListByNamespaceResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type QueuesListByNamespaceResponse = SBQueueListResult

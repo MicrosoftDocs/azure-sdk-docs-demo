@@ -1,0 +1,83 @@
+### YamlMime:TSType
+name: NodeFetchHttpClient
+uid: '@azure/core-http.NodeFetchHttpClient|latest-stable'
+package: '@azure/core-http|latest-stable'
+summary: ''
+fullName: NodeFetchHttpClient
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+methods:
+  - name: fetch(CommonRequestInfo, CommonRequestInit)
+    uid: '@azure/core-http.NodeFetchHttpClient.fetch|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function fetch(input: CommonRequestInfo, init?: CommonRequestInit)'
+      parameters:
+        - id: input
+          type: <xref uid="@azure/core-http.CommonRequestInfo|latest-stable" />
+          description: ''
+        - id: init
+          type: <xref uid="@azure/core-http.CommonRequestInit|latest-stable" />
+          description: ''
+      return:
+        type: >-
+          Promise&lt;<xref uid="@azure/core-http.CommonResponse|latest-stable"
+          />&gt;
+        description: ''
+  - name: prepareRequest(WebResourceLike)
+    uid: '@azure/core-http.NodeFetchHttpClient.prepareRequest|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function prepareRequest(httpRequest: WebResourceLike)'
+      parameters:
+        - id: httpRequest
+          type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
+          description: ''
+      return:
+        type: Promise&lt;Partial&lt;RequestInit&gt;&gt;
+        description: ''
+  - name: processRequest(HttpOperationResponse)
+    uid: '@azure/core-http.NodeFetchHttpClient.processRequest|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function processRequest(operationResponse: HttpOperationResponse)'
+      parameters:
+        - id: operationResponse
+          type: <xref uid="@azure/core-http.HttpOperationResponse|latest-stable" />
+          description: ''
+      return:
+        type: Promise&lt;void&gt;
+        description: ''
+  - name: sendRequest(WebResourceLike)
+    uid: '@azure/core-http.NodeFetchHttpClient.sendRequest|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function sendRequest(httpRequest: WebResourceLike)'
+      parameters:
+        - id: httpRequest
+          type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
+          description: ''
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/core-http.HttpOperationResponse|latest-stable" />&gt;
+        description: ''
+extends: <xref uid="@azure/core-http.FetchHttpClient|latest-stable" />

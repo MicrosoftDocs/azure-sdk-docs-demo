@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: Mapper
+uid: '@azure/core-http.Mapper|latest-stable'
+package: '@azure/core-http|latest-stable'
+summary: ''
+fullName: Mapper
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type Mapper = BaseMapper | CompositeMapper | SequenceMapper | DictionaryMapper
+  | EnumMapper

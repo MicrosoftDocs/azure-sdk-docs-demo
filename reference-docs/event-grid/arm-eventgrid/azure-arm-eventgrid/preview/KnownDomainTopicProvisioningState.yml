@@ -1,0 +1,36 @@
+### YamlMime:TSEnum
+name: KnownDomainTopicProvisioningState
+uid: '@azure/arm-eventgrid.KnownDomainTopicProvisioningState|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: >-
+  Known values of <xref:@azure/arm-eventgrid.DomainTopicProvisioningState> that
+  the service accepts.
+fullName: KnownDomainTopicProvisioningState
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Canceled
+    uid: '@azure/arm-eventgrid.KnownDomainTopicProvisioningState.Canceled|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: Creating
+    uid: '@azure/arm-eventgrid.KnownDomainTopicProvisioningState.Creating|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: Deleting
+    uid: '@azure/arm-eventgrid.KnownDomainTopicProvisioningState.Deleting|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: Failed
+    uid: '@azure/arm-eventgrid.KnownDomainTopicProvisioningState.Failed|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: Succeeded
+    uid: '@azure/arm-eventgrid.KnownDomainTopicProvisioningState.Succeeded|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: Updating
+    uid: '@azure/arm-eventgrid.KnownDomainTopicProvisioningState.Updating|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''

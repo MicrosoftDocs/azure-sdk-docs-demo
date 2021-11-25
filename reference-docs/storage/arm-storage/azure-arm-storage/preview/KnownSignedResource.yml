@@ -1,0 +1,28 @@
+### YamlMime:TSEnum
+name: KnownSignedResource
+uid: '@azure/arm-storage.KnownSignedResource|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Known values of <xref:@azure/arm-storage.SignedResource> that the service
+  accepts.
+fullName: KnownSignedResource
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: B
+    uid: '@azure/arm-storage.KnownSignedResource.B|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: C
+    uid: '@azure/arm-storage.KnownSignedResource.C|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: F
+    uid: '@azure/arm-storage.KnownSignedResource.F|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: S
+    uid: '@azure/arm-storage.KnownSignedResource.S|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

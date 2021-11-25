@@ -1,0 +1,226 @@
+### YamlMime:TSType
+name: BlobServiceProperties
+uid: '@azure/arm-storage.BlobServiceProperties|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: The properties of a storage account’s Blob service.
+fullName: BlobServiceProperties
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: automaticSnapshotPolicyEnabled
+    uid: >-
+      @azure/arm-storage.BlobServiceProperties.automaticSnapshotPolicyEnabled|latest-stable
+    package: '@azure/arm-storage|latest-stable'
+    summary: Deprecated in favor of isVersioningEnabled property.
+    fullName: automaticSnapshotPolicyEnabled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'automaticSnapshotPolicyEnabled?: undefined | false | true'
+      return:
+        type: undefined | false | true
+        description: ''
+  - name: changeFeed
+    uid: '@azure/arm-storage.BlobServiceProperties.changeFeed|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: The blob service properties for change feed events.
+    fullName: changeFeed
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'changeFeed?: ChangeFeed'
+      return:
+        type: <xref uid="@azure/arm-storage.ChangeFeed|latest-stable" />
+        description: ''
+  - name: containerDeleteRetentionPolicy
+    uid: >-
+      @azure/arm-storage.BlobServiceProperties.containerDeleteRetentionPolicy|latest-stable
+    package: '@azure/arm-storage|latest-stable'
+    summary: The blob service properties for container soft delete.
+    fullName: containerDeleteRetentionPolicy
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'containerDeleteRetentionPolicy?: DeleteRetentionPolicy'
+      return:
+        type: <xref uid="@azure/arm-storage.DeleteRetentionPolicy|latest-stable" />
+        description: ''
+  - name: cors
+    uid: '@azure/arm-storage.BlobServiceProperties.cors|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: >-
+      Specifies CORS rules for the Blob service. You can include up to five
+      CorsRule elements in the
+
+      request. If no CorsRule elements are included in the request body, all
+      CORS rules will be
+
+      deleted, and CORS will be disabled for the Blob service.
+    fullName: cors
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'cors?: CorsRules'
+      return:
+        type: <xref uid="@azure/arm-storage.CorsRules|latest-stable" />
+        description: ''
+  - name: defaultServiceVersion
+    uid: >-
+      @azure/arm-storage.BlobServiceProperties.defaultServiceVersion|latest-stable
+    package: '@azure/arm-storage|latest-stable'
+    summary: >-
+      DefaultServiceVersion indicates the default version to use for requests to
+      the Blob service if
+
+      an incoming request’s version is not specified. Possible values include
+      version 2008-10-27 and
+
+      all more recent versions.
+    fullName: defaultServiceVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'defaultServiceVersion?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: deleteRetentionPolicy
+    uid: >-
+      @azure/arm-storage.BlobServiceProperties.deleteRetentionPolicy|latest-stable
+    package: '@azure/arm-storage|latest-stable'
+    summary: The blob service properties for blob soft delete.
+    fullName: deleteRetentionPolicy
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'deleteRetentionPolicy?: DeleteRetentionPolicy'
+      return:
+        type: <xref uid="@azure/arm-storage.DeleteRetentionPolicy|latest-stable" />
+        description: ''
+  - name: id
+    uid: '@azure/arm-storage.BlobServiceProperties.id|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: >-
+      Fully qualified resource ID for the resource. Ex -
+
+      /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: isVersioningEnabled
+    uid: '@azure/arm-storage.BlobServiceProperties.isVersioningEnabled|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: Versioning is enabled if set to true.
+    fullName: isVersioningEnabled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isVersioningEnabled?: undefined | false | true'
+      return:
+        type: undefined | false | true
+        description: ''
+  - name: lastAccessTimeTrackingPolicy
+    uid: >-
+      @azure/arm-storage.BlobServiceProperties.lastAccessTimeTrackingPolicy|latest-stable
+    package: '@azure/arm-storage|latest-stable'
+    summary: >-
+      The blob service property to configure last access time based tracking
+      policy.
+    fullName: lastAccessTimeTrackingPolicy
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lastAccessTimeTrackingPolicy?: LastAccessTimeTrackingPolicy'
+      return:
+        type: >-
+          <xref
+          uid="@azure/arm-storage.LastAccessTimeTrackingPolicy|latest-stable" />
+        description: ''
+  - name: name
+    uid: '@azure/arm-storage.BlobServiceProperties.name|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: >-
+      The name of the resource
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: restorePolicy
+    uid: '@azure/arm-storage.BlobServiceProperties.restorePolicy|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: The blob service properties for blob restore policy.
+    fullName: restorePolicy
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'restorePolicy?: RestorePolicyProperties'
+      return:
+        type: >-
+          <xref uid="@azure/arm-storage.RestorePolicyProperties|latest-stable"
+          />
+        description: ''
+  - name: sku
+    uid: '@azure/arm-storage.BlobServiceProperties.sku|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: >-
+      Sku name and tier.
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: sku
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sku?: Sku'
+      return:
+        type: <xref uid="@azure/arm-storage.Sku|latest-stable" />
+        description: ''
+  - name: type
+    uid: '@azure/arm-storage.BlobServiceProperties.type|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: >-
+      The type of the resource. E.g. "Microsoft.Compute/virtualMachines" or
+
+      "Microsoft.Storage/storageAccounts"
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+extends: <xref uid="@azure/arm-storage.Resource|latest-stable" />

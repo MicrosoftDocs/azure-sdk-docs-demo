@@ -1,0 +1,98 @@
+### YamlMime:TSType
+name: FormArrayField
+uid: '@azure/ai-form-recognizer.FormArrayField|preview'
+package: '@azure/ai-form-recognizer|preview'
+summary: A form field with an array of FormFields as a value.
+fullName: FormArrayField
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: confidence
+    uid: '@azure/ai-form-recognizer.FormArrayField.confidence|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: |-
+      The sevice's confidence (expressed as a number between zero and one) in
+      the correctness of the field value.
+    fullName: confidence
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'confidence?: number'
+      return:
+        type: number
+        description: ''
+  - name: labelData
+    uid: '@azure/ai-form-recognizer.FormArrayField.labelData|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: >-
+      Contains the recognized field label's text, bounding box, and field
+      elements.
+    fullName: labelData
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'labelData?: FieldData'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.FieldData|preview" />
+        description: ''
+  - name: name
+    uid: '@azure/ai-form-recognizer.FormArrayField.name|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: A user-defined label for the field.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name?: string'
+      return:
+        type: string
+        description: ''
+  - name: value
+    uid: '@azure/ai-form-recognizer.FormArrayField.value|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: |-
+      The recognized array of nested fields. Each value in this array is its
+      own `FormField`.
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value?: FormField[]'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.FormField|preview" />[]
+        description: ''
+  - name: valueData
+    uid: '@azure/ai-form-recognizer.FormArrayField.valueData|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: >-
+      Contains the recognized field value's text, bounding box, and field
+      elements.
+    fullName: valueData
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueData?: FieldData'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.FieldData|preview" />
+        description: ''
+  - name: valueType
+    uid: '@azure/ai-form-recognizer.FormArrayField.valueType|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: The type of this field's value - "array"
+    fullName: valueType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueType: "array"'
+      return:
+        type: '"array"'
+        description: ''
+extends: <xref uid="@azure/ai-form-recognizer.FormFieldCommon|preview" />

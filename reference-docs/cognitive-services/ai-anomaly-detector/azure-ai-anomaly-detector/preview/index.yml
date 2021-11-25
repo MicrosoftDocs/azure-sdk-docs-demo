@@ -1,0 +1,61 @@
+### YamlMime:TSPackage
+uid: '@azure/ai-anomaly-detector|preview'
+name: '@azure/ai-anomaly-detector'
+summary: ''
+type: package
+enums:
+  - '@azure/ai-anomaly-detector.KnownTimeGranularity|preview'
+classes:
+  - '@azure/ai-anomaly-detector.AnomalyDetectorClient|preview'
+interfaces:
+  - '@azure/ai-anomaly-detector.AlignPolicy|preview'
+  - '@azure/ai-anomaly-detector.AnomalyContributor|preview'
+  - '@azure/ai-anomaly-detector.AnomalyDetectorClientErrorResponse|preview'
+  - '@azure/ai-anomaly-detector.AnomalyDetectorClientModel|preview'
+  - '@azure/ai-anomaly-detector.AnomalyDetectorClientModelInfo|preview'
+  - '@azure/ai-anomaly-detector.AnomalyDetectorClientModelList|preview'
+  - '@azure/ai-anomaly-detector.AnomalyDetectorClientModelSnapshot|preview'
+  - '@azure/ai-anomaly-detector.AnomalyDetectorClientModelState|preview'
+  - '@azure/ai-anomaly-detector.AnomalyDetectorClientOptions|preview'
+  - '@azure/ai-anomaly-detector.AnomalyDetectorClientVariableState|preview'
+  - '@azure/ai-anomaly-detector.AnomalyDetectorDetectAnomalyHeaders|preview'
+  - '@azure/ai-anomaly-detector.AnomalyDetectorExportModelHeaders|preview'
+  - >-
+    @azure/ai-anomaly-detector.AnomalyDetectorListMultivariateModelNextOptionalParams|preview
+  - >-
+    @azure/ai-anomaly-detector.AnomalyDetectorListMultivariateModelOptionalParams|preview
+  - '@azure/ai-anomaly-detector.AnomalyDetectorOptionalParams|preview'
+  - >-
+    @azure/ai-anomaly-detector.AnomalyDetectorTrainMultivariateModelHeaders|preview
+  - '@azure/ai-anomaly-detector.AnomalyState|preview'
+  - '@azure/ai-anomaly-detector.AnomalyValue|preview'
+  - '@azure/ai-anomaly-detector.DetectChangePointRequest|preview'
+  - '@azure/ai-anomaly-detector.DetectChangePointResponse|preview'
+  - '@azure/ai-anomaly-detector.DetectEntireResponse|preview'
+  - '@azure/ai-anomaly-detector.DetectLastPointResponse|preview'
+  - '@azure/ai-anomaly-detector.DetectRequest|preview'
+  - '@azure/ai-anomaly-detector.DetectionRequest|preview'
+  - '@azure/ai-anomaly-detector.DetectionResult|preview'
+  - '@azure/ai-anomaly-detector.DetectionResultSummary|preview'
+  - '@azure/ai-anomaly-detector.DiagnosticsInfo|preview'
+  - '@azure/ai-anomaly-detector.TimeSeriesPoint|preview'
+typeAliases:
+  - '@azure/ai-anomaly-detector.AlignMode|preview'
+  - '@azure/ai-anomaly-detector.AnomalyDetectorClientModelStatus|preview'
+  - '@azure/ai-anomaly-detector.AnomalyDetectorDetectAnomalyResponse|preview'
+  - '@azure/ai-anomaly-detector.AnomalyDetectorDetectChangePointResponse|preview'
+  - '@azure/ai-anomaly-detector.AnomalyDetectorDetectEntireSeriesResponse|preview'
+  - '@azure/ai-anomaly-detector.AnomalyDetectorDetectLastPointResponse|preview'
+  - '@azure/ai-anomaly-detector.AnomalyDetectorExportModelResponse|preview'
+  - '@azure/ai-anomaly-detector.AnomalyDetectorGetDetectionResultResponse|preview'
+  - >-
+    @azure/ai-anomaly-detector.AnomalyDetectorGetMultivariateModelResponse|preview
+  - >-
+    @azure/ai-anomaly-detector.AnomalyDetectorListMultivariateModelNextResponse|preview
+  - >-
+    @azure/ai-anomaly-detector.AnomalyDetectorListMultivariateModelResponse|preview
+  - >-
+    @azure/ai-anomaly-detector.AnomalyDetectorTrainMultivariateModelResponse|preview
+  - '@azure/ai-anomaly-detector.DetectionStatus|preview'
+  - '@azure/ai-anomaly-detector.FillNAMethod|preview'
+  - '@azure/ai-anomaly-detector.TimeGranularity|preview'

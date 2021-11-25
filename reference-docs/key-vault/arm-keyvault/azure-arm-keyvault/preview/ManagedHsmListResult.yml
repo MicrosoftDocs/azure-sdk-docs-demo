@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: ManagedHsmListResult
+uid: '@azure/arm-keyvault.ManagedHsmListResult|preview'
+package: '@azure/arm-keyvault|preview'
+summary: List of managed HSM Pools
+fullName: ManagedHsmListResult
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: nextLink
+    uid: '@azure/arm-keyvault.ManagedHsmListResult.nextLink|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: The URL to get the next set of managed HSM Pools.
+    fullName: nextLink
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'nextLink?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: value
+    uid: '@azure/arm-keyvault.ManagedHsmListResult.value|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: The list of managed HSM Pools.
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value?: ManagedHsm[]'
+      return:
+        type: <xref uid="@azure/arm-keyvault.ManagedHsm|preview" />[]
+        description: ''

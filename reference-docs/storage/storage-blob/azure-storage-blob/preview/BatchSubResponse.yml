@@ -1,0 +1,76 @@
+### YamlMime:TSType
+name: BatchSubResponse
+uid: '@azure/storage-blob.BatchSubResponse|preview'
+package: '@azure/storage-blob|preview'
+summary: The response data associated with a single request within a batch operation.
+fullName: BatchSubResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: bodyAsText
+    uid: '@azure/storage-blob.BatchSubResponse.bodyAsText|preview'
+    package: '@azure/storage-blob|preview'
+    summary: The body as text.
+    fullName: bodyAsText
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'bodyAsText?: string'
+      return:
+        type: string
+        description: ''
+  - name: errorCode
+    uid: '@azure/storage-blob.BatchSubResponse.errorCode|preview'
+    package: '@azure/storage-blob|preview'
+    summary: The error code of the sub operation, if the sub operation failed.
+    fullName: errorCode
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'errorCode?: string'
+      return:
+        type: string
+        description: ''
+  - name: headers
+    uid: '@azure/storage-blob.BatchSubResponse.headers|preview'
+    package: '@azure/storage-blob|preview'
+    summary: The HTTP response headers.
+    fullName: headers
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'headers: HttpHeaders'
+      return:
+        type: HttpHeaders
+        description: ''
+  - name: status
+    uid: '@azure/storage-blob.BatchSubResponse.status|preview'
+    package: '@azure/storage-blob|preview'
+    summary: The status code of the sub operation.
+    fullName: status
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'status: number'
+      return:
+        type: number
+        description: ''
+  - name: statusMessage
+    uid: '@azure/storage-blob.BatchSubResponse.statusMessage|preview'
+    package: '@azure/storage-blob|preview'
+    summary: The status message of the sub operation.
+    fullName: statusMessage
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'statusMessage: string'
+      return:
+        type: string
+        description: ''

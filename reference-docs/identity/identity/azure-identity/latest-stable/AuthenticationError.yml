@@ -1,0 +1,112 @@
+### YamlMime:TSType
+name: AuthenticationError
+uid: '@azure/identity.AuthenticationError|latest-stable'
+package: '@azure/identity|latest-stable'
+summary: |-
+  Provides details about a failure to authenticate with Azure Active
+  Directory.  The `errorResponse` field contains more details about
+  the specific failure.
+fullName: AuthenticationError
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+constructors:
+  - name: AuthenticationError(number, object | string | undefined | null)
+    uid: '@azure/identity.AuthenticationError.constructor|latest-stable'
+    package: '@azure/identity|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        new AuthenticationError(statusCode: number, errorBody: object | string |
+        undefined | null)
+      parameters:
+        - id: statusCode
+          type: number
+          description: ''
+        - id: errorBody
+          type: object | string | undefined | null
+          description: ''
+properties:
+  - name: Error
+    uid: '@azure/identity.AuthenticationError.Error|latest-stable'
+    package: '@azure/identity|latest-stable'
+    summary: ''
+    fullName: Error
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'static Error: ErrorConstructor'
+      return:
+        type: ErrorConstructor
+        description: ''
+  - name: errorResponse
+    uid: '@azure/identity.AuthenticationError.errorResponse|latest-stable'
+    package: '@azure/identity|latest-stable'
+    summary: The error response details.
+    fullName: errorResponse
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'errorResponse: ErrorResponse'
+      return:
+        type: <xref uid="@azure/identity.ErrorResponse|latest-stable" />
+        description: ''
+  - name: message
+    uid: '@azure/identity.AuthenticationError.message|latest-stable'
+    package: '@azure/identity|latest-stable'
+    summary: ''
+    fullName: message
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'message: string'
+      return:
+        type: string
+        description: ''
+  - name: name
+    uid: '@azure/identity.AuthenticationError.name|latest-stable'
+    package: '@azure/identity|latest-stable'
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        type: string
+        description: ''
+  - name: stack
+    uid: '@azure/identity.AuthenticationError.stack|latest-stable'
+    package: '@azure/identity|latest-stable'
+    summary: ''
+    fullName: stack
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'stack?: string'
+      return:
+        type: string
+        description: ''
+  - name: statusCode
+    uid: '@azure/identity.AuthenticationError.statusCode|latest-stable'
+    package: '@azure/identity|latest-stable'
+    summary: The HTTP status code returned from the authentication request.
+    fullName: statusCode
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'statusCode: number'
+      return:
+        type: number
+        description: ''
+extends: Error

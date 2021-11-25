@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: DomainsUpdateResponse
+uid: '@azure/arm-eventgrid.DomainsUpdateResponse|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: Contains response data for the update operation.
+fullName: DomainsUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type DomainsUpdateResponse = Domain & { _response: Object }'

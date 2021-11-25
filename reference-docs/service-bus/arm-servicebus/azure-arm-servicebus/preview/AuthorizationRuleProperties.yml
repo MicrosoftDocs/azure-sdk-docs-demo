@@ -1,0 +1,24 @@
+### YamlMime:TSType
+name: AuthorizationRuleProperties
+uid: '@azure/arm-servicebus.AuthorizationRuleProperties|preview'
+package: '@azure/arm-servicebus|preview'
+summary: AuthorizationRule properties.
+fullName: AuthorizationRuleProperties
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: rights
+    uid: '@azure/arm-servicebus.AuthorizationRuleProperties.rights|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: The rights associated with the rule.
+    fullName: rights
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'rights: AccessRights[]'
+      return:
+        type: <xref uid="@azure/arm-servicebus.AccessRights|preview" />[]
+        description: ''

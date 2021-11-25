@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: EnumMapperType
+uid: '@azure/core-http.EnumMapperType|latest-stable'
+package: '@azure/core-http|latest-stable'
+summary: ''
+fullName: EnumMapperType
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: allowedValues
+    uid: '@azure/core-http.EnumMapperType.allowedValues|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    fullName: allowedValues
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'allowedValues: any[]'
+      return:
+        type: any[]
+        description: ''
+  - name: name
+    uid: '@azure/core-http.EnumMapperType.name|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: "Enum"'
+      return:
+        type: '"Enum"'
+        description: ''

@@ -1,0 +1,95 @@
+### YamlMime:TSType
+name: FileSystemSetMetadataHeaders
+uid: '@azure/storage-file-datalake.FileSystemSetMetadataHeaders|latest-stable'
+package: '@azure/storage-file-datalake|latest-stable'
+summary: ''
+fullName: FileSystemSetMetadataHeaders
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: clientRequestId
+    uid: >-
+      @azure/storage-file-datalake.FileSystemSetMetadataHeaders.clientRequestId|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: clientRequestId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'clientRequestId?: string'
+      return:
+        type: string
+        description: ''
+  - name: date
+    uid: >-
+      @azure/storage-file-datalake.FileSystemSetMetadataHeaders.date|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: date
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'date?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: etag
+    uid: >-
+      @azure/storage-file-datalake.FileSystemSetMetadataHeaders.etag|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: etag
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'etag?: string'
+      return:
+        type: string
+        description: ''
+  - name: lastModified
+    uid: >-
+      @azure/storage-file-datalake.FileSystemSetMetadataHeaders.lastModified|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: lastModified
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lastModified?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: requestId
+    uid: >-
+      @azure/storage-file-datalake.FileSystemSetMetadataHeaders.requestId|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: requestId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'requestId?: string'
+      return:
+        type: string
+        description: ''
+  - name: version
+    uid: >-
+      @azure/storage-file-datalake.FileSystemSetMetadataHeaders.version|latest-stable
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: version
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'version?: string'
+      return:
+        type: string
+        description: ''

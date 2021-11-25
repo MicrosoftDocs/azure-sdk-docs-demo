@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: GetTableEntityOptions
+uid: '@azure/data-tables.GetTableEntityOptions|latest-stable'
+package: '@azure/data-tables|latest-stable'
+summary: GetEntity optional parameters.
+fullName: GetTableEntityOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type GetTableEntityOptions = OperationOptions & { disableTypeConversion:
+  boolean, queryOptions: TableEntityQueryOptions }

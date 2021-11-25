@@ -1,0 +1,51 @@
+### YamlMime:TSType
+name: UpdateKeyRotationPolicyOptions
+uid: '@azure/keyvault-keys.UpdateKeyRotationPolicyOptions|preview'
+package: '@azure/keyvault-keys|preview'
+summary: Options for <xref:@azure/keyvault-keys.KeyClient.updateKeyRotationPolicy>
+fullName: UpdateKeyRotationPolicyOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: '@azure/keyvault-keys.UpdateKeyRotationPolicyOptions.abortSignal|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: The signal which can be used to abort requests.
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: requestOptions
+    uid: '@azure/keyvault-keys.UpdateKeyRotationPolicyOptions.requestOptions|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Options used when creating and sending HTTP requests for this operation.
+    fullName: requestOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'requestOptions?: OperationRequestOptions'
+      return:
+        type: OperationRequestOptions
+        description: ''
+  - name: tracingOptions
+    uid: '@azure/keyvault-keys.UpdateKeyRotationPolicyOptions.tracingOptions|preview'
+    package: '@azure/keyvault-keys|preview'
+    summary: Options used when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+extends: OperationOptions

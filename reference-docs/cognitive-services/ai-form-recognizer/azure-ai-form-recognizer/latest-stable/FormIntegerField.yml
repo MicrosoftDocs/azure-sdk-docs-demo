@@ -1,0 +1,96 @@
+### YamlMime:TSType
+name: FormIntegerField
+uid: '@azure/ai-form-recognizer.FormIntegerField|latest-stable'
+package: '@azure/ai-form-recognizer|latest-stable'
+summary: A form field with an integer value.
+fullName: FormIntegerField
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: confidence
+    uid: '@azure/ai-form-recognizer.FormIntegerField.confidence|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: |-
+      The sevice's confidence (expressed as a number between zero and one) in
+      the correctness of the field value.
+    fullName: confidence
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'confidence?: number'
+      return:
+        type: number
+        description: ''
+  - name: labelData
+    uid: '@azure/ai-form-recognizer.FormIntegerField.labelData|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: >-
+      Contains the recognized field label's text, bounding box, and field
+      elements.
+    fullName: labelData
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'labelData?: FieldData'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.FieldData|latest-stable" />
+        description: ''
+  - name: name
+    uid: '@azure/ai-form-recognizer.FormIntegerField.name|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: A user-defined label for the field.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name?: string'
+      return:
+        type: string
+        description: ''
+  - name: value
+    uid: '@azure/ai-form-recognizer.FormIntegerField.value|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: The value of the recognized integer.
+    fullName: value
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'value?: number'
+      return:
+        type: number
+        description: ''
+  - name: valueData
+    uid: '@azure/ai-form-recognizer.FormIntegerField.valueData|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: >-
+      Contains the recognized field value's text, bounding box, and field
+      elements.
+    fullName: valueData
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueData?: FieldData'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.FieldData|latest-stable" />
+        description: ''
+  - name: valueType
+    uid: '@azure/ai-form-recognizer.FormIntegerField.valueType|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: The type of this field's value - "integer"
+    fullName: valueType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueType: "integer"'
+      return:
+        type: '"integer"'
+        description: ''
+extends: <xref uid="@azure/ai-form-recognizer.FormFieldCommon|latest-stable" />

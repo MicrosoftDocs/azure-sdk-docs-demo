@@ -1,0 +1,20 @@
+### YamlMime:TSEnum
+name: KnownResourceRegionType
+uid: '@azure/arm-eventgrid.KnownResourceRegionType|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: >-
+  Known values of <xref:@azure/arm-eventgrid.ResourceRegionType> that the
+  service accepts.
+fullName: KnownResourceRegionType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: GlobalResource
+    uid: '@azure/arm-eventgrid.KnownResourceRegionType.GlobalResource|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: RegionalResource
+    uid: '@azure/arm-eventgrid.KnownResourceRegionType.RegionalResource|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''

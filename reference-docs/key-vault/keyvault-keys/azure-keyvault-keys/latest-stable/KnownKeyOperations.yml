@@ -1,0 +1,38 @@
+### YamlMime:TSEnum
+name: KnownKeyOperations
+uid: '@azure/keyvault-keys.KnownKeyOperations|latest-stable'
+package: '@azure/keyvault-keys|latest-stable'
+summary: Known values of JsonWebKeyOperation that the service accepts.
+fullName: KnownKeyOperations
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Decrypt
+    uid: '@azure/keyvault-keys.KnownKeyOperations.Decrypt|latest-stable'
+    package: '@azure/keyvault-keys|latest-stable'
+    summary: Key operation - decrypt
+  - name: Encrypt
+    uid: '@azure/keyvault-keys.KnownKeyOperations.Encrypt|latest-stable'
+    package: '@azure/keyvault-keys|latest-stable'
+    summary: Key operation - encrypt
+  - name: Import
+    uid: '@azure/keyvault-keys.KnownKeyOperations.Import|latest-stable'
+    package: '@azure/keyvault-keys|latest-stable'
+    summary: Key operation - import
+  - name: Sign
+    uid: '@azure/keyvault-keys.KnownKeyOperations.Sign|latest-stable'
+    package: '@azure/keyvault-keys|latest-stable'
+    summary: Key operation - sign
+  - name: UnwrapKey
+    uid: '@azure/keyvault-keys.KnownKeyOperations.UnwrapKey|latest-stable'
+    package: '@azure/keyvault-keys|latest-stable'
+    summary: Key operation - unwrapKey
+  - name: Verify
+    uid: '@azure/keyvault-keys.KnownKeyOperations.Verify|latest-stable'
+    package: '@azure/keyvault-keys|latest-stable'
+    summary: Key operation - verify
+  - name: WrapKey
+    uid: '@azure/keyvault-keys.KnownKeyOperations.WrapKey|latest-stable'
+    package: '@azure/keyvault-keys|latest-stable'
+    summary: Key operation - wrapKey

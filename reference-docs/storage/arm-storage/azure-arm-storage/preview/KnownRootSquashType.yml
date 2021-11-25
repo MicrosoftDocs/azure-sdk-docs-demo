@@ -1,0 +1,24 @@
+### YamlMime:TSEnum
+name: KnownRootSquashType
+uid: '@azure/arm-storage.KnownRootSquashType|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Known values of <xref:@azure/arm-storage.RootSquashType> that the service
+  accepts.
+fullName: KnownRootSquashType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: AllSquash
+    uid: '@azure/arm-storage.KnownRootSquashType.AllSquash|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: NoRootSquash
+    uid: '@azure/arm-storage.KnownRootSquashType.NoRootSquash|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: RootSquash
+    uid: '@azure/arm-storage.KnownRootSquashType.RootSquash|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

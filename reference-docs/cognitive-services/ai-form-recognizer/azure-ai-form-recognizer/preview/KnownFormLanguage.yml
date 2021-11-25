@@ -1,0 +1,302 @@
+### YamlMime:TSEnum
+name: KnownFormLanguage
+uid: '@azure/ai-form-recognizer.KnownFormLanguage|preview'
+package: '@azure/ai-form-recognizer|preview'
+summary: Known values of FormLanguage that the service accepts.
+fullName: KnownFormLanguage
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Af
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Af|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Ast
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Ast|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Bi
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Bi|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Br
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Br|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Ca
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Ca|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Ceb
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Ceb|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Ch
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Ch|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Co
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Co|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Crh
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Crh|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Cs
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Cs|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Csb
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Csb|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Da
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Da|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: De
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.De|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: En
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.En|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Es
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Es|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Et
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Et|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Eu
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Eu|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Fi
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Fi|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Fil
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Fil|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Fj
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Fj|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Fr
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Fr|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Fur
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Fur|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Fy
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Fy|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Ga
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Ga|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Gd
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Gd|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Gil
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Gil|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Gl
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Gl|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Gv
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Gv|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Hni
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Hni|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Hsb
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Hsb|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Ht
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Ht|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Hu
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Hu|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Ia
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Ia|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Id
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Id|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: It
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.It|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Iu
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Iu|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Ja
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Ja|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Jv
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Jv|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Kaa
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Kaa|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Kac
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Kac|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Kea
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Kea|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Kha
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Kha|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Kl
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Kl|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Ko
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Ko|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Ku
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Ku|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Kw
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Kw|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Lb
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Lb|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Ms
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Ms|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Mww
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Mww|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Nap
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Nap|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Nl
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Nl|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: 'No'
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.No|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Oc
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Oc|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Pl
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Pl|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Pt
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Pt|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Quc
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Quc|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Rm
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Rm|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Sco
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Sco|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Sl
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Sl|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Sq
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Sq|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Sv
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Sv|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Sw
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Sw|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Tet
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Tet|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Tr
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Tr|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Tt
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Tt|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Uz
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Uz|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Vo
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Vo|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Wae
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Wae|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Yua
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Yua|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Za
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Za|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: ZhHans
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.ZhHans|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: ZhHant
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.ZhHant|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''
+  - name: Zu
+    uid: '@azure/ai-form-recognizer.KnownFormLanguage.Zu|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: ''

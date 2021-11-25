@@ -1,0 +1,30 @@
+### YamlMime:TSEnum
+name: KnownFormLocale
+uid: '@azure/ai-form-recognizer.KnownFormLocale|latest-stable'
+package: '@azure/ai-form-recognizer|latest-stable'
+summary: Known values of FormLocale that the service accepts.
+fullName: KnownFormLocale
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: EnAU
+    uid: '@azure/ai-form-recognizer.KnownFormLocale.EnAU|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: ''
+  - name: EnCA
+    uid: '@azure/ai-form-recognizer.KnownFormLocale.EnCA|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: ''
+  - name: EnGB
+    uid: '@azure/ai-form-recognizer.KnownFormLocale.EnGB|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: ''
+  - name: EnIN
+    uid: '@azure/ai-form-recognizer.KnownFormLocale.EnIN|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: ''
+  - name: EnUS
+    uid: '@azure/ai-form-recognizer.KnownFormLocale.EnUS|latest-stable'
+    package: '@azure/ai-form-recognizer|latest-stable'
+    summary: ''

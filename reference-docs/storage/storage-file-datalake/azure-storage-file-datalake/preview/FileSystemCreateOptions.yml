@@ -1,0 +1,65 @@
+### YamlMime:TSType
+name: FileSystemCreateOptions
+uid: '@azure/storage-file-datalake.FileSystemCreateOptions|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: ''
+fullName: FileSystemCreateOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: '@azure/storage-file-datalake.FileSystemCreateOptions.abortSignal|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: access
+    uid: '@azure/storage-file-datalake.FileSystemCreateOptions.access|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: access
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'access?: PublicAccessType'
+      return:
+        type: <xref uid="@azure/storage-file-datalake.PublicAccessType|preview" />
+        description: ''
+  - name: metadata
+    uid: '@azure/storage-file-datalake.FileSystemCreateOptions.metadata|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: metadata
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'metadata?: Metadata'
+      return:
+        type: <xref uid="@azure/storage-file-datalake.Metadata|preview" />
+        description: ''
+  - name: tracingOptions
+    uid: >-
+      @azure/storage-file-datalake.FileSystemCreateOptions.tracingOptions|preview
+    package: '@azure/storage-file-datalake|preview'
+    summary: Options to configure spans created when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+extends: <xref uid="@azure/storage-file-datalake.CommonOptions|preview" />

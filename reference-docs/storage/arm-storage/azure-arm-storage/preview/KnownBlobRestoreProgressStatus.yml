@@ -1,0 +1,24 @@
+### YamlMime:TSEnum
+name: KnownBlobRestoreProgressStatus
+uid: '@azure/arm-storage.KnownBlobRestoreProgressStatus|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Known values of <xref:@azure/arm-storage.BlobRestoreProgressStatus> that the
+  service accepts.
+fullName: KnownBlobRestoreProgressStatus
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Complete
+    uid: '@azure/arm-storage.KnownBlobRestoreProgressStatus.Complete|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Failed
+    uid: '@azure/arm-storage.KnownBlobRestoreProgressStatus.Failed|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: InProgress
+    uid: '@azure/arm-storage.KnownBlobRestoreProgressStatus.InProgress|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

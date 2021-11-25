@@ -1,0 +1,29 @@
+### YamlMime:TSEnum
+name: KnownTopicTypePropertiesSupportedScopesForSourceItem
+uid: >-
+  @azure/arm-eventgrid.KnownTopicTypePropertiesSupportedScopesForSourceItem|preview
+package: '@azure/arm-eventgrid|preview'
+summary: >-
+  Known values of
+  <xref:@azure/arm-eventgrid.TopicTypePropertiesSupportedScopesForSourceItem>
+  that the service accepts.
+fullName: KnownTopicTypePropertiesSupportedScopesForSourceItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: AzureSubscription
+    uid: >-
+      @azure/arm-eventgrid.KnownTopicTypePropertiesSupportedScopesForSourceItem.AzureSubscription|preview
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: Resource
+    uid: >-
+      @azure/arm-eventgrid.KnownTopicTypePropertiesSupportedScopesForSourceItem.Resource|preview
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''
+  - name: ResourceGroup
+    uid: >-
+      @azure/arm-eventgrid.KnownTopicTypePropertiesSupportedScopesForSourceItem.ResourceGroup|preview
+    package: '@azure/arm-eventgrid|preview'
+    summary: ''

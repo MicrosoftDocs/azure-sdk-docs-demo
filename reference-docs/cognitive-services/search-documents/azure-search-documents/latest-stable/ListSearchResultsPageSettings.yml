@@ -1,0 +1,27 @@
+### YamlMime:TSType
+name: ListSearchResultsPageSettings
+uid: '@azure/search-documents.ListSearchResultsPageSettings|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: Arguments for retrieving the next page of search results.
+fullName: ListSearchResultsPageSettings
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: continuationToken
+    uid: >-
+      @azure/search-documents.ListSearchResultsPageSettings.continuationToken|latest-stable
+    package: '@azure/search-documents|latest-stable'
+    summary: |-
+      A token used for retrieving the next page of results when the server
+      enforces pagination.
+    fullName: continuationToken
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'continuationToken?: string'
+      return:
+        type: string
+        description: ''

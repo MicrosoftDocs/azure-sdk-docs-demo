@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: StorageAccountsCheckNameAvailabilityResponse
+uid: '@azure/arm-storage.StorageAccountsCheckNameAvailabilityResponse|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: Contains response data for the checkNameAvailability operation.
+fullName: StorageAccountsCheckNameAvailabilityResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type StorageAccountsCheckNameAvailabilityResponse =
+  CheckNameAvailabilityResult & { _response: Object }

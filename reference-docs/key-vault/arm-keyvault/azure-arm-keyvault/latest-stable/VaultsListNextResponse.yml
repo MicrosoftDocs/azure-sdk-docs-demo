@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: VaultsListNextResponse
+uid: '@azure/arm-keyvault.VaultsListNextResponse|latest-stable'
+package: '@azure/arm-keyvault|latest-stable'
+summary: Contains response data for the listNext operation.
+fullName: VaultsListNextResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type VaultsListNextResponse = ResourceListResult & { _response: Object }'

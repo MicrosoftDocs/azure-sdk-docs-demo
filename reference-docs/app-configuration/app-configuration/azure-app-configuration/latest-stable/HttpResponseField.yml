@@ -1,0 +1,10 @@
+### YamlMime:TSType
+name: HttpResponseField
+uid: '@azure/app-configuration.HttpResponseField|latest-stable'
+package: '@azure/app-configuration|latest-stable'
+summary: HTTP response related information - headers and raw body.
+fullName: HttpResponseField<HeadersT>
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface

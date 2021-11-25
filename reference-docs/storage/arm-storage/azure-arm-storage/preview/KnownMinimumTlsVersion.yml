@@ -1,0 +1,24 @@
+### YamlMime:TSEnum
+name: KnownMinimumTlsVersion
+uid: '@azure/arm-storage.KnownMinimumTlsVersion|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Known values of <xref:@azure/arm-storage.MinimumTlsVersion> that the service
+  accepts.
+fullName: KnownMinimumTlsVersion
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: TLS10
+    uid: '@azure/arm-storage.KnownMinimumTlsVersion.TLS10|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: TLS11
+    uid: '@azure/arm-storage.KnownMinimumTlsVersion.TLS11|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: TLS12
+    uid: '@azure/arm-storage.KnownMinimumTlsVersion.TLS12|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

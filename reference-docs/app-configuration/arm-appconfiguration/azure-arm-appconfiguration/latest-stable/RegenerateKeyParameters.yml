@@ -1,0 +1,24 @@
+### YamlMime:TSType
+name: RegenerateKeyParameters
+uid: '@azure/arm-appconfiguration.RegenerateKeyParameters|latest-stable'
+package: '@azure/arm-appconfiguration|latest-stable'
+summary: The parameters used to regenerate an API key.
+fullName: RegenerateKeyParameters
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: id
+    uid: '@azure/arm-appconfiguration.RegenerateKeyParameters.id|latest-stable'
+    package: '@azure/arm-appconfiguration|latest-stable'
+    summary: The id of the key to regenerate.
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

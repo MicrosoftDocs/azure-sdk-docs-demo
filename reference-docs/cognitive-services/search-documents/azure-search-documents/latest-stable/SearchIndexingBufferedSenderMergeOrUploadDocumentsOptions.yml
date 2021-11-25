@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: SearchIndexingBufferedSenderMergeOrUploadDocumentsOptions
+uid: >-
+  @azure/search-documents.SearchIndexingBufferedSenderMergeOrUploadDocumentsOptions|latest-stable
+package: '@azure/search-documents|latest-stable'
+summary: Options for SearchIndexingBufferedSenderMergeOrUploadDocuments.
+fullName: SearchIndexingBufferedSenderMergeOrUploadDocumentsOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type SearchIndexingBufferedSenderMergeOrUploadDocumentsOptions =
+  OperationOptions

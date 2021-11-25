@@ -1,0 +1,16 @@
+### YamlMime:TSEnum
+name: KnownNetworkRuleIPAction
+uid: '@azure/arm-eventhub.KnownNetworkRuleIPAction|preview'
+package: '@azure/arm-eventhub|preview'
+summary: >-
+  Known values of <xref:@azure/arm-eventhub.NetworkRuleIPAction> that the
+  service accepts.
+fullName: KnownNetworkRuleIPAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Allow
+    uid: '@azure/arm-eventhub.KnownNetworkRuleIPAction.Allow|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: ''

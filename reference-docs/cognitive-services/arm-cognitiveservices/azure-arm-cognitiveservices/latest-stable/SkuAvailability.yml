@@ -1,0 +1,89 @@
+### YamlMime:TSType
+name: SkuAvailability
+uid: '@azure/arm-cognitiveservices.SkuAvailability|latest-stable'
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: SKU availability.
+fullName: SkuAvailability
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: kind
+    uid: '@azure/arm-cognitiveservices.SkuAvailability.kind|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: The Kind of the resource.
+    fullName: kind
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'kind?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: message
+    uid: '@azure/arm-cognitiveservices.SkuAvailability.message|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Additional error message.
+    fullName: message
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'message?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: reason
+    uid: '@azure/arm-cognitiveservices.SkuAvailability.reason|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Reason why the SKU is not available.
+    fullName: reason
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'reason?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: skuAvailable
+    uid: '@azure/arm-cognitiveservices.SkuAvailability.skuAvailable|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Indicates the given SKU is available or not.
+    fullName: skuAvailable
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'skuAvailable?: undefined | false | true'
+      return:
+        type: undefined | false | true
+        description: ''
+  - name: skuName
+    uid: '@azure/arm-cognitiveservices.SkuAvailability.skuName|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: The SKU of Cognitive Services account.
+    fullName: skuName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'skuName?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: type
+    uid: '@azure/arm-cognitiveservices.SkuAvailability.type|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: The Type of the resource.
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

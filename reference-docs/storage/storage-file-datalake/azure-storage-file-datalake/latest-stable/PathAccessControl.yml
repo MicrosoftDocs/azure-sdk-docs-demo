@@ -1,0 +1,68 @@
+### YamlMime:TSType
+name: PathAccessControl
+uid: '@azure/storage-file-datalake.PathAccessControl|latest-stable'
+package: '@azure/storage-file-datalake|latest-stable'
+summary: ''
+fullName: PathAccessControl
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: acl
+    uid: '@azure/storage-file-datalake.PathAccessControl.acl|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: acl
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'acl: PathAccessControlItem[]'
+      return:
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.PathAccessControlItem|latest-stable"
+          />[]
+        description: ''
+  - name: group
+    uid: '@azure/storage-file-datalake.PathAccessControl.group|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: group
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'group?: string'
+      return:
+        type: string
+        description: ''
+  - name: owner
+    uid: '@azure/storage-file-datalake.PathAccessControl.owner|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: owner
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'owner?: string'
+      return:
+        type: string
+        description: ''
+  - name: permissions
+    uid: '@azure/storage-file-datalake.PathAccessControl.permissions|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: permissions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'permissions?: PathPermissions'
+      return:
+        type: >-
+          <xref uid="@azure/storage-file-datalake.PathPermissions|latest-stable"
+          />
+        description: ''

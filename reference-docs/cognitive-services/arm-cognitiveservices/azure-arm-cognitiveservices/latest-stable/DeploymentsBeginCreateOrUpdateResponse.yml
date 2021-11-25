@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: DeploymentsBeginCreateOrUpdateResponse
+uid: >-
+  @azure/arm-cognitiveservices.DeploymentsBeginCreateOrUpdateResponse|latest-stable
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: Contains response data for the beginCreateOrUpdate operation.
+fullName: DeploymentsBeginCreateOrUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type DeploymentsBeginCreateOrUpdateResponse = Deployment & { _response: Object
+  }

@@ -1,0 +1,63 @@
+### YamlMime:TSType
+name: BlobQueryArrowField
+uid: '@azure/storage-blob.BlobQueryArrowField|preview'
+package: '@azure/storage-blob|preview'
+summary: Describe a field in <xref:@azure/storage-blob.BlobQueryArrowConfiguration>.
+fullName: BlobQueryArrowField
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: name
+    uid: '@azure/storage-blob.BlobQueryArrowField.name|preview'
+    package: '@azure/storage-blob|preview'
+    summary: The name of the field.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name?: string'
+      return:
+        type: string
+        description: ''
+  - name: precision
+    uid: '@azure/storage-blob.BlobQueryArrowField.precision|preview'
+    package: '@azure/storage-blob|preview'
+    summary: The precision of the field. Required if type is "decimal".
+    fullName: precision
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'precision?: number'
+      return:
+        type: number
+        description: ''
+  - name: scale
+    uid: '@azure/storage-blob.BlobQueryArrowField.scale|preview'
+    package: '@azure/storage-blob|preview'
+    summary: The scale of the field.  Required if type is is "decimal".
+    fullName: scale
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'scale?: number'
+      return:
+        type: number
+        description: ''
+  - name: type
+    uid: '@azure/storage-blob.BlobQueryArrowField.type|preview'
+    package: '@azure/storage-blob|preview'
+    summary: The type of the field.
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: BlobQueryArrowFieldType'
+      return:
+        type: <xref uid="@azure/storage-blob.BlobQueryArrowFieldType|preview" />
+        description: ''

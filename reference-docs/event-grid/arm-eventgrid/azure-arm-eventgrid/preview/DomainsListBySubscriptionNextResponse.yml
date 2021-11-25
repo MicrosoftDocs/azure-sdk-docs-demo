@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: DomainsListBySubscriptionNextResponse
+uid: '@azure/arm-eventgrid.DomainsListBySubscriptionNextResponse|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: Contains response data for the listBySubscriptionNext operation.
+fullName: DomainsListBySubscriptionNextResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type DomainsListBySubscriptionNextResponse = DomainsListResult

@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: ResourceSkusListNextResponse
+uid: '@azure/arm-cognitiveservices.ResourceSkusListNextResponse|latest-stable'
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: Contains response data for the listNext operation.
+fullName: ResourceSkusListNextResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type ResourceSkusListNextResponse = ResourceSkuListResult & { _response:
+  Object }

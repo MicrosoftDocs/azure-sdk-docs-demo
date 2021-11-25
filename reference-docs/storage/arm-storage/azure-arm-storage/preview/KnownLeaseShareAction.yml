@@ -1,0 +1,32 @@
+### YamlMime:TSEnum
+name: KnownLeaseShareAction
+uid: '@azure/arm-storage.KnownLeaseShareAction|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Known values of <xref:@azure/arm-storage.LeaseShareAction> that the service
+  accepts.
+fullName: KnownLeaseShareAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Acquire
+    uid: '@azure/arm-storage.KnownLeaseShareAction.Acquire|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Break
+    uid: '@azure/arm-storage.KnownLeaseShareAction.Break|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Change
+    uid: '@azure/arm-storage.KnownLeaseShareAction.Change|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Release
+    uid: '@azure/arm-storage.KnownLeaseShareAction.Release|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Renew
+    uid: '@azure/arm-storage.KnownLeaseShareAction.Renew|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

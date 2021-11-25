@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: BlobRestoreParameters
+uid: '@azure/arm-storage.BlobRestoreParameters|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: Blob restore parameters
+fullName: BlobRestoreParameters
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: blobRanges
+    uid: '@azure/arm-storage.BlobRestoreParameters.blobRanges|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: Blob ranges to restore.
+    fullName: blobRanges
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'blobRanges: BlobRestoreRange[]'
+      return:
+        type: <xref uid="@azure/arm-storage.BlobRestoreRange|latest-stable" />[]
+        description: ''
+  - name: timeToRestore
+    uid: '@azure/arm-storage.BlobRestoreParameters.timeToRestore|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: Restore blob to the specified time.
+    fullName: timeToRestore
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'timeToRestore: Date'
+      return:
+        type: Date
+        description: ''

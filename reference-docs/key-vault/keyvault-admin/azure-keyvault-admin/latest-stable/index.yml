@@ -1,0 +1,44 @@
+### YamlMime:TSPackage
+uid: '@azure/keyvault-admin|latest-stable'
+name: '@azure/keyvault-admin'
+summary: ''
+type: package
+enums:
+  - '@azure/keyvault-admin.KnownKeyVaultDataAction|latest-stable'
+  - '@azure/keyvault-admin.KnownKeyVaultRoleScope|latest-stable'
+classes:
+  - '@azure/keyvault-admin.KeyVaultAccessControlClient|latest-stable'
+  - '@azure/keyvault-admin.KeyVaultBackupClient|latest-stable'
+interfaces:
+  - '@azure/keyvault-admin.AccessControlClientOptions|latest-stable'
+  - '@azure/keyvault-admin.CreateRoleAssignmentOptions|latest-stable'
+  - '@azure/keyvault-admin.DeleteRoleAssignmentOptions|latest-stable'
+  - '@azure/keyvault-admin.DeleteRoleDefinitionOptions|latest-stable'
+  - '@azure/keyvault-admin.GetRoleAssignmentOptions|latest-stable'
+  - '@azure/keyvault-admin.GetRoleDefinitionOptions|latest-stable'
+  - '@azure/keyvault-admin.KeyVaultAdminPollOperationState|latest-stable'
+  - '@azure/keyvault-admin.KeyVaultBackupClientOptions|latest-stable'
+  - '@azure/keyvault-admin.KeyVaultBackupPollerOptions|latest-stable'
+  - '@azure/keyvault-admin.KeyVaultBackupResult|latest-stable'
+  - '@azure/keyvault-admin.KeyVaultBeginBackupOptions|latest-stable'
+  - '@azure/keyvault-admin.KeyVaultBeginRestoreOptions|latest-stable'
+  - '@azure/keyvault-admin.KeyVaultBeginSelectiveKeyRestoreOptions|latest-stable'
+  - '@azure/keyvault-admin.KeyVaultPermission|latest-stable'
+  - '@azure/keyvault-admin.KeyVaultRestoreOperationState|latest-stable'
+  - '@azure/keyvault-admin.KeyVaultRestoreResult|latest-stable'
+  - '@azure/keyvault-admin.KeyVaultRoleAssignment|latest-stable'
+  - '@azure/keyvault-admin.KeyVaultRoleAssignmentProperties|latest-stable'
+  - '@azure/keyvault-admin.KeyVaultRoleDefinition|latest-stable'
+  - >-
+    @azure/keyvault-admin.KeyVaultSelectiveKeyRestoreOperationState|latest-stable
+  - '@azure/keyvault-admin.KeyVaultSelectiveKeyRestoreResult|latest-stable'
+  - '@azure/keyvault-admin.ListRoleAssignmentsOptions|latest-stable'
+  - '@azure/keyvault-admin.ListRoleAssignmentsPageSettings|latest-stable'
+  - '@azure/keyvault-admin.ListRoleDefinitionsOptions|latest-stable'
+  - '@azure/keyvault-admin.ListRoleDefinitionsPageSettings|latest-stable'
+  - '@azure/keyvault-admin.SetRoleDefinitionOptions|latest-stable'
+typeAliases:
+  - '@azure/keyvault-admin.KeyVaultBackupOperationState|latest-stable'
+  - '@azure/keyvault-admin.KeyVaultDataAction|latest-stable'
+  - '@azure/keyvault-admin.KeyVaultRoleScope|latest-stable'
+  - '@azure/keyvault-admin.SUPPORTED_API_VERSIONS|latest-stable'

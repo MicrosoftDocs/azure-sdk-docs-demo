@@ -1,0 +1,57 @@
+### YamlMime:TSType
+name: StorageBlobDeadLetterDestination
+uid: '@azure/arm-eventgrid.StorageBlobDeadLetterDestination|latest-stable'
+package: '@azure/arm-eventgrid|latest-stable'
+summary: Information about the storage blob based dead letter destination.
+fullName: StorageBlobDeadLetterDestination
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: blobContainerName
+    uid: >-
+      @azure/arm-eventgrid.StorageBlobDeadLetterDestination.blobContainerName|latest-stable
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: >-
+      The name of the Storage blob container that is the destination of the
+      deadletter events
+    fullName: blobContainerName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'blobContainerName?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: endpointType
+    uid: >-
+      @azure/arm-eventgrid.StorageBlobDeadLetterDestination.endpointType|latest-stable
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: Polymorphic Discriminator
+    fullName: endpointType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'endpointType: "StorageBlob"'
+      return:
+        type: '"StorageBlob"'
+        description: ''
+  - name: resourceId
+    uid: >-
+      @azure/arm-eventgrid.StorageBlobDeadLetterDestination.resourceId|latest-stable
+    package: '@azure/arm-eventgrid|latest-stable'
+    summary: >-
+      The Azure Resource ID of the storage account that is the destination of
+      the deadletter events
+    fullName: resourceId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'resourceId?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

@@ -1,0 +1,18 @@
+### YamlMime:TSEnum
+name: KnownKeySource
+uid: '@azure/arm-storage.KnownKeySource|preview'
+package: '@azure/arm-storage|preview'
+summary: Known values of <xref:@azure/arm-storage.KeySource> that the service accepts.
+fullName: KnownKeySource
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: MicrosoftKeyvault
+    uid: '@azure/arm-storage.KnownKeySource.MicrosoftKeyvault|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: MicrosoftStorage
+    uid: '@azure/arm-storage.KnownKeySource.MicrosoftStorage|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

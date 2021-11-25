@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: GetIndexOptions
+uid: '@azure/search-documents.GetIndexOptions|preview'
+package: '@azure/search-documents|preview'
+summary: Options for get index operation.
+fullName: GetIndexOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type GetIndexOptions = OperationOptions

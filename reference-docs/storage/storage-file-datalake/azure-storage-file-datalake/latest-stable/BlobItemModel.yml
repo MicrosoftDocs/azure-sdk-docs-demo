@@ -1,0 +1,105 @@
+### YamlMime:TSType
+name: BlobItemModel
+uid: '@azure/storage-file-datalake.BlobItemModel|latest-stable'
+package: '@azure/storage-file-datalake|latest-stable'
+summary: An Azure Storage blob
+fullName: BlobItemModel
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: deleted
+    uid: '@azure/storage-file-datalake.BlobItemModel.deleted|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: deleted
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'deleted: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: deletionId
+    uid: '@azure/storage-file-datalake.BlobItemModel.deletionId|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: deletionId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'deletionId?: string'
+      return:
+        type: string
+        description: ''
+  - name: isCurrentVersion
+    uid: '@azure/storage-file-datalake.BlobItemModel.isCurrentVersion|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: isCurrentVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isCurrentVersion?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: name
+    uid: '@azure/storage-file-datalake.BlobItemModel.name|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        type: string
+        description: ''
+  - name: properties
+    uid: '@azure/storage-file-datalake.BlobItemModel.properties|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: Properties of a blob
+    fullName: properties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'properties: BlobPropertiesModel'
+      return:
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.BlobPropertiesModel|latest-stable"
+          />
+        description: ''
+  - name: snapshot
+    uid: '@azure/storage-file-datalake.BlobItemModel.snapshot|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: snapshot
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'snapshot: string'
+      return:
+        type: string
+        description: ''
+  - name: versionId
+    uid: '@azure/storage-file-datalake.BlobItemModel.versionId|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: versionId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'versionId?: string'
+      return:
+        type: string
+        description: ''

@@ -1,0 +1,197 @@
+### YamlMime:TSType
+name: FileCreateOptions
+uid: '@azure/storage-file-share.FileCreateOptions|latest-stable'
+package: '@azure/storage-file-share|latest-stable'
+summary: >-
+  Options to configure the
+  <xref:@azure/storage-file-share.ShareFileClient.create> operation.
+fullName: FileCreateOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: '@azure/storage-file-share.FileCreateOptions.abortSignal|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: creationTime
+    uid: '@azure/storage-file-share.FileCreateOptions.creationTime|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: >-
+      The Coordinated Universal Time (UTC) creation time property for the
+      directory.
+
+      A value of now may be used to indicate the time of the request.
+
+      By default, the value will be set as now.
+    fullName: creationTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'creationTime?: Date | TimeNowType'
+      return:
+        type: >-
+          Date | <xref uid="@azure/storage-file-share.TimeNowType|latest-stable"
+          />
+        description: ''
+  - name: fileAttributes
+    uid: '@azure/storage-file-share.FileCreateOptions.fileAttributes|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: The file system attributes to be set on the file or directory.
+    fullName: fileAttributes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fileAttributes?: FileSystemAttributes'
+      return:
+        type: >-
+          <xref
+          uid="@azure/storage-file-share.FileSystemAttributes|latest-stable" />
+        description: ''
+  - name: fileHttpHeaders
+    uid: '@azure/storage-file-share.FileCreateOptions.fileHttpHeaders|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: File HTTP headers like Content-Type.
+    fullName: fileHttpHeaders
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fileHttpHeaders?: FileHttpHeaders'
+      return:
+        type: <xref uid="@azure/storage-file-share.FileHttpHeaders|latest-stable" />
+        description: ''
+  - name: filePermission
+    uid: '@azure/storage-file-share.FileCreateOptions.filePermission|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: >
+      The permission(security descriptor) to be set for the file or directory in
+      the
+
+      Security Descriptor Definition Language (SDDL). If specified, it must have
+      an owner, group, and discretionary access control list (DACL).
+
+      A value of inherit may be passed to inherit from the parent directory.
+
+      Note that only one of filePermission or filePermissionKey can be
+      specified.
+
+      And if both are not specified, inherit will be set to filePermission as
+      default value by client library.
+    fullName: filePermission
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'filePermission?: string | FilePermissionInheritType'
+      return:
+        type: >-
+          string | <xref
+          uid="@azure/storage-file-share.FilePermissionInheritType|latest-stable"
+          />
+        description: ''
+  - name: filePermissionKey
+    uid: >-
+      @azure/storage-file-share.FileCreateOptions.filePermissionKey|latest-stable
+    package: '@azure/storage-file-share|latest-stable'
+    summary: >
+      The key of the permission to be set for the file or directory. This can be
+      created using the Create-Permission API.
+
+      Note that only one of filePermission or filePermissionKey can be
+      specified.
+    fullName: filePermissionKey
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'filePermissionKey?: string'
+      return:
+        type: string
+        description: ''
+  - name: lastWriteTime
+    uid: '@azure/storage-file-share.FileCreateOptions.lastWriteTime|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: >-
+      The Coordinated Universal Time (UTC) last write property for the
+      directory.
+
+      A value of now may be used to indicate the time of the request.
+
+      By default, the value will be set as now.
+    fullName: lastWriteTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lastWriteTime?: Date | TimeNowType'
+      return:
+        type: >-
+          Date | <xref uid="@azure/storage-file-share.TimeNowType|latest-stable"
+          />
+        description: ''
+  - name: leaseAccessConditions
+    uid: >-
+      @azure/storage-file-share.FileCreateOptions.leaseAccessConditions|latest-stable
+    package: '@azure/storage-file-share|latest-stable'
+    summary: Lease access conditions.
+    fullName: leaseAccessConditions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'leaseAccessConditions?: LeaseAccessConditions'
+      return:
+        type: >-
+          <xref
+          uid="@azure/storage-file-share.LeaseAccessConditions|latest-stable" />
+        description: ''
+  - name: metadata
+    uid: '@azure/storage-file-share.FileCreateOptions.metadata|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: >-
+      A collection of key-value string pair to associate with the file storage
+      object.
+    fullName: metadata
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'metadata?: Metadata'
+      return:
+        type: <xref uid="@azure/storage-file-share.Metadata|latest-stable" />
+        description: ''
+  - name: tracingOptions
+    uid: '@azure/storage-file-share.FileCreateOptions.tracingOptions|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: ''
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+extends: >-
+  <xref
+  uid="@azure/storage-file-share.FileAndDirectoryCreateCommonOptions|latest-stable"
+  />

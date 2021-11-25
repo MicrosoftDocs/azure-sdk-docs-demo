@@ -1,0 +1,67 @@
+### YamlMime:TSType
+name: FilterBlobItem
+uid: '@azure/storage-blob.FilterBlobItem|latest-stable'
+package: '@azure/storage-blob|latest-stable'
+summary: Blob info from a <xref:@azure/storage-blob.BlobServiceClient.findBlobsByTags>
+fullName: FilterBlobItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: containerName
+    uid: '@azure/storage-blob.FilterBlobItem.containerName|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: Container Name.
+    fullName: containerName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'containerName: string'
+      return:
+        type: string
+        description: ''
+  - name: name
+    uid: '@azure/storage-blob.FilterBlobItem.name|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: Blob Name.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        type: string
+        description: ''
+  - name: tags
+    uid: '@azure/storage-blob.FilterBlobItem.tags|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: Blob Tags.
+    fullName: tags
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tags?: Tags'
+      return:
+        type: <xref uid="@azure/storage-blob.Tags|latest-stable" />
+        description: ''
+  - name: tagValue
+    uid: '@azure/storage-blob.FilterBlobItem.tagValue|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: Tag value.
+    fullName: tagValue
+    remarks: ''
+    isPreview: false
+    isDeprecated: true
+    customDeprecatedMessage: >-
+      The service no longer returns this value. Use
+      <xref:@azure/storage-blob.FilterBlobItem.tags> to fetch all matching Blob
+      Tags.
+    syntax:
+      content: 'tagValue: string'
+      return:
+        type: string
+        description: ''

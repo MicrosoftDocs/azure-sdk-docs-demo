@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: EventHubsListAuthorizationRulesNextResponse
+uid: '@azure/arm-eventhub.EventHubsListAuthorizationRulesNextResponse|latest-stable'
+package: '@azure/arm-eventhub|latest-stable'
+summary: Contains response data for the listAuthorizationRulesNext operation.
+fullName: EventHubsListAuthorizationRulesNextResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type EventHubsListAuthorizationRulesNextResponse = AuthorizationRuleListResult
+  & { _response: Object }

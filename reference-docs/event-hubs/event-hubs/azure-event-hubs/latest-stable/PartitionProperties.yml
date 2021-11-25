@@ -1,0 +1,106 @@
+### YamlMime:TSType
+name: PartitionProperties
+uid: '@azure/event-hubs.PartitionProperties|latest-stable'
+package: '@azure/event-hubs|latest-stable'
+summary: Describes the runtime information of an EventHub Partition.
+fullName: PartitionProperties
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: beginningSequenceNumber
+    uid: >-
+      @azure/event-hubs.PartitionProperties.beginningSequenceNumber|latest-stable
+    package: '@azure/event-hubs|latest-stable'
+    summary: The starting sequence number of the partition's message log.
+    fullName: beginningSequenceNumber
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'beginningSequenceNumber: number'
+      return:
+        type: number
+        description: ''
+  - name: eventHubName
+    uid: '@azure/event-hubs.PartitionProperties.eventHubName|latest-stable'
+    package: '@azure/event-hubs|latest-stable'
+    summary: The name of the Event Hub.
+    fullName: eventHubName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'eventHubName: string'
+      return:
+        type: string
+        description: ''
+  - name: isEmpty
+    uid: '@azure/event-hubs.PartitionProperties.isEmpty|latest-stable'
+    package: '@azure/event-hubs|latest-stable'
+    summary: Indicates whether the partition is empty.
+    fullName: isEmpty
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isEmpty: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: lastEnqueuedOffset
+    uid: '@azure/event-hubs.PartitionProperties.lastEnqueuedOffset|latest-stable'
+    package: '@azure/event-hubs|latest-stable'
+    summary: The offset of the last enqueued message in the partition's message log.
+    fullName: lastEnqueuedOffset
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lastEnqueuedOffset: number'
+      return:
+        type: number
+        description: ''
+  - name: lastEnqueuedOnUtc
+    uid: '@azure/event-hubs.PartitionProperties.lastEnqueuedOnUtc|latest-stable'
+    package: '@azure/event-hubs|latest-stable'
+    summary: >-
+      The time of the last enqueued message in the partition's message log in
+      UTC.
+    fullName: lastEnqueuedOnUtc
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lastEnqueuedOnUtc: Date'
+      return:
+        type: Date
+        description: ''
+  - name: lastEnqueuedSequenceNumber
+    uid: >-
+      @azure/event-hubs.PartitionProperties.lastEnqueuedSequenceNumber|latest-stable
+    package: '@azure/event-hubs|latest-stable'
+    summary: The last sequence number of the partition's message log.
+    fullName: lastEnqueuedSequenceNumber
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lastEnqueuedSequenceNumber: number'
+      return:
+        type: number
+        description: ''
+  - name: partitionId
+    uid: '@azure/event-hubs.PartitionProperties.partitionId|latest-stable'
+    package: '@azure/event-hubs|latest-stable'
+    summary: Identifier of the partition within the Event Hub.
+    fullName: partitionId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'partitionId: string'
+      return:
+        type: string
+        description: ''

@@ -1,0 +1,20 @@
+### YamlMime:TSEnum
+name: KnownDefaultAction
+uid: '@azure/arm-eventhub.KnownDefaultAction|preview'
+package: '@azure/arm-eventhub|preview'
+summary: >-
+  Known values of <xref:@azure/arm-eventhub.DefaultAction> that the service
+  accepts.
+fullName: KnownDefaultAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Allow
+    uid: '@azure/arm-eventhub.KnownDefaultAction.Allow|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: ''
+  - name: Deny
+    uid: '@azure/arm-eventhub.KnownDefaultAction.Deny|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: ''

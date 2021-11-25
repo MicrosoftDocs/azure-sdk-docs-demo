@@ -1,0 +1,72 @@
+### YamlMime:TSEnum
+name: KnownStoragePermissions
+uid: '@azure/arm-keyvault.KnownStoragePermissions|preview'
+package: '@azure/arm-keyvault|preview'
+summary: >-
+  Known values of <xref:@azure/arm-keyvault.StoragePermissions> that the service
+  accepts.
+fullName: KnownStoragePermissions
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: All
+    uid: '@azure/arm-keyvault.KnownStoragePermissions.All|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Backup
+    uid: '@azure/arm-keyvault.KnownStoragePermissions.Backup|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Delete
+    uid: '@azure/arm-keyvault.KnownStoragePermissions.Delete|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Deletesas
+    uid: '@azure/arm-keyvault.KnownStoragePermissions.Deletesas|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Get
+    uid: '@azure/arm-keyvault.KnownStoragePermissions.Get|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Getsas
+    uid: '@azure/arm-keyvault.KnownStoragePermissions.Getsas|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: List
+    uid: '@azure/arm-keyvault.KnownStoragePermissions.List|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Listsas
+    uid: '@azure/arm-keyvault.KnownStoragePermissions.Listsas|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Purge
+    uid: '@azure/arm-keyvault.KnownStoragePermissions.Purge|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Recover
+    uid: '@azure/arm-keyvault.KnownStoragePermissions.Recover|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Regeneratekey
+    uid: '@azure/arm-keyvault.KnownStoragePermissions.Regeneratekey|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Restore
+    uid: '@azure/arm-keyvault.KnownStoragePermissions.Restore|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Set
+    uid: '@azure/arm-keyvault.KnownStoragePermissions.Set|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Setsas
+    uid: '@azure/arm-keyvault.KnownStoragePermissions.Setsas|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''
+  - name: Update
+    uid: '@azure/arm-keyvault.KnownStoragePermissions.Update|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: ''

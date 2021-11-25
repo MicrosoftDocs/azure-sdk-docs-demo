@@ -1,0 +1,18 @@
+### YamlMime:TSEnum
+name: TokenType
+uid: '@azure/core-amqp.TokenType|latest-stable'
+package: '@azure/core-amqp|latest-stable'
+summary: Describes the type of supported tokens.
+fullName: TokenType
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: CbsTokenTypeJwt
+    uid: '@azure/core-amqp.TokenType.CbsTokenTypeJwt|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: The "jwt" token type. Used with AADTokenCredential.
+  - name: CbsTokenTypeSas
+    uid: '@azure/core-amqp.TokenType.CbsTokenTypeSas|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: The sas token type. Used with SharedKeyCredential.

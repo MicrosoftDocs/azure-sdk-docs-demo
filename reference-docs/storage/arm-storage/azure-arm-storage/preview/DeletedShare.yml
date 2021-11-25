@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: DeletedShare
+uid: '@azure/arm-storage.DeletedShare|preview'
+package: '@azure/arm-storage|preview'
+summary: The deleted share to be restored.
+fullName: DeletedShare
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: deletedShareName
+    uid: '@azure/arm-storage.DeletedShare.deletedShareName|preview'
+    package: '@azure/arm-storage|preview'
+    summary: Required. Identify the name of the deleted share that will be restored.
+    fullName: deletedShareName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'deletedShareName: string'
+      return:
+        type: string
+        description: ''
+  - name: deletedShareVersion
+    uid: '@azure/arm-storage.DeletedShare.deletedShareVersion|preview'
+    package: '@azure/arm-storage|preview'
+    summary: Required. Identify the version of the deleted share that will be restored.
+    fullName: deletedShareVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'deletedShareVersion: string'
+      return:
+        type: string
+        description: ''

@@ -1,0 +1,142 @@
+### YamlMime:TSPackage
+uid: '@azure/ai-text-analytics|latest-stable'
+name: '@azure/ai-text-analytics'
+summary: ''
+type: package
+enums:
+  - '@azure/ai-text-analytics.KnownHealthcareEntityCategory|latest-stable'
+  - '@azure/ai-text-analytics.KnownInnerErrorCodeValue|latest-stable'
+  - '@azure/ai-text-analytics.KnownWarningCode|latest-stable'
+  - '@azure/ai-text-analytics.PiiEntityDomain|latest-stable'
+classes:
+  - '@azure/ai-text-analytics.TextAnalyticsClient|latest-stable'
+interfaces:
+  - '@azure/ai-text-analytics.AnalysisPollOperationState|latest-stable'
+  - '@azure/ai-text-analytics.AnalyzeActionsOperationMetadata|latest-stable'
+  - '@azure/ai-text-analytics.AnalyzeActionsOperationState|latest-stable'
+  - '@azure/ai-text-analytics.AnalyzeActionsResult|latest-stable'
+  - '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResultArray|latest-stable'
+  - >-
+    @azure/ai-text-analytics.AnalyzeHealthcareEntitiesSuccessResult|latest-stable
+  - '@azure/ai-text-analytics.AnalyzeHealthcareOperationState|latest-stable'
+  - '@azure/ai-text-analytics.AnalyzeSentimentAction|latest-stable'
+  - '@azure/ai-text-analytics.AnalyzeSentimentActionSuccessResult|latest-stable'
+  - '@azure/ai-text-analytics.AnalyzeSentimentOptions|latest-stable'
+  - '@azure/ai-text-analytics.AnalyzeSentimentResultArray|latest-stable'
+  - '@azure/ai-text-analytics.AnalyzeSentimentSuccessResult|latest-stable'
+  - '@azure/ai-text-analytics.AssessmentSentiment|latest-stable'
+  - '@azure/ai-text-analytics.BeginAnalyzeActionsOptions|latest-stable'
+  - '@azure/ai-text-analytics.BeginAnalyzeHealthcareEntitiesOptions|latest-stable'
+  - '@azure/ai-text-analytics.CategorizedEntity|latest-stable'
+  - '@azure/ai-text-analytics.DetectLanguageInput|latest-stable'
+  - '@azure/ai-text-analytics.DetectLanguageOptions|latest-stable'
+  - '@azure/ai-text-analytics.DetectLanguageResultArray|latest-stable'
+  - '@azure/ai-text-analytics.DetectLanguageSuccessResult|latest-stable'
+  - '@azure/ai-text-analytics.DetectedLanguage|latest-stable'
+  - '@azure/ai-text-analytics.Entity|latest-stable'
+  - '@azure/ai-text-analytics.EntityAssertion|latest-stable'
+  - '@azure/ai-text-analytics.EntityDataSource|latest-stable'
+  - '@azure/ai-text-analytics.ExtractKeyPhrasesAction|latest-stable'
+  - '@azure/ai-text-analytics.ExtractKeyPhrasesActionSuccessResult|latest-stable'
+  - '@azure/ai-text-analytics.ExtractKeyPhrasesOptions|latest-stable'
+  - '@azure/ai-text-analytics.ExtractKeyPhrasesResultArray|latest-stable'
+  - '@azure/ai-text-analytics.ExtractKeyPhrasesSuccessResult|latest-stable'
+  - '@azure/ai-text-analytics.HealthcareEntity|latest-stable'
+  - '@azure/ai-text-analytics.HealthcareEntityRelation|latest-stable'
+  - '@azure/ai-text-analytics.HealthcareEntityRelationRole|latest-stable'
+  - '@azure/ai-text-analytics.LinkedEntity|latest-stable'
+  - '@azure/ai-text-analytics.Match|latest-stable'
+  - '@azure/ai-text-analytics.OperationMetadata|latest-stable'
+  - '@azure/ai-text-analytics.Opinion|latest-stable'
+  - '@azure/ai-text-analytics.PagedAnalyzeActionsResult|latest-stable'
+  - '@azure/ai-text-analytics.PagedAnalyzeHealthcareEntitiesResult|latest-stable'
+  - '@azure/ai-text-analytics.PiiEntity|latest-stable'
+  - '@azure/ai-text-analytics.RecognizeCategorizedEntitiesAction|latest-stable'
+  - >-
+    @azure/ai-text-analytics.RecognizeCategorizedEntitiesActionSuccessResult|latest-stable
+  - '@azure/ai-text-analytics.RecognizeCategorizedEntitiesOptions|latest-stable'
+  - >-
+    @azure/ai-text-analytics.RecognizeCategorizedEntitiesResultArray|latest-stable
+  - >-
+    @azure/ai-text-analytics.RecognizeCategorizedEntitiesSuccessResult|latest-stable
+  - '@azure/ai-text-analytics.RecognizeLinkedEntitiesAction|latest-stable'
+  - >-
+    @azure/ai-text-analytics.RecognizeLinkedEntitiesActionSuccessResult|latest-stable
+  - '@azure/ai-text-analytics.RecognizeLinkedEntitiesOptions|latest-stable'
+  - '@azure/ai-text-analytics.RecognizeLinkedEntitiesResultArray|latest-stable'
+  - '@azure/ai-text-analytics.RecognizeLinkedEntitiesSuccessResult|latest-stable'
+  - '@azure/ai-text-analytics.RecognizePiiEntitiesAction|latest-stable'
+  - >-
+    @azure/ai-text-analytics.RecognizePiiEntitiesActionSuccessResult|latest-stable
+  - '@azure/ai-text-analytics.RecognizePiiEntitiesOptions|latest-stable'
+  - '@azure/ai-text-analytics.RecognizePiiEntitiesResultArray|latest-stable'
+  - '@azure/ai-text-analytics.RecognizePiiEntitiesSuccessResult|latest-stable'
+  - '@azure/ai-text-analytics.SentenceAssessment|latest-stable'
+  - '@azure/ai-text-analytics.SentenceSentiment|latest-stable'
+  - '@azure/ai-text-analytics.SentimentConfidenceScores|latest-stable'
+  - '@azure/ai-text-analytics.TargetConfidenceScoreLabel|latest-stable'
+  - '@azure/ai-text-analytics.TargetSentiment|latest-stable'
+  - '@azure/ai-text-analytics.TextAnalyticsAction|latest-stable'
+  - '@azure/ai-text-analytics.TextAnalyticsActionErrorResult|latest-stable'
+  - '@azure/ai-text-analytics.TextAnalyticsActionSuccessState|latest-stable'
+  - '@azure/ai-text-analytics.TextAnalyticsActions|latest-stable'
+  - '@azure/ai-text-analytics.TextAnalyticsClientOptions|latest-stable'
+  - '@azure/ai-text-analytics.TextAnalyticsError|latest-stable'
+  - '@azure/ai-text-analytics.TextAnalyticsErrorResult|latest-stable'
+  - '@azure/ai-text-analytics.TextAnalyticsOperationOptions|latest-stable'
+  - '@azure/ai-text-analytics.TextAnalyticsSuccessResult|latest-stable'
+  - '@azure/ai-text-analytics.TextAnalyticsWarning|latest-stable'
+  - '@azure/ai-text-analytics.TextDocumentBatchStatistics|latest-stable'
+  - '@azure/ai-text-analytics.TextDocumentInput|latest-stable'
+  - '@azure/ai-text-analytics.TextDocumentStatistics|latest-stable'
+typeAliases:
+  - '@azure/ai-text-analytics.AnalyzeActionsPollerLike|latest-stable'
+  - '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesErrorResult|latest-stable'
+  - '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesPollerLike|latest-stable'
+  - '@azure/ai-text-analytics.AnalyzeHealthcareEntitiesResult|latest-stable'
+  - '@azure/ai-text-analytics.AnalyzeSentimentActionErrorResult|latest-stable'
+  - '@azure/ai-text-analytics.AnalyzeSentimentActionResult|latest-stable'
+  - '@azure/ai-text-analytics.AnalyzeSentimentErrorResult|latest-stable'
+  - '@azure/ai-text-analytics.AnalyzeSentimentResult|latest-stable'
+  - '@azure/ai-text-analytics.DetectLanguageErrorResult|latest-stable'
+  - '@azure/ai-text-analytics.DetectLanguageResult|latest-stable'
+  - '@azure/ai-text-analytics.DocumentSentimentLabel|latest-stable'
+  - '@azure/ai-text-analytics.EntityAssociation|latest-stable'
+  - '@azure/ai-text-analytics.EntityCertainty|latest-stable'
+  - '@azure/ai-text-analytics.EntityConditionality|latest-stable'
+  - '@azure/ai-text-analytics.ErrorCode|latest-stable'
+  - '@azure/ai-text-analytics.ErrorCodeValue|latest-stable'
+  - '@azure/ai-text-analytics.ExtractKeyPhrasesActionErrorResult|latest-stable'
+  - '@azure/ai-text-analytics.ExtractKeyPhrasesActionResult|latest-stable'
+  - '@azure/ai-text-analytics.ExtractKeyPhrasesErrorResult|latest-stable'
+  - '@azure/ai-text-analytics.ExtractKeyPhrasesResult|latest-stable'
+  - '@azure/ai-text-analytics.HealthcareEntityCategory|latest-stable'
+  - '@azure/ai-text-analytics.HealthcareEntityRelationRoleType|latest-stable'
+  - '@azure/ai-text-analytics.HealthcareEntityRelationType|latest-stable'
+  - '@azure/ai-text-analytics.InnerErrorCodeValue|latest-stable'
+  - >-
+    @azure/ai-text-analytics.PagedAsyncIterableAnalyzeActionsResult|latest-stable
+  - >-
+    @azure/ai-text-analytics.PagedAsyncIterableAnalyzeHealthcareEntitiesResult|latest-stable
+  - '@azure/ai-text-analytics.PiiEntityCategory|latest-stable'
+  - >-
+    @azure/ai-text-analytics.RecognizeCategorizedEntitiesActionErrorResult|latest-stable
+  - >-
+    @azure/ai-text-analytics.RecognizeCategorizedEntitiesActionResult|latest-stable
+  - >-
+    @azure/ai-text-analytics.RecognizeCategorizedEntitiesErrorResult|latest-stable
+  - '@azure/ai-text-analytics.RecognizeCategorizedEntitiesResult|latest-stable'
+  - >-
+    @azure/ai-text-analytics.RecognizeLinkedEntitiesActionErrorResult|latest-stable
+  - '@azure/ai-text-analytics.RecognizeLinkedEntitiesActionResult|latest-stable'
+  - '@azure/ai-text-analytics.RecognizeLinkedEntitiesErrorResult|latest-stable'
+  - '@azure/ai-text-analytics.RecognizeLinkedEntitiesResult|latest-stable'
+  - '@azure/ai-text-analytics.RecognizePiiEntitiesActionErrorResult|latest-stable'
+  - '@azure/ai-text-analytics.RecognizePiiEntitiesActionResult|latest-stable'
+  - '@azure/ai-text-analytics.RecognizePiiEntitiesErrorResult|latest-stable'
+  - '@azure/ai-text-analytics.RecognizePiiEntitiesResult|latest-stable'
+  - '@azure/ai-text-analytics.SentenceSentimentLabel|latest-stable'
+  - '@azure/ai-text-analytics.StringIndexType|latest-stable'
+  - '@azure/ai-text-analytics.TextAnalyticsOperationStatus|latest-stable'
+  - '@azure/ai-text-analytics.TokenSentimentValue|latest-stable'
+  - '@azure/ai-text-analytics.WarningCode|latest-stable'

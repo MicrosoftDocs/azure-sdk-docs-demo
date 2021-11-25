@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: ProxyAgent
+uid: '@azure/core-http.ProxyAgent|latest-stable'
+package: '@azure/core-http|latest-stable'
+summary: ''
+fullName: ProxyAgent
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type ProxyAgent = { agent: Object, isHttps: boolean }'

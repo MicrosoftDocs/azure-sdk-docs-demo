@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: KeyVaultProperties
+uid: '@azure/arm-servicebus.KeyVaultProperties|preview'
+package: '@azure/arm-servicebus|preview'
+summary: Properties to configure keyVault Properties
+fullName: KeyVaultProperties
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: keyName
+    uid: '@azure/arm-servicebus.KeyVaultProperties.keyName|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: Name of the Key from KeyVault
+    fullName: keyName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keyName?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: keyVaultUri
+    uid: '@azure/arm-servicebus.KeyVaultProperties.keyVaultUri|preview'
+    package: '@azure/arm-servicebus|preview'
+    summary: Uri of KeyVault
+    fullName: keyVaultUri
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keyVaultUri?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

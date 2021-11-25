@@ -1,0 +1,24 @@
+### YamlMime:TSType
+name: EHNamespaceIdContainer
+uid: '@azure/arm-eventhub.EHNamespaceIdContainer|latest-stable'
+package: '@azure/arm-eventhub|latest-stable'
+summary: The full ARM ID of an Event Hubs Namespace
+fullName: EHNamespaceIdContainer
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: id
+    uid: '@azure/arm-eventhub.EHNamespaceIdContainer.id|latest-stable'
+    package: '@azure/arm-eventhub|latest-stable'
+    summary: id parameter
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

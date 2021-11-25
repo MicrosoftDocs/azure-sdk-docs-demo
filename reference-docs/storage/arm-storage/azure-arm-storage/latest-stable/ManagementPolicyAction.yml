@@ -1,0 +1,56 @@
+### YamlMime:TSType
+name: ManagementPolicyAction
+uid: '@azure/arm-storage.ManagementPolicyAction|latest-stable'
+package: '@azure/arm-storage|latest-stable'
+summary: Actions are applied to the filtered blobs when the execution condition is met.
+fullName: ManagementPolicyAction
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: baseBlob
+    uid: '@azure/arm-storage.ManagementPolicyAction.baseBlob|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: The management policy action for base blob
+    fullName: baseBlob
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'baseBlob?: ManagementPolicyBaseBlob'
+      return:
+        type: >-
+          <xref uid="@azure/arm-storage.ManagementPolicyBaseBlob|latest-stable"
+          />
+        description: ''
+  - name: snapshot
+    uid: '@azure/arm-storage.ManagementPolicyAction.snapshot|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: The management policy action for snapshot
+    fullName: snapshot
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'snapshot?: ManagementPolicySnapShot'
+      return:
+        type: >-
+          <xref uid="@azure/arm-storage.ManagementPolicySnapShot|latest-stable"
+          />
+        description: ''
+  - name: version
+    uid: '@azure/arm-storage.ManagementPolicyAction.version|latest-stable'
+    package: '@azure/arm-storage|latest-stable'
+    summary: The management policy action for version
+    fullName: version
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'version?: ManagementPolicyVersion'
+      return:
+        type: >-
+          <xref uid="@azure/arm-storage.ManagementPolicyVersion|latest-stable"
+          />
+        description: ''

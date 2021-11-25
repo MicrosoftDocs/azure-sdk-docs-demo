@@ -1,0 +1,24 @@
+### YamlMime:TSEnum
+name: KnownGeoReplicationStatus
+uid: '@azure/arm-storage.KnownGeoReplicationStatus|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Known values of <xref:@azure/arm-storage.GeoReplicationStatus> that the
+  service accepts.
+fullName: KnownGeoReplicationStatus
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Bootstrap
+    uid: '@azure/arm-storage.KnownGeoReplicationStatus.Bootstrap|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Live
+    uid: '@azure/arm-storage.KnownGeoReplicationStatus.Live|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Unavailable
+    uid: '@azure/arm-storage.KnownGeoReplicationStatus.Unavailable|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

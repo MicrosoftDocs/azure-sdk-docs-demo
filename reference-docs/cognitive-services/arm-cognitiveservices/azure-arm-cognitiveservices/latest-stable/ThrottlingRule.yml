@@ -1,0 +1,93 @@
+### YamlMime:TSType
+name: ThrottlingRule
+uid: '@azure/arm-cognitiveservices.ThrottlingRule|latest-stable'
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: An interface representing ThrottlingRule.
+fullName: ThrottlingRule
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: count
+    uid: '@azure/arm-cognitiveservices.ThrottlingRule.count|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: ''
+    fullName: count
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'count?: undefined | number'
+      return:
+        type: undefined | number
+        description: ''
+  - name: dynamicThrottlingEnabled
+    uid: >-
+      @azure/arm-cognitiveservices.ThrottlingRule.dynamicThrottlingEnabled|latest-stable
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: ''
+    fullName: dynamicThrottlingEnabled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'dynamicThrottlingEnabled?: undefined | false | true'
+      return:
+        type: undefined | false | true
+        description: ''
+  - name: key
+    uid: '@azure/arm-cognitiveservices.ThrottlingRule.key|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: ''
+    fullName: key
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'key?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: matchPatterns
+    uid: '@azure/arm-cognitiveservices.ThrottlingRule.matchPatterns|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: ''
+    fullName: matchPatterns
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'matchPatterns?: RequestMatchPattern[]'
+      return:
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.RequestMatchPattern|latest-stable"
+          />[]
+        description: ''
+  - name: minCount
+    uid: '@azure/arm-cognitiveservices.ThrottlingRule.minCount|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: ''
+    fullName: minCount
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'minCount?: undefined | number'
+      return:
+        type: undefined | number
+        description: ''
+  - name: renewalPeriod
+    uid: '@azure/arm-cognitiveservices.ThrottlingRule.renewalPeriod|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: ''
+    fullName: renewalPeriod
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'renewalPeriod?: undefined | number'
+      return:
+        type: undefined | number
+        description: ''

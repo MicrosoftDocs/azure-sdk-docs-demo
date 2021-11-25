@@ -1,0 +1,93 @@
+### YamlMime:TSType
+name: PrivateLinkResources
+uid: '@azure/arm-eventgrid.PrivateLinkResources|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: Interface representing a PrivateLinkResources.
+fullName: PrivateLinkResources
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+methods:
+  - name: get(string, string, string, string, PrivateLinkResourcesGetOptionalParams)
+    uid: '@azure/arm-eventgrid.PrivateLinkResources.get|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: Get properties of a private link resource.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function get(resourceGroupName: string, parentType: string, parentName:
+        string, privateLinkResourceName: string, options?:
+        PrivateLinkResourcesGetOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group within the user's subscription.
+        - id: parentType
+          type: string
+          description: >-
+            The type of the parent resource. This can be either \'topics\' or
+            \'domains\'.
+        - id: parentName
+          type: string
+          description: >-
+            The name of the parent resource (namely, either, the topic name or
+            domain name).
+        - id: privateLinkResourceName
+          type: string
+          description: The name of private link resource.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.PrivateLinkResourcesGetOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventgrid.PrivateLinkResourcesGetResponse|preview"
+          />&gt;
+        description: ''
+  - name: >-
+      listByResource(string, string, string,
+      PrivateLinkResourcesListByResourceOptionalParams)
+    uid: '@azure/arm-eventgrid.PrivateLinkResources.listByResource|preview'
+    package: '@azure/arm-eventgrid|preview'
+    summary: List all the private link resources under a topic or domain.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listByResource(resourceGroupName: string, parentType: string,
+        parentName: string, options?:
+        PrivateLinkResourcesListByResourceOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: The name of the resource group within the user's subscription.
+        - id: parentType
+          type: string
+          description: >-
+            The type of the parent resource. This can be either \'topics\' or
+            \'domains\'.
+        - id: parentName
+          type: string
+          description: >-
+            The name of the parent resource (namely, either, the topic name or
+            domain name).
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-eventgrid.PrivateLinkResourcesListByResourceOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-eventgrid.PrivateLinkResource|preview" />&gt;
+        description: ''

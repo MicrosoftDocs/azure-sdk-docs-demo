@@ -1,0 +1,39 @@
+### YamlMime:TSType
+name: Sku
+uid: '@azure/arm-keyvault.Sku|preview'
+package: '@azure/arm-keyvault|preview'
+summary: SKU details
+fullName: Sku
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: family
+    uid: '@azure/arm-keyvault.Sku.family|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: SKU family name
+    fullName: family
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'family: SkuFamily'
+      return:
+        type: <xref uid="@azure/arm-keyvault.SkuFamily|preview" />
+        description: ''
+  - name: name
+    uid: '@azure/arm-keyvault.Sku.name|preview'
+    package: '@azure/arm-keyvault|preview'
+    summary: >-
+      SKU name to specify whether the key vault is a standard vault or a premium
+      vault.
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: SkuName'
+      return:
+        type: <xref uid="@azure/arm-keyvault.SkuName|preview" />
+        description: ''

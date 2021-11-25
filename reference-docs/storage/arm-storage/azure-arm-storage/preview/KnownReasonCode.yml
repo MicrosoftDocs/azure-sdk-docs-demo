@@ -1,0 +1,18 @@
+### YamlMime:TSEnum
+name: KnownReasonCode
+uid: '@azure/arm-storage.KnownReasonCode|preview'
+package: '@azure/arm-storage|preview'
+summary: Known values of <xref:@azure/arm-storage.ReasonCode> that the service accepts.
+fullName: KnownReasonCode
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: NotAvailableForSubscription
+    uid: '@azure/arm-storage.KnownReasonCode.NotAvailableForSubscription|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: QuotaId
+    uid: '@azure/arm-storage.KnownReasonCode.QuotaId|preview'
+    package: '@azure/arm-storage|preview'
+    summary: ''

@@ -1,0 +1,88 @@
+### YamlMime:TSType
+name: Offers
+uid: '@azure/cosmos.Offers|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: Use to query or read all Offers.
+fullName: Offers
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: class
+properties:
+  - name: client
+    uid: '@azure/cosmos.Offers.client|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    fullName: client
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'client: CosmosClient'
+      return:
+        type: <xref uid="@azure/cosmos.CosmosClient|latest-stable" />
+        description: ''
+methods:
+  - name: query(SqlQuerySpec, FeedOptions)
+    uid: '@azure/cosmos.Offers.query|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: Query all offers.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function query(query: SqlQuerySpec, options?: FeedOptions)'
+      parameters:
+        - id: query
+          type: <xref uid="@azure/cosmos.SqlQuerySpec|latest-stable" />
+          description: >
+            Query configuration for the operation. See
+            <xref:@azure/cosmos.SqlQuerySpec> for more info on how to configure
+            a query.
+        - id: options
+          type: <xref uid="@azure/cosmos.FeedOptions|latest-stable" />
+          description: ''
+      return:
+        type: <xref uid="@azure/cosmos.QueryIterator|latest-stable" />&lt;any&gt;
+        description: ''
+  - name: query<T>(SqlQuerySpec, FeedOptions)
+    uid: '@azure/cosmos.Offers.query_1|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: Query all offers.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function query<T>(query: SqlQuerySpec, options?: FeedOptions)'
+      parameters:
+        - id: query
+          type: <xref uid="@azure/cosmos.SqlQuerySpec|latest-stable" />
+          description: >
+            Query configuration for the operation. See
+            <xref:@azure/cosmos.SqlQuerySpec> for more info on how to configure
+            a query.
+        - id: options
+          type: <xref uid="@azure/cosmos.FeedOptions|latest-stable" />
+          description: ''
+      return:
+        type: <xref uid="@azure/cosmos.QueryIterator|latest-stable" />&lt;T&gt;
+        description: ''
+  - name: readAll(FeedOptions)
+    uid: '@azure/cosmos.Offers.readAll|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: Read all offers.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function readAll(options?: FeedOptions)'
+      parameters:
+        - id: options
+          type: <xref uid="@azure/cosmos.FeedOptions|latest-stable" />
+          description: ''
+      return:
+        type: >-
+          <xref uid="@azure/cosmos.QueryIterator|latest-stable" />&lt;<xref
+          uid="@azure/cosmos.OfferDefinition|latest-stable" /> & <xref
+          uid="@azure/cosmos.Resource|latest-stable" />&gt;
+        description: ''

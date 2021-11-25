@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: GetContactsOptions
+uid: '@azure/keyvault-certificates.GetContactsOptions|latest-stable'
+package: '@azure/keyvault-certificates|latest-stable'
+summary: Options for getContacts.
+fullName: GetContactsOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type GetContactsOptions = OperationOptions

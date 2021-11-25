@@ -1,0 +1,154 @@
+### YamlMime:TSType
+name: MapperConstraints
+uid: '@azure/core-http.MapperConstraints|latest-stable'
+package: '@azure/core-http|latest-stable'
+summary: ''
+fullName: MapperConstraints
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: ExclusiveMaximum
+    uid: '@azure/core-http.MapperConstraints.ExclusiveMaximum|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    fullName: ExclusiveMaximum
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'ExclusiveMaximum?: number'
+      return:
+        type: number
+        description: ''
+  - name: ExclusiveMinimum
+    uid: '@azure/core-http.MapperConstraints.ExclusiveMinimum|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    fullName: ExclusiveMinimum
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'ExclusiveMinimum?: number'
+      return:
+        type: number
+        description: ''
+  - name: InclusiveMaximum
+    uid: '@azure/core-http.MapperConstraints.InclusiveMaximum|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    fullName: InclusiveMaximum
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'InclusiveMaximum?: number'
+      return:
+        type: number
+        description: ''
+  - name: InclusiveMinimum
+    uid: '@azure/core-http.MapperConstraints.InclusiveMinimum|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    fullName: InclusiveMinimum
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'InclusiveMinimum?: number'
+      return:
+        type: number
+        description: ''
+  - name: MaxItems
+    uid: '@azure/core-http.MapperConstraints.MaxItems|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    fullName: MaxItems
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'MaxItems?: number'
+      return:
+        type: number
+        description: ''
+  - name: MaxLength
+    uid: '@azure/core-http.MapperConstraints.MaxLength|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    fullName: MaxLength
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'MaxLength?: number'
+      return:
+        type: number
+        description: ''
+  - name: MinItems
+    uid: '@azure/core-http.MapperConstraints.MinItems|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    fullName: MinItems
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'MinItems?: number'
+      return:
+        type: number
+        description: ''
+  - name: MinLength
+    uid: '@azure/core-http.MapperConstraints.MinLength|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    fullName: MinLength
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'MinLength?: number'
+      return:
+        type: number
+        description: ''
+  - name: MultipleOf
+    uid: '@azure/core-http.MapperConstraints.MultipleOf|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    fullName: MultipleOf
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'MultipleOf?: number'
+      return:
+        type: number
+        description: ''
+  - name: Pattern
+    uid: '@azure/core-http.MapperConstraints.Pattern|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    fullName: Pattern
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'Pattern?: RegExp'
+      return:
+        type: RegExp
+        description: ''
+  - name: UniqueItems
+    uid: '@azure/core-http.MapperConstraints.UniqueItems|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    fullName: UniqueItems
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'UniqueItems?: true'
+      return:
+        type: 'true'
+        description: ''

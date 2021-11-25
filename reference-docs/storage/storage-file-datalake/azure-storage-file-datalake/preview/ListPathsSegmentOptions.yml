@@ -1,0 +1,92 @@
+### YamlMime:TSType
+name: ListPathsSegmentOptions
+uid: '@azure/storage-file-datalake.ListPathsSegmentOptions|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: ''
+fullName: ListPathsSegmentOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: '@azure/storage-file-datalake.ListPathsSegmentOptions.abortSignal|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: maxResults
+    uid: '@azure/storage-file-datalake.ListPathsSegmentOptions.maxResults|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: maxResults
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'maxResults?: number'
+      return:
+        type: number
+        description: ''
+  - name: path
+    uid: '@azure/storage-file-datalake.ListPathsSegmentOptions.path|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: path
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'path?: string'
+      return:
+        type: string
+        description: ''
+  - name: recursive
+    uid: '@azure/storage-file-datalake.ListPathsSegmentOptions.recursive|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: recursive
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'recursive?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: tracingOptions
+    uid: >-
+      @azure/storage-file-datalake.ListPathsSegmentOptions.tracingOptions|preview
+    package: '@azure/storage-file-datalake|preview'
+    summary: Options to configure spans created when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+  - name: userPrincipalName
+    uid: >-
+      @azure/storage-file-datalake.ListPathsSegmentOptions.userPrincipalName|preview
+    package: '@azure/storage-file-datalake|preview'
+    summary: ''
+    fullName: userPrincipalName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'userPrincipalName?: boolean'
+      return:
+        type: boolean
+        description: ''
+extends: <xref uid="@azure/storage-file-datalake.ListPathsOptions|preview" />

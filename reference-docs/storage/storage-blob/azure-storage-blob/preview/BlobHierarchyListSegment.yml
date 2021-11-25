@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: BlobHierarchyListSegment
+uid: '@azure/storage-blob.BlobHierarchyListSegment|preview'
+package: '@azure/storage-blob|preview'
+summary: An interface representing BlobHierarchyListSegment.
+fullName: BlobHierarchyListSegment
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: blobItems
+    uid: '@azure/storage-blob.BlobHierarchyListSegment.blobItems|preview'
+    package: '@azure/storage-blob|preview'
+    summary: ''
+    fullName: blobItems
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'blobItems: BlobItem[]'
+      return:
+        type: <xref uid="@azure/storage-blob.BlobItem|preview" />[]
+        description: ''
+  - name: blobPrefixes
+    uid: '@azure/storage-blob.BlobHierarchyListSegment.blobPrefixes|preview'
+    package: '@azure/storage-blob|preview'
+    summary: ''
+    fullName: blobPrefixes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'blobPrefixes?: BlobPrefix[]'
+      return:
+        type: <xref uid="@azure/storage-blob.BlobPrefix|preview" />[]
+        description: ''

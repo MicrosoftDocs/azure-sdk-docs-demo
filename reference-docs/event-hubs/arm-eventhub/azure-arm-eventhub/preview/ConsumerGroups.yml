@@ -1,0 +1,167 @@
+### YamlMime:TSType
+name: ConsumerGroups
+uid: '@azure/arm-eventhub.ConsumerGroups|preview'
+package: '@azure/arm-eventhub|preview'
+summary: Interface representing a ConsumerGroups.
+fullName: ConsumerGroups
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+methods:
+  - name: >-
+      createOrUpdate(string, string, string, string, ConsumerGroup,
+      ConsumerGroupsCreateOrUpdateOptionalParams)
+    uid: '@azure/arm-eventhub.ConsumerGroups.createOrUpdate|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: >-
+      Creates or updates an Event Hubs consumer group as a nested resource
+      within a Namespace.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function createOrUpdate(resourceGroupName: string, namespaceName:
+        string, eventHubName: string, consumerGroupName: string, parameters:
+        ConsumerGroup, options?: ConsumerGroupsCreateOrUpdateOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: Name of the resource group within the azure subscription.
+        - id: namespaceName
+          type: string
+          description: The Namespace name
+        - id: eventHubName
+          type: string
+          description: The Event Hub name
+        - id: consumerGroupName
+          type: string
+          description: The consumer group name
+        - id: parameters
+          type: <xref uid="@azure/arm-eventhub.ConsumerGroup|preview" />
+          description: Parameters supplied to create or update a consumer group resource.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.ConsumerGroupsCreateOrUpdateOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.ConsumerGroupsCreateOrUpdateResponse|preview"
+          />&gt;
+        description: ''
+  - name: delete(string, string, string, string, ConsumerGroupsDeleteOptionalParams)
+    uid: '@azure/arm-eventhub.ConsumerGroups.delete|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: Deletes a consumer group from the specified Event Hub and resource group.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function delete(resourceGroupName: string, namespaceName: string,
+        eventHubName: string, consumerGroupName: string, options?:
+        ConsumerGroupsDeleteOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: Name of the resource group within the azure subscription.
+        - id: namespaceName
+          type: string
+          description: The Namespace name
+        - id: eventHubName
+          type: string
+          description: The Event Hub name
+        - id: consumerGroupName
+          type: string
+          description: The consumer group name
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.ConsumerGroupsDeleteOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: Promise&lt;void&gt;
+        description: ''
+  - name: get(string, string, string, string, ConsumerGroupsGetOptionalParams)
+    uid: '@azure/arm-eventhub.ConsumerGroups.get|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: Gets a description for the specified consumer group.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function get(resourceGroupName: string, namespaceName: string,
+        eventHubName: string, consumerGroupName: string, options?:
+        ConsumerGroupsGetOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: Name of the resource group within the azure subscription.
+        - id: namespaceName
+          type: string
+          description: The Namespace name
+        - id: eventHubName
+          type: string
+          description: The Event Hub name
+        - id: consumerGroupName
+          type: string
+          description: The consumer group name
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.ConsumerGroupsGetOptionalParams|preview" />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-eventhub.ConsumerGroupsGetResponse|preview" />&gt;
+        description: ''
+  - name: >-
+      listByEventHub(string, string, string,
+      ConsumerGroupsListByEventHubOptionalParams)
+    uid: '@azure/arm-eventhub.ConsumerGroups.listByEventHub|preview'
+    package: '@azure/arm-eventhub|preview'
+    summary: >-
+      Gets all the consumer groups in a Namespace. An empty feed is returned if
+      no consumer group exists
+
+      in the Namespace.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listByEventHub(resourceGroupName: string, namespaceName:
+        string, eventHubName: string, options?:
+        ConsumerGroupsListByEventHubOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: Name of the resource group within the azure subscription.
+        - id: namespaceName
+          type: string
+          description: The Namespace name
+        - id: eventHubName
+          type: string
+          description: The Event Hub name
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-eventhub.ConsumerGroupsListByEventHubOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-eventhub.ConsumerGroup|preview" />&gt;
+        description: ''

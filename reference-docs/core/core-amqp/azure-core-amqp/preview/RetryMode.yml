@@ -1,0 +1,20 @@
+### YamlMime:TSEnum
+name: RetryMode
+uid: '@azure/core-amqp.RetryMode|preview'
+package: '@azure/core-amqp|preview'
+summary: Describes the Retry Mode type
+fullName: RetryMode
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Exponential
+    uid: '@azure/core-amqp.RetryMode.Exponential|preview'
+    package: '@azure/core-amqp|preview'
+    summary: ''
+    numericValue: 0
+  - name: Fixed
+    uid: '@azure/core-amqp.RetryMode.Fixed|preview'
+    package: '@azure/core-amqp|preview'
+    summary: ''
+    numericValue: 1

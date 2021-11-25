@@ -1,0 +1,175 @@
+### YamlMime:TSType
+name: TextAnalyticsActions
+uid: '@azure/ai-text-analytics.TextAnalyticsActions|preview'
+package: '@azure/ai-text-analytics|preview'
+summary: >-
+  Description of collection of actions for the analyze API to perform on input
+  documents.
+fullName: TextAnalyticsActions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: analyzeSentimentActions
+    uid: >-
+      @azure/ai-text-analytics.TextAnalyticsActions.analyzeSentimentActions|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: A collection of descriptions of sentiment analysis actions.
+    fullName: analyzeSentimentActions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'analyzeSentimentActions?: AnalyzeSentimentAction[]'
+      return:
+        type: >-
+          <xref uid="@azure/ai-text-analytics.AnalyzeSentimentAction|preview"
+          />[]
+        description: ''
+  - name: extractKeyPhrasesActions
+    uid: >-
+      @azure/ai-text-analytics.TextAnalyticsActions.extractKeyPhrasesActions|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: A collection of descriptions of key phrases recognition actions.
+    fullName: extractKeyPhrasesActions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'extractKeyPhrasesActions?: ExtractKeyPhrasesAction[]'
+      return:
+        type: >-
+          <xref uid="@azure/ai-text-analytics.ExtractKeyPhrasesAction|preview"
+          />[]
+        description: ''
+  - name: extractSummaryActions
+    uid: >-
+      @azure/ai-text-analytics.TextAnalyticsActions.extractSummaryActions|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: A collection of descriptions of summarization extraction actions.
+    fullName: extractSummaryActions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'extractSummaryActions?: ExtractSummaryAction[]'
+      return:
+        type: <xref uid="@azure/ai-text-analytics.ExtractSummaryAction|preview" />[]
+        description: ''
+  - name: multiCategoryClassifyActions
+    uid: >-
+      @azure/ai-text-analytics.TextAnalyticsActions.multiCategoryClassifyActions|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: >-
+      A collection of descriptions of custom multi classification actions. For
+      more information, please refer
+
+      to the service documentation:
+      [https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomfunctionalities](https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomfunctionalities)
+    fullName: multiCategoryClassifyActions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'multiCategoryClassifyActions?: MultiCategoryClassifyAction[]'
+      return:
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.MultiCategoryClassifyAction|preview"
+          />[]
+        description: ''
+  - name: recognizeCustomEntitiesActions
+    uid: >-
+      @azure/ai-text-analytics.TextAnalyticsActions.recognizeCustomEntitiesActions|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: >-
+      A collection of descriptions of custom entity recognition actions. For
+      more information, please refer
+
+      to the service documentation:
+      [https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomentityrecognition](https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomentityrecognition)
+    fullName: recognizeCustomEntitiesActions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'recognizeCustomEntitiesActions?: RecognizeCustomEntitiesAction[]'
+      return:
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeCustomEntitiesAction|preview"
+          />[]
+        description: ''
+  - name: recognizeEntitiesActions
+    uid: >-
+      @azure/ai-text-analytics.TextAnalyticsActions.recognizeEntitiesActions|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: A collection of descriptions of entities recognition actions.
+    fullName: recognizeEntitiesActions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'recognizeEntitiesActions?: RecognizeCategorizedEntitiesAction[]'
+      return:
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeCategorizedEntitiesAction|preview"
+          />[]
+        description: ''
+  - name: recognizeLinkedEntitiesActions
+    uid: >-
+      @azure/ai-text-analytics.TextAnalyticsActions.recognizeLinkedEntitiesActions|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: A collection of descriptions of entities linking actions.
+    fullName: recognizeLinkedEntitiesActions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'recognizeLinkedEntitiesActions?: RecognizeLinkedEntitiesAction[]'
+      return:
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizeLinkedEntitiesAction|preview"
+          />[]
+        description: ''
+  - name: recognizePiiEntitiesActions
+    uid: >-
+      @azure/ai-text-analytics.TextAnalyticsActions.recognizePiiEntitiesActions|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: A collection of descriptions of Pii entities recognition actions.
+    fullName: recognizePiiEntitiesActions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'recognizePiiEntitiesActions?: RecognizePiiEntitiesAction[]'
+      return:
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.RecognizePiiEntitiesAction|preview" />[]
+        description: ''
+  - name: singleCategoryClassifyActions
+    uid: >-
+      @azure/ai-text-analytics.TextAnalyticsActions.singleCategoryClassifyActions|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: >-
+      A collection of descriptions of custom single classification actions. For
+      more information, please refer
+
+      to the service documentation:
+      [https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomfunctionalities](https%3A%2F%2Faka.ms%2Fazsdk%2Ftextanalytics%2Fcustomfunctionalities)
+    fullName: singleCategoryClassifyActions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'singleCategoryClassifyActions?: SingleCategoryClassifyAction[]'
+      return:
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.SingleCategoryClassifyAction|preview"
+          />[]
+        description: ''

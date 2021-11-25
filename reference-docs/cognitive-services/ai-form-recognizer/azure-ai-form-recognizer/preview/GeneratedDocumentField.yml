@@ -1,0 +1,229 @@
+### YamlMime:TSType
+name: GeneratedDocumentField
+uid: '@azure/ai-form-recognizer.GeneratedDocumentField|preview'
+package: '@azure/ai-form-recognizer|preview'
+summary: An object representing the content and location of a field value.
+fullName: GeneratedDocumentField
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: boundingRegions
+    uid: '@azure/ai-form-recognizer.GeneratedDocumentField.boundingRegions|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Bounding regions covering the field.
+    fullName: boundingRegions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'boundingRegions?: BoundingRegion[]'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.BoundingRegion|preview" />[]
+        description: ''
+  - name: confidence
+    uid: '@azure/ai-form-recognizer.GeneratedDocumentField.confidence|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Confidence of correctly extracting the field.
+    fullName: confidence
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'confidence?: number'
+      return:
+        type: number
+        description: ''
+  - name: content
+    uid: '@azure/ai-form-recognizer.GeneratedDocumentField.content|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Field content.
+    fullName: content
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'content?: string'
+      return:
+        type: string
+        description: ''
+  - name: spans
+    uid: '@azure/ai-form-recognizer.GeneratedDocumentField.spans|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Location of the field in the reading order concatenated content.
+    fullName: spans
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'spans?: DocumentSpan[]'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.DocumentSpan|preview" />[]
+        description: ''
+  - name: type
+    uid: '@azure/ai-form-recognizer.GeneratedDocumentField.type|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Data type of the field value.
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: DocumentFieldType'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.DocumentFieldType|preview" />
+        description: ''
+  - name: valueArray
+    uid: '@azure/ai-form-recognizer.GeneratedDocumentField.valueArray|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Array of field values.
+    fullName: valueArray
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueArray?: GeneratedDocumentField[]'
+      return:
+        type: >-
+          <xref uid="@azure/ai-form-recognizer.GeneratedDocumentField|preview"
+          />[]
+        description: ''
+  - name: valueCountryRegion
+    uid: >-
+      @azure/ai-form-recognizer.GeneratedDocumentField.valueCountryRegion|preview
+    package: '@azure/ai-form-recognizer|preview'
+    summary: 3-letter country code value (ISO 3166-1 alpha-3).
+    fullName: valueCountryRegion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueCountryRegion?: string'
+      return:
+        type: string
+        description: ''
+  - name: valueDate
+    uid: '@azure/ai-form-recognizer.GeneratedDocumentField.valueDate|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Date value in YYYY-MM-DD format (ISO 8601).
+    fullName: valueDate
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueDate?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: valueInteger
+    uid: '@azure/ai-form-recognizer.GeneratedDocumentField.valueInteger|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Integer value.
+    fullName: valueInteger
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueInteger?: number'
+      return:
+        type: number
+        description: ''
+  - name: valueNumber
+    uid: '@azure/ai-form-recognizer.GeneratedDocumentField.valueNumber|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Floating point value.
+    fullName: valueNumber
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueNumber?: number'
+      return:
+        type: number
+        description: ''
+  - name: valueObject
+    uid: '@azure/ai-form-recognizer.GeneratedDocumentField.valueObject|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Dictionary of named field values.
+    fullName: valueObject
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueObject?: [key: string]: GeneratedDocumentField'
+      return:
+        type: >-
+          [key: string]\: <xref
+          uid="@azure/ai-form-recognizer.GeneratedDocumentField|preview" />
+        description: ''
+  - name: valuePhoneNumber
+    uid: '@azure/ai-form-recognizer.GeneratedDocumentField.valuePhoneNumber|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Phone number value in E.164 format (ex. +19876543210).
+    fullName: valuePhoneNumber
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valuePhoneNumber?: string'
+      return:
+        type: string
+        description: ''
+  - name: valueSelectionMark
+    uid: >-
+      @azure/ai-form-recognizer.GeneratedDocumentField.valueSelectionMark|preview
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Selection mark value.
+    fullName: valueSelectionMark
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueSelectionMark?: SelectionMarkState'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.SelectionMarkState|preview" />
+        description: ''
+  - name: valueSignature
+    uid: '@azure/ai-form-recognizer.GeneratedDocumentField.valueSignature|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Presence of signature.
+    fullName: valueSignature
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueSignature?: DocumentSignatureType'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.DocumentSignatureType|preview" />
+        description: ''
+  - name: valueString
+    uid: '@azure/ai-form-recognizer.GeneratedDocumentField.valueString|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: String value.
+    fullName: valueString
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueString?: string'
+      return:
+        type: string
+        description: ''
+  - name: valueTime
+    uid: '@azure/ai-form-recognizer.GeneratedDocumentField.valueTime|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: >-
+      Time value in hh:mm:ss format (ISO 8601).
+
+      This value should be an ISO-8601 formatted string representing time. E.g.
+      "HH:MM:SS" or "HH:MM:SS.mm".
+    fullName: valueTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'valueTime?: string'
+      return:
+        type: string
+        description: ''

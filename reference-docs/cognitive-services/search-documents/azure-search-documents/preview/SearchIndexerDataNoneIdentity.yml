@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: SearchIndexerDataNoneIdentity
+uid: '@azure/search-documents.SearchIndexerDataNoneIdentity|preview'
+package: '@azure/search-documents|preview'
+summary: Clears the identity property of a datasource.
+fullName: SearchIndexerDataNoneIdentity
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type SearchIndexerDataNoneIdentity = BaseSearchIndexerDataIdentity & {
+  odatatype: #Microsoft.Azure.Search.SearchIndexerDataNoneIdentity }

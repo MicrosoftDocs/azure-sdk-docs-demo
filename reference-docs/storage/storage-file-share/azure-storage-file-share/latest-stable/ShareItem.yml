@@ -1,0 +1,89 @@
+### YamlMime:TSType
+name: ShareItem
+uid: '@azure/storage-file-share.ShareItem|latest-stable'
+package: '@azure/storage-file-share|latest-stable'
+summary: A listed Azure Storage share item.
+fullName: ShareItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: deleted
+    uid: '@azure/storage-file-share.ShareItem.deleted|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: ''
+    fullName: deleted
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'deleted?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: metadata
+    uid: '@azure/storage-file-share.ShareItem.metadata|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: ''
+    fullName: metadata
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'metadata?: [key: string]: string'
+      return:
+        type: '[key: string]\: string'
+        description: ''
+  - name: name
+    uid: '@azure/storage-file-share.ShareItem.name|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        type: string
+        description: ''
+  - name: properties
+    uid: '@azure/storage-file-share.ShareItem.properties|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: ''
+    fullName: properties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'properties: ShareProperties'
+      return:
+        type: <xref uid="@azure/storage-file-share.ShareProperties|latest-stable" />
+        description: ''
+  - name: snapshot
+    uid: '@azure/storage-file-share.ShareItem.snapshot|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: ''
+    fullName: snapshot
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'snapshot?: string'
+      return:
+        type: string
+        description: ''
+  - name: version
+    uid: '@azure/storage-file-share.ShareItem.version|latest-stable'
+    package: '@azure/storage-file-share|latest-stable'
+    summary: ''
+    fullName: version
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'version?: string'
+      return:
+        type: string
+        description: ''

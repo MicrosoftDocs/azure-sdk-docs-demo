@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: DeleteTableEntityOptions
+uid: '@azure/data-tables.DeleteTableEntityOptions|latest-stable'
+package: '@azure/data-tables|latest-stable'
+summary: Optional parameters for DeleteTableEntity operation
+fullName: DeleteTableEntityOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type DeleteTableEntityOptions = OperationOptions & { etag: string }'

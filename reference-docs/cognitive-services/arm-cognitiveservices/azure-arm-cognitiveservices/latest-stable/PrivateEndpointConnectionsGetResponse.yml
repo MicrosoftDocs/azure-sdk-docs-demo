@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: PrivateEndpointConnectionsGetResponse
+uid: >-
+  @azure/arm-cognitiveservices.PrivateEndpointConnectionsGetResponse|latest-stable
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: Contains response data for the get operation.
+fullName: PrivateEndpointConnectionsGetResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type PrivateEndpointConnectionsGetResponse = PrivateEndpointConnection & {
+  _response: Object }

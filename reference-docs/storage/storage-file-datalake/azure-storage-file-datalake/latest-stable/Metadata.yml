@@ -1,0 +1,10 @@
+### YamlMime:TSType
+name: Metadata
+uid: '@azure/storage-file-datalake.Metadata|latest-stable'
+package: '@azure/storage-file-datalake|latest-stable'
+summary: ''
+fullName: Metadata
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface

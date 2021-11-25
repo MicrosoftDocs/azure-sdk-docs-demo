@@ -1,0 +1,88 @@
+### YamlMime:TSType
+name: TargetSentiment
+uid: '@azure/ai-text-analytics.TargetSentiment|preview'
+package: '@azure/ai-text-analytics|preview'
+summary: |-
+  TargetSentiment contains the predicted sentiment, confidence scores and other
+  information about an target of a product. A target of a product/service is a
+  key component of that product/service. For example in "The food at Hotel Foo
+  is good", "food" is a target of "Hotel Foo".
+fullName: TargetSentiment
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: confidenceScores
+    uid: '@azure/ai-text-analytics.TargetSentiment.confidenceScores|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: |-
+      The sentiment confidence score between 0 and 1 for the target for
+      'positive' and 'negative' labels.
+    fullName: confidenceScores
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'confidenceScores: TargetConfidenceScoreLabel'
+      return:
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TargetConfidenceScoreLabel|preview" />
+        description: ''
+  - name: length
+    uid: '@azure/ai-text-analytics.TargetSentiment.length|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: The length of the Target text.
+    fullName: length
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'length: number'
+      return:
+        type: number
+        description: ''
+  - name: offset
+    uid: '@azure/ai-text-analytics.TargetSentiment.offset|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: The Target text offset from the start of the sentence.
+    fullName: offset
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'offset: number'
+      return:
+        type: number
+        description: ''
+  - name: sentiment
+    uid: '@azure/ai-text-analytics.TargetSentiment.sentiment|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: >-
+      The predicted Sentiment for the Target. Possible values include
+      'positive',
+
+      'mixed', and 'negative'.
+    fullName: sentiment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sentiment: TokenSentimentValue'
+      return:
+        type: <xref uid="@azure/ai-text-analytics.TokenSentimentValue|preview" />
+        description: ''
+  - name: text
+    uid: '@azure/ai-text-analytics.TargetSentiment.text|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: The target text.
+    fullName: text
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'text: string'
+      return:
+        type: string
+        description: ''

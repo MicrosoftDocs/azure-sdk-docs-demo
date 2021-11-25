@@ -1,0 +1,78 @@
+### YamlMime:TSType
+name: DocumentFieldSchema
+uid: '@azure/ai-form-recognizer.DocumentFieldSchema|preview'
+package: '@azure/ai-form-recognizer|preview'
+summary: Description of the field semantic schema using a JSON Schema style syntax.
+fullName: DocumentFieldSchema
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: description
+    uid: '@azure/ai-form-recognizer.DocumentFieldSchema.description|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Field description.
+    fullName: description
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'description?: string'
+      return:
+        type: string
+        description: ''
+  - name: example
+    uid: '@azure/ai-form-recognizer.DocumentFieldSchema.example|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Example field content.
+    fullName: example
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'example?: string'
+      return:
+        type: string
+        description: ''
+  - name: items
+    uid: '@azure/ai-form-recognizer.DocumentFieldSchema.items|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Field type schema of each array element.
+    fullName: items
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'items?: DocumentFieldSchema'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.DocumentFieldSchema|preview" />
+        description: ''
+  - name: properties
+    uid: '@azure/ai-form-recognizer.DocumentFieldSchema.properties|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Named sub-fields of the object field.
+    fullName: properties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'properties?: [key: string]: DocumentFieldSchema'
+      return:
+        type: >-
+          [key: string]\: <xref
+          uid="@azure/ai-form-recognizer.DocumentFieldSchema|preview" />
+        description: ''
+  - name: type
+    uid: '@azure/ai-form-recognizer.DocumentFieldSchema.type|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Semantic data type of the field value.
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type: DocumentFieldType'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.DocumentFieldType|preview" />
+        description: ''

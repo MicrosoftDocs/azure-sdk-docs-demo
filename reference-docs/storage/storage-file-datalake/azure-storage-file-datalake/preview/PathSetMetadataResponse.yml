@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: PathSetMetadataResponse
+uid: '@azure/storage-file-datalake.PathSetMetadataResponse|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: ''
+fullName: PathSetMetadataResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: 'type PathSetMetadataResponse = PathSetMetadataHeaders & { _response: Object }'

@@ -1,0 +1,52 @@
+### YamlMime:TSEnum
+name: KnownKeyUsageTypes
+uid: '@azure/keyvault-certificates.KnownKeyUsageTypes|latest-stable'
+package: '@azure/keyvault-certificates|latest-stable'
+summary: >-
+  Known values of <xref:@azure/keyvault-certificates.KeyUsageType> that the
+  service accepts.
+fullName: KnownKeyUsageTypes
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: CRLSign
+    uid: '@azure/keyvault-certificates.KnownKeyUsageTypes.CRLSign|latest-stable'
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: CRLSign Usage Type.
+  - name: DataEncipherment
+    uid: >-
+      @azure/keyvault-certificates.KnownKeyUsageTypes.DataEncipherment|latest-stable
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: DataEncipherment Usage Type.
+  - name: DecipherOnly
+    uid: '@azure/keyvault-certificates.KnownKeyUsageTypes.DecipherOnly|latest-stable'
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: DecipherOnly Usage Type.
+  - name: DigitalSignature
+    uid: >-
+      @azure/keyvault-certificates.KnownKeyUsageTypes.DigitalSignature|latest-stable
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: DigitalSignature Usage Type.
+  - name: EncipherOnly
+    uid: '@azure/keyvault-certificates.KnownKeyUsageTypes.EncipherOnly|latest-stable'
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: EncipherOnly Usage Type.
+  - name: KeyAgreement
+    uid: '@azure/keyvault-certificates.KnownKeyUsageTypes.KeyAgreement|latest-stable'
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: KeyAgreement Usage Type.
+  - name: KeyCertSign
+    uid: '@azure/keyvault-certificates.KnownKeyUsageTypes.KeyCertSign|latest-stable'
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: KeyCertSign Usage Type.
+  - name: KeyEncipherment
+    uid: >-
+      @azure/keyvault-certificates.KnownKeyUsageTypes.KeyEncipherment|latest-stable
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: KeyEncipherment Usage Type.
+  - name: NonRepudiation
+    uid: >-
+      @azure/keyvault-certificates.KnownKeyUsageTypes.NonRepudiation|latest-stable
+    package: '@azure/keyvault-certificates|latest-stable'
+    summary: NonRepudiation Usage Type.

@@ -1,0 +1,60 @@
+### YamlMime:TSType
+name: AppendBlobSealOptions
+uid: '@azure/storage-blob.AppendBlobSealOptions|latest-stable'
+package: '@azure/storage-blob|latest-stable'
+summary: >-
+  Options to configure <xref:@azure/storage-blob.AppendBlobClient.seal>
+  operation.
+fullName: AppendBlobSealOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: '@azure/storage-blob.AppendBlobSealOptions.abortSignal|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: conditions
+    uid: '@azure/storage-blob.AppendBlobSealOptions.conditions|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: Conditions to meet.
+    fullName: conditions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'conditions?: AppendBlobRequestConditions'
+      return:
+        type: >-
+          <xref
+          uid="@azure/storage-blob.AppendBlobRequestConditions|latest-stable" />
+        description: ''
+  - name: tracingOptions
+    uid: '@azure/storage-blob.AppendBlobSealOptions.tracingOptions|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: Options to configure spans created when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+extends: <xref uid="@azure/storage-blob.CommonOptions|latest-stable" />

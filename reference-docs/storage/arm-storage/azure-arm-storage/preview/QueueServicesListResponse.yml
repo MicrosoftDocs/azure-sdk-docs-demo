@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: QueueServicesListResponse
+uid: '@azure/arm-storage.QueueServicesListResponse|preview'
+package: '@azure/arm-storage|preview'
+summary: Contains response data for the list operation.
+fullName: QueueServicesListResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type QueueServicesListResponse = ListQueueServices

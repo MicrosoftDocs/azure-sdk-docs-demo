@@ -1,0 +1,37 @@
+### YamlMime:TSType
+name: IndexedPath
+uid: '@azure/cosmos.IndexedPath|latest-stable'
+package: '@azure/cosmos|latest-stable'
+summary: ''
+fullName: IndexedPath
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: indexes
+    uid: '@azure/cosmos.IndexedPath.indexes|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    fullName: indexes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'indexes?: Index[]'
+      return:
+        type: <xref uid="@azure/cosmos.Index|latest-stable" />[]
+        description: ''
+  - name: path
+    uid: '@azure/cosmos.IndexedPath.path|latest-stable'
+    package: '@azure/cosmos|latest-stable'
+    summary: ''
+    fullName: path
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'path: string'
+      return:
+        type: string
+        description: ''

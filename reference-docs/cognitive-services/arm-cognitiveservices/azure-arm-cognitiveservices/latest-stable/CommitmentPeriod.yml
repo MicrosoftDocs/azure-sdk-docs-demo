@@ -1,0 +1,88 @@
+### YamlMime:TSType
+name: CommitmentPeriod
+uid: '@azure/arm-cognitiveservices.CommitmentPeriod|latest-stable'
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: Cognitive Services account commitment period.
+fullName: CommitmentPeriod
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: count
+    uid: '@azure/arm-cognitiveservices.CommitmentPeriod.count|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Commitment period commitment count.
+    fullName: count
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'count?: undefined | number'
+      return:
+        type: undefined | number
+        description: ''
+  - name: endDate
+    uid: '@azure/arm-cognitiveservices.CommitmentPeriod.endDate|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: >-
+      Commitment period end date.
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: endDate
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'endDate?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: quota
+    uid: '@azure/arm-cognitiveservices.CommitmentPeriod.quota|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: >-
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: quota
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'quota?: CommitmentQuota'
+      return:
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.CommitmentQuota|latest-stable"
+          />
+        description: ''
+  - name: startDate
+    uid: '@azure/arm-cognitiveservices.CommitmentPeriod.startDate|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: >-
+      Commitment period start date.
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: startDate
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'startDate?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: tier
+    uid: '@azure/arm-cognitiveservices.CommitmentPeriod.tier|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Commitment period commitment tier.
+    fullName: tier
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tier?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

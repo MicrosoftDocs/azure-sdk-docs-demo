@@ -1,0 +1,13 @@
+### YamlMime:TSTypeAlias
+name: ServiceBusTopicEventSubscriptionDestination
+uid: '@azure/arm-eventgrid.ServiceBusTopicEventSubscriptionDestination|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: Information about the service bus topic destination for an event subscription.
+fullName: ServiceBusTopicEventSubscriptionDestination
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type ServiceBusTopicEventSubscriptionDestination =
+  EventSubscriptionDestination & { deliveryAttributeMappings: Object,
+  endpointType: ServiceBusTopic, resourceId: Object }

@@ -1,0 +1,50 @@
+### YamlMime:TSType
+name: CbsResponse
+uid: '@azure/core-amqp.CbsResponse|latest-stable'
+package: '@azure/core-amqp|latest-stable'
+summary: Describes the CBS Response.
+fullName: CbsResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: correlationId
+    uid: '@azure/core-amqp.CbsResponse.correlationId|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+    fullName: correlationId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'correlationId: string'
+      return:
+        type: string
+        description: ''
+  - name: statusCode
+    uid: '@azure/core-amqp.CbsResponse.statusCode|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+    fullName: statusCode
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'statusCode: string'
+      return:
+        type: string
+        description: ''
+  - name: statusDescription
+    uid: '@azure/core-amqp.CbsResponse.statusDescription|latest-stable'
+    package: '@azure/core-amqp|latest-stable'
+    summary: ''
+    fullName: statusDescription
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'statusDescription: string'
+      return:
+        type: string
+        description: ''

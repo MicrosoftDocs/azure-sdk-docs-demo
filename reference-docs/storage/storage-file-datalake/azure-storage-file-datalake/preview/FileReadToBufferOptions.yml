@@ -1,0 +1,128 @@
+### YamlMime:TSType
+name: FileReadToBufferOptions
+uid: '@azure/storage-file-datalake.FileReadToBufferOptions|preview'
+package: '@azure/storage-file-datalake|preview'
+summary: |
+  Option interface for Data Lake file - readToBuffer operations
+  See:
+  - <xref:@azure/storage-file-datalake.DataLakeFileClient.readToBuffer>
+fullName: FileReadToBufferOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: abortSignal
+    uid: '@azure/storage-file-datalake.FileReadToBufferOptions.abortSignal|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: >-
+      An implementation of the `AbortSignalLike` interface to signal the request
+      to cancel the operation.
+
+      For example, use the &commat;azure/abort-controller to create an
+      `AbortSignal`.
+    fullName: abortSignal
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'abortSignal?: AbortSignalLike'
+      return:
+        type: AbortSignalLike
+        description: ''
+  - name: chunkSize
+    uid: '@azure/storage-file-datalake.FileReadToBufferOptions.chunkSize|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: >-
+      chunkSize is size of data every request trying to read.
+
+      Must be greater than or equal to 0, if set to 0 or undefined, it will
+      automatically calculated according
+
+      to the file size.
+    fullName: chunkSize
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'chunkSize?: number'
+      return:
+        type: number
+        description: ''
+  - name: concurrency
+    uid: '@azure/storage-file-datalake.FileReadToBufferOptions.concurrency|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: Concurrency of parallel read.
+    fullName: concurrency
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'concurrency?: number'
+      return:
+        type: number
+        description: ''
+  - name: conditions
+    uid: '@azure/storage-file-datalake.FileReadToBufferOptions.conditions|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: Access conditions headers.
+    fullName: conditions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'conditions?: DataLakeRequestConditions'
+      return:
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.DataLakeRequestConditions|preview"
+          />
+        description: ''
+  - name: maxRetryRequestsPerChunk
+    uid: >-
+      @azure/storage-file-datalake.FileReadToBufferOptions.maxRetryRequestsPerChunk|preview
+    package: '@azure/storage-file-datalake|preview'
+    summary: >-
+      How many retries will perform for each read when the original chunk read
+      stream ends unexpectedly.
+
+      Above kind of ends will not trigger retry policy defined in a pipeline,
+
+      because they doesn't emit network errors. Default value is 5.
+    fullName: maxRetryRequestsPerChunk
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'maxRetryRequestsPerChunk?: number'
+      return:
+        type: number
+        description: ''
+  - name: onProgress
+    uid: '@azure/storage-file-datalake.FileReadToBufferOptions.onProgress|preview'
+    package: '@azure/storage-file-datalake|preview'
+    summary: Progress updater.
+    fullName: onProgress
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'onProgress?: (progress: TransferProgressEvent) => void'
+      return:
+        type: '(progress: TransferProgressEvent) =&gt; void'
+        description: ''
+  - name: tracingOptions
+    uid: >-
+      @azure/storage-file-datalake.FileReadToBufferOptions.tracingOptions|preview
+    package: '@azure/storage-file-datalake|preview'
+    summary: Options to configure spans created when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        type: OperationTracingOptions
+        description: ''
+extends: <xref uid="@azure/storage-file-datalake.CommonOptions|preview" />

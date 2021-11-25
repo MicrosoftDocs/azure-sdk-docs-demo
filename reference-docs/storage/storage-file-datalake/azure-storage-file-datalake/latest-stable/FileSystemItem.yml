@@ -1,0 +1,79 @@
+### YamlMime:TSType
+name: FileSystemItem
+uid: '@azure/storage-file-datalake.FileSystemItem|latest-stable'
+package: '@azure/storage-file-datalake|latest-stable'
+summary: ''
+fullName: FileSystemItem
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: deleted
+    uid: '@azure/storage-file-datalake.FileSystemItem.deleted|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: deleted
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'deleted?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: metadata
+    uid: '@azure/storage-file-datalake.FileSystemItem.metadata|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: metadata
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'metadata?: Metadata'
+      return:
+        type: <xref uid="@azure/storage-file-datalake.Metadata|latest-stable" />
+        description: ''
+  - name: name
+    uid: '@azure/storage-file-datalake.FileSystemItem.name|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name: string'
+      return:
+        type: string
+        description: ''
+  - name: properties
+    uid: '@azure/storage-file-datalake.FileSystemItem.properties|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: properties
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'properties: FileSystemProperties'
+      return:
+        type: >-
+          <xref
+          uid="@azure/storage-file-datalake.FileSystemProperties|latest-stable"
+          />
+        description: ''
+  - name: versionId
+    uid: '@azure/storage-file-datalake.FileSystemItem.versionId|latest-stable'
+    package: '@azure/storage-file-datalake|latest-stable'
+    summary: ''
+    fullName: versionId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'versionId?: string'
+      return:
+        type: string
+        description: ''

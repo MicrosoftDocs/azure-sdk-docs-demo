@@ -1,0 +1,77 @@
+### YamlMime:TSType
+name: FormWord
+uid: '@azure/ai-form-recognizer.FormWord|preview'
+package: '@azure/ai-form-recognizer|preview'
+summary: Represents a recognized word.
+fullName: FormWord
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: boundingBox
+    uid: '@azure/ai-form-recognizer.FormWord.boundingBox|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Bounding box of a recognized word.
+    fullName: boundingBox
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'boundingBox: Point2D[]'
+      return:
+        type: <xref uid="@azure/ai-form-recognizer.Point2D|preview" />[]
+        description: ''
+  - name: confidence
+    uid: '@azure/ai-form-recognizer.FormWord.confidence|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Confidence value.
+    fullName: confidence
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'confidence?: number'
+      return:
+        type: number
+        description: ''
+  - name: kind
+    uid: '@azure/ai-form-recognizer.FormWord.kind|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Element kind - "word"
+    fullName: kind
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'kind: "word"'
+      return:
+        type: '"word"'
+        description: ''
+  - name: pageNumber
+    uid: '@azure/ai-form-recognizer.FormWord.pageNumber|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: The 1-based page number in the input document.
+    fullName: pageNumber
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'pageNumber: number'
+      return:
+        type: number
+        description: ''
+  - name: text
+    uid: '@azure/ai-form-recognizer.FormWord.text|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: The text content of the word.
+    fullName: text
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'text: string'
+      return:
+        type: string
+        description: ''
+extends: <xref uid="@azure/ai-form-recognizer.FormElementCommon|preview" />

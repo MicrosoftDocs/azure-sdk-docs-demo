@@ -1,0 +1,121 @@
+### YamlMime:TSType
+name: MediaLiveEventIncomingDataChunkDroppedEventData
+uid: '@azure/eventgrid.MediaLiveEventIncomingDataChunkDroppedEventData|latest-stable'
+package: '@azure/eventgrid|latest-stable'
+summary: >-
+  Ingest fragment dropped event data. Schema of the data property of an
+  EventGridEvent for a Microsoft.Media.LiveEventIncomingDataChunkDropped event.
+fullName: MediaLiveEventIncomingDataChunkDroppedEventData
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: bitrate
+    uid: >-
+      @azure/eventgrid.MediaLiveEventIncomingDataChunkDroppedEventData.bitrate|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: >-
+      Gets the bitrate of the track.
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: bitrate
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'bitrate: number'
+      return:
+        type: number
+        description: ''
+  - name: resultCode
+    uid: >-
+      @azure/eventgrid.MediaLiveEventIncomingDataChunkDroppedEventData.resultCode|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: >-
+      Gets the result code for fragment drop operation.
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: resultCode
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'resultCode: string'
+      return:
+        type: string
+        description: ''
+  - name: timescale
+    uid: >-
+      @azure/eventgrid.MediaLiveEventIncomingDataChunkDroppedEventData.timescale|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: >-
+      Gets the timescale of the Timestamp.
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: timescale
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'timescale: string'
+      return:
+        type: string
+        description: ''
+  - name: timestamp
+    uid: >-
+      @azure/eventgrid.MediaLiveEventIncomingDataChunkDroppedEventData.timestamp|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: >-
+      Gets the timestamp of the data chunk dropped.
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: timestamp
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'timestamp: string'
+      return:
+        type: string
+        description: ''
+  - name: trackName
+    uid: >-
+      @azure/eventgrid.MediaLiveEventIncomingDataChunkDroppedEventData.trackName|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: >-
+      Gets the name of the track for which fragment is dropped.
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: trackName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'trackName: string'
+      return:
+        type: string
+        description: ''
+  - name: trackType
+    uid: >-
+      @azure/eventgrid.MediaLiveEventIncomingDataChunkDroppedEventData.trackType|latest-stable
+    package: '@azure/eventgrid|latest-stable'
+    summary: >-
+      Gets the type of the track (Audio / Video).
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: trackType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'trackType: string'
+      return:
+        type: string
+        description: ''

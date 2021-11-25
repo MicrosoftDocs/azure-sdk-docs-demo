@@ -1,0 +1,65 @@
+### YamlMime:TSType
+name: CustomFormSubmodel
+uid: '@azure/ai-form-recognizer.CustomFormSubmodel|preview'
+package: '@azure/ai-form-recognizer|preview'
+summary: Represents the model for a specific type of custom form from training.
+fullName: CustomFormSubmodel
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: accuracy
+    uid: '@azure/ai-form-recognizer.CustomFormSubmodel.accuracy|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Estimated extraction accuracy for this model.
+    fullName: accuracy
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'accuracy?: number'
+      return:
+        type: number
+        description: ''
+  - name: fields
+    uid: '@azure/ai-form-recognizer.CustomFormSubmodel.fields|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: Form fields
+    fullName: fields
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fields: Record<string, CustomFormModelField>'
+      return:
+        type: >-
+          Record&lt;string, <xref
+          uid="@azure/ai-form-recognizer.CustomFormModelField|preview" />&gt;
+        description: ''
+  - name: formType
+    uid: '@azure/ai-form-recognizer.CustomFormSubmodel.formType|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: The form type associated with this submodel.
+    fullName: formType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'formType: string'
+      return:
+        type: string
+        description: ''
+  - name: modelId
+    uid: '@azure/ai-form-recognizer.CustomFormSubmodel.modelId|preview'
+    package: '@azure/ai-form-recognizer|preview'
+    summary: The model ID associated with this submodel.
+    fullName: modelId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'modelId?: string'
+      return:
+        type: string
+        description: ''

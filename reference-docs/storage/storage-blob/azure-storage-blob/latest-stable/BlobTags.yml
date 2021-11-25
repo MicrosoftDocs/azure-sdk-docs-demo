@@ -1,0 +1,24 @@
+### YamlMime:TSType
+name: BlobTags
+uid: '@azure/storage-blob.BlobTags|latest-stable'
+package: '@azure/storage-blob|latest-stable'
+summary: Blob tags
+fullName: BlobTags
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: blobTagSet
+    uid: '@azure/storage-blob.BlobTags.blobTagSet|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: blobTagSet
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'blobTagSet: BlobTag[]'
+      return:
+        type: <xref uid="@azure/storage-blob.BlobTag|latest-stable" />[]
+        description: ''

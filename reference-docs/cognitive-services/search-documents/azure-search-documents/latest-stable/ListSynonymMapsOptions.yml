@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: ListSynonymMapsOptions
+uid: '@azure/search-documents.ListSynonymMapsOptions|latest-stable'
+package: '@azure/search-documents|latest-stable'
+summary: Options for a list synonymMaps operation.
+fullName: ListSynonymMapsOptions
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type ListSynonymMapsOptions = OperationOptions

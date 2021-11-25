@@ -1,0 +1,67 @@
+### YamlMime:TSType
+name: DeploymentProperties
+uid: '@azure/arm-cognitiveservices.DeploymentProperties|latest-stable'
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: Properties of Cognitive Services account deployment.
+fullName: DeploymentProperties
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: model
+    uid: '@azure/arm-cognitiveservices.DeploymentProperties.model|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: ''
+    fullName: model
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'model?: DeploymentModel'
+      return:
+        type: >-
+          <xref uid="@azure/arm-cognitiveservices.DeploymentModel|latest-stable"
+          />
+        description: ''
+  - name: provisioningState
+    uid: >-
+      @azure/arm-cognitiveservices.DeploymentProperties.provisioningState|latest-stable
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: >-
+      Gets the status of the resource at the time the operation was called.
+      Possible values include:
+
+      'Accepted', 'Creating', 'Deleting', 'Moving', 'Failed', 'Succeeded'
+
+      **NOTE: This property will not be serialized. It can only be populated by
+      the server.**
+    fullName: provisioningState
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'provisioningState?: DeploymentProvisioningState'
+      return:
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.DeploymentProvisioningState|latest-stable"
+          />
+        description: ''
+  - name: scaleSettings
+    uid: >-
+      @azure/arm-cognitiveservices.DeploymentProperties.scaleSettings|latest-stable
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: ''
+    fullName: scaleSettings
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'scaleSettings?: DeploymentScaleSettings'
+      return:
+        type: >-
+          <xref
+          uid="@azure/arm-cognitiveservices.DeploymentScaleSettings|latest-stable"
+          />
+        description: ''

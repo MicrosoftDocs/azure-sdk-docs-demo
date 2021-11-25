@@ -1,0 +1,12 @@
+### YamlMime:TSTypeAlias
+name: EventSubscriptionsBeginUpdateResponse
+uid: '@azure/arm-eventgrid.EventSubscriptionsBeginUpdateResponse|preview'
+package: '@azure/arm-eventgrid|preview'
+summary: Contains response data for the beginUpdate operation.
+fullName: EventSubscriptionsBeginUpdateResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: >-
+  type EventSubscriptionsBeginUpdateResponse = EventSubscription & { _response:
+  Object }

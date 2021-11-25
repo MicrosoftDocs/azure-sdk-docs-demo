@@ -1,0 +1,64 @@
+### YamlMime:TSType
+name: KeyVaultProperties
+uid: '@azure/arm-cognitiveservices.KeyVaultProperties|latest-stable'
+package: '@azure/arm-cognitiveservices|latest-stable'
+summary: Properties to configure keyVault Properties
+fullName: KeyVaultProperties
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: identityClientId
+    uid: >-
+      @azure/arm-cognitiveservices.KeyVaultProperties.identityClientId|latest-stable
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: ''
+    fullName: identityClientId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'identityClientId?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: keyName
+    uid: '@azure/arm-cognitiveservices.KeyVaultProperties.keyName|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Name of the Key from KeyVault
+    fullName: keyName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keyName?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: keyVaultUri
+    uid: '@azure/arm-cognitiveservices.KeyVaultProperties.keyVaultUri|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Uri of KeyVault
+    fullName: keyVaultUri
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keyVaultUri?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''
+  - name: keyVersion
+    uid: '@azure/arm-cognitiveservices.KeyVaultProperties.keyVersion|latest-stable'
+    package: '@azure/arm-cognitiveservices|latest-stable'
+    summary: Version of the Key from KeyVault
+    fullName: keyVersion
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keyVersion?: undefined | string'
+      return:
+        type: undefined | string
+        description: ''

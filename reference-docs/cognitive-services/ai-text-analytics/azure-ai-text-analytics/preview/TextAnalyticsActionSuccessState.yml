@@ -1,0 +1,53 @@
+### YamlMime:TSType
+name: TextAnalyticsActionSuccessState
+uid: '@azure/ai-text-analytics.TextAnalyticsActionSuccessState|preview'
+package: '@azure/ai-text-analytics|preview'
+summary: The state of a succeeded action.
+fullName: TextAnalyticsActionSuccessState
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: actionName
+    uid: >-
+      @azure/ai-text-analytics.TextAnalyticsActionSuccessState.actionName|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: The name of the action.
+    fullName: actionName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'actionName?: string'
+      return:
+        type: string
+        description: ''
+  - name: completedOn
+    uid: >-
+      @azure/ai-text-analytics.TextAnalyticsActionSuccessState.completedOn|preview
+    package: '@azure/ai-text-analytics|preview'
+    summary: When this action was completed by the service.
+    fullName: completedOn
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'completedOn: Date'
+      return:
+        type: Date
+        description: ''
+  - name: error
+    uid: '@azure/ai-text-analytics.TextAnalyticsActionSuccessState.error|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: Discriminant to determine if that this is an error result.
+    fullName: error
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'error?: undefined'
+      return:
+        type: undefined
+        description: ''
+extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsActionState|preview" />

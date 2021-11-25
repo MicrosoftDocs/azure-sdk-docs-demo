@@ -1,0 +1,30 @@
+### YamlMime:TSType
+name: HttpClient
+uid: '@azure/core-http.HttpClient|latest-stable'
+package: '@azure/core-http|latest-stable'
+summary: An interface that can send HttpRequests and receive promised HttpResponses.
+fullName: HttpClient
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+methods:
+  - name: sendRequest(WebResourceLike)
+    uid: '@azure/core-http.HttpClient.sendRequest|latest-stable'
+    package: '@azure/core-http|latest-stable'
+    summary: ''
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function sendRequest(httpRequest: WebResourceLike)'
+      parameters:
+        - id: httpRequest
+          type: <xref uid="@azure/core-http.WebResourceLike|latest-stable" />
+          description: ''
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/core-http.HttpOperationResponse|latest-stable" />&gt;
+        description: ''
+extends: <xref uid="@azure/core-http.RequestPolicy|latest-stable" />

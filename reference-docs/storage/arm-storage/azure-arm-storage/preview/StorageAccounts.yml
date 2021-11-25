@@ -1,0 +1,763 @@
+### YamlMime:TSType
+name: StorageAccounts
+uid: '@azure/arm-storage.StorageAccounts|preview'
+package: '@azure/arm-storage|preview'
+summary: Interface representing a StorageAccounts.
+fullName: StorageAccounts
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+methods:
+  - name: >-
+      beginCreate(string, string, StorageAccountCreateParameters,
+      StorageAccountsCreateOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.beginCreate|preview'
+    package: '@azure/arm-storage|preview'
+    summary: >-
+      Asynchronously creates a new storage account with the specified
+      parameters. If an account is already
+
+      created and a subsequent create request is issued with different
+      properties, the account properties
+
+      will be updated. If an account is already created and a subsequent create
+      or update request is
+
+      issued with the exact same set of properties, the request will succeed.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function beginCreate(resourceGroupName: string, accountName: string,
+        parameters: StorageAccountCreateParameters, options?:
+        StorageAccountsCreateOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: parameters
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountCreateParameters|preview" />
+          description: The parameters to provide for the created account.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsCreateOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
+          uid="@azure/arm-storage.StorageAccountsCreateResponse|preview" />&gt;,
+          <xref uid="@azure/arm-storage.StorageAccountsCreateResponse|preview"
+          />&gt;&gt;
+        description: ''
+  - name: >-
+      beginCreateAndWait(string, string, StorageAccountCreateParameters,
+      StorageAccountsCreateOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.beginCreateAndWait|preview'
+    package: '@azure/arm-storage|preview'
+    summary: >-
+      Asynchronously creates a new storage account with the specified
+      parameters. If an account is already
+
+      created and a subsequent create request is issued with different
+      properties, the account properties
+
+      will be updated. If an account is already created and a subsequent create
+      or update request is
+
+      issued with the exact same set of properties, the request will succeed.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function beginCreateAndWait(resourceGroupName: string, accountName:
+        string, parameters: StorageAccountCreateParameters, options?:
+        StorageAccountsCreateOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: parameters
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountCreateParameters|preview" />
+          description: The parameters to provide for the created account.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsCreateOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-storage.StorageAccountsCreateResponse|preview" />&gt;
+        description: ''
+  - name: beginFailover(string, string, StorageAccountsFailoverOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.beginFailover|preview'
+    package: '@azure/arm-storage|preview'
+    summary: >-
+      Failover request can be triggered for a storage account in case of
+      availability issues. The failover
+
+      occurs from the storage account's primary cluster to secondary cluster for
+      RA-GRS accounts. The
+
+      secondary cluster will become primary after failover.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function beginFailover(resourceGroupName: string, accountName: string,
+        options?: StorageAccountsFailoverOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsFailoverOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: Promise&lt;PollerLike&lt;PollOperationState&lt;void&gt;, void&gt;&gt;
+        description: ''
+  - name: >-
+      beginFailoverAndWait(string, string,
+      StorageAccountsFailoverOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.beginFailoverAndWait|preview'
+    package: '@azure/arm-storage|preview'
+    summary: >-
+      Failover request can be triggered for a storage account in case of
+      availability issues. The failover
+
+      occurs from the storage account's primary cluster to secondary cluster for
+      RA-GRS accounts. The
+
+      secondary cluster will become primary after failover.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function beginFailoverAndWait(resourceGroupName: string, accountName:
+        string, options?: StorageAccountsFailoverOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsFailoverOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: Promise&lt;void&gt;
+        description: ''
+  - name: >-
+      beginRestoreBlobRanges(string, string, BlobRestoreParameters,
+      StorageAccountsRestoreBlobRangesOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.beginRestoreBlobRanges|preview'
+    package: '@azure/arm-storage|preview'
+    summary: Restore blobs in the specified blob ranges
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function beginRestoreBlobRanges(resourceGroupName: string, accountName:
+        string, parameters: BlobRestoreParameters, options?:
+        StorageAccountsRestoreBlobRangesOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: parameters
+          type: <xref uid="@azure/arm-storage.BlobRestoreParameters|preview" />
+          description: The parameters to provide for restore blob ranges.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsRestoreBlobRangesOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;PollerLike&lt;PollOperationState&lt;<xref
+          uid="@azure/arm-storage.StorageAccountsRestoreBlobRangesResponse|preview"
+          />&gt;, <xref
+          uid="@azure/arm-storage.StorageAccountsRestoreBlobRangesResponse|preview"
+          />&gt;&gt;
+        description: ''
+  - name: >-
+      beginRestoreBlobRangesAndWait(string, string, BlobRestoreParameters,
+      StorageAccountsRestoreBlobRangesOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.beginRestoreBlobRangesAndWait|preview'
+    package: '@azure/arm-storage|preview'
+    summary: Restore blobs in the specified blob ranges
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function beginRestoreBlobRangesAndWait(resourceGroupName: string,
+        accountName: string, parameters: BlobRestoreParameters, options?:
+        StorageAccountsRestoreBlobRangesOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: parameters
+          type: <xref uid="@azure/arm-storage.BlobRestoreParameters|preview" />
+          description: The parameters to provide for restore blob ranges.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsRestoreBlobRangesOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-storage.StorageAccountsRestoreBlobRangesResponse|preview"
+          />&gt;
+        description: ''
+  - name: >-
+      checkNameAvailability(StorageAccountCheckNameAvailabilityParameters,
+      StorageAccountsCheckNameAvailabilityOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.checkNameAvailability|preview'
+    package: '@azure/arm-storage|preview'
+    summary: Checks that the storage account name is valid and is not already in use.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function checkNameAvailability(accountName:
+        StorageAccountCheckNameAvailabilityParameters, options?:
+        StorageAccountsCheckNameAvailabilityOptionalParams)
+      parameters:
+        - id: accountName
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountCheckNameAvailabilityParameters|preview"
+            />
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsCheckNameAvailabilityOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-storage.StorageAccountsCheckNameAvailabilityResponse|preview"
+          />&gt;
+        description: ''
+  - name: delete(string, string, StorageAccountsDeleteOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.delete|preview'
+    package: '@azure/arm-storage|preview'
+    summary: Deletes a storage account in Microsoft Azure.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function delete(resourceGroupName: string, accountName: string,
+        options?: StorageAccountsDeleteOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsDeleteOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: Promise&lt;void&gt;
+        description: ''
+  - name: getProperties(string, string, StorageAccountsGetPropertiesOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.getProperties|preview'
+    package: '@azure/arm-storage|preview'
+    summary: >-
+      Returns the properties for the specified storage account including but not
+      limited to name, SKU
+
+      name, location, and account status. The ListKeys operation should be used
+      to retrieve storage keys.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function getProperties(resourceGroupName: string, accountName: string,
+        options?: StorageAccountsGetPropertiesOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsGetPropertiesOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-storage.StorageAccountsGetPropertiesResponse|preview"
+          />&gt;
+        description: ''
+  - name: list(StorageAccountsListOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.list|preview'
+    package: '@azure/arm-storage|preview'
+    summary: >-
+      Lists all the storage accounts available under the subscription. Note that
+      storage keys are not
+
+      returned; use the ListKeys operation for this.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'function list(options?: StorageAccountsListOptionalParams)'
+      parameters:
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsListOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-storage.StorageAccount|preview" />&gt;
+        description: ''
+  - name: >-
+      listAccountSAS(string, string, AccountSasParameters,
+      StorageAccountsListAccountSASOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.listAccountSAS|preview'
+    package: '@azure/arm-storage|preview'
+    summary: List SAS credentials of a storage account.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listAccountSAS(resourceGroupName: string, accountName: string,
+        parameters: AccountSasParameters, options?:
+        StorageAccountsListAccountSASOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: parameters
+          type: <xref uid="@azure/arm-storage.AccountSasParameters|preview" />
+          description: >-
+            The parameters to provide to list SAS credentials for the storage
+            account.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsListAccountSASOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-storage.StorageAccountsListAccountSASResponse|preview"
+          />&gt;
+        description: ''
+  - name: >-
+      listByResourceGroup(string,
+      StorageAccountsListByResourceGroupOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.listByResourceGroup|preview'
+    package: '@azure/arm-storage|preview'
+    summary: >-
+      Lists all the storage accounts available under the given resource group.
+      Note that storage keys are
+
+      not returned; use the ListKeys operation for this.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listByResourceGroup(resourceGroupName: string, options?:
+        StorageAccountsListByResourceGroupOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsListByResourceGroupOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          PagedAsyncIterableIterator&lt;<xref
+          uid="@azure/arm-storage.StorageAccount|preview" />&gt;
+        description: ''
+  - name: listKeys(string, string, StorageAccountsListKeysOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.listKeys|preview'
+    package: '@azure/arm-storage|preview'
+    summary: >-
+      Lists the access keys or Kerberos keys (if active directory enabled) for
+      the specified storage
+
+      account.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listKeys(resourceGroupName: string, accountName: string,
+        options?: StorageAccountsListKeysOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsListKeysOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-storage.StorageAccountsListKeysResponse|preview"
+          />&gt;
+        description: ''
+  - name: >-
+      listServiceSAS(string, string, ServiceSasParameters,
+      StorageAccountsListServiceSASOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.listServiceSAS|preview'
+    package: '@azure/arm-storage|preview'
+    summary: List service SAS credentials of a specific resource.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function listServiceSAS(resourceGroupName: string, accountName: string,
+        parameters: ServiceSasParameters, options?:
+        StorageAccountsListServiceSASOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: parameters
+          type: <xref uid="@azure/arm-storage.ServiceSasParameters|preview" />
+          description: The parameters to provide to list service SAS credentials.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsListServiceSASOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-storage.StorageAccountsListServiceSASResponse|preview"
+          />&gt;
+        description: ''
+  - name: >-
+      regenerateKey(string, string, StorageAccountRegenerateKeyParameters,
+      StorageAccountsRegenerateKeyOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.regenerateKey|preview'
+    package: '@azure/arm-storage|preview'
+    summary: >-
+      Regenerates one of the access keys or Kerberos keys for the specified
+      storage account.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function regenerateKey(resourceGroupName: string, accountName: string,
+        regenerateKey: StorageAccountRegenerateKeyParameters, options?:
+        StorageAccountsRegenerateKeyOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: regenerateKey
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountRegenerateKeyParameters|preview"
+            />
+          description: >-
+            Specifies name of the key which should be regenerated -- key1, key2,
+            kerb1,
+                                 kerb2.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsRegenerateKeyOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-storage.StorageAccountsRegenerateKeyResponse|preview"
+          />&gt;
+        description: ''
+  - name: >-
+      revokeUserDelegationKeys(string, string,
+      StorageAccountsRevokeUserDelegationKeysOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.revokeUserDelegationKeys|preview'
+    package: '@azure/arm-storage|preview'
+    summary: Revoke user delegation keys.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function revokeUserDelegationKeys(resourceGroupName: string,
+        accountName: string, options?:
+        StorageAccountsRevokeUserDelegationKeysOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsRevokeUserDelegationKeysOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: Promise&lt;void&gt;
+        description: ''
+  - name: >-
+      update(string, string, StorageAccountUpdateParameters,
+      StorageAccountsUpdateOptionalParams)
+    uid: '@azure/arm-storage.StorageAccounts.update|preview'
+    package: '@azure/arm-storage|preview'
+    summary: >-
+      The update operation can be used to update the SKU, encryption, access
+      tier, or tags for a storage
+
+      account. It can also be used to map the account to a custom domain. Only
+      one custom domain is
+
+      supported per storage account; the replacement/change of custom domain is
+      not supported. In order to
+
+      replace an old custom domain, the old value must be cleared/unregistered
+      before a new value can be
+
+      set. The update of multiple properties is supported. This call does not
+      change the storage keys for
+
+      the account. If you want to change the storage account keys, use the
+      regenerate keys operation. The
+
+      location and name of the storage account cannot be changed after creation.
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function update(resourceGroupName: string, accountName: string,
+        parameters: StorageAccountUpdateParameters, options?:
+        StorageAccountsUpdateOptionalParams)
+      parameters:
+        - id: resourceGroupName
+          type: string
+          description: >-
+            The name of the resource group within the user's subscription. The
+            name is
+                                     case insensitive.
+        - id: accountName
+          type: string
+          description: >-
+            The name of the storage account within the specified resource group.
+            Storage
+                               account names must be between 3 and 24 characters in length and use numbers and lower-case letters
+                               only.
+        - id: parameters
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountUpdateParameters|preview" />
+          description: The parameters to provide for the updated account.
+        - id: options
+          type: >-
+            <xref
+            uid="@azure/arm-storage.StorageAccountsUpdateOptionalParams|preview"
+            />
+          description: |
+            The options parameters.
+      return:
+        type: >-
+          Promise&lt;<xref
+          uid="@azure/arm-storage.StorageAccountsUpdateResponse|preview" />&gt;
+        description: ''

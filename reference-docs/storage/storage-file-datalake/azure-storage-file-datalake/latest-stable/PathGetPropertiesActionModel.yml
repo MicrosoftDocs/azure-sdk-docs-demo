@@ -1,0 +1,10 @@
+### YamlMime:TSTypeAlias
+name: PathGetPropertiesActionModel
+uid: '@azure/storage-file-datalake.PathGetPropertiesActionModel|latest-stable'
+package: '@azure/storage-file-datalake|latest-stable'
+summary: Defines values for PathGetPropertiesAction.
+fullName: PathGetPropertiesActionModel
+remarks: ''
+isPreview: false
+isDeprecated: false
+syntax: type PathGetPropertiesActionModel = "getAccessControl" | "getStatus"

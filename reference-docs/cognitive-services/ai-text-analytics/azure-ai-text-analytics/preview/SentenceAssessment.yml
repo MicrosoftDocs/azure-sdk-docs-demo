@@ -1,0 +1,91 @@
+### YamlMime:TSType
+name: SentenceAssessment
+uid: '@azure/ai-text-analytics.SentenceAssessment|preview'
+package: '@azure/ai-text-analytics|preview'
+summary: ''
+fullName: SentenceAssessment
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: confidenceScores
+    uid: '@azure/ai-text-analytics.SentenceAssessment.confidenceScores|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: Assessment sentiment confidence scores in the sentence.
+    fullName: confidenceScores
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'confidenceScores: TargetConfidenceScoreLabel'
+      return:
+        type: >-
+          <xref
+          uid="@azure/ai-text-analytics.TargetConfidenceScoreLabel|preview" />
+        description: ''
+  - name: isNegated
+    uid: '@azure/ai-text-analytics.SentenceAssessment.isNegated|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: The indicator representing if the assessment is negated.
+    fullName: isNegated
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isNegated: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: length
+    uid: '@azure/ai-text-analytics.SentenceAssessment.length|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: The length of the assessment.
+    fullName: length
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'length: number'
+      return:
+        type: number
+        description: ''
+  - name: offset
+    uid: '@azure/ai-text-analytics.SentenceAssessment.offset|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: The assessment offset from the start of the sentence.
+    fullName: offset
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'offset: number'
+      return:
+        type: number
+        description: ''
+  - name: sentiment
+    uid: '@azure/ai-text-analytics.SentenceAssessment.sentiment|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: Assessment sentiment in the sentence.
+    fullName: sentiment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sentiment: TokenSentimentValue'
+      return:
+        type: <xref uid="@azure/ai-text-analytics.TokenSentimentValue|preview" />
+        description: ''
+  - name: text
+    uid: '@azure/ai-text-analytics.SentenceAssessment.text|preview'
+    package: '@azure/ai-text-analytics|preview'
+    summary: The assessment text detected.
+    fullName: text
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'text: string'
+      return:
+        type: string
+        description: ''

@@ -1,0 +1,123 @@
+### YamlMime:TSType
+name: ListBlobsHierarchySegmentResponse
+uid: '@azure/storage-blob.ListBlobsHierarchySegmentResponse|latest-stable'
+package: '@azure/storage-blob|latest-stable'
+summary: An enumeration of blobs
+fullName: ListBlobsHierarchySegmentResponse
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: containerName
+    uid: >-
+      @azure/storage-blob.ListBlobsHierarchySegmentResponse.containerName|latest-stable
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: containerName
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'containerName: string'
+      return:
+        type: string
+        description: ''
+  - name: continuationToken
+    uid: >-
+      @azure/storage-blob.ListBlobsHierarchySegmentResponse.continuationToken|latest-stable
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: continuationToken
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'continuationToken?: string'
+      return:
+        type: string
+        description: ''
+  - name: delimiter
+    uid: >-
+      @azure/storage-blob.ListBlobsHierarchySegmentResponse.delimiter|latest-stable
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: delimiter
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'delimiter?: string'
+      return:
+        type: string
+        description: ''
+  - name: marker
+    uid: '@azure/storage-blob.ListBlobsHierarchySegmentResponse.marker|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: marker
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'marker?: string'
+      return:
+        type: string
+        description: ''
+  - name: maxPageSize
+    uid: >-
+      @azure/storage-blob.ListBlobsHierarchySegmentResponse.maxPageSize|latest-stable
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: maxPageSize
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'maxPageSize?: number'
+      return:
+        type: number
+        description: ''
+  - name: prefix
+    uid: '@azure/storage-blob.ListBlobsHierarchySegmentResponse.prefix|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: prefix
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'prefix?: string'
+      return:
+        type: string
+        description: ''
+  - name: segment
+    uid: >-
+      @azure/storage-blob.ListBlobsHierarchySegmentResponse.segment|latest-stable
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: segment
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'segment: BlobHierarchyListSegment'
+      return:
+        type: >-
+          <xref uid="@azure/storage-blob.BlobHierarchyListSegment|latest-stable"
+          />
+        description: ''
+  - name: serviceEndpoint
+    uid: >-
+      @azure/storage-blob.ListBlobsHierarchySegmentResponse.serviceEndpoint|latest-stable
+    package: '@azure/storage-blob|latest-stable'
+    summary: ''
+    fullName: serviceEndpoint
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'serviceEndpoint: string'
+      return:
+        type: string
+        description: ''

@@ -1,0 +1,323 @@
+### YamlMime:TSPackage
+uid: '@azure/arm-servicebus|preview'
+name: '@azure/arm-servicebus'
+summary: ''
+type: package
+enums:
+  - '@azure/arm-servicebus.KnownDefaultAction|preview'
+  - '@azure/arm-servicebus.KnownEndPointProvisioningState|preview'
+  - '@azure/arm-servicebus.KnownIPAction|preview'
+  - '@azure/arm-servicebus.KnownMigrationConfigurationName|preview'
+  - '@azure/arm-servicebus.KnownNetworkRuleIPAction|preview'
+  - '@azure/arm-servicebus.KnownPrivateLinkConnectionStatus|preview'
+classes:
+  - '@azure/arm-servicebus.ServiceBusManagementClient|preview'
+  - '@azure/arm-servicebus.ServiceBusManagementClientContext|preview'
+interfaces:
+  - '@azure/arm-servicebus.AccessKeys|preview'
+  - '@azure/arm-servicebus.Action|preview'
+  - '@azure/arm-servicebus.ArmDisasterRecoveryListResult|preview'
+  - '@azure/arm-servicebus.CaptureDescription|preview'
+  - '@azure/arm-servicebus.CheckNameAvailability|preview'
+  - '@azure/arm-servicebus.CheckNameAvailabilityResult|preview'
+  - '@azure/arm-servicebus.ConnectionState|preview'
+  - '@azure/arm-servicebus.CorrelationFilter|preview'
+  - '@azure/arm-servicebus.Destination|preview'
+  - '@azure/arm-servicebus.DisasterRecoveryConfigs|preview'
+  - >-
+    @azure/arm-servicebus.DisasterRecoveryConfigsBreakPairingOptionalParams|preview
+  - >-
+    @azure/arm-servicebus.DisasterRecoveryConfigsCheckNameAvailabilityOptionalParams|preview
+  - >-
+    @azure/arm-servicebus.DisasterRecoveryConfigsCreateOrUpdateOptionalParams|preview
+  - '@azure/arm-servicebus.DisasterRecoveryConfigsDeleteOptionalParams|preview'
+  - '@azure/arm-servicebus.DisasterRecoveryConfigsFailOverOptionalParams|preview'
+  - >-
+    @azure/arm-servicebus.DisasterRecoveryConfigsGetAuthorizationRuleOptionalParams|preview
+  - '@azure/arm-servicebus.DisasterRecoveryConfigsGetOptionalParams|preview'
+  - >-
+    @azure/arm-servicebus.DisasterRecoveryConfigsListAuthorizationRulesNextOptionalParams|preview
+  - >-
+    @azure/arm-servicebus.DisasterRecoveryConfigsListAuthorizationRulesOptionalParams|preview
+  - '@azure/arm-servicebus.DisasterRecoveryConfigsListKeysOptionalParams|preview'
+  - '@azure/arm-servicebus.DisasterRecoveryConfigsListNextOptionalParams|preview'
+  - '@azure/arm-servicebus.DisasterRecoveryConfigsListOptionalParams|preview'
+  - '@azure/arm-servicebus.Encryption|preview'
+  - '@azure/arm-servicebus.ErrorAdditionalInfo|preview'
+  - '@azure/arm-servicebus.ErrorResponse|preview'
+  - '@azure/arm-servicebus.ErrorResponseError|preview'
+  - '@azure/arm-servicebus.EventHubListResult|preview'
+  - '@azure/arm-servicebus.EventHubs|preview'
+  - '@azure/arm-servicebus.EventHubsListByNamespaceNextOptionalParams|preview'
+  - '@azure/arm-servicebus.EventHubsListByNamespaceOptionalParams|preview'
+  - '@azure/arm-servicebus.FailoverProperties|preview'
+  - '@azure/arm-servicebus.Identity|preview'
+  - '@azure/arm-servicebus.IpFilterRuleListResult|preview'
+  - '@azure/arm-servicebus.KeyVaultProperties|preview'
+  - '@azure/arm-servicebus.MessageCountDetails|preview'
+  - '@azure/arm-servicebus.MigrationConfigListResult|preview'
+  - '@azure/arm-servicebus.MigrationConfigs|preview'
+  - >-
+    @azure/arm-servicebus.MigrationConfigsCompleteMigrationOptionalParams|preview
+  - >-
+    @azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationOptionalParams|preview
+  - '@azure/arm-servicebus.MigrationConfigsDeleteOptionalParams|preview'
+  - '@azure/arm-servicebus.MigrationConfigsGetOptionalParams|preview'
+  - '@azure/arm-servicebus.MigrationConfigsListNextOptionalParams|preview'
+  - '@azure/arm-servicebus.MigrationConfigsListOptionalParams|preview'
+  - '@azure/arm-servicebus.MigrationConfigsRevertOptionalParams|preview'
+  - '@azure/arm-servicebus.NWRuleSetIpRules|preview'
+  - '@azure/arm-servicebus.NWRuleSetVirtualNetworkRules|preview'
+  - '@azure/arm-servicebus.Namespaces|preview'
+  - '@azure/arm-servicebus.NamespacesCheckNameAvailabilityOptionalParams|preview'
+  - >-
+    @azure/arm-servicebus.NamespacesCreateOrUpdateAuthorizationRuleOptionalParams|preview
+  - >-
+    @azure/arm-servicebus.NamespacesCreateOrUpdateIpFilterRuleOptionalParams|preview
+  - >-
+    @azure/arm-servicebus.NamespacesCreateOrUpdateNetworkRuleSetOptionalParams|preview
+  - '@azure/arm-servicebus.NamespacesCreateOrUpdateOptionalParams|preview'
+  - >-
+    @azure/arm-servicebus.NamespacesCreateOrUpdateVirtualNetworkRuleOptionalParams|preview
+  - >-
+    @azure/arm-servicebus.NamespacesDeleteAuthorizationRuleOptionalParams|preview
+  - '@azure/arm-servicebus.NamespacesDeleteIpFilterRuleOptionalParams|preview'
+  - '@azure/arm-servicebus.NamespacesDeleteOptionalParams|preview'
+  - >-
+    @azure/arm-servicebus.NamespacesDeleteVirtualNetworkRuleOptionalParams|preview
+  - '@azure/arm-servicebus.NamespacesGetAuthorizationRuleOptionalParams|preview'
+  - '@azure/arm-servicebus.NamespacesGetIpFilterRuleOptionalParams|preview'
+  - '@azure/arm-servicebus.NamespacesGetNetworkRuleSetOptionalParams|preview'
+  - '@azure/arm-servicebus.NamespacesGetOptionalParams|preview'
+  - '@azure/arm-servicebus.NamespacesGetVirtualNetworkRuleOptionalParams|preview'
+  - >-
+    @azure/arm-servicebus.NamespacesListAuthorizationRulesNextOptionalParams|preview
+  - '@azure/arm-servicebus.NamespacesListAuthorizationRulesOptionalParams|preview'
+  - >-
+    @azure/arm-servicebus.NamespacesListByResourceGroupNextOptionalParams|preview
+  - '@azure/arm-servicebus.NamespacesListByResourceGroupOptionalParams|preview'
+  - '@azure/arm-servicebus.NamespacesListIpFilterRulesNextOptionalParams|preview'
+  - '@azure/arm-servicebus.NamespacesListIpFilterRulesOptionalParams|preview'
+  - '@azure/arm-servicebus.NamespacesListKeysOptionalParams|preview'
+  - >-
+    @azure/arm-servicebus.NamespacesListNetworkRuleSetsNextOptionalParams|preview
+  - '@azure/arm-servicebus.NamespacesListNetworkRuleSetsOptionalParams|preview'
+  - '@azure/arm-servicebus.NamespacesListNextOptionalParams|preview'
+  - '@azure/arm-servicebus.NamespacesListOptionalParams|preview'
+  - >-
+    @azure/arm-servicebus.NamespacesListVirtualNetworkRulesNextOptionalParams|preview
+  - >-
+    @azure/arm-servicebus.NamespacesListVirtualNetworkRulesOptionalParams|preview
+  - '@azure/arm-servicebus.NamespacesMigrateOptionalParams|preview'
+  - '@azure/arm-servicebus.NamespacesRegenerateKeysOptionalParams|preview'
+  - '@azure/arm-servicebus.NamespacesUpdateOptionalParams|preview'
+  - '@azure/arm-servicebus.NetworkRuleSetListResult|preview'
+  - '@azure/arm-servicebus.Operation|preview'
+  - '@azure/arm-servicebus.OperationDisplay|preview'
+  - '@azure/arm-servicebus.OperationListResult|preview'
+  - '@azure/arm-servicebus.Operations|preview'
+  - '@azure/arm-servicebus.OperationsListNextOptionalParams|preview'
+  - '@azure/arm-servicebus.OperationsListOptionalParams|preview'
+  - '@azure/arm-servicebus.PremiumMessagingRegionsListResult|preview'
+  - '@azure/arm-servicebus.PremiumMessagingRegionsOperations|preview'
+  - >-
+    @azure/arm-servicebus.PremiumMessagingRegionsOperationsListNextOptionalParams|preview
+  - >-
+    @azure/arm-servicebus.PremiumMessagingRegionsOperationsListOptionalParams|preview
+  - '@azure/arm-servicebus.PremiumMessagingRegionsProperties|preview'
+  - '@azure/arm-servicebus.PrivateEndpoint|preview'
+  - '@azure/arm-servicebus.PrivateEndpointConnectionListResult|preview'
+  - '@azure/arm-servicebus.PrivateEndpointConnections|preview'
+  - >-
+    @azure/arm-servicebus.PrivateEndpointConnectionsCreateOrUpdateOptionalParams|preview
+  - '@azure/arm-servicebus.PrivateEndpointConnectionsDeleteOptionalParams|preview'
+  - '@azure/arm-servicebus.PrivateEndpointConnectionsGetOptionalParams|preview'
+  - >-
+    @azure/arm-servicebus.PrivateEndpointConnectionsListNextOptionalParams|preview
+  - '@azure/arm-servicebus.PrivateEndpointConnectionsListOptionalParams|preview'
+  - '@azure/arm-servicebus.PrivateLinkResource|preview'
+  - '@azure/arm-servicebus.PrivateLinkResources|preview'
+  - '@azure/arm-servicebus.PrivateLinkResourcesGetOptionalParams|preview'
+  - '@azure/arm-servicebus.PrivateLinkResourcesListResult|preview'
+  - '@azure/arm-servicebus.Queues|preview'
+  - >-
+    @azure/arm-servicebus.QueuesCreateOrUpdateAuthorizationRuleOptionalParams|preview
+  - '@azure/arm-servicebus.QueuesCreateOrUpdateOptionalParams|preview'
+  - '@azure/arm-servicebus.QueuesDeleteAuthorizationRuleOptionalParams|preview'
+  - '@azure/arm-servicebus.QueuesDeleteOptionalParams|preview'
+  - '@azure/arm-servicebus.QueuesGetAuthorizationRuleOptionalParams|preview'
+  - '@azure/arm-servicebus.QueuesGetOptionalParams|preview'
+  - '@azure/arm-servicebus.QueuesListAuthorizationRulesNextOptionalParams|preview'
+  - '@azure/arm-servicebus.QueuesListAuthorizationRulesOptionalParams|preview'
+  - '@azure/arm-servicebus.QueuesListByNamespaceNextOptionalParams|preview'
+  - '@azure/arm-servicebus.QueuesListByNamespaceOptionalParams|preview'
+  - '@azure/arm-servicebus.QueuesListKeysOptionalParams|preview'
+  - '@azure/arm-servicebus.QueuesRegenerateKeysOptionalParams|preview'
+  - '@azure/arm-servicebus.RegenerateAccessKeyParameters|preview'
+  - '@azure/arm-servicebus.Regions|preview'
+  - '@azure/arm-servicebus.RegionsListBySkuNextOptionalParams|preview'
+  - '@azure/arm-servicebus.RegionsListBySkuOptionalParams|preview'
+  - '@azure/arm-servicebus.Resource|preview'
+  - '@azure/arm-servicebus.RuleListResult|preview'
+  - '@azure/arm-servicebus.Rules|preview'
+  - '@azure/arm-servicebus.RulesCreateOrUpdateOptionalParams|preview'
+  - '@azure/arm-servicebus.RulesDeleteOptionalParams|preview'
+  - '@azure/arm-servicebus.RulesGetOptionalParams|preview'
+  - '@azure/arm-servicebus.RulesListBySubscriptionsNextOptionalParams|preview'
+  - '@azure/arm-servicebus.RulesListBySubscriptionsOptionalParams|preview'
+  - '@azure/arm-servicebus.SBAuthorizationRuleListResult|preview'
+  - '@azure/arm-servicebus.SBNamespaceListResult|preview'
+  - '@azure/arm-servicebus.SBNamespaceMigrate|preview'
+  - '@azure/arm-servicebus.SBQueueListResult|preview'
+  - '@azure/arm-servicebus.SBSku|preview'
+  - '@azure/arm-servicebus.SBSubscriptionListResult|preview'
+  - '@azure/arm-servicebus.SBTopicListResult|preview'
+  - '@azure/arm-servicebus.ServiceBusManagementClientOptionalParams|preview'
+  - '@azure/arm-servicebus.SqlFilter|preview'
+  - '@azure/arm-servicebus.Subnet|preview'
+  - '@azure/arm-servicebus.Subscriptions|preview'
+  - '@azure/arm-servicebus.SubscriptionsCreateOrUpdateOptionalParams|preview'
+  - '@azure/arm-servicebus.SubscriptionsDeleteOptionalParams|preview'
+  - '@azure/arm-servicebus.SubscriptionsGetOptionalParams|preview'
+  - '@azure/arm-servicebus.SubscriptionsListByTopicNextOptionalParams|preview'
+  - '@azure/arm-servicebus.SubscriptionsListByTopicOptionalParams|preview'
+  - '@azure/arm-servicebus.Topics|preview'
+  - >-
+    @azure/arm-servicebus.TopicsCreateOrUpdateAuthorizationRuleOptionalParams|preview
+  - '@azure/arm-servicebus.TopicsCreateOrUpdateOptionalParams|preview'
+  - '@azure/arm-servicebus.TopicsDeleteAuthorizationRuleOptionalParams|preview'
+  - '@azure/arm-servicebus.TopicsDeleteOptionalParams|preview'
+  - '@azure/arm-servicebus.TopicsGetAuthorizationRuleOptionalParams|preview'
+  - '@azure/arm-servicebus.TopicsGetOptionalParams|preview'
+  - '@azure/arm-servicebus.TopicsListAuthorizationRulesNextOptionalParams|preview'
+  - '@azure/arm-servicebus.TopicsListAuthorizationRulesOptionalParams|preview'
+  - '@azure/arm-servicebus.TopicsListByNamespaceNextOptionalParams|preview'
+  - '@azure/arm-servicebus.TopicsListByNamespaceOptionalParams|preview'
+  - '@azure/arm-servicebus.TopicsListKeysOptionalParams|preview'
+  - '@azure/arm-servicebus.TopicsRegenerateKeysOptionalParams|preview'
+  - '@azure/arm-servicebus.VirtualNetworkRuleListResult|preview'
+typeAliases:
+  - '@azure/arm-servicebus.AccessRights|preview'
+  - '@azure/arm-servicebus.ArmDisasterRecovery|preview'
+  - '@azure/arm-servicebus.DefaultAction|preview'
+  - >-
+    @azure/arm-servicebus.DisasterRecoveryConfigsCheckNameAvailabilityResponse|preview
+  - '@azure/arm-servicebus.DisasterRecoveryConfigsCreateOrUpdateResponse|preview'
+  - >-
+    @azure/arm-servicebus.DisasterRecoveryConfigsGetAuthorizationRuleResponse|preview
+  - '@azure/arm-servicebus.DisasterRecoveryConfigsGetResponse|preview'
+  - >-
+    @azure/arm-servicebus.DisasterRecoveryConfigsListAuthorizationRulesNextResponse|preview
+  - >-
+    @azure/arm-servicebus.DisasterRecoveryConfigsListAuthorizationRulesResponse|preview
+  - '@azure/arm-servicebus.DisasterRecoveryConfigsListKeysResponse|preview'
+  - '@azure/arm-servicebus.DisasterRecoveryConfigsListNextResponse|preview'
+  - '@azure/arm-servicebus.DisasterRecoveryConfigsListResponse|preview'
+  - '@azure/arm-servicebus.EncodingCaptureDescription|preview'
+  - '@azure/arm-servicebus.EndPointProvisioningState|preview'
+  - '@azure/arm-servicebus.EntityStatus|preview'
+  - '@azure/arm-servicebus.EventHubsListByNamespaceNextResponse|preview'
+  - '@azure/arm-servicebus.EventHubsListByNamespaceResponse|preview'
+  - '@azure/arm-servicebus.Eventhub|preview'
+  - '@azure/arm-servicebus.FilterType|preview'
+  - '@azure/arm-servicebus.IPAction|preview'
+  - '@azure/arm-servicebus.IpFilterRule|preview'
+  - '@azure/arm-servicebus.KeyType_2|preview'
+  - '@azure/arm-servicebus.MigrationConfigProperties|preview'
+  - >-
+    @azure/arm-servicebus.MigrationConfigsCreateAndStartMigrationResponse|preview
+  - '@azure/arm-servicebus.MigrationConfigsGetResponse|preview'
+  - '@azure/arm-servicebus.MigrationConfigsListNextResponse|preview'
+  - '@azure/arm-servicebus.MigrationConfigsListResponse|preview'
+  - '@azure/arm-servicebus.MigrationConfigurationName|preview'
+  - '@azure/arm-servicebus.NameSpaceType|preview'
+  - '@azure/arm-servicebus.NamespacesCheckNameAvailabilityResponse|preview'
+  - >-
+    @azure/arm-servicebus.NamespacesCreateOrUpdateAuthorizationRuleResponse|preview
+  - '@azure/arm-servicebus.NamespacesCreateOrUpdateIpFilterRuleResponse|preview'
+  - '@azure/arm-servicebus.NamespacesCreateOrUpdateNetworkRuleSetResponse|preview'
+  - '@azure/arm-servicebus.NamespacesCreateOrUpdateResponse|preview'
+  - >-
+    @azure/arm-servicebus.NamespacesCreateOrUpdateVirtualNetworkRuleResponse|preview
+  - '@azure/arm-servicebus.NamespacesGetAuthorizationRuleResponse|preview'
+  - '@azure/arm-servicebus.NamespacesGetIpFilterRuleResponse|preview'
+  - '@azure/arm-servicebus.NamespacesGetNetworkRuleSetResponse|preview'
+  - '@azure/arm-servicebus.NamespacesGetResponse|preview'
+  - '@azure/arm-servicebus.NamespacesGetVirtualNetworkRuleResponse|preview'
+  - '@azure/arm-servicebus.NamespacesListAuthorizationRulesNextResponse|preview'
+  - '@azure/arm-servicebus.NamespacesListAuthorizationRulesResponse|preview'
+  - '@azure/arm-servicebus.NamespacesListByResourceGroupNextResponse|preview'
+  - '@azure/arm-servicebus.NamespacesListByResourceGroupResponse|preview'
+  - '@azure/arm-servicebus.NamespacesListIpFilterRulesNextResponse|preview'
+  - '@azure/arm-servicebus.NamespacesListIpFilterRulesResponse|preview'
+  - '@azure/arm-servicebus.NamespacesListKeysResponse|preview'
+  - '@azure/arm-servicebus.NamespacesListNetworkRuleSetsNextResponse|preview'
+  - '@azure/arm-servicebus.NamespacesListNetworkRuleSetsResponse|preview'
+  - '@azure/arm-servicebus.NamespacesListNextResponse|preview'
+  - '@azure/arm-servicebus.NamespacesListResponse|preview'
+  - '@azure/arm-servicebus.NamespacesListVirtualNetworkRulesNextResponse|preview'
+  - '@azure/arm-servicebus.NamespacesListVirtualNetworkRulesResponse|preview'
+  - '@azure/arm-servicebus.NamespacesRegenerateKeysResponse|preview'
+  - '@azure/arm-servicebus.NamespacesUpdateResponse|preview'
+  - '@azure/arm-servicebus.NetworkRuleIPAction|preview'
+  - '@azure/arm-servicebus.NetworkRuleSet|preview'
+  - '@azure/arm-servicebus.OperationsListNextResponse|preview'
+  - '@azure/arm-servicebus.OperationsListResponse|preview'
+  - '@azure/arm-servicebus.PremiumMessagingRegions|preview'
+  - >-
+    @azure/arm-servicebus.PremiumMessagingRegionsOperationsListNextResponse|preview
+  - '@azure/arm-servicebus.PremiumMessagingRegionsOperationsListResponse|preview'
+  - '@azure/arm-servicebus.PrivateEndpointConnection|preview'
+  - >-
+    @azure/arm-servicebus.PrivateEndpointConnectionsCreateOrUpdateResponse|preview
+  - '@azure/arm-servicebus.PrivateEndpointConnectionsGetResponse|preview'
+  - '@azure/arm-servicebus.PrivateEndpointConnectionsListNextResponse|preview'
+  - '@azure/arm-servicebus.PrivateEndpointConnectionsListResponse|preview'
+  - '@azure/arm-servicebus.PrivateLinkConnectionStatus|preview'
+  - '@azure/arm-servicebus.PrivateLinkResourcesGetResponse|preview'
+  - '@azure/arm-servicebus.ProvisioningStateDR|preview'
+  - '@azure/arm-servicebus.QueuesCreateOrUpdateAuthorizationRuleResponse|preview'
+  - '@azure/arm-servicebus.QueuesCreateOrUpdateResponse|preview'
+  - '@azure/arm-servicebus.QueuesGetAuthorizationRuleResponse|preview'
+  - '@azure/arm-servicebus.QueuesGetResponse|preview'
+  - '@azure/arm-servicebus.QueuesListAuthorizationRulesNextResponse|preview'
+  - '@azure/arm-servicebus.QueuesListAuthorizationRulesResponse|preview'
+  - '@azure/arm-servicebus.QueuesListByNamespaceNextResponse|preview'
+  - '@azure/arm-servicebus.QueuesListByNamespaceResponse|preview'
+  - '@azure/arm-servicebus.QueuesListKeysResponse|preview'
+  - '@azure/arm-servicebus.QueuesRegenerateKeysResponse|preview'
+  - '@azure/arm-servicebus.RegionsListBySkuNextResponse|preview'
+  - '@azure/arm-servicebus.RegionsListBySkuResponse|preview'
+  - '@azure/arm-servicebus.ResourceNamespacePatch|preview'
+  - '@azure/arm-servicebus.RoleDisasterRecovery|preview'
+  - '@azure/arm-servicebus.Rule|preview'
+  - '@azure/arm-servicebus.RulesCreateOrUpdateResponse|preview'
+  - '@azure/arm-servicebus.RulesGetResponse|preview'
+  - '@azure/arm-servicebus.RulesListBySubscriptionsNextResponse|preview'
+  - '@azure/arm-servicebus.RulesListBySubscriptionsResponse|preview'
+  - '@azure/arm-servicebus.SBAuthorizationRule|preview'
+  - '@azure/arm-servicebus.SBNamespace|preview'
+  - '@azure/arm-servicebus.SBNamespaceUpdateParameters|preview'
+  - '@azure/arm-servicebus.SBQueue|preview'
+  - '@azure/arm-servicebus.SBSubscription|preview'
+  - '@azure/arm-servicebus.SBTopic|preview'
+  - '@azure/arm-servicebus.SkuName|preview'
+  - '@azure/arm-servicebus.SkuTier|preview'
+  - '@azure/arm-servicebus.SqlRuleAction|preview'
+  - '@azure/arm-servicebus.SubscriptionsCreateOrUpdateResponse|preview'
+  - '@azure/arm-servicebus.SubscriptionsGetResponse|preview'
+  - '@azure/arm-servicebus.SubscriptionsListByTopicNextResponse|preview'
+  - '@azure/arm-servicebus.SubscriptionsListByTopicResponse|preview'
+  - '@azure/arm-servicebus.TopicsCreateOrUpdateAuthorizationRuleResponse|preview'
+  - '@azure/arm-servicebus.TopicsCreateOrUpdateResponse|preview'
+  - '@azure/arm-servicebus.TopicsGetAuthorizationRuleResponse|preview'
+  - '@azure/arm-servicebus.TopicsGetResponse|preview'
+  - '@azure/arm-servicebus.TopicsListAuthorizationRulesNextResponse|preview'
+  - '@azure/arm-servicebus.TopicsListAuthorizationRulesResponse|preview'
+  - '@azure/arm-servicebus.TopicsListByNamespaceNextResponse|preview'
+  - '@azure/arm-servicebus.TopicsListByNamespaceResponse|preview'
+  - '@azure/arm-servicebus.TopicsListKeysResponse|preview'
+  - '@azure/arm-servicebus.TopicsRegenerateKeysResponse|preview'
+  - '@azure/arm-servicebus.TrackedResource|preview'
+  - '@azure/arm-servicebus.UnavailableReason|preview'
+  - '@azure/arm-servicebus.VirtualNetworkRule|preview'

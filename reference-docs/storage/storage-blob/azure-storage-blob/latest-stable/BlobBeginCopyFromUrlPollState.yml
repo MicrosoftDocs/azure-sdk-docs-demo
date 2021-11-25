@@ -1,0 +1,167 @@
+### YamlMime:TSType
+name: BlobBeginCopyFromUrlPollState
+uid: '@azure/storage-blob.BlobBeginCopyFromUrlPollState|latest-stable'
+package: '@azure/storage-blob|latest-stable'
+summary: >
+  The state used by the poller returned from
+  <xref:@azure/storage-blob.BlobClient.beginCopyFromURL>.
+
+  This state is passed into the user-specified `onProgress` callback
+
+  whenever copy progress is detected.
+fullName: BlobBeginCopyFromUrlPollState
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: blobClient
+    uid: '@azure/storage-blob.BlobBeginCopyFromUrlPollState.blobClient|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: >-
+      The instance of <xref:@azure/storage-blob.BlobClient> that was used when
+      calling <xref:@azure/storage-blob.BlobClient.beginCopyFromURL>.
+    fullName: blobClient
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'blobClient: CopyPollerBlobClient'
+      return:
+        type: <xref uid="@azure/storage-blob.CopyPollerBlobClient|latest-stable" />
+        description: ''
+  - name: copyId
+    uid: '@azure/storage-blob.BlobBeginCopyFromUrlPollState.copyId|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: The copyId that identifies the in-progress blob copy.
+    fullName: copyId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'copyId?: string'
+      return:
+        type: string
+        description: ''
+  - name: copyProgress
+    uid: >-
+      @azure/storage-blob.BlobBeginCopyFromUrlPollState.copyProgress|latest-stable
+    package: '@azure/storage-blob|latest-stable'
+    summary: the progress of the blob copy as reported by the service.
+    fullName: copyProgress
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'copyProgress?: string'
+      return:
+        type: string
+        description: ''
+  - name: copySource
+    uid: '@azure/storage-blob.BlobBeginCopyFromUrlPollState.copySource|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: >-
+      The source URL provided in
+      <xref:@azure/storage-blob.BlobClient.beginCopyFromURL>.
+    fullName: copySource
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'copySource: string'
+      return:
+        type: string
+        description: ''
+  - name: error
+    uid: '@azure/storage-blob.BlobBeginCopyFromUrlPollState.error|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: Will exist if the operation encountered any error.
+    fullName: error
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'error?: Error'
+      return:
+        type: Error
+        description: ''
+  - name: isCancelled
+    uid: >-
+      @azure/storage-blob.BlobBeginCopyFromUrlPollState.isCancelled|latest-stable
+    package: '@azure/storage-blob|latest-stable'
+    summary: True if the operation has been cancelled.
+    fullName: isCancelled
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isCancelled?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: isCompleted
+    uid: >-
+      @azure/storage-blob.BlobBeginCopyFromUrlPollState.isCompleted|latest-stable
+    package: '@azure/storage-blob|latest-stable'
+    summary: True if the operation has been completed.
+    fullName: isCompleted
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isCompleted?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: isStarted
+    uid: '@azure/storage-blob.BlobBeginCopyFromUrlPollState.isStarted|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: True if the operation has started.
+    fullName: isStarted
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'isStarted?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: result
+    uid: '@azure/storage-blob.BlobBeginCopyFromUrlPollState.result|latest-stable'
+    package: '@azure/storage-blob|latest-stable'
+    summary: Will exist if the operation concluded in a result of an expected type.
+    fullName: result
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'result?: BlobBeginCopyFromURLResponse'
+      return:
+        type: >-
+          <xref
+          uid="@azure/storage-blob.BlobBeginCopyFromURLResponse|latest-stable"
+          />
+        description: ''
+  - name: startCopyFromURLOptions
+    uid: >-
+      @azure/storage-blob.BlobBeginCopyFromUrlPollState.startCopyFromURLOptions|latest-stable
+    package: '@azure/storage-blob|latest-stable'
+    summary: >-
+      The options that were passed to the initial
+      <xref:@azure/storage-blob.BlobClient.beginCopyFromURL> call.
+
+      This is exposed for the poller and should not be modified directly.
+    fullName: startCopyFromURLOptions
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'startCopyFromURLOptions?: BlobStartCopyFromURLOptions'
+      return:
+        type: >-
+          <xref
+          uid="@azure/storage-blob.BlobStartCopyFromURLOptions|latest-stable" />
+        description: ''
+extends: >-
+  PollOperationState&lt;<xref
+  uid="@azure/storage-blob.BlobBeginCopyFromURLResponse|latest-stable" />&gt;

@@ -1,0 +1,28 @@
+### YamlMime:TSEnum
+name: KnownPrivateEndpointServiceConnectionStatus
+uid: '@azure/arm-storage.KnownPrivateEndpointServiceConnectionStatus|preview'
+package: '@azure/arm-storage|preview'
+summary: >-
+  Known values of
+  <xref:@azure/arm-storage.PrivateEndpointServiceConnectionStatus> that the
+  service accepts.
+fullName: KnownPrivateEndpointServiceConnectionStatus
+remarks: ''
+isPreview: false
+isDeprecated: false
+fields:
+  - name: Approved
+    uid: >-
+      @azure/arm-storage.KnownPrivateEndpointServiceConnectionStatus.Approved|preview
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Pending
+    uid: >-
+      @azure/arm-storage.KnownPrivateEndpointServiceConnectionStatus.Pending|preview
+    package: '@azure/arm-storage|preview'
+    summary: ''
+  - name: Rejected
+    uid: >-
+      @azure/arm-storage.KnownPrivateEndpointServiceConnectionStatus.Rejected|preview
+    package: '@azure/arm-storage|preview'
+    summary: ''
