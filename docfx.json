@@ -50,5 +50,15 @@
     "fileMetadata": {},
     "template": [],
     "dest": "_site"
+  },
+  "fileMetadata": {
+    "author": {
+      "**/*.md": "DavidCBerry13",
+      "**/*.yml": "DavidCBerry13"
+    },
+    "ms.author": {
+      "**/*.md": "daberry",
+      "**/*.yml": "daberry"
+    }
   }
 }
