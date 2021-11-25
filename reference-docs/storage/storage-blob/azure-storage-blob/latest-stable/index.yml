@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/storage-blob|latest-stable'
-name: '@azure/storage-blob'
+name: '@azure/storage-blob (12.8.0)'
 summary: ''
 type: package
 enums:

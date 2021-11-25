@@ -4,7 +4,7 @@ items:
   - name: App Configuration
     items:
       - name: Overview
-        href: /javascript/sdk-demo/app-configuration/service-overview
+        href: /javascript/sdk-demo/app-configuration/
       - name: '@azure/app-configuration'
         items:
           - name: User guide
@@ -275,7 +275,7 @@ items:
   - name: Cognitive Services
     items:
       - name: Overview
-        href: /javascript/sdk-demo/cognitive-services/service-overview
+        href: /javascript/sdk-demo/cognitive-services/
       - name: '@azure/ai-anomaly-detector'
         items:
           - name: Preview (3.0.0-beta.3)
@@ -2936,7 +2936,7 @@ items:
   - name: Core
     items:
       - name: Overview
-        href: /javascript/sdk-demo/core/service-overview
+        href: /javascript/sdk-demo/core/
       - name: '@azure/abort-controller'
         items:
           - name: User guide
@@ -3434,7 +3434,7 @@ items:
   - name: Cosmos DB
     items:
       - name: Overview
-        href: /javascript/sdk-demo/cosmos-db/service-overview
+        href: /javascript/sdk-demo/cosmos-db/
       - name: '@azure/cosmos'
         items:
           - name: User guide
@@ -3692,7 +3692,7 @@ items:
   - name: Event Grid
     items:
       - name: Overview
-        href: /javascript/sdk-demo/event-grid/service-overview
+        href: /javascript/sdk-demo/event-grid/
       - name: '@azure/eventgrid'
         items:
           - name: User guide
@@ -5236,7 +5236,7 @@ items:
   - name: Event Hubs
     items:
       - name: Overview
-        href: /javascript/sdk-demo/event-hubs/service-overview
+        href: /javascript/sdk-demo/event-hubs/
       - name: '@azure/event-hubs'
         items:
           - name: User guide
@@ -6135,7 +6135,7 @@ items:
   - name: Identity
     items:
       - name: Overview
-        href: /javascript/sdk-demo/identity/service-overview
+        href: /javascript/sdk-demo/identity/
       - name: '@azure/identity'
         items:
           - name: User guide
@@ -6239,7 +6239,7 @@ items:
   - name: Key Vault
     items:
       - name: Overview
-        href: /javascript/sdk-demo/key-vault/service-overview
+        href: /javascript/sdk-demo/key-vault/
       - name: '@azure/keyvault-admin'
         items:
           - name: User guide
@@ -7755,7 +7755,7 @@ items:
   - name: Service Bus
     items:
       - name: Overview
-        href: /javascript/sdk-demo/service-bus/service-overview
+        href: /javascript/sdk-demo/service-bus/
       - name: '@azure/service-bus'
         items:
           - name: User guide
@@ -8745,7 +8745,7 @@ items:
   - name: Storage
     items:
       - name: Overview
-        href: /javascript/sdk-demo/storage/service-overview
+        href: /javascript/sdk-demo/storage/
       - name: '@azure/storage-blob'
         items:
           - name: User guide
@@ -13915,7 +13915,7 @@ items:
   - name: Tables
     items:
       - name: Overview
-        href: /javascript/sdk-demo/tables/service-overview
+        href: /javascript/sdk-demo/tables/
       - name: '@azure/data-tables'
         items:
           - name: User guide
