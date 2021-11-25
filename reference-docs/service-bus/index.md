@@ -40,7 +40,7 @@ ms.author: daberry
 
 | Package               | User guide                           | Current version        | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
-| @azure/arm-servicebus  | [User guide](/javascript/sdk-demo/service-bus/arm-servicebus/azure-arm-servicebus/readme)  | 5.0.0-beta.1 [(Docs)](/javascript/sdk-demo/service-bus/arm-servicebus/azure-arm-servicebus/preview)  | [`npm install @azure/arm-servicebus@5.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-servicebus5.0.0-beta.1) |
+| @azure/arm-servicebus  | [User guide](/javascript/sdk-demo/service-bus/arm-servicebus/azure-arm-servicebus/readme)  | 5.0.0-beta.1 [(Docs)](/javascript/sdk-demo/service-bus/arm-servicebus/azure-arm-servicebus/preview)  | [`npm install @azure/arm-servicebus@5.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-servicebus%405.0.0-beta.1) |
  
 
  

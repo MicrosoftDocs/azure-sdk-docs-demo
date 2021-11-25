@@ -26,8 +26,8 @@ ms.author: daberry
 
 | Package               | User guide                           | Current version        | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
-| @azure/event-hubs  | [User guide](/javascript/sdk-demo/event-hubs/event-hubs/azure-event-hubs/readme)  | 5.7.0-beta.1 [(Docs)](/javascript/sdk-demo/event-hubs/event-hubs/azure-event-hubs/preview)  | [`npm install @azure/event-hubs@5.7.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fevent-hubs5.7.0-beta.1) |
-| @azure/arm-eventhub  | [User guide](/javascript/sdk-demo/event-hubs/arm-eventhub/azure-arm-eventhub/readme)  | 5.0.0-beta.1 [(Docs)](/javascript/sdk-demo/event-hubs/arm-eventhub/azure-arm-eventhub/preview)  | [`npm install @azure/arm-eventhub@5.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-eventhub5.0.0-beta.1) |
+| @azure/event-hubs  | [User guide](/javascript/sdk-demo/event-hubs/event-hubs/azure-event-hubs/readme)  | 5.7.0-beta.1 [(Docs)](/javascript/sdk-demo/event-hubs/event-hubs/azure-event-hubs/preview)  | [`npm install @azure/event-hubs@5.7.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fevent-hubs%405.7.0-beta.1) |
+| @azure/arm-eventhub  | [User guide](/javascript/sdk-demo/event-hubs/arm-eventhub/azure-arm-eventhub/readme)  | 5.0.0-beta.1 [(Docs)](/javascript/sdk-demo/event-hubs/arm-eventhub/azure-arm-eventhub/preview)  | [`npm install @azure/arm-eventhub@5.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-eventhub%405.0.0-beta.1) |
  
 
 

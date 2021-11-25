@@ -40,7 +40,7 @@ ms.author: daberry
 
 | Package               | User guide                           | Current version        | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
-| @azure/arm-eventgrid  | [User guide](/javascript/sdk-demo/event-grid/arm-eventgrid/azure-arm-eventgrid/readme)  | 13.0.0-beta.1 [(Docs)](/javascript/sdk-demo/event-grid/arm-eventgrid/azure-arm-eventgrid/preview)  | [`npm install @azure/arm-eventgrid@13.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-eventgrid13.0.0-beta.1) |
+| @azure/arm-eventgrid  | [User guide](/javascript/sdk-demo/event-grid/arm-eventgrid/azure-arm-eventgrid/readme)  | 13.0.0-beta.1 [(Docs)](/javascript/sdk-demo/event-grid/arm-eventgrid/azure-arm-eventgrid/preview)  | [`npm install @azure/arm-eventgrid@13.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-eventgrid%4013.0.0-beta.1) |
  
 
  

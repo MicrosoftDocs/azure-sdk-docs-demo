@@ -27,10 +27,10 @@ ms.author: daberry
 
 | Package               | User guide                           | Current version        | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
-| @azure/ai-anomaly-detector  |   | 3.0.0-beta.3 [(Docs)](/javascript/sdk-demo/cognitive-services/ai-anomaly-detector/azure-ai-anomaly-detector/preview)  | [`npm install @azure/ai-anomaly-detector@3.0.0-beta.3`](https://www.npmjs.com/package/%40azure%2Fai-anomaly-detector3.0.0-beta.3) |
-| @azure/ai-form-recognizer  |   | 4.0.0-beta.2 [(Docs)](/javascript/sdk-demo/cognitive-services/ai-form-recognizer/azure-ai-form-recognizer/preview)  | [`npm install @azure/ai-form-recognizer@4.0.0-beta.2`](https://www.npmjs.com/package/%40azure%2Fai-form-recognizer4.0.0-beta.2) |
-| @azure/search-documents  |   | 11.3.0-beta.5 [(Docs)](/javascript/sdk-demo/cognitive-services/search-documents/azure-search-documents/preview)  | [`npm install @azure/search-documents@11.3.0-beta.5`](https://www.npmjs.com/package/%40azure%2Fsearch-documents11.3.0-beta.5) |
-| @azure/ai-text-analytics  |   | 5.2.0-beta.2 [(Docs)](/javascript/sdk-demo/cognitive-services/ai-text-analytics/azure-ai-text-analytics/preview)  | [`npm install @azure/ai-text-analytics@5.2.0-beta.2`](https://www.npmjs.com/package/%40azure%2Fai-text-analytics5.2.0-beta.2) |
+| @azure/ai-anomaly-detector  |   | 3.0.0-beta.3 [(Docs)](/javascript/sdk-demo/cognitive-services/ai-anomaly-detector/azure-ai-anomaly-detector/preview)  | [`npm install @azure/ai-anomaly-detector@3.0.0-beta.3`](https://www.npmjs.com/package/%40azure%2Fai-anomaly-detector%403.0.0-beta.3) |
+| @azure/ai-form-recognizer  |   | 4.0.0-beta.2 [(Docs)](/javascript/sdk-demo/cognitive-services/ai-form-recognizer/azure-ai-form-recognizer/preview)  | [`npm install @azure/ai-form-recognizer@4.0.0-beta.2`](https://www.npmjs.com/package/%40azure%2Fai-form-recognizer%404.0.0-beta.2) |
+| @azure/search-documents  |   | 11.3.0-beta.5 [(Docs)](/javascript/sdk-demo/cognitive-services/search-documents/azure-search-documents/preview)  | [`npm install @azure/search-documents@11.3.0-beta.5`](https://www.npmjs.com/package/%40azure%2Fsearch-documents%4011.3.0-beta.5) |
+| @azure/ai-text-analytics  |   | 5.2.0-beta.2 [(Docs)](/javascript/sdk-demo/cognitive-services/ai-text-analytics/azure-ai-text-analytics/preview)  | [`npm install @azure/ai-text-analytics@5.2.0-beta.2`](https://www.npmjs.com/package/%40azure%2Fai-text-analytics%405.2.0-beta.2) |
  
 
 

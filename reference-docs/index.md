@@ -45,10 +45,10 @@ ROBOTS: NOINDEX
 
 | Package               | User guide                           | Current version        | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
-| @azure/ai-anomaly-detector  |   | 3.0.0-beta.3 [(Docs)](/javascript/sdk-demo/cognitive-services/ai-anomaly-detector/azure-ai-anomaly-detector/preview)  | [`npm install @azure/ai-anomaly-detector@3.0.0-beta.3`](https://www.npmjs.com/package/%40azure%2Fai-anomaly-detector3.0.0-beta.3) |
-| @azure/ai-form-recognizer  |   | 4.0.0-beta.2 [(Docs)](/javascript/sdk-demo/cognitive-services/ai-form-recognizer/azure-ai-form-recognizer/preview)  | [`npm install @azure/ai-form-recognizer@4.0.0-beta.2`](https://www.npmjs.com/package/%40azure%2Fai-form-recognizer4.0.0-beta.2) |
-| @azure/search-documents  |   | 11.3.0-beta.5 [(Docs)](/javascript/sdk-demo/cognitive-services/search-documents/azure-search-documents/preview)  | [`npm install @azure/search-documents@11.3.0-beta.5`](https://www.npmjs.com/package/%40azure%2Fsearch-documents11.3.0-beta.5) |
-| @azure/ai-text-analytics  |   | 5.2.0-beta.2 [(Docs)](/javascript/sdk-demo/cognitive-services/ai-text-analytics/azure-ai-text-analytics/preview)  | [`npm install @azure/ai-text-analytics@5.2.0-beta.2`](https://www.npmjs.com/package/%40azure%2Fai-text-analytics5.2.0-beta.2) |
+| @azure/ai-anomaly-detector  |   | 3.0.0-beta.3 [(Docs)](/javascript/sdk-demo/cognitive-services/ai-anomaly-detector/azure-ai-anomaly-detector/preview)  | [`npm install @azure/ai-anomaly-detector@3.0.0-beta.3`](https://www.npmjs.com/package/%40azure%2Fai-anomaly-detector%403.0.0-beta.3) |
+| @azure/ai-form-recognizer  |   | 4.0.0-beta.2 [(Docs)](/javascript/sdk-demo/cognitive-services/ai-form-recognizer/azure-ai-form-recognizer/preview)  | [`npm install @azure/ai-form-recognizer@4.0.0-beta.2`](https://www.npmjs.com/package/%40azure%2Fai-form-recognizer%404.0.0-beta.2) |
+| @azure/search-documents  |   | 11.3.0-beta.5 [(Docs)](/javascript/sdk-demo/cognitive-services/search-documents/azure-search-documents/preview)  | [`npm install @azure/search-documents@11.3.0-beta.5`](https://www.npmjs.com/package/%40azure%2Fsearch-documents%4011.3.0-beta.5) |
+| @azure/ai-text-analytics  |   | 5.2.0-beta.2 [(Docs)](/javascript/sdk-demo/cognitive-services/ai-text-analytics/azure-ai-text-analytics/preview)  | [`npm install @azure/ai-text-analytics@5.2.0-beta.2`](https://www.npmjs.com/package/%40azure%2Fai-text-analytics%405.2.0-beta.2) |
  
 
  
@@ -73,7 +73,7 @@ ROBOTS: NOINDEX
 
 | Package               | User guide                           | Current version        | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
-| @azure/core-amqp  | [User guide](/javascript/sdk-demo/core/core-amqp/azure-core-amqp/readme)  | 2.0.0-beta.1 [(Docs)](/javascript/sdk-demo/core/core-amqp/azure-core-amqp/preview)  | [`npm install @azure/core-amqp@2.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fcore-amqp2.0.0-beta.1) |
+| @azure/core-amqp  | [User guide](/javascript/sdk-demo/core/core-amqp/azure-core-amqp/readme)  | 2.0.0-beta.1 [(Docs)](/javascript/sdk-demo/core/core-amqp/azure-core-amqp/preview)  | [`npm install @azure/core-amqp@2.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fcore-amqp%402.0.0-beta.1) |
  
 
  
@@ -107,7 +107,7 @@ ROBOTS: NOINDEX
 
 | Package               | User guide                           | Current version        | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
-| @azure/arm-eventgrid  | [User guide](/javascript/sdk-demo/event-grid/arm-eventgrid/azure-arm-eventgrid/readme)  | 13.0.0-beta.1 [(Docs)](/javascript/sdk-demo/event-grid/arm-eventgrid/azure-arm-eventgrid/preview)  | [`npm install @azure/arm-eventgrid@13.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-eventgrid13.0.0-beta.1) |
+| @azure/arm-eventgrid  | [User guide](/javascript/sdk-demo/event-grid/arm-eventgrid/azure-arm-eventgrid/readme)  | 13.0.0-beta.1 [(Docs)](/javascript/sdk-demo/event-grid/arm-eventgrid/azure-arm-eventgrid/preview)  | [`npm install @azure/arm-eventgrid@13.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-eventgrid%4013.0.0-beta.1) |
  
 
  
@@ -128,8 +128,8 @@ ROBOTS: NOINDEX
 
 | Package               | User guide                           | Current version        | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
-| @azure/event-hubs  | [User guide](/javascript/sdk-demo/event-hubs/event-hubs/azure-event-hubs/readme)  | 5.7.0-beta.1 [(Docs)](/javascript/sdk-demo/event-hubs/event-hubs/azure-event-hubs/preview)  | [`npm install @azure/event-hubs@5.7.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fevent-hubs5.7.0-beta.1) |
-| @azure/arm-eventhub  | [User guide](/javascript/sdk-demo/event-hubs/arm-eventhub/azure-arm-eventhub/readme)  | 5.0.0-beta.1 [(Docs)](/javascript/sdk-demo/event-hubs/arm-eventhub/azure-arm-eventhub/preview)  | [`npm install @azure/arm-eventhub@5.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-eventhub5.0.0-beta.1) |
+| @azure/event-hubs  | [User guide](/javascript/sdk-demo/event-hubs/event-hubs/azure-event-hubs/readme)  | 5.7.0-beta.1 [(Docs)](/javascript/sdk-demo/event-hubs/event-hubs/azure-event-hubs/preview)  | [`npm install @azure/event-hubs@5.7.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fevent-hubs%405.7.0-beta.1) |
+| @azure/arm-eventhub  | [User guide](/javascript/sdk-demo/event-hubs/arm-eventhub/azure-arm-eventhub/readme)  | 5.0.0-beta.1 [(Docs)](/javascript/sdk-demo/event-hubs/arm-eventhub/azure-arm-eventhub/preview)  | [`npm install @azure/arm-eventhub@5.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-eventhub%405.0.0-beta.1) |
  
 
  
@@ -166,11 +166,11 @@ ROBOTS: NOINDEX
 
 | Package               | User guide                           | Current version        | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
-| @azure/keyvault-admin  | [User guide](/javascript/sdk-demo/key-vault/keyvault-admin/azure-keyvault-admin/readme)  | 4.2.0-beta.2 [(Docs)](/javascript/sdk-demo/key-vault/keyvault-admin/azure-keyvault-admin/preview)  | [`npm install @azure/keyvault-admin@4.2.0-beta.2`](https://www.npmjs.com/package/%40azure%2Fkeyvault-admin4.2.0-beta.2) |
-| @azure/keyvault-certificates  | [User guide](/javascript/sdk-demo/key-vault/keyvault-certificates/azure-keyvault-certificates/readme)  | 4.4.0-beta.2 [(Docs)](/javascript/sdk-demo/key-vault/keyvault-certificates/azure-keyvault-certificates/preview)  | [`npm install @azure/keyvault-certificates@4.4.0-beta.2`](https://www.npmjs.com/package/%40azure%2Fkeyvault-certificates4.4.0-beta.2) |
-| @azure/keyvault-keys  | [User guide](/javascript/sdk-demo/key-vault/keyvault-keys/azure-keyvault-keys/readme)  | 4.4.0-beta.3 [(Docs)](/javascript/sdk-demo/key-vault/keyvault-keys/azure-keyvault-keys/preview)  | [`npm install @azure/keyvault-keys@4.4.0-beta.3`](https://www.npmjs.com/package/%40azure%2Fkeyvault-keys4.4.0-beta.3) |
-| @azure/keyvault-secrets  | [User guide](/javascript/sdk-demo/key-vault/keyvault-secrets/azure-keyvault-secrets/readme)  | 4.4.0-beta.2 [(Docs)](/javascript/sdk-demo/key-vault/keyvault-secrets/azure-keyvault-secrets/preview)  | [`npm install @azure/keyvault-secrets@4.4.0-beta.2`](https://www.npmjs.com/package/%40azure%2Fkeyvault-secrets4.4.0-beta.2) |
-| @azure/arm-keyvault  | [User guide](/javascript/sdk-demo/key-vault/arm-keyvault/azure-arm-keyvault/readme)  | 2.0.0-beta.1 [(Docs)](/javascript/sdk-demo/key-vault/arm-keyvault/azure-arm-keyvault/preview)  | [`npm install @azure/arm-keyvault@2.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-keyvault2.0.0-beta.1) |
+| @azure/keyvault-admin  | [User guide](/javascript/sdk-demo/key-vault/keyvault-admin/azure-keyvault-admin/readme)  | 4.2.0-beta.2 [(Docs)](/javascript/sdk-demo/key-vault/keyvault-admin/azure-keyvault-admin/preview)  | [`npm install @azure/keyvault-admin@4.2.0-beta.2`](https://www.npmjs.com/package/%40azure%2Fkeyvault-admin%404.2.0-beta.2) |
+| @azure/keyvault-certificates  | [User guide](/javascript/sdk-demo/key-vault/keyvault-certificates/azure-keyvault-certificates/readme)  | 4.4.0-beta.2 [(Docs)](/javascript/sdk-demo/key-vault/keyvault-certificates/azure-keyvault-certificates/preview)  | [`npm install @azure/keyvault-certificates@4.4.0-beta.2`](https://www.npmjs.com/package/%40azure%2Fkeyvault-certificates%404.4.0-beta.2) |
+| @azure/keyvault-keys  | [User guide](/javascript/sdk-demo/key-vault/keyvault-keys/azure-keyvault-keys/readme)  | 4.4.0-beta.3 [(Docs)](/javascript/sdk-demo/key-vault/keyvault-keys/azure-keyvault-keys/preview)  | [`npm install @azure/keyvault-keys@4.4.0-beta.3`](https://www.npmjs.com/package/%40azure%2Fkeyvault-keys%404.4.0-beta.3) |
+| @azure/keyvault-secrets  | [User guide](/javascript/sdk-demo/key-vault/keyvault-secrets/azure-keyvault-secrets/readme)  | 4.4.0-beta.2 [(Docs)](/javascript/sdk-demo/key-vault/keyvault-secrets/azure-keyvault-secrets/preview)  | [`npm install @azure/keyvault-secrets@4.4.0-beta.2`](https://www.npmjs.com/package/%40azure%2Fkeyvault-secrets%404.4.0-beta.2) |
+| @azure/arm-keyvault  | [User guide](/javascript/sdk-demo/key-vault/arm-keyvault/azure-arm-keyvault/readme)  | 2.0.0-beta.1 [(Docs)](/javascript/sdk-demo/key-vault/arm-keyvault/azure-arm-keyvault/preview)  | [`npm install @azure/arm-keyvault@2.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-keyvault%402.0.0-beta.1) |
  
 
  
@@ -190,7 +190,7 @@ ROBOTS: NOINDEX
 
 | Package               | User guide                           | Current version        | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
-| @azure/arm-servicebus  | [User guide](/javascript/sdk-demo/service-bus/arm-servicebus/azure-arm-servicebus/readme)  | 5.0.0-beta.1 [(Docs)](/javascript/sdk-demo/service-bus/arm-servicebus/azure-arm-servicebus/preview)  | [`npm install @azure/arm-servicebus@5.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-servicebus5.0.0-beta.1) |
+| @azure/arm-servicebus  | [User guide](/javascript/sdk-demo/service-bus/arm-servicebus/azure-arm-servicebus/readme)  | 5.0.0-beta.1 [(Docs)](/javascript/sdk-demo/service-bus/arm-servicebus/azure-arm-servicebus/preview)  | [`npm install @azure/arm-servicebus@5.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-servicebus%405.0.0-beta.1) |
  
 
  
@@ -213,11 +213,11 @@ ROBOTS: NOINDEX
 
 | Package               | User guide                           | Current version        | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
-| @azure/storage-blob  | [User guide](/javascript/sdk-demo/storage/storage-blob/azure-storage-blob/readme)  | 12.9.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/storage-blob/azure-storage-blob/preview)  | [`npm install @azure/storage-blob@12.9.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fstorage-blob12.9.0-beta.1) |
-| @azure/storage-queue  | [User guide](/javascript/sdk-demo/storage/storage-queue/azure-storage-queue/readme)  | 12.8.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/storage-queue/azure-storage-queue/preview)  | [`npm install @azure/storage-queue@12.8.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fstorage-queue12.8.0-beta.1) |
-| @azure/storage-file-share  | [User guide](/javascript/sdk-demo/storage/storage-file-share/azure-storage-file-share/readme)  | 12.9.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/storage-file-share/azure-storage-file-share/preview)  | [`npm install @azure/storage-file-share@12.9.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fstorage-file-share12.9.0-beta.1) |
-| @azure/storage-file-datalake  | [User guide](/javascript/sdk-demo/storage/storage-file-datalake/azure-storage-file-datalake/readme)  | 12.8.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/storage-file-datalake/azure-storage-file-datalake/preview)  | [`npm install @azure/storage-file-datalake@12.8.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fstorage-file-datalake12.8.0-beta.1) |
-| @azure/arm-storage  | [User guide](/javascript/sdk-demo/storage/arm-storage/azure-arm-storage/readme)  | 17.0.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/arm-storage/azure-arm-storage/preview)  | [`npm install @azure/arm-storage@17.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-storage17.0.0-beta.1) |
+| @azure/storage-blob  | [User guide](/javascript/sdk-demo/storage/storage-blob/azure-storage-blob/readme)  | 12.9.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/storage-blob/azure-storage-blob/preview)  | [`npm install @azure/storage-blob@12.9.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fstorage-blob%4012.9.0-beta.1) |
+| @azure/storage-queue  | [User guide](/javascript/sdk-demo/storage/storage-queue/azure-storage-queue/readme)  | 12.8.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/storage-queue/azure-storage-queue/preview)  | [`npm install @azure/storage-queue@12.8.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fstorage-queue%4012.8.0-beta.1) |
+| @azure/storage-file-share  | [User guide](/javascript/sdk-demo/storage/storage-file-share/azure-storage-file-share/readme)  | 12.9.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/storage-file-share/azure-storage-file-share/preview)  | [`npm install @azure/storage-file-share@12.9.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fstorage-file-share%4012.9.0-beta.1) |
+| @azure/storage-file-datalake  | [User guide](/javascript/sdk-demo/storage/storage-file-datalake/azure-storage-file-datalake/readme)  | 12.8.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/storage-file-datalake/azure-storage-file-datalake/preview)  | [`npm install @azure/storage-file-datalake@12.8.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fstorage-file-datalake%4012.8.0-beta.1) |
+| @azure/arm-storage  | [User guide](/javascript/sdk-demo/storage/arm-storage/azure-arm-storage/readme)  | 17.0.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/arm-storage/azure-arm-storage/preview)  | [`npm install @azure/arm-storage@17.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-storage%4017.0.0-beta.1) |
  
 
  

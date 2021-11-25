@@ -28,10 +28,10 @@ ms.author: daberry
 
 | Package               | User guide                           | Current version        | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
-| @azure/storage-blob  | [User guide](/javascript/sdk-demo/storage/storage-blob/azure-storage-blob/readme)  | 12.9.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/storage-blob/azure-storage-blob/preview)  | [`npm install @azure/storage-blob@12.9.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fstorage-blob12.9.0-beta.1) |
-| @azure/storage-queue  | [User guide](/javascript/sdk-demo/storage/storage-queue/azure-storage-queue/readme)  | 12.8.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/storage-queue/azure-storage-queue/preview)  | [`npm install @azure/storage-queue@12.8.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fstorage-queue12.8.0-beta.1) |
-| @azure/storage-file-share  | [User guide](/javascript/sdk-demo/storage/storage-file-share/azure-storage-file-share/readme)  | 12.9.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/storage-file-share/azure-storage-file-share/preview)  | [`npm install @azure/storage-file-share@12.9.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fstorage-file-share12.9.0-beta.1) |
-| @azure/storage-file-datalake  | [User guide](/javascript/sdk-demo/storage/storage-file-datalake/azure-storage-file-datalake/readme)  | 12.8.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/storage-file-datalake/azure-storage-file-datalake/preview)  | [`npm install @azure/storage-file-datalake@12.8.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fstorage-file-datalake12.8.0-beta.1) |
+| @azure/storage-blob  | [User guide](/javascript/sdk-demo/storage/storage-blob/azure-storage-blob/readme)  | 12.9.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/storage-blob/azure-storage-blob/preview)  | [`npm install @azure/storage-blob@12.9.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fstorage-blob%4012.9.0-beta.1) |
+| @azure/storage-queue  | [User guide](/javascript/sdk-demo/storage/storage-queue/azure-storage-queue/readme)  | 12.8.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/storage-queue/azure-storage-queue/preview)  | [`npm install @azure/storage-queue@12.8.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fstorage-queue%4012.8.0-beta.1) |
+| @azure/storage-file-share  | [User guide](/javascript/sdk-demo/storage/storage-file-share/azure-storage-file-share/readme)  | 12.9.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/storage-file-share/azure-storage-file-share/preview)  | [`npm install @azure/storage-file-share@12.9.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fstorage-file-share%4012.9.0-beta.1) |
+| @azure/storage-file-datalake  | [User guide](/javascript/sdk-demo/storage/storage-file-datalake/azure-storage-file-datalake/readme)  | 12.8.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/storage-file-datalake/azure-storage-file-datalake/preview)  | [`npm install @azure/storage-file-datalake@12.8.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fstorage-file-datalake%4012.8.0-beta.1) |
  
 
 
@@ -51,7 +51,7 @@ ms.author: daberry
 
 | Package               | User guide                           | Current version        | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
-| @azure/arm-storage  | [User guide](/javascript/sdk-demo/storage/arm-storage/azure-arm-storage/readme)  | 17.0.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/arm-storage/azure-arm-storage/preview)  | [`npm install @azure/arm-storage@17.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-storage17.0.0-beta.1) |
+| @azure/arm-storage  | [User guide](/javascript/sdk-demo/storage/arm-storage/azure-arm-storage/readme)  | 17.0.0-beta.1 [(Docs)](/javascript/sdk-demo/storage/arm-storage/azure-arm-storage/preview)  | [`npm install @azure/arm-storage@17.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-storage%4017.0.0-beta.1) |
  
 
  

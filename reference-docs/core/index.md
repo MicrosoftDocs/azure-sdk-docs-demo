@@ -31,7 +31,7 @@ ms.author: daberry
 
 | Package               | User guide                           | Current version        | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
-| @azure/core-amqp  | [User guide](/javascript/sdk-demo/core/core-amqp/azure-core-amqp/readme)  | 2.0.0-beta.1 [(Docs)](/javascript/sdk-demo/core/core-amqp/azure-core-amqp/preview)  | [`npm install @azure/core-amqp@2.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fcore-amqp2.0.0-beta.1) |
+| @azure/core-amqp  | [User guide](/javascript/sdk-demo/core/core-amqp/azure-core-amqp/readme)  | 2.0.0-beta.1 [(Docs)](/javascript/sdk-demo/core/core-amqp/azure-core-amqp/preview)  | [`npm install @azure/core-amqp@2.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fcore-amqp%402.0.0-beta.1) |
  
 
 
