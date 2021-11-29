@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/eventhubs-checkpointstore-blob|latest-stable'
-name: '@azure/eventhubs-checkpointstore-blob'
+name: '@azure/eventhubs-checkpointstore-blob (1.0.1 - Latest stable)}'
 summary: ''
 type: package
 classes:

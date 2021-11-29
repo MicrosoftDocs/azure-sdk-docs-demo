@@ -278,6 +278,10 @@ items:
         href: /javascript/sdk-demo/cognitive-services/
       - name: '@azure/ai-anomaly-detector'
         items:
+          - name: User guide
+            href: /javascript/sdk-demo/cognitive-services/ai-anomaly-detector/azure-ai-anomaly-detector/readme
+          - name: Release notes
+            href: /javascript/sdk-demo/cognitive-services/ai-anomaly-detector/azure-ai-anomaly-detector/release-notes
           - name: Preview (3.0.0-beta.3)
             items:
               - name: Package index
@@ -372,8 +376,47 @@ items:
                 uid: '@azure/ai-anomaly-detector.TimeGranularity|preview'
               - name: TimeSeriesPoint
                 uid: '@azure/ai-anomaly-detector.TimeSeriesPoint|preview'
+      - name: '@azure/cognitiveservices-anomalydetector'
+        items:
+          - name: User guide
+            href: >-
+              /javascript/sdk-demo/cognitive-services/cognitiveservices-anomalydetector/azure-cognitiveservices-anomalydetector/readme
+          - name: Latest stable (2.1.0)
+            items:
+              - name: Package index
+                uid: '@azure/cognitiveservices-anomalydetector|latest-stable'
+              - name: AnomalyDetectorClient
+                uid: '@azure/cognitiveservices-anomalydetector.AnomalyDetectorClient|latest-stable'
+              - name: AnomalyDetectorClientContext
+                uid: '@azure/cognitiveservices-anomalydetector.AnomalyDetectorClientContext|latest-stable'
+              - name: APIError
+                uid: '@azure/cognitiveservices-anomalydetector.APIError|latest-stable'
+              - name: ChangePointDetectRequest
+                uid: '@azure/cognitiveservices-anomalydetector.ChangePointDetectRequest|latest-stable'
+              - name: ChangePointDetectResponse
+                uid: '@azure/cognitiveservices-anomalydetector.ChangePointDetectResponse|latest-stable'
+              - name: ChangePointDetectResponse2
+                uid: '@azure/cognitiveservices-anomalydetector.ChangePointDetectResponse2|latest-stable'
+              - name: EntireDetectResponse
+                uid: '@azure/cognitiveservices-anomalydetector.EntireDetectResponse|latest-stable'
+              - name: EntireDetectResponse2
+                uid: '@azure/cognitiveservices-anomalydetector.EntireDetectResponse2|latest-stable'
+              - name: Granularity
+                uid: '@azure/cognitiveservices-anomalydetector.Granularity|latest-stable'
+              - name: LastDetectResponse
+                uid: '@azure/cognitiveservices-anomalydetector.LastDetectResponse|latest-stable'
+              - name: LastDetectResponse2
+                uid: '@azure/cognitiveservices-anomalydetector.LastDetectResponse2|latest-stable'
+              - name: Point
+                uid: '@azure/cognitiveservices-anomalydetector.Point|latest-stable'
+              - name: Request
+                uid: '@azure/cognitiveservices-anomalydetector.Request|latest-stable'
       - name: '@azure/ai-form-recognizer'
         items:
+          - name: User guide
+            href: /javascript/sdk-demo/cognitive-services/ai-form-recognizer/azure-ai-form-recognizer/readme
+          - name: Release notes
+            href: /javascript/sdk-demo/cognitive-services/ai-form-recognizer/azure-ai-form-recognizer/release-notes
           - name: Latest stable (3.2.0)
             items:
               - name: Package index
@@ -880,6 +923,10 @@ items:
                 uid: '@azure/ai-form-recognizer.TrainResult|preview'
       - name: '@azure/search-documents'
         items:
+          - name: User guide
+            href: /javascript/sdk-demo/cognitive-services/search-documents/azure-search-documents/readme
+          - name: Release notes
+            href: /javascript/sdk-demo/cognitive-services/search-documents/azure-search-documents/release-notes
           - name: Latest stable (11.2.1)
             items:
               - name: Package index
@@ -2082,6 +2129,10 @@ items:
                 uid: '@azure/search-documents.WordDelimiterTokenFilter|preview'
       - name: '@azure/ai-text-analytics'
         items:
+          - name: User guide
+            href: /javascript/sdk-demo/cognitive-services/ai-text-analytics/azure-ai-text-analytics/readme
+          - name: Release notes
+            href: /javascript/sdk-demo/cognitive-services/ai-text-analytics/azure-ai-text-analytics/release-notes
           - name: Latest stable (5.1.0)
             items:
               - name: Package index
@@ -2652,6 +2703,8 @@ items:
                 uid: '@azure/ai-text-analytics.WarningCode|preview'
       - name: '@azure/arm-cognitiveservices'
         items:
+          - name: User guide
+            href: /javascript/sdk-demo/cognitive-services/arm-cognitiveservices/azure-arm-cognitiveservices/readme
           - name: Latest stable (6.1.0)
             items:
               - name: Package index
@@ -2933,6 +2986,195 @@ items:
                 uid: '@azure/arm-cognitiveservices.UserOwnedStorage|latest-stable'
               - name: VirtualNetworkRule
                 uid: '@azure/arm-cognitiveservices.VirtualNetworkRule|latest-stable'
+      - name: '@azure/cognitiveservices-formrecognizer'
+        items:
+          - name: User guide
+            href: >-
+              /javascript/sdk-demo/cognitive-services/legacy/cognitiveservices-formrecognizer/azure-cognitiveservices-formrecognizer/readme
+      - name: '@azure/cognitiveservices-textanalytics'
+        items:
+          - name: User guide
+            href: >-
+              /javascript/sdk-demo/cognitive-services/legacy/cognitiveservices-textanalytics/azure-cognitiveservices-textanalytics/readme
+      - &ref_0
+        name: Legacy packages
+        items:
+          - name: '@azure/cognitiveservices-formrecognizer'
+            items:
+              - name: User guide
+                href: >-
+                  /javascript/sdk-demo/cognitive-services/legacy/cognitiveservices-formrecognizer/azure-cognitiveservices-formrecognizer/readme
+              - name: Legacy (2.0.1)
+                items:
+                  - name: Package index
+                    uid: '@azure/cognitiveservices-formrecognizer|legacy'
+                  - name: AnalyzeResult
+                    uid: '@azure/cognitiveservices-formrecognizer.AnalyzeResult|legacy'
+                  - name: AnalyzeWithCustomModelResponse
+                    uid: '@azure/cognitiveservices-formrecognizer.AnalyzeWithCustomModelResponse|legacy'
+                  - name: BatchReadReceiptHeaders
+                    uid: '@azure/cognitiveservices-formrecognizer.BatchReadReceiptHeaders|legacy'
+                  - name: BatchReadReceiptInStreamHeaders
+                    uid: '@azure/cognitiveservices-formrecognizer.BatchReadReceiptInStreamHeaders|legacy'
+                  - name: BatchReadReceiptInStreamResponse
+                    uid: '@azure/cognitiveservices-formrecognizer.BatchReadReceiptInStreamResponse|legacy'
+                  - name: BatchReadReceiptResponse
+                    uid: '@azure/cognitiveservices-formrecognizer.BatchReadReceiptResponse|legacy'
+                  - name: ComputerVisionError
+                    uid: '@azure/cognitiveservices-formrecognizer.ComputerVisionError|legacy'
+                  - name: ElementReference
+                    uid: '@azure/cognitiveservices-formrecognizer.ElementReference|legacy'
+                  - name: ErrorInformation
+                    uid: '@azure/cognitiveservices-formrecognizer.ErrorInformation|legacy'
+                  - name: ErrorResponse
+                    uid: '@azure/cognitiveservices-formrecognizer.ErrorResponse|legacy'
+                  - name: ExtractedKeyValuePair
+                    uid: '@azure/cognitiveservices-formrecognizer.ExtractedKeyValuePair|legacy'
+                  - name: ExtractedPage
+                    uid: '@azure/cognitiveservices-formrecognizer.ExtractedPage|legacy'
+                  - name: ExtractedTable
+                    uid: '@azure/cognitiveservices-formrecognizer.ExtractedTable|legacy'
+                  - name: ExtractedTableColumn
+                    uid: '@azure/cognitiveservices-formrecognizer.ExtractedTableColumn|legacy'
+                  - name: ExtractedToken
+                    uid: '@azure/cognitiveservices-formrecognizer.ExtractedToken|legacy'
+                  - name: FieldValue
+                    uid: '@azure/cognitiveservices-formrecognizer.FieldValue|legacy'
+                  - name: FieldValueUnion
+                    uid: '@azure/cognitiveservices-formrecognizer.FieldValueUnion|legacy'
+                  - name: FormDocumentReport
+                    uid: '@azure/cognitiveservices-formrecognizer.FormDocumentReport|legacy'
+                  - name: FormOperationError
+                    uid: '@azure/cognitiveservices-formrecognizer.FormOperationError|legacy'
+                  - name: FormRecognizerClient
+                    uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerClient|legacy'
+                  - name: FormRecognizerClientAnalyzeWithCustomModelOptionalParams
+                    uid: >-
+                      @azure/cognitiveservices-formrecognizer.FormRecognizerClientAnalyzeWithCustomModelOptionalParams|legacy
+                  - name: FormRecognizerClientContext
+                    uid: '@azure/cognitiveservices-formrecognizer.FormRecognizerClientContext|legacy'
+                  - name: GetCustomModelResponse
+                    uid: '@azure/cognitiveservices-formrecognizer.GetCustomModelResponse|legacy'
+                  - name: GetCustomModelsResponse
+                    uid: '@azure/cognitiveservices-formrecognizer.GetCustomModelsResponse|legacy'
+                  - name: GetExtractedKeysResponse
+                    uid: '@azure/cognitiveservices-formrecognizer.GetExtractedKeysResponse|legacy'
+                  - name: GetReadReceiptResultResponse
+                    uid: '@azure/cognitiveservices-formrecognizer.GetReadReceiptResultResponse|legacy'
+                  - name: ImageUrl
+                    uid: '@azure/cognitiveservices-formrecognizer.ImageUrl|legacy'
+                  - name: InnerError
+                    uid: '@azure/cognitiveservices-formrecognizer.InnerError|legacy'
+                  - name: KeysResult
+                    uid: '@azure/cognitiveservices-formrecognizer.KeysResult|legacy'
+                  - name: Line
+                    uid: '@azure/cognitiveservices-formrecognizer.Line|legacy'
+                  - name: ModelResult
+                    uid: '@azure/cognitiveservices-formrecognizer.ModelResult|legacy'
+                  - name: ModelsResult
+                    uid: '@azure/cognitiveservices-formrecognizer.ModelsResult|legacy'
+                  - name: NumberValue
+                    uid: '@azure/cognitiveservices-formrecognizer.NumberValue|legacy'
+                  - name: ReadReceiptResult
+                    uid: '@azure/cognitiveservices-formrecognizer.ReadReceiptResult|legacy'
+                  - name: Status
+                    uid: '@azure/cognitiveservices-formrecognizer.Status|legacy'
+                  - name: Status1
+                    uid: '@azure/cognitiveservices-formrecognizer.Status1|legacy'
+                  - name: Status2
+                    uid: '@azure/cognitiveservices-formrecognizer.Status2|legacy'
+                  - name: StringValue
+                    uid: '@azure/cognitiveservices-formrecognizer.StringValue|legacy'
+                  - name: TextOperationStatusCodes
+                    uid: '@azure/cognitiveservices-formrecognizer.TextOperationStatusCodes|legacy'
+                  - name: TextRecognitionResult
+                    uid: '@azure/cognitiveservices-formrecognizer.TextRecognitionResult|legacy'
+                  - name: TextRecognitionResultConfidenceClass
+                    uid: '@azure/cognitiveservices-formrecognizer.TextRecognitionResultConfidenceClass|legacy'
+                  - name: TextRecognitionResultDimensionUnit
+                    uid: '@azure/cognitiveservices-formrecognizer.TextRecognitionResultDimensionUnit|legacy'
+                  - name: TrainCustomModelResponse
+                    uid: '@azure/cognitiveservices-formrecognizer.TrainCustomModelResponse|legacy'
+                  - name: TrainRequest
+                    uid: '@azure/cognitiveservices-formrecognizer.TrainRequest|legacy'
+                  - name: TrainResult
+                    uid: '@azure/cognitiveservices-formrecognizer.TrainResult|legacy'
+                  - name: TrainSourceFilter
+                    uid: '@azure/cognitiveservices-formrecognizer.TrainSourceFilter|legacy'
+                  - name: UnderstandingResult
+                    uid: '@azure/cognitiveservices-formrecognizer.UnderstandingResult|legacy'
+                  - name: Word
+                    uid: '@azure/cognitiveservices-formrecognizer.Word|legacy'
+          - name: '@azure/cognitiveservices-textanalytics'
+            items:
+              - name: User guide
+                href: >-
+                  /javascript/sdk-demo/cognitive-services/legacy/cognitiveservices-textanalytics/azure-cognitiveservices-textanalytics/readme
+              - name: Legacy (4.0.0)
+                items:
+                  - name: Package index
+                    uid: '@azure/cognitiveservices-textanalytics|legacy'
+                  - name: DetectedLanguage
+                    uid: '@azure/cognitiveservices-textanalytics.DetectedLanguage|legacy'
+                  - name: DetectLanguageResponse
+                    uid: '@azure/cognitiveservices-textanalytics.DetectLanguageResponse|legacy'
+                  - name: DocumentStatistics
+                    uid: '@azure/cognitiveservices-textanalytics.DocumentStatistics|legacy'
+                  - name: EntitiesBatchResult
+                    uid: '@azure/cognitiveservices-textanalytics.EntitiesBatchResult|legacy'
+                  - name: EntitiesBatchResultItem
+                    uid: '@azure/cognitiveservices-textanalytics.EntitiesBatchResultItem|legacy'
+                  - name: EntitiesResponse
+                    uid: '@azure/cognitiveservices-textanalytics.EntitiesResponse|legacy'
+                  - name: EntityRecord
+                    uid: '@azure/cognitiveservices-textanalytics.EntityRecord|legacy'
+                  - name: ErrorRecord
+                    uid: '@azure/cognitiveservices-textanalytics.ErrorRecord|legacy'
+                  - name: ErrorResponse
+                    uid: '@azure/cognitiveservices-textanalytics.ErrorResponse|legacy'
+                  - name: InternalError
+                    uid: '@azure/cognitiveservices-textanalytics.InternalError|legacy'
+                  - name: KeyPhraseBatchResult
+                    uid: '@azure/cognitiveservices-textanalytics.KeyPhraseBatchResult|legacy'
+                  - name: KeyPhraseBatchResultItem
+                    uid: '@azure/cognitiveservices-textanalytics.KeyPhraseBatchResultItem|legacy'
+                  - name: KeyPhrasesResponse
+                    uid: '@azure/cognitiveservices-textanalytics.KeyPhrasesResponse|legacy'
+                  - name: LanguageBatchInput
+                    uid: '@azure/cognitiveservices-textanalytics.LanguageBatchInput|legacy'
+                  - name: LanguageBatchResult
+                    uid: '@azure/cognitiveservices-textanalytics.LanguageBatchResult|legacy'
+                  - name: LanguageBatchResultItem
+                    uid: '@azure/cognitiveservices-textanalytics.LanguageBatchResultItem|legacy'
+                  - name: LanguageInput
+                    uid: '@azure/cognitiveservices-textanalytics.LanguageInput|legacy'
+                  - name: MatchRecord
+                    uid: '@azure/cognitiveservices-textanalytics.MatchRecord|legacy'
+                  - name: MultiLanguageBatchInput
+                    uid: '@azure/cognitiveservices-textanalytics.MultiLanguageBatchInput|legacy'
+                  - name: MultiLanguageInput
+                    uid: '@azure/cognitiveservices-textanalytics.MultiLanguageInput|legacy'
+                  - name: RequestStatistics
+                    uid: '@azure/cognitiveservices-textanalytics.RequestStatistics|legacy'
+                  - name: SentimentBatchResult
+                    uid: '@azure/cognitiveservices-textanalytics.SentimentBatchResult|legacy'
+                  - name: SentimentBatchResultItem
+                    uid: '@azure/cognitiveservices-textanalytics.SentimentBatchResultItem|legacy'
+                  - name: SentimentResponse
+                    uid: '@azure/cognitiveservices-textanalytics.SentimentResponse|legacy'
+                  - name: TextAnalyticsClient
+                    uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClient|legacy'
+                  - name: TextAnalyticsClientContext
+                    uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClientContext|legacy'
+                  - name: TextAnalyticsClientDetectLanguageOptionalParams
+                    uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClientDetectLanguageOptionalParams|legacy'
+                  - name: TextAnalyticsClientEntitiesOptionalParams
+                    uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClientEntitiesOptionalParams|legacy'
+                  - name: TextAnalyticsClientKeyPhrasesOptionalParams
+                    uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClientKeyPhrasesOptionalParams|legacy'
+                  - name: TextAnalyticsClientSentimentOptionalParams
+                    uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClientSentimentOptionalParams|legacy'
+      - *ref_0
   - name: Core
     items:
       - name: Overview
@@ -5233,6 +5475,178 @@ items:
                 uid: '@azure/arm-eventgrid.UserIdentityProperties|preview'
               - name: WebHookEventSubscriptionDestination
                 uid: '@azure/arm-eventgrid.WebHookEventSubscriptionDestination|preview'
+      - name: azure-eventgrid
+        items:
+          - name: User guide
+            href: /javascript/sdk-demo/event-grid/legacy/event-grid/azure-eventgrid/readme
+      - name: Legacy packages
+        items:
+          - name: azure-eventgrid
+            items:
+              - name: User guide
+                href: /javascript/sdk-demo/event-grid/legacy/event-grid/azure-eventgrid/readme
+              - name: Legacy (1.6.0)
+                items:
+                  - name: Package index
+                    uid: azure-eventgrid|legacy
+                  - name: AppConfigurationKeyValueDeletedEventData
+                    uid: azure-eventgrid.AppConfigurationKeyValueDeletedEventData|legacy
+                  - name: AppConfigurationKeyValueModifiedEventData
+                    uid: azure-eventgrid.AppConfigurationKeyValueModifiedEventData|legacy
+                  - name: ContainerRegistryArtifactEventData
+                    uid: azure-eventgrid.ContainerRegistryArtifactEventData|legacy
+                  - name: ContainerRegistryArtifactEventTarget
+                    uid: azure-eventgrid.ContainerRegistryArtifactEventTarget|legacy
+                  - name: ContainerRegistryChartDeletedEventData
+                    uid: azure-eventgrid.ContainerRegistryChartDeletedEventData|legacy
+                  - name: ContainerRegistryChartPushedEventData
+                    uid: azure-eventgrid.ContainerRegistryChartPushedEventData|legacy
+                  - name: ContainerRegistryEventActor
+                    uid: azure-eventgrid.ContainerRegistryEventActor|legacy
+                  - name: ContainerRegistryEventData
+                    uid: azure-eventgrid.ContainerRegistryEventData|legacy
+                  - name: ContainerRegistryEventRequest
+                    uid: azure-eventgrid.ContainerRegistryEventRequest|legacy
+                  - name: ContainerRegistryEventSource
+                    uid: azure-eventgrid.ContainerRegistryEventSource|legacy
+                  - name: ContainerRegistryEventTarget
+                    uid: azure-eventgrid.ContainerRegistryEventTarget|legacy
+                  - name: ContainerRegistryImageDeletedEventData
+                    uid: azure-eventgrid.ContainerRegistryImageDeletedEventData|legacy
+                  - name: ContainerRegistryImagePushedEventData
+                    uid: azure-eventgrid.ContainerRegistryImagePushedEventData|legacy
+                  - name: DeviceConnectionStateEventInfo
+                    uid: azure-eventgrid.DeviceConnectionStateEventInfo|legacy
+                  - name: DeviceConnectionStateEventProperties
+                    uid: azure-eventgrid.DeviceConnectionStateEventProperties|legacy
+                  - name: DeviceLifeCycleEventProperties
+                    uid: azure-eventgrid.DeviceLifeCycleEventProperties|legacy
+                  - name: DeviceTelemetryEventProperties
+                    uid: azure-eventgrid.DeviceTelemetryEventProperties|legacy
+                  - name: DeviceTwinInfo
+                    uid: azure-eventgrid.DeviceTwinInfo|legacy
+                  - name: DeviceTwinInfoProperties
+                    uid: azure-eventgrid.DeviceTwinInfoProperties|legacy
+                  - name: DeviceTwinInfoX509Thumbprint
+                    uid: azure-eventgrid.DeviceTwinInfoX509Thumbprint|legacy
+                  - name: DeviceTwinMetadata
+                    uid: azure-eventgrid.DeviceTwinMetadata|legacy
+                  - name: DeviceTwinProperties
+                    uid: azure-eventgrid.DeviceTwinProperties|legacy
+                  - name: EventGridClient
+                    uid: azure-eventgrid.EventGridClient|legacy
+                  - name: EventGridEvent
+                    uid: azure-eventgrid.EventGridEvent|legacy
+                  - name: EventHubCaptureFileCreatedEventData
+                    uid: azure-eventgrid.EventHubCaptureFileCreatedEventData|legacy
+                  - name: IotHubDeviceConnectedEventData
+                    uid: azure-eventgrid.IotHubDeviceConnectedEventData|legacy
+                  - name: IotHubDeviceCreatedEventData
+                    uid: azure-eventgrid.IotHubDeviceCreatedEventData|legacy
+                  - name: IotHubDeviceDeletedEventData
+                    uid: azure-eventgrid.IotHubDeviceDeletedEventData|legacy
+                  - name: IotHubDeviceDisconnectedEventData
+                    uid: azure-eventgrid.IotHubDeviceDisconnectedEventData|legacy
+                  - name: IotHubDeviceTelemetryEventData
+                    uid: azure-eventgrid.IotHubDeviceTelemetryEventData|legacy
+                  - name: MapsGeofenceEnteredEventData
+                    uid: azure-eventgrid.MapsGeofenceEnteredEventData|legacy
+                  - name: MapsGeofenceEventProperties
+                    uid: azure-eventgrid.MapsGeofenceEventProperties|legacy
+                  - name: MapsGeofenceExitedEventData
+                    uid: azure-eventgrid.MapsGeofenceExitedEventData|legacy
+                  - name: MapsGeofenceGeometry
+                    uid: azure-eventgrid.MapsGeofenceGeometry|legacy
+                  - name: MapsGeofenceResultEventData
+                    uid: azure-eventgrid.MapsGeofenceResultEventData|legacy
+                  - name: MediaJobCanceledEventData
+                    uid: azure-eventgrid.MediaJobCanceledEventData|legacy
+                  - name: MediaJobCancelingEventData
+                    uid: azure-eventgrid.MediaJobCancelingEventData|legacy
+                  - name: MediaJobError
+                    uid: azure-eventgrid.MediaJobError|legacy
+                  - name: MediaJobErrorDetail
+                    uid: azure-eventgrid.MediaJobErrorDetail|legacy
+                  - name: MediaJobErroredEventData
+                    uid: azure-eventgrid.MediaJobErroredEventData|legacy
+                  - name: MediaJobFinishedEventData
+                    uid: azure-eventgrid.MediaJobFinishedEventData|legacy
+                  - name: MediaJobOutput
+                    uid: azure-eventgrid.MediaJobOutput|legacy
+                  - name: MediaJobOutputAsset
+                    uid: azure-eventgrid.MediaJobOutputAsset|legacy
+                  - name: MediaJobOutputCanceledEventData
+                    uid: azure-eventgrid.MediaJobOutputCanceledEventData|legacy
+                  - name: MediaJobOutputCancelingEventData
+                    uid: azure-eventgrid.MediaJobOutputCancelingEventData|legacy
+                  - name: MediaJobOutputErroredEventData
+                    uid: azure-eventgrid.MediaJobOutputErroredEventData|legacy
+                  - name: MediaJobOutputFinishedEventData
+                    uid: azure-eventgrid.MediaJobOutputFinishedEventData|legacy
+                  - name: MediaJobOutputProcessingEventData
+                    uid: azure-eventgrid.MediaJobOutputProcessingEventData|legacy
+                  - name: MediaJobOutputProgressEventData
+                    uid: azure-eventgrid.MediaJobOutputProgressEventData|legacy
+                  - name: MediaJobOutputScheduledEventData
+                    uid: azure-eventgrid.MediaJobOutputScheduledEventData|legacy
+                  - name: MediaJobOutputStateChangeEventData
+                    uid: azure-eventgrid.MediaJobOutputStateChangeEventData|legacy
+                  - name: MediaJobProcessingEventData
+                    uid: azure-eventgrid.MediaJobProcessingEventData|legacy
+                  - name: MediaJobScheduledEventData
+                    uid: azure-eventgrid.MediaJobScheduledEventData|legacy
+                  - name: MediaJobStateChangeEventData
+                    uid: azure-eventgrid.MediaJobStateChangeEventData|legacy
+                  - name: MediaLiveEventConnectionRejectedEventData
+                    uid: azure-eventgrid.MediaLiveEventConnectionRejectedEventData|legacy
+                  - name: MediaLiveEventEncoderConnectedEventData
+                    uid: azure-eventgrid.MediaLiveEventEncoderConnectedEventData|legacy
+                  - name: MediaLiveEventEncoderDisconnectedEventData
+                    uid: azure-eventgrid.MediaLiveEventEncoderDisconnectedEventData|legacy
+                  - name: MediaLiveEventIncomingDataChunkDroppedEventData
+                    uid: azure-eventgrid.MediaLiveEventIncomingDataChunkDroppedEventData|legacy
+                  - name: MediaLiveEventIncomingStreamReceivedEventData
+                    uid: azure-eventgrid.MediaLiveEventIncomingStreamReceivedEventData|legacy
+                  - name: MediaLiveEventIncomingStreamsOutOfSyncEventData
+                    uid: azure-eventgrid.MediaLiveEventIncomingStreamsOutOfSyncEventData|legacy
+                  - name: MediaLiveEventIncomingVideoStreamsOutOfSyncEventData
+                    uid: azure-eventgrid.MediaLiveEventIncomingVideoStreamsOutOfSyncEventData|legacy
+                  - name: MediaLiveEventIngestHeartbeatEventData
+                    uid: azure-eventgrid.MediaLiveEventIngestHeartbeatEventData|legacy
+                  - name: MediaLiveEventTrackDiscontinuityDetectedEventData
+                    uid: azure-eventgrid.MediaLiveEventTrackDiscontinuityDetectedEventData|legacy
+                  - name: ResourceActionCancelData
+                    uid: azure-eventgrid.ResourceActionCancelData|legacy
+                  - name: ResourceActionFailureData
+                    uid: azure-eventgrid.ResourceActionFailureData|legacy
+                  - name: ResourceActionSuccessData
+                    uid: azure-eventgrid.ResourceActionSuccessData|legacy
+                  - name: ResourceDeleteCancelData
+                    uid: azure-eventgrid.ResourceDeleteCancelData|legacy
+                  - name: ResourceDeleteFailureData
+                    uid: azure-eventgrid.ResourceDeleteFailureData|legacy
+                  - name: ResourceDeleteSuccessData
+                    uid: azure-eventgrid.ResourceDeleteSuccessData|legacy
+                  - name: ResourceWriteCancelData
+                    uid: azure-eventgrid.ResourceWriteCancelData|legacy
+                  - name: ResourceWriteFailureData
+                    uid: azure-eventgrid.ResourceWriteFailureData|legacy
+                  - name: ResourceWriteSuccessData
+                    uid: azure-eventgrid.ResourceWriteSuccessData|legacy
+                  - name: ServiceBusActiveMessagesAvailableWithNoListenersEventData
+                    uid: azure-eventgrid.ServiceBusActiveMessagesAvailableWithNoListenersEventData|legacy
+                  - name: ServiceBusDeadletterMessagesAvailableWithNoListenersEventData
+                    uid: azure-eventgrid.ServiceBusDeadletterMessagesAvailableWithNoListenersEventData|legacy
+                  - name: StorageBlobCreatedEventData
+                    uid: azure-eventgrid.StorageBlobCreatedEventData|legacy
+                  - name: StorageBlobDeletedEventData
+                    uid: azure-eventgrid.StorageBlobDeletedEventData|legacy
+                  - name: SubscriptionDeletedEventData
+                    uid: azure-eventgrid.SubscriptionDeletedEventData|legacy
+                  - name: SubscriptionValidationEventData
+                    uid: azure-eventgrid.SubscriptionValidationEventData|legacy
+                  - name: SubscriptionValidationResponse
+                    uid: azure-eventgrid.SubscriptionValidationResponse|legacy
   - name: Event Hubs
     items:
       - name: Overview
@@ -7752,6 +8166,272 @@ items:
                 uid: '@azure/arm-keyvault.VaultsUpdateResponse|preview'
               - name: VirtualNetworkRule
                 uid: '@azure/arm-keyvault.VirtualNetworkRule|preview'
+      - name: azure-keyvault
+        items:
+          - name: User guide
+            href: /javascript/sdk-demo/key-vault/legacy/keyvault/azure-keyvault/readme
+      - name: azure-arm-keyvault
+        items:
+          - name: User guide
+            href: /javascript/sdk-demo/key-vault/legacy/arm-keyvault/azure-arm-keyvault/readme
+      - &ref_1
+        name: Legacy packages
+        items:
+          - name: azure-keyvault
+            items:
+              - name: User guide
+                href: /javascript/sdk-demo/key-vault/legacy/keyvault/azure-keyvault/readme
+              - name: Legacy (3.0.5)
+                items:
+                  - name: Package index
+                    uid: azure-keyvault|legacy
+                  - name: Action
+                    uid: azure-keyvault.Action|legacy
+                  - name: AdministratorDetails
+                    uid: azure-keyvault.AdministratorDetails|legacy
+                  - name: Attributes
+                    uid: azure-keyvault.Attributes|legacy
+                  - name: BackupCertificateResult
+                    uid: azure-keyvault.BackupCertificateResult|legacy
+                  - name: BackupKeyResult
+                    uid: azure-keyvault.BackupKeyResult|legacy
+                  - name: BackupSecretResult
+                    uid: azure-keyvault.BackupSecretResult|legacy
+                  - name: BackupStorageResult
+                    uid: azure-keyvault.BackupStorageResult|legacy
+                  - name: CertificateAttributes
+                    uid: azure-keyvault.CertificateAttributes|legacy
+                  - name: CertificateBundle
+                    uid: azure-keyvault.CertificateBundle|legacy
+                  - name: CertificateCreateParameters
+                    uid: azure-keyvault.CertificateCreateParameters|legacy
+                  - name: CertificateImportParameters
+                    uid: azure-keyvault.CertificateImportParameters|legacy
+                  - name: CertificateIssuerItem
+                    uid: azure-keyvault.CertificateIssuerItem|legacy
+                  - name: CertificateIssuerListResult
+                    uid: azure-keyvault.CertificateIssuerListResult|legacy
+                  - name: CertificateIssuerSetParameters
+                    uid: azure-keyvault.CertificateIssuerSetParameters|legacy
+                  - name: CertificateIssuerUpdateParameters
+                    uid: azure-keyvault.CertificateIssuerUpdateParameters|legacy
+                  - name: CertificateItem
+                    uid: azure-keyvault.CertificateItem|legacy
+                  - name: CertificateListResult
+                    uid: azure-keyvault.CertificateListResult|legacy
+                  - name: CertificateMergeParameters
+                    uid: azure-keyvault.CertificateMergeParameters|legacy
+                  - name: CertificateOperation
+                    uid: azure-keyvault.CertificateOperation|legacy
+                  - name: CertificateOperationUpdateParameter
+                    uid: azure-keyvault.CertificateOperationUpdateParameter|legacy
+                  - name: CertificatePolicy
+                    uid: azure-keyvault.CertificatePolicy|legacy
+                  - name: CertificateRestoreParameters
+                    uid: azure-keyvault.CertificateRestoreParameters|legacy
+                  - name: CertificateUpdateParameters
+                    uid: azure-keyvault.CertificateUpdateParameters|legacy
+                  - name: Contact
+                    uid: azure-keyvault.Contact|legacy
+                  - name: Contacts
+                    uid: azure-keyvault.Contacts|legacy
+                  - name: DeletedCertificateBundle
+                    uid: azure-keyvault.DeletedCertificateBundle|legacy
+                  - name: DeletedCertificateItem
+                    uid: azure-keyvault.DeletedCertificateItem|legacy
+                  - name: DeletedCertificateListResult
+                    uid: azure-keyvault.DeletedCertificateListResult|legacy
+                  - name: DeletedKeyBundle
+                    uid: azure-keyvault.DeletedKeyBundle|legacy
+                  - name: DeletedKeyItem
+                    uid: azure-keyvault.DeletedKeyItem|legacy
+                  - name: DeletedKeyListResult
+                    uid: azure-keyvault.DeletedKeyListResult|legacy
+                  - name: DeletedSasDefinitionBundle
+                    uid: azure-keyvault.DeletedSasDefinitionBundle|legacy
+                  - name: DeletedSasDefinitionItem
+                    uid: azure-keyvault.DeletedSasDefinitionItem|legacy
+                  - name: DeletedSasDefinitionListResult
+                    uid: azure-keyvault.DeletedSasDefinitionListResult|legacy
+                  - name: DeletedSecretBundle
+                    uid: azure-keyvault.DeletedSecretBundle|legacy
+                  - name: DeletedSecretItem
+                    uid: azure-keyvault.DeletedSecretItem|legacy
+                  - name: DeletedSecretListResult
+                    uid: azure-keyvault.DeletedSecretListResult|legacy
+                  - name: DeletedStorageAccountItem
+                    uid: azure-keyvault.DeletedStorageAccountItem|legacy
+                  - name: DeletedStorageBundle
+                    uid: azure-keyvault.DeletedStorageBundle|legacy
+                  - name: DeletedStorageListResult
+                    uid: azure-keyvault.DeletedStorageListResult|legacy
+                  - name: ErrorModel
+                    uid: azure-keyvault.ErrorModel|legacy
+                  - name: IssuerAttributes
+                    uid: azure-keyvault.IssuerAttributes|legacy
+                  - name: IssuerBundle
+                    uid: azure-keyvault.IssuerBundle|legacy
+                  - name: IssuerCredentials
+                    uid: azure-keyvault.IssuerCredentials|legacy
+                  - name: IssuerParameters
+                    uid: azure-keyvault.IssuerParameters|legacy
+                  - name: JsonWebKey
+                    uid: azure-keyvault.JsonWebKey|legacy
+                  - name: KeyAttributes
+                    uid: azure-keyvault.KeyAttributes|legacy
+                  - name: KeyBundle
+                    uid: azure-keyvault.KeyBundle|legacy
+                  - name: KeyCreateParameters
+                    uid: azure-keyvault.KeyCreateParameters|legacy
+                  - name: KeyImportParameters
+                    uid: azure-keyvault.KeyImportParameters|legacy
+                  - name: KeyItem
+                    uid: azure-keyvault.KeyItem|legacy
+                  - name: KeyListResult
+                    uid: azure-keyvault.KeyListResult|legacy
+                  - name: KeyOperationResult
+                    uid: azure-keyvault.KeyOperationResult|legacy
+                  - name: KeyOperationsParameters
+                    uid: azure-keyvault.KeyOperationsParameters|legacy
+                  - name: KeyProperties
+                    uid: azure-keyvault.KeyProperties|legacy
+                  - name: KeyRestoreParameters
+                    uid: azure-keyvault.KeyRestoreParameters|legacy
+                  - name: KeySignParameters
+                    uid: azure-keyvault.KeySignParameters|legacy
+                  - name: KeyUpdateParameters
+                    uid: azure-keyvault.KeyUpdateParameters|legacy
+                  - name: KeyVaultClient
+                    uid: azure-keyvault.KeyVaultClient|legacy
+                  - name: KeyVaultError
+                    uid: azure-keyvault.KeyVaultError|legacy
+                  - name: KeyVerifyParameters
+                    uid: azure-keyvault.KeyVerifyParameters|legacy
+                  - name: KeyVerifyResult
+                    uid: azure-keyvault.KeyVerifyResult|legacy
+                  - name: LifetimeAction
+                    uid: azure-keyvault.LifetimeAction|legacy
+                  - name: OrganizationDetails
+                    uid: azure-keyvault.OrganizationDetails|legacy
+                  - name: PendingCertificateSigningRequestResult
+                    uid: azure-keyvault.PendingCertificateSigningRequestResult|legacy
+                  - name: SasDefinitionAttributes
+                    uid: azure-keyvault.SasDefinitionAttributes|legacy
+                  - name: SasDefinitionBundle
+                    uid: azure-keyvault.SasDefinitionBundle|legacy
+                  - name: SasDefinitionCreateParameters
+                    uid: azure-keyvault.SasDefinitionCreateParameters|legacy
+                  - name: SasDefinitionItem
+                    uid: azure-keyvault.SasDefinitionItem|legacy
+                  - name: SasDefinitionListResult
+                    uid: azure-keyvault.SasDefinitionListResult|legacy
+                  - name: SasDefinitionUpdateParameters
+                    uid: azure-keyvault.SasDefinitionUpdateParameters|legacy
+                  - name: SecretAttributes
+                    uid: azure-keyvault.SecretAttributes|legacy
+                  - name: SecretBundle
+                    uid: azure-keyvault.SecretBundle|legacy
+                  - name: SecretItem
+                    uid: azure-keyvault.SecretItem|legacy
+                  - name: SecretListResult
+                    uid: azure-keyvault.SecretListResult|legacy
+                  - name: SecretProperties
+                    uid: azure-keyvault.SecretProperties|legacy
+                  - name: SecretRestoreParameters
+                    uid: azure-keyvault.SecretRestoreParameters|legacy
+                  - name: SecretSetParameters
+                    uid: azure-keyvault.SecretSetParameters|legacy
+                  - name: SecretUpdateParameters
+                    uid: azure-keyvault.SecretUpdateParameters|legacy
+                  - name: StorageAccountAttributes
+                    uid: azure-keyvault.StorageAccountAttributes|legacy
+                  - name: StorageAccountCreateParameters
+                    uid: azure-keyvault.StorageAccountCreateParameters|legacy
+                  - name: StorageAccountItem
+                    uid: azure-keyvault.StorageAccountItem|legacy
+                  - name: StorageAccountRegenerteKeyParameters
+                    uid: azure-keyvault.StorageAccountRegenerteKeyParameters|legacy
+                  - name: StorageAccountUpdateParameters
+                    uid: azure-keyvault.StorageAccountUpdateParameters|legacy
+                  - name: StorageBundle
+                    uid: azure-keyvault.StorageBundle|legacy
+                  - name: StorageListResult
+                    uid: azure-keyvault.StorageListResult|legacy
+                  - name: StorageRestoreParameters
+                    uid: azure-keyvault.StorageRestoreParameters|legacy
+                  - name: SubjectAlternativeNames
+                    uid: azure-keyvault.SubjectAlternativeNames|legacy
+                  - name: Trigger
+                    uid: azure-keyvault.Trigger|legacy
+                  - name: X509CertificateProperties
+                    uid: azure-keyvault.X509CertificateProperties|legacy
+          - name: azure-arm-keyvault
+            items:
+              - name: User guide
+                href: /javascript/sdk-demo/key-vault/legacy/arm-keyvault/azure-arm-keyvault/readme
+              - name: Legacy (1.2.0)
+                items:
+                  - name: Package index
+                    uid: azure-arm-keyvault|legacy
+                  - name: AccessPolicyEntry
+                    uid: azure-arm-keyvault.AccessPolicyEntry|legacy
+                  - name: CheckNameAvailabilityResult
+                    uid: azure-arm-keyvault.CheckNameAvailabilityResult|legacy
+                  - name: DeletedVault
+                    uid: azure-arm-keyvault.DeletedVault|legacy
+                  - name: DeletedVaultListResult
+                    uid: azure-arm-keyvault.DeletedVaultListResult|legacy
+                  - name: DeletedVaultProperties
+                    uid: azure-arm-keyvault.DeletedVaultProperties|legacy
+                  - name: IPRule
+                    uid: azure-arm-keyvault.IPRule|legacy
+                  - name: KeyVaultManagementClient
+                    uid: azure-arm-keyvault.KeyVaultManagementClient|legacy
+                  - name: LogSpecification
+                    uid: azure-arm-keyvault.LogSpecification|legacy
+                  - name: NetworkRuleSet
+                    uid: azure-arm-keyvault.NetworkRuleSet|legacy
+                  - name: Operation
+                    uid: azure-arm-keyvault.Operation|legacy
+                  - name: OperationDisplay
+                    uid: azure-arm-keyvault.OperationDisplay|legacy
+                  - name: OperationListResult
+                    uid: azure-arm-keyvault.OperationListResult|legacy
+                  - name: Operations
+                    uid: azure-arm-keyvault.Operations|legacy
+                  - name: Permissions
+                    uid: azure-arm-keyvault.Permissions|legacy
+                  - name: Resource
+                    uid: azure-arm-keyvault.Resource|legacy
+                  - name: ResourceListResult
+                    uid: azure-arm-keyvault.ResourceListResult|legacy
+                  - name: ServiceSpecification
+                    uid: azure-arm-keyvault.ServiceSpecification|legacy
+                  - name: Sku
+                    uid: azure-arm-keyvault.Sku|legacy
+                  - name: Vault
+                    uid: azure-arm-keyvault.Vault|legacy
+                  - name: VaultAccessPolicyParameters
+                    uid: azure-arm-keyvault.VaultAccessPolicyParameters|legacy
+                  - name: VaultAccessPolicyProperties
+                    uid: azure-arm-keyvault.VaultAccessPolicyProperties|legacy
+                  - name: VaultCheckNameAvailabilityParameters
+                    uid: azure-arm-keyvault.VaultCheckNameAvailabilityParameters|legacy
+                  - name: VaultCreateOrUpdateParameters
+                    uid: azure-arm-keyvault.VaultCreateOrUpdateParameters|legacy
+                  - name: VaultListResult
+                    uid: azure-arm-keyvault.VaultListResult|legacy
+                  - name: VaultPatchParameters
+                    uid: azure-arm-keyvault.VaultPatchParameters|legacy
+                  - name: VaultPatchProperties
+                    uid: azure-arm-keyvault.VaultPatchProperties|legacy
+                  - name: VaultProperties
+                    uid: azure-arm-keyvault.VaultProperties|legacy
+                  - name: Vaults
+                    uid: azure-arm-keyvault.Vaults|legacy
+                  - name: VirtualNetworkRule
+                    uid: azure-arm-keyvault.VirtualNetworkRule|legacy
+      - *ref_1
   - name: Service Bus
     items:
       - name: Overview

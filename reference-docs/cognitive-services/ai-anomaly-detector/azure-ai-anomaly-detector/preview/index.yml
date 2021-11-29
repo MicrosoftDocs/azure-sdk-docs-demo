@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/ai-anomaly-detector|preview'
-name: '@azure/ai-anomaly-detector'
+name: '@azure/ai-anomaly-detector (3.0.0-beta.3 - Preview)}'
 summary: ''
 type: package
 enums:

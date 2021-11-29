@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/arm-storage|latest-stable'
-name: '@azure/arm-storage'
+name: '@azure/arm-storage (16.1.2 - Latest stable)}'
 summary: ''
 type: package
 interfaces:

@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/arm-appconfiguration|latest-stable'
-name: '@azure/arm-appconfiguration'
+name: '@azure/arm-appconfiguration (2.0.0 - Latest stable)}'
 summary: ''
 type: package
 classes:

@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/arm-eventgrid|latest-stable'
-name: '@azure/arm-eventgrid'
+name: '@azure/arm-eventgrid (12.0.0 - Latest stable)}'
 summary: ''
 type: package
 classes:

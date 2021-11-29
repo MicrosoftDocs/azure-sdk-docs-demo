@@ -2,7 +2,7 @@
 title: Azure SDK for JavaScript - Cosmos DB User Guide
 description: 
 ms.topic: reference
-ms.date: 11/25/2021
+ms.date: 11/29/2021
 ms.service: cosmos-db
 ms.role: developer
 ms.devlang: javascript

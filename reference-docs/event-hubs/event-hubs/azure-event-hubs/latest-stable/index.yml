@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/event-hubs|latest-stable'
-name: '@azure/event-hubs'
+name: '@azure/event-hubs (5.6.0 - Latest stable)}'
 summary: ''
 type: package
 enums:

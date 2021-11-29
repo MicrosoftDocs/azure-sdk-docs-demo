@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/storage-blob|preview'
-name: '@azure/storage-blob'
+name: '@azure/storage-blob (12.9.0-beta.1 - Preview)}'
 summary: ''
 type: package
 enums:

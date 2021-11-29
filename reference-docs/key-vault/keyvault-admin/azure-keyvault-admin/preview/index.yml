@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/keyvault-admin|preview'
-name: '@azure/keyvault-admin'
+name: '@azure/keyvault-admin (4.2.0-beta.2 - Preview)}'
 summary: ''
 type: package
 enums:

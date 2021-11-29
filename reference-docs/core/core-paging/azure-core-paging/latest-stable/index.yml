@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/core-paging|latest-stable'
-name: '@azure/core-paging'
+name: '@azure/core-paging (1.2.0 - Latest stable)}'
 summary: ''
 type: package
 interfaces:

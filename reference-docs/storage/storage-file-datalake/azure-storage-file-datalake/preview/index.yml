@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/storage-file-datalake|preview'
-name: '@azure/storage-file-datalake'
+name: '@azure/storage-file-datalake (12.8.0-beta.1 - Preview)}'
 summary: ''
 type: package
 enums:

@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/keyvault-certificates|latest-stable'
-name: '@azure/keyvault-certificates'
+name: '@azure/keyvault-certificates (4.3.0 - Latest stable)}'
 summary: ''
 type: package
 enums:

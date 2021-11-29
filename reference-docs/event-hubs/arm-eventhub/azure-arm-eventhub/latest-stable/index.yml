@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/arm-eventhub|latest-stable'
-name: '@azure/arm-eventhub'
+name: '@azure/arm-eventhub (4.0.0 - Latest stable)}'
 summary: ''
 type: package
 classes:

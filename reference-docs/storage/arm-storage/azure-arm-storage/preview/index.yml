@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/arm-storage|preview'
-name: '@azure/arm-storage'
+name: '@azure/arm-storage (17.0.0-beta.1 - Preview)}'
 summary: ''
 type: package
 classes:

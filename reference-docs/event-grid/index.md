@@ -2,7 +2,7 @@
 title: Azure SDK for JavaScript - Event Grid packages
 description: 
 ms.topic: reference
-ms.date: 11/25/2021
+ms.date: 11/29/2021
 ms.service: event-grid
 ms.role: developer
 ms.devlang: javascript
@@ -24,6 +24,11 @@ ms.author: daberry
  
 
 
+#### Legacy
+
+| Package               | User guide                           | Current version        | Package Manager                |
+|-----------------------|--------------------------------------|------------------------|--------------------------------|
+| azure-eventgrid  | [User guide](/javascript/sdk-demo/event-grid/legacy/event-grid/azure-eventgrid/readme)  | 1.6.0 [(Docs)](/javascript/sdk-demo/event-grid/legacy/event-grid/azure-eventgrid/legacy)  | [`npm install azure-eventgrid@1.6.0`](https://www.npmjs.com/package/azure-eventgrid%401.6.0) |
  
  
 

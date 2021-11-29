@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/arm-cognitiveservices|latest-stable'
-name: '@azure/arm-cognitiveservices'
+name: '@azure/arm-cognitiveservices (6.1.0 - Latest stable)}'
 summary: ''
 type: package
 classes:

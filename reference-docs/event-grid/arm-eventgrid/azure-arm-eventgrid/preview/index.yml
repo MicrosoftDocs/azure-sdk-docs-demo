@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/arm-eventgrid|preview'
-name: '@azure/arm-eventgrid'
+name: '@azure/arm-eventgrid (13.0.0-beta.1 - Preview)}'
 summary: ''
 type: package
 enums:

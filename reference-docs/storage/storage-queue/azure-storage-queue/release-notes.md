@@ -2,7 +2,7 @@
 title: Azure SDK for JavaScript - Storage Release Notes
 description: 
 ms.topic: reference
-ms.date: 11/25/2021
+ms.date: 11/29/2021
 ms.service: storage
 ms.role: developer
 ms.devlang: javascript

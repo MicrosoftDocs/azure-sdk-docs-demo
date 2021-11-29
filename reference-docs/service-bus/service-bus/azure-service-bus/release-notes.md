@@ -2,7 +2,7 @@
 title: Azure SDK for JavaScript - Service Bus Release Notes
 description: 
 ms.topic: reference
-ms.date: 11/25/2021
+ms.date: 11/29/2021
 ms.service: service-bus
 ms.role: developer
 ms.devlang: javascript
