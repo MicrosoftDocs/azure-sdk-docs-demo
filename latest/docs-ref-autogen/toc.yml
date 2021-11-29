@@ -4229,6 +4229,49 @@
     - uid: '@azure/arm-storage.VirtualNetworkRule'
       name: VirtualNetworkRule
       items: []
+- name: '@azure/cognitiveservices-anomalydetector'
+  items:
+    - name: Overview
+      uid: '@azure/cognitiveservices-anomalydetector'
+    - uid: '@azure/cognitiveservices-anomalydetector.AnomalyDetectorClient'
+      name: AnomalyDetectorClient
+      items: []
+    - uid: '@azure/cognitiveservices-anomalydetector.AnomalyDetectorClientContext'
+      name: AnomalyDetectorClientContext
+      items: []
+    - uid: '@azure/cognitiveservices-anomalydetector.APIError'
+      name: APIError
+      items: []
+    - uid: '@azure/cognitiveservices-anomalydetector.ChangePointDetectRequest'
+      name: ChangePointDetectRequest
+      items: []
+    - uid: '@azure/cognitiveservices-anomalydetector.ChangePointDetectResponse'
+      name: ChangePointDetectResponse
+      items: []
+    - uid: '@azure/cognitiveservices-anomalydetector.ChangePointDetectResponse2'
+      name: ChangePointDetectResponse2
+      items: []
+    - uid: '@azure/cognitiveservices-anomalydetector.EntireDetectResponse'
+      name: EntireDetectResponse
+      items: []
+    - uid: '@azure/cognitiveservices-anomalydetector.EntireDetectResponse2'
+      name: EntireDetectResponse2
+      items: []
+    - uid: '@azure/cognitiveservices-anomalydetector.Granularity'
+      name: Granularity
+      items: []
+    - uid: '@azure/cognitiveservices-anomalydetector.LastDetectResponse'
+      name: LastDetectResponse
+      items: []
+    - uid: '@azure/cognitiveservices-anomalydetector.LastDetectResponse2'
+      name: LastDetectResponse2
+      items: []
+    - uid: '@azure/cognitiveservices-anomalydetector.Point'
+      name: Point
+      items: []
+    - uid: '@azure/cognitiveservices-anomalydetector.Request'
+      name: Request
+      items: []
 - name: '@azure/core-amqp'
   items:
     - name: Overview
