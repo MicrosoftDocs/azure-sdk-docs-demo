@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/storage-file-share|preview'
-name: '@azure/storage-file-share (12.9.0-beta.1 - Preview)}'
+name: '@azure/storage-file-share (12.9.0-beta.1 - Preview)'
 summary: ''
 type: package
 enums:

@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/keyvault-secrets|preview'
-name: '@azure/keyvault-secrets (4.4.0-beta.2 - Preview)}'
+name: '@azure/keyvault-secrets (4.4.0-beta.2 - Preview)'
 summary: ''
 type: package
 enums:

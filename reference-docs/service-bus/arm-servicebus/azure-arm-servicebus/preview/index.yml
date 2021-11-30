@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/arm-servicebus|preview'
-name: '@azure/arm-servicebus (5.0.0-beta.1 - Preview)}'
+name: '@azure/arm-servicebus (5.0.0-beta.1 - Preview)'
 summary: ''
 type: package
 enums:

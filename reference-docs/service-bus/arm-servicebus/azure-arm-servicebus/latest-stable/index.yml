@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/arm-servicebus|latest-stable'
-name: '@azure/arm-servicebus (4.1.1 - Latest stable)}'
+name: '@azure/arm-servicebus (4.1.1 - Latest stable)'
 summary: ''
 type: package
 interfaces:

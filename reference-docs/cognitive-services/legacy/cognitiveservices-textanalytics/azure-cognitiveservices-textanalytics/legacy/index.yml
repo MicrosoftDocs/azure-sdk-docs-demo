@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/cognitiveservices-textanalytics|legacy'
-name: '@azure/cognitiveservices-textanalytics (4.0.0 - Legacy)}'
+name: '@azure/cognitiveservices-textanalytics (4.0.0 - Legacy)'
 summary: ''
 type: package
 interfaces:

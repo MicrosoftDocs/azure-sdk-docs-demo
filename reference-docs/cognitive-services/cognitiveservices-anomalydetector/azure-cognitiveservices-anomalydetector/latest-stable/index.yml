@@ -1,6 +1,6 @@
 ### YamlMime:TSPackage
 uid: '@azure/cognitiveservices-anomalydetector|latest-stable'
-name: '@azure/cognitiveservices-anomalydetector (2.1.0 - Latest stable)}'
+name: '@azure/cognitiveservices-anomalydetector (2.1.0 - Latest stable)'
 summary: ''
 type: package
 classes:
