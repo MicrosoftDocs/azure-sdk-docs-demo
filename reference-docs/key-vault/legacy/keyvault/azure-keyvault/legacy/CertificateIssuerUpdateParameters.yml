@@ -1,0 +1,64 @@
+### YamlMime:TSType
+name: CertificateIssuerUpdateParameters
+uid: azure-keyvault.CertificateIssuerUpdateParameters|legacy
+package: azure-keyvault|legacy
+summary: ''
+fullName: CertificateIssuerUpdateParameters
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: attributes
+    uid: azure-keyvault.CertificateIssuerUpdateParameters.attributes|legacy
+    package: azure-keyvault|legacy
+    summary: ''
+    fullName: attributes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'attributes?: IssuerAttributes'
+      return:
+        type: <xref uid="azure-keyvault.IssuerAttributes|legacy" />
+        description: ''
+  - name: credentials
+    uid: azure-keyvault.CertificateIssuerUpdateParameters.credentials|legacy
+    package: azure-keyvault|legacy
+    summary: ''
+    fullName: credentials
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'credentials?: IssuerCredentials'
+      return:
+        type: <xref uid="azure-keyvault.IssuerCredentials|legacy" />
+        description: ''
+  - name: organizationDetails
+    uid: >-
+      azure-keyvault.CertificateIssuerUpdateParameters.organizationDetails|legacy
+    package: azure-keyvault|legacy
+    summary: ''
+    fullName: organizationDetails
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'organizationDetails?: OrganizationDetails'
+      return:
+        type: <xref uid="azure-keyvault.OrganizationDetails|legacy" />
+        description: ''
+  - name: provider
+    uid: azure-keyvault.CertificateIssuerUpdateParameters.provider|legacy
+    package: azure-keyvault|legacy
+    summary: ''
+    fullName: provider
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'provider?: string'
+      return:
+        type: string
+        description: ''

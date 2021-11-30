@@ -1,0 +1,76 @@
+### YamlMime:TSType
+name: MediaJobError
+uid: azure-eventgrid.MediaJobError|legacy
+package: azure-eventgrid|legacy
+summary: ''
+fullName: MediaJobError
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: category
+    uid: azure-eventgrid.MediaJobError.category|legacy
+    package: azure-eventgrid|legacy
+    summary: ''
+    fullName: category
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'category?: string'
+      return:
+        type: string
+        description: ''
+  - name: code
+    uid: azure-eventgrid.MediaJobError.code|legacy
+    package: azure-eventgrid|legacy
+    summary: ''
+    fullName: code
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'code?: string'
+      return:
+        type: string
+        description: ''
+  - name: details
+    uid: azure-eventgrid.MediaJobError.details|legacy
+    package: azure-eventgrid|legacy
+    summary: ''
+    fullName: details
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'details?: MediaJobErrorDetail[]'
+      return:
+        type: <xref uid="azure-eventgrid.MediaJobErrorDetail|legacy" />[]
+        description: ''
+  - name: message
+    uid: azure-eventgrid.MediaJobError.message|legacy
+    package: azure-eventgrid|legacy
+    summary: ''
+    fullName: message
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'message?: string'
+      return:
+        type: string
+        description: ''
+  - name: retry
+    uid: azure-eventgrid.MediaJobError.retry|legacy
+    package: azure-eventgrid|legacy
+    summary: ''
+    fullName: retry
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'retry?: string'
+      return:
+        type: string
+        description: ''

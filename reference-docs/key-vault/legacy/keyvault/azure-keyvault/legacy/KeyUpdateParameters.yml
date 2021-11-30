@@ -1,0 +1,50 @@
+### YamlMime:TSType
+name: KeyUpdateParameters
+uid: azure-keyvault.KeyUpdateParameters|legacy
+package: azure-keyvault|legacy
+summary: ''
+fullName: KeyUpdateParameters
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: keyAttributes
+    uid: azure-keyvault.KeyUpdateParameters.keyAttributes|legacy
+    package: azure-keyvault|legacy
+    summary: ''
+    fullName: keyAttributes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keyAttributes?: KeyAttributes'
+      return:
+        type: <xref uid="azure-keyvault.KeyAttributes|legacy" />
+        description: ''
+  - name: keyOps
+    uid: azure-keyvault.KeyUpdateParameters.keyOps|legacy
+    package: azure-keyvault|legacy
+    summary: ''
+    fullName: keyOps
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'keyOps?: string[]'
+      return:
+        type: string[]
+        description: ''
+  - name: tags
+    uid: azure-keyvault.KeyUpdateParameters.tags|legacy
+    package: azure-keyvault|legacy
+    summary: ''
+    fullName: tags
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tags?: [key: string]: string'
+      return:
+        type: '[key: string]\: string'
+        description: ''

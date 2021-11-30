@@ -1,0 +1,25 @@
+### YamlMime:TSPackage
+uid: '@azure/cognitiveservices-anomalydetector|latest-stable'
+name: '@azure/cognitiveservices-anomalydetector (2.1.0 - Latest stable)}'
+summary: ''
+type: package
+classes:
+  - '@azure/cognitiveservices-anomalydetector.AnomalyDetectorClient|latest-stable'
+  - >-
+    @azure/cognitiveservices-anomalydetector.AnomalyDetectorClientContext|latest-stable
+interfaces:
+  - '@azure/cognitiveservices-anomalydetector.APIError|latest-stable'
+  - >-
+    @azure/cognitiveservices-anomalydetector.ChangePointDetectRequest|latest-stable
+  - >-
+    @azure/cognitiveservices-anomalydetector.ChangePointDetectResponse|latest-stable
+  - '@azure/cognitiveservices-anomalydetector.EntireDetectResponse|latest-stable'
+  - '@azure/cognitiveservices-anomalydetector.LastDetectResponse|latest-stable'
+  - '@azure/cognitiveservices-anomalydetector.Point|latest-stable'
+  - '@azure/cognitiveservices-anomalydetector.Request|latest-stable'
+typeAliases:
+  - >-
+    @azure/cognitiveservices-anomalydetector.ChangePointDetectResponse2|latest-stable
+  - '@azure/cognitiveservices-anomalydetector.EntireDetectResponse2|latest-stable'
+  - '@azure/cognitiveservices-anomalydetector.Granularity|latest-stable'
+  - '@azure/cognitiveservices-anomalydetector.LastDetectResponse2|latest-stable'

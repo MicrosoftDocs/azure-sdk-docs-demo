@@ -1,0 +1,77 @@
+### YamlMime:TSType
+name: Resource
+uid: azure-arm-keyvault.Resource|legacy
+package: azure-arm-keyvault|legacy
+summary: ''
+fullName: Resource
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: id
+    uid: azure-arm-keyvault.Resource.id|legacy
+    package: azure-arm-keyvault|legacy
+    summary: ''
+    fullName: id
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'id?: string'
+      return:
+        type: string
+        description: ''
+  - name: location
+    uid: azure-arm-keyvault.Resource.location|legacy
+    package: azure-arm-keyvault|legacy
+    summary: ''
+    fullName: location
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'location: string'
+      return:
+        type: string
+        description: ''
+  - name: name
+    uid: azure-arm-keyvault.Resource.name|legacy
+    package: azure-arm-keyvault|legacy
+    summary: ''
+    fullName: name
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'name?: string'
+      return:
+        type: string
+        description: ''
+  - name: tags
+    uid: azure-arm-keyvault.Resource.tags|legacy
+    package: azure-arm-keyvault|legacy
+    summary: ''
+    fullName: tags
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tags?: [key: string]: string'
+      return:
+        type: '[key: string]\: string'
+        description: ''
+  - name: type
+    uid: azure-arm-keyvault.Resource.type|legacy
+    package: azure-arm-keyvault|legacy
+    summary: ''
+    fullName: type
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'type?: string'
+      return:
+        type: string
+        description: ''
+extends: BaseResource

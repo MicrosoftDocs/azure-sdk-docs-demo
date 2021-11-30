@@ -1,0 +1,131 @@
+### YamlMime:TSType
+name: EventHubCaptureFileCreatedEventData
+uid: azure-eventgrid.EventHubCaptureFileCreatedEventData|legacy
+package: azure-eventgrid|legacy
+summary: ''
+fullName: EventHubCaptureFileCreatedEventData
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: eventCount
+    uid: azure-eventgrid.EventHubCaptureFileCreatedEventData.eventCount|legacy
+    package: azure-eventgrid|legacy
+    summary: ''
+    fullName: eventCount
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'eventCount?: number'
+      return:
+        type: number
+        description: ''
+  - name: fileType
+    uid: azure-eventgrid.EventHubCaptureFileCreatedEventData.fileType|legacy
+    package: azure-eventgrid|legacy
+    summary: ''
+    fullName: fileType
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fileType?: string'
+      return:
+        type: string
+        description: ''
+  - name: fileurl
+    uid: azure-eventgrid.EventHubCaptureFileCreatedEventData.fileurl|legacy
+    package: azure-eventgrid|legacy
+    summary: ''
+    fullName: fileurl
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'fileurl?: string'
+      return:
+        type: string
+        description: ''
+  - name: firstEnqueueTime
+    uid: >-
+      azure-eventgrid.EventHubCaptureFileCreatedEventData.firstEnqueueTime|legacy
+    package: azure-eventgrid|legacy
+    summary: ''
+    fullName: firstEnqueueTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'firstEnqueueTime?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: firstSequenceNumber
+    uid: >-
+      azure-eventgrid.EventHubCaptureFileCreatedEventData.firstSequenceNumber|legacy
+    package: azure-eventgrid|legacy
+    summary: ''
+    fullName: firstSequenceNumber
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'firstSequenceNumber?: number'
+      return:
+        type: number
+        description: ''
+  - name: lastEnqueueTime
+    uid: azure-eventgrid.EventHubCaptureFileCreatedEventData.lastEnqueueTime|legacy
+    package: azure-eventgrid|legacy
+    summary: ''
+    fullName: lastEnqueueTime
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lastEnqueueTime?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: lastSequenceNumber
+    uid: >-
+      azure-eventgrid.EventHubCaptureFileCreatedEventData.lastSequenceNumber|legacy
+    package: azure-eventgrid|legacy
+    summary: ''
+    fullName: lastSequenceNumber
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'lastSequenceNumber?: number'
+      return:
+        type: number
+        description: ''
+  - name: partitionId
+    uid: azure-eventgrid.EventHubCaptureFileCreatedEventData.partitionId|legacy
+    package: azure-eventgrid|legacy
+    summary: ''
+    fullName: partitionId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'partitionId?: string'
+      return:
+        type: string
+        description: ''
+  - name: sizeInBytes
+    uid: azure-eventgrid.EventHubCaptureFileCreatedEventData.sizeInBytes|legacy
+    package: azure-eventgrid|legacy
+    summary: ''
+    fullName: sizeInBytes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'sizeInBytes?: number'
+      return:
+        type: number
+        description: ''

@@ -1,0 +1,103 @@
+### YamlMime:TSType
+name: DeletedKeyBundle
+uid: azure-keyvault.DeletedKeyBundle|legacy
+package: azure-keyvault|legacy
+summary: ''
+fullName: DeletedKeyBundle
+remarks: ''
+isPreview: false
+isDeprecated: false
+type: interface
+properties:
+  - name: attributes
+    uid: azure-keyvault.DeletedKeyBundle.attributes|legacy
+    package: azure-keyvault|legacy
+    summary: ''
+    fullName: attributes
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'attributes?: KeyAttributes'
+      return:
+        type: <xref uid="azure-keyvault.KeyAttributes|legacy" />
+        description: ''
+  - name: deletedDate
+    uid: azure-keyvault.DeletedKeyBundle.deletedDate|legacy
+    package: azure-keyvault|legacy
+    summary: ''
+    fullName: deletedDate
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'deletedDate?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: key
+    uid: azure-keyvault.DeletedKeyBundle.key|legacy
+    package: azure-keyvault|legacy
+    summary: ''
+    fullName: key
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'key?: JsonWebKey'
+      return:
+        type: <xref uid="azure-keyvault.JsonWebKey|legacy" />
+        description: ''
+  - name: managed
+    uid: azure-keyvault.DeletedKeyBundle.managed|legacy
+    package: azure-keyvault|legacy
+    summary: ''
+    fullName: managed
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'managed?: boolean'
+      return:
+        type: boolean
+        description: ''
+  - name: recoveryId
+    uid: azure-keyvault.DeletedKeyBundle.recoveryId|legacy
+    package: azure-keyvault|legacy
+    summary: ''
+    fullName: recoveryId
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'recoveryId?: string'
+      return:
+        type: string
+        description: ''
+  - name: scheduledPurgeDate
+    uid: azure-keyvault.DeletedKeyBundle.scheduledPurgeDate|legacy
+    package: azure-keyvault|legacy
+    summary: ''
+    fullName: scheduledPurgeDate
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'scheduledPurgeDate?: Date'
+      return:
+        type: Date
+        description: ''
+  - name: tags
+    uid: azure-keyvault.DeletedKeyBundle.tags|legacy
+    package: azure-keyvault|legacy
+    summary: ''
+    fullName: tags
+    remarks: ''
+    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: 'tags?: [key: string]: string'
+      return:
+        type: '[key: string]\: string'
+        description: ''
+extends: <xref uid="azure-keyvault.KeyBundle|legacy" />
