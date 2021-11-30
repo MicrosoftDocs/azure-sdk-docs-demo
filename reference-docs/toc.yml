@@ -2986,18 +2986,7 @@ items:
                 uid: '@azure/arm-cognitiveservices.UserOwnedStorage|latest-stable'
               - name: VirtualNetworkRule
                 uid: '@azure/arm-cognitiveservices.VirtualNetworkRule|latest-stable'
-      - name: '@azure/cognitiveservices-formrecognizer'
-        items:
-          - name: User guide
-            href: >-
-              /javascript/sdk-demo/cognitive-services/legacy/cognitiveservices-formrecognizer/azure-cognitiveservices-formrecognizer/readme
-      - name: '@azure/cognitiveservices-textanalytics'
-        items:
-          - name: User guide
-            href: >-
-              /javascript/sdk-demo/cognitive-services/legacy/cognitiveservices-textanalytics/azure-cognitiveservices-textanalytics/readme
-      - &ref_0
-        name: Legacy packages
+      - name: Legacy packages
         items:
           - name: '@azure/cognitiveservices-formrecognizer'
             items:
@@ -3174,7 +3163,6 @@ items:
                     uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClientKeyPhrasesOptionalParams|legacy'
                   - name: TextAnalyticsClientSentimentOptionalParams
                     uid: '@azure/cognitiveservices-textanalytics.TextAnalyticsClientSentimentOptionalParams|legacy'
-      - *ref_0
   - name: Core
     items:
       - name: Overview
@@ -5475,10 +5463,6 @@ items:
                 uid: '@azure/arm-eventgrid.UserIdentityProperties|preview'
               - name: WebHookEventSubscriptionDestination
                 uid: '@azure/arm-eventgrid.WebHookEventSubscriptionDestination|preview'
-      - name: azure-eventgrid
-        items:
-          - name: User guide
-            href: /javascript/sdk-demo/event-grid/legacy/event-grid/azure-eventgrid/readme
       - name: Legacy packages
         items:
           - name: azure-eventgrid
@@ -8166,16 +8150,7 @@ items:
                 uid: '@azure/arm-keyvault.VaultsUpdateResponse|preview'
               - name: VirtualNetworkRule
                 uid: '@azure/arm-keyvault.VirtualNetworkRule|preview'
-      - name: azure-keyvault
-        items:
-          - name: User guide
-            href: /javascript/sdk-demo/key-vault/legacy/keyvault/azure-keyvault/readme
-      - name: azure-arm-keyvault
-        items:
-          - name: User guide
-            href: /javascript/sdk-demo/key-vault/legacy/arm-keyvault/azure-arm-keyvault/readme
-      - &ref_1
-        name: Legacy packages
+      - name: Legacy packages
         items:
           - name: azure-keyvault
             items:
@@ -8431,7 +8406,6 @@ items:
                     uid: azure-arm-keyvault.Vaults|legacy
                   - name: VirtualNetworkRule
                     uid: azure-arm-keyvault.VirtualNetworkRule|legacy
-      - *ref_1
   - name: Service Bus
     items:
       - name: Overview
