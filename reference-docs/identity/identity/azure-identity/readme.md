@@ -2,7 +2,7 @@
 title: Azure SDK for JavaScript - Identity User Guide
 description: 
 ms.topic: reference
-ms.date: 11/29/2021
+ms.date: 12/01/2021
 ms.service: identity
 ms.role: developer
 ms.devlang: javascript

@@ -2,7 +2,7 @@
 title: Azure SDK for JavaScript - App Configuration Release Notes
 description: 
 ms.topic: reference
-ms.date: 11/29/2021
+ms.date: 12/01/2021
 ms.service: app-configuration
 ms.role: developer
 ms.devlang: javascript

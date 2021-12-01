@@ -2,7 +2,7 @@
 title: Azure SDK for JavaScript - Core packages
 description: 
 ms.topic: reference
-ms.date: 11/29/2021
+ms.date: 12/01/2021
 ms.service: 
 ms.role: developer
 ms.devlang: javascript
@@ -16,7 +16,7 @@ ms.author: daberry
 
 #### Latest stable
 
-| Package               | User guide                           | Current version        | Package Manager                |
+| Package               | User guide                           | Version                | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
 | @azure/abort-controller  | [User guide](/javascript/sdk-demo/core/abort-controller/azure-abort-controller/readme)  | 1.0.4 [(Docs)](/javascript/sdk-demo/core/abort-controller/azure-abort-controller/latest-stable)  | [`npm install @azure/abort-controller`](https://www.npmjs.com/package/%40azure%2Fabort-controller) |
 | @azure/core-amqp  | [User guide](/javascript/sdk-demo/core/core-amqp/azure-core-amqp/readme)  | 3.0.0 [(Docs)](/javascript/sdk-demo/core/core-amqp/azure-core-amqp/latest-stable)  | [`npm install @azure/core-amqp`](https://www.npmjs.com/package/%40azure%2Fcore-amqp) |
@@ -29,7 +29,7 @@ ms.author: daberry
 
 #### Preview
 
-| Package               | User guide                           | Current version        | Package Manager                |
+| Package               | User guide                           | Version                | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
 | @azure/core-amqp  | [User guide](/javascript/sdk-demo/core/core-amqp/azure-core-amqp/readme)  | 2.0.0-beta.1 [(Docs)](/javascript/sdk-demo/core/core-amqp/azure-core-amqp/preview)  | [`npm install @azure/core-amqp@2.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Fcore-amqp%402.0.0-beta.1) |
  

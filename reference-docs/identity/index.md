@@ -2,7 +2,7 @@
 title: Azure SDK for JavaScript - Identity packages
 description: 
 ms.topic: reference
-ms.date: 11/29/2021
+ms.date: 12/01/2021
 ms.service: 
 ms.role: developer
 ms.devlang: javascript
@@ -16,7 +16,7 @@ ms.author: daberry
 
 #### Latest stable
 
-| Package               | User guide                           | Current version        | Package Manager                |
+| Package               | User guide                           | Version                | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
 | @azure/identity  | [User guide](/javascript/sdk-demo/identity/identity/azure-identity/readme)  | 2.0.1 [(Docs)](/javascript/sdk-demo/identity/identity/azure-identity/latest-stable)  | [`npm install @azure/identity`](https://www.npmjs.com/package/%40azure%2Fidentity) |
  

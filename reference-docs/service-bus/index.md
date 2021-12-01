@@ -2,7 +2,7 @@
 title: Azure SDK for JavaScript - Service Bus packages
 description: 
 ms.topic: reference
-ms.date: 11/29/2021
+ms.date: 12/01/2021
 ms.service: service-bus
 ms.role: developer
 ms.devlang: javascript
@@ -16,7 +16,7 @@ ms.author: daberry
 
 #### Latest stable
 
-| Package               | User guide                           | Current version        | Package Manager                |
+| Package               | User guide                           | Version                | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
 | @azure/service-bus  | [User guide](/javascript/sdk-demo/service-bus/service-bus/azure-service-bus/readme)  | 7.4.0 [(Docs)](/javascript/sdk-demo/service-bus/service-bus/azure-service-bus/latest-stable)  | [`npm install @azure/service-bus`](https://www.npmjs.com/package/%40azure%2Fservice-bus) |
  
@@ -31,14 +31,14 @@ ms.author: daberry
 
 #### Latest stable
 
-| Package               | User guide                           | Current version        | Package Manager                |
+| Package               | User guide                           | Version                | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
 | @azure/arm-servicebus  | [User guide](/javascript/sdk-demo/service-bus/arm-servicebus/azure-arm-servicebus/readme)  | 4.1.1 [(Docs)](/javascript/sdk-demo/service-bus/arm-servicebus/azure-arm-servicebus/latest-stable)  | [`npm install @azure/arm-servicebus`](https://www.npmjs.com/package/%40azure%2Farm-servicebus) |
  
 
 #### Preview
 
-| Package               | User guide                           | Current version        | Package Manager                |
+| Package               | User guide                           | Version                | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
 | @azure/arm-servicebus  | [User guide](/javascript/sdk-demo/service-bus/arm-servicebus/azure-arm-servicebus/readme)  | 5.0.0-beta.1 [(Docs)](/javascript/sdk-demo/service-bus/arm-servicebus/azure-arm-servicebus/preview)  | [`npm install @azure/arm-servicebus@5.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-servicebus%405.0.0-beta.1) |
  

@@ -2,7 +2,7 @@
 title: Azure SDK for JavaScript - Cognitive Services User Guide
 description: 
 ms.topic: reference
-ms.date: 11/29/2021
+ms.date: 12/01/2021
 ms.service: cognitive-services
 ms.role: developer
 ms.devlang: javascript
@@ -79,7 +79,7 @@ To create a client object to access the Text Analytics API, you will need the `e
 You can find the endpoint for your text analytics resource either in the [Azure Portal][azure_portal] or by using the [Azure CLI][azure_cli] snippet below:
 
 ```bash
-az cognitiveservices account show --name <your-resource-name> --resource-group <your-resource-group-name> --query "endpoint"
+az cognitiveservices account show --name <your-resource-name> --resource-group <your-resource-group-name> --query "properties.endpoint"
 ```
 
 #### Using an API Key

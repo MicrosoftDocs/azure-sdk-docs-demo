@@ -2,7 +2,7 @@
 title: Azure SDK for JavaScript - Key Vault Migration Guide
 description: 
 ms.topic: reference
-ms.date: 11/29/2021
+ms.date: 12/01/2021
 ms.service: key-vault
 ms.role: developer
 ms.devlang: javascript

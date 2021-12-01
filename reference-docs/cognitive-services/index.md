@@ -2,7 +2,7 @@
 title: Azure SDK for JavaScript - Cognitive Services packages
 description: 
 ms.topic: reference
-ms.date: 11/29/2021
+ms.date: 12/01/2021
 ms.service: cognitive-services
 ms.role: developer
 ms.devlang: javascript
@@ -16,7 +16,7 @@ ms.author: daberry
 
 #### Latest stable
 
-| Package               | User guide                           | Current version        | Package Manager                |
+| Package               | User guide                           | Version                | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
 | @azure/cognitiveservices-anomalydetector  | [User guide](/javascript/sdk-demo/cognitive-services/cognitiveservices-anomalydetector/azure-cognitiveservices-anomalydetector/readme)  | 2.1.0 [(Docs)](/javascript/sdk-demo/cognitive-services/cognitiveservices-anomalydetector/azure-cognitiveservices-anomalydetector/latest-stable)  | [`npm install @azure/cognitiveservices-anomalydetector`](https://www.npmjs.com/package/%40azure%2Fcognitiveservices-anomalydetector) |
 | @azure/ai-form-recognizer  | [User guide](/javascript/sdk-demo/cognitive-services/ai-form-recognizer/azure-ai-form-recognizer/readme)  | 3.2.0 [(Docs)](/javascript/sdk-demo/cognitive-services/ai-form-recognizer/azure-ai-form-recognizer/latest-stable)  | [`npm install @azure/ai-form-recognizer`](https://www.npmjs.com/package/%40azure%2Fai-form-recognizer) |
@@ -26,7 +26,7 @@ ms.author: daberry
 
 #### Preview
 
-| Package               | User guide                           | Current version        | Package Manager                |
+| Package               | User guide                           | Version                | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
 | @azure/ai-anomaly-detector  | [User guide](/javascript/sdk-demo/cognitive-services/ai-anomaly-detector/azure-ai-anomaly-detector/readme)  | 3.0.0-beta.3 [(Docs)](/javascript/sdk-demo/cognitive-services/ai-anomaly-detector/azure-ai-anomaly-detector/preview)  | [`npm install @azure/ai-anomaly-detector@3.0.0-beta.3`](https://www.npmjs.com/package/%40azure%2Fai-anomaly-detector%403.0.0-beta.3) |
 | @azure/ai-form-recognizer  | [User guide](/javascript/sdk-demo/cognitive-services/ai-form-recognizer/azure-ai-form-recognizer/readme)  | 4.0.0-beta.2 [(Docs)](/javascript/sdk-demo/cognitive-services/ai-form-recognizer/azure-ai-form-recognizer/preview)  | [`npm install @azure/ai-form-recognizer@4.0.0-beta.2`](https://www.npmjs.com/package/%40azure%2Fai-form-recognizer%404.0.0-beta.2) |
@@ -37,7 +37,7 @@ ms.author: daberry
 
 #### Legacy
 
-| Package               | User guide                           | Current version        | Package Manager                |
+| Package               | User guide                           | Version                | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
 | @azure/cognitiveservices-formrecognizer  | [User guide](/javascript/sdk-demo/cognitive-services/legacy/cognitiveservices-formrecognizer/azure-cognitiveservices-formrecognizer/readme)  | 2.0.1 [(Docs)](/javascript/sdk-demo/cognitive-services/legacy/cognitiveservices-formrecognizer/azure-cognitiveservices-formrecognizer/legacy)  | [`npm install @azure/cognitiveservices-formrecognizer@2.0.1`](https://www.npmjs.com/package/%40azure%2Fcognitiveservices-formrecognizer%402.0.1) |
 | @azure/cognitiveservices-textanalytics  | [User guide](/javascript/sdk-demo/cognitive-services/legacy/cognitiveservices-textanalytics/azure-cognitiveservices-textanalytics/readme)  | 4.0.0 [(Docs)](/javascript/sdk-demo/cognitive-services/legacy/cognitiveservices-textanalytics/azure-cognitiveservices-textanalytics/legacy)  | [`npm install @azure/cognitiveservices-textanalytics@4.0.0`](https://www.npmjs.com/package/%40azure%2Fcognitiveservices-textanalytics%404.0.0) |
@@ -48,7 +48,7 @@ ms.author: daberry
 
 #### Latest stable
 
-| Package               | User guide                           | Current version        | Package Manager                |
+| Package               | User guide                           | Version                | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
 | @azure/arm-cognitiveservices  | [User guide](/javascript/sdk-demo/cognitive-services/arm-cognitiveservices/azure-arm-cognitiveservices/readme)  | 6.1.0 [(Docs)](/javascript/sdk-demo/cognitive-services/arm-cognitiveservices/azure-arm-cognitiveservices/latest-stable)  | [`npm install @azure/arm-cognitiveservices`](https://www.npmjs.com/package/%40azure%2Farm-cognitiveservices) |
  

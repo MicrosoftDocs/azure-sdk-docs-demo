@@ -2,7 +2,7 @@
 title: Azure SDK for JavaScript - Event Grid packages
 description: 
 ms.topic: reference
-ms.date: 11/29/2021
+ms.date: 12/01/2021
 ms.service: event-grid
 ms.role: developer
 ms.devlang: javascript
@@ -16,7 +16,7 @@ ms.author: daberry
 
 #### Latest stable
 
-| Package               | User guide                           | Current version        | Package Manager                |
+| Package               | User guide                           | Version                | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
 | @azure/eventgrid  | [User guide](/javascript/sdk-demo/event-grid/eventgrid/azure-eventgrid/readme)  | 4.5.0 [(Docs)](/javascript/sdk-demo/event-grid/eventgrid/azure-eventgrid/latest-stable)  | [`npm install @azure/eventgrid`](https://www.npmjs.com/package/%40azure%2Feventgrid) |
  
@@ -26,7 +26,7 @@ ms.author: daberry
 
 #### Legacy
 
-| Package               | User guide                           | Current version        | Package Manager                |
+| Package               | User guide                           | Version                | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
 | azure-eventgrid  | [User guide](/javascript/sdk-demo/event-grid/legacy/event-grid/azure-eventgrid/readme)  | 1.6.0 [(Docs)](/javascript/sdk-demo/event-grid/legacy/event-grid/azure-eventgrid/legacy)  | [`npm install azure-eventgrid@1.6.0`](https://www.npmjs.com/package/azure-eventgrid%401.6.0) |
  
@@ -36,14 +36,14 @@ ms.author: daberry
 
 #### Latest stable
 
-| Package               | User guide                           | Current version        | Package Manager                |
+| Package               | User guide                           | Version                | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
 | @azure/arm-eventgrid  | [User guide](/javascript/sdk-demo/event-grid/arm-eventgrid/azure-arm-eventgrid/readme)  | 12.0.0 [(Docs)](/javascript/sdk-demo/event-grid/arm-eventgrid/azure-arm-eventgrid/latest-stable)  | [`npm install @azure/arm-eventgrid`](https://www.npmjs.com/package/%40azure%2Farm-eventgrid) |
  
 
 #### Preview
 
-| Package               | User guide                           | Current version        | Package Manager                |
+| Package               | User guide                           | Version                | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
 | @azure/arm-eventgrid  | [User guide](/javascript/sdk-demo/event-grid/arm-eventgrid/azure-arm-eventgrid/readme)  | 13.0.0-beta.1 [(Docs)](/javascript/sdk-demo/event-grid/arm-eventgrid/azure-arm-eventgrid/preview)  | [`npm install @azure/arm-eventgrid@13.0.0-beta.1`](https://www.npmjs.com/package/%40azure%2Farm-eventgrid%4013.0.0-beta.1) |
  

@@ -2,7 +2,7 @@
 title: Azure SDK for JavaScript - App Configuration packages
 description: 
 ms.topic: reference
-ms.date: 11/29/2021
+ms.date: 12/01/2021
 ms.service: azure-app-configuration
 ms.role: developer
 ms.devlang: javascript
@@ -16,7 +16,7 @@ ms.author: daberry
 
 #### Latest stable
 
-| Package               | User guide                           | Current version        | Package Manager                |
+| Package               | User guide                           | Version                | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
 | @azure/app-configuration  | [User guide](/javascript/sdk-demo/app-configuration/app-configuration/azure-app-configuration/readme)  | 1.3.0 [(Docs)](/javascript/sdk-demo/app-configuration/app-configuration/azure-app-configuration/latest-stable)  | [`npm install @azure/app-configuration`](https://www.npmjs.com/package/%40azure%2Fapp-configuration) |
  
@@ -31,7 +31,7 @@ ms.author: daberry
 
 #### Latest stable
 
-| Package               | User guide                           | Current version        | Package Manager                |
+| Package               | User guide                           | Version                | Package Manager                |
 |-----------------------|--------------------------------------|------------------------|--------------------------------|
 | @azure/arm-appconfiguration  | [User guide](/javascript/sdk-demo/app-configuration/arm-appconfiguration/azure-arm-appconfiguration/readme)  | 2.0.0 [(Docs)](/javascript/sdk-demo/app-configuration/arm-appconfiguration/azure-arm-appconfiguration/latest-stable)  | [`npm install @azure/arm-appconfiguration`](https://www.npmjs.com/package/%40azure%2Farm-appconfiguration) |
  
