@@ -5,8 +5,6 @@ package: '@azure/arm-eventhub'
 summary: Contains response data for the patch operation.
 fullName: ConfigurationPatchResponse
 remarks: ''
-isPreview: false
 isDeprecated: false
-syntax: >-
-  type ConfigurationPatchResponse = ClusterQuotaConfigurationProperties & {
-  _response: Object }
+syntax: |
+  type ConfigurationPatchResponse = ClusterQuotaConfigurationProperties

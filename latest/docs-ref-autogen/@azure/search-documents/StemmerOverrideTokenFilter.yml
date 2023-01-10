@@ -10,8 +10,9 @@ summary: >-
   Apache Lucene.
 fullName: StemmerOverrideTokenFilter
 remarks: ''
-isPreview: false
 isDeprecated: false
-syntax: >-
-  type StemmerOverrideTokenFilter = BaseTokenFilter & { odatatype:
-  #Microsoft.Azure.Search.StemmerOverrideTokenFilter, rules: Object }
+syntax: |
+  type StemmerOverrideTokenFilter = BaseTokenFilter & {
+    odatatype: "#Microsoft.Azure.Search.StemmerOverrideTokenFilter",
+    rules: string[],
+  }

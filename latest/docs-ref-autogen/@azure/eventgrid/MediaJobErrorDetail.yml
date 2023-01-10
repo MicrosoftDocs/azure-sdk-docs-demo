@@ -5,7 +5,6 @@ package: '@azure/eventgrid'
 summary: Details of JobOutput errors.
 fullName: MediaJobErrorDetail
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,13 +18,12 @@ properties:
       the server.
     fullName: code
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'code: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: message
     uid: '@azure/eventgrid.MediaJobErrorDetail.message'
     package: '@azure/eventgrid'
@@ -36,10 +34,9 @@ properties:
       the server.
     fullName: message
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'message: string'
       return:
-        type: string
         description: ''
+        type: string

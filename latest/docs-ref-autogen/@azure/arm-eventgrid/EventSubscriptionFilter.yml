@@ -5,7 +5,6 @@ package: '@azure/arm-eventgrid'
 summary: Filter for the Event Subscription.
 fullName: EventSubscriptionFilter
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -17,49 +16,42 @@ properties:
       subscriptions.
     fullName: advancedFilters
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'advancedFilters?: AdvancedFilterUnion[]'
       return:
-        type: '<xref uid="@azure/arm-eventgrid.AdvancedFilterUnion" />[]'
         description: ''
+        type: '<xref uid="@azure/arm-eventgrid.AdvancedFilterUnion" />[]'
   - name: enableAdvancedFilteringOnArrays
     uid: >-
       @azure/arm-eventgrid.EventSubscriptionFilter.enableAdvancedFilteringOnArrays
     package: '@azure/arm-eventgrid'
     summary: >-
       Allows advanced filters to be evaluated against an array of values instead
-      of expecting a
-
-      singular value.
+      of expecting a singular value.
     fullName: enableAdvancedFilteringOnArrays
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'enableAdvancedFilteringOnArrays?: undefined | false | true'
       return:
-        type: undefined | false | true
         description: ''
+        type: undefined | false | true
   - name: includedEventTypes
     uid: '@azure/arm-eventgrid.EventSubscriptionFilter.includedEventTypes'
     package: '@azure/arm-eventgrid'
     summary: >-
       A list of applicable event types that need to be part of the event
-      subscription. If it is
-
-      desired to subscribe to all default event types, set the
-      IncludedEventTypes to null.
+      subscription. If it is desired to subscribe to all default event types,
+      set the IncludedEventTypes to null.
     fullName: includedEventTypes
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includedEventTypes?: string[]'
       return:
-        type: 'string[]'
         description: ''
+        type: 'string[]'
   - name: isSubjectCaseSensitive
     uid: '@azure/arm-eventgrid.EventSubscriptionFilter.isSubjectCaseSensitive'
     package: '@azure/arm-eventgrid'
@@ -67,16 +59,15 @@ properties:
       Specifies if the SubjectBeginsWith and SubjectEndsWith properties of the
       filter
 
-      should be compared in a case sensitive manner. Default value: false.
+      should be compared in a case sensitive manner.
     fullName: isSubjectCaseSensitive
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'isSubjectCaseSensitive?: undefined | false | true'
       return:
-        type: undefined | false | true
         description: ''
+        type: undefined | false | true
   - name: subjectBeginsWith
     uid: '@azure/arm-eventgrid.EventSubscriptionFilter.subjectBeginsWith'
     package: '@azure/arm-eventgrid'
@@ -89,13 +80,12 @@ properties:
       Wildcard characters are not supported in this path.
     fullName: subjectBeginsWith
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'subjectBeginsWith?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: subjectEndsWith
     uid: '@azure/arm-eventgrid.EventSubscriptionFilter.subjectEndsWith'
     package: '@azure/arm-eventgrid'
@@ -106,10 +96,9 @@ properties:
       Wildcard characters are not supported in this path.
     fullName: subjectEndsWith
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'subjectEndsWith?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string

@@ -33,7 +33,6 @@ summary: >
   to load balance multiple instances of your application.
 fullName: EventHubConsumerClient
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -48,7 +47,6 @@ constructors:
 
       Use the `options` parmeter to configure retry policy or proxy settings.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -108,7 +106,6 @@ constructors:
 
       Use the `options` parmeter to configure retry policy or proxy settings.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -158,7 +155,6 @@ constructors:
 
       Use the `options` parmeter to configure retry policy or proxy settings.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -223,7 +219,6 @@ constructors:
 
       Use the `options` parmeter to configure retry policy or proxy settings.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -277,7 +272,6 @@ constructors:
 
       Use the `options` parmeter to configure retry policy or proxy settings.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -361,7 +355,6 @@ constructors:
 
       Use the `options` parmeter to configure retry policy or proxy settings.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -430,39 +423,36 @@ properties:
     summary: The name of the default consumer group in the Event Hubs service.
     fullName: defaultConsumerGroupName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'static defaultConsumerGroupName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: eventHubName
     uid: '@azure/event-hubs.EventHubConsumerClient.eventHubName'
     package: '@azure/event-hubs'
     summary: ''
     fullName: eventHubName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: string eventHubName
       return:
-        type: string
         description: ''
+        type: string
   - name: fullyQualifiedNamespace
     uid: '@azure/event-hubs.EventHubConsumerClient.fullyQualifiedNamespace'
     package: '@azure/event-hubs'
     summary: ''
     fullName: fullyQualifiedNamespace
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: string fullyQualifiedNamespace
       return:
-        type: string
         description: ''
+        type: string
 methods:
   - name: close()
     uid: '@azure/event-hubs.EventHubConsumerClient.close'
@@ -471,60 +461,60 @@ methods:
       Closes the AMQP connection to the Event Hub instance,
       returning a promise that will be resolved when disconnection is completed.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function close()
+      content: 'function close(): Promise<void>'
       return:
-        type: Promise&lt;void&gt;
         description: Promise<void>
+        type: Promise&lt;void&gt;
   - name: getEventHubProperties(GetEventHubPropertiesOptions)
     uid: '@azure/event-hubs.EventHubConsumerClient.getEventHubProperties'
     package: '@azure/event-hubs'
     summary: Provides the Event Hub runtime information.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function getEventHubProperties(options?: GetEventHubPropertiesOptions)'
+      content: >-
+        function getEventHubProperties(options?: GetEventHubPropertiesOptions):
+        Promise<EventHubProperties>
       parameters:
         - id: options
           type: <xref uid="@azure/event-hubs.GetEventHubPropertiesOptions" />
           description: The set of options to apply to the operation call.
       return:
-        type: Promise&lt;<xref uid="@azure/event-hubs.EventHubProperties" />&gt;
         description: A promise that resolves with information about the Event Hub instance.
+        type: Promise&lt;<xref uid="@azure/event-hubs.EventHubProperties" />&gt;
   - name: getPartitionIds(GetPartitionIdsOptions)
     uid: '@azure/event-hubs.EventHubConsumerClient.getPartitionIds'
     package: '@azure/event-hubs'
     summary: Provides the id for each partition associated with the Event Hub.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function getPartitionIds(options?: GetPartitionIdsOptions)'
+      content: >-
+        function getPartitionIds(options?: GetPartitionIdsOptions):
+        Promise<Array<string>>
       parameters:
         - id: options
           type: <xref uid="@azure/event-hubs.GetPartitionIdsOptions" />
           description: The set of options to apply to the operation call.
       return:
-        type: Promise&lt;Array&lt;string&gt;&gt;
         description: >-
           A promise that resolves with an Array of strings representing the id
           for
 
           each partition associated with the Event Hub.
+        type: Promise&lt;Array&lt;string&gt;&gt;
   - name: 'getPartitionProperties(string, GetPartitionPropertiesOptions)'
     uid: '@azure/event-hubs.EventHubConsumerClient.getPartitionProperties'
     package: '@azure/event-hubs'
     summary: Provides information about the state of the specified partition.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function getPartitionProperties(partitionId: string, options?:
-        GetPartitionPropertiesOptions)
+        GetPartitionPropertiesOptions): Promise<PartitionProperties>
       parameters:
         - id: partitionId
           type: string
@@ -533,10 +523,10 @@ methods:
           type: <xref uid="@azure/event-hubs.GetPartitionPropertiesOptions" />
           description: The set of options to apply to the operation call.
       return:
-        type: Promise&lt;<xref uid="@azure/event-hubs.PartitionProperties" />&gt;
         description: >-
           A promise that resolves with information about the state of the
           partition .
+        type: Promise&lt;<xref uid="@azure/event-hubs.PartitionProperties" />&gt;
   - name: 'subscribe(string, SubscriptionEventHandlers, SubscribeOptions)'
     uid: '@azure/event-hubs.EventHubConsumerClient.subscribe_1'
     package: '@azure/event-hubs'
@@ -563,12 +553,11 @@ methods:
 
       ```
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function subscribe(partitionId: string, handlers:
-        SubscriptionEventHandlers, options?: SubscribeOptions)
+        SubscriptionEventHandlers, options?: SubscribeOptions): Subscription
       parameters:
         - id: partitionId
           type: string
@@ -594,8 +583,8 @@ methods:
             `{ maxBatchSize: 20, maxWaitTimeInSeconds: 120, startPosition: {
             sequenceNumber: 123 } }`
       return:
-        type: <xref uid="@azure/event-hubs.Subscription" />
         description: ''
+        type: <xref uid="@azure/event-hubs.Subscription" />
   - name: 'subscribe(SubscriptionEventHandlers, SubscribeOptions)'
     uid: '@azure/event-hubs.EventHubConsumerClient.subscribe'
     package: '@azure/event-hubs'
@@ -631,12 +620,11 @@ methods:
 
       ```
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function subscribe(handlers: SubscriptionEventHandlers, options?:
-        SubscribeOptions)
+        SubscribeOptions): Subscription
       parameters:
         - id: handlers
           type: <xref uid="@azure/event-hubs.SubscriptionEventHandlers" />
@@ -659,5 +647,5 @@ methods:
             `{ maxBatchSize: 20, maxWaitTimeInSeconds: 120, startPosition: {
             sequenceNumber: 123 } }`
       return:
-        type: <xref uid="@azure/event-hubs.Subscription" />
         description: ''
+        type: <xref uid="@azure/event-hubs.Subscription" />

@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: Defines headers for Blob_query operation.
 fullName: BlobQueryHeaders
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,13 +14,12 @@ properties:
     summary: Indicates that the service supports requests for partial blob content.
     fullName: acceptRanges
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'acceptRanges?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: blobCommittedBlockCount
     uid: '@azure/storage-blob.BlobQueryHeaders.blobCommittedBlockCount'
     package: '@azure/storage-blob'
@@ -30,13 +28,12 @@ properties:
       returned only for append blobs.
     fullName: blobCommittedBlockCount
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobCommittedBlockCount?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: blobContentMD5
     uid: '@azure/storage-blob.BlobQueryHeaders.blobContentMD5'
     package: '@azure/storage-blob'
@@ -47,13 +44,12 @@ properties:
       in Content-MD5 header, with the latter calculated from the requested range
     fullName: blobContentMD5
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobContentMD5?: Uint8Array'
       return:
-        type: Uint8Array
         description: ''
+        type: Uint8Array
   - name: blobSequenceNumber
     uid: '@azure/storage-blob.BlobQueryHeaders.blobSequenceNumber'
     package: '@azure/storage-blob'
@@ -62,39 +58,36 @@ properties:
       for block blobs or append blobs
     fullName: blobSequenceNumber
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobSequenceNumber?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: blobType
     uid: '@azure/storage-blob.BlobQueryHeaders.blobType'
     package: '@azure/storage-blob'
     summary: The blob's type.
     fullName: blobType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobType?: BlobType'
       return:
-        type: <xref uid="@azure/storage-blob.BlobType" />
         description: ''
+        type: <xref uid="@azure/storage-blob.BlobType" />
   - name: cacheControl
     uid: '@azure/storage-blob.BlobQueryHeaders.cacheControl'
     package: '@azure/storage-blob'
     summary: This header is returned if it was previously specified for the blob.
     fullName: cacheControl
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'cacheControl?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: clientRequestId
     uid: '@azure/storage-blob.BlobQueryHeaders.clientRequestId'
     package: '@azure/storage-blob'
@@ -103,13 +96,12 @@ properties:
       present in the response with the same value.
     fullName: clientRequestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'clientRequestId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: contentCrc64
     uid: '@azure/storage-blob.BlobQueryHeaders.contentCrc64'
     package: '@azure/storage-blob'
@@ -121,13 +113,12 @@ properties:
       specified in the same request, it will fail with 400(Bad Request).
     fullName: contentCrc64
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentCrc64?: Uint8Array'
       return:
-        type: Uint8Array
         description: ''
+        type: Uint8Array
   - name: contentDisposition
     uid: '@azure/storage-blob.BlobQueryHeaders.contentDisposition'
     package: '@azure/storage-blob'
@@ -141,13 +132,12 @@ properties:
       other than the blob name specified.
     fullName: contentDisposition
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentDisposition?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: contentEncoding
     uid: '@azure/storage-blob.BlobQueryHeaders.contentEncoding'
     package: '@azure/storage-blob'
@@ -156,13 +146,12 @@ properties:
       request header
     fullName: contentEncoding
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentEncoding?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: contentLanguage
     uid: '@azure/storage-blob.BlobQueryHeaders.contentLanguage'
     package: '@azure/storage-blob'
@@ -171,26 +160,24 @@ properties:
       request header.
     fullName: contentLanguage
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentLanguage?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: contentLength
     uid: '@azure/storage-blob.BlobQueryHeaders.contentLength'
     package: '@azure/storage-blob'
     summary: The number of bytes present in the response body.
     fullName: contentLength
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentLength?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: contentMD5
     uid: '@azure/storage-blob.BlobQueryHeaders.contentMD5'
     package: '@azure/storage-blob'
@@ -200,13 +187,12 @@ properties:
       content integrity.
     fullName: contentMD5
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentMD5?: Uint8Array'
       return:
-        type: Uint8Array
         description: ''
+        type: Uint8Array
   - name: contentRange
     uid: '@azure/storage-blob.BlobQueryHeaders.contentRange'
     package: '@azure/storage-blob'
@@ -215,13 +201,12 @@ properties:
       requested a subset of the blob by setting the 'Range' request header.
     fullName: contentRange
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentRange?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: contentType
     uid: '@azure/storage-blob.BlobQueryHeaders.contentType'
     package: '@azure/storage-blob'
@@ -230,13 +215,12 @@ properties:
       'application/octet-stream'
     fullName: contentType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentType?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: copyCompletionTime
     uid: '@azure/storage-blob.BlobQueryHeaders.copyCompletionTime'
     package: '@azure/storage-blob'
@@ -249,13 +233,12 @@ properties:
       operation using Set Blob Properties, Put Blob, or Put Block List.
     fullName: copyCompletionTime
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'copyCompletionTime?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: copyId
     uid: '@azure/storage-blob.BlobQueryHeaders.copyId'
     package: '@azure/storage-blob'
@@ -265,13 +248,12 @@ properties:
       abort a pending copy.
     fullName: copyId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'copyId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: copyProgress
     uid: '@azure/storage-blob.BlobQueryHeaders.copyProgress'
     package: '@azure/storage-blob'
@@ -284,13 +266,12 @@ properties:
       operation using Set Blob Properties, Put Blob, or Put Block List
     fullName: copyProgress
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'copyProgress?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: copySource
     uid: '@azure/storage-blob.BlobQueryHeaders.copySource'
     package: '@azure/storage-blob'
@@ -303,26 +284,24 @@ properties:
       or Put Block List.
     fullName: copySource
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'copySource?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: copyStatus
     uid: '@azure/storage-blob.BlobQueryHeaders.copyStatus'
     package: '@azure/storage-blob'
     summary: State of the copy operation identified by x-ms-copy-id.
     fullName: copyStatus
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'copyStatus?: CopyStatusType'
       return:
-        type: <xref uid="@azure/storage-blob.CopyStatusType" />
         description: ''
+        type: <xref uid="@azure/storage-blob.CopyStatusType" />
   - name: copyStatusDescription
     uid: '@azure/storage-blob.BlobQueryHeaders.copyStatusDescription'
     package: '@azure/storage-blob'
@@ -334,13 +313,12 @@ properties:
       operation using Set Blob Properties, Put Blob, or Put Block List
     fullName: copyStatusDescription
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'copyStatusDescription?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: date
     uid: '@azure/storage-blob.BlobQueryHeaders.date'
     package: '@azure/storage-blob'
@@ -349,13 +327,12 @@ properties:
       which the response was initiated
     fullName: date
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'date?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: encryptionKeySha256
     uid: '@azure/storage-blob.BlobQueryHeaders.encryptionKeySha256'
     package: '@azure/storage-blob'
@@ -365,13 +342,12 @@ properties:
       customer-provided key.
     fullName: encryptionKeySha256
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'encryptionKeySha256?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: encryptionScope
     uid: '@azure/storage-blob.BlobQueryHeaders.encryptionScope'
     package: '@azure/storage-blob'
@@ -381,26 +357,24 @@ properties:
       use of the default account encryption scope.
     fullName: encryptionScope
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'encryptionScope?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: errorCode
     uid: '@azure/storage-blob.BlobQueryHeaders.errorCode'
     package: '@azure/storage-blob'
     summary: Error Code
     fullName: errorCode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'errorCode?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: etag
     uid: '@azure/storage-blob.BlobQueryHeaders.etag'
     package: '@azure/storage-blob'
@@ -410,13 +384,12 @@ properties:
       value will be in quotes.
     fullName: etag
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'etag?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: isServerEncrypted
     uid: '@azure/storage-blob.BlobQueryHeaders.isServerEncrypted'
     package: '@azure/storage-blob'
@@ -427,13 +400,12 @@ properties:
       only parts of the blob/application metadata are encrypted).
     fullName: isServerEncrypted
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'isServerEncrypted?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: lastModified
     uid: '@azure/storage-blob.BlobQueryHeaders.lastModified'
     package: '@azure/storage-blob'
@@ -443,13 +415,12 @@ properties:
       properties, changes the last-modified time of the blob.
     fullName: lastModified
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'lastModified?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: leaseDuration
     uid: '@azure/storage-blob.BlobQueryHeaders.leaseDuration'
     package: '@azure/storage-blob'
@@ -458,52 +429,48 @@ properties:
       duration.
     fullName: leaseDuration
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'leaseDuration?: LeaseDurationType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseDurationType" />
         description: ''
+        type: <xref uid="@azure/storage-blob.LeaseDurationType" />
   - name: leaseState
     uid: '@azure/storage-blob.BlobQueryHeaders.leaseState'
     package: '@azure/storage-blob'
     summary: Lease state of the blob.
     fullName: leaseState
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'leaseState?: LeaseStateType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseStateType" />
         description: ''
+        type: <xref uid="@azure/storage-blob.LeaseStateType" />
   - name: leaseStatus
     uid: '@azure/storage-blob.BlobQueryHeaders.leaseStatus'
     package: '@azure/storage-blob'
     summary: The current lease status of the blob.
     fullName: leaseStatus
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'leaseStatus?: LeaseStatusType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseStatusType" />
         description: ''
+        type: <xref uid="@azure/storage-blob.LeaseStatusType" />
   - name: metadata
     uid: '@azure/storage-blob.BlobQueryHeaders.metadata'
     package: '@azure/storage-blob'
     summary: ''
     fullName: metadata
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'metadata?: [key: string]: string'
       return:
-        type: '[key: string]\: string'
         description: ''
+        type: '[key: string]\: string'
   - name: requestId
     uid: '@azure/storage-blob.BlobQueryHeaders.requestId'
     package: '@azure/storage-blob'
@@ -512,13 +479,12 @@ properties:
       for troubleshooting the request.
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: version
     uid: '@azure/storage-blob.BlobQueryHeaders.version'
     package: '@azure/storage-blob'
@@ -528,10 +494,9 @@ properties:
       above.
     fullName: version
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'version?: string'
       return:
-        type: string
         description: ''
+        type: string

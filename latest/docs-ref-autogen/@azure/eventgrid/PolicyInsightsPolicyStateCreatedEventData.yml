@@ -7,7 +7,6 @@ summary: >-
   Microsoft.PolicyInsights.PolicyStateCreated event.
 fullName: PolicyInsightsPolicyStateCreatedEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -18,13 +17,12 @@ properties:
     summary: The compliance reason code. May be empty.
     fullName: complianceReasonCode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'complianceReasonCode: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: complianceState
     uid: '@azure/eventgrid.PolicyInsightsPolicyStateCreatedEventData.complianceState'
     package: '@azure/eventgrid'
@@ -33,13 +31,12 @@ properties:
       assignment.
     fullName: complianceState
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'complianceState: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: policyAssignmentId
     uid: >-
       @azure/eventgrid.PolicyInsightsPolicyStateCreatedEventData.policyAssignmentId
@@ -47,13 +44,12 @@ properties:
     summary: The resource ID of the policy assignment.
     fullName: policyAssignmentId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'policyAssignmentId: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: policyDefinitionId
     uid: >-
       @azure/eventgrid.PolicyInsightsPolicyStateCreatedEventData.policyDefinitionId
@@ -61,13 +57,12 @@ properties:
     summary: The resource ID of the policy definition.
     fullName: policyDefinitionId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'policyDefinitionId: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: policyDefinitionReferenceId
     uid: >-
       @azure/eventgrid.PolicyInsightsPolicyStateCreatedEventData.policyDefinitionReferenceId
@@ -77,26 +72,24 @@ properties:
       definition, if the policy assignment is for an initiative. May be empty.
     fullName: policyDefinitionReferenceId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'policyDefinitionReferenceId: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: subscriptionId
     uid: '@azure/eventgrid.PolicyInsightsPolicyStateCreatedEventData.subscriptionId'
     package: '@azure/eventgrid'
     summary: The subscription ID of the resource.
     fullName: subscriptionId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'subscriptionId: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: timestamp
     uid: '@azure/eventgrid.PolicyInsightsPolicyStateCreatedEventData.timestamp'
     package: '@azure/eventgrid'
@@ -105,10 +98,9 @@ properties:
       ISO 8601 DateTime format yyyy-MM-ddTHH:mm:ss.fffffffZ.
     fullName: timestamp
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'timestamp: string'
       return:
-        type: string
         description: ''
+        type: string

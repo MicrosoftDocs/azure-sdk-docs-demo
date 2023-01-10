@@ -8,11 +8,12 @@ summary: |-
   adding, updating, and removing them.
 fullName: SearchClient<T>
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
-  - name: 'SearchClient(string, string, KeyCredential, SearchClientOptions)'
+  - name: >-
+      SearchClient(string, string, KeyCredential | TokenCredential,
+      SearchClientOptions)
     uid: '@azure/search-documents.SearchClient.constructor'
     package: '@azure/search-documents'
     summary: >-
@@ -34,12 +35,11 @@ constructors:
 
       ```
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         new SearchClient(endpoint: string, indexName: string, credential:
-        KeyCredential, options?: SearchClientOptions)
+        KeyCredential | TokenCredential, options?: SearchClientOptions)
       parameters:
         - id: endpoint
           type: string
@@ -48,7 +48,7 @@ constructors:
           type: string
           description: The name of the index
         - id: credential
-          type: KeyCredential
+          type: KeyCredential | TokenCredential
           description: Used to authenticate requests to the service.
         - id: options
           type: <xref uid="@azure/search-documents.SearchClientOptions" />
@@ -61,39 +61,36 @@ properties:
     summary: The API version to use when communicating with the service.
     fullName: apiVersion
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'apiVersion: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: endpoint
     uid: '@azure/search-documents.SearchClient.endpoint'
     package: '@azure/search-documents'
     summary: The endpoint of the search service
     fullName: endpoint
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'endpoint: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: indexName
     uid: '@azure/search-documents.SearchClient.indexName'
     package: '@azure/search-documents'
     summary: The name of the index
     fullName: indexName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'indexName: string'
       return:
-        type: string
         description: ''
+        type: string
 methods:
   - name: 'autocomplete<Fields>(string, string, AutocompleteOptions<Fields>)'
     uid: '@azure/search-documents.SearchClient.autocomplete'
@@ -102,12 +99,11 @@ methods:
       Based on a partial searchText from the user, return a list
       of potential completion strings based on a specified suggester.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function autocomplete<Fields>(searchText: string, suggesterName: string,
-        options?: AutocompleteOptions<Fields>)
+        options?: AutocompleteOptions<Fields>): Promise<AutocompleteResult>
       parameters:
         - id: searchText
           type: string
@@ -124,21 +120,20 @@ methods:
           description: |
             Options to the autocomplete operation.
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/search-documents.AutocompleteResult"
           />&gt;
-        description: ''
   - name: 'deleteDocuments(Object, string[], DeleteDocumentsOptions)'
     uid: '@azure/search-documents.SearchClient.deleteDocuments_1'
     package: '@azure/search-documents'
     summary: Delete a set of documents.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function deleteDocuments(keyName: Object, keyValues: string[], options?:
-        DeleteDocumentsOptions)
+        DeleteDocumentsOptions): Promise<IndexDocumentsResult>
       parameters:
         - id: keyName
           type: Object
@@ -151,21 +146,20 @@ methods:
           description: |
             Additional options.
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/search-documents.IndexDocumentsResult"
           />&gt;
-        description: ''
   - name: 'deleteDocuments(T[], DeleteDocumentsOptions)'
     uid: '@azure/search-documents.SearchClient.deleteDocuments'
     package: '@azure/search-documents'
     summary: Delete a set of documents.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function deleteDocuments(documents: T[], options?:
-        DeleteDocumentsOptions)
+        DeleteDocumentsOptions): Promise<IndexDocumentsResult>
       parameters:
         - id: documents
           type: 'T[]'
@@ -175,21 +169,20 @@ methods:
           description: |
             Additional options.
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/search-documents.IndexDocumentsResult"
           />&gt;
-        description: ''
   - name: 'getDocument<Fields>(string, GetDocumentOptions<Fields>)'
     uid: '@azure/search-documents.SearchClient.getDocument'
     package: '@azure/search-documents'
     summary: Retrieve a particular document from the index by key.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function getDocument<Fields>(key: string, options?:
-        GetDocumentOptions<Fields>)
+        GetDocumentOptions<Fields>): Promise<T>
       parameters:
         - id: key
           type: string
@@ -201,25 +194,26 @@ methods:
           description: |
             Additional options
       return:
-        type: Promise&lt;T&gt;
         description: ''
+        type: Promise&lt;T&gt;
   - name: getDocumentsCount(CountDocumentsOptions)
     uid: '@azure/search-documents.SearchClient.getDocumentsCount'
     package: '@azure/search-documents'
     summary: Retrieves the number of documents in the index.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function getDocumentsCount(options?: CountDocumentsOptions)'
+      content: >-
+        function getDocumentsCount(options?: CountDocumentsOptions):
+        Promise<number>
       parameters:
         - id: options
           type: <xref uid="@azure/search-documents.CountDocumentsOptions" />
           description: |
             Options to the count operation.
       return:
-        type: Promise&lt;number&gt;
         description: ''
+        type: Promise&lt;number&gt;
   - name: 'indexDocuments(IndexDocumentsBatch<T>, IndexDocumentsOptions)'
     uid: '@azure/search-documents.SearchClient.indexDocuments'
     package: '@azure/search-documents'
@@ -239,12 +233,11 @@ methods:
       For more details about how merging works, see:
       https://docs.microsoft.com/en-us/rest/api/searchservice/AddUpdate-or-Delete-Documents
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function indexDocuments(batch: IndexDocumentsBatch<T>, options?:
-        IndexDocumentsOptions)
+        IndexDocumentsOptions): Promise<IndexDocumentsResult>
       parameters:
         - id: batch
           type: <xref uid="@azure/search-documents.IndexDocumentsBatch" />&lt;T&gt;
@@ -254,10 +247,10 @@ methods:
           description: |
             Additional options.
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/search-documents.IndexDocumentsResult"
           />&gt;
-        description: ''
   - name: 'mergeDocuments(T[], MergeDocumentsOptions)'
     uid: '@azure/search-documents.SearchClient.mergeDocuments'
     package: '@azure/search-documents'
@@ -267,10 +260,11 @@ methods:
       For more details about how merging works, see
       https://docs.microsoft.com/en-us/rest/api/searchservice/AddUpdate-or-Delete-Documents
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function mergeDocuments(documents: T[], options?: MergeDocumentsOptions)'
+      content: >-
+        function mergeDocuments(documents: T[], options?:
+        MergeDocumentsOptions): Promise<IndexDocumentsResult>
       parameters:
         - id: documents
           type: 'T[]'
@@ -280,10 +274,10 @@ methods:
           description: |
             Additional options.
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/search-documents.IndexDocumentsResult"
           />&gt;
-        description: ''
   - name: 'mergeOrUploadDocuments(T[], MergeOrUploadDocumentsOptions)'
     uid: '@azure/search-documents.SearchClient.mergeOrUploadDocuments'
     package: '@azure/search-documents'
@@ -293,12 +287,11 @@ methods:
       For more details about how merging works, see
       https://docs.microsoft.com/en-us/rest/api/searchservice/AddUpdate-or-Delete-Documents
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function mergeOrUploadDocuments(documents: T[], options?:
-        MergeOrUploadDocumentsOptions)
+        MergeOrUploadDocumentsOptions): Promise<IndexDocumentsResult>
       parameters:
         - id: documents
           type: 'T[]'
@@ -308,10 +301,10 @@ methods:
           description: |
             Additional options.
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/search-documents.IndexDocumentsResult"
           />&gt;
-        description: ''
   - name: 'search<Fields>(string, SearchOptions<Fields>)'
     uid: '@azure/search-documents.SearchClient.search'
     package: '@azure/search-documents'
@@ -319,12 +312,11 @@ methods:
       Performs a search on the current index given
       the specified arguments.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function search<Fields>(searchText?: string, options?:
-        SearchOptions<Fields>)
+        SearchOptions<Fields>): Promise<SearchDocumentsResult<Pick<T, Fields>>>
       parameters:
         - id: searchText
           type: string
@@ -334,10 +326,10 @@ methods:
           description: |
             Options for the search operation.
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/search-documents.SearchDocumentsResult"
           />&lt;Pick&lt;T, Fields&gt;&gt;&gt;
-        description: ''
   - name: 'suggest<Fields>(string, string, SuggestOptions<Fields>)'
     uid: '@azure/search-documents.SearchClient.suggest'
     package: '@azure/search-documents'
@@ -345,12 +337,12 @@ methods:
       Returns a short list of suggestions based on the searchText
       and specified suggester.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function suggest<Fields>(searchText: string, suggesterName: string,
-        options?: SuggestOptions<Fields>)
+        options?: SuggestOptions<Fields>):
+        Promise<SuggestDocumentsResult<Pick<T, Fields>>>
       parameters:
         - id: searchText
           type: string
@@ -367,21 +359,20 @@ methods:
           description: |
             Options for the suggest operation
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/search-documents.SuggestDocumentsResult"
           />&lt;Pick&lt;T, Fields&gt;&gt;&gt;
-        description: ''
   - name: 'uploadDocuments(T[], UploadDocumentsOptions)'
     uid: '@azure/search-documents.SearchClient.uploadDocuments'
     package: '@azure/search-documents'
     summary: Upload an array of documents to the index.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function uploadDocuments(documents: T[], options?:
-        UploadDocumentsOptions)
+        UploadDocumentsOptions): Promise<IndexDocumentsResult>
       parameters:
         - id: documents
           type: 'T[]'
@@ -391,7 +382,7 @@ methods:
           description: |
             Additional options.
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/search-documents.IndexDocumentsResult"
           />&gt;
-        description: ''

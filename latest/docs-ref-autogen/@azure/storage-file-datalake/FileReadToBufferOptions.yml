@@ -5,10 +5,9 @@ package: '@azure/storage-file-datalake'
 summary: |
   Option interface for Data Lake file - readToBuffer operations
   See:
-  - <xref:DataLakeFileClient.readToBuffer>
+  - <xref:@azure/storage-file-datalake.DataLakeFileClient.readToBuffer>
 fullName: FileReadToBufferOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -23,13 +22,12 @@ properties:
       `AbortSignal`.
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
   - name: chunkSize
     uid: '@azure/storage-file-datalake.FileReadToBufferOptions.chunkSize'
     package: '@azure/storage-file-datalake'
@@ -42,39 +40,48 @@ properties:
       to the file size.
     fullName: chunkSize
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'chunkSize?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: concurrency
     uid: '@azure/storage-file-datalake.FileReadToBufferOptions.concurrency'
     package: '@azure/storage-file-datalake'
     summary: Concurrency of parallel read.
     fullName: concurrency
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'concurrency?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: conditions
     uid: '@azure/storage-file-datalake.FileReadToBufferOptions.conditions'
     package: '@azure/storage-file-datalake'
     summary: Access conditions headers.
     fullName: conditions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'conditions?: DataLakeRequestConditions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.DataLakeRequestConditions" />
         description: ''
+        type: <xref uid="@azure/storage-file-datalake.DataLakeRequestConditions" />
+  - name: customerProvidedKey
+    uid: '@azure/storage-file-datalake.FileReadToBufferOptions.customerProvidedKey'
+    package: '@azure/storage-file-datalake'
+    summary: Customer Provided Key Info.
+    fullName: customerProvidedKey
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'customerProvidedKey?: CpkInfo'
+      return:
+        description: ''
+        type: <xref uid="@azure/storage-file-datalake.CpkInfo" />
   - name: maxRetryRequestsPerChunk
     uid: >-
       @azure/storage-file-datalake.FileReadToBufferOptions.maxRetryRequestsPerChunk
@@ -88,37 +95,38 @@ properties:
       because they doesn't emit network errors. Default value is 5.
     fullName: maxRetryRequestsPerChunk
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'maxRetryRequestsPerChunk?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: onProgress
     uid: '@azure/storage-file-datalake.FileReadToBufferOptions.onProgress'
     package: '@azure/storage-file-datalake'
     summary: Progress updater.
     fullName: onProgress
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'onProgress?: (progress: TransferProgressEvent) => void'
       return:
-        type: '(progress: TransferProgressEvent) =&gt; void'
         description: ''
+        type: '(progress: TransferProgressEvent) =&gt; void'
+inheritedProperties:
   - name: tracingOptions
     uid: '@azure/storage-file-datalake.FileReadToBufferOptions.tracingOptions'
     package: '@azure/storage-file-datalake'
     summary: Options to configure spans created when tracing is enabled.
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
-        type: OperationTracingOptions
         description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-file-datalake.CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />

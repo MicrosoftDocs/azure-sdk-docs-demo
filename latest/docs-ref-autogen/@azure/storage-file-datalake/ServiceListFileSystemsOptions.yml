@@ -5,7 +5,6 @@ package: '@azure/storage-file-datalake'
 summary: ''
 fullName: ServiceListFileSystemsOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,13 +14,12 @@ properties:
     summary: ''
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
   - name: includeDeleted
     uid: '@azure/storage-file-datalake.ServiceListFileSystemsOptions.includeDeleted'
     package: '@azure/storage-file-datalake'
@@ -30,50 +28,50 @@ properties:
       response.
     fullName: includeDeleted
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeDeleted?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: includeMetadata
     uid: '@azure/storage-file-datalake.ServiceListFileSystemsOptions.includeMetadata'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: includeMetadata
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeMetadata?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: prefix
     uid: '@azure/storage-file-datalake.ServiceListFileSystemsOptions.prefix'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: prefix
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'prefix?: string'
       return:
-        type: string
         description: ''
+        type: string
+inheritedProperties:
   - name: tracingOptions
     uid: '@azure/storage-file-datalake.ServiceListFileSystemsOptions.tracingOptions'
     package: '@azure/storage-file-datalake'
     summary: Options to configure spans created when tracing is enabled.
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
-        type: OperationTracingOptions
         description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-file-datalake.CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />

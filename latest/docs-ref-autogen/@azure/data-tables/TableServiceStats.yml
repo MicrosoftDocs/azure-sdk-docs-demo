@@ -5,7 +5,6 @@ package: '@azure/data-tables'
 summary: Stats for the service.
 fullName: TableServiceStats
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,10 +14,9 @@ properties:
     summary: Geo-Replication information for the Secondary Storage Service.
     fullName: geoReplication
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'geoReplication?: GeoReplication'
       return:
-        type: <xref uid="@azure/data-tables.GeoReplication" />
         description: ''
+        type: <xref uid="@azure/data-tables.GeoReplication" />

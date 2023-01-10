@@ -6,10 +6,9 @@ summary: |
   Options to configure Directory - Force Close Handles Segment operations.
   See:
   - <xref:ShareDirectoryClient.forceCloseHandlesSegment>
-  - <xref:ShareDirectoryClient.forceCloseAllHandles>
+  - <xref:@azure/storage-file-share.ShareDirectoryClient.forceCloseAllHandles>
 fullName: DirectoryForceCloseHandlesSegmentOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -25,13 +24,12 @@ properties:
       `AbortSignal`.
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
   - name: recursive
     uid: >-
       @azure/storage-file-share.DirectoryForceCloseHandlesSegmentOptions.recursive
@@ -43,13 +41,13 @@ properties:
       subdirectories and their files.
     fullName: recursive
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'recursive?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
+inheritedProperties:
   - name: tracingOptions
     uid: >-
       @azure/storage-file-share.DirectoryForceCloseHandlesSegmentOptions.tracingOptions
@@ -57,11 +55,13 @@ properties:
     summary: ''
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
-        type: OperationTracingOptions
         description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-file-share.CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-file-share.CommonOptions" />

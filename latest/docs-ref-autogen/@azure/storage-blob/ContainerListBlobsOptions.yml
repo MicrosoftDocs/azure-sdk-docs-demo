@@ -5,11 +5,10 @@ package: '@azure/storage-blob'
 summary: |
   Options to configure Container - List Blobs operations.
   See:
-  - <xref:ContainerClient.listBlobsFlat>
-  - <xref:ContainerClient.listBlobsByHierarchy>
+  - <xref:@azure/storage-blob.ContainerClient.listBlobsFlat>
+  - <xref:@azure/storage-blob.ContainerClient.listBlobsByHierarchy>
 fullName: ContainerListBlobsOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -24,13 +23,12 @@ properties:
       `AbortSignal`.
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
   - name: includeCopy
     uid: '@azure/storage-blob.ContainerListBlobsOptions.includeCopy'
     package: '@azure/storage-blob'
@@ -39,78 +37,72 @@ properties:
       operation should be included in the response.
     fullName: includeCopy
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeCopy?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: includeDeleted
     uid: '@azure/storage-blob.ContainerListBlobsOptions.includeDeleted'
     package: '@azure/storage-blob'
     summary: Specifies whether soft deleted blobs should be included in the response.
     fullName: includeDeleted
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeDeleted?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: includeDeletedWithVersions
     uid: '@azure/storage-blob.ContainerListBlobsOptions.includeDeletedWithVersions'
     package: '@azure/storage-blob'
     summary: Specifies whether deleted blob with versions be returned in the response.
     fullName: includeDeletedWithVersions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeDeletedWithVersions?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: includeImmutabilityPolicy
     uid: '@azure/storage-blob.ContainerListBlobsOptions.includeImmutabilityPolicy'
     package: '@azure/storage-blob'
     summary: Specifies whether blob immutability policy be returned in the response.
     fullName: includeImmutabilityPolicy
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeImmutabilityPolicy?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: includeLegalHold
     uid: '@azure/storage-blob.ContainerListBlobsOptions.includeLegalHold'
     package: '@azure/storage-blob'
     summary: Specifies whether blob legal hold be returned in the response.
     fullName: includeLegalHold
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeLegalHold?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: includeMetadata
     uid: '@azure/storage-blob.ContainerListBlobsOptions.includeMetadata'
     package: '@azure/storage-blob'
     summary: Specifies whether blob metadata be returned in the response.
     fullName: includeMetadata
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeMetadata?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: includeSnapshots
     uid: '@azure/storage-blob.ContainerListBlobsOptions.includeSnapshots'
     package: '@azure/storage-blob'
@@ -119,26 +111,24 @@ properties:
       Snapshots are listed from oldest to newest in the response.
     fullName: includeSnapshots
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeSnapshots?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: includeTags
     uid: '@azure/storage-blob.ContainerListBlobsOptions.includeTags'
     package: '@azure/storage-blob'
     summary: Specifies whether blob tags be returned in the response.
     fullName: includeTags
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeTags?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: includeUncommitedBlobs
     uid: '@azure/storage-blob.ContainerListBlobsOptions.includeUncommitedBlobs'
     package: '@azure/storage-blob'
@@ -147,13 +137,12 @@ properties:
       have not been committed using Put Block List, be included in the response.
     fullName: includeUncommitedBlobs
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeUncommitedBlobs?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: includeVersions
     uid: '@azure/storage-blob.ContainerListBlobsOptions.includeVersions'
     package: '@azure/storage-blob'
@@ -162,13 +151,12 @@ properties:
       are listed from oldest to newest in the response.
     fullName: includeVersions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeVersions?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: prefix
     uid: '@azure/storage-blob.ContainerListBlobsOptions.prefix'
     package: '@azure/storage-blob'
@@ -177,24 +165,26 @@ properties:
       whose name begins with the specified prefix.
     fullName: prefix
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'prefix?: string'
       return:
-        type: string
         description: ''
+        type: string
+inheritedProperties:
   - name: tracingOptions
     uid: '@azure/storage-blob.ContainerListBlobsOptions.tracingOptions'
     package: '@azure/storage-blob'
     summary: Options to configure spans created when tracing is enabled.
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
-        type: OperationTracingOptions
         description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-blob.CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-blob.CommonOptions" />

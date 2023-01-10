@@ -5,7 +5,6 @@ package: '@azure/eventgrid'
 summary: sku of app service plan.
 fullName: WebAppServicePlanUpdatedEventDataSku
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,62 +14,57 @@ properties:
     summary: capacity of app service plan sku.
     fullName: capacity
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'capacity?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: family
     uid: '@azure/eventgrid.WebAppServicePlanUpdatedEventDataSku.family'
     package: '@azure/eventgrid'
     summary: family of app service plan sku.
     fullName: family
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'family?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: name
     uid: '@azure/eventgrid.WebAppServicePlanUpdatedEventDataSku.name'
     package: '@azure/eventgrid'
     summary: name of app service plan sku.
     fullName: name
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'name?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: size
     uid: '@azure/eventgrid.WebAppServicePlanUpdatedEventDataSku.size'
     package: '@azure/eventgrid'
     summary: size of app service plan sku.
     fullName: size
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'size?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: tier
     uid: '@azure/eventgrid.WebAppServicePlanUpdatedEventDataSku.tier'
     package: '@azure/eventgrid'
     summary: tier of app service plan sku.
     fullName: tier
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tier?: string'
       return:
-        type: string
         description: ''
+        type: string

@@ -5,7 +5,6 @@ package: '@azure/cognitiveservices-anomalydetector'
 summary: An interface representing ChangePointDetectRequest.
 fullName: ChangePointDetectRequest
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -21,13 +20,12 @@ properties:
       "customInterval":5}.
     fullName: customInterval
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'customInterval?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: granularity
     uid: >-
       @azure/cognitiveservices-anomalydetector.ChangePointDetectRequest.granularity
@@ -42,13 +40,12 @@ properties:
       'monthly', 'weekly', 'daily', 'hourly', 'minutely', 'secondly'
     fullName: granularity
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'granularity: Granularity'
       return:
-        type: <xref uid="@azure/cognitiveservices-anomalydetector.Granularity" />
         description: ''
+        type: <xref uid="@azure/cognitiveservices-anomalydetector.Granularity" />
   - name: period
     uid: '@azure/cognitiveservices-anomalydetector.ChangePointDetectRequest.period'
     package: '@azure/cognitiveservices-anomalydetector'
@@ -59,13 +56,12 @@ properties:
       the API will determine the period automatically.
     fullName: period
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'period?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: series
     uid: '@azure/cognitiveservices-anomalydetector.ChangePointDetectRequest.series'
     package: '@azure/cognitiveservices-anomalydetector'
@@ -76,13 +72,12 @@ properties:
       change point detection result.
     fullName: series
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'series: Point[]'
       return:
-        type: '<xref uid="@azure/cognitiveservices-anomalydetector.Point" />[]'
         description: ''
+        type: '<xref uid="@azure/cognitiveservices-anomalydetector.Point" />[]'
   - name: stableTrendWindow
     uid: >-
       @azure/cognitiveservices-anomalydetector.ChangePointDetectRequest.stableTrendWindow
@@ -94,13 +89,12 @@ properties:
       detection.
     fullName: stableTrendWindow
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'stableTrendWindow?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: threshold
     uid: >-
       @azure/cognitiveservices-anomalydetector.ChangePointDetectRequest.threshold
@@ -113,10 +107,9 @@ properties:
       accepted.
     fullName: threshold
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'threshold?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number

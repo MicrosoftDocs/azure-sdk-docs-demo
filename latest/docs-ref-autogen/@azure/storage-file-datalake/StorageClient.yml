@@ -9,7 +9,6 @@ summary: >-
   and etc.
 fullName: StorageClient
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 properties:
@@ -19,13 +18,12 @@ properties:
     summary: ''
     fullName: accountName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'accountName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: credential
     uid: '@azure/storage-file-datalake.StorageClient.credential'
     package: '@azure/storage-file-datalake'
@@ -36,28 +34,26 @@ properties:
       TokenCredential interface. If not specified, AnonymousCredential is used.
     fullName: credential
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         credential: StorageSharedKeyCredential | AnonymousCredential |
         TokenCredential
       return:
+        description: ''
         type: >-
           <xref uid="@azure/storage-file-datalake.StorageSharedKeyCredential" />
           | <xref uid="@azure/storage-file-datalake.AnonymousCredential" /> |
           TokenCredential
-        description: ''
   - name: url
     uid: '@azure/storage-file-datalake.StorageClient.url'
     package: '@azure/storage-file-datalake'
     summary: Encoded URL string value.
     fullName: url
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'url: string'
       return:
-        type: string
         description: ''
+        type: string

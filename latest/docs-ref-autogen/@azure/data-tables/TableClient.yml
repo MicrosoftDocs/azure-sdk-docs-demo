@@ -7,7 +7,6 @@ summary: |-
   to perform operations on a single table.
 fullName: TableClient
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -16,7 +15,6 @@ constructors:
     package: '@azure/data-tables'
     summary: Creates a new instance of the TableClient class.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -73,7 +71,6 @@ constructors:
     package: '@azure/data-tables'
     summary: Creates a new instance of the TableClient class.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -130,7 +127,6 @@ constructors:
     package: '@azure/data-tables'
     summary: Creates an instance of TableClient.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -182,7 +178,6 @@ constructors:
     package: '@azure/data-tables'
     summary: Creates a new instance of the TableClient class.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -245,51 +240,47 @@ properties:
       before and after it is made to the server.
     fullName: pipeline
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'pipeline: Pipeline'
       return:
-        type: Pipeline
         description: ''
+        type: Pipeline
   - name: tableName
     uid: '@azure/data-tables.TableClient.tableName'
     package: '@azure/data-tables'
     summary: Name of the table to perform operations on.
     fullName: tableName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tableName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: url
     uid: '@azure/data-tables.TableClient.url'
     package: '@azure/data-tables'
     summary: Table Account URL
     fullName: url
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'url: string'
       return:
-        type: string
         description: ''
+        type: string
 methods:
   - name: 'createEntity<T>(TableEntity<T>, OperationOptions)'
     uid: '@azure/data-tables.TableClient.createEntity'
     package: '@azure/data-tables'
     summary: Insert entity in the table.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function createEntity<T>(entity: TableEntity<T>, options?:
-        OperationOptions)
+        OperationOptions): Promise<CreateTableEntityResponse>
       parameters:
         - id: entity
           type: <xref uid="@azure/data-tables.TableEntity" />&lt;T&gt;
@@ -334,19 +325,18 @@ methods:
 
             ```
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/data-tables.CreateTableEntityResponse"
           />&gt;
-        description: ''
   - name: createTable(OperationOptions)
     uid: '@azure/data-tables.TableClient.createTable'
     package: '@azure/data-tables'
     summary: Creates a table with the tableName passed to the client constructor
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function createTable(options?: OperationOptions)'
+      content: 'function createTable(options?: OperationOptions): Promise<void>'
       parameters:
         - id: options
           type: OperationOptions
@@ -384,25 +374,24 @@ methods:
 
             // Note: If the table already
 
-            // exists this function doesn't fail.
+            // exists this function doesn't throw.
 
             await client.createTable();
 
             ```
       return:
-        type: Promise&lt;void&gt;
         description: ''
+        type: Promise&lt;void&gt;
   - name: 'deleteEntity(string, string, DeleteTableEntityOptions)'
     uid: '@azure/data-tables.TableClient.deleteEntity'
     package: '@azure/data-tables'
     summary: Deletes the specified entity in the table.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function deleteEntity(partitionKey: string, rowKey: string, options?:
-        DeleteTableEntityOptions)
+        DeleteTableEntityOptions): Promise<DeleteTableEntityResponse>
       parameters:
         - id: partitionKey
           type: string
@@ -448,19 +437,18 @@ methods:
 
             ```
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/data-tables.DeleteTableEntityResponse"
           />&gt;
-        description: ''
   - name: deleteTable(OperationOptions)
     uid: '@azure/data-tables.TableClient.deleteTable'
     package: '@azure/data-tables'
     summary: Permanently deletes the current table with all of its entities.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function deleteTable(options?: OperationOptions)'
+      content: 'function deleteTable(options?: OperationOptions): Promise<void>'
       parameters:
         - id: options
           type: OperationOptions
@@ -502,19 +490,18 @@ methods:
 
             ```
       return:
-        type: Promise&lt;void&gt;
         description: ''
+        type: Promise&lt;void&gt;
   - name: 'fromConnectionString(string, string, TableServiceClientOptions)'
     uid: '@azure/data-tables.TableClient.fromConnectionString'
     package: '@azure/data-tables'
     summary: Creates an instance of TableClient from connection string.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         static function fromConnectionString(connectionString: string,
-        tableName: string, options?: TableServiceClientOptions)
+        tableName: string, options?: TableServiceClientOptions): TableClient
       parameters:
         - id: connectionString
           type: string
@@ -533,8 +520,8 @@ methods:
           type: <xref uid="@azure/data-tables.TableServiceClientOptions" />
           description: Options to configure the HTTP pipeline.
       return:
-        type: <xref uid="@azure/data-tables.TableClient" />
         description: A new TableClient from the given connection string.
+        type: <xref uid="@azure/data-tables.TableClient" />
   - name: getAccessPolicy(OperationOptions)
     uid: '@azure/data-tables.TableClient.getAccessPolicy'
     package: '@azure/data-tables'
@@ -544,31 +531,32 @@ methods:
 
       Shared Access Signatures.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function getAccessPolicy(options?: OperationOptions)'
+      content: >-
+        function getAccessPolicy(options?: OperationOptions):
+        Promise<GetAccessPolicyResponse>
       parameters:
         - id: options
           type: OperationOptions
           description: |
             The options parameters.
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/data-tables.GetAccessPolicyResponse"
           />&gt;
-        description: ''
   - name: 'getEntity<T>(string, string, GetTableEntityOptions)'
     uid: '@azure/data-tables.TableClient.getEntity'
     package: '@azure/data-tables'
     summary: Returns a single entity in the table.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function getEntity<T>(partitionKey: string, rowKey: string, options?:
-        GetTableEntityOptions)
+        GetTableEntityOptions):
+        Promise<GetTableEntityResponse<TableEntityResult<T>>>
       parameters:
         - id: partitionKey
           type: string
@@ -618,20 +606,22 @@ methods:
 
             ```
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/data-tables.GetTableEntityResponse"
           />&lt;<xref uid="@azure/data-tables.TableEntityResult"
           />&lt;T&gt;&gt;&gt;
-        description: ''
   - name: listEntities<T>(ListTableEntitiesOptions)
     uid: '@azure/data-tables.TableClient.listEntities'
     package: '@azure/data-tables'
     summary: Queries entities in a table.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function listEntities<T>(options?: ListTableEntitiesOptions)'
+      content: >-
+        function listEntities<T>(options?: ListTableEntitiesOptions):
+        PagedAsyncIterableIterator<TableEntityResult<T>,
+        TableEntityResultPage<T>>
       parameters:
         - id: options
           type: <xref uid="@azure/data-tables.ListTableEntitiesOptions" />
@@ -682,11 +672,11 @@ methods:
 
             ```
       return:
+        description: ''
         type: >-
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/data-tables.TableEntityResult" />&lt;T&gt;, <xref
           uid="@azure/data-tables.TableEntityResultPage" />&lt;T&gt;&gt;
-        description: ''
   - name: 'setAccessPolicy(SignedIdentifier[], OperationOptions)'
     uid: '@azure/data-tables.TableClient.setAccessPolicy'
     package: '@azure/data-tables'
@@ -694,12 +684,11 @@ methods:
       Sets stored access policies for the table that may be used with Shared
       Access Signatures.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function setAccessPolicy(tableAcl: SignedIdentifier[], options?:
-        OperationOptions)
+        OperationOptions): Promise<SetAccessPolicyResponse>
       parameters:
         - id: tableAcl
           type: '<xref uid="@azure/data-tables.SignedIdentifier" />[]'
@@ -709,10 +698,10 @@ methods:
           description: |
             The options parameters.
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/data-tables.SetAccessPolicyResponse"
           />&gt;
-        description: ''
   - name: 'submitTransaction(TransactionAction[])'
     uid: '@azure/data-tables.TableClient.submitTransaction'
     package: '@azure/data-tables'
@@ -720,7 +709,8 @@ methods:
       Submits a Transaction which is composed of a set of actions. You can
       provide the actions as a list
 
-      or you can use <xref:TableTransaction> to help building the transaction.
+      or you can use <xref:@azure/data-tables.TableTransaction> to help building
+      the transaction.
 
       Example usage:
 
@@ -776,10 +766,11 @@ methods:
 
       ```
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function submitTransaction(actions: TransactionAction[])'
+      content: >-
+        function submitTransaction(actions: TransactionAction[]):
+        Promise<TableTransactionResponse>
       parameters:
         - id: actions
           type: '<xref uid="@azure/data-tables.TransactionAction" />[]'
@@ -787,21 +778,20 @@ methods:
             tuple that contains the action to perform, and the entity to perform
             the action with
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/data-tables.TableTransactionResponse"
           />&gt;
-        description: ''
   - name: 'updateEntity<T>(TableEntity<T>, UpdateMode, UpdateTableEntityOptions)'
     uid: '@azure/data-tables.TableClient.updateEntity'
     package: '@azure/data-tables'
     summary: Update an entity in the table.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function updateEntity<T>(entity: TableEntity<T>, mode?: UpdateMode,
-        options?: UpdateTableEntityOptions)
+        options?: UpdateTableEntityOptions): Promise<UpdateEntityResponse>
       parameters:
         - id: entity
           type: <xref uid="@azure/data-tables.TableEntity" />&lt;T&gt;
@@ -878,19 +868,18 @@ methods:
 
             ```
       return:
-        type: Promise&lt;<xref uid="@azure/data-tables.UpdateEntityResponse" />&gt;
         description: ''
+        type: Promise&lt;<xref uid="@azure/data-tables.UpdateEntityResponse" />&gt;
   - name: 'upsertEntity<T>(TableEntity<T>, UpdateMode, OperationOptions)'
     uid: '@azure/data-tables.TableClient.upsertEntity'
     package: '@azure/data-tables'
     summary: Upsert an entity in the table.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function upsertEntity<T>(entity: TableEntity<T>, mode?: UpdateMode,
-        options?: OperationOptions)
+        options?: OperationOptions): Promise<UpsertEntityResponse>
       parameters:
         - id: entity
           type: <xref uid="@azure/data-tables.TableEntity" />&lt;T&gt;
@@ -954,5 +943,5 @@ methods:
 
             ```
       return:
-        type: Promise&lt;<xref uid="@azure/data-tables.UpsertEntityResponse" />&gt;
         description: ''
+        type: Promise&lt;<xref uid="@azure/data-tables.UpsertEntityResponse" />&gt;

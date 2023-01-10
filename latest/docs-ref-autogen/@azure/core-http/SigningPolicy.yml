@@ -2,10 +2,11 @@
 name: SigningPolicy
 uid: '@azure/core-http.SigningPolicy'
 package: '@azure/core-http'
-summary: ''
+summary: >-
+  A policy that signs outgoing requests by calling to the provided
+  `authenticationProvider`'s `signRequest` method.
 fullName: SigningPolicy
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -16,7 +17,6 @@ constructors:
     package: '@azure/core-http'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -39,14 +39,13 @@ properties:
     summary: ''
     fullName: authenticationProvider
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'authenticationProvider: ServiceClientCredentials'
       return:
-        type: <xref uid="@azure/core-http.ServiceClientCredentials" />
         description: ''
-methods:
+        type: <xref uid="@azure/core-http.ServiceClientCredentials" />
+inheritedMethods:
   - name: 'log(HttpPipelineLogLevel, string)'
     uid: '@azure/core-http.SigningPolicy.log'
     package: '@azure/core-http'
@@ -57,7 +56,6 @@ methods:
       the log level does not meat the logger's threshold, then nothing will be
       logged.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function log(logLevel: HttpPipelineLogLevel, message: string)'
@@ -69,52 +67,58 @@ methods:
           type: string
           description: |
             The message of this log.
-  - name: sendRequest(WebResourceLike)
-    uid: '@azure/core-http.SigningPolicy.sendRequest'
-    package: '@azure/core-http'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function sendRequest(request: WebResourceLike)'
-      parameters:
-        - id: request
-          type: <xref uid="@azure/core-http.WebResourceLike" />
-          description: ''
-      return:
-        type: Promise&lt;<xref uid="@azure/core-http.HttpOperationResponse" />&gt;
-        description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [BaseRequestPolicy.log](xref:@azure/core-http.BaseRequestPolicy.log)
   - name: shouldLog(HttpPipelineLogLevel)
     uid: '@azure/core-http.SigningPolicy.shouldLog'
     package: '@azure/core-http'
     summary: Get whether or not a log with the provided log level should be logged.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function shouldLog(logLevel: HttpPipelineLogLevel)'
+      content: 'function shouldLog(logLevel: HttpPipelineLogLevel): boolean'
       parameters:
         - id: logLevel
           type: <xref uid="@azure/core-http.HttpPipelineLogLevel" />
           description: The log level of the log that will be logged.
       return:
-        type: boolean
         description: Whether or not a log with the provided log level should be logged.
-  - name: signRequest(WebResourceLike)
-    uid: '@azure/core-http.SigningPolicy.signRequest'
+        type: boolean
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [BaseRequestPolicy.shouldLog](xref:@azure/core-http.BaseRequestPolicy.shouldLog)
+methods:
+  - name: sendRequest(WebResourceLike)
+    uid: '@azure/core-http.SigningPolicy.sendRequest'
     package: '@azure/core-http'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function signRequest(request: WebResourceLike)'
+      content: >-
+        function sendRequest(request: WebResourceLike):
+        Promise<HttpOperationResponse>
       parameters:
         - id: request
           type: <xref uid="@azure/core-http.WebResourceLike" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="@azure/core-http.WebResourceLike" />&gt;
         description: ''
+        type: Promise&lt;<xref uid="@azure/core-http.HttpOperationResponse" />&gt;
+  - name: signRequest(WebResourceLike)
+    uid: '@azure/core-http.SigningPolicy.signRequest'
+    package: '@azure/core-http'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function signRequest(request: WebResourceLike): Promise<WebResourceLike>'
+      parameters:
+        - id: request
+          type: <xref uid="@azure/core-http.WebResourceLike" />
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;<xref uid="@azure/core-http.WebResourceLike" />&gt;
 extends: <xref uid="@azure/core-http.BaseRequestPolicy" />

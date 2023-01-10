@@ -5,7 +5,6 @@ package: '@azure/identity'
 summary: Parameters that enable token cache persistence in the Identity credentials.
 fullName: TokenCachePersistenceOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -17,13 +16,12 @@ properties:
       credential instance.
     fullName: enabled
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'enabled: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: name
     uid: '@azure/identity.TokenCachePersistenceOptions.name'
     package: '@azure/identity'
@@ -40,13 +38,12 @@ properties:
       - Linux: '/home/user/.IdentityService/<name>'
     fullName: name
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'name?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: unsafeAllowUnencryptedStorage
     uid: '@azure/identity.TokenCachePersistenceOptions.unsafeAllowUnencryptedStorage'
     package: '@azure/identity'
@@ -58,10 +55,9 @@ properties:
       level user encryption is available.
     fullName: unsafeAllowUnencryptedStorage
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'unsafeAllowUnencryptedStorage?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean

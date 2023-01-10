@@ -7,7 +7,6 @@ summary: >-
   Microsoft.Web.RestoreOperationFailed event.
 fullName: WebRestoreOperationFailedEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -17,26 +16,24 @@ properties:
     summary: HTTP request URL of this operation.
     fullName: address
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'address: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: appEventTypeDetail
     uid: '@azure/eventgrid.WebRestoreOperationFailedEventData.appEventTypeDetail'
     package: '@azure/eventgrid'
     summary: Detail of action on the app.
     fullName: appEventTypeDetail
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'appEventTypeDetail: AppEventTypeDetail'
       return:
-        type: <xref uid="@azure/eventgrid.AppEventTypeDetail" />
         description: ''
+        type: <xref uid="@azure/eventgrid.AppEventTypeDetail" />
   - name: clientRequestId
     uid: '@azure/eventgrid.WebRestoreOperationFailedEventData.clientRequestId'
     package: '@azure/eventgrid'
@@ -45,13 +42,12 @@ properties:
       operation that triggered this event.
     fullName: clientRequestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'clientRequestId: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: correlationRequestId
     uid: '@azure/eventgrid.WebRestoreOperationFailedEventData.correlationRequestId'
     package: '@azure/eventgrid'
@@ -60,26 +56,24 @@ properties:
       operation that triggered this event.
     fullName: correlationRequestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'correlationRequestId: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: name
     uid: '@azure/eventgrid.WebRestoreOperationFailedEventData.name'
     package: '@azure/eventgrid'
     summary: name of the web site that had this event.
     fullName: name
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'name: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: requestId
     uid: '@azure/eventgrid.WebRestoreOperationFailedEventData.requestId'
     package: '@azure/eventgrid'
@@ -88,23 +82,21 @@ properties:
       that triggered this event.
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: verb
     uid: '@azure/eventgrid.WebRestoreOperationFailedEventData.verb'
     package: '@azure/eventgrid'
     summary: HTTP verb of this operation.
     fullName: verb
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'verb: string'
       return:
-        type: string
         description: ''
+        type: string

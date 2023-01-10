@@ -7,7 +7,6 @@ summary: >-
   interval etc.
 fullName: RetryOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,13 +18,12 @@ properties:
       of retryable error. Default: 3.
     fullName: maxRetries
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'maxRetries?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: maxRetryDelayInMs
     uid: '@azure/core-amqp.RetryOptions.maxRetryDelayInMs'
     package: '@azure/core-amqp'
@@ -36,26 +34,24 @@ properties:
       exponential retry.
     fullName: maxRetryDelayInMs
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'maxRetryDelayInMs?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: mode
     uid: '@azure/core-amqp.RetryOptions.mode'
     package: '@azure/core-amqp'
     summary: 'Denotes which retry mode to apply. If undefined, defaults to `Fixed`'
     fullName: mode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'mode?: RetryMode'
       return:
-        type: <xref uid="@azure/core-amqp.RetryMode" />
         description: ''
+        type: <xref uid="@azure/core-amqp.RetryMode" />
   - name: retryDelayInMs
     uid: '@azure/core-amqp.RetryOptions.retryDelayInMs'
     package: '@azure/core-amqp'
@@ -70,13 +66,12 @@ properties:
       retries.
     fullName: retryDelayInMs
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'retryDelayInMs?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: timeoutInMs
     uid: '@azure/core-amqp.RetryOptions.timeoutInMs'
     package: '@azure/core-amqp'
@@ -88,10 +83,9 @@ properties:
       greater than this is provided.
     fullName: timeoutInMs
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'timeoutInMs?: number'
       return:
-        type: number
         description: ''
+        type: number

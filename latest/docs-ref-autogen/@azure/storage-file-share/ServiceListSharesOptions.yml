@@ -2,10 +2,11 @@
 name: ServiceListSharesOptions
 uid: '@azure/storage-file-share.ServiceListSharesOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareServiceClient.listShares> operation.'
+summary: >-
+  Options to configure the
+  <xref:@azure/storage-file-share.ShareServiceClient.listShares> operation.
 fullName: ServiceListSharesOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -20,26 +21,24 @@ properties:
       `AbortSignal`.
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
   - name: includeDeleted
     uid: '@azure/storage-file-share.ServiceListSharesOptions.includeDeleted'
     package: '@azure/storage-file-share'
     summary: Specifies that share soft deleted should be returned in the response.
     fullName: includeDeleted
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeDeleted?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: includeMetadata
     uid: '@azure/storage-file-share.ServiceListSharesOptions.includeMetadata'
     package: '@azure/storage-file-share'
@@ -48,26 +47,24 @@ properties:
       Share Snapshots are listed from oldest to newest in the response.
     fullName: includeMetadata
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeMetadata?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: includeSnapshots
     uid: '@azure/storage-file-share.ServiceListSharesOptions.includeSnapshots'
     package: '@azure/storage-file-share'
     summary: Specifies that share snapshot should be returned in the response.
     fullName: includeSnapshots
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeSnapshots?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: prefix
     uid: '@azure/storage-file-share.ServiceListSharesOptions.prefix'
     package: '@azure/storage-file-share'
@@ -76,24 +73,26 @@ properties:
       name begins with the specified prefix.
     fullName: prefix
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'prefix?: string'
       return:
-        type: string
         description: ''
+        type: string
+inheritedProperties:
   - name: tracingOptions
     uid: '@azure/storage-file-share.ServiceListSharesOptions.tracingOptions'
     package: '@azure/storage-file-share'
     summary: ''
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
-        type: OperationTracingOptions
         description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-file-share.CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-file-share.CommonOptions" />

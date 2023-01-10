@@ -7,7 +7,6 @@ summary: >-
   behaviors.
 fullName: SearchRequest
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -22,26 +21,24 @@ properties:
       pairs.
     fullName: facets
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'facets?: string[]'
       return:
-        type: 'string[]'
         description: ''
+        type: 'string[]'
   - name: filter
     uid: '@azure/search-documents.SearchRequest.filter'
     package: '@azure/search-documents'
     summary: The OData $filter expression to apply to the search query.
     fullName: filter
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'filter?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: highlightFields
     uid: '@azure/search-documents.SearchRequest.highlightFields'
     package: '@azure/search-documents'
@@ -52,13 +49,12 @@ properties:
       be used for hit highlighting.
     fullName: highlightFields
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'highlightFields?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: highlightPostTag
     uid: '@azure/search-documents.SearchRequest.highlightPostTag'
     package: '@azure/search-documents'
@@ -69,13 +65,12 @@ properties:
       &lt;/em&gt;.
     fullName: highlightPostTag
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'highlightPostTag?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: highlightPreTag
     uid: '@azure/search-documents.SearchRequest.highlightPreTag'
     package: '@azure/search-documents'
@@ -86,13 +81,12 @@ properties:
       is &lt;em&gt;.
     fullName: highlightPreTag
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'highlightPreTag?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: includeTotalCount
     uid: '@azure/search-documents.SearchRequest.includeTotalCount'
     package: '@azure/search-documents'
@@ -106,13 +100,12 @@ properties:
       approximation.
     fullName: includeTotalCount
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeTotalCount?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: minimumCoverage
     uid: '@azure/search-documents.SearchRequest.minimumCoverage'
     package: '@azure/search-documents'
@@ -127,13 +120,12 @@ properties:
       The default is 100.
     fullName: minimumCoverage
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'minimumCoverage?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: orderBy
     uid: '@azure/search-documents.SearchRequest.orderBy'
     package: '@azure/search-documents'
@@ -156,13 +148,12 @@ properties:
       document match score. There can be at most 32 $orderby clauses.
     fullName: orderBy
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'orderBy?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: queryType
     uid: '@azure/search-documents.SearchRequest.queryType'
     package: '@azure/search-documents'
@@ -174,13 +165,12 @@ properties:
       'Simple', 'Full'
     fullName: queryType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'queryType?: QueryType'
       return:
-        type: <xref uid="@azure/search-documents.QueryType" />
         description: ''
+        type: <xref uid="@azure/search-documents.QueryType" />
   - name: scoringParameters
     uid: '@azure/search-documents.SearchRequest.scoringParameters'
     package: '@azure/search-documents'
@@ -196,13 +186,12 @@ properties:
       "mylocation--122.2,44.8" (without the quotes).
     fullName: scoringParameters
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'scoringParameters?: string[]'
       return:
-        type: 'string[]'
         description: ''
+        type: 'string[]'
   - name: scoringProfile
     uid: '@azure/search-documents.SearchRequest.scoringProfile'
     package: '@azure/search-documents'
@@ -213,13 +202,12 @@ properties:
       the results.
     fullName: scoringProfile
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'scoringProfile?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: scoringStatistics
     uid: '@azure/search-documents.SearchRequest.scoringStatistics'
     package: '@azure/search-documents'
@@ -239,13 +227,12 @@ properties:
       'Global'
     fullName: scoringStatistics
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'scoringStatistics?: ScoringStatistics'
       return:
-        type: <xref uid="@azure/search-documents.ScoringStatistics" />
         description: ''
+        type: <xref uid="@azure/search-documents.ScoringStatistics" />
   - name: searchFields
     uid: '@azure/search-documents.SearchRequest.searchFields'
     package: '@azure/search-documents'
@@ -260,13 +247,12 @@ properties:
       this parameter.
     fullName: searchFields
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'searchFields?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: searchMode
     uid: '@azure/search-documents.SearchRequest.searchMode'
     package: '@azure/search-documents'
@@ -277,13 +263,12 @@ properties:
       count the document as a match. Possible values include: 'Any', 'All'
     fullName: searchMode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'searchMode?: SearchMode'
       return:
-        type: <xref uid="@azure/search-documents.SearchMode" />
         description: ''
+        type: <xref uid="@azure/search-documents.SearchMode" />
   - name: searchText
     uid: '@azure/search-documents.SearchRequest.searchText'
     package: '@azure/search-documents'
@@ -292,13 +277,12 @@ properties:
       match all documents.
     fullName: searchText
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'searchText?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: select
     uid: '@azure/search-documents.SearchRequest.select'
     package: '@azure/search-documents'
@@ -309,13 +293,12 @@ properties:
       retrievable in the schema are included.
     fullName: select
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'select?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: sessionId
     uid: '@azure/search-documents.SearchRequest.sessionId'
     package: '@azure/search-documents'
@@ -336,13 +319,12 @@ properties:
       character.
     fullName: sessionId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sessionId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: skip
     uid: '@azure/search-documents.SearchRequest.skip'
     package: '@azure/search-documents'
@@ -356,13 +338,12 @@ properties:
       orderby on a totally-ordered key and filter with a range query instead.
     fullName: skip
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'skip?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: top
     uid: '@azure/search-documents.SearchRequest.top'
     package: '@azure/search-documents'
@@ -379,10 +360,9 @@ properties:
       Search request for the next page of results.
     fullName: top
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'top?: number'
       return:
-        type: number
         description: ''
+        type: number

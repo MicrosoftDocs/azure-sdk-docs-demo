@@ -5,7 +5,6 @@ package: '@azure/service-bus'
 summary: Represents all the attributes of a rule.
 fullName: RuleProperties
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -17,13 +16,12 @@ properties:
       associated filter apply.
     fullName: action
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'action: SqlRuleAction'
       return:
-        type: <xref uid="@azure/service-bus.SqlRuleAction" />
         description: ''
+        type: <xref uid="@azure/service-bus.SqlRuleAction" />
   - name: filter
     uid: '@azure/service-bus.RuleProperties.filter'
     package: '@azure/service-bus'
@@ -38,25 +36,23 @@ properties:
       a `SqlRuleFilter` can be defined.
     fullName: filter
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'filter: SqlRuleFilter | CorrelationRuleFilter'
       return:
+        description: ''
         type: >-
           <xref uid="@azure/service-bus.SqlRuleFilter" /> | <xref
           uid="@azure/service-bus.CorrelationRuleFilter" />
-        description: ''
   - name: name
     uid: '@azure/service-bus.RuleProperties.name'
     package: '@azure/service-bus'
     summary: Name of the rule
     fullName: name
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'name: string'
       return:
-        type: string
         description: ''
+        type: string

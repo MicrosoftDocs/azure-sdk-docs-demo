@@ -7,7 +7,6 @@ summary: >-
   Microsoft.MachineLearningServices.ModelDeployed event.
 fullName: MachineLearningServicesModelDeployedEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,13 +18,12 @@ properties:
       the service.
     fullName: modelIds
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'modelIds: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: serviceComputeType
     uid: >-
       @azure/eventgrid.MachineLearningServicesModelDeployedEventData.serviceComputeType
@@ -33,26 +31,24 @@ properties:
     summary: 'The compute type (e.g. ACI, AKS) of the deployed service.'
     fullName: serviceComputeType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'serviceComputeType: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: serviceName
     uid: '@azure/eventgrid.MachineLearningServicesModelDeployedEventData.serviceName'
     package: '@azure/eventgrid'
     summary: The name of the deployed service.
     fullName: serviceName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'serviceName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: serviceProperties
     uid: >-
       @azure/eventgrid.MachineLearningServicesModelDeployedEventData.serviceProperties
@@ -60,23 +56,21 @@ properties:
     summary: The properties of the deployed service.
     fullName: serviceProperties
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'serviceProperties: any'
       return:
-        type: any
         description: ''
+        type: any
   - name: serviceTags
     uid: '@azure/eventgrid.MachineLearningServicesModelDeployedEventData.serviceTags'
     package: '@azure/eventgrid'
     summary: The tags of the deployed service.
     fullName: serviceTags
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'serviceTags: any'
       return:
-        type: any
         description: ''
+        type: any

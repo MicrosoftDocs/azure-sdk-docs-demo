@@ -5,7 +5,6 @@ package: '@azure/core-http'
 summary: A HttpPipelineLogger that will send its logs to the console.
 fullName: ConsoleHttpPipelineLogger
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -14,7 +13,6 @@ constructors:
     package: '@azure/core-http'
     summary: Create a new ConsoleHttpPipelineLogger.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'new ConsoleHttpPipelineLogger(minimumLogLevel: HttpPipelineLogLevel)'
@@ -30,20 +28,18 @@ properties:
     summary: ''
     fullName: minimumLogLevel
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'minimumLogLevel: HttpPipelineLogLevel'
       return:
-        type: <xref uid="@azure/core-http.HttpPipelineLogLevel" />
         description: ''
+        type: <xref uid="@azure/core-http.HttpPipelineLogLevel" />
 methods:
   - name: 'log(HttpPipelineLogLevel, string)'
     uid: '@azure/core-http.ConsoleHttpPipelineLogger.log'
     package: '@azure/core-http'
     summary: Log the provided message.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function log(logLevel: HttpPipelineLogLevel, message: string)'

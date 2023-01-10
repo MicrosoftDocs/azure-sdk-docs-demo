@@ -5,7 +5,6 @@ package: '@azure/storage-queue'
 summary: Storage Queue retry options interface.
 fullName: StorageRetryOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,13 +18,12 @@ properties:
       If you specify 0, then you must also specify 0 for retryDelayInMs.
     fullName: maxRetryDelayInMs
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'maxRetryDelayInMs?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: maxTries
     uid: '@azure/storage-queue.StorageRetryOptions.maxTries'
     package: '@azure/storage-queue'
@@ -35,13 +33,12 @@ properties:
       A value smaller than 1 means default retry number of attempts.
     fullName: maxTries
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'maxTries?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: retryDelayInMs
     uid: '@azure/storage-queue.StorageRetryOptions.retryDelayInMs'
     package: '@azure/storage-queue'
@@ -56,26 +53,24 @@ properties:
       maxRetryDelayInMs.
     fullName: retryDelayInMs
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'retryDelayInMs?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: retryPolicyType
     uid: '@azure/storage-queue.StorageRetryOptions.retryPolicyType'
     package: '@azure/storage-queue'
     summary: 'Optional. StorageRetryPolicyType, default is exponential retry policy.'
     fullName: retryPolicyType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'retryPolicyType?: StorageRetryPolicyType'
       return:
-        type: <xref uid="@azure/storage-queue.StorageRetryPolicyType" />
         description: ''
+        type: <xref uid="@azure/storage-queue.StorageRetryPolicyType" />
   - name: secondaryHost
     uid: '@azure/storage-queue.StorageRetryOptions.secondaryHost'
     package: '@azure/storage-queue'
@@ -90,16 +85,15 @@ properties:
 
       reading stale and potentially-inconsistent data at
 
-      <xref:https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fstorage%2Fcommon%2Fstorage-designing-ha-apps-with-ragrs>
+      https://docs.microsoft.com/en-us/azure/storage/common/storage-designing-ha-apps-with-ragrs
     fullName: secondaryHost
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'secondaryHost?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: tryTimeoutInMs
     uid: '@azure/storage-queue.StorageRetryOptions.tryTimeoutInMs'
     package: '@azure/storage-queue'
@@ -109,12 +103,15 @@ properties:
 
       A value of zero or undefined means that you accept our default timeout,
       30s or 30 * 1000ms.
+
+
+      See
+      https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-queue-service-operations
     fullName: tryTimeoutInMs
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tryTimeoutInMs?: number'
       return:
-        type: number
         description: ''
+        type: number

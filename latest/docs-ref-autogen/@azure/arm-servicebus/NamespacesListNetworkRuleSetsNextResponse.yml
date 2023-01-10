@@ -5,8 +5,6 @@ package: '@azure/arm-servicebus'
 summary: Contains response data for the listNetworkRuleSetsNext operation.
 fullName: NamespacesListNetworkRuleSetsNextResponse
 remarks: ''
-isPreview: false
 isDeprecated: false
-syntax: >-
-  type NamespacesListNetworkRuleSetsNextResponse = NetworkRuleSetListResult & {
-  _response: Object }
+syntax: |
+  type NamespacesListNetworkRuleSetsNextResponse = NetworkRuleSetListResult

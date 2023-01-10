@@ -7,7 +7,6 @@ summary: >-
   event (DeviceConnected, DeviceDisconnected).
 fullName: DeviceConnectionStateEvent
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -17,13 +16,12 @@ properties:
     summary: Information about the device connection state event.
     fullName: deviceConnectionStateEventInfo
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'deviceConnectionStateEventInfo: DeviceConnectionStateEventInfo'
       return:
-        type: <xref uid="@azure/eventgrid.DeviceConnectionStateEventInfo" />
         description: ''
+        type: <xref uid="@azure/eventgrid.DeviceConnectionStateEventInfo" />
   - name: deviceId
     uid: '@azure/eventgrid.DeviceConnectionStateEvent.deviceId'
     package: '@azure/eventgrid'
@@ -34,26 +32,24 @@ properties:
       $ '.
     fullName: deviceId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'deviceId: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: hubName
     uid: '@azure/eventgrid.DeviceConnectionStateEvent.hubName'
     package: '@azure/eventgrid'
     summary: Name of the IoT Hub where the device was created or deleted.
     fullName: hubName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'hubName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: moduleId
     uid: '@azure/eventgrid.DeviceConnectionStateEvent.moduleId'
     package: '@azure/eventgrid'
@@ -64,10 +60,9 @@ properties:
       $ '.
     fullName: moduleId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'moduleId: string'
       return:
-        type: string
         description: ''
+        type: string

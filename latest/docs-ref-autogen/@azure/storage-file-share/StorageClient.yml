@@ -7,7 +7,6 @@ summary: >-
   ContainerClient and etc.
 fullName: StorageClient
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 properties:
@@ -17,23 +16,21 @@ properties:
     summary: ''
     fullName: accountName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'accountName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: url
     uid: '@azure/storage-file-share.StorageClient.url'
     package: '@azure/storage-file-share'
     summary: URL string value.
     fullName: url
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'url: string'
       return:
-        type: string
         description: ''
+        type: string

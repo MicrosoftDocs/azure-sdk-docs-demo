@@ -2,11 +2,11 @@
 name: DeadLetterDestinationUnion
 uid: '@azure/arm-eventgrid.DeadLetterDestinationUnion'
 package: '@azure/arm-eventgrid'
-summary: Contains the possible cases for DeadLetterDestination.
+summary: ''
 fullName: DeadLetterDestinationUnion
 remarks: ''
-isPreview: false
 isDeprecated: false
-syntax: >-
-  type DeadLetterDestinationUnion = DeadLetterDestination |
-  StorageBlobDeadLetterDestination
+syntax: |
+  type DeadLetterDestinationUnion =
+    | DeadLetterDestination
+    | StorageBlobDeadLetterDestination

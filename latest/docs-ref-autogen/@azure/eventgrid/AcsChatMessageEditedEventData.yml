@@ -7,8 +7,7 @@ summary: >-
   Microsoft.Communication.ChatMessageEdited event.
 fullName: AcsChatMessageEditedEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 syntax: >-
   type AcsChatMessageEditedEventData = AcsChatMessageEventBase & { editTime:
-  string, messageBody: string, metadata: Object }
+  string, messageBody: string, metadata: [key: string]: string }

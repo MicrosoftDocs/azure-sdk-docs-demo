@@ -2,39 +2,42 @@
 name: QueueSendMessageOptions
 uid: '@azure/storage-queue.QueueSendMessageOptions'
 package: '@azure/storage-queue'
-summary: 'Options to configure <xref:QueueClient.sendMessage> operation'
+summary: >-
+  Options to configure <xref:@azure/storage-queue.QueueClient.sendMessage>
+  operation
 fullName: QueueSendMessageOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
-properties:
+inheritedProperties:
   - name: abortSignal
     uid: '@azure/storage-queue.QueueSendMessageOptions.abortSignal'
     package: '@azure/storage-queue'
-    summary: The signal which can be used to abort requests.
+    summary: >-
+      Signal of an abort controller. Can be used to abort both sending a network
+      request and waiting for a response.
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
+    inheritanceDescription: <b>Inherited From</b> RequestOptionsBase.abortSignal
   - name: customHeaders
     uid: '@azure/storage-queue.QueueSendMessageOptions.customHeaders'
     package: '@azure/storage-queue'
     summary: will be applied before the request is sent.
     fullName: customHeaders
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'customHeaders?: [key: string]: string'
       return:
-        type: '[key: string]\: string'
         description: ''
+        type: '[key: string]\: string'
+    inheritanceDescription: <b>Inherited From</b> RequestOptionsBase.customHeaders
   - name: messageTimeToLive
     uid: '@azure/storage-queue.QueueSendMessageOptions.messageTimeToLive'
     package: '@azure/storage-queue'
@@ -46,39 +49,41 @@ properties:
       expire. If this parameter is omitted, the default time-to-live is 7 days.
     fullName: messageTimeToLive
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'messageTimeToLive?: number'
       return:
-        type: number
         description: ''
+        type: number
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [MessagesEnqueueOptionalParams.messageTimeToLive](xref:@azure/storage-queue.MessagesEnqueueOptionalParams.messageTimeToLive)
   - name: onDownloadProgress
     uid: '@azure/storage-queue.QueueSendMessageOptions.onDownloadProgress'
     package: '@azure/storage-queue'
     summary: Callback which fires upon download progress.
     fullName: onDownloadProgress
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'onDownloadProgress?: (progress: TransferProgressEvent) => void'
       return:
-        type: '(progress: TransferProgressEvent) =&gt; void'
         description: ''
+        type: '(progress: TransferProgressEvent) =&gt; void'
+    inheritanceDescription: <b>Inherited From</b> RequestOptionsBase.onDownloadProgress
   - name: onUploadProgress
     uid: '@azure/storage-queue.QueueSendMessageOptions.onUploadProgress'
     package: '@azure/storage-queue'
     summary: Callback which fires upon upload progress.
     fullName: onUploadProgress
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'onUploadProgress?: (progress: TransferProgressEvent) => void'
       return:
-        type: '(progress: TransferProgressEvent) =&gt; void'
         description: ''
+        type: '(progress: TransferProgressEvent) =&gt; void'
+    inheritanceDescription: <b>Inherited From</b> RequestOptionsBase.onUploadProgress
   - name: requestId
     uid: '@azure/storage-queue.QueueSendMessageOptions.requestId'
     package: '@azure/storage-queue'
@@ -88,26 +93,28 @@ properties:
       enabled.
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId?: string'
       return:
-        type: string
         description: ''
+        type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [MessagesEnqueueOptionalParams.requestId](xref:@azure/storage-queue.MessagesEnqueueOptionalParams.requestId)
   - name: serializerOptions
     uid: '@azure/storage-queue.QueueSendMessageOptions.serializerOptions'
     package: '@azure/storage-queue'
     summary: Options to override XML parsing/building behavior.
     fullName: serializerOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'serializerOptions?: SerializerOptions'
       return:
-        type: SerializerOptions
         description: ''
+        type: SerializerOptions
+    inheritanceDescription: <b>Inherited From</b> RequestOptionsBase.serializerOptions
   - name: shouldDeserialize
     uid: '@azure/storage-queue.QueueSendMessageOptions.shouldDeserialize'
     package: '@azure/storage-queue'
@@ -118,15 +125,15 @@ properties:
       HttpOperationResponse should be deserialized.
     fullName: shouldDeserialize
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         shouldDeserialize?: boolean | (response: HttpOperationResponse) =>
         boolean
       return:
-        type: 'boolean | (response: HttpOperationResponse) =&gt; boolean'
         description: ''
+        type: 'boolean | (response: HttpOperationResponse) =&gt; boolean'
+    inheritanceDescription: <b>Inherited From</b> RequestOptionsBase.shouldDeserialize
   - name: timeout
     uid: '@azure/storage-queue.QueueSendMessageOptions.timeout'
     package: '@azure/storage-queue'
@@ -137,13 +144,13 @@ properties:
       If the request is terminated, an `AbortError` is thrown.
     fullName: timeout
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'timeout?: number'
       return:
-        type: number
         description: ''
+        type: number
+    inheritanceDescription: <b>Inherited From</b> RequestOptionsBase.timeout
   - name: timeoutInSeconds
     uid: '@azure/storage-queue.QueueSendMessageOptions.timeoutInSeconds'
     package: '@azure/storage-queue'
@@ -154,39 +161,43 @@ properties:
       Timeouts for Queue Service Operations.</a>
     fullName: timeoutInSeconds
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'timeoutInSeconds?: number'
       return:
-        type: number
         description: ''
+        type: number
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [MessagesEnqueueOptionalParams.timeoutInSeconds](xref:@azure/storage-queue.MessagesEnqueueOptionalParams.timeoutInSeconds)
   - name: tracingContext
     uid: '@azure/storage-queue.QueueSendMessageOptions.tracingContext'
     package: '@azure/storage-queue'
     summary: 'Tracing: Context used when creating spans.'
     fullName: tracingContext
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingContext?: Context'
       return:
-        type: Context
         description: ''
+        type: Context
+    inheritanceDescription: <b>Inherited From</b> RequestOptionsBase.tracingContext
   - name: tracingOptions
     uid: '@azure/storage-queue.QueueSendMessageOptions.tracingOptions'
     package: '@azure/storage-queue'
     summary: Options to configure spans created when tracing is enabled.
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
-        type: OperationTracingOptions
         description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-queue.CommonOptions.tracingOptions)
   - name: visibilityTimeout
     uid: '@azure/storage-queue.QueueSendMessageOptions.visibilityTimeout'
     package: '@azure/storage-queue'
@@ -200,11 +211,13 @@ properties:
       than the time-to-live value.
     fullName: visibilityTimeout
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'visibilityTimeout?: number'
       return:
-        type: number
         description: ''
+        type: number
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [MessagesEnqueueOptionalParams.visibilityTimeout](xref:@azure/storage-queue.MessagesEnqueueOptionalParams.visibilityTimeout)
 extends: <xref uid="@azure/storage-queue.MessagesEnqueueOptionalParams" />

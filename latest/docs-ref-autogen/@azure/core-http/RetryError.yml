@@ -5,7 +5,6 @@ package: '@azure/core-http'
 summary: ''
 fullName: RetryError
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,76 +14,73 @@ properties:
     summary: ''
     fullName: code
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'code?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: Error
     uid: '@azure/core-http.RetryError.Error'
     package: '@azure/core-http'
     summary: ''
     fullName: Error
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'Error: ErrorConstructor'
       return:
-        type: ErrorConstructor
         description: ''
+        type: ErrorConstructor
   - name: innerError
     uid: '@azure/core-http.RetryError.innerError'
     package: '@azure/core-http'
     summary: ''
     fullName: innerError
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'innerError?: RetryError'
       return:
-        type: <xref uid="@azure/core-http.RetryError" />
         description: ''
+        type: <xref uid="@azure/core-http.RetryError" />
   - name: message
     uid: '@azure/core-http.RetryError.message'
     package: '@azure/core-http'
     summary: ''
     fullName: message
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'message: string'
       return:
-        type: string
         description: ''
+        type: string
+inheritedProperties:
   - name: name
     uid: '@azure/core-http.RetryError.name'
     package: '@azure/core-http'
     summary: ''
     fullName: name
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'name: string'
       return:
-        type: string
         description: ''
+        type: string
+    inheritanceDescription: <b>Inherited From</b> Error.name
   - name: stack
     uid: '@azure/core-http.RetryError.stack'
     package: '@azure/core-http'
     summary: ''
     fullName: stack
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'stack?: string'
       return:
-        type: string
         description: ''
+        type: string
+    inheritanceDescription: <b>Inherited From</b> Error.stack
 extends: Error

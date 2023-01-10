@@ -2,11 +2,9 @@
 name: RoleDisasterRecovery
 uid: '@azure/arm-eventhub.RoleDisasterRecovery'
 package: '@azure/arm-eventhub'
-summary: |-
-  Defines values for RoleDisasterRecovery.
-  Possible values include: 'Primary', 'PrimaryNotReplicating', 'Secondary'
+summary: Defines values for RoleDisasterRecovery.
 fullName: RoleDisasterRecovery
 remarks: ''
-isPreview: false
 isDeprecated: false
-syntax: type RoleDisasterRecovery = "Primary" | "PrimaryNotReplicating" | "Secondary"
+syntax: |
+  type RoleDisasterRecovery = "Primary" | "PrimaryNotReplicating" | "Secondary"

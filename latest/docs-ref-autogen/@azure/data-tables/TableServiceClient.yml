@@ -9,7 +9,6 @@ summary: >-
   to perform operations on the tables and the entities.
 fullName: TableServiceClient
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -18,7 +17,6 @@ constructors:
     package: '@azure/data-tables'
     summary: Creates a new instance of the TableServiceClient class.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -66,7 +64,6 @@ constructors:
     package: '@azure/data-tables'
     summary: Creates a new instance of the TableServiceClient class.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -114,7 +111,6 @@ constructors:
     package: '@azure/data-tables'
     summary: Creates a new instance of the TableServiceClient class.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'new TableServiceClient(url: string, options?: TableServiceClientOptions)'
@@ -155,7 +151,6 @@ constructors:
     package: '@azure/data-tables'
     summary: Creates a new instance of the TableServiceClient class.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -209,36 +204,35 @@ properties:
       before and after it is made to the server.
     fullName: pipeline
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'pipeline: Pipeline'
       return:
-        type: Pipeline
         description: ''
+        type: Pipeline
   - name: url
     uid: '@azure/data-tables.TableServiceClient.url'
     package: '@azure/data-tables'
     summary: Table Account URL
     fullName: url
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'url: string'
       return:
-        type: string
         description: ''
+        type: string
 methods:
   - name: 'createTable(string, OperationOptions)'
     uid: '@azure/data-tables.TableServiceClient.createTable'
     package: '@azure/data-tables'
     summary: Creates a new table under the given account.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function createTable(name: string, options?: OperationOptions)'
+      content: >-
+        function createTable(name: string, options?: OperationOptions):
+        Promise<void>
       parameters:
         - id: name
           type: string
@@ -248,17 +242,18 @@ methods:
           description: |
             The options parameters.
       return:
-        type: Promise&lt;void&gt;
         description: ''
+        type: Promise&lt;void&gt;
   - name: 'deleteTable(string, OperationOptions)'
     uid: '@azure/data-tables.TableServiceClient.deleteTable'
     package: '@azure/data-tables'
     summary: Operation permanently deletes the specified table.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function deleteTable(name: string, options?: OperationOptions)'
+      content: >-
+        function deleteTable(name: string, options?: OperationOptions):
+        Promise<void>
       parameters:
         - id: name
           type: string
@@ -268,19 +263,18 @@ methods:
           description: |
             The options parameters.
       return:
-        type: Promise&lt;void&gt;
         description: ''
+        type: Promise&lt;void&gt;
   - name: 'fromConnectionString(string, TableServiceClientOptions)'
     uid: '@azure/data-tables.TableServiceClient.fromConnectionString'
     package: '@azure/data-tables'
     summary: Creates an instance of TableServiceClient from connection string.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         static function fromConnectionString(connectionString: string, options?:
-        TableServiceClientOptions)
+        TableServiceClientOptions): TableServiceClient
       parameters:
         - id: connectionString
           type: string
@@ -296,8 +290,8 @@ methods:
           type: <xref uid="@azure/data-tables.TableServiceClientOptions" />
           description: Options to configure the HTTP pipeline.
       return:
-        type: <xref uid="@azure/data-tables.TableServiceClient" />
         description: A new TableServiceClient from the given connection string.
+        type: <xref uid="@azure/data-tables.TableServiceClient" />
   - name: getProperties(OperationOptions)
     uid: '@azure/data-tables.TableServiceClient.getProperties'
     package: '@azure/data-tables'
@@ -307,18 +301,19 @@ methods:
 
       (Cross-Origin Resource Sharing) rules.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function getProperties(options?: OperationOptions)'
+      content: >-
+        function getProperties(options?: OperationOptions):
+        Promise<GetPropertiesResponse>
       parameters:
         - id: options
           type: OperationOptions
           description: |
             The options parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/data-tables.GetPropertiesResponse" />&gt;
         description: ''
+        type: Promise&lt;<xref uid="@azure/data-tables.GetPropertiesResponse" />&gt;
   - name: getStatistics(OperationOptions)
     uid: '@azure/data-tables.TableServiceClient.getStatistics'
     package: '@azure/data-tables'
@@ -329,37 +324,39 @@ methods:
       secondary location endpoint when read-access geo-redundant replication is
       enabled for the account.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function getStatistics(options?: OperationOptions)'
+      content: >-
+        function getStatistics(options?: OperationOptions):
+        Promise<GetStatisticsResponse>
       parameters:
         - id: options
           type: OperationOptions
           description: |
             The options parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/data-tables.GetStatisticsResponse" />&gt;
         description: ''
+        type: Promise&lt;<xref uid="@azure/data-tables.GetStatisticsResponse" />&gt;
   - name: listTables(ListTableItemsOptions)
     uid: '@azure/data-tables.TableServiceClient.listTables'
     package: '@azure/data-tables'
     summary: Queries tables under the given account.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function listTables(options?: ListTableItemsOptions)'
+      content: >-
+        function listTables(options?: ListTableItemsOptions):
+        PagedAsyncIterableIterator<TableItem, TableItemResultPage>
       parameters:
         - id: options
           type: <xref uid="@azure/data-tables.ListTableItemsOptions" />
           description: |
             The options parameters.
       return:
+        description: ''
         type: >-
           PagedAsyncIterableIterator&lt;<xref uid="@azure/data-tables.TableItem"
           />, <xref uid="@azure/data-tables.TableItemResultPage" />&gt;
-        description: ''
   - name: 'setProperties(ServiceProperties, SetPropertiesOptions)'
     uid: '@azure/data-tables.TableServiceClient.setProperties'
     package: '@azure/data-tables'
@@ -369,12 +366,11 @@ methods:
 
       (Cross-Origin Resource Sharing) rules.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function setProperties(properties: ServiceProperties, options?:
-        SetPropertiesOptions)
+        SetPropertiesOptions): Promise<SetPropertiesResponse>
       parameters:
         - id: properties
           type: <xref uid="@azure/data-tables.ServiceProperties" />
@@ -384,5 +380,5 @@ methods:
           description: |
             The options parameters.
       return:
-        type: Promise&lt;<xref uid="@azure/data-tables.SetPropertiesResponse" />&gt;
         description: ''
+        type: Promise&lt;<xref uid="@azure/data-tables.SetPropertiesResponse" />&gt;

@@ -2,10 +2,11 @@
 name: KnownSearchIndexerDataSourceType
 uid: '@azure/search-documents.KnownSearchIndexerDataSourceType'
 package: '@azure/search-documents'
-summary: 'Known values of <xref:SearchIndexerDataSourceType> that the service accepts.'
+summary: >-
+  Known values of <xref:@azure/search-documents.SearchIndexerDataSourceType>
+  that the service accepts.
 fullName: KnownSearchIndexerDataSourceType
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: AdlsGen2

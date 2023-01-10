@@ -9,7 +9,6 @@ summary: >-
   connection string.
 fullName: ConnectionConfig
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -27,26 +26,24 @@ properties:
       Typically of the form "<yournamespace>.servicebus.windows.net".
     fullName: amqpHostname
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'amqpHostname?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: connectionString
     uid: '@azure/core-amqp.ConnectionConfig.connectionString'
     package: '@azure/core-amqp'
     summary: The connection string.
     fullName: connectionString
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'connectionString: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: endpoint
     uid: '@azure/core-amqp.ConnectionConfig.endpoint'
     package: '@azure/core-amqp'
@@ -55,13 +52,12 @@ properties:
       "sb://<yournamespace>.servicebus.windows.net/".
     fullName: endpoint
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'endpoint: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: entityPath
     uid: '@azure/core-amqp.ConnectionConfig.entityPath'
     package: '@azure/core-amqp'
@@ -70,13 +66,12 @@ properties:
       connection needs to happen.
     fullName: entityPath
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'entityPath?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: host
     uid: '@azure/core-amqp.ConnectionConfig.host'
     package: '@azure/core-amqp'
@@ -89,52 +84,48 @@ properties:
       to the service through an intermediary.
     fullName: host
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'host: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: port
     uid: '@azure/core-amqp.ConnectionConfig.port'
     package: '@azure/core-amqp'
     summary: The port number.
     fullName: port
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'port?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: sharedAccessKey
     uid: '@azure/core-amqp.ConnectionConfig.sharedAccessKey'
     package: '@azure/core-amqp'
     summary: The secret value of the access key.
     fullName: sharedAccessKey
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sharedAccessKey: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: sharedAccessKeyName
     uid: '@azure/core-amqp.ConnectionConfig.sharedAccessKeyName'
     package: '@azure/core-amqp'
     summary: The name of the access key.
     fullName: sharedAccessKeyName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sharedAccessKeyName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: webSocket
     uid: '@azure/core-amqp.ConnectionConfig.webSocket'
     package: '@azure/core-amqp'
@@ -147,26 +138,24 @@ properties:
       TCP socket will be used if a WebSocket constructor is not provided.
     fullName: webSocket
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'webSocket?: WebSocketImpl'
       return:
-        type: WebSocketImpl
         description: ''
+        type: WebSocketImpl
   - name: webSocketConstructorOptions
     uid: '@azure/core-amqp.ConnectionConfig.webSocketConstructorOptions'
     package: '@azure/core-amqp'
     summary: Options to be passed to the WebSocket constructor
     fullName: webSocketConstructorOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'webSocketConstructorOptions?: any'
       return:
-        type: any
         description: ''
+        type: any
   - name: webSocketEndpointPath
     uid: '@azure/core-amqp.ConnectionConfig.webSocketEndpointPath'
     package: '@azure/core-amqp'
@@ -175,10 +164,9 @@ properties:
       connection over WebSockets.
     fullName: webSocketEndpointPath
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'webSocketEndpointPath?: string'
       return:
-        type: string
         description: ''
+        type: string

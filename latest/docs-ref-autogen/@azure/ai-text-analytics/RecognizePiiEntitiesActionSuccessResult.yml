@@ -5,10 +5,24 @@ package: '@azure/ai-text-analytics'
 summary: The results of a succeeded recognize pii entities action.
 fullName: RecognizePiiEntitiesActionSuccessResult
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
+  - name: results
+    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesActionSuccessResult.results'
+    package: '@azure/ai-text-analytics'
+    summary: Array of the results for each pii entities recognition action.
+    fullName: results
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'results: RecognizePiiEntitiesResultArray'
+      return:
+        description: ''
+        type: >-
+          <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResultArray"
+          />
+inheritedProperties:
   - name: completedOn
     uid: >-
       @azure/ai-text-analytics.RecognizePiiEntitiesActionSuccessResult.completedOn
@@ -16,39 +30,28 @@ properties:
     summary: When this action was completed by the service.
     fullName: completedOn
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'completedOn: Date'
       return:
-        type: Date
         description: ''
+        type: Date
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [TextAnalyticsActionSuccessState.completedOn](xref:@azure/ai-text-analytics.TextAnalyticsActionSuccessState.completedOn)
   - name: error
     uid: '@azure/ai-text-analytics.RecognizePiiEntitiesActionSuccessResult.error'
     package: '@azure/ai-text-analytics'
     summary: Discriminant to determine if that this is an error result.
     fullName: error
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'error?: undefined'
       return:
+        description: ''
         type: undefined
-        description: ''
-  - name: results
-    uid: '@azure/ai-text-analytics.RecognizePiiEntitiesActionSuccessResult.results'
-    package: '@azure/ai-text-analytics'
-    summary: Array of the results for each pii entities recognition action.
-    fullName: results
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'results: RecognizePiiEntitiesResultArray'
-      return:
-        type: >-
-          <xref uid="@azure/ai-text-analytics.RecognizePiiEntitiesResultArray"
-          />
-        description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [TextAnalyticsActionSuccessState.error](xref:@azure/ai-text-analytics.TextAnalyticsActionSuccessState.error)
 extends: <xref uid="@azure/ai-text-analytics.TextAnalyticsActionSuccessState" />

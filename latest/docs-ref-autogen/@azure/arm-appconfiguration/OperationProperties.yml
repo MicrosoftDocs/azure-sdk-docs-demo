@@ -5,7 +5,6 @@ package: '@azure/arm-appconfiguration'
 summary: Extra Operation properties
 fullName: OperationProperties
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,10 +14,9 @@ properties:
     summary: Service specifications of the operation
     fullName: serviceSpecification
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'serviceSpecification?: ServiceSpecification'
       return:
-        type: <xref uid="@azure/arm-appconfiguration.ServiceSpecification" />
         description: ''
+        type: <xref uid="@azure/arm-appconfiguration.ServiceSpecification" />

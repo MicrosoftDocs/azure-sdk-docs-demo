@@ -7,7 +7,6 @@ summary: >-
   Microsoft.EventHub.CaptureFileCreated event.
 fullName: EventHubCaptureFileCreatedEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -17,114 +16,105 @@ properties:
     summary: The number of events in the file.
     fullName: eventCount
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'eventCount: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: fileType
     uid: '@azure/eventgrid.EventHubCaptureFileCreatedEventData.fileType'
     package: '@azure/eventgrid'
     summary: The file type of the capture file.
     fullName: fileType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'fileType: string'
       return:
-        type: string
         description: ''
-  - name: fileurl
-    uid: '@azure/eventgrid.EventHubCaptureFileCreatedEventData.fileurl'
+        type: string
+  - name: fileUrl
+    uid: '@azure/eventgrid.EventHubCaptureFileCreatedEventData.fileUrl'
     package: '@azure/eventgrid'
     summary: The path to the capture file.
-    fullName: fileurl
+    fullName: fileUrl
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'fileurl: string'
+      content: 'fileUrl: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: firstEnqueueTime
     uid: '@azure/eventgrid.EventHubCaptureFileCreatedEventData.firstEnqueueTime'
     package: '@azure/eventgrid'
     summary: The first time from the queue.
     fullName: firstEnqueueTime
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'firstEnqueueTime: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: firstSequenceNumber
     uid: '@azure/eventgrid.EventHubCaptureFileCreatedEventData.firstSequenceNumber'
     package: '@azure/eventgrid'
     summary: The smallest sequence number from the queue.
     fullName: firstSequenceNumber
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'firstSequenceNumber: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: lastEnqueueTime
     uid: '@azure/eventgrid.EventHubCaptureFileCreatedEventData.lastEnqueueTime'
     package: '@azure/eventgrid'
     summary: The last time from the queue.
     fullName: lastEnqueueTime
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'lastEnqueueTime: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: lastSequenceNumber
     uid: '@azure/eventgrid.EventHubCaptureFileCreatedEventData.lastSequenceNumber'
     package: '@azure/eventgrid'
     summary: The last sequence number from the queue.
     fullName: lastSequenceNumber
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'lastSequenceNumber: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: partitionId
     uid: '@azure/eventgrid.EventHubCaptureFileCreatedEventData.partitionId'
     package: '@azure/eventgrid'
     summary: The shard ID.
     fullName: partitionId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'partitionId: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: sizeInBytes
     uid: '@azure/eventgrid.EventHubCaptureFileCreatedEventData.sizeInBytes'
     package: '@azure/eventgrid'
     summary: The file size.
     fullName: sizeInBytes
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sizeInBytes: number'
       return:
-        type: number
         description: ''
+        type: number

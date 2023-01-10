@@ -7,9 +7,8 @@ summary: >-
   Microsoft.Communication.ChatThreadPropertiesUpdatedPerUser event.
 fullName: AcsChatThreadPropertiesUpdatedPerUserEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 syntax: >-
   type AcsChatThreadPropertiesUpdatedPerUserEventData = AcsChatThreadEventBase &
   { editTime: string, editedByCommunicationIdentifier:
-  CommunicationIdentifierModel, properties: Object }
+  CommunicationIdentifierModel, properties: [key: string]: any }

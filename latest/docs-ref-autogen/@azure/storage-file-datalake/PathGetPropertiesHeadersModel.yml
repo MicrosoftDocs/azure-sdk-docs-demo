@@ -5,7 +5,6 @@ package: '@azure/storage-file-datalake'
 summary: Defines headers for Path_getProperties operation.
 fullName: PathGetPropertiesHeadersModel
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,13 +14,12 @@ properties:
     summary: Indicates that the service supports requests for partial file content.
     fullName: acceptRanges
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'acceptRanges?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: acl
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.acl'
     package: '@azure/storage-file-datalake'
@@ -31,13 +29,12 @@ properties:
       Namespace is enabled for the account.
     fullName: acl
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'acl?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: cacheControl
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.cacheControl'
     package: '@azure/storage-file-datalake'
@@ -46,13 +43,12 @@ properties:
       resource, that value is returned in this header.
     fullName: cacheControl
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'cacheControl?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: contentDisposition
     uid: >-
       @azure/storage-file-datalake.PathGetPropertiesHeadersModel.contentDisposition
@@ -62,13 +58,12 @@ properties:
       resource, that value is returned in this header.
     fullName: contentDisposition
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentDisposition?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: contentEncoding
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.contentEncoding'
     package: '@azure/storage-file-datalake'
@@ -77,13 +72,12 @@ properties:
       resource, that value is returned in this header.
     fullName: contentEncoding
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentEncoding?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: contentLanguage
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.contentLanguage'
     package: '@azure/storage-file-datalake'
@@ -92,26 +86,24 @@ properties:
       resource, that value is returned in this header.
     fullName: contentLanguage
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentLanguage?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: contentLength
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.contentLength'
     package: '@azure/storage-file-datalake'
     summary: The size of the resource in bytes.
     fullName: contentLength
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentLength?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: contentMD5
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.contentMD5'
     package: '@azure/storage-file-datalake'
@@ -122,13 +114,12 @@ properties:
       that the client can check for message content integrity.
     fullName: contentMD5
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentMD5?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: contentRange
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.contentRange'
     package: '@azure/storage-file-datalake'
@@ -137,13 +128,12 @@ properties:
       requested a subset of the file by setting the Range request header.
     fullName: contentRange
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentRange?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: contentType
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.contentType'
     package: '@azure/storage-file-datalake'
@@ -152,13 +142,12 @@ properties:
       specified, the default content type is application/octet-stream.
     fullName: contentType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentType?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: date
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.date'
     package: '@azure/storage-file-datalake'
@@ -167,39 +156,36 @@ properties:
       which the response was initiated.
     fullName: date
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'date?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: errorCode
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.errorCode'
     package: '@azure/storage-file-datalake'
     summary: Error Code
     fullName: errorCode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'errorCode?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: etag
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.etag'
     package: '@azure/storage-file-datalake'
     summary: An HTTP entity tag associated with the file or directory.
     fullName: etag
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'etag?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: group
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.group'
     package: '@azure/storage-file-datalake'
@@ -208,13 +194,12 @@ properties:
       Hierarchical Namespace is enabled for the account.
     fullName: group
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'group?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: lastModified
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.lastModified'
     package: '@azure/storage-file-datalake'
@@ -223,13 +208,12 @@ properties:
       operations on the file or directory update the last modified time.
     fullName: lastModified
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'lastModified?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: leaseDuration
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.leaseDuration'
     package: '@azure/storage-file-datalake'
@@ -238,39 +222,36 @@ properties:
       fixed duration.
     fullName: leaseDuration
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'leaseDuration?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: leaseState
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.leaseState'
     package: '@azure/storage-file-datalake'
     summary: Lease state of the resource.
     fullName: leaseState
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'leaseState?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: leaseStatus
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.leaseStatus'
     package: '@azure/storage-file-datalake'
     summary: The lease status of the resource.
     fullName: leaseStatus
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'leaseStatus?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: owner
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.owner'
     package: '@azure/storage-file-datalake'
@@ -279,13 +260,12 @@ properties:
       Hierarchical Namespace is enabled for the account.
     fullName: owner
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'owner?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: permissions
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.permissions'
     package: '@azure/storage-file-datalake'
@@ -295,13 +275,12 @@ properties:
       for the account.
     fullName: permissions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'permissions?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: properties
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.properties'
     package: '@azure/storage-file-datalake'
@@ -312,13 +291,12 @@ properties:
       may only contain ASCII characters in the ISO-8859-1 character set.
     fullName: properties
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'properties?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: requestId
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.requestId'
     package: '@azure/storage-file-datalake'
@@ -327,13 +305,12 @@ properties:
       and correlation.
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: resourceType
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.resourceType'
     package: '@azure/storage-file-datalake'
@@ -342,23 +319,21 @@ properties:
       set, the value is "file".
     fullName: resourceType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'resourceType?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: version
     uid: '@azure/storage-file-datalake.PathGetPropertiesHeadersModel.version'
     package: '@azure/storage-file-datalake'
     summary: The version of the REST protocol used to process the request.
     fullName: version
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'version?: string'
       return:
-        type: string
         description: ''
+        type: string

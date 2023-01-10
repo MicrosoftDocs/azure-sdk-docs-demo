@@ -5,7 +5,6 @@ package: '@azure/app-configuration'
 summary: Provides configuration options for AppConfigurationClient.
 fullName: AppConfigurationClientOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,23 +14,21 @@ properties:
     summary: Options that control how to retry failed requests.
     fullName: retryOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'retryOptions?: RetryOptions'
       return:
-        type: <xref uid="@azure/app-configuration.RetryOptions" />
         description: ''
+        type: <xref uid="@azure/app-configuration.RetryOptions" />
   - name: userAgentOptions
     uid: '@azure/app-configuration.AppConfigurationClientOptions.userAgentOptions'
     package: '@azure/app-configuration'
     summary: Options for adding user agent details to outgoing requests.
     fullName: userAgentOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'userAgentOptions?: UserAgentOptions'
       return:
-        type: UserAgentOptions
         description: ''
+        type: UserAgentOptions

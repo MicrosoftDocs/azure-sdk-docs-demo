@@ -5,10 +5,9 @@ package: '@azure/storage-file-datalake'
 summary: |
   Option interface for Data Lake file - query operations
   See:
-  - <xref:DataLakeFileClient.query>
+  - <xref:@azure/storage-file-datalake.DataLakeFileClient.query>
 fullName: FileQueryOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -23,103 +22,112 @@ properties:
       `AbortSignal`.
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
   - name: conditions
     uid: '@azure/storage-file-datalake.FileQueryOptions.conditions'
     package: '@azure/storage-file-datalake'
     summary: Conditions to meet when uploading to the block file.
     fullName: conditions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'conditions?: DataLakeRequestConditions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.DataLakeRequestConditions" />
         description: ''
+        type: <xref uid="@azure/storage-file-datalake.DataLakeRequestConditions" />
+  - name: customerProvidedKey
+    uid: '@azure/storage-file-datalake.FileQueryOptions.customerProvidedKey'
+    package: '@azure/storage-file-datalake'
+    summary: Customer Provided Key Info.
+    fullName: customerProvidedKey
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'customerProvidedKey?: CpkInfo'
+      return:
+        description: ''
+        type: <xref uid="@azure/storage-file-datalake.CpkInfo" />
   - name: inputTextConfiguration
     uid: '@azure/storage-file-datalake.FileQueryOptions.inputTextConfiguration'
     package: '@azure/storage-file-datalake'
     summary: Configurations for the query input.
     fullName: inputTextConfiguration
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         inputTextConfiguration?: FileQueryJsonTextConfiguration |
         FileQueryCsvTextConfiguration | FileQueryParquetConfiguration
       return:
+        description: ''
         type: >-
           <xref
           uid="@azure/storage-file-datalake.FileQueryJsonTextConfiguration" /> |
           <xref uid="@azure/storage-file-datalake.FileQueryCsvTextConfiguration"
           /> | <xref
           uid="@azure/storage-file-datalake.FileQueryParquetConfiguration" />
-        description: ''
   - name: onError
     uid: '@azure/storage-file-datalake.FileQueryOptions.onError'
     package: '@azure/storage-file-datalake'
     summary: Callback to receive error events during the query operaiton.
     fullName: onError
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'onError?: (error: FileQueryError) => void'
       return:
-        type: '(error: FileQueryError) =&gt; void'
         description: ''
+        type: '(error: FileQueryError) =&gt; void'
   - name: onProgress
     uid: '@azure/storage-file-datalake.FileQueryOptions.onProgress'
     package: '@azure/storage-file-datalake'
     summary: Callback to receive events on the progress of query operation.
     fullName: onProgress
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'onProgress?: (progress: TransferProgressEvent) => void'
       return:
-        type: '(progress: TransferProgressEvent) =&gt; void'
         description: ''
+        type: '(progress: TransferProgressEvent) =&gt; void'
   - name: outputTextConfiguration
     uid: '@azure/storage-file-datalake.FileQueryOptions.outputTextConfiguration'
     package: '@azure/storage-file-datalake'
     summary: Configurations for the query output.
     fullName: outputTextConfiguration
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         outputTextConfiguration?: FileQueryJsonTextConfiguration |
         FileQueryCsvTextConfiguration | FileQueryArrowConfiguration
       return:
+        description: ''
         type: >-
           <xref
           uid="@azure/storage-file-datalake.FileQueryJsonTextConfiguration" /> |
           <xref uid="@azure/storage-file-datalake.FileQueryCsvTextConfiguration"
           /> | <xref
           uid="@azure/storage-file-datalake.FileQueryArrowConfiguration" />
-        description: ''
+inheritedProperties:
   - name: tracingOptions
     uid: '@azure/storage-file-datalake.FileQueryOptions.tracingOptions'
     package: '@azure/storage-file-datalake'
     summary: Options to configure spans created when tracing is enabled.
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
-        type: OperationTracingOptions
         description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-file-datalake.CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />

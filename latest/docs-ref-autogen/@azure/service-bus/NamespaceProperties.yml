@@ -5,7 +5,6 @@ package: '@azure/service-bus'
 summary: Represents the metadata related to a service bus namespace.
 fullName: NamespaceProperties
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,13 +14,12 @@ properties:
     summary: The time at which the namespace was created.
     fullName: createdAt
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'createdAt: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: messagingSku
     uid: '@azure/service-bus.NamespaceProperties.messagingSku'
     package: '@azure/service-bus'
@@ -30,13 +28,12 @@ properties:
       "Basic", "Standard" and "Premium"
     fullName: messagingSku
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'messagingSku: "Basic" | "Premium" | "Standard"'
       return:
-        type: '"Basic" | "Premium" | "Standard"'
         description: ''
+        type: '"Basic" | "Premium" | "Standard"'
   - name: messagingUnits
     uid: '@azure/service-bus.NamespaceProperties.messagingUnits'
     package: '@azure/service-bus'
@@ -49,36 +46,33 @@ properties:
       namespaces.
     fullName: messagingUnits
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'messagingUnits: number | undefined'
       return:
-        type: number | undefined
         description: ''
+        type: number | undefined
   - name: modifiedAt
     uid: '@azure/service-bus.NamespaceProperties.modifiedAt'
     package: '@azure/service-bus'
     summary: The last time at which the namespace was modified.
     fullName: modifiedAt
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'modifiedAt: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: name
     uid: '@azure/service-bus.NamespaceProperties.name'
     package: '@azure/service-bus'
     summary: Name of the namespace.
     fullName: name
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'name: string'
       return:
-        type: string
         description: ''
+        type: string

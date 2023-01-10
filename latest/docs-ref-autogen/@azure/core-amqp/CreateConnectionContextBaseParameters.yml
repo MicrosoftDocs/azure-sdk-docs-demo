@@ -7,7 +7,6 @@ summary: >-
   context.
 fullName: CreateConnectionContextBaseParameters
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,13 +18,12 @@ properties:
       connection string.
     fullName: config
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'config: ConnectionConfig'
       return:
-        type: <xref uid="@azure/core-amqp.ConnectionConfig" />
         description: ''
+        type: <xref uid="@azure/core-amqp.ConnectionConfig" />
   - name: connectionProperties
     uid: >-
       @azure/core-amqp.CreateConnectionContextBaseParameters.connectionProperties
@@ -35,13 +33,12 @@ properties:
       the AMQP connection.
     fullName: connectionProperties
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'connectionProperties: ConnectionProperties'
       return:
-        type: <xref uid="@azure/core-amqp.ConnectionProperties" />
         description: ''
+        type: <xref uid="@azure/core-amqp.ConnectionProperties" />
   - name: isEntityPathRequired
     uid: >-
       @azure/core-amqp.CreateConnectionContextBaseParameters.isEntityPathRequired
@@ -53,13 +50,12 @@ properties:
       Default value false.
     fullName: isEntityPathRequired
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'isEntityPathRequired?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: operationTimeoutInMs
     uid: >-
       @azure/core-amqp.CreateConnectionContextBaseParameters.operationTimeoutInMs
@@ -73,10 +69,9 @@ properties:
       timeout occurs. Default: `60000 milliseconds`.
     fullName: operationTimeoutInMs
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'operationTimeoutInMs?: number'
       return:
-        type: number
         description: ''
+        type: number

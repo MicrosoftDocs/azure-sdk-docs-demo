@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: Blob info from a Filter Blobs API call
 fullName: FilterBlobItemModel
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,36 +14,33 @@ properties:
     summary: ''
     fullName: containerName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'containerName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: name
     uid: '@azure/storage-blob.FilterBlobItemModel.name'
     package: '@azure/storage-blob'
     summary: ''
     fullName: name
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'name: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: tags
     uid: '@azure/storage-blob.FilterBlobItemModel.tags'
     package: '@azure/storage-blob'
     summary: Blob tags
     fullName: tags
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tags?: BlobTags'
       return:
-        type: <xref uid="@azure/storage-blob.BlobTags" />
         description: ''
+        type: <xref uid="@azure/storage-blob.BlobTags" />

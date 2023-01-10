@@ -5,7 +5,6 @@ package: '@azure/event-hubs'
 summary: The set of properties that comprise an Event Hub connection string.
 fullName: EventHubConnectionStringProperties
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,13 +14,12 @@ properties:
     summary: The value for "Endpoint" in the connection string.
     fullName: endpoint
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'endpoint: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: eventHubName
     uid: '@azure/event-hubs.EventHubConnectionStringProperties.eventHubName'
     package: '@azure/event-hubs'
@@ -35,13 +33,12 @@ properties:
       will not have the EntityPath in it.
     fullName: eventHubName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'eventHubName?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: fullyQualifiedNamespace
     uid: >-
       @azure/event-hubs.EventHubConnectionStringProperties.fullyQualifiedNamespace
@@ -57,13 +54,12 @@ properties:
       EventHubConsumerClient.
     fullName: fullyQualifiedNamespace
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'fullyQualifiedNamespace: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: sharedAccessKey
     uid: '@azure/event-hubs.EventHubConnectionStringProperties.sharedAccessKey'
     package: '@azure/event-hubs'
@@ -77,13 +73,12 @@ properties:
       the connection to the service.
     fullName: sharedAccessKey
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sharedAccessKey?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: sharedAccessKeyName
     uid: '@azure/event-hubs.EventHubConnectionStringProperties.sharedAccessKeyName'
     package: '@azure/event-hubs'
@@ -97,13 +92,12 @@ properties:
       the connection to the service.
     fullName: sharedAccessKeyName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sharedAccessKeyName?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: sharedAccessSignature
     uid: '@azure/event-hubs.EventHubConnectionStringProperties.sharedAccessSignature'
     package: '@azure/event-hubs'
@@ -117,10 +111,9 @@ properties:
       user and appended to the connection string for ease of use.
     fullName: sharedAccessSignature
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sharedAccessSignature?: string'
       return:
-        type: string
         description: ''
+        type: string

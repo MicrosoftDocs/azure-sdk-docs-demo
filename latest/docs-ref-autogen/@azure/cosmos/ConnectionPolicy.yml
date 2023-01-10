@@ -7,7 +7,6 @@ summary: >-
   Cosmos DB database service.
 fullName: ConnectionPolicy
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,13 +18,12 @@ properties:
       Gateway option)
     fullName: connectionMode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'connectionMode?: ConnectionMode'
       return:
-        type: <xref uid="@azure/cosmos.ConnectionMode" />
         description: ''
+        type: <xref uid="@azure/cosmos.ConnectionMode" />
   - name: enableBackgroundEndpointRefreshing
     uid: '@azure/cosmos.ConnectionPolicy.enableBackgroundEndpointRefreshing'
     package: '@azure/cosmos'
@@ -37,13 +35,12 @@ properties:
       failed requests.
     fullName: enableBackgroundEndpointRefreshing
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'enableBackgroundEndpointRefreshing?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: enableEndpointDiscovery
     uid: '@azure/cosmos.ConnectionPolicy.enableEndpointDiscovery'
     package: '@azure/cosmos'
@@ -55,13 +52,12 @@ properties:
       destroying the CosmosClient inside another process or in the browser.
     fullName: enableEndpointDiscovery
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'enableEndpointDiscovery?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: endpointRefreshRateInMs
     uid: '@azure/cosmos.ConnectionPolicy.endpointRefreshRateInMs'
     package: '@azure/cosmos'
@@ -70,26 +66,24 @@ properties:
       in the background
     fullName: endpointRefreshRateInMs
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'endpointRefreshRateInMs?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: preferredLocations
     uid: '@azure/cosmos.ConnectionPolicy.preferredLocations'
     package: '@azure/cosmos'
     summary: List of azure regions to be used as preferred locations for read requests.
     fullName: preferredLocations
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'preferredLocations?: string[]'
       return:
-        type: 'string[]'
         description: ''
+        type: 'string[]'
   - name: requestTimeout
     uid: '@azure/cosmos.ConnectionPolicy.requestTimeout'
     package: '@azure/cosmos'
@@ -98,13 +92,12 @@ properties:
       in milliseconds.
     fullName: requestTimeout
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestTimeout?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: retryOptions
     uid: '@azure/cosmos.ConnectionPolicy.retryOptions'
     package: '@azure/cosmos'
@@ -113,13 +106,12 @@ properties:
       during retry.
     fullName: retryOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'retryOptions?: RetryOptions'
       return:
-        type: <xref uid="@azure/cosmos.RetryOptions" />
         description: ''
+        type: <xref uid="@azure/cosmos.RetryOptions" />
   - name: useMultipleWriteLocations
     uid: '@azure/cosmos.ConnectionPolicy.useMultipleWriteLocations'
     package: '@azure/cosmos'
@@ -130,10 +122,9 @@ properties:
       Default is `false`.
     fullName: useMultipleWriteLocations
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'useMultipleWriteLocations?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean

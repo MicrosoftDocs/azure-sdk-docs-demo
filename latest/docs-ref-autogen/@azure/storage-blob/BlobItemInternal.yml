@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: An Azure Storage blob
 fullName: BlobItemInternal
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,26 +14,24 @@ properties:
     summary: Blob tags
     fullName: blobTags
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobTags?: BlobTags'
       return:
-        type: <xref uid="@azure/storage-blob.BlobTags" />
         description: ''
+        type: <xref uid="@azure/storage-blob.BlobTags" />
   - name: deleted
     uid: '@azure/storage-blob.BlobItemInternal.deleted'
     package: '@azure/storage-blob'
     summary: ''
     fullName: deleted
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'deleted: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: hasVersionsOnly
     uid: '@azure/storage-blob.BlobItemInternal.hasVersionsOnly'
     package: '@azure/storage-blob'
@@ -43,101 +40,93 @@ properties:
       true.
     fullName: hasVersionsOnly
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'hasVersionsOnly?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: isCurrentVersion
     uid: '@azure/storage-blob.BlobItemInternal.isCurrentVersion'
     package: '@azure/storage-blob'
     summary: ''
     fullName: isCurrentVersion
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'isCurrentVersion?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: metadata
     uid: '@azure/storage-blob.BlobItemInternal.metadata'
     package: '@azure/storage-blob'
     summary: Dictionary of <string>
     fullName: metadata
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'metadata?: [key: string]: string'
       return:
-        type: '[key: string]\: string'
         description: ''
+        type: '[key: string]\: string'
   - name: name
     uid: '@azure/storage-blob.BlobItemInternal.name'
     package: '@azure/storage-blob'
     summary: ''
     fullName: name
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'name: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: objectReplicationMetadata
     uid: '@azure/storage-blob.BlobItemInternal.objectReplicationMetadata'
     package: '@azure/storage-blob'
     summary: Dictionary of <string>
     fullName: objectReplicationMetadata
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'objectReplicationMetadata?: [key: string]: string'
       return:
-        type: '[key: string]\: string'
         description: ''
+        type: '[key: string]\: string'
   - name: properties
     uid: '@azure/storage-blob.BlobItemInternal.properties'
     package: '@azure/storage-blob'
     summary: Properties of a blob
     fullName: properties
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'properties: BlobProperties'
       return:
-        type: <xref uid="@azure/storage-blob.BlobProperties" />
         description: ''
+        type: <xref uid="@azure/storage-blob.BlobProperties" />
   - name: snapshot
     uid: '@azure/storage-blob.BlobItemInternal.snapshot'
     package: '@azure/storage-blob'
     summary: ''
     fullName: snapshot
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'snapshot: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: versionId
     uid: '@azure/storage-blob.BlobItemInternal.versionId'
     package: '@azure/storage-blob'
     summary: ''
     fullName: versionId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'versionId?: string'
       return:
-        type: string
         description: ''
+        type: string

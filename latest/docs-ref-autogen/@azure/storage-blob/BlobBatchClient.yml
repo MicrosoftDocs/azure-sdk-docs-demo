@@ -5,9 +5,11 @@ package: '@azure/storage-blob'
 summary: >-
   A BlobBatchClient allows you to make batched requests to the Azure Storage
   Blob service.
+
+
+  See https://docs.microsoft.com/en-us/rest/api/storageservices/blob-batch
 fullName: BlobBatchClient
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -16,7 +18,6 @@ constructors:
     package: '@azure/storage-blob'
     summary: Creates an instance of BlobBatchClient.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'new BlobBatchClient(url: string, pipeline: PipelineLike)'
@@ -39,7 +40,6 @@ constructors:
     package: '@azure/storage-blob'
     summary: Creates an instance of BlobBatchClient.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -73,16 +73,15 @@ methods:
     uid: '@azure/storage-blob.BlobBatchClient.createBatch'
     package: '@azure/storage-blob'
     summary: |-
-      Creates a <xref:BlobBatch>.
+      Creates a <xref:@azure/storage-blob.BlobBatch>.
       A BlobBatch represents an aggregated set of operations on blobs.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function createBatch()
+      content: 'function createBatch(): BlobBatch'
       return:
-        type: <xref uid="@azure/storage-blob.BlobBatch" />
         description: ''
+        type: <xref uid="@azure/storage-blob.BlobBatch" />
   - name: 'deleteBlobs(BlobClient[], BlobDeleteOptions)'
     uid: '@azure/storage-blob.BlobBatchClient.deleteBlobs_1'
     package: '@azure/storage-blob'
@@ -101,12 +100,11 @@ methods:
       See [blob batch authorization
       details](https://docs.microsoft.com/en-us/rest/api/storageservices/blob-batch#authorization).
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function deleteBlobs(blobClients: BlobClient[], options?:
-        BlobDeleteOptions)
+        BlobDeleteOptions): Promise<BlobBatchDeleteBlobsResponse>
       parameters:
         - id: blobClients
           type: '<xref uid="@azure/storage-blob.BlobClient" />[]'
@@ -116,10 +114,10 @@ methods:
           description: |
             -
       return:
+        description: ''
         type: >-
           Promise&lt;<xref
           uid="@azure/storage-blob.BlobBatchDeleteBlobsResponse" />&gt;
-        description: ''
   - name: >-
       deleteBlobs(string[], StorageSharedKeyCredential | AnonymousCredential |
       TokenCredential, BlobDeleteOptions)
@@ -140,13 +138,12 @@ methods:
       See [blob batch authorization
       details](https://docs.microsoft.com/en-us/rest/api/storageservices/blob-batch#authorization).
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function deleteBlobs(urls: string[], credential:
         StorageSharedKeyCredential | AnonymousCredential | TokenCredential,
-        options?: BlobDeleteOptions)
+        options?: BlobDeleteOptions): Promise<BlobBatchDeleteBlobsResponse>
       parameters:
         - id: urls
           type: 'string[]'
@@ -167,10 +164,10 @@ methods:
           description: |
             -
       return:
+        description: ''
         type: >-
           Promise&lt;<xref
           uid="@azure/storage-blob.BlobBatchDeleteBlobsResponse" />&gt;
-        description: ''
   - name: 'setBlobsAccessTier(BlobClient[], AccessTier, BlobSetTierOptions)'
     uid: '@azure/storage-blob.BlobBatchClient.setBlobsAccessTier_1'
     package: '@azure/storage-blob'
@@ -197,12 +194,12 @@ methods:
       with specified credential.See [blob batch authorization
       details](https://docs.microsoft.com/en-us/rest/api/storageservices/blob-batch#authorization).
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function setBlobsAccessTier(blobClients: BlobClient[], tier: AccessTier,
-        options?: BlobSetTierOptions)
+        options?: BlobSetTierOptions):
+        Promise<BlobBatchSetBlobsAccessTierResponse>
       parameters:
         - id: blobClients
           type: '<xref uid="@azure/storage-blob.BlobClient" />[]'
@@ -215,10 +212,10 @@ methods:
           description: |
             -
       return:
+        description: ''
         type: >-
           Promise&lt;<xref
           uid="@azure/storage-blob.BlobBatchSetBlobsAccessTierResponse" />&gt;
-        description: ''
   - name: >-
       setBlobsAccessTier(string[], StorageSharedKeyCredential |
       AnonymousCredential | TokenCredential, AccessTier, BlobSetTierOptions)
@@ -247,13 +244,13 @@ methods:
       with specified credential.See [blob batch authorization
       details](https://docs.microsoft.com/en-us/rest/api/storageservices/blob-batch#authorization).
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function setBlobsAccessTier(urls: string[], credential:
         StorageSharedKeyCredential | AnonymousCredential | TokenCredential,
-        tier: AccessTier, options?: BlobSetTierOptions)
+        tier: AccessTier, options?: BlobSetTierOptions):
+        Promise<BlobBatchSetBlobsAccessTierResponse>
       parameters:
         - id: urls
           type: 'string[]'
@@ -277,14 +274,14 @@ methods:
           description: |
             -
       return:
+        description: ''
         type: >-
           Promise&lt;<xref
           uid="@azure/storage-blob.BlobBatchSetBlobsAccessTierResponse" />&gt;
-        description: ''
   - name: 'submitBatch(BlobBatch, BlobBatchSubmitBatchOptionalParams)'
     uid: '@azure/storage-blob.BlobBatchClient.submitBatch'
     package: '@azure/storage-blob'
-    summary: |
+    summary: |-
       Submit batch request which consists of multiple subrequests.
       Get `blobBatchClient` and other details before running the snippets.
       `blobServiceClient.getBlobBatchClient()` gives the `blobBatchClient`
@@ -312,13 +309,16 @@ methods:
       const batchResp = await blobBatchClient.submitBatch(batchRequest);
       console.log(batchResp.subResponsesSucceededCount);
       ```
+
+
+      See https://docs.microsoft.com/en-us/rest/api/storageservices/blob-batch
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function submitBatch(batchRequest: BlobBatch, options?:
-        BlobBatchSubmitBatchOptionalParams)
+        BlobBatchSubmitBatchOptionalParams):
+        Promise<BlobBatchSubmitBatchResponse>
       parameters:
         - id: batchRequest
           type: <xref uid="@azure/storage-blob.BlobBatch" />
@@ -330,7 +330,7 @@ methods:
           description: |
             -
       return:
+        description: ''
         type: >-
           Promise&lt;<xref
           uid="@azure/storage-blob.BlobBatchSubmitBatchResponse" />&gt;
-        description: ''

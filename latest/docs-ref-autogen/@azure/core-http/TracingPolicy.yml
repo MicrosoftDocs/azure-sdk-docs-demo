@@ -2,10 +2,9 @@
 name: TracingPolicy
 uid: '@azure/core-http.TracingPolicy'
 package: '@azure/core-http'
-summary: ''
+summary: A policy that wraps outgoing requests with a tracing span.
 fullName: TracingPolicy
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -14,7 +13,6 @@ constructors:
     package: '@azure/core-http'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -30,7 +28,7 @@ constructors:
         - id: tracingOptions
           type: <xref uid="@azure/core-http.TracingPolicyOptions" />
           description: ''
-methods:
+inheritedMethods:
   - name: 'log(HttpPipelineLogLevel, string)'
     uid: '@azure/core-http.TracingPolicy.log'
     package: '@azure/core-http'
@@ -41,7 +39,6 @@ methods:
       the log level does not meat the logger's threshold, then nothing will be
       logged.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function log(logLevel: HttpPipelineLogLevel, message: string)'
@@ -53,52 +50,58 @@ methods:
           type: string
           description: |
             The message of this log.
-  - name: sendRequest(WebResourceLike)
-    uid: '@azure/core-http.TracingPolicy.sendRequest'
-    package: '@azure/core-http'
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function sendRequest(request: WebResourceLike)'
-      parameters:
-        - id: request
-          type: <xref uid="@azure/core-http.WebResourceLike" />
-          description: ''
-      return:
-        type: Promise&lt;<xref uid="@azure/core-http.HttpOperationResponse" />&gt;
-        description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [BaseRequestPolicy.log](xref:@azure/core-http.BaseRequestPolicy.log)
   - name: shouldLog(HttpPipelineLogLevel)
     uid: '@azure/core-http.TracingPolicy.shouldLog'
     package: '@azure/core-http'
     summary: Get whether or not a log with the provided log level should be logged.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function shouldLog(logLevel: HttpPipelineLogLevel)'
+      content: 'function shouldLog(logLevel: HttpPipelineLogLevel): boolean'
       parameters:
         - id: logLevel
           type: <xref uid="@azure/core-http.HttpPipelineLogLevel" />
           description: The log level of the log that will be logged.
       return:
-        type: boolean
         description: Whether or not a log with the provided log level should be logged.
-  - name: tryCreateSpan(WebResourceLike)
-    uid: '@azure/core-http.TracingPolicy.tryCreateSpan'
+        type: boolean
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [BaseRequestPolicy.shouldLog](xref:@azure/core-http.BaseRequestPolicy.shouldLog)
+methods:
+  - name: sendRequest(WebResourceLike)
+    uid: '@azure/core-http.TracingPolicy.sendRequest'
     package: '@azure/core-http'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function tryCreateSpan(request: WebResourceLike)'
+      content: >-
+        function sendRequest(request: WebResourceLike):
+        Promise<HttpOperationResponse>
       parameters:
         - id: request
           type: <xref uid="@azure/core-http.WebResourceLike" />
           description: ''
       return:
-        type: Span | undefined
         description: ''
+        type: Promise&lt;<xref uid="@azure/core-http.HttpOperationResponse" />&gt;
+  - name: tryCreateSpan(WebResourceLike)
+    uid: '@azure/core-http.TracingPolicy.tryCreateSpan'
+    package: '@azure/core-http'
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'function tryCreateSpan(request: WebResourceLike): Span | undefined'
+      parameters:
+        - id: request
+          type: <xref uid="@azure/core-http.WebResourceLike" />
+          description: ''
+      return:
+        description: ''
+        type: Span | undefined
 extends: <xref uid="@azure/core-http.BaseRequestPolicy" />

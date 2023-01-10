@@ -3,14 +3,29 @@ name: PathDeleteIfExistsResponse
 uid: '@azure/storage-file-datalake.PathDeleteIfExistsResponse'
 package: '@azure/storage-file-datalake'
 summary: >-
-  Contains response data for the <xref:DataLakePathClient.deleteIfExists>
+  Contains response data for the
+  <xref:@azure/storage-file-datalake.DataLakePathClient.deleteIfExists>
   operation.
 fullName: PathDeleteIfExistsResponse
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
+  - name: succeeded
+    uid: '@azure/storage-file-datalake.PathDeleteIfExistsResponse.succeeded'
+    package: '@azure/storage-file-datalake'
+    summary: >-
+      Indicate whether the directory/file is successfully deleted. Is false if
+      the directory/file doesn't exist in the first place.
+    fullName: succeeded
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'succeeded: boolean'
+      return:
+        description: ''
+        type: boolean
+inheritedProperties:
   - name: continuation
     uid: '@azure/storage-file-datalake.PathDeleteIfExistsResponse.continuation'
     package: '@azure/storage-file-datalake'
@@ -23,13 +38,15 @@ properties:
       directory.
     fullName: continuation
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'continuation?: string'
       return:
-        type: string
         description: ''
+        type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [PathDeleteHeaders.continuation](xref:@azure/storage-file-datalake.PathDeleteHeaders.continuation)
   - name: date
     uid: '@azure/storage-file-datalake.PathDeleteIfExistsResponse.date'
     package: '@azure/storage-file-datalake'
@@ -38,13 +55,15 @@ properties:
       which the response was initiated.
     fullName: date
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'date?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [PathDeleteHeaders.date](xref:@azure/storage-file-datalake.PathDeleteHeaders.date)
   - name: deletionId
     uid: '@azure/storage-file-datalake.PathDeleteIfExistsResponse.deletionId'
     package: '@azure/storage-file-datalake'
@@ -54,26 +73,30 @@ properties:
       restore it. See the Undelete REST API for more information.
     fullName: deletionId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'deletionId?: string'
       return:
-        type: string
         description: ''
+        type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [PathDeleteHeaders.deletionId](xref:@azure/storage-file-datalake.PathDeleteHeaders.deletionId)
   - name: errorCode
     uid: '@azure/storage-file-datalake.PathDeleteIfExistsResponse.errorCode'
     package: '@azure/storage-file-datalake'
     summary: Error Code
     fullName: errorCode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'errorCode?: string'
       return:
-        type: string
         description: ''
+        type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [PathDeleteHeaders.errorCode](xref:@azure/storage-file-datalake.PathDeleteHeaders.errorCode)
   - name: requestId
     uid: '@azure/storage-file-datalake.PathDeleteIfExistsResponse.requestId'
     package: '@azure/storage-file-datalake'
@@ -82,39 +105,30 @@ properties:
       and correlation.
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId?: string'
       return:
+        description: ''
         type: string
-        description: ''
-  - name: succeeded
-    uid: '@azure/storage-file-datalake.PathDeleteIfExistsResponse.succeeded'
-    package: '@azure/storage-file-datalake'
-    summary: >-
-      Indicate whether the directory/file is successfully deleted. Is false if
-      the directory/file doesn't exist in the first place.
-    fullName: succeeded
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'succeeded: boolean'
-      return:
-        type: boolean
-        description: ''
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [PathDeleteHeaders.requestId](xref:@azure/storage-file-datalake.PathDeleteHeaders.requestId)
   - name: version
     uid: '@azure/storage-file-datalake.PathDeleteIfExistsResponse.version'
     package: '@azure/storage-file-datalake'
     summary: The version of the REST protocol used to process the request.
     fullName: version
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'version?: string'
       return:
-        type: string
         description: ''
-extends: <xref uid="@azure/storage-file-datalake.PathDeleteHeaders" /> & Object
+        type: string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [PathDeleteHeaders.version](xref:@azure/storage-file-datalake.PathDeleteHeaders.version)
+extends: >-
+  <xref uid="@azure/storage-file-datalake.PathDeleteHeaders" /> & { _response:
+  HttpResponse & { parsedHeaders: PathDeleteHeaders } }

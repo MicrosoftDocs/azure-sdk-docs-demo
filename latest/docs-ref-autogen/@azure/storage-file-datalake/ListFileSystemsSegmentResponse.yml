@@ -5,7 +5,6 @@ package: '@azure/storage-file-datalake'
 summary: ''
 fullName: ListFileSystemsSegmentResponse
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -16,13 +15,12 @@ properties:
     summary: ''
     fullName: continuationToken
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'continuationToken?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: fileSystemItems
     uid: >-
       @azure/storage-file-datalake.ListFileSystemsSegmentResponse.fileSystemItems
@@ -30,52 +28,48 @@ properties:
     summary: ''
     fullName: fileSystemItems
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'fileSystemItems: FileSystemItem[]'
       return:
-        type: '<xref uid="@azure/storage-file-datalake.FileSystemItem" />[]'
         description: ''
+        type: '<xref uid="@azure/storage-file-datalake.FileSystemItem" />[]'
   - name: marker
     uid: '@azure/storage-file-datalake.ListFileSystemsSegmentResponse.marker'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: marker
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'marker?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: maxPageSize
     uid: '@azure/storage-file-datalake.ListFileSystemsSegmentResponse.maxPageSize'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: maxPageSize
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'maxPageSize?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: prefix
     uid: '@azure/storage-file-datalake.ListFileSystemsSegmentResponse.prefix'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: prefix
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'prefix?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: serviceEndpoint
     uid: >-
       @azure/storage-file-datalake.ListFileSystemsSegmentResponse.serviceEndpoint
@@ -83,10 +77,9 @@ properties:
     summary: ''
     fullName: serviceEndpoint
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'serviceEndpoint: string'
       return:
-        type: string
         description: ''
+        type: string

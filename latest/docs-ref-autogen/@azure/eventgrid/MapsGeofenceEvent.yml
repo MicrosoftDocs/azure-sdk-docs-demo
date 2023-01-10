@@ -7,7 +7,6 @@ summary: >-
   (GeofenceEntered, GeofenceExited, GeofenceResult).
 fullName: MapsGeofenceEvent
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,13 +18,12 @@ properties:
       user time in the request.
     fullName: expiredGeofenceGeometryId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'expiredGeofenceGeometryId: string[]'
       return:
-        type: 'string[]'
         description: ''
+        type: 'string[]'
   - name: geometries
     uid: '@azure/eventgrid.MapsGeofenceEvent.geometries'
     package: '@azure/eventgrid'
@@ -34,13 +32,12 @@ properties:
       position or have an overlap with the searchBuffer around the fence.
     fullName: geometries
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'geometries: MapsGeofenceGeometry[]'
       return:
-        type: '<xref uid="@azure/eventgrid.MapsGeofenceGeometry" />[]'
         description: ''
+        type: '<xref uid="@azure/eventgrid.MapsGeofenceGeometry" />[]'
   - name: invalidPeriodGeofenceGeometryId
     uid: '@azure/eventgrid.MapsGeofenceEvent.invalidPeriodGeofenceGeometryId'
     package: '@azure/eventgrid'
@@ -49,13 +46,12 @@ properties:
       relative to the user time in the request.
     fullName: invalidPeriodGeofenceGeometryId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'invalidPeriodGeofenceGeometryId: string[]'
       return:
-        type: 'string[]'
         description: ''
+        type: 'string[]'
   - name: isEventPublished
     uid: '@azure/eventgrid.MapsGeofenceEvent.isEventPublished'
     package: '@azure/eventgrid'
@@ -65,10 +61,9 @@ properties:
       subscriber.
     fullName: isEventPublished
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'isEventPublished: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean

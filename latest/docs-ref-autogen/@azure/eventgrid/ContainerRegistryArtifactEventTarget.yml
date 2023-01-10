@@ -5,7 +5,6 @@ package: '@azure/eventgrid'
 summary: The target of the event.
 fullName: ContainerRegistryArtifactEventTarget
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,88 +14,81 @@ properties:
     summary: The digest of the artifact.
     fullName: digest
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'digest: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: mediaType
     uid: '@azure/eventgrid.ContainerRegistryArtifactEventTarget.mediaType'
     package: '@azure/eventgrid'
     summary: The MIME type of the artifact.
     fullName: mediaType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'mediaType: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: name
     uid: '@azure/eventgrid.ContainerRegistryArtifactEventTarget.name'
     package: '@azure/eventgrid'
     summary: The name of the artifact.
     fullName: name
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'name: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: repository
     uid: '@azure/eventgrid.ContainerRegistryArtifactEventTarget.repository'
     package: '@azure/eventgrid'
     summary: The repository name of the artifact.
     fullName: repository
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'repository: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: size
     uid: '@azure/eventgrid.ContainerRegistryArtifactEventTarget.size'
     package: '@azure/eventgrid'
     summary: The size in bytes of the artifact.
     fullName: size
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'size: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: tag
     uid: '@azure/eventgrid.ContainerRegistryArtifactEventTarget.tag'
     package: '@azure/eventgrid'
     summary: The tag of the artifact.
     fullName: tag
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tag: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: version
     uid: '@azure/eventgrid.ContainerRegistryArtifactEventTarget.version'
     package: '@azure/eventgrid'
     summary: The version of the artifact.
     fullName: version
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'version: string'
       return:
-        type: string
         description: ''
+        type: string

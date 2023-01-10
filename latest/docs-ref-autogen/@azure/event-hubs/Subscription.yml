@@ -7,7 +7,6 @@ summary: >-
   the `EventHubConsumerClient`.
 fullName: Subscription
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,13 +18,12 @@ properties:
       `true` - is running; `false` otherwise.
     fullName: isRunning
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'isRunning: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
 methods:
   - name: close()
     uid: '@azure/event-hubs.Subscription.close'
@@ -38,10 +36,9 @@ methods:
 
       partitions as abandoned, freeing them up to be read by other consumers.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function close()
+      content: 'function close(): Promise<void>'
       return:
-        type: Promise&lt;void&gt;
         description: Promise<void>
+        type: Promise&lt;void&gt;

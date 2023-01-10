@@ -5,7 +5,6 @@ package: '@azure/eventgrid'
 summary: Details of JobOutput errors.
 fullName: MediaJobError
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,13 +18,12 @@ properties:
       the server.
     fullName: category
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'category: MediaJobErrorCategory'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobErrorCategory" />
         description: ''
+        type: <xref uid="@azure/eventgrid.MediaJobErrorCategory" />
   - name: code
     uid: '@azure/eventgrid.MediaJobError.code'
     package: '@azure/eventgrid'
@@ -36,13 +34,12 @@ properties:
       the server.
     fullName: code
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'code: MediaJobErrorCode'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobErrorCode" />
         description: ''
+        type: <xref uid="@azure/eventgrid.MediaJobErrorCode" />
   - name: details
     uid: '@azure/eventgrid.MediaJobError.details'
     package: '@azure/eventgrid'
@@ -53,13 +50,12 @@ properties:
       the server.
     fullName: details
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'details: MediaJobErrorDetail[]'
       return:
-        type: '<xref uid="@azure/eventgrid.MediaJobErrorDetail" />[]'
         description: ''
+        type: '<xref uid="@azure/eventgrid.MediaJobErrorDetail" />[]'
   - name: message
     uid: '@azure/eventgrid.MediaJobError.message'
     package: '@azure/eventgrid'
@@ -70,13 +66,12 @@ properties:
       the server.
     fullName: message
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'message: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: retry
     uid: '@azure/eventgrid.MediaJobError.retry'
     package: '@azure/eventgrid'
@@ -88,10 +83,9 @@ properties:
       the server.
     fullName: retry
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'retry: MediaJobRetry'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobRetry" />
         description: ''
+        type: <xref uid="@azure/eventgrid.MediaJobRetry" />

@@ -7,7 +7,6 @@ summary: >-
   related metadata.
 fullName: CustomEntity
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,13 +18,12 @@ properties:
       entity name should be sensitive to accent.
     fullName: accentSensitive
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'accentSensitive?: boolean | null'
       return:
-        type: boolean | null
         description: ''
+        type: boolean | null
   - name: aliases
     uid: '@azure/search-documents.CustomEntity.aliases'
     package: '@azure/search-documents'
@@ -34,13 +32,12 @@ properties:
       spellings or synonyms to the root entity name.
     fullName: aliases
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'aliases?: CustomEntityAlias[] | null'
       return:
-        type: '<xref uid="@azure/search-documents.CustomEntityAlias" />[] | null'
         description: ''
+        type: '<xref uid="@azure/search-documents.CustomEntityAlias" />[] | null'
   - name: caseSensitive
     uid: '@azure/search-documents.CustomEntity.caseSensitive'
     package: '@azure/search-documents'
@@ -51,13 +48,12 @@ properties:
       MICROSOFT.
     fullName: caseSensitive
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'caseSensitive?: boolean | null'
       return:
-        type: boolean | null
         description: ''
+        type: boolean | null
   - name: defaultAccentSensitive
     uid: '@azure/search-documents.CustomEntity.defaultAccentSensitive'
     package: '@azure/search-documents'
@@ -66,13 +62,12 @@ properties:
       to change the default value of all aliases accentSensitive values.
     fullName: defaultAccentSensitive
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'defaultAccentSensitive?: boolean | null'
       return:
-        type: boolean | null
         description: ''
+        type: boolean | null
   - name: defaultCaseSensitive
     uid: '@azure/search-documents.CustomEntity.defaultCaseSensitive'
     package: '@azure/search-documents'
@@ -81,13 +76,12 @@ properties:
       change the default value of all aliases caseSensitive values.
     fullName: defaultCaseSensitive
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'defaultCaseSensitive?: boolean | null'
       return:
-        type: boolean | null
         description: ''
+        type: boolean | null
   - name: defaultFuzzyEditDistance
     uid: '@azure/search-documents.CustomEntity.defaultFuzzyEditDistance'
     package: '@azure/search-documents'
@@ -96,13 +90,12 @@ properties:
       used to change the default value of all aliases fuzzyEditDistance values.
     fullName: defaultFuzzyEditDistance
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'defaultFuzzyEditDistance?: number | null'
       return:
-        type: number | null
         description: ''
+        type: number | null
   - name: description
     uid: '@azure/search-documents.CustomEntity.description'
     package: '@azure/search-documents'
@@ -112,13 +105,12 @@ properties:
       its entity in the skill output.
     fullName: description
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'description?: string | null'
       return:
-        type: string | null
         description: ''
+        type: string | null
   - name: fuzzyEditDistance
     uid: '@azure/search-documents.CustomEntity.fuzzyEditDistance'
     package: '@azure/search-documents'
@@ -132,13 +124,12 @@ properties:
       otherwise do.
     fullName: fuzzyEditDistance
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'fuzzyEditDistance?: number | null'
       return:
-        type: number | null
         description: ''
+        type: number | null
   - name: id
     uid: '@azure/search-documents.CustomEntity.id'
     package: '@azure/search-documents'
@@ -148,13 +139,12 @@ properties:
       its entity in the skill output.
     fullName: id
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'id?: string | null'
       return:
-        type: string | null
         description: ''
+        type: string | null
   - name: name
     uid: '@azure/search-documents.CustomEntity.name'
     package: '@azure/search-documents'
@@ -164,13 +154,12 @@ properties:
       text being found.
     fullName: name
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'name: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: subtype
     uid: '@azure/search-documents.CustomEntity.subtype'
     package: '@azure/search-documents'
@@ -180,13 +169,12 @@ properties:
       its entity in the skill output.
     fullName: subtype
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'subtype?: string | null'
       return:
-        type: string | null
         description: ''
+        type: string | null
   - name: type
     uid: '@azure/search-documents.CustomEntity.type'
     package: '@azure/search-documents'
@@ -196,10 +184,9 @@ properties:
       its entity in the skill output.
     fullName: type
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'type?: string | null'
       return:
-        type: string | null
         description: ''
+        type: string | null

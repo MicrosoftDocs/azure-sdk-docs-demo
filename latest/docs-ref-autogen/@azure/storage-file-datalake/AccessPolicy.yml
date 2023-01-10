@@ -5,7 +5,6 @@ package: '@azure/storage-file-datalake'
 summary: ''
 fullName: AccessPolicy
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,36 +14,33 @@ properties:
     summary: ''
     fullName: expiresOn
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'expiresOn?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: permissions
     uid: '@azure/storage-file-datalake.AccessPolicy.permissions'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: permissions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'permissions: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: startsOn
     uid: '@azure/storage-file-datalake.AccessPolicy.startsOn'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: startsOn
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'startsOn?: Date'
       return:
-        type: Date
         description: ''
+        type: Date

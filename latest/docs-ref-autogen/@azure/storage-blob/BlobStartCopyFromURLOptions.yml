@@ -2,10 +2,11 @@
 name: BlobStartCopyFromURLOptions
 uid: '@azure/storage-blob.BlobStartCopyFromURLOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:BlobClient.beginCopyFromURL> operation.'
+summary: >-
+  Options to configure the
+  <xref:@azure/storage-blob.BlobClient.beginCopyFromURL> operation.
 fullName: BlobStartCopyFromURLOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -20,13 +21,12 @@ properties:
       `AbortSignal`.
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
   - name: conditions
     uid: '@azure/storage-blob.BlobStartCopyFromURLOptions.conditions'
     package: '@azure/storage-blob'
@@ -35,13 +35,12 @@ properties:
       blob.
     fullName: conditions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'conditions?: BlobRequestConditions'
       return:
-        type: <xref uid="@azure/storage-blob.BlobRequestConditions" />
         description: ''
+        type: <xref uid="@azure/storage-blob.BlobRequestConditions" />
   - name: immutabilityPolicy
     uid: '@azure/storage-blob.BlobStartCopyFromURLOptions.immutabilityPolicy'
     package: '@azure/storage-blob'
@@ -54,13 +53,12 @@ properties:
       has version level worm enabled.
     fullName: immutabilityPolicy
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'immutabilityPolicy?: BlobImmutabilityPolicy'
       return:
-        type: <xref uid="@azure/storage-blob.BlobImmutabilityPolicy" />
         description: ''
+        type: <xref uid="@azure/storage-blob.BlobImmutabilityPolicy" />
   - name: legalHold
     uid: '@azure/storage-blob.BlobStartCopyFromURLOptions.legalHold'
     package: '@azure/storage-blob'
@@ -73,13 +71,12 @@ properties:
       has version level worm enabled.
     fullName: legalHold
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'legalHold?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: metadata
     uid: '@azure/storage-blob.BlobStartCopyFromURLOptions.metadata'
     package: '@azure/storage-blob'
@@ -88,13 +85,12 @@ properties:
       being copied.
     fullName: metadata
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-blob.Metadata" />
         description: ''
+        type: <xref uid="@azure/storage-blob.Metadata" />
   - name: rehydratePriority
     uid: '@azure/storage-blob.BlobStartCopyFromURLOptions.rehydratePriority'
     package: '@azure/storage-blob'
@@ -105,26 +101,24 @@ properties:
       https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-rehydration#rehydrate-an-archived-blob-to-an-online-tier
     fullName: rehydratePriority
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'rehydratePriority?: RehydratePriority'
       return:
-        type: <xref uid="@azure/storage-blob.RehydratePriority" />
         description: ''
+        type: <xref uid="@azure/storage-blob.RehydratePriority" />
   - name: sealBlob
     uid: '@azure/storage-blob.BlobStartCopyFromURLOptions.sealBlob'
     package: '@azure/storage-blob'
     summary: Overrides the sealed state of the destination blob. Default true.
     fullName: sealBlob
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sealBlob?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: sourceConditions
     uid: '@azure/storage-blob.BlobStartCopyFromURLOptions.sourceConditions'
     package: '@azure/storage-blob'
@@ -133,26 +127,24 @@ properties:
       to the blob.
     fullName: sourceConditions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sourceConditions?: ModifiedAccessConditions'
       return:
-        type: <xref uid="@azure/storage-blob.ModifiedAccessConditions" />
         description: ''
+        type: <xref uid="@azure/storage-blob.ModifiedAccessConditions" />
   - name: tags
     uid: '@azure/storage-blob.BlobStartCopyFromURLOptions.tags'
     package: '@azure/storage-blob'
     summary: Blob tags.
     fullName: tags
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tags?: Tags'
       return:
-        type: <xref uid="@azure/storage-blob.Tags" />
         description: ''
+        type: <xref uid="@azure/storage-blob.Tags" />
   - name: tier
     uid: '@azure/storage-blob.BlobStartCopyFromURLOptions.tier'
     package: '@azure/storage-blob'
@@ -163,26 +155,28 @@ properties:
       https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers
     fullName: tier
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tier?: BlockBlobTier | PremiumPageBlobTier | string'
       return:
+        description: ''
         type: >-
           <xref uid="@azure/storage-blob.BlockBlobTier" /> | <xref
           uid="@azure/storage-blob.PremiumPageBlobTier" /> | string
-        description: ''
+inheritedProperties:
   - name: tracingOptions
     uid: '@azure/storage-blob.BlobStartCopyFromURLOptions.tracingOptions'
     package: '@azure/storage-blob'
     summary: Options to configure spans created when tracing is enabled.
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
-        type: OperationTracingOptions
         description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-blob.CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-blob.CommonOptions" />

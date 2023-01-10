@@ -7,7 +7,6 @@ summary: >-
   (DeviceTelemetry).
 fullName: DeviceTelemetryEvent
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -17,13 +16,12 @@ properties:
     summary: The content of the message from the device.
     fullName: body
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'body: any'
       return:
-        type: any
         description: ''
+        type: any
   - name: properties
     uid: '@azure/eventgrid.DeviceTelemetryEvent.properties'
     package: '@azure/eventgrid'
@@ -32,23 +30,21 @@ properties:
       message. These fields are optional.
     fullName: properties
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'properties: [key: string]: string'
       return:
-        type: '[key: string]\: string'
         description: ''
+        type: '[key: string]\: string'
   - name: systemProperties
     uid: '@azure/eventgrid.DeviceTelemetryEvent.systemProperties'
     package: '@azure/eventgrid'
     summary: System properties help identify contents and source of the messages.
     fullName: systemProperties
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'systemProperties: [key: string]: string'
       return:
-        type: '[key: string]\: string'
         description: ''
+        type: '[key: string]\: string'

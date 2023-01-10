@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: Specifies HTTP options for conditional requests based on modification time.
 fullName: ModificationConditions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,13 +18,12 @@ properties:
       specified date/time.
     fullName: ifModifiedSince
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'ifModifiedSince?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: ifUnmodifiedSince
     uid: '@azure/storage-blob.ModificationConditions.ifUnmodifiedSince'
     package: '@azure/storage-blob'
@@ -36,10 +34,9 @@ properties:
       specified date/time.
     fullName: ifUnmodifiedSince
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'ifUnmodifiedSince?: Date'
       return:
-        type: Date
         description: ''
+        type: Date

@@ -5,7 +5,6 @@ package: '@azure/search-documents'
 summary: Response containing search results from an index.
 fullName: SearchDocumentsResultBase
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -28,13 +27,12 @@ properties:
       the server.**
     fullName: count
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'count?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: coverage
     uid: '@azure/search-documents.SearchDocumentsResultBase.coverage'
     package: '@azure/search-documents'
@@ -48,13 +46,12 @@ properties:
       the server.**
     fullName: coverage
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'coverage?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: facets
     uid: '@azure/search-documents.SearchDocumentsResultBase.facets'
     package: '@azure/search-documents'
@@ -69,10 +66,9 @@ properties:
       the server.**
     fullName: facets
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'facets?: [key: string]: function'
       return:
-        type: '[key: string]\: function'
         description: ''
+        type: '[key: string]\: function'

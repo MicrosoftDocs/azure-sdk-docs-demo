@@ -5,7 +5,6 @@ package: '@azure/ai-text-analytics'
 summary: ''
 fullName: EntityAssertion
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -17,36 +16,33 @@ properties:
       someone else.
     fullName: association
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'association?: EntityAssociation'
       return:
-        type: <xref uid="@azure/ai-text-analytics.EntityAssociation" />
         description: ''
+        type: <xref uid="@azure/ai-text-analytics.EntityAssociation" />
   - name: certainty
     uid: '@azure/ai-text-analytics.EntityAssertion.certainty'
     package: '@azure/ai-text-analytics'
     summary: Describes the entities certainty and polarity.
     fullName: certainty
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'certainty?: EntityCertainty'
       return:
-        type: <xref uid="@azure/ai-text-analytics.EntityCertainty" />
         description: ''
+        type: <xref uid="@azure/ai-text-analytics.EntityCertainty" />
   - name: conditionality
     uid: '@azure/ai-text-analytics.EntityAssertion.conditionality'
     package: '@azure/ai-text-analytics'
     summary: Describes any conditionality on the entity.
     fullName: conditionality
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'conditionality?: EntityConditionality'
       return:
-        type: <xref uid="@azure/ai-text-analytics.EntityConditionality" />
         description: ''
+        type: <xref uid="@azure/ai-text-analytics.EntityConditionality" />

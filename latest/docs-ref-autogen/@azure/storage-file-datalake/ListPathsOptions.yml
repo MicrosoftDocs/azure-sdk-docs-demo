@@ -5,7 +5,6 @@ package: '@azure/storage-file-datalake'
 summary: ''
 fullName: ListPathsOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,63 +14,62 @@ properties:
     summary: ''
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
   - name: path
     uid: '@azure/storage-file-datalake.ListPathsOptions.path'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: path
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'path?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: recursive
     uid: '@azure/storage-file-datalake.ListPathsOptions.recursive'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: recursive
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'recursive?: boolean'
       return:
+        description: ''
         type: boolean
-        description: ''
-  - name: tracingOptions
-    uid: '@azure/storage-file-datalake.ListPathsOptions.tracingOptions'
-    package: '@azure/storage-file-datalake'
-    summary: Options to configure spans created when tracing is enabled.
-    fullName: tracingOptions
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'tracingOptions?: OperationTracingOptions'
-      return:
-        type: OperationTracingOptions
-        description: ''
   - name: userPrincipalName
     uid: '@azure/storage-file-datalake.ListPathsOptions.userPrincipalName'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: userPrincipalName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'userPrincipalName?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
+inheritedProperties:
+  - name: tracingOptions
+    uid: '@azure/storage-file-datalake.ListPathsOptions.tracingOptions'
+    package: '@azure/storage-file-datalake'
+    summary: Options to configure spans created when tracing is enabled.
+    fullName: tracingOptions
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'tracingOptions?: OperationTracingOptions'
+      return:
+        description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-file-datalake.CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />

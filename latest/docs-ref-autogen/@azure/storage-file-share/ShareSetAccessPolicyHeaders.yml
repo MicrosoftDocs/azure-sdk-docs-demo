@@ -5,7 +5,6 @@ package: '@azure/storage-file-share'
 summary: Defines headers for Share_setAccessPolicy operation.
 fullName: ShareSetAccessPolicyHeaders
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -17,26 +16,24 @@ properties:
       which the response was initiated.
     fullName: date
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'date?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: errorCode
     uid: '@azure/storage-file-share.ShareSetAccessPolicyHeaders.errorCode'
     package: '@azure/storage-file-share'
     summary: Error Code
     fullName: errorCode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'errorCode?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: etag
     uid: '@azure/storage-file-share.ShareSetAccessPolicyHeaders.etag'
     package: '@azure/storage-file-share'
@@ -45,13 +42,12 @@ properties:
       conditionally, in quotes.
     fullName: etag
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'etag?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: lastModified
     uid: '@azure/storage-file-share.ShareSetAccessPolicyHeaders.lastModified'
     package: '@azure/storage-file-share'
@@ -61,13 +57,12 @@ properties:
       Operations on files do not affect the last modified time of the share.
     fullName: lastModified
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'lastModified?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: requestId
     uid: '@azure/storage-file-share.ShareSetAccessPolicyHeaders.requestId'
     package: '@azure/storage-file-share'
@@ -76,23 +71,21 @@ properties:
       for troubleshooting the request.
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: version
     uid: '@azure/storage-file-share.ShareSetAccessPolicyHeaders.version'
     package: '@azure/storage-file-share'
     summary: Indicates the version of the File service used to execute the request.
     fullName: version
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'version?: string'
       return:
-        type: string
         description: ''
+        type: string

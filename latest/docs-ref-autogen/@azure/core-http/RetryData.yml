@@ -5,7 +5,6 @@ package: '@azure/core-http'
 summary: ''
 fullName: RetryData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,36 +14,33 @@ properties:
     summary: ''
     fullName: error
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'error?: RetryError'
       return:
-        type: <xref uid="@azure/core-http.RetryError" />
         description: ''
+        type: <xref uid="@azure/core-http.RetryError" />
   - name: retryCount
     uid: '@azure/core-http.RetryData.retryCount'
     package: '@azure/core-http'
     summary: ''
     fullName: retryCount
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'retryCount: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: retryInterval
     uid: '@azure/core-http.RetryData.retryInterval'
     package: '@azure/core-http'
     summary: ''
     fullName: retryInterval
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'retryInterval: number'
       return:
-        type: number
         description: ''
+        type: number

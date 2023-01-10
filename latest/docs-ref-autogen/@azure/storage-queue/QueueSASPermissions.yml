@@ -14,14 +14,13 @@ summary: >
   the values are set, this should be serialized with toString and set as the
   permissions field on a
 
-  <xref:QueueSASSignatureValues> object. It is possible to construct the
-  permissions string without this class, but
+  <xref:@azure/storage-queue.QueueSASSignatureValues> object. It is possible to
+  construct the permissions string without this class, but
 
   the order of the permissions is particular and this class guarantees
   correctness.
 fullName: QueueSASPermissions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 properties:
@@ -31,75 +30,70 @@ properties:
     summary: Specifies Add access granted.
     fullName: add
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'add: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: process
     uid: '@azure/storage-queue.QueueSASPermissions.process'
     package: '@azure/storage-queue'
     summary: Specifies Process access granted.
     fullName: process
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'process: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: read
     uid: '@azure/storage-queue.QueueSASPermissions.read'
     package: '@azure/storage-queue'
     summary: Specifies Read access granted.
     fullName: read
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'read: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: update
     uid: '@azure/storage-queue.QueueSASPermissions.update'
     package: '@azure/storage-queue'
     summary: Specifies Update access granted.
     fullName: update
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'update: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
 methods:
   - name: parse(string)
     uid: '@azure/storage-queue.QueueSASPermissions.parse'
     package: '@azure/storage-queue'
     summary: >-
-      Creates a <xref:QueueSASPermissions> from the specified permissions
-      string. This method will throw an
+      Creates a <xref:@azure/storage-queue.QueueSASPermissions> from the
+      specified permissions string. This method will throw an
 
       Error if it encounters a character that does not correspond to a valid
       permission.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'static function parse(permissions: string)'
+      content: 'static function parse(permissions: string): QueueSASPermissions'
       parameters:
         - id: permissions
           type: string
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-queue.QueueSASPermissions" />
         description: ''
+        type: <xref uid="@azure/storage-queue.QueueSASPermissions" />
   - name: toString()
     uid: '@azure/storage-queue.QueueSASPermissions.toString'
     package: '@azure/storage-queue'
@@ -109,10 +103,9 @@ methods:
 
       order accepted by the service.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function toString()
+      content: 'function toString(): string'
       return:
-        type: string
         description: A string which represents the QueueSASPermissions
+        type: string

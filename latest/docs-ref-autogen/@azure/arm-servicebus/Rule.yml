@@ -5,7 +5,6 @@ package: '@azure/arm-servicebus'
 summary: Description of Rule Resource.
 fullName: Rule
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -14,110 +13,144 @@ properties:
     package: '@azure/arm-servicebus'
     summary: >-
       Represents the filter actions which are allowed for the transformation of
-      a message that have
-
-      been matched by a filter expression.
+      a message that have been matched by a filter expression.
     fullName: action
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'action?: Action'
       return:
-        type: <xref uid="@azure/arm-servicebus.Action" />
         description: ''
+        type: <xref uid="@azure/arm-servicebus.Action" />
   - name: correlationFilter
     uid: '@azure/arm-servicebus.Rule.correlationFilter'
     package: '@azure/arm-servicebus'
     summary: Properties of correlationFilter
     fullName: correlationFilter
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'correlationFilter?: CorrelationFilter'
       return:
-        type: <xref uid="@azure/arm-servicebus.CorrelationFilter" />
         description: ''
+        type: <xref uid="@azure/arm-servicebus.CorrelationFilter" />
   - name: filterType
     uid: '@azure/arm-servicebus.Rule.filterType'
     package: '@azure/arm-servicebus'
-    summary: >-
-      Filter type that is evaluated against a BrokeredMessage. Possible values
-      include: 'SqlFilter',
-
-      'CorrelationFilter'
+    summary: Filter type that is evaluated against a BrokeredMessage.
     fullName: filterType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'filterType?: FilterType'
       return:
+        description: ''
         type: <xref uid="@azure/arm-servicebus.FilterType" />
-        description: ''
-  - name: id
-    uid: '@azure/arm-servicebus.Rule.id'
-    package: '@azure/arm-servicebus'
-    summary: >-
-      Resource Id
-
-      **NOTE: This property will not be serialized. It can only be populated by
-      the server.**
-    fullName: id
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'id?: undefined | string'
-      return:
-        type: undefined | string
-        description: ''
-  - name: name
-    uid: '@azure/arm-servicebus.Rule.name'
-    package: '@azure/arm-servicebus'
-    summary: >-
-      Resource name
-
-      **NOTE: This property will not be serialized. It can only be populated by
-      the server.**
-    fullName: name
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'name?: undefined | string'
-      return:
-        type: undefined | string
-        description: ''
   - name: sqlFilter
     uid: '@azure/arm-servicebus.Rule.sqlFilter'
     package: '@azure/arm-servicebus'
     summary: Properties of sqlFilter
     fullName: sqlFilter
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sqlFilter?: SqlFilter'
       return:
-        type: <xref uid="@azure/arm-servicebus.SqlFilter" />
         description: ''
+        type: <xref uid="@azure/arm-servicebus.SqlFilter" />
+  - name: systemData
+    uid: '@azure/arm-servicebus.Rule.systemData'
+    package: '@azure/arm-servicebus'
+    summary: >-
+      The system meta data relating to this resource.
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: systemData
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'systemData?: SystemData'
+      return:
+        description: ''
+        type: <xref uid="@azure/arm-servicebus.SystemData" />
+inheritedProperties:
+  - name: id
+    uid: '@azure/arm-servicebus.Rule.id'
+    package: '@azure/arm-servicebus'
+    summary: >-
+      Fully qualified resource ID for the resource. Ex -
+      /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/{resourceType}/{resourceName}
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: id
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'id?: undefined | string'
+      return:
+        description: ''
+        type: undefined | string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ProxyResource.id](xref:@azure/arm-servicebus.ProxyResource.id)
+  - name: location
+    uid: '@azure/arm-servicebus.Rule.location'
+    package: '@azure/arm-servicebus'
+    summary: >-
+      The geo-location where the resource lives
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: location
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'location?: undefined | string'
+      return:
+        description: ''
+        type: undefined | string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ProxyResource.location](xref:@azure/arm-servicebus.ProxyResource.location)
+  - name: name
+    uid: '@azure/arm-servicebus.Rule.name'
+    package: '@azure/arm-servicebus'
+    summary: >-
+      The name of the resource
+
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
+    fullName: name
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'name?: undefined | string'
+      return:
+        description: ''
+        type: undefined | string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ProxyResource.name](xref:@azure/arm-servicebus.ProxyResource.name)
   - name: type
     uid: '@azure/arm-servicebus.Rule.type'
     package: '@azure/arm-servicebus'
     summary: >-
-      Resource type
+      The type of the resource. E.g. "Microsoft.EventHub/Namespaces" or
+      "Microsoft.EventHub/Namespaces/EventHubs"
 
-      **NOTE: This property will not be serialized. It can only be populated by
-      the server.**
+      NOTE: This property will not be serialized. It can only be populated by
+      the server.
     fullName: type
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'type?: undefined | string'
       return:
-        type: undefined | string
         description: ''
-extends: <xref uid="@azure/arm-servicebus.Resource" />
+        type: undefined | string
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ProxyResource.type](xref:@azure/arm-servicebus.ProxyResource.type)
+extends: <xref uid="@azure/arm-servicebus.ProxyResource" />

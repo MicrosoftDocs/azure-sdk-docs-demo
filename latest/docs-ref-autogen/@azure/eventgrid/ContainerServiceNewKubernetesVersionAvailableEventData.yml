@@ -7,7 +7,6 @@ summary: >-
   Microsoft.ContainerService.NewKubernetesVersionAvailable event
 fullName: ContainerServiceNewKubernetesVersionAvailableEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -21,13 +20,12 @@ properties:
       time of publishing the event
     fullName: latestPreviewKubernetesVersion
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'latestPreviewKubernetesVersion: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: latestStableKubernetesVersion
     uid: >-
       @azure/eventgrid.ContainerServiceNewKubernetesVersionAvailableEventData.latestStableKubernetesVersion
@@ -37,13 +35,12 @@ properties:
       stable for the ManagedCluster resource
     fullName: latestStableKubernetesVersion
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'latestStableKubernetesVersion: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: latestSupportedKubernetesVersion
     uid: >-
       @azure/eventgrid.ContainerServiceNewKubernetesVersionAvailableEventData.latestSupportedKubernetesVersion
@@ -53,13 +50,12 @@ properties:
       supported by ManagedCluster resource
     fullName: latestSupportedKubernetesVersion
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'latestSupportedKubernetesVersion: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: lowestMinorKubernetesVersion
     uid: >-
       @azure/eventgrid.ContainerServiceNewKubernetesVersionAvailableEventData.lowestMinorKubernetesVersion
@@ -69,10 +65,9 @@ properties:
       version available for the ManagedCluster resource
     fullName: lowestMinorKubernetesVersion
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'lowestMinorKubernetesVersion: string'
       return:
-        type: string
         description: ''
+        type: string

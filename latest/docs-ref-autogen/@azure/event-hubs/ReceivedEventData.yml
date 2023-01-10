@@ -12,7 +12,6 @@ summary: >-
   recieved from an Event Hub when using the `EventHubConsumerClient`.
 fullName: ReceivedEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -22,13 +21,12 @@ properties:
     summary: The message body that needs to be sent or is received.
     fullName: body
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'body: any'
       return:
-        type: any
         description: ''
+        type: any
   - name: contentType
     uid: '@azure/event-hubs.ReceivedEventData.contentType'
     package: '@azure/event-hubs'
@@ -41,13 +39,12 @@ properties:
       example "application/json".
     fullName: contentType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentType?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: correlationId
     uid: '@azure/event-hubs.ReceivedEventData.correlationId'
     package: '@azure/event-hubs'
@@ -60,26 +57,24 @@ properties:
       reflecting the MessageId of a message that is being replied to.
     fullName: correlationId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'correlationId?: string | number | Buffer'
       return:
-        type: string | number | Buffer
         description: ''
+        type: string | number | Buffer
   - name: enqueuedTimeUtc
     uid: '@azure/event-hubs.ReceivedEventData.enqueuedTimeUtc'
     package: '@azure/event-hubs'
     summary: The enqueued time of the event.
     fullName: enqueuedTimeUtc
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'enqueuedTimeUtc: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: messageId
     uid: '@azure/event-hubs.ReceivedEventData.messageId'
     package: '@azure/event-hubs'
@@ -90,26 +85,24 @@ properties:
       payload.
     fullName: messageId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'messageId?: string | number | Buffer'
       return:
-        type: string | number | Buffer
         description: ''
+        type: string | number | Buffer
   - name: offset
     uid: '@azure/event-hubs.ReceivedEventData.offset'
     package: '@azure/event-hubs'
     summary: The offset of the event.
     fullName: offset
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'offset: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: partitionKey
     uid: '@azure/event-hubs.ReceivedEventData.partitionKey'
     package: '@azure/event-hubs'
@@ -120,62 +113,57 @@ properties:
       hub.
     fullName: partitionKey
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'partitionKey: string | null'
       return:
-        type: string | null
         description: ''
+        type: string | null
   - name: properties
     uid: '@azure/event-hubs.ReceivedEventData.properties'
     package: '@azure/event-hubs'
     summary: The application specific properties.
     fullName: properties
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'properties?: [key: string]: any'
       return:
-        type: '[key: string]\: any'
         description: ''
+        type: '[key: string]\: any'
   - name: sequenceNumber
     uid: '@azure/event-hubs.ReceivedEventData.sequenceNumber'
     package: '@azure/event-hubs'
     summary: The sequence number of the event.
     fullName: sequenceNumber
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sequenceNumber: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: systemProperties
     uid: '@azure/event-hubs.ReceivedEventData.systemProperties'
     package: '@azure/event-hubs'
     summary: The properties set by the service.
     fullName: systemProperties
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'systemProperties?: [key: string]: any'
       return:
-        type: '[key: string]\: any'
         description: ''
+        type: '[key: string]\: any'
 methods:
   - name: getRawAmqpMessage()
     uid: '@azure/event-hubs.ReceivedEventData.getRawAmqpMessage'
     package: '@azure/event-hubs'
     summary: Returns the underlying raw amqp message.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function getRawAmqpMessage()
+      content: 'function getRawAmqpMessage(): AmqpAnnotatedMessage'
       return:
-        type: AmqpAnnotatedMessage
         description: ''
+        type: AmqpAnnotatedMessage

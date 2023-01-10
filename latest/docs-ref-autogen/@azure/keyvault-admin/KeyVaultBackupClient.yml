@@ -13,7 +13,6 @@ summary: >-
   and full restores of Key Vault instances.
 fullName: KeyVaultBackupClient
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -33,7 +32,6 @@ constructors:
       let client = new KeyVaultBackupClient(vaultUrl, credentials);
       ```
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -44,7 +42,9 @@ constructors:
           type: string
           description: >-
             the URL of the Key Vault. It should have this shape:
-            `https://${your-key-vault-name}.vault.azure.net`
+            `https://${your-key-vault-name}.vault.azure.net`. You should
+            validate that this URL references a valid Key Vault or Managed HSM
+            resource. See https://aka.ms/azsdk/blog/vault-uri for details.
         - id: credential
           type: TokenCredential
           description: >-
@@ -62,13 +62,12 @@ properties:
     summary: The base URL to the vault
     fullName: vaultUrl
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'vaultUrl: string'
       return:
-        type: string
         description: ''
+        type: string
 methods:
   - name: 'beginBackup(string, string, KeyVaultBeginBackupOptions)'
     uid: '@azure/keyvault-admin.KeyVaultBackupClient.beginBackup'
@@ -124,12 +123,12 @@ methods:
 
       Starts a full backup operation.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function beginBackup(blobStorageUri: string, sasToken: string, options?:
-        KeyVaultBeginBackupOptions)
+        KeyVaultBeginBackupOptions):
+        Promise<PollerLike<KeyVaultBackupOperationState, KeyVaultBackupResult>>
       parameters:
         - id: blobStorageUri
           type: string
@@ -144,11 +143,11 @@ methods:
           description: |
             The optional parameters.
       return:
+        description: ''
         type: >-
           Promise&lt;PollerLike&lt;<xref
           uid="@azure/keyvault-admin.KeyVaultBackupOperationState" />, <xref
           uid="@azure/keyvault-admin.KeyVaultBackupResult" />&gt;&gt;
-        description: ''
   - name: 'beginRestore(string, string, KeyVaultBeginRestoreOptions)'
     uid: '@azure/keyvault-admin.KeyVaultBackupClient.beginRestore'
     package: '@azure/keyvault-admin'
@@ -205,12 +204,13 @@ methods:
 
       Starts a full restore operation.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function beginRestore(folderUri: string, sasToken: string, options?:
-        KeyVaultBeginRestoreOptions)
+        KeyVaultBeginRestoreOptions):
+        Promise<PollerLike<KeyVaultRestoreOperationState,
+        KeyVaultRestoreResult>>
       parameters:
         - id: folderUri
           type: string
@@ -225,11 +225,11 @@ methods:
           description: |
             The optional parameters.
       return:
+        description: ''
         type: >-
           Promise&lt;PollerLike&lt;<xref
           uid="@azure/keyvault-admin.KeyVaultRestoreOperationState" />, <xref
           uid="@azure/keyvault-admin.KeyVaultRestoreResult" />&gt;&gt;
-        description: ''
   - name: >-
       beginSelectiveKeyRestore(string, string, string,
       KeyVaultBeginSelectiveKeyRestoreOptions)
@@ -288,12 +288,13 @@ methods:
 
       Creates a new role assignment.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function beginSelectiveKeyRestore(keyName: string, folderUri: string,
-        sasToken: string, options?: KeyVaultBeginSelectiveKeyRestoreOptions)
+        sasToken: string, options?: KeyVaultBeginSelectiveKeyRestoreOptions):
+        Promise<PollerLike<KeyVaultSelectiveKeyRestoreOperationState,
+        KeyVaultSelectiveKeyRestoreResult>>
       parameters:
         - id: keyName
           type: string
@@ -314,10 +315,10 @@ methods:
           description: |
             The optional parameters.
       return:
+        description: ''
         type: >-
           Promise&lt;PollerLike&lt;<xref
           uid="@azure/keyvault-admin.KeyVaultSelectiveKeyRestoreOperationState"
           />, <xref
           uid="@azure/keyvault-admin.KeyVaultSelectiveKeyRestoreResult"
           />&gt;&gt;
-        description: ''

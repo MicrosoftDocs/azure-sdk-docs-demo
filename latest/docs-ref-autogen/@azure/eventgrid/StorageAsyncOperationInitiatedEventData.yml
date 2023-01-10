@@ -7,7 +7,6 @@ summary: >-
   Microsoft.Storage.AsyncOperationInitiated event.
 fullName: StorageAsyncOperationInitiatedEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -17,26 +16,24 @@ properties:
     summary: The name of the API/operation that triggered this event.
     fullName: api
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'api: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: blobType
     uid: '@azure/eventgrid.StorageAsyncOperationInitiatedEventData.blobType'
     package: '@azure/eventgrid'
     summary: The type of blob.
     fullName: blobType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobType: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: clientRequestId
     uid: '@azure/eventgrid.StorageAsyncOperationInitiatedEventData.clientRequestId'
     package: '@azure/eventgrid'
@@ -45,13 +42,12 @@ properties:
       triggered this event.
     fullName: clientRequestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'clientRequestId: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: contentLength
     uid: '@azure/eventgrid.StorageAsyncOperationInitiatedEventData.contentLength'
     package: '@azure/eventgrid'
@@ -60,13 +56,12 @@ properties:
       in the Content-Length header from the blob.
     fullName: contentLength
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentLength: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: contentType
     uid: '@azure/eventgrid.StorageAsyncOperationInitiatedEventData.contentType'
     package: '@azure/eventgrid'
@@ -75,26 +70,24 @@ properties:
       in the Content-Type header from the blob.
     fullName: contentType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentType: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: identity
     uid: '@azure/eventgrid.StorageAsyncOperationInitiatedEventData.identity'
     package: '@azure/eventgrid'
     summary: The identity of the requester that triggered this event.
     fullName: identity
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'identity: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: requestId
     uid: '@azure/eventgrid.StorageAsyncOperationInitiatedEventData.requestId'
     package: '@azure/eventgrid'
@@ -103,13 +96,12 @@ properties:
       operation that triggered this event.
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: sequencer
     uid: '@azure/eventgrid.StorageAsyncOperationInitiatedEventData.sequencer'
     package: '@azure/eventgrid'
@@ -119,13 +111,12 @@ properties:
       understand the relative sequence of two events on the same blob name.
     fullName: sequencer
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sequencer: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: storageDiagnostics
     uid: >-
       @azure/eventgrid.StorageAsyncOperationInitiatedEventData.storageDiagnostics
@@ -135,23 +126,21 @@ properties:
       Storage service. This property should be ignored by event consumers.
     fullName: storageDiagnostics
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'storageDiagnostics: any'
       return:
-        type: any
         description: ''
+        type: any
   - name: url
     uid: '@azure/eventgrid.StorageAsyncOperationInitiatedEventData.url'
     package: '@azure/eventgrid'
     summary: The path to the blob.
     fullName: url
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'url: string'
       return:
-        type: string
         description: ''
+        type: string

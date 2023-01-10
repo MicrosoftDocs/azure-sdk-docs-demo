@@ -7,8 +7,7 @@ summary: >-
   Microsoft.Communication.ChatMessageReceived event.
 fullName: AcsChatMessageReceivedEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 syntax: >-
   type AcsChatMessageReceivedEventData = AcsChatMessageEventBase & {
-  messageBody: string, metadata: Object }
+  messageBody: string, metadata: [key: string]: string }

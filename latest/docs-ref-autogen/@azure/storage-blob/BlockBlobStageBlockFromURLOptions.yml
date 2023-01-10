@@ -2,10 +2,11 @@
 name: BlockBlobStageBlockFromURLOptions
 uid: '@azure/storage-blob.BlockBlobStageBlockFromURLOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure <xref:BlockBlobClient.stageBlockFromURL> operation.'
+summary: >-
+  Options to configure
+  <xref:@azure/storage-blob.BlockBlobClient.stageBlockFromURL> operation.
 fullName: BlockBlobStageBlockFromURLOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -20,13 +21,12 @@ properties:
       `AbortSignal`.
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
   - name: conditions
     uid: '@azure/storage-blob.BlockBlobStageBlockFromURLOptions.conditions'
     package: '@azure/storage-blob'
@@ -37,26 +37,24 @@ properties:
       must be active in order for the operation to succeed.
     fullName: conditions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'conditions?: LeaseAccessConditions'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseAccessConditions" />
         description: ''
+        type: <xref uid="@azure/storage-blob.LeaseAccessConditions" />
   - name: customerProvidedKey
     uid: '@azure/storage-blob.BlockBlobStageBlockFromURLOptions.customerProvidedKey'
     package: '@azure/storage-blob'
     summary: Customer Provided Key Info.
     fullName: customerProvidedKey
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'customerProvidedKey?: CpkInfo'
       return:
-        type: <xref uid="@azure/storage-blob.CpkInfo" />
         description: ''
+        type: <xref uid="@azure/storage-blob.CpkInfo" />
   - name: encryptionScope
     uid: '@azure/storage-blob.BlockBlobStageBlockFromURLOptions.encryptionScope'
     package: '@azure/storage-blob'
@@ -73,13 +71,12 @@ properties:
       Storage Services.
     fullName: encryptionScope
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'encryptionScope?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: range
     uid: '@azure/storage-blob.BlockBlobStageBlockFromURLOptions.range'
     package: '@azure/storage-blob'
@@ -88,13 +85,12 @@ properties:
       If not specified, the entire content is uploaded as a single block.
     fullName: range
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'range?: Range'
+      content: 'range?: Range_2'
       return:
-        type: <xref uid="@azure/storage-blob.Range" />
         description: ''
+        type: <xref uid="@azure/storage-blob.Range_2" />
   - name: sourceAuthorization
     uid: '@azure/storage-blob.BlockBlobStageBlockFromURLOptions.sourceAuthorization'
     package: '@azure/storage-blob'
@@ -103,13 +99,12 @@ properties:
       token to copy source.
     fullName: sourceAuthorization
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sourceAuthorization?: HttpAuthorization'
       return:
-        type: <xref uid="@azure/storage-blob.HttpAuthorization" />
         description: ''
+        type: <xref uid="@azure/storage-blob.HttpAuthorization" />
   - name: sourceContentCrc64
     uid: '@azure/storage-blob.BlockBlobStageBlockFromURLOptions.sourceContentCrc64'
     package: '@azure/storage-blob'
@@ -125,13 +120,12 @@ properties:
       sourceContentMD5 and sourceContentCrc64 cannot be set at same time.
     fullName: sourceContentCrc64
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sourceContentCrc64?: Uint8Array'
       return:
-        type: Uint8Array
         description: ''
+        type: Uint8Array
   - name: sourceContentMD5
     uid: '@azure/storage-blob.BlockBlobStageBlockFromURLOptions.sourceContentMD5'
     package: '@azure/storage-blob'
@@ -147,24 +141,26 @@ properties:
       sourceContentMD5 and sourceContentCrc64 cannot be set at same time.
     fullName: sourceContentMD5
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sourceContentMD5?: Uint8Array'
       return:
-        type: Uint8Array
         description: ''
+        type: Uint8Array
+inheritedProperties:
   - name: tracingOptions
     uid: '@azure/storage-blob.BlockBlobStageBlockFromURLOptions.tracingOptions'
     package: '@azure/storage-blob'
     summary: Options to configure spans created when tracing is enabled.
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
-        type: OperationTracingOptions
         description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-blob.CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-blob.CommonOptions" />

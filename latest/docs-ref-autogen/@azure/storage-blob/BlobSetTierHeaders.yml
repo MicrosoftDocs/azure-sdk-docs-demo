@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: Defines headers for Blob_setTier operation.
 fullName: BlobSetTierHeaders
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -17,26 +16,24 @@ properties:
       present in the response with the same value.
     fullName: clientRequestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'clientRequestId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: errorCode
     uid: '@azure/storage-blob.BlobSetTierHeaders.errorCode'
     package: '@azure/storage-blob'
     summary: Error Code
     fullName: errorCode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'errorCode?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: requestId
     uid: '@azure/storage-blob.BlobSetTierHeaders.requestId'
     package: '@azure/storage-blob'
@@ -45,13 +42,12 @@ properties:
       for troubleshooting the request.
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: version
     uid: '@azure/storage-blob.BlobSetTierHeaders.version'
     package: '@azure/storage-blob'
@@ -61,10 +57,9 @@ properties:
       newer.
     fullName: version
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'version?: string'
       return:
-        type: string
         description: ''
+        type: string

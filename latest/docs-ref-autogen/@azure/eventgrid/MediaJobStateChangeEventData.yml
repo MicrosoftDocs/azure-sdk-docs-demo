@@ -7,7 +7,6 @@ summary: >-
   Microsoft.Media.JobStateChange event.
 fullName: MediaJobStateChangeEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -17,13 +16,12 @@ properties:
     summary: Gets the Job correlation data.
     fullName: correlationData
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'correlationData: [key: string]: string'
       return:
-        type: '[key: string]\: string'
         description: ''
+        type: '[key: string]\: string'
   - name: previousState
     uid: '@azure/eventgrid.MediaJobStateChangeEventData.previousState'
     package: '@azure/eventgrid'
@@ -34,13 +32,12 @@ properties:
       the server.
     fullName: previousState
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'previousState: MediaJobState'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobState" />
         description: ''
+        type: <xref uid="@azure/eventgrid.MediaJobState" />
   - name: state
     uid: '@azure/eventgrid.MediaJobStateChangeEventData.state'
     package: '@azure/eventgrid'
@@ -51,10 +48,9 @@ properties:
       the server.
     fullName: state
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'state: MediaJobState'
       return:
-        type: <xref uid="@azure/eventgrid.MediaJobState" />
         description: ''
+        type: <xref uid="@azure/eventgrid.MediaJobState" />

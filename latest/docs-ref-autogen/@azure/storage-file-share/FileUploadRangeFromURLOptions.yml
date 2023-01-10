@@ -2,10 +2,11 @@
 name: FileUploadRangeFromURLOptions
 uid: '@azure/storage-file-share.FileUploadRangeFromURLOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareFileClient.uploadRangeFromURL> operation.'
+summary: >-
+  Options to configure the
+  <xref:@azure/storage-file-share.ShareFileClient.uploadRangeFromURL> operation.
 fullName: FileUploadRangeFromURLOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -20,13 +21,29 @@ properties:
       `AbortSignal`.
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
+  - name: fileLastWrittenMode
+    uid: >-
+      @azure/storage-file-share.FileUploadRangeFromURLOptions.fileLastWrittenMode
+    package: '@azure/storage-file-share'
+    summary: |-
+      The last write time for the file.
+      A value of preserve may be passed to keep an existing value unchanged.
+      A value of now may be used to indicate the time of the request.
+      By default, the value will be set as now.
+    fullName: fileLastWrittenMode
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'fileLastWrittenMode?: FileLastWrittenMode'
+      return:
+        description: ''
+        type: <xref uid="@azure/storage-file-share.FileLastWrittenMode" />
   - name: leaseAccessConditions
     uid: >-
       @azure/storage-file-share.FileUploadRangeFromURLOptions.leaseAccessConditions
@@ -34,13 +51,12 @@ properties:
     summary: Lease access conditions.
     fullName: leaseAccessConditions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'leaseAccessConditions?: LeaseAccessConditions'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions" />
         description: ''
+        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions" />
   - name: sourceAuthorization
     uid: >-
       @azure/storage-file-share.FileUploadRangeFromURLOptions.sourceAuthorization
@@ -50,28 +66,26 @@ properties:
       token to copy source.
     fullName: sourceAuthorization
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sourceAuthorization?: HttpAuthorization'
       return:
-        type: <xref uid="@azure/storage-file-share.HttpAuthorization" />
         description: ''
+        type: <xref uid="@azure/storage-file-share.HttpAuthorization" />
   - name: sourceConditions
     uid: '@azure/storage-file-share.FileUploadRangeFromURLOptions.sourceConditions'
     package: '@azure/storage-file-share'
     summary: Additional parameters for the operation
     fullName: sourceConditions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sourceConditions?: SourceModifiedAccessConditions'
       return:
+        description: ''
         type: >-
           <xref uid="@azure/storage-file-share.SourceModifiedAccessConditions"
           />
-        description: ''
   - name: sourceContentCrc64
     uid: '@azure/storage-file-share.FileUploadRangeFromURLOptions.sourceContentCrc64'
     package: '@azure/storage-file-share'
@@ -80,13 +94,12 @@ properties:
       the copy source.
     fullName: sourceContentCrc64
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sourceContentCrc64?: Uint8Array'
       return:
-        type: Uint8Array
         description: ''
+        type: Uint8Array
   - name: timeoutInSeconds
     uid: '@azure/storage-file-share.FileUploadRangeFromURLOptions.timeoutInSeconds'
     package: '@azure/storage-file-share'
@@ -99,24 +112,26 @@ properties:
       Timeouts for File Service Operations.</a>
     fullName: timeoutInSeconds
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'timeoutInSeconds?: number'
       return:
-        type: number
         description: ''
+        type: number
+inheritedProperties:
   - name: tracingOptions
     uid: '@azure/storage-file-share.FileUploadRangeFromURLOptions.tracingOptions'
     package: '@azure/storage-file-share'
     summary: ''
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
-        type: OperationTracingOptions
         description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-file-share.CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-file-share.CommonOptions" />

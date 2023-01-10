@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: An enumeration of blobs
 fullName: ListBlobsHierarchySegmentResponseModel
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,13 +14,12 @@ properties:
     summary: ''
     fullName: containerName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'containerName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: continuationToken
     uid: >-
       @azure/storage-blob.ListBlobsHierarchySegmentResponseModel.continuationToken
@@ -29,88 +27,81 @@ properties:
     summary: ''
     fullName: continuationToken
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'continuationToken?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: delimiter
     uid: '@azure/storage-blob.ListBlobsHierarchySegmentResponseModel.delimiter'
     package: '@azure/storage-blob'
     summary: ''
     fullName: delimiter
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'delimiter?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: marker
     uid: '@azure/storage-blob.ListBlobsHierarchySegmentResponseModel.marker'
     package: '@azure/storage-blob'
     summary: ''
     fullName: marker
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'marker?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: maxPageSize
     uid: '@azure/storage-blob.ListBlobsHierarchySegmentResponseModel.maxPageSize'
     package: '@azure/storage-blob'
     summary: ''
     fullName: maxPageSize
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'maxPageSize?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: prefix
     uid: '@azure/storage-blob.ListBlobsHierarchySegmentResponseModel.prefix'
     package: '@azure/storage-blob'
     summary: ''
     fullName: prefix
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'prefix?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: segment
     uid: '@azure/storage-blob.ListBlobsHierarchySegmentResponseModel.segment'
     package: '@azure/storage-blob'
     summary: ''
     fullName: segment
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'segment: BlobHierarchyListSegmentModel'
       return:
-        type: <xref uid="@azure/storage-blob.BlobHierarchyListSegmentModel" />
         description: ''
+        type: <xref uid="@azure/storage-blob.BlobHierarchyListSegmentModel" />
   - name: serviceEndpoint
     uid: '@azure/storage-blob.ListBlobsHierarchySegmentResponseModel.serviceEndpoint'
     package: '@azure/storage-blob'
     summary: ''
     fullName: serviceEndpoint
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'serviceEndpoint: string'
       return:
-        type: string
         description: ''
+        type: string

@@ -8,7 +8,6 @@ summary: >-
   https://docs.microsoft.com/azure/cognitive-services/Text-Analytics/how-tos/text-analytics-how-to-sentiment-analysis.
 fullName: SentenceSentiment
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -20,39 +19,36 @@ properties:
       classes.
     fullName: confidenceScores
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'confidenceScores: SentimentConfidenceScores'
       return:
-        type: <xref uid="@azure/ai-text-analytics.SentimentConfidenceScores" />
         description: ''
+        type: <xref uid="@azure/ai-text-analytics.SentimentConfidenceScores" />
   - name: length
     uid: '@azure/ai-text-analytics.SentenceSentiment.length'
     package: '@azure/ai-text-analytics'
     summary: The length of the sentence text.
     fullName: length
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'length: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: offset
     uid: '@azure/ai-text-analytics.SentenceSentiment.offset'
     package: '@azure/ai-text-analytics'
     summary: The sentence text offset from the start of the document.
     fullName: offset
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'offset: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: opinions
     uid: '@azure/ai-text-analytics.SentenceSentiment.opinions'
     package: '@azure/ai-text-analytics'
@@ -63,36 +59,33 @@ properties:
       True in the call to `analyzeSentiment`.
     fullName: opinions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'opinions: Opinion[]'
       return:
-        type: '<xref uid="@azure/ai-text-analytics.Opinion" />[]'
         description: ''
+        type: '<xref uid="@azure/ai-text-analytics.Opinion" />[]'
   - name: sentiment
     uid: '@azure/ai-text-analytics.SentenceSentiment.sentiment'
     package: '@azure/ai-text-analytics'
     summary: The predicted Sentiment for the sentence.
     fullName: sentiment
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sentiment: SentenceSentimentLabel'
       return:
-        type: <xref uid="@azure/ai-text-analytics.SentenceSentimentLabel" />
         description: ''
+        type: <xref uid="@azure/ai-text-analytics.SentenceSentimentLabel" />
   - name: text
     uid: '@azure/ai-text-analytics.SentenceSentiment.text'
     package: '@azure/ai-text-analytics'
     summary: The sentence text.
     fullName: text
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'text: string'
       return:
-        type: string
         description: ''
+        type: string

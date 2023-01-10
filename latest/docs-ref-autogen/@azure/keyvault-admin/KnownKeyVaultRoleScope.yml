@@ -2,10 +2,11 @@
 name: KnownKeyVaultRoleScope
 uid: '@azure/keyvault-admin.KnownKeyVaultRoleScope'
 package: '@azure/keyvault-admin'
-summary: 'Known values of <xref:RoleScope> that the service accepts.'
+summary: >-
+  Known values of <xref:@azure/keyvault-admin.KeyVaultRoleScope> that the
+  service accepts.
 fullName: KnownKeyVaultRoleScope
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: Global

@@ -2,10 +2,11 @@
 name: ServiceListQueuesOptions
 uid: '@azure/storage-queue.ServiceListQueuesOptions'
 package: '@azure/storage-queue'
-summary: 'Options to configure <xref:QueueServiceClient.listQueues> operation'
+summary: >-
+  Options to configure <xref:@azure/storage-queue.QueueServiceClient.listQueues>
+  operation
 fullName: ServiceListQueuesOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -20,13 +21,12 @@ properties:
       `AbortSignal`.
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
   - name: includeMetadata
     uid: '@azure/storage-queue.ServiceListQueuesOptions.includeMetadata'
     package: '@azure/storage-queue'
@@ -35,13 +35,12 @@ properties:
       body.
     fullName: includeMetadata
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeMetadata?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: prefix
     uid: '@azure/storage-queue.ServiceListQueuesOptions.prefix'
     package: '@azure/storage-queue'
@@ -50,24 +49,26 @@ properties:
       whose name begins with the specified prefix.
     fullName: prefix
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'prefix?: string'
       return:
-        type: string
         description: ''
+        type: string
+inheritedProperties:
   - name: tracingOptions
     uid: '@azure/storage-queue.ServiceListQueuesOptions.tracingOptions'
     package: '@azure/storage-queue'
     summary: Options to configure spans created when tracing is enabled.
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
-        type: OperationTracingOptions
         description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-queue.CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-queue.CommonOptions" />

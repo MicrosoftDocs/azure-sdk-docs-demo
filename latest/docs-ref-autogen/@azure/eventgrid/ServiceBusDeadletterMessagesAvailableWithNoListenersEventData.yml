@@ -7,7 +7,6 @@ summary: >-
   Microsoft.ServiceBus.DeadletterMessagesAvailableWithNoListeners event.
 fullName: ServiceBusDeadletterMessagesAvailableWithNoListenersEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -20,13 +19,12 @@ properties:
       'queue' or 'subscriber'.
     fullName: entityType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'entityType: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: namespaceName
     uid: >-
       @azure/eventgrid.ServiceBusDeadletterMessagesAvailableWithNoListenersEventData.namespaceName
@@ -34,13 +32,12 @@ properties:
     summary: The namespace name of the Microsoft.ServiceBus resource.
     fullName: namespaceName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'namespaceName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: queueName
     uid: >-
       @azure/eventgrid.ServiceBusDeadletterMessagesAvailableWithNoListenersEventData.queueName
@@ -50,13 +47,12 @@ properties:
       'subscriber', then this value will be null.
     fullName: queueName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'queueName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: requestUri
     uid: >-
       @azure/eventgrid.ServiceBusDeadletterMessagesAvailableWithNoListenersEventData.requestUri
@@ -64,13 +60,12 @@ properties:
     summary: The endpoint of the Microsoft.ServiceBus resource.
     fullName: requestUri
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestUri: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: subscriptionName
     uid: >-
       @azure/eventgrid.ServiceBusDeadletterMessagesAvailableWithNoListenersEventData.subscriptionName
@@ -80,13 +75,12 @@ properties:
       type is of type 'queue', then this value will be null.
     fullName: subscriptionName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'subscriptionName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: topicName
     uid: >-
       @azure/eventgrid.ServiceBusDeadletterMessagesAvailableWithNoListenersEventData.topicName
@@ -96,10 +90,9 @@ properties:
       'queue', then this value will be null.
     fullName: topicName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'topicName: string'
       return:
-        type: string
         description: ''
+        type: string

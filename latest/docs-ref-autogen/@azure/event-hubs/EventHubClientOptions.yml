@@ -42,7 +42,6 @@ summary: >
   ```
 fullName: EventHubClientOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -57,13 +56,12 @@ properties:
       Example: "https://my.custom.endpoint:100/"
     fullName: customEndpointAddress
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'customEndpointAddress?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: retryOptions
     uid: '@azure/event-hubs.EventHubClientOptions.retryOptions'
     package: '@azure/event-hubs'
@@ -75,13 +73,12 @@ properties:
       "retryDelayInMs": 30000 }`.
     fullName: retryOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'retryOptions?: RetryOptions'
       return:
-        type: RetryOptions
         description: ''
+        type: RetryOptions
   - name: userAgent
     uid: '@azure/event-hubs.EventHubClientOptions.userAgent'
     package: '@azure/event-hubs'
@@ -90,13 +87,12 @@ properties:
       the Event Hubs service.
     fullName: userAgent
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'userAgent?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: webSocketOptions
     uid: '@azure/event-hubs.EventHubClientOptions.webSocketOptions'
     package: '@azure/event-hubs'
@@ -105,10 +101,9 @@ properties:
       Sockets.
     fullName: webSocketOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'webSocketOptions?: WebSocketOptions'
       return:
-        type: WebSocketOptions
         description: ''
+        type: WebSocketOptions

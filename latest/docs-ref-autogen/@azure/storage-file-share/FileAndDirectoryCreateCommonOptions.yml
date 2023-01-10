@@ -5,10 +5,27 @@ package: '@azure/storage-file-share'
 summary: ''
 fullName: FileAndDirectoryCreateCommonOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
+  - name: changeTime
+    uid: '@azure/storage-file-share.FileAndDirectoryCreateCommonOptions.changeTime'
+    package: '@azure/storage-file-share'
+    summary: >-
+      The Coordinated Universal Time (UTC) change time property for the
+      directory.
+
+      A value of now may be used to indicate the time of the request.
+
+      By default, the value will be set to the time of the request.
+    fullName: changeTime
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'changeTime?: Date | TimeNowType'
+      return:
+        description: ''
+        type: Date | <xref uid="@azure/storage-file-share.TimeNowType" />
   - name: creationTime
     uid: '@azure/storage-file-share.FileAndDirectoryCreateCommonOptions.creationTime'
     package: '@azure/storage-file-share'
@@ -21,13 +38,12 @@ properties:
       By default, the value will be set as now.
     fullName: creationTime
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'creationTime?: Date | TimeNowType'
       return:
-        type: Date | <xref uid="@azure/storage-file-share.TimeNowType" />
         description: ''
+        type: Date | <xref uid="@azure/storage-file-share.TimeNowType" />
   - name: fileAttributes
     uid: >-
       @azure/storage-file-share.FileAndDirectoryCreateCommonOptions.fileAttributes
@@ -35,13 +51,12 @@ properties:
     summary: The file system attributes to be set on the file or directory.
     fullName: fileAttributes
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'fileAttributes?: FileSystemAttributes'
       return:
-        type: <xref uid="@azure/storage-file-share.FileSystemAttributes" />
         description: ''
+        type: <xref uid="@azure/storage-file-share.FileSystemAttributes" />
   - name: filePermission
     uid: >-
       @azure/storage-file-share.FileAndDirectoryCreateCommonOptions.filePermission
@@ -62,15 +77,14 @@ properties:
       default value by client library.
     fullName: filePermission
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'filePermission?: string | FilePermissionInheritType'
       return:
+        description: ''
         type: >-
           string | <xref
           uid="@azure/storage-file-share.FilePermissionInheritType" />
-        description: ''
   - name: filePermissionKey
     uid: >-
       @azure/storage-file-share.FileAndDirectoryCreateCommonOptions.filePermissionKey
@@ -83,13 +97,12 @@ properties:
       specified.
     fullName: filePermissionKey
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'filePermissionKey?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: lastWriteTime
     uid: >-
       @azure/storage-file-share.FileAndDirectoryCreateCommonOptions.lastWriteTime
@@ -103,10 +116,9 @@ properties:
       By default, the value will be set as now.
     fullName: lastWriteTime
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'lastWriteTime?: Date | TimeNowType'
       return:
-        type: Date | <xref uid="@azure/storage-file-share.TimeNowType" />
         description: ''
+        type: Date | <xref uid="@azure/storage-file-share.TimeNowType" />

@@ -5,7 +5,6 @@ package: '@azure/storage-file-datalake'
 summary: ''
 fullName: RolePermissions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,36 +14,33 @@ properties:
     summary: ''
     fullName: execute
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'execute: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: read
     uid: '@azure/storage-file-datalake.RolePermissions.read'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: read
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'read: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: write
     uid: '@azure/storage-file-datalake.RolePermissions.write'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: write
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'write: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean

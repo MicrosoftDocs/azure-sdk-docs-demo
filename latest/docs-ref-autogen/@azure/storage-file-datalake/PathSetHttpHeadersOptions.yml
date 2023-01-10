@@ -5,7 +5,6 @@ package: '@azure/storage-file-datalake'
 summary: ''
 fullName: PathSetHttpHeadersOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,37 +14,38 @@ properties:
     summary: ''
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
   - name: conditions
     uid: '@azure/storage-file-datalake.PathSetHttpHeadersOptions.conditions'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: conditions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'conditions?: DataLakeRequestConditions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.DataLakeRequestConditions" />
         description: ''
+        type: <xref uid="@azure/storage-file-datalake.DataLakeRequestConditions" />
+inheritedProperties:
   - name: tracingOptions
     uid: '@azure/storage-file-datalake.PathSetHttpHeadersOptions.tracingOptions'
     package: '@azure/storage-file-datalake'
     summary: Options to configure spans created when tracing is enabled.
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
-        type: OperationTracingOptions
         description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-file-datalake.CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-file-datalake.CommonOptions" />

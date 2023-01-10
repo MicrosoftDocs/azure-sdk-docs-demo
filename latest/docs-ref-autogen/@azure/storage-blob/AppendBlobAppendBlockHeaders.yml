@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: Defines headers for AppendBlob_appendBlock operation.
 fullName: AppendBlobAppendBlockHeaders
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -17,13 +16,12 @@ properties:
       the offset at which the block was committed, in bytes.
     fullName: blobAppendOffset
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobAppendOffset?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: blobCommittedBlockCount
     uid: '@azure/storage-blob.AppendBlobAppendBlockHeaders.blobCommittedBlockCount'
     package: '@azure/storage-blob'
@@ -32,13 +30,12 @@ properties:
       returned only for append blobs.
     fullName: blobCommittedBlockCount
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobCommittedBlockCount?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: clientRequestId
     uid: '@azure/storage-blob.AppendBlobAppendBlockHeaders.clientRequestId'
     package: '@azure/storage-blob'
@@ -47,13 +44,12 @@ properties:
       present in the response with the same value.
     fullName: clientRequestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'clientRequestId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: contentMD5
     uid: '@azure/storage-blob.AppendBlobAppendBlockHeaders.contentMD5'
     package: '@azure/storage-blob'
@@ -63,13 +59,12 @@ properties:
       content integrity.
     fullName: contentMD5
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentMD5?: Uint8Array'
       return:
-        type: Uint8Array
         description: ''
+        type: Uint8Array
   - name: date
     uid: '@azure/storage-blob.AppendBlobAppendBlockHeaders.date'
     package: '@azure/storage-blob'
@@ -78,13 +73,12 @@ properties:
       which the response was initiated
     fullName: date
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'date?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: encryptionKeySha256
     uid: '@azure/storage-blob.AppendBlobAppendBlockHeaders.encryptionKeySha256'
     package: '@azure/storage-blob'
@@ -94,13 +88,12 @@ properties:
       customer-provided key.
     fullName: encryptionKeySha256
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'encryptionKeySha256?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: encryptionScope
     uid: '@azure/storage-blob.AppendBlobAppendBlockHeaders.encryptionScope'
     package: '@azure/storage-blob'
@@ -110,26 +103,24 @@ properties:
       use of the default account encryption scope.
     fullName: encryptionScope
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'encryptionScope?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: errorCode
     uid: '@azure/storage-blob.AppendBlobAppendBlockHeaders.errorCode'
     package: '@azure/storage-blob'
     summary: Error Code
     fullName: errorCode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'errorCode?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: etag
     uid: '@azure/storage-blob.AppendBlobAppendBlockHeaders.etag'
     package: '@azure/storage-blob'
@@ -139,13 +130,12 @@ properties:
       value will be in quotes.
     fullName: etag
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'etag?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: isServerEncrypted
     uid: '@azure/storage-blob.AppendBlobAppendBlockHeaders.isServerEncrypted'
     package: '@azure/storage-blob'
@@ -154,13 +144,12 @@ properties:
       successfully encrypted using the specified algorithm, and false otherwise.
     fullName: isServerEncrypted
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'isServerEncrypted?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: lastModified
     uid: '@azure/storage-blob.AppendBlobAppendBlockHeaders.lastModified'
     package: '@azure/storage-blob'
@@ -170,13 +159,12 @@ properties:
       properties, changes the last-modified time of the blob.
     fullName: lastModified
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'lastModified?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: requestId
     uid: '@azure/storage-blob.AppendBlobAppendBlockHeaders.requestId'
     package: '@azure/storage-blob'
@@ -185,13 +173,12 @@ properties:
       for troubleshooting the request.
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: version
     uid: '@azure/storage-blob.AppendBlobAppendBlockHeaders.version'
     package: '@azure/storage-blob'
@@ -201,13 +188,12 @@ properties:
       above.
     fullName: version
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'version?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: xMsContentCrc64
     uid: '@azure/storage-blob.AppendBlobAppendBlockHeaders.xMsContentCrc64'
     package: '@azure/storage-blob'
@@ -217,10 +203,9 @@ properties:
       not necessarily the same value specified in the request headers.
     fullName: xMsContentCrc64
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'xMsContentCrc64?: Uint8Array'
       return:
-        type: Uint8Array
         description: ''
+        type: Uint8Array

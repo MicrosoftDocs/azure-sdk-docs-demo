@@ -5,8 +5,6 @@ package: '@azure/arm-eventhub'
 summary: Contains response data for the listNamespaces operation.
 fullName: ClustersListNamespacesResponse
 remarks: ''
-isPreview: false
 isDeprecated: false
-syntax: >-
-  type ClustersListNamespacesResponse = EHNamespaceIdListResult & { _response:
-  Object }
+syntax: |
+  type ClustersListNamespacesResponse = EHNamespaceIdListResult

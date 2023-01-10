@@ -7,7 +7,6 @@ summary: >-
   Microsoft.MachineLearningServices.DatasetDriftDetected event.
 fullName: MachineLearningServicesDatasetDriftDetectedEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -18,13 +17,12 @@ properties:
     summary: The ID of the base Dataset used to detect drift.
     fullName: baseDatasetId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'baseDatasetId: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: dataDriftId
     uid: >-
       @azure/eventgrid.MachineLearningServicesDatasetDriftDetectedEventData.dataDriftId
@@ -32,13 +30,12 @@ properties:
     summary: The ID of the data drift monitor that triggered the event.
     fullName: dataDriftId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'dataDriftId: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: dataDriftName
     uid: >-
       @azure/eventgrid.MachineLearningServicesDatasetDriftDetectedEventData.dataDriftName
@@ -46,13 +43,12 @@ properties:
     summary: The name of the data drift monitor that triggered the event.
     fullName: dataDriftName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'dataDriftName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: driftCoefficient
     uid: >-
       @azure/eventgrid.MachineLearningServicesDatasetDriftDetectedEventData.driftCoefficient
@@ -60,13 +56,12 @@ properties:
     summary: The coefficient result that triggered the event.
     fullName: driftCoefficient
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'driftCoefficient: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: endTime
     uid: >-
       @azure/eventgrid.MachineLearningServicesDatasetDriftDetectedEventData.endTime
@@ -76,13 +71,12 @@ properties:
       detection.
     fullName: endTime
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'endTime: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: runId
     uid: >-
       @azure/eventgrid.MachineLearningServicesDatasetDriftDetectedEventData.runId
@@ -90,13 +84,12 @@ properties:
     summary: The ID of the Run that detected data drift.
     fullName: runId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'runId: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: startTime
     uid: >-
       @azure/eventgrid.MachineLearningServicesDatasetDriftDetectedEventData.startTime
@@ -106,13 +99,12 @@ properties:
       detection.
     fullName: startTime
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'startTime: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: targetDatasetId
     uid: >-
       @azure/eventgrid.MachineLearningServicesDatasetDriftDetectedEventData.targetDatasetId
@@ -120,10 +112,9 @@ properties:
     summary: The ID of the target Dataset used to detect drift.
     fullName: targetDatasetId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'targetDatasetId: string'
       return:
-        type: string
         description: ''
+        type: string

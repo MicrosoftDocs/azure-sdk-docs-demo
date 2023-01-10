@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: Defines headers for PageBlob_copyIncremental operation.
 fullName: PageBlobCopyIncrementalHeaders
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -17,13 +16,12 @@ properties:
       present in the response with the same value.
     fullName: clientRequestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'clientRequestId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: copyId
     uid: '@azure/storage-blob.PageBlobCopyIncrementalHeaders.copyId'
     package: '@azure/storage-blob'
@@ -33,26 +31,24 @@ properties:
       abort a pending copy.
     fullName: copyId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'copyId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: copyStatus
     uid: '@azure/storage-blob.PageBlobCopyIncrementalHeaders.copyStatus'
     package: '@azure/storage-blob'
     summary: State of the copy operation identified by x-ms-copy-id.
     fullName: copyStatus
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'copyStatus?: CopyStatusType'
       return:
-        type: <xref uid="@azure/storage-blob.CopyStatusType" />
         description: ''
+        type: <xref uid="@azure/storage-blob.CopyStatusType" />
   - name: date
     uid: '@azure/storage-blob.PageBlobCopyIncrementalHeaders.date'
     package: '@azure/storage-blob'
@@ -61,26 +57,24 @@ properties:
       which the response was initiated
     fullName: date
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'date?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: errorCode
     uid: '@azure/storage-blob.PageBlobCopyIncrementalHeaders.errorCode'
     package: '@azure/storage-blob'
     summary: Error Code
     fullName: errorCode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'errorCode?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: etag
     uid: '@azure/storage-blob.PageBlobCopyIncrementalHeaders.etag'
     package: '@azure/storage-blob'
@@ -90,13 +84,12 @@ properties:
       value will be in quotes.
     fullName: etag
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'etag?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: lastModified
     uid: '@azure/storage-blob.PageBlobCopyIncrementalHeaders.lastModified'
     package: '@azure/storage-blob'
@@ -106,13 +99,12 @@ properties:
       properties, changes the last-modified time of the blob.
     fullName: lastModified
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'lastModified?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: requestId
     uid: '@azure/storage-blob.PageBlobCopyIncrementalHeaders.requestId'
     package: '@azure/storage-blob'
@@ -121,13 +113,12 @@ properties:
       for troubleshooting the request.
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: version
     uid: '@azure/storage-blob.PageBlobCopyIncrementalHeaders.version'
     package: '@azure/storage-blob'
@@ -137,10 +128,9 @@ properties:
       above.
     fullName: version
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'version?: string'
       return:
-        type: string
         description: ''
+        type: string

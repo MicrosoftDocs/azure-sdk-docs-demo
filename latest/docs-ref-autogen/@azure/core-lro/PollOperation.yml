@@ -11,9 +11,8 @@ summary: >
 
   It also has a method to serialize the operation so that it can be stored and
   resumed at any time.
-fullName: PollOperation<TState>
+fullName: 'PollOperation<TState, TResult>'
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -29,15 +28,14 @@ properties:
       plus any custom property that the implementation may require.
     fullName: state
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'state: TState'
       return:
-        type: TState
         description: ''
+        type: TState
 methods:
-  - name: cancel(Object)
+  - name: 'cancel({ abortSignal?: AbortSignalLike })'
     uid: '@azure/core-lro.PollOperation.cancel'
     package: '@azure/core-lro'
     summary: >
@@ -50,20 +48,22 @@ methods:
       It returns a promise that should be resolved with an updated version of
       the poller's operation.
     remarks: ''
-    isPreview: false
-    isDeprecated: false
+    isDeprecated: true
+    customDeprecatedMessage: '`cancel` has been deprecated because it was not implemented.'
     syntax:
-      content: 'function cancel(options?: Object)'
+      content: >-
+        function cancel(options?: { abortSignal?: AbortSignalLike }):
+        Promise<PollOperation<TState, TResult>>
       parameters:
         - id: options
-          type: Object
+          type: '{ abortSignal?: AbortSignalLike }'
           description: |
             Optional properties passed to the operation's update method.
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/core-lro.PollOperation" />&lt;TState,
           TResult&gt;&gt;
-        description: ''
   - name: toString()
     uid: '@azure/core-lro.PollOperation.toString'
     package: '@azure/core-lro'
@@ -73,14 +73,15 @@ methods:
       Useful when wanting to create a poller that monitors an existing
       operation.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function toString()
+      content: 'function toString(): string'
       return:
-        type: string
         description: ''
-  - name: update(Object)
+        type: string
+  - name: >-
+      update({ abortSignal?: AbortSignalLike, fireProgress?: (state: TState) =>
+      void })
     uid: '@azure/core-lro.PollOperation.update'
     package: '@azure/core-lro'
     summary: >
@@ -95,17 +96,21 @@ methods:
 
       poller's onProgress callbacks.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function update(options?: Object)'
+      content: >-
+        function update(options?: { abortSignal?: AbortSignalLike,
+        fireProgress?: (state: TState) => void }): Promise<PollOperation<TState,
+        TResult>>
       parameters:
         - id: options
-          type: Object
+          type: >-
+            { abortSignal?: AbortSignalLike, fireProgress?: (state: TState)
+            =&gt; void }
           description: |
             Optional properties passed to the operation's update method.
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/core-lro.PollOperation" />&lt;TState,
           TResult&gt;&gt;
-        description: ''

@@ -5,7 +5,6 @@ package: '@azure/storage-file-datalake'
 summary: Options to query file with Parquet format.
 fullName: FileQueryParquetConfiguration
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,10 +14,9 @@ properties:
     summary: Kind.
     fullName: kind
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'kind: "parquet"'
       return:
-        type: '"parquet"'
         description: ''
+        type: '"parquet"'

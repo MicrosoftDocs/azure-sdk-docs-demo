@@ -5,7 +5,6 @@ package: '@azure/storage-file-datalake'
 summary: ''
 fullName: PathPermissions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,62 +14,57 @@ properties:
     summary: ''
     fullName: extendedAcls
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'extendedAcls: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: group
     uid: '@azure/storage-file-datalake.PathPermissions.group'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: group
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'group: RolePermissions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.RolePermissions" />
         description: ''
+        type: <xref uid="@azure/storage-file-datalake.RolePermissions" />
   - name: other
     uid: '@azure/storage-file-datalake.PathPermissions.other'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: other
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'other: RolePermissions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.RolePermissions" />
         description: ''
+        type: <xref uid="@azure/storage-file-datalake.RolePermissions" />
   - name: owner
     uid: '@azure/storage-file-datalake.PathPermissions.owner'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: owner
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'owner: RolePermissions'
       return:
-        type: <xref uid="@azure/storage-file-datalake.RolePermissions" />
         description: ''
+        type: <xref uid="@azure/storage-file-datalake.RolePermissions" />
   - name: stickyBit
     uid: '@azure/storage-file-datalake.PathPermissions.stickyBit'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: stickyBit
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'stickyBit: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean

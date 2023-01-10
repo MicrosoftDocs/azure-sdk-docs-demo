@@ -2,10 +2,11 @@
 name: FileStartCopyOptions
 uid: '@azure/storage-file-share.FileStartCopyOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareFileClient.startCopyFromURL> operation.'
+summary: >-
+  Options to configure the
+  <xref:@azure/storage-file-share.ShareFileClient.startCopyFromURL> operation.
 fullName: FileStartCopyOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -20,26 +21,24 @@ properties:
       `AbortSignal`.
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
   - name: copyFileSmbInfo
     uid: '@azure/storage-file-share.FileStartCopyOptions.copyFileSmbInfo'
     package: '@azure/storage-file-share'
     summary: SMB info.
     fullName: copyFileSmbInfo
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'copyFileSmbInfo?: CopyFileSmbInfo'
       return:
-        type: <xref uid="@azure/storage-file-share.CopyFileSmbInfo" />
         description: ''
+        type: <xref uid="@azure/storage-file-share.CopyFileSmbInfo" />
   - name: filePermission
     uid: '@azure/storage-file-share.FileStartCopyOptions.filePermission'
     package: '@azure/storage-file-share'
@@ -59,13 +58,12 @@ properties:
       specified.
     fullName: filePermission
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'filePermission?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: filePermissionKey
     uid: '@azure/storage-file-share.FileStartCopyOptions.filePermissionKey'
     package: '@azure/storage-file-share'
@@ -76,26 +74,24 @@ properties:
       x-ms-file-permission or x-ms-file-permission-key should be specified.
     fullName: filePermissionKey
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'filePermissionKey?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: leaseAccessConditions
     uid: '@azure/storage-file-share.FileStartCopyOptions.leaseAccessConditions'
     package: '@azure/storage-file-share'
     summary: Lease access conditions.
     fullName: leaseAccessConditions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'leaseAccessConditions?: LeaseAccessConditions'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions" />
         description: ''
+        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions" />
   - name: metadata
     uid: '@azure/storage-file-share.FileStartCopyOptions.metadata'
     package: '@azure/storage-file-share'
@@ -104,24 +100,26 @@ properties:
       object.
     fullName: metadata
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-file-share.Metadata" />
         description: ''
+        type: <xref uid="@azure/storage-file-share.Metadata" />
+inheritedProperties:
   - name: tracingOptions
     uid: '@azure/storage-file-share.FileStartCopyOptions.tracingOptions'
     package: '@azure/storage-file-share'
     summary: ''
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
-        type: OperationTracingOptions
         description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-file-share.CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-file-share.CommonOptions" />

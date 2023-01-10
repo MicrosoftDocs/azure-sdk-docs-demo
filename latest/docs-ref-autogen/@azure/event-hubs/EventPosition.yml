@@ -16,7 +16,6 @@ summary: >+
 
 fullName: EventPosition
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -33,13 +32,12 @@ properties:
       number or an offset.
     fullName: enqueuedOn
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'enqueuedOn?: Date | number'
       return:
-        type: Date | number
         description: ''
+        type: Date | number
   - name: isInclusive
     uid: '@azure/event-hubs.EventPosition.isInclusive'
     package: '@azure/event-hubs'
@@ -53,13 +51,12 @@ properties:
       Default value: `false`.
     fullName: isInclusive
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'isInclusive?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: offset
     uid: '@azure/event-hubs.EventPosition.offset'
     package: '@azure/event-hubs'
@@ -80,13 +77,12 @@ properties:
       retention and are no longer visible within the partition.
     fullName: offset
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'offset?: number | "@latest"'
       return:
-        type: number | "@latest"
         description: ''
+        type: number | "@latest"
   - name: sequenceNumber
     uid: '@azure/event-hubs.EventPosition.sequenceNumber'
     package: '@azure/event-hubs'
@@ -97,10 +93,9 @@ properties:
       enqueued time.
     fullName: sequenceNumber
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sequenceNumber?: number'
       return:
-        type: number
         description: ''
+        type: number

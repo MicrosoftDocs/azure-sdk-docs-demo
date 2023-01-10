@@ -5,7 +5,6 @@ package: '@azure/core-amqp'
 summary: Maps the Error names to the amqp error conditions.
 fullName: ErrorNameConditionMapper
 remarks: ''
-isPreview: false
 isDeprecated: false
 fields:
   - name: AddressAlreadyInUseError
@@ -246,10 +245,9 @@ fields:
   - name: SystemError
     uid: '@azure/core-amqp.ErrorNameConditionMapper.SystemError'
     package: '@azure/core-amqp'
-    summary: >-
+    summary: |-
       Error is thrown when a low level system error is thrown by node.js.
-
-      <xref:https%3A%2F%2Fnodejs.org%2Fapi%2Ferrors.html%23errors_class_systemerror>
+      https://nodejs.org/api/errors.html#errors_class_systemerror
   - name: TransferLimitExceededError
     uid: '@azure/core-amqp.ErrorNameConditionMapper.TransferLimitExceededError'
     package: '@azure/core-amqp'

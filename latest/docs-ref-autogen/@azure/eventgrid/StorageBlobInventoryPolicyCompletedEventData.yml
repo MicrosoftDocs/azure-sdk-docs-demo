@@ -7,7 +7,6 @@ summary: >-
   Microsoft.Storage.BlobInventoryPolicyCompleted event.
 fullName: StorageBlobInventoryPolicyCompletedEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -17,13 +16,12 @@ properties:
     summary: The account name for which inventory policy is registered.
     fullName: accountName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'accountName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: manifestBlobUrl
     uid: >-
       @azure/eventgrid.StorageBlobInventoryPolicyCompletedEventData.manifestBlobUrl
@@ -31,26 +29,24 @@ properties:
     summary: The blob URL for manifest file for inventory run.
     fullName: manifestBlobUrl
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'manifestBlobUrl: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: policyRunId
     uid: '@azure/eventgrid.StorageBlobInventoryPolicyCompletedEventData.policyRunId'
     package: '@azure/eventgrid'
     summary: The policy run id for inventory run.
     fullName: policyRunId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'policyRunId: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: policyRunStatus
     uid: >-
       @azure/eventgrid.StorageBlobInventoryPolicyCompletedEventData.policyRunStatus
@@ -60,13 +56,12 @@ properties:
       Succeeded/PartiallySucceeded/Failed.
     fullName: policyRunStatus
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'policyRunStatus: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: policyRunStatusMessage
     uid: >-
       @azure/eventgrid.StorageBlobInventoryPolicyCompletedEventData.policyRunStatusMessage
@@ -74,26 +69,24 @@ properties:
     summary: The status message for inventory run.
     fullName: policyRunStatusMessage
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'policyRunStatusMessage: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: ruleName
     uid: '@azure/eventgrid.StorageBlobInventoryPolicyCompletedEventData.ruleName'
     package: '@azure/eventgrid'
     summary: The rule name for inventory policy.
     fullName: ruleName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'ruleName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: scheduleDateTime
     uid: >-
       @azure/eventgrid.StorageBlobInventoryPolicyCompletedEventData.scheduleDateTime
@@ -101,10 +94,9 @@ properties:
     summary: The time at which inventory policy was scheduled.
     fullName: scheduleDateTime
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'scheduleDateTime: string'
       return:
-        type: string
         description: ''
+        type: string

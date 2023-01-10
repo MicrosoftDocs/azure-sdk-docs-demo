@@ -2,10 +2,11 @@
 name: PageBlobCreateIfNotExistsOptions
 uid: '@azure/storage-blob.PageBlobCreateIfNotExistsOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:PageBlobClient.createIfNotExists> operation.'
+summary: >-
+  Options to configure the
+  <xref:@azure/storage-blob.PageBlobClient.createIfNotExists> operation.
 fullName: PageBlobCreateIfNotExistsOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -20,26 +21,24 @@ properties:
       `AbortSignal`.
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
   - name: blobHTTPHeaders
     uid: '@azure/storage-blob.PageBlobCreateIfNotExistsOptions.blobHTTPHeaders'
     package: '@azure/storage-blob'
     summary: HTTP headers to set when creating a page blob.
     fullName: blobHTTPHeaders
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobHTTPHeaders?: BlobHTTPHeaders'
       return:
-        type: <xref uid="@azure/storage-blob.BlobHTTPHeaders" />
         description: ''
+        type: <xref uid="@azure/storage-blob.BlobHTTPHeaders" />
   - name: blobSequenceNumber
     uid: '@azure/storage-blob.PageBlobCreateIfNotExistsOptions.blobSequenceNumber'
     package: '@azure/storage-blob'
@@ -48,26 +47,24 @@ properties:
       The value must be between 0 and 2^63 - 1. The default value is 0.
     fullName: blobSequenceNumber
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobSequenceNumber?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: customerProvidedKey
     uid: '@azure/storage-blob.PageBlobCreateIfNotExistsOptions.customerProvidedKey'
     package: '@azure/storage-blob'
     summary: Customer Provided Key Info.
     fullName: customerProvidedKey
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'customerProvidedKey?: CpkInfo'
       return:
-        type: <xref uid="@azure/storage-blob.CpkInfo" />
         description: ''
+        type: <xref uid="@azure/storage-blob.CpkInfo" />
   - name: encryptionScope
     uid: '@azure/storage-blob.PageBlobCreateIfNotExistsOptions.encryptionScope'
     package: '@azure/storage-blob'
@@ -84,13 +81,12 @@ properties:
       Storage Services.
     fullName: encryptionScope
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'encryptionScope?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: immutabilityPolicy
     uid: '@azure/storage-blob.PageBlobCreateIfNotExistsOptions.immutabilityPolicy'
     package: '@azure/storage-blob'
@@ -103,13 +99,12 @@ properties:
       has version level worm enabled.
     fullName: immutabilityPolicy
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'immutabilityPolicy?: BlobImmutabilityPolicy'
       return:
-        type: <xref uid="@azure/storage-blob.BlobImmutabilityPolicy" />
         description: ''
+        type: <xref uid="@azure/storage-blob.BlobImmutabilityPolicy" />
   - name: legalHold
     uid: '@azure/storage-blob.PageBlobCreateIfNotExistsOptions.legalHold'
     package: '@azure/storage-blob'
@@ -122,13 +117,12 @@ properties:
       has version level worm enabled.
     fullName: legalHold
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'legalHold?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: metadata
     uid: '@azure/storage-blob.PageBlobCreateIfNotExistsOptions.metadata'
     package: '@azure/storage-blob'
@@ -137,13 +131,12 @@ properties:
       creating append blobs.
     fullName: metadata
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'metadata?: Metadata'
       return:
-        type: <xref uid="@azure/storage-blob.Metadata" />
         description: ''
+        type: <xref uid="@azure/storage-blob.Metadata" />
   - name: tier
     uid: '@azure/storage-blob.PageBlobCreateIfNotExistsOptions.tier'
     package: '@azure/storage-blob'
@@ -154,24 +147,26 @@ properties:
       https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers
     fullName: tier
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tier?: PremiumPageBlobTier | string'
       return:
-        type: <xref uid="@azure/storage-blob.PremiumPageBlobTier" /> | string
         description: ''
+        type: <xref uid="@azure/storage-blob.PremiumPageBlobTier" /> | string
+inheritedProperties:
   - name: tracingOptions
     uid: '@azure/storage-blob.PageBlobCreateIfNotExistsOptions.tracingOptions'
     package: '@azure/storage-blob'
     summary: Options to configure spans created when tracing is enabled.
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
-        type: OperationTracingOptions
         description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-blob.CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-blob.CommonOptions" />

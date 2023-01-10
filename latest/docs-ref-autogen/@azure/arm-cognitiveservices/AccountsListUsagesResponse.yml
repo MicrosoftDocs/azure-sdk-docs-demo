@@ -5,6 +5,6 @@ package: '@azure/arm-cognitiveservices'
 summary: Contains response data for the listUsages operation.
 fullName: AccountsListUsagesResponse
 remarks: ''
-isPreview: false
 isDeprecated: false
-syntax: 'type AccountsListUsagesResponse = UsageListResult & { _response: Object }'
+syntax: |
+  type AccountsListUsagesResponse = UsageListResult

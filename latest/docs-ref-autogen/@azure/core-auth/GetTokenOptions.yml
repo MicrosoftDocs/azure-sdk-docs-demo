@@ -5,7 +5,6 @@ package: '@azure/core-auth'
 summary: Defines options for TokenCredential.getToken.
 fullName: GetTokenOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,26 +14,38 @@ properties:
     summary: The signal which can be used to abort requests.
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
+  - name: claims
+    uid: '@azure/core-auth.GetTokenOptions.claims'
+    package: '@azure/core-auth'
+    summary: >-
+      Claim details to perform the Continuous Access Evaluation authentication
+      flow
+    fullName: claims
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'claims?: string'
+      return:
+        description: ''
+        type: string
   - name: requestOptions
     uid: '@azure/core-auth.GetTokenOptions.requestOptions'
     package: '@azure/core-auth'
     summary: Options used when creating and sending HTTP requests for this operation.
     fullName: requestOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'requestOptions?: Object'
+      content: 'requestOptions?: { timeout?: number }'
       return:
-        type: Object
         description: ''
+        type: '{ timeout?: number }'
   - name: tenantId
     uid: '@azure/core-auth.GetTokenOptions.tenantId'
     package: '@azure/core-auth'
@@ -43,23 +54,21 @@ properties:
       tenant Id hints.
     fullName: tenantId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tenantId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: tracingOptions
     uid: '@azure/core-auth.GetTokenOptions.tracingOptions'
     package: '@azure/core-auth'
     summary: Options used when tracing is enabled.
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'tracingOptions?: Object'
+      content: 'tracingOptions?: { tracingContext?: TracingContext }'
       return:
-        type: Object
         description: ''
+        type: '{ tracingContext?: TracingContext }'

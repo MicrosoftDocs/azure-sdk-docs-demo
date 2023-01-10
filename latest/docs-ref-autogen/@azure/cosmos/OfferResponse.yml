@@ -5,7 +5,6 @@ package: '@azure/cosmos'
 summary: ''
 fullName: OfferResponse
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -14,7 +13,6 @@ constructors:
     package: '@azure/cosmos'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -42,108 +40,113 @@ properties:
     summary: ''
     fullName: activityId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: string activityId
       return:
-        type: string
         description: ''
+        type: string
   - name: etag
     uid: '@azure/cosmos.OfferResponse.etag'
     package: '@azure/cosmos'
     summary: ''
     fullName: etag
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: string etag
       return:
+        description: ''
         type: string
-        description: ''
-  - name: headers
-    uid: '@azure/cosmos.OfferResponse.headers'
-    package: '@azure/cosmos'
-    summary: ''
-    fullName: headers
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'headers: CosmosHeaders_2'
-      return:
-        type: <xref uid="@azure/cosmos.CosmosHeaders_2" />
-        description: ''
   - name: offer
     uid: '@azure/cosmos.OfferResponse.offer'
     package: '@azure/cosmos'
     summary: >-
-      A reference to the <xref:Offer> corresponding to the returned
-      <xref:OfferDefinition>.
+      A reference to the <xref:@azure/cosmos.Offer> corresponding to the
+      returned <xref:@azure/cosmos.OfferDefinition>.
     fullName: offer
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'offer: Offer'
       return:
-        type: <xref uid="@azure/cosmos.Offer" />
         description: ''
+        type: <xref uid="@azure/cosmos.Offer" />
   - name: requestCharge
     uid: '@azure/cosmos.OfferResponse.requestCharge'
     package: '@azure/cosmos'
     summary: ''
     fullName: requestCharge
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: number requestCharge
       return:
-        type: number
         description: ''
+        type: number
+inheritedProperties:
+  - name: headers
+    uid: '@azure/cosmos.OfferResponse.headers'
+    package: '@azure/cosmos'
+    summary: ''
+    fullName: headers
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'headers: CosmosHeaders_2'
+      return:
+        description: ''
+        type: <xref uid="@azure/cosmos.CosmosHeaders_2" />
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ResourceResponse.headers](xref:@azure/cosmos.ResourceResponse.headers)
   - name: resource
     uid: '@azure/cosmos.OfferResponse.resource'
     package: '@azure/cosmos'
     summary: ''
     fullName: resource
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'resource: OfferDefinition & Resource | undefined'
+      content: 'resource: (OfferDefinition & Resource) | undefined'
       return:
-        type: >-
-          <xref uid="@azure/cosmos.OfferDefinition" /> & <xref
-          uid="@azure/cosmos.Resource" /> | undefined
         description: ''
+        type: >-
+          (<xref uid="@azure/cosmos.OfferDefinition" /> & <xref
+          uid="@azure/cosmos.Resource" />) | undefined
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ResourceResponse.resource](xref:@azure/cosmos.ResourceResponse.resource)
   - name: statusCode
     uid: '@azure/cosmos.OfferResponse.statusCode'
     package: '@azure/cosmos'
     summary: ''
     fullName: statusCode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'statusCode: StatusCode'
       return:
-        type: StatusCode
         description: ''
+        type: StatusCode
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ResourceResponse.statusCode](xref:@azure/cosmos.ResourceResponse.statusCode)
   - name: substatus
     uid: '@azure/cosmos.OfferResponse.substatus'
     package: '@azure/cosmos'
     summary: ''
     fullName: substatus
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'substatus?: SubStatusCode'
       return:
-        type: SubStatusCode
         description: ''
+        type: SubStatusCode
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [ResourceResponse.substatus](xref:@azure/cosmos.ResourceResponse.substatus)
 extends: >-
   <xref uid="@azure/cosmos.ResourceResponse" />&lt;<xref
   uid="@azure/cosmos.OfferDefinition" /> & <xref uid="@azure/cosmos.Resource"

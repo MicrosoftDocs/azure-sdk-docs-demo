@@ -7,7 +7,6 @@ summary: >-
   StorageBrowserPolicy objects.
 fullName: StorageBrowserPolicyFactory
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 methods:
@@ -16,12 +15,11 @@ methods:
     package: '@azure/storage-blob'
     summary: Creates a StorageBrowserPolicyFactory object.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function create(nextPolicy: RequestPolicy, options:
-        RequestPolicyOptions)
+        RequestPolicyOptions): StorageBrowserPolicy
       parameters:
         - id: nextPolicy
           type: RequestPolicy
@@ -31,5 +29,5 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-blob.StorageBrowserPolicy" />
         description: ''
+        type: <xref uid="@azure/storage-blob.StorageBrowserPolicy" />

@@ -105,17 +105,18 @@ functions:
         }
       ```
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function parseKeyVaultCertificateIdentifier(id: string)'
+      content: >-
+        function parseKeyVaultCertificateIdentifier(id: string):
+        KeyVaultCertificateIdentifier
       parameters:
         - id: id
           type: string
           description: |
             The Id of the Key Vault Certificate.
       return:
+        description: ''
         type: >-
           <xref uid="@azure/keyvault-certificates.KeyVaultCertificateIdentifier"
           />
-        description: ''

@@ -7,7 +7,6 @@ summary: >-
   Microsoft.Storage.LifecyclePolicyCompleted event.
 fullName: StorageLifecyclePolicyCompletedEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,28 +18,26 @@ properties:
       cycle.
     fullName: deleteSummary
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'deleteSummary: StorageLifecyclePolicyActionSummaryDetail'
       return:
+        description: ''
         type: >-
           <xref uid="@azure/eventgrid.StorageLifecyclePolicyActionSummaryDetail"
           />
-        description: ''
   - name: scheduleTime
     uid: '@azure/eventgrid.StorageLifecyclePolicyCompletedEventData.scheduleTime'
     package: '@azure/eventgrid'
     summary: The time the policy task was scheduled.
     fullName: scheduleTime
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'scheduleTime: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: tierToArchiveSummary
     uid: >-
       @azure/eventgrid.StorageLifecyclePolicyCompletedEventData.tierToArchiveSummary
@@ -50,15 +47,14 @@ properties:
       cycle.
     fullName: tierToArchiveSummary
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tierToArchiveSummary: StorageLifecyclePolicyActionSummaryDetail'
       return:
+        description: ''
         type: >-
           <xref uid="@azure/eventgrid.StorageLifecyclePolicyActionSummaryDetail"
           />
-        description: ''
   - name: tierToCoolSummary
     uid: >-
       @azure/eventgrid.StorageLifecyclePolicyCompletedEventData.tierToCoolSummary
@@ -68,12 +64,11 @@ properties:
       cycle.
     fullName: tierToCoolSummary
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tierToCoolSummary: StorageLifecyclePolicyActionSummaryDetail'
       return:
+        description: ''
         type: >-
           <xref uid="@azure/eventgrid.StorageLifecyclePolicyActionSummaryDetail"
           />
-        description: ''

@@ -2,10 +2,11 @@
 name: ShareDeleteMethodOptions
 uid: '@azure/storage-file-share.ShareDeleteMethodOptions'
 package: '@azure/storage-file-share'
-summary: 'Options to configure the <xref:ShareClient.delete> operation.'
+summary: >-
+  Options to configure the <xref:@azure/storage-file-share.ShareClient.delete>
+  operation.
 fullName: ShareDeleteMethodOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -20,13 +21,12 @@ properties:
       `AbortSignal`.
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
   - name: deleteSnapshots
     uid: '@azure/storage-file-share.ShareDeleteMethodOptions.deleteSnapshots'
     package: '@azure/storage-file-share'
@@ -36,13 +36,12 @@ properties:
       include: 'include'
     fullName: deleteSnapshots
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'deleteSnapshots?: DeleteSnapshotsOptionType'
       return:
-        type: <xref uid="@azure/storage-file-share.DeleteSnapshotsOptionType" />
         description: ''
+        type: <xref uid="@azure/storage-file-share.DeleteSnapshotsOptionType" />
   - name: leaseAccessConditions
     uid: '@azure/storage-file-share.ShareDeleteMethodOptions.leaseAccessConditions'
     package: '@azure/storage-file-share'
@@ -51,24 +50,26 @@ properties:
       active and matches this ID.
     fullName: leaseAccessConditions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'leaseAccessConditions?: LeaseAccessConditions'
       return:
-        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions" />
         description: ''
+        type: <xref uid="@azure/storage-file-share.LeaseAccessConditions" />
+inheritedProperties:
   - name: tracingOptions
     uid: '@azure/storage-file-share.ShareDeleteMethodOptions.tracingOptions'
     package: '@azure/storage-file-share'
     summary: ''
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
-        type: OperationTracingOptions
         description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-file-share.CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-file-share.CommonOptions" />

@@ -8,7 +8,6 @@ summary: >-
   event.
 fullName: MediaLiveEventTrackDiscontinuityDetectedEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -22,13 +21,12 @@ properties:
       the server.
     fullName: bitrate
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'bitrate: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: discontinuityGap
     uid: >-
       @azure/eventgrid.MediaLiveEventTrackDiscontinuityDetectedEventData.discontinuityGap
@@ -40,13 +38,12 @@ properties:
       the server.
     fullName: discontinuityGap
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'discontinuityGap: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: newTimestamp
     uid: >-
       @azure/eventgrid.MediaLiveEventTrackDiscontinuityDetectedEventData.newTimestamp
@@ -58,13 +55,12 @@ properties:
       the server.
     fullName: newTimestamp
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'newTimestamp: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: previousTimestamp
     uid: >-
       @azure/eventgrid.MediaLiveEventTrackDiscontinuityDetectedEventData.previousTimestamp
@@ -76,13 +72,12 @@ properties:
       the server.
     fullName: previousTimestamp
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'previousTimestamp: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: timescale
     uid: >-
       @azure/eventgrid.MediaLiveEventTrackDiscontinuityDetectedEventData.timescale
@@ -95,13 +90,12 @@ properties:
       the server.
     fullName: timescale
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'timescale: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: trackName
     uid: >-
       @azure/eventgrid.MediaLiveEventTrackDiscontinuityDetectedEventData.trackName
@@ -113,13 +107,12 @@ properties:
       the server.
     fullName: trackName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'trackName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: trackType
     uid: >-
       @azure/eventgrid.MediaLiveEventTrackDiscontinuityDetectedEventData.trackType
@@ -131,10 +124,9 @@ properties:
       the server.
     fullName: trackType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'trackType: string'
       return:
-        type: string
         description: ''
+        type: string

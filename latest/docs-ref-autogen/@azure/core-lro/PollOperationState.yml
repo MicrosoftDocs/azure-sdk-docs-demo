@@ -24,7 +24,6 @@ summary: >
   updated by other reasons.
 fullName: PollOperationState<TResult>
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -34,62 +33,57 @@ properties:
     summary: Will exist if the operation encountered any error.
     fullName: error
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'error?: Error'
       return:
-        type: Error
         description: ''
+        type: Error
   - name: isCancelled
     uid: '@azure/core-lro.PollOperationState.isCancelled'
     package: '@azure/core-lro'
     summary: True if the operation has been cancelled.
     fullName: isCancelled
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'isCancelled?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: isCompleted
     uid: '@azure/core-lro.PollOperationState.isCompleted'
     package: '@azure/core-lro'
     summary: True if the operation has been completed.
     fullName: isCompleted
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'isCompleted?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: isStarted
     uid: '@azure/core-lro.PollOperationState.isStarted'
     package: '@azure/core-lro'
     summary: True if the operation has started.
     fullName: isStarted
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'isStarted?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: result
     uid: '@azure/core-lro.PollOperationState.result'
     package: '@azure/core-lro'
     summary: Will exist if the operation concluded in a result of an expected type.
     fullName: result
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'result?: TResult'
       return:
-        type: TResult
         description: ''
+        type: TResult

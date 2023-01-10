@@ -9,7 +9,6 @@ summary: >-
   Connection config, data transformer, etc.
 fullName: ConnectionContextBase
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -21,13 +20,12 @@ properties:
       underlying AMQP connection for the EventHub Client.
     fullName: cbsSession
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'cbsSession: CbsClient'
       return:
-        type: <xref uid="@azure/core-amqp.CbsClient" />
         description: ''
+        type: <xref uid="@azure/core-amqp.CbsClient" />
   - name: config
     uid: '@azure/core-amqp.ConnectionContextBase.config'
     package: '@azure/core-amqp'
@@ -36,26 +34,24 @@ properties:
       parsing the connection string.
     fullName: config
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'config: ConnectionConfig'
       return:
-        type: <xref uid="@azure/core-amqp.ConnectionConfig" />
         description: ''
+        type: <xref uid="@azure/core-amqp.ConnectionConfig" />
   - name: connection
     uid: '@azure/core-amqp.ConnectionContextBase.connection'
     package: '@azure/core-amqp'
     summary: The underlying AMQP connection.
     fullName: connection
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'connection: Connection'
       return:
-        type: Connection
         description: ''
+        type: Connection
   - name: connectionId
     uid: '@azure/core-amqp.ConnectionContextBase.connectionId'
     package: '@azure/core-amqp'
@@ -64,13 +60,12 @@ properties:
       connection within a process.
     fullName: connectionId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'connectionId: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: connectionLock
     uid: '@azure/core-amqp.ConnectionContextBase.connectionLock'
     package: '@azure/core-amqp'
@@ -81,13 +76,12 @@ properties:
       does not exist.
     fullName: connectionLock
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'connectionLock: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: negotiateClaimLock
     uid: '@azure/core-amqp.ConnectionContextBase.negotiateClaimLock'
     package: '@azure/core-amqp'
@@ -98,13 +92,12 @@ properties:
       connection.
     fullName: negotiateClaimLock
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'negotiateClaimLock: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: refreshConnection
     uid: '@azure/core-amqp.ConnectionContextBase.refreshConnection'
     package: '@azure/core-amqp'
@@ -113,13 +106,12 @@ properties:
       session.
     fullName: refreshConnection
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'refreshConnection: () => void'
       return:
-        type: () =&gt; void
         description: ''
+        type: () =&gt; void
   - name: wasConnectionCloseCalled
     uid: '@azure/core-amqp.ConnectionContextBase.wasConnectionCloseCalled'
     package: '@azure/core-amqp'
@@ -128,10 +120,9 @@ properties:
       called on the connection object.
     fullName: wasConnectionCloseCalled
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'wasConnectionCloseCalled: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean

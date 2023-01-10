@@ -7,10 +7,35 @@ summary: >-
   Microsoft.Communication.RecordingFileStatusUpdated event.
 fullName: AcsRecordingFileStatusUpdatedEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
+  - name: recordingChannelType
+    uid: >-
+      @azure/eventgrid.AcsRecordingFileStatusUpdatedEventData.recordingChannelType
+    package: '@azure/eventgrid'
+    summary: 'The recording  channel type - Mixed, Unmixed'
+    fullName: recordingChannelType
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'recordingChannelType: RecordingChannelType'
+      return:
+        description: ''
+        type: <xref uid="@azure/eventgrid.RecordingChannelType" />
+  - name: recordingContentType
+    uid: >-
+      @azure/eventgrid.AcsRecordingFileStatusUpdatedEventData.recordingContentType
+    package: '@azure/eventgrid'
+    summary: 'The recording content type- AudioVideo, or Audio'
+    fullName: recordingContentType
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'recordingContentType: RecordingContentType'
+      return:
+        description: ''
+        type: <xref uid="@azure/eventgrid.RecordingContentType" />
   - name: recordingDurationMs
     uid: >-
       @azure/eventgrid.AcsRecordingFileStatusUpdatedEventData.recordingDurationMs
@@ -18,26 +43,37 @@ properties:
     summary: The recording duration in milliseconds
     fullName: recordingDurationMs
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'recordingDurationMs: number'
       return:
-        type: number
         description: ''
+        type: number
+  - name: recordingFormatType
+    uid: >-
+      @azure/eventgrid.AcsRecordingFileStatusUpdatedEventData.recordingFormatType
+    package: '@azure/eventgrid'
+    summary: 'The recording format type - Mp4, Mp3, Wav'
+    fullName: recordingFormatType
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'recordingFormatType: RecordingFormatType'
+      return:
+        description: ''
+        type: <xref uid="@azure/eventgrid.RecordingFormatType" />
   - name: recordingStartTime
     uid: '@azure/eventgrid.AcsRecordingFileStatusUpdatedEventData.recordingStartTime'
     package: '@azure/eventgrid'
     summary: The time at which the recording started
     fullName: recordingStartTime
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'recordingStartTime: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: recordingStorageInfo
     uid: >-
       @azure/eventgrid.AcsRecordingFileStatusUpdatedEventData.recordingStorageInfo
@@ -45,23 +81,21 @@ properties:
     summary: The details of recording storage information
     fullName: recordingStorageInfo
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'recordingStorageInfo: AcsRecordingStorageInfo'
       return:
-        type: <xref uid="@azure/eventgrid.AcsRecordingStorageInfo" />
         description: ''
+        type: <xref uid="@azure/eventgrid.AcsRecordingStorageInfo" />
   - name: sessionEndReason
     uid: '@azure/eventgrid.AcsRecordingFileStatusUpdatedEventData.sessionEndReason'
     package: '@azure/eventgrid'
     summary: The reason for ending recording session
     fullName: sessionEndReason
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sessionEndReason: string'
       return:
-        type: string
         description: ''
+        type: string

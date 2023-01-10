@@ -5,7 +5,6 @@ package: '@azure/core-amqp'
 summary: Describes the CBS Response.
 fullName: CbsResponse
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,36 +14,33 @@ properties:
     summary: ''
     fullName: correlationId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'correlationId: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: statusCode
     uid: '@azure/core-amqp.CbsResponse.statusCode'
     package: '@azure/core-amqp'
     summary: ''
     fullName: statusCode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'statusCode: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: statusDescription
     uid: '@azure/core-amqp.CbsResponse.statusDescription'
     package: '@azure/core-amqp'
     summary: ''
     fullName: statusDescription
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'statusDescription: string'
       return:
-        type: string
         description: ''
+        type: string

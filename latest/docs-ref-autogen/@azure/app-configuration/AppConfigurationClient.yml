@@ -5,7 +5,6 @@ package: '@azure/app-configuration'
 summary: Client for the Azure App Configuration service.
 fullName: AppConfigurationClient
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -14,7 +13,6 @@ constructors:
     package: '@azure/app-configuration'
     summary: Initializes a new instance of the AppConfigurationClient class.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -39,7 +37,6 @@ constructors:
       Initializes a new instance of the AppConfigurationClient class using
       a TokenCredential.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -85,7 +82,6 @@ methods:
 
       ```
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -93,7 +89,8 @@ methods:
         AddConfigurationSettingParam |
         AddConfigurationSettingParam<FeatureFlagValue> |
         AddConfigurationSettingParam<SecretReferenceValue>, options?:
-        AddConfigurationSettingOptions)
+        AddConfigurationSettingOptions):
+        Promise<AddConfigurationSettingResponse>
       parameters:
         - id: configurationSetting
           type: >-
@@ -111,10 +108,10 @@ methods:
           description: |
             Optional parameters for the request.
       return:
+        description: ''
         type: >-
           Promise&lt;<xref
           uid="@azure/app-configuration.AddConfigurationSettingResponse" />&gt;
-        description: ''
   - name: >-
       deleteConfigurationSetting(ConfigurationSettingId,
       DeleteConfigurationSettingOptions)
@@ -132,12 +129,12 @@ methods:
 
       ```
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function deleteConfigurationSetting(id: ConfigurationSettingId,
-        options?: DeleteConfigurationSettingOptions)
+        options?: DeleteConfigurationSettingOptions):
+        Promise<DeleteConfigurationSettingResponse>
       parameters:
         - id: id
           type: <xref uid="@azure/app-configuration.ConfigurationSettingId" />
@@ -149,11 +146,11 @@ methods:
           description: |
             Optional parameters for the request (ex: etag, label)
       return:
+        description: ''
         type: >-
           Promise&lt;<xref
           uid="@azure/app-configuration.DeleteConfigurationSettingResponse"
           />&gt;
-        description: ''
   - name: >-
       getConfigurationSetting(ConfigurationSettingId,
       GetConfigurationSettingOptions)
@@ -171,12 +168,12 @@ methods:
 
       ```
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function getConfigurationSetting(id: ConfigurationSettingId, options?:
-        GetConfigurationSettingOptions)
+        GetConfigurationSettingOptions):
+        Promise<GetConfigurationSettingResponse>
       parameters:
         - id: id
           type: <xref uid="@azure/app-configuration.ConfigurationSettingId" />
@@ -188,10 +185,10 @@ methods:
           description: |
             Optional parameters for the request.
       return:
+        description: ''
         type: >-
           Promise&lt;<xref
           uid="@azure/app-configuration.GetConfigurationSettingResponse" />&gt;
-        description: ''
   - name: listConfigurationSettings(ListConfigurationSettingsOptions)
     uid: '@azure/app-configuration.AppConfigurationClient.listConfigurationSettings'
     package: '@azure/app-configuration'
@@ -209,12 +206,13 @@ methods:
 
       ```
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function listConfigurationSettings(options?:
-        ListConfigurationSettingsOptions)
+        ListConfigurationSettingsOptions):
+        PagedAsyncIterableIterator<ConfigurationSetting,
+        ListConfigurationSettingPage, PageSettings>
       parameters:
         - id: options
           type: >-
@@ -223,12 +221,12 @@ methods:
           description: |
             Optional parameters for the request.
       return:
+        description: ''
         type: >-
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/app-configuration.ConfigurationSetting" />, <xref
           uid="@azure/app-configuration.ListConfigurationSettingPage" />, <xref
           uid="@azure/app-configuration.PageSettings" />&gt;
-        description: ''
   - name: listRevisions(ListRevisionsOptions)
     uid: '@azure/app-configuration.AppConfigurationClient.listRevisions'
     package: '@azure/app-configuration'
@@ -240,22 +238,24 @@ methods:
       const revisionsIterator = client.listRevisions({ keys: ["MyKey"] });
       ```
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function listRevisions(options?: ListRevisionsOptions)'
+      content: >-
+        function listRevisions(options?: ListRevisionsOptions):
+        PagedAsyncIterableIterator<ConfigurationSetting, ListRevisionsPage,
+        PageSettings>
       parameters:
         - id: options
           type: <xref uid="@azure/app-configuration.ListRevisionsOptions" />
           description: |
             Optional parameters for the request.
       return:
+        description: ''
         type: >-
           PagedAsyncIterableIterator&lt;<xref
           uid="@azure/app-configuration.ConfigurationSetting" />, <xref
           uid="@azure/app-configuration.ListRevisionsPage" />, <xref
           uid="@azure/app-configuration.PageSettings" />&gt;
-        description: ''
   - name: >-
       setConfigurationSetting(SetConfigurationSettingParam |
       SetConfigurationSettingParam<FeatureFlagValue> |
@@ -267,7 +267,6 @@ methods:
       Sets the value of a key in the Azure App Configuration service, allowing
       for an optional etag.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -275,7 +274,8 @@ methods:
         SetConfigurationSettingParam |
         SetConfigurationSettingParam<FeatureFlagValue> |
         SetConfigurationSettingParam<SecretReferenceValue>, options?:
-        SetConfigurationSettingOptions)
+        SetConfigurationSettingOptions):
+        Promise<SetConfigurationSettingResponse>
       parameters:
         - id: configurationSetting
           type: >-
@@ -303,21 +303,20 @@ methods:
 
             ```
       return:
+        description: ''
         type: >-
           Promise&lt;<xref
           uid="@azure/app-configuration.SetConfigurationSettingResponse" />&gt;
-        description: ''
   - name: 'setReadOnly(ConfigurationSettingId, boolean, SetReadOnlyOptions)'
     uid: '@azure/app-configuration.AppConfigurationClient.setReadOnly'
     package: '@azure/app-configuration'
     summary: Sets or clears a key's read-only status.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function setReadOnly(id: ConfigurationSettingId, readOnly: boolean,
-        options?: SetReadOnlyOptions)
+        options?: SetReadOnlyOptions): Promise<SetReadOnlyResponse>
       parameters:
         - id: id
           type: <xref uid="@azure/app-configuration.ConfigurationSettingId" />
@@ -330,10 +329,10 @@ methods:
           type: <xref uid="@azure/app-configuration.SetReadOnlyOptions" />
           description: ''
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/app-configuration.SetReadOnlyResponse"
           />&gt;
-        description: ''
   - name: updateSyncToken(string)
     uid: '@azure/app-configuration.AppConfigurationClient.updateSyncToken'
     package: '@azure/app-configuration'
@@ -341,7 +340,6 @@ methods:
       Adds an external synchronization token to ensure service requests receive
       up-to-date values.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function updateSyncToken(syncToken: string)'

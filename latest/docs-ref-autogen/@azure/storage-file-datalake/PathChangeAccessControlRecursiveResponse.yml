@@ -7,7 +7,6 @@ summary: >-
   and `removeAccessControlRecursive`.
 fullName: PathChangeAccessControlRecursiveResponse
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -20,13 +19,12 @@ properties:
       and can be used to resume progress.
     fullName: continuationToken
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'continuationToken?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: counters
     uid: >-
       @azure/storage-file-datalake.PathChangeAccessControlRecursiveResponse.counters
@@ -34,12 +32,11 @@ properties:
     summary: Contains counts of paths changed from start of the operation.
     fullName: counters
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'counters: AccessControlChangeCounters'
       return:
+        description: ''
         type: >-
           <xref uid="@azure/storage-file-datalake.AccessControlChangeCounters"
           />
-        description: ''

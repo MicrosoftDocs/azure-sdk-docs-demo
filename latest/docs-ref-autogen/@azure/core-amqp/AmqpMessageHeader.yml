@@ -5,7 +5,6 @@ package: '@azure/core-amqp'
 summary: Describes the defined set of standard header properties of the message.
 fullName: AmqpMessageHeader
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,26 +14,24 @@ properties:
     summary: The number of prior unsuccessful delivery attempts.
     fullName: deliveryCount
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'deliveryCount?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: durable
     uid: '@azure/core-amqp.AmqpMessageHeader.durable'
     package: '@azure/core-amqp'
     summary: Specifies durability requirements.
     fullName: durable
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'durable?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: firstAcquirer
     uid: '@azure/core-amqp.AmqpMessageHeader.firstAcquirer'
     package: '@azure/core-amqp'
@@ -47,13 +44,12 @@ properties:
       been acquired by another link or links.
     fullName: firstAcquirer
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'firstAcquirer?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: priority
     uid: '@azure/core-amqp.AmqpMessageHeader.priority'
     package: '@azure/core-amqp'
@@ -62,23 +58,21 @@ properties:
       priority messages.
     fullName: priority
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'priority?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: timeToLive
     uid: '@azure/core-amqp.AmqpMessageHeader.timeToLive'
     package: '@azure/core-amqp'
     summary: time to live in ms.
     fullName: timeToLive
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'timeToLive?: number'
       return:
-        type: number
         description: ''
+        type: number

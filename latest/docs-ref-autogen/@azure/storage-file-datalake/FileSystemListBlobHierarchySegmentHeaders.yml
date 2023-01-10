@@ -5,7 +5,6 @@ package: '@azure/storage-file-datalake'
 summary: Defines headers for FileSystem_listBlobHierarchySegment operation.
 fullName: FileSystemListBlobHierarchySegmentHeaders
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -18,13 +17,12 @@ properties:
       present in the response with the same value.
     fullName: clientRequestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'clientRequestId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: contentType
     uid: >-
       @azure/storage-file-datalake.FileSystemListBlobHierarchySegmentHeaders.contentType
@@ -34,13 +32,12 @@ properties:
       'application/xml'
     fullName: contentType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentType?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: date
     uid: >-
       @azure/storage-file-datalake.FileSystemListBlobHierarchySegmentHeaders.date
@@ -50,13 +47,12 @@ properties:
       which the response was initiated
     fullName: date
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'date?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: errorCode
     uid: >-
       @azure/storage-file-datalake.FileSystemListBlobHierarchySegmentHeaders.errorCode
@@ -64,13 +60,12 @@ properties:
     summary: Error Code
     fullName: errorCode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'errorCode?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: requestId
     uid: >-
       @azure/storage-file-datalake.FileSystemListBlobHierarchySegmentHeaders.requestId
@@ -80,13 +75,12 @@ properties:
       for troubleshooting the request.
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: version
     uid: >-
       @azure/storage-file-datalake.FileSystemListBlobHierarchySegmentHeaders.version
@@ -97,10 +91,9 @@ properties:
       above.
     fullName: version
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'version?: string'
       return:
-        type: string
         description: ''
+        type: string

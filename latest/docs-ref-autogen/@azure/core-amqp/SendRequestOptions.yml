@@ -5,7 +5,6 @@ package: '@azure/core-amqp'
 summary: Describes the options that can be specified while sending a request.
 fullName: SendRequestOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,26 +14,24 @@ properties:
     summary: Cancels the operation.
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
   - name: requestName
     uid: '@azure/core-amqp.SendRequestOptions.requestName'
     package: '@azure/core-amqp'
     summary: Name of the request being performed.
     fullName: requestName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestName?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: timeoutInMs
     uid: '@azure/core-amqp.SendRequestOptions.timeoutInMs'
     package: '@azure/core-amqp'
@@ -43,10 +40,9 @@ properties:
       Default: `60000 milliseconds`.
     fullName: timeoutInMs
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'timeoutInMs?: number'
       return:
-        type: number
         description: ''
+        type: number

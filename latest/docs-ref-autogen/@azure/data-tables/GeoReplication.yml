@@ -5,7 +5,6 @@ package: '@azure/data-tables'
 summary: Geo-Replication information for the Secondary Storage Service
 fullName: GeoReplication
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,23 +18,21 @@ properties:
       reads.
     fullName: lastSyncTime
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'lastSyncTime: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: status
     uid: '@azure/data-tables.GeoReplication.status'
     package: '@azure/data-tables'
     summary: The status of the secondary location.
     fullName: status
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'status: GeoReplicationStatusType'
       return:
-        type: <xref uid="@azure/data-tables.GeoReplicationStatusType" />
         description: ''
+        type: <xref uid="@azure/data-tables.GeoReplicationStatusType" />

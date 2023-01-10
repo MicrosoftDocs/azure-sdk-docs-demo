@@ -5,7 +5,6 @@ package: '@azure/search-documents'
 summary: Index Documents Client
 fullName: IndexDocumentsClient<T>
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 methods:
@@ -18,12 +17,11 @@ methods:
 
       for the given set of documents.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function indexDocuments(batch: IndexDocumentsBatch<T>, options:
-        IndexDocumentsOptions)
+        IndexDocumentsOptions): Promise<IndexDocumentsResult>
       parameters:
         - id: batch
           type: <xref uid="@azure/search-documents.IndexDocumentsBatch" />&lt;T&gt;
@@ -33,7 +31,7 @@ methods:
           description: |
             Additional options.
       return:
+        description: ''
         type: >-
           Promise&lt;<xref uid="@azure/search-documents.IndexDocumentsResult"
           />&gt;
-        description: ''

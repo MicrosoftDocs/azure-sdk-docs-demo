@@ -5,7 +5,6 @@ package: '@azure/storage-file-share'
 summary: The retention policy.
 fullName: RetentionPolicy
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -18,13 +17,12 @@ properties:
       best-effort basis after the retention period expires.
     fullName: days
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'days?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: enabled
     uid: '@azure/storage-file-share.RetentionPolicy.enabled'
     package: '@azure/storage-file-share'
@@ -34,10 +32,9 @@ properties:
       it.
     fullName: enabled
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'enabled: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean

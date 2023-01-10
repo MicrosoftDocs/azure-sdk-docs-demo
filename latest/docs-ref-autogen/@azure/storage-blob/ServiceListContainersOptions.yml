@@ -2,10 +2,11 @@
 name: ServiceListContainersOptions
 uid: '@azure/storage-blob.ServiceListContainersOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:BlobServiceClient.listContainers> operation.'
+summary: >-
+  Options to configure the
+  <xref:@azure/storage-blob.BlobServiceClient.listContainers> operation.
 fullName: ServiceListContainersOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -20,13 +21,12 @@ properties:
       `AbortSignal`.
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
   - name: includeDeleted
     uid: '@azure/storage-blob.ServiceListContainersOptions.includeDeleted'
     package: '@azure/storage-blob'
@@ -35,13 +35,12 @@ properties:
       response.
     fullName: includeDeleted
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeDeleted?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: includeMetadata
     uid: '@azure/storage-blob.ServiceListContainersOptions.includeMetadata'
     package: '@azure/storage-blob'
@@ -50,13 +49,24 @@ properties:
                                         should be returned as part of the response body.
     fullName: includeMetadata
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'includeMetadata?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
+  - name: includeSystem
+    uid: '@azure/storage-blob.ServiceListContainersOptions.includeSystem'
+    package: '@azure/storage-blob'
+    summary: Specifies whether system containers should be included in the response.
+    fullName: includeSystem
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'includeSystem?: boolean'
+      return:
+        description: ''
+        type: boolean
   - name: prefix
     uid: '@azure/storage-blob.ServiceListContainersOptions.prefix'
     package: '@azure/storage-blob'
@@ -65,24 +75,26 @@ properties:
       whose name begins with the specified prefix.
     fullName: prefix
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'prefix?: string'
       return:
-        type: string
         description: ''
+        type: string
+inheritedProperties:
   - name: tracingOptions
     uid: '@azure/storage-blob.ServiceListContainersOptions.tracingOptions'
     package: '@azure/storage-blob'
     summary: Options to configure spans created when tracing is enabled.
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
-        type: OperationTracingOptions
         description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-blob.CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-blob.CommonOptions" />

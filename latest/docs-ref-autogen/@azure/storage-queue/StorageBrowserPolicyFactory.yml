@@ -4,10 +4,9 @@ uid: '@azure/storage-queue.StorageBrowserPolicyFactory'
 package: '@azure/storage-queue'
 summary: >-
   StorageBrowserPolicyFactory is a factory class helping generating
-  <xref:StorageBrowserPolicy> objects.
+  <xref:@azure/storage-queue.StorageBrowserPolicy> objects.
 fullName: StorageBrowserPolicyFactory
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 methods:
@@ -16,12 +15,11 @@ methods:
     package: '@azure/storage-queue'
     summary: Creates a StorageBrowserPolicyFactory object.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function create(nextPolicy: RequestPolicy, options:
-        RequestPolicyOptions)
+        RequestPolicyOptions): StorageBrowserPolicy
       parameters:
         - id: nextPolicy
           type: RequestPolicy
@@ -31,5 +29,5 @@ methods:
           description: |
             -
       return:
-        type: <xref uid="@azure/storage-queue.StorageBrowserPolicy" />
         description: ''
+        type: <xref uid="@azure/storage-queue.StorageBrowserPolicy" />

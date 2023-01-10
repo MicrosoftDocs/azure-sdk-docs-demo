@@ -5,8 +5,6 @@ package: '@azure/arm-servicebus'
 summary: Contains response data for the listAuthorizationRulesNext operation.
 fullName: QueuesListAuthorizationRulesNextResponse
 remarks: ''
-isPreview: false
 isDeprecated: false
-syntax: >-
+syntax: |
   type QueuesListAuthorizationRulesNextResponse = SBAuthorizationRuleListResult
-  & { _response: Object }

@@ -3,11 +3,11 @@ name: StorageClient
 uid: '@azure/storage-queue.StorageClient'
 package: '@azure/storage-queue'
 summary: >-
-  A StorageClient represents a based client class for <xref:QueueServiceClient>,
-  <xref:QueueClient> and etc.
+  A StorageClient represents a based client class for
+  <xref:@azure/storage-queue.QueueServiceClient>,
+  <xref:@azure/storage-queue.QueueClient> and etc.
 fullName: StorageClient
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 properties:
@@ -17,23 +17,21 @@ properties:
     summary: ''
     fullName: accountName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'accountName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: url
     uid: '@azure/storage-queue.StorageClient.url'
     package: '@azure/storage-queue'
     summary: URL string value.
     fullName: url
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'url: string'
       return:
-        type: string
         description: ''
+        type: string

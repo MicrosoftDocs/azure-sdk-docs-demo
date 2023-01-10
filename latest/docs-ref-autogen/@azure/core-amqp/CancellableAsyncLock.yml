@@ -9,7 +9,6 @@ summary: |
   cancelled by reach a provided timeout value.
 fullName: CancellableAsyncLock
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 methods:
@@ -35,12 +34,11 @@ methods:
 
       timed out waiting to acquire a lock.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function acquire<T>(key: string, task: (args: any[]) => Promise<T>,
-        properties: AcquireLockProperties)
+        properties: AcquireLockProperties): Promise<T>
       parameters:
         - id: key
           type: string
@@ -53,5 +51,5 @@ methods:
           description: |
             Additional properties to control the behavior of `acquire`.
       return:
-        type: Promise&lt;T&gt;
         description: ''
+        type: Promise&lt;T&gt;

@@ -2,10 +2,11 @@
 name: BlobSetMetadataOptions
 uid: '@azure/storage-blob.BlobSetMetadataOptions'
 package: '@azure/storage-blob'
-summary: 'Options to configure the <xref:BlobClient.setMetadata> operation.'
+summary: >-
+  Options to configure the <xref:@azure/storage-blob.BlobClient.setMetadata>
+  operation.
 fullName: BlobSetMetadataOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -20,39 +21,36 @@ properties:
       `AbortSignal`.
     fullName: abortSignal
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'abortSignal?: AbortSignalLike'
       return:
-        type: AbortSignalLike
         description: ''
+        type: AbortSignalLike
   - name: conditions
     uid: '@azure/storage-blob.BlobSetMetadataOptions.conditions'
     package: '@azure/storage-blob'
     summary: Conditions to meet when setting blob metadata.
     fullName: conditions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'conditions?: BlobRequestConditions'
       return:
-        type: <xref uid="@azure/storage-blob.BlobRequestConditions" />
         description: ''
+        type: <xref uid="@azure/storage-blob.BlobRequestConditions" />
   - name: customerProvidedKey
     uid: '@azure/storage-blob.BlobSetMetadataOptions.customerProvidedKey'
     package: '@azure/storage-blob'
     summary: Customer Provided Key Info.
     fullName: customerProvidedKey
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'customerProvidedKey?: CpkInfo'
       return:
-        type: <xref uid="@azure/storage-blob.CpkInfo" />
         description: ''
+        type: <xref uid="@azure/storage-blob.CpkInfo" />
   - name: encryptionScope
     uid: '@azure/storage-blob.BlobSetMetadataOptions.encryptionScope'
     package: '@azure/storage-blob'
@@ -69,24 +67,26 @@ properties:
       Storage Services.
     fullName: encryptionScope
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'encryptionScope?: string'
       return:
-        type: string
         description: ''
+        type: string
+inheritedProperties:
   - name: tracingOptions
     uid: '@azure/storage-blob.BlobSetMetadataOptions.tracingOptions'
     package: '@azure/storage-blob'
     summary: Options to configure spans created when tracing is enabled.
     fullName: tracingOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tracingOptions?: OperationTracingOptions'
       return:
-        type: OperationTracingOptions
         description: ''
+        type: OperationTracingOptions
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      [CommonOptions.tracingOptions](xref:@azure/storage-blob.CommonOptions.tracingOptions)
 extends: <xref uid="@azure/storage-blob.CommonOptions" />

@@ -5,7 +5,6 @@ package: '@azure/storage-file-datalake'
 summary: ''
 fullName: ServiceListFileSystemsSegmentHeaders
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -16,13 +15,12 @@ properties:
     summary: ''
     fullName: clientRequestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'clientRequestId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: requestId
     uid: >-
       @azure/storage-file-datalake.ServiceListFileSystemsSegmentHeaders.requestId
@@ -30,23 +28,21 @@ properties:
     summary: ''
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: version
     uid: '@azure/storage-file-datalake.ServiceListFileSystemsSegmentHeaders.version'
     package: '@azure/storage-file-datalake'
     summary: ''
     fullName: version
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'version?: string'
       return:
-        type: string
         description: ''
+        type: string

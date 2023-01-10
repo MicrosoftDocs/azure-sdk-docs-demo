@@ -5,7 +5,6 @@ package: '@azure/storage-file-share'
 summary: ''
 fullName: FileHttpHeaders
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -18,13 +17,12 @@ properties:
       with a read request.
     fullName: fileCacheControl
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'fileCacheControl?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: fileContentDisposition
     uid: '@azure/storage-file-share.FileHttpHeaders.fileContentDisposition'
     package: '@azure/storage-file-share'
@@ -33,13 +31,12 @@ properties:
       Content-Disposition header.
     fullName: fileContentDisposition
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'fileContentDisposition?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: fileContentEncoding
     uid: '@azure/storage-file-share.FileHttpHeaders.fileContentEncoding'
     package: '@azure/storage-file-share'
@@ -49,13 +46,12 @@ properties:
       with a read request.
     fullName: fileContentEncoding
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'fileContentEncoding?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: fileContentLanguage
     uid: '@azure/storage-file-share.FileHttpHeaders.fileContentLanguage'
     package: '@azure/storage-file-share'
@@ -65,13 +61,12 @@ properties:
       with a read request.
     fullName: fileContentLanguage
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'fileContentLanguage?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: fileContentMD5
     uid: '@azure/storage-file-share.FileHttpHeaders.fileContentMD5'
     package: '@azure/storage-file-share'
@@ -81,13 +76,12 @@ properties:
       individual blocks were validated when each was uploaded.
     fullName: fileContentMD5
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'fileContentMD5?: Uint8Array'
       return:
-        type: Uint8Array
         description: ''
+        type: Uint8Array
   - name: fileContentType
     uid: '@azure/storage-file-share.FileHttpHeaders.fileContentType'
     package: '@azure/storage-file-share'
@@ -97,10 +91,9 @@ properties:
       read request.
     fullName: fileContentType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'fileContentType?: string'
       return:
-        type: string
         description: ''
+        type: string

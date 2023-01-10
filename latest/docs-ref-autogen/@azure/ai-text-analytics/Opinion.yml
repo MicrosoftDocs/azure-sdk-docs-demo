@@ -8,7 +8,6 @@ summary: |-
   assessments themselves.
 fullName: Opinion
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -18,23 +17,21 @@ properties:
     summary: The actual assessments of the target.
     fullName: assessments
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'assessments: AssessmentSentiment[]'
       return:
-        type: '<xref uid="@azure/ai-text-analytics.AssessmentSentiment" />[]'
         description: ''
+        type: '<xref uid="@azure/ai-text-analytics.AssessmentSentiment" />[]'
   - name: target
     uid: '@azure/ai-text-analytics.Opinion.target'
     package: '@azure/ai-text-analytics'
     summary: The target of a product/service that this assessment is about.
     fullName: target
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'target: TargetSentiment'
       return:
-        type: <xref uid="@azure/ai-text-analytics.TargetSentiment" />
         description: ''
+        type: <xref uid="@azure/ai-text-analytics.TargetSentiment" />

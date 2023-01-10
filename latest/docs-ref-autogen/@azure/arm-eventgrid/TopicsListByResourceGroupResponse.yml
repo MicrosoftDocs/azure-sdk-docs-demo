@@ -5,8 +5,6 @@ package: '@azure/arm-eventgrid'
 summary: Contains response data for the listByResourceGroup operation.
 fullName: TopicsListByResourceGroupResponse
 remarks: ''
-isPreview: false
 isDeprecated: false
-syntax: >-
-  type TopicsListByResourceGroupResponse = TopicsListResult & { _response:
-  Object }
+syntax: |
+  type TopicsListByResourceGroupResponse = TopicsListResult

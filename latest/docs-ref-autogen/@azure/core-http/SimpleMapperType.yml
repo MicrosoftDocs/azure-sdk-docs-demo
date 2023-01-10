@@ -2,20 +2,18 @@
 name: SimpleMapperType
 uid: '@azure/core-http.SimpleMapperType'
 package: '@azure/core-http'
-summary: ''
+summary: The type of a simple mapper.
 fullName: SimpleMapperType
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
   - name: name
     uid: '@azure/core-http.SimpleMapperType.name'
     package: '@azure/core-http'
-    summary: ''
+    summary: Name of the type of the property.
     fullName: name
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -23,8 +21,8 @@ properties:
         "DateTimeRfc1123" | "Object" | "Stream" | "String" | "TimeSpan" |
         "UnixTime" | "Uuid" | "Number" | "any"
       return:
+        description: ''
         type: >-
           "Base64Url" | "Boolean" | "ByteArray" | "Date" | "DateTime" |
           "DateTimeRfc1123" | "Object" | "Stream" | "String" | "TimeSpan" |
           "UnixTime" | "Uuid" | "Number" | "any"
-        description: ''
