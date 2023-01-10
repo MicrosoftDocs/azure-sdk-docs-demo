@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: Retry options interface.
 fullName: IRetryOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,13 +18,12 @@ properties:
       If you specify 0, then you must also specify 0 for retryDelayInMs.
     fullName: maxRetryDelayInMs
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'maxRetryDelayInMs?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: maxTries
     uid: '@azure/storage-blob.IRetryOptions.maxTries'
     package: '@azure/storage-blob'
@@ -35,13 +33,12 @@ properties:
       A value smaller than 1 means default retry number of attempts.
     fullName: maxTries
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'maxTries?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: retryDelayInMs
     uid: '@azure/storage-blob.IRetryOptions.retryDelayInMs'
     package: '@azure/storage-blob'
@@ -56,26 +53,24 @@ properties:
       maxRetryDelayInMs.
     fullName: retryDelayInMs
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'retryDelayInMs?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: retryPolicyType
     uid: '@azure/storage-blob.IRetryOptions.retryPolicyType'
     package: '@azure/storage-blob'
     summary: 'Optional. RetryPolicyType, default is exponential retry policy.'
     fullName: retryPolicyType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'retryPolicyType?: RetryPolicyType'
       return:
-        type: <xref uid="@azure/storage-blob.RetryPolicyType" />
         description: ''
+        type: <xref uid="@azure/storage-blob.RetryPolicyType" />
   - name: secondaryHost
     uid: '@azure/storage-blob.IRetryOptions.secondaryHost'
     package: '@azure/storage-blob'
@@ -90,16 +85,15 @@ properties:
 
       reading stale and potentially-inconsistent data at
 
-      <xref:https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fstorage%2Fcommon%2Fstorage-designing-ha-apps-with-ragrs>
+      https://docs.microsoft.com/en-us/azure/storage/common/storage-designing-ha-apps-with-ragrs
     fullName: secondaryHost
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'secondaryHost?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: tryTimeoutInMs
     uid: '@azure/storage-blob.IRetryOptions.tryTimeoutInMs'
     package: '@azure/storage-blob'
@@ -110,12 +104,15 @@ properties:
       A value of zero or undefined means no default timeout on SDK client, Azure
 
       Storage server's default timeout policy will be used.
+
+
+      See
+      https://docs.microsoft.com/en-us/rest/api/storageservices/setting-timeouts-for-blob-service-operations
     fullName: tryTimeoutInMs
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tryTimeoutInMs?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number

@@ -5,7 +5,6 @@ package: azure-arm-keyvault
 summary: ''
 fullName: Permissions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,49 +14,45 @@ properties:
     summary: ''
     fullName: certificates
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'certificates?: string[]'
       return:
-        type: 'string[]'
         description: ''
+        type: 'string[]'
   - name: keys
     uid: azure-arm-keyvault.Permissions.keys
     package: azure-arm-keyvault
     summary: ''
     fullName: keys
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'keys?: string[]'
       return:
-        type: 'string[]'
         description: ''
+        type: 'string[]'
   - name: secrets
     uid: azure-arm-keyvault.Permissions.secrets
     package: azure-arm-keyvault
     summary: ''
     fullName: secrets
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'secrets?: string[]'
       return:
-        type: 'string[]'
         description: ''
+        type: 'string[]'
   - name: storage
     uid: azure-arm-keyvault.Permissions.storage
     package: azure-arm-keyvault
     summary: ''
     fullName: storage
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'storage?: string[]'
       return:
-        type: 'string[]'
         description: ''
+        type: 'string[]'

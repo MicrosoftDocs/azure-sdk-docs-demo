@@ -11,7 +11,6 @@ summary: >-
   SubscriptionClient
 fullName: SubscriptionClient
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 properties:
@@ -21,13 +20,12 @@ properties:
     summary: The name of the default rule on the subscription.
     fullName: defaultRuleName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'defaultRuleName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: entityPath
     uid: '@azure/service-bus.SubscriptionClient.entityPath'
     package: '@azure/service-bus'
@@ -36,39 +34,36 @@ properties:
       created.
     fullName: entityPath
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'entityPath: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: id
     uid: '@azure/service-bus.SubscriptionClient.id'
     package: '@azure/service-bus'
     summary: A unique identifier for this client.
     fullName: id
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'id: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: subscriptionName
     uid: '@azure/service-bus.SubscriptionClient.subscriptionName'
     package: '@azure/service-bus'
     summary: The name of the Service Bus Subscription for which this client is created.
     fullName: subscriptionName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'subscriptionName: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: topicName
     uid: '@azure/service-bus.SubscriptionClient.topicName'
     package: '@azure/service-bus'
@@ -77,13 +72,12 @@ properties:
       created.
     fullName: topicName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'topicName: string'
       return:
-        type: string
         description: ''
+        type: string
 methods:
   - name: 'addRule(string, boolean | string | CorrelationFilter, undefined | string)'
     uid: '@azure/service-bus.SubscriptionClient.addRule'
@@ -100,12 +94,12 @@ methods:
 
       the subscription receiving all messages.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function addRule(ruleName: string, filter: boolean | string |
-        CorrelationFilter, sqlRuleActionExpression?: undefined | string)
+        CorrelationFilter, sqlRuleActionExpression?: undefined | string):
+        Promise<void>
       parameters:
         - id: ruleName
           type: string
@@ -129,8 +123,8 @@ methods:
             see [SQLRuleAction
             syntax](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-sql-rule-action).
       return:
-        type: Promise&lt;void&gt;
         description: ''
+        type: Promise&lt;void&gt;
   - name: close()
     uid: '@azure/service-bus.SubscriptionClient.close'
     package: '@azure/service-bus'
@@ -142,13 +136,12 @@ methods:
 
       further operations.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function close()
+      content: 'function close(): Promise<void>'
       return:
-        type: Promise&lt;void&gt;
         description: ''
+        type: Promise&lt;void&gt;
   - name: createReceiver(ReceiveMode)
     uid: '@azure/service-bus.SubscriptionClient.createReceiver'
     package: '@azure/service-bus'
@@ -156,10 +149,9 @@ methods:
       Creates a Receiver for receiving messages from a Subscription which does
       not have sessions enabled.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function createReceiver(receiveMode: ReceiveMode)'
+      content: 'function createReceiver(receiveMode: ReceiveMode): Receiver'
       parameters:
         - id: receiveMode
           type: <xref uid="@azure/service-bus.ReceiveMode" />
@@ -182,12 +174,12 @@ methods:
 
             Service Bus.
       return:
-        type: <xref uid="@azure/service-bus.Receiver" />
         description: >-
           Receiver A receiver to receive messages from a Subscription which does
           not have
 
           sessions enabled.
+        type: <xref uid="@azure/service-bus.Receiver" />
   - name: 'createReceiver(ReceiveMode, SessionReceiverOptions)'
     uid: '@azure/service-bus.SubscriptionClient.createReceiver_1'
     package: '@azure/service-bus'
@@ -197,12 +189,11 @@ methods:
 
       given, a random session among the available sessions is used.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function createReceiver(receiveMode: ReceiveMode, sessionOptions:
-        SessionReceiverOptions)
+        SessionReceiverOptions): SessionReceiver
       parameters:
         - id: receiveMode
           type: <xref uid="@azure/service-bus.ReceiveMode" />
@@ -232,22 +223,21 @@ methods:
 
             the session receiver.
       return:
-        type: <xref uid="@azure/service-bus.SessionReceiver" />
         description: >-
           SessionReceiver A receiver to receive from a session in the
           Subscription.
+        type: <xref uid="@azure/service-bus.SessionReceiver" />
   - name: getRules()
     uid: '@azure/service-bus.SubscriptionClient.getRules'
     package: '@azure/service-bus'
     summary: Gets all rules associated with the subscription
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function getRules()
+      content: 'function getRules(): Promise<RuleDescription[]>'
       return:
-        type: 'Promise&lt;<xref uid="@azure/service-bus.RuleDescription" />[]&gt;'
         description: ''
+        type: 'Promise&lt;<xref uid="@azure/service-bus.RuleDescription" />[]&gt;'
   - name: peek(undefined | number)
     uid: '@azure/service-bus.SubscriptionClient.peek'
     package: '@azure/service-bus'
@@ -266,17 +256,18 @@ methods:
       It cannot be `Completed/Abandoned/Deferred/Deadlettered`. The lock on it
       cannot be renewed.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function peek(maxMessageCount?: undefined | number)'
+      content: >-
+        function peek(maxMessageCount?: undefined | number):
+        Promise<ReceivedMessageInfo[]>
       parameters:
         - id: maxMessageCount
           type: undefined | number
           description: ''
       return:
-        type: 'Promise&lt;<xref uid="@azure/service-bus.ReceivedMessageInfo" />[]&gt;'
         description: 'Promise<ReceivedSBMessage[]>'
+        type: 'Promise&lt;<xref uid="@azure/service-bus.ReceivedMessageInfo" />[]&gt;'
   - name: 'peekBySequenceNumber(Long, undefined | number)'
     uid: '@azure/service-bus.SubscriptionClient.peekBySequenceNumber'
     package: '@azure/service-bus'
@@ -292,12 +283,11 @@ methods:
       It cannot be `Completed/Abandoned/Deferred/Deadlettered`. The lock on it
       cannot be renewed.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function peekBySequenceNumber(fromSequenceNumber: Long,
-        maxMessageCount?: undefined | number)
+        maxMessageCount?: undefined | number): Promise<ReceivedMessageInfo[]>
       parameters:
         - id: fromSequenceNumber
           type: Long
@@ -306,8 +296,8 @@ methods:
           type: undefined | number
           description: ''
       return:
-        type: 'Promise&lt;<xref uid="@azure/service-bus.ReceivedMessageInfo" />[]&gt;'
         description: 'Promise<ReceivedSBMessage[]>'
+        type: 'Promise&lt;<xref uid="@azure/service-bus.ReceivedMessageInfo" />[]&gt;'
   - name: removeRule(string)
     uid: '@azure/service-bus.SubscriptionClient.removeRule'
     package: '@azure/service-bus'
@@ -319,14 +309,13 @@ methods:
 
       any more messages.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function removeRule(ruleName: string)'
+      content: 'function removeRule(ruleName: string): Promise<void>'
       parameters:
         - id: ruleName
           type: string
           description: ''
       return:
-        type: Promise&lt;void&gt;
         description: ''
+        type: Promise&lt;void&gt;

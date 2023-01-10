@@ -5,8 +5,9 @@ package: '@azure/storage-blob'
 summary: OutgoingHandler is an async function triggered by BufferScheduler.
 fullName: OutgoingHandler
 remarks: ''
-isPreview: false
 isDeprecated: false
-syntax: >-
-  type OutgoingHandler = (buffer: Buffer, offset?: undefined | number) =>
-  Promise<any>
+syntax: |
+  type OutgoingHandler = (
+    buffer: Buffer,
+    offset?: undefined | number
+  ) => Promise<any>

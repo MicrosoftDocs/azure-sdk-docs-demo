@@ -5,7 +5,6 @@ package: '@azure/cognitiveservices-formrecognizer'
 summary: Analyze API call result.
 fullName: AnalyzeResult
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -17,15 +16,14 @@ properties:
       operation.
     fullName: errors
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'errors?: FormOperationError[]'
       return:
+        description: ''
         type: >-
           <xref uid="@azure/cognitiveservices-formrecognizer.FormOperationError"
           />[]
-        description: ''
   - name: pages
     uid: '@azure/cognitiveservices-formrecognizer.AnalyzeResult.pages'
     package: '@azure/cognitiveservices-formrecognizer'
@@ -34,13 +32,12 @@ properties:
       document.
     fullName: pages
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'pages?: ExtractedPage[]'
       return:
-        type: '<xref uid="@azure/cognitiveservices-formrecognizer.ExtractedPage" />[]'
         description: ''
+        type: '<xref uid="@azure/cognitiveservices-formrecognizer.ExtractedPage" />[]'
   - name: status
     uid: '@azure/cognitiveservices-formrecognizer.AnalyzeResult.status'
     package: '@azure/cognitiveservices-formrecognizer'
@@ -51,10 +48,9 @@ properties:
       'failure'
     fullName: status
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'status?: Status2'
       return:
-        type: <xref uid="@azure/cognitiveservices-formrecognizer.Status2" />
         description: ''
+        type: <xref uid="@azure/cognitiveservices-formrecognizer.Status2" />

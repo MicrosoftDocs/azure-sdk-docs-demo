@@ -5,6 +5,8 @@ package: '@azure/storage-blob'
 summary: Contains response data for the deleteMethod operation.
 fullName: DirectoryDeleteResponse
 remarks: ''
-isPreview: false
 isDeprecated: false
-syntax: 'type DirectoryDeleteResponse = DirectoryDeleteHeaders & { _response: Object }'
+syntax: |
+  type DirectoryDeleteResponse = DirectoryDeleteHeaders & {
+    _response: HttpResponse & { parsedHeaders: DirectoryDeleteHeaders },
+  }

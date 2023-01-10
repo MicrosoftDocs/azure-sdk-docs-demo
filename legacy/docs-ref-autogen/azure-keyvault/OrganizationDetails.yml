@@ -5,7 +5,6 @@ package: azure-keyvault
 summary: ''
 fullName: OrganizationDetails
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,23 +14,21 @@ properties:
     summary: ''
     fullName: adminDetails
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'adminDetails?: AdministratorDetails[]'
       return:
-        type: '<xref uid="azure-keyvault.AdministratorDetails" />[]'
         description: ''
+        type: '<xref uid="azure-keyvault.AdministratorDetails" />[]'
   - name: id
     uid: azure-keyvault.OrganizationDetails.id
     package: azure-keyvault
     summary: ''
     fullName: id
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'id?: string'
       return:
-        type: string
         description: ''
+        type: string

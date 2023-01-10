@@ -5,7 +5,6 @@ package: '@azure/cognitiveservices-textanalytics'
 summary: An interface representing SentimentBatchResult.
 fullName: SentimentBatchResult
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,16 +18,15 @@ properties:
       the server.**
     fullName: documents
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'documents?: SentimentBatchResultItem[]'
       return:
+        description: ''
         type: >-
           <xref
           uid="@azure/cognitiveservices-textanalytics.SentimentBatchResultItem"
           />[]
-        description: ''
   - name: errors
     uid: '@azure/cognitiveservices-textanalytics.SentimentBatchResult.errors'
     package: '@azure/cognitiveservices-textanalytics'
@@ -39,13 +37,12 @@ properties:
       the server.**
     fullName: errors
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'errors?: ErrorRecord[]'
       return:
-        type: '<xref uid="@azure/cognitiveservices-textanalytics.ErrorRecord" />[]'
         description: ''
+        type: '<xref uid="@azure/cognitiveservices-textanalytics.ErrorRecord" />[]'
   - name: statistics
     uid: '@azure/cognitiveservices-textanalytics.SentimentBatchResult.statistics'
     package: '@azure/cognitiveservices-textanalytics'
@@ -59,12 +56,11 @@ properties:
       the server.**
     fullName: statistics
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'statistics?: RequestStatistics'
       return:
+        description: ''
         type: >-
           <xref uid="@azure/cognitiveservices-textanalytics.RequestStatistics"
           />
-        description: ''

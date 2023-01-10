@@ -15,7 +15,6 @@ summary: >-
   way to allow one domain (the origin domain) to call APIs in another domain
 fullName: CorsRule
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -27,13 +26,12 @@ properties:
       request.
     fullName: allowedHeaders
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'allowedHeaders: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: allowedMethods
     uid: '@azure/storage-queue.CorsRule.allowedMethods'
     package: '@azure/storage-queue'
@@ -44,13 +42,12 @@ properties:
       separated)
     fullName: allowedMethods
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'allowedMethods: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: allowedOrigins
     uid: '@azure/storage-queue.CorsRule.allowedOrigins'
     package: '@azure/storage-queue'
@@ -68,13 +65,12 @@ properties:
       make requests via CORS.
     fullName: allowedOrigins
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'allowedOrigins: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: exposedHeaders
     uid: '@azure/storage-queue.CorsRule.exposedHeaders'
     package: '@azure/storage-queue'
@@ -85,13 +81,12 @@ properties:
       browser to the request issuer
     fullName: exposedHeaders
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'exposedHeaders: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: maxAgeInSeconds
     uid: '@azure/storage-queue.CorsRule.maxAgeInSeconds'
     package: '@azure/storage-queue'
@@ -100,10 +95,9 @@ properties:
       request.
     fullName: maxAgeInSeconds
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'maxAgeInSeconds: number'
       return:
-        type: number
         description: ''
+        type: number

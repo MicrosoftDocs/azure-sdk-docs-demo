@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: Defines headers for Delete operation.
 fullName: DirectoryDeleteHeaders
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,13 +18,12 @@ properties:
       response with the same value.
     fullName: clientRequestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'clientRequestId?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: date
     uid: '@azure/storage-blob.DirectoryDeleteHeaders.date'
     package: '@azure/storage-blob'
@@ -36,13 +34,12 @@ properties:
       was initiated.
     fullName: date
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'date?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: marker
     uid: '@azure/storage-blob.DirectoryDeleteHeaders.marker'
     package: '@azure/storage-blob'
@@ -62,13 +59,12 @@ properties:
       directory.
     fullName: marker
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'marker?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: requestId
     uid: '@azure/storage-blob.DirectoryDeleteHeaders.requestId'
     package: '@azure/storage-blob'
@@ -77,23 +73,21 @@ properties:
       and correlation.
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: version
     uid: '@azure/storage-blob.DirectoryDeleteHeaders.version'
     package: '@azure/storage-blob'
     summary: The version of the REST protocol used to process the request.
     fullName: version
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'version?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string

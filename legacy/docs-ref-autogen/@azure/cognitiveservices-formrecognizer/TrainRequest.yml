@@ -5,7 +5,6 @@ package: '@azure/cognitiveservices-formrecognizer'
 summary: Contract to initiate a train request.
 fullName: TrainRequest
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,13 +14,12 @@ properties:
     summary: Get or set source path.
     fullName: source
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'source: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: sourceFilter
     uid: '@azure/cognitiveservices-formrecognizer.TrainRequest.sourceFilter'
     package: '@azure/cognitiveservices-formrecognizer'
@@ -30,12 +28,11 @@ properties:
       source path for content.
     fullName: sourceFilter
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sourceFilter?: TrainSourceFilter'
       return:
+        description: ''
         type: >-
           <xref uid="@azure/cognitiveservices-formrecognizer.TrainSourceFilter"
           />
-        description: ''

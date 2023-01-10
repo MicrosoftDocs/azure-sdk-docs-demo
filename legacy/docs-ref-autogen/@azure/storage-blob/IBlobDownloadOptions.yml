@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: ''
 fullName: IBlobDownloadOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,26 +14,24 @@ properties:
     summary: ''
     fullName: blobAccessConditions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobAccessConditions?: IBlobAccessConditions'
       return:
-        type: <xref uid="@azure/storage-blob.IBlobAccessConditions" />
         description: ''
+        type: <xref uid="@azure/storage-blob.IBlobAccessConditions" />
   - name: customerProvidedKey
     uid: '@azure/storage-blob.IBlobDownloadOptions.customerProvidedKey'
     package: '@azure/storage-blob'
     summary: ''
     fullName: customerProvidedKey
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'customerProvidedKey?: Models.CpkInfo'
       return:
-        type: <xref uid="Models.CpkInfo" />
         description: ''
+        type: <xref uid="Models.CpkInfo" />
   - name: maxRetryRequests
     uid: '@azure/storage-blob.IBlobDownloadOptions.maxRetryRequests'
     package: '@azure/storage-blob'
@@ -60,26 +57,24 @@ properties:
       poor network.
     fullName: maxRetryRequests
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'maxRetryRequests?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: progress
     uid: '@azure/storage-blob.IBlobDownloadOptions.progress'
     package: '@azure/storage-blob'
     summary: ''
     fullName: progress
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'progress?: undefined | (progress: TransferProgressEvent) => void'
       return:
-        type: 'undefined | (progress: TransferProgressEvent) =&gt; void'
         description: ''
+        type: 'undefined | (progress: TransferProgressEvent) =&gt; void'
   - name: rangeGetContentCrc64
     uid: '@azure/storage-blob.IBlobDownloadOptions.rangeGetContentCrc64'
     package: '@azure/storage-blob'
@@ -92,13 +87,12 @@ properties:
       rangeGetContentCrc64 and rangeGetContentMD5 cannot be set at same time.
     fullName: rangeGetContentCrc64
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'rangeGetContentCrc64?: undefined | false | true'
       return:
-        type: undefined | false | true
         description: ''
+        type: undefined | false | true
   - name: rangeGetContentMD5
     uid: '@azure/storage-blob.IBlobDownloadOptions.rangeGetContentMD5'
     package: '@azure/storage-blob'
@@ -111,13 +105,12 @@ properties:
       rangeGetContentCrc64 and rangeGetContentMD5 cannot be set at same time.
     fullName: rangeGetContentMD5
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'rangeGetContentMD5?: undefined | false | true'
       return:
-        type: undefined | false | true
         description: ''
+        type: undefined | false | true
   - name: snapshot
     uid: '@azure/storage-blob.IBlobDownloadOptions.snapshot'
     package: '@azure/storage-blob'
@@ -126,10 +119,9 @@ properties:
       snapshot to retrieve.
     fullName: snapshot
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'snapshot?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string

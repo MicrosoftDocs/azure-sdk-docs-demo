@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: Class representing a Container.
 fullName: Container
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -14,7 +13,6 @@ constructors:
     package: '@azure/storage-blob'
     summary: Create a Container.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'new Container(client: StorageClientContext)'
@@ -29,7 +27,6 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -54,25 +51,24 @@ methods:
 
       can be 15 to 60 seconds, or can be infinite
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function acquireLease(options?:
-        Models.ContainerAcquireLeaseOptionalParams)
+        Models.ContainerAcquireLeaseOptionalParams):
+        Promise<Models.ContainerAcquireLeaseResponse>
       parameters:
         - id: options
           type: <xref uid="Models.ContainerAcquireLeaseOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerAcquireLeaseResponse" />&gt;
         description: Promise<Models.ContainerAcquireLeaseResponse>
+        type: Promise&lt;<xref uid="Models.ContainerAcquireLeaseResponse" />&gt;
   - name: acquireLease(ServiceCallback<void>)
     uid: '@azure/storage-blob.Container.acquireLease_1'
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function acquireLease(callback: ServiceCallback<void>)'
@@ -86,7 +82,6 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -109,23 +104,23 @@ methods:
 
       can be 15 to 60 seconds, or can be infinite
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function breakLease(options?: Models.ContainerBreakLeaseOptionalParams)'
+      content: >-
+        function breakLease(options?: Models.ContainerBreakLeaseOptionalParams):
+        Promise<Models.ContainerBreakLeaseResponse>
       parameters:
         - id: options
           type: <xref uid="Models.ContainerBreakLeaseOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerBreakLeaseResponse" />&gt;
         description: Promise<Models.ContainerBreakLeaseResponse>
+        type: Promise&lt;<xref uid="Models.ContainerBreakLeaseResponse" />&gt;
   - name: breakLease(ServiceCallback<void>)
     uid: '@azure/storage-blob.Container.breakLease_1'
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function breakLease(callback: ServiceCallback<void>)'
@@ -141,7 +136,6 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -179,12 +173,12 @@ methods:
 
       can be 15 to 60 seconds, or can be infinite
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function changeLease(leaseId: string, proposedLeaseId: string, options?:
-        Models.ContainerChangeLeaseOptionalParams)
+        Models.ContainerChangeLeaseOptionalParams):
+        Promise<Models.ContainerChangeLeaseResponse>
       parameters:
         - id: leaseId
           type: string
@@ -203,14 +197,13 @@ methods:
           type: <xref uid="Models.ContainerChangeLeaseOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerChangeLeaseResponse" />&gt;
         description: Promise<Models.ContainerChangeLeaseResponse>
+        type: Promise&lt;<xref uid="Models.ContainerChangeLeaseResponse" />&gt;
   - name: 'changeLease(string, string, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Container.changeLease_1'
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -239,7 +232,6 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -262,23 +254,23 @@ methods:
 
       exists, the operation fails
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function create(options?: Models.ContainerCreateOptionalParams)'
+      content: >-
+        function create(options?: Models.ContainerCreateOptionalParams):
+        Promise<Models.ContainerCreateResponse>
       parameters:
         - id: options
           type: <xref uid="Models.ContainerCreateOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerCreateResponse" />&gt;
         description: Promise<Models.ContainerCreateResponse>
+        type: Promise&lt;<xref uid="Models.ContainerCreateResponse" />&gt;
   - name: create(ServiceCallback<void>)
     uid: '@azure/storage-blob.Container.create_1'
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function create(callback: ServiceCallback<void>)'
@@ -292,7 +284,6 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -317,25 +308,24 @@ methods:
 
       within it are later deleted during garbage collection
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function deleteMethod(options?:
-        Models.ContainerDeleteMethodOptionalParams)
+        Models.ContainerDeleteMethodOptionalParams):
+        Promise<Models.ContainerDeleteResponse>
       parameters:
         - id: options
           type: <xref uid="Models.ContainerDeleteMethodOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerDeleteResponse" />&gt;
         description: Promise<Models.ContainerDeleteResponse>
+        type: Promise&lt;<xref uid="Models.ContainerDeleteResponse" />&gt;
   - name: deleteMethod(ServiceCallback<void>)
     uid: '@azure/storage-blob.Container.deleteMethod_1'
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function deleteMethod(callback: ServiceCallback<void>)'
@@ -351,7 +341,6 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -379,25 +368,24 @@ methods:
 
       data may be accessed publicly.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function getAccessPolicy(options?:
-        Models.ContainerGetAccessPolicyOptionalParams)
+        Models.ContainerGetAccessPolicyOptionalParams):
+        Promise<Models.ContainerGetAccessPolicyResponse>
       parameters:
         - id: options
           type: <xref uid="Models.ContainerGetAccessPolicyOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerGetAccessPolicyResponse" />&gt;
         description: Promise<Models.ContainerGetAccessPolicyResponse>
+        type: Promise&lt;<xref uid="Models.ContainerGetAccessPolicyResponse" />&gt;
   - name: 'getAccessPolicy(ServiceCallback<SignedIdentifier[]>)'
     uid: '@azure/storage-blob.Container.getAccessPolicy_1'
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function getAccessPolicy(callback: ServiceCallback<SignedIdentifier[]>)'
@@ -413,23 +401,23 @@ methods:
     package: '@azure/storage-blob'
     summary: Returns the sku name and account kind
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function getAccountInfo(options?: msRest.RequestOptionsBase)'
+      content: >-
+        function getAccountInfo(options?: msRest.RequestOptionsBase):
+        Promise<Models.ContainerGetAccountInfoResponse>
       parameters:
         - id: options
           type: <xref uid="msRest.RequestOptionsBase" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerGetAccountInfoResponse" />&gt;
         description: Promise<Models.ContainerGetAccountInfoResponse>
+        type: Promise&lt;<xref uid="Models.ContainerGetAccountInfoResponse" />&gt;
   - name: 'getAccountInfo(RequestOptionsBase, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Container.getAccountInfo_2'
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -448,7 +436,6 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function getAccountInfo(callback: ServiceCallback<void>)'
@@ -462,7 +449,6 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -487,25 +473,24 @@ methods:
 
       returned does not include the container's list of blobs
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function getProperties(options?:
-        Models.ContainerGetPropertiesOptionalParams)
+        Models.ContainerGetPropertiesOptionalParams):
+        Promise<Models.ContainerGetPropertiesResponse>
       parameters:
         - id: options
           type: <xref uid="Models.ContainerGetPropertiesOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerGetPropertiesResponse" />&gt;
         description: Promise<Models.ContainerGetPropertiesResponse>
+        type: Promise&lt;<xref uid="Models.ContainerGetPropertiesResponse" />&gt;
   - name: getProperties(ServiceCallback<void>)
     uid: '@azure/storage-blob.Container.getProperties_1'
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function getProperties(callback: ServiceCallback<void>)'
@@ -521,7 +506,6 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -548,27 +532,26 @@ methods:
       [Update] The List Blobs operation returns a list of the blobs under the
       specified container
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function listBlobFlatSegment(options?:
-        Models.ContainerListBlobFlatSegmentOptionalParams)
+        Models.ContainerListBlobFlatSegmentOptionalParams):
+        Promise<Models.ContainerListBlobFlatSegmentResponse>
       parameters:
         - id: options
           type: <xref uid="Models.ContainerListBlobFlatSegmentOptionalParams" />
           description: ''
       return:
+        description: Promise<Models.ContainerListBlobFlatSegmentResponse>
         type: >-
           Promise&lt;<xref uid="Models.ContainerListBlobFlatSegmentResponse"
           />&gt;
-        description: Promise<Models.ContainerListBlobFlatSegmentResponse>
   - name: listBlobFlatSegment(ServiceCallback<ListBlobsFlatSegmentResponse>)
     uid: '@azure/storage-blob.Container.listBlobFlatSegment_1'
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -589,7 +572,6 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -631,12 +613,12 @@ methods:
       [Update] The List Blobs operation returns a list of the blobs under the
       specified container
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function listBlobHierarchySegment(delimiter: string, options?:
-        Models.ContainerListBlobHierarchySegmentOptionalParams)
+        Models.ContainerListBlobHierarchySegmentOptionalParams):
+        Promise<Models.ContainerListBlobHierarchySegmentResponse>
       parameters:
         - id: delimiter
           type: string
@@ -657,10 +639,10 @@ methods:
             />
           description: ''
       return:
+        description: Promise<Models.ContainerListBlobHierarchySegmentResponse>
         type: >-
           Promise&lt;<xref
           uid="Models.ContainerListBlobHierarchySegmentResponse" />&gt;
-        description: Promise<Models.ContainerListBlobHierarchySegmentResponse>
   - name: >-
       listBlobHierarchySegment(string,
       ServiceCallback<ListBlobsHierarchySegmentResponse>)
@@ -668,7 +650,6 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -701,7 +682,6 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -729,12 +709,12 @@ methods:
 
       can be 15 to 60 seconds, or can be infinite
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function releaseLease(leaseId: string, options?:
-        Models.ContainerReleaseLeaseOptionalParams)
+        Models.ContainerReleaseLeaseOptionalParams):
+        Promise<Models.ContainerReleaseLeaseResponse>
       parameters:
         - id: leaseId
           type: string
@@ -743,14 +723,13 @@ methods:
           type: <xref uid="Models.ContainerReleaseLeaseOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerReleaseLeaseResponse" />&gt;
         description: Promise<Models.ContainerReleaseLeaseResponse>
+        type: Promise&lt;<xref uid="Models.ContainerReleaseLeaseResponse" />&gt;
   - name: 'releaseLease(string, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Container.releaseLease_1'
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function releaseLease(leaseId: string, callback: ServiceCallback<void>)'
@@ -769,7 +748,6 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -795,12 +773,12 @@ methods:
 
       can be 15 to 60 seconds, or can be infinite
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function renewLease(leaseId: string, options?:
-        Models.ContainerRenewLeaseOptionalParams)
+        Models.ContainerRenewLeaseOptionalParams):
+        Promise<Models.ContainerRenewLeaseResponse>
       parameters:
         - id: leaseId
           type: string
@@ -809,14 +787,13 @@ methods:
           type: <xref uid="Models.ContainerRenewLeaseOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerRenewLeaseResponse" />&gt;
         description: Promise<Models.ContainerRenewLeaseResponse>
+        type: Promise&lt;<xref uid="Models.ContainerRenewLeaseResponse" />&gt;
   - name: 'renewLease(string, ServiceCallback<void>)'
     uid: '@azure/storage-blob.Container.renewLease_1'
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function renewLease(leaseId: string, callback: ServiceCallback<void>)'
@@ -835,7 +812,6 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -860,25 +836,24 @@ methods:
 
       container may be accessed publicly.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function setAccessPolicy(options?:
-        Models.ContainerSetAccessPolicyOptionalParams)
+        Models.ContainerSetAccessPolicyOptionalParams):
+        Promise<Models.ContainerSetAccessPolicyResponse>
       parameters:
         - id: options
           type: <xref uid="Models.ContainerSetAccessPolicyOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerSetAccessPolicyResponse" />&gt;
         description: Promise<Models.ContainerSetAccessPolicyResponse>
+        type: Promise&lt;<xref uid="Models.ContainerSetAccessPolicyResponse" />&gt;
   - name: setAccessPolicy(ServiceCallback<void>)
     uid: '@azure/storage-blob.Container.setAccessPolicy_1'
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function setAccessPolicy(callback: ServiceCallback<void>)'
@@ -892,7 +867,6 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -915,25 +889,24 @@ methods:
       operation sets one or more user-defined name-value pairs for the specified
       container.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function setMetadata(options?:
-        Models.ContainerSetMetadataOptionalParams)
+        Models.ContainerSetMetadataOptionalParams):
+        Promise<Models.ContainerSetMetadataResponse>
       parameters:
         - id: options
           type: <xref uid="Models.ContainerSetMetadataOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ContainerSetMetadataResponse" />&gt;
         description: Promise<Models.ContainerSetMetadataResponse>
+        type: Promise&lt;<xref uid="Models.ContainerSetMetadataResponse" />&gt;
   - name: setMetadata(ServiceCallback<void>)
     uid: '@azure/storage-blob.Container.setMetadata_1'
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function setMetadata(callback: ServiceCallback<void>)'

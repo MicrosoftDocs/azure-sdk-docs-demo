@@ -5,7 +5,6 @@ package: azure-eventgrid
 summary: ''
 fullName: MediaLiveEventIncomingStreamsOutOfSyncEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -16,13 +15,12 @@ properties:
     summary: ''
     fullName: maxLastTimestamp
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'maxLastTimestamp?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: minLastTimestamp
     uid: >-
       azure-eventgrid.MediaLiveEventIncomingStreamsOutOfSyncEventData.minLastTimestamp
@@ -30,13 +28,12 @@ properties:
     summary: ''
     fullName: minLastTimestamp
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'minLastTimestamp?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: timescaleOfMaxLastTimestamp
     uid: >-
       azure-eventgrid.MediaLiveEventIncomingStreamsOutOfSyncEventData.timescaleOfMaxLastTimestamp
@@ -44,13 +41,12 @@ properties:
     summary: ''
     fullName: timescaleOfMaxLastTimestamp
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'timescaleOfMaxLastTimestamp?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: timescaleOfMinLastTimestamp
     uid: >-
       azure-eventgrid.MediaLiveEventIncomingStreamsOutOfSyncEventData.timescaleOfMinLastTimestamp
@@ -58,13 +54,12 @@ properties:
     summary: ''
     fullName: timescaleOfMinLastTimestamp
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'timescaleOfMinLastTimestamp?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: typeOfStreamWithMaxLastTimestamp
     uid: >-
       azure-eventgrid.MediaLiveEventIncomingStreamsOutOfSyncEventData.typeOfStreamWithMaxLastTimestamp
@@ -72,13 +67,12 @@ properties:
     summary: ''
     fullName: typeOfStreamWithMaxLastTimestamp
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'typeOfStreamWithMaxLastTimestamp?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: typeOfStreamWithMinLastTimestamp
     uid: >-
       azure-eventgrid.MediaLiveEventIncomingStreamsOutOfSyncEventData.typeOfStreamWithMinLastTimestamp
@@ -86,10 +80,9 @@ properties:
     summary: ''
     fullName: typeOfStreamWithMinLastTimestamp
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'typeOfStreamWithMinLastTimestamp?: string'
       return:
-        type: string
         description: ''
+        type: string

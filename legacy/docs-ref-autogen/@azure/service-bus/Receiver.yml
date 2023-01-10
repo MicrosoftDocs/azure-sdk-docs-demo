@@ -12,7 +12,6 @@ summary: >-
   The Receiver class is an abstraction over the underlying AMQP receiver link.
 fullName: Receiver
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 properties:
@@ -26,26 +25,24 @@ properties:
       itself has been closed or the client that created it has been closed.
     fullName: isClosed
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: boolean isClosed
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: receiveMode
     uid: '@azure/service-bus.Receiver.receiveMode'
     package: '@azure/service-bus'
     summary: Denotes receiveMode of this receiver.
     fullName: receiveMode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: ReceiveMode receiveMode
       return:
-        type: <xref uid="@azure/service-bus.ReceiveMode" />
         description: ''
+        type: <xref uid="@azure/service-bus.ReceiveMode" />
 methods:
   - name: close()
     uid: '@azure/service-bus.Receiver.close'
@@ -60,13 +57,12 @@ methods:
 
       a new Receiver
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function close()
+      content: 'function close(): Promise<void>'
       return:
-        type: Promise&lt;void&gt;
         description: ''
+        type: Promise&lt;void&gt;
   - name: getMessageIterator()
     uid: '@azure/service-bus.Receiver.getMessageIterator'
     package: '@azure/service-bus'
@@ -85,15 +81,14 @@ methods:
       If the iterator is not able to fetch a new message in over a minute,
       `undefined` will be returned.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function getMessageIterator()
+      content: 'function getMessageIterator(): AsyncIterableIterator<ServiceBusMessage>'
       return:
+        description: ''
         type: >-
           AsyncIterableIterator&lt;<xref
           uid="@azure/service-bus.ServiceBusMessage" />&gt;
-        description: ''
   - name: isReceivingMessages()
     uid: '@azure/service-bus.Receiver.isReceivingMessages'
     package: '@azure/service-bus'
@@ -103,13 +98,12 @@ methods:
       When this returns true, new `registerMessageHandler()` or
       `receiveMessages()` calls cannot be made.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function isReceivingMessages()
+      content: 'function isReceivingMessages(): boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: receiveDeferredMessage(Long)
     uid: '@azure/service-bus.Receiver.receiveDeferredMessage'
     package: '@azure/service-bus'
@@ -117,22 +111,23 @@ methods:
       Returns a promise that resolves to a deferred message identified by the
       given `sequenceNumber`.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function receiveDeferredMessage(sequenceNumber: Long)'
+      content: >-
+        function receiveDeferredMessage(sequenceNumber: Long):
+        Promise<ServiceBusMessage | undefined>
       parameters:
         - id: sequenceNumber
           type: Long
           description: The sequence number of the message that needs to be received.
       return:
-        type: >-
-          Promise&lt;<xref uid="@azure/service-bus.ServiceBusMessage" /> |
-          undefined&gt;
         description: |-
           Promise<ServiceBusMessage | undefined>
           - Returns `Message` identified by sequence number.
           - Returns `undefined` if no such message is found.
+        type: >-
+          Promise&lt;<xref uid="@azure/service-bus.ServiceBusMessage" /> |
+          undefined&gt;
   - name: 'receiveDeferredMessages(Long[])'
     uid: '@azure/service-bus.Receiver.receiveDeferredMessages'
     package: '@azure/service-bus'
@@ -140,10 +135,11 @@ methods:
       Returns a promise that resolves to an array of deferred messages
       identified by given `sequenceNumbers`.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function receiveDeferredMessages(sequenceNumbers: Long[])'
+      content: >-
+        function receiveDeferredMessages(sequenceNumbers: Long[]):
+        Promise<ServiceBusMessage[]>
       parameters:
         - id: sequenceNumbers
           type: 'Long[]'
@@ -151,11 +147,11 @@ methods:
             An array of sequence numbers for the messages that need to be
             received.
       return:
-        type: 'Promise&lt;<xref uid="@azure/service-bus.ServiceBusMessage" />[]&gt;'
         description: |-
           Promise<ServiceBusMessage[]>
           - Returns a list of messages identified by the given sequenceNumbers.
           - Returns an empty list if no messages are found.
+        type: 'Promise&lt;<xref uid="@azure/service-bus.ServiceBusMessage" />[]&gt;'
   - name: 'receiveMessages(number, undefined | number)'
     uid: '@azure/service-bus.Receiver.receiveMessages'
     package: '@azure/service-bus'
@@ -173,12 +169,11 @@ methods:
 
       property on the receiver.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function receiveMessages(maxMessageCount: number, maxWaitTimeInSeconds?:
-        undefined | number)
+        undefined | number): Promise<ServiceBusMessage[]>
       parameters:
         - id: maxMessageCount
           type: number
@@ -194,10 +189,10 @@ methods:
 
             - **Default**: `60` seconds.
       return:
-        type: 'Promise&lt;<xref uid="@azure/service-bus.ServiceBusMessage" />[]&gt;'
         description: >-
           Promise<ServiceBusMessage[]> A promise that resolves with an array of
           Message objects.
+        type: 'Promise&lt;<xref uid="@azure/service-bus.ServiceBusMessage" />[]&gt;'
   - name: 'registerMessageHandler(OnMessage, OnError, MessageHandlerOptions)'
     uid: '@azure/service-bus.Receiver.registerMessageHandler'
     package: '@azure/service-bus'
@@ -217,7 +212,6 @@ methods:
 
       property on the receiver.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -266,16 +260,15 @@ methods:
 
       receive operation.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function renewMessageLock(lockTokenOrMessage: string |
-        ServiceBusMessage)
+        ServiceBusMessage): Promise<Date>
       parameters:
         - id: lockTokenOrMessage
           type: string | <xref uid="@azure/service-bus.ServiceBusMessage" />
           description: The `lockToken` property of the message or the message itself.
       return:
-        type: Promise&lt;Date&gt;
         description: Promise<Date> - New lock token expiry date and time in UTC format.
+        type: Promise&lt;Date&gt;

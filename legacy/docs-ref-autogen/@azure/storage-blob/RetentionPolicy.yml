@@ -7,7 +7,6 @@ summary: >-
   persist
 fullName: RetentionPolicy
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -21,23 +20,21 @@ properties:
       All data older than this value will be deleted
     fullName: days
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'days?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: enabled
     uid: '@azure/storage-blob.RetentionPolicy.enabled'
     package: '@azure/storage-blob'
     summary: Indicates whether a retention policy is enabled for the storage service
     fullName: enabled
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'enabled: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean

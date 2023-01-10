@@ -11,7 +11,6 @@ summary: >-
   of incoming messages from a Subscription.
 fullName: CorrelationFilter
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -23,13 +22,12 @@ properties:
       message.
     fullName: contentType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentType?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: correlationId
     uid: '@azure/service-bus.CorrelationFilter.correlationId'
     package: '@azure/service-bus'
@@ -38,52 +36,48 @@ properties:
       message.
     fullName: correlationId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'correlationId?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: label
     uid: '@azure/service-bus.CorrelationFilter.label'
     package: '@azure/service-bus'
     summary: Value to be matched with the `label` property of the incoming message.
     fullName: label
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'label?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: messageId
     uid: '@azure/service-bus.CorrelationFilter.messageId'
     package: '@azure/service-bus'
     summary: Value to be matched with the `messageId` property of the incoming message.
     fullName: messageId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'messageId?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: replyTo
     uid: '@azure/service-bus.CorrelationFilter.replyTo'
     package: '@azure/service-bus'
     summary: Value to be matched with the `replyTo` property of the incoming message.
     fullName: replyTo
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'replyTo?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: replyToSessionId
     uid: '@azure/service-bus.CorrelationFilter.replyToSessionId'
     package: '@azure/service-bus'
@@ -92,49 +86,45 @@ properties:
       message.
     fullName: replyToSessionId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'replyToSessionId?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: sessionId
     uid: '@azure/service-bus.CorrelationFilter.sessionId'
     package: '@azure/service-bus'
     summary: Value to be matched with the `sessionId` property of the incoming message.
     fullName: sessionId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sessionId?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: to
     uid: '@azure/service-bus.CorrelationFilter.to'
     package: '@azure/service-bus'
     summary: Value to be matched with the `to` property of the incoming message.
     fullName: to
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'to?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: userProperties
     uid: '@azure/service-bus.CorrelationFilter.userProperties'
     package: '@azure/service-bus'
     summary: Value to be matched with the user properties of the incoming message.
     fullName: userProperties
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'userProperties?: any'
       return:
-        type: any
         description: ''
+        type: any

@@ -5,7 +5,6 @@ package: '@azure/cognitiveservices-formrecognizer'
 summary: An interface representing ErrorInformation.
 fullName: ErrorInformation
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,36 +14,33 @@ properties:
     summary: ''
     fullName: code
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'code?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: innerError
     uid: '@azure/cognitiveservices-formrecognizer.ErrorInformation.innerError'
     package: '@azure/cognitiveservices-formrecognizer'
     summary: ''
     fullName: innerError
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'innerError?: InnerError'
       return:
-        type: <xref uid="@azure/cognitiveservices-formrecognizer.InnerError" />
         description: ''
+        type: <xref uid="@azure/cognitiveservices-formrecognizer.InnerError" />
   - name: message
     uid: '@azure/cognitiveservices-formrecognizer.ErrorInformation.message'
     package: '@azure/cognitiveservices-formrecognizer'
     summary: ''
     fullName: message
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'message?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string

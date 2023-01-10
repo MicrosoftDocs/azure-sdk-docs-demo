@@ -24,7 +24,6 @@ summary: >
   from current aborter to all parents.
 fullName: Aborter
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 properties:
@@ -34,39 +33,36 @@ properties:
     summary: Status of whether aborted or not.
     fullName: aborted
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'aborted: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: none
     uid: '@azure/storage-queue.Aborter.none'
     package: '@azure/storage-queue'
     summary: Creates a new Aborter instance without timeout.
     fullName: none
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'static none: Aborter'
       return:
-        type: <xref uid="@azure/storage-queue.Aborter" />
         description: ''
+        type: <xref uid="@azure/storage-queue.Aborter" />
   - name: onabort
     uid: '@azure/storage-queue.Aborter.onabort'
     package: '@azure/storage-queue'
     summary: onabort event listener.
     fullName: onabort
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'onabort: (this: AbortSignalLike, ev: any) => any | null'
       return:
-        type: '(this: AbortSignalLike, ev: any) =&gt; any | null'
         description: ''
+        type: '(this: AbortSignalLike, ev: any) =&gt; any | null'
 methods:
   - name: abort()
     uid: '@azure/storage-queue.Aborter.abort'
@@ -81,7 +77,6 @@ methods:
 
       - If aborted is true, nothing will happen.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: function abort()
@@ -90,7 +85,6 @@ methods:
     package: '@azure/storage-queue'
     summary: 'Added new "abort" event listener, only support "abort" event.'
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -108,13 +102,12 @@ methods:
     package: '@azure/storage-queue'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function dispatchEvent()
+      content: 'function dispatchEvent(): boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: getValue(string)
     uid: '@azure/storage-queue.Aborter.getValue'
     package: '@azure/storage-queue'
@@ -126,23 +119,23 @@ methods:
 
       If key is not found, undefined will be returned.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function getValue(key: string)'
+      content: >-
+        function getValue(key: string): string | number | boolean | null |
+        undefined
       parameters:
         - id: key
           type: string
           description: ''
       return:
-        type: string | number | boolean | null | undefined
         description: ''
+        type: string | number | boolean | null | undefined
   - name: 'removeEventListener("abort", (this: AbortSignalLike, ev: any) => any)'
     uid: '@azure/storage-queue.Aborter.removeEventListener'
     package: '@azure/storage-queue'
     summary: 'Remove "abort" event listener, only support "abort" event.'
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -162,17 +155,16 @@ methods:
       Creates a new Aborter instance with timeout in milliseconds.
       Set parameter timeout to 0 will not create a timer.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'static function timeout(timeout: number)'
+      content: 'static function timeout(timeout: number): Aborter'
       parameters:
         - id: timeout
           type: number
           description: ''
       return:
-        type: <xref uid="@azure/storage-queue.Aborter" />
         description: ''
+        type: <xref uid="@azure/storage-queue.Aborter" />
   - name: withTimeout(number)
     uid: '@azure/storage-queue.Aborter.withTimeout'
     package: '@azure/storage-queue'
@@ -191,17 +183,16 @@ methods:
 
       Otherwise, call abort() method to manually abort.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function withTimeout(timeout: number)'
+      content: 'function withTimeout(timeout: number): Aborter'
       parameters:
         - id: timeout
           type: number
           description: ''
       return:
-        type: <xref uid="@azure/storage-queue.Aborter" />
         description: The new Aborter instance created.
+        type: <xref uid="@azure/storage-queue.Aborter" />
   - name: 'withValue(string, string | number | boolean | null)'
     uid: '@azure/storage-queue.Aborter.withValue'
     package: '@azure/storage-queue'
@@ -223,12 +214,11 @@ methods:
 
       [current node] -> [parent node] and [grand parent node]....
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function withValue(key: string, value?: string | number | boolean |
-        null)
+        null): Aborter
       parameters:
         - id: key
           type: string
@@ -237,5 +227,5 @@ methods:
           type: string | number | boolean | null
           description: ''
       return:
-        type: <xref uid="@azure/storage-queue.Aborter" />
         description: ''
+        type: <xref uid="@azure/storage-queue.Aborter" />

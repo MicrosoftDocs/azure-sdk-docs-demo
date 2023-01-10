@@ -7,7 +7,6 @@ summary: >-
   objects.
 fullName: LoggingPolicyFactory
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -16,7 +15,6 @@ constructors:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'new LoggingPolicyFactory(loggingOptions?: IRequestLogOptions)'
@@ -30,12 +28,11 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function create(nextPolicy: RequestPolicy, options:
-        RequestPolicyOptions)
+        RequestPolicyOptions): LoggingPolicy
       parameters:
         - id: nextPolicy
           type: RequestPolicy
@@ -44,5 +41,5 @@ methods:
           type: RequestPolicyOptions
           description: ''
       return:
-        type: <xref uid="@azure/storage-blob.LoggingPolicy" />
         description: ''
+        type: <xref uid="@azure/storage-blob.LoggingPolicy" />

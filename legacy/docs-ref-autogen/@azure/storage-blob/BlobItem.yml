@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: An Azure Storage blob
 fullName: BlobItem
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,62 +14,57 @@ properties:
     summary: ''
     fullName: deleted
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'deleted: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: metadata
     uid: '@azure/storage-blob.BlobItem.metadata'
     package: '@azure/storage-blob'
     summary: ''
     fullName: metadata
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'metadata?: BlobMetadata'
       return:
-        type: <xref uid="@azure/storage-blob.BlobMetadata" />
         description: ''
+        type: <xref uid="@azure/storage-blob.BlobMetadata" />
   - name: name
     uid: '@azure/storage-blob.BlobItem.name'
     package: '@azure/storage-blob'
     summary: ''
     fullName: name
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'name: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: properties
     uid: '@azure/storage-blob.BlobItem.properties'
     package: '@azure/storage-blob'
     summary: ''
     fullName: properties
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'properties: BlobProperties'
       return:
-        type: <xref uid="@azure/storage-blob.BlobProperties" />
         description: ''
+        type: <xref uid="@azure/storage-blob.BlobProperties" />
   - name: snapshot
     uid: '@azure/storage-blob.BlobItem.snapshot'
     package: '@azure/storage-blob'
     summary: ''
     fullName: snapshot
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'snapshot: string'
       return:
-        type: string
         description: ''
+        type: string

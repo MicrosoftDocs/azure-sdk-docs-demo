@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: Defines headers for Rename operation.
 fullName: BlobRenameHeaders
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,26 +18,24 @@ properties:
       response with the same value.
     fullName: clientRequestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'clientRequestId?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: contentLength
     uid: '@azure/storage-blob.BlobRenameHeaders.contentLength'
     package: '@azure/storage-blob'
     summary: The size of the resource in bytes.
     fullName: contentLength
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentLength?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: date
     uid: '@azure/storage-blob.BlobRenameHeaders.date'
     package: '@azure/storage-blob'
@@ -49,26 +46,24 @@ properties:
       was initiated.
     fullName: date
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'date?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: eTag
     uid: '@azure/storage-blob.BlobRenameHeaders.eTag'
     package: '@azure/storage-blob'
     summary: An HTTP entity tag associated with the file or directory.
     fullName: eTag
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'eTag?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: lastModified
     uid: '@azure/storage-blob.BlobRenameHeaders.lastModified'
     package: '@azure/storage-blob'
@@ -79,13 +74,12 @@ properties:
       directory update the last modified time.
     fullName: lastModified
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'lastModified?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: requestId
     uid: '@azure/storage-blob.BlobRenameHeaders.requestId'
     package: '@azure/storage-blob'
@@ -94,23 +88,21 @@ properties:
       and correlation.
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: version
     uid: '@azure/storage-blob.BlobRenameHeaders.version'
     package: '@azure/storage-blob'
     summary: The version of the REST protocol used to process the request.
     fullName: version
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'version?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string

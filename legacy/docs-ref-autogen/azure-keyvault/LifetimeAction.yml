@@ -5,7 +5,6 @@ package: azure-keyvault
 summary: ''
 fullName: LifetimeAction
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,23 +14,21 @@ properties:
     summary: ''
     fullName: action
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'action?: Action'
       return:
-        type: <xref uid="azure-keyvault.Action" />
         description: ''
+        type: <xref uid="azure-keyvault.Action" />
   - name: trigger
     uid: azure-keyvault.LifetimeAction.trigger
     package: azure-keyvault
     summary: ''
     fullName: trigger
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'trigger?: Trigger'
       return:
-        type: <xref uid="azure-keyvault.Trigger" />
         description: ''
+        type: <xref uid="azure-keyvault.Trigger" />

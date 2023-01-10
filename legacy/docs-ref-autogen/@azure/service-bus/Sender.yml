@@ -14,7 +14,6 @@ summary: >-
   The Sender class is an abstraction over the underlying AMQP sender link.
 fullName: Sender
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 properties:
@@ -26,13 +25,12 @@ properties:
       closed
     fullName: isClosed
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: boolean isClosed
       return:
-        type: boolean
         description: ''
+        type: boolean
 methods:
   - name: cancelScheduledMessage(Long)
     uid: '@azure/service-bus.Sender.cancelScheduledMessage'
@@ -41,17 +39,16 @@ methods:
       Cancels a message that was scheduled to appear on a ServiceBus
       Queue/Subscription.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function cancelScheduledMessage(sequenceNumber: Long)'
+      content: 'function cancelScheduledMessage(sequenceNumber: Long): Promise<void>'
       parameters:
         - id: sequenceNumber
           type: Long
           description: The sequence number of the message to be cancelled.
       return:
-        type: Promise&lt;void&gt;
         description: Promise<void>
+        type: Promise&lt;void&gt;
   - name: 'cancelScheduledMessages(Long[])'
     uid: '@azure/service-bus.Sender.cancelScheduledMessages'
     package: '@azure/service-bus'
@@ -59,17 +56,16 @@ methods:
       Cancels multiple messages that were scheduled to appear on a ServiceBus
       Queue/Subscription.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function cancelScheduledMessages(sequenceNumbers: Long[])'
+      content: 'function cancelScheduledMessages(sequenceNumbers: Long[]): Promise<void>'
       parameters:
         - id: sequenceNumbers
           type: 'Long[]'
           description: An Array of sequence numbers of the messages to be cancelled.
       return:
-        type: Promise&lt;void&gt;
         description: Promise<void>
+        type: Promise&lt;void&gt;
   - name: close()
     uid: '@azure/service-bus.Sender.close'
     package: '@azure/service-bus'
@@ -81,13 +77,12 @@ methods:
       Use the `createSender` function on the QueueClient or TopicClient to
       instantiate a new Sender
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function close()
+      content: 'function close(): Promise<void>'
       return:
-        type: Promise&lt;void&gt;
         description: ''
+        type: Promise&lt;void&gt;
   - name: open()
     uid: '@azure/service-bus.Sender.open'
     package: '@azure/service-bus'
@@ -101,13 +96,12 @@ methods:
 
       want to front load the work of setting up the AMQP link to the service.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function open()
+      content: 'function open(): Promise<void>'
       return:
-        type: Promise&lt;void&gt;
         description: ''
+        type: Promise&lt;void&gt;
   - name: 'scheduleMessage(Date, SendableMessageInfo)'
     uid: '@azure/service-bus.Sender.scheduleMessage'
     package: '@azure/service-bus'
@@ -129,12 +123,11 @@ methods:
              message.body = dt.encode(message.body);
            ```
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function scheduleMessage(scheduledEnqueueTimeUtc: Date, message:
-        SendableMessageInfo)
+        SendableMessageInfo): Promise<Long>
       parameters:
         - id: scheduledEnqueueTimeUtc
           type: Date
@@ -143,7 +136,6 @@ methods:
           type: <xref uid="@azure/service-bus.SendableMessageInfo" />
           description: The message that needs to be scheduled.
       return:
-        type: Promise&lt;Long&gt;
         description: >-
           Promise<Long> - The sequence number of the message that was scheduled.
 
@@ -155,6 +147,7 @@ methods:
 
           only supports 53 bit numbers, converting the `Long` to number will
           cause loss in precision.
+        type: Promise&lt;Long&gt;
   - name: 'scheduleMessages(Date, SendableMessageInfo[])'
     uid: '@azure/service-bus.Sender.scheduleMessages'
     package: '@azure/service-bus'
@@ -176,12 +169,11 @@ methods:
              message.body = dt.encode(message.body);
            ```
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function scheduleMessages(scheduledEnqueueTimeUtc: Date, messages:
-        SendableMessageInfo[])
+        SendableMessageInfo[]): Promise<Long[]>
       parameters:
         - id: scheduledEnqueueTimeUtc
           type: Date
@@ -190,7 +182,6 @@ methods:
           type: '<xref uid="@azure/service-bus.SendableMessageInfo" />[]'
           description: Array of Messages that need to be scheduled.
       return:
-        type: 'Promise&lt;Long[]&gt;'
         description: >-
           Promise<Long[]> - The sequence numbers of messages that were
           scheduled.
@@ -203,6 +194,7 @@ methods:
 
           only supports 53 bit numbers, converting the `Long` to number will
           cause loss in precision.
+        type: 'Promise&lt;Long[]&gt;'
   - name: send(SendableMessageInfo)
     uid: '@azure/service-bus.Sender.send'
     package: '@azure/service-bus'
@@ -215,17 +207,16 @@ methods:
 
       and/or `partitionKey` properties respectively on the message.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function send(message: SendableMessageInfo)'
+      content: 'function send(message: SendableMessageInfo): Promise<void>'
       parameters:
         - id: message
           type: <xref uid="@azure/service-bus.SendableMessageInfo" />
           description: Message to send.
       return:
-        type: Promise&lt;void&gt;
         description: Promise<void>
+        type: Promise&lt;void&gt;
   - name: 'sendBatch(SendableMessageInfo[])'
     uid: '@azure/service-bus.Sender.sendBatch'
     package: '@azure/service-bus'
@@ -247,10 +238,9 @@ methods:
 
       `partitionKey` (if using partitions).
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function sendBatch(messages: SendableMessageInfo[])'
+      content: 'function sendBatch(messages: SendableMessageInfo[]): Promise<void>'
       parameters:
         - id: messages
           type: '<xref uid="@azure/service-bus.SendableMessageInfo" />[]'
@@ -258,5 +248,5 @@ methods:
             An array of SendableMessageInfo objects to be sent in a Batch
             message.
       return:
-        type: Promise&lt;void&gt;
         description: Promise<void>
+        type: Promise&lt;void&gt;

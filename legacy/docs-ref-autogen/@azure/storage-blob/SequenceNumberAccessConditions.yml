@@ -7,7 +7,6 @@ summary: |-
   PageBlob_clearPages, PageBlob_uploadPagesFromURL.
 fullName: SequenceNumberAccessConditions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,13 +18,12 @@ properties:
       specified sequence number.
     fullName: ifSequenceNumberEqualTo
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'ifSequenceNumberEqualTo?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: ifSequenceNumberLessThan
     uid: >-
       @azure/storage-blob.SequenceNumberAccessConditions.ifSequenceNumberLessThan
@@ -37,13 +35,12 @@ properties:
       specified.
     fullName: ifSequenceNumberLessThan
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'ifSequenceNumberLessThan?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: ifSequenceNumberLessThanOrEqualTo
     uid: >-
       @azure/storage-blob.SequenceNumberAccessConditions.ifSequenceNumberLessThanOrEqualTo
@@ -55,10 +52,9 @@ properties:
       equal to the specified.
     fullName: ifSequenceNumberLessThanOrEqualTo
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'ifSequenceNumberLessThanOrEqualTo?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number

@@ -5,7 +5,6 @@ package: azure-eventgrid
 summary: ''
 fullName: ContainerRegistryEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,88 +14,81 @@ properties:
     summary: ''
     fullName: action
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'action?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: actor
     uid: azure-eventgrid.ContainerRegistryEventData.actor
     package: azure-eventgrid
     summary: ''
     fullName: actor
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'actor?: ContainerRegistryEventActor'
       return:
-        type: <xref uid="azure-eventgrid.ContainerRegistryEventActor" />
         description: ''
+        type: <xref uid="azure-eventgrid.ContainerRegistryEventActor" />
   - name: id
     uid: azure-eventgrid.ContainerRegistryEventData.id
     package: azure-eventgrid
     summary: ''
     fullName: id
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'id?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: request
     uid: azure-eventgrid.ContainerRegistryEventData.request
     package: azure-eventgrid
     summary: ''
     fullName: request
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'request?: ContainerRegistryEventRequest'
       return:
-        type: <xref uid="azure-eventgrid.ContainerRegistryEventRequest" />
         description: ''
+        type: <xref uid="azure-eventgrid.ContainerRegistryEventRequest" />
   - name: source
     uid: azure-eventgrid.ContainerRegistryEventData.source
     package: azure-eventgrid
     summary: ''
     fullName: source
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'source?: ContainerRegistryEventSource'
       return:
-        type: <xref uid="azure-eventgrid.ContainerRegistryEventSource" />
         description: ''
+        type: <xref uid="azure-eventgrid.ContainerRegistryEventSource" />
   - name: target
     uid: azure-eventgrid.ContainerRegistryEventData.target
     package: azure-eventgrid
     summary: ''
     fullName: target
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'target?: ContainerRegistryEventTarget'
       return:
-        type: <xref uid="azure-eventgrid.ContainerRegistryEventTarget" />
         description: ''
+        type: <xref uid="azure-eventgrid.ContainerRegistryEventTarget" />
   - name: timestamp
     uid: azure-eventgrid.ContainerRegistryEventData.timestamp
     package: azure-eventgrid
     summary: ''
     fullName: timestamp
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'timestamp?: Date'
       return:
-        type: Date
         description: ''
+        type: Date

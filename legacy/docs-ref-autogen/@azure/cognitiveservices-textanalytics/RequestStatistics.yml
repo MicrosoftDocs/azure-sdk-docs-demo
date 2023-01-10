@@ -5,7 +5,6 @@ package: '@azure/cognitiveservices-textanalytics'
 summary: An interface representing RequestStatistics.
 fullName: RequestStatistics
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,13 +14,12 @@ properties:
     summary: Number of documents submitted in the request.
     fullName: documentsCount
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'documentsCount?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: erroneousDocumentsCount
     uid: >-
       @azure/cognitiveservices-textanalytics.RequestStatistics.erroneousDocumentsCount
@@ -33,26 +31,24 @@ properties:
       documents.
     fullName: erroneousDocumentsCount
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'erroneousDocumentsCount?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: transactionsCount
     uid: '@azure/cognitiveservices-textanalytics.RequestStatistics.transactionsCount'
     package: '@azure/cognitiveservices-textanalytics'
     summary: Number of transactions for the request.
     fullName: transactionsCount
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'transactionsCount?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: validDocumentsCount
     uid: >-
       @azure/cognitiveservices-textanalytics.RequestStatistics.validDocumentsCount
@@ -64,10 +60,9 @@ properties:
       documents.
     fullName: validDocumentsCount
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'validDocumentsCount?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number

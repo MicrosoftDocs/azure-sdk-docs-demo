@@ -5,7 +5,6 @@ package: azure-eventgrid
 summary: ''
 fullName: SubscriptionValidationEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,23 +14,21 @@ properties:
     summary: ''
     fullName: validationCode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'validationCode?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: validationUrl
     uid: azure-eventgrid.SubscriptionValidationEventData.validationUrl
     package: azure-eventgrid
     summary: ''
     fullName: validationUrl
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'validationUrl?: string'
       return:
-        type: string
         description: ''
+        type: string

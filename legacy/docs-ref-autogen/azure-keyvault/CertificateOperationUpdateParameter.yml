@@ -5,7 +5,6 @@ package: azure-keyvault
 summary: ''
 fullName: CertificateOperationUpdateParameter
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,10 +14,9 @@ properties:
     summary: ''
     fullName: cancellationRequested
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'cancellationRequested: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean

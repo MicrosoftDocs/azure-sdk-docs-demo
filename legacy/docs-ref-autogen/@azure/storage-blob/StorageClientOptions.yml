@@ -5,10 +5,24 @@ package: '@azure/storage-blob'
 summary: An interface representing StorageClientOptions.
 fullName: StorageClientOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
+  - name: pathRenameMode
+    uid: '@azure/storage-blob.StorageClientOptions.pathRenameMode'
+    package: '@azure/storage-blob'
+    summary: >-
+      Determines the behavior of the rename operation. Possible values include:
+      'legacy', 'posix'
+    fullName: pathRenameMode
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'pathRenameMode?: PathRenameMode'
+      return:
+        description: ''
+        type: <xref uid="@azure/storage-blob.PathRenameMode" />
+inheritedProperties:
   - name: agentSettings
     uid: '@azure/storage-blob.StorageClientOptions.agentSettings'
     package: '@azure/storage-blob'
@@ -17,13 +31,13 @@ properties:
       only).
     fullName: agentSettings
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'agentSettings?: AgentSettings'
       return:
-        type: AgentSettings
         description: ''
+        type: AgentSettings
+    inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.agentSettings
   - name: baseUri
     uid: '@azure/storage-blob.StorageClientOptions.baseUri'
     package: '@azure/storage-blob'
@@ -47,13 +61,13 @@ properties:
       `getToken` scope is set to be "https://management.azure.com/.default".
     fullName: baseUri
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'baseUri?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
+    inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.baseUri
   - name: clientRequestIdHeaderName
     uid: '@azure/storage-blob.StorageClientOptions.clientRequestIdHeaderName'
     package: '@azure/storage-blob'
@@ -65,26 +79,26 @@ properties:
       the request ID.
     fullName: clientRequestIdHeaderName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'clientRequestIdHeaderName?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
+    inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.clientRequestIdHeaderName
   - name: deserializationContentTypes
     uid: '@azure/storage-blob.StorageClientOptions.deserializationContentTypes'
     package: '@azure/storage-blob'
     summary: The content-types that will be associated with JSON or XML serialization.
     fullName: deserializationContentTypes
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'deserializationContentTypes?: DeserializationContentTypes'
       return:
-        type: DeserializationContentTypes
         description: ''
+        type: DeserializationContentTypes
+    inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.deserializationContentTypes
   - name: generateClientRequestIdHeader
     uid: '@azure/storage-blob.StorageClientOptions.generateClientRequestIdHeader'
     package: '@azure/storage-blob'
@@ -93,26 +107,26 @@ properties:
       request.
     fullName: generateClientRequestIdHeader
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'generateClientRequestIdHeader?: undefined | false | true'
       return:
-        type: undefined | false | true
         description: ''
+        type: undefined | false | true
+    inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.generateClientRequestIdHeader
   - name: httpClient
     uid: '@azure/storage-blob.StorageClientOptions.httpClient'
     package: '@azure/storage-blob'
     summary: The HttpClient that will be used to send HTTP requests.
     fullName: httpClient
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'httpClient?: HttpClient'
       return:
-        type: HttpClient
         description: ''
+        type: HttpClient
+    inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.httpClient
   - name: httpPipelineLogger
     uid: '@azure/storage-blob.StorageClientOptions.httpPipelineLogger'
     package: '@azure/storage-blob'
@@ -121,67 +135,52 @@ properties:
       the HTTP pipeline.
     fullName: httpPipelineLogger
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'httpPipelineLogger?: HttpPipelineLogger'
       return:
-        type: HttpPipelineLogger
         description: ''
+        type: HttpPipelineLogger
+    inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.httpPipelineLogger
   - name: noRetryPolicy
     uid: '@azure/storage-blob.StorageClientOptions.noRetryPolicy'
     package: '@azure/storage-blob'
     summary: 'If set to true, turn off the default retry policy.'
     fullName: noRetryPolicy
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'noRetryPolicy?: undefined | false | true'
       return:
+        description: ''
         type: undefined | false | true
-        description: ''
-  - name: pathRenameMode
-    uid: '@azure/storage-blob.StorageClientOptions.pathRenameMode'
-    package: '@azure/storage-blob'
-    summary: >-
-      Determines the behavior of the rename operation. Possible values include:
-      'legacy', 'posix'
-    fullName: pathRenameMode
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'pathRenameMode?: PathRenameMode'
-      return:
-        type: <xref uid="@azure/storage-blob.PathRenameMode" />
-        description: ''
+    inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.noRetryPolicy
   - name: proxySettings
     uid: '@azure/storage-blob.StorageClientOptions.proxySettings'
     package: '@azure/storage-blob'
     summary: Proxy settings which will be used for every HTTP request (Node.js only).
     fullName: proxySettings
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'proxySettings?: ProxySettings'
       return:
-        type: ProxySettings
         description: ''
+        type: ProxySettings
+    inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.proxySettings
   - name: redirectOptions
     uid: '@azure/storage-blob.StorageClientOptions.redirectOptions'
     package: '@azure/storage-blob'
     summary: Options for how redirect responses are handled.
     fullName: redirectOptions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'redirectOptions?: RedirectOptions'
       return:
-        type: RedirectOptions
         description: ''
+        type: RedirectOptions
+    inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.redirectOptions
   - name: requestPolicyFactories
     uid: '@azure/storage-blob.StorageClientOptions.requestPolicyFactories'
     package: '@azure/storage-blob'
@@ -195,7 +194,6 @@ properties:
       the requestPolicyFactories that will be used.
     fullName: requestPolicyFactories
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -203,10 +201,11 @@ properties:
         (defaultRequestPolicyFactories: RequestPolicyFactory[]) => void |
         RequestPolicyFactory[]
       return:
+        description: ''
         type: >-
           RequestPolicyFactory[] | (defaultRequestPolicyFactories:
           RequestPolicyFactory[]) =&gt; void | RequestPolicyFactory[]
-        description: ''
+    inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.requestPolicyFactories
   - name: rpRegistrationRetryTimeout
     uid: '@azure/storage-blob.StorageClientOptions.rpRegistrationRetryTimeout'
     package: '@azure/storage-blob'
@@ -215,13 +214,13 @@ properties:
       Default value is 30.
     fullName: rpRegistrationRetryTimeout
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'rpRegistrationRetryTimeout?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
+    inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.rpRegistrationRetryTimeout
   - name: userAgent
     uid: '@azure/storage-blob.StorageClientOptions.userAgent'
     package: '@azure/storage-blob'
@@ -233,13 +232,13 @@ properties:
       that will be used.
     fullName: userAgent
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'userAgent?: string | (defaultUserAgent: string) => string'
       return:
-        type: 'string | (defaultUserAgent: string) =&gt; string'
         description: ''
+        type: 'string | (defaultUserAgent: string) =&gt; string'
+    inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.userAgent
   - name: userAgentHeaderName
     uid: '@azure/storage-blob.StorageClientOptions.userAgentHeaderName'
     package: '@azure/storage-blob'
@@ -253,15 +252,15 @@ properties:
       be used when running in a browser.
     fullName: userAgentHeaderName
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         userAgentHeaderName?: string | (defaultUserAgentHeaderName: string) =>
         string
       return:
-        type: 'string | (defaultUserAgentHeaderName: string) =&gt; string'
         description: ''
+        type: 'string | (defaultUserAgentHeaderName: string) =&gt; string'
+    inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.userAgentHeaderName
   - name: withCredentials
     uid: '@azure/storage-blob.StorageClientOptions.withCredentials'
     package: '@azure/storage-blob'
@@ -273,11 +272,11 @@ properties:
       for more information.
     fullName: withCredentials
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'withCredentials?: undefined | false | true'
       return:
-        type: undefined | false | true
         description: ''
+        type: undefined | false | true
+    inheritanceDescription: <b>Inherited From</b> ServiceClientOptions.withCredentials
 extends: ServiceClientOptions

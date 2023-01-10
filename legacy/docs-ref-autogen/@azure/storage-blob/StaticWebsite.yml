@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: The properties that enable an account to host a static website
 fullName: StaticWebsite
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,36 +14,33 @@ properties:
     summary: Indicates whether this account is hosting a static website
     fullName: enabled
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'enabled: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: errorDocument404Path
     uid: '@azure/storage-blob.StaticWebsite.errorDocument404Path'
     package: '@azure/storage-blob'
     summary: The absolute path of the custom 404 page
     fullName: errorDocument404Path
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'errorDocument404Path?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: indexDocument
     uid: '@azure/storage-blob.StaticWebsite.indexDocument'
     package: '@azure/storage-blob'
     summary: The default name of the index page under each directory
     fullName: indexDocument
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'indexDocument?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string

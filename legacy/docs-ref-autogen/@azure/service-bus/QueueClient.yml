@@ -9,7 +9,6 @@ summary: >-
   instantiate a QueueClient
 fullName: QueueClient
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 properties:
@@ -19,26 +18,24 @@ properties:
     summary: The path for the Service Bus Queue for which this client is created.
     fullName: entityPath
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'entityPath: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: id
     uid: '@azure/service-bus.QueueClient.id'
     package: '@azure/service-bus'
     summary: A unique identifier for this client.
     fullName: id
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'id: string'
       return:
-        type: string
         description: ''
+        type: string
 methods:
   - name: close()
     uid: '@azure/service-bus.QueueClient.close'
@@ -51,13 +48,12 @@ methods:
 
       further operations.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function close()
+      content: 'function close(): Promise<void>'
       return:
-        type: Promise&lt;void&gt;
         description: ''
+        type: Promise&lt;void&gt;
   - name: createReceiver(ReceiveMode)
     uid: '@azure/service-bus.QueueClient.createReceiver'
     package: '@azure/service-bus'
@@ -65,10 +61,9 @@ methods:
       Creates a Receiver for receiving messages from a Queue which does not have
       sessions enabled.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function createReceiver(receiveMode: ReceiveMode)'
+      content: 'function createReceiver(receiveMode: ReceiveMode): Receiver'
       parameters:
         - id: receiveMode
           type: <xref uid="@azure/service-bus.ReceiveMode" />
@@ -91,12 +86,12 @@ methods:
 
             Service Bus.
       return:
-        type: <xref uid="@azure/service-bus.Receiver" />
         description: >-
           Receiver A receiver to receive messages from a Queue which does not
           have
 
           sessions enabled.
+        type: <xref uid="@azure/service-bus.Receiver" />
   - name: 'createReceiver(ReceiveMode, SessionReceiverOptions)'
     uid: '@azure/service-bus.QueueClient.createReceiver_1'
     package: '@azure/service-bus'
@@ -106,12 +101,11 @@ methods:
 
       given, a random session among the available sessions is used.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function createReceiver(receiveMode: ReceiveMode, sessionOptions:
-        SessionReceiverOptions)
+        SessionReceiverOptions): SessionReceiver
       parameters:
         - id: receiveMode
           type: <xref uid="@azure/service-bus.ReceiveMode" />
@@ -141,8 +135,8 @@ methods:
 
             the session receiver.
       return:
-        type: <xref uid="@azure/service-bus.SessionReceiver" />
         description: SessionReceiver A receiver to receive from a session in the Queue.
+        type: <xref uid="@azure/service-bus.SessionReceiver" />
   - name: createSender()
     uid: '@azure/service-bus.QueueClient.createSender'
     package: '@azure/service-bus'
@@ -152,13 +146,12 @@ methods:
 
       and cancelling such scheduled messages.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function createSender()
+      content: 'function createSender(): Sender'
       return:
-        type: <xref uid="@azure/service-bus.Sender" />
         description: ''
+        type: <xref uid="@azure/service-bus.Sender" />
   - name: getDeadLetterQueuePath(string)
     uid: '@azure/service-bus.QueueClient.getDeadLetterQueuePath'
     package: '@azure/service-bus'
@@ -171,10 +164,9 @@ methods:
 
       messages from a dead letter queue.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'static function getDeadLetterQueuePath(queueName: string)'
+      content: 'static function getDeadLetterQueuePath(queueName: string): string'
       parameters:
         - id: queueName
           type: string
@@ -182,8 +174,8 @@ methods:
             Name of the queue whose dead letter counterpart's name is being
             fetched
       return:
-        type: string
         description: ''
+        type: string
   - name: peek(undefined | number)
     uid: '@azure/service-bus.QueueClient.peek'
     package: '@azure/service-bus'
@@ -202,17 +194,18 @@ methods:
       It cannot be `Completed/Abandoned/Deferred/Deadlettered`. The lock on it
       cannot be renewed.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function peek(maxMessageCount?: undefined | number)'
+      content: >-
+        function peek(maxMessageCount?: undefined | number):
+        Promise<ReceivedMessageInfo[]>
       parameters:
         - id: maxMessageCount
           type: undefined | number
           description: ''
       return:
-        type: 'Promise&lt;<xref uid="@azure/service-bus.ReceivedMessageInfo" />[]&gt;'
         description: 'Promise<ReceivedMessageInfo[]>'
+        type: 'Promise&lt;<xref uid="@azure/service-bus.ReceivedMessageInfo" />[]&gt;'
   - name: 'peekBySequenceNumber(Long, undefined | number)'
     uid: '@azure/service-bus.QueueClient.peekBySequenceNumber'
     package: '@azure/service-bus'
@@ -228,12 +221,11 @@ methods:
       It cannot be `Completed/Abandoned/Deferred/Deadlettered`. The lock on it
       cannot be renewed.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function peekBySequenceNumber(fromSequenceNumber: Long,
-        maxMessageCount?: undefined | number)
+        maxMessageCount?: undefined | number): Promise<ReceivedMessageInfo[]>
       parameters:
         - id: fromSequenceNumber
           type: Long
@@ -242,5 +234,5 @@ methods:
           type: undefined | number
           description: ''
       return:
-        type: 'Promise&lt;<xref uid="@azure/service-bus.ReceivedMessageInfo" />[]&gt;'
         description: 'Promise<ReceivedMessageInfo[]>'
+        type: 'Promise&lt;<xref uid="@azure/service-bus.ReceivedMessageInfo" />[]&gt;'

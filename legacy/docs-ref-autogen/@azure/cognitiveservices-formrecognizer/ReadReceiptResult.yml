@@ -5,7 +5,6 @@ package: '@azure/cognitiveservices-formrecognizer'
 summary: Analysis result of the 'Batch Read Receipt' operation.
 fullName: ReadReceiptResult
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -16,16 +15,15 @@ properties:
     summary: Text recognition result of the 'Batch Read Receipt' operation.
     fullName: recognitionResults
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'recognitionResults?: TextRecognitionResult[]'
       return:
+        description: ''
         type: >-
           <xref
           uid="@azure/cognitiveservices-formrecognizer.TextRecognitionResult"
           />[]
-        description: ''
   - name: status
     uid: '@azure/cognitiveservices-formrecognizer.ReadReceiptResult.status'
     package: '@azure/cognitiveservices-formrecognizer'
@@ -36,16 +34,15 @@ properties:
       'Succeeded'
     fullName: status
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'status?: TextOperationStatusCodes'
       return:
+        description: ''
         type: >-
           <xref
           uid="@azure/cognitiveservices-formrecognizer.TextOperationStatusCodes"
           />
-        description: ''
   - name: understandingResults
     uid: >-
       @azure/cognitiveservices-formrecognizer.ReadReceiptResult.understandingResults
@@ -53,12 +50,11 @@ properties:
     summary: Semantic understanding result of the 'Batch Read Receipt' operation.
     fullName: understandingResults
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'understandingResults?: UnderstandingResult[]'
       return:
+        description: ''
         type: >-
           <xref
           uid="@azure/cognitiveservices-formrecognizer.UnderstandingResult" />[]
-        description: ''

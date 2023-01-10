@@ -5,7 +5,6 @@ package: azure-eventgrid
 summary: ''
 fullName: MediaJobError
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,62 +14,57 @@ properties:
     summary: ''
     fullName: category
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'category?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: code
     uid: azure-eventgrid.MediaJobError.code
     package: azure-eventgrid
     summary: ''
     fullName: code
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'code?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: details
     uid: azure-eventgrid.MediaJobError.details
     package: azure-eventgrid
     summary: ''
     fullName: details
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'details?: MediaJobErrorDetail[]'
       return:
-        type: '<xref uid="azure-eventgrid.MediaJobErrorDetail" />[]'
         description: ''
+        type: '<xref uid="azure-eventgrid.MediaJobErrorDetail" />[]'
   - name: message
     uid: azure-eventgrid.MediaJobError.message
     package: azure-eventgrid
     summary: ''
     fullName: message
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'message?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: retry
     uid: azure-eventgrid.MediaJobError.retry
     package: azure-eventgrid
     summary: ''
     fullName: retry
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'retry?: string'
       return:
-        type: string
         description: ''
+        type: string

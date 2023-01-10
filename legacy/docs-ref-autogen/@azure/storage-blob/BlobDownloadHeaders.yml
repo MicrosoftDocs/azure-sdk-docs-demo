@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: Defines headers for Download operation.
 fullName: BlobDownloadHeaders
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,13 +14,12 @@ properties:
     summary: Indicates that the service supports requests for partial blob content.
     fullName: acceptRanges
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'acceptRanges?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: blobCommittedBlockCount
     uid: '@azure/storage-blob.BlobDownloadHeaders.blobCommittedBlockCount'
     package: '@azure/storage-blob'
@@ -32,13 +30,12 @@ properties:
       blobs.
     fullName: blobCommittedBlockCount
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobCommittedBlockCount?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: blobContentMD5
     uid: '@azure/storage-blob.BlobDownloadHeaders.blobContentMD5'
     package: '@azure/storage-blob'
@@ -55,13 +52,12 @@ properties:
       the requested range
     fullName: blobContentMD5
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobContentMD5?: Uint8Array'
       return:
-        type: Uint8Array
         description: ''
+        type: Uint8Array
   - name: blobSequenceNumber
     uid: '@azure/storage-blob.BlobDownloadHeaders.blobSequenceNumber'
     package: '@azure/storage-blob'
@@ -72,13 +68,12 @@ properties:
       append blobs
     fullName: blobSequenceNumber
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobSequenceNumber?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: blobType
     uid: '@azure/storage-blob.BlobDownloadHeaders.blobType'
     package: '@azure/storage-blob'
@@ -87,26 +82,24 @@ properties:
       'AppendBlob'
     fullName: blobType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobType?: BlobType'
       return:
-        type: <xref uid="@azure/storage-blob.BlobType" />
         description: ''
+        type: <xref uid="@azure/storage-blob.BlobType" />
   - name: cacheControl
     uid: '@azure/storage-blob.BlobDownloadHeaders.cacheControl'
     package: '@azure/storage-blob'
     summary: This header is returned if it was previously specified for the blob.
     fullName: cacheControl
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'cacheControl?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: clientRequestId
     uid: '@azure/storage-blob.BlobDownloadHeaders.clientRequestId'
     package: '@azure/storage-blob'
@@ -117,13 +110,12 @@ properties:
       response with the same value.
     fullName: clientRequestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'clientRequestId?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: contentCrc64
     uid: '@azure/storage-blob.BlobDownloadHeaders.contentCrc64'
     package: '@azure/storage-blob'
@@ -140,13 +132,12 @@ properties:
       specified in the same request, it will fail with 400(Bad Request)
     fullName: contentCrc64
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentCrc64?: Uint8Array'
       return:
-        type: Uint8Array
         description: ''
+        type: Uint8Array
   - name: contentDisposition
     uid: '@azure/storage-blob.BlobDownloadHeaders.contentDisposition'
     package: '@azure/storage-blob'
@@ -169,13 +160,12 @@ properties:
       specified.
     fullName: contentDisposition
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentDisposition?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: contentEncoding
     uid: '@azure/storage-blob.BlobDownloadHeaders.contentEncoding'
     package: '@azure/storage-blob'
@@ -184,13 +174,12 @@ properties:
       request header
     fullName: contentEncoding
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentEncoding?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: contentLanguage
     uid: '@azure/storage-blob.BlobDownloadHeaders.contentLanguage'
     package: '@azure/storage-blob'
@@ -199,26 +188,24 @@ properties:
       request header.
     fullName: contentLanguage
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentLanguage?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: contentLength
     uid: '@azure/storage-blob.BlobDownloadHeaders.contentLength'
     package: '@azure/storage-blob'
     summary: The number of bytes present in the response body.
     fullName: contentLength
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentLength?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: contentMD5
     uid: '@azure/storage-blob.BlobDownloadHeaders.contentMD5'
     package: '@azure/storage-blob'
@@ -229,13 +216,12 @@ properties:
       is returned so that the client can check for message content integrity.
     fullName: contentMD5
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentMD5?: Uint8Array'
       return:
-        type: Uint8Array
         description: ''
+        type: Uint8Array
   - name: contentRange
     uid: '@azure/storage-blob.BlobDownloadHeaders.contentRange'
     package: '@azure/storage-blob'
@@ -246,13 +232,12 @@ properties:
       blob by setting the 'Range' request header.
     fullName: contentRange
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentRange?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: contentType
     uid: '@azure/storage-blob.BlobDownloadHeaders.contentType'
     package: '@azure/storage-blob'
@@ -261,13 +246,12 @@ properties:
       'application/octet-stream'
     fullName: contentType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentType?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: copyCompletionTime
     uid: '@azure/storage-blob.BlobDownloadHeaders.copyCompletionTime'
     package: '@azure/storage-blob'
@@ -287,13 +271,12 @@ properties:
       using Set Blob Properties, Put Blob, or Put Block List.
     fullName: copyCompletionTime
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'copyCompletionTime?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: copyId
     uid: '@azure/storage-blob.BlobDownloadHeaders.copyId'
     package: '@azure/storage-blob'
@@ -304,13 +287,12 @@ properties:
       this copy operation, or pass to Abort Copy Blob to abort a pending copy.
     fullName: copyId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'copyId?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: copyProgress
     uid: '@azure/storage-blob.BlobDownloadHeaders.copyProgress'
     package: '@azure/storage-blob'
@@ -330,13 +312,12 @@ properties:
       Blob operation using Set Blob Properties, Put Blob, or Put Block List
     fullName: copyProgress
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'copyProgress?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: copySource
     uid: '@azure/storage-blob.BlobDownloadHeaders.copySource'
     package: '@azure/storage-blob'
@@ -356,13 +337,12 @@ properties:
       Block List.
     fullName: copySource
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'copySource?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: copyStatus
     uid: '@azure/storage-blob.BlobDownloadHeaders.copyStatus'
     package: '@azure/storage-blob'
@@ -373,13 +353,12 @@ properties:
       'success', 'aborted', 'failed'
     fullName: copyStatus
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'copyStatus?: CopyStatusType'
       return:
-        type: <xref uid="@azure/storage-blob.CopyStatusType" />
         description: ''
+        type: <xref uid="@azure/storage-blob.CopyStatusType" />
   - name: copyStatusDescription
     uid: '@azure/storage-blob.BlobDownloadHeaders.copyStatusDescription'
     package: '@azure/storage-blob'
@@ -396,13 +375,12 @@ properties:
       Copy Blob operation using Set Blob Properties, Put Blob, or Put Block List
     fullName: copyStatusDescription
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'copyStatusDescription?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: date
     uid: '@azure/storage-blob.BlobDownloadHeaders.date'
     package: '@azure/storage-blob'
@@ -413,13 +391,12 @@ properties:
       initiated
     fullName: date
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'date?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: encryptionKeySha256
     uid: '@azure/storage-blob.BlobDownloadHeaders.encryptionKeySha256'
     package: '@azure/storage-blob'
@@ -430,26 +407,24 @@ properties:
       when the blob was encrypted with a customer-provided key.
     fullName: encryptionKeySha256
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'encryptionKeySha256?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: errorCode
     uid: '@azure/storage-blob.BlobDownloadHeaders.errorCode'
     package: '@azure/storage-blob'
     summary: ''
     fullName: errorCode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'errorCode?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: eTag
     uid: '@azure/storage-blob.BlobDownloadHeaders.eTag'
     package: '@azure/storage-blob'
@@ -460,13 +435,12 @@ properties:
       version is 2011-08-18 or newer, the ETag value will be in quotes.
     fullName: eTag
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'eTag?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: isServerEncrypted
     uid: '@azure/storage-blob.BlobDownloadHeaders.isServerEncrypted'
     package: '@azure/storage-blob'
@@ -481,13 +455,12 @@ properties:
       are encrypted).
     fullName: isServerEncrypted
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'isServerEncrypted?: undefined | false | true'
       return:
-        type: undefined | false | true
         description: ''
+        type: undefined | false | true
   - name: lastModified
     uid: '@azure/storage-blob.BlobDownloadHeaders.lastModified'
     package: '@azure/storage-blob'
@@ -501,13 +474,12 @@ properties:
       of the blob.
     fullName: lastModified
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'lastModified?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: leaseDuration
     uid: '@azure/storage-blob.BlobDownloadHeaders.leaseDuration'
     package: '@azure/storage-blob'
@@ -518,13 +490,12 @@ properties:
       values include: 'infinite', 'fixed'
     fullName: leaseDuration
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'leaseDuration?: LeaseDurationType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseDurationType" />
         description: ''
+        type: <xref uid="@azure/storage-blob.LeaseDurationType" />
   - name: leaseState
     uid: '@azure/storage-blob.BlobDownloadHeaders.leaseState'
     package: '@azure/storage-blob'
@@ -535,13 +506,12 @@ properties:
       'breaking', 'broken'
     fullName: leaseState
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'leaseState?: LeaseStateType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseStateType" />
         description: ''
+        type: <xref uid="@azure/storage-blob.LeaseStateType" />
   - name: leaseStatus
     uid: '@azure/storage-blob.BlobDownloadHeaders.leaseStatus'
     package: '@azure/storage-blob'
@@ -550,26 +520,24 @@ properties:
       'unlocked'
     fullName: leaseStatus
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'leaseStatus?: LeaseStatusType'
       return:
-        type: <xref uid="@azure/storage-blob.LeaseStatusType" />
         description: ''
+        type: <xref uid="@azure/storage-blob.LeaseStatusType" />
   - name: metadata
     uid: '@azure/storage-blob.BlobDownloadHeaders.metadata'
     package: '@azure/storage-blob'
     summary: ''
     fullName: metadata
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'metadata?: undefined | [key: string]: string'
       return:
-        type: 'undefined | [key: string]: string'
         description: ''
+        type: 'undefined | [key: string]: string'
   - name: requestId
     uid: '@azure/storage-blob.BlobDownloadHeaders.requestId'
     package: '@azure/storage-blob'
@@ -580,13 +548,12 @@ properties:
       the request.
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: version
     uid: '@azure/storage-blob.BlobDownloadHeaders.version'
     package: '@azure/storage-blob'
@@ -597,10 +564,9 @@ properties:
       for requests made against version 2009-09-19 and above.
     fullName: version
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'version?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string

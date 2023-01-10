@@ -2,7 +2,7 @@
 name: Aborter
 uid: '@azure/storage-blob.Aborter'
 package: '@azure/storage-blob'
-summary: >
+summary: >+
   An aborter instance implements AbortSignal interface, can abort HTTP requests.
 
   - Call Aborter.none to create a new Aborter instance without timeout.
@@ -22,9 +22,64 @@ summary: >
 
   - Call aborter.getValue(key) to search and get value with corresponding key
   from current aborter to all parents.
+
+
+
+  **Example**
+
+
+  // Abort without timeout
+
+  await blockBlobURL.upload(Aborter.none, buf, buf.length);
+
+
+
+
+  **Example**
+
+
+  // Abort container create in 1000ms
+
+  await blockBlobURL.upload(Aborter.timeout(1000), buf, buf.length);
+
+
+
+
+  **Example**
+
+
+  // Share aborter cross multiple operations in 30s
+
+  // Upload the same data to 2 different data centers at the same time, abort
+  another when any of them is finished
+
+  const aborter = Aborter.timeout(30 * 1000);
+
+  blockBlobURL1.upload(aborter, buf, buf.length).then(aborter.abort);
+
+  blockBlobURL2.upload(aborter, buf, buf.length).then(aborter.abort);
+
+
+
+
+  **Example**
+
+
+  // Cascaded aborting
+
+  // All operations can't take more than 30 seconds
+
+  const aborter = Aborter.timeout(30 * 1000);
+
+
+  // Following 2 operations can't take more than 25 seconds
+
+  await blockBlobURL.upload(aborter.withTimeout(25 * 1000), buf, buf.length);
+
+  await blockBlobURL.upload(aborter.withTimeout(25 * 1000), buf, buf.length);
+
 fullName: Aborter
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 properties:
@@ -34,39 +89,36 @@ properties:
     summary: Status of whether aborted or not.
     fullName: aborted
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'aborted: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: none
     uid: '@azure/storage-blob.Aborter.none'
     package: '@azure/storage-blob'
     summary: Creates a new Aborter instance without timeout.
     fullName: none
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'static none: Aborter'
       return:
-        type: <xref uid="@azure/storage-blob.Aborter" />
         description: ''
+        type: <xref uid="@azure/storage-blob.Aborter" />
   - name: onabort
     uid: '@azure/storage-blob.Aborter.onabort'
     package: '@azure/storage-blob'
     summary: onabort event listener.
     fullName: onabort
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'onabort: (this: AbortSignalLike, ev: any) => any | null'
       return:
-        type: '(this: AbortSignalLike, ev: any) =&gt; any | null'
         description: ''
+        type: '(this: AbortSignalLike, ev: any) =&gt; any | null'
 methods:
   - name: abort()
     uid: '@azure/storage-blob.Aborter.abort'
@@ -81,7 +133,6 @@ methods:
 
       - If aborted is true, nothing will happen.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: function abort()
@@ -90,7 +141,6 @@ methods:
     package: '@azure/storage-blob'
     summary: 'Added new "abort" event listener, only support "abort" event.'
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -108,13 +158,12 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function dispatchEvent()
+      content: 'function dispatchEvent(): boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: getValue(string)
     uid: '@azure/storage-blob.Aborter.getValue'
     package: '@azure/storage-blob'
@@ -126,23 +175,23 @@ methods:
 
       If key is not found, undefined will be returned.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function getValue(key: string)'
+      content: >-
+        function getValue(key: string): string | number | boolean | null |
+        undefined
       parameters:
         - id: key
           type: string
           description: ''
       return:
-        type: string | number | boolean | null | undefined
         description: ''
+        type: string | number | boolean | null | undefined
   - name: 'removeEventListener("abort", (this: AbortSignalLike, ev: any) => any)'
     uid: '@azure/storage-blob.Aborter.removeEventListener'
     package: '@azure/storage-blob'
     summary: 'Remove "abort" event listener, only support "abort" event.'
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -162,17 +211,16 @@ methods:
       Creates a new Aborter instance with timeout in milliseconds.
       Set parameter timeout to 0 will not create a timer.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'static function timeout(timeout: number)'
+      content: 'static function timeout(timeout: number): Aborter'
       parameters:
         - id: timeout
           type: number
           description: ''
       return:
-        type: <xref uid="@azure/storage-blob.Aborter" />
         description: ''
+        type: <xref uid="@azure/storage-blob.Aborter" />
   - name: withTimeout(number)
     uid: '@azure/storage-blob.Aborter.withTimeout'
     package: '@azure/storage-blob'
@@ -191,17 +239,16 @@ methods:
 
       Otherwise, call abort() method to manually abort.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function withTimeout(timeout: number)'
+      content: 'function withTimeout(timeout: number): Aborter'
       parameters:
         - id: timeout
           type: number
           description: ''
       return:
-        type: <xref uid="@azure/storage-blob.Aborter" />
         description: The new Aborter instance created.
+        type: <xref uid="@azure/storage-blob.Aborter" />
   - name: 'withValue(string, string | number | boolean | null)'
     uid: '@azure/storage-blob.Aborter.withValue'
     package: '@azure/storage-blob'
@@ -223,12 +270,11 @@ methods:
 
       [current node] -> [parent node] and [grand parent node]....
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function withValue(key: string, value?: string | number | boolean |
-        null)
+        null): Aborter
       parameters:
         - id: key
           type: string
@@ -237,5 +283,5 @@ methods:
           type: string | number | boolean | null
           description: ''
       return:
-        type: <xref uid="@azure/storage-blob.Aborter" />
         description: ''
+        type: <xref uid="@azure/storage-blob.Aborter" />

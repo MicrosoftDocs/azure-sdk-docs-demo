@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: Defines headers for StageBlock operation.
 fullName: BlockBlobStageBlockHeaders
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,13 +18,12 @@ properties:
       response with the same value.
     fullName: clientRequestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'clientRequestId?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: contentMD5
     uid: '@azure/storage-blob.BlockBlobStageBlockHeaders.contentMD5'
     package: '@azure/storage-blob'
@@ -39,13 +37,12 @@ properties:
       in the request headers.
     fullName: contentMD5
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'contentMD5?: Uint8Array'
       return:
-        type: Uint8Array
         description: ''
+        type: Uint8Array
   - name: date
     uid: '@azure/storage-blob.BlockBlobStageBlockHeaders.date'
     package: '@azure/storage-blob'
@@ -56,13 +53,12 @@ properties:
       initiated
     fullName: date
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'date?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: encryptionKeySha256
     uid: '@azure/storage-blob.BlockBlobStageBlockHeaders.encryptionKeySha256'
     package: '@azure/storage-blob'
@@ -73,26 +69,24 @@ properties:
       when the block was encrypted with a customer-provided key.
     fullName: encryptionKeySha256
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'encryptionKeySha256?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: errorCode
     uid: '@azure/storage-blob.BlockBlobStageBlockHeaders.errorCode'
     package: '@azure/storage-blob'
     summary: ''
     fullName: errorCode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'errorCode?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: isServerEncrypted
     uid: '@azure/storage-blob.BlockBlobStageBlockHeaders.isServerEncrypted'
     package: '@azure/storage-blob'
@@ -103,13 +97,12 @@ properties:
       encrypted using the specified algorithm, and false otherwise.
     fullName: isServerEncrypted
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'isServerEncrypted?: undefined | false | true'
       return:
-        type: undefined | false | true
         description: ''
+        type: undefined | false | true
   - name: requestId
     uid: '@azure/storage-blob.BlockBlobStageBlockHeaders.requestId'
     package: '@azure/storage-blob'
@@ -120,13 +113,12 @@ properties:
       the request.
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: version
     uid: '@azure/storage-blob.BlockBlobStageBlockHeaders.version'
     package: '@azure/storage-blob'
@@ -137,13 +129,12 @@ properties:
       for requests made against version 2009-09-19 and above.
     fullName: version
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'version?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: xMsContentCrc64
     uid: '@azure/storage-blob.BlockBlobStageBlockHeaders.xMsContentCrc64'
     package: '@azure/storage-blob'
@@ -157,10 +148,9 @@ properties:
       in the request headers.
     fullName: xMsContentCrc64
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'xMsContentCrc64?: Uint8Array'
       return:
-        type: Uint8Array
         description: ''
+        type: Uint8Array

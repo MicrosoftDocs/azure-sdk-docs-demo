@@ -5,8 +5,8 @@ package: '@azure/storage-blob'
 summary: Contains response data for the releaseLease operation.
 fullName: BlobReleaseLeaseResponse
 remarks: ''
-isPreview: false
 isDeprecated: false
-syntax: >-
-  type BlobReleaseLeaseResponse = BlobReleaseLeaseHeaders & { _response: Object
+syntax: |
+  type BlobReleaseLeaseResponse = BlobReleaseLeaseHeaders & {
+    _response: HttpResponse & { parsedHeaders: BlobReleaseLeaseHeaders },
   }

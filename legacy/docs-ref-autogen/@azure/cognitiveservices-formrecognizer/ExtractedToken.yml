@@ -5,7 +5,6 @@ package: '@azure/cognitiveservices-formrecognizer'
 summary: Canonical representation of single extracted text.
 fullName: ExtractedToken
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -20,36 +19,33 @@ properties:
       with origin reference from the bottom-left of the page.
     fullName: boundingBox
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'boundingBox?: number[]'
       return:
-        type: 'number[]'
         description: ''
+        type: 'number[]'
   - name: confidence
     uid: '@azure/cognitiveservices-formrecognizer.ExtractedToken.confidence'
     package: '@azure/cognitiveservices-formrecognizer'
     summary: A measure of accuracy of the extracted text.
     fullName: confidence
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'confidence?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: text
     uid: '@azure/cognitiveservices-formrecognizer.ExtractedToken.text'
     package: '@azure/cognitiveservices-formrecognizer'
     summary: String value of the extracted text.
     fullName: text
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'text?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string

@@ -5,8 +5,13 @@ package: '@azure/storage-blob'
 summary: Contains response data for the listBlobFlatSegment operation.
 fullName: ContainerListBlobFlatSegmentResponse
 remarks: ''
-isPreview: false
 isDeprecated: false
-syntax: >-
+syntax: |
   type ContainerListBlobFlatSegmentResponse = ListBlobsFlatSegmentResponse &
-  ContainerListBlobFlatSegmentHeaders & { _response: Object }
+    ContainerListBlobFlatSegmentHeaders & {
+      _response: HttpResponse & {
+        bodyAsText: string,
+        parsedBody: ListBlobsFlatSegmentResponse,
+        parsedHeaders: ContainerListBlobFlatSegmentHeaders,
+      },
+    }

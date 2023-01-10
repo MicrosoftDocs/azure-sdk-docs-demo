@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: UniqueRequestIDPolicy generates an UUID as x-ms-request-id header value.
 fullName: UniqueRequestIDPolicy
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -14,7 +13,6 @@ constructors:
     package: '@azure/storage-blob'
     summary: Creates an instance of UniqueRequestIDPolicy.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -27,7 +25,7 @@ constructors:
         - id: options
           type: RequestPolicyOptions
           description: ''
-methods:
+inheritedMethods:
   - name: 'log(HttpPipelineLogLevel, string)'
     uid: '@azure/storage-blob.UniqueRequestIDPolicy.log'
     package: '@azure/storage-blob'
@@ -38,7 +36,6 @@ methods:
       the log level does not meat the logger's threshold, then nothing will be
       logged.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function log(logLevel: HttpPipelineLogLevel, message: string)'
@@ -50,36 +47,39 @@ methods:
           type: string
           description: |
             The message of this log.
-  - name: sendRequest(WebResource)
-    uid: '@azure/storage-blob.UniqueRequestIDPolicy.sendRequest'
-    package: '@azure/storage-blob'
-    summary: Sends request.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function sendRequest(request: WebResource)'
-      parameters:
-        - id: request
-          type: WebResource
-          description: ''
-      return:
-        type: Promise&lt;HttpOperationResponse&gt;
-        description: ''
+    inheritanceDescription: <b>Inherited From</b> BaseRequestPolicy.log
   - name: shouldLog(HttpPipelineLogLevel)
     uid: '@azure/storage-blob.UniqueRequestIDPolicy.shouldLog'
     package: '@azure/storage-blob'
     summary: Get whether or not a log with the provided log level should be logged.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function shouldLog(logLevel: HttpPipelineLogLevel)'
+      content: 'function shouldLog(logLevel: HttpPipelineLogLevel): boolean'
       parameters:
         - id: logLevel
           type: HttpPipelineLogLevel
           description: The log level of the log that will be logged.
       return:
-        type: boolean
         description: Whether or not a log with the provided log level should be logged.
+        type: boolean
+    inheritanceDescription: <b>Inherited From</b> BaseRequestPolicy.shouldLog
+methods:
+  - name: sendRequest(WebResource)
+    uid: '@azure/storage-blob.UniqueRequestIDPolicy.sendRequest'
+    package: '@azure/storage-blob'
+    summary: Sends request.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function sendRequest(request: WebResource):
+        Promise<HttpOperationResponse>
+      parameters:
+        - id: request
+          type: WebResource
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;HttpOperationResponse&gt;
 extends: BaseRequestPolicy

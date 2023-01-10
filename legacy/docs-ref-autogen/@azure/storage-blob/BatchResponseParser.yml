@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: Util class for parsing batch response.
 fullName: BatchResponseParser
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -16,7 +15,6 @@ constructors:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -38,10 +36,9 @@ methods:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function parseBatchResponse()
+      content: 'function parseBatchResponse(): Promise<ParsedBatchResponse>'
       return:
-        type: Promise&lt;<xref uid="@azure/storage-blob.ParsedBatchResponse" />&gt;
         description: ''
+        type: Promise&lt;<xref uid="@azure/storage-blob.ParsedBatchResponse" />&gt;

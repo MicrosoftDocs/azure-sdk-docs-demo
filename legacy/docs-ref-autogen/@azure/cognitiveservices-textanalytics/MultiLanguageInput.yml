@@ -5,7 +5,6 @@ package: '@azure/cognitiveservices-textanalytics'
 summary: An interface representing MultiLanguageInput.
 fullName: MultiLanguageInput
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,13 +14,12 @@ properties:
     summary: 'Unique, non-empty document identifier.'
     fullName: id
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'id?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: language
     uid: '@azure/cognitiveservices-textanalytics.MultiLanguageInput.language'
     package: '@azure/cognitiveservices-textanalytics'
@@ -32,23 +30,21 @@ properties:
       English; "es" for Spanish etc.,
     fullName: language
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'language?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: text
     uid: '@azure/cognitiveservices-textanalytics.MultiLanguageInput.text'
     package: '@azure/cognitiveservices-textanalytics'
     summary: ''
     fullName: text
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'text?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string

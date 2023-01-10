@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: An interface representing BlockLookupList.
 fullName: BlockLookupList
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,36 +14,33 @@ properties:
     summary: ''
     fullName: committed
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'committed?: string[]'
       return:
-        type: 'string[]'
         description: ''
+        type: 'string[]'
   - name: latest
     uid: '@azure/storage-blob.BlockLookupList.latest'
     package: '@azure/storage-blob'
     summary: ''
     fullName: latest
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'latest?: string[]'
       return:
-        type: 'string[]'
         description: ''
+        type: 'string[]'
   - name: uncommitted
     uid: '@azure/storage-blob.BlockLookupList.uncommitted'
     package: '@azure/storage-blob'
     summary: ''
     fullName: uncommitted
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'uncommitted?: string[]'
       return:
-        type: 'string[]'
         description: ''
+        type: 'string[]'

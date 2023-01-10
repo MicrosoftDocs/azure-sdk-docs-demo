@@ -7,7 +7,6 @@ summary: >-
   BatchSetTierRequest.
 fullName: BatchRequest
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -16,7 +15,6 @@ constructors:
     package: '@azure/storage-blob'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: new BatchRequest()
@@ -26,13 +24,12 @@ methods:
     package: '@azure/storage-blob'
     summary: Get assembled HTTP request body for sub requests.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function getHttpRequestBody()
+      content: 'function getHttpRequestBody(): string'
       return:
-        type: string
         description: ''
+        type: string
   - name: getMultiPartContentType()
     uid: '@azure/storage-blob.BatchRequest.getMultiPartContentType'
     package: '@azure/storage-blob'
@@ -44,22 +41,20 @@ methods:
       Example: multipart/mixed;
       boundary=batch_a81786c8-e301-4e42-a729-a32ca24ae252
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function getMultiPartContentType()
+      content: 'function getMultiPartContentType(): string'
       return:
-        type: string
         description: ''
+        type: string
   - name: getSubRequests()
     uid: '@azure/storage-blob.BatchRequest.getSubRequests'
     package: '@azure/storage-blob'
     summary: Get sub requests that are added into the batch request.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function getSubRequests()
+      content: 'function getSubRequests(): Map<number, BatchSubRequest>'
       return:
-        type: 'Map&lt;number, <xref uid="@azure/storage-blob.BatchSubRequest" />&gt;'
         description: ''
+        type: 'Map&lt;number, <xref uid="@azure/storage-blob.BatchSubRequest" />&gt;'

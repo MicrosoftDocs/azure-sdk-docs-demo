@@ -5,7 +5,6 @@ package: azure-keyvault
 summary: ''
 fullName: CertificateMergeParameters
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,36 +14,33 @@ properties:
     summary: ''
     fullName: certificateAttributes
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'certificateAttributes?: CertificateAttributes'
       return:
-        type: <xref uid="azure-keyvault.CertificateAttributes" />
         description: ''
+        type: <xref uid="azure-keyvault.CertificateAttributes" />
   - name: tags
     uid: azure-keyvault.CertificateMergeParameters.tags
     package: azure-keyvault
     summary: ''
     fullName: tags
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tags?: [key: string]: string'
       return:
-        type: '[key: string]\: string'
         description: ''
+        type: '[key: string]\: string'
   - name: x509Certificates
     uid: azure-keyvault.CertificateMergeParameters.x509Certificates
     package: azure-keyvault
     summary: ''
     fullName: x509Certificates
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'x509Certificates: Buffer[]'
       return:
-        type: 'Buffer[]'
         description: ''
+        type: 'Buffer[]'

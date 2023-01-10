@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: Defines headers for SetMetadata operation.
 fullName: BlobSetMetadataHeaders
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,13 +18,12 @@ properties:
       response with the same value.
     fullName: clientRequestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'clientRequestId?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: date
     uid: '@azure/storage-blob.BlobSetMetadataHeaders.date'
     package: '@azure/storage-blob'
@@ -36,13 +34,12 @@ properties:
       initiated
     fullName: date
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'date?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: encryptionKeySha256
     uid: '@azure/storage-blob.BlobSetMetadataHeaders.encryptionKeySha256'
     package: '@azure/storage-blob'
@@ -53,26 +50,24 @@ properties:
       returned when the metadata was encrypted with a customer-provided key.
     fullName: encryptionKeySha256
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'encryptionKeySha256?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: errorCode
     uid: '@azure/storage-blob.BlobSetMetadataHeaders.errorCode'
     package: '@azure/storage-blob'
     summary: ''
     fullName: errorCode
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'errorCode?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: eTag
     uid: '@azure/storage-blob.BlobSetMetadataHeaders.eTag'
     package: '@azure/storage-blob'
@@ -83,13 +78,12 @@ properties:
       version is 2011-08-18 or newer, the ETag value will be in quotes.
     fullName: eTag
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'eTag?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: isServerEncrypted
     uid: '@azure/storage-blob.BlobSetMetadataHeaders.isServerEncrypted'
     package: '@azure/storage-blob'
@@ -100,13 +94,12 @@ properties:
       encrypted using the specified algorithm, and false otherwise.
     fullName: isServerEncrypted
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'isServerEncrypted?: undefined | false | true'
       return:
-        type: undefined | false | true
         description: ''
+        type: undefined | false | true
   - name: lastModified
     uid: '@azure/storage-blob.BlobSetMetadataHeaders.lastModified'
     package: '@azure/storage-blob'
@@ -120,13 +113,12 @@ properties:
       of the blob.
     fullName: lastModified
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'lastModified?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: requestId
     uid: '@azure/storage-blob.BlobSetMetadataHeaders.requestId'
     package: '@azure/storage-blob'
@@ -137,13 +129,12 @@ properties:
       the request.
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: version
     uid: '@azure/storage-blob.BlobSetMetadataHeaders.version'
     package: '@azure/storage-blob'
@@ -154,10 +145,9 @@ properties:
       for requests made against version 2009-09-19 and above.
     fullName: version
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'version?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string

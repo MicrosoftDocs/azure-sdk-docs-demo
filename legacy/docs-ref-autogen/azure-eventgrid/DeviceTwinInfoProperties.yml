@@ -5,7 +5,6 @@ package: azure-eventgrid
 summary: ''
 fullName: DeviceTwinInfoProperties
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,23 +14,21 @@ properties:
     summary: ''
     fullName: desired
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'desired?: DeviceTwinProperties'
       return:
-        type: <xref uid="azure-eventgrid.DeviceTwinProperties" />
         description: ''
+        type: <xref uid="azure-eventgrid.DeviceTwinProperties" />
   - name: reported
     uid: azure-eventgrid.DeviceTwinInfoProperties.reported
     package: azure-eventgrid
     summary: ''
     fullName: reported
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'reported?: DeviceTwinProperties'
       return:
-        type: <xref uid="azure-eventgrid.DeviceTwinProperties" />
         description: ''
+        type: <xref uid="azure-eventgrid.DeviceTwinProperties" />

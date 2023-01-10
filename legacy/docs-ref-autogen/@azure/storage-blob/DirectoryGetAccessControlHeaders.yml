@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: Defines headers for GetAccessControl operation.
 fullName: DirectoryGetAccessControlHeaders
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,13 +18,12 @@ properties:
       response with the same value.
     fullName: clientRequestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'clientRequestId?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: date
     uid: '@azure/storage-blob.DirectoryGetAccessControlHeaders.date'
     package: '@azure/storage-blob'
@@ -36,26 +34,24 @@ properties:
       was initiated.
     fullName: date
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'date?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: eTag
     uid: '@azure/storage-blob.DirectoryGetAccessControlHeaders.eTag'
     package: '@azure/storage-blob'
     summary: An HTTP entity tag associated with the file or directory.
     fullName: eTag
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'eTag?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: lastModified
     uid: '@azure/storage-blob.DirectoryGetAccessControlHeaders.lastModified'
     package: '@azure/storage-blob'
@@ -66,13 +62,12 @@ properties:
       directory update the last modified time.
     fullName: lastModified
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'lastModified?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: requestId
     uid: '@azure/storage-blob.DirectoryGetAccessControlHeaders.requestId'
     package: '@azure/storage-blob'
@@ -81,26 +76,24 @@ properties:
       and correlation.
     fullName: requestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'requestId?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: version
     uid: '@azure/storage-blob.DirectoryGetAccessControlHeaders.version'
     package: '@azure/storage-blob'
     summary: The version of the REST protocol used to process the request.
     fullName: version
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'version?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: xMsAcl
     uid: '@azure/storage-blob.DirectoryGetAccessControlHeaders.xMsAcl'
     package: '@azure/storage-blob'
@@ -112,13 +105,12 @@ properties:
       account.
     fullName: xMsAcl
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'xMsAcl?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: xMsGroup
     uid: '@azure/storage-blob.DirectoryGetAccessControlHeaders.xMsGroup'
     package: '@azure/storage-blob'
@@ -129,13 +121,12 @@ properties:
       is enabled for the account.
     fullName: xMsGroup
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'xMsGroup?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: xMsOwner
     uid: '@azure/storage-blob.DirectoryGetAccessControlHeaders.xMsOwner'
     package: '@azure/storage-blob'
@@ -146,13 +137,12 @@ properties:
       enabled for the account.
     fullName: xMsOwner
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'xMsOwner?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: xMsPermissions
     uid: '@azure/storage-blob.DirectoryGetAccessControlHeaders.xMsPermissions'
     package: '@azure/storage-blob'
@@ -163,10 +153,9 @@ properties:
       in the response if Hierarchical Namespace is enabled for the account.
     fullName: xMsPermissions
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'xMsPermissions?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string

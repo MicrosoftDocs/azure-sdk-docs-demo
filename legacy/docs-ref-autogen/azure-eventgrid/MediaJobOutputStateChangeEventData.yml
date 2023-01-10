@@ -5,7 +5,6 @@ package: azure-eventgrid
 summary: ''
 fullName: MediaJobOutputStateChangeEventData
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,36 +14,33 @@ properties:
     summary: ''
     fullName: jobCorrelationData
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'jobCorrelationData?: [key: string]: string'
       return:
-        type: '[key: string]\: string'
         description: ''
+        type: '[key: string]\: string'
   - name: output
     uid: azure-eventgrid.MediaJobOutputStateChangeEventData.output
     package: azure-eventgrid
     summary: ''
     fullName: output
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'output?: MediaJobOutput'
       return:
-        type: <xref uid="azure-eventgrid.MediaJobOutput" />
         description: ''
+        type: <xref uid="azure-eventgrid.MediaJobOutput" />
   - name: previousState
     uid: azure-eventgrid.MediaJobOutputStateChangeEventData.previousState
     package: azure-eventgrid
     summary: ''
     fullName: previousState
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'previousState?: string'
       return:
-        type: string
         description: ''
+        type: string

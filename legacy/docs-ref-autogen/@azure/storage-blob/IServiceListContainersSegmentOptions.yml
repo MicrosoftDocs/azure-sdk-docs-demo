@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: ''
 fullName: IServiceListContainersSegmentOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,36 +14,33 @@ properties:
     summary: ''
     fullName: include
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'include?: ListContainersIncludeType'
       return:
-        type: <xref uid="@azure/storage-blob.ListContainersIncludeType" />
         description: ''
+        type: <xref uid="@azure/storage-blob.ListContainersIncludeType" />
   - name: maxresults
     uid: '@azure/storage-blob.IServiceListContainersSegmentOptions.maxresults'
     package: '@azure/storage-blob'
     summary: ''
     fullName: maxresults
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'maxresults?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: prefix
     uid: '@azure/storage-blob.IServiceListContainersSegmentOptions.prefix'
     package: '@azure/storage-blob'
     summary: ''
     fullName: prefix
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'prefix?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string

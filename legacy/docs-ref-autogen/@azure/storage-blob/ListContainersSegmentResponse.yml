@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: An enumeration of containers
 fullName: ListContainersSegmentResponse
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,75 +14,69 @@ properties:
     summary: ''
     fullName: containerItems
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'containerItems: ContainerItem[]'
       return:
-        type: '<xref uid="@azure/storage-blob.ContainerItem" />[]'
         description: ''
+        type: '<xref uid="@azure/storage-blob.ContainerItem" />[]'
   - name: marker
     uid: '@azure/storage-blob.ListContainersSegmentResponse.marker'
     package: '@azure/storage-blob'
     summary: ''
     fullName: marker
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'marker?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: maxResults
     uid: '@azure/storage-blob.ListContainersSegmentResponse.maxResults'
     package: '@azure/storage-blob'
     summary: ''
     fullName: maxResults
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'maxResults?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: nextMarker
     uid: '@azure/storage-blob.ListContainersSegmentResponse.nextMarker'
     package: '@azure/storage-blob'
     summary: ''
     fullName: nextMarker
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'nextMarker?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: prefix
     uid: '@azure/storage-blob.ListContainersSegmentResponse.prefix'
     package: '@azure/storage-blob'
     summary: ''
     fullName: prefix
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'prefix?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: serviceEndpoint
     uid: '@azure/storage-blob.ListContainersSegmentResponse.serviceEndpoint'
     package: '@azure/storage-blob'
     summary: ''
     fullName: serviceEndpoint
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'serviceEndpoint: string'
       return:
-        type: string
         description: ''
+        type: string

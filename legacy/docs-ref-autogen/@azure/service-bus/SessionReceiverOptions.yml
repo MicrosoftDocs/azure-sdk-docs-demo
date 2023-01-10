@@ -9,7 +9,6 @@ summary: >-
   has sessions enabled.
 fullName: SessionReceiverOptions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -28,13 +27,12 @@ properties:
       - **To disable autolock renewal**, set this to `0`.
     fullName: maxSessionAutoRenewLockDurationInSeconds
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'maxSessionAutoRenewLockDurationInSeconds?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: sessionId
     uid: '@azure/service-bus.SessionReceiverOptions.sessionId'
     package: '@azure/service-bus'
@@ -45,10 +43,9 @@ properties:
       provided, Service Bus chooses a random session from available sessions.
     fullName: sessionId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sessionId: string | undefined'
       return:
-        type: string | undefined
         description: ''
+        type: string | undefined

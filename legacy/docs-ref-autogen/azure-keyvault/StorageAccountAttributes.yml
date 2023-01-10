@@ -5,7 +5,6 @@ package: azure-keyvault
 summary: ''
 fullName: StorageAccountAttributes
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,49 +14,45 @@ properties:
     summary: ''
     fullName: created
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'created?: Date'
       return:
-        type: Date
         description: ''
+        type: Date
   - name: enabled
     uid: azure-keyvault.StorageAccountAttributes.enabled
     package: azure-keyvault
     summary: ''
     fullName: enabled
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'enabled?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: recoveryLevel
     uid: azure-keyvault.StorageAccountAttributes.recoveryLevel
     package: azure-keyvault
     summary: ''
     fullName: recoveryLevel
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'recoveryLevel?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: updated
     uid: azure-keyvault.StorageAccountAttributes.updated
     package: azure-keyvault
     summary: ''
     fullName: updated
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'updated?: Date'
       return:
-        type: Date
         description: ''
+        type: Date

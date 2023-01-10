@@ -5,7 +5,6 @@ package: '@azure/cognitiveservices-anomalydetector'
 summary: An interface representing Request.
 fullName: Request
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -20,13 +19,12 @@ properties:
       "customInterval":5}.
     fullName: customInterval
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'customInterval?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: granularity
     uid: '@azure/cognitiveservices-anomalydetector.Request.granularity'
     package: '@azure/cognitiveservices-anomalydetector'
@@ -37,13 +35,12 @@ properties:
       'secondly'
     fullName: granularity
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'granularity: Granularity'
       return:
-        type: <xref uid="@azure/cognitiveservices-anomalydetector.Granularity" />
         description: ''
+        type: <xref uid="@azure/cognitiveservices-anomalydetector.Granularity" />
   - name: maxAnomalyRatio
     uid: '@azure/cognitiveservices-anomalydetector.Request.maxAnomalyRatio'
     package: '@azure/cognitiveservices-anomalydetector'
@@ -52,13 +49,12 @@ properties:
       series.
     fullName: maxAnomalyRatio
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'maxAnomalyRatio?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: period
     uid: '@azure/cognitiveservices-anomalydetector.Request.period'
     package: '@azure/cognitiveservices-anomalydetector'
@@ -69,13 +65,12 @@ properties:
       the API will determine the period automatically.
     fullName: period
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'period?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: sensitivity
     uid: '@azure/cognitiveservices-anomalydetector.Request.sensitivity'
     package: '@azure/cognitiveservices-anomalydetector'
@@ -86,13 +81,12 @@ properties:
       the margin value will be which means less anomalies will be accepted.
     fullName: sensitivity
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'sensitivity?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: series
     uid: '@azure/cognitiveservices-anomalydetector.Request.series'
     package: '@azure/cognitiveservices-anomalydetector'
@@ -107,10 +101,9 @@ properties:
       returned.
     fullName: series
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'series: Point[]'
       return:
-        type: '<xref uid="@azure/cognitiveservices-anomalydetector.Point" />[]'
         description: ''
+        type: '<xref uid="@azure/cognitiveservices-anomalydetector.Point" />[]'

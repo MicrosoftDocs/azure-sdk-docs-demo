@@ -5,7 +5,6 @@ package: azure-keyvault
 summary: ''
 fullName: SasDefinitionListResult
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,13 +14,25 @@ properties:
     summary: ''
     fullName: Array
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'Array: ArrayConstructor'
       return:
-        type: ArrayConstructor
         description: ''
+        type: ArrayConstructor
+  - name: nextLink
+    uid: azure-keyvault.SasDefinitionListResult.nextLink
+    package: azure-keyvault
+    summary: ''
+    fullName: nextLink
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: 'nextLink?: string'
+      return:
+        description: ''
+        type: string
+inheritedProperties:
   - name: length
     uid: azure-keyvault.SasDefinitionListResult.length
     package: azure-keyvault
@@ -30,128 +41,50 @@ properties:
       highest element defined in an array.
     fullName: length
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'length: number'
       return:
+        description: ''
         type: number
-        description: ''
-  - name: nextLink
-    uid: azure-keyvault.SasDefinitionListResult.nextLink
+    inheritanceDescription: <b>Inherited From</b> Array.length
+inheritedMethods:
+  - name: 'concat((T | ConcatArray<T>)[])'
+    uid: azure-keyvault.SasDefinitionListResult.concat_1
     package: azure-keyvault
-    summary: ''
-    fullName: nextLink
+    summary: Combines two or more arrays.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'nextLink?: string'
-      return:
-        type: string
-        description: ''
-methods:
-  - name: at(number)
-    uid: azure-keyvault.SasDefinitionListResult.at
-    package: azure-keyvault
-    summary: |-
-      Takes an integer value and returns the item at that index,
-      allowing for positive and negative integers.
-      Negative integers count back from the last item in the array.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function at(index: number)'
+      content: 'function concat(items: (T | ConcatArray<T>)[]): SasDefinitionItem[]'
       parameters:
-        - id: index
-          type: number
-          description: ''
+        - id: items
+          type: '(T | ConcatArray&lt;T&gt;)[]'
+          description: |
+            Additional items to add to the end of array1.
       return:
-        type: <xref uid="azure-keyvault.SasDefinitionItem" /> | undefined
         description: ''
+        type: '<xref uid="azure-keyvault.SasDefinitionItem" />[]'
+    inheritanceDescription: <b>Inherited From</b> Array.concat
   - name: 'concat(ConcatArray<SasDefinitionItem>[])'
     uid: azure-keyvault.SasDefinitionListResult.concat
     package: azure-keyvault
     summary: Combines two or more arrays.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function concat(items: ConcatArray<SasDefinitionItem>[])'
+      content: >-
+        function concat(items: ConcatArray<SasDefinitionItem>[]):
+        SasDefinitionItem[]
       parameters:
         - id: items
           type: 'ConcatArray&lt;<xref uid="azure-keyvault.SasDefinitionItem" />&gt;[]'
           description: |
             Additional items to add to the end of array1.
       return:
+        description: ''
         type: '<xref uid="azure-keyvault.SasDefinitionItem" />[]'
-        description: ''
-  - name: 'concat(T | ConcatArray<T>[])'
-    uid: azure-keyvault.SasDefinitionListResult.concat_1
-    package: azure-keyvault
-    summary: Combines two or more arrays.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function concat(items: T | ConcatArray<T>[])'
-      parameters:
-        - id: items
-          type: 'T | ConcatArray&lt;T&gt;[]'
-          description: |
-            Additional items to add to the end of array1.
-      return:
-        type: '<xref uid="azure-keyvault.SasDefinitionItem" />[]'
-        description: ''
-  - name: 'copyWithin(number, number, number)'
-    uid: azure-keyvault.SasDefinitionListResult.copyWithin
-    package: azure-keyvault
-    summary: >-
-      Returns the this object after copying a section of the array identified by
-      start and end
-
-      to the same array starting at position target
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function copyWithin(target: number, start: number, end?: number)'
-      parameters:
-        - id: target
-          type: number
-          description: >-
-            If target is negative, it is treated as length+target where length
-            is the
-
-            length of the array.
-        - id: start
-          type: number
-          description: >-
-            If start is negative, it is treated as length+start. If end is
-            negative, it
-
-            is treated as length+end.
-        - id: end
-          type: number
-          description: >
-            If not specified, length of the this object is used as its default
-            value.
-      return:
-        type: this
-        description: ''
-  - name: entries()
-    uid: azure-keyvault.SasDefinitionListResult.entries
-    package: azure-keyvault
-    summary: 'Returns an iterable of key, value pairs for every entry in the array'
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: function entries()
-      return:
-        type: IterableIterator&lt;Object&gt;
-        description: ''
+    inheritanceDescription: <b>Inherited From</b> Array.concat
   - name: >-
       every((value: SasDefinitionItem, index: number, array:
       SasDefinitionItem[]) => unknown, any)
@@ -159,12 +92,11 @@ methods:
     package: azure-keyvault
     summary: Determines whether all the members of an array satisfy the specified test.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function every(callbackfn: (value: SasDefinitionItem, index: number,
-        array: SasDefinitionItem[]) => unknown, thisArg?: any)
+        array: SasDefinitionItem[]) => unknown, thisArg?: any): boolean
       parameters:
         - id: callbackfn
           type: >-
@@ -181,40 +113,9 @@ methods:
             function. If thisArg is omitted, undefined is used as the this
             value.
       return:
+        description: ''
         type: boolean
-        description: ''
-  - name: 'fill(SasDefinitionItem, number, number)'
-    uid: azure-keyvault.SasDefinitionListResult.fill
-    package: azure-keyvault
-    summary: >-
-      Returns the this object after filling the section identified by start and
-      end with value
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function fill(value: SasDefinitionItem, start?: number, end?: number)'
-      parameters:
-        - id: value
-          type: <xref uid="azure-keyvault.SasDefinitionItem" />
-          description: value to fill array section with
-        - id: start
-          type: number
-          description: >-
-            index to start filling the array at. If start is negative, it is
-            treated as
-
-            length+start where length is the length of the array.
-        - id: end
-          type: number
-          description: >
-            index to stop filling the array at. If end is negative, it is
-            treated as
-
-            length+end.
-      return:
-        type: this
-        description: ''
+    inheritanceDescription: <b>Inherited From</b> Array.every
   - name: >-
       filter((value: SasDefinitionItem, index: number, array:
       SasDefinitionItem[]) => unknown, any)
@@ -224,12 +125,12 @@ methods:
       Returns the elements of an array that meet the condition specified in a
       callback function.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function filter(callbackfn: (value: SasDefinitionItem, index: number,
-        array: SasDefinitionItem[]) => unknown, thisArg?: any)
+        array: SasDefinitionItem[]) => unknown, thisArg?: any):
+        SasDefinitionItem[]
       parameters:
         - id: callbackfn
           type: >-
@@ -246,8 +147,9 @@ methods:
             function. If thisArg is omitted, undefined is used as the this
             value.
       return:
-        type: '<xref uid="azure-keyvault.SasDefinitionItem" />[]'
         description: ''
+        type: '<xref uid="azure-keyvault.SasDefinitionItem" />[]'
+    inheritanceDescription: <b>Inherited From</b> Array.filter
   - name: >-
       filter<S>((value: SasDefinitionItem, index: number, array:
       SasDefinitionItem[]) => boolean, any)
@@ -257,12 +159,11 @@ methods:
       Returns the elements of an array that meet the condition specified in a
       callback function.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function filter<S>(callbackfn: (value: SasDefinitionItem, index: number,
-        array: SasDefinitionItem[]) => boolean, thisArg?: any)
+        array: SasDefinitionItem[]) => boolean, thisArg?: any): S[]
       parameters:
         - id: callbackfn
           type: >-
@@ -279,369 +180,9 @@ methods:
             function. If thisArg is omitted, undefined is used as the this
             value.
       return:
+        description: ''
         type: 'S[]'
-        description: ''
-  - name: >-
-      find((value: SasDefinitionItem, index: number, obj: SasDefinitionItem[])
-      => unknown, any)
-    uid: azure-keyvault.SasDefinitionListResult.find_1
-    package: azure-keyvault
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function find(predicate: (value: SasDefinitionItem, index: number, obj:
-        SasDefinitionItem[]) => unknown, thisArg?: any)
-      parameters:
-        - id: predicate
-          type: >-
-            (value: SasDefinitionItem, index: number, obj: SasDefinitionItem[])
-            =&gt; unknown
-          description: ''
-        - id: thisArg
-          type: any
-          description: ''
-      return:
-        type: <xref uid="azure-keyvault.SasDefinitionItem" /> | undefined
-        description: ''
-  - name: >-
-      find<S>((this: void, value: SasDefinitionItem, index: number, obj:
-      SasDefinitionItem[]) => boolean, any)
-    uid: azure-keyvault.SasDefinitionListResult.find
-    package: azure-keyvault
-    summary: >-
-      Returns the value of the first element in the array where predicate is
-      true, and undefined
-
-      otherwise.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function find<S>(predicate: (this: void, value: SasDefinitionItem,
-        index: number, obj: SasDefinitionItem[]) => boolean, thisArg?: any)
-      parameters:
-        - id: predicate
-          type: >-
-            (this: void, value: SasDefinitionItem, index: number, obj:
-            SasDefinitionItem[]) =&gt; boolean
-          description: >-
-            find calls predicate once for each element of the array, in
-            ascending
-
-            order, until it finds one where predicate returns true. If such an
-            element is found, find
-
-            immediately returns that element value. Otherwise, find returns
-            undefined.
-        - id: thisArg
-          type: any
-          description: >
-            If provided, it will be used as the this value for each invocation
-            of
-
-            predicate. If it is not provided, undefined is used instead.
-      return:
-        type: S | undefined
-        description: ''
-  - name: >-
-      findIndex((value: SasDefinitionItem, index: number, obj:
-      SasDefinitionItem[]) => unknown, any)
-    uid: azure-keyvault.SasDefinitionListResult.findIndex
-    package: azure-keyvault
-    summary: >-
-      Returns the index of the first element in the array where predicate is
-      true, and -1
-
-      otherwise.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function findIndex(predicate: (value: SasDefinitionItem, index: number,
-        obj: SasDefinitionItem[]) => unknown, thisArg?: any)
-      parameters:
-        - id: predicate
-          type: >-
-            (value: SasDefinitionItem, index: number, obj: SasDefinitionItem[])
-            =&gt; unknown
-          description: >-
-            find calls predicate once for each element of the array, in
-            ascending
-
-            order, until it finds one where predicate returns true. If such an
-            element is found,
-
-            findIndex immediately returns that element index. Otherwise,
-            findIndex returns -1.
-        - id: thisArg
-          type: any
-          description: >
-            If provided, it will be used as the this value for each invocation
-            of
-
-            predicate. If it is not provided, undefined is used instead.
-      return:
-        type: number
-        description: ''
-  - name: flat<U>(number)
-    uid: azure-keyvault.SasDefinitionListResult.flat_8
-    package: azure-keyvault
-    summary: >-
-      Returns a new array with all sub-array elements concatenated into it
-      recursively up to the
-
-      specified depth. If no depth is provided, flat method defaults to the
-      depth of 1.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function flat<U>(depth?: number)'
-      parameters:
-        - id: depth
-          type: number
-          description: |
-            The maximum recursion depth
-      return:
-        type: 'any[]'
-        description: ''
-  - name: 'flat<U>(U[], 0)'
-    uid: azure-keyvault.SasDefinitionListResult.flat_7
-    package: azure-keyvault
-    summary: >-
-      Returns a new array with all sub-array elements concatenated into it
-      recursively up to the
-
-      specified depth.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function flat<U>(this: U[], depth: 0)'
-      parameters:
-        - id: this
-          type: 'U[]'
-          description: ''
-        - id: depth
-          type: '0'
-          description: |
-            The maximum recursion depth
-      return:
-        type: 'U[]'
-        description: ''
-  - name: 'flat<U>(U[][], 1)'
-    uid: azure-keyvault.SasDefinitionListResult.flat_6
-    package: azure-keyvault
-    summary: >-
-      Returns a new array with all sub-array elements concatenated into it
-      recursively up to the
-
-      specified depth.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function flat<U>(this: U[][], depth?: 1)'
-      parameters:
-        - id: this
-          type: 'U[][]'
-          description: ''
-        - id: depth
-          type: '1'
-          description: |
-            The maximum recursion depth
-      return:
-        type: 'U[]'
-        description: ''
-  - name: 'flat<U>(U[][][], 2)'
-    uid: azure-keyvault.SasDefinitionListResult.flat_5
-    package: azure-keyvault
-    summary: >-
-      Returns a new array with all sub-array elements concatenated into it
-      recursively up to the
-
-      specified depth.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function flat<U>(this: U[][][], depth: 2)'
-      parameters:
-        - id: this
-          type: 'U[][][]'
-          description: ''
-        - id: depth
-          type: '2'
-          description: |
-            The maximum recursion depth
-      return:
-        type: 'U[]'
-        description: ''
-  - name: 'flat<U>(U[][][][], 3)'
-    uid: azure-keyvault.SasDefinitionListResult.flat_4
-    package: azure-keyvault
-    summary: >-
-      Returns a new array with all sub-array elements concatenated into it
-      recursively up to the
-
-      specified depth.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function flat<U>(this: U[][][][], depth: 3)'
-      parameters:
-        - id: this
-          type: 'U[][][][]'
-          description: ''
-        - id: depth
-          type: '3'
-          description: |
-            The maximum recursion depth
-      return:
-        type: 'U[]'
-        description: ''
-  - name: 'flat<U>(U[][][][][], 4)'
-    uid: azure-keyvault.SasDefinitionListResult.flat_3
-    package: azure-keyvault
-    summary: >-
-      Returns a new array with all sub-array elements concatenated into it
-      recursively up to the
-
-      specified depth.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function flat<U>(this: U[][][][][], depth: 4)'
-      parameters:
-        - id: this
-          type: 'U[][][][][]'
-          description: ''
-        - id: depth
-          type: '4'
-          description: |
-            The maximum recursion depth
-      return:
-        type: 'U[]'
-        description: ''
-  - name: 'flat<U>(U[][][][][][], 5)'
-    uid: azure-keyvault.SasDefinitionListResult.flat_2
-    package: azure-keyvault
-    summary: >-
-      Returns a new array with all sub-array elements concatenated into it
-      recursively up to the
-
-      specified depth.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function flat<U>(this: U[][][][][][], depth: 5)'
-      parameters:
-        - id: this
-          type: 'U[][][][][][]'
-          description: ''
-        - id: depth
-          type: '5'
-          description: |
-            The maximum recursion depth
-      return:
-        type: 'U[]'
-        description: ''
-  - name: 'flat<U>(U[][][][][][][], 6)'
-    uid: azure-keyvault.SasDefinitionListResult.flat_1
-    package: azure-keyvault
-    summary: >-
-      Returns a new array with all sub-array elements concatenated into it
-      recursively up to the
-
-      specified depth.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function flat<U>(this: U[][][][][][][], depth: 6)'
-      parameters:
-        - id: this
-          type: 'U[][][][][][][]'
-          description: ''
-        - id: depth
-          type: '6'
-          description: |
-            The maximum recursion depth
-      return:
-        type: 'U[]'
-        description: ''
-  - name: 'flat<U>(U[][][][][][][][], 7)'
-    uid: azure-keyvault.SasDefinitionListResult.flat
-    package: azure-keyvault
-    summary: >-
-      Returns a new array with all sub-array elements concatenated into it
-      recursively up to the
-
-      specified depth.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function flat<U>(this: U[][][][][][][][], depth: 7)'
-      parameters:
-        - id: this
-          type: 'U[][][][][][][][]'
-          description: ''
-        - id: depth
-          type: '7'
-          description: |
-            The maximum recursion depth
-      return:
-        type: 'U[]'
-        description: ''
-  - name: >-
-      flatMap<U>((this: This, value: SasDefinitionItem, index: number, array:
-      SasDefinitionItem[]) => U | ReadonlyArray<U>, This)
-    uid: azure-keyvault.SasDefinitionListResult.flatMap
-    package: azure-keyvault
-    summary: >-
-      Calls a defined callback function on each element of an array. Then,
-      flattens the result into
-
-      a new array.
-
-      This is identical to a map followed by flat with depth 1.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function flatMap<U>(callback: (this: This, value: SasDefinitionItem,
-        index: number, array: SasDefinitionItem[]) => U | ReadonlyArray<U>,
-        thisArg?: This)
-      parameters:
-        - id: callback
-          type: >-
-            (this: This, value: SasDefinitionItem, index: number, array:
-            SasDefinitionItem[]) =&gt; U | ReadonlyArray&lt;U&gt;
-          description: >-
-            A function that accepts up to three arguments. The flatMap method
-            calls the
-
-            callback function one time for each element in the array.
-        - id: thisArg
-          type: This
-          description: >
-            An object to which the this keyword can refer in the callback
-            function. If
-
-            thisArg is omitted, undefined is used as the this value.
-      return:
-        type: 'U[]'
-        description: ''
+    inheritanceDescription: <b>Inherited From</b> Array.filter
   - name: >-
       forEach((value: SasDefinitionItem, index: number, array:
       SasDefinitionItem[]) => void, any)
@@ -649,7 +190,6 @@ methods:
     package: azure-keyvault
     summary: Performs the specified action for each element in an array.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -669,38 +209,17 @@ methods:
             An object to which the this keyword can refer in the callbackfn
             function. If thisArg is omitted, undefined is used as the this
             value.
-  - name: 'includes(SasDefinitionItem, number)'
-    uid: azure-keyvault.SasDefinitionListResult.includes
-    package: azure-keyvault
-    summary: >-
-      Determines whether an array includes a certain element, returning true or
-      false as appropriate.
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: 'function includes(searchElement: SasDefinitionItem, fromIndex?: number)'
-      parameters:
-        - id: searchElement
-          type: <xref uid="azure-keyvault.SasDefinitionItem" />
-          description: The element to search for.
-        - id: fromIndex
-          type: number
-          description: >
-            The position in this array at which to begin searching for
-            searchElement.
-      return:
-        type: boolean
-        description: ''
+    inheritanceDescription: <b>Inherited From</b> Array.forEach
   - name: 'indexOf(SasDefinitionItem, number)'
     uid: azure-keyvault.SasDefinitionListResult.indexOf
     package: azure-keyvault
     summary: Returns the index of the first occurrence of a value in an array.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function indexOf(searchElement: SasDefinitionItem, fromIndex?: number)'
+      content: >-
+        function indexOf(searchElement: SasDefinitionItem, fromIndex?: number):
+        number
       parameters:
         - id: searchElement
           type: <xref uid="azure-keyvault.SasDefinitionItem" />
@@ -711,8 +230,9 @@ methods:
             The array index at which to begin the search. If fromIndex is
             omitted, the search starts at index 0.
       return:
-        type: number
         description: ''
+        type: number
+    inheritanceDescription: <b>Inherited From</b> Array.indexOf
   - name: join(string)
     uid: azure-keyvault.SasDefinitionListResult.join
     package: azure-keyvault
@@ -720,10 +240,9 @@ methods:
       Adds all the elements of an array separated by the specified separator
       string.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function join(separator?: string)'
+      content: 'function join(separator?: string): string'
       parameters:
         - id: separator
           type: string
@@ -732,31 +251,19 @@ methods:
             the resulting String. If omitted, the array elements are separated
             with a comma.
       return:
+        description: ''
         type: string
-        description: ''
-  - name: keys()
-    uid: azure-keyvault.SasDefinitionListResult.keys
-    package: azure-keyvault
-    summary: Returns an iterable of keys in the array
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: function keys()
-      return:
-        type: IterableIterator&lt;number&gt;
-        description: ''
+    inheritanceDescription: <b>Inherited From</b> Array.join
   - name: 'lastIndexOf(SasDefinitionItem, number)'
     uid: azure-keyvault.SasDefinitionListResult.lastIndexOf
     package: azure-keyvault
     summary: Returns the index of the last occurrence of a specified value in an array.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function lastIndexOf(searchElement: SasDefinitionItem, fromIndex?:
-        number)
+        number): number
       parameters:
         - id: searchElement
           type: <xref uid="azure-keyvault.SasDefinitionItem" />
@@ -767,8 +274,9 @@ methods:
             The array index at which to begin the search. If fromIndex is
             omitted, the search starts at the last index in the array.
       return:
-        type: number
         description: ''
+        type: number
+    inheritanceDescription: <b>Inherited From</b> Array.lastIndexOf
   - name: >-
       map<U>((value: SasDefinitionItem, index: number, array:
       SasDefinitionItem[]) => U, any)
@@ -778,12 +286,11 @@ methods:
       Calls a defined callback function on each element of an array, and returns
       an array that contains the results.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function map<U>(callbackfn: (value: SasDefinitionItem, index: number,
-        array: SasDefinitionItem[]) => U, thisArg?: any)
+        array: SasDefinitionItem[]) => U, thisArg?: any): U[]
       parameters:
         - id: callbackfn
           type: >-
@@ -799,37 +306,38 @@ methods:
             function. If thisArg is omitted, undefined is used as the this
             value.
       return:
-        type: 'U[]'
         description: ''
+        type: 'U[]'
+    inheritanceDescription: <b>Inherited From</b> Array.map
   - name: pop()
     uid: azure-keyvault.SasDefinitionListResult.pop
     package: azure-keyvault
     summary: Removes the last element from an array and returns it.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function pop()
+      content: 'function pop(): SasDefinitionItem | undefined'
       return:
-        type: <xref uid="azure-keyvault.SasDefinitionItem" /> | undefined
         description: ''
+        type: <xref uid="azure-keyvault.SasDefinitionItem" /> | undefined
+    inheritanceDescription: <b>Inherited From</b> Array.pop
   - name: 'push(SasDefinitionItem[])'
     uid: azure-keyvault.SasDefinitionListResult.push
     package: azure-keyvault
     summary: 'Appends new elements to an array, and returns the new length of the array.'
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function push(items: SasDefinitionItem[])'
+      content: 'function push(items: SasDefinitionItem[]): number'
       parameters:
         - id: items
           type: '<xref uid="azure-keyvault.SasDefinitionItem" />[]'
           description: |
             New elements of the Array.
       return:
-        type: number
         description: ''
+        type: number
+    inheritanceDescription: <b>Inherited From</b> Array.push
   - name: >-
       reduce((previousValue: SasDefinitionItem, currentValue: SasDefinitionItem,
       currentIndex: number, array: SasDefinitionItem[]) => SasDefinitionItem)
@@ -840,13 +348,12 @@ methods:
       The return value of the callback function is the accumulated result, and
       is provided as an argument in the next call to the callback function.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function reduce(callbackfn: (previousValue: SasDefinitionItem,
         currentValue: SasDefinitionItem, currentIndex: number, array:
-        SasDefinitionItem[]) => SasDefinitionItem)
+        SasDefinitionItem[]) => SasDefinitionItem): SasDefinitionItem
       parameters:
         - id: callbackfn
           type: >-
@@ -858,8 +365,9 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="azure-keyvault.SasDefinitionItem" />
         description: ''
+        type: <xref uid="azure-keyvault.SasDefinitionItem" />
+    inheritanceDescription: <b>Inherited From</b> Array.reduce
   - name: >-
       reduce((previousValue: SasDefinitionItem, currentValue: SasDefinitionItem,
       currentIndex: number, array: SasDefinitionItem[]) => SasDefinitionItem,
@@ -868,14 +376,13 @@ methods:
     package: azure-keyvault
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function reduce(callbackfn: (previousValue: SasDefinitionItem,
         currentValue: SasDefinitionItem, currentIndex: number, array:
         SasDefinitionItem[]) => SasDefinitionItem, initialValue:
-        SasDefinitionItem)
+        SasDefinitionItem): SasDefinitionItem
       parameters:
         - id: callbackfn
           type: >-
@@ -887,8 +394,9 @@ methods:
           type: <xref uid="azure-keyvault.SasDefinitionItem" />
           description: ''
       return:
-        type: <xref uid="azure-keyvault.SasDefinitionItem" />
         description: ''
+        type: <xref uid="azure-keyvault.SasDefinitionItem" />
+    inheritanceDescription: <b>Inherited From</b> Array.reduce
   - name: >-
       reduce<U>((previousValue: U, currentValue: SasDefinitionItem,
       currentIndex: number, array: SasDefinitionItem[]) => U, U)
@@ -899,13 +407,12 @@ methods:
       The return value of the callback function is the accumulated result, and
       is provided as an argument in the next call to the callback function.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function reduce<U>(callbackfn: (previousValue: U, currentValue:
         SasDefinitionItem, currentIndex: number, array: SasDefinitionItem[]) =>
-        U, initialValue: U)
+        U, initialValue: U): U
       parameters:
         - id: callbackfn
           type: >-
@@ -922,8 +429,9 @@ methods:
             start the accumulation. The first call to the callbackfn function
             provides this value as an argument instead of an array value.
       return:
-        type: U
         description: ''
+        type: U
+    inheritanceDescription: <b>Inherited From</b> Array.reduce
   - name: >-
       reduceRight((previousValue: SasDefinitionItem, currentValue:
       SasDefinitionItem, currentIndex: number, array: SasDefinitionItem[]) =>
@@ -936,13 +444,12 @@ methods:
       accumulated result, and is provided as an argument in the next call to the
       callback function.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function reduceRight(callbackfn: (previousValue: SasDefinitionItem,
         currentValue: SasDefinitionItem, currentIndex: number, array:
-        SasDefinitionItem[]) => SasDefinitionItem)
+        SasDefinitionItem[]) => SasDefinitionItem): SasDefinitionItem
       parameters:
         - id: callbackfn
           type: >-
@@ -954,8 +461,9 @@ methods:
             calls the callbackfn function one time for each element in the
             array.
       return:
-        type: <xref uid="azure-keyvault.SasDefinitionItem" />
         description: ''
+        type: <xref uid="azure-keyvault.SasDefinitionItem" />
+    inheritanceDescription: <b>Inherited From</b> Array.reduceRight
   - name: >-
       reduceRight((previousValue: SasDefinitionItem, currentValue:
       SasDefinitionItem, currentIndex: number, array: SasDefinitionItem[]) =>
@@ -964,14 +472,13 @@ methods:
     package: azure-keyvault
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function reduceRight(callbackfn: (previousValue: SasDefinitionItem,
         currentValue: SasDefinitionItem, currentIndex: number, array:
         SasDefinitionItem[]) => SasDefinitionItem, initialValue:
-        SasDefinitionItem)
+        SasDefinitionItem): SasDefinitionItem
       parameters:
         - id: callbackfn
           type: >-
@@ -983,8 +490,9 @@ methods:
           type: <xref uid="azure-keyvault.SasDefinitionItem" />
           description: ''
       return:
-        type: <xref uid="azure-keyvault.SasDefinitionItem" />
         description: ''
+        type: <xref uid="azure-keyvault.SasDefinitionItem" />
+    inheritanceDescription: <b>Inherited From</b> Array.reduceRight
   - name: >-
       reduceRight<U>((previousValue: U, currentValue: SasDefinitionItem,
       currentIndex: number, array: SasDefinitionItem[]) => U, U)
@@ -996,13 +504,12 @@ methods:
       accumulated result, and is provided as an argument in the next call to the
       callback function.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function reduceRight<U>(callbackfn: (previousValue: U, currentValue:
         SasDefinitionItem, currentIndex: number, array: SasDefinitionItem[]) =>
-        U, initialValue: U)
+        U, initialValue: U): U
       parameters:
         - id: callbackfn
           type: >-
@@ -1019,41 +526,41 @@ methods:
             start the accumulation. The first call to the callbackfn function
             provides this value as an argument instead of an array value.
       return:
-        type: U
         description: ''
+        type: U
+    inheritanceDescription: <b>Inherited From</b> Array.reduceRight
   - name: reverse()
     uid: azure-keyvault.SasDefinitionListResult.reverse
     package: azure-keyvault
     summary: Reverses the elements in an Array.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function reverse()
+      content: 'function reverse(): SasDefinitionItem[]'
       return:
-        type: '<xref uid="azure-keyvault.SasDefinitionItem" />[]'
         description: ''
+        type: '<xref uid="azure-keyvault.SasDefinitionItem" />[]'
+    inheritanceDescription: <b>Inherited From</b> Array.reverse
   - name: shift()
     uid: azure-keyvault.SasDefinitionListResult.shift
     package: azure-keyvault
     summary: Removes the first element from an array and returns it.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function shift()
+      content: 'function shift(): SasDefinitionItem | undefined'
       return:
-        type: <xref uid="azure-keyvault.SasDefinitionItem" /> | undefined
         description: ''
+        type: <xref uid="azure-keyvault.SasDefinitionItem" /> | undefined
+    inheritanceDescription: <b>Inherited From</b> Array.shift
   - name: 'slice(number, number)'
     uid: azure-keyvault.SasDefinitionListResult.slice
     package: azure-keyvault
     summary: Returns a section of an array.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function slice(start?: number, end?: number)'
+      content: 'function slice(start?: number, end?: number): SasDefinitionItem[]'
       parameters:
         - id: start
           type: number
@@ -1063,8 +570,9 @@ methods:
           description: |
             The end of the specified portion of the array.
       return:
-        type: '<xref uid="azure-keyvault.SasDefinitionItem" />[]'
         description: ''
+        type: '<xref uid="azure-keyvault.SasDefinitionItem" />[]'
+    inheritanceDescription: <b>Inherited From</b> Array.slice
   - name: >-
       some((value: SasDefinitionItem, index: number, array: SasDefinitionItem[])
       => unknown, any)
@@ -1074,12 +582,11 @@ methods:
       Determines whether the specified callback function returns true for any
       element of an array.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function some(callbackfn: (value: SasDefinitionItem, index: number,
-        array: SasDefinitionItem[]) => unknown, thisArg?: any)
+        array: SasDefinitionItem[]) => unknown, thisArg?: any): boolean
       parameters:
         - id: callbackfn
           type: >-
@@ -1096,19 +603,19 @@ methods:
             function. If thisArg is omitted, undefined is used as the this
             value.
       return:
-        type: boolean
         description: ''
+        type: boolean
+    inheritanceDescription: <b>Inherited From</b> Array.some
   - name: 'sort((a: SasDefinitionItem, b: SasDefinitionItem) => number)'
     uid: azure-keyvault.SasDefinitionListResult.sort
     package: azure-keyvault
     summary: Sorts an array.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function sort(compareFn?: (a: SasDefinitionItem, b: SasDefinitionItem)
-        => number)
+        => number): this
       parameters:
         - id: compareFn
           type: '(a: SasDefinitionItem, b: SasDefinitionItem) =&gt; number'
@@ -1117,8 +624,9 @@ methods:
             elements. If omitted, the elements are sorted in ascending, ASCII
             character order.
       return:
-        type: this
         description: ''
+        type: this
+    inheritanceDescription: <b>Inherited From</b> Array.sort
   - name: 'splice(number, number)'
     uid: azure-keyvault.SasDefinitionListResult.splice
     package: azure-keyvault
@@ -1126,10 +634,11 @@ methods:
       Removes elements from an array and, if necessary, inserts new elements in
       their place, returning the deleted elements.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function splice(start: number, deleteCount?: number)'
+      content: >-
+        function splice(start: number, deleteCount?: number):
+        SasDefinitionItem[]
       parameters:
         - id: start
           type: number
@@ -1141,8 +650,9 @@ methods:
           description: |
             The number of elements to remove.
       return:
-        type: '<xref uid="azure-keyvault.SasDefinitionItem" />[]'
         description: ''
+        type: '<xref uid="azure-keyvault.SasDefinitionItem" />[]'
+    inheritanceDescription: <b>Inherited From</b> Array.splice
   - name: 'splice(number, number, SasDefinitionItem[])'
     uid: azure-keyvault.SasDefinitionListResult.splice_1
     package: azure-keyvault
@@ -1150,12 +660,11 @@ methods:
       Removes elements from an array and, if necessary, inserts new elements in
       their place, returning the deleted elements.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function splice(start: number, deleteCount: number, items:
-        SasDefinitionItem[])
+        SasDefinitionItem[]): SasDefinitionItem[]
       parameters:
         - id: start
           type: number
@@ -1170,8 +679,9 @@ methods:
           description: |
             Elements to insert into the array in place of the deleted elements.
       return:
-        type: '<xref uid="azure-keyvault.SasDefinitionItem" />[]'
         description: ''
+        type: '<xref uid="azure-keyvault.SasDefinitionItem" />[]'
+    inheritanceDescription: <b>Inherited From</b> Array.splice
   - name: toLocaleString()
     uid: azure-keyvault.SasDefinitionListResult.toLocaleString
     package: azure-keyvault
@@ -1179,54 +689,40 @@ methods:
       Returns a string representation of an array. The elements are converted to
       string using their toLocalString methods.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function toLocaleString()
+      content: 'function toLocaleString(): string'
       return:
-        type: string
         description: ''
+        type: string
+    inheritanceDescription: <b>Inherited From</b> Array.toLocaleString
   - name: toString()
     uid: azure-keyvault.SasDefinitionListResult.toString
     package: azure-keyvault
     summary: Returns a string representation of an array.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function toString()
+      content: 'function toString(): string'
       return:
-        type: string
         description: ''
+        type: string
+    inheritanceDescription: <b>Inherited From</b> Array.toString
   - name: 'unshift(SasDefinitionItem[])'
     uid: azure-keyvault.SasDefinitionListResult.unshift
     package: azure-keyvault
     summary: Inserts new elements at the start of an array.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function unshift(items: SasDefinitionItem[])'
+      content: 'function unshift(items: SasDefinitionItem[]): number'
       parameters:
         - id: items
           type: '<xref uid="azure-keyvault.SasDefinitionItem" />[]'
           description: |
             Elements to insert at the start of the Array.
       return:
+        description: ''
         type: number
-        description: ''
-  - name: values()
-    uid: azure-keyvault.SasDefinitionListResult.values
-    package: azure-keyvault
-    summary: Returns an iterable of values in the array
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: function values()
-      return:
-        type: >-
-          IterableIterator&lt;<xref uid="azure-keyvault.SasDefinitionItem"
-          />&gt;
-        description: ''
+    inheritanceDescription: <b>Inherited From</b> Array.unshift
 extends: Array&lt;<xref uid="azure-keyvault.SasDefinitionItem" />&gt;

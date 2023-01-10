@@ -5,7 +5,6 @@ package: '@azure/storage-blob'
 summary: Additional parameters for a set of operations.
 fullName: BlobHTTPHeaders
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,26 +18,24 @@ properties:
       and returned with a read request.
     fullName: blobCacheControl
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobCacheControl?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: blobContentDisposition
     uid: '@azure/storage-blob.BlobHTTPHeaders.blobContentDisposition'
     package: '@azure/storage-blob'
     summary: Optional. Sets the blob's Content-Disposition header.
     fullName: blobContentDisposition
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobContentDisposition?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: blobContentEncoding
     uid: '@azure/storage-blob.BlobHTTPHeaders.blobContentEncoding'
     package: '@azure/storage-blob'
@@ -49,13 +46,12 @@ properties:
       blob and returned with a read request.
     fullName: blobContentEncoding
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobContentEncoding?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: blobContentLanguage
     uid: '@azure/storage-blob.BlobHTTPHeaders.blobContentLanguage'
     package: '@azure/storage-blob'
@@ -66,13 +62,12 @@ properties:
       and returned with a read request.
     fullName: blobContentLanguage
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobContentLanguage?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: blobContentMD5
     uid: '@azure/storage-blob.BlobHTTPHeaders.blobContentMD5'
     package: '@azure/storage-blob'
@@ -83,13 +78,12 @@ properties:
       for the individual blocks were validated when each was uploaded.
     fullName: blobContentMD5
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobContentMD5?: Uint8Array'
       return:
-        type: Uint8Array
         description: ''
+        type: Uint8Array
   - name: blobContentType
     uid: '@azure/storage-blob.BlobHTTPHeaders.blobContentType'
     package: '@azure/storage-blob'
@@ -100,10 +94,9 @@ properties:
       and returned with a read request.
     fullName: blobContentType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'blobContentType?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string

@@ -5,7 +5,6 @@ package: azure-keyvault
 summary: ''
 fullName: KeyItem
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,49 +14,45 @@ properties:
     summary: ''
     fullName: attributes
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'attributes?: KeyAttributes'
       return:
-        type: <xref uid="azure-keyvault.KeyAttributes" />
         description: ''
+        type: <xref uid="azure-keyvault.KeyAttributes" />
   - name: kid
     uid: azure-keyvault.KeyItem.kid
     package: azure-keyvault
     summary: ''
     fullName: kid
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'kid?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: managed
     uid: azure-keyvault.KeyItem.managed
     package: azure-keyvault
     summary: ''
     fullName: managed
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'managed?: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: tags
     uid: azure-keyvault.KeyItem.tags
     package: azure-keyvault
     summary: ''
     fullName: tags
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tags?: [key: string]: string'
       return:
-        type: '[key: string]\: string'
         description: ''
+        type: '[key: string]\: string'

@@ -5,8 +5,8 @@ package: '@azure/storage-blob'
 summary: Contains response data for the acquireLease operation.
 fullName: BlobAcquireLeaseResponse
 remarks: ''
-isPreview: false
 isDeprecated: false
-syntax: >-
-  type BlobAcquireLeaseResponse = BlobAcquireLeaseHeaders & { _response: Object
+syntax: |
+  type BlobAcquireLeaseResponse = BlobAcquireLeaseHeaders & {
+    _response: HttpResponse & { parsedHeaders: BlobAcquireLeaseHeaders },
   }

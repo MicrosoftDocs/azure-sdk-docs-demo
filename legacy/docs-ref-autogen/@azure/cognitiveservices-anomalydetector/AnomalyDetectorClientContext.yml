@@ -5,7 +5,6 @@ package: '@azure/cognitiveservices-anomalydetector'
 summary: ''
 fullName: AnomalyDetectorClientContext
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -17,7 +16,6 @@ constructors:
     package: '@azure/cognitiveservices-anomalydetector'
     summary: Initializes a new instance of the AnomalyDetectorClientContext class.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -47,13 +45,12 @@ properties:
     summary: ''
     fullName: credentials
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'credentials: ServiceClientCredentials'
       return:
-        type: ServiceClientCredentials
         description: ''
+        type: ServiceClientCredentials
   - name: endpoint
     uid: >-
       @azure/cognitiveservices-anomalydetector.AnomalyDetectorClientContext.endpoint
@@ -61,14 +58,13 @@ properties:
     summary: ''
     fullName: endpoint
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'endpoint: string'
       return:
-        type: string
         description: ''
-methods:
+        type: string
+inheritedMethods:
   - name: >-
       sendOperationRequest(OperationArguments, OperationSpec,
       ServiceCallback<any>)
@@ -77,12 +73,12 @@ methods:
     package: '@azure/cognitiveservices-anomalydetector'
     summary: Send an HTTP request that is populated using the provided OperationSpec.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function sendOperationRequest(operationArguments: OperationArguments,
-        operationSpec: OperationSpec, callback?: ServiceCallback<any>)
+        operationSpec: OperationSpec, callback?: ServiceCallback<any>):
+        Promise<RestResponse>
       parameters:
         - id: operationArguments
           type: OperationArguments
@@ -97,23 +93,26 @@ methods:
           description: |
             The callback to call when the response is received.
       return:
-        type: Promise&lt;RestResponse&gt;
         description: ''
+        type: Promise&lt;RestResponse&gt;
+    inheritanceDescription: <b>Inherited From</b> ServiceClient.sendOperationRequest
   - name: sendRequest(RequestPrepareOptions | WebResourceLike)
     uid: >-
       @azure/cognitiveservices-anomalydetector.AnomalyDetectorClientContext.sendRequest
     package: '@azure/cognitiveservices-anomalydetector'
     summary: Send the provided httpRequest.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function sendRequest(options: RequestPrepareOptions | WebResourceLike)'
+      content: >-
+        function sendRequest(options: RequestPrepareOptions | WebResourceLike):
+        Promise<HttpOperationResponse>
       parameters:
         - id: options
           type: RequestPrepareOptions | WebResourceLike
           description: ''
       return:
-        type: Promise&lt;HttpOperationResponse&gt;
         description: ''
+        type: Promise&lt;HttpOperationResponse&gt;
+    inheritanceDescription: <b>Inherited From</b> ServiceClient.sendRequest
 extends: ServiceClient

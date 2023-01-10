@@ -5,7 +5,6 @@ package: '@azure/service-bus'
 summary: Interface for Queue/Topic/Subscription clients
 fullName: Client
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,26 +14,24 @@ properties:
     summary: The path for the Service Bus entity for which this client is created.
     fullName: entityPath
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'entityPath: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: id
     uid: '@azure/service-bus.Client.id'
     package: '@azure/service-bus'
     summary: A unique identifier for this client.
     fullName: id
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'id: string'
       return:
-        type: string
         description: ''
+        type: string
 methods:
   - name: close()
     uid: '@azure/service-bus.Client.close'
@@ -43,10 +40,9 @@ methods:
       Closes the client along with all senders and receivers created using the
       client.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: function close()
+      content: 'function close(): Promise<void>'
       return:
-        type: Promise&lt;void&gt;
         description: ''
+        type: Promise&lt;void&gt;

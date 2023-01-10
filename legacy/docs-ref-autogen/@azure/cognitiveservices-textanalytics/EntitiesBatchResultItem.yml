@@ -5,7 +5,6 @@ package: '@azure/cognitiveservices-textanalytics'
 summary: An interface representing EntitiesBatchResultItem.
 fullName: EntitiesBatchResultItem
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -19,26 +18,24 @@ properties:
       the server.**
     fullName: entities
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'entities?: EntityRecord[]'
       return:
-        type: '<xref uid="@azure/cognitiveservices-textanalytics.EntityRecord" />[]'
         description: ''
+        type: '<xref uid="@azure/cognitiveservices-textanalytics.EntityRecord" />[]'
   - name: id
     uid: '@azure/cognitiveservices-textanalytics.EntitiesBatchResultItem.id'
     package: '@azure/cognitiveservices-textanalytics'
     summary: 'Unique, non-empty document identifier.'
     fullName: id
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'id?: undefined | string'
       return:
-        type: undefined | string
         description: ''
+        type: undefined | string
   - name: statistics
     uid: '@azure/cognitiveservices-textanalytics.EntitiesBatchResultItem.statistics'
     package: '@azure/cognitiveservices-textanalytics'
@@ -49,12 +46,11 @@ properties:
       about the document payload.
     fullName: statistics
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'statistics?: DocumentStatistics'
       return:
+        description: ''
         type: >-
           <xref uid="@azure/cognitiveservices-textanalytics.DocumentStatistics"
           />
-        description: ''

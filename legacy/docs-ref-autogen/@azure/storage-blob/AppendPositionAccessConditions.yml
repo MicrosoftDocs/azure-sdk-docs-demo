@@ -9,7 +9,6 @@ summary: >-
   AppendBlob_appendBlockFromUrl.
 fullName: AppendPositionAccessConditions
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -29,13 +28,12 @@ properties:
       status code 412 - Precondition Failed).
     fullName: appendPosition
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'appendPosition?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number
   - name: maxSize
     uid: '@azure/storage-blob.AppendPositionAccessConditions.maxSize'
     package: '@azure/storage-blob'
@@ -53,10 +51,9 @@ properties:
       Failed).
     fullName: maxSize
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'maxSize?: undefined | number'
       return:
-        type: undefined | number
         description: ''
+        type: undefined | number

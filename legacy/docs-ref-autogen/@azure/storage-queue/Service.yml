@@ -5,7 +5,6 @@ package: '@azure/storage-queue'
 summary: Class representing a Service.
 fullName: Service
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -14,7 +13,6 @@ constructors:
     package: '@azure/storage-queue'
     summary: Create a Service.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'new Service(client: StorageClientContext)'
@@ -33,25 +31,24 @@ methods:
 
       Analytics and CORS (Cross-Origin Resource Sharing) rules.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function getProperties(options?:
-        Models.ServiceGetPropertiesOptionalParams)
+        Models.ServiceGetPropertiesOptionalParams):
+        Promise<Models.ServiceGetPropertiesResponse>
       parameters:
         - id: options
           type: <xref uid="Models.ServiceGetPropertiesOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceGetPropertiesResponse" />&gt;
         description: Promise<Models.ServiceGetPropertiesResponse>
+        type: Promise&lt;<xref uid="Models.ServiceGetPropertiesResponse" />&gt;
   - name: getProperties(ServiceCallback<StorageServiceProperties>)
     uid: '@azure/storage-queue.Service.getProperties_1'
     package: '@azure/storage-queue'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -71,7 +68,6 @@ methods:
     package: '@azure/storage-queue'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -101,25 +97,24 @@ methods:
 
       storage account.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function getStatistics(options?:
-        Models.ServiceGetStatisticsOptionalParams)
+        Models.ServiceGetStatisticsOptionalParams):
+        Promise<Models.ServiceGetStatisticsResponse>
       parameters:
         - id: options
           type: <xref uid="Models.ServiceGetStatisticsOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceGetStatisticsResponse" />&gt;
         description: Promise<Models.ServiceGetStatisticsResponse>
+        type: Promise&lt;<xref uid="Models.ServiceGetStatisticsResponse" />&gt;
   - name: getStatistics(ServiceCallback<StorageServiceStats>)
     uid: '@azure/storage-queue.Service.getStatistics_1'
     package: '@azure/storage-queue'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function getStatistics(callback: ServiceCallback<StorageServiceStats>)'
@@ -137,7 +132,6 @@ methods:
     package: '@azure/storage-queue'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -162,25 +156,24 @@ methods:
       The List Queues Segment operation returns a list of the queues under the
       specified account
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function listQueuesSegment(options?:
-        Models.ServiceListQueuesSegmentOptionalParams)
+        Models.ServiceListQueuesSegmentOptionalParams):
+        Promise<Models.ServiceListQueuesSegmentResponse>
       parameters:
         - id: options
           type: <xref uid="Models.ServiceListQueuesSegmentOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceListQueuesSegmentResponse" />&gt;
         description: Promise<Models.ServiceListQueuesSegmentResponse>
+        type: Promise&lt;<xref uid="Models.ServiceListQueuesSegmentResponse" />&gt;
   - name: listQueuesSegment(ServiceCallback<ListQueuesSegmentResponse>)
     uid: '@azure/storage-queue.Service.listQueuesSegment_1'
     package: '@azure/storage-queue'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -200,7 +193,6 @@ methods:
     package: '@azure/storage-queue'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -230,13 +222,13 @@ methods:
 
       Analytics and CORS (Cross-Origin Resource Sharing) rules
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function setProperties(storageServiceProperties:
         StorageServiceProperties, options?:
-        Models.ServiceSetPropertiesOptionalParams)
+        Models.ServiceSetPropertiesOptionalParams):
+        Promise<Models.ServiceSetPropertiesResponse>
       parameters:
         - id: storageServiceProperties
           type: <xref uid="@azure/storage-queue.StorageServiceProperties" />
@@ -245,14 +237,13 @@ methods:
           type: <xref uid="Models.ServiceSetPropertiesOptionalParams" />
           description: ''
       return:
-        type: Promise&lt;<xref uid="Models.ServiceSetPropertiesResponse" />&gt;
         description: Promise<Models.ServiceSetPropertiesResponse>
+        type: Promise&lt;<xref uid="Models.ServiceSetPropertiesResponse" />&gt;
   - name: 'setProperties(StorageServiceProperties, ServiceCallback<void>)'
     uid: '@azure/storage-queue.Service.setProperties_1'
     package: '@azure/storage-queue'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -273,7 +264,6 @@ methods:
     package: '@azure/storage-queue'
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-

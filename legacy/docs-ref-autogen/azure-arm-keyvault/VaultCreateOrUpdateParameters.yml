@@ -5,7 +5,6 @@ package: azure-arm-keyvault
 summary: ''
 fullName: VaultCreateOrUpdateParameters
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,37 +14,34 @@ properties:
     summary: ''
     fullName: location
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'location: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: properties
     uid: azure-arm-keyvault.VaultCreateOrUpdateParameters.properties
     package: azure-arm-keyvault
     summary: ''
     fullName: properties
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'properties: VaultProperties'
       return:
-        type: <xref uid="azure-arm-keyvault.VaultProperties" />
         description: ''
+        type: <xref uid="azure-arm-keyvault.VaultProperties" />
   - name: tags
     uid: azure-arm-keyvault.VaultCreateOrUpdateParameters.tags
     package: azure-arm-keyvault
     summary: ''
     fullName: tags
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tags?: [key: string]: string'
       return:
-        type: '[key: string]\: string'
         description: ''
+        type: '[key: string]\: string'
 extends: BaseResource

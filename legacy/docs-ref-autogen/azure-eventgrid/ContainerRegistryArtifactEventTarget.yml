@@ -5,7 +5,6 @@ package: azure-eventgrid
 summary: ''
 fullName: ContainerRegistryArtifactEventTarget
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: interface
 properties:
@@ -15,88 +14,81 @@ properties:
     summary: ''
     fullName: digest
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'digest?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: mediaType
     uid: azure-eventgrid.ContainerRegistryArtifactEventTarget.mediaType
     package: azure-eventgrid
     summary: ''
     fullName: mediaType
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'mediaType?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: name
     uid: azure-eventgrid.ContainerRegistryArtifactEventTarget.name
     package: azure-eventgrid
     summary: ''
     fullName: name
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'name?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: repository
     uid: azure-eventgrid.ContainerRegistryArtifactEventTarget.repository
     package: azure-eventgrid
     summary: ''
     fullName: repository
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'repository?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: size
     uid: azure-eventgrid.ContainerRegistryArtifactEventTarget.size
     package: azure-eventgrid
     summary: ''
     fullName: size
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'size?: number'
       return:
-        type: number
         description: ''
+        type: number
   - name: tag
     uid: azure-eventgrid.ContainerRegistryArtifactEventTarget.tag
     package: azure-eventgrid
     summary: ''
     fullName: tag
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'tag?: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: version
     uid: azure-eventgrid.ContainerRegistryArtifactEventTarget.version
     package: azure-eventgrid
     summary: ''
     fullName: version
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'version?: string'
       return:
-        type: string
         description: ''
+        type: string

@@ -5,7 +5,6 @@ package: azure-eventgrid
 summary: ''
 fullName: EventGridClient
 remarks: ''
-isPreview: false
 isDeprecated: false
 type: class
 constructors:
@@ -14,7 +13,6 @@ constructors:
     package: azure-eventgrid
     summary: Initializes a new instance of the EventGridClient class.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -35,72 +33,66 @@ properties:
     summary: ''
     fullName: acceptLanguage
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'acceptLanguage: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: apiVersion
     uid: azure-eventgrid.EventGridClient.apiVersion
     package: azure-eventgrid
     summary: ''
     fullName: apiVersion
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'apiVersion: string'
       return:
-        type: string
         description: ''
+        type: string
   - name: credentials
     uid: azure-eventgrid.EventGridClient.credentials
     package: azure-eventgrid
     summary: ''
     fullName: credentials
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'credentials: ServiceClientCredentials'
       return:
-        type: ServiceClientCredentials
         description: ''
+        type: ServiceClientCredentials
   - name: generateClientRequestId
     uid: azure-eventgrid.EventGridClient.generateClientRequestId
     package: azure-eventgrid
     summary: ''
     fullName: generateClientRequestId
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'generateClientRequestId: boolean'
       return:
-        type: boolean
         description: ''
+        type: boolean
   - name: longRunningOperationRetryTimeout
     uid: azure-eventgrid.EventGridClient.longRunningOperationRetryTimeout
     package: azure-eventgrid
     summary: ''
     fullName: longRunningOperationRetryTimeout
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'longRunningOperationRetryTimeout: number'
       return:
-        type: number
         description: ''
-methods:
+        type: number
+inheritedMethods:
   - name: addUserAgentInfo(any)
     uid: azure-eventgrid.EventGridClient.addUserAgentInfo
     package: azure-eventgrid
     summary: Adds custom information to user agent header
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: 'function addUserAgentInfo(additionalUserAgentInfo: any)'
@@ -109,6 +101,7 @@ methods:
           type: any
           description: |
             information to be added to user agent header, as string.
+    inheritanceDescription: <b>Inherited From</b> ServiceClient.addUserAgentInfo
   - name: >-
       getLongRunningOperationResult<TResult>(HttpOperationResponse<TResult>,
       RequestOptions)
@@ -116,12 +109,12 @@ methods:
     package: azure-eventgrid
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function getLongRunningOperationResult<TResult>(resultOfInitialRequest:
-        HttpOperationResponse<TResult>, options?: RequestOptions)
+        HttpOperationResponse<TResult>, options?: RequestOptions):
+        Promise<TResult>
       parameters:
         - id: resultOfInitialRequest
           type: HttpOperationResponse&lt;TResult&gt;
@@ -130,8 +123,9 @@ methods:
           type: RequestOptions
           description: ''
       return:
-        type: Promise&lt;TResult&gt;
         description: ''
+        type: Promise&lt;TResult&gt;
+    inheritanceDescription: <b>Inherited From</b> AzureServiceClient.getLongRunningOperationResult
   - name: >-
       getLongRunningOperationResult<TResult>(HttpOperationResponse<TResult>,
       RequestOptions, ServiceCallback<TResult>)
@@ -139,7 +133,6 @@ methods:
     package: azure-eventgrid
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -156,6 +149,7 @@ methods:
         - id: callback
           type: ServiceCallback&lt;TResult&gt;
           description: ''
+    inheritanceDescription: <b>Inherited From</b> AzureServiceClient.getLongRunningOperationResult
   - name: >-
       getLongRunningOperationResult<TResult>(HttpOperationResponse<TResult>,
       ServiceCallback<TResult>)
@@ -163,7 +157,6 @@ methods:
     package: azure-eventgrid
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
@@ -176,6 +169,7 @@ methods:
         - id: callback
           type: ServiceCallback&lt;TResult&gt;
           description: ''
+    inheritanceDescription: <b>Inherited From</b> AzureServiceClient.getLongRunningOperationResult
   - name: getPackageJsonInfo(string)
     uid: azure-eventgrid.EventGridClient.getPackageJsonInfo
     package: azure-eventgrid
@@ -187,28 +181,197 @@ methods:
 
       If package.json is not found, returns a default value.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
-      content: 'function getPackageJsonInfo(managementClientDir: string)'
+      content: >-
+        function getPackageJsonInfo(managementClientDir: string): { name:
+        string, version: string }
       parameters:
         - id: managementClientDir
           type: string
           description: pass the directory of the specific azure management client.
       return:
-        type: Object
         description: packageJsonInfo - "name" and "version" of the desired package.
-  - name: 'publishEvents(string, EventGridEvent[], Object)'
-    uid: azure-eventgrid.EventGridClient.publishEvents
+        type: '{ name: string, version: string }'
+    inheritanceDescription: <b>Inherited From</b> ServiceClient.getPackageJsonInfo
+  - name: >-
+      sendLongRunningRequest<TResult>(LongRunningUrlBasedRequestPrepareOptions |
+      LongRunningPathTemplateBasedRequestPrepareOptions)
+    uid: azure-eventgrid.EventGridClient.sendLongRunningRequest_1
     package: azure-eventgrid
-    summary: Publishes a batch of events to an Azure Event Grid topic.
+    summary: ''
     remarks: ''
-    isPreview: false
+    isDeprecated: false
+    syntax:
+      content: >-
+        function sendLongRunningRequest<TResult>(options:
+        LongRunningUrlBasedRequestPrepareOptions |
+        LongRunningPathTemplateBasedRequestPrepareOptions): Promise<TResult>
+      parameters:
+        - id: options
+          type: >-
+            LongRunningUrlBasedRequestPrepareOptions |
+            LongRunningPathTemplateBasedRequestPrepareOptions
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;TResult&gt;
+    inheritanceDescription: <b>Inherited From</b> AzureServiceClient.sendLongRunningRequest
+  - name: >-
+      sendLongRunningRequest<TResult>(LongRunningUrlBasedRequestPrepareOptions |
+      LongRunningPathTemplateBasedRequestPrepareOptions,
+      ServiceCallback<TResult>)
+    uid: azure-eventgrid.EventGridClient.sendLongRunningRequest
+    package: azure-eventgrid
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function sendLongRunningRequest<TResult>(options:
+        LongRunningUrlBasedRequestPrepareOptions |
+        LongRunningPathTemplateBasedRequestPrepareOptions, callback:
+        ServiceCallback<TResult>)
+      parameters:
+        - id: options
+          type: >-
+            LongRunningUrlBasedRequestPrepareOptions |
+            LongRunningPathTemplateBasedRequestPrepareOptions
+          description: ''
+        - id: callback
+          type: ServiceCallback&lt;TResult&gt;
+          description: ''
+    inheritanceDescription: <b>Inherited From</b> AzureServiceClient.sendLongRunningRequest
+  - name: >-
+      sendLongRunningRequestWithHttpOperationResponse<TResult>(LongRunningUrlBasedRequestPrepareOptions
+      | LongRunningPathTemplateBasedRequestPrepareOptions)
+    uid: >-
+      azure-eventgrid.EventGridClient.sendLongRunningRequestWithHttpOperationResponse
+    package: azure-eventgrid
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function
+        sendLongRunningRequestWithHttpOperationResponse<TResult>(options:
+        LongRunningUrlBasedRequestPrepareOptions |
+        LongRunningPathTemplateBasedRequestPrepareOptions):
+        Promise<HttpOperationResponse<TResult>>
+      parameters:
+        - id: options
+          type: >-
+            LongRunningUrlBasedRequestPrepareOptions |
+            LongRunningPathTemplateBasedRequestPrepareOptions
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;HttpOperationResponse&lt;TResult&gt;&gt;
+    inheritanceDescription: >-
+      <b>Inherited From</b>
+      AzureServiceClient.sendLongRunningRequestWithHttpOperationResponse
+  - name: >-
+      sendRequest<TResult>(PathTemplateBasedRequestPrepareOptions |
+      UrlBasedRequestPrepareOptions)
+    uid: azure-eventgrid.EventGridClient.sendRequest_1
+    package: azure-eventgrid
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function sendRequest<TResult>(options:
+        PathTemplateBasedRequestPrepareOptions | UrlBasedRequestPrepareOptions):
+        Promise<TResult>
+      parameters:
+        - id: options
+          type: >-
+            PathTemplateBasedRequestPrepareOptions |
+            UrlBasedRequestPrepareOptions
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;TResult&gt;
+    inheritanceDescription: <b>Inherited From</b> ServiceClient.sendRequest
+  - name: >-
+      sendRequest<TResult>(PathTemplateBasedRequestPrepareOptions |
+      UrlBasedRequestPrepareOptions, ServiceCallback<TResult>)
+    uid: azure-eventgrid.EventGridClient.sendRequest
+    package: azure-eventgrid
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function sendRequest<TResult>(options:
+        PathTemplateBasedRequestPrepareOptions | UrlBasedRequestPrepareOptions,
+        callback: ServiceCallback<TResult>)
+      parameters:
+        - id: options
+          type: >-
+            PathTemplateBasedRequestPrepareOptions |
+            UrlBasedRequestPrepareOptions
+          description: ''
+        - id: callback
+          type: ServiceCallback&lt;TResult&gt;
+          description: ''
+    inheritanceDescription: <b>Inherited From</b> ServiceClient.sendRequest
+  - name: >-
+      sendRequestWithHttpOperationResponse<TResult>(PathTemplateBasedRequestPrepareOptions
+      | UrlBasedRequestPrepareOptions)
+    uid: azure-eventgrid.EventGridClient.sendRequestWithHttpOperationResponse
+    package: azure-eventgrid
+    summary: ''
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function sendRequestWithHttpOperationResponse<TResult>(options:
+        PathTemplateBasedRequestPrepareOptions | UrlBasedRequestPrepareOptions):
+        Promise<HttpOperationResponse<TResult>>
+      parameters:
+        - id: options
+          type: >-
+            PathTemplateBasedRequestPrepareOptions |
+            UrlBasedRequestPrepareOptions
+          description: ''
+      return:
+        description: ''
+        type: Promise&lt;HttpOperationResponse&lt;TResult&gt;&gt;
+    inheritanceDescription: <b>Inherited From</b> ServiceClient.sendRequestWithHttpOperationResponse
+methods:
+  - name: 'publishEvents(string, EventGridEvent[], ServiceCallback<void>)'
+    uid: azure-eventgrid.EventGridClient.publishEvents_1
+    package: azure-eventgrid
+    summary: ''
+    remarks: ''
     isDeprecated: false
     syntax:
       content: >-
         function publishEvents(topicHostname: string, events: EventGridEvent[],
-        options?: Object)
+        callback: ServiceCallback<void>)
+      parameters:
+        - id: topicHostname
+          type: string
+          description: ''
+        - id: events
+          type: '<xref uid="azure-eventgrid.EventGridEvent" />[]'
+          description: ''
+        - id: callback
+          type: ServiceCallback&lt;void&gt;
+          description: ''
+  - name: >-
+      publishEvents(string, EventGridEvent[], { customHeaders?: [key: string]:
+      string })
+    uid: azure-eventgrid.EventGridClient.publishEvents
+    package: azure-eventgrid
+    summary: Publishes a batch of events to an Azure Event Grid topic.
+    remarks: ''
+    isDeprecated: false
+    syntax:
+      content: >-
+        function publishEvents(topicHostname: string, events: EventGridEvent[],
+        options?: { customHeaders?: [key: string]: string }): Promise<void>
       parameters:
         - id: topicHostname
           type: string
@@ -220,10 +383,9 @@ methods:
           description: |
             An array of events to be published to Event Grid.
         - id: options
-          type: Object
+          type: '{ customHeaders?: [key: string]: string }'
           description: ''
       return:
-        type: Promise&lt;void&gt;
         description: |-
           If a callback was passed as the last
           parameter then it returns the callback else returns a Promise.
@@ -243,17 +405,20 @@ methods:
                                {WebResource} [request]  - The HTTP Request object if an error did not occur.
 
                                {http.IncomingMessage} [response] - The HTTP Response stream if an error did not occur.
-  - name: 'publishEvents(string, EventGridEvent[], Object, ServiceCallback<void>)'
+        type: Promise&lt;void&gt;
+  - name: >-
+      publishEvents(string, EventGridEvent[], { customHeaders?: [key: string]:
+      string }, ServiceCallback<void>)
     uid: azure-eventgrid.EventGridClient.publishEvents_2
     package: azure-eventgrid
     summary: ''
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function publishEvents(topicHostname: string, events: EventGridEvent[],
-        options: Object, callback: ServiceCallback<void>)
+        options: { customHeaders?: [key: string]: string }, callback:
+        ServiceCallback<void>)
       parameters:
         - id: topicHostname
           type: string
@@ -262,43 +427,24 @@ methods:
           type: '<xref uid="azure-eventgrid.EventGridEvent" />[]'
           description: ''
         - id: options
-          type: Object
+          type: '{ customHeaders?: [key: string]: string }'
           description: ''
         - id: callback
           type: ServiceCallback&lt;void&gt;
           description: ''
-  - name: 'publishEvents(string, EventGridEvent[], ServiceCallback<void>)'
-    uid: azure-eventgrid.EventGridClient.publishEvents_1
-    package: azure-eventgrid
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function publishEvents(topicHostname: string, events: EventGridEvent[],
-        callback: ServiceCallback<void>)
-      parameters:
-        - id: topicHostname
-          type: string
-          description: ''
-        - id: events
-          type: '<xref uid="azure-eventgrid.EventGridEvent" />[]'
-          description: ''
-        - id: callback
-          type: ServiceCallback&lt;void&gt;
-          description: ''
-  - name: 'publishEventsWithHttpOperationResponse(string, EventGridEvent[], Object)'
+  - name: >-
+      publishEventsWithHttpOperationResponse(string, EventGridEvent[], {
+      customHeaders?: [key: string]: string })
     uid: azure-eventgrid.EventGridClient.publishEventsWithHttpOperationResponse
     package: azure-eventgrid
     summary: Publishes a batch of events to an Azure Event Grid topic.
     remarks: ''
-    isPreview: false
     isDeprecated: false
     syntax:
       content: >-
         function publishEventsWithHttpOperationResponse(topicHostname: string,
-        events: EventGridEvent[], options?: Object)
+        events: EventGridEvent[], options?: { customHeaders?: [key: string]:
+        string }): Promise<HttpOperationResponse<void>>
       parameters:
         - id: topicHostname
           type: string
@@ -310,149 +456,9 @@ methods:
           description: |
             An array of events to be published to Event Grid.
         - id: options
-          type: Object
+          type: '{ customHeaders?: [key: string]: string }'
           description: ''
       return:
-        type: Promise&lt;HttpOperationResponse&lt;void&gt;&gt;
         description: A promise is returned
-  - name: >-
-      sendLongRunningRequest<TResult>(LongRunningUrlBasedRequestPrepareOptions |
-      LongRunningPathTemplateBasedRequestPrepareOptions)
-    uid: azure-eventgrid.EventGridClient.sendLongRunningRequest_1
-    package: azure-eventgrid
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function sendLongRunningRequest<TResult>(options:
-        LongRunningUrlBasedRequestPrepareOptions |
-        LongRunningPathTemplateBasedRequestPrepareOptions)
-      parameters:
-        - id: options
-          type: >-
-            LongRunningUrlBasedRequestPrepareOptions |
-            LongRunningPathTemplateBasedRequestPrepareOptions
-          description: ''
-      return:
-        type: Promise&lt;TResult&gt;
-        description: ''
-  - name: >-
-      sendLongRunningRequest<TResult>(LongRunningUrlBasedRequestPrepareOptions |
-      LongRunningPathTemplateBasedRequestPrepareOptions,
-      ServiceCallback<TResult>)
-    uid: azure-eventgrid.EventGridClient.sendLongRunningRequest
-    package: azure-eventgrid
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function sendLongRunningRequest<TResult>(options:
-        LongRunningUrlBasedRequestPrepareOptions |
-        LongRunningPathTemplateBasedRequestPrepareOptions, callback:
-        ServiceCallback<TResult>)
-      parameters:
-        - id: options
-          type: >-
-            LongRunningUrlBasedRequestPrepareOptions |
-            LongRunningPathTemplateBasedRequestPrepareOptions
-          description: ''
-        - id: callback
-          type: ServiceCallback&lt;TResult&gt;
-          description: ''
-  - name: >-
-      sendLongRunningRequestWithHttpOperationResponse<TResult>(LongRunningUrlBasedRequestPrepareOptions
-      | LongRunningPathTemplateBasedRequestPrepareOptions)
-    uid: >-
-      azure-eventgrid.EventGridClient.sendLongRunningRequestWithHttpOperationResponse
-    package: azure-eventgrid
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function
-        sendLongRunningRequestWithHttpOperationResponse<TResult>(options:
-        LongRunningUrlBasedRequestPrepareOptions |
-        LongRunningPathTemplateBasedRequestPrepareOptions)
-      parameters:
-        - id: options
-          type: >-
-            LongRunningUrlBasedRequestPrepareOptions |
-            LongRunningPathTemplateBasedRequestPrepareOptions
-          description: ''
-      return:
-        type: Promise&lt;HttpOperationResponse&lt;TResult&gt;&gt;
-        description: ''
-  - name: >-
-      sendRequest<TResult>(PathTemplateBasedRequestPrepareOptions |
-      UrlBasedRequestPrepareOptions)
-    uid: azure-eventgrid.EventGridClient.sendRequest_1
-    package: azure-eventgrid
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function sendRequest<TResult>(options:
-        PathTemplateBasedRequestPrepareOptions | UrlBasedRequestPrepareOptions)
-      parameters:
-        - id: options
-          type: >-
-            PathTemplateBasedRequestPrepareOptions |
-            UrlBasedRequestPrepareOptions
-          description: ''
-      return:
-        type: Promise&lt;TResult&gt;
-        description: ''
-  - name: >-
-      sendRequest<TResult>(PathTemplateBasedRequestPrepareOptions |
-      UrlBasedRequestPrepareOptions, ServiceCallback<TResult>)
-    uid: azure-eventgrid.EventGridClient.sendRequest
-    package: azure-eventgrid
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function sendRequest<TResult>(options:
-        PathTemplateBasedRequestPrepareOptions | UrlBasedRequestPrepareOptions,
-        callback: ServiceCallback<TResult>)
-      parameters:
-        - id: options
-          type: >-
-            PathTemplateBasedRequestPrepareOptions |
-            UrlBasedRequestPrepareOptions
-          description: ''
-        - id: callback
-          type: ServiceCallback&lt;TResult&gt;
-          description: ''
-  - name: >-
-      sendRequestWithHttpOperationResponse<TResult>(PathTemplateBasedRequestPrepareOptions
-      | UrlBasedRequestPrepareOptions)
-    uid: azure-eventgrid.EventGridClient.sendRequestWithHttpOperationResponse
-    package: azure-eventgrid
-    summary: ''
-    remarks: ''
-    isPreview: false
-    isDeprecated: false
-    syntax:
-      content: >-
-        function sendRequestWithHttpOperationResponse<TResult>(options:
-        PathTemplateBasedRequestPrepareOptions | UrlBasedRequestPrepareOptions)
-      parameters:
-        - id: options
-          type: >-
-            PathTemplateBasedRequestPrepareOptions |
-            UrlBasedRequestPrepareOptions
-          description: ''
-      return:
-        type: Promise&lt;HttpOperationResponse&lt;TResult&gt;&gt;
-        description: ''
+        type: Promise&lt;HttpOperationResponse&lt;void&gt;&gt;
 extends: AzureServiceClient
